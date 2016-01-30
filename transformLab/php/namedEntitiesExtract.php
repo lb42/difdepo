@@ -158,6 +158,7 @@ foreach ($files as $file){
 					"type"=> $entitytype,
 					"nom" => $entityforme,
 					"description" => "",
+					"image" => "",
 					"persName_nom" => "",
 					"persName_prenom" => "",
 					"persName_naissance" => "",
