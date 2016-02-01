@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-01-25T10:23:33Z. .
+# Schema generated from ODD source 2016-02-01T12:49:11Z. .
 # TEI Edition: Version 2.8.1a. Last updated on
 #	11th May 2015, revision 13212
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.1a./
@@ -287,12 +287,13 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
-model.nameLike.agent = name | orgName
-model.nameLike.agent_alternation = name | orgName
-model.nameLike.agent_sequence = name, orgName
-model.nameLike.agent_sequenceOptional = name?, orgName?
-model.nameLike.agent_sequenceOptionalRepeatable = name*, orgName*
-model.nameLike.agent_sequenceRepeatable = name+, orgName+
+model.nameLike.agent = name | orgName | persName
+model.nameLike.agent_alternation = name | orgName | persName
+model.nameLike.agent_sequence = name, orgName, persName
+model.nameLike.agent_sequenceOptional = name?, orgName?, persName?
+model.nameLike.agent_sequenceOptionalRepeatable =
+  name*, orgName*, persName*
+model.nameLike.agent_sequenceRepeatable = name+, orgName+, persName+
 model.segLike = notAllowed
 model.hiLike = hi
 model.hiLike_alternation = hi
@@ -945,6 +946,38 @@ orgName =
     att.datable.attributes,
     att.personal.attributes,
     att.typed.attributes,
+    empty
+  }
+persName =
+  
+  ## (nom de personne) contient un nom propre ou une expression nominale se référant à une personne, pouvant inclure tout ou partie de ses prénoms, noms de famille, titres honorifiques, noms ajoutés, etc. [13.2.1. Personal Names]
+  element ns1:persName {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.datable.attributes,
+    att.canonical.attribute.ref,
+    att.typed.attributes,
+    
+    ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
+    attribute role {
+      list {
+        (
+         ##
+         "invité"
+         | 
+           ##
+           "président"
+         | 
+           ##
+           "secrétaire"
+         | 
+           ##
+           "expéditeur"
+         | 
+           ##
+           "destinataire")+
+      }
+    }?,
     empty
   }
 placeName =
