@@ -5,7 +5,7 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema" 
   version="2"
   exclude-result-prefixes="tei xs">
- 
+
   <!--
             <p>Numéro de scan* : 10010200</p>
             <p>Numéros de pages* : 1 à 2</p>
@@ -194,7 +194,7 @@
   <!-- Now handle body -->
   
   <!-- delete stuff from form -->
-  <xsl:template match="tei:p[tei:anchor]"/>
+  <xsl:template match="tei:p[descendant::tei:anchor]"/>
   
   <xsl:template match="tei:hi[@rend]">
     <xsl:choose>
@@ -292,6 +292,7 @@
     <xsl:copy-of select="."/>
   </xsl:template>
 
+ 
   <xsl:template match="*">
     <xsl:copy>
       <xsl:apply-templates select="* | @* | processing-instruction() | comment() | text()"

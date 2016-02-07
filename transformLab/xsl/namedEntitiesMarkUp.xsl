@@ -3,6 +3,7 @@
     <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZŠšßŽžÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖŒØÙÚÛÜÝÞàáâãäåæçèéêëìíîïðñòóôõöœøùúûýýþÿ.-?,;:!/’«»+%=();*  &amp;&gt;&lt;&quot;'"/>
     <xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzssszzaaaaaaaceeeeiiiinoooooœouuuuybaaaaaaaceeeeiiiionooooooouuuyyby________________________'"/>
     <xsl:output method="xml" encoding="utf-8" indent="yes"/>
+  
     <xsl:template match="@* | node()">
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
@@ -28,15 +29,5 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:variable name="first_page">
-        <xsl:value-of select="substring-before(substring-after(//tei:titleStmt/tei:title, 'pp. '), ' à')"/>
-    </xsl:variable>
-    <xsl:template match="//*//tei:pb">
-        <xsl:copy>
-            <xsl:apply-templates select="node() | @*"/>
-            <xsl:attribute name="n">
-                <xsl:value-of select="$first_page + count(preceding::tei:pb)"/>
-            </xsl:attribute>
-        </xsl:copy>
-    </xsl:template>
+    
 </xsl:stylesheet>

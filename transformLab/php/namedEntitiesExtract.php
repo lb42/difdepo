@@ -145,13 +145,15 @@ foreach ($files as $file){
 		$entityid = str_replace("_", "", strtr($entityforme, $normalizeChars));
 		$entitytype = $objectnewforme -> getName();
 		//on ne fait pas entrer les entités dont la forme existe déjà dans $oldentitiesformes
-		if(!in_array($entityid, $oldentitiesformes)){
+		//on ne fait pas entrer xx
+		if((!in_array($entityid, $oldentitiesformes)) && ($entityid != "xx")){
 			//on ne fait pas entrer les entités dont l'id existent déjà dans $newentities
 			$newentitiesid = array();
 			foreach($newentities as $newentity){
 				array_push($newentitiesid, $newentity["id"]);
 			}
 			if(!in_array($entityid, $newentitiesid)){
+
 				$entity = array(
 					"id" => $entityid,
 					"nouveau" => "nouveau",
@@ -167,8 +169,28 @@ foreach ($files as $file){
 					"manif_date" => "",
 					"manif_lieu" => "",
 					"title_auteur" => "",
-					"forme" => $entityforme);
-				array_push($newentities, $entity);
+					"forme1" => $entityforme,
+					"forme2" => "",
+					"forme3" => "",
+					"forme4" => "",
+					"forme5" => "",
+					"forme6" => "",
+					"forme7" => "",
+					"forme8" => "",
+					"file1" => $file_name,
+					"doublon_id" => "",
+					"doublon_forme" => "");
+				$newentities[$entityid]=$entity;
+			}
+			else{
+				//retrouver la forme déjà enregistrée et ajouter un fichier
+/*
+				$n = count($newentities[$entityid]) - 23;
+				$newentities[$entityid]["file".$n]= $file_name;
+*/
+				$newentities[$entityid]["file1"].= "\n".$file_name;
+
+
 			}
 		}
 	}
