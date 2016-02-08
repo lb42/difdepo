@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-02-01T12:49:11Z. .
+# Schema generated from ODD source 2016-02-08T20:05:10Z. .
 # TEI Edition: Version 2.8.1a. Last updated on
 #	11th May 2015, revision 13212
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.1a./
@@ -750,7 +750,7 @@ bibl =
   
   ## (référence bibliographique.) contient une référence bibliographique faiblement structurée dans laquelle les sous-composants peuvent ou non être explicitement balisés. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element ns1:bibl {
-    (meeting | p),
+    (meeting | title | p),
     att.global.attributes,
     att.typed.attribute.subtype,
     att.sortable.attributes,
