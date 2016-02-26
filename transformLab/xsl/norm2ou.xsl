@@ -20,7 +20,8 @@
     <xsl:message>Processing <xsl:value-of select="base-uri()" /></xsl:message>
     <TEI>
     <xsl:attribute name="xml:id">
-      T100<xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'100')"/>
+      T100<xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'T100')"/>
+<!--      T100<xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
     </xsl:attribute>
     <xsl:apply-templates/>
     </TEI>
@@ -45,7 +46,7 @@
     </respStmt>
   </xsl:template>
   <xsl:template match="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:p">
-    <xsl:variable name="docId"><xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'100')"/>
+    <xsl:variable name="docId"><xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'T100')"/><!--<xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
     </xsl:variable>
     <xsl:variable name="doctype">
       <xsl:value-of
