@@ -20,7 +20,7 @@
     <xsl:message>Processing <xsl:value-of select="base-uri()" /></xsl:message>
     <TEI>
     <xsl:attribute name="xml:id">
-      T100<xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'T100')"/>
+      t100<xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'t100')"/>
 <!--      T100<xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
     </xsl:attribute>
     <xsl:apply-templates/>
@@ -46,7 +46,7 @@
     </respStmt>
   </xsl:template>
   <xsl:template match="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:p">
-    <xsl:variable name="docId"><xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'T100')"/><!--<xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
+    <xsl:variable name="docId"><xsl:text>t100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'t100')"/><!--<xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
     </xsl:variable>
     <xsl:variable name="doctype">
       <xsl:value-of
@@ -85,7 +85,7 @@
       
       <xsl:choose>
         <xsl:when test='$doctype = "CR"'>
-          <meeting xml:id='{substring-before($docId, "-CR")}'>
+          <meeting xml:id='{substring-before($docId, "-cr")}'>
             <date>
               <xsl:attribute name="when">
                 <xsl:value-of select="tei:whenify($docdate)"/>
@@ -143,7 +143,7 @@
         </xsl:when>
         <xsl:when test='($doctype = "Convocation" or $doctype = "CV")'>
           
-          <title>Convocation à <ref target="difdepo:{substring-before($docId, '-CV')}">une réunion Oulipo</ref>, envoyée le <date><xsl:attribute name="when">
+          <title>Convocation à <ref target="difdepo:{substring-before($docId, '-cv')}">une réunion Oulipo</ref>, envoyée le <date><xsl:attribute name="when">
                 <xsl:value-of select="tei:whenify($docdate)"/></xsl:attribute></date> par <persName
               role="expéditeur">
               <xsl:value-of select="$exp"/>
@@ -154,12 +154,12 @@
             </xsl:if></title>
         </xsl:when>
         <xsl:when test='$doctype = "OJ"'>
-          <title>Ordre de jour de <ref  target="difdepo:{substring-before($docId, '-OJ')}">la réunion Oulipo</ref> du <date><xsl:attribute name="when">
+          <title>Ordre de jour de <ref  target="difdepo:{substring-before($docId, '-oj')}">la réunion Oulipo</ref> du <date><xsl:attribute name="when">
                 <xsl:value-of select="tei:whenify($docdate)"/></xsl:attribute></date>
           </title>
         </xsl:when>
         <xsl:when test='$doctype = "autre"'>
-          <title>Document supplémentaire pour <ref  target="difdepo:{substring-before($docId, '-CR')}">la réunion Oulipo</ref> du <date><xsl:attribute name="when">
+          <title>Document supplémentaire pour <ref  target="difdepo:{substring-before($docId, '-cr')}">la réunion Oulipo</ref> du <date><xsl:attribute name="when">
                 <xsl:value-of select="tei:whenify($docdate)"/></xsl:attribute></date>
           </title>
         </xsl:when>
