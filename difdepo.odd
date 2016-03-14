@@ -205,7 +205,8 @@
                      <elementRef key="meeting"/>
                      <elementRef key="title"/>
                      <elementRef key="p"/>
-                  </alternate></sequence>
+                  </alternate>
+                 </sequence>
                </content>
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -313,7 +314,7 @@
             </elementSpec>
             <!--Checking module header-->
             <moduleRef key="header"
-               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc revisionDesc listChange change"/>
+               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc revisionDesc listChange change idno"/>
             <elementSpec ident="teiHeader" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
