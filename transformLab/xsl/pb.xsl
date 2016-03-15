@@ -19,4 +19,7 @@
       </xsl:attribute>
     </xsl:copy>
   </xsl:template>
+  <xsl:template match="tei:p[normalize-space()=''][tei:pb]">
+    <xsl:apply-templates select="node() | @*"/>
+  </xsl:template>
 </xsl:stylesheet>
