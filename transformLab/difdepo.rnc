@@ -5,10 +5,10 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-02-01T12:49:11Z. .
-# TEI Edition: Version 2.8.1a. Last updated on
-#	11th May 2015, revision 13212
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.1a./
+# Schema generated from ODD source 2016-03-15T10:28:23Z. .
+# TEI Edition: Version 2.8.0. Last updated on
+#	6th April 2015, revision 13197
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
 #
 
 #
@@ -421,7 +421,7 @@ model.placeStateLike_sequenceOptionalRepeatable =
 model.placeStateLike_sequenceRepeatable =
   model.placeNamePart_sequenceRepeatable+
 model.publicationStmtPart.agency = notAllowed
-model.publicationStmtPart.detail = date
+model.publicationStmtPart.detail = date | idno
 model.quoteLike = notAllowed
 model.quoteLike_alternation = notAllowed
 model.quoteLike_sequence = empty
@@ -453,31 +453,37 @@ model.nameLike =
   model.nameLike.agent
   | model.offsetLike
   | model.placeStateLike
+  | idno
   | model.persNamePart
 model.nameLike_alternation =
   model.nameLike.agent_alternation
   | model.offsetLike_alternation
   | model.placeStateLike_alternation
+  | idno
   | model.persNamePart_alternation
 model.nameLike_sequence =
   model.nameLike.agent_sequence,
   model.offsetLike_sequence,
   model.placeStateLike_sequence,
+  idno,
   model.persNamePart_sequence
 model.nameLike_sequenceOptional =
   model.nameLike.agent_sequenceOptional?,
   model.offsetLike_sequenceOptional?,
   model.placeStateLike_sequenceOptional?,
+  idno?,
   model.persNamePart_sequenceOptional?
 model.nameLike_sequenceOptionalRepeatable =
   model.nameLike.agent_sequenceOptionalRepeatable*,
   model.offsetLike_sequenceOptionalRepeatable*,
   model.placeStateLike_sequenceOptionalRepeatable*,
+  idno*,
   model.persNamePart_sequenceOptionalRepeatable*
 model.nameLike_sequenceRepeatable =
   model.nameLike.agent_sequenceRepeatable+,
   model.offsetLike_sequenceRepeatable+,
   model.placeStateLike_sequenceRepeatable+,
+  idno+,
   model.persNamePart_sequenceRepeatable+
 model.global =
   model.global.meta
@@ -545,6 +551,7 @@ term =
     att.global.attributes,
     att.pointing.attributes,
     att.typed.attributes,
+    att.canonical.attributes,
     att.sortable.attributes,
     empty
   }
@@ -560,6 +567,7 @@ name =
   element ns1:name {
     macro.phraseSeq,
     att.global.attributes,
+    att.canonical.attribute.ref,
     att.datable.attributes,
     att.typed.attributes,
     empty
@@ -734,6 +742,7 @@ title =
   element ns1:title {
     macro.paraContent,
     att.global.attributes,
+    att.canonical.attributes,
     att.typed.attribute.subtype,
     empty
   }
@@ -750,7 +759,7 @@ bibl =
   
   ## (référence bibliographique.) contient une référence bibliographique faiblement structurée dans laquelle les sous-composants peuvent ou non être explicitement balisés. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element ns1:bibl {
-    (meeting | p),
+    (idno*, (meeting | title | p)),
     att.global.attributes,
     att.typed.attribute.subtype,
     att.sortable.attributes,
@@ -801,6 +810,19 @@ publicationStmt =
       model.publicationStmtPart.detail*)+
      | model.pLike+),
     att.global.attributes,
+    empty
+  }
+idno =
+  
+  ## (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique. [2.2.4. Publication, Distribution,
+  ## Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  element ns1:idno {
+    (text | model.gLike | idno)*,
+    att.global.attributes,
+    att.sortable.attributes,
+    
+    ## classe un numéro dans une catégorie, par exemple comme étant un numéro ISBN ou comme appartenant une autre série normalisée.
+    attribute type { data.enumerated }?,
     empty
   }
 sourceDesc =
