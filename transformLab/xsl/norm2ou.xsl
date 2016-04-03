@@ -3,24 +3,24 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2"
   exclude-result-prefixes="tei xs">
   <!--
-            <p>Numéro de scan* : 10010200</p>
-            <p>Numéros de pages* : 1 à 2</p>
-            <p>Type de document : </p>
-            <p>Date : 03/11/1977 <hi rend="italic">(dd/MM/yyyy)</hi></p>
-            <p>Lieu : chez FLL</p>
-            <p>Oulipiens présents : FLL; HM;CB;IC;PF;LF;MB; JR; NA (<hi rend="italic">intiales
+            <p>Numéro de scan* : 10010200</p>
+            <p>Numéros de pages* : 1 à 2</p>
+            <p>Type de document : </p>
+            <p>Date : 03/11/1977 <hi rend="italic">(dd/MM/yyyy)</hi></p>
+            <p>Lieu : chez FLL</p>
+            <p>Oulipiens présents : FLL; HM;CB;IC;PF;LF;MB; JR; NA (<hi rend="italic">intiales
                     seulement, séparées par des point-virgules)</hi></p>
-            <p>Invités : Jacques Rigaud</p>
-            <p>Président : FLL</p>
-            <p>Secrétaire : PF</p>
-            <p>Expéditeur : <ref target=" FORMTEXT "><anchor xml:id="Text11"/>     </ref></p>
-            <p>Destinataires : <ref target=" FORMTEXT "><anchor xml:id="Text12"/>     </ref></p>
+            <p>Invités : Jacques Rigaud</p>
+            <p>Président : FLL</p>
+            <p>Secrétaire : PF</p>
+            <p>Expéditeur : <ref target=" FORMTEXT "><anchor xml:id="Text11"/>     </ref></p>
+            <p>Destinataires : <ref target=" FORMTEXT "><anchor xml:id="Text12"/>     </ref></p>
         -->
   <xsl:template match="tei:TEI">
     <xsl:message>Processing <xsl:value-of select="base-uri()" /></xsl:message>
     <TEI>
     <xsl:attribute name="xml:id">
-      t100<xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'t100')"/>
+      t100<xsl:value-of select="substring-after(substring-before(lower-case(base-uri()),'.xml'),'t100')"/>
 <!--      T100<xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
     </xsl:attribute>
     <xsl:apply-templates/>
@@ -46,7 +46,7 @@
     </respStmt>
   </xsl:template>
   <xsl:template match="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:p">
-    <xsl:variable name="docId"><xsl:text>t100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.xml'),'t100')"/><!--<xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
+    <xsl:variable name="docId"><xsl:text>t100</xsl:text><xsl:value-of select="substring-after(substring-before(lower-case(base-uri()),'.xml'),'t100')"/><!--<xsl:text>T100</xsl:text><xsl:value-of select="substring-after(substring-before(base-uri(),'.docx.xml'),'T100')"/>-->
     </xsl:variable>
     <xsl:variable name="doctype">
       <xsl:value-of
@@ -187,7 +187,7 @@
   <xsl:template match="tei:author"/>
   <!-- Now handle body -->
   <!-- delete stuff from form -->
-  <xsl:template match="tei:p[descendant::tei:anchor]"/>
+  <xsl:template match="tei:p[descendant::tei:ref[@target='FORMTEXT']]"/>
   <xsl:template match="tei:hi[@rend]">
     <xsl:choose>
       <xsl:when test="@rend = 'illisible'">
