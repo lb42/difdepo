@@ -177,7 +177,7 @@
       <change>
         <xsl:attribute name="when">
           <xsl:value-of select="tei:whatsTheDate()"/>
-        </xsl:attribute> Oulipo specific tags added</change>
+        </xsl:attribute>Oulipo specific tags added</change>
       <xsl:apply-templates/>
     </listChange>
   </xsl:template>
@@ -195,7 +195,7 @@
           <xsl:apply-templates/>
         </unclear>
       </xsl:when>
-      <xsl:when test="@rend = 'personne'">
+      <xsl:when test="(@rend = 'personne') or (@rend = 'NomPersonneDivers')">
         <persName>
           <xsl:apply-templates/>
         </persName>

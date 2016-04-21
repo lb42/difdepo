@@ -26,4 +26,7 @@
       </xsl:attribute>
     </xsl:copy>
   </xsl:template>
+  <xsl:template match="text()">
+    <xsl:value-of select="replace(replace(replace(replace(., '&#x9;', ''), ' ([;:!\?»])', ' $1'), '([«] )', '$1 '), '[  ]{2}', '$1 $2')"/> <!--([^\s])[  ]{2}([^\s])-->
+  </xsl:template>
 </xsl:stylesheet>

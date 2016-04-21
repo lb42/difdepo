@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-03-15T10:28:23Z. .
+# Schema generated from ODD source 2016-04-16T18:23:10Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -384,7 +384,7 @@ model.listLike_sequence = \list
 model.listLike_sequenceOptional = \list?
 model.listLike_sequenceOptionalRepeatable = \list*
 model.listLike_sequenceRepeatable = \list+
-model.noteLike = notAllowed
+model.noteLike = note
 model.lLike = notAllowed
 model.lLike_alternation = notAllowed
 model.lLike_sequence = empty
@@ -403,7 +403,7 @@ model.stageLike_sequence = empty
 model.stageLike_sequenceOptional = empty
 model.stageLike_sequenceOptionalRepeatable = empty
 model.stageLike_sequenceRepeatable = notAllowed
-model.global.edit = notAllowed
+model.global.edit = gap
 model.divPart = model.lLike | model.pLike
 model.placeNamePart = placeName
 model.placeNamePart_alternation = placeName
@@ -422,6 +422,8 @@ model.placeStateLike_sequenceRepeatable =
   model.placeNamePart_sequenceRepeatable+
 model.publicationStmtPart.agency = notAllowed
 model.publicationStmtPart.detail = date | idno
+model.certLike = notAllowed
+model.descLike = notAllowed
 model.quoteLike = notAllowed
 model.quoteLike_alternation = notAllowed
 model.quoteLike_sequence = empty
@@ -553,6 +555,26 @@ term =
     att.typed.attributes,
     att.canonical.attributes,
     att.sortable.attributes,
+    empty
+  }
+gap =
+  
+  ## (omission) indique une omission dans une transcription, soit pour des raisons éditoriales décrites dans l'en-tête TEI au cours d’un échantillonnage, soit parce que le matériau est illisible ou inaudible. [3.4.3. Additions, Deletions, and Omissions]
+  element ns1:gap {
+    (model.descLike | model.certLike)*,
+    att.global.attributes,
+    
+    ## donne la raison de l'omission. Les valeurs d'échantillon comprennent échantillonnage, illisible, inaudible, non pertinent, biffé, biffé et illisible.
+    attribute reason {
+      list { data.word+ }
+    }?,
+    
+    ## lorsque du texte est omis de la transcription en raison d'une suppression volontaire par une main identifiable, indique quelle est cette main.
+    attribute hand { data.pointer }?,
+    
+    ## lorsque du texte est omis de la transcription en raison d'un dommage, catégorise la cause du dommage, si celle-ci peut être identifiée.
+    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
+    attribute agent { data.enumerated }?,
     empty
   }
 unclear =
@@ -692,6 +714,25 @@ label =
       | 
         ## caracterise la fonction du texte qui suit
         "rubrique"
+    }?,
+    empty
+  }
+note =
+  
+  ## contient une note ou une annotation [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
+  element ns1:note {
+    macro.specialPara,
+    att.global.attributes,
+    att.placement.attributes,
+    att.pointing.attributes,
+    att.typed.attributes,
+    
+    ## indique si l'exemplaire du texte montre l'emplacement de référence exact pour la note
+    [ a:defaultValue = "true" ] attribute anchored { data.truthValue }?,
+    
+    ## pointe vers la fin d'un passage auquel la note est attachée, si la note n'est pas enchâssée dans le texte à cet endroit
+    attribute targetEnd {
+      list { data.pointer+ }
     }?,
     empty
   }
