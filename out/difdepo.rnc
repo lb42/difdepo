@@ -1,19 +1,24 @@
-default namespace = "http://www.tei-c.org/ns/Examples"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace ns1 = "http://www.tei-c.org/ns/1.0"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
+default namespace tei = "http://www.tei-c.org/ns/1.0"
+namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-04-16T18:23:10Z. .
-# TEI Edition: Version 2.8.0. Last updated on
-#	6th April 2015, revision 13197
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
+# Schema generated from ODD source 2017-04-24T10:46:24Z. .
+# TEI Edition: Version 3.1.1a. Last updated on
+#	13th April 2017, revision ed7f02c
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
 #
 
 #
 macro.paraContent =
-  (text | model.gLike | model.phrase | model.inter | model.global)*
+  (text
+   | model.gLike
+   | model.phrase
+   | model.inter
+   | model.global
+   | model.lLike)*
 macro.phraseSeq = (text | model.gLike | model.phrase | model.global)*
 macro.phraseSeq.limited = (text | model.limitedPhrase | model.global)*
 macro.specialPara =
@@ -23,46 +28,32 @@ macro.specialPara =
    | model.inter
    | model.divPart
    | model.global)*
-data.temporal.w3c =
-  xsd:date
-  | xsd:gYear
-  | xsd:gMonth
-  | xsd:gDay
-  | xsd:gYearMonth
-  | xsd:gMonthDay
-  | xsd:time
-  | xsd:dateTime
-data.truthValue = xsd:boolean
-data.language = xsd:language | ""
-data.pointer = xsd:anyURI
-data.version = xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
-data.word = xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-data.text = xsd:string
-data.enumerated = data.word
-macro.anyXML =
-  element * - (ns1:* | egXML) {
-    attribute * { text }*,
-    (text | macro.anyXML)*
-  }
 att.ascribed.attributes = att.ascribed.attribute.who
 att.ascribed.attribute.who =
   
   ## indique la personne ou le groupe de personnes à qui le contenu de l'élément est attribué.
   attribute who {
-    list { data.pointer+ }
+    list { xsd:anyURI+ }
   }?
 att.canonical.attributes = att.canonical.attribute.ref
 att.canonical.attribute.ref =
   
   ## (référence) fournit un moyen explicite de localiser une définition complète de l'entité nommée au moyen d'un ou plusieurs URIs.
   attribute ref {
-    list { data.pointer+ }
+    list { xsd:anyURI+ }
   }?
+att.written.attributes = att.written.attribute.hand
+att.written.attribute.hand =
+  
+  ## signale la main de celui qui est intervenue.
+  attribute hand { xsd:anyURI }?
 att.breaking.attributes = att.breaking.attribute.break
 att.breaking.attribute.break =
   
   ## indique si l'élément qui porte cet attribut peut être considéré comme une espace blanc indiquant la fin d'un mot orthographique.
-  attribute break { data.enumerated }?
+  attribute break {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
 att.datable.w3c.attributes =
   att.datable.w3c.attribute.when,
   att.datable.w3c.attribute.notBefore,
@@ -72,23 +63,125 @@ att.datable.w3c.attributes =
 att.datable.w3c.attribute.when =
   
   ## spécifie une date exacte pour un événement sous une forme normalisée, par ex. aaaa-mm-jj.
-  attribute when { data.temporal.w3c }?
+  attribute when {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
 att.datable.w3c.attribute.notBefore =
   
   ## spécifie la date la plus ancienne pour l'événement sous une forme normalisée, par ex. aaaa-mm-jj
-  attribute notBefore { data.temporal.w3c }?
+  attribute notBefore {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
 att.datable.w3c.attribute.notAfter =
   
   ## spécifie la date la plus récente possible pour l'événement sous une forme normalisée, par ex. aaaa-mm-jj
-  attribute notAfter { data.temporal.w3c }?
+  attribute notAfter {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
 att.datable.w3c.attribute.from =
   
   ## indique le point de départ d'une période sous une forme normalisée, par ex. aaaa-mm-jj
-  attribute from { data.temporal.w3c }?
+  attribute from {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
 att.datable.w3c.attribute.to =
   
   ## indique le terme de la période sous une forme normalisée, par ex. aaaa-mm-jj
-  attribute to { data.temporal.w3c }?
+  attribute to {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+sch:pattern [
+  id = "difdepo-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@when]"
+    "\x{a}" ~
+    "        "
+    sch:report [
+      test = "@notBefore|@notAfter|@from|@to"
+      role = "nonfatal"
+      "The @when attribute cannot be used with any other att.datable.w3c attributes."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+sch:pattern [
+  id = "difdepo-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@from]"
+    "\x{a}" ~
+    "        "
+    sch:report [
+      test = "@notBefore"
+      role = "nonfatal"
+      "The @from and @notBefore attributes cannot be used together."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+sch:pattern [
+  id = "difdepo-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@to]"
+    "\x{a}" ~
+    "        "
+    sch:report [
+      test = "@notAfter"
+      role = "nonfatal"
+      "The @to and @notAfter attributes cannot be used together."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
 att.datable.attributes = att.datable.w3c.attributes
 att.fragmentable.attributes = att.fragmentable.attribute.part
 att.fragmentable.attribute.part =
@@ -100,7 +193,7 @@ att.fragmentable.attribute.part =
     ## (yes) the element is fragmented in some (unspecified) respect
     "Y"
     | 
-      ## (no) either the element is not fragmented, or no claim is made as to its completeness.
+      ## (no) the element is not fragmented, or no claim is made as to its completeness
       "N"
     | 
       ## (initial) this is the initial part of a fragmented element
@@ -118,7 +211,10 @@ att.docStatus.attribute.status =
   
   ## describes the status of a document either currently or, when associated with a dated element, at the time indicated.
   ## Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn
-  [ a:defaultValue = "draft" ] attribute status { data.enumerated }?
+  [ a:defaultValue = "draft" ]
+  attribute status {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
 att.global.rendition.attributes =
   att.global.rendition.attribute.rend,
   att.global.rendition.attribute.style
@@ -126,14 +222,24 @@ att.global.rendition.attribute.rend =
   
   ## (interprétation) indique comment l'élément en question a été rendu ou présenté dans le texte source
   attribute rend {
-    list { data.word+ }
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
   }?
 att.global.rendition.attribute.style =
   
   ## contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text
-  attribute style { data.text }?
+  attribute style { xsd:string }?
+att.global.source.attributes = att.global.source.attribute.source
+att.global.source.attribute.source =
+  
+  ## specifies the source from which some aspect of this element is drawn.
+  attribute source {
+    list { xsd:anyURI+ }
+  }?
 att.global.attributes =
   att.global.rendition.attributes,
+  att.global.source.attributes,
   att.global.attribute.xmlid,
   att.global.attribute.n,
   att.global.attribute.xmllang,
@@ -146,15 +252,20 @@ att.global.attribute.xmlid =
 att.global.attribute.n =
   
   ## (nombre) donne un nombre (ou une autre étiquette) pour un élément, qui n'est pas nécessairement unique dans le document TEI.
-  attribute n { data.text }?
+  attribute n { xsd:string }?
 att.global.attribute.xmllang =
   
   ## (langue) indique la langue du contenu de l'élément en utilisant les codes du RFC 3066
-  attribute xml:lang { data.language }?
+  attribute xml:lang {
+    xsd:language
+    | (
+       ##
+       "")
+  }?
 att.global.attribute.xmlbase =
   
   ## donne une référence URI de base au moyen de laquelle les applications peuvent résoudre des références d'URI relatives en références d'URI absolues
-  attribute xml:base { data.pointer }?
+  attribute xml:base { xsd:anyURI }?
 att.global.attribute.xmlspace =
   
   ## signale que les applications doivent préserver l'espace blanc
@@ -172,12 +283,14 @@ att.naming.attribute.role =
   
   ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
   attribute role {
-    list { data.enumerated+ }
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
   }?
 att.placement.attributes = att.placement.attribute.place
 att.placement.attribute.place =
   
-  ## specifie où cet item se trouve
+  ## specifie où cet item se trouve.
   ## Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace
   attribute place {
     list {
@@ -211,7 +324,7 @@ att.placement.attribute.place =
        | 
          ## dans un espace prédéfini, par exemple à gauche d'un scripteur précédent
          "inspace"
-       | xsd:Name)+
+       | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
     }
   }?
 att.typed.attributes =
@@ -219,25 +332,28 @@ att.typed.attributes =
 att.typed.attribute.type =
   
   ## caractérise l'élément en utilisant n'importe quel système ou typologie de classification approprié.
-  attribute type { data.enumerated }?
+  attribute type {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
 att.typed.attribute.subtype =
   
   ## (sous-type) fournit une sous-catégorisation de l'élément, si c'est nécessaire.
-  attribute subtype { data.enumerated }?
+  attribute subtype {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
 sch:pattern [
-  id = "difdepo-att.typed-subtypeTyped-constraint-1"
+  id = "difdepo-att.typed-subtypeTyped-constraint-rule-4"
   "\x{a}" ~
   "      "
   sch:rule [
-    context = "*[@subtype]"
+    context = "tei:*[@subtype]"
     "\x{a}" ~
     "        "
     sch:assert [
       test = "@type"
       "The "
       sch:name [ ]
-      " element should not be categorized in detail with @subtype\x{a}" ~
-      " unless also categorized in general with @type"
+      " element should not be categorized in detail with @subtype unless also categorized in general with @type"
     ]
     "\x{a}" ~
     "      "
@@ -250,20 +366,22 @@ att.pointing.attribute.target =
   
   ## précise la cible de la référence en donnant une ou plusieurs références URI
   attribute target {
-    list { data.pointer+ }
+    list { xsd:anyURI+ }
   }?
 att.sortable.attributes = att.sortable.attribute.sortKey
 att.sortable.attribute.sortKey =
   
   ## supplies the sort key for this element in an index, list or group which contains it.
-  attribute sortKey { data.word }?
+  attribute sortKey {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
 att.spanning.attributes = att.spanning.attribute.spanTo
 att.spanning.attribute.spanTo =
   
   ## indique la fin d'un passage introduit par l'élément portant cet attribut.
-  attribute spanTo { data.pointer }?
+  attribute spanTo { xsd:anyURI }?
 sch:pattern [
-  id = "difdepo-att.spanning-spanTo-spanTo-2-constraint-2"
+  id = "difdepo-att.spanning-spanTo-spanTo-2-constraint-rule-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -287,6 +405,8 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
+att.timed.attributes = empty
+att.transcriptional.attributes = att.written.attributes
 model.nameLike.agent = name | orgName | persName
 model.nameLike.agent_alternation = name | orgName | persName
 model.nameLike.agent_sequence = name, orgName, persName
@@ -340,12 +460,12 @@ model.pPart.editorial_sequence = empty
 model.pPart.editorial_sequenceOptional = empty
 model.pPart.editorial_sequenceOptionalRepeatable = empty
 model.pPart.editorial_sequenceRepeatable = notAllowed
-model.pPart.transcriptional = unclear
-model.pPart.transcriptional_alternation = unclear
-model.pPart.transcriptional_sequence = unclear
-model.pPart.transcriptional_sequenceOptional = unclear?
-model.pPart.transcriptional_sequenceOptionalRepeatable = unclear*
-model.pPart.transcriptional_sequenceRepeatable = unclear+
+model.pPart.transcriptional = del | unclear
+model.pPart.transcriptional_alternation = del | unclear
+model.pPart.transcriptional_sequence = del, unclear
+model.pPart.transcriptional_sequenceOptional = del?, unclear?
+model.pPart.transcriptional_sequenceOptionalRepeatable = del*, unclear*
+model.pPart.transcriptional_sequenceRepeatable = del+, unclear+
 model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
 model.ptrLike = ref
 model.lPart = notAllowed
@@ -530,25 +650,73 @@ model.divLike = \div
 model.divGenLike = notAllowed
 model.div1Like = notAllowed
 model.teiHeaderPart = notAllowed
-model.resourceLike = notAllowed
+model.resourceLike = \text
 att.personal.attributes = att.naming.attributes
 p =
   
   ## (paragraphe) marque les paragraphes dans un texte en prose. [3.1. Paragraphs 7.2.5. Speech Contents]
-  element ns1:p {
-    macro.paraContent,
+  element p {
+    macro.paraContent
+    >> sch:pattern [
+         id = "difdepo-p-abstractModel-p-constraint-report-4"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "not(ancestor::floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+             "\x{a}" ~
+             "        Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "difdepo-p-abstractModel-structure-l-constraint-report-5"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     att.global.attributes,
     att.fragmentable.attributes,
+    att.written.attributes,
     empty
   }
 hi =
   
   ## (mis en évidence) distingue un mot ou une expression comme graphiquement distincte du texte environnant, sans en donner la raison. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]
-  element ns1:hi { macro.paraContent, att.global.attributes, empty }
+  element hi {
+    macro.paraContent,
+    att.global.attributes,
+    att.written.attributes,
+    empty
+  }
 term =
   
   ## (terme) contient un mot simple, un mot composé ou un symbole, qui est considéré comme un terme technique. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]
-  element ns1:term {
+  element term {
     macro.phraseSeq,
     att.global.attributes,
     att.pointing.attributes,
@@ -560,33 +728,68 @@ term =
 gap =
   
   ## (omission) indique une omission dans une transcription, soit pour des raisons éditoriales décrites dans l'en-tête TEI au cours d’un échantillonnage, soit parce que le matériau est illisible ou inaudible. [3.4.3. Additions, Deletions, and Omissions]
-  element ns1:gap {
+  element gap {
     (model.descLike | model.certLike)*,
     att.global.attributes,
+    att.timed.attributes,
     
-    ## donne la raison de l'omission. Les valeurs d'échantillon comprennent échantillonnage, illisible, inaudible, non pertinent, biffé, biffé et illisible.
+    ## donne la raison de l'omission
+    ## Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 5] inaudible; 6] irrelevant; 7] sampling
     attribute reason {
-      list { data.word+ }
+      list {
+        (
+         ## (biffé) 
+         "cancelled"
+         | 
+           ##
+           "deleted"
+         | 
+           ## for features omitted from transcription due to editorial policy
+           "editorial"
+         | 
+           ## (illisible) 
+           "illegible"
+         | 
+           ## (inaudible) 
+           "inaudible"
+         | 
+           ## (non pertinent) 
+           "irrelevant"
+         | 
+           ## (échantillonnage) 
+           "sampling"
+         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
+      }
     }?,
     
     ## lorsque du texte est omis de la transcription en raison d'une suppression volontaire par une main identifiable, indique quelle est cette main.
-    attribute hand { data.pointer }?,
+    attribute hand { xsd:anyURI }?,
     
     ## lorsque du texte est omis de la transcription en raison d'un dommage, catégorise la cause du dommage, si celle-ci peut être identifiée.
     ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
-    attribute agent { data.enumerated }?,
+    attribute agent {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+    empty
+  }
+del =
+  
+  ## (suppression) contient une lettre, un mot ou un passage supprimé, marqué comme supprimé, sinon indiqué comme superflu ou erroné dans le texte par un auteur, un copiste, un annotateur ou un correcteur. [3.4.3. Additions, Deletions, and Omissions]
+  element del {
+    macro.paraContent,
+    att.global.attributes,
+    att.transcriptional.attributes,
+    att.typed.attributes,
     empty
   }
 unclear =
   
   ## (incertain) contient un mot, une expression ou bien un passage qui ne peut être transcrit avec certitude parce qu'il est illisible ou inaudible dans la source. [11.3.3.1. Damage, Illegibility, and Supplied Text 3.4.3. Additions, Deletions, and Omissions]
-  element ns1:unclear {
-    macro.paraContent, att.global.attributes, empty
-  }
+  element unclear { macro.paraContent, att.global.attributes, empty }
 name =
   
   ## (nom, nom propre) contient un nom propre ou un syntagme nominal. [3.5.1. Referring Strings]
-  element ns1:name {
+  element name {
     macro.phraseSeq,
     att.global.attributes,
     att.canonical.attribute.ref,
@@ -596,9 +799,8 @@ name =
   }
 date =
   
-  ## (date) contient une date exprimée dans n'importe quel format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution,
-  ## Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
-  element ns1:date {
+  ## (date) contient une date exprimée dans n'importe quel format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
+  element date {
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attributes,
     att.datable.attributes,
@@ -608,10 +810,10 @@ date =
 ref =
   
   ## (référence) définit une référence vers un autre emplacement, la référence étant éventuellement modifiée ou complétée par un texte ou un commentaire. [3.6. Simple Links and Cross-References 16.1. Links]
-  element ns1:ref {
+  element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "difdepo-ref-refAtts-constraint-1"
+         id = "difdepo-ref-refAtts-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -640,13 +842,14 @@ ref =
 \list =
   
   ## (liste) contient une suite d'items ordonnés dans une liste. [3.7. Lists]
-  element ns1:list {
+  element list {
     ((model.divTop | model.global)*,
      ((item, model.global*)+
       | (label, model.global*, item, model.global*)+),
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "difdepo-list-gloss-list-must-have-labels-constraint-3"
+         id =
+           "difdepo-list-gloss-list-must-have-labels-constraint-rule-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -685,14 +888,14 @@ ref =
       | 
         ## each list item is part of an argument consisting of two or more propositions and a final conclusion derived from them.
         "syllogism"
-      | xsd:Name
+      | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
     empty
   }
 item =
   
-  ## contient un composant d'une liste. [3.7. Lists 2.5. The Revision Description]
-  element ns1:item {
+  ## contient un composant d'une liste. [3.7. Lists 2.6. The Revision Description]
+  element item {
     macro.specialPara,
     att.global.attributes,
     att.sortable.attributes,
@@ -701,10 +904,11 @@ item =
 label =
   
   ## (étiquette) contient l'étiquette attachée à un item dans une liste ; dans les glossaires, il marque le terme qui est défini. [3.7. Lists]
-  element ns1:label {
+  element label {
     macro.phraseSeq,
     att.global.attributes,
     att.placement.attributes,
+    att.written.attributes,
     
     ##
     attribute type {
@@ -720,19 +924,20 @@ label =
 note =
   
   ## contient une note ou une annotation [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
-  element ns1:note {
+  element note {
     macro.specialPara,
     att.global.attributes,
     att.placement.attributes,
     att.pointing.attributes,
     att.typed.attributes,
+    att.written.attributes,
     
     ## indique si l'exemplaire du texte montre l'emplacement de référence exact pour la note
-    [ a:defaultValue = "true" ] attribute anchored { data.truthValue }?,
+    [ a:defaultValue = "true" ] attribute anchored { xsd:boolean }?,
     
     ## pointe vers la fin d'un passage auquel la note est attachée, si la note n'est pas enchâssée dans le texte à cet endroit
     attribute targetEnd {
-      list { data.pointer+ }
+      list { xsd:anyURI+ }
     }?,
     empty
   }
@@ -740,7 +945,7 @@ pb =
   
   ## (saut de page) marque le début d'une page de texte dans un document paginé. [3.10.3. Milestone
   ## Elements]
-  element ns1:pb {
+  element pb {
     empty,
     att.global.attributes,
     att.typed.attributes,
@@ -752,7 +957,7 @@ lb =
   
   ## (saut de ligne) marque le début d'une nouvelle ligne (typographique) dans une édition ou dans une version d'un texte. [3.10.3. Milestone
   ## Elements 7.2.5. Speech Contents]
-  element ns1:lb {
+  element lb {
     empty,
     att.global.attributes,
     att.typed.attributes,
@@ -763,7 +968,7 @@ lb =
 respStmt =
   
   ## (mention de responsabilité) indique la responsabilité quant au contenu intellectuel d'un texte, d'une édition, d'un enregistrement ou d'une publication en série, lorsque les éléments spécifiques relatifs aux auteurs, éditeurs, etc. ne suffisent pas ou ne s'appliquent pas. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
-  element ns1:respStmt {
+  element respStmt {
     ((resp+, model.nameLike.agent+) | (model.nameLike.agent+, resp+)),
     att.global.attributes,
     empty
@@ -771,7 +976,7 @@ respStmt =
 resp =
   
   ## (responsabilité) contient une expression décrivant la nature de la responsabilité intellectuelle d'une personne. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
-  element ns1:resp {
+  element resp {
     macro.phraseSeq.limited,
     att.global.attributes,
     att.datable.attributes,
@@ -780,17 +985,18 @@ resp =
 title =
   
   ## (titre) contient le titre complet d'une oeuvre quelconque [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
-  element ns1:title {
+  element title {
     macro.paraContent,
     att.global.attributes,
     att.canonical.attributes,
     att.typed.attribute.subtype,
+    att.datable.attributes,
     empty
   }
 meeting =
   
   ## contient le titre descriptif formalisé d’une réunion ou d’une conférence, employé dans une description bibliographique pour un article provenant d'une telle réunion, ou comme le titre ou le préambule aux publications qui en émanent. [3.11.2.2. Titles, Authors, and Editors]
-  element ns1:meeting {
+  element meeting {
     (date, placeName?, \list),
     att.global.attributes,
     att.canonical.attributes,
@@ -799,7 +1005,7 @@ meeting =
 bibl =
   
   ## (référence bibliographique.) contient une référence bibliographique faiblement structurée dans laquelle les sous-composants peuvent ou non être explicitement balisés. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
-  element ns1:bibl {
+  element bibl {
     (idno*, (meeting | title | p)),
     att.global.attributes,
     att.typed.attribute.subtype,
@@ -810,20 +1016,24 @@ bibl =
 teiCorpus =
   
   ## contient la totalité d'un corpus encodé selon la TEI, comprenant un seul en-tête de corpus et un ou plusieurs éléments TEI dont chacun contient un seul en-tête textuel et un texte. [4. Default Text Structure 15.1. Varieties of Composite Text]
-  element ns1:teiCorpus {
+  element teiCorpus {
     (teiHeader,
      ((model.resourceLike+, (TEI | teiCorpus)*)
       | (TEI | teiCorpus)+)),
     att.global.attributes,
+    att.typed.attributes,
     
     ## la version du modèle TEI
-    [ a:defaultValue = "5.0" ] attribute version { data.version }?,
+    [ a:defaultValue = "5.0" ]
+    attribute version {
+      xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
+    }?,
     empty
   }
 teiHeader =
   
   ## (en-tête TEI) fournit des informations descriptives et déclaratives qui constituent une page de titre électronique au début de tout texte conforme à la TEI. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]
-  element ns1:teiHeader {
+  element teiHeader {
     (fileDesc, model.teiHeaderPart*, revisionDesc?),
     att.global.attributes,
     empty
@@ -831,7 +1041,7 @@ teiHeader =
 fileDesc =
   
   ## (description bibliographique du fichier) contient une description bibliographique complète du fichier électronique. [2.2. The File Description 2.1.1. The TEI Header and Its Components]
-  element ns1:fileDesc {
+  element fileDesc {
     ((titleStmt, publicationStmt), sourceDesc+),
     att.global.attributes,
     empty
@@ -839,14 +1049,13 @@ fileDesc =
 titleStmt =
   
   ## (mention de titre) regroupe les informations sur le titre d’une œuvre et les personnes ou institutions responsables de son contenu intellectuel. [2.2.1. The Title Statement 2.2. The File Description]
-  element ns1:titleStmt {
+  element titleStmt {
     (title+, model.respLike*), att.global.attributes, empty
   }
 publicationStmt =
   
-  ## (mention de publication) regroupe des informations concernant la publication ou la diffusion d’un texte électronique ou d’un autre type de texte. [2.2.4. Publication, Distribution,
-  ## Licensing, etc. 2.2. The File Description]
-  element ns1:publicationStmt {
+  ## (mention de publication) regroupe des informations concernant la publication ou la diffusion d’un texte électronique ou d’un autre type de texte. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
+  element publicationStmt {
     ((model.publicationStmtPart.agency,
       model.publicationStmtPart.detail*)+
      | model.pLike+),
@@ -855,25 +1064,50 @@ publicationStmt =
   }
 idno =
   
-  ## (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique. [2.2.4. Publication, Distribution,
-  ## Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
-  element ns1:idno {
+  ## (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique. [2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  element idno {
     (text | model.gLike | idno)*,
     att.global.attributes,
     att.sortable.attributes,
+    att.datable.attributes,
+    att.typed.attribute.subtype,
     
     ## classe un numéro dans une catégorie, par exemple comme étant un numéro ISBN ou comme appartenant une autre série normalisée.
-    attribute type { data.enumerated }?,
+    ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
+    attribute type {
+      
+      ## International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the International ISBN Agency.
+      "ISBN"
+      | 
+        ## International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.
+        "ISSN"
+      | 
+        ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
+        "DOI"
+      | 
+        ## Uniform Resource Identifier: a string of characters to uniquely identify a resource which usually contains indication of the means of accessing that resource, the name of its host, and its filepath.
+        "URI"
+      | 
+        ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
+        "VIAF"
+      | 
+        ## English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.
+        "ESTC"
+      | 
+        ## union catalog number in WorldCat representing a resource held by one or more of the member libraries in the global cooperative Online Computer Library Center.
+        "OCLC"
+      | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
     empty
   }
 sourceDesc =
   
   ## (description de la source) décrit la source à partir de laquelle un texte électronique a été dérivé ou produit, habituellement une description bibliographique pour un texte numérisé, ou une expression comme "document numérique natif " pour un texte qui n'a aucune existence précédente. [2.2.7. The Source Description]
-  element ns1:sourceDesc { bibl, att.global.attributes, empty }
+  element sourceDesc { bibl, att.global.attributes, empty }
 revisionDesc =
   
-  ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.5. The Revision Description 2.1.1. The TEI Header and Its Components]
-  element ns1:revisionDesc {
+  ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
+  element revisionDesc {
     (\list | listChange | change+),
     att.global.attributes,
     att.docStatus.attributes,
@@ -881,8 +1115,8 @@ revisionDesc =
   }
 change =
   
-  ## résume une modification ou une correction apportée à une version particulière d’un texte électronique partagé entre plusieurs chercheurs. [2.5. The Revision Description 2.4.1. Creation 11.7. Changes]
-  element ns1:change {
+  ## résume une modification ou une correction apportée à une version particulière d’un texte électronique partagé entre plusieurs chercheurs. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
+  element change {
     macro.specialPara,
     att.ascribed.attributes,
     att.datable.attributes,
@@ -892,28 +1126,28 @@ change =
     
     ## points to one or more elements that belong to this change.
     attribute target {
-      list { data.pointer+ }
+      list { xsd:anyURI+ }
     }?,
     empty
   }
 listChange =
   
-  ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.5. The Revision Description 11.7. Changes]
-  element ns1:listChange {
+  ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.7. Identifying Changes and Revisions]
+  element listChange {
     (listChange | change)+,
     att.global.attributes,
     att.sortable.attributes,
+    att.typed.attributes,
     
     ## indicates whether the ordering of its child change elements is to be considered significant or not
-    [ a:defaultValue = "true" ] attribute ordered { data.truthValue }?,
+    [ a:defaultValue = "true" ] attribute ordered { xsd:boolean }?,
     empty
   }
 TEI =
   
   ## (document TEI) contient un seul document conforme à la TEI, qui comprend un en-tête TEI et un texte, soit de façon isolée, soit comme partie d’un élément teiCorpus. [4. Default Text Structure 15.1. Varieties of Composite Text]
-  element ns1:TEI {
-    (teiHeader,
-     ((model.resourceLike+, \text?) | \text))
+  element TEI {
+    (teiHeader, model.resourceLike+)
     >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
     >> sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
     >> sch:ns [
@@ -921,15 +1155,17 @@ TEI =
          uri = "http://relaxng.org/ns/structure/1.0"
        ],
     att.global.attributes,
+    att.typed.attributes,
     empty
   }
 \text =
   
   ## (texte) contient un seul texte quelconque, simple ou composite, par exemple un poème ou une pièce de théâtre, un recueil d’essais, un roman, un dictionnaire ou un échantillon de corpus. [4. Default Text Structure 15.1. Varieties of Composite Text]
-  element ns1:text {
+  element text {
     (model.global*, (front, model.global*)?, (body), model.global*),
     att.global.attributes,
     att.typed.attribute.subtype,
+    att.written.attributes,
     
     ##
     attribute type {
@@ -951,7 +1187,7 @@ TEI =
 body =
   
   ## (corps du texte) contient la totalité du corps d’un seul texte simple, à l’exclusion de toute partie pré- ou post-liminaire. [4. Default Text Structure]
-  element ns1:body {
+  element body {
     (model.global*,
      (model.divTop, (model.global | model.divTop)*)?,
      (model.divGenLike, (model.global | model.divGenLike)*)?,
@@ -967,21 +1203,65 @@ body =
 \div =
   
   ## (division du texte) contient une subdivision dans le texte préliminaire, dans le corps d’un texte ou dans le texte postliminaire. [4.1. Divisions of the Body]
-  element ns1:div {
+  element div {
     ((model.divTop | model.global)*,
      ((((model.divLike | model.divGenLike), model.global*)+
        | ((model.common, model.global*)+,
           ((model.divLike | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
+      (model.divBottom, model.global*)*)?)
+    >> sch:pattern [
+         id =
+           "difdepo-div-abstractModel-structure-l-constraint-report-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "ancestor::tei:l"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "difdepo-div-abstractModel-structure-p-constraint-report-8"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)"
+             "\x{a}" ~
+             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     att.global.attributes,
     att.divLike.attributes,
     att.typed.attributes,
+    att.written.attributes,
     empty
   }
 front =
   
   ## (texte préliminaire) contient tout ce qui est au début du document, avant le corps du texte : page de titre, dédicaces, préfaces, etc. [4.6. Title Pages 4. Default Text Structure]
-  element ns1:front {
+  element front {
     ((model.frontPart
       | model.pLike
       | model.pLike.front
@@ -1003,7 +1283,7 @@ model.persNamePart_sequenceRepeatable = notAllowed
 orgName =
   
   ## (nom d'organisation) contient le nom d'une organisation. [13.2.2. Organizational Names]
-  element ns1:orgName {
+  element orgName {
     macro.phraseSeq,
     att.global.attributes,
     att.datable.attributes,
@@ -1014,7 +1294,7 @@ orgName =
 persName =
   
   ## (nom de personne) contient un nom propre ou une expression nominale se référant à une personne, pouvant inclure tout ou partie de ses prénoms, noms de famille, titres honorifiques, noms ajoutés, etc. [13.2.1. Personal Names]
-  element ns1:persName {
+  element persName {
     macro.phraseSeq,
     att.global.attributes,
     att.datable.attributes,
@@ -1046,7 +1326,7 @@ persName =
 placeName =
   
   ## (nom de lieu) contient un nom de lieu absolu ou relatif. [13.2.3. Place Names]
-  element ns1:placeName {
+  element placeName {
     macro.phraseSeq,
     att.datable.attributes,
     att.global.attributes,
