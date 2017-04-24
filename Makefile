@@ -1,10 +1,9 @@
 ECHO=
-SCHEMA=/home/lou/Public/tei-fr/trunk/Projects/Difdepo/out/difdepo.rng
-#CORPUS=/home/lou/Public/tei-fr/trunk/Projects/Difdepo/2015-10-samples
-CORPUS=/home/lou/Public/tei-fr/trunk/Projects/Difdepo/transformLab/tei
-STYLES=/home/lou/Public/tei-fr/trunk/Projects/Difdepo/norm2ou.xsl
+SCHEMA=out/difdepo.rng
+CORPUS=Corpus
+STYLES=norm2ou.xsl
 XSLHOME=/usr/share/xml/tei/stylesheet/profiles/oulipo/
-CORPUSHDR=/home/lou/Public/tei-fr/trunk/Projects/Difdepo/corpHeaderStart.txt
+CORPUSHDR=corpHeaderStart.txt
 CURRENT=`pwd`
 
 convert:
@@ -19,11 +18,11 @@ check:
 		jing  $(SCHEMA) \
 		$$f ; done; cd $(CURRENT);
 
-corpus:
-	cd $(CORPUS); cp $(CORPUSHDR) driver.xml;\
- 		for f in 1*.xml ; do \
-		echo "<include xmlns='http://www.w3.org/2001/XInclude' href='$$f'/>" >> driver.xml; \
-	done; echo "</teiCorpus>" >> driver.xml; cd $(CURRENT);
+driver:
+	cp $(CORPUSHDR) driver.tei;\
+		for f in $(CORPUS)/*.xml ; do \
+		echo "<xi:include href='$$f'/>" >> driver.tei; \
+	done; echo "</teiCorpus>" >> driver.tei
 
 schema: 
 	teitorelaxng --odd difdepo.odd

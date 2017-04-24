@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>The TEI Header</head>
+        <p>Every document is prefixed by a TEI Header, providing minimal metadata information. The
+          header is automatically generated from data captured by a Word template, but can be
+          modified subsequently. As with every TEI document, the header is represented by a
+            <gi>teiHeader</gi> element, containing a <gi>fileDesc</gi> element, followed by a
+            <gi>revisionDesc</gi> element. </p>
+        <p>The <gi>fileDesc</gi> for a difDepo document has the following components: <specList>
+            <specDesc key="titleStmt"/>
+            <specDesc key="publicationStmt"/>
+            <specDesc key="sourceDesc"/>
+          </specList>
+        </p>
+        <p>The <gi>titleStmt</gi> always contains a <gi>title</gi> element followed by at least one
+            <gi>respStmt</gi> element. The <gi>title</gi> contains a formulaic title for the
+          document in the following form: <eg>Transcription du scan [number of scan] pp. [first page
+            number] à [second page number] ([document type]) : version TEI</eg>. The [number of
+          scan] is also used to identify the file name containing the document and is allocated by ?
+          . The first and second page numbers are always given even if they are the same, and even
+          if they are both 1. The document type is the two letter code used also as the value for
+          the <att>type</att> attribute on the associated <gi>text</gi> element (see <ptr
+            target="#textType"/>). </p>
+        <p>The <gi>respStmt</gi> element is used to indicate responsibility for the content of the
+          document, and has two components: a <gi>resp</gi> element indicating the type of
+          responsibility (for example <code>transcription</code>) and a <gi>name</gi> element
+          providing the name of the person concerned. For example: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <respStmt>
+              <resp>transcription</resp>
+              <name>Susie Cronin</name>
+            </respStmt></egXML></p>
+        <p>The <gi>publicationStmt</gi> always contains the same formulaic text indicating the
+          distributor of the document: <eg> Edition numérique distribué par le projet ANR DifDePo
+          </eg></p>
+        <p>The <gi>sourceDesc</gi> element always contains a single <gi>bibl</gi> element, which
+          also has a comparatively restricted structure. In a difDepo document, this element must
+          contain an <gi>idno</gi> element, which must be followed by one of the following elements: <specList>
+            <specDesc key="meeting"/>
+            <specDesc key="title"/>
+            <specDesc key="p"/>
+          </specList></p>
+        <p>The <gi>meeting</gi> element is used only when the document contains a compte rendu, in
+          which case the corresponding <gi>text</gi> element will have a <att>type</att> of
+            <val>CR</val>. It must contain a <gi>date</gi> element, giving the date of the meeting,
+          which may be followed by a <gi>placeName</gi> element giving the place of the meeting, if
+          this is specified. A <gi>list</gi> element, with <att>type</att> of <val>present</val>
+          completes the element and supplies a list of those attending the meeting.</p>
+        <p>The <gi>title</gi> element is used for other kinds of difDepo documents. It contains a
+          brief statement of the kind of document concerned, for example an ordre du jour <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <title>Ordre de jour de <ref target="difdepo:t10010007-1961-05-03">la réunion
+                Oulipo</ref> du <date when="1961-05-03"/></title></egXML> or a convocation <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <title>Convocation à <ref target="difdepo:t10010273-1984-07">une réunion Oulipo</ref>,
+              envoyée le <date when="1984-07-01"/> par <persName role="expéditeur">PF</persName>
+              Destinataire : <persName role="destinataire">XX</persName></title>
+          </egXML>
+        </p>
+        <p>When, as in the above example, the title contains names or dates, these will usually be
+          tagged using the <gi>date</gi> or <gi>persName</gi> element. The <att>when</att> attribute
+          is always used to supply a normalised form of a date. The <att>role</att> attribute on
+            <gi>persName</gi> is used to indicate the role of the person referenced, as discussed
+          below (<ptr target="#personRole"/>). </p>
+        <p>The <gi>revisionDesc</gi> element for a difDepo document has the following components: <specList>
+            <specDesc key="revisionDesc"/>
+            <specDesc key="listChange"/>
+            <specDesc key="change"/>
+          </specList>
+        </p>
+        <p>A revision description contains a list of significant changes to the document, in reverse chronological order
+        (most recent first). Each change is indicated by a <gi>change</gi> element. The date of the change is given by
+        its <att>when</att> attribute, and the nature of the change by its content. The person responsible
+        for the change may be indicated by its <att>who</att> attribute. <!-- or @resp --></p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,53 @@
+En re-regardant le schéma DifDePO, je me suis apercu qu'il y reste des  possibilités d'encodage peutetre pas très utile au projet, et assurément pas encore utilisés. Je propose ici un petit bilan des simplifications possibles, en indiquant également la demarche que je propose en chaque cas. N'hésitez pas de m'indiquer si vous n'etes pas d'accord avec ces propositions. Se repèrer aux Guidelines (http://www.tei-c.org/ ou http://lb42.github.io/difDePo/doc.html ) pour tout information sur la portée des éléments et attributs discutés.a
+
+
+1. Attributs globals
+
+Sont actuellement disponibles sur tout élément:
+
+@xml:id, @n, @xml:lang, @xml:base, @xml:space, @rend, @style, @source
+
+Je propose de supprimer tous sauf:
+
+@xml:id, @n, @xml:lang,  @style,
+
+nota: @rend et @style font la meme chose; la différence est que @style utilise un langage standardisé (CSS) pour indiquer la mise en forme; @rend permet par contre n'importe quoi. Vous pourriez quand meme souhaiter la possibilité de dire n'importe quoi...
+
+
+2. Attributs @type et @subtype
+
+Sont disponibles sur les éléments membres de att.typed (TEI bibl change date div lb list listChange name orgName pb persName placeName ref teiCorpus term). Ils peuvent prendre n'importe quel valeur.
+
+Je propose de:
+- supprimer @subtype (partout?)
+- renfermer la liste des valeurs possibles pour label, list, text. 
+- supprimer @type sur tous sauf bibl, div, idno, name. 
+
+(une liste fermée des valeurs pour idno@type serait la bienvenue...)
+
+3. Attributs de datation
+
+Les attributs @when, @notBefore, @notAfter, @from, @to servent à fournir une datation precisée en format normalisé W3C. Ils sont disponibles sur tout membre de la classe att.datable, soit change date name orgName persName placeName resp title. Je propose de les supprimer sur tous sauf change, et date. 
+
+
+4. Attributs localisés
+
+L'attribut @sortKey, disponible sur bibl idno item list listChange et term, sert à indiquer comment trier une série de ces éléments. Je propose de le supprimer.
+
+L'attribut @docStatus, disponible sur bibl change revisionDesc, sert à indiquer le status d'une occurrence de ces éléments. Je propose de le supprimer. 
+
+L'attribut @spanTo, disponible sur lb pb, sert à indiquer un empan; je propose de le supprimer. 
+
+L'attribut @break, disponible sur lb pb, sert à indiquer si la coupure de ligne ou de page marque la fin d'un mot orthographique; je propose de le supprimer. 
+
+L'attribut @ordered, disponible uniquement sur listChange sert à indiquer si (ou pas) l'ordre de ses elements enfants serait significatif; je propose de le supprimer. 
+
+L'attribut @version est considéré obsolète dans les versions actuelle de la TEI;l il est deja supprimé sur TEI, je propose de le supprimer sur teiCorpus. 
+
+Ces modifications simplifient beaucoup la documentation du schema, qui avance ainsi!
+
+
+
+
+
+
