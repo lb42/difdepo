@@ -5,9 +5,9 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-04-24T10:46:24Z. .
+# Schema generated from ODD source 2017-04-29T16:28:48Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
-#	13th April 2017, revision ed7f02c
+#	31st March 2017, revision 7a1e145
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
 #
 
@@ -47,13 +47,6 @@ att.written.attribute.hand =
   
   ## signale la main de celui qui est intervenue.
   attribute hand { xsd:anyURI }?
-att.breaking.attributes = att.breaking.attribute.break
-att.breaking.attribute.break =
-  
-  ## indique si l'élément qui porte cet attribut peut être considéré comme une espace blanc indiquant la fin d'un mot orthographique.
-  attribute break {
-    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-  }?
 att.datable.w3c.attributes =
   att.datable.w3c.attribute.when,
   att.datable.w3c.attribute.notBefore,
@@ -206,18 +199,7 @@ att.fragmentable.attribute.part =
       "F"
   }?
 att.divLike.attributes = att.fragmentable.attributes
-att.docStatus.attributes = att.docStatus.attribute.status
-att.docStatus.attribute.status =
-  
-  ## describes the status of a document either currently or, when associated with a dated element, at the time indicated.
-  ## Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn
-  [ a:defaultValue = "draft" ]
-  attribute status {
-    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-  }?
-att.global.rendition.attributes =
-  att.global.rendition.attribute.rend,
-  att.global.rendition.attribute.style
+att.global.rendition.attributes = att.global.rendition.attribute.rend
 att.global.rendition.attribute.rend =
   
   ## (interprétation) indique comment l'élément en question a été rendu ou présenté dans le texte source
@@ -226,10 +208,6 @@ att.global.rendition.attribute.rend =
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
     }
   }?
-att.global.rendition.attribute.style =
-  
-  ## contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text
-  attribute style { xsd:string }?
 att.global.source.attributes = att.global.source.attribute.source
 att.global.source.attribute.source =
   
@@ -242,9 +220,7 @@ att.global.attributes =
   att.global.source.attributes,
   att.global.attribute.xmlid,
   att.global.attribute.n,
-  att.global.attribute.xmllang,
-  att.global.attribute.xmlbase,
-  att.global.attribute.xmlspace
+  att.global.attribute.xmllang
 att.global.attribute.xmlid =
   
   ## (identifiant) fournit un identifiant unique pour l'élément qui porte l'attribut
@@ -261,21 +237,6 @@ att.global.attribute.xmllang =
     | (
        ##
        "")
-  }?
-att.global.attribute.xmlbase =
-  
-  ## donne une référence URI de base au moyen de laquelle les applications peuvent résoudre des références d'URI relatives en références d'URI absolues
-  attribute xml:base { xsd:anyURI }?
-att.global.attribute.xmlspace =
-  
-  ## signale que les applications doivent préserver l'espace blanc
-  attribute xml:space {
-    
-    ## signals that the application's default white-space processing modes are acceptable
-    "default"
-    | 
-      ## indicates the intent that applications preserve all white space
-      "preserve"
   }?
 att.naming.attributes =
   att.canonical.attributes, att.naming.attribute.role
@@ -327,18 +288,11 @@ att.placement.attribute.place =
        | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
     }
   }?
-att.typed.attributes =
-  att.typed.attribute.type, att.typed.attribute.subtype
+att.typed.attributes = att.typed.attribute.type
 att.typed.attribute.type =
   
   ## caractérise l'élément en utilisant n'importe quel système ou typologie de classification approprié.
   attribute type {
-    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-  }?
-att.typed.attribute.subtype =
-  
-  ## (sous-type) fournit une sous-catégorisation de l'élément, si c'est nécessaire.
-  attribute subtype {
     xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 sch:pattern [
@@ -368,43 +322,6 @@ att.pointing.attribute.target =
   attribute target {
     list { xsd:anyURI+ }
   }?
-att.sortable.attributes = att.sortable.attribute.sortKey
-att.sortable.attribute.sortKey =
-  
-  ## supplies the sort key for this element in an index, list or group which contains it.
-  attribute sortKey {
-    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-  }?
-att.spanning.attributes = att.spanning.attribute.spanTo
-att.spanning.attribute.spanTo =
-  
-  ## indique la fin d'un passage introduit par l'élément portant cet attribut.
-  attribute spanTo { xsd:anyURI }?
-sch:pattern [
-  id = "difdepo-att.spanning-spanTo-spanTo-2-constraint-rule-5"
-  "\x{a}" ~
-  "      "
-  sch:rule [
-    context = "tei:*[@spanTo]"
-    "\x{a}" ~
-    "            "
-    sch:assert [
-      test =
-        "id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]"
-      "\x{a}" ~
-      "The element indicated by @spanTo ("
-      sch:value-of [ select = "@spanTo" ]
-      ") must follow the current element "
-      sch:name [ ]
-      "\x{a}" ~
-      "                  "
-    ]
-    "\x{a}" ~
-    "          "
-  ]
-  "\x{a}" ~
-  "   "
-]
 att.timed.attributes = empty
 att.transcriptional.attributes = att.written.attributes
 model.nameLike.agent = name | orgName | persName
@@ -720,9 +637,7 @@ term =
     macro.phraseSeq,
     att.global.attributes,
     att.pointing.attributes,
-    att.typed.attributes,
     att.canonical.attributes,
-    att.sortable.attributes,
     empty
   }
 gap =
@@ -793,7 +708,6 @@ name =
     macro.phraseSeq,
     att.global.attributes,
     att.canonical.attribute.ref,
-    att.datable.attributes,
     att.typed.attributes,
     empty
   }
@@ -804,7 +718,6 @@ date =
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attributes,
     att.datable.attributes,
-    att.typed.attributes,
     empty
   }
 ref =
@@ -836,7 +749,6 @@ ref =
        ],
     att.global.attributes,
     att.pointing.attributes,
-    att.typed.attributes,
     empty
   }
 \list =
@@ -849,7 +761,7 @@ ref =
      (model.divBottom, model.global*)*)
     >> sch:pattern [
          id =
-           "difdepo-list-gloss-list-must-have-labels-constraint-rule-6"
+           "difdepo-list-gloss-list-must-have-labels-constraint-rule-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -867,8 +779,6 @@ ref =
          "         "
        ],
     att.global.attributes,
-    att.sortable.attributes,
-    att.typed.attribute.subtype,
     
     ## describes the nature of the items in the list.
     ## Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syllogism
@@ -895,12 +805,7 @@ ref =
 item =
   
   ## contient un composant d'une liste. [3.7. Lists 2.6. The Revision Description]
-  element item {
-    macro.specialPara,
-    att.global.attributes,
-    att.sortable.attributes,
-    empty
-  }
+  element item { macro.specialPara, att.global.attributes, empty }
 label =
   
   ## (étiquette) contient l'étiquette attachée à un item dans une liste ; dans les glossaires, il marque le terme qui est défini. [3.7. Lists]
@@ -945,26 +850,12 @@ pb =
   
   ## (saut de page) marque le début d'une page de texte dans un document paginé. [3.10.3. Milestone
   ## Elements]
-  element pb {
-    empty,
-    att.global.attributes,
-    att.typed.attributes,
-    att.spanning.attributes,
-    att.breaking.attributes,
-    empty
-  }
+  element pb { empty, att.global.attributes, empty }
 lb =
   
   ## (saut de ligne) marque le début d'une nouvelle ligne (typographique) dans une édition ou dans une version d'un texte. [3.10.3. Milestone
   ## Elements 7.2.5. Speech Contents]
-  element lb {
-    empty,
-    att.global.attributes,
-    att.typed.attributes,
-    att.spanning.attributes,
-    att.breaking.attributes,
-    empty
-  }
+  element lb { empty, att.global.attributes, empty }
 respStmt =
   
   ## (mention de responsabilité) indique la responsabilité quant au contenu intellectuel d'un texte, d'une édition, d'un enregistrement ou d'une publication en série, lorsque les éléments spécifiques relatifs aux auteurs, éditeurs, etc. ne suffisent pas ou ne s'appliquent pas. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
@@ -976,12 +867,7 @@ respStmt =
 resp =
   
   ## (responsabilité) contient une expression décrivant la nature de la responsabilité intellectuelle d'une personne. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
-  element resp {
-    macro.phraseSeq.limited,
-    att.global.attributes,
-    att.datable.attributes,
-    empty
-  }
+  element resp { macro.phraseSeq.limited, att.global.attributes, empty }
 title =
   
   ## (titre) contient le titre complet d'une oeuvre quelconque [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
@@ -989,8 +875,6 @@ title =
     macro.paraContent,
     att.global.attributes,
     att.canonical.attributes,
-    att.typed.attribute.subtype,
-    att.datable.attributes,
     empty
   }
 meeting =
@@ -1006,11 +890,9 @@ bibl =
   
   ## (référence bibliographique.) contient une référence bibliographique faiblement structurée dans laquelle les sous-composants peuvent ou non être explicitement balisés. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element bibl {
-    (idno*, (meeting | title | p)),
+    (text
+     | (idno*, (meeting | title))),
     att.global.attributes,
-    att.typed.attribute.subtype,
-    att.sortable.attributes,
-    att.docStatus.attributes,
     empty
   }
 teiCorpus =
@@ -1021,13 +903,6 @@ teiCorpus =
      ((model.resourceLike+, (TEI | teiCorpus)*)
       | (TEI | teiCorpus)+)),
     att.global.attributes,
-    att.typed.attributes,
-    
-    ## la version du modèle TEI
-    [ a:defaultValue = "5.0" ]
-    attribute version {
-      xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
-    }?,
     empty
   }
 teiHeader =
@@ -1068,9 +943,7 @@ idno =
   element idno {
     (text | model.gLike | idno)*,
     att.global.attributes,
-    att.sortable.attributes,
     att.datable.attributes,
-    att.typed.attribute.subtype,
     
     ## classe un numéro dans une catégorie, par exemple comme étant un numéro ISBN ou comme appartenant une autre série normalisée.
     ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
@@ -1103,15 +976,12 @@ idno =
 sourceDesc =
   
   ## (description de la source) décrit la source à partir de laquelle un texte électronique a été dérivé ou produit, habituellement une description bibliographique pour un texte numérisé, ou une expression comme "document numérique natif " pour un texte qui n'a aucune existence précédente. [2.2.7. The Source Description]
-  element sourceDesc { bibl, att.global.attributes, empty }
+  element sourceDesc { (bibl | p), att.global.attributes, empty }
 revisionDesc =
   
   ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
-    (\list | listChange | change+),
-    att.global.attributes,
-    att.docStatus.attributes,
-    empty
+    (\list | listChange | change+), att.global.attributes, empty
   }
 change =
   
@@ -1120,9 +990,7 @@ change =
     macro.specialPara,
     att.ascribed.attributes,
     att.datable.attributes,
-    att.docStatus.attributes,
     att.global.attributes,
-    att.typed.attributes,
     
     ## points to one or more elements that belong to this change.
     attribute target {
@@ -1134,14 +1002,7 @@ listChange =
   
   ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.7. Identifying Changes and Revisions]
   element listChange {
-    (listChange | change)+,
-    att.global.attributes,
-    att.sortable.attributes,
-    att.typed.attributes,
-    
-    ## indicates whether the ordering of its child change elements is to be considered significant or not
-    [ a:defaultValue = "true" ] attribute ordered { xsd:boolean }?,
-    empty
+    (listChange | change)+, att.global.attributes, empty
   }
 TEI =
   
@@ -1155,7 +1016,6 @@ TEI =
          uri = "http://relaxng.org/ns/structure/1.0"
        ],
     att.global.attributes,
-    att.typed.attributes,
     empty
   }
 \text =
@@ -1164,7 +1024,6 @@ TEI =
   element text {
     (model.global*, (front, model.global*)?, (body), model.global*),
     att.global.attributes,
-    att.typed.attribute.subtype,
     att.written.attributes,
     
     ##
@@ -1286,9 +1145,7 @@ orgName =
   element orgName {
     macro.phraseSeq,
     att.global.attributes,
-    att.datable.attributes,
     att.personal.attributes,
-    att.typed.attributes,
     empty
   }
 persName =
@@ -1297,9 +1154,7 @@ persName =
   element persName {
     macro.phraseSeq,
     att.global.attributes,
-    att.datable.attributes,
     att.canonical.attribute.ref,
-    att.typed.attributes,
     
     ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
     attribute role {
@@ -1328,10 +1183,8 @@ placeName =
   ## (nom de lieu) contient un nom de lieu absolu ou relatif. [13.2.3. Place Names]
   element placeName {
     macro.phraseSeq,
-    att.datable.attributes,
     att.global.attributes,
     att.personal.attributes,
-    att.typed.attributes,
     empty
   }
 start = TEI | teiCorpus

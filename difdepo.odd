@@ -34,7 +34,13 @@
             <classSpec type="atts" ident="att.editLike" mode="delete"/>
             <classSpec type="atts" ident="att.datcat" mode="delete"/>
             <classSpec type="atts" ident="att.cReferencing" mode="delete"/>
+            <classSpec type="atts" ident="att.docStatus" mode="delete"/>
+            <classSpec type="atts" ident="att.breaking" mode="delete"/>
+            
             <classSpec type="atts" ident="att.edition" mode="delete"/>
+            <classSpec type="atts" ident="att.sortable" mode="delete"/>
+            <classSpec type="atts" ident="att.spanning" mode="delete"/>
+            
             <classSpec type="atts" ident="att.source" mode="delete"/>
             <classSpec type="atts" ident="att.internetMedia" mode="delete"/>
             <classSpec ident="att.pointing" type="atts" mode="change">
@@ -46,8 +52,94 @@
             <classSpec ident="att.global.rendition" type="atts" mode="change">
                <attList>
                   <attDef ident="rendition" mode="delete"/>
+                  <attDef ident="style" mode="delete"/>
                </attList>
             </classSpec>
+            <classSpec ident="att.global" type="atts" mode="change">
+               <attList>
+                  <attDef ident="xml:base" mode="delete"/>
+                  <attDef ident="xml:space" mode="delete"/>
+               </attList>
+            </classSpec>
+            <classSpec ident="att.typed" type="atts" mode="change">
+               <attList>
+                  <attDef ident="subtype" mode="delete"/>
+                 </attList>
+            </classSpec>
+            <!-- remove from typed: TEI  change date lb list listChange orgName pb persName placeName ref teiCorpus term -->
+            <elementSpec ident="date" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="lb" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="listChange" mode="change">
+               <attList>
+                  <attDef ident="ordered" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="orgName" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.datable" mode="delete"/>
+                  <memberOf key="att.typed" mode="delete"/>                
+               </classes>
+            </elementSpec>
+            <elementSpec ident="pb" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="persName" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.datable" mode="delete"/>
+                  <memberOf key="att.typed" mode="delete"/>                
+               </classes>
+            </elementSpec>
+            <elementSpec ident="placeName" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.datable" mode="delete"/>
+                  <memberOf key="att.typed" mode="delete"/>                
+               </classes>
+            </elementSpec>
+            <elementSpec ident="ref" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="teiCorpus" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="version" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="term" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <!-- remove from datable name orgName persName placeName resp title -->
+            <elementSpec ident="name" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.datable" mode="delete"/>
+               </classes>
+            </elementSpec>
+            <elementSpec ident="resp" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.datable" mode="delete"/>
+               </classes>
+            </elementSpec>
+            <elementSpec ident="title" mode="change">
+               <classes mode="change">
+                  <memberOf key="att.datable" mode="delete"/>
+               </classes>
+            </elementSpec>
+            
+            
             <!--Checking module textcrit-->
             <!--Checking module namesdates-->
             <classRef key="model.persNamePart"/>
@@ -200,14 +292,13 @@
                include="p hi term unclear del name date ref label lb pb respStmt resp teiCorpus title bibl meeting list item note gap"/>
             <elementSpec ident="bibl" mode="change">
                <content>
-                 <sequence> 
+                 <alternate><textNode/><sequence> 
                    <elementRef key="idno" maxOccurs="unbounded" minOccurs="0"/>
                   <alternate>
                      <elementRef key="meeting"/>
                      <elementRef key="title"/>
-                     <elementRef key="p"/>
-                  </alternate>
-                 </sequence>
+                   </alternate>
+                 </sequence></alternate>
                </content>
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -263,6 +354,7 @@
                   </egXML>
                </exemplum>
             </elementSpec>
+            
             <elementSpec ident="meeting" mode="change">
                <content>
                   <sequence><elementRef key="date"/>
@@ -319,8 +411,14 @@
             </elementSpec>
             <elementSpec ident="sourceDesc" mode="change">
                <content>
-                  <elementRef key="bibl"/>
+                <alternate>  <elementRef key="bibl"/>
+                  <elementRef key="p"/></alternate>
                </content>
+            </elementSpec>
+            <elementSpec ident="change" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
             </elementSpec>
             <!--Checking module verse-->
             <!--Checking module msdescription-->
@@ -340,6 +438,7 @@
             <elementSpec ident="TEI" mode="change">
                <attList>
                   <attDef ident="version" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="text" mode="change">
