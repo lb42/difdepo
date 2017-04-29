@@ -5,7 +5,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-04-29T16:28:48Z. .
+# Schema generated from ODD source 2017-04-29T19:21:10Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
 #	31st March 2017, revision 7a1e145
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -175,7 +175,10 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
-att.datable.attributes = att.datable.w3c.attributes
+att.datable.attributes =
+  att.datable.w3c.attributes,
+  att.datable.iso.attributes,
+  att.datable.custom.attributes
 att.fragmentable.attributes = att.fragmentable.attribute.part
 att.fragmentable.attribute.part =
   
@@ -208,16 +211,8 @@ att.global.rendition.attribute.rend =
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
     }
   }?
-att.global.source.attributes = att.global.source.attribute.source
-att.global.source.attribute.source =
-  
-  ## specifies the source from which some aspect of this element is drawn.
-  attribute source {
-    list { xsd:anyURI+ }
-  }?
 att.global.attributes =
   att.global.rendition.attributes,
-  att.global.source.attributes,
   att.global.attribute.xmlid,
   att.global.attribute.n,
   att.global.attribute.xmllang
@@ -322,7 +317,16 @@ att.pointing.attribute.target =
   attribute target {
     list { xsd:anyURI+ }
   }?
-att.timed.attributes = empty
+att.timed.attributes =
+  att.timed.attribute.start, att.timed.attribute.end
+att.timed.attribute.start =
+  
+  ## indique dans un alignement temporel (un ordre chronologique) l'endroit où commence cet élément.
+  attribute start { xsd:anyURI }?
+att.timed.attribute.end =
+  
+  ## indique l'endroit où se termine cet élément dans un alignement temporel.
+  attribute end { xsd:anyURI }?
 att.transcriptional.attributes = att.written.attributes
 model.nameLike.agent = name | orgName | persName
 model.nameLike.agent_alternation = name | orgName | persName
@@ -397,12 +401,12 @@ model.oddDecl_sequenceOptionalRepeatable = empty
 model.oddDecl_sequenceRepeatable = notAllowed
 model.phrase.xml = notAllowed
 model.specDescLike = notAllowed
-model.biblLike = bibl
-model.biblLike_alternation = bibl
-model.biblLike_sequence = bibl
-model.biblLike_sequenceOptional = bibl?
-model.biblLike_sequenceOptionalRepeatable = bibl*
-model.biblLike_sequenceRepeatable = bibl+
+model.biblLike = notAllowed
+model.biblLike_alternation = notAllowed
+model.biblLike_sequence = empty
+model.biblLike_sequenceOptional = empty
+model.biblLike_sequenceOptionalRepeatable = empty
+model.biblLike_sequenceRepeatable = notAllowed
 model.headLike = notAllowed
 model.headLike_alternation = notAllowed
 model.headLike_sequence = empty
@@ -474,8 +478,8 @@ model.qLike_sequenceOptional = model.quoteLike_sequenceOptional?
 model.qLike_sequenceOptionalRepeatable =
   model.quoteLike_sequenceOptionalRepeatable*
 model.qLike_sequenceRepeatable = model.quoteLike_sequenceRepeatable+
-model.respLike = respStmt | meeting
-model.divWrapper = meeting
+model.respLike = respStmt
+model.divWrapper = notAllowed
 model.divTopPart = model.headLike
 model.divTop = model.divWrapper | model.divTopPart
 model.frontPart.drama = notAllowed
@@ -875,17 +879,18 @@ title =
     macro.paraContent,
     att.global.attributes,
     att.canonical.attributes,
+    
+    ## caractérise le titre selon une typologie adaptée.
+    ## Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) 
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
     empty
   }
 meeting =
   
   ## contient le titre descriptif formalisé d’une réunion ou d’une conférence, employé dans une description bibliographique pour un article provenant d'une telle réunion, ou comme le titre ou le préambule aux publications qui en émanent. [3.11.2.2. Titles, Authors, and Editors]
-  element meeting {
-    (date, placeName?, \list),
-    att.global.attributes,
-    att.canonical.attributes,
-    empty
-  }
+  element meeting { date, placeName?, \list }
 bibl =
   
   ## (référence bibliographique.) contient une référence bibliographique faiblement structurée dans laquelle les sous-composants peuvent ou non être explicitement balisés. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
@@ -903,6 +908,186 @@ teiCorpus =
      ((model.resourceLike+, (TEI | teiCorpus)*)
       | (TEI | teiCorpus)+)),
     att.global.attributes,
+    empty
+  }
+att.datable.custom.attributes =
+  att.datable.custom.attribute.when-custom,
+  att.datable.custom.attribute.notBefore-custom,
+  att.datable.custom.attribute.notAfter-custom,
+  att.datable.custom.attribute.from-custom,
+  att.datable.custom.attribute.to-custom,
+  att.datable.custom.attribute.datingPoint,
+  att.datable.custom.attribute.datingMethod
+att.datable.custom.attribute.when-custom =
+  
+  ## supplies the value of a date or time in some custom standard form.
+  attribute when-custom {
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
+  }?
+att.datable.custom.attribute.notBefore-custom =
+  
+  ## specifies the earliest possible date for the event in some custom standard form.
+  attribute notBefore-custom {
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
+  }?
+att.datable.custom.attribute.notAfter-custom =
+  
+  ## specifies the latest possible date for the event in some custom standard form.
+  attribute notAfter-custom {
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
+  }?
+att.datable.custom.attribute.from-custom =
+  
+  ## indicates the starting point of the period in some custom standard form.
+  attribute from-custom {
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
+  }?
+att.datable.custom.attribute.to-custom =
+  
+  ## indicates the ending point of the period in some custom standard form.
+  attribute to-custom {
+    list {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+    }
+  }?
+att.datable.custom.attribute.datingPoint =
+  
+  ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
+  attribute datingPoint { xsd:anyURI }?
+att.datable.custom.attribute.datingMethod =
+  
+  ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.
+  attribute datingMethod { xsd:anyURI }?
+att.datable.iso.attributes =
+  att.datable.iso.attribute.when-iso,
+  att.datable.iso.attribute.notBefore-iso,
+  att.datable.iso.attribute.notAfter-iso,
+  att.datable.iso.attribute.from-iso,
+  att.datable.iso.attribute.to-iso
+att.datable.iso.attribute.when-iso =
+  
+  ## précise une date exacte pour l'évènement selon la forme normalisée ISO 8601, c'est-à-dire aaaa-mm-jj.
+  attribute when-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+att.datable.iso.attribute.notBefore-iso =
+  
+  ## précise la première date possible pour l'évènement selon la forme normalisée, c'est-à-dire aaaa-mm-jj.
+  attribute notBefore-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+att.datable.iso.attribute.notAfter-iso =
+  
+  ## précise la dernière date possible pour l'évènement selon la forme normalisée, c'est-à-dire aaaa-mm-jj.
+  attribute notAfter-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+att.datable.iso.attribute.from-iso =
+  
+  ## Indique le point de départ de la période sous une forme normalisée
+  attribute from-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+att.datable.iso.attribute.to-iso =
+  
+  ## Indique le point final de la période sous une forme normalisée
+  attribute to-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+orgName =
+  
+  ## (nom d'organisation) contient le nom d'une organisation. [13.2.2. Organizational Names]
+  element orgName {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.personal.attributes,
+    empty
+  }
+persName =
+  
+  ## (nom de personne) contient un nom propre ou une expression nominale se référant à une personne, pouvant inclure tout ou partie de ses prénoms, noms de famille, titres honorifiques, noms ajoutés, etc. [13.2.1. Personal Names]
+  element persName {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.canonical.attribute.ref,
+    
+    ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
+    attribute role {
+      list {
+        (
+         ##
+         "invité"
+         | 
+           ##
+           "président"
+         | 
+           ##
+           "secrétaire"
+         | 
+           ##
+           "expéditeur"
+         | 
+           ##
+           "destinataire")+
+      }
+    }?,
+    empty
+  }
+placeName =
+  
+  ## (nom de lieu) contient un nom de lieu absolu ou relatif. [13.2.3. Place Names]
+  element placeName {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.personal.attributes,
     empty
   }
 teiHeader =
@@ -1139,52 +1324,4 @@ model.persNamePart_sequence = empty
 model.persNamePart_sequenceOptional = empty
 model.persNamePart_sequenceOptionalRepeatable = empty
 model.persNamePart_sequenceRepeatable = notAllowed
-orgName =
-  
-  ## (nom d'organisation) contient le nom d'une organisation. [13.2.2. Organizational Names]
-  element orgName {
-    macro.phraseSeq,
-    att.global.attributes,
-    att.personal.attributes,
-    empty
-  }
-persName =
-  
-  ## (nom de personne) contient un nom propre ou une expression nominale se référant à une personne, pouvant inclure tout ou partie de ses prénoms, noms de famille, titres honorifiques, noms ajoutés, etc. [13.2.1. Personal Names]
-  element persName {
-    macro.phraseSeq,
-    att.global.attributes,
-    att.canonical.attribute.ref,
-    
-    ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
-    attribute role {
-      list {
-        (
-         ##
-         "invité"
-         | 
-           ##
-           "président"
-         | 
-           ##
-           "secrétaire"
-         | 
-           ##
-           "expéditeur"
-         | 
-           ##
-           "destinataire")+
-      }
-    }?,
-    empty
-  }
-placeName =
-  
-  ## (nom de lieu) contient un nom de lieu absolu ou relatif. [13.2.3. Place Names]
-  element placeName {
-    macro.phraseSeq,
-    att.global.attributes,
-    att.personal.attributes,
-    empty
-  }
 start = TEI | teiCorpus

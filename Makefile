@@ -19,10 +19,10 @@ check:
 		$$f ; done; cd $(CURRENT);
 
 driver:
-	cp $(CORPUSHDR) driver.tei;\
+	cp $(CORPUSHDR) $(CORPUS)_driver.tei;\
 		for f in $(CORPUS)/*.xml ; do \
-		echo "<xi:include href='$$f'/>" >> driver.tei; \
-	done; echo "</teiCorpus>" >> driver.tei
+		echo "<xi:include href='$$f'/>" >> $(CORPUS)_driver.tei; \
+	done; echo "</teiCorpus>" >> $(CORPUS)_driver.tei
 
 schema: 
 	teitorelaxng --odd difdepo.odd
