@@ -55,8 +55,8 @@
             </classSpec>
             <classSpec ident="att.global" type="atts" mode="change">
                <attList>
-                  <attDef ident="xml:base" mode="delete"/>
-                  <attDef ident="xml:space" mode="delete"/>
+              <!--    <attDef ident="xml:base" mode="delete"/>
+           -->       <attDef ident="xml:space" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.typed" type="atts" mode="change">
@@ -361,7 +361,9 @@
             </elementSpec>
             
             <elementSpec ident="meeting" mode="change">
-               <classes mode="replace"/>
+               <classes mode="replace">
+                  <memberOf key="att.global"/>
+               </classes>
                <!-- remove from all model classes -->
                <content>
                   <sequence><elementRef key="date"/>
@@ -420,6 +422,15 @@
                 <alternate>  <elementRef key="bibl"/>
                   <elementRef key="p"/></alternate>
                </content>
+            </elementSpec>
+            <elementSpec ident="idno" mode="change">
+            <attList>
+               <attDef ident="type" mode="change">
+                  <valList mode="change">
+                     <valItem ident="ARK" mode="add"><desc>identifiant établi par la Bibliothèque Nationale de France</desc></valItem>
+                  </valList>
+               </attDef>         
+            </attList>
             </elementSpec>
             <elementSpec ident="change" mode="change">
                <attList>
