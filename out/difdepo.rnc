@@ -5,9 +5,9 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-04-30T20:41:45Z. .
+# Schema generated from ODD source 2017-04-30T23:49:18Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
-#	28th April 2017, revision 1eed50a
+#	31st March 2017, revision 7a1e145
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
 #
 
@@ -319,16 +319,6 @@ att.pointing.attribute.target =
   attribute target {
     list { xsd:anyURI+ }
   }?
-att.timed.attributes =
-  att.timed.attribute.start, att.timed.attribute.end
-att.timed.attribute.start =
-  
-  ## indique dans un alignement temporel (un ordre chronologique) l'endroit où commence cet élément.
-  attribute start { xsd:anyURI }?
-att.timed.attribute.end =
-  
-  ## indique l'endroit où se termine cet élément dans un alignement temporel.
-  attribute end { xsd:anyURI }?
 att.transcriptional.attributes = att.written.attributes
 model.nameLike.agent = name | orgName | persName
 model.nameLike.agent_alternation = name | orgName | persName
@@ -458,9 +448,9 @@ model.personPart =
   model.biblLike
   | model.eventLike
   | model.persStateLike
+  | idno
   | birth
   | death
-  | idno
 model.placeNamePart = placeName
 model.placeNamePart_alternation = placeName
 model.placeNamePart_sequence = placeName
@@ -499,8 +489,6 @@ model.respLike = respStmt
 model.divWrapper = notAllowed
 model.divTopPart = model.headLike
 model.divTop = model.divWrapper | model.divTopPart
-model.frontPart.drama = notAllowed
-model.pLike.front = notAllowed
 model.divBottomPart = notAllowed
 model.divBottom = model.divWrapper | model.divBottomPart
 model.addressLike = affiliation
@@ -550,7 +538,6 @@ model.global =
   | model.milestoneLike
   | model.noteLike
   | model.global.edit
-model.frontPart = model.frontPart.drama | listBibl
 model.pPart.data =
   model.dateLike
   | model.measureLike
@@ -669,7 +656,6 @@ gap =
   element gap {
     (model.descLike | model.certLike)*,
     att.global.attributes,
-    att.timed.attributes,
     
     ## donne la raison de l'omission
     ## Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 5] inaudible; 6] irrelevant; 7] sampling
@@ -698,15 +684,6 @@ gap =
            "sampling"
          | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
       }
-    }?,
-    
-    ## lorsque du texte est omis de la transcription en raison d'une suppression volontaire par une main identifiable, indique quelle est cette main.
-    attribute hand { xsd:anyURI }?,
-    
-    ## lorsque du texte est omis de la transcription en raison d'un dommage, catégorise la cause du dommage, si celle-ci peut être identifiée.
-    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
-    attribute agent {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
     empty
   }
@@ -937,6 +914,236 @@ teiCorpus =
     att.global.attributes,
     empty
   }
+teiHeader =
+  
+  ## (en-tête TEI) fournit des informations descriptives et déclaratives qui constituent une page de titre électronique au début de tout texte conforme à la TEI. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]
+  element teiHeader {
+    (fileDesc, model.teiHeaderPart*, revisionDesc?),
+    att.global.attributes,
+    empty
+  }
+fileDesc =
+  
+  ## (description bibliographique du fichier) contient une description bibliographique complète du fichier électronique. [2.2. The File Description 2.1.1. The TEI Header and Its Components]
+  element fileDesc {
+    ((titleStmt, publicationStmt), sourceDesc+),
+    att.global.attributes,
+    empty
+  }
+titleStmt =
+  
+  ## (mention de titre) regroupe les informations sur le titre d’une œuvre et les personnes ou institutions responsables de son contenu intellectuel. [2.2.1. The Title Statement 2.2. The File Description]
+  element titleStmt {
+    (title+, model.respLike*), att.global.attributes, empty
+  }
+publicationStmt =
+  
+  ## (mention de publication) regroupe des informations concernant la publication ou la diffusion d’un texte électronique ou d’un autre type de texte. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
+  element publicationStmt {
+    ((model.publicationStmtPart.agency,
+      model.publicationStmtPart.detail*)+
+     | model.pLike+),
+    att.global.attributes,
+    empty
+  }
+idno =
+  
+  ## (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique. [2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  element idno {
+    (text | model.gLike | idno)*,
+    att.global.attributes,
+    att.datable.attributes,
+    
+    ## classe un numéro dans une catégorie, par exemple comme étant un numéro ISBN ou comme appartenant une autre série normalisée.
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+    empty
+  }
+sourceDesc =
+  
+  ## (description de la source) décrit la source à partir de laquelle un texte électronique a été dérivé ou produit, habituellement une description bibliographique pour un texte numérisé, ou une expression comme "document numérique natif " pour un texte qui n'a aucune existence précédente. [2.2.7. The Source Description]
+  element sourceDesc { (bibl | p), att.global.attributes, empty }
+taxonomy =
+  
+  ## (taxinomie) définit une typologie soit implicitement au moyen d’une référence bibliographique, soit explicitement au moyen d’une taxinomie structurée. [2.3.7. The Classification Declaration]
+  element taxonomy {
+    (((taxonomy)+
+      | ((model.glossLike | model.descLike)+, (taxonomy)*))
+     | (model.biblLike, (taxonomy)*)),
+    att.global.attributes,
+    empty
+  }
+profileDesc =
+  
+  ## (description du profil) fournit une description détaillée des aspects non bibliographiques du texte, notamment les langues utilisées et leurs variantes, les circonstances de sa production, les collaborateurs et leur statut. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
+  element profileDesc {
+    model.profileDescPart*, att.global.attributes, empty
+  }
+textClass =
+  
+  ## (classification du texte) regroupe des informations décrivant la nature ou le sujet d’un texte selon des termes issus d’un système de classification standardisé, d’un thésaurus, etc. [2.4.3. The Text Classification]
+  element textClass { (keywords)*, att.global.attributes, empty }
+keywords =
+  
+  ## (mot clé) contient une liste de mots clés ou d’expressions décrivant la nature ou le sujet d’un texte. [2.4.3. The Text Classification]
+  element keywords { (term+ | \list), att.global.attributes, empty }
+revisionDesc =
+  
+  ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
+  element revisionDesc {
+    (\list | listChange | change+), att.global.attributes, empty
+  }
+change =
+  
+  ## résume une modification ou une correction apportée à une version particulière d’un texte électronique partagé entre plusieurs chercheurs. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
+  element change {
+    macro.specialPara,
+    att.ascribed.attributes,
+    att.datable.attributes,
+    att.global.attributes,
+    
+    ## points to one or more elements that belong to this change.
+    attribute target {
+      list { xsd:anyURI+ }
+    }?,
+    empty
+  }
+listChange =
+  
+  ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.7. Identifying Changes and Revisions]
+  element listChange {
+    (listChange | change)+, att.global.attributes, empty
+  }
+TEI =
+  
+  ## (document TEI) contient un seul document conforme à la TEI, qui comprend un en-tête TEI et un texte, soit de façon isolée, soit comme partie d’un élément teiCorpus. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  element TEI {
+    (teiHeader, model.resourceLike+)
+    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
+    >> sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
+    >> sch:ns [
+         prefix = "rng"
+         uri = "http://relaxng.org/ns/structure/1.0"
+       ],
+    att.global.attributes,
+    empty
+  }
+\text =
+  
+  ## (texte) contient un seul texte quelconque, simple ou composite, par exemple un poème ou une pièce de théâtre, un recueil d’essais, un roman, un dictionnaire ou un échantillon de corpus. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  element text {
+    (model.global*, (body), model.global*),
+    att.global.attributes,
+    att.written.attributes,
+    
+    ##
+    attribute type {
+      
+      ## compte rendu d'une reunion
+      "CR"
+      | 
+        ## convocation a une reunion
+        "CV"
+      | 
+        ## ordre du jour d'une reunion
+        "OJ"
+      | 
+        ## autre document
+        "AUTRE"
+    }?,
+    empty
+  }
+body =
+  
+  ## (corps du texte) contient la totalité du corps d’un seul texte simple, à l’exclusion de toute partie pré- ou post-liminaire. [4. Default Text Structure]
+  element body {
+    (model.global*,
+     (model.divTop, (model.global | model.divTop)*)?,
+     (model.divGenLike, (model.global | model.divGenLike)*)?,
+     ((model.divLike, (model.global | model.divGenLike)*)+
+      | (model.div1Like, (model.global | model.divGenLike)*)+
+      | ((model.common, model.global*)+,
+         ((model.divLike, (model.global | model.divGenLike)*)+
+          | (model.div1Like, (model.global | model.divGenLike)*)+)?)),
+     (model.divBottom, model.global*)*),
+    att.global.attributes,
+    empty
+  }
+\div =
+  
+  ## (division du texte) contient une subdivision dans le texte préliminaire, dans le corps d’un texte ou dans le texte postliminaire. [4.1. Divisions of the Body]
+  element div {
+    ((model.divTop | model.global)*,
+     ((((model.divLike | model.divGenLike), model.global*)+
+       | ((model.common, model.global*)+,
+          ((model.divLike | model.divGenLike), model.global*)*)),
+      (model.divBottom, model.global*)*)?)
+    >> sch:pattern [
+         id =
+           "difdepo-div-abstractModel-structure-l-constraint-report-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "ancestor::tei:l"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "difdepo-div-abstractModel-structure-p-constraint-report-8"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)"
+             "\x{a}" ~
+             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.divLike.attributes,
+    att.typed.attributes,
+    att.written.attributes,
+    empty
+  }
+particDesc =
+  
+  ## (description des participants) décrit les locuteurs, voix ou autres participants identifiables d'une interaction linguistique. [15.2. Contextual Information]
+  element particDesc {
+    (model.pLike+ | (model.personLike | listPerson | listOrg)+),
+    att.global.attributes,
+    empty
+  }
+settingDesc =
+  
+  ## (description du contexte) décrit le(s) contexte(s) dans lesquels se situe une interaction linguistique, soit sous la forme d'une description en prose, soit sous celle d'une série d'éléments décrivant le contexte. [15.2. Contextual Information 2.4. The Profile Description]
+  element settingDesc {
+    (model.pLike+ | (model.placeLike | listPlace)+),
+    att.global.attributes,
+    empty
+  }
 orgName =
   
   ## (nom d'organisation) contient le nom d'une organisation. [13.2.2. Organizational Names]
@@ -1104,259 +1311,6 @@ place =
      (model.placeLike | listPlace)*),
     att.global.attributes,
     att.typed.attributes,
-    empty
-  }
-teiHeader =
-  
-  ## (en-tête TEI) fournit des informations descriptives et déclaratives qui constituent une page de titre électronique au début de tout texte conforme à la TEI. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]
-  element teiHeader {
-    (fileDesc, model.teiHeaderPart*, revisionDesc?),
-    att.global.attributes,
-    empty
-  }
-fileDesc =
-  
-  ## (description bibliographique du fichier) contient une description bibliographique complète du fichier électronique. [2.2. The File Description 2.1.1. The TEI Header and Its Components]
-  element fileDesc {
-    ((titleStmt, publicationStmt), sourceDesc+),
-    att.global.attributes,
-    empty
-  }
-titleStmt =
-  
-  ## (mention de titre) regroupe les informations sur le titre d’une œuvre et les personnes ou institutions responsables de son contenu intellectuel. [2.2.1. The Title Statement 2.2. The File Description]
-  element titleStmt {
-    (title+, model.respLike*), att.global.attributes, empty
-  }
-publicationStmt =
-  
-  ## (mention de publication) regroupe des informations concernant la publication ou la diffusion d’un texte électronique ou d’un autre type de texte. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
-  element publicationStmt {
-    ((model.publicationStmtPart.agency,
-      model.publicationStmtPart.detail*)+
-     | model.pLike+),
-    att.global.attributes,
-    empty
-  }
-idno =
-  
-  ## (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique. [2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
-  element idno {
-    (text | model.gLike | idno)*,
-    att.global.attributes,
-    att.datable.attributes,
-    
-    ## classe un numéro dans une catégorie, par exemple comme étant un numéro ISBN ou comme appartenant une autre série normalisée.
-    attribute type {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-    }?,
-    empty
-  }
-sourceDesc =
-  
-  ## (description de la source) décrit la source à partir de laquelle un texte électronique a été dérivé ou produit, habituellement une description bibliographique pour un texte numérisé, ou une expression comme "document numérique natif " pour un texte qui n'a aucune existence précédente. [2.2.7. The Source Description]
-  element sourceDesc { (bibl | p), att.global.attributes, empty }
-taxonomy =
-  
-  ## (taxinomie) définit une typologie soit implicitement au moyen d’une référence bibliographique, soit explicitement au moyen d’une taxinomie structurée. [2.3.7. The Classification Declaration]
-  element taxonomy {
-    (((taxonomy)+
-      | ((model.glossLike | model.descLike)+, (taxonomy)*))
-     | (model.biblLike, (taxonomy)*)),
-    att.global.attributes,
-    empty
-  }
-profileDesc =
-  
-  ## (description du profil) fournit une description détaillée des aspects non bibliographiques du texte, notamment les langues utilisées et leurs variantes, les circonstances de sa production, les collaborateurs et leur statut. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
-  element profileDesc {
-    model.profileDescPart*, att.global.attributes, empty
-  }
-textClass =
-  
-  ## (classification du texte) regroupe des informations décrivant la nature ou le sujet d’un texte selon des termes issus d’un système de classification standardisé, d’un thésaurus, etc. [2.4.3. The Text Classification]
-  element textClass { (keywords)*, att.global.attributes, empty }
-keywords =
-  
-  ## (mot clé) contient une liste de mots clés ou d’expressions décrivant la nature ou le sujet d’un texte. [2.4.3. The Text Classification]
-  element keywords {
-    (term+ | \list),
-    att.global.attributes,
-    
-    ## désigne la liste close de mots dans lequel l'ensemble des mots-clés concernés est défini.
-    attribute scheme { xsd:anyURI }?,
-    empty
-  }
-revisionDesc =
-  
-  ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
-  element revisionDesc {
-    (\list | listChange | change+), att.global.attributes, empty
-  }
-change =
-  
-  ## résume une modification ou une correction apportée à une version particulière d’un texte électronique partagé entre plusieurs chercheurs. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
-  element change {
-    macro.specialPara,
-    att.ascribed.attributes,
-    att.datable.attributes,
-    att.global.attributes,
-    
-    ## points to one or more elements that belong to this change.
-    attribute target {
-      list { xsd:anyURI+ }
-    }?,
-    empty
-  }
-listChange =
-  
-  ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.7. Identifying Changes and Revisions]
-  element listChange {
-    (listChange | change)+, att.global.attributes, empty
-  }
-TEI =
-  
-  ## (document TEI) contient un seul document conforme à la TEI, qui comprend un en-tête TEI et un texte, soit de façon isolée, soit comme partie d’un élément teiCorpus. [4. Default Text Structure 15.1. Varieties of Composite Text]
-  element TEI {
-    (teiHeader, model.resourceLike+)
-    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
-    >> sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
-    >> sch:ns [
-         prefix = "rng"
-         uri = "http://relaxng.org/ns/structure/1.0"
-       ],
-    att.global.attributes,
-    empty
-  }
-\text =
-  
-  ## (texte) contient un seul texte quelconque, simple ou composite, par exemple un poème ou une pièce de théâtre, un recueil d’essais, un roman, un dictionnaire ou un échantillon de corpus. [4. Default Text Structure 15.1. Varieties of Composite Text]
-  element text {
-    (model.global*, (front, model.global*)?, (body), model.global*),
-    att.global.attributes,
-    att.written.attributes,
-    
-    ##
-    attribute type {
-      
-      ## compte rendu d'une reunion
-      "CR"
-      | 
-        ## convocation a une reunion
-        "CV"
-      | 
-        ## ordre du jour d'une reunion
-        "OJ"
-      | 
-        ## autre document
-        "AUTRE"
-    }?,
-    empty
-  }
-body =
-  
-  ## (corps du texte) contient la totalité du corps d’un seul texte simple, à l’exclusion de toute partie pré- ou post-liminaire. [4. Default Text Structure]
-  element body {
-    (model.global*,
-     (model.divTop, (model.global | model.divTop)*)?,
-     (model.divGenLike, (model.global | model.divGenLike)*)?,
-     ((model.divLike, (model.global | model.divGenLike)*)+
-      | (model.div1Like, (model.global | model.divGenLike)*)+
-      | ((model.common, model.global*)+,
-         ((model.divLike, (model.global | model.divGenLike)*)+
-          | (model.div1Like, (model.global | model.divGenLike)*)+)?)),
-     (model.divBottom, model.global*)*),
-    att.global.attributes,
-    empty
-  }
-\div =
-  
-  ## (division du texte) contient une subdivision dans le texte préliminaire, dans le corps d’un texte ou dans le texte postliminaire. [4.1. Divisions of the Body]
-  element div {
-    ((model.divTop | model.global)*,
-     ((((model.divLike | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.divLike | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?)
-    >> sch:pattern [
-         id =
-           "difdepo-div-abstractModel-structure-l-constraint-report-7"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:div"
-           "\x{a}" ~
-           "               "
-           sch:report [
-             test = "ancestor::tei:l"
-             "\x{a}" ~
-             "        Abstract model violation: Lines may not contain higher-level structural elements such as div.\x{a}" ~
-             "      "
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ]
-    >> sch:pattern [
-         id =
-           "difdepo-div-abstractModel-structure-p-constraint-report-8"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:div"
-           "\x{a}" ~
-           "               "
-           sch:report [
-             test =
-               "ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)"
-             "\x{a}" ~
-             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div.\x{a}" ~
-             "      "
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ],
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.written.attributes,
-    empty
-  }
-front =
-  
-  ## (texte préliminaire) contient tout ce qui est au début du document, avant le corps du texte : page de titre, dédicaces, préfaces, etc. [4.6. Title Pages 4. Default Text Structure]
-  element front {
-    ((model.frontPart
-      | model.pLike
-      | model.pLike.front
-      | model.global)*,
-     (((model.div1Like,
-        (model.div1Like | model.frontPart | model.global)*)
-       | (model.divLike,
-          (model.divLike | model.frontPart | model.global)*)),
-      (model.divBottom, (model.divBottom | model.global)*)?)?),
-    att.global.attributes,
-    empty
-  }
-particDesc =
-  
-  ## (description des participants) décrit les locuteurs, voix ou autres participants identifiables d'une interaction linguistique. [15.2. Contextual Information]
-  element particDesc {
-    (model.pLike+ | (model.personLike | listPerson | listOrg)+),
-    att.global.attributes,
-    empty
-  }
-settingDesc =
-  
-  ## (description du contexte) décrit le(s) contexte(s) dans lesquels se situe une interaction linguistique, soit sous la forme d'une description en prose, soit sous celle d'une série d'éléments décrivant le contexte. [15.2. Contextual Information 2.4. The Profile Description]
-  element settingDesc {
-    (model.pLike+ | (model.placeLike | listPlace)+),
-    att.global.attributes,
     empty
   }
 model.persNamePart = notAllowed
