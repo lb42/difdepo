@@ -31,14 +31,16 @@
             <classSpec type="atts" ident="att.declaring" mode="delete"/>
             <classSpec type="atts" ident="att.global.linking" mode="delete"/>
             <classSpec type="atts" ident="att.declarable" mode="delete"/>
+            <classSpec type="atts" ident="att.datable.iso" mode="delete"/>
+            <classSpec type="atts" ident="att.datable.custom" mode="delete"/>           
             <classSpec type="atts" ident="att.editLike" mode="delete"/>
             <classSpec type="atts" ident="att.datcat" mode="delete"/>
             <classSpec type="atts" ident="att.cReferencing" mode="delete"/>
             <classSpec type="atts" ident="att.docStatus" mode="delete"/>
-            <classSpec type="atts" ident="att.breaking" mode="delete"/>           
+            <classSpec type="atts" ident="att.breaking" mode="delete"/>
             <classSpec type="atts" ident="att.edition" mode="delete"/>
             <classSpec type="atts" ident="att.sortable" mode="delete"/>
-            <classSpec type="atts" ident="att.spanning" mode="delete"/>           
+            <classSpec type="atts" ident="att.spanning" mode="delete"/>
             <classSpec type="atts" ident="att.global.source" mode="delete"/>
             <classSpec type="atts" ident="att.internetMedia" mode="delete"/>
             <classSpec ident="att.pointing" type="atts" mode="change">
@@ -55,14 +57,15 @@
             </classSpec>
             <classSpec ident="att.global" type="atts" mode="change">
                <attList>
-              <!--    <attDef ident="xml:base" mode="delete"/>
-           -->       <attDef ident="xml:space" mode="delete"/>
+                  <!--    <attDef ident="xml:base" mode="delete"/>
+           -->
+                  <attDef ident="xml:space" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.typed" type="atts" mode="change">
                <attList>
                   <attDef ident="subtype" mode="delete"/>
-                 </attList>
+               </attList>
             </classSpec>
             <!-- remove from typed: TEI  change date lb list listChange orgName pb persName placeName ref teiCorpus term -->
             <elementSpec ident="date" mode="change">
@@ -81,7 +84,7 @@
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
-          
+
             <elementSpec ident="pb" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -90,10 +93,10 @@
             <elementSpec ident="persName" mode="change">
                <classes mode="change">
                   <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="att.typed" mode="delete"/>                
+                  <memberOf key="att.typed" mode="delete"/>
                </classes>
             </elementSpec>
-           
+
             <elementSpec ident="ref" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -114,6 +117,8 @@
             <elementSpec ident="name" mode="change">
                <classes mode="change">
                   <memberOf key="att.datable" mode="delete"/>
+                  <memberOf key="model.personPart" mode="delete"/>
+                  <!-- only persName is permitted inside person -->
                </classes>
             </elementSpec>
             <elementSpec ident="resp" mode="change">
@@ -133,29 +138,31 @@
                   <attDef ident="period" mode="delete"/>
                </attList>
             </classSpec>
-            
+
             <classSpec ident="att.divLike" type="atts" mode="change">
                <attList>
                   <attDef ident="org" mode="delete"/>
                   <attDef ident="sample" mode="delete"/>
                </attList>
             </classSpec>
-          
+
             <classSpec ident="att.naming" type="atts" mode="change">
                <attList>
                   <attDef ident="nymRef" mode="delete"/>
-               </attList>              
-            </classSpec> 
-            
+               </attList>
+            </classSpec>
+
             <!--Checking module namesdates-->
             <classRef key="model.persNamePart"/>
-           
-           <moduleRef key="namesdates" include="orgName persName placeName"/>        
-           
+
+            <moduleRef key="namesdates"
+               include="orgName persName placeName listPerson person affiliation birth death 
+              listOrg org listPlace place"/>
+
             <elementSpec ident="orgName" mode="change">
                <classes mode="change">
                   <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="att.typed" mode="delete"/>                
+                  <memberOf key="att.typed" mode="delete"/>
                </classes>
                <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -164,8 +171,8 @@
                   </egXML>
                </exemplum>
             </elementSpec>
-            
-               <elementSpec ident="persName" mode="change">
+
+            <elementSpec ident="persName" mode="change">
                <attList>
                   <attDef ident="role" mode="change">
                      <valList mode="add" type="closed">
@@ -185,14 +192,14 @@
                            <persName>José de la Collina</persName>.</p></egXML>
                </exemplum>
             </elementSpec>
-            
+
             <elementSpec ident="placeName" mode="change">
                <classes mode="change">
                   <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="att.typed" mode="delete"/>                
+                  <memberOf key="att.typed" mode="delete"/>
                </classes>
             </elementSpec>
-           
+
             <!--Checking module dictionaries-->
             <!--Checking module tagdocs-->
             <macroRef key="macro.anyXML"/>
@@ -201,7 +208,7 @@
             <classRef key="model.contentPart"/>
             <classSpec ident="att.combinable" type="atts" mode="delete"/>
                -->
-         <!--   <classSpec ident="att.identified" type="atts" mode="change">
+            <!--   <classSpec ident="att.identified" type="atts" mode="change">
                <attList>
                   <attDef ident="ident" mode="delete"/>
                   <attDef ident="predeclare" mode="delete"/>
@@ -215,7 +222,7 @@
                   <!-- wise? -->
                </attList>
             </classSpec>
-        <!--    <classSpec ident="att.dimensions" type="atts" mode="change">
+            <!--    <classSpec ident="att.dimensions" type="atts" mode="change">
                <attList>
                   <attDef ident="unit" mode="delete"/>
                   <attDef ident="quantity" mode="delete"/>
@@ -224,7 +231,7 @@
                   <attDef ident="scope" mode="delete"/>
                </attList>
             </classSpec>-->
-         <!--   
+            <!--   
           
             <classSpec ident="att.damaged" type="atts" mode="change">
                <attList>
@@ -234,7 +241,7 @@
                   <attDef ident="group" mode="delete"/>
                </attList>
             </classSpec>
-       -->     
+       -->
             <!--<classSpec ident="att.editLike" type="atts" mode="change">
                <attList>
                   <attDef ident="evidence" mode="delete"/>
@@ -248,15 +255,15 @@
                   <attDef ident="scale" mode="delete"/>
                </attList>
             </classSpec>-->
-          <!--  
+            <!--  
             <classSpec ident="att.interpLike" type="atts" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
                   <attDef ident="inst" mode="delete"/>
                </attList>
             </classSpec>-->
-            
-           <!-- <classSpec ident="att.pointing.group" type="atts" mode="change">
+
+            <!-- <classSpec ident="att.pointing.group" type="atts" mode="change">
                <attList>
                   <attDef ident="domains" mode="delete"/>
                   <attDef ident="targFunc" mode="delete"/>
@@ -273,7 +280,7 @@
                   <attDef ident="end" mode="delete"/>
                </attList>
             </classSpec>-->
-            
+
             <classSpec ident="att.transcriptional" type="atts" mode="change">
                <attList>
                   <attDef ident="hand" mode="delete"/>
@@ -282,7 +289,7 @@
                   <attDef ident="seq" mode="delete"/>
                </attList>
             </classSpec>
-            
+
             <classSpec ident="att.personal" type="atts" mode="change">
                <attList>
                   <attDef ident="full" mode="delete"/>
@@ -291,19 +298,22 @@
             </classSpec>
             <!--Checking module core-->
             <moduleRef key="core"
-               include="p hi term unclear del name date ref label lb pb respStmt resp teiCorpus title bibl meeting list item note gap"/>
+               include="p hi term unclear del name date ref label lb  listBibl pb respStmt resp teiCorpus title bibl meeting list item note gap"/>
             <elementSpec ident="bibl" mode="change">
-               <classes mode="change">
+              <classes mode="change">
                   <memberOf key="model.biblLike" mode="delete"/>
                </classes>
                <content>
-                 <alternate><textNode/><sequence> 
-                   <elementRef key="idno" maxOccurs="unbounded" minOccurs="0"/>
                   <alternate>
-                     <elementRef key="meeting"/>
-                     <elementRef key="title"/>
-                   </alternate>
-                 </sequence></alternate>
+                     <textNode/>
+                     <sequence>
+                        <elementRef key="idno" maxOccurs="unbounded" minOccurs="0"/>
+                        <alternate>
+                           <elementRef key="meeting"/>
+                           <elementRef key="title"/>
+                        </alternate>
+                     </sequence>
+                  </alternate>
                </content>
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -314,13 +324,14 @@
                               type="present">
                               <item><persName ref="#FLL"/></item>
                               <item><persName ref="#HM"
-                     /></item></list></meeting></bibl><bibl/></egXML>
+                     /></item></list></meeting></bibl></egXML>
                </exemplum>
                <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples"><bibl><idno type="cote">DM-4
                            (9)</idno>
                         <title>Compte rendu autographe(s) de Paul Fournel de la réunion du 3
-                           novembre (<ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10010200q"/>)</title></bibl></egXML>
+                           novembre (<ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10010200q"
+                           />)</title></bibl></egXML>
                </exemplum>
                <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -329,7 +340,7 @@
                </exemplum>
             </elementSpec>
             <elementSpec ident="term" mode="change">
-               
+
                <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples"><p><label type="locuteur"
                            >CB</label> : <term>poèmes numériques</term> de <persName>Bobby
@@ -359,18 +370,20 @@
                   </egXML>
                </exemplum>
             </elementSpec>
-            
+
             <elementSpec ident="meeting" mode="change">
                <classes mode="replace">
                   <memberOf key="att.global"/>
                </classes>
                <!-- remove from all model classes -->
                <content>
-                  <sequence><elementRef key="date"/>
-                  <elementRef key="placeName" minOccurs="0"/>
-                  <elementRef key="list"/></sequence>
+                  <sequence>
+                     <elementRef key="date"/>
+                     <elementRef key="placeName" minOccurs="0"/>
+                     <elementRef key="list"/>
+                  </sequence>
                </content>
-                   <exemplum>
+               <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
                      <bibl><meeting><date when="1977-03-11"/><placeName>chez FLL</placeName><list
                               type="present"><item><persName ref="#FLL"/><persName ref="#HM"
@@ -392,7 +405,7 @@
             <elementSpec ident="name" mode="change">
                <attList>
                   <attDef ident="role" mode="delete"/>
-                </attList>
+               </attList>
             </elementSpec>
             <elementSpec ident="respStmt" mode="change">
                <attList>
@@ -407,11 +420,12 @@
             <elementSpec ident="title" mode="change">
                <attList>
                   <attDef ident="level" mode="delete"/>
-                </attList>
+               </attList>
             </elementSpec>
             <!--Checking module header-->
             <moduleRef key="header"
-               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc revisionDesc listChange change idno"/>
+               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc 
+               profileDesc textClass taxonomy keywords revisionDesc listChange change idno"/>
             <elementSpec ident="teiHeader" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -419,18 +433,22 @@
             </elementSpec>
             <elementSpec ident="sourceDesc" mode="change">
                <content>
-                <alternate>  <elementRef key="bibl"/>
-                  <elementRef key="p"/></alternate>
+                  <alternate>
+                     <elementRef key="bibl"/>
+                     <elementRef key="p"/>
+                  </alternate>
                </content>
             </elementSpec>
             <elementSpec ident="idno" mode="change">
-            <attList>
-               <attDef ident="type" mode="change">
-                  <valList mode="change">
-                     <valItem ident="ARK" mode="add"><desc>identifiant établi par la Bibliothèque Nationale de France</desc></valItem>
-                  </valList>
-               </attDef>         
-            </attList>
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="change">
+                        <valItem ident="ARK" mode="add">
+                           <desc>identifiant établi par la Bibliothèque Nationale de France</desc>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
             </elementSpec>
             <elementSpec ident="change" mode="change">
                <attList>
@@ -457,43 +475,55 @@
                   <attDef ident="version" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
-            
-            <exemplum xml:lang="fr">
-               <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010004-1961-01-cr-v">
-                     <teiHeader>
-                        <fileDesc>
-                           <titleStmt>
-                              <title>Transcription du scan 10010004 pp. 2 à 5 (CR) : version TEI</title>
-                             <!-- ... -->
-                           </titleStmt>
-                           
-                           <publicationStmt>
-                              <p>Edition numérique distribué par le projet ANR DifDePo</p>
-                           </publicationStmt>
-                           <sourceDesc>
-                              <bibl>
-                                <!-- ... -->
-                              </bibl>
-                           </sourceDesc>
-                        </fileDesc>
-                        
-                        <revisionDesc>
-                           <listChange>
-                              <change when="2016-08-04T12:46:32Z">Oulipo specific tags added</change>                           
-                           </listChange>
-                        </revisionDesc>
-                     </teiHeader>
-                     <text type="CR">
-                        <body>
-                           <pb xml:id="p2" n="2"/>
-                           <p><!-- ... --> </p>
-                        </body></text></TEI>
-               </egXML>
-            </exemplum>
+
+               <exemplum xml:lang="fr">
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010004-1961-01-cr-v">
+                        <teiHeader>
+                           <fileDesc>
+                              <titleStmt>
+                                 <title>Transcription du scan 10010004 pp. 2 à 5 (CR) : version
+                                    TEI</title>
+                                 <!-- ... -->
+                              </titleStmt>
+
+                              <publicationStmt>
+                                 <p>Edition numérique distribué par le projet ANR DifDePo</p>
+                              </publicationStmt>
+                              <sourceDesc>
+                                 <bibl>
+                                    <!-- ... -->
+                                 </bibl>
+                              </sourceDesc>
+                           </fileDesc>
+
+                           <revisionDesc>
+                              <listChange>
+                                 <change when="2016-08-04T12:46:32Z">Oulipo specific tags
+                                    added</change>
+                              </listChange>
+                           </revisionDesc>
+                        </teiHeader>
+                        <text type="CR">
+                           <body>
+                              <pb xml:id="p2" n="2"/>
+                              <p><!-- ... -->
+                              </p>
+                           </body>
+                        </text>
+                     </TEI>
+                  </egXML>
+               </exemplum>
             </elementSpec>
-            
-            
+
+            <elementSpec ident="listBibl" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.profileDescPart"/>
+               </classes>
+               <content>
+                  <elementRef key="bibl" minOccurs="1" maxOccurs="unbounded"/>
+               </content>
+            </elementSpec>
             <elementSpec ident="text" mode="change">
                <attList>
                   <attDef ident="type" mode="replace">
@@ -515,7 +545,7 @@
                </attList>
             </elementSpec>
             <!--Checking module corpus-->
-            <moduleRef key="corpus" include="particDesc"/>
+            <moduleRef key="corpus" include="particDesc settingDesc"/>
          </schemaSpec>
       </body>
    </text>

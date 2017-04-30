@@ -5,9 +5,9 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-04-29T19:55:01Z. .
+# Schema generated from ODD source 2017-04-30T20:41:45Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
-#	31st March 2017, revision 7a1e145
+#	28th April 2017, revision 1eed50a
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
 #
 
@@ -175,10 +175,7 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
-att.datable.attributes =
-  att.datable.w3c.attributes,
-  att.datable.iso.attributes,
-  att.datable.custom.attributes
+att.datable.attributes = att.datable.w3c.attributes
 att.fragmentable.attributes = att.fragmentable.attribute.part
 att.fragmentable.attribute.part =
   
@@ -406,12 +403,12 @@ model.oddDecl_sequenceOptionalRepeatable = empty
 model.oddDecl_sequenceRepeatable = notAllowed
 model.phrase.xml = notAllowed
 model.specDescLike = notAllowed
-model.biblLike = notAllowed
-model.biblLike_alternation = notAllowed
-model.biblLike_sequence = empty
-model.biblLike_sequenceOptional = empty
-model.biblLike_sequenceOptionalRepeatable = empty
-model.biblLike_sequenceRepeatable = notAllowed
+model.biblLike = listBibl
+model.biblLike_alternation = listBibl
+model.biblLike_sequence = listBibl
+model.biblLike_sequenceOptional = listBibl?
+model.biblLike_sequenceOptionalRepeatable = listBibl*
+model.biblLike_sequenceRepeatable = listBibl+
 model.headLike = notAllowed
 model.headLike_alternation = notAllowed
 model.headLike_sequence = empty
@@ -424,12 +421,15 @@ model.labelLike_sequence = label
 model.labelLike_sequenceOptional = label?
 model.labelLike_sequenceOptionalRepeatable = label*
 model.labelLike_sequenceRepeatable = label+
-model.listLike = \list
-model.listLike_alternation = \list
-model.listLike_sequence = \list
-model.listLike_sequenceOptional = \list?
-model.listLike_sequenceOptionalRepeatable = \list*
-model.listLike_sequenceRepeatable = \list+
+model.listLike = \list | listOrg | listPerson | listPlace
+model.listLike_alternation = \list | listOrg | listPerson | listPlace
+model.listLike_sequence = \list, listOrg, listPerson, listPlace
+model.listLike_sequenceOptional =
+  \list?, listOrg?, listPerson?, listPlace?
+model.listLike_sequenceOptionalRepeatable =
+  \list*, listOrg*, listPerson*, listPlace*
+model.listLike_sequenceRepeatable =
+  \list+, listOrg+, listPerson+, listPlace+
 model.noteLike = note
 model.lLike = notAllowed
 model.lLike_alternation = notAllowed
@@ -449,8 +449,18 @@ model.stageLike_sequence = empty
 model.stageLike_sequenceOptional = empty
 model.stageLike_sequenceOptionalRepeatable = empty
 model.stageLike_sequenceRepeatable = notAllowed
+model.eventLike = notAllowed
 model.global.edit = gap
 model.divPart = model.lLike | model.pLike
+model.persStateLike = persName | affiliation
+model.personLike = org | person
+model.personPart =
+  model.biblLike
+  | model.eventLike
+  | model.persStateLike
+  | birth
+  | death
+  | idno
 model.placeNamePart = placeName
 model.placeNamePart_alternation = placeName
 model.placeNamePart_sequence = placeName
@@ -466,10 +476,12 @@ model.placeStateLike_sequenceOptionalRepeatable =
   model.placeNamePart_sequenceOptionalRepeatable*
 model.placeStateLike_sequenceRepeatable =
   model.placeNamePart_sequenceRepeatable+
+model.orgPart = model.eventLike | listOrg | listPerson | listPlace
 model.publicationStmtPart.agency = notAllowed
 model.publicationStmtPart.detail = date | idno
 model.certLike = notAllowed
 model.descLike = notAllowed
+model.glossLike = notAllowed
 model.quoteLike = notAllowed
 model.quoteLike_alternation = notAllowed
 model.quoteLike_sequence = empty
@@ -491,12 +503,12 @@ model.frontPart.drama = notAllowed
 model.pLike.front = notAllowed
 model.divBottomPart = notAllowed
 model.divBottom = model.divWrapper | model.divBottomPart
-model.addressLike = notAllowed
-model.addressLike_alternation = notAllowed
-model.addressLike_sequence = empty
-model.addressLike_sequenceOptional = empty
-model.addressLike_sequenceOptionalRepeatable = empty
-model.addressLike_sequenceRepeatable = notAllowed
+model.addressLike = affiliation
+model.addressLike_alternation = affiliation
+model.addressLike_sequence = affiliation
+model.addressLike_sequenceOptional = affiliation?
+model.addressLike_sequenceOptionalRepeatable = affiliation*
+model.addressLike_sequenceRepeatable = affiliation+
 model.nameLike =
   model.nameLike.agent
   | model.offsetLike
@@ -538,7 +550,7 @@ model.global =
   | model.milestoneLike
   | model.noteLike
   | model.global.edit
-model.frontPart = model.frontPart.drama
+model.frontPart = model.frontPart.drama | listBibl
 model.pPart.data =
   model.dateLike
   | model.measureLike
@@ -575,9 +587,11 @@ model.limitedPhrase =
 model.divLike = \div
 model.divGenLike = notAllowed
 model.div1Like = notAllowed
-model.teiHeaderPart = notAllowed
+model.teiHeaderPart = profileDesc
+model.profileDescPart = listBibl | textClass | particDesc | settingDesc
 model.resourceLike = \text
 att.personal.attributes = att.naming.attributes
+model.placeLike = place
 p =
   
   ## (paragraphe) marque les paragraphes dans un texte en prose. [3.1. Paragraphs 7.2.5. Speech Contents]
@@ -907,6 +921,12 @@ bibl =
     att.global.attributes,
     empty
   }
+listBibl =
+  
+  ## (liste de références bibliographiques) contient une liste de références bibliographiques de toute nature. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
+  element listBibl {
+    bibl+, att.global.attributes, att.typed.attributes, empty
+  }
 teiCorpus =
   
   ## contient la totalité d'un corpus encodé selon la TEI, comprenant un seul en-tête de corpus et un ou plusieurs éléments TEI dont chacun contient un seul en-tête textuel et un texte. [4. Default Text Structure 15.1. Varieties of Composite Text]
@@ -917,138 +937,6 @@ teiCorpus =
     att.global.attributes,
     empty
   }
-att.datable.custom.attributes =
-  att.datable.custom.attribute.when-custom,
-  att.datable.custom.attribute.notBefore-custom,
-  att.datable.custom.attribute.notAfter-custom,
-  att.datable.custom.attribute.from-custom,
-  att.datable.custom.attribute.to-custom,
-  att.datable.custom.attribute.datingPoint,
-  att.datable.custom.attribute.datingMethod
-att.datable.custom.attribute.when-custom =
-  
-  ## supplies the value of a date or time in some custom standard form.
-  attribute when-custom {
-    list {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
-    }
-  }?
-att.datable.custom.attribute.notBefore-custom =
-  
-  ## specifies the earliest possible date for the event in some custom standard form.
-  attribute notBefore-custom {
-    list {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
-    }
-  }?
-att.datable.custom.attribute.notAfter-custom =
-  
-  ## specifies the latest possible date for the event in some custom standard form.
-  attribute notAfter-custom {
-    list {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
-    }
-  }?
-att.datable.custom.attribute.from-custom =
-  
-  ## indicates the starting point of the period in some custom standard form.
-  attribute from-custom {
-    list {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
-    }
-  }?
-att.datable.custom.attribute.to-custom =
-  
-  ## indicates the ending point of the period in some custom standard form.
-  attribute to-custom {
-    list {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
-    }
-  }?
-att.datable.custom.attribute.datingPoint =
-  
-  ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
-  attribute datingPoint { xsd:anyURI }?
-att.datable.custom.attribute.datingMethod =
-  
-  ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.
-  attribute datingMethod { xsd:anyURI }?
-att.datable.iso.attributes =
-  att.datable.iso.attribute.when-iso,
-  att.datable.iso.attribute.notBefore-iso,
-  att.datable.iso.attribute.notAfter-iso,
-  att.datable.iso.attribute.from-iso,
-  att.datable.iso.attribute.to-iso
-att.datable.iso.attribute.when-iso =
-  
-  ## précise une date exacte pour l'évènement selon la forme normalisée ISO 8601, c'est-à-dire aaaa-mm-jj.
-  attribute when-iso {
-    xsd:date
-    | xsd:gYear
-    | xsd:gMonth
-    | xsd:gDay
-    | xsd:gYearMonth
-    | xsd:gMonthDay
-    | xsd:time
-    | xsd:dateTime
-    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
-  }?
-att.datable.iso.attribute.notBefore-iso =
-  
-  ## précise la première date possible pour l'évènement selon la forme normalisée, c'est-à-dire aaaa-mm-jj.
-  attribute notBefore-iso {
-    xsd:date
-    | xsd:gYear
-    | xsd:gMonth
-    | xsd:gDay
-    | xsd:gYearMonth
-    | xsd:gMonthDay
-    | xsd:time
-    | xsd:dateTime
-    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
-  }?
-att.datable.iso.attribute.notAfter-iso =
-  
-  ## précise la dernière date possible pour l'évènement selon la forme normalisée, c'est-à-dire aaaa-mm-jj.
-  attribute notAfter-iso {
-    xsd:date
-    | xsd:gYear
-    | xsd:gMonth
-    | xsd:gDay
-    | xsd:gYearMonth
-    | xsd:gMonthDay
-    | xsd:time
-    | xsd:dateTime
-    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
-  }?
-att.datable.iso.attribute.from-iso =
-  
-  ## Indique le point de départ de la période sous une forme normalisée
-  attribute from-iso {
-    xsd:date
-    | xsd:gYear
-    | xsd:gMonth
-    | xsd:gDay
-    | xsd:gYearMonth
-    | xsd:gMonthDay
-    | xsd:time
-    | xsd:dateTime
-    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
-  }?
-att.datable.iso.attribute.to-iso =
-  
-  ## Indique le point final de la période sous une forme normalisée
-  attribute to-iso {
-    xsd:date
-    | xsd:gYear
-    | xsd:gMonth
-    | xsd:gDay
-    | xsd:gYearMonth
-    | xsd:gMonthDay
-    | xsd:time
-    | xsd:dateTime
-    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
-  }?
 orgName =
   
   ## (nom d'organisation) contient le nom d'une organisation. [13.2.2. Organizational Names]
@@ -1095,6 +983,127 @@ placeName =
     macro.phraseSeq,
     att.global.attributes,
     att.personal.attributes,
+    empty
+  }
+affiliation =
+  
+  ## (affiliation) contient une description non formalisée portant sur l'affiliation présente ou passée d'une personne à une organisation, par exemple un employeur ou un sponsor. [15.2.2. The Participant Description]
+  element affiliation {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.datable.attributes,
+    att.naming.attributes,
+    empty
+  }
+birth =
+  
+  ## (naissance) contient des informations sur la naissance d'une personne, comme la date et le lieu [15.2.2. The Participant Description]
+  element birth {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.datable.attributes,
+    att.naming.attributes,
+    empty
+  }
+death =
+  
+  ## (décès) contient des informations sur le décès d'une personne, comme la date et le lieu. [15.2.2. The Participant Description]
+  element death {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.datable.attributes,
+    att.naming.attributes,
+    empty
+  }
+listOrg =
+  
+  ## (liste d'organisations) contient une liste d'éléments, chacun d'eux fournissant des informations sur une organisation identifiable. [13.2.2. Organizational Names]
+  element listOrg {
+    (model.headLike*, (org | listOrg)+, empty*),
+    att.global.attributes,
+    att.typed.attributes,
+    empty
+  }
+listPerson =
+  
+  ## (liste de personnes) contient une liste d'éléments, chacun d'entre eux apportant des informations sur une personne précise ou sur un groupe de personnes, par exemple les participants à une interaction linguistique, ou les personnes citées dans une source historique. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]
+  element listPerson {
+    (model.headLike*, (model.personLike | listPerson)+, empty*),
+    att.global.attributes,
+    att.typed.attributes,
+    empty
+  }
+listPlace =
+  
+  ## (liste de lieux) contient une liste de lieux, qui peut être suivie d'une liste de relations définies entre les lieux (autres que la relation d'inclusion). [2.2.7. The Source Description 13.3.4. Places]
+  element listPlace {
+    (model.headLike*, (model.placeLike | listPlace)+, empty*),
+    att.global.attributes,
+    att.typed.attributes,
+    empty
+  }
+org =
+  
+  ## (organisation) fournit des informations sur une organisation identifiable, telle qu'une entreprise, une tribu ou tout autre groupement de personnes. [13.2.2. Organizational Names]
+  element org {
+    (model.headLike*,
+     (model.pLike*
+      | (model.labelLike
+         | model.nameLike
+         | model.placeLike
+         | model.orgPart
+         | model.milestoneLike)*),
+     (model.noteLike | model.biblLike)*,
+     model.personLike*),
+    att.global.attributes,
+    att.typed.attributes,
+    
+    ## spécifie le rôle principal ou la catégorie d'une organisation.
+    attribute role {
+      list {
+        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+      }
+    }?,
+    empty
+  }
+person =
+  
+  ## (personne) fournit des informations sur un individu identifiable, par exemple un participant à une interaction linguistique, ou une personne citée dans une source historique. [13.3.2. The Person Element 15.2.2. The Participant Description]
+  element person {
+    (model.pLike+ | (model.personPart | model.global)*),
+    att.global.attributes,
+    
+    ## précise un rôle principal ou une classification principale pour cette personne.
+    attribute role {
+      list {
+        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+      }
+    }?,
+    
+    ## précise le sexe de la personne.
+    attribute sex {
+      list {
+        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+      }
+    }?,
+    
+    ## précise une tranche d'âge pour la personne.
+    attribute age {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+    empty
+  }
+place =
+  
+  ## (lieu) contient des informations sur un lieu géographique. [13.3.4. Places]
+  element place {
+    (model.headLike*,
+     (model.pLike*
+      | (model.labelLike | model.placeStateLike | model.eventLike)*),
+     (model.noteLike | model.biblLike | idno)*,
+     (model.placeLike | listPlace)*),
+    att.global.attributes,
+    att.typed.attributes,
     empty
   }
 teiHeader =
@@ -1147,6 +1156,37 @@ sourceDesc =
   
   ## (description de la source) décrit la source à partir de laquelle un texte électronique a été dérivé ou produit, habituellement une description bibliographique pour un texte numérisé, ou une expression comme "document numérique natif " pour un texte qui n'a aucune existence précédente. [2.2.7. The Source Description]
   element sourceDesc { (bibl | p), att.global.attributes, empty }
+taxonomy =
+  
+  ## (taxinomie) définit une typologie soit implicitement au moyen d’une référence bibliographique, soit explicitement au moyen d’une taxinomie structurée. [2.3.7. The Classification Declaration]
+  element taxonomy {
+    (((taxonomy)+
+      | ((model.glossLike | model.descLike)+, (taxonomy)*))
+     | (model.biblLike, (taxonomy)*)),
+    att.global.attributes,
+    empty
+  }
+profileDesc =
+  
+  ## (description du profil) fournit une description détaillée des aspects non bibliographiques du texte, notamment les langues utilisées et leurs variantes, les circonstances de sa production, les collaborateurs et leur statut. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
+  element profileDesc {
+    model.profileDescPart*, att.global.attributes, empty
+  }
+textClass =
+  
+  ## (classification du texte) regroupe des informations décrivant la nature ou le sujet d’un texte selon des termes issus d’un système de classification standardisé, d’un thésaurus, etc. [2.4.3. The Text Classification]
+  element textClass { (keywords)*, att.global.attributes, empty }
+keywords =
+  
+  ## (mot clé) contient une liste de mots clés ou d’expressions décrivant la nature ou le sujet d’un texte. [2.4.3. The Text Classification]
+  element keywords {
+    (term+ | \list),
+    att.global.attributes,
+    
+    ## désigne la liste close de mots dans lequel l'ensemble des mots-clés concernés est défini.
+    attribute scheme { xsd:anyURI }?,
+    empty
+  }
 revisionDesc =
   
   ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
@@ -1300,6 +1340,22 @@ front =
        | (model.divLike,
           (model.divLike | model.frontPart | model.global)*)),
       (model.divBottom, (model.divBottom | model.global)*)?)?),
+    att.global.attributes,
+    empty
+  }
+particDesc =
+  
+  ## (description des participants) décrit les locuteurs, voix ou autres participants identifiables d'une interaction linguistique. [15.2. Contextual Information]
+  element particDesc {
+    (model.pLike+ | (model.personLike | listPerson | listOrg)+),
+    att.global.attributes,
+    empty
+  }
+settingDesc =
+  
+  ## (description du contexte) décrit le(s) contexte(s) dans lesquels se situe une interaction linguistique, soit sous la forme d'une description en prose, soit sous celle d'une série d'éléments décrivant le contexte. [15.2. Contextual Information 2.4. The Profile Description]
+  element settingDesc {
+    (model.pLike+ | (model.placeLike | listPlace)+),
     att.global.attributes,
     empty
   }
