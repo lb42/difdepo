@@ -17,6 +17,64 @@
   <text>
     <body>
       <div>
+        <head>Text structure</head>
+        <p>Each transcribed document is represented by a <gi>text</gi> element, containing a
+            <gi>body</gi>. The schema allows for hierarchic divisions of this body to be indicated
+          by <gi>div</gi> elements, but this has not yet been used by the majority of transcribed
+          documents.</p>
+        <p>The transcribed texts use the TEI <gi>p</gi> element for any block of text, including
+          some list items and (occasionally) headings. However, the following elements are also
+          available for use, and should be preferred where possible: <specList>
+            <specDesc key="label"/>
+            <specDesc key="list"/>
+            <specDesc key="item"/>
+          </specList>
+        </p>
+        <p>Page breaks are recorded by means of the <gi>pb</gi> element, which appears at the start
+          of each new page. A similar element <gi>lb</gi> is available to mark places where
+          lineation is considered important. <specList>
+            <specDesc key="pb"/>
+            <specDesc key="lb"/>
+          </specList></p>
+        <p>Lineation is retained in the following example
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"><p rend="incipit">Excusés: <persName ref="#JB">Bens</persName>, <persName ref="#AB">Blavier</persName>, <persName ref="#JQ">Queval</persName> et <unclear>paulets?? <persName ref="#matheny">Matheny</persName></unclear>
+            <lb/>Esperé: <persName ref="#JR">Roubaud</persName>, <persName ref="#PB">Braffort</persName>
+            <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
+          </egXML></p>
+        <p>Within a paragraph, the following elements are available for more detailed markup of
+          various kinds. </p>
+        <p>For passages where the transcription is uncertain, or discontinuous, or where it is
+          desired to record an erasure: <specList>
+            <specDesc key="unclear"/>
+            <specDesc key="gap"/>
+            <specDesc key="del"/>
+          </specList></p>
+        <p>For passages whose visual salience is considered of particular importance: <specList>
+            <specDesc key="hi"/>
+          </specList></p>
+        <p>For words and phrases representing particular concepts or themes of Oulipan significance; and for footnotes in the
+          original source. <specList>
+            <specDesc key="term"/>
+            <specDesc key="note"/>
+          </specList></p>
+      </div><div><head>Named entities</head>
+      <p>Within the transcription,  names of different kinds of entity are marked using one of the following:
+        <specList>
+          <specDesc key="persName"/>
+          <specDesc key="placeName"/>
+          <specDesc key="orgName"/>
+          <specDesc key="title"/>
+      </specList></p><p>
+      In each case, the <att>ref</att> attribute is used to provide a code which identifies the entity being named. This
+      is used so that different forms of a name can be resolved to indicate a single named entity. For example:
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <persName ref="#RQ">Raymond Queneau</persName> ..... <persName ref="#RQ">RQ</persName> ...
+        <persName ref="#RQ">RQu</persName>...
+      </egXML>
+       The code used (<code>RQ</code>) is the identifier of a <gi>person</gi> element elsewhere in the corpus, which groups
+        information about this person. 
+     </p></div>
+      <div>
         <head>The TEI Header</head>
         <p>Every document is prefixed by a TEI Header, providing minimal metadata information. The
           data initially stored in the header is automatically generated from data captured by a

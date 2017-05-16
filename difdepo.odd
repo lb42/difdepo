@@ -113,7 +113,8 @@
             </classSpec>
             <!--MODULES-->
             <moduleRef key="core"
-               include="p hi term unclear del name date ref label lb  listBibl pb respStmt resp teiCorpus title bibl meeting list item note gap"/>
+               include="p hi term unclear del name date ref label lb  listBibl 
+               pb respStmt resp teiCorpus title bibl meeting list item note gap"/>
             <moduleRef key="header"
                include="teiHeader fileDesc titleStmt publicationStmt sourceDesc 
                profileDesc textClass taxonomy keywords revisionDesc listChange change idno"/>
@@ -172,12 +173,19 @@
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
+            <elementSpec ident="del" mode="change">
+              <exemplum><egXML xmlns="http://www.tei-c.org/ns/Examples"> <item><persName ref="#MB">Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie
+                  paronynymiques</item></egXML></exemplum>
+            </elementSpec>
             <elementSpec ident="gap" mode="change">
                <attList>
                   <attDef ident="hand" mode="delete"/>
                   <attDef ident="agent" mode="delete"/>
                </attList>
+               <!-- no example found -->
             </elementSpec>
+            <!-- no example found for hi-->
+
             <elementSpec ident="idno" mode="change">
                <attList>
                   <attDef ident="type" mode="change">
@@ -270,6 +278,18 @@
                   <attDef ident="role" mode="delete"/>
                </attList>
             </elementSpec>
+            <elementSpec ident="note" mode="change">
+               <exemplum>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <note place="foot" xml:id="ftn1" n="1">
+                        <p>Une malheureuse étourderie du SP a fait omettre, dans le précédent CR, la
+                           présence de <persName ref="#JD">J. Duchâteau</persName> – dont il était
+                           pourtant fait mention dans le courant des discussions. Que notre ami nous
+                           excuse. Le SP a fait trois heures de piquet.</p>
+                     </note>
+                  </egXML>
+               </exemplum>
+            </elementSpec>
             <elementSpec ident="orgName" mode="change">
                <classes mode="change">
                   <memberOf key="att.datable" mode="delete"/>
@@ -359,9 +379,12 @@
                   <attDef ident="type" mode="delete"/>
                </attList>
                <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples"><p><label type="locuteur"
-                           >CB</label> : <term>poèmes numériques</term> de <persName>Bobby
-                           Lapointe</persName>. </p></egXML>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <p>
+                        <persName ref="#LE">LE</persName> : système de la <term
+                           ref="#contrainteprovisoire">contrainte provisoire</term> : construire le
+                        texte sur une contrainte, puis le traduire en langage normal</p>
+                  </egXML>
                </exemplum>
             </elementSpec>
             <elementSpec ident="text" mode="change">
@@ -398,6 +421,13 @@
                   <attDef ident="hand" mode="delete"/>
                   <attDef ident="agent" mode="delete"/>
                </attList>
+               <exemplum>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <item>Culte de la <unclear>personnalité</unclear> de <persName ref="#FLL"
+                           >FLL</persName>
+                        <persName ref="#PB">Braffort</persName></item>
+                  </egXML>
+               </exemplum>
             </elementSpec>
             <elementSpec ident="TEI" mode="change">
                <attList>
@@ -406,7 +436,7 @@
                </attList>
                <exemplum xml:lang="fr">
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <TEI  xml:id="t10010004-1961-01-cr-v">
+                     <TEI xml:id="t10010004-1961-01-cr-v">
                         <teiHeader>
                            <fileDesc>
                               <titleStmt>
