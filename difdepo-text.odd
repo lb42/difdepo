@@ -19,11 +19,11 @@
       <div>
         <head>The TEI Header</head>
         <p>Every document is prefixed by a TEI Header, providing minimal metadata information. The
-          header is automatically generated from data captured by a Word template, but can be
-          modified subsequently. As with every TEI document, the header is represented by a
+          data initially stored in the header is automatically generated from data captured by a
+          Word template. As with every TEI document, the header is represented by a
             <gi>teiHeader</gi> element, containing a <gi>fileDesc</gi> element, followed by a
             <gi>revisionDesc</gi> element. </p>
-        <p>The <gi>fileDesc</gi> for a difDepo document has the following components: <specList>
+        <p>The <gi>fileDesc</gi> for a difDepo document uses the following standard TEI components: <specList>
             <specDesc key="titleStmt"/>
             <specDesc key="publicationStmt"/>
             <specDesc key="sourceDesc"/>
@@ -51,24 +51,67 @@
           distributor of the document: <eg> Edition numérique distribué par le projet ANR DifDePo
           </eg></p>
         <p>The <gi>sourceDesc</gi> element always contains a single <gi>bibl</gi> element, which
-          also has a comparatively restricted structure. In a difDepo document, this element must
-          contain an <gi>idno</gi> element, which must be followed by one of the following elements: <specList>
+          also has a comparatively restricted structure. In a difDepo document, the <gi>bibl</gi>
+          element must contain either a string of text without any tagging, or at least one
+            <gi>idno</gi> element, followed by one of the following elements: <specList>
             <specDesc key="meeting"/>
             <specDesc key="title"/>
-            <specDesc key="p"/>
           </specList></p>
+        <p>The <gi>idno</gi> element contains an identifier for the document being described. The
+            <att>type</att> attribute is used to distinguish amongst various kinds of identifier
+          used, and may have the following values: <list type="labelled">
+            <label>ark</label>
+            <item>BNF "ark" archival identifier</item>
+            <label>ead</label>
+            <item>BNF EAD frmat identifier</item>
+            <label>[none]</label>
+            <item>Difdepo identifier (the identifier for the meeting followed by the code for the
+              type of meeting)</item>
+          </list></p>
         <p>The <gi>meeting</gi> element is used only when the document contains a compte rendu, in
           which case the corresponding <gi>text</gi> element will have a <att>type</att> of
-            <val>CR</val>. It must contain a <gi>date</gi> element, giving the date of the meeting,
-          which may be followed by a <gi>placeName</gi> element giving the place of the meeting, if
-          this is specified. A <gi>list</gi> element, with <att>type</att> of <val>present</val>
-          completes the element and supplies a list of those attending the meeting.</p>
-        <p>The <gi>title</gi> element is used for other kinds of difDepo documents. It contains a
-          brief statement of the kind of document concerned, for example an ordre du jour <egXML
+            <val>CR</val>. The <gi>meeting</gi> element should have an <att>xml:id</att> attribute,
+          which supplies the DIFDEPO identifier of the meeting. This is a code used throughout the
+          corpus: it takes the form of a letter T followed by the eight digit scan number, the year,
+          and the month, of the meeting separated by hyphens. It must contain a <gi>date</gi>
+          element, giving the date of the meeting, which may be followed by a <gi>placeName</gi>
+          element giving the place of the meeting, if this is specified. A <gi>list</gi> element,
+          with <att>type</att> of <val>present</val> completes the element and supplies a list of
+          those attending the meeting, as in the following example: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <bibl>
+              <idno type="ark">12148/btv1b10010018z</idno>
+              <idno type="ead">d0e408</idno>
+              <idno>t10010018-1962-04-cr</idno>
+              <meeting xml:id="t10010018-1962-04">
+                <date when="1962-04-12"/>
+                <list type="present">
+                  <item>
+                    <persName ref="#RQ"/>
+                  </item>
+                  <!-- ... -->
+                  <item>
+                    <persName ref="#JB"/>
+                  </item>
+                  <item>
+                    <persName role="président" ref="#JL"/>
+                  </item>
+                </list>
+              </meeting>
+            </bibl>
+          </egXML>
+        </p>
+
+        <p>The <gi>title</gi> element is used for the other kinds of difDepo documents (OJ, for
+          ordres du jour; CV for convocations). It contains a formulaic characterization of the kind
+          of document concerned, including a <gi>ref</gi> element which points to the
+            <gi>meeting</gi> concerned, and (optionally) a <gi>date</gi> indicating the date of the
+          document itself. Here is a typical ordre du jour <egXML
             xmlns="http://www.tei-c.org/ns/Examples">
             <title>Ordre de jour de <ref target="difdepo:t10010007-1961-05-03">la réunion
-                Oulipo</ref> du <date when="1961-05-03"/></title></egXML> or a convocation <egXML
-            xmlns="http://www.tei-c.org/ns/Examples">
+                Oulipo</ref> du <date when="1961-05-03"/></title></egXML>
+        </p>
+        <p>Here is a typical convocation <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <title>Convocation à <ref target="difdepo:t10010273-1984-07">une réunion Oulipo</ref>,
               envoyée le <date when="1984-07-01"/> par <persName role="expéditeur">PF</persName>
               Destinataire : <persName role="destinataire">XX</persName></title>
@@ -77,18 +120,24 @@
         <p>When, as in the above example, the title contains names or dates, these will usually be
           tagged using the <gi>date</gi> or <gi>persName</gi> element. The <att>when</att> attribute
           is always used to supply a normalised form of a date. The <att>role</att> attribute on
-            <gi>persName</gi> is used to indicate the role of the person referenced, as discussed
-          below (<ptr target="#personRole"/>). </p>
-        <p>The <gi>revisionDesc</gi> element for a difDepo document has the following components: <specList>
+            <gi>persName</gi> is used to indicate the role of the person referenced: in the above
+          example, Fournel issued the invitation, but the person to whom it was sent is not known.
+          The relevant values for the role attribute are listed below (<ptr target="#personRole"
+          />).</p>
+        <p>A <gi>bibl</gi> element may occasionally be used to document a non-Difdepo document, for
+          example </p>
+        <p>The <gi>revisionDesc</gi> element for a difDepo document uses the following standard TEI
+          components: <specList>
             <specDesc key="revisionDesc"/>
             <specDesc key="listChange"/>
             <specDesc key="change"/>
           </specList>
         </p>
-        <p>A revision description contains a list of significant changes to the document, in reverse chronological order
-        (most recent first). Each change is indicated by a <gi>change</gi> element. The date of the change is given by
-        its <att>when</att> attribute, and the nature of the change by its content. The person responsible
-        for the change may be indicated by its <att>who</att> attribute. <!-- or @resp --></p>
+        <p>A revision description contains a list of significant changes to the document, in reverse
+          chronological order (most recent first). Each change is indicated by a <gi>change</gi>
+          element. The date of the change is given by its <att>when</att> attribute, and the nature
+          of the change by its content. The person responsible for the change may be indicated by
+          its <att>who</att> attribute. <!-- or @resp --></p>
       </div>
 
     </body>
