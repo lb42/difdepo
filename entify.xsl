@@ -72,6 +72,18 @@
                     </bibl>
                 </xsl:for-each>
             </listBibl>
+            <listEvent>
+                <xsl:for-each select='entity[@type="name"]'>
+                    <xsl:sort select="@xml:id"/>
+                    <event xml:id="{@xml:id}" >
+                        <xsl:for-each select="forms/form">
+                            
+                            <label> <xsl:apply-templates/></label>
+                            
+                        </xsl:for-each>
+                    </event>
+                </xsl:for-each>
+            </listEvent>
         </profileDesc>
         
     </xsl:template>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!--
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
    <teiHeader>
       <fileDesc>
@@ -23,8 +23,11 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
-         <schemaSpec ident="difdepo" start="TEI teiCorpus" docLang="fr">
+      <body>-->
+<div  xmlns="http://www.tei-c.org/ns/1.0">
+   <head>Formal Specification</head>
+
+<schemaSpec ident="difdepo" start="TEI teiCorpus" docLang="fr" targetLang="fr">
             <moduleRef key="tei"/>
             <!-- delete unused attribute classes -->
             <classSpec type="atts" ident="att.global.responsibility" mode="delete"/>
@@ -472,6 +475,7 @@
                </exemplum>
             </elementSpec>
          </schemaSpec>
+   </div><!--
       </body>
    </text>
-</TEI>
+</TEI>-->

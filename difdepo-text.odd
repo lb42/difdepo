@@ -17,6 +17,25 @@
   <text>
     <body>
       <div>
+        <head>Introduction</head>
+        <p>This document describes the TEI encoding schema used for the DifDePo transcription
+          project. It contains informal discussion and exemplification of the TEI elements which are
+          present in each transcribed texts, with a formal statement of the way in which this markup
+          language derives from the TEI Guidelines. </p>
+        <p>Difdepo transcriptions are archived in a TEI XML format, which uses specific XML tags as
+          a means of organization. The tags used are derived from those defined in the TEI
+          Guidelines (http://www.tei-c.org/Guidelines), but only a small subset of the elements
+          defined by those Guidelines are used, and their application is specialised in various ways
+          described by this document. This document also serves as a means of producing a formal XML
+          Schema which can be used to validate correct application of the TEI tags selected.</p>
+        <p>In what follows, we first discuss the basic tagging applied to structure the text of each
+          document (<ptr target="#textStruc"/>); next we discuss the specialised tagging used for
+          names of persons, places, works, etc. (<ptr target="#namedEnts"/>; finally we discuss the
+          organization of the TEI Header given for each file, which contains metadata descriving the
+          text (<ptr target="#theHdr"/>). The last section of this document contains reference
+          documentation describing each element and its usage in a standardised format. </p>
+      </div>
+      <div xml:id="textStruc">
         <head>Text structure</head>
         <p>Each transcribed document is represented by a <gi>text</gi> element, containing a
             <gi>body</gi>. The schema allows for hierarchic divisions of this body to be indicated
@@ -36,10 +55,14 @@
             <specDesc key="pb"/>
             <specDesc key="lb"/>
           </specList></p>
-        <p>Lineation is retained in the following example
-          <egXML xmlns="http://www.tei-c.org/ns/Examples"><p rend="incipit">Excusés: <persName ref="#JB">Bens</persName>, <persName ref="#AB">Blavier</persName>, <persName ref="#JQ">Queval</persName> et <unclear>paulets?? <persName ref="#matheny">Matheny</persName></unclear>
-            <lb/>Esperé: <persName ref="#JR">Roubaud</persName>, <persName ref="#PB">Braffort</persName>
-            <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
+        <p>Lineation is retained in the following example <egXML
+            xmlns="http://www.tei-c.org/ns/Examples"><p rend="incipit">Excusés: <persName ref="#JB"
+                >Bens</persName>, <persName ref="#AB">Blavier</persName>, <persName ref="#JQ"
+                >Queval</persName> et <unclear>paulets?? <persName ref="#matheny"
+                >Matheny</persName></unclear>
+              <lb/>Esperé: <persName ref="#JR">Roubaud</persName>, <persName ref="#PB"
+                >Braffort</persName>
+              <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
           </egXML></p>
         <p>Within a paragraph, the following elements are available for more detailed markup of
           various kinds. </p>
@@ -52,28 +75,138 @@
         <p>For passages whose visual salience is considered of particular importance: <specList>
             <specDesc key="hi"/>
           </specList></p>
-        <p>For words and phrases representing particular concepts or themes of Oulipan significance; and for footnotes in the
-          original source. <specList>
+        <p>For words and phrases representing particular concepts or themes of Oulipan significance;
+          and for footnotes in the original source. <specList>
             <specDesc key="term"/>
             <specDesc key="note"/>
           </specList></p>
-      </div><div><head>Named entities</head>
-      <p>Within the transcription,  names of different kinds of entity are marked using one of the following:
-        <specList>
-          <specDesc key="persName"/>
-          <specDesc key="placeName"/>
-          <specDesc key="orgName"/>
-          <specDesc key="title"/>
-      </specList></p><p>
-      In each case, the <att>ref</att> attribute is used to provide a code which identifies the entity being named. This
-      is used so that different forms of a name can be resolved to indicate a single named entity. For example:
-      <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <persName ref="#RQ">Raymond Queneau</persName> ..... <persName ref="#RQ">RQ</persName> ...
-        <persName ref="#RQ">RQu</persName>...
-      </egXML>
-       The code used (<code>RQ</code>) is the identifier of a <gi>person</gi> element elsewhere in the corpus, which groups
-        information about this person. 
-     </p></div>
+      </div>
+      <div xml:id="namedEnts">
+        <head>Named entities</head>
+        <p>Within the transcription, the names of persons, places, organizations, and works are
+          marked using the appropriate element chosen from the following list: <specList>
+            <specDesc key="persName"/>
+            <specDesc key="placeName"/>
+            <specDesc key="orgName"/>
+            <specDesc key="title"/>
+          </specList></p>
+        <p> In each case, the <att>ref</att> attribute is used to provide a code which identifies
+          the entity being named. This is used so that different forms of a name can be resolved to
+          indicate a single named entity. For example: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <persName ref="#RQ">Raymond Queneau</persName> ..... <persName ref="#RQ">RQ</persName>
+            ... Le <persName ref="#RQ">Satrape Queneau</persName>... </egXML> The code used
+            (<code>RQ</code>) is the identifier of a <gi>person</gi> element elsewhere in the
+          corpus, which groups information about this person. </p>
+        <p>The <gi>placeName</gi> and <gi>orgName</gi>elements can be used in the same way: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples"><placeName ref="#restoLaborderie">restaurant
+              Laborderie</placeName></egXML>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"><p>Le président parla d’abord, pour faire
+              part d’une lettre de M. <persName ref="#jeancocteau">Jean Cocteau</persName> (de
+                l’<orgName ref="#acadFrancaise">Acadéfraise</orgName>)....</p>
+          </egXML>
+        </p>
+        <p>The <gi>name</gi> element is used for any other kind of name; in practice, this will be
+          either the name of an encoder or editor recorded as part of the Header metadata, or the
+          name of an event mentioned in the text. In the latter case, the <att>type</att> attribute
+          of <gi>name</gi> is set to <val>manif</val>. For example: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <persName>Noël Arnaud</persName> lit (et verse aux archives) le très curieux résultat
+            d’un « <name type="manif" ref="#concourdesartistes">Concours des Artistes</name> » de
+            Guadeloupe.</egXML>
+        </p>
+        <p>The values used for the <att>ref</att> attribute here and elsewhere are arbitrary codes,
+          originally generated automatically during processing, and then refined manually to
+          eliminate duplicates and resolve ambiguities. This is however a work in progress. </p>
+        <p>Corresponding with these <q>entity reference</q> tags, the project maintains an <q>entity
+            database</q>. This is a separate TEI document containing lists of persons, places,
+          organizations, events, and works referenced by the corpus. The following elements are used
+          in this document : <specList>
+            <specDesc key="listPerson"/>
+            <specDesc key="person"/>
+            <specDesc key="listPlace"/>
+            <specDesc key="place"/>
+            <specDesc key="listOrg"/>
+            <specDesc key="org"/>
+            <specDesc key="listBibl"/>
+            <specDesc key="bibl"/>
+            <specDesc key="listEvent"/>
+            <specDesc key="event"/>
+
+          </specList></p>
+
+
+
+        <p>The <gi>listPerson</gi> element contains several <gi>person</gi> elements, within each of
+          which the following elements may be used: <specList>
+            <specDesc key="persName"/>
+            <specDesc key="birth"/>
+            <specDesc key="death"/>
+            <specDesc key="affiliation"/>
+
+          </specList></p>
+        <p>Each of these elements can carry dating attributes to indicate the period during which
+          they are considered applicable to the person concerned. These attributes include
+            <att>when</att> to indicate an exact date, and <att>notBefore</att> and
+            <att>notAfter</att> to indicate a range of possible dates. It is thus possible to
+          indicate each of person's (possibly many) names or affiliations at different times in
+          their life. <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <person xml:id="MD" n="15">
+              <persName>Marcel Duchamp</persName>
+              <birth when="1887"/>
+              <death when="1968-10-02">Excusé depuis le 2 octobre 1968</death>
+              <affiliation when="1962-03-16">Entré à l'Oulipo le 16 mars 1962 </affiliation>
+            </person>
+          </egXML>
+        </p>
+        <p>A list of places referenced is held in a <gi>listPlace</gi> element, which contains
+          several <gi>place</gi> elements, within each of which the following elements may be used: <specList>
+            <specDesc key="placeName"/>
+          </specList>
+        </p>
+        <p>For example: <egXML xmlns="http://www.tei-c.org/ns/Examples"><listPlace>
+              <place xml:id="#restaurantlaborderie">
+                <placeName>restaurant Laborderie</placeName>
+              </place></listPlace></egXML></p>
+        <p>A list of organisations referenced is held in a <gi>listOrg</gi> element, which contains
+          several <gi>org</gi> elements, within each of which the following elements may be used: <specList>
+            <specDesc key="orgName"/>
+          </specList></p>
+        <p>For example: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <listOrg>
+              <org xml:id="myam">
+                <orgName>M Y A M</orgName>
+              </org>
+              <org xml:id="acadFran">
+                <orgName>Académie Francaise</orgName>
+                <orgName>Acadéfraise</orgName>
+              </org><!--...--></listOrg>
+          </egXML></p>
+        <p>A list of books, songs, films etc. referenced is held in a <gi>listBibl</gi> element,
+          which contains several <gi>bibl</gi> elements, within each of which the following elements
+          may be used: <specList>
+            <specDesc key="title"/>
+          </specList></p>
+        <p>For example: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <bibl xml:id="leducationsentimentale">Gustave Flaubert : <title>L’Education
+                sentimentale</title></bibl>
+          </egXML></p>
+        <p>A list of events, manifestations, etc referenced is held in a <gi>listEvent</gi> element,
+          which contains several <gi>event</gi> elements, within each of which the following elements
+          may be used: <specList>
+            <specDesc key="desc"/>
+            <specDesc key="label"/>
+            
+          </specList></p>
+        <p>For example: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <event xml:id="concoursdesartistes">
+            <label>Concours des Artistes</label>
+            <desc><!-- description du concours a fournir --></desc>
+          </event>
+        </egXML></p>
+       
+        
+      </div>
       <div>
         <head>The TEI Header</head>
         <p>Every document is prefixed by a TEI Header, providing minimal metadata information. The
@@ -197,7 +330,7 @@
           of the change by its content. The person responsible for the change may be indicated by
           its <att>who</att> attribute. <!-- or @resp --></p>
       </div>
-
+      <xi:include href="difdepo.odd"/>
     </body>
   </text>
 </TEI>

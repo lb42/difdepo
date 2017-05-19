@@ -1,6 +1,7 @@
 ECHO=
 SCHEMA=out/difdepo.rng
-CORPUS=Corpus
+#CORPUS=Corpus
+CORPUS=shareDoc
 STYLES=norm2ou.xsl
 XSLHOME=/usr/share/xml/tei/stylesheet/profiles/oulipo/
 CORPUSHDR=corpHeaderStart.txt

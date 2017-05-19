@@ -5,9 +5,9 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-04-30T23:49:18Z. .
+# Schema generated from ODD source 2017-05-16T19:17:45Z. .
 # TEI Edition: Version 3.1.1a. Last updated on
-#	31st March 2017, revision 7a1e145
+#	9th May 2017, revision f1b76a9
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
 #
 
@@ -860,7 +860,8 @@ respStmt =
   
   ## (mention de responsabilité) indique la responsabilité quant au contenu intellectuel d'un texte, d'une édition, d'un enregistrement ou d'une publication en série, lorsque les éléments spécifiques relatifs aux auteurs, éditeurs, etc. ne suffisent pas ou ne s'appliquent pas. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
   element respStmt {
-    ((resp+, model.nameLike.agent+) | (model.nameLike.agent+, resp+)),
+    (((resp+, model.nameLike.agent+) | (model.nameLike.agent+, resp+)),
+     note*),
     att.global.attributes,
     empty
   }
