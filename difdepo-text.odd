@@ -31,7 +31,7 @@
         <p>In what follows, we first discuss the basic tagging applied to structure the text of each
           document (<ptr target="#textStruc"/>); next we discuss the specialised tagging used for
           names of persons, places, works, etc. (<ptr target="#namedEnts"/>; finally we discuss the
-          organization of the TEI Header given for each file, which contains metadata descriving the
+          organization of the TEI Header given for each file, which contains metadata describing the
           text (<ptr target="#theHdr"/>). The last section of this document contains reference
           documentation describing each element and its usage in a standardised format. </p>
       </div>
@@ -39,16 +39,53 @@
         <head>Text structure</head>
         <p>Each transcribed document is represented by a <gi>text</gi> element, containing a
             <gi>body</gi>. The schema allows for hierarchic divisions of this body to be indicated
-          by <gi>div</gi> elements, but this has not yet been used by the majority of transcribed
-          documents.</p>
+          by <gi>div</gi> elements, although this has not yet been used by the majority of
+          transcribed documents. Where it is used, and where a division has one or more distinct
+          headings, the <gi>head</gi> element may be used to mark these. <specList>
+            <specDesc key="text"/>
+            <specDesc key="body"/>
+
+            <specDesc key="div"/>
+            <specDesc key="head"/>
+          </specList>
+        </p>
+        <p>For example: </p>
         <p>The transcribed texts use the TEI <gi>p</gi> element for any block of text, including
-          some list items and (occasionally) headings. However, the following elements are also
-          available for use, and should be preferred where possible: <specList>
+          some list items and (occasionally) headings. The initial paragraphs in a document, which
+          typically contain metadata such as its function, place, etc., are marked with the special
+            <att>rend</att> value <val>incipit</val>. Their content is duplicated in the TEI Header.
+          In addition to the <gi>p</gi> element, the following elements are also available for use,
+          and should be preferred where possible: <specList>
+            <specDesc key="p"/>
             <specDesc key="label"/>
             <specDesc key="list"/>
             <specDesc key="item"/>
           </specList>
         </p>
+        <p>The <gi>label</gi> element is used to mark up paragraphs, or parts of paragraphs, which
+          serve as subheadings or titles. When it has this function, its <att>type</att> attribute
+          has the value <val>rubrique</val>, as in the following examples: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
+            <list type="unordered">
+              <item>Bilan <persName ref="#marcel">Marcel</persName>
+                <lb/>Diffusion, distribution et dépôt.</item>
+              <item>Calcul du prix <persName ref="#marcel">Marcel</persName> et <persName
+                  ref="#paul">Paul</persName></item>
+              <item>Phynance <persName ref="#marcelb">Marcel B</persName></item>
+            </list>
+            <p><label type="rubrique">4) Phynances</label></p>
+            <list type="unordered">
+              <item><persName ref="#mmebrun">Mme Brun</persName> - <persName ref="#dominique"
+                  >Dominique</persName></item>
+              <item>Appel secrétariat. <persName ref="#PF">Fournel</persName></item>
+              <item>Ca<unclear>rnet?</unclear> des lettres - <persName ref="#PF"
+                >Fournel</persName></item>
+            </list>
+            <!-- t100110205-1978-04-oj -->
+          </egXML></p>
+        <p>No other value is possible for the <att>type</att> attribute on <gi>label</gi>; it is
+          therefore redundant. </p>
         <p>Page breaks are recorded by means of the <gi>pb</gi> element, which appears at the start
           of each new page. A similar element <gi>lb</gi> is available to mark places where
           lineation is considered important. <specList>
@@ -64,8 +101,8 @@
                 >Braffort</persName>
               <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
           </egXML></p>
-        <p>Within a paragraph, the following elements are available for more detailed markup of
-          various kinds. </p>
+        <p>Within a paragraph, a few other elements are available for more detailed markup of
+          various kinds, as already demonstrated. </p>
         <p>For passages where the transcription is uncertain, or discontinuous, or where it is
           desired to record an erasure: <specList>
             <specDesc key="unclear"/>
@@ -74,12 +111,23 @@
           </specList></p>
         <p>For passages whose visual salience is considered of particular importance: <specList>
             <specDesc key="hi"/>
-          </specList></p>
+          </specList> In practice, this is used only for (some) superscripted passages, with its
+            <att>rend</att> attribute taking the value <val>sup</val>. </p>
         <p>For words and phrases representing particular concepts or themes of Oulipan significance;
           and for footnotes in the original source. <specList>
             <specDesc key="term"/>
             <specDesc key="note"/>
           </specList></p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>
+            <term>Mots répétés</term> : 1er fois + 7, 2<hi>ème</hi> + 15 etc.</p>
+          <!--t10010284-1985-08-cr-v -->
+        </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"><p> ... on salua gravement Lady Godiva, puis
+            on siffla des kirs correctement dosés<note place="foot" xml:id="ftn1" n="1">
+              <p>D’autres <term ref="#alexandrins">alexandrins</term> seront dissimulés.
+                Cherchez-les ! C’est un jeu de vacances. (Aucun prix ne sera décerné.)</p>
+            </note>.</p><!-- t10010010-1961-08-cr--></egXML>
       </div>
       <div xml:id="namedEnts">
         <head>Named entities</head>
@@ -192,20 +240,20 @@
                 sentimentale</title></bibl>
           </egXML></p>
         <p>A list of events, manifestations, etc referenced is held in a <gi>listEvent</gi> element,
-          which contains several <gi>event</gi> elements, within each of which the following elements
-          may be used: <specList>
+          which contains several <gi>event</gi> elements, within each of which the following
+          elements may be used: <specList>
             <specDesc key="desc"/>
             <specDesc key="label"/>
-            
+
           </specList></p>
         <p>For example: <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <event xml:id="concoursdesartistes">
-            <label>Concours des Artistes</label>
-            <desc><!-- description du concours a fournir --></desc>
-          </event>
-        </egXML></p>
-       
-        
+            <event xml:id="concoursdesartistes">
+              <label>Concours des Artistes</label>
+              <desc><!-- description du concours a fournir --></desc>
+            </event>
+          </egXML></p>
+
+
       </div>
       <div>
         <head>The TEI Header</head>
@@ -293,7 +341,7 @@
           </egXML>
         </p>
 
-        <p>The <gi>title</gi> element is used for the other kinds of difDepo documents (OJ, for
+        <p>In the header, the <gi>title</gi> element is used for the other kinds of difDepo documents (OJ, for
           ordres du jour; CV for convocations). It contains a formulaic characterization of the kind
           of document concerned, including a <gi>ref</gi> element which points to the
             <gi>meeting</gi> concerned, and (optionally) a <gi>date</gi> indicating the date of the
