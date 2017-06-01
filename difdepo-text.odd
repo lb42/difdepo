@@ -4,25 +4,26 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Title</title>
+        <title>DifDePo Encoding Schema</title>
       </titleStmt>
       <publicationStmt>
-        <p>Publication Information</p>
+        <p>For publication on the website</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Information about the source</p>
+        <p>Original source</p>
       </sourceDesc>
     </fileDesc>
+    <revisionDesc><change when="2017-06-01">First version (in English)</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
       <div>
         <head>Introduction</head>
-        <p>This document describes the TEI encoding schema used for the DifDePo transcription
-          project. It contains informal discussion and exemplification of the TEI elements which are
+        <p>This document describes the TEI encoding schema used for the Oulipo Archives transcription project. 
+          It contains informal discussion and exemplification of the TEI elements which are
           present in each transcribed texts, with a formal statement of the way in which this markup
           language derives from the TEI Guidelines. </p>
-        <p>Difdepo transcriptions are archived in a TEI XML format, which uses specific XML tags as
+        <p>The Oulipo transcriptions are archived in a TEI XML format, which uses specific XML tags as
           a means of organization. The tags used are derived from those defined in the TEI
           Guidelines (http://www.tei-c.org/Guidelines), but only a small subset of the elements
           defined by those Guidelines are used, and their application is specialised in various ways
@@ -32,25 +33,61 @@
           document (<ptr target="#textStruc"/>); next we discuss the specialised tagging used for
           names of persons, places, works, etc. (<ptr target="#namedEnts"/>; finally we discuss the
           organization of the TEI Header given for each file, which contains metadata describing the
-          text (<ptr target="#theHdr"/>). The last section of this document contains reference
-          documentation describing each element and its usage in a standardised format. </p>
+          document (<ptr target="#theHdr"/>). The last section of this document contains reference
+          material describing each element and its usage in a standardised TEI format. </p><p>Some awareness of basic concepts of TEI XML is assumed. </p>
       </div>
       <div xml:id="textStruc">
         <head>Text structure</head>
-        <p>Each transcribed document is represented by a <gi>text</gi> element, containing a
-            <gi>body</gi>. The schema allows for hierarchic divisions of this body to be indicated
+        <p>Each distinct document transcribed by the project is represented by a single <gi>TEI</gi> element, which has two parts: a <gi>teiHeader</gi>
+        containing metadata describing the document, and a <gi>text</gi> containing its transcription. We describe the components of the <gi>teiHeader</gi>
+        below in section <ptr target="#theHdr"/>. The scanned image of each <q>document</q> has an identifying number derived from the catalogue
+          number of the original source allocated by the Bibliotheque Arsenal, whether it contains one page or many. Most of the documents relate to
+          one of the regular meetings of the Oulipo, and we therefore include the date of that meeting as part of the document's identifier. Documents
+          are of four possible types:
+          <list type="vals">
+            <label>CR</label><item>document contains the minutes (compte rendu) of a meeting </item>
+            <label>OJ</label><item>document contains the agenda (ordre du jour) of a meeting </item>
+            <label>CV</label><item>document contains an invitation (convocation) to a meeting </item>
+            <label>AUTRE</label><item>document is of some other type </item>
+          </list>
+         </p>
+        <p>The attribute <att>xml:id</att> is used on the <gi>TEI</gi> element to supply a unique identifier for the document it represents.
+This identifier combines the scan number, the year and month of the meeting concerned, and one of the above document type codes, as shown in the example below.
+This type code is also supplied as the value of the <att>type</att> 
+          attribute on the <gi>text</gi> element.</p>
+        <p>Here for example is the structure of the document containing the minutes of the meeting held in January 1961, which corresponds with scan number 
+          T10010004: 
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <TEI xml:id="t10010004-1961-01-cr-v">
+                <teiHeader>
+                  <!-- ... -->
+                </teiHeader>
+                <text type="CR">
+                  <body>
+                     <!-- ... -->
+                  </body>
+                </text>
+              </TEI>
+            </egXML></p>
+      <p>Note that the <gi>text</gi> element always contains a <gi>body</gi> element which is used to enclose all the text transcribed from the document. </p>
+       
+        
+        <p>The schema allows for hierarchic divisions of the <gi>body</gi> element to be indicated
           by <gi>div</gi> elements, although this has not yet been used by the majority of
           transcribed documents. Where it is used, and where a division has one or more distinct
           headings, the <gi>head</gi> element may be used to mark these. <specList>
-            <specDesc key="text"/>
+            <specDesc key="text" atts="type"/>
             <specDesc key="body"/>
 
             <specDesc key="div"/>
             <specDesc key="head"/>
           </specList>
+        </p><p>Page breaks are recorded by means of the <gi>pb</gi> element, which appears at the start
+          of each new page.
+        
+        
         </p>
-        <p>For example: </p>
-        <p>The transcribed texts use the TEI <gi>p</gi> element for any block of text, including
+         <p>The transcribed texts use the TEI <gi>p</gi> element for any block of text, including
           some list items and (occasionally) headings. The initial paragraphs in a document, which
           typically contain metadata such as its function, place, etc., are marked with the special
             <att>rend</att> value <val>incipit</val>. Their content is duplicated in the TEI Header.
@@ -84,10 +121,9 @@
             </list>
             <!-- t100110205-1978-04-oj -->
           </egXML></p>
-        <p>No other value is possible for the <att>type</att> attribute on <gi>label</gi>; it is
-          therefore redundant. </p>
-        <p>Page breaks are recorded by means of the <gi>pb</gi> element, which appears at the start
-          of each new page. A similar element <gi>lb</gi> is available to mark places where
+        <p>The <att>type</att> attribute on <gi>label</gi> can also take the value <val>locuteur</val>, to indicate that
+          the label indicates the person speaking (as in a conventional drama). This has not yet been used however.</p>
+        <p>The <gi>lb</gi> is available to mark places where
           lineation is considered important. <specList>
             <specDesc key="pb"/>
             <specDesc key="lb"/>
@@ -109,10 +145,10 @@
             <specDesc key="gap"/>
             <specDesc key="del"/>
           </specList></p>
-        <p>For passages whose visual salience is considered of particular importance: <specList>
+       <!-- <p>For passages whose visual salience is considered of particular importance: <specList>
             <specDesc key="hi"/>
           </specList> In practice, this is used only for (some) superscripted passages, with its
-            <att>rend</att> attribute taking the value <val>sup</val>. </p>
+            <att>rend</att> attribute taking the value <val>sup</val>. </p>-->
         <p>For words and phrases representing particular concepts or themes of Oulipan significance;
           and for footnotes in the original source. <specList>
             <specDesc key="term"/>
