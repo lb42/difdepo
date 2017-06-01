@@ -52,7 +52,7 @@
           </list>
          </p>
         <p>The attribute <att>xml:id</att> is used on the <gi>TEI</gi> element to supply a unique identifier for the document it represents.
-This identifier combines the scan number, the year and month of the meeting concerned, and one of the above document type codes, as shown in the example below.
+This identifier combines the scan number, the date of the meeting concerned, and one of the above document type codes, as shown in the example below.
 This type code is also supplied as the value of the <att>type</att> 
           attribute on the <gi>text</gi> element.</p>
         <p>Here for example is the structure of the document containing the minutes of the meeting held in January 1961, which corresponds with scan number 
@@ -70,43 +70,83 @@ This type code is also supplied as the value of the <att>type</att>
               </TEI>
             </egXML></p>
       <p>Note that the <gi>text</gi> element always contains a <gi>body</gi> element which is used to enclose all the text transcribed from the document. </p>
-       
-        
-        <p>The schema allows for hierarchic divisions of the <gi>body</gi> element to be indicated
+       <p>
+        <specList>
+          <specDesc key="text" atts="type"/>
+          <specDesc key="body"/>
+        </specList>
+        </p>
+        <p>The TEI encoding scheme allows for hierarchic divisions of the <gi>body</gi> element to be indicated
           by <gi>div</gi> elements, although this has not yet been used by the majority of
           transcribed documents. Where it is used, and where a division has one or more distinct
-          headings, the <gi>head</gi> element may be used to mark these. <specList>
-            <specDesc key="text" atts="type"/>
-            <specDesc key="body"/>
-
-            <specDesc key="div"/>
+          headings, the <gi>head</gi> element may be used to mark these.<specList>
+           <specDesc key="div"/>
             <specDesc key="head"/>
           </specList>
-        </p><p>Page breaks are recorded by means of the <gi>pb</gi> element, which appears at the start
-          of each new page.
-        
-        
         </p>
+        <!-- page breaks -->
+        
+        <p>Within the body of a transcription, an empty <gi>pb</gi> element appears at the start
+          of each new page. Its <att>n</att> attribute may be used to provide a page number if necessary. 
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>
+            <term ref="#oulipo">OuLiPo</term> : Organisme qui se propose d’examiner en quoi et par quel
+            moyen, étant donnée une théorie scientifique concernant éventuellement le langage (donc :
+            l’anthropologie), on peut y introduire du plaisir esthétique (affectivité et fantaisie).</p>
+          
+          <pb xml:id="p3" n="3"/>
+          
+          <p>
+            <term ref="#oulipiens">Oulipiens</term> : Rats qui ont à construire le <term
+              ref="#labyrinthe">labyrinthe</term> dont ils se proposent de sortir. </p>
+        </egXML>
+        <!-- t10010007-1961-04-17-cr.xml -->
+          </p>
          <p>The transcribed texts use the TEI <gi>p</gi> element for any block of text, including
-          some list items and (occasionally) headings. The initial paragraphs in a document, which
+          some list items and (occasionally) headings. A number of other elements are available within the 
+          <gi>p</gi> element in addition to plain text (in this and the following example,  the elements <gi>term</gi> and <gi>persName</gi> appear, for example; 
+    ): we discuss these further below.
+           </p>
+        <p>Note that the initial paragraphs in a document, which
           typically contain metadata such as its function, place, etc., are marked with the special
             <att>rend</att> value <val>incipit</val>. Their content is duplicated in the TEI Header.
-          In addition to the <gi>p</gi> element, the following elements are also available for use,
-          and should be preferred where possible: <specList>
+         </p>
+        <p>A list of items, particularly a numbered list, should for preference be marked up using the standard <gi>list</gi>
+          and <gi>item</gi> elements as in the following example:
+          
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>Les absents s’étant excusés eux-mêmes, le <persName ref="#president">Président</persName>
+            se donne la parole assez facilement, pour constater que :</p>
+            <list type="ordered">
+              <item>le point (a) de l’ordre du jour (les <term>monosyllabes</term>
+                d’<persName>Amédée Pommier</persName>) est, en l’absence
+                d’<persName>A.M. Schmidt</persName>, exclu du dit ordre ;</item>
+              
+              <item>qu’il en est de même du point (c), en l’absence de <persName>S.
+                Exc. Q.B</persName>. ;</item>
+              
+              <item>qu’en l’absence des mathématiciens, le point (b) doit être reporté à une date
+                ultérieure</item>
+            </list></egXML>
+       </p>
+       <p> <specList>
             <specDesc key="p"/>
-            <specDesc key="label"/>
             <specDesc key="list"/>
             <specDesc key="item"/>
           </specList>
         </p>
-        <p>The <gi>label</gi> element is used to mark up paragraphs, or parts of paragraphs, which
-          serve as subheadings or titles. When it has this function, its <att>type</att> attribute
-          has the value <val>rubrique</val>, as in the following examples: <egXML
+        <p>It may not always be possible to capture exactly the structure of text presented as lists: the markup in
+          such cases will simply show each item as a new <gi>p</gi> element. 
+        </p>
+        <p>It is also often difficult to represent the organisation of a document with multiple headings and subheadings using the traditional
+        <gi>div</gi> and <gi>head</gi> approach recommended by the TEI. Instead, where a paragraph (or a part of one) seems to be functioning
+        as a rubric or heading, the <gi>label</gi> element may be used, as in the following example: </p>
+        <p>
+       <egXML
             xmlns="http://www.tei-c.org/ns/Examples">
             <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
             <list type="unordered">
               <item>Bilan <persName ref="#marcel">Marcel</persName>
-                <lb/>Diffusion, distribution et dépôt.</item>
+                Diffusion, distribution et dépôt.</item>
               <item>Calcul du prix <persName ref="#marcel">Marcel</persName> et <persName
                   ref="#paul">Paul</persName></item>
               <item>Phynance <persName ref="#marcelb">Marcel B</persName></item>
@@ -116,13 +156,15 @@ This type code is also supplied as the value of the <att>type</att>
               <item><persName ref="#mmebrun">Mme Brun</persName> - <persName ref="#dominique"
                   >Dominique</persName></item>
               <item>Appel secrétariat. <persName ref="#PF">Fournel</persName></item>
-              <item>Ca<unclear>rnet?</unclear> des lettres - <persName ref="#PF"
+              <item><unclear>Carnet</unclear> des lettres - <persName ref="#PF"
                 >Fournel</persName></item>
             </list>
             <!-- t100110205-1978-04-oj -->
           </egXML></p>
-        <p>The <att>type</att> attribute on <gi>label</gi> can also take the value <val>locuteur</val>, to indicate that
+        <p>The <att>type</att> attribute on <gi>label</gi> usually has the value <val>rubrique</val> when it has this function. 
+          It can also take the value <val>locuteur</val>, to indicate that
           the label indicates the person speaking (as in a conventional drama). This has not yet been used however.</p>
+        
         <p>The <gi>lb</gi> is available to mark places where
           lineation is considered important. <specList>
             <specDesc key="pb"/>
@@ -137,8 +179,7 @@ This type code is also supplied as the value of the <att>type</att>
                 >Braffort</persName>
               <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
           </egXML></p>
-        <p>Within a paragraph, a few other elements are available for more detailed markup of
-          various kinds, as already demonstrated. </p>
+       
         <p>For passages where the transcription is uncertain, or discontinuous, or where it is
           desired to record an erasure: <specList>
             <specDesc key="unclear"/>
@@ -160,8 +201,8 @@ This type code is also supplied as the value of the <att>type</att>
           <!--t10010284-1985-08-cr-v -->
         </egXML>
         <egXML xmlns="http://www.tei-c.org/ns/Examples"><p> ... on salua gravement Lady Godiva, puis
-            on siffla des kirs correctement dosés<note place="foot" xml:id="ftn1" n="1">
-              <p>D’autres <term ref="#alexandrins">alexandrins</term> seront dissimulés.
+            on siffla des kirs correctement dosés<note  n="1">
+              <p>D’autres <term>alexandrins</term> seront dissimulés.
                 Cherchez-les ! C’est un jeu de vacances. (Aucun prix ne sera décerné.)</p>
             </note>.</p><!-- t10010010-1961-08-cr--></egXML>
       </div>
