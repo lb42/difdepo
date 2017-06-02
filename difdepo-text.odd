@@ -13,18 +13,20 @@
         <p>Original source</p>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc><change when="2017-06-01">First version (in English)</change></revisionDesc>
+    <revisionDesc>
+      <change when="2017-06-01">First version (in English)</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <div>
         <head>Introduction</head>
-        <p>This document describes the TEI encoding schema used for the Oulipo Archives transcription project. 
-          It contains informal discussion and exemplification of the TEI elements which are
-          present in each transcribed texts, with a formal statement of the way in which this markup
-          language derives from the TEI Guidelines. </p>
-        <p>The Oulipo transcriptions are archived in a TEI XML format, which uses specific XML tags as
-          a means of organization. The tags used are derived from those defined in the TEI
+        <p>This document describes the TEI encoding schema used for the Oulipo Archives
+          transcription project. It contains informal discussion and exemplification of the TEI
+          elements which are present in each transcribed texts, with a formal statement of the way
+          in which this markup language derives from the TEI Guidelines. </p>
+        <p>The Oulipo transcriptions are archived in a TEI XML format, which uses specific XML tags
+          as a means of organization. The tags used are derived from those defined in the TEI
           Guidelines (http://www.tei-c.org/Guidelines), but only a small subset of the elements
           defined by those Guidelines are used, and their application is specialised in various ways
           described by this document. This document also serves as a means of producing a formal XML
@@ -34,139 +36,134 @@
           names of persons, places, works, etc. (<ptr target="#namedEnts"/>; finally we discuss the
           organization of the TEI Header given for each file, which contains metadata describing the
           document (<ptr target="#theHdr"/>). The last section of this document contains reference
-          material describing each element and its usage in a standardised TEI format. </p><p>Some awareness of basic concepts of TEI XML is assumed. </p>
+          material describing each element and its usage in a standardised TEI format. </p>
+        <p>Some awareness of basic concepts of TEI XML is assumed. </p>
       </div>
       <div xml:id="textStruc">
         <head>Text structure</head>
-        <p>Each distinct document transcribed by the project is represented by a single <gi>TEI</gi> element, which has two parts: a <gi>teiHeader</gi>
-        containing metadata describing the document, and a <gi>text</gi> containing its transcription. We describe the components of the <gi>teiHeader</gi>
-        below in section <ptr target="#theHdr"/>. The scanned image of each <q>document</q> has an identifying number derived from the catalogue
-          number of the original source allocated by the Bibliotheque Arsenal, whether it contains one page or many. Most of the documents relate to
-          one of the regular meetings of the Oulipo, and we therefore include the date of that meeting as part of the document's identifier. Documents
-          are of four possible types:
-          <list type="vals">
-            <label>CR</label><item>document contains the minutes (compte rendu) of a meeting </item>
-            <label>OJ</label><item>document contains the agenda (ordre du jour) of a meeting </item>
-            <label>CV</label><item>document contains an invitation (convocation) to a meeting </item>
-            <label>AUTRE</label><item>document is of some other type </item>
+        <p>Each distinct document transcribed by the project is represented by a single <gi>TEI</gi>
+          element, which has two parts: a <gi>teiHeader</gi> containing metadata describing the
+          document, and a <gi>text</gi> containing its transcription. We describe the components of
+          the <gi>teiHeader</gi> below in section <ptr target="#theHdr"/>. The scanned image of each
+            <q>document</q> has an identifying number derived from the catalogue number of the
+          original source allocated by the Bibliotheque de l'Arsenal, whether it contains one page
+          or many. Most of the documents relate to one of the regular meetings of the Oulipo, and we
+          therefore include the date of that meeting as part of the document's identifier. Documents
+          are of four possible types: <list type="vals">
+            <label>CR</label>
+            <item>document contains the minutes (compte rendu) of a meeting </item>
+            <label>OJ</label>
+            <item>document contains the agenda (ordre du jour) of a meeting </item>
+            <label>CV</label>
+            <item>document contains an invitation (convocation) to a meeting </item>
+            <label>AUTRE</label>
+            <item>document is of some other type </item>
           </list>
-         </p>
-        <p>The attribute <att>xml:id</att> is used on the <gi>TEI</gi> element to supply a unique identifier for the document it represents.
-This identifier combines the scan number, the date of the meeting concerned, and one of the above document type codes, as shown in the example below.
-This type code is also supplied as the value of the <att>type</att> 
-          attribute on the <gi>text</gi> element.</p>
-        <p>Here for example is the structure of the document containing the minutes of the meeting held in January 1961, which corresponds with scan number 
-          T10010004: 
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-              <TEI xml:id="t10010004-1961-01-cr-v">
-                <teiHeader>
-                  <!-- ... -->
-                </teiHeader>
-                <text type="CR">
-                  <body>
-                     <!-- ... -->
-                  </body>
-                </text>
-              </TEI>
-            </egXML></p>
-      <p>Note that the <gi>text</gi> element always contains a <gi>body</gi> element which is used to enclose all the text transcribed from the document. </p>
-       <p>
-        <specList>
-          <specDesc key="text" atts="type"/>
-          <specDesc key="body"/>
-        </specList>
         </p>
-        <p>The TEI encoding scheme allows for hierarchic divisions of the <gi>body</gi> element to be indicated
-          by <gi>div</gi> elements, although this has not yet been used by the majority of
-          transcribed documents. Where it is used, and where a division has one or more distinct
+        <p>The attribute <att>xml:id</att> is used on the <gi>TEI</gi> element to supply a unique
+          identifier for the document it represents. This identifier combines the scan number, the
+          date of the meeting concerned, and one of the above document type codes, as shown in the
+          example below. This type code is also supplied as the value of the <att>type</att>
+          attribute on the <gi>text</gi> element.</p>
+        <p>Here for example is the structure of the document containing the minutes of the meeting
+          held in January 1961, which corresponds with scan number T10010004: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <TEI xml:id="t10010004-1961-01-cr-v">
+              <teiHeader>
+                <!-- ... -->
+              </teiHeader>
+              <text type="CR">
+                <body>
+                  <!-- ... -->
+                </body>
+              </text>
+            </TEI>
+          </egXML></p>
+        <p>Note that the <gi>text</gi> element always contains a <gi>body</gi> element which is used
+          to enclose all the text transcribed from the document. </p>
+        <p>
+          <specList>
+            <specDesc key="text" atts="type"/>
+            <specDesc key="body"/>
+          </specList>
+        </p>
+        <p>The TEI encoding scheme allows for hierarchic divisions of the <gi>body</gi> element to
+          be indicated by <gi>div</gi> elements, although this has not yet been used by the majority
+          of transcribed documents. Where it is used, and where a division has one or more distinct
           headings, the <gi>head</gi> element may be used to mark these.<specList>
-           <specDesc key="div"/>
+            <specDesc key="div"/>
             <specDesc key="head"/>
           </specList>
         </p>
-        <!-- page breaks -->
-        
-        <p>Within the body of a transcription, an empty <gi>pb</gi> element appears at the start
-          of each new page. Its <att>n</att> attribute may be used to provide a page number if necessary. 
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <p>
-            <term ref="#oulipo">OuLiPo</term> : Organisme qui se propose d’examiner en quoi et par quel
-            moyen, étant donnée une théorie scientifique concernant éventuellement le langage (donc :
-            l’anthropologie), on peut y introduire du plaisir esthétique (affectivité et fantaisie).</p>
-          
-          <pb xml:id="p3" n="3"/>
-          
-          <p>
-            <term ref="#oulipiens">Oulipiens</term> : Rats qui ont à construire le <term
-              ref="#labyrinthe">labyrinthe</term> dont ils se proposent de sortir. </p>
-        </egXML>
-        <!-- t10010007-1961-04-17-cr.xml -->
+        <div>
+          <head>Page and line breaks </head>
+
+          <p>Within the body of a transcription, an empty <gi>pb</gi> element appears at the start
+            of each new page. Its <att>n</att> attribute may be used to provide a page number if
+            necessary. <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <p>
+                <term ref="#oulipo">OuLiPo</term> : Organisme qui se propose d’examiner en quoi et
+                par quel moyen, étant donnée une théorie scientifique concernant éventuellement le
+                langage (donc : l’anthropologie), on peut y introduire du plaisir esthétique
+                (affectivité et fantaisie).</p>
+              <pb xml:id="p3" n="3"/>
+              <p>
+                <term ref="#oulipiens">Oulipiens</term> : Rats qui ont à construire le <term
+                  ref="#labyrinthe">labyrinthe</term> dont ils se proposent de sortir. </p>
+            </egXML>
+            <!-- t10010007-1961-04-17-cr.xml -->
           </p>
-         <p>The transcribed texts use the TEI <gi>p</gi> element for any block of text, including
-          some list items and (occasionally) headings. A number of other elements are available within the 
-          <gi>p</gi> element in addition to plain text (in this and the following example,  the elements <gi>term</gi> and <gi>persName</gi> appear, for example; 
-    ): we discuss these further below.
-           </p>
-        <p>Note that the initial paragraphs in a document, which
-          typically contain metadata such as its function, place, etc., are marked with the special
-            <att>rend</att> value <val>incipit</val>. Their content is duplicated in the TEI Header.
-         </p>
-        <p>A list of items, particularly a numbered list, should for preference be marked up using the standard <gi>list</gi>
-          and <gi>item</gi> elements as in the following example:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>Les absents s’étant excusés eux-mêmes, le <persName ref="#president">Président</persName>
-            se donne la parole assez facilement, pour constater que :</p>
-            <list type="ordered">
-              <item>le point (a) de l’ordre du jour (les <term>monosyllabes</term>
-                d’<persName>Amédée Pommier</persName>) est, en l’absence
-                d’<persName>A.M. Schmidt</persName>, exclu du dit ordre ;</item>
-              
-              <item>qu’il en est de même du point (c), en l’absence de <persName>S.
-                Exc. Q.B</persName>. ;</item>
-              
-              <item>qu’en l’absence des mathématiciens, le point (b) doit être reporté à une date
-                ultérieure</item>
-            </list></egXML>
-       </p>
-       <p> <specList>
-            <specDesc key="p"/>
-            <specDesc key="list"/>
-            <specDesc key="item"/>
-          </specList>
-        </p>
-        <p>It may not always be possible to capture exactly the structure of text presented as lists: the markup in
-          such cases will simply show each item as a new <gi>p</gi> element. 
-        </p>
-        <p>It is also often difficult to represent the organisation of a document with multiple headings and subheadings using the traditional
-        <gi>div</gi> and <gi>head</gi> approach recommended by the TEI. Instead, where a paragraph (or a part of one) seems to be functioning
-        as a rubric or heading, the <gi>label</gi> element may be used, as in the following example: </p>
-        <p>
-       <egXML
-            xmlns="http://www.tei-c.org/ns/Examples">
-            <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
-            <list type="unordered">
-              <item>Bilan <persName ref="#marcel">Marcel</persName>
-                Diffusion, distribution et dépôt.</item>
-              <item>Calcul du prix <persName ref="#marcel">Marcel</persName> et <persName
-                  ref="#paul">Paul</persName></item>
-              <item>Phynance <persName ref="#marcelb">Marcel B</persName></item>
-            </list>
-            <p><label type="rubrique">4) Phynances</label></p>
-            <list type="unordered">
-              <item><persName ref="#mmebrun">Mme Brun</persName> - <persName ref="#dominique"
-                  >Dominique</persName></item>
-              <item>Appel secrétariat. <persName ref="#PF">Fournel</persName></item>
-              <item><unclear>Carnet</unclear> des lettres - <persName ref="#PF"
-                >Fournel</persName></item>
-            </list>
-            <!-- t100110205-1978-04-oj -->
-          </egXML></p>
-        <p>The <att>type</att> attribute on <gi>label</gi> usually has the value <val>rubrique</val> when it has this function. 
-          It can also take the value <val>locuteur</val>, to indicate that
-          the label indicates the person speaking (as in a conventional drama). This has not yet been used however.</p>
-        
-        <p>The <gi>lb</gi> is available to mark places where
-          lineation is considered important. <specList>
+          <p>The empty <gi>lb</gi> element is also used on occasion to mark particularly significant
+            line breaks in the text. More usually however, the line breaks of the original source
+            are not considered to be of significance and are not preserved since its main purpose of
+            the encoding is not to capture the physical appearance of each document: this is better
+            done by the scanned images. Instead, the encoding aims to capture the basic rhetorical
+            structure of each document, and to flag some significant features within it, notably the
+            presence of technical terms, references to named entities such as people or places,
+            titles of works, etc. </p>
+          <p>
+            <specList>
+              <specDesc key="pb"/>
+              <specDesc key="lb"/>
+            </specList></p>
+        </div>
+        <div>
+          <head>Rubrics and Headings</head>
+          <p>It may not always be possible to capture exactly the structure of text presented as
+            lists: the markup in such cases will simply show each item as a new <gi>p</gi> element. </p>
+          <p>It is also often difficult to represent the organisation of a document with multiple
+            headings and subheadings using the traditional <gi>div</gi> and <gi>head</gi> approach
+            recommended by the TEI. Instead, where a paragraph (or a part of one) seems to be
+            functioning as a rubric or heading, the <gi>label</gi> element may be used, as in the
+            following example: </p>
+          <p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
+              <list type="unordered">
+                <item>Bilan <persName ref="#marcel">Marcel</persName> Diffusion, distribution et
+                  dépôt.</item>
+                <item>Calcul du prix <persName ref="#marcel">Marcel</persName> et <persName
+                    ref="#paul">Paul</persName></item>
+                <item>Phynance <persName ref="#marcelb">Marcel B</persName></item>
+              </list>
+              <p><label type="rubrique">4) Phynances</label></p>
+              <list type="unordered">
+                <item><persName ref="#mmebrun">Mme Brun</persName> - <persName ref="#dominique"
+                    >Dominique</persName></item>
+                <item>Appel secrétariat. <persName ref="#PF">Fournel</persName></item>
+                <item><unclear>Carnet</unclear> des lettres - <persName ref="#PF"
+                  >Fournel</persName></item>
+              </list>
+              <!-- t100110205-1978-04-oj -->
+            </egXML></p>
+          <p>The <att>type</att> attribute on <gi>label</gi> usually has the value
+              <val>rubrique</val> when it has this function. It can also take the value
+              <val>locuteur</val>, to indicate that the label indicates the person speaking (as in a
+            conventional drama). This has not yet been used however.</p>
+          <p><specList>
+              <specDesc key="label" atts="type"/>
+            </specList></p>
+          <!--<p>The <gi>lb</gi> is available to mark places where lineation is considered important. <specList>
             <specDesc key="pb"/>
             <specDesc key="lb"/>
           </specList></p>
@@ -178,33 +175,39 @@ This type code is also supplied as the value of the <att>type</att>
               <lb/>Esperé: <persName ref="#JR">Roubaud</persName>, <persName ref="#PB"
                 >Braffort</persName>
               <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
-          </egXML></p>
-       
-        <p>For passages where the transcription is uncertain, or discontinuous, or where it is
-          desired to record an erasure: <specList>
-            <specDesc key="unclear"/>
-            <specDesc key="gap"/>
-            <specDesc key="del"/>
-          </specList></p>
-       <!-- <p>For passages whose visual salience is considered of particular importance: <specList>
+          </egXML></p>-->
+        </div>
+        <div>
+<head>Transcriptional issues</head>
+          <p>For passages where the transcription is uncertain, or discontinuous, or where it is
+            desired to record an erasure: <specList>
+              <specDesc key="unclear"/>
+              <specDesc key="gap"/>
+              <specDesc key="del"/>
+            </specList></p>
+          <!-- <p>For passages whose visual salience is considered of particular importance: <specList>
             <specDesc key="hi"/>
           </specList> In practice, this is used only for (some) superscripted passages, with its
             <att>rend</att> attribute taking the value <val>sup</val>. </p>-->
-        <p>For words and phrases representing particular concepts or themes of Oulipan significance;
-          and for footnotes in the original source. <specList>
-            <specDesc key="term"/>
-            <specDesc key="note"/>
-          </specList></p>
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <p>
-            <term>Mots répétés</term> : 1er fois + 7, 2<hi>ème</hi> + 15 etc.</p>
-          <!--t10010284-1985-08-cr-v -->
-        </egXML>
-        <egXML xmlns="http://www.tei-c.org/ns/Examples"><p> ... on salua gravement Lady Godiva, puis
-            on siffla des kirs correctement dosés<note  n="1">
-              <p>D’autres <term>alexandrins</term> seront dissimulés.
-                Cherchez-les ! C’est un jeu de vacances. (Aucun prix ne sera décerné.)</p>
-            </note>.</p><!-- t10010010-1961-08-cr--></egXML>
+
+        </div>
+        <div><head>Oulipian themes</head>
+          <p>For words and phrases representing particular concepts or themes of Oulipian
+            significance; and for footnotes in the original source. <specList>
+              <specDesc key="term"/>
+              <specDesc key="note"/>
+            </specList></p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <p>
+              <term>Mots répétés</term> : 1er fois + 7, 2<hi>ème</hi> + 15 etc.</p>
+            <!--t10010284-1985-08-cr-v -->
+          </egXML>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"><p> ... on salua gravement Lady Godiva,
+              puis on siffla des kirs correctement dosés<note n="1">
+                <p>D’autres <term>alexandrins</term> seront dissimulés. Cherchez-les ! C’est un jeu
+                  de vacances. (Aucun prix ne sera décerné.)</p>
+              </note>.</p><!-- t10010010-1961-08-cr--></egXML>
+        </div>
       </div>
       <div xml:id="namedEnts">
         <head>Named entities</head>
@@ -379,7 +382,7 @@ This type code is also supplied as the value of the <att>type</att>
             <label>ark</label>
             <item>BNF "ark" archival identifier</item>
             <label>ead</label>
-            <item>BNF EAD frmat identifier</item>
+            <item>BNF EAD format identifier</item>
             <label>[none]</label>
             <item>Difdepo identifier (the identifier for the meeting followed by the code for the
               type of meeting)</item>
@@ -387,13 +390,12 @@ This type code is also supplied as the value of the <att>type</att>
         <p>The <gi>meeting</gi> element is used only when the document contains a compte rendu, in
           which case the corresponding <gi>text</gi> element will have a <att>type</att> of
             <val>CR</val>. The <gi>meeting</gi> element should have an <att>xml:id</att> attribute,
-          which supplies the DIFDEPO identifier of the meeting. This is a code used throughout the
-          corpus: it takes the form of a letter T followed by the eight digit scan number, the year,
-          and the month, of the meeting separated by hyphens. It must contain a <gi>date</gi>
-          element, giving the date of the meeting, which may be followed by a <gi>placeName</gi>
-          element giving the place of the meeting, if this is specified. A <gi>list</gi> element,
-          with <att>type</att> of <val>present</val> completes the element and supplies a list of
-          those attending the meeting, as in the following example: <egXML
+          supplying the identifier of the meeting, which will usually be the same as the identifier
+          of the document, without the suffix indicating the type (CR., CV etc.) It must contain a
+            <gi>date</gi> element, giving the date of the meeting, which may be followed by a
+            <gi>placeName</gi> element giving the place of the meeting, if this is specified. A
+            <gi>list</gi> element, with <att>type</att> of <val>present</val> completes the element
+          and supplies a list of those attending the meeting, as in the following example: <egXML
             xmlns="http://www.tei-c.org/ns/Examples">
             <bibl>
               <idno type="ark">12148/btv1b10010018z</idno>
@@ -418,30 +420,44 @@ This type code is also supplied as the value of the <att>type</att>
           </egXML>
         </p>
 
-        <p>In the header, the <gi>title</gi> element is used for the other kinds of difDepo documents (OJ, for
-          ordres du jour; CV for convocations). It contains a formulaic characterization of the kind
-          of document concerned, including a <gi>ref</gi> element which points to the
-            <gi>meeting</gi> concerned, and (optionally) a <gi>date</gi> indicating the date of the
-          document itself. Here is a typical ordre du jour <egXML
+        <p>In the header, the <gi>title</gi> element is used for any other kind of documents (OJ,
+          for ordres du jour; CV for convocations). It contains a formulaic characterization of the
+          kind of document concerned, including a <gi>ref</gi> element which points to the
+            <gi>meeting</gi> element concerned, and (optionally) a <gi>date</gi> indicating the date
+          of the document itself. Here is a typical ordre du jour <egXML
             xmlns="http://www.tei-c.org/ns/Examples">
-            <title>Ordre de jour de <ref target="difdepo:t10010007-1961-05-03">la réunion
-                Oulipo</ref> du <date when="1961-05-03"/></title></egXML>
+            <title>Ordre de jour de <ref target="#T10010007-1961-05-03">la réunion Oulipo</ref> du
+                <date when="1961-05-03">mai 1961</date></title></egXML>
         </p>
         <p>Here is a typical convocation <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <title>Convocation à <ref target="difdepo:t10010273-1984-07">une réunion Oulipo</ref>,
-              envoyée le <date when="1984-07-01"/> par <persName role="expéditeur">PF</persName>
+            <title>Convocation à <ref target="#T10010273-1984-07">une réunion Oulipo</ref>, envoyée
+              le <date when="1984-07-01"/> par <persName role="expéditeur">PF</persName>
               Destinataire : <persName role="destinataire">XX</persName></title>
           </egXML>
         </p>
         <p>When, as in the above example, the title contains names or dates, these will usually be
           tagged using the <gi>date</gi> or <gi>persName</gi> element. The <att>when</att> attribute
-          is always used to supply a normalised form of a date. The <att>role</att> attribute on
-            <gi>persName</gi> is used to indicate the role of the person referenced: in the above
-          example, Fournel issued the invitation, but the person to whom it was sent is not known.
-          The relevant values for the role attribute are listed below (<ptr target="#personRole"
-          />).</p>
-        <p>A <gi>bibl</gi> element may occasionally be used to document a non-Difdepo document, for
+          on <gi>date</gi> supplies a normalised form of the date: it must always be provided
+          whether or not the date is provided as content of the <gi>date</gi> element. The
+            <att>role</att> attribute on <gi>persName</gi> is used to indicate the role of the
+          person referenced: in the above example, Fournel issued the invitation, but the person to
+          whom it was sent is not known. The <att>role</att> attribute can take the following
+          values: <list type="gloss">
+            <label>invité</label>
+            <item>person invited to a meeting</item>
+            <label>président</label>
+            <item>president or chair of a meeting</item>
+            <label>secrétaire</label>
+            <item>secretary or note taker of a meeting</item>
+            <label>expéditeur</label>
+            <item>person responsible for sending an invitation</item>
+            <label>destinataire</label>
+            <item>person to whom an invitation is sent</item>
+          </list>
+        </p>
+        <!-- <p>A <gi>bibl</gi> element may occasionally be used to document a non-archival document, for
           example </p>
+       -->
         <p>The <gi>revisionDesc</gi> element for a difDepo document uses the following standard TEI
           components: <specList>
             <specDesc key="revisionDesc"/>
@@ -454,6 +470,9 @@ This type code is also supplied as the value of the <att>type</att>
           element. The date of the change is given by its <att>when</att> attribute, and the nature
           of the change by its content. The person responsible for the change may be indicated by
           its <att>who</att> attribute. <!-- or @resp --></p>
+        <p>For this project, every document contains one <gi>change</gi> element created at the time
+          the document was first created in TEI XML form. Additional <gi>change</gi> elements may be
+          automatically created and inserted for later stages of the development of the archive.</p>
       </div>
       <xi:include href="difdepo.odd"/>
     </body>
