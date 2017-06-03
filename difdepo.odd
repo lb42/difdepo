@@ -118,7 +118,7 @@
             <!--MODULES-->
             <moduleRef key="core"
                include="p hi term unclear del name date ref label lb  listBibl 
-               pb respStmt resp teiCorpus title bibl meeting list item note gap"/>
+               pb respStmt resp teiCorpus title bibl meeting list item note gap address"/>
             <moduleRef key="header"
                include="teiHeader fileDesc titleStmt publicationStmt sourceDesc 
                profileDesc textClass taxonomy keywords revisionDesc listChange change idno"/>
@@ -126,8 +126,11 @@
             <moduleRef key="corpus" include="particDesc settingDesc"/>
             <moduleRef key="namesdates"
                include="orgName persName placeName listPerson person affiliation birth death 
-               listOrg org listPlace place"/>
+               listOrg org listPlace place location listEvent event"/>
             <!-- ELEMENTS -->
+   
+   <!-- need a schematron rule to permit address only within place/location -->
+   
             <elementSpec ident="bibl" mode="change">
                <classes mode="change">
                   <memberOf key="model.biblLike" mode="delete"/>
@@ -283,9 +286,17 @@
                </attList>
             </elementSpec>
             <elementSpec ident="note" mode="change">
+               <attList >
+                  <attDef mode="change" ident="place">
+                     <valList  mode="replace" >
+                        <valItem ident="foot"/>
+                        <valItem ident="end"/>
+                     </valList>
+                  </attDef>
+               </attList>
                <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <note place="foot" xml:id="ftn1" n="1">
+                     <note place="foot"  n="1">
                         <p>Une malheureuse étourderie du SP a fait omettre, dans le précédent CR, la
                            présence de <persName ref="#JD">J. Duchâteau</persName> – dont il était
                            pourtant fait mention dans le courant des discussions. Que notre ami nous
