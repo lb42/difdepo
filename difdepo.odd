@@ -15,7 +15,8 @@
       </fileDesc>
       <revisionDesc>
          <listChange>
-            <change when="2017-04-14">add del</change>
+            <change when="2017-06-02">add @facs</change>
+           <change when="2017-04-14">add del</change>
             <change when="2016-01-25">add lb</change>
             <change when="2015-10-15">hand edited extensively</change>
             <change when="2015-02-10">first draft generated</change>
@@ -25,7 +26,7 @@
    <text>
       <body>-->
 <div  xmlns="http://www.tei-c.org/ns/1.0">
-   <head>Formal Specification</head>
+   <head>Schema Specification</head>
 
 <schemaSpec ident="difdepo" start="TEI teiCorpus" docLang="fr" targetLang="fr">
             <moduleRef key="tei"/>
@@ -308,6 +309,10 @@
             <elementSpec ident="pb" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
+      <attDef ident="facs" mode="add">
+         <desc>fournit un lien sur un image numerique de la page qui commence a ce point</desc>
+         <datatype><dataRef key="teidata.pointer"/></datatype>
+      </attDef><!-- defined locally for simplicity's sake rather than inheriting from att.facs.global so kill me -->
                </attList>
             </elementSpec>
             <elementSpec ident="persName" mode="change">
