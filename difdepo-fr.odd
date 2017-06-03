@@ -137,15 +137,55 @@
             </specList></p>
         </div>
         <div>
+          <head>Paragraphes et listes</head>
+          <p>Les transcriptions utilisent l'élément TEI <gi>p</gi> pour tout bloc
+            de texte, y compris les composants d'une liste et les titres. Plusieurs éléments sont disponibles
+            à l'intérieur d'un <gi>p</gi> outre de  texte pure (par exemple <gi>term</gi> et <gi>persName</gi>): 
+            nous considérons ceux ci et d'autres ci dessous. 
+        </p>
+          <p>Il est à noter que les paragraphes initiales d'un document, qui
+            contiennent d'habitude de metadonnées sur sa fonction, son lieu, sa date etc., sont distingués des autres
+            en utilisant la valeur speciale <val>incipit</val> pour leur attribut <att>rend</att>. Leur contenu est transféré
+            automatiqement dans l'entête TEI. </p>
+          <p>Une  liste d'items, en particulier une liste numerotéee; devrait par préférence être balisée
+            en utilisant les éléments TEI standards <gi>list</gi> and <gi>item</gi> elements comme suit :
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <p>Les absents s’étant excusés eux-mêmes, le <persName ref="#president"
+                >Président</persName> se donne la parole assez facilement, pour constater que
+                :</p>
+              <list type="ordered">
+                <item>le point (a) de l’ordre du jour (les <term>monosyllabes</term>
+                  d’<persName>Amédée Pommier</persName>) est, en l’absence d’<persName>A.M.
+                    Schmidt</persName>, exclu du dit ordre ;</item>
+                
+                <item>qu’il en est de même du point (c), en l’absence de <persName>S. Exc.
+                  Q.B</persName>. ;</item>
+                
+                <item>qu’en l’absence des mathématiciens, le point (b) doit être reporté à une date
+                  ultérieure</item>
+              </list></egXML>
+          </p>
+          <p>Si la saisie précise de la structure d'une liste n'a pas pu s'effectuer il peut arriver que chqcun des items
+            se présente comme un élément  <gi>p</gi>. </p>
+          
+          <p>
+            <specList>
+              <specDesc key="p"/>
+              <specDesc key="list"/>
+              <specDesc key="item"/>
+            </specList>
+          </p>
+          
+           </div>
+        
+        <div>
           <head>Rubriques et Titres</head>
-          <p>It may not always be possible to capture the structure of text presented as lists
-            exactly : the markup in such cases will simply show each item as a new <gi>p</gi>
-            element. </p>
-          <p>It is also often difficult to represent the organisation of a document with multiple
-            headings and subheadings using the traditional TEI <gi>div</gi> and <gi>head</gi>
-            approach mentioned above. Instead, where a paragraph (or a part of one) seems to be
-            functioning as a rubric or heading, the <gi>label</gi> element may be used, as in the
-            following example: </p>
+        
+          <p>De la même manière la saisie d'un document organisé en plusieurs niveaux avec plusieurs
+            titres et soustires peut etre difficile a saisir correctement avec l'approche classique
+            TEI des éléments <gi>div</gi> et <gi>head</gi> proposé ci dessus. Pour simplifier, il
+            est permis d'utiliser l'élément <gi>label</gi> à l'interieur d'un <gi>p</gi> qui semble
+            contenir une rubrique ou un titre; comme l'exemple suivant : </p>
           <p>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
@@ -162,51 +202,37 @@
               <!-- t100110205-1978-04-oj -->
             </egXML>
           </p>
-          <p>The <att>type</att> attribute on <gi>label</gi> usually has the value
-              <val>rubrique</val> when it has this function. It can also take the value
-              <val>locuteur</val>, to indicate that the label indicates the person speaking (as in a
-            conventional drama). </p>
+          <p>L'attribut <att>type</att> de l'élément <gi>label</gi> porte la valeur 
+            <val>rubrique</val> lorsqu'il fonctionne de cette manière. La valeur <val>locuteur</val> est également
+            disponible pour indiquer que le label sert à indiquer la personne qui parle. </p>
           <p><specList>
               <specDesc key="label" atts="type"/>
             </specList></p>
-          <!--<p>The <gi>lb</gi> is available to mark places where lineation is considered important. <specList>
-            <specDesc key="pb"/>
-            <specDesc key="lb"/>
-          </specList></p>
-        <p>Lineation is retained in the following example <egXML
-            xmlns="http://www.tei-c.org/ns/Examples"><p rend="incipit">Excusés: <persName ref="#JB"
-                >Bens</persName>, <persName ref="#AB">Blavier</persName>, <persName ref="#JQ"
-                >Queval</persName> et <unclear>paulets?? <persName ref="#matheny"
-                >Matheny</persName></unclear>
-              <lb/>Esperé: <persName ref="#JR">Roubaud</persName>, <persName ref="#PB"
-                >Braffort</persName>
-              <lb/>Retard: <persName ref="#JR">Jacques Roubaud</persName></p>
-          </egXML></p>-->
+        
         </div>
         <div>
-          <head>Transcriptional issues</head>
-          <p>Although the intention of the project is not to produce a full critical edition, there
-            are occasional passages where some editorial mark up is necessary, for example where the
-            transcription is uncertain, or discontinuous, or where it is desired to record that
-            something was deleted in the original. </p>
-          <p>In the following example, the transcriber is uncertain as to whether the word
-              <mentioned>miquerel</mentioned> has been correctly transcribed, and indicates this
-            with the <gi>unclear</gi> tag. <egXML xmlns="http://www.tei-c.org/ns/Examples"><p>
+          <head>Enjeux de Transcription</head>
+          <p>Bien que le but du projet ne serait pas de produire une édition critique
+            classique, il y a parfois des passages qui nécessitent un balisage quasi editoriel, par exemple parce
+            que la transcription est incertaine ou incomplète; ou parce qu'on souhaite indiquer une lacune
+            ou un raturage dans l'originel. </p>
+          <p>Dans cet exemple, le transcripteur signale son incertitude concernant la transcrition du
+            mot
+              <mentioned>miquerel</mentioned> en se servant du balise <gi>unclear</gi>. <egXML xmlns="http://www.tei-c.org/ns/Examples"><p>
                 <label type="rubrique">Arrivée de <persName>Calvino</persName> (qui passe ce soir à
                     <name type="manif">Apostrophes</name> et qui est un peu
                     <unclear>miqurel</unclear>).</label></p>
             </egXML>
           </p>
-          <p>In the following example, the transcriber is unable to make a guess as to what the
-            reading might be, and has therefore used a <gi>gap</gi> element to indicate that there
-            is something missing from the transcription: <egXML
+          <p>Dans cet example, le transcripteur n'arrive pas à lire l'originel de tout ; l'élément  <gi>gap</gi> est donc utilisé
+            pour signaler qu'il y a quelque chose qui manque à la transcription : <egXML
               xmlns="http://www.tei-c.org/ns/Examples"><p>... <persName>PF</persName> propose de
                 traduire <title>Mein Kampf</title> qui est sans doute la <gap/> de « La
                 Recherche ».</p>
             </egXML>
             <!-- T10010246-1982-01-CR.xml --></p>
-          <p>In the following example, the transcriber wishes to indicate that the word
-              <q>Compléments</q> is present but has been crossed out in the source : <egXML
+          <p>Dans cet example, le transcripteur souhaite indiquer que le mot 
+              <q>Compléments</q> est lisible mais raturé dans la source originelle : <egXML
               xmlns="http://www.tei-c.org/ns/Examples"><p>
                 <label type="rubrique">Création</label>
               </p>
@@ -221,10 +247,7 @@
               <specDesc key="gap"/>
               <specDesc key="del"/>
             </specList></p>
-          <!-- <p>For passages whose visual salience is considered of particular importance: <specList>
-            <specDesc key="hi"/>
-          </specList> In practice, this is used only for (some) superscripted passages, with its
-            <att>rend</att> attribute taking the value <val>sup</val>. </p>-->
+        
         </div>
         <div>
           <head>Terms, Names, and Notes</head>
