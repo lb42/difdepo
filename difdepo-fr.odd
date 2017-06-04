@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Encodage de l'Archive de l'Oulipo : manuel de référence</title>
+        <title>Encodage des Archives de l'Oulipo : manuel de référence</title>
         <author>Lou Burnard Consulting</author>
       </titleStmt>
       <publicationStmt>
@@ -376,9 +377,9 @@
           </p>
           <p>Par exemple :
             <egXML xmlns="http://www.tei-c.org/ns/Examples"><listPlace>
-                <place xml:id="#restauLaborderie">
+                <place xml:id="#restoLaborderie">
                   <placeName>restaurant Laborderie</placeName>
-                  <location><address>40 rue de l’Université</address></location>
+                  <location><desc>40 rue de l’Université</desc></location>
                 </place></listPlace></egXML>
           </p>
           <p>L'élément <gi>listOrg</gi> contient plusieurs éléments <gi>org</gi>, contenant
@@ -426,7 +427,7 @@
         </div>
       </div>
       <div xml:id="theHdr">
-        <head>L'entête TEI</head>
+        <head>L'en-tête TEI</head>
         <p>Chaque document contient un en-tête TEI, fournissant des métadonnées essentielles. Ces
           données sont générées automatiquement à partir des données saisies dans un template Word
           lors de la transcription du document. Comme pour tout autre document TEI, l'en-tête est représenté
