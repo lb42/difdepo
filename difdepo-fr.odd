@@ -344,7 +344,7 @@
         <div>
           <head>Personnes</head>
           <p>L'élément <gi>listPerson</gi> contient plusieurs éléments <gi>person</gi>, contenant
-            chacun un ou plusieurs des éléments suivants : <specList>
+            eux-mêmes chacun un ou plusieurs des éléments suivants : <specList>
               <specDesc key="persName"/>
               <specDesc key="birth"/>
               <specDesc key="death"/>
@@ -361,9 +361,10 @@
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <person xml:id="MD" n="15">
                 <persName>Marcel Duchamp</persName>
-                <birth when="1887"/>
+                <birth when="1887-07-28"/>
                 <death when="1968-10-02">Excusé depuis le 2 octobre 1968</death>
                 <affiliation when="1962-03-16">Entré à l'Oulipo le 16 mars 1962 </affiliation>
+                <affiliation notBefore="1920" notAfter="1950-04-30">Société Anonyme, Inc.</affiliation>              
               </person>
             </egXML>
           </p>
