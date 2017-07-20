@@ -106,11 +106,13 @@
             <specDesc key="head"/>
           </specList>
         </p>
+      <!-- two types of div in each body: one for prelim matter , one for proper text 
+            in principle must be at least one div -->
         <div>
           <head>Coupures de page et de ligne</head>
           <p>Au sein d'une transcription, un balise vide <gi>pb</gi> apparaît au début de chaque
             nouvelle page. Son attribut <att>n</att> peut fournir un numéro de page si la page est
-            numerotée: son attribut <att>facs</att> fournit un lien vers l'image numérique de la
+            numerotée:<!-- DANS LE PDF--> son attribut <att>facs</att> fournit un lien vers l'image numérique de la
             page transcrite. Par exemple :
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <p>
@@ -119,10 +121,12 @@
                 l’anthropologie), on peut y introduire du plaisir esthétique (affectivité et
                 fantaisie).</p>
               <pb facs="difdepo:T10010007-1961-04-17-cr-03" n="3"/>
+<!-- marc to construct -->
               <p>
                 <term>Oulipiens</term> : Rats qui ont à construire le <term>labyrinthe</term> dont
                 ils se proposent de sortir. </p>
             </egXML>
+            <!-- if xml:id is used it must be unique -->
             <!-- t10010007-1961-04-17-cr.xml -->
           </p>
           <p>La balise vide <gi>lb</gi> est parfois utilisée pour indiquer une coupure de ligne
@@ -133,6 +137,7 @@
             rhétorique de chaque document et de signaler la présence de quelques traits signifiants, 
             notamment la présence de termes techniques et de références aux entités
             nommées telles que les personnes, les lieux, les œuvres etc. </p>
+          <!-- suppress lb from schema -->
           <p>
             <specList>
               <specDesc key="pb"/>
@@ -298,6 +303,7 @@
               <specDesc key="orgName"/>
               <specDesc key="title"/>
             </specList></p>
+          <p>Le placeName n'est utilise que dans le Header (voir)</p>
           <p>Dans chaque cas, l'attribut <att>ref</att> peut fournir un code identifiant l'entité nommée (la
             personne, le lieu, l'organisation, l'œuvre). Ce mécanisme nous permet de résoudre
             le problème occasionné par l'existence des formes multiples d'une seule nomination. Par

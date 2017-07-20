@@ -28,7 +28,7 @@
 <div  xmlns="http://www.tei-c.org/ns/1.0">
    <head>Specification</head>
 
-<schemaSpec ident="difdepo" start="TEI teiCorpus" docLang="fr" targetLang="fr">
+<schemaSpec ident="difdepo-beta" start="TEI teiCorpus" docLang="fr" targetLang="fr">
             <moduleRef key="tei"/>
             <!-- delete unused attribute classes -->
             <classSpec type="atts" ident="att.global.responsibility" mode="delete"/>
@@ -65,6 +65,9 @@
                   <!--    <attDef ident="xml:base" mode="delete"/>
            -->
                   <attDef ident="xml:space" mode="delete"/>
+                  <attDef ident="xml:id" mode="change">
+                   <datatype><dataRef key="teidata.word"></dataRef></datatype>
+                  </attDef>
                </attList>
             </classSpec>
             <classSpec ident="att.typed" type="atts" mode="change">
@@ -184,6 +187,8 @@
               <exemplum><egXML xmlns="http://www.tei-c.org/ns/Examples"> <item><persName ref="#MB">Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie
                   paronynymiques</item></egXML></exemplum>
             </elementSpec>
+  
+   
             <elementSpec ident="gap" mode="change">
                <attList>
                   <attDef ident="hand" mode="delete"/>
@@ -354,6 +359,7 @@
                <classes mode="change">
                   <memberOf key="att.datable" mode="delete"/>
                   <memberOf key="att.typed" mode="delete"/>
+ <!-- remove from model class which allows it in text -->
                </classes>
             </elementSpec>
             <elementSpec ident="ref" mode="change">

@@ -5,11 +5,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-05-16T19:17:45Z. .
-# TEI Edition: Version 3.1.1a. Last updated on
-#	9th May 2017, revision f1b76a9
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
-#
+# Schema generated from ODD source 2017-07-05T14:44:14Z. .  
 
 #
 macro.paraContent =
@@ -19,6 +15,7 @@ macro.paraContent =
    | model.inter
    | model.global
    | model.lLike)*
+macro.limitedContent = (text | model.limitedPhrase | model.inter)*
 macro.phraseSeq = (text | model.gLike | model.phrase | model.global)*
 macro.phraseSeq.limited = (text | model.limitedPhrase | model.global)*
 macro.specialPara =
@@ -119,7 +116,8 @@ att.datable.w3c.attribute.to =
     | xsd:dateTime
   }?
 sch:pattern [
-  id = "difdepo-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
+  id =
+    "difdepo-beta-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -138,7 +136,8 @@ sch:pattern [
   "   "
 ]
 sch:pattern [
-  id = "difdepo-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
+  id =
+    "difdepo-beta-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -157,7 +156,8 @@ sch:pattern [
   "   "
 ]
 sch:pattern [
-  id = "difdepo-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
+  id =
+    "difdepo-beta-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -217,7 +217,9 @@ att.global.attributes =
 att.global.attribute.xmlid =
   
   ## (identifiant) fournit un identifiant unique pour l'élément qui porte l'attribut
-  attribute xml:id { xsd:ID }?
+  attribute xml:id {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
 att.global.attribute.n =
   
   ## (nombre) donne un nombre (ou une autre étiquette) pour un élément, qui n'est pas nécessairement unique dans le document TEI.
@@ -293,7 +295,7 @@ att.typed.attribute.type =
     xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 sch:pattern [
-  id = "difdepo-att.typed-subtypeTyped-constraint-rule-4"
+  id = "difdepo-beta-att.typed-subtypeTyped-constraint-rule-4"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -320,6 +322,20 @@ att.pointing.attribute.target =
     list { xsd:anyURI+ }
   }?
 att.transcriptional.attributes = att.written.attributes
+att.translatable.attributes = att.translatable.attribute.versionDate
+att.translatable.attribute.versionDate =
+  
+  ## spécifie le nom de la version ou le numéro de la source dont la version traduite a été tirée.
+  attribute versionDate {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
 model.nameLike.agent = name | orgName | persName
 model.nameLike.agent_alternation = name | orgName | persName
 model.nameLike.agent_sequence = name, orgName, persName
@@ -405,21 +421,23 @@ model.headLike_sequence = empty
 model.headLike_sequenceOptional = empty
 model.headLike_sequenceOptionalRepeatable = empty
 model.headLike_sequenceRepeatable = notAllowed
-model.labelLike = label
-model.labelLike_alternation = label
-model.labelLike_sequence = label
-model.labelLike_sequenceOptional = label?
-model.labelLike_sequenceOptionalRepeatable = label*
-model.labelLike_sequenceRepeatable = label+
-model.listLike = \list | listOrg | listPerson | listPlace
-model.listLike_alternation = \list | listOrg | listPerson | listPlace
-model.listLike_sequence = \list, listOrg, listPerson, listPlace
+model.labelLike = desc | label
+model.labelLike_alternation = desc | label
+model.labelLike_sequence = desc, label
+model.labelLike_sequenceOptional = desc?, label?
+model.labelLike_sequenceOptionalRepeatable = desc*, label*
+model.labelLike_sequenceRepeatable = desc+, label+
+model.listLike = \list | listOrg | listEvent | listPerson | listPlace
+model.listLike_alternation =
+  \list | listOrg | listEvent | listPerson | listPlace
+model.listLike_sequence =
+  \list, listOrg, listEvent, listPerson, listPlace
 model.listLike_sequenceOptional =
-  \list?, listOrg?, listPerson?, listPlace?
+  \list?, listOrg?, listEvent?, listPerson?, listPlace?
 model.listLike_sequenceOptionalRepeatable =
-  \list*, listOrg*, listPerson*, listPlace*
+  \list*, listOrg*, listEvent*, listPerson*, listPlace*
 model.listLike_sequenceRepeatable =
-  \list+, listOrg+, listPerson+, listPlace+
+  \list+, listOrg+, listEvent+, listPerson+, listPlace+
 model.noteLike = note
 model.lLike = notAllowed
 model.lLike_alternation = notAllowed
@@ -439,7 +457,7 @@ model.stageLike_sequence = empty
 model.stageLike_sequenceOptional = empty
 model.stageLike_sequenceOptionalRepeatable = empty
 model.stageLike_sequenceRepeatable = notAllowed
-model.eventLike = notAllowed
+model.eventLike = event | listEvent
 model.global.edit = gap
 model.divPart = model.lLike | model.pLike
 model.persStateLike = persName | affiliation
@@ -457,20 +475,21 @@ model.placeNamePart_sequence = placeName
 model.placeNamePart_sequenceOptional = placeName?
 model.placeNamePart_sequenceOptionalRepeatable = placeName*
 model.placeNamePart_sequenceRepeatable = placeName+
-model.placeStateLike = model.placeNamePart
-model.placeStateLike_alternation = model.placeNamePart_alternation
-model.placeStateLike_sequence = model.placeNamePart_sequence
+model.placeStateLike = model.placeNamePart | location
+model.placeStateLike_alternation =
+  model.placeNamePart_alternation | location
+model.placeStateLike_sequence = model.placeNamePart_sequence, location
 model.placeStateLike_sequenceOptional =
-  model.placeNamePart_sequenceOptional?
+  model.placeNamePart_sequenceOptional?, location?
 model.placeStateLike_sequenceOptionalRepeatable =
-  model.placeNamePart_sequenceOptionalRepeatable*
+  model.placeNamePart_sequenceOptionalRepeatable*, location*
 model.placeStateLike_sequenceRepeatable =
-  model.placeNamePart_sequenceRepeatable+
+  model.placeNamePart_sequenceRepeatable+, location+
 model.orgPart = model.eventLike | listOrg | listPerson | listPlace
 model.publicationStmtPart.agency = notAllowed
-model.publicationStmtPart.detail = date | idno
+model.publicationStmtPart.detail = model.ptrLike | date | idno
 model.certLike = notAllowed
-model.descLike = notAllowed
+model.descLike = desc
 model.glossLike = notAllowed
 model.quoteLike = notAllowed
 model.quoteLike_alternation = notAllowed
@@ -585,7 +604,7 @@ p =
   element p {
     macro.paraContent
     >> sch:pattern [
-         id = "difdepo-p-abstractModel-p-constraint-report-4"
+         id = "difdepo-beta-p-abstractModel-p-constraint-report-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -606,7 +625,8 @@ p =
          "         "
        ]
     >> sch:pattern [
-         id = "difdepo-p-abstractModel-structure-l-constraint-report-5"
+         id =
+           "difdepo-beta-p-abstractModel-structure-l-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -638,6 +658,16 @@ hi =
     macro.paraContent,
     att.global.attributes,
     att.written.attributes,
+    empty
+  }
+desc =
+  
+  ## (description) contient une courte description de l'objet documenté par son élément parent, qui comprend son utilisation prévue, son but, ou son application là où c'est approprié. [22.4.1. Description of Components]
+  element desc {
+    macro.limitedContent,
+    att.global.attributes,
+    att.translatable.attributes,
+    att.typed.attributes,
     empty
   }
 term =
@@ -726,7 +756,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "difdepo-ref-refAtts-constraint-report-6"
+         id = "difdepo-beta-ref-refAtts-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -761,7 +791,7 @@ ref =
      (model.divBottom, model.global*)*)
     >> sch:pattern [
          id =
-           "difdepo-list-gloss-list-must-have-labels-constraint-rule-5"
+           "difdepo-beta-list-gloss-list-must-have-labels-constraint-rule-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -832,10 +862,16 @@ note =
   element note {
     macro.specialPara,
     att.global.attributes,
-    att.placement.attributes,
     att.pointing.attributes,
     att.typed.attributes,
     att.written.attributes,
+    
+    ## specifie où cet item se trouve.
+    attribute place {
+      list {
+        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+      }
+    }?,
     
     ## indique si l'exemplaire du texte montre l'emplacement de référence exact pour la note
     [ a:defaultValue = "true" ] attribute anchored { xsd:boolean }?,
@@ -850,7 +886,14 @@ pb =
   
   ## (saut de page) marque le début d'une page de texte dans un document paginé. [3.10.3. Milestone
   ## Elements]
-  element pb { empty, att.global.attributes, empty }
+  element pb {
+    empty,
+    att.global.attributes,
+    
+    ## fournit un lien sur un image numerique de la page qui commence a ce point
+    attribute facs { xsd:anyURI }?,
+    empty
+  }
 lb =
   
   ## (saut de ligne) marque le début d'une nouvelle ligne (typographique) dans une édition ou dans une version d'un texte. [3.10.3. Milestone
@@ -1082,7 +1125,7 @@ body =
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
          id =
-           "difdepo-div-abstractModel-structure-l-constraint-report-7"
+           "difdepo-beta-div-abstractModel-structure-l-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1103,7 +1146,7 @@ body =
        ]
     >> sch:pattern [
          id =
-           "difdepo-div-abstractModel-structure-p-constraint-report-8"
+           "difdepo-beta-div-abstractModel-structure-p-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1201,6 +1244,12 @@ affiliation =
     att.global.attributes,
     att.datable.attributes,
     att.naming.attributes,
+    
+    ## caractérise l'élément en utilisant n'importe quel système ou typologie de classification approprié.
+    ## Sample values include: 1] sponsor; 2] recommend; 3] discredit; 4] pledged
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
     empty
   }
 birth =
@@ -1211,6 +1260,12 @@ birth =
     att.global.attributes,
     att.datable.attributes,
     att.naming.attributes,
+    
+    ## caractérise l'élément en utilisant n'importe quel système ou typologie de classification approprié.
+    ## Sample values include: 1] caesarean(caesarean section) ; 2] vaginal(vaginal delivery) ; 3] exNihilo(ex nihilo) ; 4] incorporated; 5] founded; 6] established
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
     empty
   }
 death =
@@ -1221,6 +1276,29 @@ death =
     att.global.attributes,
     att.datable.attributes,
     att.naming.attributes,
+    
+    ## caractérise l'élément en utilisant n'importe quel système ou typologie de classification approprié.
+    ## Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] brain; 6] natural; 7] unnatural; 8] fragmentation; 9] dissolution
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+    empty
+  }
+event =
+  
+  ## (évènement) contient des données liées à tout type d'évènement significatif dans l'existence d'une personne, d'un lieu ou d'une organisation. [13.3.1. Basic Principles]
+  element event {
+    (model.headLike*,
+     (model.pLike+ | model.labelLike+),
+     (model.noteLike | model.biblLike)*,
+     event*),
+    att.global.attributes,
+    att.datable.attributes,
+    att.typed.attributes,
+    att.naming.attributes,
+    
+    ## indique la localisation d'un évènement en pointant vers un élément place
+    attribute where { xsd:anyURI }?,
     empty
   }
 listOrg =
@@ -1228,6 +1306,15 @@ listOrg =
   ## (liste d'organisations) contient une liste d'éléments, chacun d'eux fournissant des informations sur une organisation identifiable. [13.2.2. Organizational Names]
   element listOrg {
     (model.headLike*, (org | listOrg)+, empty*),
+    att.global.attributes,
+    att.typed.attributes,
+    empty
+  }
+listEvent =
+  
+  ## (liste d'événements) contient une liste de descriptions, chacune d'entre elles fournissant des informations sur un événement connu. [13.3.1. Basic Principles]
+  element listEvent {
+    (model.headLike*, (event | listEvent)+, empty*),
     att.global.attributes,
     att.typed.attributes,
     empty
@@ -1248,6 +1335,22 @@ listPlace =
     (model.headLike*, (model.placeLike | listPlace)+, empty*),
     att.global.attributes,
     att.typed.attributes,
+    empty
+  }
+location =
+  
+  ## (localisation) définit l'emplacement d'un lieu par des coordonnées géographiques, en termes d'entités nommées dites géopolitiques, ou par une adresse. [13.3.4. Places]
+  element location {
+    (model.labelLike
+     | model.placeNamePart
+     | model.offsetLike
+     | model.measureLike
+     | model.addressLike
+     | model.noteLike
+     | model.biblLike)*,
+    att.global.attributes,
+    att.typed.attributes,
+    att.datable.attributes,
     empty
   }
 org =
