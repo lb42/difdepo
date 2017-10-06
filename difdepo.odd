@@ -123,8 +123,9 @@
                include="p hi term unclear del name date ref label lb listBibl 
                pb respStmt resp teiCorpus title bibl meeting list item note gap desc"/>
             <moduleRef key="header"
-               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc 
-               profileDesc textClass taxonomy keywords revisionDesc listChange change idno"/>
+               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
+               revisionDesc listChange change idno"/>
+               <!--profileDesc textClass taxonomy keywords--> 
             <moduleRef key="textstructure" include="TEI text body div"/>
             <moduleRef key="corpus" include="particDesc settingDesc"/>
             <moduleRef key="namesdates"
@@ -412,6 +413,10 @@
                   </egXML>
                </exemplum>
             </elementSpec>
+   <elementSpec ident="term" mode="change">
+      <desc> contient un mot simple, un mot composé ou un symbole, qui est considéré comme 
+       un terme associé avec une notion oulipienne.</desc>
+   </elementSpec>
             <elementSpec ident="text" mode="change">
                <attList>
                   <attDef ident="type" mode="replace">

@@ -111,8 +111,9 @@
         <div>
           <head>Coupures de page et de ligne</head>
           <p>Au sein d'une transcription, un balise vide <gi>pb</gi> apparaît au début de chaque
-            nouvelle page. Son attribut <att>n</att> peut fournir un numéro de page si la page est
-            numerotée:<!-- DANS LE PDF--> son attribut <att>facs</att> fournit un lien vers l'image numérique de la
+            nouvelle page. Son attribut <att>n</att> fournit le numéro de page 
+            selon la 
+            numerotation du PDF ; son attribut <att>facs</att> fournit un lien vers l'image numérique de la
             page transcrite. Par exemple :
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <p>
@@ -126,17 +127,17 @@
                 <term>Oulipiens</term> : Rats qui ont à construire le <term>labyrinthe</term> dont
                 ils se proposent de sortir. </p>
             </egXML>
-            <!-- if xml:id is used it must be unique -->
-            <!-- t10010007-1961-04-17-cr.xml -->
+            Nota: l'attribut xml:id ne devrait pas été utilisé que si sa valeur soit unique parmi
+              tout le corpus.
           </p>
-          <p>La balise vide <gi>lb</gi> est parfois utilisée pour indiquer une coupure de ligne
+          <p>La balise vide <gi>lb</gi> pourrait être utilisée pour indiquer une coupure de ligne
             signifiante dans le texte. D'habitude les coupures de ligne ne sont pas considerées
             d'importance et ne sont pas conservées, puisque le but principal de cet encodage n'est pas
             de saisir les aspects visuels ou physiques du document, cet objectif étant mieux servi
             par les images numerisées. En revanche, notre encodage vise à saisir la structure
             rhétorique de chaque document et de signaler la présence de quelques traits signifiants, 
-            notamment la présence de termes techniques et de références aux entités
-            nommées telles que les personnes, les lieux, les œuvres etc. </p>
+            notamment la présence de termes ou de notions et de références aux entités
+            nommées telles que les personnes, les notions, les œuvres etc. </p>
           <!-- suppress lb from schema -->
           <p>
             <specList>
@@ -161,7 +162,7 @@
               <p>Les absents s’étant excusés eux-mêmes, le <persName ref="#president"
                   >Président</persName> se donne la parole assez facilement, pour constater que
                 :</p>
-              <list type="ordered">
+              <list>
                 <item>le point (a) de l’ordre du jour (les <term>monosyllabes</term>
                     d’<persName>Amédée Pommier</persName>) est, en l’absence d’<persName>A.M.
                     Schmidt</persName>, exclu du dit ordre ;</item>
@@ -171,7 +172,9 @@
                   ultérieure</item>
               </list></egXML>
           </p>
-          <p>Si la saisie précise de la structure d'une liste n'a pas pu s'effectuer il peut arriver
+          <p>Aucune distinction de balisage n'est proposée pour les listes numerotées ou pas 
+            numerotées.</p><p>
+            Si la saisie précise de la structure d'une liste n'a pas pu s'effectuer il peut arriver
             que chacun des items se présente comme un élément <gi>p</gi>. </p>
           <p>
             <specList>
@@ -204,22 +207,24 @@
               <!-- t100110205-1978-04-oj -->
             </egXML>
           </p>
-          <p>L'attribut <att>type</att> de l'élément <gi>label</gi> porte la valeur
+          <!--<p>L'attribut <att>type</att> de l'élément <gi>label</gi> porte la valeur
               <val>rubrique</val> lorsqu'il fonctionne de cette manière. La valeur
               <val>locuteur</val> est également disponible pour indiquer que le label sert à
-            indiquer la personne qui parle. </p>
+            indiquer la personne qui parle. </p>-->
+          <!-- no need for @type; label used ONLY for rubriques -->
           <p><specList>
-              <specDesc key="label" atts="type"/>
+              <specDesc key="label" />
             </specList></p>
         </div>
         <div>
-          <head>Enjeux de Transcription</head>
+          <head>Problèmes de Transcription</head>
           <p>Bien que le but du projet ne soit pas de produire une édition critique classique, certains 
             passages nécessitent parfois un balisage quasi editorial, par exemple parce
             que la transcription est incertaine ou incomplète; ou parce qu'on souhaite indiquer une
             lacune ou un raturage dans l'original. </p>
-          <p>Dans cet exemple, le transcripteur signale son incertitude concernant la transcrition
-            du mot <mentioned>miquerel</mentioned> en se servant du balise <gi>unclear</gi> :
+          <p>Dans cet exemple, le transcripteur signale son incertitude 
+            concernant la transcription
+            du mot <mentioned>miquerel</mentioned> en se servant de la balise <gi>unclear</gi> :
             <egXML xmlns="http://www.tei-c.org/ns/Examples"><p>
                 <label type="rubrique">Arrivée de <persName>Calvino</persName> (qui passe ce soir à
                     <name type="manif">Apostrophes</name> et qui est un peu
@@ -252,8 +257,8 @@
             </specList></p>
         </div>
         <div>
-          <head>Termes, noms, et notes</head>
-          <p>Les mots et les expressions qui représentent des concepts ou des thèmes particuliers aux
+          <head>Notions, noms, et notes</head>
+          <p>Les mots et les expressions qui représentent des notions spécifiques ou des thèmes particuliers aux
             Oulipiens sont indiqués en utilisant l'élément <gi>term</gi>, pour faciliter
             entre autres objectifs la construction d'un index thématique du corpus. Par exemple :
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -305,7 +310,7 @@
             </specList></p>
           <p>Le placeName n'est utilise que dans le Header (voir)</p>
           <p>Dans chaque cas, l'attribut <att>ref</att> peut fournir un code identifiant l'entité nommée (la
-            personne, le lieu, l'organisation, l'œuvre). Ce mécanisme nous permet de résoudre
+`            personne, le lieu, l'organisation, l'œuvre). Ce mécanisme nous permet de résoudre
             le problème occasionné par l'existence des formes multiples d'une seule nomination. Par
             exemple :
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
