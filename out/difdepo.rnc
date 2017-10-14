@@ -5,7 +5,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-07-05T14:44:14Z. .  
+# Schema generated from ODD source 2017-10-07T08:56:42Z. .  
 
 #
 macro.paraContent =
@@ -490,7 +490,6 @@ model.publicationStmtPart.agency = notAllowed
 model.publicationStmtPart.detail = model.ptrLike | date | idno
 model.certLike = notAllowed
 model.descLike = desc
-model.glossLike = notAllowed
 model.quoteLike = notAllowed
 model.quoteLike_alternation = notAllowed
 model.quoteLike_sequence = empty
@@ -593,8 +592,7 @@ model.limitedPhrase =
 model.divLike = \div
 model.divGenLike = notAllowed
 model.div1Like = notAllowed
-model.teiHeaderPart = profileDesc
-model.profileDescPart = listBibl | textClass | particDesc | settingDesc
+model.teiHeaderPart = notAllowed
 model.resourceLike = \text
 att.personal.attributes = att.naming.attributes
 model.placeLike = place
@@ -672,7 +670,7 @@ desc =
   }
 term =
   
-  ## (terme) contient un mot simple, un mot composé ou un symbole, qui est considéré comme un terme technique. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]
+  ## (terme) contient un mot simple, un mot composé ou un symbole, qui est considéré comme un terme associé avec une notion oulipienne. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]
   element term {
     macro.phraseSeq,
     att.global.attributes,
@@ -1008,30 +1006,6 @@ sourceDesc =
   
   ## (description de la source) décrit la source à partir de laquelle un texte électronique a été dérivé ou produit, habituellement une description bibliographique pour un texte numérisé, ou une expression comme "document numérique natif " pour un texte qui n'a aucune existence précédente. [2.2.7. The Source Description]
   element sourceDesc { (bibl | p), att.global.attributes, empty }
-taxonomy =
-  
-  ## (taxinomie) définit une typologie soit implicitement au moyen d’une référence bibliographique, soit explicitement au moyen d’une taxinomie structurée. [2.3.7. The Classification Declaration]
-  element taxonomy {
-    (((taxonomy)+
-      | ((model.glossLike | model.descLike)+, (taxonomy)*))
-     | (model.biblLike, (taxonomy)*)),
-    att.global.attributes,
-    empty
-  }
-profileDesc =
-  
-  ## (description du profil) fournit une description détaillée des aspects non bibliographiques du texte, notamment les langues utilisées et leurs variantes, les circonstances de sa production, les collaborateurs et leur statut. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
-  element profileDesc {
-    model.profileDescPart*, att.global.attributes, empty
-  }
-textClass =
-  
-  ## (classification du texte) regroupe des informations décrivant la nature ou le sujet d’un texte selon des termes issus d’un système de classification standardisé, d’un thésaurus, etc. [2.4.3. The Text Classification]
-  element textClass { (keywords)*, att.global.attributes, empty }
-keywords =
-  
-  ## (mot clé) contient une liste de mots clés ou d’expressions décrivant la nature ou le sujet d’un texte. [2.4.3. The Text Classification]
-  element keywords { (term+ | \list), att.global.attributes, empty }
 revisionDesc =
   
   ## (descriptif des révisions) fournit un résumé de l’historique des révisions d’un fichier. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
@@ -1170,22 +1144,6 @@ body =
     att.divLike.attributes,
     att.typed.attributes,
     att.written.attributes,
-    empty
-  }
-particDesc =
-  
-  ## (description des participants) décrit les locuteurs, voix ou autres participants identifiables d'une interaction linguistique. [15.2. Contextual Information]
-  element particDesc {
-    (model.pLike+ | (model.personLike | listPerson | listOrg)+),
-    att.global.attributes,
-    empty
-  }
-settingDesc =
-  
-  ## (description du contexte) décrit le(s) contexte(s) dans lesquels se situe une interaction linguistique, soit sous la forme d'une description en prose, soit sous celle d'une série d'éléments décrivant le contexte. [15.2. Contextual Information 2.4. The Profile Description]
-  element settingDesc {
-    (model.pLike+ | (model.placeLike | listPlace)+),
-    att.global.attributes,
     empty
   }
 orgName =
