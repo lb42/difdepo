@@ -1,0 +1,53 @@
+Pour valider (au sens complet du term) je vois 4 etapes:
+
+1. est-ce que le fichier conforme au syntaxe XML?
+2. est-ce que le balisage est valide par rapport au schema TEI_all (qui contient tout les balises possibles de la TEI)?
+3. est-ce que le balisage est valide par rapport au schema difdepo.rnc elabore pour le projet?
+4. est-ce que le balisage est conforme au semantique TEI>
+
+Results
+
+ETAPE 1
+
+Well-formedness est detecte des qu'un fichier est charge par un editeur XML comme oXygen. Il est tres facile a regler. J'etais un peu surpris donc de constater que sur les fichiers livres a peu pres 40 avaient des erreurs syntaxiques, demontrant ainsi que ces fichiers n'ont pas ete controlles par un editeur xml. Les erreurs etaient quand meme facile a corriges: cas typiques -- manque de balise </TEI> fermant; manque de </p> avant <p>; etc.
+
+J'ai regle tout cela dans les fichiers au DropBox, qui sont desormais bien-formes. Voici la liste des fichiers corriges:
+
+t10010046-1964-08-cr-v.xml
+T10010064-1966-02-CR-V.xml
+t10010028-1963-02-cr-v.xml
+t10010045-1964-07-cr-v.xml
+t10010050-1964-12-cr-v.xml
+t10010060-1965-10-cr-v.xml
+t10010124-1971-03-cv-v.xml
+t10010125-1971-04-cr-v.xml
+t10010125-1971-04-cv-v.xml
+t10010128-1971-07-cr-v.xml
+t10010128-1971-08-cv-v.xml
+t10010129-1971-08-cr-v.xml
+t10010203-1978-02-cr-V.xml
+t10010205-1978-04-cv-V.xml
+t10010205-1978-04-oj-V.xml
+t10010215-1979-04-cr-v.xml
+t10010215-1979-04-oj-V.xml
+t10010259-1983-03-cr-v.xml
+t10010259-1983-03-oj-v.xml
+t10010289-1986-01-cr-v.xml
+t10010292-1986-04-cr-V.xml
+t10010295-1986-07-cr-v.xml
+t10010297-1986-09-cr-v.xml
+t10010299-1986-11-cr-V.xml
+t10010300-1986-12-oj-v.xml
+t10010312-1988-01-cr-V.xml
+t10010324-1989-02-oj-V.xml
+
+Avant d'entamer l'etape 2, je me suis apercu que les noms de fichiers etaient pas trop coherents, par rapport a la casse (t ou T au debut, v ou V a la fin), par la presence de blancs a l'interieur, etc. Il y a aussi des cas bizarres comme 
+T10010224-1980-06-OJ.-Vdocx.xml. Pour me simplifier la vie, je me suis decide de renommer tous les fichiers.
+
+
+ETAPE 2
+
+J'ai ensuite valide tout les fichiers, un par un, contre le schema TEI-ALL. La les resultats sont moins encourageats. En effet, sur x fichiers, y  avaient au moins une erreur.
+
+Je me suis apercu
+
