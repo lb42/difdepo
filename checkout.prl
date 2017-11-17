@@ -1,0 +1,21 @@
+while (<>) {
+$count++;
+if (/Fichiers\/([^:]+)/) {
+   $invalid=$1;
+   print "ow! ";
+   $sick{$invalid}++;
+   next if ($sick{$invalid});
+   $invalids++;
+   }
+else {
+     $well++;
+     print;
+     }
+}
+
+print "\nINVALID FILES...\n";
+    for $f (sort keys %sick) {
+    $errs=$sick{$f};
+print "$f ($errs)\n";
+    }
+        print $invalids, " of ", $count, " had 1 or more errors\n";
