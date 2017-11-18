@@ -45,11 +45,11 @@ Avant d'entamer l'etape 2, je me suis apercu que les fichiers n'etaient pas deno
 
 ETAPE 2
 
-J'ai ensuite valide tout les fichiers, un par un, contre le schema TEI-ALL. J'ai ecrit un script pour faire le bilan des erreurs signalees. En effet, sur 648 fichiers, 245  avaient au moins une erreur. Heureusement, la plupart des fichiers (200) n'en avait qu'une erreur: pas forcement la meme bien sur. 
+J'ai ensuite valide tout les fichiers, un par un, contre le schema TEI-ALL. J'ai ecrit un script pour faire le bilan des erreurs signalees. En effet, sur 646 fichiers, 245  avaient au moins une erreur. Heureusement, la plupart des fichiers (200) n'en avait qu'une erreur: pas forcement la meme bien sur. 
 
 Parmi les erreurs tres frequentes, j'ai note d'abord l'effet d'une erreur anterieure: le code de type de texte (CR, CV etc.) manquait a l'element <text> pour 181 cas; du coup, les titre de plusieurs fichiers (titleStmt/title) indiquait simplement "DOCUMENT DE TYPE INCONNU...". Cette erreur se produisait indifferement pour des fichiers denommes avec un -v final ou sans.
 
-J'ai commence donc par retablisant le valeur de @type, et par essayant de recreer un titre plus correct a partir du nom de fichier, en me servant d'une feuille XSLT (fixes.xsl).
+J'ai commence donc par retablissant le valeur de @type, et par essayant de recreer un titre plus correct a partir du nom de fichier, en me servant d'une feuille XSLT (fixes.xsl).
 
 
 
