@@ -3,10 +3,18 @@ ECHO=
 SCHEMA=/home/lou/Public/TEI/P5/Exemplars/tei_all.rng
 #CORPUS=Corpus
 CORPUS=Final
-STYLES=norm2ou.xsl
+CORPUS2=/home/lou/Public/difdepo/reallyFinal
+STYLES=fixes.xsl
+#STYLES=norm2ou.xsl
 XSLHOME=/usr/share/xml/tei/stylesheet/profiles/oulipo/
 CORPUSHDR=corpHeaderStart.txt
 CURRENT=`pwd`
+
+reform:
+	for f in $(CORPUS)/*.xml ; do \
+		echo $$f; \
+		saxon $$f $(STYLES) > $(CORPUS2)/$$f; done;
+
 
 convert:
 	cd $(CORPUS); for f in *.docx ; do \
@@ -28,6 +36,7 @@ driver:
 
 schema: 
 	teitorelaxng --odd difdepo.odd
+
 updateXSL:
 	cp from_common.xsl $(XSLHOME)
 
