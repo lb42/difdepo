@@ -3,7 +3,7 @@ ECHO=
 SCHEMA=/home/lou/Public/TEI/P5/Exemplars/tei_all.rng
 #CORPUS=Corpus
 CORPUS=Final
-CORPUS2=/home/lou/Public/difdepo/reallyFinal
+CORPUS2=/home/lou/Public/difdepo/reallyFinal/Final
 STYLES=fixes.xsl
 #STYLES=norm2ou.xsl
 XSLHOME=/usr/share/xml/tei/stylesheet/profiles/oulipo/
@@ -23,7 +23,7 @@ convert:
 		saxon tmp/$$f.xml $(STYLES) >$$f.xml; done; cd $(CURRENT);
 
 check:
-	cd $(CORPUS); for f in *.xml ; do \
+	cd $(CORPUS2); for f in *.xml ; do \
 		echo $$f; \
 		jing  $(SCHEMA) \
 		$$f ; done; cd $(CURRENT);

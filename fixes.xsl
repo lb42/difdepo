@@ -9,7 +9,7 @@
     <xsl:variable name="fName"><!-- filename -->
         <xsl:value-of select="substring-before(base-uri(),'.xml')"/>
     </xsl:variable>
-    <xsl:variable name="idno"><!-- filename -->
+    <xsl:variable name="idno"><!-- identifier -->
         <xsl:value-of select="concat('T100',substring-after($fName, 'T100'))"/>
     </xsl:variable>
     
@@ -30,9 +30,7 @@
         <xsl:message>Filename <xsl:value-of select="$fName"/></xsl:message>      
         <xsl:message>Identifier <xsl:value-of select="$idno"/></xsl:message>              
         <xsl:message>Type is  <xsl:value-of select="$tType"/></xsl:message>
-        <xsl:message>mId is  <xsl:value-of select="$mId"/></xsl:message>
-        
-        
+        <xsl:message>mId is  <xsl:value-of select="$mId"/></xsl:message>      
 -->        <xsl:apply-templates/>
     </xsl:template>
   
