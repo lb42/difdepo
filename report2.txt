@@ -3,5 +3,71 @@
 Move reallyFinal/Final texts to Current; check in to repo
 Run divFixes.xsl over the texts containing div type=incipit to remove same
 check in; error count now done to 40/50
+
 Notice there are still some lowercase4 filenames, and consequent brouhaha.
-Hand fix what can be hand-fixed quickly: commit 10e573c0909e0ef200d0ffdfe7f2f5cb6b944e87
+Hand fix what can be hand-fixed quickly: commit 10e573c0909e0ef200d0ffdfe7f2f5cb6b944e87 .
+,
+
+About 40 files had TEI with invalid xml:ids (not taken from filename, but duplicate "T100") the same files had invalid idno and often invalid meeting info. Fixed by hand in Current: also fixed 8 texts with @type="-v"; this all needs to be systematically checked (see below)
+
+A few other trivial syntax errors fixed. Now valid against TEI All.
+
+
+-----------------
+Now checking conformance against difdepo.rnc
+
+T10010306-1987-06 has a CR and an OJ, but they seem to be both parts of the same CR to me. The attendance list is in the OJ not the CR. 
+
+1. note/@resp was missing from schema. Added. OTOH there are loads of notes which just say "$$$$" 
+
+2. Attribute @style not present in schema. Used in 19 <p> elements for e.g. alignment of text. Added pro tem, but I think it shd be thrown away.
+@style is used on hi and seg once wrongly for U+221E (T10010166-1974-08-CV). Removed.
+seg is used 8 times, 5 times with @rend='superscript', three times with @rend='color'. Turn them all to <hi>
+hi is used 227+8 times, typically for superscripts.
+
+3. table is used, frequently, in T10010168-1974-11-CR but not elsewhere. Commented out this file for the moment.
+
+4. g is used 11 times for a small number of wingdings. needs to be checked and transformed.
+
+5. choice is used twice. removed both but left comment
+
+6. 0J is not the same as OJ (corrected T10010214-1979-03-OJ)
+
+7 Who is Dominique Roussillon? removed him from T10010215-1979-04-CR anyway
+
+8 docx conv failure for T10010225-1980-02-CV
+
+9 incorrectly structured bibl for T10010324-1989-02-CR (fixed, but will fail check for meaningful attendance list)
+
+10 T10010292-1986-04-CR : sole occurrence of <quote> : removed
+
+ then ran checkups.xsl over each file to determine whether identifiers were correct, with the following results: 
+
+T10010001-1960-11-CR claims inconsistent type CV
+T10010130-1971-09-OJ claims inconsistent type CR
+T10010250-1982-05-CV has inconsistent idno "T100"
+          
+T10010250-1982-05-CV has inconsistent xml:id T100
+T10010250-1982-05-CV claims inconsistent type CV
+T10010252-1982-08-CV has inconsistent idno "T100"
+          
+T10010252-1982-08-CV claims inconsistent type CV
+T10010256-1982-12-CR has inconsistent idno "T100"
+          
+T10010256-1982-12-CR has inconsistent xml:id T10010252-1982-08-CR
+T10010256-1982-12-CR claims inconsistent type CR
+T10010306-1987-06-OJ claims inconsistent type CR
+T10010328-1989-06-CR has inconsistent idno "T100"
+          
+T10010328-1989-06-CR claims inconsistent type CR
+
+
+
+
+
+
+
+ 
+
+
+

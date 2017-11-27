@@ -5,6 +5,7 @@ SCHEMA=/home/lou/Public/TEI/P5/Exemplars/tei_all.rng
 #CORPUS=Final
 CORPUS=Current
 STYLES=fixes.xsl
+CHECKUP=checkups.xsl
 #STYLES=norm2ou.xsl
 XSLHOME=/usr/share/xml/tei/stylesheet/profiles/oulipo/
 CORPUSHDR=corpHeaderStart.txt
@@ -14,8 +15,9 @@ reform:
 	for f in $(CORPUS)/*.xml ; do \
 		echo $$f; \
 		saxon $$f $(STYLES) > $(CORPUS2)/$$f; done;
-
-
+checkUp:
+	for f in $(CORPUS)/*.xml ; do \
+		saxon $$f $(CHECKUP) >>checkup.lis; done;
 convert:
 	cd $(CORPUS); for f in *.docx ; do \
 		echo $$f; \
