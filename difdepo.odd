@@ -299,6 +299,10 @@
                         <valItem ident="end"/>
                      </valList>
                   </attDef>
+                  <attDef mode="add" ident="resp">
+                     <desc>fournit une indication de la personne responsable de l'annotation</desc>
+                     <datatype><dataRef key="teidata.word"></dataRef></datatype>
+                  </attDef>
                </attList>
                <exemplum>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -323,7 +327,18 @@
                   </egXML>
                </exemplum>
             </elementSpec>
-            <elementSpec ident="pb" mode="change">
+
+   <elementSpec ident="p" mode="change">
+      <attList>
+         <attDef ident="style" mode="add">
+            <desc>indique un affichage particulier</desc>
+            <datatype><dataRef key="teidata.string"></dataRef></datatype>
+         </attDef>
+      </attList>
+   </elementSpec>
+   
+   
+   <elementSpec ident="pb" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
       <attDef ident="facs" mode="add">
