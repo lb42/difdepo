@@ -13,8 +13,10 @@ $found = $idMap{$1};
 if ($found) {
    print "<keyVal><key>",$1,"<\/key><val>",$2,"<\/val><\/keyVal>\n";
    $nn++;
-}
-}}
+} else {
+print "<!--", $1, " not transcribed -->\n"; 
+
+}}}
 print "$n docs found\n"; 
 print "$nn with daos\n";
 
