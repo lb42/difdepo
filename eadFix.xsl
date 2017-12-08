@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xmlns:t="http://www.tei-c.org/ns/1.0" 
-    xmlns="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs t" version="2.0">
-   
- <xsl:output indent="yes" omit-xml-declaration="yes" encoding="UTF-8" />
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs t" version="2.0">
+
+    <xsl:output indent="yes" omit-xml-declaration="yes" encoding="UTF-8"/>
     <!--
     <xsl:variable name="docno">
         <xsl:value-of select="substring(substring-after(//t:TEI/@xml:id,'T1001'),1,4)"/>
@@ -22,46 +20,67 @@
     </xsl:variable>
     
    -->
-   <xsl:template match="/">
-       
-       
-      <!-- <xsl:message>Processing <xsl:value-of select="$docno"/>
+    <xsl:template match="/">
+
+
+        <!-- <xsl:message>Processing <xsl:value-of select="$docno"/>
        checksum is <xsl:value-of select="$checksum"/></xsl:message>
-   -->    
-       <xsl:apply-templates select="//c"/>             
+   -->
+        <xsl:apply-templates select="//c"/>
     </xsl:template>
-    
-    
+
+
     <xsl:template match="c">
-        
+
         <xsl:variable name="fileId">
-            <xsl:value-of select="substring(substring-after(dao/@href,'v1b100'),1,4)"/>
+            <xsl:value-of select="substring(substring-after(dao/@href, 'v1b1001'), 1, 4)"/>
         </xsl:variable>
-        <xsl:message>
-            <xsl:value-of select="$fileId"/></xsl:message>
-        
-        <xsl:for-each select="scopecontent/list/item">  
-             <xsl:choose>
-                <xsl:when test="starts-with(.,'Compte')">
-                    <item corresp="{$fileId}-CR">
-                        <xsl:value-of select="."/>
-                    </item>
-                </xsl:when>
-                 <xsl:when test="starts-with(.,'Convocation')">
-                     <item corresp="{$fileId}-CV">
-                         <xsl:value-of select="."/>
-                     </item>
-                 </xsl:when>
-                 <xsl:when test="starts-with(.,'Ordre')">
-                     <item corresp="{$fileId}-OJ">
-                         <xsl:value-of select="."/>
-                     </item>
-                 </xsl:when>
-            </xsl:choose>
-        </xsl:for-each>
-        
+        <xsl:message><xsl:text>{</xsl:text>
+            <xsl:value-of select="$fileId"/>}</xsl:message>
+        <xsl:if test="($fileId)">
+            <xsl:for-each select="scopecontent/list/item">
+                <xsl:choose>
+                    <xsl:when test="starts-with(., 'Compte')">
+                        <xsl:variable name="string">
+                            <xsl:value-of select="."/>
+                        </xsl:variable>
+                        <xsl:message>Analysing <xsl:value-of select="$string"/>
+                        </xsl:message>
+                      <xsl:message>  
+                          <xsl:analyze-string select="$string"
+                            regex=" du\s+([\d]+)\s+([a-zé]{{3}})[^1]+(19\d\d)">
+                            <xsl:matching-substring>
+                                <xsl:value-of select="regex-group(3)"/>
+                                <xsl:text>-</xsl:text>
+                                <xsl:value-of select="regex-group(2)"/>
+                                <xsl:text>-</xsl:text>
+                                <xsl:value-of select="regex-group(1)"/>
+                                <xsl:text>-CR</xsl:text>
+                            </xsl:matching-substring>
+                          <!--  <xsl:non-matching-substring>
+                                <xsl:text> ????-??-??-CR</xsl:text>
+                            </xsl:non-matching-substring>
+         -->               </xsl:analyze-string>
+</xsl:message>
+                        <item corresp="{$fileId}-CR">
+                            <xsl:value-of select="."/>
+                        </item>
+                    </xsl:when>
+                    <xsl:when test="starts-with(., 'Convocation')">
+                        <item corresp="{$fileId}-CV">
+                            <xsl:value-of select="."/>
+                        </item>
+                    </xsl:when>
+                    <xsl:when test="starts-with(., 'Ordre')">
+                        <item corresp="{$fileId}-OJ">
+                            <xsl:value-of select="."/>
+                        </item>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
     </xsl:template>
-   
+
     <!-- and copy everything else -->
     <xsl:template match="@* | comment() | processing-instruction() | text()">
         <xsl:copy-of select="."/>
@@ -71,5 +90,5 @@
             <xsl:apply-templates select="* | @* | processing-instruction() | comment() | text()"/>
         </xsl:copy>
     </xsl:template>
-    
- </xsl:stylesheet>
+
+</xsl:stylesheet>
