@@ -3,6 +3,13 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs t" version="2.0">
     <xsl:output indent="yes" omit-xml-declaration="yes" encoding="UTF-8"/>
+<!-- this script...
+        * constructs and adds a link from each pb to the corresponding image on Gallica
+        * removes some vacuous metadata in attendance lists
+        * tries to tidy up listChange children in header
+        * removes (most) redundant whitespace
+     LB 2017-12-08 -->     
+
     <xsl:variable name="docno">
         <xsl:value-of select="substring(substring-after(//t:TEI/@xml:id, 'T1001'), 1, 4)"/>
     </xsl:variable>
