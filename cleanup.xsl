@@ -57,7 +57,7 @@
     <!-- suppress vacuous items in attendance lists -->
     <xsl:template match="t:item[t:persName[string-length(.) = 0 and not(@ref)]]"/>
     <!-- suppress empty lists -->
-    <xsl:template match="t:list[@type='present'][not(item)]">
+    <xsl:template match="t:list[@type='present'][not(t:item)]">
         <gap/>
     </xsl:template>
     <!-- suppress vacuous placenames -->
