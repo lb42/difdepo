@@ -27,13 +27,12 @@
         <xsl:variable name="meetingId"><xsl:value-of select="concat($T,$mId)"/></xsl:variable>
          <list type="present" id="{$meetingId}">
             <xsl:apply-templates/>
-        </list>
-        
-       
+        </list>       
     </xsl:template>
    
 <xsl:template match="t:item[t:persName[string-length(.)=0 and not(@ref)]]"/>
-    
+
+
     <!-- and copy everything else -->
 <xsl:template match="@* | comment() | processing-instruction() | text()">
         <xsl:copy-of select="."/>
