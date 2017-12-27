@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010264-1983-10-CR">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010264-1983-10-CR">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,7 +23,35 @@
                <meeting xml:id="T10010264-1983-10">
                   <date when="1983-10-02"/>
             
-                  <gap/>
+                  <list type="present">
+                     <item>
+                        <persName ref="#PF"/>
+                     </item>
+                     <item>
+                        <persName ref="#JB"/>
+                     </item>
+                     <item>
+                        <persName ref="#CB"/>
+                     </item>
+                     <item>
+                        <persName ref="#JR"/>
+                     </item>
+                     <item>
+                        <persName ref="#MM"/>
+                     </item>
+                     <item>
+                        <persName ref="#JQ"/>
+                     </item>
+                     <item>
+                        <persName ref="#LE"/>
+                     </item>
+                     <item>
+                        <persName role="président" ref="#NA"/>
+                     </item>
+                     <item>
+                        <persName role="secrétaire" ref="#MB"/>
+                     </item>
+                  </list>
                </meeting>
             </bibl>
          </sourceDesc>
@@ -30,6 +59,7 @@
 
       <revisionDesc>
          <listChange>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
         
             <change>Conversion docx-tei initiale 
