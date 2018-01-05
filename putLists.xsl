@@ -10,7 +10,7 @@
     <xsl:variable name="meetingId">
         <xsl:value-of select="//t:meeting[t:gap]/@xml:id"/>
     </xsl:variable>
-    <xsl:template match="t:gap">
+  <xsl:template match="t:teiHeader//t:gap|t:teiHeader//t:list">
         <xsl:message>gap found in <xsl:value-of select="$meetingId"/></xsl:message>
         <xsl:choose>
             <xsl:when test="document('attendanceLists.xml')//*:list[@id = $meetingId]">
@@ -32,7 +32,7 @@
     <xsl:template match="t:listChange">
         <listChange>
             <xsl:if test="document('attendanceLists.xml')//*:list[@id = $meetingId]">
-                <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+                <change when="2018-01-02">restore accidentally deleted attendance lists</change>
             </xsl:if>
             <xsl:apply-templates/>
         </listChange>

@@ -24,22 +24,22 @@
                   <placeName>Salle à manger de la Régence</placeName>
                   <list type="present">
                      <item>
-                        <persName ref="#CB"/>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName ref="#JD"/>
+                        <persName ref="#JD">JD</persName>
                      </item>
                      <item>
-                        <persName ref="#JL"/>
+                        <persName ref="#JL">JL</persName>
                      </item>
                      <item>
-                        <persName ref="#RQ"/>
+                        <persName ref="#RQ">RQ</persName>
                      </item>
                      <item>
-                        <persName role="président" ref="#FLL"/>
+                        <persName ref="#JD" role="secrétaire">JD</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire" ref="#JD"/>
+                        <persName ref="#FLL" role="président">FLL</persName>
                      </item>
                   </list>
                </meeting>
@@ -49,6 +49,7 @@
    
       <revisionDesc>
          <listChange>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
             <change when="2017-12-27">restore accidentally deleted attendance lists</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
             <change>Conversion docx-tei initiale 
