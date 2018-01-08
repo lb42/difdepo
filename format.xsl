@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="xs t" version="2.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output encoding="UTF-8" indent="yes"/>
-
-  <xsl:template match="t:bibl/t:*/t:date[@when][not(text())]">
-      <date when="{@when}">
-        
-        <xsl:value-of select="format-date(@when, '[D01]/[M01]/[Y0001]')"/>
-        
-      </date>
-  </xsl:template>
+  <xsl:variable name="type"><xsl:value-of select="//t:text/@type"/></xsl:variable>
+  <xsl:template match="//t:titleStmt/t:title[contains(., '() : version TEI')]">
+    <title><xsl:value-of select="substring-before(., '() : version TEI')"/>(<xsl:value-of select="$type"/>) : version TEI</title></xsl:template>
 
   <xsl:template match="@* | comment() | processing-instruction() | text()">
     <xsl:copy-of select="."/>
