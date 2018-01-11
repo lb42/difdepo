@@ -266,7 +266,10 @@
                   <sequence>
                      <elementRef key="date"/>
                      <elementRef key="placeName" minOccurs="0"/>
-                    <elementRef key="list" minOccurs="0"/>                    
+                     <alternate>
+                        <elementRef key="list" />
+                        <elementRef key="gap"/>
+                     </alternate>                    
                   </sequence>
                </content>
                <exemplum>
