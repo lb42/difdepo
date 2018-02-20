@@ -1,108 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010122-1971-01-OJ">
-	  <teiHeader>
-		    <fileDesc>
+  <teiHeader>
+      <fileDesc>
          <titleStmt>
-				        <title>Transcription du scan 10010122 pp. 1 à 1 (OJ) : version TEI</title>
-				        <respStmt>
-					          <resp>transcription</resp>
-					          <name>Eva Lassalle</name>
-				        </respStmt>
-				        <respStmt>
-					          <resp>balisage</resp>
-					          <name>Chiara Mainardi</name>
-				        </respStmt>
-			         <respStmt>
-               <resp>Conversion docx-tei initiale  </resp>
+            <title>Transcription du scan 10010122 pp. 1 à 1 (OJ) : version TEI</title>
+            <respStmt>
+               <resp>transcription</resp>
+               <name>Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>balisage</resp>
+               <name>Chiara Mainardi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion docx-tei initiale </resp>
                <name>Hélène Campaignolle</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
          <sourceDesc>
-				        <bibl>
-					          <idno>T10010122-1971-01-OJ</idno>
-					          <title>Ordre de jour de <ref target="#T10010122-1971-01">la réunion Oulipo</ref>						du <date when="1971-01-12">12/01/1971</date> 
-</title> 
-				        </bibl>
-			      </sourceDesc>
+            <bibl> 
+               <idno>T10010122-1971-01-OJ</idno> 
+               <title>Ordre de jour de <ref target="#T10010122-1971-01">la réunion Oulipo</ref> du <date when="1971-01-12">12/01/1971</date> 
+               </title> 
+            </bibl>
+         </sourceDesc>
       </fileDesc>
-		    <revisionDesc>
-			      <listChange>
+      <revisionDesc>
+         <listChange>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2017-09-09">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="OJ">
-		    <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101222/f1.image"/>
+            <change when="2017-09-09">Conversion docx-tei initiale </change>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  <text type="OJ">
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101222/f1.image" n="1"/>
          <p rend="incipit">12 Janvier 1971 <lb/>4753ème réunion</p>
          <p>Ordre du jour <lb/>119ème séance</p>
-         <p>Boulogne sur Seine
-			</p>
+         <p>Boulogne sur Seine </p>
          <p>OuLiPo</p>
-         <p>
-            <persName>FLL</persName>, <persName>Perec</persName>, <persName>Benabou</persName>,
-					<persName>Arnaud</persName>, <persName>Etienne</persName>,
-					<persName>Braffort</persName>
+         <p> 
+            <persName ref="#FLL">FLL</persName>, <persName ref="#GP">Perec</persName>, <persName ref="#MB">Benabou</persName>, <persName ref="#NA">Arnaud</persName>, <persName ref="#EL">Etienne</persName>, <persName ref="#PB">Braffort</persName> 
          </p>
-         <p>
-				        <label type="rubrique">Création</label>
-			      </p>
+         <p> 
+            <label type="rubrique">Création</label> 
+         </p>
          <list type="unordered">
-				        <item>Absence de rimes intérieures <persName>FLL</persName>
+            <item>Absence de rimes intérieures <persName ref="#FLL">FLL</persName> 
             </item>
-				        <item>quoi? <persName>Etienne</persName>
+            <item>quoi? <persName ref="#EL">Etienne</persName> 
             </item>
-			      </list>
-         <p>
-				        <label type="rubrique">Action</label>
-			      </p>
+         </list>
+         <p> 
+            <label type="rubrique">Action</label> 
+         </p>
          <list type="unordered">
-				        <item>
-               <persName>Benabou</persName> = Unité <unclear>E Recherche
-					Oulipo</unclear>
+            <item> 
+               <persName ref="#MB">Benabou</persName> = Unité <unclear>E Recherche Oulipo</unclear> 
             </item>
-				        <item>Bibliographie</item>
-				        <item>
-               <persName>Perec</persName> Documentation <title>Cape</title>
+            <item>Bibliographie</item>
+            <item> 
+               <persName ref="#GP">Perec</persName> Documentation <title>Cape</title> 
             </item>
-				        <item>
-					          <persName>Benabou</persName>
-					          <persName>						 
- <unclear>Lauvrent</unclear>					 
-</persName> 
-				        </item>
-			      </list>
+            <item> 
+               <persName ref="#MB">Benabou</persName> 
+               <persName ref="#FLL"> 
+                  <unclear>FLL</unclear> 
+               </persName> 
+            </item>
+         </list>
          <p>
-				        <label type="rubrique">Erudition</label>
-			      </p>
+            <label type="rubrique">Erudition</label>
+         </p>
          <list type="unordered">
-				        <item>Les invités d’honneur : <persName>Queneau</persName> (par
-						<persName>FLL</persName>)</item>
-				        <item>
-               <persName>Perec</persName> Traduction phonologique</item>
-				        <item>
-               <persName>Benabou</persName> Article de critique</item>
-			      </list>
-         <p>
-				        <label type="rubrique">Menu propos</label>
-			      </p>
+            <item>Les invités d’honneur : <persName ref="#RQ">Queneau</persName> (par <persName ref="#FLL">FLL</persName>)</item>
+            <item> 
+               <persName ref="#GP">Perec</persName> Traduction phonologique</item>
+            <item> 
+               <persName ref="#MB">Benabou</persName> Article de critique</item>
+         </list>
+         <p> 
+            <label type="rubrique">Menu propos</label> 
+         </p>
          <list type="unordered">
-				        <item>Prochain invité : <persName>Mathews</persName> ?</item>
-			      </list>
-         <p>
-				        <label type="rubrique">Divers</label>
-			      </p>
+            <item>Prochain invité : <persName ref="#HM">Mathews</persName> ?</item>
+         </list>
+         <p> 
+            <label type="rubrique">Divers</label> 
+         </p>
          <list type="unordered">
-				        <item>Prochaine date 12/02/71</item>
-				        <item>
-               <persName>Perec</persName> Ce salaud de Paulet </item>
-				        <item>Fournel</item>
-			      </list>
+            <item>Prochaine date 12/02/71</item>
+            <item> 
+               <persName ref="#GP">Perec</persName> Ce salaud de Paulet </item>
+            <item>Fournel</item>
+         </list>
       </body>
-	  </text>
+  </text>
 </TEI>
