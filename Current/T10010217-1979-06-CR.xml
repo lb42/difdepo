@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010217-1979-06-CR">
   <teiHeader>
       <fileDesc>
@@ -24,22 +25,22 @@
                   <date when="1979-06-14">14/06/1979</date>
                   <list type="present">
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                   </list>
                </meeting>
@@ -60,7 +61,7 @@
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102178/f2.image"/>
          <p rend="incipit">14-06-1979 OULIPO</p>
-         <p rend="incipit">Présents : <persName>Perec</persName>, <persName>Calvino</persName>, <persName>Braffort</persName>, <persName>Bénabou</persName>, <persName>Fournel</persName>, <persName>Luc Etienne</persName>
+         <p rend="incipit">Présents : <persName ref="#GP">Perec</persName>, <persName ref="#IC">Calvino</persName>, <persName ref="#PB">Braffort</persName>, <persName ref="#MB">Bénabou</persName>, <persName ref="#PF">Fournel</persName>, <persName ref="#LE">Luc Etienne</persName>
          </p>
          <p>
             <persName>G.P. Brétecher</persName> : une <term>bande dessinée</term> sans légende confiée à 4 auteurs différents pour remplir les bulles : tentative amusante</p>
@@ -76,16 +77,16 @@
                <date when="2017-08-29T11:05:00Z"/>Pas une notion</note>
       de <persName>Mallarmé</persName>
          </p>
-         <p>Lecture d’un poème obtenu par la méthode <persName>Luc Etienne</persName> 
+         <p>Lecture d’un poème obtenu par la méthode <persName ref="#LE">Luc Etienne</persName> 
             <unclear>Désci</unclear>.</p>
          <p>
-            <persName>I.C.</persName> à propos du roman récemment publié : roman de la quête du roman (<title>Si une nuit d’hiver un voyageur</title>)</p>
+            <persName ref="#IC">I.C.</persName> à propos du roman récemment publié : roman de la quête du roman (<title>Si une nuit d’hiver un voyageur</title>)</p>
          <p>12 chapitres du cadre ; 10 chapitres du roman proprement dit</p>
          <p>Schéma de <persName>Platon</persName> au débat du <title>Sophiste Il faut vérifier le scan cette phrase est bizarre</title>  
          </p>
          <p>longue analyse du roman, qui plonge les auditeurs dans l’admiration.</p>
          <p>
-            <persName>G.P.</persName> présente 3 travaux</p>
+            <persName ref="#GP">G.P.</persName> présente 3 travaux</p>
          <list type="unordered">
             <item>Le livre de 2000 phrases de <persName>J.P. Parmelli</persName> 
             </item>
@@ -103,10 +104,10 @@
             </item>
          </list>
          <p>
-            <persName>I.C.</persName> et <persName>G.P.</persName> : jeu de <persName>Flahaut</persName>, joué par <persName>Perec</persName> et <persName>Calvino</persName>
+            <persName ref="#IC">I.C.</persName> et <persName ref="#GP">G.P.</persName> : jeu de <persName>Flahaut</persName>, joué par <persName ref="#GP">Perec</persName> et <persName ref="#IC">Calvino</persName>
          </p>
          <p>
-            <persName>P.F.</persName> : <persName>Flacsu</persName> 
+            <persName ref="#PF">P.F.</persName> : <persName>Flacsu</persName> 
       
             <note place="comment" resp="utilisateur-p3">
                <date when="2017-08-26T15:43:00Z"/>??</note>

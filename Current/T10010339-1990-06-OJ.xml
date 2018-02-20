@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010339-1990-06-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010339-1990-06-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010339-1990-06">la réunion Oulipo</ref> de <date when="1990-06-23">23/06/1990</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,8 +37,7 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="10"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010339c/f10.image"/>
+         <pb n="10" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010339c/f10.image"/>
          <p rend="incipit">OULIPO</p>
          <p rend="incipit">23/6/90</p>
          <p rend="incipit">ordre du jour</p>
@@ -47,17 +47,17 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName>
+               <persName ref="#JJ">JJ</persName>
                <hi rend="sup">1</hi>
                <term>filigranes</term>
             </item>
             <item>
-               <persName>JJ</persName>
+               <persName ref="#JJ">JJ</persName>
                <hi rend="sup">2 </hi>
                <title>mécrite élémentaire</title>
             </item>
             <item>
-               <persName>JR</persName> 
+               <persName ref="#JR">JR</persName> 
                <term>morale élémentaire</term>
         
                <note place="comment" resp="ALE">
@@ -65,13 +65,13 @@
         
             </item>
             <item>
-               <persName>MB</persName>, <persName>FC</persName> rappel du 23 juin</item>
+               <persName ref="#MB">MB</persName>, <persName ref="#FC">FC</persName> rappel du 23 juin</item>
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
                <hi rend="sup">2 </hi>
                <term>filigranes</term>.           </item>
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
                <term>réforme à l’orthographe</term>
             </item>
          </list>
@@ -83,14 +83,14 @@
             <item>
                <persName>FC Ezra Pound</persName> 
                <term>plagiaire</term>
-               <persName>RQ</persName>
+               <persName ref="#RQ">RQ</persName>
             </item>
             <item>
-               <persName>JJ</persName> 
+               <persName ref="#JJ">JJ</persName> 
                <term>curiosités syntaxiques</term>
             </item>
             <item>
-               <persName>PF</persName> thèse <persName>carolus</persName>
+               <persName ref="#PF">PF</persName> thèse <persName>carolus</persName>
             </item>
          </list>
          <p>
@@ -98,34 +98,34 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName>
+               <persName ref="#PF">PF</persName>
                <hi rend="sup">1</hi> 
                <persName>Tarbes</persName>
             </item>
             <item>
-               <persName>PF</persName>
+               <persName ref="#PF">PF</persName>
                <hi rend="sup">2</hi> 
                <title>Nouvelle Revue Française</title>
             </item>
             <item>
-               <persName>FC</persName> Thionville</item>
+               <persName ref="#FC">FC</persName> Thionville</item>
             <item>
-               <persName>MB</persName> Germanie</item>
+               <persName ref="#MB">MB</persName> Germanie</item>
             <item>
-               <persName>JJ</persName>
-               <hi rend="sup">1</hi>, <persName>MB</persName>
+               <persName ref="#JJ">JJ</persName>
+               <hi rend="sup">1</hi>, <persName ref="#MB">MB</persName>
                <hi rend="sup">2</hi> Florence</item>
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
                <hi rend="sup">2 </hi>Naples</item>
             <item>
-               <persName>JJ</persName>
+               <persName ref="#JJ">JJ</persName>
                <hi rend="sup">2</hi> Marseille</item>
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
                <hi rend="sup">3</hi> Finances</item>
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
                <hi rend="sup">4</hi> ordinateurs</item>
          </list>
          <p>
@@ -133,7 +133,7 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
                <hi rend="sup">1</hi> 
                <term>monostiche</term>
             </item>
@@ -141,14 +141,14 @@
                <persName>PF lalanne</persName>
             </item>
             <item>
-               <persName>JJ</persName> 
+               <persName ref="#JJ">JJ</persName> 
                <title>manufacture</title>
             </item>
             <item>
-               <persName>JR</persName>1 <term>charade</term>
+               <persName ref="#JR">JR</persName>1 <term>charade</term>
             </item>
             <item>
-               <persName>JR</persName>2 Terre <unclear>*</unclear>
+               <persName ref="#JR">JR</persName>2 Terre <unclear>*</unclear>
             </item>
             <item>Invité d’honneur <persName>Anne Portugal</persName> ; <persName>Kolebka</persName>, <persName>Eco</persName>, <persName>Host</persName>, <unclear>Scheldt</unclear>
             </item>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010239-1981-05-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010239-1981-05-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010239-1981-05">la réunion Oulipo</ref> du <date when="1981-05-22">22/05/1981</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -39,30 +40,30 @@
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102390/f3.image"/>
          <p rend="incipit">22/5/81</p>
          <p rend="incipit">
-            <persName>JQ</persName>+<persName>PF</persName>+<persName>JB</persName>+<persName>HM</persName>+<persName>MB</persName>+<persName>GP</persName>+<persName>JR</persName>
+            <persName ref="#JQ">JQ</persName>+<persName ref="#PF">PF</persName>+<persName ref="#JB">JB</persName>+<persName ref="#HM">HM</persName>+<persName ref="#MB">MB</persName>+<persName ref="#GP">GP</persName>+<persName ref="#JR">JR</persName>
          </p>
-         <p rend="incipit">+ invité <persName>Roger Shattuck</persName> + <persName>MM</persName>
+         <p rend="incipit">+ invité <persName>Roger Shattuck</persName> + <persName ref="#MM">MM</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>LE</persName>+<persName>NA</persName>+<persName>PB</persName>+<persName>JD</persName>+<persName>FLL</persName>
+         <p rend="incipit">Excusés : <persName ref="#LE">LE</persName>+<persName ref="#NA">NA</persName>+<persName ref="#PB">PB</persName>+<persName ref="#JD">JD</persName>+<persName ref="#FLL">FLL</persName>
          </p>
-         <p rend="incipit">Inexcusables : <persName>JL</persName>
+         <p rend="incipit">Inexcusables : <persName ref="#JL">JL</persName>
          </p>
          <p>Ordre du jour</p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <list type="unordered">
-            <item>3 <persName>JQ</persName> 
+            <item>3 <persName ref="#JQ">JQ</persName> 
                <term>prosodie</term>
             </item>
          </list>
          <list type="unordered">
-            <item>1 <persName>HM</persName> 
+            <item>1 <persName ref="#HM">HM</persName> 
                <ref>La parole chiffrée</ref>
             </item>
          </list>
          <list type="unordered">
-            <item>2 <persName>GP</persName> 
+            <item>2 <persName ref="#GP">GP</persName> 
                <title>La cantatrice sauve</title>
             </item>
          </list>
@@ -71,18 +72,18 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JB</persName> 
+               <persName ref="#JB">JB</persName> 
                <name type="manif">Bourges</name> – <name type="manif">Villeneuve</name> – <name type="manif">Cerisy</name> – Documents AP</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>GP</persName> 
+               <persName ref="#GP">GP</persName> 
                <name type="manif">Preprimtech</name>
             </item>
          </list>
          <list type="unordered">
             <item>
-               <persName>HM</persName> Droits</item>
+               <persName ref="#HM">HM</persName> Droits</item>
          </list>
          <list type="unordered">
             <item>
@@ -92,20 +93,20 @@
          </list>
          <list type="unordered">
             <item>
-               <persName>MB</persName> Bourges</item>
+               <persName ref="#MB">MB</persName> Bourges</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>PF</persName> Oulipo</item>
+               <persName ref="#PF">PF</persName> Oulipo</item>
          </list>
          <p>BO</p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> 15, 16, global</item>
+               <persName ref="#PF">PF</persName> 15, 16, global</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>GP</persName> Beo(thien) 16</item>
+               <persName ref="#GP">GP</persName> Beo(thien) 16</item>
          </list>
          <p>
             <label type="rubrique">Erudition</label>
@@ -117,10 +118,10 @@
             <label type="rubrique">Menus propos</label>
          </p>
          <p>
-            <persName>JB</persName> 
-            <unclear>superstr</unclear> en triangle <persName>HM</persName> Bourges</p>
+            <persName ref="#JB">JB</persName> 
+            <unclear>superstr</unclear> en triangle <persName ref="#HM">HM</persName> Bourges</p>
          <p>
-            <persName>GP</persName> 
+            <persName ref="#GP">GP</persName> 
             <term>Contraintes</term>
          </p>
          <p>Invités d’honneur</p>

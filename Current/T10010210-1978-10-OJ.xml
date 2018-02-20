@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010210-1978-10-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010210-1978-10-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010210-1978-10">la réunion Oulipo</ref> de <date when="1978-10-19">19/10/1978</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -40,17 +41,18 @@
          <p rend="incipit">ORDRE DU JOUR          </p>
          <p rend="incipit">le 19 10 78</p>
          <p rend="incipit">
-            <persName>NA</persName> Président</p>
+            <persName ref="#NA">NA</persName> Président</p>
          <p>
             <label type="rubrique">CRÉATION</label>
          </p>
          <list type="unordered">
             <item>
                <title>volume 2</title> 
-               <persName>MB</persName> +<persName>PF</persName>
+               <persName ref="#MB">MB</persName> +<persName ref="#PF">PF</persName>
             </item>
-            <item>Annonce d’un extrait du <title>3e Manifeste</title> de <persName>FLL</persName> (qu’est-ce qu’une <term>structure littéraire</term> ?)</item>
-            <item><term>Dialogues protées</term> pour une bande magnétique et mariage du <term>sonnet-carpe</term> et du <term>sonnet-lapin</term> (<persName>LE</persName>)</item>
+            <item>Annonce d’un extrait du <title>3e Manifeste</title> de <persName ref="#FLL">FLL</persName> (qu’est-ce qu’une <term>structure littéraire</term> ?)</item>
+            <item>
+               <term>Dialogues protées</term> pour une bande magnétique et mariage du <term>sonnet-carpe</term> et du <term>sonnet-lapin</term> (<persName ref="#LE">LE</persName>)</item>
          </list>
          <p>
             <label type="rubrique">ACTION</label>
@@ -58,33 +60,33 @@
          <list type="unordered">
             <item>
                <title>B.O.</title> 
-               <persName>PF</persName>
+               <persName ref="#PF">PF</persName>
             </item>
-            <item>week-end de travail du 11 novembre. <persName>PF</persName>
+            <item>week-end de travail du 11 novembre. <persName ref="#PF">PF</persName>
             </item>
-            <item>Finances. <persName>MB</persName>
+            <item>Finances. <persName ref="#MB">MB</persName>
             </item>
          </list>
          <p>
             <label type="rubrique">ÉRUDITION</label>
          </p>
          <list type="unordered">
-            <item>Surréalisme <persName>MB</persName>
+            <item>Surréalisme <persName ref="#MB">MB</persName>
             </item>
-            <item>Profession de foi (<persName>LE</persName>)</item>
+            <item>Profession de foi (<persName ref="#LE">LE</persName>)</item>
          </list>
          <p>
             <label type="rubrique">X MENUS PROPOS</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>Marie-Noëlle Lasne</persName> et <persName>Calvino</persName> à <orgName>France Culture</orgName> 
-               <persName>FLL</persName>  
+               <persName>Marie-Noëlle Lasne</persName> et <persName ref="#IC">Calvino</persName> à <orgName>France Culture</orgName> 
+               <persName ref="#FLL">FLL</persName>  
             </item>
          </list>
          <p>PROCHAINE RÉUNION</p>
          <list type="unordered">
-            <item>7 Décembre 1978 chez <persName>Claude Berge</persName>
+            <item>7 Décembre 1978 chez <persName ref="#CB">Claude Berge</persName>
             </item>
             <item>réunion suivante chez <persName>Dominique</persName> 23 route de la Reine Boulogne.</item>
             <item>Invités d’honneur</item>

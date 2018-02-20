@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010001-1960-11-CV">
   <teiHeader>
       <fileDesc>
@@ -20,14 +21,14 @@
          <sourceDesc>
             <bibl>
                <idno>T10010001-1960-11-CV</idno>
-              <title>Convocation à <ref target="#T10010001-1960-11">une réunion Oulipo</ref>, envoyée le <date when="1960-11-25">25/11/1960</date> par <persName role="expéditeur">JB</persName> à <persName role="destinataire">JQ</persName> 
- <persName role="destinataire">RQ</persName> 
- <persName role="destinataire">AS</persName> 
- <persName role="destinataire">JL</persName> 
- <persName role="destinataire">FLL</persName> 
- <persName role="destinataire">JD</persName> 
- <persName role="destinataire">CB</persName> 
-</title> 
+              <title>Convocation à <ref target="#T10010001-1960-11">une réunion Oulipo</ref>, envoyée le <date when="1960-11-25">25/11/1960</date> par <persName ref="#JB">JB</persName> à <persName ref="#JQ">JQ</persName> 
+                  <persName ref="#RQ">RQ</persName> 
+                  <persName>AS</persName> 
+                  <persName ref="#JL">JL</persName> 
+                  <persName ref="#FLL">FLL</persName> 
+                  <persName ref="#JD">JD</persName> 
+                  <persName ref="#CB">CB</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -57,35 +58,35 @@
          </p>
          <p>
             <label type="rubrique">
-               <persName>QUEVAL Jean</persName>, Hérissy (S. &amp; M. )</label>
+               <persName ref="#JQ">QUEVAL Jean</persName>, Hérissy (S. &amp; M. )</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>QUENEAU Raymond</persName>, 9 rue Casimir-Pinel, Neuilly (Seine) – MAI 46-83</label>
+               <persName ref="#RQ">QUENEAU Raymond</persName>, 9 rue Casimir-Pinel, Neuilly (Seine) – MAI 46-83</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>SCHMIDT Albert-Marie</persName>, 38 rue de Vaugirard, Paris 7e</label>
+               <persName ref="#AMS">SCHMIDT Albert-Marie</persName>, 38 rue de Vaugirard, Paris 7e</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>LESCURE Jean</persName>, 42 rue du Bac, Paris 7e LIT 66-91</label>
+               <persName ref="#JL">LESCURE Jean</persName>, 42 rue du Bac, Paris 7e LIT 66-91</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>LE LIONNAIS François</persName>, 23 route de la Reine, Boulogne (Seine) – MOL 90-13</label>
+               <persName ref="#FLL">LE LIONNAIS François</persName>, 23 route de la Reine, Boulogne (Seine) – MOL 90-13</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>DUCHATEAU Jacques</persName>, 4 rue Casimir-Périer, Paris 7e – INV 99-79</label>
+               <persName ref="#JD">DUCHATEAU Jacques</persName>, 4 rue Casimir-Périer, Paris 7e – INV 99-79</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>BERGE Claude</persName>, 8 rue Claude Matrat, Issy (Seine) – MIC 45-73</label>
+               <persName ref="#CB">BERGE Claude</persName>, 8 rue Claude Matrat, Issy (Seine) – MIC 45-73</label>
          </p>
          <p>
             <label type="rubrique">
-               <persName>BENS Jacques</persName>, Librairie Gallimard, 5 rue Sébastien-Bottin, Paris 7e LIT 28-91</label>
+               <persName ref="#JB">BENS Jacques</persName>, Librairie Gallimard, 5 rue Sébastien-Bottin, Paris 7e LIT 28-91</label>
          </p>
          <p>
             Une question 
@@ -102,15 +103,15 @@
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010001d/f2.image"/>
          <p>
             Avis.</p>
-         <p>Toute question-suggestion peut, pour communication à l’ensemble des Séministes, être adressée à <persName>Jacques Bens</persName>, secrétaire provisoire, qui se chargera de la diffusion tapuscrite.</p>
+         <p>Toute question-suggestion peut, pour communication à l’ensemble des Séministes, être adressée à <persName ref="#JB">Jacques Bens</persName>, secrétaire provisoire, qui se chargera de la diffusion tapuscrite.</p>
          <p>= + =</p>
          <p>MEMENTO</p>
-         <p>Je rappelle à <persName>Raymond Queneau</persName> qu’il doit écrire à MM;<persName>Schmidt</persName>, <persName>Latis</persName> et <persName>Koenig</persName>.</p>
+         <p>Je rappelle à <persName ref="#RQ">Raymond Queneau</persName> qu’il doit écrire à MM;<persName ref="#AMS">Schmidt</persName>, <persName ref="#LA">Latis</persName> et <persName>Koenig</persName>.</p>
          <p>Je rappelle à tout chacun que la prochaine réunion aura lieu, à la Cave gasconne, le lundi 19 décembre à Midi 30. Aucune absence ne sera tolérée.</p>
-         <p>Je rappelle à <persName>Claude Berge</persName> qu’il sera le prochain chairmane, ce qui lui confère le droit et le devoir de rédiger le prochain ordre du jour. (Nous tâcherons de nous mettre d’accord tous les deux pour que cet ordre du jour vous soit communiqué avant la prochaine réunion. )</p>
+         <p>Je rappelle à <persName ref="#CB">Claude Berge</persName> qu’il sera le prochain chairmane, ce qui lui confère le droit et le devoir de rédiger le prochain ordre du jour. (Nous tâcherons de nous mettre d’accord tous les deux pour que cet ordre du jour vous soit communiqué avant la prochaine réunion. )</p>
          <p>Je rappelle que le S. L. E. va s’inclure dans <orgName>l’Accommission des Compositions du Collège de Pataphysique</orgName>. Chaque Séministe sera affectée du titre de dataire. (Toutes les précisions sur ce titre et ses obligations seront données ultérieurement).</p>
          <p>
-            <persName>Jacques BENS</persName>
+            <persName ref="#JB">Jacques BENS</persName>
          </p>
          <p>Secrétaire provisoire</p>
       </body>

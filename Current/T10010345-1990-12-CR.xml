@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010345-1990-12-CR">
   <teiHeader>
       <fileDesc>
@@ -24,34 +25,34 @@
                   <date when="1990-12-20">20/12/1990</date>
                   <list type="present">
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>SC</persName>
+                        <persName ref="#SC">SC</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName role="invité">Bernard Jaulin</persName>
+                        <persName>Bernard Jaulin</persName>
                      </item>
                   </list>
                </meeting>
@@ -72,18 +73,27 @@
       <body>
          <pb n="7" facs="http://gallica.bnf.fr/ark:/12148/btv1b100103450/f7.image"/>
          <p rend="incipit">OULIPO 20 12 90</p>
-         <p rend="incipit">Chez <persName>P.F.</persName>
+         <p rend="incipit">Chez <persName ref="#PF">P.F.</persName>
          </p>
-         <p rend="incipit">Présents : <persName>CB</persName> <persName>JR</persName> <persName>FC</persName> <persName>MB</persName> <persName>JJ</persName> <persName>HM</persName> <persName>CB</persName> <persName>SC</persName> <persName>JB</persName> <persName>PF</persName>
+         <p rend="incipit">Présents : <persName ref="#CB">CB</persName> 
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#FC">FC</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#JJ">JJ</persName> 
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#SC">SC</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#PF">PF</persName>
          </p>
          <p rend="incipit">Excusés : <persName>P.R. M.M.</persName>
          </p>
-         <p rend="incipit">Absents : les autres. Président : <persName>JR</persName>. Secrétaire : <persName>MB</persName>.</p>
+         <p rend="incipit">Absents : les autres. Président : <persName ref="#JR">JR</persName>. Secrétaire : <persName ref="#MB">MB</persName>.</p>
          <p rend="incipit">Invité d’honneur : <persName>Bernard Jaulin</persName>
          </p>
          <p>Laborieuse confection de l’ordre du jour, particulièrement chargé</p>
          <p>
-            <persName>JR</persName> : présente <persName>B. Jaulin</persName>, spécialiste des <term>groupes campanologiques</term> 
+            <persName ref="#JR">JR</persName> : présente <persName>B. Jaulin</persName>, spécialiste des <term>groupes campanologiques</term> 
          </p>
          <p>explication des règles des <term>groupes campanologiques</term> = quelques considérations mathématiques</p>
          <p>les sonneurs jouent de mémoire</p>
@@ -91,21 +101,21 @@
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>FC</persName>
+            <persName ref="#FC">FC</persName>
             <hi rend="sup">1</hi> : <title>Père Noël</title> (un <term>S+7</term>) (<ref>archives</ref>)</p>
          <p>
-            <persName>FC</persName>
+            <persName ref="#FC">FC</persName>
             <hi rend="sup">2</hi> : <title>L’Action Française</title> (un autre <term>S+7</term>) (<ref>archives</ref>)</p>
          <p>
-            <persName>JJ</persName>. Blason (t-shirt blasonné) versé aux archives</p>
+            <persName ref="#JJ">JJ</persName>. Blason (t-shirt blasonné) versé aux archives</p>
          <p>
-            <persName>JJ</persName> 
+            <persName ref="#JJ">JJ</persName> 
             <term>poème gnomique</term> = 23 = 24 (le schème des rimes n’est pas maitrisé !)</p>
          <p>
-            <persName>HM</persName> 
+            <persName ref="#HM">HM</persName> 
             <term>Sextine</term> améliorée : remplacer les mots finaux par leur <term>S+7</term> (<ref>archives</ref>) </p>
          <p>
-            <persName>JR</persName> 2 variantes sur la méthode <term>S+7</term> 1 La Bibliothèque de <persName>Lefèvre d’Etaples</persName>
+            <persName ref="#JR">JR</persName> 2 variantes sur la méthode <term>S+7</term> 1 La Bibliothèque de <persName>Lefèvre d’Etaples</persName>
          </p>
          <p>                                  - Je suis
         <note place="comment" resp="utilisateur-p3">
@@ -114,36 +124,36 @@
              le ténébreux : <term>S+7 = Z</term>
          </p>
          <p>
-            <persName>PF</persName> Question : <persName>R.R.</persName> avait-il caché des <title>1014</title>  des <term>sonnets</term> privilégiés ? À des places stratégiques ?</p>
+            <persName ref="#PF">PF</persName> Question : <persName>R.R.</persName> avait-il caché des <title>1014</title>  des <term>sonnets</term> privilégiés ? À des places stratégiques ?</p>
          <p>Discussion sur ce point important. On va chercher <title>la Pléiade</title>.</p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>FC</persName> : <title>Locus Solus</title> manuscrit vendu 500.000 francs (préemption B.N.) </p>
+            <persName ref="#FC">FC</persName> : <title>Locus Solus</title> manuscrit vendu 500.000 francs (préemption B.N.) </p>
          <p>
-            <persName>HM</persName> : Electronic Billboard</p>
+            <persName ref="#HM">HM</persName> : Electronic Billboard</p>
          <p>
-            <persName>PF</persName> : <persName>Oscar de la Borbolla</persName>, écrivain mexicain qui a participé au stage OULIPO à Mexico. Auteur de travaux oulipiens dont des <term>mono-vocalismes</term> 
+            <persName ref="#PF">PF</persName> : <persName>Oscar de la Borbolla</persName>, écrivain mexicain qui a participé au stage OULIPO à Mexico. Auteur de travaux oulipiens dont des <term>mono-vocalismes</term> 
          </p>
          <p>
             <title>Las vocales malditas</title>, 1988</p>
          <p>
-            <persName>MB</persName> : Documents <persName>Queneau</persName> ramenés de Limoges</p>
+            <persName ref="#MB">MB</persName> : Documents <persName ref="#RQ">Queneau</persName> ramenés de Limoges</p>
          <p>le</p>
          <pb n="8" facs="http://gallica.bnf.fr/ark:/12148/btv1b100103450/f8.image"/>
          <p>OULIPO 20 12 90</p>
          <p>
-            <persName>PF</persName> : Rouen : la <title>Pie Rouge</title> représentation du 12/4 à Rouen et 13 au Moulin</p>
+            <persName ref="#PF">PF</persName> : Rouen : la <title>Pie Rouge</title> représentation du 12/4 à Rouen et 13 au Moulin</p>
          <p>
-            <persName>MB</persName> : Florence : état de la question avec <persName>Brunelle Ermelli</persName>
+            <persName ref="#MB">MB</persName> : Florence : état de la question avec <persName>Brunelle Ermelli</persName>
          </p>
          <p>     Berlin : invitation de la <orgName>Literaturhaus</orgName> : acceptation enthousiaste (<persName>JR, JJ, HM, MB, PF, FC + MM</persName> ?)</p>
          <p>
-            <persName>JJ</persName> Marseille le 25 (1<hi rend="sup">e</hi> 
+            <persName ref="#JJ">JJ</persName> Marseille le 25 (1<hi rend="sup">e</hi> 
             <unclear>*</unclear>)</p>
          <p>
-            <persName>PF</persName> : <title>Nouvelle Revue Française</title> : <title>les Morales Elémentaire</title>
+            <persName ref="#PF">PF</persName> : <title>Nouvelle Revue Française</title> : <title>les Morales Elémentaire</title>
       
             <note place="comment" resp="ALE">
                <date when="2017-06-20T17:40:00Z"/>$$$ notion aussi</note>
@@ -152,36 +162,36 @@
          </p>
          <p>– acheter 6 <title>Nouvelle Revue Française</title> pour distribution aux Oulipiens</p>
          <p>
-            <persName>JR</persName> : Vendredi 8 mars : 17 heures 15 séminaire consacré à l’OULIPO</p>
+            <persName ref="#JR">JR</persName> : Vendredi 8 mars : 17 heures 15 séminaire consacré à l’OULIPO</p>
          <p>
             <title>B.O.</title> : réunion préparatoire pour prochains fascicules</p>
-         <p>Le 27/12 jeudi 14 heures 30 chez <persName>MB</persName> : Séance <title>B.O.</title> 
+         <p>Le 27/12 jeudi 14 heures 30 chez <persName ref="#MB">MB</persName> : Séance <title>B.O.</title> 
             <term>S+7</term> et sequentes.</p>
          <p>
-            <persName>FC</persName> : signale la publication d’un livre sur <persName>Tabourot</persName> chez <orgName>Klincksieck</orgName> 
+            <persName ref="#FC">FC</persName> : signale la publication d’un livre sur <persName>Tabourot</persName> chez <orgName>Klincksieck</orgName> 
          </p>
          <p>
-            <persName>PF</persName> : projets éditoriaux fous : éditer <persName>Tabourot, Jodelle</persName>
+            <persName ref="#PF">PF</persName> : projets éditoriaux fous : éditer <persName>Tabourot, Jodelle</persName>
          </p>
          <p>
-            <persName>JR</persName> : <persName>Duchateau</persName> va faire quelque chose sur <persName>Queval</persName> à <orgName>France Culture</orgName>.</p>
+            <persName ref="#JR">JR</persName> : <persName ref="#JD">Duchateau</persName> va faire quelque chose sur <persName ref="#JQ">Queval</persName> à <orgName>France Culture</orgName>.</p>
          <p>
-            <persName>HM</persName> :</p>
+            <persName ref="#HM">HM</persName> :</p>
          <p>
             <label type="rubrique">Menus Propos</label>
          </p>
          <p>
-            <persName>MB :</persName> 
+            <persName ref="#MB">MB :</persName> 
          </p>
          <p>
             <label type="rubrique">Finances :</label>
          </p>
-         <p>dépense concernant <persName>J. Queval</persName>
+         <p>dépense concernant <persName ref="#JQ">J. Queval</persName>
          </p>
          <p>
-            <persName>HM</persName> : lecture à <orgName>Beaubourg</orgName> 6 février à 18 heures 30</p>
-         <p>Prochaine réunion : 31/1 (<persName>PB</persName>) ou <persName>HM</persName>.</p>
-         <p>Invité : <persName>Lartigue</persName>, contacté par <persName>JR</persName>.    </p>
+            <persName ref="#HM">HM</persName> : lecture à <orgName>Beaubourg</orgName> 6 février à 18 heures 30</p>
+         <p>Prochaine réunion : 31/1 (<persName ref="#PB">PB</persName>) ou <persName ref="#HM">HM</persName>.</p>
+         <p>Invité : <persName>Lartigue</persName>, contacté par <persName ref="#JR">JR</persName>.    </p>
       </body>
   </text>
 </TEI>

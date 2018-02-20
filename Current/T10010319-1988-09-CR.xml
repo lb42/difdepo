@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010319-1988-09-CR">
   <teiHeader>
       <fileDesc>
@@ -25,19 +26,19 @@
                   <placeName>chez PF</placeName>
                   <list type="present">
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                   </list>
                </meeting>
@@ -58,20 +59,23 @@
   <text type="CR">
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010319j/f2.image"/>
-         <p rend="incipit">OULIPO chez <persName>PF</persName> 23-9-88</p>
-         <p rend="incipit">Présents : <persName>FC</persName>, <persName>JR</persName>, <persName>PF</persName>, <persName>JJ</persName>, <persName>HM</persName>, <persName>MB</persName>    Président : <persName>FC</persName>
+         <p rend="incipit">OULIPO chez <persName ref="#PF">PF</persName> 23-9-88</p>
+         <p rend="incipit">Présents : <persName ref="#FC">FC</persName>, <persName ref="#JR">JR</persName>, <persName ref="#PF">PF</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#HM">HM</persName>, <persName ref="#MB">MB</persName>    Président : <persName ref="#FC">FC</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>JL</persName> <persName>PB</persName> <persName>NA</persName> <persName>MM</persName>  Secrétaire : <persName>MB</persName>
+         <p rend="incipit">Excusés : <persName ref="#JL">JL</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#NA">NA</persName> 
+            <persName ref="#MM">MM</persName>  Secrétaire : <persName ref="#MB">MB</persName>
          </p>
          <list type="unordered">
             <item>Point d’ordre :</item>
-            <item>Indignation de <persName>JR</persName> devant le côté non formel de l’ordre du jour. Reprise du décompte des séances.</item>
+            <item>Indignation de <persName ref="#JR">JR</persName> devant le côté non formel de l’ordre du jour. Reprise du décompte des séances.</item>
          </list>
          <list type="ordered">
             <item>Création</item>
          </list>
          <p>
-            <persName>HM</persName> 3 Créations</p>
+            <persName ref="#HM">HM</persName> 3 Créations</p>
          <list type="ordered">
             <item>The calling : procédé de parodie de <persName>Charlotte Brontë</persName> (<ref>archivé</ref>)</item>
             <item>OPA en e : article dans l’<title>Economist</title> du 30-4-88</item>
@@ -79,14 +83,14 @@
                <persName>Zvereva</persName> un <term>palindrome</term> entre Z et A</item>
          </list>
          <p>
-            <persName>JJ</persName> Pas de bibelots pour Pnom = un 3<hi rend="sup">e</hi> 
+            <persName ref="#JJ">JJ</persName> Pas de bibelots pour Pnom = un 3<hi rend="sup">e</hi> 
             <term>hétérogramme</term>, mais hélas avec noms propres. (<ref>archive)</ref>
          </p>
          <p>
-            <persName>FC</persName> 
+            <persName ref="#FC">FC</persName> 
             <term>Rime anagrammatique</term> (<ref>archive</ref>)</p>
          <p>
-            <persName>JR</persName>
+            <persName ref="#JR">JR</persName>
          </p>
          <list type="unordered">
             <item>
@@ -97,15 +101,15 @@
             <item>Erudition</item>
          </list>
          <p>
-            <persName>FC</persName> un livre sur <persName>Nicolas Cirier</persName> aux <orgName>éditions des Cendres</orgName>
+            <persName ref="#FC">FC</persName> un livre sur <persName>Nicolas Cirier</persName> aux <orgName>éditions des Cendres</orgName>
          </p>
          <p>(un correcteur fou de l’imprimerie royale)</p>
          <p>
             <persName>JR Turing</persName> (inventeur des <term>machines de Turing</term>) quelques anecdotes sur sa vie.</p>
          <p>
-            <persName>JJ</persName> une lettre de <persName>Queneau</persName> sur la <title>Petite cosmogonie portative</title>, avec nombreuses explications.</p>
+            <persName ref="#JJ">JJ</persName> une lettre de <persName ref="#RQ">Queneau</persName> sur la <title>Petite cosmogonie portative</title>, avec nombreuses explications.</p>
          <p>
-            <persName>HM</persName> 
+            <persName ref="#HM">HM</persName> 
          </p>
          <list type="unordered">
             <item>Signature de <title>Cigarettes</title> – Vitrine Oulipo à la librairie des <orgName>Quatre Saisons</orgName>
@@ -117,22 +121,22 @@
             <title>20e siècle la problématique du discours</title>. <orgName>Michigan Romance Studies</orgName>
          </p>
          <p>
-            <persName>JR</persName> 
+            <persName ref="#JR">JR</persName> 
          </p>
          <list type="unordered">
             <item>
-               <persName>Bourbaki</persName> : 2 émissions sur <orgName>France Culture</orgName> : rapports de <persName>Bourbaki</persName> et de l’Oulipo chez <persName>JR</persName>.</item>
-            <item>Réponse à <unclear>*</unclear> <persName>Robert Richards</persName> : lecture de la lettre proposée par <persName>JR</persName>.</item>
+               <persName>Bourbaki</persName> : 2 émissions sur <orgName>France Culture</orgName> : rapports de <persName>Bourbaki</persName> et de l’Oulipo chez <persName ref="#JR">JR</persName>.</item>
+            <item>Réponse à <unclear>*</unclear> <persName>Robert Richards</persName> : lecture de la lettre proposée par <persName ref="#JR">JR</persName>.</item>
          </list>
          <p>     Approbation générale, après quelques suggestions</p>
          <p>
-            <persName>PF</persName> 
+            <persName ref="#PF">PF</persName> 
          </p>
          <list type="unordered">
             <item>
                <persName>Peter Mayer</persName>
             </item>
-            <item>Le point sur la situation éditoriale (<persName>Ramsay</persName> et l’avenir de <persName>PF</persName>)</item>
+            <item>Le point sur la situation éditoriale (<persName>Ramsay</persName> et l’avenir de <persName ref="#PF">PF</persName>)</item>
          </list>
          <p>Requis pour autres agapes, le secrétaire de séance quitte la réunion à 21 heures 45</p>
       </body>

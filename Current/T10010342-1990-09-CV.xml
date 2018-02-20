@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010342-1990-09-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010342-1990-09-CV</idno>
-               <title>Convocation à <ref target="#T10010342-1990-09">une réunion Oulipo</ref>, envoyée le <date when="1990-09-03">03/09/1990</date> par <persName role="expéditeur">PF</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010342-1990-09">une réunion Oulipo</ref>, envoyée le <date when="1990-09-03">03/09/1990</date> par <persName ref="#PF">PF</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -47,13 +48,13 @@
          <p rend="incipit">Paris, le 3 septembre 1990</p>
          <p>Chers Oulipiens,</p>
          <p>La prochaine réunion de l’Ouvroir aura lieu le mercredi 12 septembre 1990 à 19 heures chez
-          <persName>Martine [Fournel]</persName> et <persName>Paul Fournel</persName> (48 rue de
+          <persName>Martine [Fournel]</persName> et <persName ref="#PF">Paul Fournel</persName> (48 rue de
         l’Abbé Groult 75015 Paris, tél : 45 31 77 65).</p>
          <p>Merci de retourner la découpe ci-dessous chez <persName>M [Fournel]</persName> &amp;
-          <persName>P. Fournel</persName>.</p>
+          <persName ref="#PF">P. Fournel</persName>.</p>
          <p>Au 12, amitiés.</p>
          <p>
-            <persName>Paul</persName>.</p>
+            <persName ref="#PF">Paul</persName>.</p>
       </body>
   </text>
 </TEI>

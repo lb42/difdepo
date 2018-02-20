@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010073-1967-01-CV">
   <teiHeader>
       <fileDesc>
@@ -20,8 +21,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010073-1967-01-CV</idno>
-               <title>Convocation à <ref target="#T10010073-1967-01">une réunion Oulipo</ref>, envoyée le <date when="1967-01-18">18/01/1967</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010073-1967-01">une réunion Oulipo</ref>, envoyée le <date when="1967-01-18">18/01/1967</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -37,19 +38,18 @@
   </teiHeader>
   <text type="CV">
       <body>
-         <pb n="33"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100100736/f33.image"/>
+         <pb n="33" facs="http://gallica.bnf.fr/ark:/12148/btv1b100100736/f33.image"/>
          <p rend="incipit">OuLiPo</p>
          <p rend="incipit">le 18 janvier 1967</p>
          <p>Chers Amis,</p>
-         <p>Venu des antipodes, notre éminent Collègue <persName>Ross CHAMBERS</persName> sera à Paris en février. Compte-tenu des avis que vous avez exprimés au cours de notre <name type="manif">Congrès du 2 janvier</name> – et après avoir consulté <persName>Raymond QUENEAU</persName> et <persName>LATIS</persName> – c’est à la date du vendredi 10 février que nous nous réunirons avec <persName>CHAMBERS</persName>.</p>
+         <p>Venu des antipodes, notre éminent Collègue <persName ref="#RC">Ross CHAMBERS</persName> sera à Paris en février. Compte-tenu des avis que vous avez exprimés au cours de notre <name type="manif">Congrès du 2 janvier</name> – et après avoir consulté <persName ref="#RQ">Raymond QUENEAU</persName> et <persName ref="#LA">LATIS</persName> – c’est à la date du vendredi 10 février que nous nous réunirons avec <persName ref="#RC">CHAMBERS</persName>.</p>
          <p>Rendez-vous donc à midi trente au Restaurant JULIEN, 40. Rue de l’Université.</p>
          <p>D’ici-là vivez en paix.</p>
          <p>
-            <persName>LATIS</persName> P.S. – J’ai essayé – sans succès – de vous téléphoner hier mardi 17 janvier et ce matin.</p>
+            <persName ref="#LA">LATIS</persName> P.S. – J’ai essayé – sans succès – de vous téléphoner hier mardi 17 janvier et ce matin.</p>
          <p>
-            <persName>DUCHATEAU</persName> P.S. – Pouvez-vous faire le nécessaire pour retenir la salle ?</p>
-         <p>Savez-vous si <persName>DUCHAMP</persName> est à Paris et où on pourrait le toucher ?</p>
+            <persName ref="#JD">DUCHATEAU</persName> P.S. – Pouvez-vous faire le nécessaire pour retenir la salle ?</p>
+         <p>Savez-vous si <persName ref="#MD">DUCHAMP</persName> est à Paris et où on pourrait le toucher ?</p>
          <p>J’ai un tas de documents de dernier <name type="manif">Congrès</name> à vous remettre.</p>
          <p>Faut-il les envoyer par la poste en recommandé ou les garder jusqu’au 10 février ?</p>
       </body>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010196-1977-05-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010196-1977-05-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010196-1977-05">la réunion Oulipo</ref> de <date when="1977-05-12">12/05/1977</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,13 +37,23 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="13"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f13.image"/>
+         <pb n="13" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f13.image"/>
          <p rend="incipit">O du J</p>
          <p rend="incipit">OULIPO Réunion du 12.5.1977</p>
-         <p rend="incipit">Excusés : <persName>FLL</persName> <persName>LE</persName> <persName>JB</persName> <persName>CB</persName> <persName>JL</persName> <persName>AB</persName>
+         <p rend="incipit">Excusés : <persName ref="#FLL">FLL</persName> 
+            <persName ref="#LE">LE</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#JL">JL</persName> 
+            <persName ref="#AB">AB</persName>
          </p>
-         <p rend="incipit">Présents : <persName>MB</persName> <persName>IC</persName> <persName>PB</persName> <persName>PF</persName> <persName>JQ</persName> <persName>HM</persName> <persName>GP</persName>
+         <p rend="incipit">Présents : <persName ref="#MB">MB</persName> 
+            <persName ref="#IC">IC</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#JQ">JQ</persName> 
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#GP">GP</persName>
          </p>
          <p rend="incipit">Ordre du jour</p>
          <p>
@@ -50,24 +61,24 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PB</persName> : <term>Hypertropes</term> 
+               <persName ref="#PB">PB</persName> : <term>Hypertropes</term> 
             </item>
             <item>
-               <persName>HM</persName> : sans titre <term>Lexiques croisés</term> 
+               <persName ref="#HM">HM</persName> : sans titre <term>Lexiques croisés</term> 
             </item>
             <item>
-               <persName>JQ</persName> : <term>Triolisme</term> 
+               <persName ref="#JQ">JQ</persName> : <term>Triolisme</term> 
             </item>
             <item>
-               <persName>GP</persName> : Work in Progress</item>
+               <persName ref="#GP">GP</persName> : Work in Progress</item>
             <item>
-               <persName>PF</persName> : Work in Progress <term>TUILES</term> 
+               <persName ref="#PF">PF</persName> : Work in Progress <term>TUILES</term> 
             </item>
             <item>
-               <persName>MB</persName> : Combines et Seman <term>Aphorismes artificiels</term>
+               <persName ref="#MB">MB</persName> : Combines et Seman <term>Aphorismes artificiels</term>
             </item>
             <item>
-               <persName>IC</persName> : <title>Caffè</title> 
+               <persName ref="#IC">IC</persName> : <title>Caffè</title> 
             </item>
          </list>
          <p>
@@ -75,16 +86,16 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : <title>BO Q</title> et <title>BO</title> 
+               <persName ref="#PF">PF</persName> : <title>BO Q</title> et <title>BO</title> 
             </item>
             <item>
-               <persName>GP</persName> : <title>BO</title> 
+               <persName ref="#GP">GP</persName> : <title>BO</title> 
             </item>
             <item>
-               <persName>MB</persName> : <title>BO</title> 
+               <persName ref="#MB">MB</persName> : <title>BO</title> 
             </item>
             <item>
-               <persName>HM</persName> : <list type="unordered">
+               <persName ref="#HM">HM</persName> : <list type="unordered">
                   <item>
                      <title>BO</title> 
                   </item>
@@ -98,25 +109,25 @@
                </list>
             </item>
             <item>
-               <persName>PB</persName> : 15 juin 1977</item>
+               <persName ref="#PB">PB</persName> : 15 juin 1977</item>
             <item>
-               <persName>IC</persName> : <persName>Vicari</persName> 
+               <persName ref="#IC">IC</persName> : <persName>Vicari</persName> 
             </item>
             <item>
-               <persName>PF</persName> : <name type="manif">Villeneuve</name> 
+               <persName ref="#PF">PF</persName> : <name type="manif">Villeneuve</name> 
             </item>
             <item>
-               <persName>IC</persName> :</item>
+               <persName ref="#IC">IC</persName> :</item>
          </list>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>GP</persName> : <persName>Umberto Eco</persName>, <persName>Raymond Roussel</persName> 
+               <persName ref="#GP">GP</persName> : <persName>Umberto Eco</persName>, <persName>Raymond Roussel</persName> 
             </item>
             <item>
-               <persName>PF</persName>: Mémoire sur <title>Vol d’Icare</title> 
+               <persName ref="#PF">PF</persName>: Mémoire sur <title>Vol d’Icare</title> 
             </item>
          </list>
          <p>
@@ -124,15 +135,15 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName>: San Antonio</item>
+               <persName ref="#PF">PF</persName>: San Antonio</item>
             <item>
-               <persName>PB</persName>: <persName>JR</persName> 
+               <persName ref="#PB">PB</persName>: <persName ref="#JR">JR</persName> 
             </item>
             <item>
-               <persName>JQ</persName>: <term>Lipogramme</term> 
+               <persName ref="#JQ">JQ</persName>: <term>Lipogramme</term> 
             </item>
          </list>
-         <p>Manuel : lettre de <persName>LE</persName>
+         <p>Manuel : lettre de <persName ref="#LE">LE</persName>
          </p>
          <p>Prochaine réunion:</p>
          <p>Invités d’honneur:
@@ -140,24 +151,23 @@
                <date when="2017-01-16T11:56:00Z"/>$$$ Cela a été tout barré.</note>
       
          </p>
-         <pb n="14"
-            facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f14.image"/>
+         <pb n="14" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f14.image"/>
          <p>12 V 77</p>
          <p>OuLiPo</p>
          <p>[Projet d’un manuel d’instruction oulipien :]</p>
-         <p>lettre de <persName>LE</persName> : propositions concernant éditeurs <gap/>,</p>
+         <p>lettre de <persName ref="#LE">LE</persName> : propositions concernant éditeurs <gap/>,</p>
          <p>titre (<title>Manipulations</title>…), préface, justification</p>
          <p>
             <label type="rubrique">CRÉATION</label>
          </p>
          <p>
-           <persName>PB</persName> 
-            <persName>HM</persName>
+           <persName ref="#PB">PB</persName> 
+            <persName ref="#HM">HM</persName>
             <note place="comment" resp="Difdepo">
                <date when="2017-01-13T14:16:00Z"/>$$$</note> : <term>Lexiques Croisés</term>
          </p>
          <p>
-            <persName>JQ</persName> : <term>Triolisme</term>
+            <persName ref="#JQ">JQ</persName> : <term>Triolisme</term>
          </p>
          <p>
             <term>Roman à 2 lectures</term> :</p>
@@ -166,16 +176,16 @@
             <item>1<hi rend="sup">ère</hi>, 2<hi rend="sup">ème</hi>, 3<hi rend="sup">ème</hi> parties : récit, dialogue, journal</item>
          </list>
          <p>
-            <persName>IC</persName> : propose :</p>
+            <persName ref="#IC">IC</persName> : propose :</p>
          <p>récit, dialogue, journal</p>
          <p>
-            <persName>PF</persName> :</p>
+            <persName ref="#PF">PF</persName> :</p>
          <p>
             <term>nouvelles « tuilées »</term> : chaque nouvelle repose sur</p>
          <p>la précédente retour d’un personnage</p>
          <p>d’une image</p>
          <p>
-            <persName>MB</persName> : Combines et sémantique</p>
+            <persName ref="#MB">MB</persName> : Combines et sémantique</p>
          <list type="unordered">
             <item>à 2 : a de b (Génitif)</item>
             <item>à 3 : <list type="unordered">
@@ -187,11 +197,10 @@
             
             
          </list>
-        <pb n="15"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f15.image"/>
+        <pb n="15" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f15.image"/>
         
          <p>
-            <persName>IC</persName> :</p>
+            <persName ref="#IC">IC</persName> :</p>
          <p>choix de mots clés ou de mots thèmes d’un discours pour faire les combinaisons.</p>
          <list type="ordered">
             <item>Les <term>mots chauve-souris</term> : mots à la fois substantifs et verbe.</item>
@@ -201,19 +210,19 @@
             <label type="rubrique">ACTION</label>
          </p>
          <p>
-            <persName>MB</persName> :</p>
+            <persName ref="#MB">MB</persName> :</p>
          <p>6 4 77 <title>Journal Officiel</title> : OuLiPo association conforme à la loi 1901</p>
          <p>
-            <title>B.O.</title> : <persName>PF</persName> : <title>B.O</title>. <unclear>A</unclear> 
+            <title>B.O.</title> : <persName ref="#PF">PF</persName> : <title>B.O</title>. <unclear>A</unclear> 
             <title>pour RQ</title> : erreurs exigent réimpression des 4 premières pages</p>
          <p>(responsabilité de l’imprimeur). Erreur non corrigé aussi : à faire à la main ? Oui !</p>
          <p>
-            <persName>HM</persName> : mise en page <title>bo</title> pas bonne à tout</p>
+            <persName ref="#HM">HM</persName> : mise en page <title>bo</title> pas bonne à tout</p>
          <p>
-            <persName>PF</persName> : <persName>RQ</persName> déjà épuisé</p>
+            <persName ref="#PF">PF</persName> : <persName ref="#RQ">RQ</persName> déjà épuisé</p>
          <p>possibilité faire 41 exemplaires hors commerce (2ὥ16 membres, 2 dépôt légal, 1 imprimeurs, 6 archives)</p>
          <p>
-            <orgName>Beaubourg</orgName> : <persName>PB</persName> - 15 juin</p>
+            <orgName>Beaubourg</orgName> : <persName ref="#PB">PB</persName> - 15 juin</p>
       </body>
   </text>
 </TEI>

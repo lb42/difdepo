@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010293-1986-05-OJ">
 	  <teiHeader>
 		    <fileDesc>
@@ -20,7 +21,7 @@
 				        <bibl>
 					          <idno>T10010293-1986-05-OJ</idno>
 					          <title>Ordre de jour de <ref target="#T10010293-1986-05">la réunion							Oulipo</ref> du <date when="1986-05-10">10/05/1986</date> 
-</title> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -34,14 +35,13 @@
 	  </teiHeader>
 	  <text type="OJ">
 		    <body>
-         <pb n="38"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f38.image"/>
+         <pb n="38" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f38.image"/>
          <p rend="incipit">OULIPO 10/5</p>
          <p rend="incipit">Ordre du jour Réunion</p>
          <p>Bibliothèque Oulipienne</p>
          <p>
-            <persName>FLL</persName> - 1. Hommage <persName>FLL</persName>
-				        <lb/>2. - Bibliothèque <persName>FLL</persName>
+            <persName ref="#FLL">FLL</persName> - 1. Hommage <persName ref="#FLL">FLL</persName>
+				        <lb/>2. - Bibliothèque <persName ref="#FLL">FLL</persName>
 				        <lb/>3. - manifeste plus réponse <lb/>
 				Stage <unclear>soumis</unclear>
 				        <lb/>Correspondance</p>
@@ -53,14 +53,13 @@
 			      </p>
          <list type="unordered">
 				        <item>
-					          <persName>FC</persName>
+					          <persName ref="#FC">FC</persName>
 				        </item>
 				        <item>
-               <persName>MB</persName>.</item>
+               <persName ref="#MB">MB</persName>.</item>
 			      </list>
          <p>20 juin midi ou soir</p>
-         <pb n="39"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f39.image"/>
+         <pb n="39" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f39.image"/>
          <p rend="incipit">Andé 1986</p>
          <list type="ordered">
 				        <item>Le plan revisité</item>
@@ -70,8 +69,7 @@
          <p>
 				        <label type="rubrique">Réunion ordinaire</label>
 			      </p>
-         <pb n="40"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f40.image"/>
+         <pb n="40" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f40.image"/>
          <p rend="incipit">Andé 10/5/86</p>
          <p>Demande de subvention pour Octobre 86 <lb/>25.000</p>
          <list type="unordered">

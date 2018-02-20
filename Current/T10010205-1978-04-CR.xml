@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010205-1978-04-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -24,22 +25,22 @@
 						            <placeName>chez Georges Perec</placeName>
 						            <list type="present">
 							              <item>
-								                <persName>GP</persName>
+								                <persName ref="#GP">GP</persName>
 							              </item>
 							              <item>
-								                <persName>FLL</persName>
+								                <persName ref="#FLL">FLL</persName>
 							              </item>
 							              <item>
-								                <persName>MB</persName>
+								                <persName ref="#MB">MB</persName>
 							              </item>
 							              <item>
-								                <persName>PF</persName>
+								                <persName ref="#PF">PF</persName>
 							              </item>
 							              <item>
-								                <persName>LE</persName>
+								                <persName ref="#LE">LE</persName>
 							              </item>
 							              <item>
-								                <persName>NA</persName>
+								                <persName ref="#NA">NA</persName>
 							              </item>
 						            </list>
 					          </meeting>
@@ -59,84 +60,84 @@
 		    <body>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010205z/f3.image"/>
          <p rend="incipit">Réunion du jeudi 27 avril 1978</p>
-         <p>chez <persName>Georges Perec</persName>
+         <p>chez <persName ref="#GP">Georges Perec</persName>
          </p>
-         <p rend="incipit">Présents : <persName>GP</persName>. <persName>FLL</persName>.
-					<persName>MB</persName>. <persName>PF</persName>. <persName>LE</persName>.
-					<persName>NA</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#GP">GP</persName>. <persName ref="#FLL">FLL</persName>.
+					<persName ref="#MB">MB</persName>. <persName ref="#PF">PF</persName>. <persName ref="#LE">LE</persName>.
+					<persName ref="#NA">NA</persName>.</p>
          <p>Invité d'honneur: <persName>Dominique Roussillon</persName>
          </p>
          <p rend="incipit">Excusés:<persName>Ben</persName>
-				        <persName>Blavier</persName>
-				        <persName>Queval</persName>
+				        <persName ref="#AB">Blavier</persName>
+				        <persName ref="#JQ">Queval</persName>
          </p>
-         <p>Inexcusés: <persName>Roubaud</persName> viendra vers 2h 30.
-					<persName>Calvino</persName>
-				        <persName>Métail</persName>
-				        <persName>Lescure</persName> etc.</p>
-         <p>Président <persName>FLL</persName>.</p>
+         <p>Inexcusés: <persName ref="#JR">Roubaud</persName> viendra vers 2h 30.
+					<persName ref="#IC">Calvino</persName>
+				        <persName ref="#MM">Métail</persName>
+				        <persName ref="#JL">Lescure</persName> etc.</p>
+         <p>Président <persName ref="#FLL">FLL</persName>.</p>
          <p>Distribution des "<title>Hoppy 2</title>"
 					" <title>
- <persName>Calvino</persName> 
-</title> " à ceux qui n'en ont pas.</p>
+               <persName ref="#IC">Calvino</persName> 
+            </title> " à ceux qui n'en ont pas.</p>
          <p>Les trois volumes (ces deux-là plus le Fournel) seront mis en vente ensemble dès que
 				Fournel sera sorti.</p>
          <p>
-				        <label type="rubrique">Bibliothèque oulipienne: <persName>MB</persName> plus
-						<persName>PF</persName>
+				        <label type="rubrique">Bibliothèque oulipienne: <persName ref="#MB">MB</persName> plus
+						<persName ref="#PF">PF</persName>
             </label>
 			      </p>
          <list type="unordered">
 				        <item>Le n° 6 est payé (<title>Calvino</title>) 3263,50 F reste 724 F 48</item>
 				        <item>reste à payer de <title>Hoppy 2</title>
             </item>
-				        <item>reste à venir de <persName>Fournel</persName>
+				        <item>reste à venir de <persName ref="#PF">Fournel</persName>
             </item>
 				        <item>Il faut vendre les trois volumes à la fois en une seule tournée (avec ce qui
-					nous reste de <persName>Mathews</persName>)</item>
+					nous reste de <persName ref="#HM">Mathews</persName>)</item>
 				        <item>
-               <persName>NA</persName>: il faut fournir <persName>Delatre</persName>
+               <persName ref="#NA">NA</persName>: il faut fournir <persName>Delatre</persName>
                <unclear>
 						avec</unclear>
 					          <persName>Gustave Courbet</persName>
             </item>
 				        <item>
-               <persName>FLL</persName>: N'y a-t-il pas une nouvelle série de distribution
+               <persName ref="#FLL">FLL</persName>: N'y a-t-il pas une nouvelle série de distribution
 					prévue?</item>
 				        <item>
-               <persName>MB</persName>: Si! Dès que le volume Fournel sort nous faisons une
+               <persName ref="#MB">MB</persName>: Si! Dès que le volume Fournel sort nous faisons une
 					tournée.</item>
 				        <item>
-               <persName>PF</persName>: À condition que ce soit un samedi.</item>
+               <persName ref="#PF">PF</persName>: À condition que ce soit un samedi.</item>
 				        <item>
-               <persName>MB</persName>: Jusqu'à ici l'auteur achetait enviton un tiers du
+               <persName ref="#MB">MB</persName>: Jusqu'à ici l'auteur achetait enviton un tiers du
 					tirage et les oulipiens en achetaient aussi.</item>
 				        <item>
-               <persName>PF</persName>: Il faudra pomper dans la future subvention du
+               <persName ref="#PF">PF</persName>: Il faudra pomper dans la future subvention du
 						<orgName>CNL</orgName>. Il faudrait aussi augmenter les prix des
 					volumes</item>
 				        <item>
-               <persName>MB</persName>: Pas trop, les librairies ne le voudraient pas.</item>
+               <persName ref="#MB">MB</persName>: Pas trop, les librairies ne le voudraient pas.</item>
 				        <item>
-               <persName>PF</persName>: Dans la mesure du possible il ne faut pas accepter de
+               <persName ref="#PF">PF</persName>: Dans la mesure du possible il ne faut pas accepter de
 					mettre mes livres en dépôt.</item>
 				        <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010205z/f4.image"/>
 				        <item>
-               <persName>FLL</persName>: Personne n'en voudra! Il faut régler le problème du
+               <persName ref="#FLL">FLL</persName>: Personne n'en voudra! Il faut régler le problème du
 					prix.</item>
 				        <item>
-               <persName>PF</persName>: Le système des dépôts coûte trop cher en temps et en
+               <persName ref="#PF">PF</persName>: Le système des dépôts coûte trop cher en temps et en
 					gestion il faudrait passer au compte ferme</item>
 				        <item>
-               <persName>FLL</persName>: Il y a deux sortes de librairies: ceux chez qui on
+               <persName ref="#FLL">FLL</persName>: Il y a deux sortes de librairies: ceux chez qui on
 					peut déposer et ceux chez qui il faut vendre à compte ferme.</item>
 				        <item>
-               <persName>MB</persName>: Excellente idée. Il faut faire la liste et rédiger la
-					circulaire. Elle sera tapée par <persName>GP</persName>, copiée par
+               <persName ref="#MB">MB</persName>: Excellente idée. Il faut faire la liste et rédiger la
+					circulaire. Elle sera tapée par <persName ref="#GP">GP</persName>, copiée par
 						<persName>FP</persName> et expédiée par lui. <unclear>Telar</unclear>
 					          <orgName>cercle de la librairie</orgName>.</item>
 				        <item>
-               <persName>MB</persName>: Calcul du prix des volumes. <lb/>Prix de revient du
+               <persName ref="#MB">MB</persName>: Calcul du prix des volumes. <lb/>Prix de revient du
 					volume: 22 F. <lb/>Prix de vente aux libraires: 36 F. Prix fort: 54 F.</item>
 			      </list>
          <p>
@@ -144,113 +145,113 @@
 			      </p>
          <list type="unordered">
 				        <item>
-               <persName>PF</persName>: Appel de 20 F.</item>
+               <persName ref="#PF">PF</persName>: Appel de 20 F.</item>
 				        <item>
-               <persName>MB</persName>: Beaucoup de retardataires.</item>
+               <persName ref="#MB">MB</persName>: Beaucoup de retardataires.</item>
 				        <item>
-               <persName>PF</persName>: Je ferai un appel dans la prochaine convocation pour
+               <persName ref="#PF">PF</persName>: Je ferai un appel dans la prochaine convocation pour
 					tous ceux qui n'ont pas payé.</item>
 				        <item>
-               <persName>PF</persName>: Rien du <orgName>CNL</orgName> à ce jour.</item>
+               <persName ref="#PF">PF</persName>: Rien du <orgName>CNL</orgName> à ce jour.</item>
 				        <item>
-               <persName>FLL</persName>: Il faut attendre.</item>
+               <persName ref="#FLL">FLL</persName>: Il faut attendre.</item>
 			      </list>
          <p>
 				        <label type="rubrique">Action</label>
 			      </p>
          <list type="unordered">
 				        <item>
-               <persName>MB</persName>: Lit une lettre de <persName>Mathews</persName>
+               <persName ref="#MB">MB</persName>: Lit une lettre de <persName ref="#HM">Mathews</persName>
 					annonçant un travail de <persName>Scott Kim</persName> (voir
-					<ref>archives</ref>). Poèmes écrits à partir de <persName>RQ</persName>
+					<ref>archives</ref>). Poèmes écrits à partir de <persName ref="#RQ">RQ</persName>
 					(combinatoires d'hémistiches et inversion des vers de 10 puissance 14).</item>
 				        <item>
-               <persName>PF</persName>: <placeName>Avignon</placeName> 10 000 F pour la
+               <persName ref="#PF">PF</persName>: <placeName>Avignon</placeName> 10 000 F pour la
 					semaine du 14 juillet.</item>
 				        <item>
-               <persName>PB</persName>: J'ai pris contact avec <orgName>IBM</orgName> pour
+               <persName ref="#PB">PB</persName>: J'ai pris contact avec <orgName>IBM</orgName> pour
 					l'ordinateur.</item>
 				        <item>
-               <persName>PF</persName>: Du lundi 10 au Dimanche 16 juillet en
+               <persName ref="#PF">PF</persName>: Du lundi 10 au Dimanche 16 juillet en
 						<placeName>Avignon</placeName>. Envoyer la liste à <persName>Marie						Jouannard</persName>
             </item>
 				
 				        <item>
-               <persName>FLL</persName>: Il faut appeler les absents:
-					<persName>JR</persName>. <persName>JB</persName>. etc...</item>
+               <persName ref="#FLL">FLL</persName>: Il faut appeler les absents:
+					<persName ref="#JR">JR</persName>. <persName ref="#JB">JB</persName>. etc...</item>
 				        <item>
-               <persName>PF</persName>: Un article-interview de Bens dans le défunt
+               <persName ref="#PF">PF</persName>: Un article-interview de Bens dans le défunt
 						<title>Point du jour</title> sur l'oulipo.</item>
 				        <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010205z/f5.image"/>
 				        <item>
-               <persName>FLL</persName>: Chaque membre de l'oulipo devrait écrire un texte
+               <persName ref="#FLL">FLL</persName>: Chaque membre de l'oulipo devrait écrire un texte
 					qui sera lu par la machine de <persName>Liénard</persName>.</item>
 				        <item>
-               <persName>GP</persName>: Il faut faire des homophonies?</item>
+               <persName ref="#GP">GP</persName>: Il faut faire des homophonies?</item>
 				        <item>
-               <persName>FLL</persName>: Possible <lb/>Conversation sur les mérites comparés
+               <persName ref="#FLL">FLL</persName>: Possible <lb/>Conversation sur les mérites comparés
 					de <unclear>
                   <persName>Lepp</persName> et
 					<persName>Liénard</persName>
                </unclear>.</item>
 				        <item>
-               <persName>FLL</persName>: L'oulipo a la possibilité de faire une signature
-					porte de la Reine en face de chez <persName>FLL</persName>. <lb/>Mouvements
+               <persName ref="#FLL">FLL</persName>: L'oulipo a la possibilité de faire une signature
+					porte de la Reine en face de chez <persName ref="#FLL">FLL</persName>. <lb/>Mouvements
 					divers.</item>
 				        <item>
-               <persName>GP</persName>: Projets pour Cerisy-la-salle. Il faut travailler et
+               <persName ref="#GP">GP</persName>: Projets pour Cerisy-la-salle. Il faut travailler et
 					faire les propositions, même en anglais... <lb/>Acheter l'anthologie des
 						<title>Grands Rhétoriqueurs</title>de <persName>Zumthor</persName> en 10/18,
 					le numéro d'<title>Action Poétique</title>.</item>
 				        <item>
-               <persName>LE</persName>: j'ai refait des rubans de
+               <persName ref="#LE">LE</persName>: j'ai refait des rubans de
 					<persName>Möbius</persName>. <!-- choice><sic>Moëbius</sic><corr>Möbius</corr></choice-->
 					<lb/>Idée de repartir en sens inverse on prend un texte sur ruban et on en fait
 					un <unclear>bas</unclear> ruban.</item>
 				        <item>
-               <persName>FLL</persName>: Il reste à faire beaucoup: couper au quart, au
+               <persName ref="#FLL">FLL</persName>: Il reste à faire beaucoup: couper au quart, au
 					tiers... <lb/>détour par la cryptographie.</item>
 			      </list>
          <p>
             <label type="rubrique">Expo Queneau</label>.</p>
          <list type="unordered">
 				        <item>
-               <persName>FLL</persName>: y va cet après-midi. Il invite à le suivre.</item>
+               <persName ref="#FLL">FLL</persName>: y va cet après-midi. Il invite à le suivre.</item>
 				        <item>
-               <persName>NA</persName>: Accumulation fabuleuse de documents. <lb/>Cette
+               <persName ref="#NA">NA</persName>: Accumulation fabuleuse de documents. <lb/>Cette
 					exposition est faite par <orgName>Gallimard</orgName>.</item>
 				        <item>Le catalogue est <orgName>Gallimard</orgName>.</item>
 				        <item>
-               <persName>FLL</persName>: a apporté du papier oulipo pour de secrétariat et
+               <persName ref="#FLL">FLL</persName>: a apporté du papier oulipo pour de secrétariat et
 					les membres qui en veulent. <lb/>Il faut faire faire un tampon au nom Oulipo
-					Association à but non lucratif pour les factures. <persName>Marcel</persName>
+					Association à but non lucratif pour les factures. <persName ref="#MB">Marcel</persName>
 					s'en charge.</item>
 				        <item>
-               <persName>LE</persName>: l'administration et l'action prennent trop le pas sur
+               <persName ref="#LE">LE</persName>: l'administration et l'action prennent trop le pas sur
 					la création.</item>
 				        <item>
-               <persName>MB</persName>: enrichissement de la <title>table de							<persName>Queneau</persName> 
-</title> . Catégorie grammaticale et genre /
+               <persName ref="#MB">MB</persName>: enrichissement de la <title>table de							<persName ref="#RQ">Queneau</persName> 
+               </title> . Catégorie grammaticale et genre /
 					forme littéraire qui peut lui-même devenir objet de substitution.</item>
 				        <pb n="6" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010205z/f6.image"/>
 				        <item>
-               <persName>PB</persName>: C'est commode et toute la mathématisation de la
+               <persName ref="#PB">PB</persName>: C'est commode et toute la mathématisation de la
 					littérature sera dans le tableau du <title>troisième manifeste</title>.</item>
 				        <item>
-               <persName>PB</persName>: pourquoi faut-il autant de mathématisations savantes
+               <persName ref="#PB">PB</persName>: pourquoi faut-il autant de mathématisations savantes
 					pour décrire la littérature?</item>
 				        <item>
-               <persName>FLL</persName>: C'est ce que je propose. Je commande à
-						<persName>JR</persName> une quatraine d'alexandrins hétérodoxe avec césure
+               <persName ref="#FLL">FLL</persName>: C'est ce que je propose. Je commande à
+						<persName ref="#JR">JR</persName> une quatraine d'alexandrins hétérodoxe avec césure
 					posés, croisés ou plates, rimes et mesures
 					idem.</item>
 				        <item>
-               <persName>GP</persName>: Nous devrions faire une réunion du soir pour que
-						<persName>JD</persName> puisse venir à 6 heures par exemple avec un repas
+               <persName ref="#GP">GP</persName>: Nous devrions faire une réunion du soir pour que
+						<persName ref="#JD">JD</persName> puisse venir à 6 heures par exemple avec un repas
 					froid.</item>
 			      </list>
-         <p>Prochaine réunion, jeudi 11 mai chez <persName>GP</persName>. <lb/>jeudi 29 juin chez
-					<persName>GP</persName> à 18 h.</p>
+         <p>Prochaine réunion, jeudi 11 mai chez <persName ref="#GP">GP</persName>. <lb/>jeudi 29 juin chez
+					<persName ref="#GP">GP</persName> à 18 h.</p>
       </body>
 	  </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010206-1978-05-OJ">
   <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
             <bibl>
                <idno>T10010206-1978-05-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010206-1978-05">la réunion Oulipo</ref> du <date when="1978-05-11">11/05/1978</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -41,32 +42,31 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="19"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010206d/f19.image"/>
+         <pb n="19" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010206d/f19.image"/>
          <p>
             <label type="rubrique">1. Création</label>
          </p>
          <p>
-            <persName>Braffort</persName> : <title>Mes Hypertropes</title>
+            <persName ref="#PB">Braffort</persName> : <title>Mes Hypertropes</title>
          </p>
          <p>
-            <persName>Luc Étienne</persName> : <term>Ruban de Möbius</term>
+            <persName ref="#LE">Luc Étienne</persName> : <term>Ruban de Möbius</term>
          </p>
          <p>
-            <persName>Calvino</persName> : <title>Sur les histoires à tiroirs</title>.</p>
+            <persName ref="#IC">Calvino</persName> : <title>Sur les histoires à tiroirs</title>.</p>
          <p>
             <label type="rubrique">2. Action</label>
          </p>
          <p>
-            <persName>Benabou</persName> : Édition italienne</p>
+            <persName ref="#MB">Benabou</persName> : Édition italienne</p>
          <p>
-            <persName>Fournel</persName> : Avignon Royaummont.</p>
+            <persName ref="#PF">Fournel</persName> : Avignon Royaummont.</p>
          <p>
-            <persName>Le Lionnais</persName> : Équilibre entre action, création, etc.</p>
+            <persName ref="#FLL">Le Lionnais</persName> : Équilibre entre action, création, etc.</p>
          <p>
             <label type="rubrique">3. Bibliothèque oulipienne</label>
          </p>
-         <p>Distribution <persName>Fournel</persName>
+         <p>Distribution <persName ref="#PF">Fournel</persName>
          </p>
          <p>Prix
          </p>
@@ -74,13 +74,13 @@
             <label type="rubrique">4. Érudition</label>
          </p>
          <p>
-            <persName>Luc Étienne</persName> – <persName>Perec</persName> – <unclear>tarié</unclear>
+            <persName ref="#LE">Luc Étienne</persName> – <persName ref="#GP">Perec</persName> – <unclear>tarié</unclear>
          </p>
          <p>
             <label type="rubrique">5. Menus Propos</label>
          </p>
          <p>
-            <persName>G. Perec</persName> – Petits cons.</p>
+            <persName ref="#GP">G. Perec</persName> – Petits cons.</p>
          <p>
             <label type="rubrique">6. Phynances</label>
          </p>

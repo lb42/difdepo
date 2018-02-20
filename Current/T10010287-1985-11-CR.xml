@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010287-1985-11-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -28,19 +29,19 @@
 						            <placeName>chez Paul Braffort</placeName>
 						            <list type="present">
 							              <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
 							              <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
 							              <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
 							              <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
 							              <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
 						            </list>
 					          </meeting>
@@ -59,31 +60,30 @@
 	  </teiHeader>
 	  <text type="CR">
 		    <body>
-         <pb n="11"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102875/f11.image"/>
+         <pb n="11" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102875/f11.image"/>
          <p rend="incipit">OULIPO- Réunion du Vendredi 22 novembre 1985 – 11h30-15h</p>
-         <p>Présents <persName>Paul Braffort</persName> qui reçoit, avec <persName>Jo</persName>…, <persName>Marcel Bénabou</persName>, <persName>François Caradec</persName>, <persName>Paul Fournel</persName>, <persName>Jacques Jouet</persName>, <persName>Michèle Métail</persName> et <persName>Pierre Rosenstiehl</persName> qui préside.</p>
-         <p>Excusés <persName>Noël Arnaud</persName>, <persName>Jacques Bens</persName>, <persName>Harry Mathews</persName> et deux anonymes dans l’un desquels on croit reconnaître <persName>Jean Lescure</persName>.</p>
+         <p>Présents <persName ref="#PB">Paul Braffort</persName> qui reçoit, avec <persName>Jo</persName>…, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#FC">François Caradec</persName>, <persName ref="#PF">Paul Fournel</persName>, <persName ref="#JJ">Jacques Jouet</persName>, <persName ref="#MM">Michèle Métail</persName> et <persName ref="#PR">Pierre Rosenstiehl</persName> qui préside.</p>
+         <p>Excusés <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#JB">Jacques Bens</persName>, <persName ref="#HM">Harry Mathews</persName> et deux anonymes dans l’un desquels on croit reconnaître <persName ref="#JL">Jean Lescure</persName>.</p>
          <p>
             <label type="rubrique">Créations</label>
          </p>
          <list type="unordered">
 				        <item>
-               <persName>JJ</persName> : Mince contribution à une <title>Histoire générale des cantatrices</title>.
+               <persName ref="#JJ">JJ</persName> : Mince contribution à une <title>Histoire générale des cantatrices</title>.
 				<list>
 				              <item>Comprenant le commentaire d’un <term>hétéropangramme</term> : «  De Q.G Mbuji : TV, Schwarzkopf lynx. » Public perplexe. </item>
 				           </list>
 				        </item>
 				        <item>
-               <persName>MB</persName> lit le chapitre de <title>Pourquoi je n’ai écrit…</title> concernant l’Oulipo. <persName>Marcel</persName> affirme avoir mis un point final à son livre. </item>
+               <persName ref="#MB">MB</persName> lit le chapitre de <title>Pourquoi je n’ai écrit…</title> concernant l’Oulipo. <persName ref="#MB">Marcel</persName> affirme avoir mis un point final à son livre. </item>
 				        <item>
-               <persName>MM</persName> donne une source chinoise de ses <title>Poèmes corpusculaires</title>.</item>
+               <persName ref="#MM">MM</persName> donne une source chinoise de ses <title>Poèmes corpusculaires</title>.</item>
 				        <item>
-               <persName>PR</persName> distribue un article relatif aux <term>labyrinthes</term>.</item>
+               <persName ref="#PR">PR</persName> distribue un article relatif aux <term>labyrinthes</term>.</item>
 				        <item>
-               <persName>PR</persName> encore, promet pour bientôt un <term>algorithme syntaxique</term>, sur  le modèle de « <title>L’art de sonner les cloches</title> » (cf. <title>Mathématiques et Sciences humaines</title> n°60, 1977.) Un air de cloches obéit à une règle de permutation des éléments sonnants d’une batterie. (Félicitations solennelles)</item>
+               <persName ref="#PR">PR</persName> encore, promet pour bientôt un <term>algorithme syntaxique</term>, sur  le modèle de « <title>L’art de sonner les cloches</title> » (cf. <title>Mathématiques et Sciences humaines</title> n°60, 1977.) Un air de cloches obéit à une règle de permutation des éléments sonnants d’une batterie. (Félicitations solennelles)</item>
 				        <item>
-               <persName>PB</persName> veut réactiver l’<orgName>OUMUPO</orgName>. </item>
+               <persName ref="#PB">PB</persName> veut réactiver l’<orgName>OUMUPO</orgName>. </item>
 			         <item>Chaîne d’alexandrins. Une bonne moisson (à condition de compter ceux qui n’en sont pas !).</item>
 			      </list>
          <p>
@@ -92,14 +92,14 @@
          <list type="unordered">
 				        <item>
                 <title>
- <orgName>Le Monde de la Musique</orgName> 
-</title>  veut publier des textes de <persName>Perec</persName> sur la musique, + <title>La Cantatrice sauve</title>. Leur facturer…</item>
+                  <orgName>Le Monde de la Musique</orgName> 
+               </title>  veut publier des textes de <persName ref="#GP">Perec</persName> sur la musique, + <title>La Cantatrice sauve</title>. Leur facturer…</item>
 				        <item>
-               <persName>PF</persName> part à la Réunion (l’île). Il y causera, entre autres choses, de l’Ouvroir. </item>
+               <persName ref="#PF">PF</persName> part à la Réunion (l’île). Il y causera, entre autres choses, de l’Ouvroir. </item>
 				        <item>
-               <title>Oulipo l</title> est traduit en italien. <persName>MB</persName> va le présenter à Bologne puis à Rome. (<orgName>Association culturelle italo-française</orgName>).</item>
-				        <item>Vitoria. 2 oulipiens pour un atelier en 3 groupes… (<persName>MB</persName>, <persName>JJ</persName>).</item>
-				        <item>Tulle, stage 1 et 2 février <persName>JB</persName>. <persName>MM</persName> (à confirmer).</item>
+               <title>Oulipo l</title> est traduit en italien. <persName ref="#MB">MB</persName> va le présenter à Bologne puis à Rome. (<orgName>Association culturelle italo-française</orgName>).</item>
+				        <item>Vitoria. 2 oulipiens pour un atelier en 3 groupes… (<persName ref="#MB">MB</persName>, <persName ref="#JJ">JJ</persName>).</item>
+				        <item>Tulle, stage 1 et 2 février <persName ref="#JB">JB</persName>. <persName ref="#MM">MM</persName> (à confirmer).</item>
 				        <item>Guide. Blâme collectif. Un <name type="event">Andé au printemps</name>.</item>
 				        <item>La reprise des Bibliothèques Oulipiennes est annoncée pour Novembre (<persName>Ramsay</persName>).</item>
 			      </list>
@@ -108,9 +108,9 @@
          </p>
          <list type="unordered">
 				        <item>
-               <persName>MM</persName> : Une pelouse délaissée (et chinoise) broda un texte dont les divers chemins de lecture donnent 380 quatrains lisibles.</item>
+               <persName ref="#MM">MM</persName> : Une pelouse délaissée (et chinoise) broda un texte dont les divers chemins de lecture donnent 380 quatrains lisibles.</item>
 				        <item>
-               <persName>NA</persName> communique deux éruditions : un texte d’<persName>Elise Jouhandeau</persName>, un autre du « <title>Petit casablancais</title> », pouvant respectivement constituer un hommage à <persName>Roussel</persName> et à <persName>Duchamp</persName>.</item>
+               <persName ref="#NA">NA</persName> communique deux éruditions : un texte d’<persName>Elise Jouhandeau</persName>, un autre du « <title>Petit casablancais</title> », pouvant respectivement constituer un hommage à <persName>Roussel</persName> et à <persName ref="#MD">Duchamp</persName>.</item>
 				        <item>On but de la clairette, du Sancerre et de l’eau dans des verres minuscules. On mangea une formidable choucroute. On apprit (PR) qu’un manuscrit de <persName>Newton</persName> se regarde à une distance réglementaire de six mètres. </item>
 			      </list>
       </body>

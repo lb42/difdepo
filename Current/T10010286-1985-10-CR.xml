@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010286-1985-10-CR">
   <teiHeader>
       <fileDesc>
@@ -29,25 +30,25 @@
                   <placeName>Chez CB</placeName>
                   <list type="present">
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName role="président">JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                   </list>
                </meeting>
@@ -71,45 +72,45 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010286q/f1.image"/>
          <p rend="incipit">OULIPO – Réunion du Mercredi 16 octobre 1985, 11h30-14h30</p>
-         <p rend="incipit">Présents : <persName>Claude Berge</persName> qui reçoit, <persName>Marcel Bénabou</persName>, <persName>Jacques Bens</persName>, <persName>Paul Braffort</persName>,
-          <persName>François Caradec</persName>, <persName>Paul Fournel</persName>,
-          <persName>Jacques Jouet</persName> qui rapporte, <persName>Jacques Roubaud</persName> qui
+         <p rend="incipit">Présents : <persName ref="#CB">Claude Berge</persName> qui reçoit, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#JB">Jacques Bens</persName>, <persName ref="#PB">Paul Braffort</persName>,
+          <persName ref="#FC">François Caradec</persName>, <persName ref="#PF">Paul Fournel</persName>,
+          <persName ref="#JJ">Jacques Jouet</persName> qui rapporte, <persName ref="#JR">Jacques Roubaud</persName> qui
         préside la séance.</p>
-         <p rend="incipit">Excusés : <persName>Noël Arnaud</persName>, <persName>Michèle Métail</persName>, <persName>Harry Mathews</persName>.</p>
+         <p rend="incipit">Excusés : <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#MM">Michèle Métail</persName>, <persName ref="#HM">Harry Mathews</persName>.</p>
          <p>
-            <persName>PF</persName>, retour de Francfort nous entretient de la santé de l’édition
-        française. <persName>Queneau</persName> ne se vend pas très bien en G.B. En préparation, une
+            <persName ref="#PF">PF</persName>, retour de Francfort nous entretient de la santé de l’édition
+        française. <persName ref="#RQ">Queneau</persName> ne se vend pas très bien en G.B. En préparation, une
         édition américaine de <title>La Vie mode d’emploi</title>.</p>
          <p>
             <label type="rubrique">Créations</label>
          </p>
-         <p>: <persName>MB</persName> a terminé <title>Alexandre au Greffoir</title>, pour la <title>BO numéro 29</title>. Il nous lit une série de <term>monostiques</term>,
+         <p>: <persName ref="#MB">MB</persName> a terminé <title>Alexandre au Greffoir</title>, pour la <title>BO numéro 29</title>. Il nous lit une série de <term>monostiques</term>,
           <term>distiques</term> et poèmes. Félicitations sans réserves de tous ceux qui savent
         attendre.</p>
-         <p>: <persName>FC</persName> verse au <title>dossier Calembour</title> (« en fromage au
+         <p>: <persName ref="#FC">FC</persName> verse au <title>dossier Calembour</title> (« en fromage au
         Président absent ») <title>Le Poète alcoolique</title> : une contrainte
           (<term>calembour</term>) en génère une autre (<term>lipogramme</term>).</p>
-         <p>: <persName>JJ</persName> lit <title>Venu d’ailleurs</title>, traduction de
+         <p>: <persName ref="#JJ">JJ</persName> lit <title>Venu d’ailleurs</title>, traduction de
           <title>L’Etranger</title> de <persName>Baudelaire</persName> en
-        « <term>liponyme-S</term> » (sans substantif). C’est possible ! <persName>JR</persName>
+        « <term>liponyme-S</term> » (sans substantif). C’est possible ! <persName ref="#JR">JR</persName>
         lance l’idée d’une série de <term>microtraductions</term> d’un texte fameux. (cf.
-          <persName>Perec</persName> « <title>Je suis venu, calme orphelin</title>, » in
+          <persName ref="#GP">Perec</persName> « <title>Je suis venu, calme orphelin</title>, » in
           <title>Change numéro 14</title>.)</p>
          <p>Longue discussion sur la <term>ponctuation</term> (Pas une virgule dans <title>The Making of Americans</title> de <persName>G. Stein</persName>), sur les <term>signes typographiques des dialogues de roman</term>.</p>
-         <p>: <persName>MB</persName> lit le premier chapitre de son <title>Pourquoi je n’ai écrit aucun de mes livres</title>. Parution février 86.</p>
-         <p>: <persName>FC</persName>
+         <p>: <persName ref="#MB">MB</persName> lit le premier chapitre de son <title>Pourquoi je n’ai écrit aucun de mes livres</title>. Parution février 86.</p>
+         <p>: <persName ref="#FC">FC</persName>
             <title>Bonjour Madame Eve</title> : « Tous les mots d’un texte contiennent au moins deux
         fois la même lettre. Il n’est pas tenu compte des <term>consonnes redoublées</term>. »</p>
-         <p>: <persName>JJ</persName> A propos du <title>1er principe</title> de
-          <persName>Roubaud</persName>, réflexion (rien de bien neuf, semble-t-il) sur le principe
+         <p>: <persName ref="#JJ">JJ</persName> A propos du <title>1er principe</title> de
+          <persName ref="#JR">Roubaud</persName>, réflexion (rien de bien neuf, semble-t-il) sur le principe
         considéré comme une vérification de la productivité des <term>contraintes</term>.</p>
-         <p>: <persName>FC</persName> La Poësie doit être faite pour tous, la chaîne de l’Oulipo est
+         <p>: <persName ref="#FC">FC</persName> La Poësie doit être faite pour tous, la chaîne de l’Oulipo est
         partie !</p>
          <p>Que se passe-t-il ? L’ordre du jour n’est pas achevé. La réunion se termine dans la plus
-        grande confusion : <persName>PB</persName> cite <persName>Eddy Mitchell</persName>. Le <name type="manif">séminaire Andé</name> est repoussé sine die. <persName>JB</persName> cogne
-        sur <title>Le genre humain</title> (la revue !). <persName>MB</persName> mentionne la
+        grande confusion : <persName ref="#PB">PB</persName> cite <persName>Eddy Mitchell</persName>. Le <name type="manif">séminaire Andé</name> est repoussé sine die. <persName ref="#JB">JB</persName> cogne
+        sur <title>Le genre humain</title> (la revue !). <persName ref="#MB">MB</persName> mentionne la
         traduction italienne en cours d’Oulipo 1. La preuve du mouvement perpétuel que
-          <persName>CB</persName> a rapportée de New-York continue de tourner. Chacun part comme un
+          <persName ref="#CB">CB</persName> a rapportée de New-York continue de tourner. Chacun part comme un
         pet.</p>
       </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010216-1979-05-OJ">
    <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010216-1979-05-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010216-1979-05">la réunion Oulipo</ref> de <date when="1979-05-17">17/05/1979</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -41,13 +42,13 @@
          <list type="ordered">
             <item>Accueil invité et intervention du dit invité : <persName>Bernard Parzysz</persName>
             </item>
-            <item>Intervention de <persName>FLL</persName> qui part avant le dessert (chouette on en aura plus)</item>
+            <item>Intervention de <persName ref="#FLL">FLL</persName> qui part avant le dessert (chouette on en aura plus)</item>
          </list>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>Braffort</persName> : <term>Classification</term> des <term>structures</term> : pour une <term>systématique</term> de la <term>littérature récurrente</term> (3B)</p>
+            <persName ref="#PB">Braffort</persName> : <term>Classification</term> des <term>structures</term> : pour une <term>systématique</term> de la <term>littérature récurrente</term> (3B)</p>
          <p>
             <persName>Luc Et.</persName> 
             <term>Prolifération automatique</term>
@@ -57,12 +58,12 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>LE</persName> : <term>poème antonymique</term>
+               <persName ref="#LE">LE</persName> : <term>poème antonymique</term>
             </item>
             <item>
-               <persName>PB</persName> : je ne sais pas </item>
+               <persName ref="#PB">PB</persName> : je ne sais pas </item>
             <item>
-               <persName>MB</persName> : cruautés curiosités théologiques<note place="comment" resp="Natalie_Berkman">
+               <persName ref="#MB">MB</persName> : cruautés curiosités théologiques<note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-17T14:39:00Z"/>$$$ notion</note> 
             </item>
          </list>
@@ -71,19 +72,19 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JB</persName> : <unclear>StxxxxxxxStratégies</unclear>
+               <persName ref="#JB">JB</persName> : <unclear>StxxxxxxxStratégies</unclear>
             </item>
             <item>
-               <persName>MB</persName> : <persName>Balpe</persName> Manuel
+               <persName ref="#MB">MB</persName> : <persName>Balpe</persName> Manuel
                   <note place="comment" resp="utilisateur-p3">
                      <date when="2017-08-26T12:07:00Z"/>Ce mot n’est pas un prénom mais un nom commun (le prénom de Balpe est Jean-Pierre)</note>
                
             </item>
             <item>
-               <persName>PF</persName> : <orgName>CNL</orgName>
+               <persName ref="#PF">PF</persName> : <orgName>CNL</orgName>
             </item>
             <item>
-               <persName>PF</persName> : <title>Volume II</title>. <term>Oulipo Pédago</term>
+               <persName ref="#PF">PF</persName> : <title>Volume II</title>. <term>Oulipo Pédago</term>
             </item>
          </list>
          <p>
@@ -91,7 +92,7 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>FLL</persName>
+               <persName ref="#FLL">FLL</persName>
             </item>
             <item>
                <persName>Noel de Nouvel Arnaud</persName>
@@ -107,7 +108,7 @@
                   <note place="comment" resp="utilisateur-p3">
                      <date when="2017-08-26T12:09:00Z"/>Pas un titre</note>
                
-               <title>Tunnel</title> du <persName>PF</persName>
+               <title>Tunnel</title> du <persName ref="#PF">PF</persName>
             </item>
          </list>
          <p>Prochaine réunion : date lieu invité parrain</p>
@@ -116,10 +117,10 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JB</persName> : <name type="manif">Dimanche à Maison Alfort</name>
+               <persName ref="#JB">JB</persName> : <name type="manif">Dimanche à Maison Alfort</name>
             </item>
             <item>
-               <persName>PB</persName> : le <orgName>prix Honoré</orgName>. </item>
+               <persName ref="#PB">PB</persName> : le <orgName>prix Honoré</orgName>. </item>
          </list>
          <p>Prochaine : jeudi 14 juin. Invité <persName>Cortazar</persName>/ <persName>Balpe</persName>. </p>
          <p>Suivante : Mercredi 4 juillet. </p>

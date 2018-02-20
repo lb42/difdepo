@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010057-1965-04-CR">
   <teiHeader>
       <fileDesc>
@@ -50,7 +51,7 @@
          <p rend="incipit">OULIPO</p>
          <list type="ordered">
             <item>
-               <persName>Braffort</persName> =</item>
+               <persName ref="#PB">Braffort</persName> =</item>
             <item>Namur</item>
             <item>Note de frais</item>
             <item>Film</item>
@@ -74,7 +75,7 @@
          <list type="ordered">
             <item>Prochaine réunion.</item>
          </list>
-         <p>17 avril : 18 h plus ou moins 1 chez <persName>FLL</persName>
+         <p>17 avril : 18 h plus ou moins 1 chez <persName ref="#FLL">FLL</persName>
          </p>
       </body>
   </text>

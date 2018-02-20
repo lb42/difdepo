@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010160-1974-02-CV">
   <teiHeader>
       <fileDesc>
@@ -20,8 +21,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010160-1974-02-CV</idno>
-               <title>Convocation à <ref target="#T10010160-1974-02">une réunion Oulipo</ref>, envoyée le <date when="1974-02-19">19/02/1974</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010160-1974-02">une réunion Oulipo</ref>, envoyée le <date when="1974-02-19">19/02/1974</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -40,8 +41,8 @@
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010160t/f1.image"/>
          <p rend="incipit">Le 19 février 1974,</p>
          <p rend="incipit">Chers Brigadiers,</p>
-         <p>Dois-je vous rappeler que notre prochaine réunion aura lieu le Jeudi 8 Mars. Nous aurons comme Invité d’Honneur <persName>Michèle METAIL</persName> dont vous avez tous admiré l’aptitude à se passer de verbes.</p>
-         <p>Une fois de plus notre dernière réunion s’est révélée volcanique. J’espère que notre prochain ordre du jour sera épuisé en même temps que nous. Nous aurons notamment à parler de l’édition des travaux de <persName>PEREC</persName>, <persName>ROUBAUD</persName>, etc… édition dont le principe, le réalisateur et le financement sont assurés.</p>
+         <p>Dois-je vous rappeler que notre prochaine réunion aura lieu le Jeudi 8 Mars. Nous aurons comme Invité d’Honneur <persName ref="#MM">Michèle METAIL</persName> dont vous avez tous admiré l’aptitude à se passer de verbes.</p>
+         <p>Une fois de plus notre dernière réunion s’est révélée volcanique. J’espère que notre prochain ordre du jour sera épuisé en même temps que nous. Nous aurons notamment à parler de l’édition des travaux de <persName ref="#GP">PEREC</persName>, <persName ref="#JR">ROUBAUD</persName>, etc… édition dont le principe, le réalisateur et le financement sont assurés.</p>
          <p>Comme toujours je me précipite à vos pieds pour vous supplier de me faire savoir si vous venez ou non.</p>
          <p>Oulipiennement vôtre.</p>
          <p>Exercices</p>
@@ -56,7 +57,7 @@
          </p>
          <p>II. En vous inspirant du texte, rédigez un conte.</p>
          <p>
-            <persName>F. Le Lionnais</persName>
+            <persName ref="#FLL">F. Le Lionnais</persName>
          </p>
       </body>
   </text>

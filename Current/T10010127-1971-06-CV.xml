@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010127-1971-06-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010127-1971-06-CV</idno>
-					          <title>Convocation à <ref target="#T10010127-1971-06">une réunion Oulipo</ref>,						envoyée le <date when="1971-06-03">03/06/1971</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010127-1971-06">une réunion Oulipo</ref>,						envoyée le <date when="1971-06-03">03/06/1971</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -49,28 +50,28 @@
          </p>
          <list type="unordered">
 				        <item>
-               <persName>Noël ARNAUD</persName>
+               <persName ref="#NA">Noël ARNAUD</persName>
             </item>
 				        <item>
-               <persName>Marcel BENABOU</persName>
+               <persName ref="#MB">Marcel BENABOU</persName>
             </item>
 				        <item>
                <persName>Jean BORZIC</persName>
             </item>
 				        <item>
-               <persName>Paul BRAFFORT</persName>
+               <persName ref="#PB">Paul BRAFFORT</persName>
             </item>
 				        <item>
                <persName>Georges Emmanuel CLANCIER</persName>
             </item>
 				        <item>
-               <persName>Jacques DUCHATEAU</persName>
+               <persName ref="#JD">Jacques DUCHATEAU</persName>
             </item>
 				        <item>
                <persName>René ETIEMBLE</persName>
             </item>
 				        <item>
-               <persName>Jean LESCURE</persName>
+               <persName ref="#JL">Jean LESCURE</persName>
             </item>
 				        <item>
                <persName>Prince Napoléon MURAT</persName>
@@ -84,7 +85,7 @@
          <p>Je vous propose de nous retrouver à 14 heures précises chez moi (23, route de la Reine à Boulogne sur Seine, rez-de-chaussée à droite), le départ collectif ayant lieu à 14 heures 15 irrévocablement.</p>
          <p>Bien cordialement vôtre.</p>
          <p>
-            <persName>François Le Lionnais</persName>
+            <persName ref="#FLL">François Le Lionnais</persName>
          </p>
       </body>
 	  </text>

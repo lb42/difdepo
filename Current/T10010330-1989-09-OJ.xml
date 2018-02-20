@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010330-1989-09-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010330-1989-09-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010330-1989-09">la réunion Oulipo</ref> de <date when="1989-09-15">15/09/1989</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,14 +37,13 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="23"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f23.image"/>
+         <pb n="23" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f23.image"/>
          <list type="unordered">
             <item>Invité d’honneur : adresse <persName>Klinkenberg</persName>
             </item>
             <item>réunion avec l’<orgName>Oupeinpo</orgName>
             </item>
-            <item>prochaine réunion : penser à <persName>P.B.</persName> 23 10- 17 11.</item>
+            <item>prochaine réunion : penser à <persName ref="#PB">P.B.</persName> 23 10- 17 11.</item>
          </list>
       </body>
   </text>

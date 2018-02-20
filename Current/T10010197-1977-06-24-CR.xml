@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010197-1977-06-24-CR">
   <teiHeader>
       <fileDesc>
@@ -25,31 +26,31 @@
                   <placeName>chez MB</placeName>
                   <list type="present">
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>JL</persName>
+                        <persName ref="#JL">JL</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>AB</persName>
+                        <persName ref="#AB">AB</persName>
                      </item>
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                   </list>
                </meeting>
@@ -69,165 +70,176 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="28"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f28.image"/>
+         <pb n="28" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f28.image"/>
          <p rend="incipit">OULIPO du 24-06-77</p>
-         <p rend="incipit">Oui : <persName>MB</persName> <persName>PF</persName> <persName>FLL</persName> <persName>LE</persName> <persName>JQ</persName> <persName>HM</persName> <persName>AB</persName> <persName>JL</persName>
+         <p rend="incipit">Oui : <persName ref="#MB">MB</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#FLL">FLL</persName> 
+            <persName ref="#LE">LE</persName> 
+            <persName ref="#JQ">JQ</persName> 
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#AB">AB</persName> 
+            <persName ref="#JL">JL</persName>
          </p>
-         <p rend="incipit">Non : <persName>GP</persName> <persName>IC</persName>
+         <p rend="incipit">Non : <persName ref="#GP">GP</persName> 
+            <persName ref="#IC">IC</persName>
          </p>
          
-            <pb n="29"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f29.image"/>
+            <pb n="29" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f29.image"/>
          
          <p rend="incipit">le 24 Juin 77</p>
-         <p rend="incipit">Présents : <persName>JQ</persName> <persName>JL</persName> <persName>LE</persName> <persName>PB</persName> <persName>PF</persName> <persName>HM</persName> <persName>AB</persName> <persName>FLL</persName> <persName>MB</persName>
+         <p rend="incipit">Présents : <persName ref="#JQ">JQ</persName> 
+            <persName ref="#JL">JL</persName> 
+            <persName ref="#LE">LE</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#AB">AB</persName> 
+            <persName ref="#FLL">FLL</persName> 
+            <persName ref="#MB">MB</persName>
          </p>
-         <p rend="incipit">Président : <persName>PB</persName>
+         <p rend="incipit">Président : <persName ref="#PB">PB</persName>
          </p>
          <p>
             <title>BO</title>
          </p>
          <p>
-            <persName>PF</persName> : Problème des exemplaires fautifs. Que devons-nous en faire ?</p>
+            <persName ref="#PF">PF</persName> : Problème des exemplaires fautifs. Que devons-nous en faire ?</p>
          <p>
-            <persName>FLL</persName> : les poinçonner et les marquer</p>
+            <persName ref="#FLL">FLL</persName> : les poinçonner et les marquer</p>
          <p>
-            <persName>LE</persName> : Faire un bon coup de poinçon.</p>
+            <persName ref="#LE">LE</persName> : Faire un bon coup de poinçon.</p>
          <p>
-            <persName>JL</persName> : en tous cas les limiter aux membres de l’oulipo. 2 exemplaires par personne et détruire le reste. </p>
+            <persName ref="#JL">JL</persName> : en tous cas les limiter aux membres de l’oulipo. 2 exemplaires par personne et détruire le reste. </p>
          <p>
-            <persName>AB</persName> : les donner aux bibliothèques publiques.</p>
+            <persName ref="#AB">AB</persName> : les donner aux bibliothèques publiques.</p>
          <p>
-            <persName>PB</persName> : propose 5 exemplaires poinçonnés à chaque membre, les autres en dépôt au secrétariat</p>
+            <persName ref="#PB">PB</persName> : propose 5 exemplaires poinçonnés à chaque membre, les autres en dépôt au secrétariat</p>
          <p>
-            <persName>HM</persName> : contre ! </p>
+            <persName ref="#HM">HM</persName> : contre ! </p>
          <p>
-            <persName>FLL</persName> : débrocher et donner sa contribution à chacun comme des tirés à part.</p>
+            <persName ref="#FLL">FLL</persName> : débrocher et donner sa contribution à chacun comme des tirés à part.</p>
          <p>
-            <persName>PF</persName> : Donner 2 exemplaires poinçonnés à chacun</p>
+            <persName ref="#PF">PF</persName> : Donner 2 exemplaires poinçonnés à chacun</p>
          <p>Désosser le reste pour donner en tirés à part à chacun  DÉCISION</p>
          <p>
-            <persName>MB</persName> : Etat des ventes (<ref>voir document secrétariat</ref> 
+            <persName ref="#MB">MB</persName> : Etat des ventes (<ref>voir document secrétariat</ref> 
             <title>B.O.</title>)</p>
          <p>34 oulipo, 2 <persName>Jean Marie Queneau</persName>, 1 <persName>Kerraoul</persName>, 6 Archives, 2 dépôt = 45 exemplaires </p>
          <p>105 à vendre</p>
-         <p>8 min., 3 fed., 10 <orgName>gall</orgName>., 7 Rep., 5 <persName>Jean Marie Queneau</persName>, 3 taxt., 1 <persName>Puech</persName>, 1 <persName>Rameil</persName>, 1 <persName>Paulette</persName>, 20 <persName>FLL</persName>, 5 <persName>PB</persName>, 2 <persName>HM</persName>, 2 <persName>PF,</persName> 3 <persName>LE,</persName> 4 <persName>GP</persName>, 4 <persName>MB</persName>, 5 <persName>IC</persName>, 5 <persName>JQ</persName>, 5 <persName>JL</persName>, 1 <persName>AB</persName>, 4 <persName>JR</persName>
+         <p>8 min., 3 fed., 10 <orgName>gall</orgName>., 7 Rep., 5 <persName>Jean Marie Queneau</persName>, 3 taxt., 1 <persName>Puech</persName>, 1 <persName>Rameil</persName>, 1 <persName>Paulette</persName>, 20 <persName ref="#FLL">FLL</persName>, 5 <persName ref="#PB">PB</persName>, 2 <persName ref="#HM">HM</persName>, 2 <persName ref="#PF">PF,</persName> 3 <persName ref="#LE">LE,</persName> 4 <persName ref="#GP">GP</persName>, 4 <persName ref="#MB">MB</persName>, 5 <persName ref="#IC">IC</persName>, 5 <persName ref="#JQ">JQ</persName>, 5 <persName ref="#JL">JL</persName>, 1 <persName ref="#AB">AB</persName>, 4 <persName ref="#JR">JR</persName>
          </p>
          <p>
             <persName>Georges Lambrichs</persName> veut faire faire un article dans <title>La Nouvelle Revue Française</title>. On ne peut que lui prêter les exemplaires. </p>
          
-            <pb n="30"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f30.image"/>
+            <pb n="30" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f30.image"/>
          
          <p>
             <name type="manif">Avignon</name>
          </p>
          <p>
-            <persName>PF</persName> : organisation matérielle pour <name type="manif">Villeneuve-lès-Avignon</name>.</p>
-         <p>Le 14 au soir : <persName>Lescure</persName>-<persName>Fournel</persName>
+            <persName ref="#PF">PF</persName> : organisation matérielle pour <name type="manif">Villeneuve-lès-Avignon</name>.</p>
+         <p>Le 14 au soir : <persName ref="#JL">Lescure</persName>-<persName ref="#PF">Fournel</persName>
          </p>
          <p>
-            <persName>PB</persName> descend en voiture donc descend l’expo.</p>
+            <persName ref="#PB">PB</persName> descend en voiture donc descend l’expo.</p>
          <p>
-            <persName>PB</persName> : fait envoyer les panneaux de <orgName>Pompidou</orgName>.</p>
+            <persName ref="#PB">PB</persName> : fait envoyer les panneaux de <orgName>Pompidou</orgName>.</p>
          <p>
-            <persName>JL </persName>: apporte un petit film super 8</p>
+            <persName ref="#JL">JL </persName>: apporte un petit film super 8</p>
          <p>
-            <persName>PB</persName> : Des diapos.</p>
+            <persName ref="#PB">PB</persName> : Des diapos.</p>
          <p>
-            <persName>JL</persName> : s’occupe chez <orgName>Gallimard</orgName> du <title>volume oulipo</title>.</p>
+            <persName ref="#JL">JL</persName> : s’occupe chez <orgName>Gallimard</orgName> du <title>volume oulipo</title>.</p>
          <p>
-            <persName>PF</persName> : Des « <title>clefs </title>» chez <orgName>Denoël</orgName>.</p>
+            <persName ref="#PF">PF</persName> : Des « <title>clefs </title>» chez <orgName>Denoël</orgName>.</p>
          <p>
-            <persName>PB</persName> : organisation : après-midi et soir.</p>
+            <persName ref="#PB">PB</persName> : organisation : après-midi et soir.</p>
          <list type="unordered">
             <item>ordinateurs</item>
             <item>lectures</item>
             <item>exposés</item>
          </list>
          <p>
-            <persName>FLL</persName> : téléphone à <persName>Jean Marie Queneau</persName> pour avoir un manuscrit de <persName>RQ</persName>.</p>
+            <persName ref="#FLL">FLL</persName> : téléphone à <persName>Jean Marie Queneau</persName> pour avoir un manuscrit de <persName ref="#RQ">RQ</persName>.</p>
          <p>
-            <persName>LE </persName>: Donnera des <term>rubans de Moëbius</term>.</p>
+            <persName ref="#LE">LE </persName>: Donnera des <term>rubans de Moëbius</term>.</p>
          <p>
             <orgName>Pompidou</orgName>
          </p>
          <p>
-            <persName>PB</persName> : Bilan de la <name type="manif">journée Ecrivains Algorithme ordinateur</name>.</p>
+            <persName ref="#PB">PB</persName> : Bilan de la <name type="manif">journée Ecrivains Algorithme ordinateur</name>.</p>
          <p>Faible participation du public et surtout pas assez d’écrivains</p>
-         <p>Progression du programme sur les <term>aphorismes artificiels</term> de <persName>Marcel Bénabou</persName>
+         <p>Progression du programme sur les <term>aphorismes artificiels</term> de <persName ref="#MB">Marcel Bénabou</persName>
          </p>
-         <p>Progression du travail sur le roman de <persName>Calvino</persName>.</p>
+         <p>Progression du travail sur le roman de <persName ref="#IC">Calvino</persName>.</p>
          <p>
-            <persName>FLL</persName> : A propos d’<term>Arbre</term> 
-            <persName>FLL</persName> parle de <title>« Autoroute »</title> le roman de <persName>Lebrun</persName> qui vient de sortir chez <orgName>Lattès</orgName>.</p>
+            <persName ref="#FLL">FLL</persName> : A propos d’<term>Arbre</term> 
+            <persName ref="#FLL">FLL</persName> parle de <title>« Autoroute »</title> le roman de <persName>Lebrun</persName> qui vient de sortir chez <orgName>Lattès</orgName>.</p>
          <p>
             <title>Oulipo 2</title>
          </p>
          <p>
-            <persName>PF </persName>: Rien de nouveau.</p>
+            <persName ref="#PF">PF </persName>: Rien de nouveau.</p>
          <p>
-            <persName>JQ</persName> : voudrait que le 1<hi rend="sup">ère </hi> chapitre de son roman se trouve dedans (voir réunion précédente)</p>
+            <persName ref="#JQ">JQ</persName> : voudrait que le 1<hi rend="sup">ère </hi> chapitre de son roman se trouve dedans (voir réunion précédente)</p>
          <p>Le manuel</p>
          <p>
-            <persName>MB</persName> : une possibilité de solution pour <persName>Balpe</persName>. Suite voir <persName>Roubaud</persName>
+            <persName ref="#MB">MB</persName> : une possibilité de solution pour <persName>Balpe</persName>. Suite voir <persName ref="#JR">Roubaud</persName>
          </p>
          <p>
-            <persName>LE </persName>: Des nombreux livres existent dans ce style.</p>
-         <p>Demander liste livres à <persName>LE</persName>
+            <persName ref="#LE">LE </persName>: Des nombreux livres existent dans ce style.</p>
+         <p>Demander liste livres à <persName ref="#LE">LE</persName>
          </p>
          <p>
-            <persName>PF</persName> : Inviter <persName>Balpe</persName> pour voir (avec un projet).</p>
+            <persName ref="#PF">PF</persName> : Inviter <persName>Balpe</persName> pour voir (avec un projet).</p>
          <p>Retombées</p>
          <p>
-            <persName>HM</persName> : Est-ce le type de <title>Worldways</title> ? <persName>Martin Gardner</persName> fait 1 livre dans lequel il consacre un article à l’oulipo. (Un chapitre)</p>
+            <persName ref="#HM">HM</persName> : Est-ce le type de <title>Worldways</title> ? <persName>Martin Gardner</persName> fait 1 livre dans lequel il consacre un article à l’oulipo. (Un chapitre)</p>
          <p>
             <label type="rubrique">Prochaine réunion</label>
          </p>
-         <p>le jeudi 25 août chez <persName>FLL</persName>
+         <p>le jeudi 25 août chez <persName ref="#FLL">FLL</persName>
          </p>
-         <p>Le jeudi 22 Septembre chez <persName>Bénabou</persName>
+         <p>Le jeudi 22 Septembre chez <persName ref="#MB">Bénabou</persName>
          </p>
          
-            <pb n="31"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f31.image"/>
+            <pb n="31" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f31.image"/>
          
          <p>
             <orgName>Radio scolaire</orgName>
          </p>
          <p>
-            <persName>PF</persName> : une émission de 20 minutes qui se fera à Avignon et ensuite à Paris.</p>
+            <persName ref="#PF">PF</persName> : une émission de 20 minutes qui se fera à Avignon et ensuite à Paris.</p>
          <p>
-            <persName>Queval</persName>
+            <persName ref="#JQ">Queval</persName>
          </p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>JQ</persName> : <term>Sonnet prosaïque</term>. Faire des mauvais sonnets.</p>
+            <persName ref="#JQ">JQ</persName> : <term>Sonnet prosaïque</term>. Faire des mauvais sonnets.</p>
          <p>
-            <persName>FLL</persName> : c’est du sous-oulipo.</p>
+            <persName ref="#FLL">FLL</persName> : c’est du sous-oulipo.</p>
          <p>
             <label type="rubrique">Phynances</label>
          </p>
          <p>
-            <persName>PF</persName> : payer le secrétariat </p>
+            <persName ref="#PF">PF</persName> : payer le secrétariat </p>
          <p>10 franc par oulipien + frais secrétariat (<title>BO</title> etc…)  </p>
          
-            <pb n="32"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f32.image"/>
+            <pb n="32" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f32.image"/>
          
          <p>
-            <persName>FLL</persName> : Annonce lecture de <persName>Roubaud</persName> à <persName>Polivanov</persName> ce soir à 17 heures</p>
-         <p>Photo de groupe : cette photo va être publiée dans un livre du <orgName>Seuil</orgName>. Les absents doivent envoyer leur portrait à <persName>FLL</persName>.</p>
+            <persName ref="#FLL">FLL</persName> : Annonce lecture de <persName ref="#JR">Roubaud</persName> à <persName>Polivanov</persName> ce soir à 17 heures</p>
+         <p>Photo de groupe : cette photo va être publiée dans un livre du <orgName>Seuil</orgName>. Les absents doivent envoyer leur portrait à <persName ref="#FLL">FLL</persName>.</p>
          <p>
-            <persName>FLL</persName> : succession <persName>Queneau.</persName>
+            <persName ref="#FLL">FLL</persName> : succession <persName ref="#RQ">Queneau.</persName>
          </p>
          <p>
-            <persName>Robert Gallimard</persName> voudrait pléiade en 4 volumes. <persName>Claude</persName> ???</p>
+            <persName>Robert Gallimard</persName> voudrait pléiade en 4 volumes. <persName ref="#CB">Claude</persName> ???</p>
          <p>
-            <persName>AB</persName> : le fonds <persName>Queneau</persName> de ce qui est imprimé sera à Verviers.  </p>
+            <persName ref="#AB">AB</persName> : le fonds <persName ref="#RQ">Queneau</persName> de ce qui est imprimé sera à Verviers.  </p>
       </body>
   </text>
 </TEI>

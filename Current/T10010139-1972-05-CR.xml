@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010139-1972-05-CR">
   <teiHeader>
       <fileDesc>
@@ -28,19 +29,19 @@
                   <date when="1972-05-23">23/05/1972</date>
                   <list type="present">
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName role="président">PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                   </list>
                </meeting>
@@ -65,16 +66,16 @@
          <p rend="incipit">23 Mai 1972</p>
          <p rend="incipit">Xème session de l’OULIPO.</p>
          <p rend="incipit">Compte-rendu de séance</p>
-         <p rend="incipit">Présents : <persName>FLL</persName> (cofondateur),
-          <persName>FOURNEL</persName>, <persName>BENABOU</persName> (cosecrétaires),
-          <persName>BRAFFORT</persName> (président de séance) <persName>ETIENNE</persName>
+         <p rend="incipit">Présents : <persName ref="#FLL">FLL</persName> (cofondateur),
+          <persName ref="#PF">FOURNEL</persName>, <persName ref="#MB">BENABOU</persName> (cosecrétaires),
+          <persName ref="#PB">BRAFFORT</persName> (président de séance) <persName ref="#EL">ETIENNE</persName>
         (président de la précédente séance).</p>
-         <p rend="incipit">Excusés : <persName>RQ</persName>, <persName>LATIS</persName>,
-          <persName>QUEVAL</persName>, <persName>ROUBAUD</persName>, <persName>PEREC</persName>,
-          <persName>BERGE</persName>
+         <p rend="incipit">Excusés : <persName ref="#RQ">RQ</persName>, <persName ref="#LA">LATIS</persName>,
+          <persName ref="#JQ">QUEVAL</persName>, <persName ref="#JR">ROUBAUD</persName>, <persName ref="#GP">PEREC</persName>,
+          <persName ref="#CB">BERGE</persName>
          </p>
-         <p rend="incipit">Non excusés : <persName>ARNAUD</persName>, <persName>BENS</persName>,
-          <persName>DUCHATEAU</persName> ( ?), <persName>LESCURE</persName>
+         <p rend="incipit">Non excusés : <persName ref="#NA">ARNAUD</persName>, <persName ref="#JB">BENS</persName>,
+          <persName ref="#JD">DUCHATEAU</persName> ( ?), <persName ref="#JL">LESCURE</persName>
          </p>
          <p>
             <label type="rubrique">Ordre du jour :</label>
@@ -82,30 +83,30 @@
          <p>
             <label type="rubrique">Création :</label>
          </p>
-         <p>Escape <persName>FLL</persName>
+         <p>Escape <persName ref="#FLL">FLL</persName>
          </p>
          <p>Etienne Déception (partielle)</p>
          <p>
             <term>parodie</term> automatique</p>
          <p>
-            <persName>FLL</persName>  absence de sens intérieur - <term>vers</term> blanc</p>
+            <persName ref="#FLL">FLL</persName>  absence de sens intérieur - <term>vers</term> blanc</p>
          <p>
             <term>Contrepet filmique</term> ?</p>
          <p>
             <label type="rubrique">Erudition :</label>
          </p>
          <p>
-            <persName>P.B.</persName> (formalistes Polonais) <unclear>christek +withuring</unclear>
+            <persName ref="#PB">P.B.</persName> (formalistes Polonais) <unclear>christek +withuring</unclear>
          </p>
          <p>
-            <persName>Benabou</persName>
+            <persName ref="#MB">Benabou</persName>
             <orgName>PALF</orgName>
          </p>
          <p>
             <label type="rubrique">Action :</label>
          </p>
          <p>
-            <persName>Fournel</persName> (oulipo en province Saint-Etienne</p>
+            <persName ref="#PF">Fournel</persName> (oulipo en province Saint-Etienne</p>
          <p>(administration) : photocopies</p>
          <p>Documents</p>
          <p>Bibliographie.</p>

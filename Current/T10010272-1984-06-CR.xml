@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010272-1984-06-CR">
   <teiHeader>
       <fileDesc>
@@ -25,28 +26,28 @@
                   <placeName>Chez PB</placeName>
                   <list type="present">
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName role="président">JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                   </list>
                </meeting>
@@ -69,56 +70,56 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010272h/f1.image"/>
          <p rend="incipit">Oulipo, réunion du jeudi 21 juin 1984, de 11h30 à 15h</p>
-         <p rend="incipit">Présents : <persName>Paul Braffort</persName> qui reçoit, avec <persName>Emilie Scheffer</persName>, <persName>Jacques Bens</persName> (Président de séance), <persName>Jacques Jouet</persName> (secrétaire), <persName>Noël Arnaud</persName>, <persName>Marcel Bénabou</persName>, <persName>Harry Mathews</persName>, Luc Etienne, <persName>Paul Fournel</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#PB">Paul Braffort</persName> qui reçoit, avec <persName>Emilie Scheffer</persName>, <persName ref="#JB">Jacques Bens</persName> (Président de séance), <persName ref="#JJ">Jacques Jouet</persName> (secrétaire), <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#HM">Harry Mathews</persName>, Luc Etienne, <persName ref="#PF">Paul Fournel</persName>.</p>
          <p rend="incipit">
-            <persName>François Caradec</persName>, annoncé, ne viendra pas.</p>
-         <p rend="incipit">Excusés : <persName>Michèle Métail</persName> et <persName>Jean Lescure</persName> et <persName>Jean Queval</persName>, et <persName>Jacques Roubaud</persName>, d’une certaine façon.</p>
+            <persName ref="#FC">François Caradec</persName>, annoncé, ne viendra pas.</p>
+         <p rend="incipit">Excusés : <persName ref="#MM">Michèle Métail</persName> et <persName ref="#JL">Jean Lescure</persName> et <persName ref="#JQ">Jean Queval</persName>, et <persName ref="#JR">Jacques Roubaud</persName>, d’une certaine façon.</p>
          <p>
             <label type="rubrique">Créations</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>Jacques Jouet</persName> propose : « <term>Homophonie</term> à double tranchant ». (<ref>ci-joint</ref>)</item>
+               <persName ref="#JJ">Jacques Jouet</persName> propose : « <term>Homophonie</term> à double tranchant ». (<ref>ci-joint</ref>)</item>
             <item>
-               <persName>Marcel Bénabou</persName> poursuit son investigation du <term>langage</term> cuit et recuit en se penchant sur des <term>locutions</term> ou <term>expressions</term>, sans forme verbale. Ex : un éléphant dans un magasin de porcelaine.</item>
+               <persName ref="#MB">Marcel Bénabou</persName> poursuit son investigation du <term>langage</term> cuit et recuit en se penchant sur des <term>locutions</term> ou <term>expressions</term>, sans forme verbale. Ex : un éléphant dans un magasin de porcelaine.</item>
          </list>
          <p>
             <term>Combinaisons-greffes</term> à l’aide de titres de livres.</p>
          <p>
-            <persName>Harry Mathews</persName> suggère que ce travail soit effectué en recourant à une <term>contrainte</term> supplémentaire, comme par ex. la <term>rime</term>, afin de corser un peu la difficulté.</p>
+            <persName ref="#HM">Harry Mathews</persName> suggère que ce travail soit effectué en recourant à une <term>contrainte</term> supplémentaire, comme par ex. la <term>rime</term>, afin de corser un peu la difficulté.</p>
          <list type="unordered">
             <item>
-               <persName>Harry Mathews</persName> lance un débat aussi passionnant que difficile à résumer sur l’utilisation des <term>contraintes</term> oulipiennes hors du giron de l’Oulipo (1).</item>
+               <persName ref="#HM">Harry Mathews</persName> lance un débat aussi passionnant que difficile à résumer sur l’utilisation des <term>contraintes</term> oulipiennes hors du giron de l’Oulipo (1).</item>
             <item>
-               <persName>Agnès Rosenstiehl</persName> a écrit « <title>zéro faute</title> » que nous lit <persName>Marcel Bénabou</persName> : une dictée dans laquelle il serait impossible de faire une faute (choix de mots s’écrivant « comme ça se prononce »).</item>
+               <persName>Agnès Rosenstiehl</persName> a écrit « <title>zéro faute</title> » que nous lit <persName ref="#MB">Marcel Bénabou</persName> : une dictée dans laquelle il serait impossible de faire une faute (choix de mots s’écrivant « comme ça se prononce »).</item>
          </list>
          <p>
             <label type="rubrique">Actions</label>
          </p>
          <list type="unordered">
             <item>
-               <name type="manif">Le colloque Queneau à Limoges</name> a fait un tabac (120-150 personnes). <persName>Bens</persName>, <persName>Arnaud</persName>, <persName>Fournel</persName> et <persName>Blavier</persName> y étaient et intervinrent. Bientôt les <title>Actes</title>. Pour 1985, <name type="manif">Colloque Oulipo</name> si on veut. On veut !</item>
+               <name type="manif">Le colloque Queneau à Limoges</name> a fait un tabac (120-150 personnes). <persName ref="#JB">Bens</persName>, <persName ref="#NA">Arnaud</persName>, <persName ref="#PF">Fournel</persName> et <persName ref="#AB">Blavier</persName> y étaient et intervinrent. Bientôt les <title>Actes</title>. Pour 1985, <name type="manif">Colloque Oulipo</name> si on veut. On veut !</item>
          </list>
          <p>
-            <persName>Bens</persName> : « Ce que tu ne peux éviter, gère-le. « <persName>Paul Fournel</persName> doit négocier tout ça, quand le président <persName>Arnaud</persName> aura officiellement dit oui.</p>
+            <persName ref="#JB">Bens</persName> : « Ce que tu ne peux éviter, gère-le. « <persName ref="#PF">Paul Fournel</persName> doit négocier tout ça, quand le président <persName ref="#NA">Arnaud</persName> aura officiellement dit oui.</p>
          <list type="unordered">
             <item>
                <name type="manif">Villeneuve-les-Avignon</name>. Derniers détails à régler, mais 23000,00 f sont considérés comme insuffisants.</item>
-            <item>Décision d’une lettre collective à <persName>Jacques Roubaud</persName> lui assurant qu’il nous manque</item>
-            <item>…comme nous manque <persName>Jean Lescure</persName> dont l’activité au <name type="manif">stage OuLiPo de Rajat</name> (ça n’est pas dans le Beaujolais ! tonne <persName>Harry</persName>) nous laisse bien augurer de sa réapparition prochaine.</item>
-            <item>Hommage à <persName>François le Lionnais</persName>. Décision de traiter l’affaire rondement lors d’un <name type="manif">séminaire au Moulin d’Andé</name>, les 5 au soir, 6 et 7 octobre prochains.</item>
-            <item>Appartement <persName>Le Lionnais</persName>. <persName>Fournel</persName> a rencontré la ville de Boulogne (c’est une façon de parler) qui semble confirmer son souhait de se porter acquéreur, l’OuLiPo assurant maintenance et entretien grâce à la générosité de l’Alamo béni des dieux.</item>
+            <item>Décision d’une lettre collective à <persName ref="#JR">Jacques Roubaud</persName> lui assurant qu’il nous manque</item>
+            <item>…comme nous manque <persName ref="#JL">Jean Lescure</persName> dont l’activité au <name type="manif">stage OuLiPo de Rajat</name> (ça n’est pas dans le Beaujolais ! tonne <persName ref="#HM">Harry</persName>) nous laisse bien augurer de sa réapparition prochaine.</item>
+            <item>Hommage à <persName ref="#FLL">François le Lionnais</persName>. Décision de traiter l’affaire rondement lors d’un <name type="manif">séminaire au Moulin d’Andé</name>, les 5 au soir, 6 et 7 octobre prochains.</item>
+            <item>Appartement <persName ref="#FLL">Le Lionnais</persName>. <persName ref="#PF">Fournel</persName> a rencontré la ville de Boulogne (c’est une façon de parler) qui semble confirmer son souhait de se porter acquéreur, l’OuLiPo assurant maintenance et entretien grâce à la générosité de l’Alamo béni des dieux.</item>
             <item>
-               <persName>Braffort</persName> relance l’<orgName>I.P.U.</orgName> (<orgName>Institut de la potentialité universelle</orgName>).</item>
+               <persName ref="#PB">Braffort</persName> relance l’<orgName>I.P.U.</orgName> (<orgName>Institut de la potentialité universelle</orgName>).</item>
             <item>L’<orgName>Oulipopo</orgName> va bien. Il propose que les grands détectives soient désormais handicapés (aveugles, sourds-muets…)</item>
          </list>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010272h/f2.image"/>
          <list type="unordered">
             <item>« <title>La nouvelle barre du jour</title> » (revue québécoise) propose de publier des textes oulipiens écrits par des oulipiens. Au programme d’Andé/octobre : opérer un choix dans les travaux récents.</item>
-            <item>Sortie prochaine de <title>l’Art du palindrome phonétique</title> de <persName>Luc Etienne</persName>. Dans tous les bons kiosques.</item>
+            <item>Sortie prochaine de <title>l’Art du palindrome phonétique</title> de <persName ref="#LE">Luc Etienne</persName>. Dans tous les bons kiosques.</item>
             <item>Prochaines réunions. Juillet Villeneuve. 21 août, heure et lieu à déterminer. </item>
          </list>
-         <p>(1) <persName>Jacques Bens</persName> dit, en substance : L’OuLiPo a davantage convaincu le monde littéraire d’une <term>méthodologie de la contrainte</term>, qu’il n’a réellement exporté telle ou telle contrainte.</p>
+         <p>(1) <persName ref="#JB">Jacques Bens</persName> dit, en substance : L’OuLiPo a davantage convaincu le monde littéraire d’une <term>méthodologie de la contrainte</term>, qu’il n’a réellement exporté telle ou telle contrainte.</p>
       </body>
   </text>
 </TEI>

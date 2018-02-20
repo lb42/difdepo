@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010187-1976-07-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010187-1976-07-CV</idno>
-               <title>Convocation à <ref target="#T10010187-1976-07">une réunion Oulipo</ref>, envoyée le <date when="1976-07-05">05/07/1976</date> par <persName role="expéditeur">GP</persName> à <persName role="destinataire">MB</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010187-1976-07">une réunion Oulipo</ref>, envoyée le <date when="1976-07-05">05/07/1976</date> par <persName ref="#GP">GP</persName> à <persName ref="#MB">MB</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -44,7 +45,7 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010187s/f1.image"/>
          <p rend="incipit">5/7/76</p>
-         <p>Cher <persName>Marcel</persName> :</p>
+         <p>Cher <persName ref="#MB">Marcel</persName> :</p>
          <p>Notre prochaine réunion a été fixée au mardi 3 août 1976, à 11h30, 13 rue Linné.</p>
          <p>A l’ordre du jour, notamment :</p>
          <list type="ordered">
@@ -60,7 +61,7 @@
          <p>Me fais savoir à temps si tu viendras afin que je puisse organiser le repas en
         conséquence.</p>
          <p>D’avance merci</p>
-         <p>Oulipiennement à toi<persName>GP</persName>
+         <p>Oulipiennement à toi<persName ref="#GP">GP</persName>
          </p>
       </body>
   </text>

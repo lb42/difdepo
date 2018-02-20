@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1976-09-CR">
   <teiHeader>
       <fileDesc>
@@ -24,13 +25,13 @@
                   <date when="1976-09-23">23/09/1976</date>
                   <list type="present">
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                   </list>
                </meeting>
@@ -49,15 +50,14 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="25"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f25.image"/>
+         <pb n="25" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f25.image"/>
          <p rend="incipit">OuLiPo                                            23 9 76</p>
-         <p>(<persName>HM</persName> <persName>: Jacquet</persName> :) <term>La tour d’Hanoi</term> (disques à transférer d’un axe à l’autre)</p>
+         <p>(<persName ref="#HM">HM</persName> <persName>: Jacquet</persName> :) <term>La tour d’Hanoi</term> (disques à transférer d’un axe à l’autre)</p>
          <p>
-            <persName>JR</persName> : <persName>Michel de Boteauville</persName> – Année 1497 </p>
+            <persName ref="#JR">JR</persName> : <persName>Michel de Boteauville</persName> – Année 1497 </p>
          <p>transcription de <term>métrique latine</term> en français en respectant l’ordre des mots</p>
          <p>
-            <persName>MB</persName> :</p>
+            <persName ref="#MB">MB</persName> :</p>
       </body>
   </text>
 </TEI>

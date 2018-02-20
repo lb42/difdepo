@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010053-1965-03-08-OJ">
   <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
             <bibl>
                <idno>T10010053-1965-03-08-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010053-1965-03-08">la réunion Oulipo</ref> du <date when="1965-03-08">08/03/1965</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -40,8 +41,7 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="22"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f22.image"/>
+         <pb n="22" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f22.image"/>
          <p rend="incipit">OuLiPo</p>
          <p rend="incipit">Réunion du 7 Pédale 93</p>
          <p rend="incipit">(vulg : Lundi 8 Mars 1965)</p>
@@ -51,7 +51,7 @@
          </p>
          <list type="ordered">
             <item>
-               <gap/>// <persName>Braffort</persName> ; <gap/> selon pays 
+               <gap/>// <persName ref="#PB">Braffort</persName> ; <gap/> selon pays 
       </item>
             <item>
                <gap/> n°4</item>
@@ -66,13 +66,13 @@
             <item>
                <gap/> 
                <unclear>SIA</unclear> 
-               <gap/> = imitation faite par personne <persName>FLL</persName>
+               <gap/> = imitation faite par personne <persName ref="#FLL">FLL</persName>
             </item>
             <item>
-               <persName>Braffort</persName>
+               <persName ref="#PB">Braffort</persName>
             </item>
             <item>
-               <persName>Bens</persName>_le Midi <gap/>]</item>
+               <persName ref="#JB">Bens</persName>_le Midi <gap/>]</item>
             <item/>
             <item>Invité d’honneur = <persName>R. Faure</persName> 
             </item>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010116-1970-08-04-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010116-1970-08-04-CV</idno>
-               <title>Convocation à <ref target="#T10010116-1970-08-04">une réunion Oulipo</ref>, envoyée le <date when="1970-08-04">04/08/1970</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010116-1970-08-04">une réunion Oulipo</ref>, envoyée le <date when="1970-08-04">04/08/1970</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -44,7 +45,7 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010116f/f1.image"/>
          <p rend="incipit">
-            <persName>François LE LIONNAIS</persName>
+            <persName ref="#FLL">François LE LIONNAIS</persName>
          </p>
          <p rend="incipit">23, route de la Reine</p>
          <p rend="incipit">92 – BOULOGNE SUR SEINE</p>

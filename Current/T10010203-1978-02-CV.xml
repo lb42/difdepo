@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010203-1978-02-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -19,8 +20,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010203-1978-02-CV</idno>
-					          <title>Convocation à <ref target="#T10010203-1978-02">une réunion							Oulipo</ref>, envoyée le <date when="1978-02-04">04/02/1978</date> par <persName role="expéditeur">PF</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010203-1978-02">une réunion							Oulipo</ref>, envoyée le <date when="1978-02-04">04/02/1978</date> par <persName ref="#PF">PF</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -40,19 +41,19 @@
          <p rend="incipit">Paris, le 4 Février 1978</p>
          <p>Amitiés,</p>
          <p>
-				        <persName>Paul</persName>
+				        <persName ref="#PF">Paul</persName>
 			      </p>
          <p>Chers oulipotes,</p>
          <p>La prochaine réunion de l’Ouvroir aura lieu le vendredi 17 février à onze heures chez
-					<persName>Marcel Bénabou</persName> au 7, Villa Duthy dans le 14°. </p>
+					<persName ref="#MB">Marcel Bénabou</persName> au 7, Villa Duthy dans le 14°. </p>
          <p>Nous y parlerons du <orgName>C.N.L.</orgName> et de la prochaine <name type="event">semaine Oulipo à la				Chartreuse de Villeneuve-lès-Avignon</name>. Notre ordre du jour comportera nécessairement
 				la rubrique création, pensez-y.</p>
          <p>Pour faciliter la tâche d'<persName>Isabelle</persName> et
-					<persName>Marcel</persName>, soyez gentils de retourner la découpe ci-dessous
+					<persName ref="#MB">Marcel</persName>, soyez gentils de retourner la découpe ci-dessous
 				dès que possible.</p>
          <p>Au 17, bien oulipiennement,</p>
          <p>
-				        <persName>Paul Fournel</persName>
+				        <persName ref="#PF">Paul Fournel</persName>
 			      </p>
       </body>
 	  </text>

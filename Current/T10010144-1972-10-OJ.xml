@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010144-1972-10-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010144-1972-10-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010144-1972-10">la réunion Oulipo</ref> du <date when="1972-10-11">11/10/1972</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -41,10 +42,10 @@
          <p>Invités d’honneur</p>
          <p>Ordre des invitations</p>
          <p>
-            <persName>Italo Calvino</persName> à Paris XIV 12 Square de Châtillons</p>
+            <persName ref="#IC">Italo Calvino</persName> à Paris XIV 12 Square de Châtillons</p>
          <p>Vaugirard 31 29</p>
          <p>
-            <persName>Leipp FLL</persName> ou <persName>Luc Etienne</persName>
+            <persName>Leipp FLL</persName> ou <persName ref="#LE">Luc Etienne</persName>
          </p>
          <p>
             <persName>Simonet</persName> Rouen</p>
@@ -55,9 +56,9 @@
             <persName>Thom FLL</persName>
          </p>
          <p>
-            <persName>Quemada</persName> (<persName>FLL</persName> ou Queneau)</p>
+            <persName>Quemada</persName> (<persName ref="#FLL">FLL</persName> ou Queneau)</p>
          <p>
-            <persName>Effel</persName> (<persName>Queneau</persName>)</p>
+            <persName>Effel</persName> (<persName ref="#RQ">Queneau</persName>)</p>
          <p>Madame <persName>Golon</persName> (<persName>Angélique</persName>)</p>
          <p>Bruter</p>
       </body>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010165-1974-08-CR">
   <teiHeader>
       <fileDesc>
@@ -43,7 +44,7 @@
          <p rend="incipit">160ème séance – le 23 Août 74</p>
          <list type="unordered">
             <item>
-               <persName>RQ</persName> donne le nombre de ventes 7759 (le 1/3 du tirage)</item>
+               <persName ref="#RQ">RQ</persName> donne le nombre de ventes 7759 (le 1/3 du tirage)</item>
          </list>
          <p>
             <persName>Michel Laclos</persName> dans <title>Le Figaro</title> du samedi a plagié régulièrement l’Oulipo.</p>
@@ -56,35 +57,35 @@
          </list>
          <list type="unordered">
             <item>
-               <persName>Fournel</persName> = l’inconscience du Président (<title>Oulipo et ordinateurs</title>) lecture d’un article de <persName>Fournel</persName> destiné aux <title>Nouvelles Littéraires</title>)</item>
+               <persName ref="#PF">Fournel</persName> = l’inconscience du Président (<title>Oulipo et ordinateurs</title>) lecture d’un article de <persName ref="#PF">Fournel</persName> destiné aux <title>Nouvelles Littéraires</title>)</item>
          </list>
-         <p>Approbation de cet article par <persName>Queval</persName>, <persName>Queneau</persName>,</p>
+         <p>Approbation de cet article par <persName ref="#JQ">Queval</persName>, <persName ref="#RQ">Queneau</persName>,</p>
          <list type="unordered">
             <item>
-               <persName>Fournel</persName> : Terrorisons <persName>Braffort</persName> presqu’à ce qu’il théorise.</item>
+               <persName ref="#PF">Fournel</persName> : Terrorisons <persName ref="#PB">Braffort</persName> presqu’à ce qu’il théorise.</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>Perec</persName> :</item>
+               <persName ref="#GP">Perec</persName> :</item>
             <item>compléter un livre de <persName>Rex Stout</persName>.</item>
             <item>Premières épreuves du <title>Volume I des Éditions oulipiennes</title>
             </item>
          </list>
          <p>
-            <title>Ulcérations</title> de <persName>Perec</persName> = (bon marché : 1000 francs)</p>
+            <title>Ulcérations</title> de <persName ref="#GP">Perec</persName> = (bon marché : 1000 francs)</p>
          <list type="unordered">
             <item>
-               <persName>Harry</persName> = abonnement à <title>Word ways</title>.</item>
+               <persName ref="#HM">Harry</persName> = abonnement à <title>Word ways</title>.</item>
          </list>
          <p>Tentatives verbales de <title>Word ways</title>, revue spécialisée dans les mots.</p>
-         <p>Envoi d’un exemplaire de l’Oulipo à cette revue par <persName>Harry</persName>.</p>
+         <p>Envoi d’un exemplaire de l’Oulipo à cette revue par <persName ref="#HM">Harry</persName>.</p>
          <list type="unordered">
             <item>
-               <persName>Perec</persName> = un texte paru dans <title>Journal of Irreproducible results</title> = <unclear>saute</unclear> une ligne de texte avec des notes de bas de page.</item>
+               <persName ref="#GP">Perec</persName> = un texte paru dans <title>Journal of Irreproducible results</title> = <unclear>saute</unclear> une ligne de texte avec des notes de bas de page.</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>Queneau</persName>= les cataractes de l’imagination</item>
+               <persName ref="#RQ">Queneau</persName>= les cataractes de l’imagination</item>
          </list>
          <list type="unordered">
             <item>
@@ -96,30 +97,30 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>Queval</persName> : proposition de création de décorations</item>
+               <persName ref="#JQ">Queval</persName> : proposition de création de décorations</item>
             <item>
-               <persName>Perec</persName> 
+               <persName ref="#GP">Perec</persName> 
                <term>Limerick</term> a été découvert par <persName>Ch. Colomb</persName>.</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>Luc Etienne</persName> : le <term>limerick</term> est-il une <term>forme fixe</term> transposable en français ?</item>
+               <persName ref="#LE">Luc Etienne</persName> : le <term>limerick</term> est-il une <term>forme fixe</term> transposable en français ?</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>FLL</persName> : <term>Oulipo thémantique</term>. (nouvelle mouture de <term>l’Oulipo sémantique</term>)</item>
+               <persName ref="#FLL">FLL</persName> : <term>Oulipo thémantique</term>. (nouvelle mouture de <term>l’Oulipo sémantique</term>)</item>
          </list>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101652/f2.image"/>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101652/f3.image"/>
          <p>23-8-74</p>
          <p>
-            <persName>FLL</persName> 
+            <persName ref="#FLL">FLL</persName> 
             <term>Oulipo thémantique</term> = partir individuellement d’un texte choisi</p>
          <p>En faire l’analyse thématique (sentiments, idées, sensations)</p>
          <p>
-            <persName>Bénabou</persName>-<persName>Queneau</persName> = pas d’enthousiasme = ça se fait déjà à <title>Poétique</title> par exemple</p>
+            <persName ref="#MB">Bénabou</persName>-<persName ref="#RQ">Queneau</persName> = pas d’enthousiasme = ça se fait déjà à <title>Poétique</title> par exemple</p>
          <p>
-            <persName>Queneau</persName> : demande à <persName>Calvino</persName> ses trucs dans les <title>Villes [éternelles</title>
+            <persName ref="#RQ">Queneau</persName> : demande à <persName ref="#IC">Calvino</persName> ses trucs dans les <title>Villes [éternelles</title>
       
             <note place="comment" resp="utilisateur-p3">
                <date when="2017-06-04T23:00:00Z"/>$$$ raturé</note>
@@ -127,7 +128,7 @@
             <title>] invisibles</title>
          </p>
          <p>
-            <persName>Perec</persName> propose à <persName>Queval</persName> de chercher dans la poésie de <persName>Hugo</persName> tout ce qui n’est pas poétique, tout ce qui est prose.</p>
+            <persName ref="#GP">Perec</persName> propose à <persName ref="#JQ">Queval</persName> de chercher dans la poésie de <persName>Hugo</persName> tout ce qui n’est pas poétique, tout ce qui est prose.</p>
       </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1975-10-CR">
   <teiHeader>
       <fileDesc>
@@ -38,24 +39,23 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="15"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f15.image"/>
+         <pb n="15" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f15.image"/>
          <p>
-            <persName>PB</persName> : Programme d’ordinateurs (<persName>de Cowell</persName>) « Elisa »</p>
+            <persName ref="#PB">PB</persName> : Programme d’ordinateurs (<persName>de Cowell</persName>) « Elisa »</p>
          <p> Dialogues corrigés qu’on peut soumettre à des <term>contraintes</term> 
          </p>
          <p> Déduction question de <term>answer systems</term>.</p>
          <p>
-            <persName>CB</persName> : tables de listing pour formation de noms féminins en toutes langues</p>
+            <persName ref="#CB">CB</persName> : tables de listing pour formation de noms féminins en toutes langues</p>
          <p>
-            <persName>MB</persName> : <unclear>*</unclear> : « <term>palindrome</term> » - chaste &gt;, obscène &lt;</p>
+            <persName ref="#MB">MB</persName> : <unclear>*</unclear> : « <term>palindrome</term> » - chaste &gt;, obscène &lt;</p>
          <p>[<name type="manif">Bruxelles : Expo</name>]
         <note place="comment" resp="Difdepo">
                <date when="2017-08-21T14:09:00Z"/>ce doit être Europalia.</note>
       
          </p>
          <p>
-            <persName>MB</persName> (entretien à la radio) : Priorité aux <term>structures</term> et non pas aux œuvres : la valeur de la cohérence interne d’une <term>structure</term> qui ne donne pas des résultats immédiats (mais à l’avenir, qui sait ?)</p>
+            <persName ref="#MB">MB</persName> (entretien à la radio) : Priorité aux <term>structures</term> et non pas aux œuvres : la valeur de la cohérence interne d’une <term>structure</term> qui ne donne pas des résultats immédiats (mais à l’avenir, qui sait ?)</p>
       </body>
   </text>
 </TEI>

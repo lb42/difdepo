@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010259-1983-03-OJ">
 	  <teiHeader>
 		    <fileDesc>
@@ -24,7 +25,7 @@
 				        <bibl>
 					          <idno>T10010259-1983-03-OJ</idno>
 					          <title>Ordre de jour de <ref target="#T10010259-1983-03">la réunion Oulipo</ref> du <date when="1983-03-18">18/03/1983</date> 
-</title> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -39,31 +40,31 @@
 	  <text type="OJ">
 		    <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010259t/f2.image"/>
-         <p rend="incipit">Ordre du Jour du 18/03/1983 chez <persName>MM</persName>
+         <p rend="incipit">Ordre du Jour du 18/03/1983 chez <persName ref="#MM">MM</persName>
          </p>
-         <p>Président : <persName>MB</persName> Secrétaire : <persName>PF</persName>
+         <p>Président : <persName ref="#MB">MB</persName> Secrétaire : <persName ref="#PF">PF</persName>
          </p>
          <p>
             <label type="rubrique">-	Création</label>
          </p>
          <list type="unordered">
 				        <item>
-               <persName>PB</persName> le vol d’<unclear>Itiers</unclear>
+               <persName ref="#PB">PB</persName> le vol d’<unclear>Itiers</unclear>
             </item>
 				        <item>
-               <persName>MM</persName> Filigrane</item>
+               <persName ref="#MM">MM</persName> Filigrane</item>
 				        <item>
-               <persName>PF</persName> livre sur <persName>Georges Perec</persName>
+               <persName ref="#PF">PF</persName> livre sur <persName ref="#GP">Georges Perec</persName>
             </item>
 				        <item>
-               <persName>MB</persName> la grille mode d’emploi</item>
+               <persName ref="#MB">MB</persName> la grille mode d’emploi</item>
 				        <item>
-               <persName>LE</persName> Unicité</item>
+               <persName ref="#LE">LE</persName> Unicité</item>
 			      </list>
          <p>-	Action</p>
          <p>
             <label type="rubrique">
-               <persName>PF</persName>
+               <persName ref="#PF">PF</persName>
             </label>
          </p>
          <list type="unordered">
@@ -83,7 +84,7 @@
 			      </list>
          <p>
             <label type="rubrique">
-               <persName>PB</persName>
+               <persName ref="#PB">PB</persName>
             </label>
          </p>
          <list type="unordered">
@@ -96,41 +97,41 @@
             </item>
 			      </list>
          <p>
-            <persName>MM</persName>
+            <persName ref="#MM">MM</persName>
          </p>
          <p>
             <orgName>Beaubourg</orgName> (<term>polyphonix</term>)</p>
          <p>
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
          </p>
          <p>Finances</p>
          <p>Erudition</p>
          <p>
-            <persName>NA</persName>
+            <persName ref="#NA">NA</persName>
          </p>
          <p>Volupté Mathématiques lettres</p>
          <p>
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
          </p>
          <p>
             <name type="event">Colloque R.Roussel à Nice</name>
          </p>
          <p>
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
          </p>
          <p>Alexandre portrait</p>
          <p>Menus Propos</p>
          <p>
-            <persName>JQ</persName>
+            <persName ref="#JQ">JQ</persName>
          </p>
-         <p>Projet <title>Essais de <persName>Queneau</persName> 
-</title> 
+         <p>Projet <title>Essais de <persName ref="#RQ">Queneau</persName> 
+            </title> 
          </p>
          <p>Voir 8 Avril 83</p>
          <p>
             <orgName>Beaubourg</orgName>
-            <persName>JB</persName>. <persName>MB</persName> 
-            <persName>CB</persName>
+            <persName ref="#JB">JB</persName>. <persName ref="#MB">MB</persName> 
+            <persName ref="#CB">CB</persName>
          </p>
       </body>
 	  </text>

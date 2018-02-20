@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010221-1979-09-CV">
    <teiHeader>
       <fileDesc>
@@ -20,8 +21,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010221-1979-09-CV</idno>
-               <title>Convocation à <ref target="#T10010221-1979-09">une réunion Oulipo</ref>, envoyée le <date when="1979-09-20">20/09/1979</date> par <persName role="expéditeur">PF</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010221-1979-09">une réunion Oulipo</ref>, envoyée le <date when="1979-09-20">20/09/1979</date> par <persName ref="#PF">PF</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -41,7 +42,7 @@
          <p rend="incipit">Oulipo </p>
          <p rend="incipit">Le 20 septembre 79</p>
          <p rend="incipit">Chers oulipiens, </p>
-         <p>La prochaine réunion de l’Ouvroir aura lieu le jeudi 4 octobre 1979 dans la belle maison d’<persName>Isabelle</persName> et <persName>Marcel Bénabou</persName> (48 rue du capitaine Marchal ou 27 rue de la Dhuisse dans le 20<hi rend="sup">e</hi> ; tel. 261. 40. 39). </p>
+         <p>La prochaine réunion de l’Ouvroir aura lieu le jeudi 4 octobre 1979 dans la belle maison d’<persName>Isabelle</persName> et <persName ref="#MB">Marcel Bénabou</persName> (48 rue du capitaine Marchal ou 27 rue de la Dhuisse dans le 20<hi rend="sup">e</hi> ; tel. 261. 40. 39). </p>
          <p>Nous préparerons la semaine « <title>volume 2</title> »
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-24T11:48:00Z"/>$$$ manifestation</note>
@@ -49,9 +50,9 @@
          <p>Le secrétariat vous espère en forme olympique et vous souhaite bien des douceurs. </p>
          <p>Au jeudi 4, </p>
          <p>
-            <persName>Paul Fournel</persName> 
+            <persName ref="#PF">Paul Fournel</persName> 
          </p>
-         <p>PS. Retournez la découpe ci-dessous à <persName>M. Bénabou</persName>. Merci. </p>
+         <p>PS. Retournez la découpe ci-dessous à <persName ref="#MB">M. Bénabou</persName>. Merci. </p>
       </body>
    </text>
 </TEI>

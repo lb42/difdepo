@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010238-1981-04-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010238-1981-04-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010238-1981-04">la réunion Oulipo</ref> du <date when="1981-04-24">24/04/1981</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -43,10 +44,10 @@
             <label type="rubrique">Action</label>
          </p>
          <p>
-            <persName>PB</persName> : <name type="manif">Villeneuve</name>
+            <persName ref="#PB">PB</persName> : <name type="manif">Villeneuve</name>
          </p>
          <p>
-            <persName>MB</persName> : <name type="manif">Bourges</name>
+            <persName ref="#MB">MB</persName> : <name type="manif">Bourges</name>
          </p>
          <p>Tutti : le point sur <title>Oulipo II</title>
          </p>
@@ -54,27 +55,27 @@
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>JD</persName>+<persName>PB</persName> : le retour de l’<term>intersection</term>
+            <persName ref="#JD">JD</persName>+<persName ref="#PB">PB</persName> : le retour de l’<term>intersection</term>
          </p>
          <p>
-            <persName>JQ</persName> : Version rectifiée du <term>poème infini</term>
+            <persName ref="#JQ">JQ</persName> : Version rectifiée du <term>poème infini</term>
          </p>
          <p>
-            <persName>GP</persName> : <title>W</title> in P</p>
+            <persName ref="#GP">GP</persName> : <title>W</title> in P</p>
          <p>
-            <persName>GP</persName> : <title>BO</title>
+            <persName ref="#GP">GP</persName> : <title>BO</title>
          </p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>JD</persName> : <persName>Bakhtine</persName> (<orgName>Seuil</orgName>)</p>
+            <persName ref="#JD">JD</persName> : <persName>Bakhtine</persName> (<orgName>Seuil</orgName>)</p>
          <p>
-            <persName>MB</persName> : <persName>Koch</persName> et <persName>Goudy</persName>
+            <persName ref="#MB">MB</persName> : <persName>Koch</persName> et <persName>Goudy</persName>
          </p>
          <p>Point d’ordre</p>
          <p>
-            <persName>MB</persName> :</p>
+            <persName ref="#MB">MB</persName> :</p>
          <p>
             <label type="rubrique">Menus propos</label>
          </p>

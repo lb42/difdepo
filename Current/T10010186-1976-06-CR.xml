@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010186-1976-06-CR">
   <teiHeader>
       <fileDesc>
@@ -29,28 +30,28 @@
                   <placeName>chez GP</placeName>
                   <list type="present">
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                   </list>          
                </meeting>
@@ -74,31 +75,31 @@
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010186b/f2.image"/>
          <p rend="incipit">OULIPOle 10/6/76</p>
-         <p rend="incipit">Présents : <persName>FLL</persName>, <persName>Perec</persName>,
-          <persName>Mathews</persName>, <persName>Calvino</persName>, <persName>Bens</persName>,
-          <persName>Braffort</persName>, <persName>Arnaud</persName>, <persName>Bénabou</persName>
+         <p rend="incipit">Présents : <persName ref="#FLL">FLL</persName>, <persName ref="#GP">Perec</persName>,
+          <persName ref="#HM">Mathews</persName>, <persName ref="#IC">Calvino</persName>, <persName ref="#JB">Bens</persName>,
+          <persName ref="#PB">Braffort</persName>, <persName ref="#NA">Arnaud</persName>, <persName ref="#MB">Bénabou</persName>
          </p>
          <p>
-            <persName>FLL</persName> : le point sur l’émission de <persName>Pillaudin</persName> avec
+            <persName ref="#FLL">FLL</persName> : le point sur l’émission de <persName>Pillaudin</persName> avec
           <persName>Pascal Lainé</persName>.</p>
          <p>
-            <persName>FLL</persName> dîne avec <persName>Lainé</persName> et voudrait lui suggérer des
+            <persName ref="#FLL">FLL</persName> dîne avec <persName>Lainé</persName> et voudrait lui suggérer des
         questions à poser : faut-il évoquer le problème des rapports Oulipo et chansonniers (débat
-        entre <persName>N. Arnaud</persName>, <persName>Bens</persName> et <persName>FLL</persName>
+        entre <persName ref="#NA">N. Arnaud</persName>, <persName ref="#JB">Bens</persName> et <persName ref="#FLL">FLL</persName>
         sur ce sujet).</p>
          <p>– Les membres présents dans la salle peuvent intervenir, mais discrètement.</p>
          <p>– Oulipo et <term>surréalisme</term>, Oulipo et <term>hasard</term>, Oulipo et
           <term>automatisme</term>.</p>
          <p>
-            <persName>H. Math</persName> : <term>l’algorithme de <persName>Mathews</persName> 
-</term>   :
+            <persName>H. Math</persName> : <term>l’algorithme de <persName ref="#HM">Mathews</persName> 
+            </term>   :
         quelques modifications.</p>
          <p>Un exemplaire de l’ensemble est versé aux <ref>Archives</ref>.</p>
          <p>
-            <persName>Bens</persName> : le problème du romancier : donner de la cohérence à un ensemble
+            <persName ref="#JB">Bens</persName> : le problème du romancier : donner de la cohérence à un ensemble
         qui n’en a pas.</p>
          <p>
-            <persName>Braffort</persName> : double problématique</p>
+            <persName ref="#PB">Braffort</persName> : double problématique</p>
          <list type="ordered">
             <item>
                <term>matrice</term> + <term>permutation</term>
@@ -111,25 +112,25 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>Braffort</persName> : le 8/12/76 <name type="manif">conférence à Orsay sur Littérature et mathématiques</name>.</item>
+               <persName ref="#PB">Braffort</persName> : le 8/12/76 <name type="manif">conférence à Orsay sur Littérature et mathématiques</name>.</item>
             <item>
-               <persName>Queneau</persName> : demande qui veut se charger de son article pour les
+               <persName ref="#RQ">Queneau</persName> : demande qui veut se charger de son article pour les
             <title>Nouvelles Littéraires</title> sur <title>Littérature et Mathématiques</title>.</item>
          </list>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>FLL</persName> propose 2 <term>structure</term>s valables pour l’Oulipo ainsi que
+            <persName ref="#FLL">FLL</persName> propose 2 <term>structure</term>s valables pour l’Oulipo ainsi que
         pour l’<orgName>Oulipopo</orgName> et établit un <term>théorème</term> sur la
           <term>structure du roman policier</term> où il y a échange de meurtres et qu’on pourrait
         transposer ailleurs.</p>
          <p>
-            <persName>Perec</persName> : présentation de <title>Alphabet</title>, livre fait en 160
+            <persName ref="#GP">Perec</persName> : présentation de <title>Alphabet</title>, livre fait en 160
         onzains à partir de Esartinulo + une lettre.</p>
          <p>Acclamation générale.</p>
          <p>
-            <persName>Queneau</persName> :</p>
+            <persName ref="#RQ">Queneau</persName> :</p>
          <list type="unordered">
             <item>recherche sur les <term>homophonies lettres-mots</term> : inventaire à faire.</item>
             <item>recherche sur les <term>verbes qui ont plusieurs sens</term> : il entoura.</item>

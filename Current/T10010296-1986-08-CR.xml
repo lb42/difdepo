@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010296-1986-08-CR">
    <teiHeader>
       <fileDesc>
@@ -25,25 +26,25 @@
                   <placeName>chez MB</placeName>
                   <list type="present">
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName role="président">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                   </list>
                </meeting>
@@ -64,45 +65,45 @@
    <text type="CR">
       <body>
          <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102964/f5.image"/>
-         <p rend="incipit">Réunion du 22 Août 86 chez <persName>MB</persName>
+         <p rend="incipit">Réunion du 22 Août 86 chez <persName ref="#MB">MB</persName>
          </p>
-         <p rend="incipit">Présents : <persName>CB</persName>, <persName>JR</persName>. <persName>PB</persName>. <persName>MB</persName>. <persName>JJ</persName> (Prt). <persName>JB</persName>. <persName>PF</persName>. </p>
-         <p rend="incipit">Excusés : <persName>MM</persName>, <persName>FC</persName>. <persName>NA.</persName> 
+         <p rend="incipit">Présents : <persName ref="#CB">CB</persName>, <persName ref="#JR">JR</persName>. <persName ref="#PB">PB</persName>. <persName ref="#MB">MB</persName>. <persName ref="#JJ">JJ</persName> (Prt). <persName ref="#JB">JB</persName>. <persName ref="#PF">PF</persName>. </p>
+         <p rend="incipit">Excusés : <persName ref="#MM">MM</persName>, <persName ref="#FC">FC</persName>. <persName ref="#NA">NA.</persName> 
          </p>
-         <p rend="incipit">Absents : <persName>AM</persName>. <persName>JL</persName>. <persName>JD</persName>. <persName>FR</persName>. </p>
+         <p rend="incipit">Absents : <persName>AM</persName>. <persName ref="#JL">JL</persName>. <persName ref="#JD">JD</persName>. <persName>FR</persName>. </p>
          <p rend="incipit">Aubergines, feuilles de vigne, concombre, gigot pommes de terre carottes</p>
          <p rend="incipit">Fromage glace et framboises, rosé et rouge. </p>
          <p>
             <label type="rubrique">Créations</label>
          </p>
          <p>
-            <persName>JR</persName> ébauche d’un traitement oulipien de l’Histoire (donnera un exemple en archives plus tard). Préface à son étude sur <persName>Pétrarque</persName>. </p>
+            <persName ref="#JR">JR</persName> ébauche d’un traitement oulipien de l’Histoire (donnera un exemple en archives plus tard). Préface à son étude sur <persName>Pétrarque</persName>. </p>
          <p>
-            <persName>MB</persName> : c’était le même projet que celui du début du <title>vol. 3</title> dans sa première manière. </p>
+            <persName ref="#MB">MB</persName> : c’était le même projet que celui du début du <title>vol. 3</title> dans sa première manière. </p>
          <p>
-            <persName>JJ</persName> : <term>Traduction liponymique</term> : <ref>archives</ref>. </p>
+            <persName ref="#JJ">JJ</persName> : <term>Traduction liponymique</term> : <ref>archives</ref>. </p>
          <p>
             <label type="rubrique">Eruditions </label>
          </p>
          <p>
-            <persName>PB</persName> ; <persName>Rdari</persName> : la <title>grammaire de l’imaginaire</title> (éd. <orgName>Messidor</orgName>)</p>
+            <persName ref="#PB">PB</persName> ; <persName>Rdari</persName> : la <title>grammaire de l’imaginaire</title> (éd. <orgName>Messidor</orgName>)</p>
          <p>Grand nombre de <term>plagiats par anticipation</term>
          </p>
          <p>
-            <persName>PB</persName> : revue « <title>Pratiques</title> » article de <persName>Francis Debyser</persName> ne cite pas l’Oulipo ni l’oulipopo dont il est membre. </p>
+            <persName ref="#PB">PB</persName> : revue « <title>Pratiques</title> » article de <persName>Francis Debyser</persName> ne cite pas l’Oulipo ni l’oulipopo dont il est membre. </p>
          <p>
-            <persName>PF</persName>. <persName>Jean Grenier</persName> journal citation de l’oignon (<ref>archive</ref>)</p>
+            <persName ref="#PF">PF</persName>. <persName>Jean Grenier</persName> journal citation de l’oignon (<ref>archive</ref>)</p>
          <p>
-            <persName>PF</persName> : Lettres de <persName>Belaval</persName> à <persName>JP</persName> (<ref>archives</ref>)</p>
-         <p>Téléphone au président <persName>NA</persName> couché malade. </p>
+            <persName ref="#PF">PF</persName> : Lettres de <persName>Belaval</persName> à <persName>JP</persName> (<ref>archives</ref>)</p>
+         <p>Téléphone au président <persName ref="#NA">NA</persName> couché malade. </p>
          <p>
-            <persName>CB</persName> : <term>ensemble vide</term> (0 x infini)</p>
+            <persName ref="#CB">CB</persName> : <term>ensemble vide</term> (0 x infini)</p>
          <p>
-            <title>BO</title> : <persName>PF</persName> : pour la prochaine réunion chaque <title>BO</title> corrigée. </p>
+            <title>BO</title> : <persName ref="#PF">PF</persName> : pour la prochaine réunion chaque <title>BO</title> corrigée. </p>
          <p>
-            <persName>BA</persName> : <persName>JB</persName> : préface à des variations sur la Marseillaise</p>
+            <persName>BA</persName> : <persName ref="#JB">JB</persName> : préface à des variations sur la Marseillaise</p>
          <p>
-            <title>Vol. 3</title> report à la réunion du 12 sept. <unclear>…</unclear> chez <persName>PF</persName>
+            <title>Vol. 3</title> report à la réunion du 12 sept. <unclear>…</unclear> chez <persName ref="#PF">PF</persName>
          </p>
       </body>
    </text>

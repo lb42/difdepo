@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010114-1970-06-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010114-1970-06-CV</idno>
-               <title>Convocation à <ref target="#T10010114-1970-06">une réunion Oulipo</ref>, envoyée le <date when="1970-06-19">19/06/1970</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010114-1970-06">une réunion Oulipo</ref>, envoyée le <date when="1970-06-19">19/06/1970</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -44,7 +45,7 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010114j/f1.image"/>
          <p rend="incipit">
-            <persName>FRANCOIS LE LIONNAIS</persName>
+            <persName ref="#FLL">FRANCOIS LE LIONNAIS</persName>
          </p>
          <p rend="incipit">23, ROUTE DE LA REINE</p>
          <p rend="incipit">92 – BOULOGNE SUR SEINE</p>
@@ -61,7 +62,7 @@
           et vendredi 21 Août.</item>
          </list>
          <p>Outre la préparation de ce « <name type="manif">CONGRES DU MILLENAIRE</name> », il nous est permis
-        d’espérer que <persName>Braffort Paul</persName> sera en mesure de nous mettre en présence
+        d’espérer que <persName ref="#PB">Braffort Paul</persName> sera en mesure de nous mettre en présence
         d’un dossier Cape complet, en triple exemplaires, avec des titres en ronde, des sous-titres
         en batarde et le texte ordinaire en cursive.</p>
          <p>OuLiPiennement vôtre</p>

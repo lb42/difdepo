@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010277-1984-12-CR">
   <teiHeader>
       <fileDesc>
@@ -25,22 +26,22 @@
                   <placeName>Chez Jacques Jouet</placeName>
                   <list type="present">
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName role="président">HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                   </list>
                </meeting>
@@ -63,47 +64,47 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010277r/f1.image"/>
          <p rend="incipit">OuLiPo – Réunion du vendredi 14 décembre 1984, à midi.</p>
-         <p rend="incipit">Présents : <persName>Jacques Jouet</persName> qui reçoit avec <persName>Françoise Sanchez</persName>, <persName>Marcel Bénabou</persName>, <persName>Paul Braffort</persName>, <persName>François Caradec</persName>, <persName>Paul Fournel</persName>, <persName>Harry Mathews</persName>, <persName>Michèle Métail</persName>. (<persName>H.M.</persName> préside la séance).</p>
-         <p rend="incipit">Excuses de <persName>Noël Arnaud</persName>, <persName>Jacques Bens</persName>, <persName>Claude Berge</persName>, <persName>Jacques Duchateau</persName>, <persName>Jean Queval</persName>, <persName>Jacques Roubaud</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#JJ">Jacques Jouet</persName> qui reçoit avec <persName>Françoise Sanchez</persName>, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#PB">Paul Braffort</persName>, <persName ref="#FC">François Caradec</persName>, <persName ref="#PF">Paul Fournel</persName>, <persName ref="#HM">Harry Mathews</persName>, <persName ref="#MM">Michèle Métail</persName>. (<persName ref="#HM">H.M.</persName> préside la séance).</p>
+         <p rend="incipit">Excuses de <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#JB">Jacques Bens</persName>, <persName ref="#CB">Claude Berge</persName>, <persName ref="#JD">Jacques Duchateau</persName>, <persName ref="#JQ">Jean Queval</persName>, <persName ref="#JR">Jacques Roubaud</persName>.</p>
          <p>
-            <persName>Luc Etienne</persName>. Lecture par <persName>Paul Fournel</persName> de la lettre – émouvante, admirée – que <persName>L.E.</persName> lui a écrite quelques jours avant sa mort. <persName>Luc Etienne</persName> ne souhaite pas qu’un hommage oulipien lui soit rendu. Faut-il obtempérer ? <persName>J. Bens</persName> est d’un avis contraire.</p>
+            <persName ref="#LE">Luc Etienne</persName>. Lecture par <persName ref="#PF">Paul Fournel</persName> de la lettre – émouvante, admirée – que <persName ref="#LE">L.E.</persName> lui a écrite quelques jours avant sa mort. <persName ref="#LE">Luc Etienne</persName> ne souhaite pas qu’un hommage oulipien lui soit rendu. Faut-il obtempérer ? <persName ref="#JB">J. Bens</persName> est d’un avis contraire.</p>
          <p>
-            <persName>Harry Mathews</persName> : « Ne mourez plus ! »</p>
-         <p>Le problème des hommages aux morts est reposé. On s’oriente plutôt vers des « <title>mélanges</title> » dédiés à tel ou tel disparu qu’à des hommages compassés (ceux que, naguère, <persName>Jean Queval</persName> qualifiait de « scolaires »).</p>
-         <p>Publier la lettre de <persName>L.E. ?</persName> Déjà, <persName>Paul Fournel</persName> en transmettra copie à tous avec la prochaine convocation.</p>
-         <p>Par écrit, <persName>Noël Arnaud</persName> s’inquiète de ce qu’on met derrière l’expression « <title>Atelier d’écriture</title> ».</p>
+            <persName ref="#HM">Harry Mathews</persName> : « Ne mourez plus ! »</p>
+         <p>Le problème des hommages aux morts est reposé. On s’oriente plutôt vers des « <title>mélanges</title> » dédiés à tel ou tel disparu qu’à des hommages compassés (ceux que, naguère, <persName ref="#JQ">Jean Queval</persName> qualifiait de « scolaires »).</p>
+         <p>Publier la lettre de <persName ref="#LE">L.E. ?</persName> Déjà, <persName ref="#PF">Paul Fournel</persName> en transmettra copie à tous avec la prochaine convocation.</p>
+         <p>Par écrit, <persName ref="#NA">Noël Arnaud</persName> s’inquiète de ce qu’on met derrière l’expression « <title>Atelier d’écriture</title> ».</p>
          <p>
             <title>Paul Fournel</title> est expressément mandaté pour prévenir <title>Pierre Rosenstiehl</title> de son élection et pour l’inviter à la prochaine réunion.</p>
          <p>
             <label type="rubrique">Créations :</label>
          </p>
          <p>
-            <persName>François Caradec</persName>, Le <term>palindrome au miroir</term>, théorie et pratique du <term>palindrome</term> constitué de mots eux-mêmes constitués de <term>lettres symétriques</term> (ex. AM O …). Ecrivez UT, placez le miroir au bout du mot, vous lisez TU dans le miroir. <persName>F.C.</persName> fait circuler un petit livre-objet qui montre ça.</p>
+            <persName ref="#FC">François Caradec</persName>, Le <term>palindrome au miroir</term>, théorie et pratique du <term>palindrome</term> constitué de mots eux-mêmes constitués de <term>lettres symétriques</term> (ex. AM O …). Ecrivez UT, placez le miroir au bout du mot, vous lisez TU dans le miroir. <persName ref="#FC">F.C.</persName> fait circuler un petit livre-objet qui montre ça.</p>
          <p>
-            <persName>François Caradec</persName> toujours propose une variante d’ <term>S+7</term> avec le bottin. Vous cherchez <persName>Queval</persName>, comptez jusqu’à 7 et téléphonez au 7è.</p>
+            <persName ref="#FC">François Caradec</persName> toujours propose une variante d’ <term>S+7</term> avec le bottin. Vous cherchez <persName ref="#JQ">Queval</persName>, comptez jusqu’à 7 et téléphonez au 7è.</p>
          <p>
-            <persName>Marcel Bénabou</persName> suggère que l’on s’intéresse aux « <term>énoncés autodestructeurs</term> » ex : ignorer son ignorance…</p>
+            <persName ref="#MB">Marcel Bénabou</persName> suggère que l’on s’intéresse aux « <term>énoncés autodestructeurs</term> » ex : ignorer son ignorance…</p>
          <p>
-            <persName>Jacques Jouet</persName>, La force du <term>monostique</term>, essai de soumettre cette forme à certains principes (au nombre de quatre). On pourrait alors classer les <term>monostiques</term> selon leur force. J.J. a écrit un <term>monostique</term> de force 4 (satisfaisant à quatre principes).</p>
+            <persName ref="#JJ">Jacques Jouet</persName>, La force du <term>monostique</term>, essai de soumettre cette forme à certains principes (au nombre de quatre). On pourrait alors classer les <term>monostiques</term> selon leur force. J.J. a écrit un <term>monostique</term> de force 4 (satisfaisant à quatre principes).</p>
          <p>
-            <persName>Marcel Bénabou</persName> propose d’écrire des textes dont les mots, deux à deux à la suite sont homoconsonnantiques, l’un étant, p.ex. un <term>lipogramme</term> en e, l’autre un <term>monovocalisme</term> en e : ravi rêve…</p>
+            <persName ref="#MB">Marcel Bénabou</persName> propose d’écrire des textes dont les mots, deux à deux à la suite sont homoconsonnantiques, l’un étant, p.ex. un <term>lipogramme</term> en e, l’autre un <term>monovocalisme</term> en e : ravi rêve…</p>
          <p>
-            <persName>Paul Braffort</persName> veut adapter ça à l’alexandrin : un hémistiche « <title>revenente</title> », un autre « <title>disparition</title> ».</p>
+            <persName ref="#PB">Paul Braffort</persName> veut adapter ça à l’alexandrin : un hémistiche « <title>revenente</title> », un autre « <title>disparition</title> ».</p>
          <p>Débat et propositions diverses sur le <term>monostique</term> (<persName>Matthews</persName>)</p>
          <p>
             <label type="rubrique">Erudition :</label>
          </p>
          <p>
-            <persName>François Caradec</persName> a lu ce qui est dit de l’Oulipo dans le <title>Duchêne et Leguay</title>. Il est mandaté pour écrire une lettre d’insultes aux auteurs</p>
+            <persName ref="#FC">François Caradec</persName> a lu ce qui est dit de l’Oulipo dans le <title>Duchêne et Leguay</title>. Il est mandaté pour écrire une lettre d’insultes aux auteurs</p>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010277r/f2.image"/>
          <p>
-            <persName>Marcel Bénabou</persName> (seul vrai érudit de la rubrique pour aujourd’hui) lit le texte de <persName>Voiture</persName> promis lors de la précédente réunion. Chacun est épaté. Et ce n’est pas au bout de sa joie, puisque <persName>Marcel</persName> a apporté le Zohar (<persName>HM</persName> ne connaît pas, contrairement à <persName>PB</persName> qui, lui, chante du Zohar au matin). Chacun y va de son calembour joyeux avant d’écouter de très beaux extraits (plaintes des lettres qui ne commencent pas le Livre). Félicitations solennelles à <persName>MB</persName>.</p>
-         <p>(La lettre B est promue par <persName>PB</persName> au rang d’initiale obligée de tous les noms d’oulipiens et d’alamiens pour une fois réunis.)</p>
+            <persName ref="#MB">Marcel Bénabou</persName> (seul vrai érudit de la rubrique pour aujourd’hui) lit le texte de <persName>Voiture</persName> promis lors de la précédente réunion. Chacun est épaté. Et ce n’est pas au bout de sa joie, puisque <persName ref="#MB">Marcel</persName> a apporté le Zohar (<persName ref="#HM">HM</persName> ne connaît pas, contrairement à <persName ref="#PB">PB</persName> qui, lui, chante du Zohar au matin). Chacun y va de son calembour joyeux avant d’écouter de très beaux extraits (plaintes des lettres qui ne commencent pas le Livre). Félicitations solennelles à <persName ref="#MB">MB</persName>.</p>
+         <p>(La lettre B est promue par <persName ref="#PB">PB</persName> au rang d’initiale obligée de tous les noms d’oulipiens et d’alamiens pour une fois réunis.)</p>
          <p>
             <title>B.O</title>.</p>
-         <p>Hommage à <persName>FBB</persName>. <persName>François Caradec</persName> a écrit un texte qui fait le point sur le <title>3è secteur</title>. Il propose qu’on réédite le texte introuvable de <persName>FBB</persName> paru dans les <title>Lettres nouvelles</title>. (Ceci n’entre pas dans la liste établie à Andé.)</p>
+         <p>Hommage à <persName>FBB</persName>. <persName ref="#FC">François Caradec</persName> a écrit un texte qui fait le point sur le <title>3è secteur</title>. Il propose qu’on réédite le texte introuvable de <persName>FBB</persName> paru dans les <title>Lettres nouvelles</title>. (Ceci n’entre pas dans la liste établie à Andé.)</p>
          <p>
-            <persName>Noël Arnaud</persName> se réserve les numéros 19 et 20 de la liste susdite, qu’il traitera ensemble. <persName>Jacques Jouet</persName> a écrit « La rituelle découpe » en proposant d’en modifier légèrement la formulation.</p>
+            <persName ref="#NA">Noël Arnaud</persName> se réserve les numéros 19 et 20 de la liste susdite, qu’il traitera ensemble. <persName ref="#JJ">Jacques Jouet</persName> a écrit « La rituelle découpe » en proposant d’en modifier légèrement la formulation.</p>
          <p>
             <persName>Paul Fournel a</persName> vu <persName>Alain Roger</persName> qui est d’accord pour reprendre la <title>B.O</title>. Les délais seront sans doute plus longs. Il va se faire la main sur un Bueval (qui peut le plus, peut le moins).</p>
          <p>
@@ -113,13 +114,13 @@
             <label type="rubrique">Menus propos</label>
          </p>
          <p>
-            <persName>Paul Fournel</persName> fait l’éloge du livre de <persName>François Caradec</persName> consacré à <persName>Willy</persName> (tout frais sorti).</p>
+            <persName ref="#PF">Paul Fournel</persName> fait l’éloge du livre de <persName ref="#FC">François Caradec</persName> consacré à <persName>Willy</persName> (tout frais sorti).</p>
          <p>
-            <persName>Marcel Bénabou</persName> veut nous emmener à Pouilly-en-Auxois. On verra.</p>
+            <persName ref="#MB">Marcel Bénabou</persName> veut nous emmener à Pouilly-en-Auxois. On verra.</p>
          <p>
-            <name type="manif">Stage à Yerres</name>, les 1, 2, 3 février 85 : <persName>Bens</persName>, <persName>Bénabou</persName>, <persName>Jouet</persName>.</p>
-         <p>Enquête sur <persName>Perec</persName> et l’Oulipo émanant de <persName>Jesus Camareiros</persName>. Les questions laissent chacun perplexe.</p>
-         <p>Prochaine réunion le Vendredi 18 janvier, 19h, chez <persName>Paul Fournel</persName>.</p>
+            <name type="manif">Stage à Yerres</name>, les 1, 2, 3 février 85 : <persName ref="#JB">Bens</persName>, <persName ref="#MB">Bénabou</persName>, <persName ref="#JJ">Jouet</persName>.</p>
+         <p>Enquête sur <persName ref="#GP">Perec</persName> et l’Oulipo émanant de <persName>Jesus Camareiros</persName>. Les questions laissent chacun perplexe.</p>
+         <p>Prochaine réunion le Vendredi 18 janvier, 19h, chez <persName ref="#PF">Paul Fournel</persName>.</p>
          <p>Il y eut carottes râpées, pintade aux navets, salade, fromages, fruits, café. Graves 1976.</p>
       </body>
   </text>

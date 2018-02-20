@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010112-1970-04-14-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010112-1970-04-14-CV</idno>
-					          <title>Convocation à <ref target="#T10010112-1970-04-14">une réunion							Oulipo</ref>, envoyée le <date when="1970-04-14">14/04/1970</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010112-1970-04-14">une réunion							Oulipo</ref>, envoyée le <date when="1970-04-14">14/04/1970</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -48,14 +49,14 @@
 				plus en plus rapide. La prochaine se tiendra</p>
          <p>LUNDI 27 AVRIL à 16 heures 30 chez moi.</p>
          <p>À l’ordre du jour :</p>
-         <p>a) Mythologie : <persName>P. Braffort</persName> et le <title>dossier Cape</title>.</p>
-         <p>b) Horizon 71 ?: Démarche de <persName>Queneau</persName> auprès de
+         <p>a) Mythologie : <persName ref="#PB">P. Braffort</persName> et le <title>dossier Cape</title>.</p>
+         <p>b) Horizon 71 ?: Démarche de <persName ref="#RQ">Queneau</persName> auprès de
 					<persName>Bérès</persName>.</p>
          <p>c) Premier Millénaire : fixé ne varietur aux Jeudi 20 et Vendredi 21 Août 1970.</p>
          <p>d) Objets trouvés : Un stylo-bille</p>
          <p>Une écharpe</p>
          <p>OuLiPiennement vôtre.</p>
-         <p>P.S. pour <persName>Jacques BENS</persName> : Votre bonne volonté nous remplit de
+         <p>P.S. pour <persName ref="#JB">Jacques BENS</persName> : Votre bonne volonté nous remplit de
 				larmes. Prenez tout le temps nécessaire ; malheureusement l’éditeur ne nous bouscule
 				pas.</p>
       </body>

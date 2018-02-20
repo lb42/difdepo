@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010213-1979-02-CR">
   <teiHeader>
       <fileDesc>
@@ -27,22 +28,22 @@
                   <placeName>chez PF</placeName>
                   <list type="present">
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>VB</persName>
+                        <persName ref="#VB">VB</persName>
                      </item>
                      <item>
-                        <persName role="président">IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                   </list>
                </meeting>
@@ -64,12 +65,12 @@
   <text type="CR">
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f1.image"/>
-         <p rend="incipit">Oulipo : réunion du 15 février 1979 chez <persName>PF</persName>
+         <p rend="incipit">Oulipo : réunion du 15 février 1979 chez <persName ref="#PF">PF</persName>
          </p>
-         <p rend="incipit">Présents : <persName>LE</persName> (11 30), <persName>HM</persName> (11 05), <persName>IC</persName> (11 40), <persName>PB</persName> (11 30), <persName>NA</persName> (12 00), <persName>PF</persName> (11 00), <persName>VB</persName> (13 20) Président : <persName>Italo CALVINO</persName>
+         <p rend="incipit">Présents : <persName ref="#LE">LE</persName> (11 30), <persName ref="#HM">HM</persName> (11 05), <persName ref="#IC">IC</persName> (11 40), <persName ref="#PB">PB</persName> (11 30), <persName ref="#NA">NA</persName> (12 00), <persName ref="#PF">PF</persName> (11 00), <persName ref="#VB">VB</persName> (13 20) Président : <persName ref="#IC">Italo CALVINO</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>F.LL</persName>, <persName>MB</persName>, <persName>JR</persName>, <persName>GP</persName>, <persName>JD</persName>, JQ</p>
-         <p rend="incipit">Inexcusable : <persName>J Lescure</persName>,</p>
+         <p rend="incipit">Excusés : <persName ref="#FLL">F.LL</persName>, <persName ref="#MB">MB</persName>, <persName ref="#JR">JR</persName>, <persName ref="#GP">GP</persName>, <persName ref="#JD">JD</persName>, JQ</p>
+         <p rend="incipit">Inexcusable : <persName ref="#JL">J Lescure</persName>,</p>
          <p>
             <label type="rubrique">1. Création</label>
          </p>
@@ -77,7 +78,7 @@
          <p>couronne de <term>sonnet</term> (<term>plagiat par anticipation</term>)</p>
          <p>15 <term>sonnets</term> (14 <term>sonnets</term> + Vi<hi rend="sub">,15</hi> = Vi<hi rend="sub">,i</hi>)</p>
          <p>(<term>sonnet diagonal</term>)</p>
-         <p>b) <persName>HM</persName> 2 motifs : battre les records</p>
+         <p>b) <persName ref="#HM">HM</persName> 2 motifs : battre les records</p>
          <p>combiner des <term>structures</term>
          </p>
          <p>technique de la <term>rime brisée</term>.</p>
@@ -93,7 +94,7 @@
          </p>
          <p>Limitation <term>sémantique</term> : les <term>antonymies</term> :</p>
          <p>possibilité d’élargir à une forme plus générale de <term>binarité</term>.</p>
-         <p>c) <persName>LE</persName> 14 <term>rimes</term> imposées : deux <term>sonnets</term>
+         <p>c) <persName ref="#LE">LE</persName> 14 <term>rimes</term> imposées : deux <term>sonnets</term>
          </p>
          <p>
       🡪 2<hi rend="sup">14</hi> 
@@ -107,24 +108,24 @@
             <label type="rubrique">3. Erudition</label>
          </p>
          <p>
-            <persName>L.E.</persName> : allusion au <term>cymbalum pataphysicien</term>. <term>Plagiat</term> de <title>1014</title>  dans « <title>j’aime lire</title> ». Le secrétariat est chargé de protester. (<persName>L.E</persName> doit donner la référence).</p>
+            <persName ref="#LE">L.E.</persName> : allusion au <term>cymbalum pataphysicien</term>. <term>Plagiat</term> de <title>1014</title>  dans « <title>j’aime lire</title> ». Le secrétariat est chargé de protester. (<persName ref="#LE">L.E</persName> doit donner la référence).</p>
          <p>
-            <persName>IC</persName> Revue « <title>Lendemains</title> »</p>
+            <persName ref="#IC">IC</persName> Revue « <title>Lendemains</title> »</p>
          <p>
             <label type="rubrique">4. Action.</label>
          </p>
-         <p>– <persName>PB</persName> : Bruxelles</p>
+         <p>– <persName ref="#PB">PB</persName> : Bruxelles</p>
          <p>
-            <orgName>CNAC</orgName>/<persName>GP</persName>
+            <orgName>CNAC</orgName>/<persName ref="#GP">GP</persName>
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : Royaumont ?</item>
+               <persName ref="#PF">PF</persName> : Royaumont ?</item>
          </list>
          <p>VLA ?</p>
          <list type="unordered">
             <item>
-               <persName>HM</persName>. Enseignement à <orgName>Hamilton College</orgName>
+               <persName ref="#HM">HM</persName>. Enseignement à <orgName>Hamilton College</orgName>
             </item>
          </list>
          <p>
@@ -134,9 +135,9 @@
             <persName>ROUSSEL</persName>
          </p>
          <p>
-            <persName>QUENEAU</persName>- <term>homosyntaxisme</term> + extraction de vocabulaire</p>
+            <persName ref="#RQ">QUENEAU</persName>- <term>homosyntaxisme</term> + extraction de vocabulaire</p>
          <p>
-            <persName>PEREC</persName>
+            <persName ref="#GP">PEREC</persName>
          </p>
          <p>Discussion : justification des gravures de <persName>Dürer</persName>.</p>
          <p>contraintes de jaquette.</p>
@@ -147,10 +148,10 @@
          <p>
             <name type="manif">L’informatique et la vie culturelle.</name>
          </p>
-         <p>Contact<persName>JB</persName>
+         <p>Contact<persName ref="#JB">JB</persName>
          </p>
          <p>
-            <persName>PB</persName>
+            <persName ref="#PB">PB</persName>
          </p>
          <p>
             

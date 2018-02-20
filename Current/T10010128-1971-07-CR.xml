@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010128-1971-07-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -28,19 +29,19 @@
 						            <placeName>chez François Le Lionnais</placeName>
 						            <list type="present">
 							              <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
 							              <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
 							              <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
 							              <item>
-                        <persName>RQ</persName>
+                        <persName ref="#RQ">RQ</persName>
                      </item>
 							              <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
 						            </list>
 					          </meeting>
@@ -62,13 +63,13 @@
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f2.image"/>
          <p rend="incipit">OULIPO</p>
          <p>Séance du 1 Juillet 1971</p>
-         <p>Présents : <persName>FLL</persName> 
-            <persName>RQ</persName> 
-            <persName>Perec</persName> 
-            <persName>Benabou</persName> 
-            <persName>P. Braffort</persName>
+         <p>Présents : <persName ref="#FLL">FLL</persName> 
+            <persName ref="#RQ">RQ</persName> 
+            <persName ref="#GP">Perec</persName> 
+            <persName ref="#MB">Benabou</persName> 
+            <persName ref="#PB">P. Braffort</persName>
          </p>
-         <p>Invité d’honneur : <persName>H Mathews</persName>
+         <p>Invité d’honneur : <persName ref="#HM">H Mathews</persName>
          </p>
          <p>Excusés :</p>
          <p>La poésie minimale (la palme du plus mauvais poème)</p>
@@ -79,22 +80,22 @@
 					par <persName>Serge Bourdin</persName>
          </p>
          <p>Poème de  <persName>
- <unclear>Madame Tyruan</unclear> 
-</persName> 
+               <unclear>Madame Tyruan</unclear> 
+            </persName> 
          </p>
          <p>
              <persName>
- <unclear>Danikavald</unclear> 
-</persName> , <title>Le Dragon rouge</title>
+               <unclear>Danikavald</unclear> 
+            </persName> , <title>Le Dragon rouge</title>
          </p>
          <p>recherches sur le sens caché</p>
          <p>
             <persName>Thieri Foulc</persName> (lettre) = <term>acrostiche</term> alphabétique</p>
          <p>
-            <persName>R.Q.</persName> = la virgule</p>
-         <p>Rêve de <persName>FLL</persName>
+            <persName ref="#RQ">R.Q.</persName> = la virgule</p>
+         <p>Rêve de <persName ref="#FLL">FLL</persName>
          </p>
-         <p>Poème de <persName>Braffort</persName>
+         <p>Poème de <persName ref="#PB">Braffort</persName>
          </p>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f3.image"/>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f4.image"/>

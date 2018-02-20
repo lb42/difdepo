@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010288-1985-12-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010288-1985-12-CV</idno>
-					          <title>Convocation à <ref target="#T10010288-1985-12">une réunion Oulipo</ref>,						envoyée le <date when="1985">1985</date> par <persName role="expéditeur">JJ</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010288-1985-12">une réunion Oulipo</ref>,						envoyée le <date when="1985">1985</date> par <persName ref="#JJ">JJ</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -42,12 +43,12 @@
          <p>Oulipiens,</p>
          <p>La réunion de Décembre 85 aura lieu</p>
          <p>le jeudi 19 décembre à 19h*</p>
-         <p>chez <persName>J. Jouet</persName> 12 rue de Lancry, Paris Xe (42 41 20 07)</p>
+         <p>chez <persName ref="#JJ">J. Jouet</persName> 12 rue de Lancry, Paris Xe (42 41 20 07)</p>
          <p>
             <persName>Paul Fournel étant à la réunion</persName>, ce ne sera donc pas sa belle écriture manuscrite qui nous convoquera, cette fois.</p>
          <p>Amitiés</p>
-         <p>p.o, <persName>JJ</persName>.</p>
-         <p>* Et non le 20, comme il avait été, un moment, envisagé, lors de la précédente réunion, chez <persName>Paul Braffort</persName>.</p>
+         <p>p.o, <persName ref="#JJ">JJ</persName>.</p>
+         <p>* Et non le 20, comme il avait été, un moment, envisagé, lors de la précédente réunion, chez <persName ref="#PB">Paul Braffort</persName>.</p>
       </body>
 	  </text>
 </TEI>

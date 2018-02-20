@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010241-1981-07-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010241-1981-07-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010241-1981-07">la réunion Oulipo</ref> du <date when="1981-07-24">24/07/1981</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -44,13 +45,13 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> : <name type="manif">Villeneuve</name>
+               <persName ref="#JR">JR</persName> : <name type="manif">Villeneuve</name>
             </item>
             <item>
-               <persName>LE</persName> : <term>Faux antonymes</term>
+               <persName ref="#LE">LE</persName> : <term>Faux antonymes</term>
             </item>
             <item>
-               <persName>PB</persName> : <term>Sonnets</term> de <persName>Braffort</persName>-<persName>Heredia</persName>
+               <persName ref="#PB">PB</persName> : <term>Sonnets</term> de <persName ref="#PB">Braffort</persName>-<persName>Heredia</persName>
             </item>
          </list>
          <p>
@@ -58,43 +59,43 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> : <name type="manif">Villeneuve</name>
+               <persName ref="#JR">JR</persName> : <name type="manif">Villeneuve</name>
             </item>
             <item>
-               <persName>PF</persName> : <title>Bibliothèque oulipienne</title> 
+               <persName ref="#PF">PF</persName> : <title>Bibliothèque oulipienne</title> 
                <orgName>Slatkine</orgName>
             </item>
             <item>
-               <persName>PF</persName> : <title>BO</title>//vendre</item>
+               <persName ref="#PF">PF</persName> : <title>BO</title>//vendre</item>
             <item>
-               <persName>JB</persName> : Lettre de <persName>Edith Heurgon</persName> sur <name type="manif">Oulipo 83 Cerisy</name>
+               <persName ref="#JB">JB</persName> : Lettre de <persName>Edith Heurgon</persName> sur <name type="manif">Oulipo 83 Cerisy</name>
             </item>
             <item>
-               <persName>GP</persName> : Film</item>
+               <persName ref="#GP">GP</persName> : Film</item>
             <item>
-               <persName>PF</persName> : Photos (2 mir)</item>
+               <persName ref="#PF">PF</persName> : Photos (2 mir)</item>
          </list>
          <p>
             <label type="rubrique">Menus propos</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>LE</persName> : Histoire de la langue française et ébénisterie lyrique</item>
+               <persName ref="#LE">LE</persName> : Histoire de la langue française et ébénisterie lyrique</item>
             <item>
-               <persName>LE</persName> : <orgName>Ecole normale du Maroc</orgName>
+               <persName ref="#LE">LE</persName> : <orgName>Ecole normale du Maroc</orgName>
             </item>
             <item>
-               <persName>PF</persName> : <persName>Braffort</persName>
+               <persName ref="#PF">PF</persName> : <persName ref="#PB">Braffort</persName>
             </item>
             <item>
-               <persName>JD</persName> : oui</item>
+               <persName ref="#JD">JD</persName> : oui</item>
          </list>
          <p>
             <label type="rubrique">Prochaines dates</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : Problème ?</item>
+               <persName ref="#PF">PF</persName> : Problème ?</item>
          </list>
       </body>
   </text>

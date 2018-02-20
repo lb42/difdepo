@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010253-1982-09-CR">
    <teiHeader>
       <fileDesc>
@@ -24,7 +25,7 @@
                   <date when="1982-09-20">20/09/1982</date>
                   <list type="present">
                      <item>
-                        <persName role="président">MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                   </list>
                </meeting>
@@ -45,50 +46,50 @@
       <body>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102534/f4.image"/>
          <p rend="incipit">20 septembre </p>
-         <p rend="incipit">Présidente : <persName>M. Métail</persName>
+         <p rend="incipit">Présidente : <persName ref="#MM">M. Métail</persName>
          </p>
          <p>
-            <persName>MB</persName> : lit quelques lettres, notamment une épitre intéressante de <persName>Luc Etienne</persName>. </p>
-         <p>Soirée <persName>GP</persName> le 2 décembre au <orgName>Centre culturel de l’Abbaye</orgName>. </p>
-         <p>Verviers : Bref compte rendu par <persName>JB</persName>. </p>
+            <persName ref="#MB">MB</persName> : lit quelques lettres, notamment une épitre intéressante de <persName ref="#LE">Luc Etienne</persName>. </p>
+         <p>Soirée <persName ref="#GP">GP</persName> le 2 décembre au <orgName>Centre culturel de l’Abbaye</orgName>. </p>
+         <p>Verviers : Bref compte rendu par <persName ref="#JB">JB</persName>. </p>
          <p>
-            <persName>PB</persName> : l’Oulipo de New Zealand</p>
+            <persName ref="#PB">PB</persName> : l’Oulipo de New Zealand</p>
          <p>
-            <persName>PB</persName> + <persName>MB</persName> : Ateliers d’écriture de <orgName>Cerisy</orgName>
+            <persName ref="#PB">PB</persName> + <persName ref="#MB">MB</persName> : Ateliers d’écriture de <orgName>Cerisy</orgName>
             
                <note place="comment" resp="utilisateur-p3">
                   <date when="2017-11-12T16:21:00Z"/>$$$</note>
             . A l’unanimité, l’Oulipo décide que les <unclear>….</unclear> 
             <name type="manif">Ateliers</name> peuvent se tenir sans l’Oulipo. </p>
          <p>
-            <persName>JB</persName> + discussion générale : dépôt des archives à la <orgName>Bibliothèque Sainte Geneviève</orgName> (ou ailleurs ?). Préparation des dites archives. Déjeuner sous-commission avec conservateur de sainte Geneviève. </p>
+            <persName ref="#JB">JB</persName> + discussion générale : dépôt des archives à la <orgName>Bibliothèque Sainte Geneviève</orgName> (ou ailleurs ?). Préparation des dites archives. Déjeuner sous-commission avec conservateur de sainte Geneviève. </p>
          <p>« <name type="manif">Hommage à GP  ».</name> On choisit une date limite = prochaine réunion. 	</p>
-         <p>Deux directions : « <title>Je me souviens</title> » + Textes inspirés par l’œuvre de <persName>GP</persName>. </p>
+         <p>Deux directions : « <title>Je me souviens</title> » + Textes inspirés par l’œuvre de <persName ref="#GP">GP</persName>. </p>
          <p>
-            <persName>JQ</persName> : 2 BO</p>
+            <persName ref="#JQ">JQ</persName> : 2 BO</p>
          <p>- Réflexions d’un insecte <unclear>insensible</unclear>
          </p>
          <p>- Sur la ponctuation </p>
          <p>
-            <persName>CB</persName> : </p>
+            <persName ref="#CB">CB</persName> : </p>
          <p>
             <term>Mots croisés</term> avec des définitions sur 2 grilles différentes. </p>
          <p>
             <term>Antipalindromes</term> véritables : cylindre ? </p>
          <p>
-            <persName>M. Métail</persName> 
+            <persName ref="#MM">M. Métail</persName> 
             <title>Gigantexte n°2</title> (mais aussi n°1 : vivre)</p>
          <p>
-            <persName>MB</persName> : un nouvel inventeur de <persName>Tabourot des Accords</persName>
+            <persName ref="#MB">MB</persName> : un nouvel inventeur de <persName>Tabourot des Accords</persName>
          </p>
          <p>
-            <persName>PB</persName> prend le texte pour le lire (dit-il)</p>
+            <persName ref="#PB">PB</persName> prend le texte pour le lire (dit-il)</p>
          <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102534/f5.image"/>
          <p>
-            <persName>JQ</persName> : <term>Sonnet holorime</term> d’<persName>Alphonse Allais</persName>
+            <persName ref="#JQ">JQ</persName> : <term>Sonnet holorime</term> d’<persName>Alphonse Allais</persName>
          </p>
          <p>
-            <persName>FLL</persName> : Lettre d’un lecteur (<persName>M. Baillu</persName>) : <term>poèmes homophoniques</term>
+            <persName ref="#FLL">FLL</persName> : Lettre d’un lecteur (<persName>M. Baillu</persName>) : <term>poèmes homophoniques</term>
          </p>
          <p>
             <term>Poème « alphabétique</term> <term>»</term> (à sigler) (
@@ -96,30 +97,30 @@
             )
          </p>
          <p>
-            <persName>PB</persName>/ Signale qu’<persName>Yvon Belaval</persName> a publié, en 1963, une analyse de la PCP. </p>
+            <persName ref="#PB">PB</persName>/ Signale qu’<persName>Yvon Belaval</persName> a publié, en 1963, une analyse de la PCP. </p>
          <p>« Cent idées » a publié les « groupes célèbres de l’histoire », dont l’Oulipo !</p>
          <p>
-            <persName>JQ</persName> : <persName>Martin Gardner</persName> a publié une édition savante d’<title>Alice et de la Traversée du miroir</title>. </p>
+            <persName ref="#JQ">JQ</persName> : <persName>Martin Gardner</persName> a publié une édition savante d’<title>Alice et de la Traversée du miroir</title>. </p>
          <p>Psycho diagnostic sur les Alexandrins des Grosses rêveuses. </p>
          <p>
-            <persName>MB</persName> : Question sur « <title>Masque des orateurs</title> » de Richesource</p>
+            <persName ref="#MB">MB</persName> : Question sur « <title>Masque des orateurs</title> » de Richesource</p>
          <p>Nomination de <persName>Pierre Ménard</persName> Oulipien</p>
          <p>
-            <persName>FLL</persName> : Commentaires sur <term>l’algorithme</term> de Dieu. </p>
+            <persName ref="#FLL">FLL</persName> : Commentaires sur <term>l’algorithme</term> de Dieu. </p>
          <p>Invités d’honneur proposés</p>
          <p>
-            <persName>Gary Bloom</persName> par <persName>Claude Berge</persName>
+            <persName>Gary Bloom</persName> par <persName ref="#CB">Claude Berge</persName>
          </p>
          <p>{ <persName>B. Jérôme</persName>
          </p>
          <p>
-            <persName>D. Sallenave</persName>} par <persName>J Bens</persName>
+            <persName>D. Sallenave</persName>} par <persName ref="#JB">J Bens</persName>
          </p>
          <p>
-            <persName>Julio Cortazar</persName> par <persName>M. Benabou</persName> 
+            <persName>Julio Cortazar</persName> par <persName ref="#MB">M. Benabou</persName> 
          </p>
          <p>
-            <persName>JM Klinkenberg</persName> par J <persName>Queval</persName>. </p>
+            <persName>JM Klinkenberg</persName> par J <persName ref="#JQ">Queval</persName>. </p>
          <pb n="6" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102534/f6.image"/>
          <p>Prochaine réunion : vendredi 15 octobre (Sainte Thérèse d’Avila)</p>
       </body>

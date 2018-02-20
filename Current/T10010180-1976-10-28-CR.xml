@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1976-10-28-CR">
   <teiHeader>
       <fileDesc>
@@ -24,19 +25,19 @@
                   <date when="1976-10-28">28/10/1976</date>
                   <list type="present">
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                   </list>
                </meeting>
@@ -55,8 +56,7 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="26"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f26.image"/>
+         <pb n="26" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f26.image"/>
          <p rend="incipit">28 10 76</p>
          <p>Oulipo</p>
          <list type="unordered">
@@ -77,20 +77,20 @@
              <title>100 000 milliards</title> !?</p>
          <p>pour janvier  </p>
          <p>
-            <persName>FLL</persName> :</p>
+            <persName ref="#FLL">FLL</persName> :</p>
          <list type="unordered">
-            <item>To math occasion of <persName>RQ</persName> : <unclear>*</unclear>
+            <item>To math occasion of <persName ref="#RQ">RQ</persName> : <unclear>*</unclear>
             </item>
          </list>
          <p>à <title>B.O.</title> 
             <hi rend="sup">en </hi>exercices</p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> : exposé <persName>Polivanov</persName>.</item>
+               <persName ref="#JR">JR</persName> : exposé <persName>Polivanov</persName>.</item>
             <item>
                <persName>Parszysz</persName> : <title>exercices graphologiques</title>. Etude sur <title>un conte à votre façon</title>.</item>
             <item>Le tableau <unclear>*</unclear> - qu’en faire ?</item>
-            <item>Cassette en vente de l’entretien <persName>FLL</persName>- <persName>Pascal Lainé</persName>
+            <item>Cassette en vente de l’entretien <persName ref="#FLL">FLL</persName>- <persName>Pascal Lainé</persName>
             </item>
             <item>Invité d’ort. reporté sur décembre (<persName>Cortada</persName>)</item>
          </list>
@@ -101,10 +101,10 @@
          <p>
             <persName>Parszysz</persName> – janvier</p>
          <p>
-            <persName>Braffort</persName> : <persName>Morel</persName> – février</p>
+            <persName ref="#PB">Braffort</persName> : <persName>Morel</persName> – février</p>
          <list type="unordered">
             <item>
-               <persName>Braffort</persName> (création) – manuscrit pour <title>B.O. Mes Hypertrophes</title> poems 20 (21-1- <persName>PB</persName>)</item>
+               <persName ref="#PB">Braffort</persName> (création) – manuscrit pour <title>B.O. Mes Hypertrophes</title> poems 20 (21-1- <persName ref="#PB">PB</persName>)</item>
          </list>
          <p>
             <term>Horloge de Fibonacci</term>
@@ -119,9 +119,9 @@
             <item>éléments dans chaque poème fibonaccien</item>
             <item>sons &lt; sens</item>
             <item>
-               <persName>HM</persName>.</item>
+               <persName ref="#HM">HM</persName>.</item>
             <item>
-               <persName>GP</persName>. Voyelles dans l’ordre =<persName>contrainte</persName>.</item>
+               <persName ref="#GP">GP</persName>. Voyelles dans l’ordre =<persName>contrainte</persName>.</item>
          </list>
       </body>
   </text>

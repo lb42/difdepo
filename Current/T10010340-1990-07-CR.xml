@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010340-1990-07-CR">
   <teiHeader>
       <fileDesc>
@@ -29,25 +30,25 @@
                   <placeName>Chez JJ</placeName>
                   <list type="present">
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName role="invité">Martine Grelle</persName>
+                        <persName>Martine Grelle</persName>
                      </item>
                     <item>
-                        <persName role="invité">Valentin Fournel</persName>
+                        <persName>Valentin Fournel</persName>
                     </item>                    
                   </list>
                </meeting>
@@ -72,82 +73,82 @@
          <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010340r/f5.image"/>
          <p rend="incipit">OULIPO</p>
          <p rend="incipit">3-7-90</p>
-         <p rend="incipit">chez <persName>JJ</persName>
+         <p rend="incipit">chez <persName ref="#JJ">JJ</persName>
          </p>
-         <p rend="incipit">Présents : <persName>FC</persName>, <persName>MB</persName>,
-          <persName>PF</persName>, <persName>JJ</persName>, <persName>JR</persName>
+         <p rend="incipit">Présents : <persName ref="#FC">FC</persName>, <persName ref="#MB">MB</persName>,
+          <persName ref="#PF">PF</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#JR">JR</persName>
           (+<persName>Martine Grelle</persName>, <persName>Valentin Fournel</persName>)</p>
-         <p rend="incipit">Excusés : <persName>MM</persName>, <persName>CB</persName>
+         <p rend="incipit">Excusés : <persName ref="#MM">MM</persName>, <persName ref="#CB">CB</persName>
          </p>
-         <p rend="incipit">Absents : <persName>NA</persName>, <persName>JB</persName>,
-          <persName>HM</persName>
+         <p rend="incipit">Absents : <persName ref="#NA">NA</persName>, <persName ref="#JB">JB</persName>,
+          <persName ref="#HM">HM</persName>
          </p>
          <p>
             <label type="rubrique">Création :</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName> : Tentative de contrepet <term>Canada-dry</term>
+               <persName ref="#JJ">JJ</persName> : Tentative de contrepet <term>Canada-dry</term>
             </item>
             <item>
-               <persName>FC</persName> : Remplacer <persName>PC</persName> par <persName>PJ</persName>
+               <persName ref="#FC">FC</persName> : Remplacer <persName>PC</persName> par <persName>PJ</persName>
           (le parti des gens)</item>
             <item>
-               <persName>JJ</persName> : Démonstration de la « <term>récrite élémentaire</term> »
+               <persName ref="#JJ">JJ</persName> : Démonstration de la « <term>récrite élémentaire</term> »
           Admiration générale</item>
             <item>
-               <persName>MB</persName> : Quelques <term>homophonies</term> (consternation
+               <persName ref="#MB">MB</persName> : Quelques <term>homophonies</term> (consternation
           générale)</item>
             <item>
-               <persName>MB</persName> : Présentation de nouveau facial <title>BO</title>. <term>Morales élémentaires</term> fascicules remis à <persName>PF</persName>. Publication à la
+               <persName ref="#MB">MB</persName> : Présentation de nouveau facial <title>BO</title>. <term>Morales élémentaires</term> fascicules remis à <persName ref="#PF">PF</persName>. Publication à la
           rentrée. Programme des prochaines : envoyer nos desiderata à
-          <persName>PF</persName>.</item>
+          <persName ref="#PF">PF</persName>.</item>
          </list>
          <p>
             <label type="rubrique">Erudition :</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : <term>Dictionnaire des personnages</term> de <persName>Raymond Queneau</persName> à <persName>M. Maitz</persName>.</item>
+               <persName ref="#PF">PF</persName> : <term>Dictionnaire des personnages</term> de <persName ref="#RQ">Raymond Queneau</persName> à <persName>M. Maitz</persName>.</item>
             <item>
-               <persName>MB</persName> : un exemplaire de cette oeuvre avait déjà été envoyée au
+               <persName ref="#MB">MB</persName> : un exemplaire de cette oeuvre avait déjà été envoyée au
           Secrétariat</item>
             <item>
-               <persName>FC</persName> : la <term>réforme de l’orthographe</term> : un superbe texte de
+               <persName ref="#FC">FC</persName> : la <term>réforme de l’orthographe</term> : un superbe texte de
             l’<orgName>Académie française</orgName> reniant une précédente réforme. On demande
           photocopie pour archives.</item>
             <item>
-               <persName>MB</persName> : Musique pour l’année des <term>palindromes</term> :
+               <persName ref="#MB">MB</persName> : Musique pour l’année des <term>palindromes</term> :
             <persName>Hayden</persName>, Sonate du <term>Palindrome</term>
                <unclear>Heredevrelle Mère and Zuruck</unclear> que 45</item>
             <item>
-               <persName>FC</persName> : La <term>Fureur de line</term> : la <name type="manif">lecture Oulipo</name> à Paris se fera à l’Arsenal le vendredi soir</item>
+               <persName ref="#FC">FC</persName> : La <term>Fureur de line</term> : la <name type="manif">lecture Oulipo</name> à Paris se fera à l’Arsenal le vendredi soir</item>
             <item>
-               <persName>MB</persName> : Présentation du futur volume <persName>Perec</persName> :
+               <persName ref="#MB">MB</persName> : Présentation du futur volume <persName ref="#GP">Perec</persName> :
             « <title>Je suis né</title> »</item>
          </list>
          <pb n="6" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010340r/f6.image"/>
          <p>OULIPO 3-7-90</p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> Création : une vingt-sixine (mais où chaque vers est représenté
+               <persName ref="#JR">JR</persName> Création : une vingt-sixine (mais où chaque vers est représenté
           par une lettre)</item>
             <item>
-               <persName>MB</persName> : s’engage à faire un commentaire : zay. Veuf.
+               <persName ref="#MB">MB</persName> : s’engage à faire un commentaire : zay. Veuf.
             <unclear>Köln</unclear>
             </item>
             <item>
-               <persName>JR</persName> : un <term>sonnet abstrait</term> mais français</item>
+               <persName ref="#JR">JR</persName> : un <term>sonnet abstrait</term> mais français</item>
             <item>
-               <persName>PF</persName> : Moretz et son <unclear>épithlame</unclear> de <persName>Jacques Chessex</persName>
+               <persName ref="#PF">PF</persName> : Moretz et son <unclear>épithlame</unclear> de <persName>Jacques Chessex</persName>
             </item>
             <item>
-               <persName>FC</persName> : <term>Fureur</term>
+               <persName ref="#FC">FC</persName> : <term>Fureur</term>
             </item>
          </list>
          <p>Conversation générale sur l’état présent de l’édition française ainsi que le remaniement
-        ministériel en cours. Proposition de ministres de la culture : <persName>Noël Arnaud</persName>, <persName>Jean Queval</persName>.</p>
-         <p>Prochaine réunion vendredi 24 août chez <persName>FC</persName>
+        ministériel en cours. Proposition de ministres de la culture : <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#JQ">Jean Queval</persName>.</p>
+         <p>Prochaine réunion vendredi 24 août chez <persName ref="#FC">FC</persName>
          </p>
       </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1976-08-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010180-1976-08-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010180-1976-08">la réunion Oulipo</ref> de <date when="1976-08-03">03/08/1976</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,25 +37,24 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="24"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f24.image"/>
+         <pb n="24" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f24.image"/>
          <p rend="incipit">OuLiPo                                               le 3 8 76</p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>HM</persName> – <title>Variations</title>
+               <persName ref="#HM">HM</persName> – <title>Variations</title>
         
                <note place="comment" resp="Alessandra_Scaccuto">
                   <date when="2017-08-21T14:24:00Z"/>S’agit-il d’une référence à Thirty Five Variations on a Theme from Shakespeare ?</note>
         
             </item>
             <item>
-               <persName>PB</persName> – <orgName>Ouvidéopo</orgName>
+               <persName ref="#PB">PB</persName> – <orgName>Ouvidéopo</orgName>
             </item>
             <item>
-               <persName>GP</persName> – Oulipo</item>
+               <persName ref="#GP">GP</persName> – Oulipo</item>
             <item>
                <persName>Montserrat</persName>
             </item>
@@ -63,10 +63,10 @@
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>PB</persName>
+            <persName ref="#PB">PB</persName>
          </p>
          <p>
-            <persName>HM</persName> – Anthologie <unclear>Fraser</unclear>
+            <persName ref="#HM">HM</persName> – Anthologie <unclear>Fraser</unclear>
          </p>
          <p>
             <persName>Jackson Mac Low</persName>
@@ -78,23 +78,23 @@
             <label type="rubrique">Menus Propos</label>
          </p>
          <p>
-            <persName>GP</persName>
+            <persName ref="#GP">GP</persName>
          </p>
          <p>
             <label type="rubrique">Action</label>
          </p>
          <p>
-            <persName>GP</persName> 
+            <persName ref="#GP">GP</persName> 
          </p>
          <list type="unordered">
             <item>
-               <persName>Roubaud</persName>
+               <persName ref="#JR">Roubaud</persName>
             </item>
             <item>
                <name type="manif">Lyon</name>
             </item>
             <item>
-               <persName>FLL</persName> – Projet <orgName>RTB</orgName>
+               <persName ref="#FLL">FLL</persName> – Projet <orgName>RTB</orgName>
             </item>
          </list>
       </body>

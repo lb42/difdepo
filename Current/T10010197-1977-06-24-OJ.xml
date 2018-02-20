@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010197-1977-06-24-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010197-1977-06-24-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010197-1977-06-24">la réunion Oulipo</ref> de <date when="1977-06-24">24/06/1977</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,15 +37,14 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="33"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f33.image"/>
+         <pb n="33" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f33.image"/>
          <p rend="incipit">Séance du 24/6/77</p>
          <p>Ordre du jour</p>
          <list type="ordered">
             <item>Action : </item>
          </list>
          <p>
-            <title>B.O.</title> hommage à <persName>Queneau</persName> 
+            <title>B.O.</title> hommage à <persName ref="#RQ">Queneau</persName> 
          </p>
          <p>
             <name type="manif">Avignon</name>  Manuel scolaire</p>
@@ -58,7 +58,7 @@
             <item>Création </item>
          </list>
          <p>
-            <persName>JQ</persName> 
+            <persName ref="#JQ">JQ</persName> 
             <term>Pages alternées</term> 
          </p>
          <p>
@@ -68,22 +68,23 @@
             <item>Retombés </item>
          </list>
          <p>
-            <persName>HM</persName> <persName>LE</persName>
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#LE">LE</persName>
          </p>
          <list type="ordered">
             <item>Phynances </item>
          </list>
          <p>
-            <persName>PF</persName>
+            <persName ref="#PF">PF</persName>
          </p>
          <list type="ordered">
             <item>Menu propos </item>
          </list>
          <p>
-            <persName>JQ</persName>
+            <persName ref="#JQ">JQ</persName>
          </p>
          <p>
-            <persName>HM</persName>
+            <persName ref="#HM">HM</persName>
          </p>
          <list type="ordered">
             <item>Epilogue </item>

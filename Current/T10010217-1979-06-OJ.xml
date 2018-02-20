@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010217-1979-06-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010217-1979-06-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010217-1979-06">la réunion Oulipo</ref> de <date when="1979-06-14">14/06/1979</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -42,14 +43,14 @@
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>Luc Etienne</persName> : <term>multiplication automatique</term> 
+            <persName ref="#LE">Luc Etienne</persName> : <term>multiplication automatique</term> 
       
             <note place="comment" resp="Alessandra_Scaccuto">
                <date when="2017-06-27T16:01:00Z"/>$$$ Cela a été raturé.</note>
       de <persName>Mallarmé</persName>
          </p>
          <p>
-            <persName>I. Calvino</persName> : Aspects oulipiens d’une œuvre publiée</p>
+            <persName ref="#IC">I. Calvino</persName> : Aspects oulipiens d’une œuvre publiée</p>
          <p>
       
             <note place="comment" resp="Alessandra_Scaccuto">
@@ -60,7 +61,7 @@
             <label type="rubrique">Érudition</label>
          </p>
          <p>
-            <persName>GP</persName> : 4 éruditions =</p>
+            <persName ref="#GP">GP</persName> : 4 éruditions =</p>
          <list type="unordered">
             <item>
                <term>Palindrome</term>
@@ -76,22 +77,22 @@
             </item>
          </list>
          <p>
-            <persName>M.B.</persName> Curiosités Théologiques</p>
+            <persName ref="#MB">M.B.</persName> Curiosités Théologiques</p>
          <p>
             <label type="rubrique">Action</label>
          </p>
          <p>
-            <persName>G.P.</persName> : ARC.</p>
+            <persName ref="#GP">G.P.</persName> : ARC.</p>
          <p>
-            <persName>I.C.</persName> : <term>Traduction</term> Italienne</p>
+            <persName ref="#IC">I.C.</persName> : <term>Traduction</term> Italienne</p>
          <p>
-            <persName>M.B.</persName> : <title>Cartes postales</title>.
+            <persName ref="#MB">M.B.</persName> : <title>Cartes postales</title>.
         <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-07T11:08:00Z"/>$$$ raturé</note>
       
          </p>
          <p>
-            <persName>P.F.</persName> : <title>B.O.</title> 
+            <persName ref="#PF">P.F.</persName> : <title>B.O.</title> 
          </p>
          <p>
             <title>volume II</title>
@@ -100,7 +101,7 @@
             <label type="rubrique">Menus Propos</label>
          </p>
          <p>
-            <persName>Braffort</persName> Prix Mouné : (pour la prochaine fois)</p>
+            <persName ref="#PB">Braffort</persName> Prix Mouné : (pour la prochaine fois)</p>
       </body>
   </text>
 </TEI>

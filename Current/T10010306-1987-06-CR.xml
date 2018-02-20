@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010306-1987-06-CR">
   <teiHeader>
       <fileDesc>
@@ -24,19 +25,19 @@
                   <date when="1987-06-26">26/06/1987</date>
                   <list type="present">
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                   </list>
                </meeting>
@@ -58,16 +59,16 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010306s/f1.image"/>
          <p rend="incipit">Oulipo du 26 6 87</p>
-         <p rend="incipit">Présents : <persName>PF</persName>, <persName>HM</persName>, <persName>JR</persName>, <persName>JJ</persName>, <persName>MB</persName>
+         <p rend="incipit">Présents : <persName ref="#PF">PF</persName>, <persName ref="#HM">HM</persName>, <persName ref="#JR">JR</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#MB">MB</persName>
         </p>
-         <p rend="incipit">Excusés : <persName>JB</persName> (à Verra), <persName>N.A.</persName> (sciatique) <persName>CB</persName>, <persName>PR</persName>, <persName>FC</persName>, <persName>JQ</persName>, <persName>MM</persName>, <persName>JC</persName>, <persName>JD</persName>
+         <p rend="incipit">Excusés : <persName ref="#JB">JB</persName> (à Verra), <persName ref="#NA">N.A.</persName> (sciatique) <persName ref="#CB">CB</persName>, <persName ref="#PR">PR</persName>, <persName ref="#FC">FC</persName>, <persName ref="#JQ">JQ</persName>, <persName ref="#MM">MM</persName>, <persName>JC</persName>, <persName ref="#JD">JD</persName>
         </p>
-         <p rend="incipit">Non excusés : <persName>PB</persName> (absent volontaire)</p>
+         <p rend="incipit">Non excusés : <persName ref="#PB">PB</persName> (absent volontaire)</p>
          <p>
             <label type="rubrique">Création</label>
         </p>
          <p>
-            <persName>JR</persName>
+            <persName ref="#JR">JR</persName>
         </p>
          <list type="ordered">
             <item>Proposition de <term>contrainte</term>
@@ -76,26 +77,26 @@
             <item/>
         </list>
          <p>
-            <persName>JJ</persName> La mule</p>
-         <p>Saga D’Onufrius. <persName>PF</persName> BO37</p>
-         <p>Lutte contre le déclin <persName>JR</persName>
+            <persName ref="#JJ">JJ</persName> La mule</p>
+         <p>Saga D’Onufrius. <persName ref="#PF">PF</persName> BO37</p>
+         <p>Lutte contre le déclin <persName ref="#JR">JR</persName>
         </p>
          <p>
             <label type="rubrique">Erudition</label>
         </p>
          <p>
-            <persName>HM</persName> Pierrot</p>
+            <persName ref="#HM">HM</persName> Pierrot</p>
          <p>
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
         </p>
          <p>
             <label type="rubrique">Action</label>
         </p>
          <p>
-            <persName>HM</persName> New York USA <persName>Leny Goodman</persName>
+            <persName ref="#HM">HM</persName> New York USA <persName>Leny Goodman</persName>
         </p>
          <p>
-            <persName>PF</persName> 
+            <persName ref="#PF">PF</persName> 
             <title>B.O.</title>
         </p>
          <p>Le commerce Oulipo</p>
@@ -103,22 +104,22 @@
             <orgName>Gallimard</orgName>
         </p>
          <p>
-            <persName>JJ</persName> 
+            <persName ref="#JJ">JJ</persName> 
             <orgName>Syros</orgName>
         </p>
          <p>
-            <persName>MB</persName> Animation + divers</p>
+            <persName ref="#MB">MB</persName> Animation + divers</p>
          <p>
-            <persName>JR</persName> Jouanic</p>
+            <persName ref="#JR">JR</persName> Jouanic</p>
          <p>Codes</p>
          <p>
             <label type="rubrique">Menus Propos</label>
         </p>
          <p>
-            <persName>PF</persName> 
+            <persName ref="#PF">PF</persName> 
             <term>Machine</term> Littéraire</p>
          <p>
-            <persName>JR</persName> Démonstration</p>
+            <persName ref="#JR">JR</persName> Démonstration</p>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010306s/f2.image"/>
          <p>26-6-87</p>
          <p>
@@ -146,7 +147,7 @@
          </list>
          <p>à adapter en français</p>
          <p>
-            <persName>JJ</persName> 
+            <persName ref="#JJ">JJ</persName> 
          </p>
          <list type="unordered">
             <item>La Mule 
@@ -167,7 +168,7 @@
             </item>
          </list>
          <p>
-            <persName>PF</persName> le n°37 du la <title>B.O</title> : <persName>F Caradec</persName> 
+            <persName ref="#PF">PF</persName> le n°37 du la <title>B.O</title> : <persName ref="#FC">F Caradec</persName> 
             <title>Fromage ou Dessert ?</title>
          </p>
          <p>
@@ -180,30 +181,30 @@
       
          </p>
          <p>
-            <persName>PF</persName> Oulipo et Commerce</p>
+            <persName ref="#PF">PF</persName> Oulipo et Commerce</p>
          <list type="unordered">
             <item>La publicité de la <title>B.O.</title> suscite une énorme curiosité</item>
-            <item>Problème avec <orgName>Gallimard</orgName> : <persName>PF</persName> a écrit pour demander à <persName>Féval</persName> soit de republier, soit de rendre les droits</item>
+            <item>Problème avec <orgName>Gallimard</orgName> : <persName ref="#PF">PF</persName> a écrit pour demander à <persName>Féval</persName> soit de republier, soit de rendre les droits</item>
          </list>
          <p>Le déclin ?</p>
-         <p>Intervention de <persName>JR</persName>, <persName>HM</persName>, <persName>MB</persName>, <persName>JJ</persName>
+         <p>Intervention de <persName ref="#JR">JR</persName>, <persName ref="#HM">HM</persName>, <persName ref="#MB">MB</persName>, <persName ref="#JJ">JJ</persName>
          </p>
          <p>Brainstorming pour aboutir à un livre où serait redéfinie la notion de <term>contrainte</term>
          </p>
          <p>
-            <persName>HM.</persName> 
-            <title>Pierrot mon ami ?</title> court métrage de 1954 a-t-il un rapport avec <persName>RQ</persName> ?</p>
+            <persName ref="#HM">HM.</persName> 
+            <title>Pierrot mon ami ?</title> court métrage de 1954 a-t-il un rapport avec <persName ref="#RQ">RQ</persName> ?</p>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010306s/f3.image"/>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010306s/f4.image"/>
          <p>26-6-87</p>
          <p>
-            <persName>HM</persName> New York 4-5-6 Novembre</p>
+            <persName ref="#HM">HM</persName> New York 4-5-6 Novembre</p>
          <p>Programme:</p>
          <p>4 Lecture</p>
          <p>5 <name type="manif">Présentation Baruch CUNY</name>
          </p>
          <p>6 <name type="manif">Soirée</name> 
-            <persName>Perec</persName>
+            <persName ref="#GP">Perec</persName>
       
             <note place="comment" resp="Invité">
                <date when="2016-03-24T12:50:00Z"/>$$$</note>
@@ -215,17 +216,17 @@
          <p>Il y aura <persName>Belloz</persName>, <persName>Warren Motte</persName>
          </p>
          <p>
-            <persName>JJ</persName> 
+            <persName ref="#JJ">JJ</persName> 
             <orgName>Syros</orgName> Pas de texte théorique sur la nouvelle.</p>
          <p>
-            <persName>MB</persName> :</p>
+            <persName ref="#MB">MB</persName> :</p>
          <list type="ordered">
             <item>Animest 
          <note place="comment" resp="utilisateur-p3">
                   <date when="2016-04-09T20:09:00Z"/>Bizarre non ?</note>
         lettre demandant à l’Oulipo de participer à un spectacle en mai 88</item>
          </list>
-         <p>Réponse à faire : lecture <persName>JJ</persName>, <persName>JR</persName>, <persName>HM</persName> (voyage-séjour 1500 francs)</p>
+         <p>Réponse à faire : lecture <persName ref="#JJ">JJ</persName>, <persName ref="#JR">JR</persName>, <persName ref="#HM">HM</persName> (voyage-séjour 1500 francs)</p>
          <list type="ordered">
             <item>Lettre de <persName>Gil Jouanaud</persName> : plus de stages, mais des lectures</item>
          </list>

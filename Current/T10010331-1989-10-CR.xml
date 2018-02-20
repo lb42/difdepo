@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010331-1989-10-CR">
   <teiHeader>
       <fileDesc>
@@ -25,28 +26,28 @@
                   <placeName>chez CB</placeName>
                   <list type="present">
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName role="invité">Gilbert Lascault</persName>
+                        <persName>Gilbert Lascault</persName>
                      </item>
                   </list>
                </meeting>
@@ -68,13 +69,13 @@
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010331s/f2.image"/>
          <p rend="incipit">OULIPO du 17 10 89</p>
-         <p rend="incipit">chez <persName>CB</persName>
+         <p rend="incipit">chez <persName ref="#CB">CB</persName>
          </p>
-         <p rend="incipit">Président <persName>J.R.</persName>
+         <p rend="incipit">Président <persName ref="#JR">J.R.</persName>
          </p>
-         <p rend="incipit">Secrétaire <persName>MB</persName>
+         <p rend="incipit">Secrétaire <persName ref="#MB">MB</persName>
          </p>
-         <p rend="incipit">Présents : <persName>HM</persName>, <persName>MM</persName>, <persName>PF</persName>, <persName>JR</persName>, <persName>JJ</persName>, <persName>FC</persName>, <persName>MB</persName>, <persName>CB</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#HM">HM</persName>, <persName ref="#MM">MM</persName>, <persName ref="#PF">PF</persName>, <persName ref="#JR">JR</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#FC">FC</persName>, <persName ref="#MB">MB</persName>, <persName ref="#CB">CB</persName>.</p>
          <p rend="incipit">Invité : <persName>Gilbert Lascault</persName>
          </p>
          <p>
@@ -82,21 +83,21 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>HM</persName> 
+               <persName ref="#HM">HM</persName> 
                <title>Le journaliste</title> : un roman qui est en dérivé de <term>x prend y pour z</term>
             </item>
          </list>
          <p>(<ref>voir Archives</ref>)</p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName> 
+               <persName ref="#JJ">JJ</persName> 
                <title>un papillon rarissime</title> 
             </item>
          </list>
          <p>encore un <term>hétéropangramme</term> !</p>
          <list type="unordered">
             <item>
-               <persName>MM</persName> 
+               <persName ref="#MM">MM</persName> 
                <title>Cinquante poèmes oligogrammes</title> 
             </item>
          </list>
@@ -106,21 +107,21 @@
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>MM</persName>1 <term>Palindrome</term> chinois : présentation (<ref>photocopie remise aux archives</ref>)</p>
+            <persName ref="#MM">MM</persName>1 <term>Palindrome</term> chinois : présentation (<ref>photocopie remise aux archives</ref>)</p>
          <p>
-            <persName>MM</persName>2 <term>Rébus</term> : traduction d’un <unclear>satra</unclear> pour illettrés (date des <persName>Tang</persName>)</p>
+            <persName ref="#MM">MM</persName>2 <term>Rébus</term> : traduction d’un <unclear>satra</unclear> pour illettrés (date des <persName>Tang</persName>)</p>
          <p>
             <persName>CB Albert Camus</persName> oulipien ? Dans sa préface aux <title>Maximes</title> de <persName>Chamfort Camus</persName> a posé <term>par anticipation</term> quelques des principes de la fabrication d’<term>aphorismes</term>
          </p>
          <p>
-            <persName>JR</persName> Oulipo en Allemagne : on y trouve des choses peri- ou para oulipiens</p>
+            <persName ref="#JR">JR</persName> Oulipo en Allemagne : on y trouve des choses peri- ou para oulipiens</p>
          <p>Citation de <persName>Jean Faktor</persName> 
          </p>
          <p>
-            <persName>MB</persName> Appel pressant : des mots sur le <term>modèle hiérarchique</term> 
+            <persName ref="#MB">MB</persName> Appel pressant : des mots sur le <term>modèle hiérarchique</term> 
          </p>
          <p>
-            <persName>FC</persName> 
+            <persName ref="#FC">FC</persName> 
             <title>De re utricularia</title> : cornemuses de <persName>Klein</persName>
          </p>
          <p>Abracadabra = <term>acrostiche</term> en fin de vers du premier mot du poème</p>
@@ -130,11 +131,11 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>MM</persName> le 27 août 89, <persName>MM</persName> a écrit dans la cendre du Mont Fuji à 3776 le mot OULIPO</item>
+               <persName ref="#MM">MM</persName> le 27 août 89, <persName ref="#MM">MM</persName> a écrit dans la cendre du Mont Fuji à 3776 le mot OULIPO</item>
             <item>
-               <persName>MB</persName> 
+               <persName ref="#MB">MB</persName> 
                <list type="unordered">
-                  <item>Protestation véhémente contre la légèreté de <persName>NA</persName> et de <persName>PB</persName>
+                  <item>Protestation véhémente contre la légèreté de <persName ref="#NA">NA</persName> et de <persName ref="#PB">PB</persName>
                   </item>
                   <item>Trésorerie : <persName>Ramsay</persName> a payé la <title>B.O.1</title>
                   </item>
@@ -142,58 +143,58 @@
             </item>
          </list>
          <p>
-            <persName>PF</persName> : <persName>Sicav</persName> &amp; Trésorerie à acheter avec l’argent</p>
+            <persName ref="#PF">PF</persName> : <persName>Sicav</persName> &amp; Trésorerie à acheter avec l’argent</p>
          <list type="unordered">
             <item>
-               <persName>MB</persName> lecture de la lettre de <persName>Bellos</persName> (<ref>ci-joint</ref>)</item>
+               <persName ref="#MB">MB</persName> lecture de la lettre de <persName>Bellos</persName> (<ref>ci-joint</ref>)</item>
          </list>
          <p>
-            <persName>PF</persName> – Ivry : compte rendu de notre lecture chez <persName>Catherine Dasté</persName>
+            <persName ref="#PF">PF</persName> – Ivry : compte rendu de notre lecture chez <persName>Catherine Dasté</persName>
          </p>
          <p>
-            <persName>PF</persName> – Allemagne : à Sarrebruck avec <persName>Helmlé</persName>
+            <persName ref="#PF">PF</persName> – Allemagne : à Sarrebruck avec <persName>Helmlé</persName>
          </p>
-         <p>tournée OULIPO (<persName>JR</persName>)</p>
-         <p>au cas de la <title>Belle Hortense</title> et de <persName>Perec</persName>
+         <p>tournée OULIPO (<persName ref="#JR">JR</persName>)</p>
+         <p>au cas de la <title>Belle Hortense</title> et de <persName ref="#GP">Perec</persName>
          </p>
          <p>
-             <persName>PF</persName> Mexico possibilité</p>
+             <persName ref="#PF">PF</persName> Mexico possibilité</p>
          <p>
             <persName>Thomas</persName>, attaché culturel à Mexico, souhaite inviter oulipo au Mexique. Oui accord des présents</p>
          <p>
-            <persName>FC</persName> Qu’est-ce que l’Oulipo ? « Ce n’est pas une école, c’est une crèche »</p>
+            <persName ref="#FC">FC</persName> Qu’est-ce que l’Oulipo ? « Ce n’est pas une école, c’est une crèche »</p>
          <p>
-            <persName>PF</persName> réclame des textes pour la <title>B.O. 3</title>
+            <persName ref="#PF">PF</persName> réclame des textes pour la <title>B.O. 3</title>
          </p>
          <p>
-            <persName>JJ</persName> Etat des textes disponibles inédits.</p>
+            <persName ref="#JJ">JJ</persName> Etat des textes disponibles inédits.</p>
          <p>
-            <persName>FC</persName> L’Oulipo dans le Monde : faire une <title>B.O.</title> polyglotte</p>
+            <persName ref="#FC">FC</persName> L’Oulipo dans le Monde : faire une <title>B.O.</title> polyglotte</p>
          <p>à ajouter à l’ordre du jour du <name type="manif">Congrès de nov</name>. </p>
          <p>
             <label type="rubrique">Menus Propos</label>
          </p>
          <p>
-            <persName>PF</persName> : l’auteur de <title>Traité des tautogrammes</title> de <persName>Guillaumin</persName>
+            <persName ref="#PF">PF</persName> : l’auteur de <title>Traité des tautogrammes</title> de <persName>Guillaumin</persName>
          </p>
          <p>
-            <persName>JJ</persName> : Louvre = texte de <persName>JJ</persName> mis en scène par <persName>D. Zenki</persName>
+            <persName ref="#JJ">JJ</persName> : Louvre = texte de <persName ref="#JJ">JJ</persName> mis en scène par <persName>D. Zenki</persName>
          </p>
          <p>              6 7 et 8 12</p>
          <p>
             <persName>FC Bocquillon</persName> et <persName>Rimbaud</persName>
          </p>
          <p>
-            <persName>HM</persName> 
-            <orgName>WICE</orgName> : lecture de <persName>HM</persName>
+            <persName ref="#HM">HM</persName> 
+            <orgName>WICE</orgName> : lecture de <persName ref="#HM">HM</persName>
          </p>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010331s/f4.image"/>
          <p>
-            <persName>CB</persName> Propose comme invité d’honneur <persName>Jean Mayer</persName> 
+            <persName ref="#CB">CB</persName> Propose comme invité d’honneur <persName>Jean Mayer</persName> 
          </p>
-         <p>Prochaine réunion jeudi 16 11 chez <persName>PF</persName>
+         <p>Prochaine réunion jeudi 16 11 chez <persName ref="#PF">PF</persName>
          </p>
-         <p>                        25 11 chez <persName>JJ</persName> 10 h</p>
+         <p>                        25 11 chez <persName ref="#JJ">JJ</persName> 10 h</p>
          <p>OULIPO</p>
          <p>17 10 89 </p>
       </body>

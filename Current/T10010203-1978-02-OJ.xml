@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010203-1978-02-OJ">
 	  <teiHeader>
 		    <fileDesc>
@@ -20,7 +21,7 @@
 				        <bibl>
 				          <idno>T10010203-1978-02-OJ</idno>
 					          <title>Ordre de jour de <ref target="#T10010203-1978-02">la réunion							Oulipo</ref> du <date when="1978-02-17">17/02/1978</date> 
-</title> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -35,57 +36,56 @@
 	  </teiHeader>
 	  <text type="OJ">
 		    <body>
-         <pb n="12"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102032/f12.image"/>
+         <pb n="12" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102032/f12.image"/>
          <p rend="incipit">Ordre du jour 17-02-78</p>
          <p>Président:</p>
          <p>
 				        <label type="rubrique">I. Action</label>
 			      </p>
          <p>
-				        <persName>MB</persName>: impôts. </p>
+				        <persName ref="#MB">MB</persName>: impôts. </p>
          <p>
-				        <persName>MB</persName>: <unclear>plu...ances</unclear>
+				        <persName ref="#MB">MB</persName>: <unclear>plu...ances</unclear>
 			      </p>
          <p>
-				        <persName>PF</persName>: <name type="manif">Villeneuve-lès-Avignon</name>
+				        <persName ref="#PF">PF</persName>: <name type="manif">Villeneuve-lès-Avignon</name>
          </p>
          <p>
-				        <persName>PF</persName>: <orgName>Centre National des Lettres</orgName>
+				        <persName ref="#PF">PF</persName>: <orgName>Centre National des Lettres</orgName>
          </p>
          <p>
-            <persName>HM</persName>: <title>SELECTED DECLARATIONS OF DEPENDENCE</title>
+            <persName ref="#HM">HM</persName>: <title>SELECTED DECLARATIONS OF DEPENDENCE</title>
          </p>
          <p>
-            <persName>GP</persName>: traduction italienne de l'Oulipo</p>
+            <persName ref="#GP">GP</persName>: traduction italienne de l'Oulipo</p>
          <p>
             <label type="rubrique">Bibliothèque oulipienne</label>.</p>
          <p>
-            <persName>PF</persName>: work in progress</p>
+            <persName ref="#PF">PF</persName>: work in progress</p>
          <p>Problème des exemplaires fautifs du <persName>A.					Queneau</persName> restant.</p>
          <p>
 				        <label type="rubrique">Créations</label>
 			      </p>
          <p>
-				        <persName>GP</persName>: (399 555 999)</p>
-         <p>colloque <persName>GP</persName>
+				        <persName ref="#GP">GP</persName>: (399 555 999)</p>
+         <p>colloque <persName ref="#GP">GP</persName>
          </p>
          <p>
             <label type="rubrique">Erudition</label>.</p>
          <p>
-            <persName>MB.</persName>: <persName>Novalis</persName> plagiaire par anticipation.</p>
+            <persName ref="#MB">MB.</persName>: <persName>Novalis</persName> plagiaire par anticipation.</p>
          <p>
-            <persName>CB</persName>: fabrication des noms par ordinateur.</p>
+            <persName ref="#CB">CB</persName>: fabrication des noms par ordinateur.</p>
          <p>
-            <persName>HM</persName>: <persName>Lewis Carroll</persName>
+            <persName ref="#HM">HM</persName>: <persName>Lewis Carroll</persName>
          </p>
          <p>
-            <persName>NA</persName>: Présentation de <persName>Claude J. Rameil</persName>
+            <persName ref="#NA">NA</persName>: Présentation de <persName>Claude J. Rameil</persName>
          </p>
          <p>
             <label type="rubrique">Menus propos</label>.</p>
          <p>
-            <persName>PF.</persName>: <persName>Jean Mayer</persName>
+            <persName ref="#PF">PF.</persName>: <persName>Jean Mayer</persName>
          </p>
       </body>
 	  </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010322-1988-12-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,13 +22,13 @@
             <bibl>
                <idno>T10010322-1988-12-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010322-1988-12">la réunion Oulipo</ref> de <date when="1988-12-16">16/12/1988</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
+      <encodingDesc>
         <p>Document constitué d'un page déchirée en deux dans le sens de la hauteur.</p>
-    </encodingDesc>   
+      </encodingDesc>   
       <revisionDesc>
          <listChange>
             <change when="2018-01-06">restore date from docx</change>
@@ -41,13 +42,13 @@
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010322t/f2.image"/>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010322t/f3.image"/>
         <p rend="incipit">Oulipo            le 16 12 88</p>
-         <p rend="incipit">Invité d’honneur : <persName>MB</persName>
+         <p rend="incipit">Invité d’honneur : <persName ref="#MB">MB</persName>
          </p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>HM</persName> ✓ <title>Homosyntaxisme</title>
+            <persName ref="#HM">HM</persName> ✓ <title>Homosyntaxisme</title>
          </p>
          <list type="unordered">
             <item>
@@ -59,18 +60,18 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>EB</persName> [<persName>Eric Beaumatin</persName>] Divers</item>
+               <persName ref="#EB">EB</persName> [<persName>Eric Beaumatin</persName>] Divers</item>
             <item>
-               <persName>MB</persName> : <persName>Amiel</persName>
+               <persName ref="#MB">MB</persName> : <persName>Amiel</persName>
             </item>
             <item>
-               <persName>MB</persName> : <persName>Chevrier</persName>
+               <persName ref="#MB">MB</persName> : <persName>Chevrier</persName>
             </item>
             <item>
                <persName>PF Jean-Paul Hébert</persName> 
             </item>
             <item>
-               <persName>HM</persName> : <persName>Tom Johnson</persName>
+               <persName ref="#HM">HM</persName> : <persName>Tom Johnson</persName>
             </item>
             <item>
                <persName>Lacan</persName> 
@@ -89,11 +90,11 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>MM</persName> 
+               <persName ref="#MM">MM</persName> 
                <name type="manif">Gare du Nord</name>
             </item>
             <item>
-               <persName>MB</persName> Monsieur <persName>Espitallier</persName> 
+               <persName ref="#MB">MB</persName> Monsieur <persName>Espitallier</persName> 
             </item>
             <item>Limours </item>
             <item>
@@ -103,12 +104,12 @@
                <persName>Bellos</persName>
             </item>
             <item>
-               <persName>HM</persName> : <persName>Rubinstein</persName>
+               <persName ref="#HM">HM</persName> : <persName>Rubinstein</persName>
             </item>
             <item>
-               <persName>PF</persName> photos</item>
+               <persName ref="#PF">PF</persName> photos</item>
             <item>
-               <persName>JJ</persName> : Florence<list type="unordered">
+               <persName ref="#JJ">JJ</persName> : Florence<list type="unordered">
                   <item>
                      <name type="manif">Colloque Queneau</name>
            
@@ -119,20 +120,20 @@
                </list>
             </item>
             <item>
-               <persName>PF</persName> : <persName>FB</persName>
+               <persName ref="#PF">PF</persName> : <persName>FB</persName>
                <list type="unordered">
                   <item>
-                     <persName>IC</persName> x 2</item>
+                     <persName ref="#IC">IC</persName> x 2</item>
                </list>
             </item>
             <item>
-               <persName>MB</persName> : <persName>RQ</persName>
+               <persName ref="#MB">MB</persName> : <persName ref="#RQ">RQ</persName>
             </item>
             <item>
-               <persName>HM</persName> : <persName>Lacan</persName>
+               <persName ref="#HM">HM</persName> : <persName>Lacan</persName>
             </item>
             <item>
-               <persName>FC</persName> : RQAAB</item>
+               <persName ref="#FC">FC</persName> : RQAAB</item>
          </list>
       </body>
   </text>

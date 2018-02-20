@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010282-1985-05-CR">
   <teiHeader>
       <fileDesc>
@@ -29,28 +30,28 @@
                   <placeName>Moulin dAnde</placeName>
                   <list type="present">
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName role="président">NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                   </list>
                </meeting>
@@ -74,9 +75,9 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010282x/f1.image"/>
          <p rend="incipit">OULIPO – 4 jours au Moulin d’Andé 16-19 mai 1985</p>
-         <p rend="incipit">Présents : <persName>Noël Arnaud</persName> qui préside, <persName>Marcel Bénabou</persName>, <persName>Jacques Bens</persName>, <persName>Paul Braffort</persName>,
-          <persName>François Caradec</persName>, <persName>Jacques Jouet</persName>, <persName>Harry Mathews</persName>, <persName>Jean Queval</persName>.</p>
-         <p rend="incipit">Excusés : <persName>Claude Berge</persName>, <persName>Jacques Duchateau</persName>, <persName>Paul Fournel</persName>, <persName>Jean Lescure</persName>, <persName>Michèle Métail</persName>, <persName>Jacques Roubaud</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#NA">Noël Arnaud</persName> qui préside, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#JB">Jacques Bens</persName>, <persName ref="#PB">Paul Braffort</persName>,
+          <persName ref="#FC">François Caradec</persName>, <persName ref="#JJ">Jacques Jouet</persName>, <persName ref="#HM">Harry Mathews</persName>, <persName ref="#JQ">Jean Queval</persName>.</p>
+         <p rend="incipit">Excusés : <persName ref="#CB">Claude Berge</persName>, <persName ref="#JD">Jacques Duchateau</persName>, <persName ref="#PF">Paul Fournel</persName>, <persName ref="#JL">Jean Lescure</persName>, <persName ref="#MM">Michèle Métail</persName>, <persName ref="#JR">Jacques Roubaud</persName>.</p>
          <p>On ne résume pas quatre jours aussi studieux et denses…</p>
          <p>
             <ref>Voir les pièces jointes</ref> : 1) <title>Sommaire du Guide de Littérature, établi après deux jours de débats</title>.</p>
@@ -115,7 +116,7 @@
          </p>
          <p>
             <label type="rubrique">
-               <persName>Jacques Bens</persName> va déposer, au nom de l’Oulipo un dossier de subvention
+               <persName ref="#JB">Jacques Bens</persName> va déposer, au nom de l’Oulipo un dossier de subvention
           auprès du <orgName>CNL</orgName> afin de pouvoir embaucher un étudiant qui fera
             l’<term>Index</term> des publications oulipiennes.</label>
          </p>
@@ -132,29 +133,29 @@
             <label type="rubrique">Créations</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Harry Mathews</persName> lit <title>L’air au fond de l’eau, l’eau au fond de l’air</title>, texte lu à <name type="manif">La revue parlée « R.O.R. »</name>. Utilisation de la « <term>stylistique carrée</term> »:
+            <label type="rubrique">: <persName ref="#HM">Harry Mathews</persName> lit <title>L’air au fond de l’eau, l’eau au fond de l’air</title>, texte lu à <name type="manif">La revue parlée « R.O.R. »</name>. Utilisation de la « <term>stylistique carrée</term> »:
             <term>permutation</term> et <term>contamination</term> de morceaux de textes empruntés
           et de <term>perverbes</term>.</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Paul Braffort</persName>, <term>Ontonymie</term>,
+            <label type="rubrique">: <persName ref="#PB">Paul Braffort</persName>, <term>Ontonymie</term>,
             <term>formalisation</term> des statuts distincts d’auteur, narrateur, héros. Référence à
             <persName>F. Pessoa</persName> et ses « <term>hétéronymes</term> ».</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Jacques Jouet</persName> expose une possibilité de 14 =
+            <label type="rubrique">: <persName ref="#JJ">Jacques Jouet</persName> expose une possibilité de 14 =
           15 (<term>sonnet de longueur variable</term>) en <term>palindrome d’hémistiches</term>.
           Deux conséquences : mobilité plus grande des éléments ; passages syllabiques obligés
           obtenus par report des rimes. (Mais on attend un texte !)</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Marcel Bénabou</persName>, Si l’amour est un vocable
+            <label type="rubrique">: <persName ref="#MB">Marcel Bénabou</persName>, Si l’amour est un vocable
           étrusque, forme de définition d’un mot portant à la fois sur le <term>signifiant</term> et
           le <term>signifié</term>.</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>François Caradec</persName>, <title>Dictionnaire des <term>rimes singes</term> 
-</title> , établi d’après le lexique de
+            <label type="rubrique">: <persName ref="#FC">François Caradec</persName>, <title>Dictionnaire des <term>rimes singes</term> 
+               </title> , établi d’après le lexique de
             <persName>E.R. Burroughs</persName>, in <title>Tarzan</title>. On peut désormais écrire,
           en singe, des poèmes rimés.</label>
          </p>
@@ -162,29 +163,29 @@
             <label type="rubrique">Actions</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Jean Queval</persName> a en projet un essai sur les
-          essais de <persName>Queneau</persName>, avec <persName>Yvon Belaval</persName> (il faut
-          prononcer Boeuxlaval !). Ce dernier parlera philo ; <persName>MB</persName>, histoire ;
-          C1.B, mathématiques ; <persName>JR</persName>, de <title>Bâtons, Chiffres</title>…</label>
+            <label type="rubrique">: <persName ref="#JQ">Jean Queval</persName> a en projet un essai sur les
+          essais de <persName ref="#RQ">Queneau</persName>, avec <persName>Yvon Belaval</persName> (il faut
+          prononcer Boeuxlaval !). Ce dernier parlera philo ; <persName ref="#MB">MB</persName>, histoire ;
+          C1.B, mathématiques ; <persName ref="#JR">JR</persName>, de <title>Bâtons, Chiffres</title>…</label>
          </p>
          <p>
             <label type="rubrique">: <name type="manif">Vitoria</name>, décembre 85,
-            <persName>JR</persName>, <persName>JJ</persName>, <persName>MB</persName>,
-            <persName>HM</persName> ( ?).</label>
+            <persName ref="#JR">JR</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#MB">MB</persName>,
+            <persName ref="#HM">HM</persName> ( ?).</label>
          </p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>François Caradec</persName> apporte une <term>pièce alphabétique</term> de <persName>H. Lavagne</persName>, en hommage à
-            <persName>Perec</persName>.</label>
+            <label type="rubrique">: <persName ref="#FC">François Caradec</persName> apporte une <term>pièce alphabétique</term> de <persName>H. Lavagne</persName>, en hommage à
+            <persName ref="#GP">Perec</persName>.</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Paul Braffort</persName> cite quelques récits
+            <label type="rubrique">: <persName ref="#PB">Paul Braffort</persName> cite quelques récits
           intéressants dans <title>Univers</title> 1985 (J’ai lu).</label>
          </p>
          <p>
-            <label type="rubrique">: <persName>Harry Mathews</persName> parle de « <title>Telephone confidential</title>, » de <persName>Maggie Paley</persName>, <term>roman par conversations téléphoniques</term>.</label>
+            <label type="rubrique">: <persName ref="#HM">Harry Mathews</persName> parle de « <title>Telephone confidential</title>, » de <persName>Maggie Paley</persName>, <term>roman par conversations téléphoniques</term>.</label>
          </p>
          <p>
             <label type="rubrique">
@@ -192,7 +193,7 @@
             </label>
          </p>
          <p>
-            <label type="rubrique">: Comme l’hommage à <persName>FLL</persName> n’avance pas d’un
+            <label type="rubrique">: Comme l’hommage à <persName ref="#FLL">FLL</persName> n’avance pas d’un
           pouce, on en déduit que le <term>sommaire</term> prévu à <name type="manif">Andé</name> en
           octobre est fautif.</label>
          </p>

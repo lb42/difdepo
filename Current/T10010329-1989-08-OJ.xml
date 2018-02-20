@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010329-1989-08-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010329-1989-08-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010329-1989-08">la réunion Oulipo</ref> de <date when="1989-08-18">18/08/1989</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,8 +37,7 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="14"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f14.image"/>
+         <pb n="14" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f14.image"/>
          <p rend="incipit">18/8/89</p>
          <p rend="incipit">OULIPO</p>
          <p>
@@ -51,7 +51,7 @@
          <list type="unordered">
             <item>les articles de <persName>Starobinski</persName> sur <persName>Saussure</persName> et le <term>vers saturnien</term>
             </item>
-            <item>la <term>démonstration</term> de <persName>Latis</persName> 
+            <item>la <term>démonstration</term> de <persName ref="#LA">Latis</persName> 
                <title>Subsidia</title> 15 page 38</item>
          </list>
          <p>OULIPO Présent dans <title>Bucolique</title>
@@ -65,29 +65,30 @@
          <p>
             <label type="rubrique">Finances</label>
          </p>
-        <pb n="15"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f15.image"/>
-        <pb n="16"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f16.image"/>
+        <pb n="15" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f15.image"/>
+        <pb n="16" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f16.image"/>
          <p rend="incipit">OULIPO 18/8</p>
          <p rend="incipit">Oui                Excusés</p>
          <p rend="incipit">
-            <persName>JR</persName> <persName>NA</persName>
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#NA">NA</persName>
          </p>
          <p rend="incipit">
-           <persName>FC</persName> <persName>JL</persName>
+           <persName ref="#FC">FC</persName> 
+            <persName ref="#JL">JL</persName>
          </p>
          <p rend="incipit">
-            <persName>JJ</persName> 
-            <persName>HM</persName> (en Amérique)  </p>
+            <persName ref="#JJ">JJ</persName> 
+            <persName ref="#HM">HM</persName> (en Amérique)  </p>
          <p rend="incipit">
-            <persName>CB</persName> <persName>MM</persName>
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#MM">MM</persName>
          </p>
          <p rend="incipit">
-            <persName>PF</persName>
+            <persName ref="#PF">PF</persName>
          </p>
          <p rend="incipit">
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
          </p>
       </body>
   </text>

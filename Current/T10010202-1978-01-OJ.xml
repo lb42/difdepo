@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010202-1978-01-OJ">
 	  <teiHeader>
 		    <fileDesc>
@@ -20,7 +21,7 @@
 				        <bibl>
 				          <idno>T10010202-1978-01-OJ</idno>
 				          <title>Ordre de jour de <ref target="#T10010202-1978-01">la réunion Oulipo</ref> du <date when="1978-01-26">26/01/1978</date>				 
-</title> 
+               </title> 
 				        </bibl>				          
 
 			      </sourceDesc>
@@ -36,17 +37,16 @@
 	  </teiHeader>
 	  <text type="OJ">
 		    <body>
-		      <pb n="24"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010202m/f24.image"/>
+		      <pb n="24" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010202m/f24.image"/>
          <p> 26 Janvier 78 </p>
-         <p>Oui <persName>M.B.</persName>, <persName>FLL.</persName>P.F.<persName>Luc					Et.</persName>
-				        <persName>H.M.</persName>
-				        <persName>I.C</persName>
-				        <persName>P.B.</persName>
-				        <persName>Queval</persName>
+         <p>Oui <persName ref="#MB">M.B.</persName>, <persName ref="#FLL">FLL.</persName>P.F.<persName>Luc					Et.</persName>
+				        <persName ref="#HM">H.M.</persName>
+				        <persName ref="#IC">I.C</persName>
+				        <persName ref="#PB">P.B.</persName>
+				        <persName ref="#JQ">Queval</persName>
          </p>
-         <p>Non <persName>Berge,</persName>
-				        <persName>Blavier</persName>
+         <p>Non <persName ref="#CB">Berge,</persName>
+				        <persName ref="#AB">Blavier</persName>
          </p>
       </body>
 	  </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010311-1987-12-CR">
   <teiHeader>
       <fileDesc>
@@ -25,28 +26,28 @@
                   <placeName>chez CC et FC</placeName>
                   <list type="present">
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                   </list>
                </meeting>
@@ -73,7 +74,7 @@
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>JR</persName>
+            <persName ref="#JR">JR</persName>
          </p>
          <list type="unordered">
             <item>Variations sur le beau présent</item>
@@ -85,21 +86,21 @@
          </list>
          <p>A partir du séminaire de <persName>Jean Bénabou</persName>, la <term>notion d’ensemble</term> observé qui retrouve la relation X prend Y pour Z.</p>
          <p>Situation qu’on a à Waterloo</p>
-         <p>Félicitations et blâme (car comme d’habitude, <persName>JR</persName> n’a pas apporté les documents)</p>
+         <p>Félicitations et blâme (car comme d’habitude, <persName ref="#JR">JR</persName> n’a pas apporté les documents)</p>
          <p>
-            <persName>HM</persName> : La <term>contrainte de l’hydropique</term>.</p>
+            <persName ref="#HM">HM</persName> : La <term>contrainte de l’hydropique</term>.</p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>JJ</persName> Un <term>sonnet</term> de 969 <term>vers</term> dans <persName>Charles Péguy</persName> 
+            <persName ref="#JJ">JJ</persName> Un <term>sonnet</term> de 969 <term>vers</term> dans <persName>Charles Péguy</persName> 
             <title>Tapisseries</title>
          </p>
          <p>
             <persName>MB T. Derème</persName> 
             <term>plagiaire par anticipation</term> :</p>
          <p>
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
          </p>
          <list type="unordered">
             <item>Alva dans <title>L’Onagre orangé</title> de <persName>Tristan Derème</persName>
@@ -108,9 +109,9 @@
             </item>
          </list>
          <p>
-            <persName>HM</persName> Travaux d’étudiants</p>
+            <persName ref="#HM">HM</persName> Travaux d’étudiants</p>
          <p>
-            <persName>FC</persName> 
+            <persName ref="#FC">FC</persName> 
          </p>
          <list type="ordered">
             <item>
@@ -126,15 +127,15 @@
             </item>
          </list>
          <p>
-            <persName>MB</persName> Propre de demander à tous les possesseurs de livres de restituer à l’Oulipo les œuvres des <term>plagiaires par anticipation</term> qu’ils détiennent indûment.</p>
+            <persName ref="#MB">MB</persName> Propre de demander à tous les possesseurs de livres de restituer à l’Oulipo les œuvres des <term>plagiaires par anticipation</term> qu’ils détiennent indûment.</p>
          <p>
             <persName>JR Francesco Patrizi</persName>, autour d’un traité de politique au XVIème</p>
          <p>
             <persName>Lino Bolzoni</persName>, <title>L’Universo des poemi possibili (</title>sur <unclear>litaltatr</unclear> du <persName>Francesco Patrizi</persName>) vient de paraître.</p>
          <p>
-            <persName>PF</persName> Cerisy souhaite organiser un stage. Refus général</p>
+            <persName ref="#PF">PF</persName> Cerisy souhaite organiser un stage. Refus général</p>
          <p>
-            <persName>MB</persName> 
+            <persName ref="#MB">MB</persName> 
          </p>
          <list type="unordered">
             <item>Avignon = proposition de <persName>M.</persName> 
@@ -143,42 +144,55 @@
          </list>
          <p>Date 10-20 juillet.</p>
          <p>
-            <persName>JR</persName> <persName>PB</persName> <persName>NA</persName> <persName>JJ</persName> <persName>CB</persName> <persName>FC</persName> <persName>MB</persName> <persName>HM</persName>
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#NA">NA</persName> 
+            <persName ref="#JJ">JJ</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#FC">FC</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#HM">HM</persName>
          </p>
          <p>5 jours maxi</p>
          <pb n="8" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010311z/f8.image"/>
          <p>19 XII 87</p>
          <p>
-            <persName>MB</persName>
+            <persName ref="#MB">MB</persName>
          </p>
          <list type="unordered">
             <item>Marly Le Roi : non </item>
-           <item>Limours : faire une lecture de <persName>Bens</persName> <persName>JR</persName> <persName>NA</persName> <persName>JJ</persName> <persName>HM</persName> <persName>CB</persName> <persName>FC</persName>.</item>
+           <item>Limours : faire une lecture de <persName ref="#JB">Bens</persName> 
+               <persName ref="#JR">JR</persName> 
+               <persName ref="#NA">NA</persName> 
+               <persName ref="#JJ">JJ</persName> 
+               <persName ref="#HM">HM</persName> 
+               <persName ref="#CB">CB</persName> 
+               <persName ref="#FC">FC</persName>.</item>
             <item>Saint-Etienne : oui : <term>combinaison</term> lecture + stage</item>
             <item>Toulouse</item>
          </list>
-         <p>Le problème du manuscrit de <persName>FLL</persName>
+         <p>Le problème du manuscrit de <persName ref="#FLL">FLL</persName>
          </p>
          <p>
-            <persName>PB</persName> C-r de Francfort à satisfaction</p>
+            <persName ref="#PB">PB</persName> C-r de Francfort à satisfaction</p>
          <p>
-            <persName>MB</persName>: C-r de New York</p>
+            <persName ref="#MB">MB</persName>: C-r de New York</p>
          <p>
-            <persName>JR</persName>: Cr de Seattle</p>
+            <persName ref="#JR">JR</persName>: Cr de Seattle</p>
          <p>
-            <persName>PB</persName>: <title>B.O.</title> = réduite aux <term>Hyperbibliothèques</term>
+            <persName ref="#PB">PB</persName>: <title>B.O.</title> = réduite aux <term>Hyperbibliothèques</term>
          </p>
          <p>
-            <persName>HM</persName> : une <title>B.O.</title> avec ses écrits en français</p>
+            <persName ref="#HM">HM</persName> : une <title>B.O.</title> avec ses écrits en français</p>
          <p>
-            <persName>NA</persName> : <orgName>Oucuipo</orgName> commencera par des publications.</p>
+            <persName ref="#NA">NA</persName> : <orgName>Oucuipo</orgName> commencera par des publications.</p>
          <p>
-            <persName>MB</persName> : Finances, proposition d’achat de Mc Intosh</p>
+            <persName ref="#MB">MB</persName> : Finances, proposition d’achat de Mc Intosh</p>
          <p>
-            <persName>CB</persName> : des <term>homonymes</term> 
+            <persName ref="#CB">CB</persName> : des <term>homonymes</term> 
          </p>
          <p>
-            <persName>PB</persName> : Du nouveau dans la vie de <persName>J. Queval</persName>
+            <persName ref="#PB">PB</persName> : Du nouveau dans la vie de <persName ref="#JQ">J. Queval</persName>
          </p>
          <p>La 5 a repris <title>la Malle de Hambourg</title> tous les jours à 13h15</p>
          <p>Prochaine réunion 15/1</p>

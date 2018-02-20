@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010052-1965-02-OJ">
   <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
             <bibl>
                <idno>T10010052-1965-02-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010052-1965-02">la réunion Oulipo</ref> du <date when="1965-02-01">01/02/1965</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -40,21 +41,20 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="17"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010052x/f17.image"/>
+         <pb n="17" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010052x/f17.image"/>
          <p rend="incipit">OuLiPo</p>
          <p rend="incipit">Réunion du Gueule 1 Gueules 93 014</p>
          <p rend="incipit">(vulg : Vendredi 1er février 1965)</p>
          <p rend="incipit">Ordre du jour proposé</p>
          <p>INVITE D’HONNEUR : <persName>Professeur G. Kreisel</persName> (Illogique mathématique)</p>
-         <p>ABSENCE EXCUSEES : <persName>Be</persName> (<persName>ns</persName> + <persName>rge</persName>) <persName>Blavier</persName>, <persName>Schmidt</persName>, <persName>Arnaud</persName> 
+         <p>ABSENCE EXCUSEES : <persName>Be</persName> (<persName>ns</persName> + <persName>rge</persName>) <persName ref="#AB">Blavier</persName>, <persName ref="#AMS">Schmidt</persName>, <persName ref="#NA">Arnaud</persName> 
          </p>
          <p>
             <label type="rubrique">ERUDITIONS</label>
          </p>
          <list type="ordered">
             <item>
-               <term>Sonnet</term> de <persName>Victor Hugo</persName> – <persName>R. Queneau</persName>
+               <term>Sonnet</term> de <persName>Victor Hugo</persName> – <persName ref="#RQ">R. Queneau</persName>
             </item>
             <item/>
             <item/>
@@ -69,7 +69,7 @@
          <list type="ordered">
             <item>
                <term>Discrète</term> 
-               <unclear>ouverte</unclear> au <persName>professeur Kreisel</persName> – <persName>FLL</persName>
+               <unclear>ouverte</unclear> au <persName>professeur Kreisel</persName> – <persName ref="#FLL">FLL</persName>
             </item>
             <item>Y-a-t ’il des <term>mots</term> « <term>génériques</term> ? » <persName>- G. Kreisel</persName> 
             </item>
@@ -87,7 +87,7 @@
                <orgName>Les Cerveaux réunis</orgName> 
             </item>
             <item>
-               <term>Esclave</term> pour <persName>J. Duchateau</persName> 
+               <term>Esclave</term> pour <persName ref="#JD">J. Duchateau</persName> 
             </item>
             <item>
                <ref>L’enregistrement de Verviers</ref> est-il un mythe ?</item>
@@ -102,23 +102,22 @@
             <item>Prochain invité d’honneur </item>
             <item>Prochaine réunion </item>
          </list>
-         <pb n="18"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010052x/f18.image"/>
+         <pb n="18" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010052x/f18.image"/>
          <p rend="incipit">OuLiPo</p>
          <p rend="incipit">Réunion du Gueule 1 Gueules 93 014</p>
          <p rend="incipit">(vulg : Vendredi 1er février 1965)</p>
          <p rend="incipit">Ordre du jour proposé</p>
          <p>INVITE D’HONNEUR : <persName>Professeur G. Kreisel</persName> (Illogique mathématique)</p>
-         <p>ABSENCE EXCUSEES : <persName>Be</persName> (<persName>ns</persName> + <persName>rge</persName>) <persName>Blavier</persName>, <persName>Schmidt</persName>, <persName>Arnaud</persName> 
+         <p>ABSENCE EXCUSEES : <persName>Be</persName> (<persName>ns</persName> + <persName>rge</persName>) <persName ref="#AB">Blavier</persName>, <persName ref="#AMS">Schmidt</persName>, <persName ref="#NA">Arnaud</persName> 
          </p>
-         <p>Et naturellement : Président : <persName>Claude Berge</persName>
+         <p>Et naturellement : Président : <persName ref="#CB">Claude Berge</persName>
          </p>
          <p>
             <label type="rubrique">ERUDITIONS</label>
          </p>
          <list type="ordered">
             <item>
-               <term>Sonnet</term> de <persName>Victor Hugo</persName> – <persName>R. Queneau</persName>
+               <term>Sonnet</term> de <persName>Victor Hugo</persName> – <persName ref="#RQ">R. Queneau</persName>
             </item>
          </list>
          <p>
@@ -127,7 +126,7 @@
          <list type="ordered">
             <item>
                <term>Discrète</term> 
-               <unclear>ouverte</unclear> au <persName>professeur Kreisel</persName> – <persName>FLL</persName>
+               <unclear>ouverte</unclear> au <persName>professeur Kreisel</persName> – <persName ref="#FLL">FLL</persName>
             </item>
             <item>Y-a-t ’il des <term>mots</term> « <term>génériques</term> ? » <persName>- G. Kreisel</persName> 
             </item>
@@ -138,9 +137,9 @@
          </p>
          <list type="ordered">
             <item> 
-               <orgName>Les Cerveaux réunis</orgName> – <persName>FLL</persName>. (pour réunion élément de réponse à <persName>JB</persName>)</item>
+               <orgName>Les Cerveaux réunis</orgName> – <persName ref="#FLL">FLL</persName>. (pour réunion élément de réponse à <persName ref="#JB">JB</persName>)</item>
             <item>
-               <term>Esclave</term> pour <persName>J. Duchateau</persName> 
+               <term>Esclave</term> pour <persName ref="#JD">J. Duchateau</persName> 
             </item>
             <item>
                <ref>L’enregistrement de Verviers</ref> est-il un mythe ?</item>

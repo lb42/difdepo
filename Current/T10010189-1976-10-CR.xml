@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010189-1976-10-CR">
   <teiHeader>
       <fileDesc>
@@ -25,37 +26,37 @@
                   <placeName>chez MB</placeName>
                   <list type="present">
                      <item>
-                        <persName>PF</persName> 
+                        <persName ref="#PF">PF</persName> 
                      </item>
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName role="invité">Cortada</persName>
+                        <persName>Cortada</persName>
                      </item>
                   </list>
                </meeting>
@@ -75,25 +76,24 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="14"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f14.image"/>
+         <pb n="14" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f14.image"/>
          <p rend="incipit">Oulipo le 28 10 1976</p>
          <p>
-            <persName>FLL</persName> : <persName>Queneau</persName> (enterrement) stricte intimité</p>
+            <persName ref="#FLL">FLL</persName> : <persName ref="#RQ">Queneau</persName> (enterrement) stricte intimité</p>
          <list type="unordered">
-            <item>propose une publication de la <title>Bibliothèque Oulipienne</title> se rattachant à <persName>Queneau</persName> 
+            <item>propose une publication de la <title>Bibliothèque Oulipienne</title> se rattachant à <persName ref="#RQ">Queneau</persName> 
             </item>
             <item>dernière entrevue avec <persName>Q.</persName> jeudi à la <orgName>Salpetrière</orgName>
             </item>
             <item>antépénultième</item>
          </list>
          <p>
-            <persName>FLL</persName> annonce la conférence de <persName>Roubaud</persName>
+            <persName ref="#FLL">FLL</persName> annonce la conférence de <persName ref="#JR">Roubaud</persName>
          </p>
          <p>
-            <persName>Perec</persName> annonce la projection d’un film</p>
+            <persName ref="#GP">Perec</persName> annonce la projection d’un film</p>
          <p>
-            <persName>FLL</persName> parle de <persName>Parzysz</persName>= étude du <title>Conte à votre façon</title> 
+            <persName ref="#FLL">FLL</persName> parle de <persName>Parzysz</persName>= étude du <title>Conte à votre façon</title> 
          </p>
          <p>travail mathématique, littéraire qui est impeccable</p>
          <p>penser à l’inviter</p>
@@ -101,11 +101,10 @@
             <item>parler de la cassette Oulipo </item>
          </list>
          <p>inviter <persName>Paris</persName> pour novembre</p>
-         <pb n="15"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f15.image"/>
+         <pb n="15" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f15.image"/>
          <p>28 10 78</p>
          <p>
-            <persName>Braffort</persName> : <title>mes hypertropes</title> (21-1 <term>poèmes</term> fondés sur le <term>nombre de Fibonacci</term> 
+            <persName ref="#PB">Braffort</persName> : <title>mes hypertropes</title> (21-1 <term>poèmes</term> fondés sur le <term>nombre de Fibonacci</term> 
       
             <note place="comment" resp="Alessandra_Scaccuto">
                <date when="2017-03-27T14:40:00Z"/>$$$</note>
@@ -119,28 +118,27 @@
             </item>
          </list>
          <p>
-            <persName>HM.</persName> Roman e= <term>algorithme de M</term> présent en entier</p>
+            <persName ref="#HM">HM.</persName> Roman e= <term>algorithme de M</term> présent en entier</p>
          <p>
-            <persName>Perec</persName> 
+            <persName ref="#GP">Perec</persName> 
             <term>contrainte des voyelles</term> dans l’ordre</p>
          <p>
-            <persName>Braffort</persName> : <term>linguistique</term> du <unclear>Commercial</unclear>
+            <persName ref="#PB">Braffort</persName> : <term>linguistique</term> du <unclear>Commercial</unclear>
             <orgName>Bureau</orgName> 
          </p>
          <p>
-            <persName>Queval</persName> : incorporation de <term>citations clandestines</term> chez <persName>Powell</persName>
+            <persName ref="#JQ">Queval</persName> : incorporation de <term>citations clandestines</term> chez <persName>Powell</persName>
          </p>
-         <p>– longue discussion sur la commémoration de <persName>R.Q.</persName>
+         <p>– longue discussion sur la commémoration de <persName ref="#RQ">R.Q.</persName>
          </p>
          <p>2 proposition conjoints = un volume <title>Bibliothèque Oulipienne</title>
          </p>
-         <p>un <title>Oulipo 2</title> dédié à <persName>Queneau</persName>
+         <p>un <title>Oulipo 2</title> dédié à <persName ref="#RQ">Queneau</persName>
          </p>
          <p>
-            <persName>Bens</persName> soulève problème des autres membres décédés de l’Oulipo</p>
-         <p>(<persName>Schmidt</persName>, <persName>Latis</persName>, <persName>Duchamp</persName>) </p>
-         <pb n="16"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f16.image"/>
+            <persName ref="#JB">Bens</persName> soulève problème des autres membres décédés de l’Oulipo</p>
+         <p>(<persName ref="#AMS">Schmidt</persName>, <persName ref="#LA">Latis</persName>, <persName ref="#MD">Duchamp</persName>) </p>
+         <pb n="16" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f16.image"/>
          <p rend="incipit">OULIPO du 28 Octobre</p>
          <p rend="incipit">Assisteront : Excusés : $$$</p>
          <p rend="incipit">
@@ -154,26 +152,26 @@
             <persName>FLL Berge</persName>
          </p>
          <p rend="incipit">
-            <persName>Bens</persName> (en retard)</p>
+            <persName ref="#JB">Bens</persName> (en retard)</p>
          <p rend="incipit">
-            <persName>Calvino</persName>
+            <persName ref="#IC">Calvino</persName>
          </p>
          <p rend="incipit">
-            <persName>N. Arnaud</persName>
+            <persName ref="#NA">N. Arnaud</persName>
          </p>
          <p rend="incipit">
-            <persName>Braffort</persName>
+            <persName ref="#PB">Braffort</persName>
          </p>
          <p rend="incipit">
-            <persName>Berge</persName> ? $$$</p>
+            <persName ref="#CB">Berge</persName> ? $$$</p>
          <p rend="incipit">
-            <persName>Luc Etienne</persName> 
+            <persName ref="#LE">Luc Etienne</persName> 
          </p>
          <p rend="incipit">
-            <persName>Mathews</persName> 
+            <persName ref="#HM">Mathews</persName> 
          </p>
          <p rend="incipit">
-            <persName>Queval</persName> 
+            <persName ref="#JQ">Queval</persName> 
          </p>
       </body>
   </text>

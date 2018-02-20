@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010304-1987-04-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010304-1987-04-CV</idno>
-               <title>Convocation à <ref target="#T10010304-1987-04">une réunion Oulipo</ref>, envoyée le <date when="1987-04-16">16/04/1987</date> par <persName role="expéditeur">PF</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010304-1987-04">une réunion Oulipo</ref>, envoyée le <date when="1987-04-16">16/04/1987</date> par <persName ref="#PF">PF</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -48,14 +49,14 @@
          </p>
          <p rend="incipit">Le 16.04.87</p>
          <p>Oulipiens,</p>
-         <p>L’ouvroir se réunira pour la prochaine et pour la première fois chez <persName>Marie Chaix</persName> et <persName>Harry Mathews</persName> au 67 rue de Grenelle 75007 Paris
+         <p>L’ouvroir se réunira pour la prochaine et pour la première fois chez <persName>Marie Chaix</persName> et <persName ref="#HM">Harry Mathews</persName> au 67 rue de Grenelle 75007 Paris
         (45.49.39.59), le Mardi 28 Avril 1987 à 19 heures.</p>
          <p>Notez bien le code de la porte d’entrée : 7043.</p>
          <p>Notez aussi que <name type="manif">la lecture oulipo au Théâtre du quartier d’Ivry</name>
         aura lieu le 5 Mai. J’ai des invitations en ma possession.</p>
          <p>Retournez la découpe et partagez-vous mes amitiés,</p>
          <p>
-            <persName>Paul</persName>.</p>
+            <persName ref="#PF">Paul</persName>.</p>
       </body>
   </text>
 </TEI>

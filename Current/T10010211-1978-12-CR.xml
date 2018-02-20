@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010211-1978-12-CR">
   <teiHeader>
       <fileDesc>
@@ -25,46 +26,46 @@
                   <placeName>chez CB</placeName>
                   <list type="present">
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>JL</persName>
+                        <persName ref="#JL">JL</persName>
                      </item>
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName role="invité">Daniel Zerki</persName>
+                        <persName>Daniel Zerki</persName>
                      </item>
                     <item>
-                        <persName role="invité">Dominique Roussillon</persName>
+                        <persName>Dominique Roussillon</persName>
                     </item>                    
                   </list>
                </meeting>
@@ -85,42 +86,53 @@
   <text type="CR">
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010211k/f2.image"/>
-         <p rend="incipit">Oulipo le 7 12 78 chez <persName>CB</persName>.</p>
+         <p rend="incipit">Oulipo le 7 12 78 chez <persName ref="#CB">CB</persName>.</p>
          <p rend="incipit">Présentation de <persName>Dani $$$ raturé</persName>  
          </p>
-         <p rend="incipit">Présents : <persName>FLL</persName> <persName>HM</persName> <persName>PF</persName> <persName>JL</persName> <persName>GP</persName> <persName>JQ</persName> <persName>JB</persName> <persName>MB</persName> <persName>JR</persName> <persName>IC</persName> <persName>NA</persName> <persName>LE</persName>
+         <p rend="incipit">Présents : <persName ref="#FLL">FLL</persName> 
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#JL">JL</persName> 
+            <persName ref="#GP">GP</persName> 
+            <persName ref="#JQ">JQ</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#IC">IC</persName> 
+            <persName ref="#NA">NA</persName> 
+            <persName ref="#LE">LE</persName>
          </p>
          <p rend="incipit">Invité d’honneur : <persName>Zerki</persName> + <persName>Dominique Roussillon</persName>
          </p>
          <p>
-            <persName>PF</persName> Présentation de <persName>Daniel Zerki</persName>
+            <persName ref="#PF">PF</persName> Présentation de <persName>Daniel Zerki</persName>
          </p>
          <p>
             <persName>DZ</persName> : ne pas se contenter des <term>structures dictées par l’écriture</term> ; aller au-delà. Arriver au <term>théâtre combinatoire</term> : un spectacle qui ne serait jamais deux fois le même.</p>
          <p>Problème de l’<term>arbre à théâtre</term> : comment faire pour connaître le choix du spectateur ? une suggestion</p>
-         <p>Interventions de <persName>JB</persName>, <persName>JR</persName>, <persName>GP</persName> autour de la réalisation du projet de l’<term>arbre</term> =</p>
+         <p>Interventions de <persName ref="#JB">JB</persName>, <persName ref="#JR">JR</persName>, <persName ref="#GP">GP</persName> autour de la réalisation du projet de l’<term>arbre</term> =</p>
          <list type="unordered">
             <item>conserver une cohérence à l’objet obtenu.</item>
             <item>une <term>pièce en palindrome</term> (<term>palindrome de répliques</term>)</item>
          </list>
          <p>
-            <persName>JQ</persName> : un mathématicien suédois du nom de <persName>KIRKLUND</persName> a écrit <title>Médée l’étrangère</title>
+            <persName ref="#JQ">JQ</persName> : un mathématicien suédois du nom de <persName>KIRKLUND</persName> a écrit <title>Médée l’étrangère</title>
          </p>
          <p>
-            <persName>HM</persName> : projet d’un <term>drame familial</term> : suite de <term>jeux de société</term> (1 personne qui fait des <term>mots croisés</term>, 2, 3, 4)</p>
+            <persName ref="#HM">HM</persName> : projet d’un <term>drame familial</term> : suite de <term>jeux de société</term> (1 personne qui fait des <term>mots croisés</term>, 2, 3, 4)</p>
          <p>les paroles qu’ils prononcent ne peuvent être prises que dans le vocabulaire du jeu joué.</p>
          <p>
-            <persName>IC</persName> : une <term>boule de neige d’action</term> : commencer par 12 scènes identiques et puis chacune des scènes progresse différemment</p>
+            <persName ref="#IC">IC</persName> : une <term>boule de neige d’action</term> : commencer par 12 scènes identiques et puis chacune des scènes progresse différemment</p>
          <p>on commence alors à éliminer certaines scènes</p>
          <p>
-            <persName>GP</persName> : allusion à un film <title>Bob Carol Ted Alice</title>
+            <persName ref="#GP">GP</persName> : allusion à un film <title>Bob Carol Ted Alice</title>
       
             <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-20T10:33:00Z"/>$$$ personnes</note>
        = <term>permutation complémentaire</term>
          </p>
          <p>
-            <persName>JB</persName> : allusion à <persName>Bob Wilson</persName> 
+            <persName ref="#JB">JB</persName> : allusion à <persName>Bob Wilson</persName> 
             <title>Queen Victoria</title> 
       
             <note place="comment" resp="utilisateur-p3">
@@ -132,11 +144,11 @@
          </ref> 
             </note>
       (réitération d’une scène avec des personnages en nombre croissant)</p>
-         <p>&gt; <persName>Lescure</persName> s’en va vers 12h25</p>
+         <p>&gt; <persName ref="#JL">Lescure</persName> s’en va vers 12h25</p>
          <p>Puis, on examine une à une des différentes <term>structures</term> proposées par <persName>Zerki</persName> et chacun y va de son commentaire et de sa suggestion.</p>
          <list type="unordered">
             <item>
-               <term>Parenthèses</term> = faire une histoire qui commence dans une parenthèse et s’achève dans une autre parenthèse (suggestion de <persName>Calvino</persName>)</item>
+               <term>Parenthèses</term> = faire une histoire qui commence dans une parenthèse et s’achève dans une autre parenthèse (suggestion de <persName ref="#IC">Calvino</persName>)</item>
             <item>Circulation de personnages 
          <note place="comment" resp="utilisateur-p3">
                   <date when="2017-08-26T12:55:00Z"/>Pas une notion</note>
@@ -144,10 +156,10 @@
         
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-07-20T10:34:00Z"/>$$$ personne</note>
-        (par <persName>Calvino</persName>)</item>
+        (par <persName ref="#IC">Calvino</persName>)</item>
          </list>
          <p>
-            <persName>JR</persName> : fait une pièce <title>Lever de rideau</title> 
+            <persName ref="#JR">JR</persName> : fait une pièce <title>Lever de rideau</title> 
          </p>
          <p>une autre avec des indications scéniques</p>
          <p>
@@ -159,27 +171,27 @@
       
          </p>
          <p>
-            <persName>JB</persName> : rappelle sa pièce <title>les Vaudois</title> (deux scènes contiguës sont après décalées dans le temps ou l’espace)</p>
+            <persName ref="#JB">JB</persName> : rappelle sa pièce <title>les Vaudois</title> (deux scènes contiguës sont après décalées dans le temps ou l’espace)</p>
          <p>
-            <persName>HM</persName> : <persName>Paul Taylor</persName> = exercice de mobilité potentielle</p>
+            <persName ref="#HM">HM</persName> : <persName>Paul Taylor</persName> = exercice de mobilité potentielle</p>
          <p>
-            <persName>GP</persName> = personnages immobiles (mannequins vivants)</p>
+            <persName ref="#GP">GP</persName> = personnages immobiles (mannequins vivants)</p>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010211k/f3.image"/>
          <p>
-            <persName>Fournel</persName> chargé de la formation d’une commission théâtre.</p>
+            <persName ref="#PF">Fournel</persName> chargé de la formation d’une commission théâtre.</p>
          <p>Prochaine réunion : 11 janvier – 15 février.</p>
          <p>
-            <persName>Perec</persName> : propose <persName>Cortazar</persName> 
+            <persName ref="#GP">Perec</persName> : propose <persName>Cortazar</persName> 
          </p>
          <p>
-            <persName>HM</persName> : <persName>AB POULSEN</persName> 
+            <persName ref="#HM">HM</persName> : <persName>AB POULSEN</persName> 
             <title>Narration par icosaèdre</title> 
          </p>
          <p>chaque texte est écrit sur 2 faces de l’icosaèdre</p>
          <p>on peut lire les textes singulièrement (10 histoires)</p>
          <p>on peut aussi les lire ligne à ligne dans la continuité</p>
          <p>
-            <persName>JQ</persName> 
+            <persName ref="#JQ">JQ</persName> 
             <title>Triade</title> : la réalisation du projet est en cours</p>
          <p>
             <term>L’autre français</term> : du français qui a cessé d’être du français.</p>
@@ -188,31 +200,31 @@
          <p>des vers de 10 pieds avec une traduction en face</p>
          <p>Tous = comment sont choisis les mots ?</p>
          <p>
-            <persName>GP</persName> : <name type="manif">conférence à l’ENS</name>
+            <persName ref="#GP">GP</persName> : <name type="manif">conférence à l’ENS</name>
       
             <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-20T10:37:00Z"/>$$$ organisation</note>
        
          </p>
          <p>
-            <persName>PF</persName> : compte-rendu du <name type="manif">weekend de Mannecy</name>, relayé par</p>
+            <persName ref="#PF">PF</persName> : compte-rendu du <name type="manif">weekend de Mannecy</name>, relayé par</p>
          <p>
-            <persName>JB</persName> : compte-rendu de Mannecy</p>
+            <persName ref="#JB">JB</persName> : compte-rendu de Mannecy</p>
          <p>
-            <persName>PF</persName> : <title>Bibliothèque Oulipo</title> = présentation du <title>volume Braffort</title>
+            <persName ref="#PF">PF</persName> : <title>Bibliothèque Oulipo</title> = présentation du <title>volume Braffort</title>
       
             <note place="comment" resp="utilisateur-p3">
                <date when="2017-08-26T12:57:00Z"/>$$$ personne</note>
       
          </p>
          <p>
-            <persName>MB</persName> : donnera le sien pour <title>le 11</title>
+            <persName ref="#MB">MB</persName> : donnera le sien pour <title>le 11</title>
          </p>
          <p>
-            <persName>JB</persName> : donne immédiatement son volume à condition que ce soit <title>le numéro 12</title>
+            <persName ref="#JB">JB</persName> : donne immédiatement son volume à condition que ce soit <title>le numéro 12</title>
          </p>
          <p>
-            <persName>Perec</persName> : donnera <title>le 13</title>
+            <persName ref="#GP">Perec</persName> : donnera <title>le 13</title>
          </p>
          <p>
             <label type="rubrique">Menus propos autour de la B.O.
@@ -222,9 +234,9 @@
          </p>
          <p>nécessité de vendre !</p>
          <p>
-            <persName>PF</persName> = <title>Oulipo 2</title>.</p>
+            <persName ref="#PF">PF</persName> = <title>Oulipo 2</title>.</p>
          <p>
-            <persName>FLL</persName> :</p>
+            <persName ref="#FLL">FLL</persName> :</p>
          <list type="unordered">
             <item>prévoir quelque chose sur l’histoire de l’Oulipo depuis le précèdent volume </item>
             <item>prévoir une <unclear>conférence du chapeau</unclear>
@@ -246,26 +258,26 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>FLL</persName> Traduction en italien du <title>volume 1 de l’Oulipo</title> 
+               <persName ref="#FLL">FLL</persName> Traduction en italien du <title>volume 1 de l’Oulipo</title> 
             </item>
          </list>
          <p>
             <title>article</title> dans la <orgName>Nouvelle Revue Française</orgName> de déeceémbre</p>
          <p>
-            <persName>I Calvino</persName> : n’a pas encore eu le temps d’examiner la traduction</p>
+            <persName ref="#IC">I Calvino</persName> : n’a pas encore eu le temps d’examiner la traduction</p>
          <p>il souhaite que la <title>bibliothèque oulipienne en italien</title> contienne des œuvres nouvelles.</p>
          <p>On suggère qu’il bloque le manuscrit de la traduction jusqu’à la parution du <title>volume 2</title>.</p>
          <p>
-            <persName>FLL</persName> : <unclear>Publie</unclear> des <title>cartes postales</title> avec la photo collective de l’Oulipo</p>
+            <persName ref="#FLL">FLL</persName> : <unclear>Publie</unclear> des <title>cartes postales</title> avec la photo collective de l’Oulipo</p>
          <p>Réflexions diverses sur la différence entre espace et temps =</p>
          <p>
-            <persName>Calvino</persName> : Pourquoi n’y a-t-il de représentation mythologique<term/> dans l’espace 
+            <persName ref="#IC">Calvino</persName> : Pourquoi n’y a-t-il de représentation mythologique<term/> dans l’espace 
         <note place="comment" resp="utilisateur-p3">
                <date when="2017-08-26T13:00:00Z"/>
             </note>
       ?</p>
          <p>
-            <persName>JB</persName> : présente un <term>mobile Oulipien</term> 
+            <persName ref="#JB">JB</persName> : présente un <term>mobile Oulipien</term> 
          </p>
       </body>
   </text>

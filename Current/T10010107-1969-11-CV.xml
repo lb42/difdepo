@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010107-1969-11-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010107-1969-11-CV</idno>
-					          <title>Convocation à <ref target="#T10010107-1969-11">une réunion Oulipo</ref>,						envoyée le <date when="1969-11-26">26/11/1969</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010107-1969-11">une réunion Oulipo</ref>,						envoyée le <date when="1969-11-26">26/11/1969</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -46,7 +47,7 @@
          <p>le 26 Novembre 1969</p>
          <p>Chers Brigadiers,</p>
          <p>Notre prochaine réunion OuLiPo aura lieu le:
-				<lb/>Vendredi 7 Novembre 1969 à 16 heures chez <persName>F.LL.</persName>
+				<lb/>Vendredi 7 Novembre 1969 à 16 heures chez <persName ref="#FLL">F.LL.</persName>
          </p>
          <p>À l’ordre du jour :</p>
          <p>– Achèvement ( ? ? ! ! …) du <title>dossier Cape</title>.</p>

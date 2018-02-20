@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010301-1987-01-CR">
   <teiHeader>
       <fileDesc>
@@ -29,31 +30,31 @@
                   <placeName>chez JJ</placeName>
                   <list type="present">
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                   </list>
                </meeting>
@@ -77,14 +78,14 @@
       <body>
          <pb n="7" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010301j/f7.image"/>
          <p rend="incipit">OULIPO du 29 1 87</p>
-         <p rend="incipit">Présents : <persName>JR</persName>, <persName>FC</persName>,
-          <persName>JJ</persName>, <persName>JB</persName>, <persName>NA</persName>,
-          <persName>PF</persName>, <persName>CB</persName>, <persName>MM</persName>,
-          <persName>MB</persName>
+         <p rend="incipit">Présents : <persName ref="#JR">JR</persName>, <persName ref="#FC">FC</persName>,
+          <persName ref="#JJ">JJ</persName>, <persName ref="#JB">JB</persName>, <persName ref="#NA">NA</persName>,
+          <persName ref="#PF">PF</persName>, <persName ref="#CB">CB</persName>, <persName ref="#MM">MM</persName>,
+          <persName ref="#MB">MB</persName>
          </p>
-         <p rend="incipit">Président : <persName>François Caradec</persName>
+         <p rend="incipit">Président : <persName ref="#FC">François Caradec</persName>
          </p>
-         <p rend="incipit">Secrétaire : <persName>Marcel Bénabou</persName>
+         <p rend="incipit">Secrétaire : <persName ref="#MB">Marcel Bénabou</persName>
          </p>
          <p>Menu : salade pamplemousse. Bœuf aux carottes – brocolis – riz. Fromage. Poire – glace –
         chocolat</p>
@@ -93,60 +94,60 @@
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>JJ</persName> : <title>La liberté guidant le peintre</title>
+            <persName ref="#JJ">JJ</persName> : <title>La liberté guidant le peintre</title>
          </p>
          <p>Une <term>construction</term> établie sur le <term>contraste</term> entre un
           <term>substantif</term> seul (placé au centre) et un <term>entourage</term> qui exclut les
           <term>substantifs</term>.</p>
          <p>
-            <persName>JR</persName> En vue de l’<orgName>Outhepo</orgName> : quelques questions sur le
+            <persName ref="#JR">JR</persName> En vue de l’<orgName>Outhepo</orgName> : quelques questions sur le
         théâtre</p>
          <p>
-            <persName>JB</persName> Supplément à la <title>Vie des Saintes</title>
+            <persName ref="#JB">JB</persName> Supplément à la <title>Vie des Saintes</title>
          </p>
          <p>à partir du corpus homogène à Vies de Saintes. Faire une <term>combinatoire</term>
          </p>
-         <p>On passe à table et on parle de l’hommage = <persName>Queval</persName>
+         <p>On passe à table et on parle de l’hommage = <persName ref="#JQ">Queval</persName>
          </p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>JR</persName> : <term>Palindrome</term> cinématographique tournés par
+            <persName ref="#JR">JR</persName> : <term>Palindrome</term> cinématographique tournés par
           <persName>Raoul Ruiz</persName>
          </p>
          <p>
-            <persName>JB</persName> : <term>Lipogramme</term> en o = Texte d’<persName>Alphonse Karr</persName>
+            <persName ref="#JB">JB</persName> : <term>Lipogramme</term> en o = Texte d’<persName>Alphonse Karr</persName>
          </p>
          <p>
-            <persName>FC</persName> : Hommage de <persName>Moréas</persName> à
-          <persName>Queval</persName>
+            <persName ref="#FC">FC</persName> : Hommage de <persName>Moréas</persName> à
+          <persName ref="#JQ">Queval</persName>
          </p>
          <p>
             <label type="rubrique">Action</label>
          </p>
          <p>
-            <persName>PF</persName>
+            <persName ref="#PF">PF</persName>
             <title>Zazie</title>
             <name type="manif">représentation à Chatenay</name>
          </p>
          <p>
-            <persName>MB</persName> Dune lettre</p>
+            <persName ref="#MB">MB</persName> Dune lettre</p>
          <p>
-            <persName>JJ</persName>
-            <name type="manif">Lecture Oulipo à Ivry</name> couplé avec <name type="manif">Spectacle <persName>Roubaud</persName> 
-</name>  le 2 juin</p>
+            <persName ref="#JJ">JJ</persName>
+            <name type="manif">Lecture Oulipo à Ivry</name> couplé avec <name type="manif">Spectacle <persName ref="#JR">Roubaud</persName> 
+            </name>  le 2 juin</p>
          <p>
-            <persName>PB</persName> le 23 mai à la Villette = <name type="manif">Table-Ronde</name>
+            <persName ref="#PB">PB</persName> le 23 mai à la Villette = <name type="manif">Table-Ronde</name>
          </p>
          <p>
             <label type="rubrique">Menus propos</label>
          </p>
          <p>
-            <persName>JR</persName> : Film de <persName>Raoul Ruiz</persName> = <term>Labyrinthe</term>
+            <persName ref="#JR">JR</persName> : Film de <persName>Raoul Ruiz</persName> = <term>Labyrinthe</term>
         avec <persName>P. Rosentiehl</persName>.</p>
-         <p>Préparation de la lecture à faire ce même jour à la <orgName>Maison des Ecrivains</orgName>, à 18h. Programme mis au point par <persName>JJ</persName> et
-          <persName>PB</persName>.</p>
+         <p>Préparation de la lecture à faire ce même jour à la <orgName>Maison des Ecrivains</orgName>, à 18h. Programme mis au point par <persName ref="#JJ">JJ</persName> et
+          <persName ref="#PB">PB</persName>.</p>
       </body>
   </text>
 </TEI>

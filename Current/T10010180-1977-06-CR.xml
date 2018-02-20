@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1977-06-CR">
   <teiHeader>
       <fileDesc>
@@ -24,22 +25,22 @@
                   <date when="1977-06-24">24/06/1977</date>
                   <list type="present">
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                   </list>
                </meeting>
@@ -58,10 +59,9 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="29"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f29.image"/>
+         <pb n="29" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f29.image"/>
          <p>
-            <persName>HM</persName> L.S. <orgName>Beaubourg</orgName>
+            <persName ref="#HM">HM</persName> L.S. <orgName>Beaubourg</orgName>
          </p>
          <p>
             <unclear>Schler</unclear>
@@ -72,29 +72,28 @@
          <p rend="incipit">OuLiPo   le 24 6 77</p>
          <p>
             <title>B.O.</title> 
-            <persName>P.F.</persName> 
+            <persName ref="#PF">P.F.</persName> 
             <title>A Queneau</title>. Quoi faire des 150 exemplaires du tirage défectif ?</p>
          <p>              2 exemplaires à chaque oulipien – à poinçonner ; engagement de ne jamais les vendre</p>
          <p>+ autres décomposés en « tirés à parts »</p>
-         <pb n="30"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f30.image"/>
+         <pb n="30" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f30.image"/>
          <list type="unordered">
             <item>
-               <persName>PB</persName> : <persName>Conrad Bureau</persName> : <title>Linguistique fonctionnelle …</title>
+               <persName ref="#PB">PB</persName> : <persName>Conrad Bureau</persName> : <title>Linguistique fonctionnelle …</title>
             </item>
             <item>
-               <persName>Queval</persName> : incorporation de</item>
+               <persName ref="#JQ">Queval</persName> : incorporation de</item>
          </list>
          <p>
             <term>citations clandestines</term> – <persName>Anthony Powell</persName>, Qu. <persName>Proust.</persName>
          </p>
          <p>
-            <persName>Braffort</persName> :</p>
+            <persName ref="#PB">Braffort</persName> :</p>
          <list type="unordered">
             <item>
-               <persName>MB</persName> :</item>
+               <persName ref="#MB">MB</persName> :</item>
             <item>
-               <persName>Braffort</persName> : <title>Oulipo II pour RQ</title>
+               <persName ref="#PB">Braffort</persName> : <title>Oulipo II pour RQ</title>
         
                <note place="comment" resp="Alessandra_Scaccuto">
                   <date when="2017-06-19T13:52:00Z"/>§§§ personne aussi</note>
@@ -110,11 +109,11 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JB</persName> <title>: Oulipo II</title> non seulement à <persName>RQ</persName> mais à <persName>Schmidt</persName>
+               <persName ref="#JB">JB</persName> <title>: Oulipo II</title> non seulement à <persName ref="#RQ">RQ</persName> mais à <persName ref="#AMS">Schmidt</persName>
             </item>
          </list>
          <p>
-            <persName>Latis</persName>
+            <persName ref="#LA">Latis</persName>
          </p>
       </body>
   </text>

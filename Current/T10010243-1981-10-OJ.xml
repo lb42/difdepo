@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010243-1981-10-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,13 +22,13 @@
             <bibl>
                <idno>T10010243-1981-10-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010243-1981-10">la réunion Oulipo</ref> du <date when="1981-10-23">23/10/1981</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <p>Les pages 29 et 30 ont été interverties dans le scan : nous rétablissons l'ordre correct.</p>
-    </encodingDesc>      
+      <encodingDesc>
+         <p>Les pages 29 et 30 ont été interverties dans le scan : nous rétablissons l'ordre correct.</p>
+      </encodingDesc>      
       <revisionDesc>
          <listChange>
             <change when="2018-01-06">restore date from docx</change>
@@ -44,12 +45,12 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
                <title>BO</title>.</item>
             <item>
-               <persName>PB</persName> Manuscrits</item>
+               <persName ref="#PB">PB</persName> Manuscrits</item>
             <item>
-               <persName>GP</persName> 
+               <persName ref="#GP">GP</persName> 
                <term>Epithalame</term>
             </item>
          </list>
@@ -58,7 +59,7 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
                <orgName>Gallimard</orgName>
             </item>
          </list>
@@ -67,21 +68,21 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>GP</persName> Très jolie devinette : NY-Miami sans avion le même jour</item>
+               <persName ref="#GP">GP</persName> Très jolie devinette : NY-Miami sans avion le même jour</item>
             <item>
-               <persName>JB</persName> Menu Propos</item>
+               <persName ref="#JB">JB</persName> Menu Propos</item>
             <item>
-               <persName>JQ</persName> Barrot</item>
+               <persName ref="#JQ">JQ</persName> Barrot</item>
             <item>Browny</item>
             <item>
-               <persName>PF</persName> –<persName>Calvino</persName>
+               <persName ref="#PF">PF</persName> –<persName ref="#IC">Calvino</persName>
             </item>
             <item>Et Dieu créa l’enfant</item>
             <item>
-               <persName>HM</persName>
+               <persName ref="#HM">HM</persName>
             </item>
             <item>
-               <persName>PF</persName> Zerki</item>
+               <persName ref="#PF">PF</persName> Zerki</item>
          </list>
          <p>
             <label type="rubrique">Invités</label>
@@ -89,70 +90,70 @@
         <pb n="30" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010243q/f30.image"/>
         <p rend="incipit">Oulipo Le 23 X 81</p>
         <p>
-          <label type="rubrique">Création</label>
+            <label type="rubrique">Création</label>
         </p>
         <list type="unordered">
-          <item>
-            <persName>GP</persName> 
-            <term>Limite du lipogramme</term> en a.</item>
-          <item>
-            <term>Monovocalisme anglais</term> en o.</item>
-          <item>
-            <term>Boule de neige vocalique</term>
-          </item>
-          <item>
-            <term>Tautogramme</term>
-          </item>
-          <item>
-            <title>Bel absent</title>
-          </item>
-          <item>Exercice collectif : <term>homosyntaxisme</term>
-          </item>
-          <item>
-            <persName>HM</persName> Coucou de Dédé</item>
-          <item>La Marche arrière</item>
-          <item>
-            <persName>JR</persName> 
-            <term>Quenine</term>, généralisation</item>
-          <item>? (énigme)</item>
+            <item>
+               <persName ref="#GP">GP</persName> 
+               <term>Limite du lipogramme</term> en a.</item>
+            <item>
+               <term>Monovocalisme anglais</term> en o.</item>
+            <item>
+               <term>Boule de neige vocalique</term>
+            </item>
+            <item>
+               <term>Tautogramme</term>
+            </item>
+            <item>
+               <title>Bel absent</title>
+            </item>
+            <item>Exercice collectif : <term>homosyntaxisme</term>
+            </item>
+            <item>
+               <persName ref="#HM">HM</persName> Coucou de Dédé</item>
+            <item>La Marche arrière</item>
+            <item>
+               <persName ref="#JR">JR</persName> 
+               <term>Quenine</term>, généralisation</item>
+            <item>? (énigme)</item>
         </list>
         <p>
-          <label type="rubrique">Erudition</label>
+            <label type="rubrique">Erudition</label>
         </p>
         <list type="unordered">
-          <item>
-            <persName>GP Dylan Thomas</persName>
-          </item>
-          <item>
-            <persName>JR</persName> Plagiat autre. <term>Boule de neige</term>
-          </item>
-          <item>
-            <persName>PB Italo Calvino</persName>
-          </item>
-          <item>
-            <persName>HM Jean Cocteau</persName>
-          </item>
+            <item>
+               <persName>GP Dylan Thomas</persName>
+            </item>
+            <item>
+               <persName ref="#JR">JR</persName> Plagiat autre. <term>Boule de neige</term>
+            </item>
+            <item>
+               <persName>PB Italo Calvino</persName>
+            </item>
+            <item>
+               <persName>HM Jean Cocteau</persName>
+            </item>
         </list>
         <p>
-          <label type="rubrique">Action</label>
+            <label type="rubrique">Action</label>
         </p>
         <list type="unordered">
-          <item>
-            <persName>GP</persName> Australie et Livel.</item>
-          <item>
-            <persName>JQ</persName>
-          </item>
-          <item>
-            <persName>JR</persName> TLS</item>
-          <item>Marly</item>
-          <item>
-            <persName>PF</persName> Villeneuve Trappes <title>BO</title>
-          </item>
-          <item>
-            <persName>JB</persName> Yerres Amiens</item>
-          <item>Pont des Arts</item>
-          <item>
-            <persName>MM</persName> Voltaire</item>
+            <item>
+               <persName ref="#GP">GP</persName> Australie et Livel.</item>
+            <item>
+               <persName ref="#JQ">JQ</persName>
+            </item>
+            <item>
+               <persName ref="#JR">JR</persName> TLS</item>
+            <item>Marly</item>
+            <item>
+               <persName ref="#PF">PF</persName> Villeneuve Trappes <title>BO</title>
+            </item>
+            <item>
+               <persName ref="#JB">JB</persName> Yerres Amiens</item>
+            <item>Pont des Arts</item>
+            <item>
+               <persName ref="#MM">MM</persName> Voltaire</item>
         </list>
       </body>
   </text>

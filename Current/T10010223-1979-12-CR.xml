@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010223-1979-12-CR">
    <teiHeader>
       <fileDesc>
@@ -25,34 +26,34 @@
                   <placeName>Chez PF</placeName>
                   <list type="present">
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                   </list>
                </meeting>
@@ -74,14 +75,24 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010223w/f1.image"/>
          <p rend="incipit">OULIPO du 14 XII 79</p>
-         <p rend="incipit">(chez <persName>P Fournel</persName>)</p>
-         <p rend="incipit">Présents : <persName>MB</persName> <persName>GP</persName> <persName>JQ</persName> <persName>IC</persName> <persName>NA</persName> <persName>JR</persName> <persName>PB</persName> <persName>JQ</persName> <persName>CB</persName> <persName>HM</persName>
+         <p rend="incipit">(chez <persName ref="#PF">P Fournel</persName>)</p>
+         <p rend="incipit">Présents : <persName ref="#MB">MB</persName> 
+            <persName ref="#GP">GP</persName> 
+            <persName ref="#JQ">JQ</persName> 
+            <persName ref="#IC">IC</persName> 
+            <persName ref="#NA">NA</persName> 
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#JQ">JQ</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#HM">HM</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>FLL</persName> <persName>LE</persName>
+         <p rend="incipit">Excusés : <persName ref="#FLL">FLL</persName> 
+            <persName ref="#LE">LE</persName>
          </p>
          <p>
             <label type="rubrique">
-               <persName>Perec</persName> : Création  </label>
+               <persName ref="#GP">Perec</persName> : Création  </label>
          </p>
          <list type="unordered">
             <item>
@@ -90,17 +101,17 @@
                <term>pousse-pousse</term> : un <term>hétérogramme</term> de 16 lettres</item>
          </list>
          <p>
-            <persName>FLL</persName> par la voix de <persName>PF</persName>
+            <persName ref="#FLL">FLL</persName> par la voix de <persName ref="#PF">PF</persName>
          </p>
          <p>Mise en musique par <persName>Philippeaux</persName> de <term>poèmes booléenns</term>
             
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-24T12:51:00Z"/>$$$ titre</note>
-             de <persName>FLL</persName>
+             de <persName ref="#FLL">FLL</persName>
          </p>
          <p>Suggestion : édition de la partition de la <title>BO</title> ; </p>
          <p>
-            <persName>PB</persName> : <term>versification non euclidienne</term>
+            <persName ref="#PB">PB</persName> : <term>versification non euclidienne</term>
          </p>
          <p>Les <term>vers euclidiens</term> sont des <term>lignes parallèles</term> (qui ne se rencontrent pas), l’idée est de faire un <persName>Delmas</persName> généralisé
                <note place="comment" resp="Natalie_Berkman">
@@ -108,7 +119,7 @@
              
          </p>
          <p>
-            <persName>CB</persName> : <term>Sonnets à translations</term>. 3 types de <term>contraintes</term>
+            <persName ref="#CB">CB</persName> : <term>Sonnets à translations</term>. 3 types de <term>contraintes</term>
          </p>
          <p>Passage de 14 à 15 vers par <term>simple translation</term>. </p>
          <p>Un grand moment dans l’histoire de l’Oulipo </p>
@@ -117,7 +128,7 @@
             <label type="rubrique">Distribution</label>
          </p>
          <p>
-            <persName>HM</persName> 
+            <persName ref="#HM">HM</persName> 
          </p>
          <p>
             <term>Carrés magiques</term> : un article de <title>Word Ways</title> vol 12. N°4 nov 79. </p>
@@ -126,7 +137,7 @@
          <p>
             <title>Volume 2</title> : état de la question </p>
          <p>
-            <persName>PB</persName> : <term>Boule de neige</term> (complet)</p>
+            <persName ref="#PB">PB</persName> : <term>Boule de neige</term> (complet)</p>
          <p>
             <term>X prend Y pour Z</term>
             
@@ -134,7 +145,7 @@
                   <date when="2017-08-24T12:53:00Z"/>$$$ titre</note>
              : extraits des <title>Hypertropes</title>. </p>
          <p>
-            <persName>PF</persName> : <title>Ordinateur</title>
+            <persName ref="#PF">PF</persName> : <title>Ordinateur</title>
             
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-24T12:54:00Z"/>$$$ notion</note>
@@ -142,15 +153,15 @@
              <title>et écrivain</title>
          </p>
          <p>
-            <persName>JR</persName> : <persName>Queneau</persName> et le Mythe</p>
+            <persName ref="#JR">JR</persName> : <persName ref="#RQ">Queneau</persName> et le Mythe</p>
          <p>
             <title>Labrador</title> ; présentation et Extraits</p>
          <p>
-            <term>Quenine complet</term> (sauf <term>onzine</term> de <persName>Perec</persName>) <lb/>Biblio.</p>
+            <term>Quenine complet</term> (sauf <term>onzine</term> de <persName ref="#GP">Perec</persName>) <lb/>Biblio.</p>
          <p>
-            <persName>MB</persName>/ liste des travaux non encore faits ou non encore remis. </p>
+            <persName ref="#MB">MB</persName>/ liste des travaux non encore faits ou non encore remis. </p>
          <p>
-            <persName>NA</persName> : <unclear>l’Arcadémie</unclear>
+            <persName ref="#NA">NA</persName> : <unclear>l’Arcadémie</unclear>
             
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-24T12:54:00Z"/>$$$ organisation</note>
@@ -159,10 +170,10 @@
             <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010223w/f2.image"/>
          
          <p>
-            <persName>MB</persName> : <name type="manif">Port Cros</name>
+            <persName ref="#MB">MB</persName> : <name type="manif">Port Cros</name>
          </p>
          <p>
-            <persName>PB</persName> : <name type="manif">Villeneuve les Avignon</name>
+            <persName ref="#PB">PB</persName> : <name type="manif">Villeneuve les Avignon</name>
          </p>
       </body>
    </text>

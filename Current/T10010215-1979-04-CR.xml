@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010215-1979-04-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,25 +24,25 @@
                   <date when="1979-04-23">23/04/1979</date>
                   <list type="present">
 							              <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
 							              <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
 							              <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
 							              <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
 							              <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
 							              <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
 							              <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
 						            </list>
                </meeting>
@@ -65,7 +66,7 @@
          <list type="unordered">
 				
 				        <item>
-               <persName>CB</persName> présente <persName>P. Rosenstiehl</persName>, mathématicien avec incidence combinatorialistes, et labyrinthe
+               <persName ref="#CB">CB</persName> présente <persName ref="#PR">P. Rosenstiehl</persName>, mathématicien avec incidence combinatorialistes, et labyrinthe
 				<lb/>
                <persName>Agnès</persName> fait des nombres remarquables pour enfants</item>
 				        <item>
@@ -73,15 +74,15 @@
 				<lb/>la nature donne plutôt 2, 5, 6
 				<lb/>la culture donne 10, 12</item>
 				        <item>
-               <persName>FLL</persName> a fait une étude sur les nombres de <persName>Jean Ray</persName>
+               <persName ref="#FLL">FLL</persName> a fait une étude sur les nombres de <persName>Jean Ray</persName>
             </item>
 				        <item>
-               <persName>FLL</persName> 3600 francs le premier mille de cartes postales
+               <persName ref="#FLL">FLL</persName> 3600 francs le premier mille de cartes postales
 				<lb/>7 les suivants</item>
 				        <item>
                <persName>A. Rosenstiehl</persName>: l'Alphabet fou ou le livre des Syllabes sibyllines (scies)</item>
 				        <item>
-               <persName>P. Rosenstiehl</persName> présente le "<title>labyrinthe du témoin</title>" (<ref>archives</ref>)
+               <persName ref="#PR">P. Rosenstiehl</persName> présente le "<title>labyrinthe du témoin</title>" (<ref>archives</ref>)
 				<lb/>2 possibilités: <persName>Ariane folle</persName> suit <persName>Ariane sage</persName>
             </item>
 				        <item>
@@ -92,24 +93,24 @@
                <persName>J. Quev</persName> définition de la contrainte
 				<lb/>discussion sur les contraintes</item>
 				        <item>
-               <persName>Bénabou</persName>: mini-création - le <term>centon acrostiche</term> - un lexique pour les <term>mots chauve-souris</term>
+               <persName ref="#MB">Bénabou</persName>: mini-création - le <term>centon acrostiche</term> - un lexique pour les <term>mots chauve-souris</term>
             </item>
 				        <item>
                <persName>Cl. Berge</persName>: un poème infini qui ne répète pas deux fois de suite la même séquence.
-				<lb/>comparaison avec les échecs et discussion savante entre <persName>FLL</persName>, <persName>CB</persName>, et <persName>PB</persName>. Mûrissement en cours</item>
+				<lb/>comparaison avec les échecs et discussion savante entre <persName ref="#FLL">FLL</persName>, <persName ref="#CB">CB</persName>, et <persName ref="#PB">PB</persName>. Mûrissement en cours</item>
 				        <item>FLL: Chevalet qui appartient à l'Oulipo.
-				<lb/>Chevalet ira chez <persName>Fournel</persName>
+				<lb/>Chevalet ira chez <persName ref="#PF">Fournel</persName>
             </item>
-				        <item>Arrivée de <persName>J. Bens</persName> à 13h55</item>
+				        <item>Arrivée de <persName ref="#JB">J. Bens</persName> à 13h55</item>
 				        <item>
-               <persName>PF</persName>: <term>Bibliothèque Oulipienne</term>: <persName>J. Bens</persName>: le rendez-vous chez<unclear> Fr..</unclear>
+               <persName ref="#PF">PF</persName>: <term>Bibliothèque Oulipienne</term>: <persName ref="#JB">J. Bens</persName>: le rendez-vous chez<unclear> Fr..</unclear>
             </item>
 				        <item>
-               <persName>MB</persName>: - finances
+               <persName ref="#MB">MB</persName>: - finances
 				<lb/>- vente des stocks <title>Bibliothèque Oulipienne</title> depuis le numéro 5</item>
 				        <item>
-               <persName>PF</persName> va voir <persName>Balpe</persName>.</item>
-				        <item>Lettre de <persName>Lescure</persName>: <ref>aux archives</ref>.</item>
+               <persName ref="#PF">PF</persName> va voir <persName>Balpe</persName>.</item>
+				        <item>Lettre de <persName ref="#JL">Lescure</persName>: <ref>aux archives</ref>.</item>
 			      </list>
       </body>
 	  </text>

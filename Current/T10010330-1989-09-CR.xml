@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010330-1989-09-CR">
   <teiHeader>
       <fileDesc>
@@ -25,19 +26,19 @@
                   <placeName>chez FC</placeName>
                   <list type="present">
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                   </list>
                </meeting>
@@ -57,26 +58,25 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="12"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f12.image"/>
+         <pb n="12" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f12.image"/>
          <p rend="incipit">OULIPO du 15-9-89</p>
-         <p rend="incipit">chez <persName>FC</persName>
+         <p rend="incipit">chez <persName ref="#FC">FC</persName>
          </p>
          <p rend="incipit">Présents</p>
          <p rend="incipit">
-            <persName>FC</persName>, <persName>JJ</persName>, <persName>HM</persName>, <persName>PF</persName>, <persName>JR</persName>, <persName>MB</persName>
+            <persName ref="#FC">FC</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#HM">HM</persName>, <persName ref="#PF">PF</persName>, <persName ref="#JR">JR</persName>, <persName ref="#MB">MB</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>MM</persName>, <persName>JL</persName>, <persName>Roubaud</persName>, <persName>CB</persName>, <persName>PB</persName>.</p>
-         <p rend="incipit">Président <persName>HM</persName>
+         <p rend="incipit">Excusés : <persName ref="#MM">MM</persName>, <persName ref="#JL">JL</persName>, <persName ref="#JR">Roubaud</persName>, <persName ref="#CB">CB</persName>, <persName ref="#PB">PB</persName>.</p>
+         <p rend="incipit">Président <persName ref="#HM">HM</persName>
          </p>
-         <p rend="incipit">Secrétaire : <persName>MB</persName>
+         <p rend="incipit">Secrétaire : <persName ref="#MB">MB</persName>
          </p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>FC</persName> 
+               <persName ref="#FC">FC</persName> 
             </item>
             <item>
                <term>S+7</term> = O (circulaire) (sera publié en <title>B.O.</title>)</item>
@@ -90,13 +90,13 @@
             <item>
                <title>L’enfileur de perles</title> (Tuyaux de poêle)</item>
             <item>
-               <persName>MB</persName>, <persName>JR</persName>, <persName>JJ</persName> : compte rendu de la réunion sur le tome III</item>
+               <persName ref="#MB">MB</persName>, <persName ref="#JR">JR</persName>, <persName ref="#JJ">JJ</persName> : compte rendu de la réunion sur le tome III</item>
          </list>
          <p>reprendre sous forme de <title>B.O.</title> des textes qui devaient figurer au tome III</p>
          <p>peu &gt; réunion de travail samedi après-midi de novembre (25/11)</p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName> 
+               <persName ref="#JJ">JJ</persName> 
                <title>les sept règles de Perec</title> 
         
                <note place="comment" resp="ALE">
@@ -107,25 +107,24 @@
          <p>Blâme tacite des autres oulipiens.</p>
          <list type="unordered">
             <item>
-               <persName>MB</persName> 
+               <persName ref="#MB">MB</persName> 
                <unclear>*</unclear> non utilisés dans la <title>Disparition</title> : lecture et commentaire</item>
          </list>
          <p>(<term>textes lipogrammatiques</term>, dont un sur la circoncision du fils du rabbin)</p>
          <list type="unordered">
             <item>
-               <persName>HM</persName> : Un poème en <term>belle absente</term> + utilisation de vers de <persName>Shakespeare</persName> (<term>sonnet</term>) + répétition de vers en fonction de la répétition des lettres.</item>
+               <persName ref="#HM">HM</persName> : Un poème en <term>belle absente</term> + utilisation de vers de <persName>Shakespeare</persName> (<term>sonnet</term>) + répétition de vers en fonction de la répétition des lettres.</item>
          </list>
          <p>
             <label type="rubrique">
-               <persName>FC</persName> : Erudition <persName>Jean Moreas</persName>
+               <persName ref="#FC">FC</persName> : Erudition <persName>Jean Moreas</persName>
             </label>
          </p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName> : <title>Dictionnaire Houdin</title> : des</item>
+               <persName ref="#JJ">JJ</persName> : <title>Dictionnaire Houdin</title> : des</item>
          </list>
-         <pb n="13"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f13.image"/>
+         <pb n="13" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f13.image"/>
          <p>OULIPO (2) 15-9-89</p>
          <list type="unordered">
             <item>
@@ -144,16 +143,16 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>HM</persName> “<title>53 jours</title>” des échos</item>
+               <persName ref="#HM">HM</persName> “<title>53 jours</title>” des échos</item>
             <item>
-               <persName>MB</persName> Explication de l’exergue du chapitre XII de “<title>53 jours</title>”</item>
+               <persName ref="#MB">MB</persName> Explication de l’exergue du chapitre XII de “<title>53 jours</title>”</item>
          </list>
          <p>(traduction en latin de la <term>contrepèterie</term> : « les archéologues mettaient dans les caisses le produit de leurs fouilles »)</p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> Nouveaux membres : proposer des noms</item>
+               <persName ref="#JR">JR</persName> Nouveaux membres : proposer des noms</item>
          </list>
-         <p>Prochains invités <persName>Klinkenberg</persName> (téléphoner = <persName>Blavier</persName> ou à <persName>Dabou</persName>)</p>
+         <p>Prochains invités <persName>Klinkenberg</persName> (téléphoner = <persName ref="#AB">Blavier</persName> ou à <persName>Dabou</persName>)</p>
          <p>
             <persName>Lascault</persName>
          </p>
@@ -161,27 +160,28 @@
             <persName>Pavic</persName>
          </p>
          <p>
-            <persName>Cerquiglini</persName>
+            <persName ref="#BC">Cerquiglini</persName>
          </p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName> <persName>MB</persName> : lecture à Ivry le 3/10 à 20 30 (Programme à déterminer)</item>
+               <persName ref="#JJ">JJ</persName> 
+               <persName ref="#MB">MB</persName> : lecture à Ivry le 3/10 à 20 30 (Programme à déterminer)</item>
             <item>
-               <persName>MB</persName> Invitation à l’<orgName>Oupeinpo</orgName> en janvier.</item>
+               <persName ref="#MB">MB</persName> Invitation à l’<orgName>Oupeinpo</orgName> en janvier.</item>
             <item>
-               <persName>MB</persName> : Nouvelle de <persName>PB</persName> : sera à Paris du 23 10 au 17 11</item>
+               <persName ref="#MB">MB</persName> : Nouvelle de <persName ref="#PB">PB</persName> : sera à Paris du 23 10 au 17 11</item>
          </list>
-         <p>Prochaine réunion : 17/10 chez <persName>CB</persName>.</p>
+         <p>Prochaine réunion : 17/10 chez <persName ref="#CB">CB</persName>.</p>
          <p>Jeudi 16/11 (lieu à déterminer)</p>
          <p>
-            <persName>PF</persName> : sera à Sarrebruck.</p>
-         <p>Traduction de <persName>Calvino</persName> = <title>Forêt. Racine. Labyrinthe</title> 
+            <persName ref="#PF">PF</persName> : sera à Sarrebruck.</p>
+         <p>Traduction de <persName ref="#IC">Calvino</persName> = <title>Forêt. Racine. Labyrinthe</title> 
          </p>
-         <p>problème avec Madame <persName>Calvino</persName> à cause d’un agent américain</p>
+         <p>problème avec Madame <persName ref="#IC">Calvino</persName> à cause d’un agent américain</p>
          <p>
-            <persName>HM</persName>
+            <persName ref="#HM">HM</persName>
             <title>Java</title> (la revue) demande textes oulipiens</p>
-         <p>Centre de vente : <persName>MB</persName>, de l’Oulipo</p>
+         <p>Centre de vente : <persName ref="#MB">MB</persName>, de l’Oulipo</p>
          <p>Menus Propos</p>
          <p>+ (391581 x 2<hi rend="sup">276193</hi>) -1 le nombre premier le plus grand.</p>
       </body>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010178-1975-11-CR">
   <teiHeader>
       <fileDesc>
@@ -24,13 +25,13 @@
                   <date when="1975-11-28">28/11/1975</date>
                   <list type="present">
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                   </list>
                </meeting>
@@ -49,19 +50,18 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="22"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f22.image"/>
+         <pb n="22" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f22.image"/>
          <p>28 Novembre 1975</p>
          <p>Réunion de la Commission pour l’Extension</p>
          <p>des <title>Tables de Queneieff</title>
          </p>
          <p>
-            <persName>FLL</persName>
+            <persName ref="#FLL">FLL</persName>
             <lb/>
-            <persName>Roubaud</persName>
+            <persName ref="#JR">Roubaud</persName>
          </p>
          <p>
-            <persName>Bénabou</persName>
+            <persName ref="#MB">Bénabou</persName>
          </p>
          <p>Propos sur le <title>3e manifeste</title> : sous-titre = <title>pour une science de la poésie.</title>
          </p>
@@ -87,8 +87,8 @@
          <p>difficultés apparaissent au niveau sémantique et au niveau grammatical</p>
          <list type="unordered">
             <item>
-               <title>1014</title>  la cohérence des sonnets de <persName>Queneau</persName> = ils sont toujours reconnaissables à cause d’une unité de vocabulaire, de style.</item>
-            <item>Déception de <persName>Duchateau</persName> et <persName>Bens</persName> parce qu’on ne leur fournissait pas de <term>structure</term>
+               <title>1014</title>  la cohérence des sonnets de <persName ref="#RQ">Queneau</persName> = ils sont toujours reconnaissables à cause d’une unité de vocabulaire, de style.</item>
+            <item>Déception de <persName ref="#JD">Duchateau</persName> et <persName ref="#JB">Bens</persName> parce qu’on ne leur fournissait pas de <term>structure</term>
             </item>
             <item>
                <term>Oulipo fondamental</term> = celui qui se consacre à la recherche</item>
@@ -104,11 +104,10 @@
             <item>le tissu Héla</item>
             <item>histoire d’une nappe portugaise et d’un consul portugais monarchiste et catholique à Porto (racontant l’histoire d’un noble qui enfermait le soir les cheveux de sa femme dans le tiroir d’une commode)</item>
          </list>
-         <p>les ponts faits par Effeil [Eiffel] ne valent pas les ponts faits par <persName>FLL</persName>
+         <p>les ponts faits par Effeil [Eiffel] ne valent pas les ponts faits par <persName ref="#FLL">FLL</persName>
          </p>
-         <pb n="23"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f23.image"/>
-         <p>Projet d’un livre contenant des écrits de <persName>FLL</persName>  
+         <pb n="23" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f23.image"/>
+         <p>Projet d’un livre contenant des écrits de <persName ref="#FLL">FLL</persName>  
          </p>
       </body>
   </text>

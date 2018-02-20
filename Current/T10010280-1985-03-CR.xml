@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010280-1985-03-CR">
   <teiHeader>
       <fileDesc>
@@ -29,25 +30,25 @@
                   <placeName>Chez PB</placeName>
                   <list type="present">
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName role="président">PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                   </list>
                </meeting>
@@ -70,7 +71,7 @@
   <text type="CR">
       <body>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f3.image"/>
-         <p rend="incipit">Oulipo 29/03/85 chez <persName>PB</persName>
+         <p rend="incipit">Oulipo 29/03/85 chez <persName ref="#PB">PB</persName>
          </p>
          <p rend="incipit">Menu :</p>
          <p rend="incipit">cœurs d’artichauts</p>
@@ -79,46 +80,46 @@
          <p rend="incipit">rôti petits pois et pommes de terre nouvelles</p>
          <p rend="incipit">fromages</p>
          <p rend="incipit">fruits</p>
-         <p rend="incipit">Présents : <persName>HM</persName>, <persName>JR</persName>,
-          <persName>PF</persName> (Président), <persName>FC</persName>, <persName>MB</persName>,
-          <persName>PB</persName>, <persName>JB</persName>.</p>
-         <p rend="incipit">Excusés : <persName>MM</persName>, <persName>PR</persName>,
-          <persName>NA</persName> (lecture d’une lettre)</p>
+         <p rend="incipit">Présents : <persName ref="#HM">HM</persName>, <persName ref="#JR">JR</persName>,
+          <persName ref="#PF">PF</persName> (Président), <persName ref="#FC">FC</persName>, <persName ref="#MB">MB</persName>,
+          <persName ref="#PB">PB</persName>, <persName ref="#JB">JB</persName>.</p>
+         <p rend="incipit">Excusés : <persName ref="#MM">MM</persName>, <persName ref="#PR">PR</persName>,
+          <persName ref="#NA">NA</persName> (lecture d’une lettre)</p>
          <p>
             <label type="rubrique">Propos d’apéro</label>
          </p>
          <p>
-            <persName>MB</persName> : distribution des exemplaires de la <title>NBJ</title>
+            <persName ref="#MB">MB</persName> : distribution des exemplaires de la <title>NBJ</title>
           (<title>Nouvelle Barre du Jour</title>)</p>
          <p>
-            <persName>PB</persName> : à propos <name type="manif">des Immatériaux, exposition à Beaubourg</name>
+            <persName ref="#PB">PB</persName> : à propos <name type="manif">des Immatériaux, exposition à Beaubourg</name>
          </p>
          <p>
-            <persName>FC</persName> : Pourquoi y a-t-il un blanc après le nom de
+            <persName ref="#FC">FC</persName> : Pourquoi y a-t-il un blanc après le nom de
           <persName>Caroline</persName>
          </p>
          <p>
-            <persName>PF</persName> : des nouvelles d’<persName>Italo Calvino</persName>
+            <persName ref="#PF">PF</persName> : des nouvelles d’<persName ref="#IC">Italo Calvino</persName>
          </p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>HM</persName> : <title>le duel littéraire</title> (<persName>Rob Wittig</persName>, <title>Code of the Literary Duel</title>)</p>
+            <persName ref="#HM">HM</persName> : <title>le duel littéraire</title> (<persName>Rob Wittig</persName>, <title>Code of the Literary Duel</title>)</p>
          <p>
-            <persName>PB</persName> : une proposition de <persName>G. Perec</persName> : les
+            <persName ref="#PB">PB</persName> : une proposition de <persName ref="#GP">G. Perec</persName> : les
           <term>génitifs récessifs</term> = recherche à faire</p>
          <p>
-            <persName>MB</persName> : Présentation du projet de « <title>Guide</title> »</p>
+            <persName ref="#MB">MB</persName> : Présentation du projet de « <title>Guide</title> »</p>
          <p>
-            <persName>HM</persName> : souhaite que le <term>système</term> soit moins scolaire</p>
+            <persName ref="#HM">HM</persName> : souhaite que le <term>système</term> soit moins scolaire</p>
          <p>
-            <persName>FC</persName> : <title>le symétrique d’ulcérations</title> (archives)
+            <persName ref="#FC">FC</persName> : <title>le symétrique d’ulcérations</title> (archives)
           « <title>l’être supérieur</title> » <persName>Roselmit</persName>
          </p>
          <p>Félicitations</p>
          <p>
-            <persName>JB</persName> : une création de <persName>J. Féron</persName>
+            <persName ref="#JB">JB</persName> : une création de <persName>J. Féron</persName>
           « <title>Épouvantail</title> » <term>variations</term>
          </p>
          <p>
@@ -126,40 +127,40 @@
                <name type="manif">Oulipo Villeneuve</name>
             </label>
          </p>
-         <p>Proposés : <persName>JR</persName>, <persName>JB</persName>, <persName>JJ</persName> ( ?),
-          <persName>MB</persName> du 7 au 12 juillet</p>
+         <p>Proposés : <persName ref="#JR">JR</persName>, <persName ref="#JB">JB</persName>, <persName ref="#JJ">JJ</persName> ( ?),
+          <persName ref="#MB">MB</persName> du 7 au 12 juillet</p>
          <p>
             <label type="rubrique">
                <title>B.O.</title>
             </label>
          </p>
-         <p>PF : 2 volumes de <persName>J.Q.</persName>
+         <p>PF : 2 volumes de <persName ref="#JQ">J.Q.</persName>
          </p>
-         <p>Pli de la lettre de <persName>Luc Etienne</persName> : 50 ex Hors Série</p>
+         <p>Pli de la lettre de <persName ref="#LE">Luc Etienne</persName> : 50 ex Hors Série</p>
          <p>
             <label type="rubrique">
-               <name type="manif">Limoges</name> : Compte rendu de <persName>HM</persName> et
-            <persName>MB</persName>
+               <name type="manif">Limoges</name> : Compte rendu de <persName ref="#HM">HM</persName> et
+            <persName ref="#MB">MB</persName>
             </label>
          </p>
          <p>
-            <persName>HM</persName> demande qu’on ait le droit de séparer les stagiaires</p>
+            <persName ref="#HM">HM</persName> demande qu’on ait le droit de séparer les stagiaires</p>
          <p>
-            <persName>JB</persName> : « … n’est pas des marchands de cochons » : refuser de passer à la
+            <persName ref="#JB">JB</persName> : « … n’est pas des marchands de cochons » : refuser de passer à la
         Télé</p>
          <p>
             <label type="rubrique">Action</label>
          </p>
          <p>
-            <persName>JB</persName> : proposition de l’Université de Pavia</p>
+            <persName ref="#JB">JB</persName> : proposition de l’Université de Pavia</p>
          <p>
-            <persName>MB</persName> : proposition de <persName>Eric Beaumartin</persName> pour un <name type="manif">stage à Vitria</name>
+            <persName ref="#MB">MB</persName> : proposition de <persName>Eric Beaumartin</persName> pour un <name type="manif">stage à Vitria</name>
          </p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>FC</persName> – <title>un homme de lettres</title> (<ref>copie réussie</ref>)</p>
+            <persName ref="#FC">FC</persName> – <title>un homme de lettres</title> (<ref>copie réussie</ref>)</p>
          <list type="unordered">
             <item>
                <title>une curieuse exposition</title> (<ref>copie réussie</ref>)</item>
@@ -171,29 +172,29 @@
             réussie</ref>)</item>
          </list>
          <p>
-            <persName>HM</persName>
+            <persName ref="#HM">HM</persName>
             <term>Tireur à la ligne musicale</term>
          </p>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f4.image"/>
          <p>
-            <persName>MB</persName> : <persName>Brasillach</persName>, <title>8 sept couleurs</title>
+            <persName ref="#MB">MB</persName> : <persName>Brasillach</persName>, <title>8 sept couleurs</title>
          </p>
          <p>
-            <persName>MB</persName> : extrait des travaux de <persName>Laurent Chabin</persName>
+            <persName ref="#MB">MB</persName> : extrait des travaux de <persName>Laurent Chabin</persName>
          </p>
          <p>
             <label type="rubrique">Menus propos</label>
          </p>
          <p>
-            <persName>JB</persName> : <persName>Aristote</persName>, dieu oulipiste.</p>
+            <persName ref="#JB">JB</persName> : <persName>Aristote</persName>, dieu oulipiste.</p>
          <p>
-            <persName>HM</persName> : Traduction de <title>Vie Mode d’Emploi</title>
+            <persName ref="#HM">HM</persName> : Traduction de <title>Vie Mode d’Emploi</title>
          </p>
          <p>
-            <persName>JB</persName> : Numéro spécial <term>Plaine-Chant</term> sur
-          <persName>Blavier</persName>
+            <persName ref="#JB">JB</persName> : Numéro spécial <term>Plaine-Chant</term> sur
+          <persName ref="#AB">Blavier</persName>
          </p>
-         <p>Prochaine réunion : Vendredi 26/4 <persName>PF</persName>
+         <p>Prochaine réunion : Vendredi 26/4 <persName ref="#PF">PF</persName>
          </p>
          <p>
             <name type="manif">Andé 16 Mai</name>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010053-1965-03-29-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010053-1965-03-29-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010053-1965-03-29">la réunion Oulipo</ref> du <date when="1965-03-29">29/03/1965</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,12 +37,11 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="23"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f23.image"/>
+         <pb n="23" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f23.image"/>
          <p rend="incipit">OuLiPo</p>
          <p rend="incipit">Réunion du 7 Clinamen 93 (Vulg. 29 Mars 1965)</p>
-         <p rend="incipit">Excusés : <persName>Robert Faure</persName>, <persName>P. Braffort</persName>, <persName>Queval</persName>, <persName>Bens</persName>, <persName>Berge</persName>.</p>
-         <p rend="incipit">Présents : <persName>FLL</persName>, <persName>Arnaud</persName>, <persName>Queneau</persName>, <persName>Duchateau</persName>.</p>
+         <p rend="incipit">Excusés : <persName>Robert Faure</persName>, <persName ref="#PB">P. Braffort</persName>, <persName ref="#JQ">Queval</persName>, <persName ref="#JB">Bens</persName>, <persName ref="#CB">Berge</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#FLL">FLL</persName>, <persName ref="#NA">Arnaud</persName>, <persName ref="#RQ">Queneau</persName>, <persName ref="#JD">Duchateau</persName>.</p>
          <p>
             <label type="rubrique">Projet d’ordre du jour</label>
          </p>
@@ -66,9 +66,9 @@
          </p>
          <list type="ordered">
             <item/>
-            <item>La réunion du Samedi 20 Mars, avec <persName>Keisel</persName>, <persName>Queneau</persName>, <persName>Braffort</persName>, <persName>F.LL</persName>
+            <item>La réunion du Samedi 20 Mars, avec <persName>Keisel</persName>, <persName ref="#RQ">Queneau</persName>, <persName ref="#PB">Braffort</persName>, <persName ref="#FLL">F.LL</persName>
             </item>
-            <item>L<ref>’article</ref> de <persName>R. Queneau</persName> dans « <ref>Le Nouvel Observateur » du 25 Mars</ref>
+            <item>L<ref>’article</ref> de <persName ref="#RQ">R. Queneau</persName> dans « <ref>Le Nouvel Observateur » du 25 Mars</ref>
             </item>
             <item>La commémoration du 10 clinamen (vulg. 1er avril) à l’<ref>ORTF</ref>. Les <ref>interviews de l’académicien OuLiPoV</ref> et des professeurs <persName>Quenal</persName>, <persName>Jack Castle</persName>, <persName>Giacomo Bensi</persName>, <persName>Forbas</persName>, etc….</item>
             <item/>

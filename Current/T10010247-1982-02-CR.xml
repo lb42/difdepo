@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010247-1982-02-CR">
   <teiHeader>
       <fileDesc>
@@ -25,25 +26,25 @@
                   <placeName>chez MB</placeName>
                   <list type="present">
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName role="président">JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName role="invité">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                   </list>
                </meeting>
@@ -64,58 +65,57 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="36"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010247h/f36.image"/>
+         <pb n="36" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010247h/f36.image"/>
          <p rend="incipit">Réunion du 19 II 82 chez MB</p>
          <list type="unordered">
-            <item>Présents : <persName>JB</persName>-<persName>MM</persName>-<persName>CB</persName>-<persName>JQ</persName>-<persName>JR</persName>-<persName>PF</persName>-<persName>MB</persName>.</item>
-            <item>Excusés : <persName>FLL</persName>. <persName>JL</persName>. <persName>GP</persName>.</item>
-            <item>Absents : <persName>NA</persName>
+            <item>Présents : <persName ref="#JB">JB</persName>-<persName ref="#MM">MM</persName>-<persName ref="#CB">CB</persName>-<persName ref="#JQ">JQ</persName>-<persName ref="#JR">JR</persName>-<persName ref="#PF">PF</persName>-<persName ref="#MB">MB</persName>.</item>
+            <item>Excusés : <persName ref="#FLL">FLL</persName>. <persName ref="#JL">JL</persName>. <persName ref="#GP">GP</persName>.</item>
+            <item>Absents : <persName ref="#NA">NA</persName>
             </item>
-            <item>Invité : <persName>Jacques Jouet</persName>
+            <item>Invité : <persName ref="#JJ">Jacques Jouet</persName>
             </item>
-            <item>Président de séance : <persName>JB</persName>
+            <item>Président de séance : <persName ref="#JB">JB</persName>
             </item>
          </list>
-         <p>Traditionnelle <term>arrivée palindromique</term> de <persName>LE</persName> pour la rue de la Dhuys.</p>
-         <p>Présentation de l’invité par <persName>PF</persName>.</p>
+         <p>Traditionnelle <term>arrivée palindromique</term> de <persName ref="#LE">LE</persName> pour la rue de la Dhuys.</p>
+         <p>Présentation de l’invité par <persName ref="#PF">PF</persName>.</p>
          <p>
-            <persName>PF</persName> : Préparation du <name type="manif">stage d’Amiens</name> (coup de téléphone attendu de <persName>Beton</persName>)</p>
+            <persName ref="#PF">PF</persName> : Préparation du <name type="manif">stage d’Amiens</name> (coup de téléphone attendu de <persName>Beton</persName>)</p>
          <p>
-            <persName>PF</persName> : <title>BO</title> Vente du 1<hi rend="sup">er</hi> tirage oulipo <title>BO</title> terminée.</p>
+            <persName ref="#PF">PF</persName> : <title>BO</title> Vente du 1<hi rend="sup">er</hi> tirage oulipo <title>BO</title> terminée.</p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>JQ</persName> : <title>Le conte du mouton</title> changé en <persName>Perec</persName>. <title>BO</title> n°20 ou 21</item>
+               <persName ref="#JQ">JQ</persName> : <title>Le conte du mouton</title> changé en <persName ref="#GP">Perec</persName>. <title>BO</title> n°20 ou 21</item>
             <item>
-               <persName>JR</persName> : Est en train d’écrire des <term>poèmes infinis</term>. -&gt; <name type="manif">exposé à Amiens</name>.</item>
+               <persName ref="#JR">JR</persName> : Est en train d’écrire des <term>poèmes infinis</term>. -&gt; <name type="manif">exposé à Amiens</name>.</item>
             <item>
-               <persName>MB</persName> : Petit supplément aux dictionnaires des locutions françaises. –<title>BO</title>. N°21 ou 22</item>
+               <persName ref="#MB">MB</persName> : Petit supplément aux dictionnaires des locutions françaises. –<title>BO</title>. N°21 ou 22</item>
             <item>Téléphone au Président -&gt;téléphone d’Amiens.</item>
             <item>
-               <persName>Bens</persName> : Il n’y a pas de sommelier, il n’y a que de sottes gens.</item>
+               <persName ref="#JB">Bens</persName> : Il n’y a pas de sommelier, il n’y a que de sottes gens.</item>
             <item>
-               <persName>JJ</persName> :</item>
+               <persName ref="#JJ">JJ</persName> :</item>
          </list>
          <p>
             <label type="rubrique">Action :</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> : Envoyer projets de travaux pour ordinateur pour <orgName>Alamo</orgName>. exposé de <persName>JB</persName> sur la <orgName>SGDL</orgName>
+               <persName ref="#JR">JR</persName> : Envoyer projets de travaux pour ordinateur pour <orgName>Alamo</orgName>. exposé de <persName ref="#JB">JB</persName> sur la <orgName>SGDL</orgName>
             </item>
             <item>
-               <persName>JJ</persName> lit <title>Zoo ME monosyllabique</title>.</item>
+               <persName ref="#JJ">JJ</persName> lit <title>Zoo ME monosyllabique</title>.</item>
          </list>
          <p>
-            <label type="rubrique">Arrivée de <persName>PB</persName>+<persName>JD</persName> Départ de <persName>LE</persName>
+            <label type="rubrique">Arrivée de <persName ref="#PB">PB</persName>+<persName ref="#JD">JD</persName> Départ de <persName ref="#LE">LE</persName>
             </label>
          </p>
          <list type="unordered">
             <item>
-               <persName>JJ</persName> : Lit quelques textes dont requin sorti du bestiaire et pot-sec d’après <persName>Wozniak</persName>
+               <persName ref="#JJ">JJ</persName> : Lit quelques textes dont requin sorti du bestiaire et pot-sec d’après <persName>Wozniak</persName>
             </item>
          </list>
       </body>

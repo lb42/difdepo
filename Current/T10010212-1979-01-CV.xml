@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010212-1979-01-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010212-1979-01-CV</idno>
-               <title>Convocation à <ref target="#T10010212-1979-01">une réunion Oulipo</ref>, envoyée le <date when="1979-01-02">02/01/1979</date> par <persName role="expéditeur">PF</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010212-1979-01">une réunion Oulipo</ref>, envoyée le <date when="1979-01-02">02/01/1979</date> par <persName ref="#PF">PF</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -54,7 +55,7 @@
          <p>Que l’année vous soit douce et que Oulipo 79 soit gai.</p>
          <p>Bien à vous,</p>
          <p>
-            <persName>Paul Fournel</persName>
+            <persName ref="#PF">Paul Fournel</persName>
          </p>
          <p>Un secrétaire lambin.</p>
       </body>

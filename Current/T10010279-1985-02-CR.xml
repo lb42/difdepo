@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010279-1985-02-CR">
   <teiHeader>
       <fileDesc>
@@ -29,25 +30,25 @@
                   <placeName>Chez FC</placeName>
                   <list type="present">
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName role="président">JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                   </list>
                </meeting>
@@ -71,38 +72,38 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010279n/f1.image"/>
          <p rend="incipit">OULIPO – Réunion du Vendredi 15 février 1985, à 19h et jusque vers 23h.</p>
-         <p rend="incipit">Présents : <persName>François Caradec</persName> qui reçoit en compagnie de
-          <persName>Caroline [Caradec]</persName>, <persName>Marcel Bénabou</persName>,
-          <persName>Jacques Bens</persName>, <persName>Paul Braffort</persName>, <persName>Paul Fournel</persName>, <persName>Jacques Jouet</persName> (C.R.) <persName>Harry Mathews</persName>, <persName>Jacques Roubaud</persName> (Pdt.)</p>
-         <p rend="incipit">Excusés : <persName>Noël Arnaud</persName>, <persName>Claude Berge</persName>, <persName>Jacques Duchateau</persName>, <persName>Michèle Métail</persName>, <persName>Pierre Rosenstiehl</persName>, <persName>Jean Queval</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#FC">François Caradec</persName> qui reçoit en compagnie de
+          <persName>Caroline [Caradec]</persName>, <persName ref="#MB">Marcel Bénabou</persName>,
+          <persName ref="#JB">Jacques Bens</persName>, <persName ref="#PB">Paul Braffort</persName>, <persName ref="#PF">Paul Fournel</persName>, <persName ref="#JJ">Jacques Jouet</persName> (C.R.) <persName ref="#HM">Harry Mathews</persName>, <persName ref="#JR">Jacques Roubaud</persName> (Pdt.)</p>
+         <p rend="incipit">Excusés : <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#CB">Claude Berge</persName>, <persName ref="#JD">Jacques Duchateau</persName>, <persName ref="#MM">Michèle Métail</persName>, <persName ref="#PR">Pierre Rosenstiehl</persName>, <persName ref="#JQ">Jean Queval</persName>.</p>
          <p>
             <label type="rubrique">Créations :</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>Jacques Jouet</persName> donne lecture de son <term>acrostiche</term> de
-            <title>Chrysomallo</title> (commande <persName>Caradec</persName>). Deux
-            <term>rimes</term> sur quatre sont contestées par <persName>Jacques Roubaud</persName> ;
-          deux virgules rajoutées par <persName>Jacques Bens</persName>. Aux suivants !</item>
+               <persName ref="#JJ">Jacques Jouet</persName> donne lecture de son <term>acrostiche</term> de
+            <title>Chrysomallo</title> (commande <persName ref="#FC">Caradec</persName>). Deux
+            <term>rimes</term> sur quatre sont contestées par <persName ref="#JR">Jacques Roubaud</persName> ;
+          deux virgules rajoutées par <persName ref="#JB">Jacques Bens</persName>. Aux suivants !</item>
             <item>
-               <persName>François Caradec</persName> : « <term>Aphorismes</term> bien conçus doivent être
+               <persName ref="#FC">François Caradec</persName> : « <term>Aphorismes</term> bien conçus doivent être
           faits graduellement ». Compris ? Quelques beaux exemples dont celui-ci : A beau cul, doigt
           en fesse.</item>
             <item>
-               <persName>Marcel Bénabou</persName>, De quelques univers engendrés par quelques
+               <persName ref="#MB">Marcel Bénabou</persName>, De quelques univers engendrés par quelques
             <term>contraintes</term> de <term>langage</term>. Une <term>contrainte</term>, en
           limitant le corpus lexical, détermine un sous-univers limité (cf. le
-            <term>lipogramme</term>). <persName>HM</persName> observe qu’une <term>contrainte</term>
-          peut conduire à un non-univers. <persName>MB</persName> donne des exemples diversement
-          convaincants. <persName>PB</persName> estime que les propriétés d’un univers donné peuvent
+            <term>lipogramme</term>). <persName ref="#HM">HM</persName> observe qu’une <term>contrainte</term>
+          peut conduire à un non-univers. <persName ref="#MB">MB</persName> donne des exemples diversement
+          convaincants. <persName ref="#PB">PB</persName> estime que les propriétés d’un univers donné peuvent
           être décrites au moyen d’assertions…</item>
-            <item>…par une habile transition, <persName>Paul Braffort</persName> en vient à nous exposer
+            <item>…par une habile transition, <persName ref="#PB">Paul Braffort</persName> en vient à nous exposer
           le <term>programme Seits</term>, mis au point à l’<name type="manif">Alamo</name> avec
             <persName>Nicole Modiano</persName>, et qui donnera du <term>récit</term> bref (à
-          partir, précisément d’un système d’assertions). <persName>PB</persName> est en train de
+          partir, précisément d’un système d’assertions). <persName ref="#PB">PB</persName> est en train de
           mettre tout ça noir sur blanc. Il le communiquera à tous.</item>
             <item>
-               <persName>Marcel Bénabou</persName> lit quelques <term>alexandrins</term> (croisement
+               <persName ref="#MB">Marcel Bénabou</persName> lit quelques <term>alexandrins</term> (croisement
             d’<term>hémistiches</term> de vers différents) qui seront lisibles sur écran, lors de
             <name type="manif">l’exposition beaubourgeoise « Les immatériaux »</name> .</item>
          </list>
@@ -111,38 +112,38 @@
          </p>
          <list type="unordered">
             <item>
-               <name type="manif">Limoges</name>, 1, 2, 3 mars. <persName>Métail</persName> et
-            <persName>Jouet</persName>, les trois jours. <persName>Mathews</persName> et
-            <persName>Bénabou</persName> à mi-temps.</item>
-            <item>Compte-rendu du <name type="manif">stage d’Yerres</name>, par <persName>Jacques Bens</persName>. (un groupe travaille désormais régulièrement : ateliers, publications).
+               <name type="manif">Limoges</name>, 1, 2, 3 mars. <persName ref="#MM">Métail</persName> et
+            <persName ref="#JJ">Jouet</persName>, les trois jours. <persName ref="#HM">Mathews</persName> et
+            <persName ref="#MB">Bénabou</persName> à mi-temps.</item>
+            <item>Compte-rendu du <name type="manif">stage d’Yerres</name>, par <persName ref="#JB">Jacques Bens</persName>. (un groupe travaille désormais régulièrement : ateliers, publications).
           Y retourner de temps à autre pour diffuser des travaux de type nouveau.</item>
             <item>
-               <persName>Paul Braffort</persName> : « J’me sens saoûl et j’me dis franc ! »</item>
+               <persName ref="#PB">Paul Braffort</persName> : « J’me sens saoûl et j’me dis franc ! »</item>
             <item>
-               <persName>Jacques Roubaud</persName> raconte une histoire de <persName>Laurel &amp; Hardy</persName>.</item>
+               <persName ref="#JR">Jacques Roubaud</persName> raconte une histoire de <persName>Laurel &amp; Hardy</persName>.</item>
             <item>
-               <persName>François Caradec</persName> « Réaction » : que les stagiaires, désormais se
-          déplacent eux-mêmes vers des lieux d’activité choisis par nous ! Suggestions : <name type="manif">Verviers</name>, <name type="manif">Héricy</name>, <name type="manif">Penne-du-Tarn</name>…<persName>Paul Fournel</persName> : « On ne voit pas assez
-            d’<persName>André Blavier</persName>… »</item>
+               <persName ref="#FC">François Caradec</persName> « Réaction » : que les stagiaires, désormais se
+          déplacent eux-mêmes vers des lieux d’activité choisis par nous ! Suggestions : <name type="manif">Verviers</name>, <name type="manif">Héricy</name>, <name type="manif">Penne-du-Tarn</name>…<persName ref="#PF">Paul Fournel</persName> : « On ne voit pas assez
+            d’<persName ref="#AB">André Blavier</persName>… »</item>
             <item>
-               <persName>François Caradec</persName> se demande qui de nous réalisera, cette année, une
+               <persName ref="#FC">François Caradec</persName> se demande qui de nous réalisera, cette année, une
           étude exhaustive sur <persName>Victor Hugo</persName> considéré comme <term>plagiaire par anticipation</term> de l’Oulipo.</item>
             <item>
-               <persName>Jacques Jouet</persName> va à Vichy parler de l’Ouvroir au cours d’une <name type="manif">tournée de la compagnie Catherine Dasté</name>. Il a écrit une
+               <persName ref="#JJ">Jacques Jouet</persName> va à Vichy parler de l’Ouvroir au cours d’une <name type="manif">tournée de la compagnie Catherine Dasté</name>. Il a écrit une
           « ouverture » au prochain spectacle de la troupe : « <title>Amour de Don Perlimplin</title> » de <persName>Lorca</persName>. (Création en mars au Théâtre des
           Quartiers d’Ivry.)</item>
          </list>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010279n/f2.image"/>
          <list type="unordered">
             <item>
-               <persName>Paul Braffort</persName> annonce que la revue « <title>Contrepoints</title> »
-          prépare un numéro d’hommage à <persName>Jean Queval</persName>. Projet, en outre, d’une
+               <persName ref="#PB">Paul Braffort</persName> annonce que la revue « <title>Contrepoints</title> »
+          prépare un numéro d’hommage à <persName ref="#JQ">Jean Queval</persName>. Projet, en outre, d’une
             « <title>Revue parlée</title> » à Beaubourg en décembre prochain.</item>
             <item>
-               <persName>Jacques Roubaud</persName> veut relancer le Comité pour l’attribution du
+               <persName ref="#JR">Jacques Roubaud</persName> veut relancer le Comité pour l’attribution du
             <orgName>Prix Nobel de Littérature</orgName> à l’Oulipo.</item>
             <item>
-               <persName>Marcel Bénabou</persName> lit divers courriers reçus :</item>
+               <persName ref="#MB">Marcel Bénabou</persName> lit divers courriers reçus :</item>
             <item>
                <orgName>Invisible Seattle</orgName> (et non theater, cf. C.R. du 22 11 84 !) annonce sa
           venue en France.</item>
@@ -150,7 +151,7 @@
                <persName>Constantin Kaïteris</persName>, <term>alphabet</term> de
           <term>textes</term>…</item>
             <item>
-               <persName>Jean Camion</persName>, <term>plagiaire par anticipation</term> de <persName>Luc Etienne</persName> (<term>palindrome phonétique</term>).</item>
+               <persName>Jean Camion</persName>, <term>plagiaire par anticipation</term> de <persName ref="#LE">Luc Etienne</persName> (<term>palindrome phonétique</term>).</item>
             <item>
                <persName>Forest</persName> : recherches graphiques.</item>
             <item>
@@ -161,13 +162,13 @@
             </item>
          </list>
          <p>
-            <persName>Paul Fournel</persName> montre une maquette du nouvel imprimeur <persName>Alain Roger</persName> pour le numéro 31 (nouvelle série), <persName>Jean Queval</persName> :
+            <persName ref="#PF">Paul Fournel</persName> montre une maquette du nouvel imprimeur <persName>Alain Roger</persName> pour le numéro 31 (nouvelle série), <persName ref="#JQ">Jean Queval</persName> :
           <title>Insecte contemplant la préhistoire</title>.</p>
          <p>
-            <persName>PF</persName> montre une réalisation d’<persName>A. Roger</persName> à partir
-          d’<title>Ulcerations</title> de <persName>Perec</persName>.</p>
+            <persName ref="#PF">PF</persName> montre une réalisation d’<persName>A. Roger</persName> à partir
+          d’<title>Ulcerations</title> de <persName ref="#GP">Perec</persName>.</p>
          <p>
-            <persName>PF</persName> encore suggère de racheter (a nom de <orgName>Ramsay</orgName>) les
+            <persName ref="#PF">PF</persName> encore suggère de racheter (a nom de <orgName>Ramsay</orgName>) les
         droits de la <title>B.O.</title> – reprint <orgName>Slatkine</orgName>, et de recomposer les
         30 premiers numéros en un seul volume, quitte, ultérieurement à songer, avec
           <orgName>Gallimard</orgName>, à une édition de poche. L’assemblée est tentée.</p>
@@ -176,20 +177,20 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>François Caradec</persName> a une moisson : <title>Antérimes</title> de
+               <persName ref="#FC">François Caradec</persName> a une moisson : <title>Antérimes</title> de
             <persName>Montesquiou</persName> ; <term>alexandrins</term> de longueur inégale, dont
           certains sont déjà connus ; <title>distiques monosyllabiques</title> de <persName>Simon Leroux</persName> ; un beau <term>sonnet monosyllabique</term> de <persName>Jules de Marthold</persName>.</item>
             <item>
-               <persName>Harry Mathews</persName> a trouvé dans <persName>Villiers de L’isle Adam</persName> une description unique servant successivement pour deux lieux
+               <persName ref="#HM">Harry Mathews</persName> a trouvé dans <persName>Villiers de L’isle Adam</persName> une description unique servant successivement pour deux lieux
           différents. (Où dans <persName>Villiers</persName> ? Je n’ai pas bien noté…) Piste à
-          suivre, selon <persName>HM</persName>. <persName>Proust</persName> l’avait fait,
-          involontairement. <persName>Bens</persName> se souvient de quelque chose de semblable dans
+          suivre, selon <persName ref="#HM">HM</persName>. <persName>Proust</persName> l’avait fait,
+          involontairement. <persName ref="#JB">Bens</persName> se souvient de quelque chose de semblable dans
           un de ses <term>romans</term>.</item>
             <item>
-               <persName>Jacques Roubaud</persName> a trouvé un <term>plagiaire par anticipation</term>
-          de <persName>Perec</persName> « seize <term>vers</term> furieux » de seize
+               <persName ref="#JR">Jacques Roubaud</persName> a trouvé un <term>plagiaire par anticipation</term>
+          de <persName ref="#GP">Perec</persName> « seize <term>vers</term> furieux » de seize
             <term>syllabes</term> : 44, dans <title>Agamemnon</title> du dit
-            <persName>Duchat</persName>. Or, les chats de <persName>Perec</persName>
+            <persName>Duchat</persName>. Or, les chats de <persName ref="#GP">Perec</persName>
           s’appelaient…</item>
          </list>
          <p>Il y eut : Clairettes de Die, Pâtés impériaux, Porc piquant, Crevettes, Riz divers, et

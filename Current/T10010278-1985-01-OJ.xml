@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010278-1985-01-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010278-1985-01-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010278-1985-01">la réunion Oulipo</ref> du <date when="1985-01-18">18/01/1985</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -37,70 +38,70 @@
   <text type="OJ">
       <body>
          <pb n="7" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f7.image"/>
-         <p rend="incipit">président <persName>MB</persName> 
+         <p rend="incipit">président <persName ref="#MB">MB</persName> 
          </p>
-         <p rend="incipit">Oulipo Chez <persName>PF</persName> 
+         <p rend="incipit">Oulipo Chez <persName ref="#PF">PF</persName> 
          </p>
          <p rend="incipit">18-1-85</p>
          <p rend="incipit">
-            <persName>JR</persName>, <persName>FC</persName>, <persName>HM</persName>, <persName>MB</persName>, <persName>JJ</persName>, <persName>PF</persName>, <persName>JB</persName> + <persName>PR</persName> 
+            <persName ref="#JR">JR</persName>, <persName ref="#FC">FC</persName>, <persName ref="#HM">HM</persName>, <persName ref="#MB">MB</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#PF">PF</persName>, <persName ref="#JB">JB</persName> + <persName ref="#PR">PR</persName> 
          </p>
-         <p rend="incipit">Excuses : <persName>NA</persName>, <persName>JL</persName>, <persName>MM</persName>, <persName>JQ</persName> 
+         <p rend="incipit">Excuses : <persName ref="#NA">NA</persName>, <persName ref="#JL">JL</persName>, <persName ref="#MM">MM</persName>, <persName ref="#JQ">JQ</persName> 
          </p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <p>
-            <persName>FC</persName> : Excusés <unclear>termes</unclear>
+            <persName ref="#FC">FC</persName> : Excusés <unclear>termes</unclear>
          </p>
          <p>
-            <persName>HM</persName> : Projet à soumettre (<unclear>poliach</unclear> . séance)</p>
+            <persName ref="#HM">HM</persName> : Projet à soumettre (<unclear>poliach</unclear> . séance)</p>
          <p>
-            <persName>JJ</persName> : <term>Diérèse</term> de portion variable</p>
+            <persName ref="#JJ">JJ</persName> : <term>Diérèse</term> de portion variable</p>
          <p>
-            <persName>MB</persName> : suggestions de <term>création</term> !</p>
+            <persName ref="#MB">MB</persName> : suggestions de <term>création</term> !</p>
          <p>
-            <persName>PB</persName> : <term>littérature chimique</term>
+            <persName ref="#PB">PB</persName> : <term>littérature chimique</term>
          </p>
          <p>
             <label type="rubrique">Action</label>
          </p>
-         <p>Réaction = <persName>FC</persName> 2 réactions</p>
+         <p>Réaction = <persName ref="#FC">FC</persName> 2 réactions</p>
          <p>JB <unclear>Yeues</unclear>
          </p>
          <p>
-            <persName>PF</persName> 
+            <persName ref="#PF">PF</persName> 
             <name type="manif">Limoges Mo</name>
          </p>
          <p>
-            <persName>MB</persName> 
+            <persName ref="#MB">MB</persName> 
             <name type="manif">Davos</name> 
          </p>
          <p>
-            <persName>JJ</persName> Créaction</p>
+            <persName ref="#JJ">JJ</persName> Créaction</p>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>FC</persName> On <unclear>conte</unclear> à la façon de <persName>Fouquet</persName>
+            <persName ref="#FC">FC</persName> On <unclear>conte</unclear> à la façon de <persName>Fouquet</persName>
          </p>
          <p>
             <persName>Erudition</persName> 
             <unclear>nominale</unclear>
          </p>
          <p>
-            <persName>PF</persName> 
+            <persName ref="#PF">PF</persName> 
             <term>S+7</term> 
          </p>
          <p>
-            <persName>JJ</persName> 
+            <persName ref="#JJ">JJ</persName> 
             <term>Alexandrins énumératifs</term>
          </p>
          <p>
-            <persName>MB</persName> : <unclear>Cryso Mallo</unclear>
+            <persName ref="#MB">MB</persName> : <unclear>Cryso Mallo</unclear>
          </p>
          <p>
-            <persName>PF</persName> : <title>dictionnaire des mots retrouvés</title>
+            <persName ref="#PF">PF</persName> : <title>dictionnaire des mots retrouvés</title>
          </p>
          <p>
             <label type="rubrique">Menus propos : opérations diverses</label>
@@ -108,7 +109,7 @@
          <p>
             <title>BO</title> : 2 <title>BO</title> à distribuer</p>
          <p>
-            <persName>CB</persName> 
+            <persName ref="#CB">CB</persName> 
             <title>BO</title>
          </p>
       </body>

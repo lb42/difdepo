@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010145-1972-11-OJ">
   <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
             <bibl>
                <idno>T10010145-1972-11-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010145-1972-11">la réunion Oulipo</ref> du <date when="1972-11-08">08/11/1972</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -47,20 +48,20 @@
             <label type="rubrique">Création –</label>
          </p>
          <p>
-            <persName>Perec</persName> : Du petit lait pour <persName>F.L.L</persName>
+            <persName ref="#GP">Perec</persName> : Du petit lait pour <persName ref="#FLL">F.L.L</persName>
          </p>
          <p>
-            <persName>FLL</persName> : <term>Ponctuation</term> et <term>accentuation</term>
+            <persName ref="#FLL">FLL</persName> : <term>Ponctuation</term> et <term>accentuation</term>
          </p>
          <p>
-            <persName>Benabou</persName> : compléments à <persName>FLL</persName> (pieds et points
+            <persName ref="#MB">Benabou</persName> : compléments à <persName ref="#FLL">FLL</persName> (pieds et points
         liés)</p>
-         <p>Information = <persName>Luc Etienne</persName> : invité d’honneur prochain</p>
+         <p>Information = <persName ref="#LE">Luc Etienne</persName> : invité d’honneur prochain</p>
          <p>
-            <persName>Perec</persName> : <orgName>cercle <persName>Polivanoff</persName> 
-</orgName> .</p>
+            <persName ref="#GP">Perec</persName> : <orgName>cercle <persName>Polivanoff</persName> 
+            </orgName> .</p>
          <p>
-            <persName>FLL</persName> : Au sujet de <persName>Braffort</persName> : séminaire
+            <persName ref="#FLL">FLL</persName> : Au sujet de <persName ref="#PB">Braffort</persName> : séminaire
         d’intoxication</p>
          <p>
             <label type="rubrique">Action</label>
@@ -76,7 +77,7 @@
             <label type="rubrique">Menus propos.</label>
          </p>
          <p>
-            <persName>R. Queneau</persName> Question information</p>
+            <persName ref="#RQ">R. Queneau</persName> Question information</p>
       </body>
   </text>
 </TEI>

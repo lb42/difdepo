@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010124-1971-03-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010124-1971-03-CV</idno>
-					          <title>Convocation à <ref target="#T10010124-1971-03">une réunion Oulipo</ref>,						envoyée le <date when="1971-03-22">22/03/1971</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010124-1971-03">une réunion Oulipo</ref>,						envoyée le <date when="1971-03-22">22/03/1971</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -46,7 +47,7 @@
          <p rend="incipit">OuLiPo</p>
          <p rend="incipit">le 22 Mars 1971</p>
          <p rend="incipit">
-            <del>M. <persName>Paul Braffort</persName>
+            <del>M. <persName ref="#PB">Paul Braffort</persName>
             </del>
          </p>
          <p>Chers Brigadiers,</p>
@@ -55,9 +56,9 @@
          <p>a) Compte-rendu de la <name type="manif">célébration Nanterrienne</name>
          </p>
          <p>b) Dossier ex-Cape</p>
-         <p>c) Liste des invités d’honneur (<persName>R. Queneau</persName>)</p>
-         <p>d) Amplification par la méthode des injections successives (<persName>L. Etienne</persName>)</p>
-         <p>e) Poèmes pour ruban de <persName>Möbius</persName> (<persName>L. Etienne</persName>)</p>
+         <p>c) Liste des invités d’honneur (<persName ref="#RQ">R. Queneau</persName>)</p>
+         <p>d) Amplification par la méthode des injections successives (<persName ref="#LE">L. Etienne</persName>)</p>
+         <p>e) Poèmes pour ruban de <persName>Möbius</persName> (<persName ref="#LE">L. Etienne</persName>)</p>
          <p>f) selon vos désirs.</p>
          <p>Pour des raisons qu’il vous sera aisé de comprendre, je vous demande de préciser si vous comptez ou non venir au déjeuner.</p>
          <p>OuLiPiennement vôtre.</p>

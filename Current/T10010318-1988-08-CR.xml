@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010318-1988-08-CR">
   <teiHeader>
       <fileDesc>
@@ -25,25 +26,25 @@
                   <placeName>chez FC</placeName>
                   <list type="present">
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                   </list>
                </meeting>
@@ -64,15 +65,27 @@
   <text type="CR">
       <body>
          <pb n="7" facs="http://gallica.bnf.fr/ark:/12148/btv1b100103183/f7.image"/>
-         <p rend="incipit">Présents : <persName>HM</persName> <persName>JR</persName> <persName>JJ</persName> <persName>MB</persName> <persName>CB</persName> <persName>PF</persName> <persName>FC</persName> <persName>PB</persName>                  le 26 Août 88</p>
-         <p rend="incipit">Absents : <persName>JL</persName> <persName>JB</persName> <persName>PR</persName> <persName>JD</persName> <persName>MM</persName>                             chez <persName>C</persName> &amp; <persName>FC</persName>
+         <p rend="incipit">Présents : <persName ref="#HM">HM</persName> 
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#JJ">JJ</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#FC">FC</persName> 
+            <persName ref="#PB">PB</persName>                  le 26 Août 88</p>
+         <p rend="incipit">Absents : <persName ref="#JL">JL</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#PR">PR</persName> 
+            <persName ref="#JD">JD</persName> 
+            <persName ref="#MM">MM</persName>                             chez <persName>C</persName> &amp; <persName ref="#FC">FC</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>NA</persName> <persName>JQ</persName>                                    Menu chinois</p>
+         <p rend="incipit">Excusés : <persName ref="#NA">NA</persName> 
+            <persName ref="#JQ">JQ</persName>                                    Menu chinois</p>
          <p>
             <label type="rubrique">CRÉATION</label>
          </p>
          <p>
-            <persName>HM</persName> : <title>Cigarettes</title> sort en France</p>
+            <persName ref="#HM">HM</persName> : <title>Cigarettes</title> sort en France</p>
          <p>
             <term>algorithme de Mathews</term>
       
@@ -80,22 +93,22 @@
                <date when="2017-07-20T10:07:00Z"/>$$$ personne</note>
        (<ref>voir document joint</ref>)</p>
          <p>
-            <persName>CB</persName> a fait un <term>graphe</term> des relations entre les personnes : c’est 1 dégénéré du <term>graphe</term> de <persName>Petersen</persName> 
+            <persName ref="#CB">CB</persName> a fait un <term>graphe</term> des relations entre les personnes : c’est 1 dégénéré du <term>graphe</term> de <persName>Petersen</persName> 
          </p>
          <p>
-            <persName>HM</persName> est respectueux pour <persName>AM</persName>° de la <term>contrainte</term> de <persName>CB</persName>.</p>
+            <persName ref="#HM">HM</persName> est respectueux pour <persName>AM</persName>° de la <term>contrainte</term> de <persName ref="#CB">CB</persName>.</p>
          <p>
-            <persName>JJ</persName>1 : <title>Des ans et des ânes</title> sort aussi. Génération des personnages par un <term>algorithme</term> de <persName>PB</persName>
+            <persName ref="#JJ">JJ</persName>1 : <title>Des ans et des ânes</title> sort aussi. Génération des personnages par un <term>algorithme</term> de <persName ref="#PB">PB</persName>
          </p>
          <p>Elaboré pour ce travail. Il y a également des <term>oulipienneries</term> locales.</p>
          <p>
-            <persName>JJ</persName>2 : Sort également le <persName>Queneau</persName>
+            <persName ref="#JJ">JJ</persName>2 : Sort également le <persName ref="#RQ">Queneau</persName>
       
             <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-20T10:09:00Z"/>$$$ titre ?</note>
        à la <orgName>Manufacture</orgName>.</p>
          <p>
-            <persName>JJ</persName>3 : <title>107 âmes</title>. Poèmes sur des gens existants. <term>Rime Berry</term>
+            <persName ref="#JJ">JJ</persName>3 : <title>107 âmes</title>. Poèmes sur des gens existants. <term>Rime Berry</term>
       
             <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-20T10:09:00Z"/>$$$ personne ?</note>
@@ -104,35 +117,35 @@
       
             <term>chonne</term>. <term>Forme fixe</term>.</p>
          <p>
-            <persName>JR</persName> : <title>secondes litanies de la Vierge</title>, <ref>voir copie</ref>.</p>
+            <persName ref="#JR">JR</persName> : <title>secondes litanies de la Vierge</title>, <ref>voir copie</ref>.</p>
          <p>
-            <persName>MB</persName>1 : <title>Bris de mots</title>. (<ref>voir document joint</ref>) <term>surdéfinition</term> &gt; <title>B.O.</title>
+            <persName ref="#MB">MB</persName>1 : <title>Bris de mots</title>. (<ref>voir document joint</ref>) <term>surdéfinition</term> &gt; <title>B.O.</title>
          </p>
          <p>
-            <persName>FC</persName> : <title>Blablabla</title> (<ref>archives</ref>)</p>
+            <persName ref="#FC">FC</persName> : <title>Blablabla</title> (<ref>archives</ref>)</p>
          <p>
-            <persName>MB</persName>2 : <title>Point de départ</title> (à paraître <orgName>Ramsay</orgName>)</p>
+            <persName ref="#MB">MB</persName>2 : <title>Point de départ</title> (à paraître <orgName>Ramsay</orgName>)</p>
          <p>
-            <persName>FC</persName>2 : <title>Prose</title> : <ref>voir joint</ref>
+            <persName ref="#FC">FC</persName>2 : <title>Prose</title> : <ref>voir joint</ref>
          </p>
          <p>
-            <persName>PB</persName> : <unclear>PASR</unclear>
+            <persName ref="#PB">PB</persName> : <unclear>PASR</unclear>
          </p>
          <p>
             <label type="rubrique">ERUDITION</label>
          </p>
          <p>
-            <persName>PF</persName> : Belawal
+            <persName ref="#PF">PF</persName> : Belawal
         <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-20T10:11:00Z"/>Qu’est-ce que c’est que ça ?</note>
        : digression sur la <term>rhétorique</term>.</p>
          <p>
-            <persName>HM</persName>1 : <persName>Saint Potentien</persName> 
+            <persName ref="#HM">HM</persName>1 : <persName>Saint Potentien</persName> 
          </p>
          <p>
-            <persName>FC</persName> : <persName>Charles Cros</persName> inventeur des <title>Schtroumpfs</title>. </p>
+            <persName ref="#FC">FC</persName> : <persName>Charles Cros</persName> inventeur des <title>Schtroumpfs</title>. </p>
          <p>
-            <persName>HM</persName>2 : <persName>Damish</persName> : « <title>impulsion de la forme</title>
+            <persName ref="#HM">HM</persName>2 : <persName>Damish</persName> : « <title>impulsion de la forme</title>
       
             <note place="comment" resp="Natalie_Berkman">
                <date when="2017-07-20T10:12:00Z"/>$$$ notion</note>
@@ -141,40 +154,40 @@
                <date when="2017-08-27T20:51:00Z"/>Je ne classerai pas cet élément très vaste présent dans un titre cité comme « notion »</note>
       »</p>
          <p>
-            <persName>PB</persName> : <persName>Rex Stout</persName> apocryphe</p>
+            <persName ref="#PB">PB</persName> : <persName>Rex Stout</persName> apocryphe</p>
          <p>
             <label type="rubrique">ACTION</label>
          </p>
          <p>
-            <persName>HM</persName>1 : <title>Article sur l’oulipo</title> 
+            <persName ref="#HM">HM</persName>1 : <title>Article sur l’oulipo</title> 
             <orgName>NYRB</orgName>
          </p>
          <p>
-            <persName>MB</persName>1 : Déménagement des archives de l’oulipo. <orgName>Archives Nationales</orgName> ? <orgName>SGDL</orgName> ? <orgName>Arsenal</orgName> ?</p>
-         <p>Tous : <name type="manif">Avignon</name>. <persName>MB</persName> : <persName>Perec</persName> Trahi.</p>
+            <persName ref="#MB">MB</persName>1 : Déménagement des archives de l’oulipo. <orgName>Archives Nationales</orgName> ? <orgName>SGDL</orgName> ? <orgName>Arsenal</orgName> ?</p>
+         <p>Tous : <name type="manif">Avignon</name>. <persName ref="#MB">MB</persName> : <persName ref="#GP">Perec</persName> Trahi.</p>
          <p>
-            <persName>MB</persName> : <name type="manif">Montréal</name> : <orgName>LMCM</orgName> organise le Mai prochain.</p>
+            <persName ref="#MB">MB</persName> : <name type="manif">Montréal</name> : <orgName>LMCM</orgName> organise le Mai prochain.</p>
          <p>
-            <persName>PB</persName> : Rialt</p>
+            <persName ref="#PB">PB</persName> : Rialt</p>
          <p>
-            <persName>JJ</persName> : <title>le désir biographique</title> (lettre qui aurait dû être adressée à <persName>MB</persName>) <persName>P. Lejeune</persName>
+            <persName ref="#JJ">JJ</persName> : <title>le désir biographique</title> (lettre qui aurait dû être adressée à <persName ref="#MB">MB</persName>) <persName>P. Lejeune</persName>
          </p>
          <p>
-            <persName>HM</persName>2 : NY <persName>Lenny Goodman</persName>
+            <persName ref="#HM">HM</persName>2 : NY <persName>Lenny Goodman</persName>
          </p>
          <pb n="8" facs="http://gallica.bnf.fr/ark:/12148/btv1b100103183/f8.image"/>
          <p>
             <label type="rubrique">MENUS-PROPOS</label>
          </p>
          <p>
-            <persName>JR</persName> : <title>Fantasia Mathématica</title> / lettre du libraire de W. Virginia</p>
+            <persName ref="#JR">JR</persName> : <title>Fantasia Mathématica</title> / lettre du libraire de W. Virginia</p>
          <p>
-            <persName>CB</persName> : donne le <title>n° 23</title> dans un titre de <persName>Fénoglio</persName> à <persName>PB</persName>
+            <persName ref="#CB">CB</persName> : donne le <title>n° 23</title> dans un titre de <persName>Fénoglio</persName> à <persName ref="#PB">PB</persName>
          </p>
          <p>
-            <persName>PF</persName> : Aventures de la poésie de <persName>Cheymol</persName> / <persName>Queneau</persName>
+            <persName ref="#PF">PF</persName> : Aventures de la poésie de <persName>Cheymol</persName> / <persName ref="#RQ">Queneau</persName>
          </p>
-         <p>Dates : 23 septembre 88 (<persName>PF</persName>)</p>
+         <p>Dates : 23 septembre 88 (<persName ref="#PF">PF</persName>)</p>
          <p>       25 octobre 88</p>
       </body>
   </text>

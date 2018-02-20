@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010187-1976-08-CR">
   <teiHeader>
       <fileDesc>
@@ -29,19 +30,19 @@
                   <placeName>13 rue Liné</placeName>
                   <list type="present">
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName role="président">HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                   </list>
                </meeting>
@@ -66,9 +67,9 @@
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010187s/f2.image"/>
          <p rend="incipit">Réunion du mardi 3 août 76</p>
          <p rend="incipit">Local : 13 rue Linné/ fond de la cour/ 1er étage/ porte en face</p>
-         <p rend="incipit">Présents : <persName>François Le Lionnais</persName>, <persName>Georges Perec</persName>, <persName>Harry Mathews</persName>, <persName>Paul Braffort</persName>,
-          <persName>Jacques Bens</persName>.</p>
-         <p rend="incipit">Président : <persName>Harry Mathews</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#FLL">François Le Lionnais</persName>, <persName ref="#GP">Georges Perec</persName>, <persName ref="#HM">Harry Mathews</persName>, <persName ref="#PB">Paul Braffort</persName>,
+          <persName ref="#JB">Jacques Bens</persName>.</p>
+         <p rend="incipit">Président : <persName ref="#HM">Harry Mathews</persName>.</p>
          <list type="ordered">
             <item>Considérations (confuses) sur la nuit du 4 août : précéda-t-elle ou suivit-elle la
           journée du 4 ? L’ignorance des uns fait naturellement triompher la science (livresque) des
@@ -76,26 +77,26 @@
          </list>
          <list type="ordered">
             <item>
-               <persName>François Le Lionnais</persName> :</item>
+               <persName ref="#FLL">François Le Lionnais</persName> :</item>
          </list>
          <p>Des contacts ont été pris, à Bruxelles, avec le physicien belge <persName>M. Lamensch</persName>.</p>
          <p>Egalement à Bruxelles, un projet d’émission de télé sur :  <title>
- <persName>Jarry</persName>, la <orgName>‘Pataphysique</orgName> et l’Oulipo</title> a été fomenté par
+               <persName>Jarry</persName>, la <orgName>‘Pataphysique</orgName> et l’Oulipo</title> a été fomenté par
         le réalisateur <persName>M. Van Besin</persName> (?). Le fil conducteur serait le suivant :
         un policier, ayant résolu de ressusciter <persName>Mélanie Le Plumet</persName> et l’Oulipo
         (!), enquête auprès de différentes personnes. L’émission serait enregistrée dans la deuxième
         quinzaine d’août, pour être diffusée au mois de septembre.</p>
          <p>Le problème posé est : que faisons-nous.</p>
          <p>
-            <persName>Paul Braffort</persName> (et l’unanimité) :</p>
+            <persName ref="#PB">Paul Braffort</persName> (et l’unanimité) :</p>
          <p>Impossible à la date envisagée, car nous serons absents.</p>
          <p>Nous voulons réfléchir.</p>
          <p>Proposer une rencontre avant la fin de l’année pour voir ce que nous pourrions faire.</p>
         <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010187s/f3.image"/>
          <list type="ordered">
 
-            <item>Nouvelles de <persName>Jacques Roubaud</persName>, parti, comme on le sait, faire un
-          voyage à pied le long du Mississipi. <persName>J.R.</persName> s’est arrêté au bout de
+            <item>Nouvelles de <persName ref="#JR">Jacques Roubaud</persName>, parti, comme on le sait, faire un
+          voyage à pied le long du Mississipi. <persName ref="#JR">J.R.</persName> s’est arrêté au bout de
           deux mois : il n’y a plus de Mississipi ! Il n’y a plus que des routes nationales
           couvertes de camions.</item>
          </list>
@@ -103,7 +104,7 @@
         Fos-sur-Mer.)</p>
          <list type="ordered">
             <item>
-               <persName>Georges Perec</persName> : Le Voyage à Lyon.</item>
+               <persName ref="#GP">Georges Perec</persName> : Le Voyage à Lyon.</item>
          </list>
          <p>Bref compte-rendu des travaux de la délégation OuLiPienne.</p>
          <p>Aux-mots-funnies cavalières.</p>
@@ -112,19 +113,19 @@
          </list>
          <list type="ordered">
             <item>
-               <persName>Harry Mathews</persName> : 33 <term>Variations</term> OuLiPiennes sur un thème
+               <persName ref="#HM">Harry Mathews</persName> : 33 <term>Variations</term> OuLiPiennes sur un thème
           de <persName>Dowland</persName>.</item>
          </list>
-         <p>Comme exemple, <persName>H.M.</persName> nous lit un « <title>conte à votre façon</title> », histoire d’amour morale et mélancolique, qui arrache des vivats sur tous
+         <p>Comme exemple, <persName ref="#HM">H.M.</persName> nous lit un « <title>conte à votre façon</title> », histoire d’amour morale et mélancolique, qui arrache des vivats sur tous
         les bancs.</p>
          <list type="ordered">
-            <item>En guise de récréation, <persName>Georges Perec</persName> lit des extraits de la
-          traduction qu’il est en train d’établir du dernier roman de <persName>H.M.</persName> :
+            <item>En guise de récréation, <persName ref="#GP">Georges Perec</persName> lit des extraits de la
+          traduction qu’il est en train d’établir du dernier roman de <persName ref="#HM">H.M.</persName> :
             <title>Le Naufrage du stade Odradek</title>.</item>
          </list>
          <list type="ordered">
             <item>
-               <persName>Paul Braffort</persName> : <orgName>OuVidéoPo</orgName>
+               <persName ref="#PB">Paul Braffort</persName> : <orgName>OuVidéoPo</orgName>
             (=<orgName>OuLixPo</orgName>).</item>
          </list>
          <p>Un projet de collaboration est entrepris avec l’<orgName>INA</orgName> : générer une
@@ -138,40 +139,40 @@
         <list type="ordered">
 
             <item>
-               <persName>Georges Perec</persName> : <orgName>OuCiPo</orgName>.</item>
+               <persName ref="#GP">Georges Perec</persName> : <orgName>OuCiPo</orgName>.</item>
          </list>
          <p>
-            <persName>G.P.</persName> fait actuellement un film qui se prêtait tout à fait à un
+            <persName ref="#GP">G.P.</persName> fait actuellement un film qui se prêtait tout à fait à un
         traitement OuLiPien. L’idée principale du montage était d’utiliser une
-          <term>permutation</term> précise des thèmes, des durées, etc. <persName>G.P.</persName>
+          <term>permutation</term> précise des thèmes, des durées, etc. <persName ref="#GP">G.P.</persName>
         n’y est pas arrivé pour des raisons essentiellement pratiques. (Par ex. : l’application
         rigoureuse du <term>système</term> aurait conduit à des plans d’une seconde, etc.)</p>
          <p>
-            <persName>Paul Braffort</persName> : des types de Vincennes ont fait, avec
+            <persName ref="#PB">Paul Braffort</persName> : des types de Vincennes ont fait, avec
           l’<orgName>INA</orgName>, un film de montage à partir de trois films différents : une
         partouze, des types qui marchent, des prostituées dans une rue. Le <term>montage combinatoire</term>, avec un <term>algorithme</term>, peut conduire, suivant le rythme et
         les images choisis, à quelque chose de cohérent ou à une confusion totale.</p>
          <p>
-            <persName>Georges Perec</persName> : en fait, bien que j’aie abandonné le carcan primitif
+            <persName ref="#GP">Georges Perec</persName> : en fait, bien que j’aie abandonné le carcan primitif
         dans toute son étroitesse, le spectateur conservera une impression de <term>rigueur formelle</term>, qui vient essentiellement du fait que le film est entièrement construit
         avec des <term>éléments discrets et récurrents</term>.</p>
          <list type="ordered">
             <item>
-               <persName>Harry Mathews</persName> présente le <title>Livre de Cuisine</title> de
+               <persName ref="#HM">Harry Mathews</persName> présente le <title>Livre de Cuisine</title> de
             <persName>Arabella Bover</persName>, dont les différents services (hors d’œuvre, plat de
           résistance et dessert) sont rédigés sur des feuillets séparés et superposés (à la manière
           des <title>100.000 M de P</title>).</item>
          </list>
          <list type="unordered">
-            <item>9 bis. <persName>François Le Lionnais</persName> rappelle le <name type="manif">banquet du <orgName>CNAC</orgName> 
-</name> 
-          organisé par <persName>M. Spoerri</persName>, où l’on présentait aux 250 invités (dont <persName>FLL</persName>)
+            <item>9 bis. <persName ref="#FLL">François Le Lionnais</persName> rappelle le <name type="manif">banquet du <orgName>CNAC</orgName> 
+               </name> 
+          organisé par <persName>M. Spoerri</persName>, où l’on présentait aux 250 invités (dont <persName ref="#FLL">FLL</persName>)
           près de 150 plats adaptés aux noms desdits invités (dont ledit
-          <persName>FLL</persName>).</item>
+          <persName ref="#FLL">FLL</persName>).</item>
          </list>
          <list type="ordered">
             <item>
-               <persName>Paul Braffort</persName> arrive ici à placer son petit couplet sur <persName>Rex Stout</persName> : il existe un relevé de recettes de ses plats imaginaires, comme la
+               <persName ref="#PB">Paul Braffort</persName> arrive ici à placer son petit couplet sur <persName>Rex Stout</persName> : il existe un relevé de recettes de ses plats imaginaires, comme la
           célèbre saucisse minuit.</item>
          </list>
         <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010187s/f5.image"/>
@@ -202,12 +203,12 @@
             <persName>Cami</persName>: son OuLiPisme. (Ouais.)</p>
          <list type="ordered">
             <item>
-               <persName>François Le Lionnais</persName> : Considérations sur les mœurs sexuelles des
+               <persName ref="#FLL">François Le Lionnais</persName> : Considérations sur les mœurs sexuelles des
           Cimicoidea. (Communication faite récemment sur <orgName>France-Culture</orgName>.)</item>
          </list>
          <list type="ordered">
             <item>
-               <persName>Georges Perec</persName> : sur le <title>Dictionnaire des Onomatopées</title> de
+               <persName ref="#GP">Georges Perec</persName> : sur le <title>Dictionnaire des Onomatopées</title> de
             <persName>Charles Nodier</persName>.</item>
          </list>
          <p>Prochaine réunion : jeudi 23 septembre 1976</p>

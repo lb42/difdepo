@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010109-1970-01-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010109-1970-01-CV</idno>
-					          <title>Convocation à <ref target="#T10010109-1970-01">une réunion							Oulipo</ref>, envoyée le <date when="1970-01-14">14/01/1970</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010109-1970-01">une réunion							Oulipo</ref>, envoyée le <date when="1970-01-14">14/01/1970</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -43,18 +44,18 @@
 					<lb/>605 90-13</p>
          <p rend="incipit">le <date>14 Janvier 1970</date>
          </p>
-         <p rend="incipit">Monsieur <persName>Jacques BENS</persName>
+         <p rend="incipit">Monsieur <persName ref="#JB">Jacques BENS</persName>
          </p>
          <p>Chers Brigadiers,</p>
          <p>La précédente réunion de l’OuLiPo – qui s’est tenue le Vendredi 12 Décembre 1969 – a
 				été caractérisée par un sérieux et une intensité de travail jamais égalés.</p>
-         <p>Il dépend beaucoup du Brigadier <persName>BRAFFORT</persName> que soit terminé le
+         <p>Il dépend beaucoup du Brigadier <persName ref="#PB">BRAFFORT</persName> que soit terminé le
 				travail concernant l’<title>Édition CAPE</title>.</p>
          <p>À l’ordre du jour, nous avons toujours l’étude des structures du roman policier et
 				toutes autres questions qu’il plairait à votre fantaisie de jeter dans le débat.</p>
          <p>OuLiPiennement votre.</p>
          <p>
-				        <persName>F. Le Lionnais</persName>
+				        <persName ref="#FLL">F. Le Lionnais</persName>
 			      </p>
          <p>P.S. Ci-joint une nouvelle liste du « <title>Chant de signe</title> ».</p>
       </body>

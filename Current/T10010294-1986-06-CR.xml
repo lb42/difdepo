@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010294-1986-06-CR">
    <teiHeader>
       <fileDesc>
@@ -24,10 +25,10 @@
                   <date when="1986-06-20">20/06/1986</date>
                   <list type="present">
                      <item>
-                        <persName role="secrétaire">PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName role="président">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                   </list>
                </meeting>
@@ -47,27 +48,25 @@
    </teiHeader>
    <text type="CR">
       <body>
-        <pb n="45"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102947/f45.image"/>
+        <pb n="45" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102947/f45.image"/>
          <p rend="incipit">Réunion de l’Ouvroir de Littérature Potentielle (OULIPO)</p>
-         <p rend="incipit">Le 20/06/1986, chez <persName>Marcel Bénabou</persName> et de l’hôtesse</p>
-         <p rend="incipit">Présents : <persName>J. Jouet</persName> (président), <persName>P. Braffort</persName> (secrétaire), <persName>H. Matthews</persName>, <persName>M. Benabou</persName>, <persName>F. Caradec</persName>. </p>
-         <p rend="incipit">Excusés : <persName>J. Bens</persName>, <persName>J. Lescure</persName>, <persName>N. Arnaud, P. Fournel</persName>, <persName>Cl. Berge</persName>, <persName>M. Métail</persName>, <persName>J. Roubaud</persName>, <persName>J. Queval</persName>. </p>
-         <p rend="incipit">Inexcusés : <persName>J. Duchateau</persName>, <persName>P. Rosentiehl</persName>. </p>
-         <p rend="incipit">Note : <persName>H. Mathews</persName> est à la fois excusé et présent…  Dans ces conditions, le président (<persName>JJ</persName>) donne tout de suite à la parole à <persName>HM</persName>. </p>
+         <p rend="incipit">Le 20/06/1986, chez <persName ref="#MB">Marcel Bénabou</persName> et de l’hôtesse</p>
+         <p rend="incipit">Présents : <persName ref="#JJ">J. Jouet</persName> (président), <persName ref="#PB">P. Braffort</persName> (secrétaire), <persName>H. Matthews</persName>, <persName ref="#MB">M. Benabou</persName>, <persName ref="#FC">F. Caradec</persName>. </p>
+         <p rend="incipit">Excusés : <persName ref="#JB">J. Bens</persName>, <persName ref="#JL">J. Lescure</persName>, <persName>N. Arnaud, P. Fournel</persName>, <persName>Cl. Berge</persName>, <persName ref="#MM">M. Métail</persName>, <persName ref="#JR">J. Roubaud</persName>, <persName ref="#JQ">J. Queval</persName>. </p>
+         <p rend="incipit">Inexcusés : <persName ref="#JD">J. Duchateau</persName>, <persName>P. Rosentiehl</persName>. </p>
+         <p rend="incipit">Note : <persName ref="#HM">H. Mathews</persName> est à la fois excusé et présent…  Dans ces conditions, le président (<persName ref="#JJ">JJ</persName>) donne tout de suite à la parole à <persName ref="#HM">HM</persName>. </p>
          <p>Celui-ci n’est pas avare de création : il propose en effet un renouvellement du <term>carré lescurien</term>, sous le nom de « <term>paramagination</term> ». Il nous présente « l’émigré », texte de présentation de l’exposition <persName>Luc Simon</persName> 
             
                <note place="comment" resp="utilisateur-p3">
                   <date when="2017-11-12T16:33:00Z"/>$$$</note>
             où voisinent et se conjuguent <term>permutation</term>, <term>substitution</term>, <term>paraphonies</term>. </p>
          <p>
-            <persName>HM</persName>. Nous présente aussi quelques intéressantes éruditions : </p>
+            <persName ref="#HM">HM</persName>. Nous présente aussi quelques intéressantes éruditions : </p>
          <p>- <term>sextine</term> de <persName>W. H. HODEN</persName> avec variante </p>
-         <pb n="46"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102947/f46.image"/>
+         <pb n="46" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102947/f46.image"/>
          <p>- nouvelle série de livres populaires en arbres ; <persName>Jim Gasperin</persName>, les <term>graphes</term> y possèdent des <term>cycles « didactiques ».</term> 
          </p>
-         <p>Au chapitre de l’érudition, <persName>FC</persName> n’est jamais absent. Il nous propose les thèmes suivants : </p>
+         <p>Au chapitre de l’érudition, <persName ref="#FC">FC</persName> n’est jamais absent. Il nous propose les thèmes suivants : </p>
          <p>- salade mythologique</p>
          <p>- <term>lipogramme</term> 
          </p>
@@ -78,7 +77,7 @@
          <p>- <term>Boule de neige</term> de <persName>Besse de Larzes</persName> (le secrétaire a quelque mal à déchiffrer ses notes) <lb/>
          </p>
          <p>
-            <persName>JJ</persName> nous présente alors</p>
+            <persName ref="#JJ">JJ</persName> nous présente alors</p>
          <p>- la rime sans suite</p>
          <p>- Heures indues</p>
          <p>- <persName>Cortazar</persName> sattarsa (même remarque que précédemment). </p>
@@ -86,9 +85,9 @@
          <p>
             <label type="rubrique">La rubrique Action est consacrée au stagide ….
                <unclear>illisible</unclear>
-               …. (5-12 /07/86) qui bénéficiera du concours de <persName>MB</persName>, <persName>JJ</persName>, <persName>NA</persName> et <persName>MM</persName>. La réunion statutaire s’y tiendra, avec la participation de <persName>PB</persName> (animateur <unclear>illisible</unclear> au même endroit). </label>
+               …. (5-12 /07/86) qui bénéficiera du concours de <persName ref="#MB">MB</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#NA">NA</persName> et <persName ref="#MM">MM</persName>. La réunion statutaire s’y tiendra, avec la participation de <persName ref="#PB">PB</persName> (animateur <unclear>illisible</unclear> au même endroit). </label>
          </p>
-         <p>La rubrique <title>BO</title> est assurée par <persName>MB</persName> qui rend compte de l’inventaire effectué en collaboration avec <persName>PBH</persName>. Sont disponibles ; 2238 volumes, 13 séries complètes  (à partir du n°5). A suivre… </p>
+         <p>La rubrique <title>BO</title> est assurée par <persName ref="#MB">MB</persName> qui rend compte de l’inventaire effectué en collaboration avec <persName>PBH</persName>. Sont disponibles ; 2238 volumes, 13 séries complètes  (à partir du n°5). A suivre… </p>
       </body>
    </text>
 </TEI>

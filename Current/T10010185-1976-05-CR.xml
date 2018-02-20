@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010185-1976-05-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -28,25 +29,25 @@
 						            <placeName>chez GP</placeName>
 						            <list type="present">
 							              <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
 							              <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
 							              <item>
-                        <persName>RQ</persName>
+                        <persName ref="#RQ">RQ</persName>
                      </item>
 							              <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
 							              <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
 							              <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
 							              <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
 						            </list>
 					          </meeting>
@@ -68,9 +69,9 @@
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010185w/f3.image"/>
          <p rend="incipit">oulipo</p>
          <p rend="incipit">13 05 76</p>
-         <p rend="incipit">Présents : <persName>Perec</persName>, <persName>Queneau</persName>, <persName>H. Mathews</persName>, <persName>P. Fournel</persName>, <persName>J. Bens</persName>, <persName>Bénabou</persName>, <persName>Calvino</persName>			
+         <p rend="incipit">Présents : <persName ref="#GP">Perec</persName>, <persName ref="#RQ">Queneau</persName>, <persName ref="#HM">H. Mathews</persName>, <persName ref="#PF">P. Fournel</persName>, <persName ref="#JB">J. Bens</persName>, <persName ref="#MB">Bénabou</persName>, <persName ref="#IC">Calvino</persName>			
          </p>
-         <p rend="incipit">Président élu : <persName>J. Bens</persName>.			</p>
+         <p rend="incipit">Président élu : <persName ref="#JB">J. Bens</persName>.			</p>
          <p>Remarque générale : demander aux membres de l’Oulipo d’arriver à l’heure (11h)
 			</p>
          <p>
@@ -85,7 +86,7 @@
          <p>Exposé de 1 heure environ.
 			</p>
          <p>
-				        <persName>PF</persName> : Action : montage de l’<term>arbre à théâtre </term>: nouvelles difficultés.</p>
+				        <persName ref="#PF">PF</persName> : Action : montage de l’<term>arbre à théâtre </term>: nouvelles difficultés.</p>
          <p>Le problème est renvoyé à fin Septembre.</p>
          <p>
 				        <persName>P. Braf</persName> : -	a vu <persName>B. Gauthier</persName>, il est membre de la <orgName>commission chargée d’aider les artistes utilisant l’informatique</orgName>.
@@ -97,12 +98,12 @@
 				Discussion sur le budget.
 			</p>
          <p>
-				        <persName>HM</persName> : demande que le spectacle Oulipien ne devienne pas un obstacle aux autres activités.</p>
+				        <persName ref="#HM">HM</persName> : demande que le spectacle Oulipien ne devienne pas un obstacle aux autres activités.</p>
          <p>Discussion sur ce point.</p>
          <p>
-				        <persName>Fournel</persName> propose qu’une commission des fêtes soit nommée pour s’occuper du spectacle.</p>
+				        <persName ref="#PF">Fournel</persName> propose qu’une commission des fêtes soit nommée pour s’occuper du spectacle.</p>
          <p>
-				        <persName>Calvino</persName> : pour un Hamlet rotatif.
+				        <persName ref="#IC">Calvino</persName> : pour un Hamlet rotatif.
 			</p>
          <p>
 				-	<persName>Fortinbras</persName> arrive au 1er acte et ne sait pas quoi faire.</p>
@@ -111,18 +112,18 @@
          <p>
 				Demande l’aide de l’Oulipo pour une <term>formalisation</term> générale de ce problème.</p>
          <p>
-				        <persName>Braffort</persName> : importance du problème de la <term>formalisation</term>, auquel il travaille.</p>
+				        <persName ref="#PB">Braffort</persName> : importance du problème de la <term>formalisation</term>, auquel il travaille.</p>
          <p>
-				        <persName>Bens</persName> : le système de <term>rotation</term> ne marche pas pour n’importe quelle pièce : cf <persName>Labiche</persName>.</p>
+				        <persName ref="#JB">Bens</persName> : le système de <term>rotation</term> ne marche pas pour n’importe quelle pièce : cf <persName>Labiche</persName>.</p>
          <p>
-				        <persName>Bénabou</persName> : point sur la <title>bibliothèque oulipienne</title>
+				        <persName ref="#MB">Bénabou</persName> : point sur la <title>bibliothèque oulipienne</title>
 			      </p>
          <p>
-				Chèque de <persName>Queneau</persName> 345.
+				Chèque de <persName ref="#RQ">Queneau</persName> 345.
 				
 			</p>
          <p>
-				        <persName>P Fournel</persName> : expédition Lyon remise au 12.
+				        <persName ref="#PF">P Fournel</persName> : expédition Lyon remise au 12.
 				
 			</p>
          <p>
@@ -130,16 +131,16 @@
 				
 			</p>
          <p>
-				        <persName>Perec</persName> : Oulipo et mass media.</p>
+				        <persName ref="#GP">Perec</persName> : Oulipo et mass media.</p>
          <p>
-				Les poèmes de <persName>Perec</persName> vont paraître dans l’<title>Echo des Savanes</title>.
+				Les poèmes de <persName ref="#GP">Perec</persName> vont paraître dans l’<title>Echo des Savanes</title>.
 				
 			</p>
          <p>
-				        <persName>Fournel</persName> : Table de multiplication : garder l’air et changer le son
+				        <persName ref="#PF">Fournel</persName> : Table de multiplication : garder l’air et changer le son
 			</p>
          <p>
-				        <persName>Perec</persName> : le poids d’une lettre : un train peut en cacher un autre.
+				        <persName ref="#GP">Perec</persName> : le poids d’une lettre : un train peut en cacher un autre.
 				
 			</p>
          <p>

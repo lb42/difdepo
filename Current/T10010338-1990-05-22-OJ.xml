@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010338-1990-05-22-OJ">
   <teiHeader>
       <fileDesc>
@@ -25,7 +26,7 @@
             <bibl>
                <idno>T10010338-1990-05-22-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010338-1990-05-22">la réunion Oulipo</ref> du <date when="1990-05-22">22/05/1990</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -43,10 +44,10 @@
       <body>
          <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f1.image"/>
          <p rend="incipit">OULIPO 22-05-90</p>
-         <p rend="incipit">Chez <persName>PF</persName> Odj</p>
-         <p rend="incipit">Présents : <persName>FC</persName>, <persName>PF</persName>,
-          <persName>JJ</persName>, <persName>MB</persName>, <persName>MM</persName>,
-          <persName>JR</persName>
+         <p rend="incipit">Chez <persName ref="#PF">PF</persName> Odj</p>
+         <p rend="incipit">Présents : <persName ref="#FC">FC</persName>, <persName ref="#PF">PF</persName>,
+          <persName ref="#JJ">JJ</persName>, <persName ref="#MB">MB</persName>, <persName ref="#MM">MM</persName>,
+          <persName ref="#JR">JR</persName>
          </p>
          <p rend="incipit">Excusés</p>
          <p>
@@ -54,9 +55,9 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : demande de création X</item>
+               <persName ref="#PF">PF</persName> : demande de création X</item>
             <item>
-               <persName>FC</persName> :</item>
+               <persName ref="#FC">FC</persName> :</item>
             <item>
                <term>Doublement</term> X</item>
             <item>
@@ -67,26 +68,26 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>FC</persName> : <persName>Estienne</persName> X</item>
+               <persName ref="#FC">FC</persName> : <persName>Estienne</persName> X</item>
             <item>
-               <persName>FC</persName> : <term>Plagiat par anticipation</term> d’une <term>contrainte Canada-dry</term>
+               <persName ref="#FC">FC</persName> : <term>Plagiat par anticipation</term> d’une <term>contrainte Canada-dry</term>
             </item>
             <item>
-               <persName>MB</persName> : <persName>JC</persName>
+               <persName ref="#MB">MB</persName> : <persName>JC</persName>
                <persName>Renard</persName>
             </item>
             <item>
                <unclear>Asymétrie </unclear>
             </item>
             <item>
-               <persName>JJ</persName> : Host</item>
+               <persName ref="#JJ">JJ</persName> : Host</item>
          </list>
          <p>
             <label type="rubrique">Action :</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName>
+               <persName ref="#PF">PF</persName>
                <persName>Schiavetta</persName> - <persName>Bollati Boringhieri</persName> X</item>
             <item>Corepry X</item>
             <item>
@@ -94,7 +95,7 @@
             <item>Droits d’auteurs X / Acheter <persName>Tabourot</persName>
             </item>
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
                <name type="manif">Amsterdam</name> X <name type="manif">Ottawa</name> X</item>
             <item>
                <name type="manif">Tokyo</name> X</item>
@@ -108,21 +109,21 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>MB</persName> Lei</item>
+               <persName ref="#MB">MB</persName> Lei</item>
             <item>
-               <persName>JJ</persName> : <persName>Marcel Bénabou</persName> X</item>
+               <persName ref="#JJ">JJ</persName> : <persName ref="#MB">Marcel Bénabou</persName> X</item>
             <item>
-               <persName>JR</persName> Salerno</item>
+               <persName ref="#JR">JR</persName> Salerno</item>
             <item>
-               <persName>JR</persName>
+               <persName ref="#JR">JR</persName>
                <unclear>Schevh haft</unclear>
             </item>
          </list>
-         <p>Prochaine réunion mardi 23 midi chez <persName>FC</persName>
+         <p>Prochaine réunion mardi 23 midi chez <persName ref="#FC">FC</persName>
          </p>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f2.image"/>
          <p>
-            <unclear>Dune</unclear> relié de <persName>PF</persName> :</p>
+            <unclear>Dune</unclear> relié de <persName ref="#PF">PF</persName> :</p>
          <p>Manuel de civilité</p>
          <p>Avec <unclear>autruatsure</unclear>
          </p>

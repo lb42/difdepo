@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010257-1983-01-CR">
    <teiHeader>
       <fileDesc>
@@ -25,28 +26,28 @@
                   <placeName>chez FLL</placeName>
                   <list type="present">
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>IC</persName>
+                        <persName ref="#IC">IC</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                   </list>
                </meeting>
@@ -67,22 +68,33 @@
    <text type="CR">
       <body>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010257x/f3.image"/>
-         <p rend="incipit">Réunion du 21 janvier 83 chez <persName>FLL</persName>
+         <p rend="incipit">Réunion du 21 janvier 83 chez <persName ref="#FLL">FLL</persName>
          </p>
-         <p rend="incipit">Présents : <persName>PB</persName> <persName>MM</persName> <persName>IC</persName> <persName>MB</persName> <persName>CB</persName> <persName>NA</persName> <persName>FLL</persName> <persName>PF</persName> 
+         <p rend="incipit">Présents : <persName ref="#PB">PB</persName> 
+            <persName ref="#MM">MM</persName> 
+            <persName ref="#IC">IC</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#NA">NA</persName> 
+            <persName ref="#FLL">FLL</persName> 
+            <persName ref="#PF">PF</persName> 
          </p>
-         <p rend="incipit">Excusés : <persName>AB</persName> <persName>JB</persName> <persName>JD</persName> <persName>HM</persName> <persName>JR</persName>
+         <p rend="incipit">Excusés : <persName ref="#AB">AB</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#JD">JD</persName> 
+            <persName ref="#HM">HM</persName> 
+            <persName ref="#JR">JR</persName>
          </p>
-         <p rend="incipit">Absents : <persName>JL</persName>
+         <p rend="incipit">Absents : <persName ref="#JL">JL</persName>
          </p>
          <p>
             <label type="rubrique">Création </label>
          </p>
          <p>
-            <persName>PF</persName> : lecture des textes de l’hommage à <persName>GP</persName>
+            <persName ref="#PF">PF</persName> : lecture des textes de l’hommage à <persName ref="#GP">GP</persName>
          </p>
          <p>
-            <persName>LE</persName> : Faire un <term>texte qui alternerait consonnes et voyelles</term>
+            <persName ref="#LE">LE</persName> : Faire un <term>texte qui alternerait consonnes et voyelles</term>
             
                <note place="comment" resp="utilisateur-p3">
                   <date when="2017-08-27T20:44:00Z"/>Il s’agit d’une description d’un procédé possible pas d’une « notion » au sens où nous l’avons défini</note>
@@ -96,15 +108,15 @@
              <term>1c 1v</term>
          </p>
          <p>
-            <persName>JR</persName> 
+            <persName ref="#JR">JR</persName> 
             <term>1c2v</term>
          </p>
          <p>
-            <persName>PB</persName> 
+            <persName ref="#PB">PB</persName> 
             <term>2c 1v</term>
          </p>
          <p>
-            <persName>MB</persName> : lecture du 100<hi rend="sup">e</hi> chapitre de <title>la Vie mode d’emploi</title>
+            <persName ref="#MB">MB</persName> : lecture du 100<hi rend="sup">e</hi> chapitre de <title>la Vie mode d’emploi</title>
             
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-24T11:52:00Z"/>$$$ titre</note>
@@ -114,7 +126,7 @@
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>MB</persName> : quelques projets communs avec <persName>Georges P.</persName> 
+            <persName ref="#MB">MB</persName> : quelques projets communs avec <persName ref="#GP">Georges P.</persName> 
          </p>
          <p>
             <term>Carte de la langue</term>
@@ -131,16 +143,16 @@
             <label type="rubrique">Action </label>
          </p>
          <p>
-            <persName>PB</persName> Compte rendu du stage oulipo à la <orgName>fac d’Avignon</orgName> 
+            <persName ref="#PB">PB</persName> Compte rendu du stage oulipo à la <orgName>fac d’Avignon</orgName> 
          </p>
          <p>
-            <persName>PF</persName> : <orgName>association GP</orgName>
+            <persName ref="#PF">PF</persName> : <orgName>association GP</orgName>
             
                <note place="comment" resp="Natalie_Berkman">
                   <date when="2017-08-24T11:55:00Z"/>$$$ personne</note>
              
          </p>
-         <p>Prochaine réunion : 18-2-83 chez <persName>MM</persName>. Invité <persName>Rota</persName>, Parrain <persName>Berge</persName>. </p>
+         <p>Prochaine réunion : 18-2-83 chez <persName ref="#MM">MM</persName>. Invité <persName>Rota</persName>, Parrain <persName ref="#CB">Berge</persName>. </p>
          <p>
             <persName>Giam Paolo Dossena</persName>
          </p>
@@ -155,18 +167,18 @@
             <label type="rubrique">Invités / Parrains</label>
          </p>
          <p>3 <persName>Cortazar</persName> ? </p>
-         <p>2 <persName>Dossena</persName> / <persName>Calvino</persName>
+         <p>2 <persName>Dossena</persName> / <persName ref="#IC">Calvino</persName>
          </p>
-         <p>1 <persName>Giancarlo Rota</persName> / <persName>Claude Berge</persName>
+         <p>1 <persName>Giancarlo Rota</persName> / <persName ref="#CB">Claude Berge</persName>
          </p>
-         <p>4 <persName>Pouilloux</persName> / <persName>Bénabou</persName>
+         <p>4 <persName>Pouilloux</persName> / <persName ref="#MB">Bénabou</persName>
          </p>
-         <p>6 <persName>Magné</persName> / <persName>Bénabou</persName>
+         <p>6 <persName>Magné</persName> / <persName ref="#MB">Bénabou</persName>
          </p>
-         <p>5 <persName>Devos</persName> / <persName>P. Braffort</persName>
+         <p>5 <persName>Devos</persName> / <persName ref="#PB">P. Braffort</persName>
          </p>
          <p>
-            <persName>J</persName> et <persName>B</persName> : <persName>Cerquiglini</persName>, <persName>Nadaud</persName>, <persName>Zumthor</persName>
+            <persName>J</persName> et <persName>B</persName> : <persName ref="#BC">Cerquiglini</persName>, <persName>Nadaud</persName>, <persName>Zumthor</persName>
          </p>
       </body>
    </text>

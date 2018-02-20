@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010264-1983-10-CR">
   <teiHeader>
       <fileDesc>
@@ -28,31 +29,31 @@
                   <date when="1983-10-02">02/10/1983</date>
                   <list type="present">
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="président">NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                   </list>
                </meeting>
@@ -73,54 +74,53 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="38"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f38.image"/>
+         <pb n="38" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f38.image"/>
          <p rend="incipit">Dimanche 2 Octobre 83</p>
          <p rend="incipit">(séance ouverte : 9h30)</p>
-         <p rend="incipit">Président : <persName>N.A.</persName>
+         <p rend="incipit">Président : <persName ref="#NA">N.A.</persName>
          </p>
-         <p rend="incipit">Secrétaire : <persName>MB</persName>.</p>
+         <p rend="incipit">Secrétaire : <persName ref="#MB">MB</persName>.</p>
          <p>
-            <persName>PF</persName> Bibliothèque oulipienne : les textes ne sont pas prêts au moment où
-        on les <unclear>…</unclear> nécessité d’un « éditeur » . <persName>J.B.</persName> se
+            <persName ref="#PF">PF</persName> Bibliothèque oulipienne : les textes ne sont pas prêts au moment où
+        on les <unclear>…</unclear> nécessité d’un « éditeur » . <persName ref="#JB">J.B.</persName> se
         propose.</p>
-         <p>23 – Hommage à <persName>Perec</persName> : récapitulation des textes – le numéro est
+         <p>23 – Hommage à <persName ref="#GP">Perec</persName> : récapitulation des textes – le numéro est
         clos.</p>
-         <p>24 – La ponctuation de <persName>J. Queval</persName> : lecture du manuscrit – acceptation
+         <p>24 – La ponctuation de <persName ref="#JQ">J. Queval</persName> : lecture du manuscrit – acceptation
         enthousiaste.</p>
          <p>– Et aussi le 2<hi rend="sup">e</hi>
-            <persName>Queval</persName>
+            <persName ref="#JQ">Queval</persName>
          </p>
-         <p>– <persName>L.E.</persName> la <term>contrainte du coupeur de</term>
+         <p>– <persName ref="#LE">L.E.</persName> la <term>contrainte du coupeur de</term>
             <unclear>brousse</unclear>
          </p>
          <p>Ordre de publication à déterminer</p>
-         <p>– <persName>MB</persName> les <term>locutions introuvables</term>
+         <p>– <persName ref="#MB">MB</persName> les <term>locutions introuvables</term>
          </p>
          <p>
-            <persName>M.B.</persName> pour l’hommage à <persName>Perec</persName>, augmenter le
+            <persName ref="#MB">M.B.</persName> pour l’hommage à <persName ref="#GP">Perec</persName>, augmenter le
         tirage.</p>
          <p>
-            <persName>J.B.</persName> En faire un tirage spécial pour les <orgName>Amis de Georges Perec</orgName> : voir comment cela est possible.</p>
+            <persName ref="#JB">J.B.</persName> En faire un tirage spécial pour les <orgName>Amis de Georges Perec</orgName> : voir comment cela est possible.</p>
          <p>
-            <persName>MB.</persName> Faire le dépôt légal des exemplaires non encore déposés.</p>
+            <persName ref="#MB">MB.</persName> Faire le dépôt légal des exemplaires non encore déposés.</p>
          <p>
-            <persName>JQ.</persName> Propose un de ses amis pour imprimer la <title>B.O.</title>
+            <persName ref="#JQ">JQ.</persName> Propose un de ses amis pour imprimer la <title>B.O.</title>
          </p>
          <p>
-            <persName>P.B.</persName> : Communication /<ref>voir archives</ref>
+            <persName ref="#PB">P.B.</persName> : Communication /<ref>voir archives</ref>
          </p>
          <p>Une problématique nouvelle de la <term>prosodie</term>.</p>
          <p>
-            <persName>CB.</persName> Compléments à « <title>la reine Aztèque</title> »</p>
+            <persName ref="#CB">CB.</persName> Compléments à « <title>la reine Aztèque</title> »</p>
          <p>Proposition de contrainte reposant sur des mots = <term>fonction</term> …</p>
          <p>
-            <persName>J.R.</persName> – <term>L’alexandrin</term> : projet de programme de
+            <persName ref="#JR">J.R.</persName> – <term>L’alexandrin</term> : projet de programme de
         reconnaissance des <term>alexandrins</term> (en créer la confection avec
-          <persName>PB</persName>)</p>
+          <persName ref="#PB">PB</persName>)</p>
          <p>– La <term>famille des rimes</term> : <term>rimes oulipo</term>, <term>rimes babebibobu</term>, <term>rime leporeiambi</term>
          </p>
-         <p>– <persName>CB</persName>
+         <p>– <persName ref="#CB">CB</persName>
             <persName>Dubois</persName>, le <name type="manif">Jeu de la Renaissance Vrin 83</name>
          </p>
          <p>– <term>glissement progressif de la rime en changeant le support de la rime</term>
@@ -128,50 +128,48 @@
          <p>arme orme orbe serbe …</p>
          
             
-               <pb n="39"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f39.image"/>
+               <pb n="39" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f39.image"/>
             
          
          <p>Oulipo (dimanche 2-10-83)</p>
          <p>
-            <persName>MM</persName> proposition de participer à une revue de
+            <persName ref="#MM">MM</persName> proposition de participer à une revue de
           <persName>Pinguilly</persName>, qui s’appelle <title>Trousse-livres</title> : sur
           <term>l’atelier d’écriture</term>
          </p>
-         <p>Il nous propose 12 pages sur 32 : <persName>NA</persName> fera la présentation</p>
+         <p>Il nous propose 12 pages sur 32 : <persName ref="#NA">NA</persName> fera la présentation</p>
          <p>
-            <persName>MB</persName> + <persName>PB</persName> feront un article présentant à la fois
+            <persName ref="#MB">MB</persName> + <persName ref="#PB">PB</persName> feront un article présentant à la fois
           <orgName>Alamo</orgName> et <orgName>Oulipo</orgName> avec travaux et stagiaires</p>
          <p>
-            <persName>J.Q.</persName> propose un texte : <title>De L’Ouvroir de l’Oulipo et son extérieur à toute l’humanité</title>
+            <persName ref="#JQ">J.Q.</persName> propose un texte : <title>De L’Ouvroir de l’Oulipo et son extérieur à toute l’humanité</title>
          </p>
          <p>
-            <persName>MB.</persName> Définition .. <term>n+1 n-1</term>
+            <persName ref="#MB">MB.</persName> Définition .. <term>n+1 n-1</term>
          </p>
          <p>Définition en par <unclear>..</unclear> leur mots autre lesquels il est situé dans un
         dictionnaire donné</p>
          <p>
-            <persName>JR</persName> érudition sur le <term>singe dactylographe</term>
+            <persName ref="#JR">JR</persName> érudition sur le <term>singe dactylographe</term>
          </p>
          <p>
-            <persName>MB</persName> présentation de l’exercice : un nom propre <unclear>… sur son
+            <persName ref="#MB">MB</persName> présentation de l’exercice : un nom propre <unclear>… sur son
           nerf</unclear>
          </p>
          <p>
             <unclear>…que</unclear> de : masculin-féminin</p>
          <p>
-            <persName>MM</persName> a déjà fait des choses de ce genre</p>
+            <persName ref="#MM">MM</persName> a déjà fait des choses de ce genre</p>
          <p>Prochaines réunions :</p>
-         <p>Vendredi 4 novembre à midi chez <persName>MM</persName> : invité
+         <p>Vendredi 4 novembre à midi chez <persName ref="#MM">MM</persName> : invité
           <persName>Klinkenberg</persName>
          </p>
-         <p>Vendredi 2 Décembre chez <persName>MB</persName>. Le soir : séance d’intronisation des
+         <p>Vendredi 2 Décembre chez <persName ref="#MB">MB</persName>. Le soir : séance d’intronisation des
         nouveaux élus</p>
-         <p>Clôture du congrès par <persName>NA</persName> (13h05)</p>
-         <pb n="40"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f40.image"/>
+         <p>Clôture du congrès par <persName ref="#NA">NA</persName> (13h05)</p>
+         <pb n="40" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f40.image"/>
          <p>
-            <persName>Marcel Benabou</persName>
+            <persName ref="#MB">Marcel Benabou</persName>
             <name type="manif">Congrès Oulipo 1/10/83</name>
          </p>
          <p>Organisation</p>
@@ -187,7 +185,7 @@
             </item>
             <item>Remplacer (une fois par trois, par exemple) le déjeuner par un dîner.</item>
             <item>(constitution d’un dossier de présentation de l’Oulipo = brochure</item>
-            <item>habilitation de <persName>MB</persName>.</item>
+            <item>habilitation de <persName ref="#MB">MB</persName>.</item>
          </list>
       </body>
   </text>

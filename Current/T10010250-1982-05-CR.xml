@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010250-1982-05-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -24,25 +25,25 @@
 						            <placeName>chez Marcel Bénabou</placeName>
 						            <list type="present">
 							              <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
 							              <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
 							              <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
 							              <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
 							              <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
 							              <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
 							              <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
 						            </list>
 					          </meeting>
@@ -61,18 +62,17 @@
 	  </teiHeader>
 	  <text type="CR">
 		    <body>
-         <pb n="10"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010250s/f10.image"/>
-         <p rend="incipit">Réunion du 28 V 82 chez <persName>MB</persName>
+         <pb n="10" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010250s/f10.image"/>
+         <p rend="incipit">Réunion du 28 V 82 chez <persName ref="#MB">MB</persName>
          </p>
          <list type="unordered">
 				
 				        <item>Invité d'honneur: <persName>Robert Sabatier</persName>
 				           <lb/>Invité du Président: <persName>Michel Philippot</persName>
             </item>
-				        <item>Excusés : <persName>LE</persName>, <persName>MM</persName>, <persName>AB</persName>
+				        <item>Excusés : <persName ref="#LE">LE</persName>, <persName ref="#MM">MM</persName>, <persName ref="#AB">AB</persName>
             </item>
-				        <item>Présents : <persName>JB</persName>, <persName>JQ</persName>, <persName>MB</persName>, <persName>HM</persName>, <persName>PF</persName>, <persName>FLL</persName>, <persName>PB</persName>.</item>
+				        <item>Présents : <persName ref="#JB">JB</persName>, <persName ref="#JQ">JQ</persName>, <persName ref="#MB">MB</persName>, <persName ref="#HM">HM</persName>, <persName ref="#PF">PF</persName>, <persName ref="#FLL">FLL</persName>, <persName ref="#PB">PB</persName>.</item>
 			      </list>
          <p>
             <label type="rubrique">Erudition</label>
@@ -80,30 +80,30 @@
          <list type="unordered">
 				        <item>Lecture de courrier.</item>
 				        <item>
-               <persName>Harry</persName> lit un <term>centon</term> américain</item>
+               <persName ref="#HM">Harry</persName> lit un <term>centon</term> américain</item>
 				        <item>
-               <persName>PF</persName> lit des exercices de <persName>M. Longre</persName> sur un poème de <title>Lipo</title> 
+               <persName ref="#PF">PF</persName> lit des exercices de <persName>M. Longre</persName> sur un poème de <title>Lipo</title> 
                <ref>(voir archives)</ref>
             </item>
 				        <item>
-               <persName>JR</persName>: vers rapportés</item>
-				        <item>Arrivée de <persName>FLL</persName>: parle d'un article (ancien) de <persName>Frémion</persName> dans <title>Fluide Glacial</title> parle de sa classification des "locals clos" à paraître dans les <title>Subsidia Pataphysica</title> (<orgName>oulipopo</orgName>)</item>
+               <persName ref="#JR">JR</persName>: vers rapportés</item>
+				        <item>Arrivée de <persName ref="#FLL">FLL</persName>: parle d'un article (ancien) de <persName>Frémion</persName> dans <title>Fluide Glacial</title> parle de sa classification des "locals clos" à paraître dans les <title>Subsidia Pataphysica</title> (<orgName>oulipopo</orgName>)</item>
 				        <item>
-               <orgName>oumupo</orgName>: <persName>Michel Philippot</persName> présente sa musique sur le poème boule<unclear>?</unclear> de <persName>FLL</persName> (<persName>Corneille</persName> plus <persName>Brébaut</persName>)</item>
+               <orgName>oumupo</orgName>: <persName>Michel Philippot</persName> présente sa musique sur le poème boule<unclear>?</unclear> de <persName ref="#FLL">FLL</persName> (<persName>Corneille</persName> plus <persName>Brébaut</persName>)</item>
 				        <item>
-               <persName>JR</persName>: <term>Vers rapportés</term>
+               <persName ref="#JR">JR</persName>: <term>Vers rapportés</term>
 				           <lb/>donnera son étude plus tard.
 					<lb/>Annonce communication sur<unclear>
                   <persName>Bruno</persName>
                </unclear> .</item>
 				        <item>
-               <persName>PF</persName>: <title>le prisonnier</title> (<ref>voir archives</ref>)
-					<lb/>plus tente <persName>Bens</persName> (<ref>voir archives</ref>)</item>
+               <persName ref="#PF">PF</persName>: <title>le prisonnier</title> (<ref>voir archives</ref>)
+					<lb/>plus tente <persName ref="#JB">Bens</persName> (<ref>voir archives</ref>)</item>
 				        <item>
-               <persName>JQ</persName>: <term>Paralogismes</term>
+               <persName ref="#JQ">JQ</persName>: <term>Paralogismes</term>
             </item>
 				        <item>
-               <persName>HM</persName>: <term>Métaphores</term> (<ref>voir archives</ref>)</item>
+               <persName ref="#HM">HM</persName>: <term>Métaphores</term> (<ref>voir archives</ref>)</item>
 				        <item>Invité d'honneur</item>
 			      </list>
          <p>
@@ -111,14 +111,14 @@
          </p>
          <list type="unordered">
 				        <item>
-               <persName>HM</persName> annonce une soirée <persName>Perec</persName> le 1er juin prochain
+               <persName ref="#HM">HM</persName> annonce une soirée <persName ref="#GP">Perec</persName> le 1er juin prochain
 				<lb/>place Saint Germain des Prés</item>
 				        <item>
-               <persName>JB</persName> Problème de la <name type="event">décade Oulipo</name> de <name type="event">Cerisy</name> en 83
+               <persName ref="#JB">JB</persName> Problème de la <name type="event">décade Oulipo</name> de <name type="event">Cerisy</name> en 83
 				<lb/>Faut-il la faire? On est juste après une <name type="event">décade sur stages</name>
             </item>
 				        <item>vote contre la <name type="event">décade</name>
-				           <lb/>abstention unamine de <persName>JQ</persName>
+				           <lb/>abstention unamine de <persName ref="#JQ">JQ</persName>
             </item>
 			      </list>
       </body>

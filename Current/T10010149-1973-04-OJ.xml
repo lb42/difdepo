@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010149-1973-04-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010149-1973-04-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010149-1973-04">la réunion Oulipo</ref> du <date when="1973-04-25">25/04/1973</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,8 +37,7 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="10"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100101491/f10.image"/>
+         <pb n="10" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101491/f10.image"/>
          <p rend="incipit">25/4/73</p>
          <p rend="incipit">
             <persName>Le Lionnais Mathews Queval Queneau Etienne Lescure Benabou</persName>
@@ -47,23 +47,23 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>Etienne</persName> ‑ <term>Würfelspiel Littéraire</term>
+               <persName ref="#EL">Etienne</persName> ‑ <term>Würfelspiel Littéraire</term>
             </item>
             <item>
-               <persName>Queval</persName> ‑ dialogues ou roman</item>
+               <persName ref="#JQ">Queval</persName> ‑ dialogues ou roman</item>
          </list>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>Le Lionnais</persName> ‑ <title>La loi du talion</title>
+            <persName ref="#FLL">Le Lionnais</persName> ‑ <title>La loi du talion</title>
          </p>
          <p>
             <label type="rubrique">Action</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>Queneau</persName> ‑ Service de presse</item>
+               <persName ref="#RQ">Queneau</persName> ‑ Service de presse</item>
             <item>Madame Columbia (<persName>Danielle Haase-Dubosc</persName>)</item>
          </list>
          <p>
@@ -76,7 +76,7 @@
          <pb n="12" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101491/f12.image"/>
          <p>(<term>jeu de dés</term>)</p>
          <p>
-            <persName>Etienne</persName> ‑ <term>Würfelspiel Littéraire</term>
+            <persName ref="#EL">Etienne</persName> ‑ <term>Würfelspiel Littéraire</term>
          </p>
          <p>
             <term>Würfelspiel</term> de <persName>Mozart</persName> (?) ‑ adapté à la création littéraire. Exclu jusqu’à p 
@@ -88,11 +88,11 @@
          </p>
          <p>56 (coups possibles) sections ou chapitres.</p>
          <p>Dans chacun: <term>structure</term> de l’action. Personnages: au moins 3, ou plus 18. Prénoms. Liste.</p>
-         <p>(Objection de <persName>Queneau</persName> sur le hasard)</p>
+         <p>(Objection de <persName ref="#RQ">Queneau</persName> sur le hasard)</p>
          <p>
-            <persName>Le Lionnais</persName> : tentation du hasard. Acception combiné avec autres <term>structures</term>. Il faut une difficulté dans la <term>cohérence sémantique</term>.</p>
+            <persName ref="#FLL">Le Lionnais</persName> : tentation du hasard. Acception combiné avec autres <term>structures</term>. Il faut une difficulté dans la <term>cohérence sémantique</term>.</p>
          <p>
-            <persName>Queval</persName> ‑ dialogues dont les répliques sont laissés en suspens: possibilité de développement dans <term>sémantique</term> oulipienne.</p>
+            <persName ref="#JQ">Queval</persName> ‑ dialogues dont les répliques sont laissés en suspens: possibilité de développement dans <term>sémantique</term> oulipienne.</p>
       </body>
   </text>
 </TEI>

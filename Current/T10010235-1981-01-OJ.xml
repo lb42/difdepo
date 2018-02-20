@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010235-1981-01-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010235-1981-01-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010235-1981-01">la réunion Oulipo</ref> du <date when="1981-01-30">30/01/1981</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -36,8 +37,7 @@
   </teiHeader>
   <text type="OJ">
       <body>
-         <pb n="26"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102356/f26.image"/>
+         <pb n="26" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102356/f26.image"/>
          <p rend="incipit">Oulipo. 30 I 81</p>
          <p rend="incipit">Chez Fournel</p>
          <p rend="incipit">JR JG CB LE JB</p>
@@ -46,39 +46,39 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JR</persName> 
+               <persName ref="#JR">JR</persName> 
                <title>Io et le loup 17</title> 
                <term>haïkaï</term> en <term>ouliporismes</term>
             </item>
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
             </item>
             <item>
                <term>Mini dramatique radiophonique</term>
             </item>
             <item>4e de couverture</item>
             <item>
-               <persName>HM</persName> Divergence</item>
+               <persName ref="#HM">HM</persName> Divergence</item>
             <item>
-               <persName>CB</persName> 
+               <persName ref="#CB">CB</persName> 
                <term>Poèmes infinis</term>
             </item>
             <item>
-               <persName>MB</persName> par élèves</item>
+               <persName ref="#MB">MB</persName> par élèves</item>
             <item>
-               <persName>JR</persName> 
+               <persName ref="#JR">JR</persName> 
                <persName>Maarri</persName>
             </item>
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
                <term>plagiat par anticipation</term>
             </item>
             <item>
-               <persName>JQ</persName> 
+               <persName ref="#JQ">JQ</persName> 
                <persName>Péguy</persName>
             </item>
             <item>
-               <persName>LE</persName>
+               <persName ref="#LE">LE</persName>
             </item>
          </list>
          <p>
@@ -86,11 +86,11 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>JQ</persName> inviter <persName>GP</persName> comme invité d’honneur</item>
+               <persName ref="#JQ">JQ</persName> inviter <persName ref="#GP">GP</persName> comme invité d’honneur</item>
             <item>
-               <persName>PF</persName> 4e de couverture</item>
+               <persName ref="#PF">PF</persName> 4e de couverture</item>
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
             </item>
             <item>
                <name type="manif">Rameil-Nantes</name>
@@ -101,13 +101,13 @@
             <item>
                <title>BO</title> vol 2</item>
             <item>
-               <persName>LE</persName> 
+               <persName ref="#LE">LE</persName> 
                <title>BO</title>
             </item>
             <item>
-               <persName>LE</persName> invité d’honneur</item>
+               <persName ref="#LE">LE</persName> invité d’honneur</item>
             <item>
-               <persName>CB</persName> Présentation avec <persName>MB</persName>
+               <persName ref="#CB">CB</persName> Présentation avec <persName ref="#MB">MB</persName>
             </item>
          </list>
          <p>
@@ -115,31 +115,31 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> vol. 2</item>
+               <persName ref="#PF">PF</persName> vol. 2</item>
             <item>
-               <persName>MB</persName>
+               <persName ref="#MB">MB</persName>
             </item>
          </list>
          <p>
             <label type="rubrique">L’invité d’honneur</label>
          </p>
          <p>
-            <persName>LE</persName>
+            <persName ref="#LE">LE</persName>
          </p>
          <p>
             <label type="rubrique">Menus</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>JB</persName> 2 menus</item>
+               <persName ref="#JB">JB</persName> 2 menus</item>
             <item>JQ <orgName>Gallimard</orgName>
             </item>
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
                <orgName>Slatkine</orgName>
             </item>
             <item>
-               <persName>JR</persName> Hommage à <persName>Sébastien Bottin</persName>
+               <persName ref="#JR">JR</persName> Hommage à <persName>Sébastien Bottin</persName>
             </item>
          </list>
       </body>

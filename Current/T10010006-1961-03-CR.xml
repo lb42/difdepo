@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010006-1961-03-CR">
   <teiHeader>
       <fileDesc>
@@ -24,13 +25,13 @@
                   <date when="1961-03-13">13/03/1961</date>
                   <list type="present">
                      <item>
-                        <persName>JQ</persName>
+                        <persName ref="#JQ">JQ</persName>
                      </item>
                      <item>
-                        <persName>RQ</persName>
+                        <persName ref="#RQ">RQ</persName>
                      </item>
                      <item>
-                        <persName>AMS</persName>
+                        <persName ref="#AMS">AMS</persName>
                      </item>
                   </list>
                </meeting>
@@ -63,8 +64,8 @@
          <p>que nous nous réunirons le LUNDI 17 AVRIL</p>
          <list type="ordered">
             <item>TRAVAUX.</item>
-            <item>un <term>sonnet</term> inédit de <persName>V.H.</persName> nous a été présenté par <persName>Jean Queval</persName>. Il s’agit d’un <term>sonnet</term> composé avec les <term>alexandrins</term> se trouvant dans les œuvres en <term>prose</term> de <persName>V.H.</persName> La <term>reconstitution</term> de <persName>Jean Queval</persName> laisse à penser que <persName>V.H.</persName> a dissimulé dans son œuvre des messages d’ordre historico-politique.</item>
-            <item>suite de l’examen de la poétique curieuse de <persName>G.B.</persName>, par <persName>Raymond Queneau</persName>. Nous avons retenu :<list type="unordered">
+            <item>un <term>sonnet</term> inédit de <persName>V.H.</persName> nous a été présenté par <persName ref="#JQ">Jean Queval</persName>. Il s’agit d’un <term>sonnet</term> composé avec les <term>alexandrins</term> se trouvant dans les œuvres en <term>prose</term> de <persName>V.H.</persName> La <term>reconstitution</term> de <persName ref="#JQ">Jean Queval</persName> laisse à penser que <persName>V.H.</persName> a dissimulé dans son œuvre des messages d’ordre historico-politique.</item>
+            <item>suite de l’examen de la poétique curieuse de <persName>G.B.</persName>, par <persName ref="#RQ">Raymond Queneau</persName>. Nous avons retenu :<list type="unordered">
                   <item>
                      <term>vers lettisés</term>, ou, <term>tantogrammes</term> : tous les mots commencent par une même lettre. (Ex : miroir mondain, madame magnifique / Ardent amour, adorable Angélique…)</item>
                   <item>
@@ -76,8 +77,8 @@
                </list>
             </item>
             <item>lecture de la <title>
- <term>ballade</term> de <persName>Jehan Molinet</persName> 
-</title> , précédée de considérations biographiques sur l’auteur, par <persName>Albert-Marie Schmidt</persName>.</item>
+                  <term>ballade</term> de <persName>Jehan Molinet</persName> 
+               </title> , précédée de considérations biographiques sur l’auteur, par <persName ref="#AMS">Albert-Marie Schmidt</persName>.</item>
          </list>
       </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010293-1986-05-CR">
 	  <teiHeader>
 		    <fileDesc>
@@ -24,25 +25,25 @@
 						            <placeName>Moulin d'Andé</placeName>
 						            <list type="present">
 							              <item>
-								                <persName>NA</persName>
+								                <persName ref="#NA">NA</persName>
 							              </item>
 							              <item>
-								                <persName>MB</persName>
+								                <persName ref="#MB">MB</persName>
 							              </item>
 							              <item>
-								                <persName>JB</persName>
+								                <persName ref="#JB">JB</persName>
 							              </item>
 							              <item>
-								                <persName>PB</persName>
+								                <persName ref="#PB">PB</persName>
 							              </item>
 							              <item>
-								                <persName>FC</persName>
+								                <persName ref="#FC">FC</persName>
 							              </item>
 							              <item>
-								                <persName>PF</persName>
+								                <persName ref="#PF">PF</persName>
 							              </item>
 							              <item>
-								                <persName>JJ</persName>
+								                <persName ref="#JJ">JJ</persName>
 							              </item>
 						            </list>
 					          </meeting>
@@ -61,90 +62,88 @@
 	  </teiHeader>
 	  <text type="CR">
 		    <body>
-         <pb n="58"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f58.image"/>
+         <pb n="58" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f58.image"/>
          <p rend="incipit">Oulipo – au Moulin d'Andé, les 8, 9, 10 et 11 mai 1986</p>
-         <p rend="incipit">Présents : <persName>Noël Arnaud</persName>, <persName>Marcel					Bénabou</persName>, <persName>Jacques Bens</persName>, <persName>Paul					Braffort</persName>, <persName>François Caradec</persName>, <persName>Paul					Fournel</persName>, <persName>Jacques Jouet</persName>.</p>
-         <p rend="incipit">Excusés : <persName>CB</persName>, <persName>JL</persName>,
-					<persName>HM</persName>, <persName>MM</persName>, <persName>JQ</persName>,
-					<persName>JR</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#NA">Noël Arnaud</persName>, <persName>Marcel					Bénabou</persName>, <persName ref="#JB">Jacques Bens</persName>, <persName>Paul					Braffort</persName>, <persName ref="#FC">François Caradec</persName>, <persName>Paul					Fournel</persName>, <persName ref="#JJ">Jacques Jouet</persName>.</p>
+         <p rend="incipit">Excusés : <persName ref="#CB">CB</persName>, <persName ref="#JL">JL</persName>,
+					<persName ref="#HM">HM</persName>, <persName ref="#MM">MM</persName>, <persName ref="#JQ">JQ</persName>,
+					<persName ref="#JR">JR</persName>.</p>
          <p>
 				        <label type="rubrique">
                <title>GUIDE</title>, plan</label>
 			      </p>
          <list type="unordered">
 				        <item>
-               <persName>PF</persName> ouvre le feu contre le plan du volume. L'Oulipo est
+               <persName ref="#PF">PF</persName> ouvre le feu contre le plan du volume. L'Oulipo est
 					dans une situation de vide théorique. Ce projet est faible. Textes inégaux.
 					Projet trop voisin de l’<title>Atlas</title>. Il faut renoncer aux
 						<term>recueils de fratrasies</term>
             </item>
 				        <item>
-               <persName>FC</persName>: On y sent trop les jeux. Halte à la <term>notion de						jeu</term> qui nous enferme. Plan trop ambitieux. Le guide ne pourra être
+               <persName ref="#FC">FC</persName>: On y sent trop les jeux. Halte à la <term>notion de						jeu</term> qui nous enferme. Plan trop ambitieux. Le guide ne pourra être
 					que lacunaire.</item>
-				        <item>: <persName>PF</persName> PF rappelle d’autres projets,
+				        <item>: <persName ref="#PF">PF</persName> PF rappelle d’autres projets,
 						<title>Oulipo-Pédago</title>, modèles... Il veut qu’on se penche sur les
 					oeuvres dont l'existence doit quelque chose aux méthodes oulipiennes.</item>
-				        <item>: <persName>JJ</persName> défend le plan. Il manque une partie des textes
+				        <item>: <persName ref="#JJ">JJ</persName> défend le plan. Il manque une partie des textes
 					prévus (notamment dans la partie théorique). Crainte que le projet
 						<title>Oulipo-pédago</title> n’encourage le vide théorique et ne baigne dans
 					les jeux. Les modèles, personne n’en fait. Les oeuvres oulipiennes : le passé
 					est roi ! L'Oulipo fonctionne irrégulièrement.</item>
-				        <item>: <persName>NA</persName> et <persName>FC</persName> insistent sur
+				        <item>: <persName ref="#NA">NA</persName> et <persName ref="#FC">FC</persName> insistent sur
 					l'importance du Glossaire (prévu dans le plan du Guide).</item>
-				        <item>: <persName>MB</persName> rappelle le travail déjà effectué sur le
+				        <item>: <persName ref="#MB">MB</persName> rappelle le travail déjà effectué sur le
 						<title>Guide</title>. Crainte qu’on reparte de zéro, sans plus de chances
 					d’aboutir. Note la démobilisation des absents. Avons-nous, conclut-il, un projet
 					commun ?</item>
-				        <item>: <persName>NA</persName> a travaillé. Texte sur les plagiaires par
-					anticipation du principe de <persName>Roubaud</persName>. Texte sur quelques
+				        <item>: <persName ref="#NA">NA</persName> a travaillé. Texte sur les plagiaires par
+					anticipation du principe de <persName ref="#JR">Roubaud</persName>. Texte sur quelques
 					autres plagiaires (<persName>Lasphrise</persName>, <persName>Cyrano</persName>,
 						<persName>J. Magnon</persName>), langages animaux, argot, petit-nègre
 					...</item>
 				        <item>
-               <persName>NA</persName>, encore, introduit dans un texte très exhaustif la
+               <persName ref="#NA">NA</persName>, encore, introduit dans un texte très exhaustif la
 					notion de <term>clinamen</term> avant l'Oulipo (des épicuriens à la
 						<term>'pataphysique</term>').</item>
 				        <item>Longue discussion sur le <term>clinamen</term>.</item>
-				        <item>: <persName>MB</persName>, le <term>clinamen</term> intervient, dans une
+				        <item>: <persName ref="#MB">MB</persName>, le <term>clinamen</term> intervient, dans une
 					écriture sous contrainte, au moment où la contrainte risque de créer des
 						<term>automatismes</term> bloquants. <term>Clinamen</term> par redoublement
 					de contrainte, par relâchement ... Joker...</item>
-				        <item>: <persName>PB</persName> propose un nouveau plan d’un livre qui aurait pour
+				        <item>: <persName ref="#PB">PB</persName> propose un nouveau plan d’un livre qui aurait pour
 					titre <title>Le moniteur de la littérature</title>. Il serait constitué de
 					textes théoriques, accompagnés d’exemples littéraires intercalés : <list type="ordered">
 						            <item>Introduction</item>
-						            <item>Plagiaires par anticipation (<persName>NA</persName>)</item>
+						            <item>Plagiaires par anticipation (<persName ref="#NA">NA</persName>)</item>
 						            <item>Contraintes et structures
-								(<persName>PB</persName>-<persName>MB</persName>)</item>
+								(<persName ref="#PB">PB</persName>-<persName ref="#MB">MB</persName>)</item>
 						            <item>Conclusion</item>
-						            <item>Glossaire (<persName>FC</persName>-<persName>NA</persName>)</item>
+						            <item>Glossaire (<persName ref="#FC">FC</persName>-<persName ref="#NA">NA</persName>)</item>
 					          </list>
 				        </item>
-				        <pb n="59"
-                facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f59.image"/>
+				        <pb n="59" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f59.image"/>
 				        <item>Plan détaillé du 4): <list type="unordered">
-						            <item>La règle et la contrainte (<persName>MB</persName>)</item>
+						            <item>La règle et la contrainte (<persName ref="#MB">MB</persName>)</item>
 						            <item>Les éléments et leur combinatoire : matière de texte ; hiérarchie des
 							niveaux, échelles ; stuctures obliques ; évaluation des structures.
-								(<persName>PB</persName>)</item>
+								(<persName ref="#PB">PB</persName>)</item>
 						            <item>Tables, tabeaux
-							(<persName>RQ</persName>-<persName>MB</persName>)</item>
+							(<persName ref="#RQ">RQ</persName>-<persName ref="#MB">MB</persName>)</item>
 						            <item>
                      <term>Clinamen</term>
-							(<persName>NA</persName>-<persName>MB</persName>)</item>
+							(<persName ref="#NA">NA</persName>-<persName ref="#MB">MB</persName>)</item>
 					          </list>
 				        </item>
 				        <item>: Commence aussitôt un travail par groupes: <list type="unordered">
 						            <item>
-                     <persName>NA</persName>-<persName>FC</persName>: Glossaire.</item>
+                     <persName ref="#NA">NA</persName>-<persName ref="#FC">FC</persName>: Glossaire.</item>
 						            <item>
-                     <persName>PB</persName>-<persName>JJ</persName>-<persName>JB</persName>:
+                     <persName ref="#PB">PB</persName>-<persName ref="#JJ">JJ</persName>-<persName ref="#JB">JB</persName>:
 							L'auteur oulipien</item>
 						            <item>
-                     <persName>PB</persName> (4)</item>
+                     <persName ref="#PB">PB</persName> (4)</item>
 						            <item>
-                     <persName>MB</persName> (4)</item>
+                     <persName ref="#MB">MB</persName> (4)</item>
 					          </list>
 				        </item>
 			      </list>
@@ -152,34 +151,34 @@
 				        <label type="rubrique">Réunion statuaire:</label>
 			      </p>
          <list type="unordered">
-				        <item>: Hommage <persName>FLL</persName>. <persName>MB</persName> montre des papiers
-					retrouvés dans les dossiers de <persName>FLL</persName> :
+				        <item>: Hommage <persName ref="#FLL">FLL</persName>. <persName ref="#MB">MB</persName> montre des papiers
+					retrouvés dans les dossiers de <persName ref="#FLL">FLL</persName> :
 						<orgName>Ou-x-po</orgName> ; <orgName>Oucinépo</orgName>. Il manque toujours
-					des interventions pour la <title>BO</title> d’hommage. <persName>JR</persName> et
-						<persName>PF</persName> ont en projet une réponse au 3e manifeste.</item>
-				        <item>B.O. Finances au plus bas. Stock au plus haut. <persName>PF</persName> propose
+					des interventions pour la <title>BO</title> d’hommage. <persName ref="#JR">JR</persName> et
+						<persName ref="#PF">PF</persName> ont en projet une réponse au 3e manifeste.</item>
+				        <item>B.O. Finances au plus bas. Stock au plus haut. <persName ref="#PF">PF</persName> propose
 					une nouvelle formule :50 exemplaires frappe machine, reliure simple, et
 					réédition en volume, régulièrement chez <persName>Ramsay</persName>.
-						<persName>NA</persName> trouve cette solution antibibliophilique. Accord
+						<persName ref="#NA">NA</persName> trouve cette solution antibibliophilique. Accord
 					général, pourtant, mais décision de poursuivre l’ancienne formule pour quatre
-					volumes encore : <persName>MM</persName> (en <unclear>compo</unclear>); <persName>JL</persName>
-					(<title>Ultra Crepidam</title>) ; <persName>FC</persName> (Poésie et ponctuation)
-						<persName>NA</persName> (Domimots)</item>
+					volumes encore : <persName ref="#MM">MM</persName> (en <unclear>compo</unclear>); <persName ref="#JL">JL</persName>
+					(<title>Ultra Crepidam</title>) ; <persName ref="#FC">FC</persName> (Poésie et ponctuation)
+						<persName ref="#NA">NA</persName> (Domimots)</item>
 				        <item>Subvention à demander au <orgName>CNL</orgName>, au plus tôt
-						(<persName>MB</persName>-<persName>NA</persName>)</item>
+						(<persName ref="#MB">MB</persName>-<persName ref="#NA">NA</persName>)</item>
 				        <item>Diffusion interne du stock de <title>BO</title> : à la prochaine réunion chez
-						<persName>MB</persName>MB, et au prix coûtant.</item>
-				        <item>Eruditions : <persName>FC</persName>
-					          <title>"Salade de départements"</title> (in <title>Le Tintamarre 1/7/						1877</title>); <persName>FC</persName>, <persName>Raphaël						Brossard</persName>, article sur les <term>mots croisés</term>. <persName>MB</persName> a
+						<persName ref="#MB">MB</persName>MB, et au prix coûtant.</item>
+				        <item>Eruditions : <persName ref="#FC">FC</persName>
+					          <title>"Salade de départements"</title> (in <title>Le Tintamarre 1/7/						1877</title>); <persName ref="#FC">FC</persName>, <persName>Raphaël						Brossard</persName>, article sur les <term>mots croisés</term>. <persName ref="#MB">MB</persName> a
 					rencontré <persName>Marc Parayre</persName> qui mène une thèse sur
 					l’<term>intertextualité</term> dans <title>La Disparition</title>. Essai de traduction en
 					espagnol (<term>Lipogramme</term> en A).</item>
 				        <item>
-               <persName>NA</persName> montre un <term>rébus ? numérophonique ?</term> de J&amp;J
+               <persName ref="#NA">NA</persName> montre un <term>rébus ? numérophonique ?</term> de J&amp;J
 					(Académie de muséologie évocatoire).</item>
-				        <item>Actions. On confime Sommières <persName>NA</persName>,
-					<persName>MB</persName>, <persName>JB</persName>, <persName>JJ</persName>,
-						<persName>MM</persName>.</item>
+				        <item>Actions. On confime Sommières <persName ref="#NA">NA</persName>,
+					<persName ref="#MB">MB</persName>, <persName ref="#JB">JB</persName>, <persName ref="#JJ">JJ</persName>,
+						<persName ref="#MM">MM</persName>.</item>
 				        <item>Sortie de l’ouvrage américain (<persName>W. Motte</persName>) sur
 					l’Oulipo.</item>
 			      </list>
@@ -190,15 +189,14 @@
          <list type="unordered">
 				        <item>: Lecture de morceaux de textes rédigés :</item>
 				        <item>L'auteur oulipien
-						<persName>PF</persName>-<persName>JJ</persName>-<persName>JB</persName>
+						<persName ref="#PF">PF</persName>-<persName ref="#JJ">JJ</persName>-<persName ref="#JB">JB</persName>
             </item>
-				        <item>La règle et la contrainte (augmenté) <persName>MB</persName>
+				        <item>La règle et la contrainte (augmenté) <persName ref="#MB">MB</persName>
             </item>
-				        <item>Les éléments et leur combinatoire réglée (<persName>PB</persName>)</item>
-				        <item>Liste de mots du glossaire <persName>NA</persName>-<persName>FC</persName>,
+				        <item>Les éléments et leur combinatoire réglée (<persName ref="#PB">PB</persName>)</item>
+				        <item>Liste de mots du glossaire <persName ref="#NA">NA</persName>-<persName ref="#FC">FC</persName>,
 					environ 200 mots.</item>
-				        <pb n="60"
-                facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f60.image"/>
+				        <pb n="60" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f60.image"/>
 				        <item>Discussion sur les notions de <term>contrainte</term> et de
 						<term>structure</term>. Il est proposé de n’utiliser que le terme de
 						<term>contrainte</term> (qui peut être de production de texte ou
@@ -206,14 +204,14 @@
 					éléments qui le déterminent . Une structure est discernable dans tout texte
 					existant. On la "dégage" en aval...</item>
 				        <item>
-               <persName>JB</persName> regrette qu'on ait popularisé le mot
+               <persName ref="#JB">JB</persName> regrette qu'on ait popularisé le mot
 						"<term>contrainte</term>". "<term>Adjuvant</term>", selon lui eût été
 					meilleur.</item>
 			      </list>
          <p>Un mot du présent secrétaire de séance : comme le secrétariat de séance a toujours
 				été dit "tournant", et que, depuis deux ans, il n'a tourné que sur lui-même, il est
 				temps de changer. Alors, je prends, irrévocablement, des vacances.
-					<persName>JJ</persName>.</p>
+					<persName ref="#JJ">JJ</persName>.</p>
       </body>
 	  </text>
 </TEI>

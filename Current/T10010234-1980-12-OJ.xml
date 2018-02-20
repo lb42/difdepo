@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010234-1980-12-OJ">
    <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010234-1980-12-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010234-1980-12">la réunion Oulipo</ref> de <date when="1980-12-18">18/12/1980</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -44,34 +45,34 @@
                <persName>JQ Benshi</persName>
             </item>
             <item>
-               <persName>JR</persName> 
+               <persName ref="#JR">JR</persName> 
                <orgName>CRA</orgName> 
                <persName>Mallarmé</persName>
             </item>
             <item>
-               <persName>PF</persName> 
+               <persName ref="#PF">PF</persName> 
                <term>Magnétophone</term> à 8 pistes</item>
             <item>
-               <persName>MB</persName> Oulipo et histoire</item>
+               <persName ref="#MB">MB</persName> Oulipo et histoire</item>
             <item>
-               <persName>PB</persName> <unclear>???</unclear>
+               <persName ref="#PB">PB</persName> <unclear>???</unclear>
             </item>
             <item>Action </item>
             <item>
-               <persName>PF</persName> : <title>BO</title>+ <title>vol II</title> + <name type="manif">Rouen</name>
+               <persName ref="#PF">PF</persName> : <title>BO</title>+ <title>vol II</title> + <name type="manif">Rouen</name>
             </item>
             <item>
-               <persName>MB</persName> : <persName>BP</persName> + Phinances + Diffusion</item>
+               <persName ref="#MB">MB</persName> : <persName>BP</persName> + Phinances + Diffusion</item>
             <item>JQ : <unclear>???</unclear>Invité d’honneur</item>
             <item>
-               <persName>PB</persName> : <orgName>Alamo</orgName> 
-               <persName>JB</persName> : <name type="manif">Toulouse</name>
+               <persName ref="#PB">PB</persName> : <orgName>Alamo</orgName> 
+               <persName ref="#JB">JB</persName> : <name type="manif">Toulouse</name>
             </item>
          </list>
          <list type="unordered">
             <item>Erudition </item>
             <item>
-               <persName>MB</persName> : <term>cartes surréalistes</term>
+               <persName ref="#MB">MB</persName> : <term>cartes surréalistes</term>
             </item>
          </list>
          <list type="unordered">
@@ -84,7 +85,7 @@
             <item>Prochaine séance + invité d’honneur </item>
             <item>
                <orgName>Oupopo</orgName> 
-               <persName>JD</persName>
+               <persName ref="#JD">JD</persName>
             </item>
          </list>
       </body>

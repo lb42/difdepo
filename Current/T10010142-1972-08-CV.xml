@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010142-1972-08-CV">
   <teiHeader>
       <fileDesc>
@@ -24,8 +25,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010142-1972-08-CV</idno>
-               <title>Convocation à <ref target="#T10010142-1972-08">une réunion Oulipo</ref>, envoyée le <date when="1972-08-10">10/08/1972</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010142-1972-08">une réunion Oulipo</ref>, envoyée le <date when="1972-08-10">10/08/1972</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +62,7 @@
         provisoire</p>
          <p>Votre indigne Président-Fondateur</p>
          <p>
-            <persName>F. Le Lionnais</persName>
+            <persName ref="#FLL">F. Le Lionnais</persName>
          </p>
       </body>
   </text>

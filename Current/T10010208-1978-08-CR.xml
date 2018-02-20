@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010208-1978-08-CR">
   <teiHeader>
       <fileDesc>
@@ -25,28 +26,28 @@
                   <placeName>chez GP</placeName>
                   <list type="present">
                      <item>
-                        <persName>GP</persName>
+                        <persName ref="#GP">GP</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName role="président">JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                   </list>
                </meeting>
@@ -68,41 +69,51 @@
   <text type="CR">
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102089/f2.image"/>
-         <p rend="incipit">Réunion du 10 août 78 chez <persName>Georges Perec</persName>
+         <p rend="incipit">Réunion du 10 août 78 chez <persName ref="#GP">Georges Perec</persName>
          </p>
-         <p rend="incipit">Présents : <persName>GP</persName> <persName>JR</persName> <persName>PF</persName> <persName>JB</persName> <persName>FLL</persName> <persName>PB</persName> <persName>MB</persName> <persName>NA</persName>
+         <p rend="incipit">Présents : <persName ref="#GP">GP</persName> 
+            <persName ref="#JR">JR</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#FLL">FLL</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#NA">NA</persName>
          </p>
-         <p rend="incipit">Excusés : <persName>LE</persName> <persName>HM</persName>
+         <p rend="incipit">Excusés : <persName ref="#LE">LE</persName> 
+            <persName ref="#HM">HM</persName>
          </p>
-         <p rend="incipit">Absents : <persName>MM</persName>, <persName>CB</persName> <persName>IC</persName> <persName>JL</persName>
+         <p rend="incipit">Absents : <persName ref="#MM">MM</persName>, <persName ref="#CB">CB</persName> 
+            <persName ref="#IC">IC</persName> 
+            <persName ref="#JL">JL</persName>
          </p>
          <p rend="incipit">
-            <persName>JR</persName> a battu <persName>Fournel</persName> de 9’, <persName>Bens</persName> de 52’, <persName>Braffort</persName> de 58’, <persName>FLL</persName> 58’, <persName>MB</persName> 58’, <persName>NA</persName> 81’.</p>
-         <p rend="incipit">Président de séance : <persName>JR</persName>
+            <persName ref="#JR">JR</persName> a battu <persName ref="#PF">Fournel</persName> de 9’, <persName ref="#JB">Bens</persName> de 52’, <persName ref="#PB">Braffort</persName> de 58’, <persName ref="#FLL">FLL</persName> 58’, <persName ref="#MB">MB</persName> 58’, <persName ref="#NA">NA</persName> 81’.</p>
+         <p rend="incipit">Président de séance : <persName ref="#JR">JR</persName>
          </p>
          <p>
-            <persName>JR</persName> et <persName>PF</persName> donnent lecture de l’hôtel de Sens.</p>
+            <persName ref="#JR">JR</persName> et <persName ref="#PF">PF</persName> donnent lecture de l’hôtel de Sens.</p>
          <p>
-            <persName>PB</persName> cryptoboles : ces cryptoboles sont nés en Avignon.</p>
+            <persName ref="#PB">PB</persName> cryptoboles : ces cryptoboles sont nés en Avignon.</p>
          <p>Idée d’un « élève » M. <persName>Jean Delmas</persName>.</p>
-         <p>Voir documents <persName>PB</persName>
+         <p>Voir documents <persName ref="#PB">PB</persName>
          </p>
          <p>DEF. Un texte de plusieurs mots comportant des lettres blanches pouvant être remplacées.</p>
          <p>Toutes les substitutions réalisables doivent être correctes.</p>
          <p>Le cryptobole est une généralisation telle que la suite des solutions contienne deux textes significatifs.</p>
          <p>
-            <persName>PB</persName>, <persName>MB</persName> : Rapport sur Avignon. Défection de <persName>Perec</persName> → – 2000 francs</p>
+            <persName ref="#PB">PB</persName>, <persName ref="#MB">MB</persName> : Rapport sur Avignon. Défection de <persName ref="#GP">Perec</persName> → – 2000 francs</p>
          <p>Cela n’a pas été le succès de l’an dernier. Il y a eu quelques plaintes mais l’ensemble était bon.</p>
          <p>Il y avait un ordinateur.</p>
          <p>
-            <persName>PF</persName> : Le contrat Royaumont est signé. Réunion chez <persName>PF</persName> le 22 août pour préparation.</p>
+            <persName ref="#PF">PF</persName> : Le contrat Royaumont est signé. Réunion chez <persName ref="#PF">PF</persName> le 22 août pour préparation.</p>
          <p>
-            <persName>MB</persName> : La circulaire aux libraires : une seule réponse aujourd’hui « lo Païs » de Draguignan qui voudra deux de chaque prochain.</p>
+            <persName ref="#MB">MB</persName> : La circulaire aux libraires : une seule réponse aujourd’hui « lo Païs » de Draguignan qui voudra deux de chaque prochain.</p>
          <p>Une commande de la <orgName>FNAC</orgName>.</p>
          <p>
-            <persName>PB</persName> : Avons-nous pensé à la librairie de <orgName>Beaubourg</orgName> ?</p>
+            <persName ref="#PB">PB</persName> : Avons-nous pensé à la librairie de <orgName>Beaubourg</orgName> ?</p>
          <p>
-            <persName>PF</persName> : Les prochains :</p>
+            <persName ref="#PF">PF</persName> : Les prochains :</p>
          <list type="unordered">
             <item>Mes hypertropes numéro 9</item>
             <item>Hôtel de Sens numéro 10</item>
@@ -110,16 +121,16 @@
             <item>Promenade de François numéro 12</item>
          </list>
          <p>
-            <persName>FLL</persName> : <title>Le manifeste</title> viendra avant fin 78 et posera un problème sérieux de mise en page (grand tableau).</p>
+            <persName ref="#FLL">FLL</persName> : <title>Le manifeste</title> viendra avant fin 78 et posera un problème sérieux de mise en page (grand tableau).</p>
          <p>
-            <persName>NA</persName> : Projet de faire publier par <orgName>Bourgeois</orgName> les 32 premiers comptes rendus de séances constitutifs de l’oulipo.</p>
+            <persName ref="#NA">NA</persName> : Projet de faire publier par <orgName>Bourgeois</orgName> les 32 premiers comptes rendus de séances constitutifs de l’oulipo.</p>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102089/f3.image"/>
          <p>
-            <persName>PB</persName> : <orgName>Bourgeois</orgName> est prêt à publier <title>oulipo 2</title>.</p>
+            <persName ref="#PB">PB</persName> : <orgName>Bourgeois</orgName> est prêt à publier <title>oulipo 2</title>.</p>
          <p>
-            <persName>GP</persName> : Et le faux colloque de <orgName>Cerisy</orgName>.</p>
+            <persName ref="#GP">GP</persName> : Et le faux colloque de <orgName>Cerisy</orgName>.</p>
          <p>
-            <persName>GP</persName> : <orgName>POL</orgName> est d’accord pour publier l’oulipo.</p>
+            <persName ref="#GP">GP</persName> : <orgName>POL</orgName> est d’accord pour publier l’oulipo.</p>
          <p>PB : Il faut envoyer une lettre à <orgName>Gallimard</orgName> pour leur demander où ils en sont.</p>
          <p>Il faut donner les comptes rendus chez <orgName>Hachette</orgName>.</p>
          <p>Le livre de classe chez <orgName>Belin</orgName>.</p>
@@ -128,23 +139,23 @@
          <p>Il ne reste plus qu’à les écrire.</p>
          <p>JR : Il faut inviter <persName>Balpe</persName> pour la réunion d’octobre.</p>
          <p>
-            <persName>FLL</persName> : J’ai toutes les photos. <persName>Massin</persName> fera le montage, mais il y a un ressentiment de <orgName>Gallimard</orgName> à l’égard de l’oulipo depuis la mort de <persName>R Queneau</persName>.</p>
+            <persName ref="#FLL">FLL</persName> : J’ai toutes les photos. <persName>Massin</persName> fera le montage, mais il y a un ressentiment de <orgName>Gallimard</orgName> à l’égard de l’oulipo depuis la mort de <persName ref="#RQ">R Queneau</persName>.</p>
          <p>Si cela ne marche pas avec <persName>Massin</persName> j’ai une solution de replis.</p>
          <p>
-            <persName>FLL</persName> : L’ouvrage de <persName>Marcel Brun</persName> que nous n’avons toujours pas, n’est toujours pas imprimé… cela viendra dit <persName>Mme Brun</persName> (en principe fin septembre).</p>
+            <persName ref="#FLL">FLL</persName> : L’ouvrage de <persName>Marcel Brun</persName> que nous n’avons toujours pas, n’est toujours pas imprimé… cela viendra dit <persName>Mme Brun</persName> (en principe fin septembre).</p>
          <p>
-            <persName>FLL</persName> lit une lettre → il faut la publier dans <title>oulipo 2</title>.</p>
+            <persName ref="#FLL">FLL</persName> lit une lettre → il faut la publier dans <title>oulipo 2</title>.</p>
          <p>
-            <persName>PB</persName> : J’avais jadis présenté un projet de formalisation, je vais m’y remettre et vous donner un premier jet à la prochaine réunion.</p>
+            <persName ref="#PB">PB</persName> : J’avais jadis présenté un projet de formalisation, je vais m’y remettre et vous donner un premier jet à la prochaine réunion.</p>
          <p>
-            <persName>MB</persName> : Ce texte servira de base à <title>oulipo 2</title>.</p>
+            <persName ref="#MB">MB</persName> : Ce texte servira de base à <title>oulipo 2</title>.</p>
          <p>
-            <persName>PB</persName> : Je me suis attaqué à « <title>Morale élémentaire</title> », il faut m’aider.</p>
+            <persName ref="#PB">PB</persName> : Je me suis attaqué à « <title>Morale élémentaire</title> », il faut m’aider.</p>
          <p>51 formes fixes</p>
          <p>16 poèmes en prose partie 2</p>
          <p>64 poèmes en prose partie 3</p>
          <p>
-            <persName>ME</persName> est une sorte de conclusion de l’œuvre de <persName>Queneau</persName>, il faudrait chercher dans les poèmes les traces des autres œuvres.</p>
+            <persName>ME</persName> est une sorte de conclusion de l’œuvre de <persName ref="#RQ">Queneau</persName>, il faudrait chercher dans les poèmes les traces des autres œuvres.</p>
          <p>Faisons tout cela de façon naïve.</p>
       </body>
   </text>

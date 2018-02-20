@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010133-1971-12-CV">
   <teiHeader>
       <fileDesc>
@@ -20,8 +21,8 @@
          <sourceDesc>
             <bibl>
                <idno>T10010133-1971-12-CV</idno>
-               <title>Convocation à <ref target="#T10010133-1971-12">une réunion Oulipo</ref>, envoyée le <date when="1971-12-06">06/12/1971</date> par <persName role="expéditeur">PF</persName> 
-</title> 
+               <title>Convocation à <ref target="#T10010133-1971-12">une réunion Oulipo</ref>, envoyée le <date when="1971-12-06">06/12/1971</date> par <persName ref="#PF">PF</persName> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -48,9 +49,9 @@
          <p>On me signale toutefois, en dernière heure que nous aurons le plaisir de recevoir à notre table Madame et Monsieur <persName>REY</persName>, du <orgName>dictionnaire Robert</orgName>.</p>
          <p>Au vendredi 17, oulipiennement,</p>
          <p>
-            <persName>Paul Fournel</persName>,</p>
+            <persName ref="#PF">Paul Fournel</persName>,</p>
          <p>Un secrétaire.</p>
-         <p>NB : le volet mobile est à retourner au domicile du président <persName>Le Lionnais</persName> (23 route de la Reine, 92-Boulogne) ; dans le but de faciliter l’organisation matérielle de la réunion.</p>
+         <p>NB : le volet mobile est à retourner au domicile du président <persName ref="#FLL">Le Lionnais</persName> (23 route de la Reine, 92-Boulogne) ; dans le but de faciliter l’organisation matérielle de la réunion.</p>
       </body>
   </text>
 </TEI>

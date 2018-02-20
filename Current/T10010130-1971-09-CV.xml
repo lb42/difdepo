@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010130-1971-09-CV">
 	  <teiHeader>
 		    <fileDesc>
@@ -23,8 +24,8 @@
          <sourceDesc>
 				        <bibl>
 					          <idno>T10010130-1971-09-CV</idno>
-					          <title>Convocation à <ref target="#T10010130-1971-09">une réunion Oulipo</ref>,						envoyée le <date when="1971-09-02">02/09/1971</date> par <persName role="expéditeur">FLL</persName> 
-</title> 
+					          <title>Convocation à <ref target="#T10010130-1971-09">une réunion Oulipo</ref>,						envoyée le <date when="1971-09-02">02/09/1971</date> par <persName ref="#FLL">FLL</persName> 
+               </title> 
 				        </bibl>
 			      </sourceDesc>
       </fileDesc>
@@ -47,16 +48,16 @@
 				<lb/>LIttérature
 				<lb/>POtentielle</p>
          <p rend="incipit">le 10 Août 1971</p>
-         <p rend="incipit">Monsieur <persName>Marcel BENABOU</persName>
+         <p rend="incipit">Monsieur <persName ref="#MB">Marcel BENABOU</persName>
          </p>
          <p>Chers Brigadiers,</p>
-         <p>Nos deux secrétaires – <persName>Marcel Benabou</persName> et <persName>Paul Fournel</persName> – ayant eu la mauvais goût de prendre leurs vacances en même temps, le dur labeur des convocations m’incombe une fois de plus.</p>
+         <p>Nos deux secrétaires – <persName ref="#MB">Marcel Benabou</persName> et <persName ref="#PF">Paul Fournel</persName> – ayant eu la mauvais goût de prendre leurs vacances en même temps, le dur labeur des convocations m’incombe une fois de plus.</p>
          <p>Je vous rappelle que nos deux prochaines réunions auront lieu :</p>
-         <p>– Le vendredi 10 Septembre 1971 à 11 heures chez <persName>F.LL</persName>,</p>
+         <p>– Le vendredi 10 Septembre 1971 à 11 heures chez <persName ref="#FLL">F.LL</persName>,</p>
          <p>- Le mardi 26 Octobre 1971, même heure, même endroit. Nota : cette date remplace celle du 19 Octobre qui vous avait été indiquée précédemment.</p>
          <p>Bien OuLiPiennement vôtre.</p>
          <p>
-            <persName>François Le Lionnais</persName>
+            <persName ref="#FLL">François Le Lionnais</persName>
          </p>
       </body>
 	  </text>

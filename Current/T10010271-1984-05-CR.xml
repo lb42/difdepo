@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010271-1984-05-CR">
   <teiHeader>
       <fileDesc>
@@ -25,22 +26,22 @@
                   <placeName>Chez PB</placeName>
                   <list type="present">
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>PB</persName>
+                        <persName ref="#PB">PB</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName role="président">HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                   </list>
                </meeting>
@@ -63,54 +64,54 @@
       <body>
          <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102712/f2.image"/>
          <p rend="incipit">Oulipo, réunion du Mardi 29 mai 1984, de 11h30 à 15h</p>
-         <p rend="incipit">Présents : <persName>Paul Braffort</persName> qui reçoit, avec <persName>Héloïse Neffs</persName>, <persName>Harry Mathews</persName> (Président de séance), <persName>Jacques Jouet</persName> (secrétaire), <persName>Luc Etienne</persName>, <persName>Michèle Métail</persName>, <persName>Marcel Bénabou</persName>. </p>
-         <p rend="incipit">Excusés : <persName>Paul Fournel</persName>, <persName>Jacques Roubaud</persName>, <persName>Jean Queval</persName>.</p>
+         <p rend="incipit">Présents : <persName ref="#PB">Paul Braffort</persName> qui reçoit, avec <persName>Héloïse Neffs</persName>, <persName ref="#HM">Harry Mathews</persName> (Président de séance), <persName ref="#JJ">Jacques Jouet</persName> (secrétaire), <persName ref="#LE">Luc Etienne</persName>, <persName ref="#MM">Michèle Métail</persName>, <persName ref="#MB">Marcel Bénabou</persName>. </p>
+         <p rend="incipit">Excusés : <persName ref="#PF">Paul Fournel</persName>, <persName ref="#JR">Jacques Roubaud</persName>, <persName ref="#JQ">Jean Queval</persName>.</p>
          <p>
             <label type="rubrique">Créations :</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>Paul Braffort</persName> lit quatre « <title>morale élémentaire</title> », éléments d’un ambitieux projet quasi encyclopédique (avec la morale élémentaire, on peut tout dire…). Thèmes du jour : la <term>linguistique mathématique</term>, <persName>Charles Trénet</persName>, <persName>Georges Simenon</persName>, <persName>Queneau</persName>.</item>
-            <item>: <persName>Jacques Jouet</persName> lit « <title>S+7 par lui-même</title> », <term>S+7</term> définissant l’<term>S+7</term>.</item>
-            <item>:<persName>Marcel Bénabou</persName> lit les textes reçus (<term>tautogrammes</term>) de <persName>Aline Roussel</persName> et <persName>Constantin Kaïteris</persName>.</item>
+               <persName ref="#PB">Paul Braffort</persName> lit quatre « <title>morale élémentaire</title> », éléments d’un ambitieux projet quasi encyclopédique (avec la morale élémentaire, on peut tout dire…). Thèmes du jour : la <term>linguistique mathématique</term>, <persName>Charles Trénet</persName>, <persName>Georges Simenon</persName>, <persName ref="#RQ">Queneau</persName>.</item>
+            <item>: <persName ref="#JJ">Jacques Jouet</persName> lit « <title>S+7 par lui-même</title> », <term>S+7</term> définissant l’<term>S+7</term>.</item>
+            <item>:<persName ref="#MB">Marcel Bénabou</persName> lit les textes reçus (<term>tautogrammes</term>) de <persName>Aline Roussel</persName> et <persName>Constantin Kaïteris</persName>.</item>
          </list>
          <p>
             <label type="rubrique">Erudition :</label>
          </p>
          <p>
-            <persName>Paul Braffort</persName> mentionne un article de <persName>Virbel</persName> sur les <term>jeux littéraires</term>, qui parle de l’Oulipo</p>
+            <persName ref="#PB">Paul Braffort</persName> mentionne un article de <persName>Virbel</persName> sur les <term>jeux littéraires</term>, qui parle de l’Oulipo</p>
          <p>Il poursuit avec un article d’<persName>Yves Lecerf</persName> (<title>Poétique numéro 18, 1974</title>) mentionnant des <term>manipulations littéraires</term>, <term>inclusions</term>…</p>
          <p>
             <label type="rubrique"> Actions</label>
          </p>
          <p>
-            <persName>Luc Etienne</persName> donne lecture d’une lettre de <persName>Ross Chambers</persName> qui parle avec force réserves d’une <term>traduction</term> américaine en cours de <title>W</title> de <persName>Perec</persName>.</p>
+            <persName ref="#LE">Luc Etienne</persName> donne lecture d’une lettre de <persName ref="#RC">Ross Chambers</persName> qui parle avec force réserves d’une <term>traduction</term> américaine en cours de <title>W</title> de <persName ref="#GP">Perec</persName>.</p>
          <list type="unordered">
             <item>
-               <persName>Luc Etienne</persName> informe que <persName>Patrick Lefur</persName> (<orgName>France-inter</orgName>, <orgName>Adrénaline</orgName>) causerait volontiers avec des oulipiens.</item>
+               <persName ref="#LE">Luc Etienne</persName> informe que <persName>Patrick Lefur</persName> (<orgName>France-inter</orgName>, <orgName>Adrénaline</orgName>) causerait volontiers avec des oulipiens.</item>
             <item>
-               <persName>Harry Mathews</persName> distribue des questionnaires à remplir et expédier à <persName>Warren Motte</persName> pour l’édition <orgName>USA-Nebraska</orgName> de textes oulipiens.</item>
+               <persName ref="#HM">Harry Mathews</persName> distribue des questionnaires à remplir et expédier à <persName>Warren Motte</persName> pour l’édition <orgName>USA-Nebraska</orgName> de textes oulipiens.</item>
             <item>
-               <persName>Paul Braffort</persName> donne les dernières nouvelles de juillet à <name type="manif">Villeneuve-lès-Avignon</name>. <orgName>OuLiPo</orgName>, du 9 au 13 (<persName>Arnaud</persName>, <persName>Métail</persName>, Jouet et <persName>Bénabou</persName> les 3 premiers jours ; visite éventuelle de <persName>Bens</persName> et <persName>Fournel</persName>). <persName>Alamo</persName>, du 9 au 19, mais repos le week-end (<persName>Balpe</persName>, <persName>Braffort</persName>, <persName>Balazard</persName>, Lusson, <persName>Modiano</persName>).</item>
+               <persName ref="#PB">Paul Braffort</persName> donne les dernières nouvelles de juillet à <name type="manif">Villeneuve-lès-Avignon</name>. <orgName>OuLiPo</orgName>, du 9 au 13 (<persName ref="#NA">Arnaud</persName>, <persName ref="#MM">Métail</persName>, Jouet et <persName ref="#MB">Bénabou</persName> les 3 premiers jours ; visite éventuelle de <persName ref="#JB">Bens</persName> et <persName ref="#PF">Fournel</persName>). <persName>Alamo</persName>, du 9 au 19, mais repos le week-end (<persName>Balpe</persName>, <persName ref="#PB">Braffort</persName>, <persName>Balazard</persName>, Lusson, <persName>Modiano</persName>).</item>
             <item>
-               <persName>Harry Mathews</persName> a parlé de l’Oulipo à Lublin (Pologne).</item>
+               <persName ref="#HM">Harry Mathews</persName> a parlé de l’Oulipo à Lublin (Pologne).</item>
             <item>
-               <persName>Harry Mathews</persName> publie un poème à <term>perverbes</term> dans <title>PO&amp;SIE no.28</title>.</item>
+               <persName ref="#HM">Harry Mathews</persName> publie un poème à <term>perverbes</term> dans <title>PO&amp;SIE no.28</title>.</item>
             <item>
-               <persName>Marcel Bénabou</persName> fait état du fait que la présidence de la république ne semble pas enthousiaste à l’idée de faciliter l’acquisition par l’OuLiPo de l’appartement <persName>Le Lionnais</persName>. La ville de Boulogne serait plus empressée.</item>
+               <persName ref="#MB">Marcel Bénabou</persName> fait état du fait que la présidence de la république ne semble pas enthousiaste à l’idée de faciliter l’acquisition par l’OuLiPo de l’appartement <persName ref="#FLL">Le Lionnais</persName>. La ville de Boulogne serait plus empressée.</item>
             <item>
-               <persName>Marcel Bénabou</persName> nous met sous les yeux un chèque de 1671,41f signé <orgName>Gallimard</orgName>. (Diffusion 1500 ex. 83 Oulipo et <orgName>Atlas</orgName>)</item>
+               <persName ref="#MB">Marcel Bénabou</persName> nous met sous les yeux un chèque de 1671,41f signé <orgName>Gallimard</orgName>. (Diffusion 1500 ex. 83 Oulipo et <orgName>Atlas</orgName>)</item>
          </list>
-         <p>Hommage à <persName>François Le Lionnais</persName>
+         <p>Hommage à <persName ref="#FLL">François Le Lionnais</persName>
          </p>
-         <p>:On fait le point. <persName>Marcel Bénabou</persName> n’a rien trouvé d’inédit, pas de 3<hi rend="sup">ème</hi> manifeste publiable dans les papiers de <persName>FLL</persName>
+         <p>:On fait le point. <persName ref="#MB">Marcel Bénabou</persName> n’a rien trouvé d’inédit, pas de 3<hi rend="sup">ème</hi> manifeste publiable dans les papiers de <persName ref="#FLL">FLL</persName>
          </p>
          <p>
-            <persName>Luc Etienne</persName> a une chanson sur les prénoms d’oulipiens.</p>
-         <p>On reparle de l’idée <persName>Roubaud</persName>/<persName>Caradec</persName> : dans l’activité de <persName>FLL</persName>, la dimension des projets, « nouvelle <term>heuristique</term> », dit <persName>Braffort</persName>, la vie de <persName>FLL</persName> considérée comme un « ouvroir de <term>potentialités potentielles</term> » (<orgName>OuPoPo</orgName>).</p>
-         <p>L’hommage pourrait rassembler des récits de projets <persName>FLL</persName>, et des utopies de même farine imaginées par nous.</p>
+            <persName ref="#LE">Luc Etienne</persName> a une chanson sur les prénoms d’oulipiens.</p>
+         <p>On reparle de l’idée <persName ref="#JR">Roubaud</persName>/<persName ref="#FC">Caradec</persName> : dans l’activité de <persName ref="#FLL">FLL</persName>, la dimension des projets, « nouvelle <term>heuristique</term> », dit <persName ref="#PB">Braffort</persName>, la vie de <persName ref="#FLL">FLL</persName> considérée comme un « ouvroir de <term>potentialités potentielles</term> » (<orgName>OuPoPo</orgName>).</p>
+         <p>L’hommage pourrait rassembler des récits de projets <persName ref="#FLL">FLL</persName>, et des utopies de même farine imaginées par nous.</p>
          <p>
-            <persName>Harry Mathews</persName> a un train à prendre. Il nous laisse aux menus propos.</p>
+            <persName ref="#HM">Harry Mathews</persName> a un train à prendre. Il nous laisse aux menus propos.</p>
       </body>
   </text>
 </TEI>

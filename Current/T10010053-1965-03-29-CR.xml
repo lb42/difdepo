@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010053-1965-03-29-CR">
   <teiHeader>
       <fileDesc>
@@ -28,25 +29,25 @@
                   <date when="1965-03-29">29/03/1965</date>
                   <list type="present">
                      <item>
-                        <persName>RQ</persName>
+                        <persName ref="#RQ">RQ</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>FLL</persName>
+                        <persName ref="#FLL">FLL</persName>
                      </item>
                      <item>
-                        <persName>JD</persName>
+                        <persName ref="#JD">JD</persName>
                      </item>
                      <item>
-                        <persName>JL</persName>
+                        <persName ref="#JL">JL</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">JD</persName>
+                        <persName ref="#JD">JD</persName>
                      </item>
                      <item>
-                        <persName role="président">L</persName>
+                        <persName ref="#LA">L</persName>
                      </item>
                   </list>
                </meeting>
@@ -66,41 +67,39 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="11"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f11.image"/>
+         <pb n="11" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f11.image"/>
          <p rend="incipit">OUVROIR DE<lb/> LITTERATURE<lb/> POTENTIELLE</p>
          <p rend="incipit">Circulaire No.60</p>
          <p rend="incipit">COMPTE RENDU DE LA REUNION DU 29 MARS 1965</p>
-         <p rend="incipit">PRESENTS : <persName>R. Queneau</persName>, <persName>F. Le Lionnais</persName>, <persName>J. Lescure</persName>, <persName>J. Duchateau</persName>, <persName>N. Arnaud</persName>
+         <p rend="incipit">PRESENTS : <persName ref="#RQ">R. Queneau</persName>, <persName ref="#FLL">F. Le Lionnais</persName>, <persName ref="#JL">J. Lescure</persName>, <persName ref="#JD">J. Duchateau</persName>, <persName ref="#NA">N. Arnaud</persName>
          </p>
-         <p rend="incipit">PRESIDENT : <persName>LATIS</persName>
+         <p rend="incipit">PRESIDENT : <persName ref="#LA">LATIS</persName>
          </p>
          <p>Différents problèmes administratifs sont examinés avec le sérieux et l’esprit de décision qui conviennent :</p>
          <list type="ordered">
             <item>On se payera une secrétaire pour établir le texte des C.R. </item>
             <item>
-               <persName>Latis</persName> nous propose de parler de nos travaux (depuis le cahier 17) dans le <ref>prochain numéro du cahier du collège</ref>.</item>
+               <persName ref="#LA">Latis</persName> nous propose de parler de nos travaux (depuis le cahier 17) dans le <ref>prochain numéro du cahier du collège</ref>.</item>
             <item>
                <persName>Felix Faure</persName> n’est pas <persName>R. Faure</persName> qui, absent aujourd’hui, se trouve réinvité.</item>
             <item>
-               <ref>R.T.B</ref> (<name type="manif">Enregistrement de l’OuLiPo à Verviers</name>, introuvable) = <persName>Braffort</persName> (à suivre : <title>De la métamorphose d’un mythe Belge ou le Voyage à Verviers</title>).</item>
+               <ref>R.T.B</ref> (<name type="manif">Enregistrement de l’OuLiPo à Verviers</name>, introuvable) = <persName ref="#PB">Braffort</persName> (à suivre : <title>De la métamorphose d’un mythe Belge ou le Voyage à Verviers</title>).</item>
          </list>
          <p>
-            <persName>LE LIONNAIS</persName> : <persName>Kreisel</persName> nous a entretenus, <persName>Queneau</persName>, <persName>Braffort</persName>, <persName>Berge</persName> et moi (L’<orgName>Oumapo</orgName>) du problème des <term>mots génériques</term>.</p>
+            <persName ref="#FLL">LE LIONNAIS</persName> : <persName>Kreisel</persName> nous a entretenus, <persName ref="#RQ">Queneau</persName>, <persName ref="#PB">Braffort</persName>, <persName ref="#CB">Berge</persName> et moi (L’<orgName>Oumapo</orgName>) du problème des <term>mots génériques</term>.</p>
          <p>
-            <persName>LATIS</persName> (anxieux) : Et alors ?</p>
+            <persName ref="#LA">LATIS</persName> (anxieux) : Et alors ?</p>
          <p>
-            <persName>LE LIONNAIS</persName> : Nous n’avons toujours pas compris.</p>
+            <persName ref="#FLL">LE LIONNAIS</persName> : Nous n’avons toujours pas compris.</p>
          <p>
-            <persName>LATIS</persName> (soulagé) : Donc j’avais compris, qu’il n’y avait rien à comprendre.</p>
+            <persName ref="#LA">LATIS</persName> (soulagé) : Donc j’avais compris, qu’il n’y avait rien à comprendre.</p>
          <p>
-            <persName>QUENEAU</persName> : Nous avons vu que <persName>Braffort</persName> n’est pas semblable à <persName>Kreisel</persName>. A chaque fois que <persName>Kreisel</persName> suggérait quelque chose, par exemple : « Vous devriez lire l’article de Z. », <persName>Braffort</persName> répondait : « ça n’a aucun intérêt »</p>
+            <persName ref="#RQ">QUENEAU</persName> : Nous avons vu que <persName ref="#PB">Braffort</persName> n’est pas semblable à <persName>Kreisel</persName>. A chaque fois que <persName>Kreisel</persName> suggérait quelque chose, par exemple : « Vous devriez lire l’article de Z. », <persName ref="#PB">Braffort</persName> répondait : « ça n’a aucun intérêt »</p>
          <p>
-            <persName>LATIS</persName> : Il n’y avait donc rien à comprendre, néanmoins, je pense que <persName>Kreisel</persName> se référait à une notion réelle.</p>
-         <pb n="12"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f12.image"/>
+            <persName ref="#LA">LATIS</persName> : Il n’y avait donc rien à comprendre, néanmoins, je pense que <persName>Kreisel</persName> se référait à une notion réelle.</p>
+         <pb n="12" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f12.image"/>
          <p>
-            <persName>QUENEAU</persName> : Oui, il s’agit d’une définition très récente de la <term>Théorie des Ensembles</term>. On peut considérer l’<term>ensemble</term> :</p>
+            <persName ref="#RQ">QUENEAU</persName> : Oui, il s’agit d’une définition très récente de la <term>Théorie des Ensembles</term>. On peut considérer l’<term>ensemble</term> :</p>
          <list type="ordered">
             <item>disons, vague. On dit l’ensemble des tas de sable, sans s’occuper de définir les tas de sable. </item>
             <item> l’<term>ensemble</term> dont au contraire, on définit très précisément chaque objet. </item>
@@ -110,59 +109,57 @@
          <p>
             <persName>LA SERVEUSE</persName> : Le Mutton-chop marche avec l’haricot-vert.</p>
          <p>
-            <persName>QUENEAU</persName> : Voilà un exemple de <term>forcing</term> : « Mutton-chop donne haricot-vert qui va avec le dit Mutton-chop ».</p>
-         <p>Suit un nouvel et édifiant intermède alimentaire. <persName>Queneau</persName> refuse une omelette fromage.</p>
+            <persName ref="#RQ">QUENEAU</persName> : Voilà un exemple de <term>forcing</term> : « Mutton-chop donne haricot-vert qui va avec le dit Mutton-chop ».</p>
+         <p>Suit un nouvel et édifiant intermède alimentaire. <persName ref="#RQ">Queneau</persName> refuse une omelette fromage.</p>
          <p>
-            <persName>QUENEAU</persName> : J’avais demandé au jambon. Je ne peux jamais avoir l’omelette que je désire.</p>
+            <persName ref="#RQ">QUENEAU</persName> : J’avais demandé au jambon. Je ne peux jamais avoir l’omelette que je désire.</p>
          <p>
             <persName>LA SERVEUSE</persName> : On va vous la changer.</p>
-         <p>Puis elle revient avec la commande écrite de la main de <persName>Le Lionnais</persName>. « Vous aviez bien commandé une omelette fromage ».</p>
+         <p>Puis elle revient avec la commande écrite de la main de <persName ref="#FLL">Le Lionnais</persName>. « Vous aviez bien commandé une omelette fromage ».</p>
          <p>
-            <persName>QUENEAU</persName> (perplexe) : Ah. Bon je la prends.</p>
+            <persName ref="#RQ">QUENEAU</persName> (perplexe) : Ah. Bon je la prends.</p>
          <p>
-            <persName>DUCHATEAU</persName> : C’est encore les <term>ensembles génériques</term>.</p>
+            <persName ref="#JD">DUCHATEAU</persName> : C’est encore les <term>ensembles génériques</term>.</p>
          <p>
-            <persName>QUENEAU</persName> : Nous devons faire des exercices sur ces <term>ensembles</term>.</p>
+            <persName ref="#RQ">QUENEAU</persName> : Nous devons faire des exercices sur ces <term>ensembles</term>.</p>
          <p>
-            <persName>ARNAUD</persName> : J’ai un travail à vous communiquer de la part de, un Belge.</p>
+            <persName ref="#NA">ARNAUD</persName> : J’ai un travail à vous communiquer de la part de, un Belge.</p>
          <p>
-            <persName>LATIS</persName> : <persName>Arnaud</persName> se laisse coloniser par les Belges.</p>
+            <persName ref="#LA">LATIS</persName> : <persName ref="#NA">Arnaud</persName> se laisse coloniser par les Belges.</p>
          <p>
             <ref>Annexe 1</ref>. (<ref>La méthode et les poèmes 1 et 111</ref>)</p>
-         <pb n="13"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f13.image"/>
+         <pb n="13" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f13.image"/>
          <p>
-            <persName>QUENEAU</persName> : C’est un crypto-belge et futur <term>lettrisme</term>.</p>
+            <persName ref="#RQ">QUENEAU</persName> : C’est un crypto-belge et futur <term>lettrisme</term>.</p>
          <p>
-            <persName>LATIS</persName> : C’est du bafouillage.</p>
+            <persName ref="#LA">LATIS</persName> : C’est du bafouillage.</p>
          <p>
-            <persName>LESCURE</persName> : La méthode est mauvaise.</p>
+            <persName ref="#JL">LESCURE</persName> : La méthode est mauvaise.</p>
          <p>
-            <persName>LATIS</persName> : Pas de méthode du tout.</p>
+            <persName ref="#LA">LATIS</persName> : Pas de méthode du tout.</p>
          <p>
-            <persName>QUENEAU</persName> : <term>Ouliponégatif</term>.</p>
+            <persName ref="#RQ">QUENEAU</persName> : <term>Ouliponégatif</term>.</p>
          <p>
-            <persName>Le Lionnais</persName> nous fait part des <term>S+7</term> du jeune <persName>David Sullerot</persName> (7 ans)</p>
+            <persName ref="#FLL">Le Lionnais</persName> nous fait part des <term>S+7</term> du jeune <persName>David Sullerot</persName> (7 ans)</p>
          <p>
             <ref>Annexe 2</ref>.</p>
-         <p>Chacun parle des <term>isosyntaxismes</term> de <persName>Bens</persName> pour avouer qu’ils sont difficiles.</p>
+         <p>Chacun parle des <term>isosyntaxismes</term> de <persName ref="#JB">Bens</persName> pour avouer qu’ils sont difficiles.</p>
          <p>
-            <persName>Le Lionnais</persName> parle de l’algèbre de <persName>Dick</persName>. Il s’agit de <term>parenthèses croisées</term> = (…[…..)…]. il faudrait s’essayer avec <persName>Roussel</persName>.</p>
+            <persName ref="#FLL">Le Lionnais</persName> parle de l’algèbre de <persName>Dick</persName>. Il s’agit de <term>parenthèses croisées</term> = (…[…..)…]. il faudrait s’essayer avec <persName>Roussel</persName>.</p>
          <p>
-            <persName>QUENEAU</persName> : ça avance.</p>
+            <persName ref="#RQ">QUENEAU</persName> : ça avance.</p>
          <p>Bruit noir. Un mouton passe.</p>
          <p>
-            <persName>QUENEAU</persName> : Je me suis amusé à écrire un petit <term>poème mnémo-technique</term> avec les rois de France en utilisant la première syllabe de leur nom.</p>
+            <persName ref="#RQ">QUENEAU</persName> : Je me suis amusé à écrire un petit <term>poème mnémo-technique</term> avec les rois de France en utilisant la première syllabe de leur nom.</p>
          <p>
-            <persName>LESCURE</persName> : Pour l’empire ça donnerait ChaNaNa, Oulipo : ArBenBerDu, LaLeLiLes, QueQueSchmi.</p>
-         <pb n="14"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f14.image"/>
+            <persName ref="#JL">LESCURE</persName> : Pour l’empire ça donnerait ChaNaNa, Oulipo : ArBenBerDu, LaLeLiLes, QueQueSchmi.</p>
+         <pb n="14" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f14.image"/>
          <p>Etrangers : BlaBra, ChaChaDu</p>
          <p>
-            <persName>LE LIONNAIS</persName> (rêveur) : Dors mon petit quequeschmi, mon petit quequeschmi.</p>
+            <persName ref="#FLL">LE LIONNAIS</persName> (rêveur) : Dors mon petit quequeschmi, mon petit quequeschmi.</p>
          <p>Le S.P</p>
          <p>
-            <persName>J.D</persName>
+            <persName ref="#JD">J.D</persName>
          </p>
       </body>
   </text>

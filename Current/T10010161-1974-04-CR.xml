@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010161-1974-04-CR">
   <teiHeader>
       <fileDesc>
@@ -23,16 +24,36 @@
                <meeting xml:id="T10010161-1974-04">
                   <date when="1974-04-05">05/04/1974</date>
                   <list type="present">
-                     <item><persName>MM</persName></item>
-                     <item><persName>RQ</persName></item>
-                     <item><persName>FLL</persName></item>
-                     <item><persName>GP</persName></item>
-                     <item><persName>JR</persName></item>
-                     <item><persName>LE</persName></item>
-                     <item><persName>HM</persName></item>
-                     <item><persName>JB</persName></item>
-                     <item><persName>PF</persName></item>
-                     <item><persName>MB</persName></item>
+                     <item>
+                        <persName ref="#MM">MM</persName>
+                     </item>
+                     <item>
+                        <persName ref="#RQ">RQ</persName>
+                     </item>
+                     <item>
+                        <persName ref="#FLL">FLL</persName>
+                     </item>
+                     <item>
+                        <persName ref="#GP">GP</persName>
+                     </item>
+                     <item>
+                        <persName ref="#JR">JR</persName>
+                     </item>
+                     <item>
+                        <persName ref="#LE">LE</persName>
+                     </item>
+                     <item>
+                        <persName ref="#HM">HM</persName>
+                     </item>
+                     <item>
+                        <persName ref="#JB">JB</persName>
+                     </item>
+                     <item>
+                        <persName ref="#PF">PF</persName>
+                     </item>
+                     <item>
+                        <persName ref="#MB">MB</persName>
+                     </item>
                   </list>
                </meeting>
             </bibl>
@@ -52,16 +73,17 @@
       <body>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f3.image"/>
          <p rend="incipit">le 5/4/74</p>
-         <p rend="incipit">Présents : <persName>R.Q.</persName> <persName>FLL</persName>. <persName>G Perec</persName> – <persName>J. Roub</persName> – <persName>Luc. Et</persName>. <persName>Harry M</persName>. <persName>J Bens</persName> – <persName>Fournel</persName> – <persName>Bénabou</persName>
+         <p rend="incipit">Présents : <persName ref="#RQ">R.Q.</persName> 
+            <persName ref="#FLL">FLL</persName>. <persName ref="#GP">G Perec</persName> – <persName>J. Roub</persName> – <persName>Luc. Et</persName>. <persName ref="#HM">Harry M</persName>. <persName ref="#JB">J Bens</persName> – <persName ref="#PF">Fournel</persName> – <persName ref="#MB">Bénabou</persName>
          </p>
          <p rend="incipit">
-            <persName>Métail</persName> 
+            <persName ref="#MM">Métail</persName> 
          </p>
          <list type="unordered">
-            <item>Anecdotes diverses para-scientifiques notamment celle de <persName>RQ</persName> sur <persName>Céline</persName> et sa première communication</item>
+            <item>Anecdotes diverses para-scientifiques notamment celle de <persName ref="#RQ">RQ</persName> sur <persName>Céline</persName> et sa première communication</item>
          </list>
          <p>
-            <persName>FLL</persName> – Présentation des travaux de <persName>Laucou</persName> :</p>
+            <persName ref="#FLL">FLL</persName> – Présentation des travaux de <persName>Laucou</persName> :</p>
          <list type="unordered">
             <item>Prochaine réunion : invitation à Almansie 
          <note place="comment" resp="utilisateur-p3">
@@ -73,57 +95,57 @@
          </list>
          <list type="unordered">
             <item>
-               <persName>RQ</persName> + une création d’un M. <persName>Badillou</persName> : <term>acrostiche</term> à échos (<ref>aux archives</ref>)</item>
+               <persName ref="#RQ">RQ</persName> + une création d’un M. <persName>Badillou</persName> : <term>acrostiche</term> à échos (<ref>aux archives</ref>)</item>
          </list>
          <list type="unordered">
             <item>
-               <persName>FLL</persName> : <persName>Dinguirard</persName> : article dans la <title>Revue des Etudes Romanes</title> = la <term>dialectométrie</term>
+               <persName ref="#FLL">FLL</persName> : <persName>Dinguirard</persName> : article dans la <title>Revue des Etudes Romanes</title> = la <term>dialectométrie</term>
             </item>
          </list>
          <p>la distance lexicale et distance spatiale</p>
          <p>
-            <persName>G. P</persName>. Réclamation</p>
+            <persName ref="#GP">G. P</persName>. Réclamation</p>
          <p>
-            <persName>J. R</persName> : Centenaire de <persName>Gertrude Stein</persName> = un hommage à faire.</p>
+            <persName ref="#JR">J. R</persName> : Centenaire de <persName>Gertrude Stein</persName> = un hommage à faire.</p>
          <p>
-            <persName>R. Q</persName> : <term>Plagiat extérieur</term> : <persName>RQ</persName> a lu un roman de science-fiction selon le système <term>à votre façon</term>
+            <persName ref="#RQ">R. Q</persName> : <term>Plagiat extérieur</term> : <persName ref="#RQ">RQ</persName> a lu un roman de science-fiction selon le système <term>à votre façon</term>
          </p>
          <p>
-            <persName>R. Q</persName> : séquelles.</p>
-         <p>Interview de l’Éducation : <persName>RQ</persName> et <persName>F.LL</persName>
+            <persName ref="#RQ">R. Q</persName> : séquelles.</p>
+         <p>Interview de l’Éducation : <persName ref="#RQ">RQ</persName> et <persName ref="#FLL">F.LL</persName>
          </p>
          <p>
-            <persName>FLL</persName> : <persName>Sam Lloyd</persName>
+            <persName ref="#FLL">FLL</persName> : <persName>Sam Lloyd</persName>
          </p>
          <p>
             <persName>Ian Watson</persName> 
             <title>L’enchâssement</title> (<title>The embedding</title>)</p>
          <p>de <orgName>Calmann-Levy</orgName> : un roman de science-fiction</p>
          <p>
-            <persName>J. Bens</persName> : Tout <term>palindrome</term> est gauche ou trivial (communication entendue au <name type="manif">Congrès de San Francisco 1974</name>)</p>
+            <persName ref="#JB">J. Bens</persName> : Tout <term>palindrome</term> est gauche ou trivial (communication entendue au <name type="manif">Congrès de San Francisco 1974</name>)</p>
         <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f4.image"/>
-        <p>Juillet : exclus : <persName>Bénabou</persName> ‑ <persName>Roubaud</persName> ‑ <persName>Luc Etienne</persName>.</p>
-        <p>Douteux : <persName>Perec</persName> ‑ <persName>Queneau</persName>.</p>
-        <p>Août : exclus : <persName>Braffort</persName> (Première semaine)</p>
+        <p>Juillet : exclus : <persName ref="#MB">Bénabou</persName> ‑ <persName ref="#JR">Roubaud</persName> ‑ <persName ref="#LE">Luc Etienne</persName>.</p>
+        <p>Douteux : <persName ref="#GP">Perec</persName> ‑ <persName ref="#RQ">Queneau</persName>.</p>
+        <p>Août : exclus : <persName ref="#PB">Braffort</persName> (Première semaine)</p>
         <p>
-            <persName>Roubaud</persName> (Tout le mois)</p>
-        <p>Douteux : <persName>R. Queneau</persName>
+            <persName ref="#JR">Roubaud</persName> (Tout le mois)</p>
+        <p>Douteux : <persName ref="#RQ">R. Queneau</persName>
         </p>
         <p>
-            <persName>L. Etienne</persName>
+            <persName ref="#LE">L. Etienne</persName>
         </p>
         <p>
-            <persName>Fournel</persName>
+            <persName ref="#PF">Fournel</persName>
         </p>
-        <p>JUIN exclus 15-30 : <persName>FLL</persName> ‑ <persName>Harry</persName>. <persName>Braffort</persName>. <persName>Luc Etienne</persName>.</p>
+        <p>JUIN exclus 15-30 : <persName ref="#FLL">FLL</persName> ‑ <persName ref="#HM">Harry</persName>. <persName ref="#PB">Braffort</persName>. <persName ref="#LE">Luc Etienne</persName>.</p>
         <p>1-15 Juin = <term>Contrainte</term> ‑ <term>Forme fixe</term>.</p>
         <p>Oulipisme et monde contemporain</p>
-        <p>Lundi 10-11 Juin conseiller <persName>Calvino</persName> ‑ <persName>N. Arnaud</persName> ‑ <persName>Lescure</persName>
+        <p>Lundi 10-11 Juin conseiller <persName ref="#IC">Calvino</persName> ‑ <persName ref="#NA">N. Arnaud</persName> ‑ <persName ref="#JL">Lescure</persName>
         </p>
         <p>
-            <persName>J. Roubaud</persName> : <persName>Gertrude Stein</persName>.</p>
+            <persName ref="#JR">J. Roubaud</persName> : <persName>Gertrude Stein</persName>.</p>
         <p>
-            <persName>Perec</persName> : 331 7845</p>
+            <persName ref="#GP">Perec</persName> : 331 7845</p>
       </body>
   </text>
 </TEI>

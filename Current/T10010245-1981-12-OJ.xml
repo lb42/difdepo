@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010245-1981-12-OJ">
   <teiHeader>
       <fileDesc>
@@ -21,7 +22,7 @@
             <bibl>
                <idno>T10010245-1981-12-OJ</idno>
                <title>Ordre de jour de <ref target="#T10010245-1981-12">la réunion Oulipo</ref> du <date when="1981-12-11">11/12/1981</date> 
-</title> 
+               </title> 
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -44,29 +45,29 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : Un <term>absent de marque</term>.</item>
+               <persName ref="#PF">PF</persName> : Un <term>absent de marque</term>.</item>
             <item>
-               <persName>JR</persName> : <persName>Giordano Bruno</persName> et <orgName>l’oulipo</orgName>.</item>
+               <persName ref="#JR">JR</persName> : <persName>Giordano Bruno</persName> et <orgName>l’oulipo</orgName>.</item>
             <item>
-               <persName>PB</persName> : <term>Roman policier plagié</term>.</item>
+               <persName ref="#PB">PB</persName> : <term>Roman policier plagié</term>.</item>
          </list>
          <p>
             <label type="rubrique">Action</label>
          </p>
          <list type="unordered">
             <item>
-               <persName>PF</persName> : <name type="manif">Nantes</name>
+               <persName ref="#PF">PF</persName> : <name type="manif">Nantes</name>
             </item>
             <item>
-               <persName>PF</persName> : <name type="manif">Villeneuve</name>
+               <persName ref="#PF">PF</persName> : <name type="manif">Villeneuve</name>
             </item>
-            <item>BO : <persName>PF</persName>
-            </item>
-            <item>
-               <persName>PF</persName> + tous : <title>Atlas</title>
+            <item>BO : <persName ref="#PF">PF</persName>
             </item>
             <item>
-               <persName>PB</persName> : <orgName>Alamo</orgName>
+               <persName ref="#PF">PF</persName> + tous : <title>Atlas</title>
+            </item>
+            <item>
+               <persName ref="#PB">PB</persName> : <orgName>Alamo</orgName>
             </item>
          </list>
          <p>
@@ -74,19 +75,19 @@
          </p>
          <list type="unordered">
             <item>
-               <persName>J Lescure</persName> : <term>AEIOU</term>
+               <persName ref="#JL">J Lescure</persName> : <term>AEIOU</term>
             </item>
             <item>
-               <persName>JL</persName> : le mystère en fleur <persName>Jacques Charpentreau</persName>
+               <persName ref="#JL">JL</persName> : le mystère en fleur <persName>Jacques Charpentreau</persName>
             </item>
             <item>
-               <persName>PB</persName> : <title>La cosmogonie</title> vue par <persName>Calvino</persName>.</item>
+               <persName ref="#PB">PB</persName> : <title>La cosmogonie</title> vue par <persName ref="#IC">Calvino</persName>.</item>
             <item>
-               <persName>PB</persName> : <term>dictionnaire de l’informatique</term>
+               <persName ref="#PB">PB</persName> : <term>dictionnaire de l’informatique</term>
             </item>
             <item>
-               <persName>PF</persName> 
-               <persName>PB</persName> : <term>jeu de cartes</term>
+               <persName ref="#PF">PF</persName> 
+               <persName ref="#PB">PB</persName> : <term>jeu de cartes</term>
             </item>
          </list>
          <p>Prochaine réunion : vendredi 22 janvier 82</p>

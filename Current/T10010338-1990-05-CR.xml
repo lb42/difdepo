@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010338-1990-05-CR">
   <teiHeader>
       <fileDesc>
@@ -25,25 +26,25 @@
                   <placeName>chez PF</placeName>
                   <list type="present">
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>FC</persName>
+                        <persName ref="#FC">FC</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName>JJ</persName>
+                        <persName ref="#JJ">JJ</persName>
                      </item>
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>HM</persName>
+                        <persName ref="#HM">HM</persName>
                      </item>
                      <item>
-                        <persName>JR</persName>
+                        <persName ref="#JR">JR</persName>
                      </item>
                   </list>
                </meeting>
@@ -69,23 +70,27 @@
                <date when="2017-03-21T15:03:00Z"/>1985 $$$</note>
          </p>
          <p rend="incipit">
-            <persName>PF</persName> <persName>FC</persName> <persName>MB</persName> <persName>JJ</persName> <persName>MM</persName>
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#FC">FC</persName> 
+            <persName ref="#MB">MB</persName> 
+            <persName ref="#JJ">JJ</persName> 
+            <persName ref="#MM">MM</persName>
          </p>
          <p rend="incipit">
             <persName>MM. JR.</persName> un peu tard.</p>
-         <p rend="incipit">excusés anonymes <persName>JQ</persName> / <persName>NA</persName>
+         <p rend="incipit">excusés anonymes <persName ref="#JQ">JQ</persName> / <persName ref="#NA">NA</persName>
          </p>
          <p>
             <label type="rubrique">CREATIONS</label>
          </p>
          <p>
-            <persName>PF</persName> « Demande de création ». <title>Collection Soluble</title> remplacer liseron</p>
+            <persName ref="#PF">PF</persName> « Demande de création ». <title>Collection Soluble</title> remplacer liseron</p>
          <p>projet oulipo. <persName>Francine Perceval</persName>.</p>
          <p>Un peu consternant</p>
          <p>
-            <persName>MB</persName> répond.</p>
+            <persName ref="#MB">MB</persName> répond.</p>
          <p>
-            <persName>FC</persName> Doublement. Triplement Rime. <term>Rime à syllabe redoublée.</term>
+            <persName ref="#FC">FC</persName> Doublement. Triplement Rime. <term>Rime à syllabe redoublée.</term>
          </p>
          <p>
              <term>Rime à syllabe triplée</term>
@@ -96,26 +101,26 @@
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName>FC</persName>. <term>Plagiat anticipation. CANADA DRY</term> 
+            <persName ref="#FC">FC</persName>. <term>Plagiat anticipation. CANADA DRY</term> 
             <persName>A Allais</persName>. 
             <title>« L’Affaire Blaireau»</title>
          </p>
          <p>
-            <persName>FC</persName> 
+            <persName ref="#FC">FC</persName> 
             <orgName>Estienne.</orgName> Travaux de l’école. mise en page sur textes oulipiens.</p>
          <p>
-            <persName>MB</persName>. <term>Asynartète.</term> Poème crée à partir d’<term>hémistiches</term> d’un autre poème.</p>
+            <persName ref="#MB">MB</persName>. <term>Asynartète.</term> Poème crée à partir d’<term>hémistiches</term> d’un autre poème.</p>
          <p>
-            <persName>MB</persName>. <persName>J C Renard</persName> <term>plagiaire</term>
+            <persName ref="#MB">MB</persName>. <persName>J C Renard</persName> <term>plagiaire</term>
             <title>. « Une autre parole »</title> (<title>Alchimie</title>) Série 81. f 102</p>
          <p>(<term>Poème double</term> suivant qu’on coupe ou non un mot en 2 parties, chacune créant un nouveau mot.</p>
          <p>
-            <persName>JJ</persName>. <title>Host</title> - <term>roman lipogrammatique.</term> (26)</p>
+            <persName ref="#JJ">JJ</persName>. <title>Host</title> - <term>roman lipogrammatique.</term> (26)</p>
          <list type="unordered">
             <item> ordre de lettres absentes.</item>
          </list>
          <p>
-            <persName>JJ</persName> écrit.</p>
+            <persName ref="#JJ">JJ</persName> écrit.</p>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f4.image"/>
          <p>2</p>
          <p>
@@ -126,16 +131,16 @@
          </p>
          <p>Coupry. <name type="manif">Colloque argot</name>. Maison <gap/>. Première soirée happening.</p>
          <p>
-            <persName>FC</persName> centralise. Nous suivons.</p>
+            <persName ref="#FC">FC</persName> centralise. Nous suivons.</p>
          <p>
-            <persName>Andé</persName>. Rouen. Février 91. Théâtre. + <persName>Morelin</persName>. OK sauf <persName>MM</persName> qui veut pas.</p>
+            <persName>Andé</persName>. Rouen. Février 91. Théâtre. + <persName>Morelin</persName>. OK sauf <persName ref="#MM">MM</persName> qui veut pas.</p>
          <p>Droits auteur. <orgName>Gallimard</orgName>. <title>Atlas</title>. Folio. E. 5798 / 8000 exemplaires</p>
          <p>Iris 11796 exemplaires.</p>
          <p>
             <orgName>Boringhieri [Bollinghieri].</orgName> Traduction oulipien en Italie début 91. choix <title>BO1 BO2</title>
          </p>
          <p>
-            <persName>MB.</persName> Amsterdam. Article pour mettre en tête d’une revue. <unclear>Debois</unclear>
+            <persName ref="#MB">MB.</persName> Amsterdam. Article pour mettre en tête d’une revue. <unclear>Debois</unclear>
          </p>
          <p>    Tokyo. <persName>M. Sakazume</persName>. Traduction <title>Vie Mode d’Emploi</title>
          </p>
@@ -147,7 +152,7 @@
             <note place="comment" resp="Alessandra_Scaccuto">
                <date when="2017-03-28T12:21:00Z"/>$$$</note>
        
-           <persName>CB</persName>.<persName>JJ</persName> 
+           <persName ref="#CB">CB</persName>.<persName ref="#JJ">JJ</persName> 
          </p>
          <p>    Marseille</p>
          <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f5.image"/>
@@ -155,30 +160,31 @@
          <p>Ottawa. <name type="manif">colloque plagiat.</name>
          </p>
          <p>
-            <persName>MB.</persName> projet de communication.</p>
+            <persName ref="#MB">MB.</persName> projet de communication.</p>
          <p>
-            <persName>FC.</persName> propose l’achat de <persName>Tabourot.</persName> 
+            <persName ref="#FC">FC.</persName> propose l’achat de <persName>Tabourot.</persName> 
          </p>
          <p>
-            <persName>PF</persName> sui le commande à 33%</p>
+            <persName ref="#PF">PF</persName> sui le commande à 33%</p>
          <p>
-            <persName>PF.</persName> Carcassonne. <name type="manif">Hommage à Roubaud</name>. Histoire du chef de Gare.</p>
+            <persName ref="#PF">PF.</persName> Carcassonne. <name type="manif">Hommage à Roubaud</name>. Histoire du chef de Gare.</p>
          <p>
             <label type="rubrique">MENU PROPOS</label>
          </p>
          <p>
             <persName>JJ-MB</persName>. mon semblable mon frère.</p>
          <p>
-            <persName>HM</persName> 
+            <persName ref="#HM">HM</persName> 
             <term>lecture poldéviste et poldadamiste</term>.</p>
-         <p>le passeport de <persName>Harry</persName> expire en Mai 2000</p>
+         <p>le passeport de <persName ref="#HM">Harry</persName> expire en Mai 2000</p>
          <p>
-            <persName>JR</persName> 
+            <persName ref="#JR">JR</persName> 
             <name type="manif">Salerno Festival de Poésie</name>
          </p>
          <p>on n’y voit plus la mer.</p>
          <p>
-            <persName>JR</persName>. <title>Schreibheft</title> N°35. <persName>JR</persName> <persName>HM</persName> &gt; <term>palindrome</term> de celui de l’<title>hexameron</title>.   </p>
+            <persName ref="#JR">JR</persName>. <title>Schreibheft</title> N°35. <persName ref="#JR">JR</persName> 
+            <persName ref="#HM">HM</persName> &gt; <term>palindrome</term> de celui de l’<title>hexameron</title>.   </p>
          <p>(<term>palindrome de paragraphes</term>) </p>
       </body>
   </text>

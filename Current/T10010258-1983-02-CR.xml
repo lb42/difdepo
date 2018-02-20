@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010258-1983-02-CR">
    <teiHeader>
       <fileDesc>
@@ -25,28 +26,28 @@
                   <placeName>chez MM</placeName>
                   <list type="present">
                      <item>
-                        <persName>MM</persName>
+                        <persName ref="#MM">MM</persName>
                      </item>
                      <item>
-                        <persName>NA</persName>
+                        <persName ref="#NA">NA</persName>
                      </item>
                      <item>
-                        <persName>LE</persName>
+                        <persName ref="#LE">LE</persName>
                      </item>
                      <item>
-                        <persName>CB</persName>
+                        <persName ref="#CB">CB</persName>
                      </item>
                      <item>
-                        <persName>JB</persName>
+                        <persName ref="#JB">JB</persName>
                      </item>
                      <item>
-                        <persName>PF</persName>
+                        <persName ref="#PF">PF</persName>
                      </item>
                      <item>
-                        <persName>MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                      <item>
-                        <persName role="secrétaire">MB</persName>
+                        <persName ref="#MB">MB</persName>
                      </item>
                   </list>
                </meeting>
@@ -69,18 +70,27 @@
       <body>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010258c/f3.image"/>
          <p rend="incipit">Oulipo du 18-2-83 </p>
-         <p rend="incipit">Chez <persName>MM</persName>
+         <p rend="incipit">Chez <persName ref="#MM">MM</persName>
          </p>
-         <p rend="incipit">Présents : <persName>MM</persName> <persName>NA</persName> <persName>PB</persName> <persName>LE</persName> <persName>CB</persName> <persName>JB</persName> <persName>PF</persName> <persName>MB</persName> 
+         <p rend="incipit">Présents : <persName ref="#MM">MM</persName> 
+            <persName ref="#NA">NA</persName> 
+            <persName ref="#PB">PB</persName> 
+            <persName ref="#LE">LE</persName> 
+            <persName ref="#CB">CB</persName> 
+            <persName ref="#JB">JB</persName> 
+            <persName ref="#PF">PF</persName> 
+            <persName ref="#MB">MB</persName> 
          </p>
-         <p rend="incipit">Excusés : <persName>FLL</persName> <persName>JQ</persName> <persName>JR</persName> 
+         <p rend="incipit">Excusés : <persName ref="#FLL">FLL</persName> 
+            <persName ref="#JQ">JQ</persName> 
+            <persName ref="#JR">JR</persName> 
          </p>
-         <p rend="incipit">Psdt : <persName>NA</persName> 
+         <p rend="incipit">Psdt : <persName ref="#NA">NA</persName> 
          </p>
-         <p rend="incipit">Secrétaire <persName>MB</persName> 
+         <p rend="incipit">Secrétaire <persName ref="#MB">MB</persName> 
          </p>
          <p>
-            <persName>MB</persName> : présentation des photos prises en journée chez <persName>FLL</persName>
+            <persName ref="#MB">MB</persName> : présentation des photos prises en journée chez <persName ref="#FLL">FLL</persName>
          </p>
          <p>- Présentation de la <term>contrainte d’Isabelle</term>
             
@@ -91,26 +101,26 @@
          <p>- présentation des <term>antisémies</term> (« il sale la note et c’est pour se sucrer »)</p>
          <p>- lecture de « <title>La règle et la contrainte</title> » (à paraître dans la revue « <title>Pratiques</title> »)</p>
          <p>Félicitations suivies de discussions. </p>
-         <p>- Lecture de l’appentis (nouvelle en marge de <ref>Vie Mode d’Emploi</ref> de <persName>Perec</persName>, à paraître dans <title>Littérature</title>, revue de <orgName>l’université de Toulouse</orgName>)</p>
+         <p>- Lecture de l’appentis (nouvelle en marge de <ref>Vie Mode d’Emploi</ref> de <persName ref="#GP">Perec</persName>, à paraître dans <title>Littérature</title>, revue de <orgName>l’université de Toulouse</orgName>)</p>
          <p>
-            <persName>LE</persName> : <persName>Laucou</persName> a retrouvé le principe d’un « <term>dictionnaire du français épelé</term> » (déjà pratiqué par <persName>MM</persName>)</p>
+            <persName ref="#LE">LE</persName> : <persName>Laucou</persName> a retrouvé le principe d’un « <term>dictionnaire du français épelé</term> » (déjà pratiqué par <persName ref="#MM">MM</persName>)</p>
          <p>
-            <persName>JB</persName> : lecture de <term>variations homophoniques</term> sur <title>la Vie mode d’emploi</title> (contribution à l’hommage à <persName>Perec</persName>)</p>
+            <persName ref="#JB">JB</persName> : lecture de <term>variations homophoniques</term> sur <title>la Vie mode d’emploi</title> (contribution à l’hommage à <persName ref="#GP">Perec</persName>)</p>
          <p>
-            <persName>PB</persName> : propose d’appeler <term>contrainte stéphanoise</term> (<persName>Luc Etienne</persName>) une <term>contrainte qui n’a qu’une solution</term>. </p>
+            <persName ref="#PB">PB</persName> : propose d’appeler <term>contrainte stéphanoise</term> (<persName ref="#LE">Luc Etienne</persName>) une <term>contrainte qui n’a qu’une solution</term>. </p>
          <p>
-            <persName>CB</persName> : <term>contrainte à 0 solution</term>
+            <persName ref="#CB">CB</persName> : <term>contrainte à 0 solution</term>
          </p>
          <p>
-            <persName>LE</persName> : demande renseignements sur le <term>Limerick</term>
+            <persName ref="#LE">LE</persName> : demande renseignements sur le <term>Limerick</term>
          </p>
-         <p>On lui conseille de s’adresser à <persName>Jacques Roubaud</persName>
+         <p>On lui conseille de s’adresser à <persName ref="#JR">Jacques Roubaud</persName>
          </p>
          <p>
             <name type="manif">Journée Oulipo</name> à <orgName>Beaubourg</orgName> le 8-4-83 </p>
-         <p>Or <persName>PB</persName> ne sera pas là. Ce qui cause un grand tintouin. </p>
+         <p>Or <persName ref="#PB">PB</persName> ne sera pas là. Ce qui cause un grand tintouin. </p>
          <p>
-            <persName>PB</persName> chargé de renégocier une date qui arrange mieux les Oulipiens. </p>
+            <persName ref="#PB">PB</persName> chargé de renégocier une date qui arrange mieux les Oulipiens. </p>
          <p>2. <name type="manif">Salon du livre</name> du 16-20 Avril au Grand Palais</p>
          <p>
             <orgName>Alamo</orgName> aura un stand </p>
@@ -123,23 +133,23 @@
                   <date when="2017-08-24T14:53:00Z"/>$$$ notion$$$ organisation</note>
              
          </p>
-         <p>Oulipo représenté par <persName>Italo Calvino</persName> et <persName>MB</persName> ? </p>
+         <p>Oulipo représenté par <persName ref="#IC">Italo Calvino</persName> et <persName ref="#MB">MB</persName> ? </p>
          <p>
-            <persName>Calvino</persName> – doute que <persName>IC</persName> participe réellement à la manifestation (excursus sur la timidité comparée de <persName>IC</persName> et de <persName>RQ</persName>)</p>
+            <persName ref="#IC">Calvino</persName> – doute que <persName ref="#IC">IC</persName> participe réellement à la manifestation (excursus sur la timidité comparée de <persName ref="#IC">IC</persName> et de <persName ref="#RQ">RQ</persName>)</p>
          
             <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010258c/f4.image"/>
          
          <p>
-            <persName>PF</persName> ; <name type="manif">Amiens</name> à l’automne. Une mutation invitation à venir, elle sera bien accueillie. </p>
+            <persName ref="#PF">PF</persName> ; <name type="manif">Amiens</name> à l’automne. Une mutation invitation à venir, elle sera bien accueillie. </p>
          <p>
-            <persName>CB</persName> ; Invité d’honneur prévu (<persName>Rota</persName>) non disponible. </p>
+            <persName ref="#CB">CB</persName> ; Invité d’honneur prévu (<persName>Rota</persName>) non disponible. </p>
          <p>
-            <persName>MB</persName> : question à propos du <unclear>périple</unclear> Hollandais. </p>
+            <persName ref="#MB">MB</persName> : question à propos du <unclear>périple</unclear> Hollandais. </p>
          <p>
-            <persName>PF</persName> : pas de nouvelles. </p>
-         <p>Tous : considérations oiseuses sur le calendrier de <persName>PB</persName>
+            <persName ref="#PF">PF</persName> : pas de nouvelles. </p>
+         <p>Tous : considérations oiseuses sur le calendrier de <persName ref="#PB">PB</persName>
          </p>
-         <p>Départ de <persName>PF</persName> et de <persName>CB</persName>. Prochaine réunion : le 18. 3 chez <persName>MM</persName>. </p>
+         <p>Départ de <persName ref="#PF">PF</persName> et de <persName ref="#CB">CB</persName>. Prochaine réunion : le 18. 3 chez <persName ref="#MM">MM</persName>. </p>
          <p>Autour du café : conversation hors ordre du jour sur les beautés de la <term>phonétique</term>. </p>
       </body>
    </text>
