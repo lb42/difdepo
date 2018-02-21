@@ -50,7 +50,7 @@ On utilise <add> pour les ajouts.
 
 *De mon côté :*
 
-* Transformer <add> en vertical-align:super;
+* Transformer <add> en italiques
 * Gérer supplied, choice
 
 
@@ -84,7 +84,10 @@ On utilise <add> pour les ajouts.
 		* titre de la fiche index
 		* association des noms de personne (ne tient pas compte de la typographie, mais les lettres sont discriminantes)
 	* Idem pour orgName, name, title, term (vérifier à ce moment-là le problème des imbrications)
-	* Pour les imbrications, regarder peut-être les entités qui sont contiguës : //body//(title|name|term|orgName|ref)[following::node()[normalize-space(.) != ''][1][(self::persName) or (self::title) or (self::name) or (self::term) or (self::orgName) or (self::ref)]]
+	//text//name
+	//text//title
+	//text//orgName
+	//text//term
 
 * //text//ref : ajouter @target (URL du dossier dans Gallica, en précisant à quelle page du dossier commence l’élément en question)
 
