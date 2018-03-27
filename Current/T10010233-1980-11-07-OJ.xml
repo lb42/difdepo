@@ -29,6 +29,7 @@
       
       <revisionDesc>
          <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
             <change when="2018-01-06">restore date from docx</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
             <change when="2017-11-13T17:34:38Z">Conversion docx-tei initiale  </change>
@@ -78,12 +79,8 @@
          <list type="unordered">
             <item>
                <persName ref="#LE">LE</persName>
-               <lb/>-Argives
-                  <note resp="editor">
-                     Archives ? [Note de l'éditeur]</note>
-                [Archives]
-               <note resp="editor">
-                  Oui on peut restituer entre crochets le mot « archives » . le Cr doit être rédigé par HM, son orthographe est souvent approximative [Note de l'éditeur]</note>
+               <lb/>-<choice><sic>Argives</sic><corr>Archives</corr></choice>
+               <note resp="editor">le Cr doit être rédigé par <persName>HM</persName>, son orthographe est parfois approximative [Note de l'éditeur]</note>
                
             </item>
             <item>
@@ -126,9 +123,7 @@
          <list type="unordered">
             <item>
                <persName ref="#JQ">JQ</persName> 
-               <title>Dictionnaire</title> 
-               <unclear>de</unclear>
-                <title>Japon</title>
+               <title>Dictionnaire <unclear>du</unclear> Japon</title>
             </item>
             <item>
                <persName>HM</persName> <persName>Anaïd</persName>

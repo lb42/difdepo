@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/css" href="../style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010331-1989-10-CV">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Transcription du scan 10010331 pp. 18 à 18 (CV) : version TEI</title>
@@ -9,9 +9,9 @@
                <resp>transcription</resp>
                <name>Difdepo</name>
             </respStmt>
-      
+
             <respStmt>
-               <resp>Conversion docx-tei initiale  </resp>
+               <resp>Conversion docx-tei initiale </resp>
                <name>Difdepo</name>
             </respStmt>
          </titleStmt>
@@ -21,37 +21,40 @@
          <sourceDesc>
             <bibl>
                <idno>T10010331-1989-10-CV</idno>
-               <title>Convocation à <ref target="#T10010331-1989-10">une réunion Oulipo</ref>, envoyée le <date when="1989-10-02">02/10/1989</date> par <persName ref="#PF">PF</persName> 
-               </title> 
+               <title>Convocation à <ref target="#T10010331-1989-10">une réunion Oulipo</ref>,
+                  envoyée le <date when="1989-10-02">02/10/1989</date> par <persName ref="#PF"
+                     >PF</persName>
+               </title>
             </bibl>
          </sourceDesc>
       </fileDesc>
-   
+
       <revisionDesc>
          <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
             <change when="2018-01-09">restore senders from docx</change>
             <change when="2018-01-06">restore date from docx</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:39:50Z">Conversion docx-tei initiale  </change>
+            <change when="2017-11-13T17:39:50Z">Conversion docx-tei initiale </change>
          </listChange>
       </revisionDesc>
-  </teiHeader>
-  <text type="CV">
+   </teiHeader>
+   <text type="CV">
       <body>
          <pb n="18" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010331s/f18.highres"/>
          <p>OULIPO</p>
          <p>Paris, le 2 octobre 1989</p>
          <p>Chers oulipiens,</p>
-         <p>La prochaine réunion de l’Ouvroir aura lieu le vendredi
-            <note resp="editor">
-              raturé [Note de l'éditeur]</note>
-      $$$ mardi 17 octobre 1989 à 19 heures chez <persName ref="#CB">Claude Berge</persName> (10 rue Galvani, 75017 Paris – tél : 45 72 06 17).</p>
-         <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="#CB">C.B.</persName>
+         <p>La prochaine réunion de l’Ouvroir aura lieu le <del>vendredi</del>mardi 17 octobre 1989
+            à 19 heures chez <persName ref="#CB">Claude Berge</persName> (10 rue Galvani, 75017
+            Paris – tél : 45 72 06 17).</p>
+         <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="#CB"
+               >C.B.</persName>
          </p>
          <p>Au 17, amitiés,</p>
          <p>
             <persName ref="#PF">Paul</persName>
          </p>
       </body>
-  </text>
+   </text>
 </TEI>

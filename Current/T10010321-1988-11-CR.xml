@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/css" href="../style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010321-1988-11-CR">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Transcription du scan 10010321 pp. 10 à 10 (CR) : version TEI</title>
@@ -9,9 +9,9 @@
                <resp>transcription</resp>
                <name>utilisateur-p3</name>
             </respStmt>
-      
+
             <respStmt>
-               <resp>Conversion docx-tei initiale  </resp>
+               <resp>Conversion docx-tei initiale </resp>
                <name>utilisateur-p3</name>
             </respStmt>
          </titleStmt>
@@ -42,37 +42,43 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-   
+
       <revisionDesc>
          <listChange>
+            <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
             <change when="2018-01-06">restore date from docx</change>
             <change when="2018-01-06">restore placeName from docx</change>
             <change when="2018-01-02">restore accidentally deleted attendance lists</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:38:49Z">Conversion docx-tei initiale  </change>
+            <change when="2017-11-13T17:38:49Z">Conversion docx-tei initiale </change>
          </listChange>
       </revisionDesc>
-  </teiHeader>
-  <text type="CR">
+   </teiHeader>
+   <text type="CR">
       <body>
          <pb n="10" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010321c/f10.highres"/>
          <p rend="incipit">Séance 338</p>
-         <p rend="incipit">Présents : <persName ref="#PF">PF</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#MM">MM</persName>, <persName ref="#JR">JR</persName>, <persName ref="#MB">MB</persName>
+         <p rend="incipit">Présents : <persName ref="#PF">PF</persName>, <persName ref="#JJ"
+               >JJ</persName>, <persName ref="#MM">MM</persName>, <persName ref="#JR">JR</persName>,
+               <persName ref="#MB">MB</persName>
          </p>
-         <p rend="incipit">Excusés : <persName ref="#NA">NA</persName>, <persName ref="#CB">CB</persName>, <persName ref="#FC">FC</persName> (mais non absent)</p>
-         <p rend="incipit">Absents : <persName ref="#PB">PB</persName>, <persName ref="#JL">JL</persName>, <persName ref="#JB">JB</persName>, <persName ref="#HM">HM</persName>
+         <p rend="incipit">Excusés : <persName ref="#NA">NA</persName>, <persName ref="#CB"
+               >CB</persName>, <persName ref="#FC">FC</persName> (mais non absent)</p>
+         <p rend="incipit">Absents : <persName ref="#PB">PB</persName>, <persName ref="#JL"
+               >JL</persName>, <persName ref="#JB">JB</persName>, <persName ref="#HM">HM</persName>
          </p>
          <p>
             <label type="rubrique">Création</label>
          </p>
          <list type="unordered">
             <item>
-               <persName ref="#JJ">JJ</persName> 
+               <persName ref="#JJ">JJ</persName>
                <list type="unordered">
                   <item>
                      <term>Poèmes dimorphes</term> : <list type="ordered">
                         <item>
-                           <term>Haiku</term> + <term>alexandrin monostique</term> (passage de 17 à 12 syllabes)</item>
+                           <term>Haiku</term> + <term>alexandrin monostique</term> (passage de 17 à
+                           12 syllabes)</item>
                         <item>
                            <term>triolet</term> + <term>morale élémentaire</term>
                         </item>
@@ -83,28 +89,32 @@
                </list>
             </item>
             <item>
-               <persName ref="#MB">MB</persName> « Autour du <title>je me souviens</title> » : présentation du « <term>Peut-être</term> »</item>
+               <persName ref="#MB">MB</persName> « Autour du <title>je me souviens</title> » :
+               présentation du « <title>Peut-être</title> »</item>
          </list>
          <p>
             <label type="rubrique">Erudition</label>
          </p>
          <list type="unordered">
             <item>
-               <persName ref="#MB">MB</persName> 
-               <term>Lipogrammes espagnols</term> 
+               <persName ref="#MB">MB</persName>
+               <term>Lipogrammes espagnols</term>
             </item>
             <item>
-               <persName ref="#MB">MB</persName> 
-               <persName>PPA</persName> (de <persName>Sarasin</persName>) : <term>tireur au quatrain</term> 
+               <persName ref="#MB">MB</persName>
+               <persName>PPA</persName> (de <persName>Sarasin</persName>) : <term>tireur au
+                  quatrain</term>
             </item>
             <item>
-               <persName ref="#JR">JR</persName> 
+               <persName ref="#JR">JR</persName>
                <title>le Certame Coronario</title> : poème à lecture verticale et horizontale</item>
             <item>
-               <persName ref="#FC">FC</persName> (représenté par <persName ref="#JJ">JJ</persName>) <title>Bardes et cordes</title>
+               <persName ref="#FC">FC</persName> (représenté par <persName ref="#JJ">JJ</persName>)
+                  <title>Bardes et cordes</title>
             </item>
             <item>
-               <persName ref="#JJ">JJ</persName> Présentation d’un travail de <persName>A. Tchungui</persName>: jeu sur le haut et les bas des lettres</item>
+               <persName ref="#JJ">JJ</persName> Présentation d’un travail de <persName>A.
+                  Tchungui</persName>: jeu sur le haut et les bas des lettres</item>
          </list>
          <p>
             <label type="rubrique">Action</label>
@@ -119,19 +129,20 @@
          <p>
             <persName ref="#JJ">JJ</persName> Florence 20-21 Avril</p>
          <p>
-            <name type="manif">Corbeil : semaine roman policier : lecture Oulipo sur la Rime</name> 
+            <name type="manif">Corbeil : semaine roman policier </name>: <name type="manif">lecture
+               Oulipo sur la Rime</name>
             <unclear>*</unclear>
          </p>
-         <p>         23 24 mars</p>
+         <p> 23 24 mars</p>
          <p>
             <label type="rubrique">Menus propos</label>
          </p>
          <p>
             <persName ref="#PF">PF</persName> l’amour</p>
          <p>
-            <persName>Paulhan</persName>  
+            <persName>Paulhan</persName>
          </p>
          <p>prochaine réunion 16 12</p>
       </body>
-  </text>
+   </text>
 </TEI>

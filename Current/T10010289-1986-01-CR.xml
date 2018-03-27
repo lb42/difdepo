@@ -1,159 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/css" href="../style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010289-1986-01-CR">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010289 pp. 2 à 3 (CR) : version TEI</title>
-				        <respStmt>
-					          <resp>transcription</resp>
-					          <name>Hélène Guitton</name>
-				        </respStmt>
-				        <respStmt>
-					          <resp>balisage</resp>
-					          <name>Chiara Mainardi</name>
-				        </respStmt>
-			         <respStmt>
-               <resp>Conversion docx-tei initiale  </resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010289-1986-01-CR</idno>
-					          <meeting xml:id="T10010289-1986-01">
-						            <date when="1986-01-25">25/01/1986</date>
-						            <placeName>chez Paul Fournier</placeName>
-						            <list type="present">
-							              <item>
-                        <persName ref="#PF">PF</persName>
-                     </item>
-							              <item>
-                        <persName ref="#FC">FC</persName>
-                     </item>
-							              <item>
-                        <persName ref="#MB">MB</persName>
-                     </item>
-							              <item>
-                        <persName ref="#JB">JB</persName>
-                     </item>
-							              <item>
-                        <persName ref="#CB">CB</persName>
-                     </item>
-							              <item>
-                        <persName ref="#PB">PB</persName>
-                     </item>
-							              <item>
-                        <persName ref="#JJ">JJ</persName>
-                     </item>
-							              <item>
-                        <persName ref="#JR">JR</persName>
-                     </item>
-						            </list>
-					          </meeting>
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-		
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2017-09-02">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="CR">
-		    <body>
-         <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102892/f2.highres"/>
-         <p rend="incipit">OULIPO – Réunion du Samedi 25 janvier 1986 – 19h-23h</p>
-         <p>Présents : <persName ref="#PF">Paul Fournel</persName> qui reçoit avec <persName>Martine</persName>, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#JB">Jacques Bens</persName>, <persName ref="#CB">Claude Berge</persName>, <persName ref="#PB">Paul Braffort</persName>, <persName ref="#FC">François Caradec</persName> qui préside, <persName ref="#JJ">Jacques Jouet</persName> qui rapporte et <persName ref="#JR">Jacques Roubaud</persName> qui reprend trois fois du cabri massalé.</p>
-         <p>On pense beaucoup aux absents.</p>
-         <p>Excusés : <persName ref="#JR">JR</persName>
-         </p>
-         <p>Adresse du Président <persName ref="#NA">Arnaud</persName> : un blâme au rapporteur de séance qui mentionne trop irrégulièrement le détail des matières de table. C’est vrai. Ça ne se reproduira plus. Les présents exigent d’être reçus à déjeuner par l’<orgName>OuCuipo</orgName>.</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-				        <item>Chaîne d’alexandrins. Un tas.</item>
-				        <item>
-               <persName ref="#JJ">JJ</persName> exhibe <title>Le palais des congrès</title>, qu’il a fait avec <persName>Bertin</persName> : il s’agit d’écrire un texte sans accents et qu’un autre [texte] apparaisse si l’on superpose des accents. Ex : l’aine aime le rose avec le sale / L’aîné aime le rosé avec le salé. </item>
-				        <item>
-               <persName ref="#CB">CB</persName> a une moisson d’<term>eodermdromes</term> en langues anglaise. Il souhaite que soit invité (d’honneur) <persName>M. Petitot</persName>, maître en théorie des <term>catastrophes</term>. Il est en liaison avec le Pr. <persName>Delay</persName> (Illinois), adaptations oulipiennes possibles de la <term>théorie des jeux</term>.</item>
-			      </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-				        <item>
-               <persName ref="#JR">JR</persName> est invité à Milan par la <orgName>Montedison</orgName> pour un hommage à <persName ref="#IC">IC</persName>, à l’occasion de sa traduction du <title>Styrène</title> de <persName ref="#RQ">RQ</persName>.
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Transcription du scan 10010289 pp. 2 à 3 (CR) : version TEI</title>
+				<respStmt>
+					<resp>transcription</resp>
+					<name>Hélène Guitton</name>
+				</respStmt>
+				<respStmt>
+					<resp>balisage</resp>
+					<name>Chiara Mainardi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Conversion docx-tei initiale </resp>
+					<name>Hélène Campaignolle</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<idno>T10010289-1986-01-CR</idno>
+					<meeting xml:id="T10010289-1986-01">
+						<date when="1986-01-25">25/01/1986</date>
+						<placeName>chez Paul Fournier</placeName>
+						<list type="present">
+							<item>
+								<persName ref="#PF">PF</persName>
+							</item>
+							<item>
+								<persName ref="#FC">FC</persName>
+							</item>
+							<item>
+								<persName ref="#MB">MB</persName>
+							</item>
+							<item>
+								<persName ref="#JB">JB</persName>
+							</item>
+							<item>
+								<persName ref="#CB">CB</persName>
+							</item>
+							<item>
+								<persName ref="#PB">PB</persName>
+							</item>
+							<item>
+								<persName ref="#JJ">JJ</persName>
+							</item>
+							<item>
+								<persName ref="#JR">JR</persName>
+							</item>
+						</list>
+					</meeting>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+
+		<revisionDesc>
+			<listChange>
+				<change when="2018-03-25" who="HCC">nettoyage des notions/terms</change>
+				<change when="2017-12-27">restore accidentally deleted attendance lists</change>
+				<change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+
+				<change when="2017-09-02">Conversion docx-tei initiale </change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text type="CR">
+		<body>
+			<pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102892/f2.highres"/>
+			<p rend="incipit">OULIPO – Réunion du Samedi 25 janvier 1986 – 19h-23h</p>
+			<p>Présents : <persName ref="#PF">Paul Fournel</persName> qui reçoit avec
+					<persName>Martine</persName>, <persName ref="#MB">Marcel Bénabou</persName>,
+					<persName ref="#JB">Jacques Bens</persName>, <persName ref="#CB">Claude
+					Berge</persName>, <persName ref="#PB">Paul Braffort</persName>, <persName
+					ref="#FC">François Caradec</persName> qui préside, <persName ref="#JJ">Jacques
+					Jouet</persName> qui rapporte et <persName ref="#JR">Jacques Roubaud</persName>
+				qui reprend trois fois du cabri massalé.</p>
+			<p>On pense beaucoup aux absents.</p>
+			<p>Excusés : <persName ref="#JR">JR</persName>
+			</p>
+			<p>Adresse du Président <persName ref="#NA">Arnaud</persName> : un blâme au rapporteur
+				de séance qui mentionne trop irrégulièrement le détail des matières de table. C’est
+				vrai. Ça ne se reproduira plus. Les présents exigent d’être reçus à déjeuner par
+					l’<orgName>OuCuipo</orgName>.</p>
+			<p>
+				<label type="rubrique">Création</label>
+			</p>
+			<list type="unordered">
+				<item>Chaîne d’alexandrins. Un tas.</item>
+				<item>
+					<persName ref="#JJ">JJ</persName> exhibe <title>Le palais des congrès</title>,
+					qu’il a fait avec <persName>Bertin</persName> : il s’agit d’écrire un texte sans
+					accents et qu’un autre [texte] apparaisse si l’on superpose des accents. Ex :
+					l’aine aime le rose avec le sale / L’aîné aime le rosé avec le salé. </item>
+				<item>
+					<persName ref="#CB">CB</persName> a une moisson d’<term>eodermdromes</term> en
+					langues anglaise. Il souhaite que soit invité (d’honneur) <persName>M.
+						Petitot</persName>, maître en théorie des <term>catastrophes</term>. Il est
+					en liaison avec le Pr. <persName>Delay</persName> (Illinois), adaptations
+					oulipiennes possibles de la <term>théorie des jeux</term>.</item>
+			</list>
+			<p>
+				<label type="rubrique">Action</label>
+			</p>
+			<list type="unordered">
+				<item>
+					<persName ref="#JR">JR</persName> est invité à Milan par la
+						<orgName>Montedison</orgName> pour un hommage à <persName ref="#IC"
+						>IC</persName>, à l’occasion de sa traduction du <title>Styrène</title> de
+						<persName ref="#RQ">RQ</persName>. </item>
+				<item>
+					<persName ref="#PB">PB</persName> apporte, de la part
+						d’<persName>Emilie</persName>, plusieurs articles de la presse italienne, à
+					propos d’<persName ref="#IC">IC</persName>.</item>
+
+				<item>
+					<persName ref="#JJ">JJ</persName> transmet, de la part de <persName>J. P.
+						Balpe</persName> une proposition de la revue <title>Traverses</title> (n° en
+					cours sur le « Japanisme ») : écrire des textes français en utilisant les
+					syllabes du japonais genre yamamoto kadératé… <persName ref="#JR"
+						>JR</persName> propose de confier à tous la liste des dites syllabes : il
+					doit les confier à <persName ref="#PF">PF</persName> qui les fera suivre.</item>
+				<item>On rappelle les dates du <name type="manif">stage de Saint-Quentin</name> :
+					12, 13, 14 avril et festival de la nouvelle les 18 et 19 du même mois.</item>
+				<item>Tulle <persName ref="#JB">JB</persName> et <persName ref="#PB">PB</persName>.
+					C’est parti. (Il y a un mois sur <persName ref="#RQ">Queneau</persName>.)</item>
+				<item>Limoges demande <persName ref="#JR">JR</persName>.</item>
+				<item>Pau. Mais qui a parlé de Pau, si personne n’a rien à dire sur Pau ?</item>
+				<item>Mulhouse. Bibliothèque municipale, <name type="event">hommage à <persName
+							ref="#GP">Perec</persName>
+					</name> . Un oulipien est demandé. <persName ref="#PB">PB</persName> se
+					précipite. Il a une amie non loin.</item>
+				<item>Un musée <persName>Rex Stout</persName> au Koweit. Personne n’est
+					invité.</item>
+				<item>Hommage à <persName ref="#JQ">JQ</persName>, fin septembre 86 à Beaubourg.
+						<persName ref="#NA">NA</persName>, <persName ref="#JR">JR</persName>,
+						<persName ref="#PB">PB</persName>.</item>
+				<pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102892/f3.highres"/>
+				<item>Cinquantenaire de la mort de <persName>Lord Hornbee</persName> (inventeur du
+					meccano). <persName ref="#FC">FC</persName>.</item>
+				<item>Sentence : « Le beau est oulipien ».</item>
+			</list>
+			<p>
+				<label type="rubrique">Bibliothèque oulipienne</label>
+			</p>
+			<list type="unordered">
+				<item>: <persName ref="#PF">PF</persName> La réimpression
+						<persName>Ramsay</persName> doit paraître en septembre. Appel à tous ceux
+					qui veulent faire des corrections à leurs <title>Bibliothèque oulipienne</title> passées. Envoyez une
+					photocopie corrigée à <persName ref="#PF">PF</persName>, pour le début MARS
+					86.</item>
+				<item>Débat sur le n° 30 (<title>IIIe manifeste</title> de <persName ref="#FLL"
+						>FLL</persName>). Faut-il qu’il n’apparaisse qu’en Table des matières, ou
+					qu’il y ait en plus la page de titre dans le volume, à sa place, suivie ou non
+					d’une ou plusieurs pages blanches ? Avis divergents.</item>
+				<item>N° 29, 33 et 34 sous presse (<persName ref="#MB">MB</persName>, <persName
+						ref="#MM">MM</persName> et <persName ref="#MM">MM</persName>).</item>
+				<item>Hommage <persName ref="#FLL">FLL</persName>. <persName ref="#PB">PB</persName>
+					joindra MoN BeAU NeON. Rappel : réunion de février, dernier
+					délai…</item>
+				<item>
+					<persName ref="#PF">PF</persName> propose qu’une future <title>Bibliothèque oulipienne</title>
+					rassemble les objections d’oulipiens potentiels au <title>IIIe
+					manifeste</title>. <persName ref="#PF">PF</persName> y travaille, quand à
+					lui.</item>
+				<item>
+					<persName ref="#MB">MB</persName> excuse <persName ref="#JL">JL</persName>. On
+					attend <title>Ultra crapidam</title> pour la <title>Bibliothèque oulipienne</title>. Il paraît que
+					c’est écrit sans contrainte. Hou ! C’est impossible.</item>
+			</list>
+			<p>
+				<label type="rubrique">Erudition :</label>
+			</p>
+			<list type="unordered">
+				<item>
+					<persName ref="#FC">FC</persName>
+					<term>Alva</term> ( <term>notion alphonseallaisienne</term> de « minimum de douze
+					syllabes garanti »).</item>
+				<item>J’ai oublié de mentionner que <persName ref="#FC">FC</persName> nous a tenus
+					en haleine en nous rapportant divers <term>systèmes de récits</term>
+					<term>a.allaisiens</term>.</item>
+				<item>
+					<persName ref="#FC">FC</persName>
+					<term>Alva</term> encore, encore <persName>A. Allais</persName>.</item>
+				<item>
+					<persName ref="#FC">FC</persName> Poèmes monorimes.
+						<persName>Franc-Nohain</persName>.</item>
+				<item>
+					<persName ref="#FC">FC</persName>
+					<term>monovocalisme</term> en a (+ qq. E) par <persName>Mérall</persName> et
+						<persName>Rip</persName>. Fameux <term>plagiaire par anticipation</term> de
+						<title>What a man</title>
 				</item>
-					       <item>
-               <persName ref="#PB">PB</persName> apporte, de la part d’<persName>Emilie</persName>, plusieurs articles de la presse italienne, à propos d’<persName ref="#IC">IC</persName>.</item>
-					
-				        <item>
-               <persName ref="#JJ">JJ</persName> transmet, de la part de <persName>J. P. Balpe</persName> une proposition de la revue <title>Traverses</title> (n° en cours sur le « Japanisme ») : écrire des textes français en utilisant les syllabes du japonais genre <term>yamamoto kadératé</term>… <persName ref="#JR">JR</persName> propose de confier à tous la liste des dites syllabes : il doit les confier à <persName ref="#PF">PF</persName> qui les fera suivre.</item>
-				        <item>On rappelle les dates du <name type="manif">stage de Saint-Quentin</name> : 12, 13, 14 avril et festival de la nouvelle les 18 et 19 du même mois.</item>
-				        <item>Tulle <persName ref="#JB">JB</persName> et <persName ref="#PB">PB</persName>. C’est parti. (Il y a un mois sur <persName ref="#RQ">Queneau</persName>.)</item>
-				        <item>Limoges demande <persName ref="#JR">JR</persName>.</item>
-				        <item>Pau. Mais qui a parlé de Pau, si personne n’a rien à dire sur Pau ?</item>
-				        <item>Mulhouse. Bibliothèque municipale, <name type="event">hommage à <persName ref="#GP">Perec</persName> 
-               </name> . Un oulipien est demandé. <persName ref="#PB">PB</persName> se précipite. Il a une amie non loin.</item>
-				        <item>Un musée <persName>Rex Stout</persName> au Koweit. Personne n’est invité.</item>
-				        <item>Hommage à <persName ref="#JQ">JQ</persName>, fin septembre 86 à Beaubourg. <persName ref="#NA">NA</persName>, <persName ref="#JR">JR</persName>, <persName ref="#PB">PB</persName>.</item>
-            <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102892/f3.highres"/>
-				        <item>Cinquantenaire de la mort de <persName>Lord Hornbee</persName> (inventeur du meccano). <persName ref="#FC">FC</persName>.</item>
-				        <item>Sentence :
-				« Le beau est oulipien ».</item>
-				     </list>
-         <p>
-            <label type="rubrique">B.O.</label>
-         </p>
-         <list type="unordered">
-				        <item>: <persName ref="#PF">PF</persName> La réimpression <persName>Ramsay</persName> doit paraître en septembre. Appel à tous ceux qui veulent faire des corrections à leurs <title>BO</title> passées. Envoyez une photocopie corrigée à <persName ref="#PF">PF</persName>, pour le début MARS 86.</item>
-				        <item>Débat sur le n° 30 (<title>IIIe manifeste</title> de <persName ref="#FLL">FLL</persName>). Faut-il qu’il n’apparaisse qu’en Table des matières, ou qu’il y ait en plus la page de titre dans le volume, à sa place, suivie ou non d’une ou plusieurs pages blanches ? Avis divergents.</item>
-				        <item>N° 29, 33 et 34 sous presse (<persName ref="#MB">MB</persName>, <persName ref="#MM">MM</persName> et <persName ref="#MM">MM</persName>).</item>
-				        <item>Hommage <persName ref="#FLL">FLL</persName>. <persName ref="#PB">PB</persName> joindra <term>MoN BeAU NeON</term>. Rappel : réunion de février, dernier délai…</item>
-				        <item>
-               <persName ref="#PF">PF</persName> propose qu’une future <title>BO</title> rassemble les objections d’oulipiens potentiels au <title>IIIe manifeste</title>. <persName ref="#PF">PF</persName> y travaille, quand à lui.</item>
-				        <item>
-               <persName ref="#MB">MB</persName> excuse <persName ref="#JL">JL</persName>. On attend <title>Ultra crapidam</title> pour la <title>BO</title>. Il paraît que c’est écrit sans contrainte. Hou ! C’est impossible.</item>
-			      </list>
-         <p>
-            <label type="rubrique">Erudition :</label>
-         </p>
-         <list type="unordered">
-				        <item>
-               <persName ref="#FC">FC</persName> 
-               <term>Alva</term> (notion <term>alphonseallaisienne</term> de « minimum de douze syllabes garanti »).</item>
-				        <item>J’ai oublié de mentionner que <persName ref="#FC">FC</persName> nous a tenus en haleine en nous rapportant divers <term>systèmes de récits</term> 
-               <term>a.allaisiens</term>.</item>
-				        <item>
-               <persName ref="#FC">FC</persName> 
-               <term>Alva</term> encore, encore <persName>A. Allais</persName>.</item>
-				        <item>
-               <persName ref="#FC">FC</persName> Poèmes monorimes. <persName>Franc-Nohain</persName>.</item>
-				        <item>
-               <persName ref="#FC">FC</persName> 
-               <term>monovocalisme</term> en a (+ qq. E) par <persName>Mérall</persName> et <persName>Rip</persName>. Fameux <term>plagiaire par ant.</term> de <title>What a man</title>
-            </item>
-			      </list>
-         <p>
-            <label type="rubrique">Menus propos :</label>
-         </p>
-         <list type="unordered">
-				        <item>
-               <persName ref="#MB">MB</persName> trésor OuLipo. Ça dort, ça dort. </item>
-				        <item>
-               <persName ref="#FC">FC</persName> termine (mais c’est une création) par une chanson qu’il nous chante et dont les rimes sont radicalement neuves.</item>
-				        <item>On but du punch coco, assis en chauffe-galet sous des anacardiers. On mangea (dans l’ordre canonique) : le riz, le grain (haricots rouges), cabri massalé, bred (ce sont légumes en salade) ; Fromages ; Mousse au chocolat. On but du Bois des Mattes. </item>
-				        <item>Un mois plus tôt, cher Président, c’était Salades composées ; magrets de canard aux légumes et sauces d’oranges ; Salade verte ; Fromages ; Iles flottantes. On but du Graves et du blanc doux de Layon.</item>
-			      </list>
-      </body>
-	  </text>
+			</list>
+			<p>
+				<label type="rubrique">Menus propos :</label>
+			</p>
+			<list type="unordered">
+				<item>
+					<persName ref="#MB">MB</persName> trésor OuLipo. Ça dort, ça dort. </item>
+				<item>
+					<persName ref="#FC">FC</persName> termine (mais c’est une création) par une
+					chanson qu’il nous chante et dont les rimes sont radicalement neuves.</item>
+				<item>On but du punch coco, assis en chauffe-galet sous des anacardiers. On mangea
+					(dans l’ordre canonique) : le riz, le grain (haricots rouges), cabri massalé,
+					bred (ce sont légumes en salade) ; Fromages ; Mousse au chocolat. On but du Bois
+					des Mattes. </item>
+				<item>Un mois plus tôt, cher Président, c’était Salades composées ; magrets de
+					canard aux légumes et sauces d’oranges ; Salade verte ; Fromages ; Iles
+					flottantes. On but du Graves et du blanc doux de Layon.</item>
+			</list>
+		</body>
+	</text>
 </TEI>

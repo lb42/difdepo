@@ -29,6 +29,7 @@
    
       <revisionDesc>
          <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
             <change when="2018-01-06">restore date from docx</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
             <change when="2017-11-13T17:26:46Z">Conversion docx-tei initiale  </change>
@@ -56,9 +57,7 @@
          <p>
             <label type="rubrique">Action :</label>
          </p>
-         <p>livre
-            <note resp="editor">$$$ raturé [Note de l'éditeur]</note>
-      , <persName ref="#RQ">Queneau</persName> = Suites du livre.</p>
+         <p><del>livre</del>,<persName ref="#RQ">Queneau</persName> = Suites du livre.</p>
          <p>
             <persName ref="#PF">Fournel</persName> : <title>Petites nouvelles littéraires</title>
          </p>
@@ -69,10 +68,7 @@
             <item>
                <persName ref="#RQ">Queneau</persName> : <persName>Rémy</persName>
             </item>
-            <item>[Livre de <persName ref="#NA">Noël Arnaud</persName>]
-         <note place="comment" resp="utilisateur-p3">
-                  <date when="2017-06-05T09:45:00Z"/>$$$ raturé</note>
-        
+            <item><del>Livre de <persName ref="#NA">Noël Arnaud</persName></del>      
             </item>
             <item>
                <persName ref="#PB">Braffort</persName> : un mot sur <persName>Rex Stout</persName>

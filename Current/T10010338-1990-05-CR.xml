@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/css" href="../style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010338-1990-05-CR">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Transcription du scan 10010338 pp. 3 à 5 (CR) : version TEI</title>
@@ -9,9 +9,9 @@
                <resp>transcription</resp>
                <name>utilisateur-p3</name>
             </respStmt>
-      
+
             <respStmt>
-               <resp>Conversion docx-tei initiale  </resp>
+               <resp>Conversion docx-tei initiale </resp>
                <name>utilisateur-p3</name>
             </respStmt>
          </titleStmt>
@@ -51,49 +51,55 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-   
+
       <revisionDesc>
          <listChange>
+            <change when="2018-03-25" who="HCC">nettoyage des notions/ terms</change>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
             <change when="2018-01-06">restore date from docx</change>
             <change when="2018-01-06">restore placeName from docx</change>
             <change when="2018-01-02">restore accidentally deleted attendance lists</change>
             <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:40:25Z">Conversion docx-tei initiale  </change>
+            <change when="2017-11-13T17:40:25Z">Conversion docx-tei initiale </change>
          </listChange>
       </revisionDesc>
-  </teiHeader>
-  <text type="CR">
+   </teiHeader>
+   <text type="CR">
       <body>
          <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f3.highres"/>
          <p>1</p>
-         <p rend="incipit">oulipo du 22 mai 1990<note resp="editor">
-            $$$ [Note de l'éditeur]</note>
-         </p>
+         <p rend="incipit">oulipo du 22 mai <choice>
+               <sic>1985</sic>
+               <corr>1990</corr>
+            </choice></p>
          <p rend="incipit">
-            <persName ref="#PF">PF</persName> 
-            <persName ref="#FC">FC</persName> 
-            <persName ref="#MB">MB</persName> 
-            <persName ref="#JJ">JJ</persName> 
+            <persName ref="#PF">PF</persName>
+            <persName ref="#FC">FC</persName>
+            <persName ref="#MB">MB</persName>
+            <persName ref="#JJ">JJ</persName>
             <persName ref="#MM">MM</persName>
          </p>
          <p rend="incipit">
-            MM. <persName>JR</persName>. un peu tard.</p>
-         <p rend="incipit">excusés anonymes <persName ref="#JQ">JQ</persName> / <persName ref="#NA">NA</persName>
+            <persName>MM</persName>. <persName>JR</persName>. un peu tard.</p>
+         <p rend="incipit">excusés anonymes <persName ref="#JQ">JQ</persName> / <persName ref="#NA"
+               >NA</persName>
          </p>
          <p>
             <label type="rubrique">CREATIONS</label>
          </p>
          <p>
-            <persName ref="#PF">PF</persName> « Demande de création ». <title>Collection Soluble</title> remplacer liseron</p>
+            <persName ref="#PF">PF</persName> « Demande de création ». <title>Collection
+               Soluble</title> remplacer liseron</p>
          <p>projet oulipo. <persName>Francine Perceval</persName>.</p>
          <p>Un peu consternant</p>
          <p>
             <persName ref="#MB">MB</persName> répond.</p>
          <p>
-            <persName ref="#FC">FC</persName> Doublement. Triplement Rime. <term>Rime à syllabe redoublée.</term>
+            <persName ref="#FC">FC</persName> Doublement. Triplement Rime. <term>Rime à syllabe
+               redoublée</term>.
          </p>
          <p>
-             <term>Rime à syllabe triplée</term>
+            <term>Rime à syllabe triplée</term>
          </p>
          <p>v1. ‑ cou</p>
          <p>v2 ‑ coucou</p>
@@ -101,91 +107,98 @@
             <label type="rubrique">Erudition</label>
          </p>
          <p>
-            <persName ref="#FC">FC</persName>. <term>Plagiat anticipation. CANADA DRY</term> 
-            <persName>A. Allais</persName>. 
-            <title>« L’Affaire Blaireau»</title>
+            <persName ref="#FC">FC</persName>. <term>Plagiat anticipation. CANADA DRY</term>
+            <persName>A. Allais</persName>. <title>« L’Affaire Blaireau»</title>
          </p>
          <p>
-            <persName ref="#FC">FC</persName> 
-            <orgName>Estienne.</orgName> Travaux de l’école. mise en page sur textes oulipiens.</p>
+            <persName ref="#FC">FC</persName>
+            <orgName>Estienne</orgName>. Travaux de l’école. mise en page sur textes oulipiens.</p>
          <p>
-            <persName ref="#MB">MB</persName>. <term>Asynartète.</term> Poème crée à partir d’<term>hémistiches</term> d’un autre poème.</p>
+            <persName ref="#MB">MB</persName>. <title>Asynartète</title>. Poème créé à partir
+               d’<term>hémistiches</term> d’un autre poème.</p>
          <p>
-            <persName ref="#MB">MB</persName>. <persName>J C Renard</persName> <term>plagiaire</term>
-            <title>. « Une autre parole »</title> (<title>Alchimie</title>) Série 81. f 102</p>
-         <p>(<term>Poème double</term> suivant qu’on coupe ou non un mot en 2 parties, chacune créant un nouveau mot.</p>
+            <persName ref="#MB">MB</persName>. <persName>J C
+               Renard</persName> <term>plagiaire</term>.
+            <title> « Une autre parole »</title> (<title>Alchimie</title>) Série 81. f 102</p>
+         <p>(<term>Poème double</term> suivant qu’on coupe ou non un mot en 2 parties, chacune
+            créant un nouveau mot.</p>
          <p>
-            <persName ref="#JJ">JJ</persName>. <title>Host</title> - <term>roman lipogrammatique.</term> (26)</p>
+            <persName ref="#JJ">JJ</persName>. <title>Host</title> - <term>roman
+               lipogrammatique</term>. (26)</p>
          <list type="unordered">
             <item> ordre de lettres absentes.</item>
          </list>
          <p>
-            <persName ref="#JJ">JJ</persName> écrit.</p>
+            <persName ref="#JJ">JJ</persName>écrit.</p>
          <pb n="4" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f4.highres"/>
          <p>2</p>
          <p>
             <label type="rubrique">ACTIONS</label>
          </p>
          <p>
-            <persName>PF</persName>. <persName>Schiavetta</persName>. <persName>MB</persName>. <persName>MM</persName>. <persName>JJ</persName>.
-         </p>
-         <p>Coupry. <name type="manif">Colloque argot</name>. Maison <gap/>. Première soirée happening.</p>
+            <persName>PF</persName>. <persName>Schiavetta</persName>. <persName>MB</persName>.
+               <persName>MM</persName>. <persName>JJ</persName>. </p>
+         <p>Coupry. <name type="manif">Colloque argot</name>. Maison <gap/>. Première soirée
+            happening.</p>
          <p>
-            <persName ref="#FC">FC</persName> centralise. Nous suivons.</p>
+            <persName ref="#FC">FC</persName>centralise. Nous suivons.</p>
          <p>
-            <persName>Andé</persName>. Rouen. Février 91. Théâtre. + <persName>Morelin</persName>. OK sauf <persName ref="#MM">MM</persName> qui veut pas.</p>
-         <p>Droits auteur. <orgName>Gallimard</orgName>. <title>Atlas</title>. Folio. E. 5798 / 8000 exemplaires</p>
+            <persName>Andé</persName>. Rouen. Février 91. Théâtre. + <persName>Morelin</persName>.
+            OK sauf <persName ref="#MM">MM</persName> qui veut pas.</p>
+         <p>Droits auteur. <orgName>Gallimard</orgName>. <title>Atlas</title>. Folio. E. 5798 / 8000
+            exemplaires</p>
          <p>Iris 11796 exemplaires.</p>
          <p>
-            <orgName>Boringhieri [Bollinghieri].</orgName> Traduction oulipien en Italie début 91. choix <title>BO1 BO2</title>
+            <orgName><choice>
+                  <sic>Boringhieri</sic>
+                  <corr>Bollinghieri</corr>
+            </choice></orgName>. Traduction oulipien en Italie début 91. choix <title>Bibliothèque oulipienne</title>1<title>
+                  Bibliothèque oulipienne </title>2
          </p>
          <p>
-            <persName ref="#MB">MB.</persName> Amsterdam. Article pour mettre en tête d’une revue. <unclear>Debois</unclear>
+            <persName ref="#MB">MB.</persName> Amsterdam. Article pour mettre en tête d’une revue.
+               <unclear>Debois</unclear>
          </p>
-         <p>    Tokyo. <persName>M. Sakazume</persName>. Traduction <title>Vie Mode d’Emploi</title>
+         <p> Tokyo. <persName>M. Sakazume</persName>. Traduction <title>Vie Mode d’Emploi</title>
          </p>
-         <p>    Strasbourg. renseignements biblio…</p>
-         <p>
-             <orgName>Gallimard</orgName> $$$ </p>
-         <p>    Orléans. <name type="manif">lecture FNAC</name>
-      
-            <note resp="editor">
-               $$$ [Note de l'éditeur]</note>
-       
-           <persName ref="#CB">CB</persName>.<persName ref="#JJ">JJ</persName> 
-         </p>
-         <p>    Marseille</p>
+         <p>Strasbourg. Renseignements biblio…</p>
+         <p><orgName>Gallimard</orgName></p>
+         <p>Orléans. <name type="manif">lecture <orgName>FNAC</orgName></name>
+         <persName ref="#CB">CB</persName>.<persName ref="#JJ">JJ</persName></p>
+         <p> Marseille</p>
          <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f5.highres"/>
          <p>3</p>
-         <p>Ottawa. <name type="manif">colloque plagiat.</name>
+         <p>Ottawa. <name type="manif">colloque plagiat</name>.
          </p>
          <p>
             <persName ref="#MB">MB.</persName> projet de communication.</p>
          <p>
-            <persName ref="#FC">FC.</persName> propose l’achat de <persName>Tabourot</persName>. 
-         </p>
+            <persName ref="#FC">FC.</persName> propose l’achat de <persName>Tabourot</persName>. </p>
          <p>
             <persName ref="#PF">PF</persName> sui le commande à 33%</p>
          <p>
-            <persName ref="#PF">PF.</persName> Carcassonne. <name type="manif">Hommage à Roubaud</name>. Histoire du chef de Gare.</p>
+            <persName ref="#PF">PF.</persName> Carcassonne. <name type="manif">Hommage à
+               <persName>Roubaud</persName></name>. Histoire du chef de Gare.</p>
          <p>
             <label type="rubrique">MENU PROPOS</label>
          </p>
          <p>
             <persName>JJ</persName>-<persName>MB</persName>. mon semblable mon frère.</p>
          <p>
-            <persName ref="#HM">HM</persName> 
+            <persName ref="#HM">HM</persName>
             <term>lecture poldéviste et poldadamiste</term>.</p>
          <p>le passeport de <persName ref="#HM">Harry</persName> expire en Mai 2000</p>
          <p>
-            <persName ref="#JR">JR</persName> 
+            <persName ref="#JR">JR</persName>
             <name type="manif">Salerno Festival de Poésie</name>
          </p>
          <p>on n’y voit plus la mer.</p>
          <p>
-            <persName ref="#JR">JR</persName>. <title>Schreibheft</title> N°35. <persName ref="#JR">JR</persName> 
-            <persName ref="#HM">HM</persName> &gt; <term>palindrome</term> de celui de l’<title>hexameron</title>.   </p>
+            <persName ref="#JR">JR</persName>. <title>Schreibheft</title> N°35. <persName ref="#JR"
+               >JR</persName>
+            <persName ref="#HM">HM</persName> &gt; <term>palindrome</term> de celui de
+               l’<title>hexameron</title>. </p>
          <p>(<term>palindrome de paragraphes</term>) </p>
       </body>
-  </text>
+   </text>
 </TEI>
