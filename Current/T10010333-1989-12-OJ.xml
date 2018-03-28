@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/css" href="../style.css"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010333-1989-12-OJ">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Transcription du scan 10010333 pp. 9 à 10 (OJ) : version TEI</title>
-            <respStmt>
-               <resp>transcription</resp>
-               <name>Difdepo</name>
-            </respStmt>
+            
 
+            
             <respStmt>
-               <resp>Conversion docx-tei initiale </resp>
-               <name>Difdepo</name>
+               <resp>Transcription</resp>
+               <name>Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name>Alessandra Scaccuto</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -47,7 +50,9 @@
             <persName ref="#HM">HM</persName> ? <persName ref="#JJ">JJ</persName>
          </p>
          <p rend="incipit">
-            <del><persName ref="#CB">CB</persName></del>
+            <del>
+               <persName ref="#CB">CB</persName>
+            </del>
             <persName ref="#JL">JL</persName>
          </p>
          <p rend="incipit">
@@ -61,7 +66,8 @@
          <p rend="incipit">
             <persName ref="#FC">FC</persName>
          </p>
-         <pb n="10" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010333p/f10.highres"/>
+         <pb n="10"
+             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010333p/f10.highres"/>
          <p rend="incipit">12/12/89</p>
          <p rend="incipit">OULIPO</p>
          <p rend="incipit">Ordre du jour</p>
@@ -119,8 +125,7 @@
             </item>
          </list>
          <p>
-            <persName>PF</persName>-<persName>FC</persName> Presse sur <persName ref="#RQ"
-               >R.Q.</persName>
+            <persName>PF</persName>-<persName>FC</persName> Presse sur <persName ref="#RQ">R.Q.</persName>
          </p>
          <p>
             <persName>PF</persName>
@@ -133,7 +138,10 @@
             <persName ref="#PF">PF</persName> Prix</p>
          <p>
             <persName>PF</persName>
-            <del><persName>Blavier</persName></del><persName>Magritte</persName>
+            <del>
+               <persName>Blavier</persName>
+            </del>
+            <persName>Magritte</persName>
          </p>
       </body>
    </text>

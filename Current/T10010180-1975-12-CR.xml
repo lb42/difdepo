@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/css" href="../style.css"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../style.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1975-12-CR">
   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Transcription du scan 10010180 pp. 20 à 20 (CR) : version TEI</title>
+            
+      
+            
             <respStmt>
-               <resp>transcription</resp>
+               <resp>Transcription</resp>
                <name>Alessandra Scaccuto</name>
             </respStmt>
-      
             <respStmt>
-               <resp>Conversion docx-tei initiale  </resp>
+               <resp>Stylage et annotation</resp>
+               <name>Eva Lassalle</name>
                <name>Alessandra Scaccuto</name>
             </respStmt>
          </titleStmt>
@@ -51,7 +55,8 @@
   </teiHeader>
   <text type="CR">
       <body>
-         <pb n="20" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f20.highres"/>
+         <pb n="20"
+             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f20.highres"/>
          <p rend="incipit">OuLiPo                                   10 12 75</p>
          <p>
             <persName ref="#GP">GP</persName> : <title>La Clôture</title> – O’pien – <term>hétérogrammes</term> 
@@ -61,14 +66,22 @@
          </p>
          <p>
             <persName ref="#FLL">FLL</persName> – Réunion fractionnel</p>
-         <p>Développement de la<term> table de <persName><choice><sic>Quenel</sic><corr>Queneleiev</corr></choice></persName></term> 
+         <p>Développement de la<term> table de <persName>
+                  <choice>
+                     <sic>Quenel</sic>
+                     <corr>Queneleiev</corr>
+                  </choice>
+               </persName>
+            </term> 
       : 500 cases vides : remplir par les écrivains de l’avenir</p>
          <list type="unordered">
             <item>
                <persName>Thom</persName> : travail sur les comptines figées - à venir</item>
          </list>
          <p>
-            <persName ref="#PF"><del>PF</del></persName> 
+            <persName ref="#PF">
+               <del>PF</del>
+            </persName> 
             <orgName>Beaubourg</orgName> 
          </p>
          <p>
