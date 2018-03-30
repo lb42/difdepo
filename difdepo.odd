@@ -25,503 +25,418 @@
    </teiHeader>
    <text>
       <body>-->
-<div  xmlns="http://www.tei-c.org/ns/1.0">
-   <head>Specification</head>
-
-<schemaSpec ident="difdepo-beta" start="TEI teiCorpus" docLang="fr" targetLang="fr">
-            <moduleRef key="tei"/>
-            <!-- delete unused attribute classes -->
-            <classSpec type="atts" ident="att.global.responsibility" mode="delete"/>
-            <classSpec type="atts" ident="att.declaring" mode="delete"/>
-            <classSpec type="atts" ident="att.global.linking" mode="delete"/>
-            <classSpec type="atts" ident="att.declarable" mode="delete"/>
-            <classSpec type="atts" ident="att.datable.iso" mode="delete"/>
-            <classSpec type="atts" ident="att.datable.custom" mode="delete"/>
-            <classSpec type="atts" ident="att.editLike" mode="delete"/>
-            <classSpec type="atts" ident="att.datcat" mode="delete"/>
-            <classSpec type="atts" ident="att.cReferencing" mode="delete"/>
-            <classSpec type="atts" ident="att.docStatus" mode="delete"/>
-            <classSpec type="atts" ident="att.breaking" mode="delete"/>
-            <classSpec type="atts" ident="att.edition" mode="delete"/>
-            <classSpec type="atts" ident="att.sortable" mode="delete"/>
-            <classSpec type="atts" ident="att.spanning" mode="delete"/>
-            <classSpec type="atts" ident="att.global.source" mode="delete"/>
-            <classSpec type="atts" ident="att.internetMedia" mode="delete"/>
-            <classSpec type="atts" ident="att.timed" mode="delete"/>
-            <classSpec ident="att.pointing" type="atts" mode="change">
-               <attList>
-                  <attDef ident="targetLang" mode="delete"/>
-                  <attDef ident="evaluate" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.global.rendition" type="atts" mode="change">
-               <attList>
-                  <attDef ident="rendition" mode="delete"/>
-                  <attDef ident="style" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.global" type="atts" mode="change">
-               <attList>
-                  <!--    <attDef ident="xml:base" mode="delete"/>
-           -->
-                  <attDef ident="xml:space" mode="delete"/>
-                  <attDef ident="xml:id" mode="change">
-                   <datatype><dataRef key="teidata.word"></dataRef></datatype>
-                  </attDef>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.typed" type="atts" mode="change">
-               <attList>
-                  <attDef ident="subtype" mode="delete"/>
-               </attList>
-            </classSpec>
-            <!-- remove from typed: TEI  change date lb list listChange orgName pb persName placeName ref teiCorpus term -->
-            <!-- remove from datable name orgName persName placeName resp title -->
-            <!-- simplify classes -->
-            <classSpec ident="att.datable" type="atts" mode="change">
-               <attList>
-                  <attDef ident="calendar" mode="delete"/>
-                  <attDef ident="period" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.divLike" type="atts" mode="change">
-               <attList>
-                  <attDef ident="org" mode="delete"/>
-                  <attDef ident="sample" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.naming" type="atts" mode="change">
-               <attList>
-                  <attDef ident="nymRef" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classRef key="model.persNamePart"/>
-            <macroRef key="macro.anyXML"/>
-            <macroRef key="macro.schemaPattern"/>
-            <classSpec ident="att.canonical" type="atts" mode="change">
-               <attList>
-                  <attDef ident="key" mode="delete"/>
-                  <!-- wise? -->
-               </attList>
-            </classSpec>
-            <classSpec ident="att.transcriptional" type="atts" mode="change">
-               <attList>
-                  <attDef ident="hand" mode="delete"/>
-                  <attDef ident="status" mode="delete"/>
-                  <attDef ident="cause" mode="delete"/>
-                  <attDef ident="seq" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.personal" type="atts" mode="change">
-               <attList>
-                  <attDef ident="full" mode="delete"/>
-                  <attDef ident="sort" mode="delete"/>
-               </attList>
-            </classSpec>
-            <!--MODULES-->
-            <moduleRef key="core"
-               include="p hi term unclear del add choice sic corr name date ref label lb listBibl 
-               pb respStmt resp teiCorpus title bibl meeting list item note gap desc"/>
-            <moduleRef key="header"
-               include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
-               encodingDesc
-               revisionDesc listChange change idno"/>
-               <!--profileDesc textClass taxonomy keywords--> 
-            <moduleRef key="textstructure" include="TEI text body div"/>
-            <moduleRef key="corpus" include="particDesc settingDesc"/>
-            <moduleRef key="namesdates"
-               include="orgName persName placeName listPerson person affiliation birth death 
-               listOrg org listPlace place location listEvent event"/>
-            <!-- ELEMENTS -->
-   
-   <!-- need a schematron rule to permit address only within place/location -->
-   
-            <elementSpec ident="bibl" mode="change">
-               <classes mode="change">
-                  <memberOf key="model.biblLike" mode="delete"/>
-               </classes>
-               <content>
-                  <alternate>
-                     <textNode/>
-                     <sequence>
-                        <elementRef key="idno" maxOccurs="unbounded" minOccurs="0"/>
-                        <alternate>
-                           <elementRef key="meeting"/>
-                           <elementRef key="title"/>
-                        </alternate>
-                     </sequence>
-                  </alternate>
-               </content>
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples"><bibl><meeting><date
-                              when="1977-11-03"/><placeName> chez FLL</placeName><list
-                              type="present">
-                              <item><persName ref="#FLL"/></item>
-                              <item><persName ref="#HM"/></item></list></meeting></bibl></egXML>
-               </exemplum>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples"><bibl><idno type="cote">DM-4
-                           (9)</idno>
-                        <title>Compte rendu autographe(s) de Paul Fournel de la réunion du 3
-                           novembre (<ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10010200q"
-                           />)</title></bibl></egXML>
-               </exemplum>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <bibl>Encodé a partir du scan 10010200 pp. 1 à 2</bibl>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-            <elementSpec ident="change" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="date" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="del" mode="change">
-              <exemplum><egXML xmlns="http://www.tei-c.org/ns/Examples"> <item><persName ref="#MB">Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie
-                  paronynymiques</item></egXML></exemplum>
-            </elementSpec>
-  
-   
-            <elementSpec ident="gap" mode="change">
-               <attList>
-                  <attDef ident="hand" mode="delete"/>
-                  <attDef ident="agent" mode="delete"/>
-               </attList>
-               <!-- no example found -->
-            </elementSpec>
-            <!-- no example found for hi-->
-
-            <elementSpec ident="idno" mode="change">
-               <attList>
-                  <attDef ident="type" mode="change">
-                     <valList mode="change">
-                        <valItem ident="ARK" mode="add">
-                           <desc>identifiant établi par la Bibliothèque Nationale de France</desc>
-                        </valItem>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="keywords" mode="change">
-               <attList>
-                  <attDef ident="scheme" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="label" mode="change">
-               <attList>
-                  <attDef ident="type" mode="replace">
-                     <valList type="closed">
-                        <valItem ident="locuteur">
-                           <desc>indique le nom d'une personne associee avec le texte qui
-                              suit</desc>
-                        </valItem>
-                        <valItem ident="rubrique">
-                           <desc>caracterise la fonction du texte qui suit</desc>
-                        </valItem>
-                     </valList>
-                  </attDef>
-                  <attDef ident="subtype" mode="delete"/>
-               </attList>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples"><p><label type="rubrique"
-                           >Erudition</label> : un article d’<persName>E. Sanguineti </persName>( ?)
-                        cet été sur l’Oulipo et la <term>littérature définitionnelle</term> (il
-                        présente un <term>plagiaire par anticipation</term>).</p>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-            <elementSpec ident="lb" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="listBibl" mode="change">
-               <classes mode="change">
-                  <memberOf key="model.profileDescPart"/>
-               </classes>
-               <content>
-                  <elementRef key="bibl" minOccurs="1" maxOccurs="unbounded"/>
-               </content>
-            </elementSpec>
-            <elementSpec ident="listChange" mode="change">
-               <attList>
-                  <attDef ident="ordered" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="meeting" mode="change">
-               <classes mode="replace">
-                  <memberOf key="att.global"/>
-               </classes>
-               <!-- remove from all model classes -->
-               <content>
-                  <sequence>
-                     <elementRef key="date"/>
-                     <elementRef key="placeName" minOccurs="0"/>
-                     <alternate>
-                        <elementRef key="list" />
-                        <elementRef key="gap"/>
-                     </alternate>                    
-                  </sequence>
-               </content>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <bibl><meeting><date when="1977-03-11"/><placeName>chez FLL</placeName><list
-                              type="present"><item><persName ref="#FLL"/><persName ref="#HM"
-                                    /><persName ref="#CB"/><persName ref="#IC"/><persName ref="#PF"
-                                    /><persName ref="#MB"/><persName ref="#JR"/><persName ref="#NA"
-                                    /><persName role="invité">Jacques Rigaud</persName><persName
-                                    role="président">FLL</persName><persName role="secretaire"
-                                    >PF</persName></item></list></meeting></bibl>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-            <elementSpec ident="name" mode="change">
-               <classes mode="change">
-                  <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="model.personPart" mode="delete"/>
-                  <!-- only persName is permitted inside person -->
-               </classes>
-               <attList>
-                  <attDef ident="role" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="note" mode="change">
-               <attList >
-                  <attDef mode="change" ident="place">
-                     <valList  mode="replace" >
-                        <valItem ident="foot"/>
-                        <valItem ident="end"/>
-                     </valList>
-                  </attDef>
-                  <attDef mode="add" ident="resp">
-                     <desc>fournit une indication de la personne responsable de l'annotation</desc>
-                     <datatype><dataRef key="teidata.word"></dataRef></datatype>
-                  </attDef>
-               </attList>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <note place="foot"  n="1">
-                        <p>Une malheureuse étourderie du SP a fait omettre, dans le précédent CR, la
-                           présence de <persName ref="#JD">J. Duchâteau</persName> – dont il était
-                           pourtant fait mention dans le courant des discussions. Que notre ami nous
-                           excuse. Le SP a fait trois heures de piquet.</p>
-                     </note>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-            <elementSpec ident="orgName" mode="change">
-               <classes mode="change">
-                  <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="att.typed" mode="delete"/>
-               </classes>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <p><label type="locuteur">PF</label>: <orgName>Gallimard</orgName> veut un plan
-                        du volume 2</p>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-
-   <elementSpec ident="p" mode="change">
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head>Specification</head>
+  <schemaSpec docLang="fr" ident="difdepo-beta" start="TEI teiCorpus" targetLang="fr">
+    <moduleRef key="tei"/>
+    <!-- delete unused attribute classes -->
+    <classSpec ident="att.global.responsibility" mode="delete" type="atts"/>
+    <classSpec ident="att.declaring" mode="delete" type="atts"/>
+    <classSpec ident="att.global.linking" mode="delete" type="atts"/>
+    <classSpec ident="att.declarable" mode="delete" type="atts"/>
+    <classSpec ident="att.datable.iso" mode="delete" type="atts"/>
+    <classSpec ident="att.datable.custom" mode="delete" type="atts"/>
+    <classSpec ident="att.editLike" mode="delete" type="atts"/>
+    <classSpec ident="att.datcat" mode="delete" type="atts"/>
+    <classSpec ident="att.cReferencing" mode="delete" type="atts"/>
+    <classSpec ident="att.docStatus" mode="delete" type="atts"/>
+    <classSpec ident="att.breaking" mode="delete" type="atts"/>
+    <classSpec ident="att.edition" mode="delete" type="atts"/>
+    <classSpec ident="att.sortable" mode="delete" type="atts"/>
+    <classSpec ident="att.spanning" mode="delete" type="atts"/>
+    <classSpec ident="att.global.source" mode="delete" type="atts"/>
+    <classSpec ident="att.internetMedia" mode="delete" type="atts"/>
+    <classSpec ident="att.timed" mode="delete" type="atts"/>
+    <classSpec ident="att.global.facs" mode="delete" type="atts"/>
+    <classSpec ident="att.pointing" mode="change" type="atts">
       <attList>
-         <attDef ident="style" mode="add">
-            <desc>indique un affichage particulier</desc>
-            <datatype><dataRef key="teidata.string"></dataRef></datatype>
-         </attDef>
+        <attDef ident="targetLang" mode="delete"/>
+        <attDef ident="evaluate" mode="delete"/>
       </attList>
-   </elementSpec>
-   
-   
-   <elementSpec ident="pb" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-      <attDef ident="facs" mode="add">
-         <desc>fournit un lien sur un image numerique de la page qui commence a ce point</desc>
-         <datatype><dataRef key="teidata.pointer"/></datatype>
-      </attDef><!-- defined locally for simplicity's sake rather than inheriting from att.facs.global so kill me -->
-               </attList>
-            </elementSpec>
-            <elementSpec ident="persName" mode="change">
-               <classes mode="change">
-                  <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="att.typed" mode="delete"/>
-               </classes>
-               <attList>
-                  <attDef ident="role" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="invité"/>
-                        <valItem ident="président"/>
-                        <valItem ident="secrétaire"/>
-                        <valItem ident="expéditeur"/>
-                        <valItem ident="destinataire"/>
-                     </valList>
-                  </attDef>
-               </attList>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <p><label type="locuteur">IC</label> : Il faudrait prendre contact avec un
-                        homme de lettres Mexicain qui travaille à « <title>Vuelta</title> » (revue
-                           d’<persName>Octavio Paz</persName>) et qui fait une rubrique oulipienne :
-                           <persName>José de la Collina</persName>.</p></egXML>
-               </exemplum>
-            </elementSpec>
-            <elementSpec ident="placeName" mode="change">
-               <classes mode="change">
-                  <memberOf key="att.datable" mode="delete"/>
-                  <memberOf key="att.typed" mode="delete"/>
- <!-- remove from model class which allows it in text -->
-               </classes>
-            </elementSpec>
-            <elementSpec ident="ref" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="resp" mode="change">
-               <classes mode="change">
-                  <memberOf key="att.datable" mode="delete"/>
-               </classes>
-               <attList>
-                  <attDef ident="ref" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="respStmt" mode="change">
-               <attList>
-                  <attDef ident="ref" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="sourceDesc" mode="change">
-               <content>
-                  <alternate>
-                     <elementRef key="bibl"/>
-                     <elementRef key="p"/>
-                  </alternate>
-               </content>
-            </elementSpec>
-            <elementSpec ident="teiCorpus" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-                  <attDef ident="version" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="teiHeader" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="term" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <p>
-                        <persName ref="#LE">LE</persName> : système de la <term
-                           ref="#contrainteprovisoire">contrainte provisoire</term> : construire le
-                        texte sur une contrainte, puis le traduire en langage normal</p>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-   <elementSpec ident="term" mode="change">
-      <desc> contient un mot simple, un mot composé ou un symbole, qui est considéré comme 
-       un terme associé avec une notion oulipienne.</desc>
-   </elementSpec>
-            <elementSpec ident="text" mode="change">
-               <attList>
-                  <attDef ident="type" mode="replace">
-                     <valList type="closed">
-                        <valItem ident="CR">
-                           <desc>compte rendu d'une reunion</desc>
-                        </valItem>
-                        <valItem ident="CV">
-                           <desc>convocation a une reunion</desc>
-                        </valItem>
-                        <valItem ident="OJ">
-                           <desc>ordre du jour d'une reunion</desc>
-                        </valItem>
-                        <valItem ident="AUTRE">
-                           <desc>autre document</desc>
-                        </valItem>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="title" mode="change">
-               <classes mode="change">
-                  <memberOf key="att.datable" mode="delete"/>
-               </classes>
-               <attList>
-                  <attDef ident="level" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="unclear" mode="change">
-               <attList>
-                  <attDef ident="reason" mode="delete"/>
-                  <attDef ident="hand" mode="delete"/>
-                  <attDef ident="agent" mode="delete"/>
-               </attList>
-               <exemplum>
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <item>Culte de la <unclear>personnalité</unclear> de <persName ref="#FLL"
-                           >FLL</persName>
-                        <persName ref="#PB">Braffort</persName></item>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-            <elementSpec ident="TEI" mode="change">
-               <attList>
-                  <attDef ident="version" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-               <exemplum xml:lang="fr">
-                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <TEI xml:id="t10010004-1961-01-cr-v">
-                        <teiHeader>
-                           <fileDesc>
-                              <titleStmt>
-                                 <title>Transcription du scan 10010004 pp. 2 à 5 (CR) : version
-                                    TEI</title>
-                                 <!-- ... -->
-                              </titleStmt>
-                              <publicationStmt>
-                                 <p>Edition numérique distribué par le projet ANR DifDePo</p>
-                              </publicationStmt>
-                              <sourceDesc>
-                                 <bibl>
-                                    <!-- ... -->
-                                 </bibl>
-                              </sourceDesc>
-                           </fileDesc>
-                           <revisionDesc>
-                              <listChange>
-                                 <change when="2016-08-04T12:46:32Z">Oulipo specific tags
-                                    added</change>
-                              </listChange>
-                           </revisionDesc>
-                        </teiHeader>
-                        <text type="CR">
-                           <body>
-                              <pb xml:id="p2" n="2"/>
-                              <p><!-- ... -->
-                              </p>
-                           </body>
-                        </text>
-                     </TEI>
-                  </egXML>
-               </exemplum>
-            </elementSpec>
-         </schemaSpec>
-   </div><!--
+    </classSpec>
+    <classSpec ident="att.global.rendition" mode="change" type="atts">
+      <attList>
+        <attDef ident="rendition" mode="delete"/>
+        <attDef ident="style" mode="delete"/>
+      </attList>
+    </classSpec>
+    <classSpec ident="att.global" mode="change" type="atts">
+      <attList>
+        <!--    <attDef ident="xml:base" mode="delete"/>
+           -->
+        <attDef ident="xml:space" mode="delete"/>
+        <attDef ident="xml:id" mode="change">
+          <datatype><dataRef key="teidata.word"/></datatype>
+        </attDef>
+      </attList>
+    </classSpec>
+    <classSpec ident="att.typed" mode="change" type="atts">
+      <attList>
+        <attDef ident="subtype" mode="delete"/>
+      </attList>
+    </classSpec>
+    <!-- remove from typed: TEI  change date lb list listChange orgName pb persName placeName ref teiCorpus term -->
+    <!-- remove from datable name orgName persName placeName resp title -->
+    <!-- simplify classes -->
+    <classSpec ident="att.datable" mode="change" type="atts">
+      <attList>
+        <attDef ident="calendar" mode="delete"/>
+        <attDef ident="period" mode="delete"/>
+      </attList>
+    </classSpec>
+    <classSpec ident="att.divLike" mode="change" type="atts">
+      <attList>
+        <attDef ident="org" mode="delete"/>
+        <attDef ident="sample" mode="delete"/>
+      </attList>
+    </classSpec>
+    <classSpec ident="att.naming" mode="change" type="atts">
+      <attList>
+        <attDef ident="nymRef" mode="delete"/>
+      </attList>
+    </classSpec>
+    <classRef key="model.persNamePart"/>
+    <macroRef key="macro.anyXML"/>
+    <macroRef key="macro.schemaPattern"/>
+    <classSpec ident="att.canonical" mode="change" type="atts">
+      <attList>
+        <attDef ident="key" mode="delete"/>
+        <!-- wise? -->
+      </attList>
+    </classSpec>
+    <classSpec ident="att.transcriptional" mode="change" type="atts">
+      <attList>
+        <attDef ident="hand" mode="delete"/>
+        <attDef ident="status" mode="delete"/>
+        <attDef ident="cause" mode="delete"/>
+        <attDef ident="seq" mode="delete"/>
+      </attList>
+    </classSpec>
+    <classSpec ident="att.personal" mode="change" type="atts">
+      <attList>
+        <attDef ident="full" mode="delete"/>
+        <attDef ident="sort" mode="delete"/>
+      </attList>
+    </classSpec>
+    <!--MODULES-->
+    <moduleRef include="p hi term unclear del add choice sic corr abbr expan name date ref label lb listBibl 
+               pb respStmt resp teiCorpus title bibl meeting list item note gap desc" key="core"/>
+    <moduleRef include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
+               encodingDesc
+               revisionDesc listChange change idno" key="header"/>
+    <!--profileDesc textClass taxonomy keywords-->
+    <moduleRef include="TEI text body div" key="textstructure"/>
+    <moduleRef include="particDesc settingDesc" key="corpus"/>
+    <moduleRef include="orgName persName placeName listPerson person affiliation birth death 
+               listOrg org listPlace place location listEvent event" key="namesdates"/>
+    <moduleRef include="supplied" key="transcr"/>
+    <!-- ELEMENTS -->
+    <!-- need a schematron rule to permit address only within place/location -->
+    <elementSpec ident="bibl" mode="change">
+      <classes mode="change">
+        <memberOf key="model.biblLike" mode="delete"/>
+      </classes>
+      <content>
+        <alternate>
+          <textNode/>
+          <sequence>
+            <elementRef key="idno" maxOccurs="unbounded" minOccurs="0"/>
+            <alternate>
+              <elementRef key="meeting"/>
+              <elementRef key="title"/>
+            </alternate>
+          </sequence>
+        </alternate>
+      </content>
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"><bibl><meeting><date when="1977-11-03"/><placeName> chez FLL</placeName><list type="present"> <item><persName ref="#FLL"/></item> <item><persName ref="#HM"/></item></list></meeting></bibl></egXML>
+      </exemplum>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"><bibl><idno type="cote">DM-4 (9)</idno> <title>Compte rendu autographe(s) de Paul Fournel de la réunion du 3 novembre (<ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10010200q"/>)</title></bibl></egXML>
+      </exemplum>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <bibl>Encodé a partir du scan 10010200 pp. 1 à 2</bibl> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="change" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="date" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="del" mode="change">
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <item><persName ref="#MB">Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie paronynymiques</item></egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="gap" mode="change">
+      <attList>
+        <attDef ident="hand" mode="delete"/>
+        <attDef ident="agent" mode="delete"/>
+      </attList>
+      <!-- no example found -->
+    </elementSpec>
+    <!-- no example found for hi-->
+    <elementSpec ident="idno" mode="change">
+      <attList>
+        <attDef ident="type" mode="change">
+          <valList mode="change">
+            <valItem ident="ARK" mode="add">
+              <desc>identifiant établi par la Bibliothèque Nationale de France</desc>
+            </valItem>
+          </valList>
+        </attDef>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="keywords" mode="change">
+      <attList>
+        <attDef ident="scheme" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="label" mode="change">
+      <attList>
+        <attDef ident="type" mode="replace">
+          <valList type="closed">
+            <valItem ident="locuteur">
+              <desc>indique le nom d'une personne associee avec le texte qui suit</desc>
+            </valItem>
+            <valItem ident="rubrique">
+              <desc>caracterise la fonction du texte qui suit</desc>
+            </valItem>
+          </valList>
+        </attDef>
+        <attDef ident="subtype" mode="delete"/>
+      </attList>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"><p><label type="rubrique">Erudition</label> : un article d’<persName>E. Sanguineti </persName>( ?) cet été sur l’Oulipo et la <term>littérature définitionnelle</term> (il présente un <term>plagiaire par anticipation</term>).</p> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="lb" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="listBibl" mode="change">
+      <classes mode="change">
+        <memberOf key="model.profileDescPart"/>
+      </classes>
+      <content>
+        <elementRef key="bibl" maxOccurs="unbounded" minOccurs="1"/>
+      </content>
+    </elementSpec>
+    <elementSpec ident="listChange" mode="change">
+      <attList>
+        <attDef ident="ordered" mode="delete"/>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="meeting" mode="change">
+      <classes mode="replace">
+        <memberOf key="att.global"/>
+      </classes>
+      <!-- remove from all model classes -->
+      <content>
+        <sequence>
+          <elementRef key="date"/>
+          <elementRef key="placeName" minOccurs="0"/>
+          <alternate>
+            <elementRef key="list"/>
+            <elementRef key="gap"/>
+          </alternate>
+        </sequence>
+      </content>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <bibl><meeting><date when="1977-03-11"/><placeName>chez FLL</placeName><list type="present"><item><persName ref="#FLL"/><persName ref="#HM"/><persName ref="#CB"/><persName ref="#IC"/><persName ref="#PF"/><persName ref="#MB"/><persName ref="#JR"/><persName ref="#NA"/><persName role="invité">Jacques Rigaud</persName><persName role="président">FLL</persName><persName role="secretaire">PF</persName></item></list></meeting></bibl> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="name" mode="change">
+      <classes mode="change">
+        <memberOf key="att.datable" mode="delete"/>
+        <memberOf key="model.personPart" mode="delete"/>
+        <!-- only persName is permitted inside person -->
+      </classes>
+      <attList>
+        <attDef ident="role" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="note" mode="change">
+      <attList>
+        <attDef ident="place" mode="change">
+          <valList mode="replace">
+            <valItem ident="foot"/>
+            <valItem ident="end"/>
+          </valList>
+        </attDef>
+        <attDef ident="resp" mode="add">
+          <desc>fournit une indication de la personne responsable de l'annotation</desc>
+          <datatype><dataRef key="teidata.word"/></datatype>
+        </attDef>
+      </attList>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <note n="1" place="foot"> <p>Une malheureuse étourderie du SP a fait omettre, dans le précédent CR, la présence de <persName ref="#JD">J. Duchâteau</persName> – dont il était pourtant fait mention dans le courant des discussions. Que notre ami nous excuse. Le SP a fait trois heures de piquet.</p> </note> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="orgName" mode="change">
+      <classes mode="change">
+        <memberOf key="att.datable" mode="delete"/>
+        <memberOf key="att.typed" mode="delete"/>
+      </classes>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p><label type="locuteur">PF</label>: <orgName>Gallimard</orgName> veut un plan du volume 2</p> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="p" mode="change">
+      <attList>
+        <attDef ident="style" mode="add">
+          <desc>indique un affichage particulier</desc>
+          <datatype><dataRef key="teidata.string"/></datatype>
+        </attDef>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="pb" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+        <attDef ident="facs" mode="add">
+          <desc>fournit un lien sur un image numerique de la page qui commence a ce point</desc>
+          <datatype><dataRef key="teidata.pointer"/></datatype>
+        </attDef>
+        <!-- defined locally for simplicity's sake rather than inheriting from att.facs.global so kill me -->
+      </attList>
+    </elementSpec>
+    <elementSpec ident="persName" mode="change">
+      <classes mode="change">
+        <memberOf key="att.datable" mode="delete"/>
+        <memberOf key="att.typed" mode="delete"/>
+      </classes>
+      <attList>
+        <attDef ident="role" mode="change">
+          <valList mode="add" type="closed">
+            <valItem ident="invité"/>
+            <valItem ident="président"/>
+            <valItem ident="secrétaire"/>
+            <valItem ident="expéditeur"/>
+            <valItem ident="destinataire"/>
+          </valList>
+        </attDef>
+      </attList>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p><label type="locuteur">IC</label> : Il faudrait prendre contact avec un homme de lettres Mexicain qui travaille à « <title>Vuelta</title> » (revue d’<persName>Octavio Paz</persName>) et qui fait une rubrique oulipienne : <persName>José de la Collina</persName>.</p></egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="placeName" mode="change">
+      <classes mode="change">
+        <memberOf key="att.datable" mode="delete"/>
+        <memberOf key="att.typed" mode="delete"/>
+        <!-- remove from model class which allows it in text -->
+      </classes>
+    </elementSpec>
+    <elementSpec ident="ref" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="resp" mode="change">
+      <classes mode="change">
+        <memberOf key="att.datable" mode="delete"/>
+      </classes>
+      <attList>
+        <attDef ident="ref" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="respStmt" mode="change">
+      <attList>
+        <attDef ident="ref" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="sourceDesc" mode="change">
+      <content>
+        <alternate>
+          <elementRef key="bibl"/>
+          <elementRef key="p"/>
+        </alternate>
+      </content>
+    </elementSpec>
+    <elementSpec ident="teiCorpus" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+        <attDef ident="version" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="teiHeader" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="term" mode="change">
+      <attList>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p> <persName ref="#LE">LE</persName> : système de la <term ref="#contrainteprovisoire">contrainte provisoire</term> : construire le texte sur une contrainte, puis le traduire en langage normal</p> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="term" mode="change">
+      <desc> contient un mot simple, un mot composé ou un symbole, qui est considéré comme un terme associé avec une notion oulipienne.</desc>
+    </elementSpec>
+    <elementSpec ident="text" mode="change">
+      <attList>
+        <attDef ident="type" mode="replace">
+          <valList type="closed">
+            <valItem ident="CR">
+              <desc>compte rendu d'une reunion</desc>
+            </valItem>
+            <valItem ident="CV">
+              <desc>convocation a une reunion</desc>
+            </valItem>
+            <valItem ident="OJ">
+              <desc>ordre du jour d'une reunion</desc>
+            </valItem>
+            <valItem ident="AUTRE">
+              <desc>autre document</desc>
+            </valItem>
+          </valList>
+        </attDef>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="title" mode="change">
+      <classes mode="change">
+        <memberOf key="att.datable" mode="delete"/>
+      </classes>
+      <attList>
+        <attDef ident="level" mode="delete"/>
+      </attList>
+    </elementSpec>
+    <elementSpec ident="unclear" mode="change">
+      <attList>
+        <attDef ident="reason" mode="delete"/>
+        <attDef ident="hand" mode="delete"/>
+        <attDef ident="agent" mode="delete"/>
+      </attList>
+      <exemplum>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <item>Culte de la <unclear>personnalité</unclear> de <persName ref="#FLL">FLL</persName> <persName ref="#PB">Braffort</persName></item> </egXML>
+      </exemplum>
+    </elementSpec>
+    <elementSpec ident="TEI" mode="change">
+      <attList>
+        <attDef ident="version" mode="delete"/>
+        <attDef ident="type" mode="delete"/>
+      </attList>
+      <exemplum xml:lang="fr">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples"> <TEI xml:id="t10010004-1961-01-cr-v"> <teiHeader> <fileDesc> <titleStmt> <title>Transcription du scan 10010004 pp. 2 à 5 (CR) : version TEI</title>
+          <!-- ... --> </titleStmt> <publicationStmt> <p>Edition numérique distribué par le projet ANR DifDePo</p> </publicationStmt> <sourceDesc> <bibl>
+          <!-- ... --> </bibl> </sourceDesc> </fileDesc> <revisionDesc> <listChange> <change when="2016-08-04T12:46:32Z">Oulipo specific tags added</change> </listChange> </revisionDesc> </teiHeader> <text type="CR"> <body> <pb n="2" xml:id="p2"/> <p><!-- ... --> </p> </body> </text> </TEI> </egXML>
+      </exemplum>
+    </elementSpec>
+  </schemaSpec>
+</div>
+<!--
       </body>
    </text>
 </TEI>-->
