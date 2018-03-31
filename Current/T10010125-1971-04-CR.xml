@@ -1,83 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010125-1971-04-CR">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010125 pp. 1 à 1 (CR) : version TEI</title>
-				        
-				        
-			         
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010125-1971-04-CR</idno>
-					          <meeting xml:id="T10010125-1971-04">
-						            <date when="1971-04-06">06/04/1971</date>
-						            <placeName>chez François Le Lionnais</placeName>
-						            <list type="present">
-							              <item>
-								                <persName ref="#FLL">FLL</persName>
-							              </item>
-							              <item>
-								                <persName ref="#RQ">RQ</persName>
-							              </item>
-							              <item>
-								                <persName ref="#JL">JL</persName>
-							              </item>
-							              <item>
-								                <persName ref="#NA">NA</persName>
-							              </item>
-							              <item>
-								                <persName ref="#PB">PB</persName>
-							              </item>
-							              <item>
-								                <persName ref="#JD">JD</persName>
-							              </item>
-							              <item>
-								                <persName ref="#LE">LE</persName>
-							              </item>
-						            </list>
-					          </meeting>
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				        <change when="2017-09-02">Conversion docx-tei initiale Validation  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="CR">
-		    <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010125d/f1.highres"/>
-         <p rend="incipit">Oulipo du 6 Avril 1971</p>
-         <p>
-            <persName ref="#FLL">FLL.</persName>, <persName ref="#RQ">R. Queneau</persName>,
-					<persName ref="#JL">Lescure</persName>, <persName ref="#NA">Arnaud</persName>,
-					<persName ref="#CB">Berge</persName>, <persName ref="#JD">Duchateau</persName>, <persName>Luc Etienne</persName>.</p>
-         <p>Discussion sur l’admission de <persName ref="#PF">Fournel</persName>
-         </p>
-         <p>Problème du nombre des membres : statutairement 10 et pas plus</p>
-         <p>Les nouveaux membres ne sont qu’associés.</p>
-         <p>
-            <persName ref="#LE">Luc Etienne</persName> : Poèmes pour <term>ruban de				<persName>Möebius</persName> 
-            </term> .</p>
-      </body>
-	  </text>
+<TEI xml:id="T10010125-1971-04-CR" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010125 pp. 1 à 1 (CR) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010125-1971-04-CR</idno> <meeting xml:id="T10010125-1971-04">
+          <date when="1971-04-06">06/04/1971</date>
+          <placeName>chez François Le Lionnais</placeName>
+          <list type="present">
+            <item><persName ref="#FLL">FLL</persName></item>
+            <item><persName ref="#RQ">RQ</persName></item>
+            <item><persName ref="#JL">JL</persName></item>
+            <item><persName ref="#NA">NA</persName></item>
+            <item><persName ref="#PB">PB</persName></item>
+            <item><persName ref="#JD">JD</persName></item>
+            <item><persName ref="#LE">LE</persName></item>
+          </list>
+          </meeting> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-02">Conversion docx-tei initiale Validation</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="CR">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010125d/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo du 6 Avril 1971</p>
+      <p><persName ref="#FLL">FLL.</persName>, <persName ref="#RQ">R. Queneau</persName>, <persName ref="#JL">Lescure</persName>, <persName ref="#NA">Arnaud</persName>, <persName ref="#CB">Berge</persName>, <persName ref="#JD">Duchateau</persName>, <persName>Luc Etienne</persName>.</p>
+      <p>Discussion sur l’admission de <persName ref="#PF">Fournel</persName></p>
+      <p>Problème du nombre des membres : statutairement 10 et pas plus</p>
+      <p>Les nouveaux membres ne sont qu’associés.</p>
+      <p><persName ref="#LE">Luc Etienne</persName> : Poèmes pour <term>ruban de <persName>Möebius</persName></term> .</p>
+    </body>
+  </text>
 </TEI>

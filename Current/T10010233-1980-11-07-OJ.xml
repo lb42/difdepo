@@ -1,146 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010233-1980-11-07-OJ">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010233 pp. 2 à 2 (OJ) : version TEI</title>
-            
-            
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-              <idno>T10010233-1980-11-07-OJ</idno>
-              <title>Ordre de jour de <ref target="#T10010233-1980-11-07">la réunion Oulipo</ref> de <date when="1980-11-07">07/11/1980</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:34:38Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text type="OJ">
-      <body>
-         <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102339/f2.highres"/>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#HM">HM</persName> – W.I.P.</item>
-            <item>
-               <persName ref="#JR">JR</persName> – Mini : OuLiPo</item>
-            <item>
-               <persName ref="#PF">PF</persName> – titre </item>
-            <item>PB- <title>Cahiers <persName>Valentin Bru</persName>
-               </title>
-              
-               
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Action – Information</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#JR">JR</persName>
-               <list type="unordered">
-                  <item>Furor</item>
-                  <item>
-                     <orgName>Alamo</orgName>
-                  </item>
-               </list>
-            </item>
-         </list>
-         <list type="unordered">
-            <item>(Autre)<lb/>- Présentation</item>
-            <item>
-               <persName ref="#PF">PF</persName>
-               <lb/>- <persName>Simonnet</persName>
-               <lb/>-<persName>Jouannard</persName>
-            </item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName ref="#LE">LE</persName>
-               <lb/>-<choice>
-                  <sic>Argives</sic>
-                  <corr>Archives</corr>
-               </choice>
-               <note xml:id="ftn1" n="1" resp="editor">le Cr doit être rédigé par <persName>HM</persName>, son orthographe est parfois approximative</note>
-               
-            </item>
-            <item>
-               <persName ref="#HM">HM</persName>
-               <lb/>-Word Recreations</item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName ref="#PB">PB</persName>-</item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName ref="#JB">JB</persName>
-               <lb/>-OULIPO<lb/>-2e millénaire<lb/>- <persName>François Chapon</persName>
-            </item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName ref="#MB">MB</persName>
-            </item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName>Lynn McMurray</persName>
-            </item>
-         </list>
-         <p>Appel à <persName ref="#FLL">FLL</persName>
-         </p>
-         <p>
-            <label type="rubrique">Erudition </label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#LE">LE</persName>- <persName>Mallarmé</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#JQ">JQ</persName> 
-               <title>Dictionnaire <unclear>du</unclear> Japon</title>
-            </item>
-            <item>
-               <persName>HM</persName> 
-               <persName>Anaïd</persName>
-            </item>
-            <item>
-               <persName ref="#JB">JB</persName> 
-               <term>Dessins tissés</term>
-            </item>
-         </list>
-      </body>
-   </text>
+<TEI xml:id="T10010233-1980-11-07-OJ" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010233 pp. 2 à 2 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Hélène Campaignolle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010233-1980-11-07-OJ</idno> <title>Ordre de jour de <ref target="#T10010233-1980-11-07">la réunion Oulipo</ref> de <date when="1980-11-07">07/11/1980</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:34:38Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="OJ">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102339/f2.highres" n="2"/>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><persName ref="#HM">HM</persName> – W.I.P.</item>
+        <item><persName ref="#JR">JR</persName> – Mini : OuLiPo</item>
+        <item><persName ref="#PF">PF</persName> – titre</item>
+        <item>PB- <title>Cahiers <persName>Valentin Bru</persName></title> </item>
+      </list>
+      <p><label type="rubrique">Action – Information</label></p>
+      <list type="unordered">
+        <item><persName ref="#JR">JR</persName> <list type="unordered">
+          <item>Furor</item>
+          <item><orgName>Alamo</orgName></item>
+          </list> </item>
+      </list>
+      <list type="unordered">
+        <item>(Autre)<lb/>- Présentation</item>
+        <item><persName ref="#PF">PF</persName> <lb/>- <persName>Simonnet</persName> <lb/>-<persName>Jouannard</persName></item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="#LE">LE</persName> <lb/>-<choice>
+          <sic>Argives</sic>
+          <corr>Archives</corr>
+          </choice> <note n="1" resp="editor" xml:id="ftn1">le Cr doit être rédigé par <persName>HM</persName>, son orthographe est parfois approximative</note></item>
+        <item><persName ref="#HM">HM</persName> <lb/>-Word Recreations</item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="#PB">PB</persName>-</item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="#JB">JB</persName> <lb/>-OULIPO<lb/>-2e millénaire<lb/>- <persName>François Chapon</persName></item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="#MB">MB</persName></item>
+      </list>
+      <list type="unordered">
+        <item><persName>Lynn McMurray</persName></item>
+      </list>
+      <p>Appel à <persName ref="#FLL">FLL</persName></p>
+      <p><label type="rubrique">Erudition</label> </p>
+      <list type="unordered">
+        <item><persName ref="#LE">LE</persName>- <persName>Mallarmé</persName></item>
+      </list>
+      <p><label type="rubrique">Menus propos</label></p>
+      <list type="unordered">
+        <item><persName ref="#JQ">JQ</persName> <title>Dictionnaire <unclear>du</unclear> Japon</title></item>
+        <item><persName>HM</persName> <persName>Anaïd</persName></item>
+        <item><persName ref="#JB">JB</persName> <term>Dessins tissés</term></item>
+      </list>
+    </body>
+  </text>
 </TEI>

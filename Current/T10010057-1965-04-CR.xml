@@ -1,82 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010057-1965-04-CR">
+<TEI xml:id="T10010057-1965-04-CR" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010057 pp. 1 à 1 (CR) : version TEI</title>
-            
-            
-
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010057-1965-04-CR</idno>
-               <meeting xml:id="T10010057-1965-04">
-                  <date when="1965-04-17">17/04/1965</date>
-                  <placeName>chez FLL</placeName>
-                  <gap/>
-               </meeting>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        
-            <change when="2016-08-04T12:35:00Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010057 pp. 1 à 1 (CR) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010057-1965-04-CR</idno> <meeting xml:id="T10010057-1965-04">
+          <date when="1965-04-17">17/04/1965</date>
+          <placeName>chez FLL</placeName>
+          <gap/>
+          </meeting> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:35:00Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CR">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b100100575/f1.highres"/>
-         <p rend="incipit">OULIPO</p>
-         <list type="ordered">
-            <item>
-               <persName ref="#PB">Braffort</persName> =</item>
-            <item>Namur</item>
-            <item>Note de frais</item>
-            <item>Film</item>
-            <item/>
-         </list>
-         <list type="ordered">
-            <item>Contribution <term>Pataphysique</term>
-            </item>
-            <item>Problèmes d’échecs + Note frais</item>
-            <item>
-               <term>Intersection</term>
-            </item>
-         </list>
-         <list type="ordered">
-            <item>
-               <term>Vers</term> ambigu</item>
-         </list>
-         <p>
-            <term>Ambiguités combinées</term>. Il ruminait des pensées sur ces routes</p>
-         <p>L’obstination de cet homme brave la tourmente Le pilote ferme la porte.</p>
-         <list type="ordered">
-            <item>Prochaine réunion.</item>
-         </list>
-         <p>17 avril : 18 h plus ou moins 1 chez <persName ref="#FLL">FLL</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100575/f1.highres" n="1"/>
+      <p rend="incipit">OULIPO</p>
+      <list type="ordered">
+        <item><persName ref="#PB">Braffort</persName> =</item>
+        <item>Namur</item>
+        <item>Note de frais</item>
+        <item>Film</item>
+        <item/>
+      </list>
+      <list type="ordered">
+        <item>Contribution <term>Pataphysique</term></item>
+        <item>Problèmes d’échecs + Note frais</item>
+        <item><term>Intersection</term></item>
+      </list>
+      <list type="ordered">
+        <item><term>Vers</term> ambigu</item>
+      </list>
+      <p><term>Ambiguités combinées</term>. Il ruminait des pensées sur ces routes</p>
+      <p>L’obstination de cet homme brave la tourmente Le pilote ferme la porte.</p>
+      <list type="ordered">
+        <item>Prochaine réunion.</item>
+      </list>
+      <p>17 avril : 18 h plus ou moins 1 chez <persName ref="#FLL">FLL</persName></p>
+    </body>
   </text>
 </TEI>

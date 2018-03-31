@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010321-1988-11-CV">
+<TEI xml:id="T10010321-1988-11-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010321 pp. 1 à 1 (CV) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010321-1988-11-CV</idno>
-               <title>Convocation à <ref target="#T10010321-1988-11">une réunion Oulipo</ref>, envoyée le <date when="1988-11-10">10/11/1988</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:38:55Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010321 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010321-1988-11-CV</idno> <title>Convocation à <ref target="#T10010321-1988-11">une réunion Oulipo</ref>, envoyée le <date when="1988-11-10">10/11/1988</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:38:55Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010321c/f1.highres"/>
-         <p rend="incipit">OULIPO</p>
-         <p rend="incipit">                                                              10.11.88</p>
-         <p>Chers oulipiens,</p>
-         <p>Notre ouvroir se réunira le jeudi 24 Novembre 88 à 19 heures chez <persName ref="#JJ">Jacques Jouet</persName>, 12 rue de Lancry 75010 paris, tel : 42.41.20.07.</p>
-         <p>Merci de retourner la découpe ci-dessous pour faciliter la tâche de l’intendant.</p>
-         <p>Si cette convocation ne vous parvient pas ce sera à cause de la grève des Postes. Sachez tout de suite que vous devrez venir tout de même et que cette excuse ne vous permettra pas la trop laxiste promotion du rang d’absent au rang d’excusé.</p>
-         <p>Amitiés,</p>
-         <p>
-            <persName ref="#PF">Paul</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010321c/f1.highres" n="1"/>
+      <p rend="incipit">OULIPO</p>
+      <p rend="incipit">10.11.88</p>
+      <p>Chers oulipiens,</p>
+      <p>Notre ouvroir se réunira le jeudi 24 Novembre 88 à 19 heures chez <persName ref="#JJ">Jacques Jouet</persName>, 12 rue de Lancry 75010 paris, tel : 42.41.20.07.</p>
+      <p>Merci de retourner la découpe ci-dessous pour faciliter la tâche de l’intendant.</p>
+      <p>Si cette convocation ne vous parvient pas ce sera à cause de la grève des Postes. Sachez tout de suite que vous devrez venir tout de même et que cette excuse ne vous permettra pas la trop laxiste promotion du rang d’absent au rang d’excusé.</p>
+      <p>Amitiés,</p>
+      <p><persName ref="#PF">Paul</persName></p>
+    </body>
   </text>
 </TEI>

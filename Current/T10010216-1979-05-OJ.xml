@@ -1,133 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010216-1979-05-OJ">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010216 pp. 1 à 1 (OJ) : version TEI</title>
-            
-            
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010216-1979-05-OJ</idno>
-               <title>Ordre de jour de <ref target="#T10010216-1979-05">la réunion Oulipo</ref> de <date when="1979-05-17">17/05/1979</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:32:59Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text type="OJ">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010216t/f1.highres"/>
-         <p rend="incipit">Ordre du Jour 17/05/79</p>
-         <list type="ordered">
-            <item>Accueil invité et intervention du dit invité : <persName>Bernard Parzysz</persName>
-            </item>
-            <item>Intervention de <persName ref="#FLL">FLL</persName> qui part avant le dessert (chouette on en aura plus)</item>
-         </list>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <p>
-            <persName ref="#PB">Braffort</persName> : <term>Classification</term> des <term>structures</term> : pour une <term>systématique</term> de la <term>littérature récurrente</term> (3B)</p>
-         <p>
-            <persName>Luc Et.</persName> 
-            <term>Prolifération automatique</term>
-         </p>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <del>
-                  <persName ref="#LE">LE</persName> : <term>poème antonymique</term>
-               </del>
-            </item>
-            <item>
-               <persName ref="#PB">PB</persName> : je ne sais pas </item>
-            <item>
-              <del> 
-                  <persName ref="#MB">MB</persName> : cruautés <term>curiosités théologiques</term>
-               </del>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Action :</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <del>
-                  <persName ref="#JB">JB</persName> : <unclear>Stratégies</unclear>
-               </del>
-            </item>
-            <item>
-               <del>
-                  <persName ref="#MB">MB</persName> : <persName>Balpe</persName> Manuel</del>
-            </item>
-            <item>
-               <del>
-                  <persName ref="#PF">PF</persName> : <orgName>CNL</orgName>
-               </del>
-            </item>
-            <item>
-               <del>
-                  <persName ref="#PF">PF</persName> : <title>Volume II</title>. <term>Oulipo Pédago</term>
-               </del>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#FLL">FLL</persName>
-            </item>
-            <item>
-               <persName>Noel de Nouvel Arnaud</persName>
-            </item>
-            <item>Chevalet Oulipo</item>
-            <item>
-               <title>Cartes postales</title> Oulipo prix des commandes</item>
-            <item>Sortie du       
-               <unclear>Tunnel</unclear> du <persName ref="#PF">PF</persName>
-            </item>
-         </list>
-         <p>Prochaine réunion : date lieu invité parrain</p>
-         <p>
-            <label type="rubrique">Les mots records</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#JB">JB</persName> : Dimanche à Maison Alfort
-            </item>
-            <item>
-               <persName ref="#PB">PB</persName> : le <orgName>prix Honoré</orgName>. </item>
-         </list>
-         <p>Prochaine : jeudi 14 juin. Invité <persName>Cortazar</persName>/ <persName>Balpe</persName>. </p>
-         <p>Suivante : Mercredi 4 juillet. </p>
-      </body>
-   </text>
+<TEI xml:id="T10010216-1979-05-OJ" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010216 pp. 1 à 1 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Hélène Campaignolle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010216-1979-05-OJ</idno> <title>Ordre de jour de <ref target="#T10010216-1979-05">la réunion Oulipo</ref> de <date when="1979-05-17">17/05/1979</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:32:59Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="OJ">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010216t/f1.highres" n="1"/>
+      <p rend="incipit">Ordre du Jour 17/05/79</p>
+      <list type="ordered">
+        <item>Accueil invité et intervention du dit invité : <persName>Bernard Parzysz</persName></item>
+        <item>Intervention de <persName ref="#FLL">FLL</persName> qui part avant le dessert (chouette on en aura plus)</item>
+      </list>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName ref="#PB">Braffort</persName> : <term>Classification</term> des <term>structures</term> : pour une <term>systématique</term> de la <term>littérature récurrente</term> (3B)</p>
+      <p><persName>Luc Et.</persName> <term>Prolifération automatique</term></p>
+      <p><label type="rubrique">Erudition</label></p>
+      <list type="unordered">
+        <item> <del><persName ref="#LE">LE</persName> : <term>poème antonymique</term></del> </item>
+        <item><persName ref="#PB">PB</persName> : je ne sais pas</item>
+        <item> <del><persName ref="#MB">MB</persName> : cruautés <term>curiosités théologiques</term></del> </item>
+      </list>
+      <p><label type="rubrique">Action :</label></p>
+      <list type="unordered">
+        <item> <del><persName ref="#JB">JB</persName> : <unclear>Stratégies</unclear></del> </item>
+        <item> <del><persName ref="#MB">MB</persName> : <persName>Balpe</persName> Manuel</del></item>
+        <item> <del><persName ref="#PF">PF</persName> : <orgName>CNL</orgName></del> </item>
+        <item> <del><persName ref="#PF">PF</persName> : <title>Volume II</title>. <term>Oulipo Pédago</term></del> </item>
+      </list>
+      <p><label type="rubrique">Menus propos</label></p>
+      <list type="unordered">
+        <item><persName ref="#FLL">FLL</persName></item>
+        <item><persName>Noel de Nouvel Arnaud</persName></item>
+        <item>Chevalet Oulipo</item>
+        <item><title>Cartes postales</title> Oulipo prix des commandes</item>
+        <item>Sortie du <unclear>Tunnel</unclear> du <persName ref="#PF">PF</persName></item>
+      </list>
+      <p>Prochaine réunion : date lieu invité parrain</p>
+      <p><label type="rubrique">Les mots records</label></p>
+      <list type="unordered">
+        <item><persName ref="#JB">JB</persName> : Dimanche à Maison Alfort</item>
+        <item><persName ref="#PB">PB</persName> : le <orgName>prix Honoré</orgName>.</item>
+      </list>
+      <p>Prochaine : jeudi 14 juin. Invité <persName>Cortazar</persName>/ <persName>Balpe</persName>.</p>
+      <p>Suivante : Mercredi 4 juillet.</p>
+    </body>
+  </text>
 </TEI>

@@ -1,68 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010145-1972-10-CV">
+<TEI xml:id="T10010145-1972-10-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010145 pp. 1 à 1 (CV) : version TEI</title>
-            
-            
-
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010145-1972-10-CV</idno>
-               <title>Convocation à <ref target="#T10010145-1972-10">une réunion Oulipo</ref>, envoyée le <date when="1972-10-27">27/10/1972</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        
-            <change when="2016-08-04T12:37:28Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010145 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010145-1972-10-CV</idno> <title>Convocation à <ref target="#T10010145-1972-10">une réunion Oulipo</ref>, envoyée le <date when="1972-10-27">27/10/1972</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:37:28Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101457/f1.highres"/>
-         <p rend="incipit">le 27 Octobre 1972</p>
-         <p>Cher Oulipote,</p>
-         <p>La prochaine réunion aura lieu le mercredi 8 Novembre 1972.</p>
-         <p>Notre invité d’honneur sera probablement <persName ref="#IC">Italo CALVINO</persName> ; sinon ce sera
-          <persName>Emile LEIPP</persName>.</p>
-         <p>A l’ordre du jour :</p>
-         <list type="unordered">
-            <item>dernières nouvelles de la mise en fabrication d’<title>ex-Cape</title>.</item>
-            <item>discussion du budget </item>
-            <item>perspectives d’avenir</item>
-            <item>le reste à la carte (et le repas au menu).</item>
-         </list>
-         <p>Si vous restez déjeuner nous insistons pour que l’intendance en soit prévenue à temps.</p>
-         <p>Au mercredi 8,</p>
-         <p>un secrétaire</p>
-         <p>
-            <persName ref="#PF">Paul Fournel</persName>
-         </p>
-         <p>PS : La réunion suivante est prévue pour le Mercredi 13 Décembre 1972</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101457/f1.highres" n="1"/>
+      <p rend="incipit">le 27 Octobre 1972</p>
+      <p>Cher Oulipote,</p>
+      <p>La prochaine réunion aura lieu le mercredi 8 Novembre 1972.</p>
+      <p>Notre invité d’honneur sera probablement <persName ref="#IC">Italo CALVINO</persName> ; sinon ce sera <persName>Emile LEIPP</persName>.</p>
+      <p>A l’ordre du jour :</p>
+      <list type="unordered">
+        <item>dernières nouvelles de la mise en fabrication d’<title>ex-Cape</title>.</item>
+        <item>discussion du budget</item>
+        <item>perspectives d’avenir</item>
+        <item>le reste à la carte (et le repas au menu).</item>
+      </list>
+      <p>Si vous restez déjeuner nous insistons pour que l’intendance en soit prévenue à temps.</p>
+      <p>Au mercredi 8,</p>
+      <p>un secrétaire</p>
+      <p><persName ref="#PF">Paul Fournel</persName></p>
+      <p>PS : La réunion suivante est prévue pour le Mercredi 13 Décembre 1972</p>
+    </body>
   </text>
 </TEI>

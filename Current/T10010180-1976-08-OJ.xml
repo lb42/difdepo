@@ -1,104 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010180-1976-08-OJ">
+<TEI xml:id="T10010180-1976-08-OJ" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010180 pp. 24 à 24 (OJ) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Eva Lassalle</name>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010180-1976-08-OJ</idno>
-               <title>Ordre de jour de <ref target="#T10010180-1976-08">la réunion Oulipo</ref> de <date when="1976-08-03">03/08/1976</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:28:50Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010180 pp. 24 à 24 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Eva Lassalle</name>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010180-1976-08-OJ</idno> <title>Ordre de jour de <ref target="#T10010180-1976-08">la réunion Oulipo</ref> de <date when="1976-08-03">03/08/1976</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:28:50Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="OJ">
-      <body>
-         <pb n="24"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f24.highres"/>
-         <p rend="incipit">OuLiPo                                               le 3 8 76</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#HM">HM</persName> – <title>Variations</title>
-            </item>
-            <item>
-               <persName ref="#PB">PB</persName> – <orgName>Ouvidéopo</orgName>
-            </item>
-            <item>
-               <persName ref="#GP">GP</persName> – Oulipo</item>
-            <item>
-               <persName>Montserrat</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <p>
-            <persName ref="#PB">PB</persName>
-         </p>
-         <p>
-            <persName ref="#HM">HM</persName> – Anthologie <unclear>Fraser</unclear>
-         </p>
-         <p>
-            <persName>Jackson Mac Low</persName>
-         </p>
-         <p>
-            <persName>Goldberg</persName>
-         </p>
-         <p>
-            <label type="rubrique">Menus Propos</label>
-         </p>
-         <p>
-            <persName ref="#GP">GP</persName>
-         </p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="#GP">GP</persName> 
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#JR">Roubaud</persName>
-            </item>
-            <item>
-               <name type="manif">Lyon</name>
-            </item>
-            <item>
-               <persName ref="#FLL">FLL</persName> – Projet <orgName>RTB</orgName>
-            </item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f24.highres" n="24"/>
+      <p rend="incipit">OuLiPo le 3 8 76</p>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><persName ref="#HM">HM</persName> – <title>Variations</title></item>
+        <item><persName ref="#PB">PB</persName> – <orgName>Ouvidéopo</orgName></item>
+        <item><persName ref="#GP">GP</persName> – Oulipo</item>
+        <item><persName>Montserrat</persName></item>
+      </list>
+      <p><label type="rubrique">Erudition</label></p>
+      <p><persName ref="#PB">PB</persName></p>
+      <p><persName ref="#HM">HM</persName> – Anthologie <unclear>Fraser</unclear></p>
+      <p><persName>Jackson Mac Low</persName></p>
+      <p><persName>Goldberg</persName></p>
+      <p><label type="rubrique">Menus Propos</label></p>
+      <p><persName ref="#GP">GP</persName></p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="#GP">GP</persName></p>
+      <list type="unordered">
+        <item><persName ref="#JR">Roubaud</persName></item>
+        <item><name type="manif">Lyon</name></item>
+        <item><persName ref="#FLL">FLL</persName> – Projet <orgName>RTB</orgName></item>
+      </list>
+    </body>
   </text>
 </TEI>

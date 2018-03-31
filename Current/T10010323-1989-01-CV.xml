@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010323-1989-01-CV">
+<TEI xml:id="T10010323-1989-01-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010323 pp. 1 à 1 (CV) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010323-1989-01-CV</idno>
-               <title>Convocation à <ref target="#T10010323-1989-01">une réunion Oulipo</ref>, envoyée le <date when="1989-01-03">03/01/1989</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:39:17Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010323 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010323-1989-01-CV</idno> <title>Convocation à <ref target="#T10010323-1989-01">une réunion Oulipo</ref>, envoyée le <date when="1989-01-03">03/01/1989</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:39:17Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f1.highres"/>
-         <p>OULIPO</p>
-         <p>le 3 janvier 1989</p>
-         <p>Chers oulipiens,</p>
-         <p>L’ouvroir se réunira le vendredi 20 janvier à 19 heures chez <persName>Martine</persName> et <persName ref="#PF">Paul FOURNEL</persName> 48 rue de l’Abbé Groult 75015. 45.31.77.65</p>
-         <p>ATTENTION cette réunion a un caractère particulier : Messieurs <persName>Despatin</persName> et <persName>Gobeli</persName> viendront pour y faire des photographies officielles. Nous devons donc être aussi nombreux que possible. Merci d’en tenir compte.</p>
-         <p>Retournez la découpe, acceptez des vieux oulipiens et retrouvons-nous le 20.</p>
-         <p>Amitiés,</p>
-         <p>
-            <persName ref="#PF">Paul</persName>  
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f1.highres" n="1"/>
+      <p>OULIPO</p>
+      <p>le 3 janvier 1989</p>
+      <p>Chers oulipiens,</p>
+      <p>L’ouvroir se réunira le vendredi 20 janvier à 19 heures chez <persName>Martine</persName> et <persName ref="#PF">Paul FOURNEL</persName> 48 rue de l’Abbé Groult 75015. 45.31.77.65</p>
+      <p>ATTENTION cette réunion a un caractère particulier : Messieurs <persName>Despatin</persName> et <persName>Gobeli</persName> viendront pour y faire des photographies officielles. Nous devons donc être aussi nombreux que possible. Merci d’en tenir compte.</p>
+      <p>Retournez la découpe, acceptez des vieux oulipiens et retrouvons-nous le 20.</p>
+      <p>Amitiés,</p>
+      <p><persName ref="#PF">Paul</persName></p>
+    </body>
   </text>
 </TEI>

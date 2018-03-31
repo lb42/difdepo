@@ -1,85 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010135-1972-01-CR">
+<TEI xml:id="T10010135-1972-01-CR" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010135 pp. 3 à 3 (CR) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010135-1972-01-CR</idno>
-               <meeting xml:id="T10010135-1972-01">
-                  <date when="1972-01-13">13/01/1972</date>
-                  <placeName>chez FLL</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="#GP">GP</persName>
-                     </item>
-                     <item>
-                        <persName ref="#MB">MB</persName>
-                     </item>
-                  </list>
-               </meeting>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:23:22Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010135 pp. 3 à 3 (CR) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010135-1972-01-CR</idno> <meeting xml:id="T10010135-1972-01">
+          <date when="1972-01-13">13/01/1972</date>
+          <placeName>chez FLL</placeName>
+          <list type="present">
+            <item><persName ref="#GP">GP</persName></item>
+            <item><persName ref="#MB">MB</persName></item>
+          </list>
+          </meeting> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:23:22Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CR">
-      <body>
-         <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010135t/f3.highres"/>
-         <p rend="incipit">Séance du 13 Janvier 1972</p>
-         <p rend="incipit">Présents : <persName ref="#FLL">FLL</persName> 
-            <persName ref="#GP">GP</persName> 
-            <persName ref="#MB">MB</persName>
-         </p>
-         <p>les 2000 phrases _ <persName>Marsillac</persName> _ <title>L’Antonymie</title>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#GP">Perec</persName> : problème d’un déjeuneur enregistré par <persName>Trutat</persName>.</item>
-         </list>
-         <p>Exécution le 9 Février d’un programme musical <term>perécien</term> à <orgName>L'Office de radiodiffusion-télévision française</orgName>.</p>
-         <p>Particularités de ce programme : une partition formalisée.</p>
-         <list type="unordered">
-            <item>
-               <term>Brainstorming</term>
-            </item>
-         </list>
-         <p>
-            <persName>Trutat</persName>
-         </p>
-         <p>
-            <persName>Marsillac</persName> 
-         </p>
-         <p>Dossier <orgName>Cape</orgName> mis au point</p>
-         <p>les 2000 phrases : utilisation</p>
-         <p>Calendrier préférentiel_</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010135t/f3.highres" n="3"/>
+      <p rend="incipit">Séance du 13 Janvier 1972</p>
+      <p rend="incipit">Présents : <persName ref="#FLL">FLL</persName> <persName ref="#GP">GP</persName> <persName ref="#MB">MB</persName></p>
+      <p>les 2000 phrases _ <persName>Marsillac</persName> _ <title>L’Antonymie</title></p>
+      <list type="unordered">
+        <item><persName ref="#GP">Perec</persName> : problème d’un déjeuneur enregistré par <persName>Trutat</persName>.</item>
+      </list>
+      <p>Exécution le 9 Février d’un programme musical <term>perécien</term> à <orgName>L'Office de radiodiffusion-télévision française</orgName>.</p>
+      <p>Particularités de ce programme : une partition formalisée.</p>
+      <list type="unordered">
+        <item><term>Brainstorming</term></item>
+      </list>
+      <p><persName>Trutat</persName></p>
+      <p><persName>Marsillac</persName></p>
+      <p>Dossier <orgName>Cape</orgName> mis au point</p>
+      <p>les 2000 phrases : utilisation</p>
+      <p>Calendrier préférentiel_</p>
+    </body>
   </text>
 </TEI>

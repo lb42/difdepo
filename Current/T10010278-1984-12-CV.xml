@@ -1,64 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010278-1984-12-CV">
+<TEI xml:id="T10010278-1984-12-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010278 pp. 11 à 11 (CV) : version TEI</title>
-            
-            
-
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010278-1984-12-CV</idno>
-               <title>Convocation à <ref target="#T10010278-1984-12">une réunion Oulipo</ref>, envoyée le <date when="1984-12-31">31/12/1984</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        
-            <change when="2016-08-04T12:40:59Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010278 pp. 11 à 11 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010278-1984-12-CV</idno> <title>Convocation à <ref target="#T10010278-1984-12">une réunion Oulipo</ref>, envoyée le <date when="1984-12-31">31/12/1984</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:40:59Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="11"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f11.highres"/>
-         <p rend="incipit">Le 3 XII 84</p>
-         <p>Cher oulipiens,</p>
-         <p>
-            <persName ref="#LE">Luc Étienne</persName> est mort la semaine dernière d’une leucémie. Ses obsèques
-        ont eu lieu dans les Ardennes et seuls ses proches étaient présents. Quelques jours avant sa
-        mort, il m’avait chargé de vous faire ses amitiés e de vous faire savoir qu’il ne souhaitait
-        pas voir paraître « d’hommage à <persName ref="#LE">L.E</persName> » dans la <title>Bibliothèque oulipienne</title>. Je
-        vous donnerai lecture de sa lettre lors de notre prochaine réunion qui aura lieu le Vendredi
-        14 Décembre chez <persName ref="#JJ">Jacques Jouet</persName> au 12 rue de Lancry dans le 12è
-        (241.20.07). Comme d’habitude elle commencera vers 12h.</p>
-         <p>Merci de retourner la découpe à <persName ref="#JJ">Jacques</persName>.</p>
-         <p>Au 14. Amitiés.</p>
-         <p>
-            <persName ref="#PF">Paul</persName>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f11.highres" n="11"/>
+      <p rend="incipit">Le 3 XII 84</p>
+      <p>Cher oulipiens,</p>
+      <p><persName ref="#LE">Luc Étienne</persName> est mort la semaine dernière d’une leucémie. Ses obsèques ont eu lieu dans les Ardennes et seuls ses proches étaient présents. Quelques jours avant sa mort, il m’avait chargé de vous faire ses amitiés e de vous faire savoir qu’il ne souhaitait pas voir paraître « d’hommage à <persName ref="#LE">L.E</persName> » dans la <title>Bibliothèque oulipienne</title>. Je vous donnerai lecture de sa lettre lors de notre prochaine réunion qui aura lieu le Vendredi 14 Décembre chez <persName ref="#JJ">Jacques Jouet</persName> au 12 rue de Lancry dans le 12è (241.20.07). Comme d’habitude elle commencera vers 12h.</p>
+      <p>Merci de retourner la découpe à <persName ref="#JJ">Jacques</persName>.</p>
+      <p>Au 14. Amitiés.</p>
+      <p><persName ref="#PF">Paul</persName>.</p>
+    </body>
   </text>
 </TEI>

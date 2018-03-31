@@ -1,82 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010228-1980-05-OJ">
+<TEI xml:id="T10010228-1980-05-OJ" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010228 pp. 3 à 3 (OJ) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Clara de Raigniac</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010228-1980-05-OJ</idno>
-               <title>Ordre de jour de <ref target="#T10010228-1980-05">la réunion Oulipo</ref> du <date when="1980-05-23">23/05/1980</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:33:58Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010228 pp. 3 à 3 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Clara de Raigniac</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010228-1980-05-OJ</idno> <title>Ordre de jour de <ref target="#T10010228-1980-05">la réunion Oulipo</ref> du <date when="1980-05-23">23/05/1980</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:33:58Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="OJ">
-      <body>
-         <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102284/f3.highres"/>
-         <p rend="incipit">Oulipo du 23-5-80</p>
-         <p rend="incipit">Présents : PB NA JB CB MB</p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="#JB">JB</persName> : car *** stage</p>
-         <p>
-            <persName>OB</persName> : <name type="manif">Beaubourg 80</name> + TEP <persName ref="#RQ">Queneau</persName>
-         </p>
-         <p>
-            <persName ref="#NA">NA</persName> : Oulipo ***</p>
-         <p>
-            <persName ref="#CB">CB</persName>
-         </p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <p>
-            <persName ref="#MM">MM</persName> : projet</p>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <p>
-            <persName ref="#CB">CB</persName> : question</p>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <p>
-            <persName ref="#JB">JB</persName> : <persName>Isou</persName>
-         </p>
-         <p>
-            <persName ref="#JB">JB</persName> : *** Douret ***</p>
-         <p>
-           <persName ref="#PB">PB</persName>  : Faux espoir
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102284/f3.highres" n="3"/>
+      <p rend="incipit">Oulipo du 23-5-80</p>
+      <p rend="incipit">Présents : PB NA JB CB MB</p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="#JB">JB</persName> : car *** stage</p>
+      <p><persName>OB</persName> : <name type="manif">Beaubourg 80</name> + TEP <persName ref="#RQ">Queneau</persName></p>
+      <p><persName ref="#NA">NA</persName> : Oulipo ***</p>
+      <p><persName ref="#CB">CB</persName></p>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName ref="#MM">MM</persName> : projet</p>
+      <p><label type="rubrique">Erudition</label></p>
+      <p><persName ref="#CB">CB</persName> : question</p>
+      <p><label type="rubrique">Menus propos</label></p>
+      <p><persName ref="#JB">JB</persName> : <persName>Isou</persName></p>
+      <p><persName ref="#JB">JB</persName> : *** Douret ***</p>
+      <p><persName ref="#PB">PB</persName>  : Faux espoir</p>
+    </body>
   </text>
 </TEI>

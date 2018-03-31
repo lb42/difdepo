@@ -1,70 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010170-1975-10-CV">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010170 pp. 3 à 3 (CV) : version TEI</title>
-            
-            
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010170-1975-10-CV</idno>
-               <title>Convocation à <ref target="#T10010170-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13/10/1975</date> par <persName ref="#FLL">FLL</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:27:11Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text type="CV">
-      <body>
-         <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b100101707/f3.highres"/>
-         <p rend="incipit">[N’oubliez pas le tableau du produit cartésien des structures mathématiques sur les objets littéraires. Merci]. 
-            <note xml:id="ftn1" n="1" resp="editor">Ajout manuscrit de FLL</note>
-            
-         </p>
-         <p rend="incipit">Boulogne sur Seine le lundi 13 Octobre 1975</p>
-         <p rend="incipit">Chers Brigadiers, </p>
-         <p>La prochaine réunion de l’Oulipo a été fixée au mardi 28 Octobre vers 11h30. </p>
-         <p>Notre ordre du jour est chargé. </p>
-         <list type="ordered">
-            <item>Compte rendu du 8 Octobre (<name type="manif">Europalia</name> – Bruxelles)</item>
-            <item>Préparation d’une <name type="manif">nouvelle manifestation (en février ou mars 1976) au Centre Pompidou</name> 
-               Déloyalprolétaire
-            </item>
-            <item>Distribution de photos, de <title>tables de <persName>Queneleieff</persName>
-               </title>, etc. </item>
-            <item>Questions diverses importantes. </item>
-            <item>Questions diverses sans importance</item>
-         </list>
-         <p>En l’absence provisoire de sa secrétaire votre <persName ref="#PF">PF</persName> (et <persName>Marie Adèle</persName>) vous seraient extrêmement reconnaissants de leur faire reconnaître rapidement et sans faute votre décision. Oulipiennement [et amicalement] vôtre </p>
-         <p>
-            <persName ref="#FLL">F. Le Lionnais</persName>
-         </p>
-      </body>
-   </text>
+<TEI xml:id="T10010170-1975-10-CV" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010170 pp. 3 à 3 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010170-1975-10-CV</idno> <title>Convocation à <ref target="#T10010170-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13/10/1975</date> par <persName ref="#FLL">FLL</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:27:11Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="CV">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101707/f3.highres" n="3"/>
+      <p rend="incipit">[N’oubliez pas le tableau du produit cartésien des structures mathématiques sur les objets littéraires. Merci]. <note n="1" resp="editor" xml:id="ftn1">Ajout manuscrit de FLL</note></p>
+      <p rend="incipit">Boulogne sur Seine le lundi 13 Octobre 1975</p>
+      <p rend="incipit">Chers Brigadiers,</p>
+      <p>La prochaine réunion de l’Oulipo a été fixée au mardi 28 Octobre vers 11h30.</p>
+      <p>Notre ordre du jour est chargé.</p>
+      <list type="ordered">
+        <item>Compte rendu du 8 Octobre (<name type="manif">Europalia</name> – Bruxelles)</item>
+        <item>Préparation d’une <name type="manif">nouvelle manifestation (en février ou mars 1976) au Centre Pompidou</name> Déloyalprolétaire</item>
+        <item>Distribution de photos, de <title>tables de <persName>Queneleieff</persName></title> , etc.</item>
+        <item>Questions diverses importantes.</item>
+        <item>Questions diverses sans importance</item>
+      </list>
+      <p>En l’absence provisoire de sa secrétaire votre <persName ref="#PF">PF</persName> (et <persName>Marie Adèle</persName>) vous seraient extrêmement reconnaissants de leur faire reconnaître rapidement et sans faute votre décision. Oulipiennement [et amicalement] vôtre</p>
+      <p><persName ref="#FLL">F. Le Lionnais</persName></p>
+    </body>
+  </text>
 </TEI>

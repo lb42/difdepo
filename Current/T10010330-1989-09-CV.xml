@@ -1,56 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010330-1989-09-CV">
+<TEI xml:id="T10010330-1989-09-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010330 pp. 1 à 1 (CV) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010330-1989-09-CV</idno>
-               <title>Convocation à <ref target="#T10010330-1989-09">une réunion Oulipo</ref>, envoyée le <date when="1989-09-01">01/09/1989</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:39:39Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010330 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010330-1989-09-CV</idno> <title>Convocation à <ref target="#T10010330-1989-09">une réunion Oulipo</ref>, envoyée le <date when="1989-09-01">01/09/1989</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:39:39Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f1.highres"/>
-         <p>OULIPO</p>
-         <p>Paris, le 1<hi rend="sup">er</hi> Septembre 1989</p>
-         <p>Chers oulipiens,</p>
-         <p>La prochaine réunion de l’ouvroir aura lieu le vendredi 15 septembre 1989 à 19 heures chez <persName>Caroline</persName> et <persName ref="#FC">François Caradec</persName> (39 rue Gazan, 75014 Paris – tél : 45 88 05 61).</p>
-         <p>Merci de retourner la découpe ci-dessous directement chez C. &amp; F.C.</p>
-         <p>Au 15, amitiés,</p>
-         <p>
-            <persName ref="#PF">Paul</persName> 
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f1.highres" n="1"/>
+      <p>OULIPO</p>
+      <p>Paris, le 1<hi rend="sup">er</hi> Septembre 1989</p>
+      <p>Chers oulipiens,</p>
+      <p>La prochaine réunion de l’ouvroir aura lieu le vendredi 15 septembre 1989 à 19 heures chez <persName>Caroline</persName> et <persName ref="#FC">François Caradec</persName> (39 rue Gazan, 75014 Paris – tél : 45 88 05 61).</p>
+      <p>Merci de retourner la découpe ci-dessous directement chez C. &amp; F.C.</p>
+      <p>Au 15, amitiés,</p>
+      <p><persName ref="#PF">Paul</persName></p>
+    </body>
   </text>
 </TEI>

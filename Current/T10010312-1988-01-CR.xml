@@ -1,192 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010312-1988-01-CR">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010312 pp. 1 à 3 (CR) : version TEI</title>
-				        
-			         
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010312-1988-01-CR</idno>
-					          <meeting xml:id="T10010312-1988-01">
-						            <date when="1988-01-08">08/01/1988</date>
-						            <placeName>chez Harry Mathews</placeName>
-						            <list type="present">
-							              <item>
-								                <persName ref="#JJ">JJ</persName>
-							              </item>
-							              <item>
-								                <persName ref="#PB">PB</persName>
-							              </item>
-							              <item>
-								                <persName ref="#NA">NA</persName>
-							              </item>
-							              <item>
-								                <persName ref="#MB">MB</persName>
-							              </item>
-							              <item>
-								                <persName ref="#FC">FC</persName>
-							              </item>
-							              <item>
-								                <persName ref="#PF">PF</persName>
-							              </item>
-							              <item>
-								                <persName ref="#HM">HM</persName>
-							              </item>
-							              <item>
-								                <persName ref="#MM">MM</persName>
-							              </item>
-							              <item>
-								                <persName ref="#JR">JR</persName>
-							              </item>
-						            </list>
-					          </meeting>
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2017-09-02">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="CR">
-		    <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f1.highres"/>
-         <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
-         <p>Séance du 8 Janvier 1988</p>
-         <p>
-				        <label type="rubrique">1. Assiduité</label>
-			      </p>
-         <p>
-            <persName ref="#JJ">Jacques Jouet</persName> (président), <persName ref="#PB">Paul Braffort</persName>
-				(secrétaire), <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#MB">Marcel Bénabou</persName>,
-					<persName ref="#FC">François Caradec</persName>, <persName ref="#PF">Paul Fournel</persName>l,
-					<persName ref="#HM">Harry Mathews</persName> (hôte), <persName ref="#MM">Michèle Métail</persName>
-				et <persName ref="#JR">Jacques Roubaud</persName> sont présents.</p>
-         <p>
-            <persName ref="#JB">Jacques Bens</persName>, <persName ref="#CB">Claude Berge</persName>,
-					<persName ref="#JD">Jacques Duchâteau</persName> et <persName>Pierre Rosenstiehl</persName> sont excusés.</p>
-         <p>Nous recevons une invitée d’honneur, <persName>Lennie Goodman</persName>. Cette amie
-				de longue date est présentée par notre hôte. Dans sa réponse, elle exprime tout
-				l’amour qu'elle nous porte et qui, grâce à elle, se propage comme une épidémie au
-				delà de l’océan.</p>
-         <p>
-				        <label type="rubrique">2. Créations</label>
-			      </p>
-         <p>
-            <persName ref="#JR">JR</persName> propose une généralisation de la contrainte "<term>beau				présent/belle absente</term>”. On part, ici aussi d’un (ou de plusieurs) mot(s) : prénom ou
-				nom de personne, etc... A chaque lettre du mot à encoder, on associe un fragment de
-				texte (un vers, une phrase, un paragraphe.) où la fréquence de la lettre est
-				supérieure, de façon significative à sa fréquence "naturelle" en français, c'est
-				ainsi que, pour la lettre "S", on songe à "Pour qui sont ces serpents, etc...”. On
-				porrait imaginer alors que la fréquence des occurences de chaque lettre du mot ou
-				texte à encoder soit calculée non pas phrase par phrase, mais globalement.
-					<persName ref="#JR">JR</persName> observe alors que sa méthode peut présenter des
-				difficultés lorsqu’une même lettre apparait plusieurs fois dans le texte à encoder.
-				Il propose, dans ce cas, d’introduire un <term>coefficient de pondération</term> qui pourra être
-				le nombre de <persName>Fibonacci</persName> correspondant à l'ordre de la lettre en
-				question dans le texte source.</p>
-         <p>Une large discussion s'ouvre alors, au cours de laquelle <persName ref="#PF">PF</persName>
-				propose une <term>contrainte réciproque</term>, en un sens, de la précédente : écrire un texte
-				qui respecte absolument la fréquence naturelle du français. Certains oulipiens
-				insistent pour qu’on leur fournisse des exemples. On leur fait observer que le
-				Président-Fondateur n’en aurait eu cure!</p>
-         <p>
-            <persName ref="#JR">JR</persName> propose une variation de la contrainte "<term>canada dry</term>" : ce
-				serait une contrainte qui aurait l'air d'être "<term>canada dry</term>" qui, en fait respecterait
-				rigoureusement la contrainte qu'elle feint de feindre (la bouteille de canada dry
-				contient du whisky).</p>
-         <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f2.highres"/>
-         <p>
-            <persName ref="#MB">MB</persName> présente un double hommage (à <persName ref="#JJ">JJ</persName> pour
-				son "éclipse" et à <persName>PB</persName> pour sa <term>Sully-Prud'hommerie</term>) : il montre comment
-				le premier lauréat du Prix Nobel de Littérature a été conduit, partant d’un texte
-				plus qu'équivoque, à écrire cet immortel chef d’oeuvre :"<title>Le vase					brisé</title>".</p>
-         <p>
-            <persName ref="#PB">PB</persName> distribue des copies de "<title>Mes					hyperbibliothèques</title>" en vue d'ultérieures suggestions.</p>
-         <p>
-            <persName ref="#JJ">JJ</persName> conclut en beauté cette première partie de la séance en nous
-				présentant un couple poétique "quinine/sonnet" qui lui vaut d’unanimes et
-				chaleureuses félicitations.</p>
-         <p>
-				        <label type="rubrique">3. Erudition</label>
-			      </p>
-         <p>
-            <persName ref="#HM">HM</persName> évoque l’œuvre théâtrale de <persName>Harvey Peer</persName>
-				: dans une de ses pièces, les personnages, au cours de l’action sortent, passent
-				dans une pièce voisine et reviennent. La scène suivante nous montre ce qui se passe
-				pendant ce temps-là dans cette seconde pièce.</p>
-         <p>
-            <persName ref="#HM">HM</persName> a découvert un texte de <persName>Hugo von Hoffmanstahl</persName> qui offre une merveilleuse présentation de l'esprit
-				oulipien, et, en particulier de l'usage des contraintes.</p>
-         <p>
-            <persName ref="#MB">MB</persName> évoque la recherche (engagée par
-					<persName>Etiemble</persName>, semble-t-il), de <term>couples "antonyme/homophone"</term>. On
-				cherche des exemples, mais seul le mot "défendre" nous vient à l'esprit, ce qui
-				n’est pas très convaincant.</p>
-         <p>
-            <persName ref="#FC">FC</persName> fait allusion au romancier fin de siècle bien connu
-					<persName>Paul Adam</persName> qui aurait construit son intrigue à l'aide de
-				tirages de cartes à jouer préalablement associés aux divers personnages.</p>
-         <p>
-            <persName ref="#MB">MB</persName> présente le <term>plagiat par anticipation</term> absolu : celui de la
-				notion même de plagiat par anticipation! Il s’agit de <persName>Piron</persName> :
-				"Leurs écrits sont des vols qu’ils nous ont fait d’avance."</p>
-         <p>
-				        <label type="rubrique">4. Action</label>
-			      </p>
-         <p>A propos des formes nouvelles qui sont envisagées pour la "<title>Bibliothèque oulipienne</title>",
-					<persName ref="#PF">PF</persName> indique l’installation, dans les locaux des
-					<orgName>Editions Ramsay</orgName>, de trois équipements Mac Intosh dont un sera
-				à la disposition des oulipiens. On évoque la possibilité de consacrer des fonds
-				oulipiens à l’achat de matériel (telle une imprimante laser). Compte tenu des
-				possibilités offertes par <orgName>Ramsay</orgName>, l’<orgName>INALCO</orgName> et
-					l’<orgName>ADAC</orgName> (<orgName>atelier ALAMO</orgName>), ainsi que du faible coût de
-				l’utilisation, en boutique, d’une imprimante laser, aucun achat n'est envisagé dans
-				l'immédiat.</p>
-         <p>Une <name type="event">lecture Oulipienne</name> aura lieu à la médiathèque de
-					Ramonville, le 28 Avril 88 à 18h.
-					(<persName>H</persName> + <persName>M</persName>) <persName>M</persName> sont
-				désignés. <persName ref="#NA">NA</persName> leur tiendra la main et veillera à ce qu'aucun
-				débordement ne s'ensuive.</p>
-         <p>
-            <persName>Marie Jouannic</persName>, notre avignonnaise égérie est accueillie avec
-				émotion. Elle nous cause du festival, et, en particulier d’une lecture ininterrompue
-				pendant trois semaines (du 9 au 29 Juillet)<pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f3.highres"/> pendant
-				lesquelles nous devons assurer les relais. Il est convenu que ceux d'entre nous
-				possédant la double appartenance liront pendant que se tiendra le stage <name type="manif">ALAMO</name> (du 11 au 16). <persName ref="#MB">MB</persName> gardera un
-				étroit contact avec <persName>Marie</persName> afin qu’elle puisse définir un
-				programme provisoire avant le 29 Janvier, puis définitif avant le
-					4 Mars.</p>
-         <p>
-				        <label type="rubrique">5. Menu propos</label>
-			      </p>
-         <p>Ils ne seront pas rapportés ici, pour d'évidentes raisons de sécurité.</p>
-         <p>
-				        <label type="rubrique">6. Prochaine réunion</label>
-			      </p>
-         <p>Elle aura lieu le vendredi 19 Février, 18 heures 30, à
-					Lancry et pour <persName ref="#JJ">Jouet</persName>.</p>
-      </body>
-	  </text>
+<TEI xml:id="T10010312-1988-01-CR" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010312 pp. 1 à 3 (CR) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010312-1988-01-CR</idno> <meeting xml:id="T10010312-1988-01">
+          <date when="1988-01-08">08/01/1988</date>
+          <placeName>chez Harry Mathews</placeName>
+          <list type="present">
+            <item><persName ref="#JJ">JJ</persName></item>
+            <item><persName ref="#PB">PB</persName></item>
+            <item><persName ref="#NA">NA</persName></item>
+            <item><persName ref="#MB">MB</persName></item>
+            <item><persName ref="#FC">FC</persName></item>
+            <item><persName ref="#PF">PF</persName></item>
+            <item><persName ref="#HM">HM</persName></item>
+            <item><persName ref="#MM">MM</persName></item>
+            <item><persName ref="#JR">JR</persName></item>
+          </list>
+          </meeting> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-02">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="CR">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f1.highres" n="1"/>
+      <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
+      <p>Séance du 8 Janvier 1988</p>
+      <p><label type="rubrique">1. Assiduité</label></p>
+      <p><persName ref="#JJ">Jacques Jouet</persName> (président), <persName ref="#PB">Paul Braffort</persName> (secrétaire), <persName ref="#NA">Noël Arnaud</persName>, <persName ref="#MB">Marcel Bénabou</persName>, <persName ref="#FC">François Caradec</persName>, <persName ref="#PF">Paul Fournel</persName>l, <persName ref="#HM">Harry Mathews</persName> (hôte), <persName ref="#MM">Michèle Métail</persName> et <persName ref="#JR">Jacques Roubaud</persName> sont présents.</p>
+      <p><persName ref="#JB">Jacques Bens</persName>, <persName ref="#CB">Claude Berge</persName>, <persName ref="#JD">Jacques Duchâteau</persName> et <persName>Pierre Rosenstiehl</persName> sont excusés.</p>
+      <p>Nous recevons une invitée d’honneur, <persName>Lennie Goodman</persName>. Cette amie de longue date est présentée par notre hôte. Dans sa réponse, elle exprime tout l’amour qu'elle nous porte et qui, grâce à elle, se propage comme une épidémie au delà de l’océan.</p>
+      <p><label type="rubrique">2. Créations</label></p>
+      <p><persName ref="#JR">JR</persName> propose une généralisation de la contrainte "<term>beau présent/belle absente</term>”. On part, ici aussi d’un (ou de plusieurs) mot(s) : prénom ou nom de personne, etc... A chaque lettre du mot à encoder, on associe un fragment de texte (un vers, une phrase, un paragraphe.) où la fréquence de la lettre est supérieure, de façon significative à sa fréquence "naturelle" en français, c'est ainsi que, pour la lettre "S", on songe à "Pour qui sont ces serpents, etc...”. On porrait imaginer alors que la fréquence des occurences de chaque lettre du mot ou texte à encoder soit calculée non pas phrase par phrase, mais globalement. <persName ref="#JR">JR</persName> observe alors que sa méthode peut présenter des difficultés lorsqu’une même lettre apparait plusieurs fois dans le texte à encoder. Il propose, dans ce cas, d’introduire un <term>coefficient de pondération</term> qui pourra être le nombre de <persName>Fibonacci</persName> correspondant à l'ordre de la lettre en question dans le texte source.</p>
+      <p>Une large discussion s'ouvre alors, au cours de laquelle <persName ref="#PF">PF</persName> propose une <term>contrainte réciproque</term>, en un sens, de la précédente : écrire un texte qui respecte absolument la fréquence naturelle du français. Certains oulipiens insistent pour qu’on leur fournisse des exemples. On leur fait observer que le Président-Fondateur n’en aurait eu cure!</p>
+      <p><persName ref="#JR">JR</persName> propose une variation de la contrainte "<term>canada dry</term>" : ce serait une contrainte qui aurait l'air d'être "<term>canada dry</term>" qui, en fait respecterait rigoureusement la contrainte qu'elle feint de feindre (la bouteille de canada dry contient du whisky).</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f2.highres" n="2"/>
+      <p><persName ref="#MB">MB</persName> présente un double hommage (à <persName ref="#JJ">JJ</persName> pour son "éclipse" et à <persName>PB</persName> pour sa <term>Sully-Prud'hommerie</term>) : il montre comment le premier lauréat du Prix Nobel de Littérature a été conduit, partant d’un texte plus qu'équivoque, à écrire cet immortel chef d’oeuvre :"<title>Le vase brisé</title>".</p>
+      <p><persName ref="#PB">PB</persName> distribue des copies de "<title>Mes hyperbibliothèques</title>" en vue d'ultérieures suggestions.</p>
+      <p><persName ref="#JJ">JJ</persName> conclut en beauté cette première partie de la séance en nous présentant un couple poétique "quinine/sonnet" qui lui vaut d’unanimes et chaleureuses félicitations.</p>
+      <p><label type="rubrique">3. Erudition</label></p>
+      <p><persName ref="#HM">HM</persName> évoque l’œuvre théâtrale de <persName>Harvey Peer</persName> : dans une de ses pièces, les personnages, au cours de l’action sortent, passent dans une pièce voisine et reviennent. La scène suivante nous montre ce qui se passe pendant ce temps-là dans cette seconde pièce.</p>
+      <p><persName ref="#HM">HM</persName> a découvert un texte de <persName>Hugo von Hoffmanstahl</persName> qui offre une merveilleuse présentation de l'esprit oulipien, et, en particulier de l'usage des contraintes.</p>
+      <p><persName ref="#MB">MB</persName> évoque la recherche (engagée par <persName>Etiemble</persName>, semble-t-il), de <term>couples "antonyme/homophone"</term>. On cherche des exemples, mais seul le mot "défendre" nous vient à l'esprit, ce qui n’est pas très convaincant.</p>
+      <p><persName ref="#FC">FC</persName> fait allusion au romancier fin de siècle bien connu <persName>Paul Adam</persName> qui aurait construit son intrigue à l'aide de tirages de cartes à jouer préalablement associés aux divers personnages.</p>
+      <p><persName ref="#MB">MB</persName> présente le <term>plagiat par anticipation</term> absolu : celui de la notion même de plagiat par anticipation! Il s’agit de <persName>Piron</persName> : "Leurs écrits sont des vols qu’ils nous ont fait d’avance."</p>
+      <p><label type="rubrique">4. Action</label></p>
+      <p>A propos des formes nouvelles qui sont envisagées pour la "<title>Bibliothèque oulipienne</title>", <persName ref="#PF">PF</persName> indique l’installation, dans les locaux des <orgName>Editions Ramsay</orgName>, de trois équipements Mac Intosh dont un sera à la disposition des oulipiens. On évoque la possibilité de consacrer des fonds oulipiens à l’achat de matériel (telle une imprimante laser). Compte tenu des possibilités offertes par <orgName>Ramsay</orgName>, l’<orgName>INALCO</orgName> et l’<orgName>ADAC</orgName> (<orgName>atelier ALAMO</orgName>), ainsi que du faible coût de l’utilisation, en boutique, d’une imprimante laser, aucun achat n'est envisagé dans l'immédiat.</p>
+      <p>Une <name type="event">lecture Oulipienne</name> aura lieu à la médiathèque de Ramonville, le 28 Avril 88 à 18h. (<persName>H</persName> + <persName>M</persName>) <persName>M</persName> sont désignés. <persName ref="#NA">NA</persName> leur tiendra la main et veillera à ce qu'aucun débordement ne s'ensuive.</p>
+      <p><persName>Marie Jouannic</persName>, notre avignonnaise égérie est accueillie avec émotion. Elle nous cause du festival, et, en particulier d’une lecture ininterrompue pendant trois semaines (du 9 au 29 Juillet)<pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f3.highres" n="3"/> pendant lesquelles nous devons assurer les relais. Il est convenu que ceux d'entre nous possédant la double appartenance liront pendant que se tiendra le stage <name type="manif">ALAMO</name> (du 11 au 16). <persName ref="#MB">MB</persName> gardera un étroit contact avec <persName>Marie</persName> afin qu’elle puisse définir un programme provisoire avant le 29 Janvier, puis définitif avant le 4 Mars.</p>
+      <p><label type="rubrique">5. Menu propos</label></p>
+      <p>Ils ne seront pas rapportés ici, pour d'évidentes raisons de sécurité.</p>
+      <p><label type="rubrique">6. Prochaine réunion</label></p>
+      <p>Elle aura lieu le vendredi 19 Février, 18 heures 30, à Lancry et pour <persName ref="#JJ">Jouet</persName>.</p>
+    </body>
+  </text>
 </TEI>

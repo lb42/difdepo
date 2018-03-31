@@ -1,97 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010132-1971-11-OJ">
+<TEI xml:id="T10010132-1971-11-OJ" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010132 pp. 3 à 3 (OJ) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010132-1971-11-OJ</idno>
-               <title>Ordre de jour de <ref target="#T10010132-1971-11">la réunion Oulipo</ref> de <date when="1971-11-25">25/11/1971</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:23:16Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010132 pp. 3 à 3 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010132-1971-11-OJ</idno> <title>Ordre de jour de <ref target="#T10010132-1971-11">la réunion Oulipo</ref> de <date when="1971-11-25">25/11/1971</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:23:16Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="OJ">
-      <body>
-         <pb n="3" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f3.highres"/>
-         <p rend="incipit">           Ordre du jour 25/11/71</p>
-         <list type="unordered">
-            <item>
-               <persName ref="#JB">JB</persName>
-            </item>
-         </list>
-         <p>entré (<persName ref="#FLL">FLL</persName>)</p>
-         <list type="unordered">
-            <item>
-               <persName ref="#PF">Fournel</persName> 
-               <orgName>Cape</orgName>
-            </item>
-            <item>
-               <persName ref="#FLL">FLL</persName> : idem</item>
-         </list>
-         <p>viabilité des <term>structures artificielles</term> (<persName ref="#FLL">FLL</persName>) (a/s L/ <persName>Et.</persName>)</p>
-         <p>
-            <term>esquimau</term>
-         </p>
-         <p>
-            <term>brain-storming</term>
-         </p>
-         <p>
-            <persName>RQ</persName> 
-            <persName>Prassinos</persName>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName>Arthur D. Little</persName> et la route 128 (<persName ref="#FLL">FLL</persName>)</item>
-            <item>Commande <orgName>Radio Cologne</orgName> (<persName>FLL</persName>, <persName>PF</persName>)</item>
-            <item>Projet <term>roman policier</term> 
-               <persName ref="#FLL">FLL</persName> et <persName>Lebrun</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Menus Propos</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="#JQ">Queval</persName> 1 (<term>alphabet parlant</term>)</item>
-            <item>
-               <persName ref="#JQ">Queval</persName> 2</item>
-            <item>
-               <persName ref="#PF">Fournel</persName> (Dossier de séance)</item>
-            <item>
-               <persName ref="#PF">Fournel</persName> (<term>espéranto</term>)</item>
-            <item>Dominion vous fait ménager par ses prix coupés à plein (<persName ref="#FLL">FLL</persName>)</item>
-         </list>
-         <list type="unordered">
-            <item>prochaine séance (photo de groupe) vendredi 17.</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f3.highres" n="3"/>
+      <p rend="incipit">Ordre du jour 25/11/71</p>
+      <list type="unordered">
+        <item><persName ref="#JB">JB</persName></item>
+      </list>
+      <p>entré (<persName ref="#FLL">FLL</persName>)</p>
+      <list type="unordered">
+        <item><persName ref="#PF">Fournel</persName> <orgName>Cape</orgName></item>
+        <item><persName ref="#FLL">FLL</persName> : idem</item>
+      </list>
+      <p>viabilité des <term>structures artificielles</term> (<persName ref="#FLL">FLL</persName>) (a/s L/ <persName>Et.</persName>)</p>
+      <p><term>esquimau</term></p>
+      <p><term>brain-storming</term></p>
+      <p><persName>RQ</persName> <persName>Prassinos</persName></p>
+      <list type="unordered">
+        <item><persName>Arthur D. Little</persName> et la route 128 (<persName ref="#FLL">FLL</persName>)</item>
+        <item>Commande <orgName>Radio Cologne</orgName> (<persName>FLL</persName>, <persName>PF</persName>)</item>
+        <item>Projet <term>roman policier</term> <persName ref="#FLL">FLL</persName> et <persName>Lebrun</persName></item>
+      </list>
+      <p><label type="rubrique">Menus Propos</label></p>
+      <list type="unordered">
+        <item><persName ref="#JQ">Queval</persName> 1 (<term>alphabet parlant</term>)</item>
+        <item><persName ref="#JQ">Queval</persName> 2</item>
+        <item><persName ref="#PF">Fournel</persName> (Dossier de séance)</item>
+        <item><persName ref="#PF">Fournel</persName> (<term>espéranto</term>)</item>
+        <item>Dominion vous fait ménager par ses prix coupés à plein (<persName ref="#FLL">FLL</persName>)</item>
+      </list>
+      <list type="unordered">
+        <item>prochaine séance (photo de groupe) vendredi 17.</item>
+      </list>
+    </body>
   </text>
 </TEI>

@@ -1,63 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010298-1986-10-OJ">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010298 pp. 5 à 5 (OJ) : version TEI</title>
-				        
-			         
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010298-1986-10-OJ</idno>
-					          <title>Ordre de jour de <ref target="#T10010298-1986-10">la réunion							Oulipo</ref> du <date when="1986-10-18">18/10/1986</date> 
-               </title> 
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2017-09-01">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="OJ">
-		    <body>
-         <pb n="5" facs="http://gallica.bnf.fr/ark:/12148/btv1b100102981/f5.highres"/>
-         <p rend="incipit">&gt;OULIPO du 18/10/86</p>
-         <p>
-				        <label type="rubrique">Création</label>
-			      </p>
-         <list type="unordered">
-				        <item>
-               <term>Palindrome québécois</term> et exercices divers</item>
-			      </list>
-         <p>
-				        <label type="rubrique">Action</label>
-			      </p>
-         <list type="unordered">
-				        <item>
-               <name type="event">Stage Port Cros</name>
-            </item>
-				        <item>Subventions C de L</item>
-				        <item>Le point sur le <title>Guide</title>
-            </item>
-			      </list>
-      </body>
-	  </text>
+<TEI xml:id="T10010298-1986-10-OJ" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010298 pp. 5 à 5 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010298-1986-10-OJ</idno> <title>Ordre de jour de <ref target="#T10010298-1986-10">la réunion Oulipo</ref> du <date when="1986-10-18">18/10/1986</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-01">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="OJ">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102981/f5.highres" n="5"/>
+      <p rend="incipit">&gt;OULIPO du 18/10/86</p>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><term>Palindrome québécois</term> et exercices divers</item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item><name type="event">Stage Port Cros</name></item>
+        <item>Subventions C de L</item>
+        <item>Le point sur le <title>Guide</title></item>
+      </list>
+    </body>
+  </text>
 </TEI>

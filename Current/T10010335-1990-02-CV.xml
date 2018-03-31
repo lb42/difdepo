@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010335-1990-02-CV">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010335 pp. 1 à 1 (CV) : version TEI</title>
-				        
-				        
-			         
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Hélène Guitton</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010335-1990-02-CV</idno>
-					          <title>Convocation à <ref target="#T10010335-1990-02">une réunion Oulipo</ref>,						envoyée le <date when="1990-02-01">01/02/1990</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2016-11-08">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="CV">
-		    <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010335k/f1.highres"/>
-         <p rend="incipit">Oulipo</p>
-         <p rend="incipit">Paris, le 1er février 1990</p>
-         <p>Chers oulipiens,</p>
-         <p>La prochaine réunion de l’Ouvroir aura lieu le lundi 19 février 1990 à 19 heures chez <persName ref="#JJ">Jacques Jouet</persName> (12 rue de Lancry-75010 Paris, tél. 42 41 20 07).</p>
-         <p>
-            <persName>Despatin</persName> &amp; <persName>Gobeli</persName> seront présents, à 19 heures, pour une séance photos.</p>
-         <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="#JJ">Jacques Jouet</persName>.</p>
-         <p>Au 19, amitiés.</p>
-         <p>Paul</p>
-      </body>
-	  </text>
+<TEI xml:id="T10010335-1990-02-CV" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010335 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Hélène Guitton</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010335-1990-02-CV</idno> <title>Convocation à <ref target="#T10010335-1990-02">une réunion Oulipo</ref>, envoyée le <date when="1990-02-01">01/02/1990</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-11-08">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="CV">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010335k/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo</p>
+      <p rend="incipit">Paris, le 1er février 1990</p>
+      <p>Chers oulipiens,</p>
+      <p>La prochaine réunion de l’Ouvroir aura lieu le lundi 19 février 1990 à 19 heures chez <persName ref="#JJ">Jacques Jouet</persName> (12 rue de Lancry-75010 Paris, tél. 42 41 20 07).</p>
+      <p><persName>Despatin</persName> &amp; <persName>Gobeli</persName> seront présents, à 19 heures, pour une séance photos.</p>
+      <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="#JJ">Jacques Jouet</persName>.</p>
+      <p>Au 19, amitiés.</p>
+      <p>Paul</p>
+    </body>
+  </text>
 </TEI>

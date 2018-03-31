@@ -1,102 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010300-1986-12-OJ">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010300 pp. 6 à 6 (OJ) : version TEI</title>
-				        
-			         
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010300-1986-12-OJ</idno>
-				          <title>Ordre de jour de <ref target="#T10010300-1986-12">la réunion Oulipo</ref> du <date when="1986-12-19">19/12/1986</date> 
-               </title> 
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2017-08-29">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="OJ">
-		    <body>
-         <pb n="6" facs="http://gallica.bnf.fr/ark:/12148/btv1b100103003/f6.highres"/>
-         <p rend="incipit">
-            <date>19 XII 86</date>OULIPO </p>
-         <p rend="incipit">Ordre du jour</p>
-         <p>
-            <persName ref="#PF">PF</persName>, <persName ref="#JR">JR</persName>, <persName ref="#MM">MM</persName>, <persName ref="#PB">PB</persName>, <persName ref="#FC">FC</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#MB">MB</persName>.</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-				        <item>
-               <persName ref="#JJ">JJ</persName> 
-               <unclear>Politesse mortuaire</unclear>
-            </item>
-				        <item>
-               <persName ref="#MM">MM</persName> Déménagement</item>
-			      </list>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <list type="unordered">
-				        <item>
-               <persName ref="#MB">MB</persName> Colporteurs d'image</item>
-				        <item>
-               <persName ref="#PF">PF</persName> 
-               <persName>Mme Marquet</persName>
-            </item>
-				        <item>
-               <persName ref="#MB">MB</persName> Machine à faire slogans</item>
-				        <item>
-               <persName ref="#MB">MB</persName> Guide de l'espression écrite</item>
-				        <item>
-               <persName ref="#PB">PB</persName> S<unclear>uissesse</unclear>
-            </item>
-			      </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-				        <item>
-               <persName ref="#JJ">JJ</persName> Maison des Ecrivains</item>
-				        <item>
-               <persName ref="#PF">PF</persName> Quelques Oulipens et la presse</item>
-				        <item>
-               <persName ref="#PB">PB</persName> Le Havre
-					<lb/>Saint-Etienne</item>
-			      </list>
-         <list type="unordered">
-				        <item>
-               <persName ref="#PF">PF</persName> 
-               <persName>Chichina</persName>
-            </item>
-				        <item>
-               <persName ref="#MM">MM</persName> Valère Novarina</item>
-				        <item>
-               <persName ref="#MB">MB</persName> Stage Port Cros</item>
-				        <item>Ne pas oublier de prendre un tiré à part</item>
-			      </list>
-         <p>Prochaine réunion le 29/1/87</p>
-      </body>
-	  </text>
+<TEI xml:id="T10010300-1986-12-OJ" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010300 pp. 6 à 6 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010300-1986-12-OJ</idno> <title>Ordre de jour de <ref target="#T10010300-1986-12">la réunion Oulipo</ref> du <date when="1986-12-19">19/12/1986</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-08-29">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="OJ">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103003/f6.highres" n="6"/>
+      <p rend="incipit"><date>19 XII 86</date>OULIPO</p>
+      <p rend="incipit">Ordre du jour</p>
+      <p><persName ref="#PF">PF</persName>, <persName ref="#JR">JR</persName>, <persName ref="#MM">MM</persName>, <persName ref="#PB">PB</persName>, <persName ref="#FC">FC</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#MB">MB</persName>.</p>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><persName ref="#JJ">JJ</persName> <unclear>Politesse mortuaire</unclear></item>
+        <item><persName ref="#MM">MM</persName> Déménagement</item>
+      </list>
+      <p><label type="rubrique">Erudition</label></p>
+      <list type="unordered">
+        <item><persName ref="#MB">MB</persName> Colporteurs d'image</item>
+        <item><persName ref="#PF">PF</persName> <persName>Mme Marquet</persName></item>
+        <item><persName ref="#MB">MB</persName> Machine à faire slogans</item>
+        <item><persName ref="#MB">MB</persName> Guide de l'espression écrite</item>
+        <item><persName ref="#PB">PB</persName> S<unclear>uissesse</unclear></item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item><persName ref="#JJ">JJ</persName> Maison des Ecrivains</item>
+        <item><persName ref="#PF">PF</persName> Quelques Oulipens et la presse</item>
+        <item><persName ref="#PB">PB</persName> Le Havre <lb/>Saint-Etienne</item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="#PF">PF</persName> <persName>Chichina</persName></item>
+        <item><persName ref="#MM">MM</persName> Valère Novarina</item>
+        <item><persName ref="#MB">MB</persName> Stage Port Cros</item>
+        <item>Ne pas oublier de prendre un tiré à part</item>
+      </list>
+      <p>Prochaine réunion le 29/1/87</p>
+    </body>
+  </text>
 </TEI>

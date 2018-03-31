@@ -1,85 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010310-1987-12-CR">
+<TEI xml:id="T10010310-1987-12-CR" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010310 pp. 1 à 1 (CR) : version TEI</title>
-            
-            
-
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010310-1987-12-CR</idno>
-               <meeting xml:id="T10010310-1987-12">
-                  <date when="1987-12-19">19/12/1987</date>
-                  <placeName>chez FC</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="#IM">IM</persName>
-                     </item>
-                     <item>
-                        <persName ref="#JR">JR</persName>
-                     </item>
-                     <item>
-                        <persName ref="#FC">FC</persName>
-                     </item>
-                     <item>
-                        <persName ref="#CB">CB</persName>
-                     </item>
-                     <item>
-                        <persName ref="#MB">MB</persName>
-                     </item>
-                     <item>
-                        <persName ref="#JJ">JJ</persName>
-                     </item>
-                     <item>
-                        <persName ref="#PB">PB</persName>
-                     </item>
-                  </list>
-               </meeting>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        
-            <change when="2016-08-04T12:43:49Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010310 pp. 1 à 1 (CR) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010310-1987-12-CR</idno> <meeting xml:id="T10010310-1987-12">
+          <date when="1987-12-19">19/12/1987</date>
+          <placeName>chez FC</placeName>
+          <list type="present">
+            <item><persName ref="#IM">IM</persName></item>
+            <item><persName ref="#JR">JR</persName></item>
+            <item><persName ref="#FC">FC</persName></item>
+            <item><persName ref="#CB">CB</persName></item>
+            <item><persName ref="#MB">MB</persName></item>
+            <item><persName ref="#JJ">JJ</persName></item>
+            <item><persName ref="#PB">PB</persName></item>
+          </list>
+          </meeting> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:43:49Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CR">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010310h/f1.highres"/>
-         <p rend="incipit">
-            <persName ref="#IM">IM</persName>, <persName ref="#JR">JR</persName>, <persName ref="#FC">FC</persName>,
-          <persName ref="#CB">CB</persName>, <persName ref="#MB">MB</persName>, <persName ref="#JJ">JJ</persName>,
-          <persName ref="#PB">PB</persName>
-         </p>
-         <p>Prochaine réunion</p>
-         <p>19 XII chez <persName ref="#FC">FC</persName> à midi !</p>
-         <p>
-            <unclear>xesse</unclear> générale</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010310h/f1.highres" n="1"/>
+      <p rend="incipit"><persName ref="#IM">IM</persName>, <persName ref="#JR">JR</persName>, <persName ref="#FC">FC</persName>, <persName ref="#CB">CB</persName>, <persName ref="#MB">MB</persName>, <persName ref="#JJ">JJ</persName>, <persName ref="#PB">PB</persName></p>
+      <p>Prochaine réunion</p>
+      <p>19 XII chez <persName ref="#FC">FC</persName> à midi !</p>
+      <p><unclear>xesse</unclear> générale</p>
+    </body>
   </text>
 </TEI>

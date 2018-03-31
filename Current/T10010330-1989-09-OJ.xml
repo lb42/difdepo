@@ -1,54 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010330-1989-09-OJ">
+<TEI xml:id="T10010330-1989-09-OJ" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010330 pp. 23 à 23 (OJ) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010330-1989-09-OJ</idno>
-               <title>Ordre de jour de <ref target="#T10010330-1989-09">la réunion Oulipo</ref> de <date when="1989-09-15">15/09/1989</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:39:42Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010330 pp. 23 à 23 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010330-1989-09-OJ</idno> <title>Ordre de jour de <ref target="#T10010330-1989-09">la réunion Oulipo</ref> de <date when="1989-09-15">15/09/1989</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:39:42Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="OJ">
-      <body>
-         <pb n="23"
-             facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f23.highres"/>
-         <list type="unordered">
-            <item>Invité d’honneur : adresse <persName>Klinkenberg</persName>
-            </item>
-            <item>réunion avec l’<orgName>Oupeinpo</orgName>
-            </item>
-            <item>prochaine réunion : penser à <persName ref="#PB">P.B.</persName> 23 10- 17 11.</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f23.highres" n="23"/>
+      <list type="unordered">
+        <item>Invité d’honneur : adresse <persName>Klinkenberg</persName></item>
+        <item>réunion avec l’<orgName>Oupeinpo</orgName></item>
+        <item>prochaine réunion : penser à <persName ref="#PB">P.B.</persName> 23 10- 17 11.</item>
+      </list>
+    </body>
   </text>
 </TEI>

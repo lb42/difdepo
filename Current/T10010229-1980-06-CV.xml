@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010229-1980-06-CV">
+<TEI xml:id="T10010229-1980-06-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010229 pp. 1 à 1 (CV) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Clara de Raigniac</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010229-1980-06-CV</idno>
-               <title>Convocation à <ref target="#T10010229-1980-06">une réunion Oulipo</ref>, envoyée le <date when="1980-06-06">06/06/1980</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:34:05Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010229 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Clara de Raigniac</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010229-1980-06-CV</idno> <title>Convocation à <ref target="#T10010229-1980-06">une réunion Oulipo</ref>, envoyée le <date when="1980-06-06">06/06/1980</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:34:05Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010229k/f1.highres"/>
-         <p rend="incipit">Oulipo le 6 juin 80</p>
-         <p>Chers oulipiens,</p>
-         <p>la prochaine réunion de l'ouvroir aura lieu le vendredi 20 juin 80 à 11h30 chez <persName ref="#PF">Paul Fournel</persName>, 48 rue de l'abbé Groult 75015 Paris (531.77.65 bureau 539.61.14). Il sera question du <title>volume 2</title> qui est en lecture, des volumes 13 et 14 de la <title>Bibliothèque oulipienne</title> qui sont sous presse et de la Chartreuse de Villeneuve lès Avignon.</p>
-         <p>Soyez gentils de prévenir.</p>
-         <p>Merci d'avance. Au 20,</p>
-         <p>
-            <persName ref="#PF">Paul Fournel</persName> un secrétaire</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010229k/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo le 6 juin 80</p>
+      <p>Chers oulipiens,</p>
+      <p>la prochaine réunion de l'ouvroir aura lieu le vendredi 20 juin 80 à 11h30 chez <persName ref="#PF">Paul Fournel</persName>, 48 rue de l'abbé Groult 75015 Paris (531.77.65 bureau 539.61.14). Il sera question du <title>volume 2</title> qui est en lecture, des volumes 13 et 14 de la <title>Bibliothèque oulipienne</title> qui sont sous presse et de la Chartreuse de Villeneuve lès Avignon.</p>
+      <p>Soyez gentils de prévenir.</p>
+      <p>Merci d'avance. Au 20,</p>
+      <p><persName ref="#PF">Paul Fournel</persName> un secrétaire</p>
+    </body>
   </text>
 </TEI>

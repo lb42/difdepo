@@ -1,71 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010214-1979-03-OJ">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010214 pp. 1 à 1 (OJ) : version TEI</title>
-            
-            
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Hélène Campaignolle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010214-1979-03-OJ</idno>
-              <title>Ordre de jour de <ref target="#T10010214-1979-03">la réunion Oulipo</ref> du <date when="1979-03-04">04/03/1979</date> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-23" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:32:47Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text type="OJ">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010214x/f1.highres"/>
-         <p rend="incipit">14/3/79 ordre du jour</p>
-         <p rend="incipit">Présents : <persName ref="#GP">Georges Perec</persName>. <persName ref="#PF">PF</persName>. <persName ref="#LE">LE</persName>. <persName ref="#CB">CB</persName>. <persName ref="#JQ">JQ</persName>. <persName ref="#JD">JD</persName>. <persName ref="#JR">JR</persName>. <persName ref="#NA">NA</persName>. <persName ref="#MB">MB</persName>. <persName ref="#PB">PB</persName>. </p>
-         <p rend="incipit">Excusés : <persName ref="#FLL">FLL</persName>. <persName ref="#CB">CB</persName>. <persName ref="#HM">HM</persName>. <persName>BL</persName>. <persName ref="#JB">JB</persName>. </p>
-         <p rend="incipit">Absents : les autres</p>
-         <list type="ordered">
-            <item>Création. <persName ref="#JD">JD</persName>. <term>Chronologie</term>. <persName ref="#PB">PB</persName>. <term>Cryptobole</term>
-            </item>
-            <item>
-               <persName ref="#PF">PF</persName>. Au secours. Phynances. Photo Oulipo. <persName ref="#MB">MB</persName>. <persName ref="#PB">PB</persName>. </item>
-            <item>
-               <title>Bibliothèque oulipienne</title>. <persName ref="#PF">PF</persName>. Manuscrits. </item>
-            <item>
-               <title>Vol. II</title>. <persName ref="#JQ">JQ</persName>. <persName ref="#PF">PF</persName>. </item>
-            <item>Sous-commission théâtre. <persName ref="#PF">PF</persName>. 
-               <note xml:id="ftn1" n="1" resp="editor">Le numéro 5, écrit sous le numéro 8, a été remis à sa place dans la liste.</note>
-               
-            </item>
-            <item>Erudition. <persName ref="#NA">NA</persName>. <persName ref="#CB">CB</persName>.
-                  <persName ref="#JD">JD</persName> (<persName ref="#RQ">Queneau</persName>).
-                  <persName ref="#PB">PB</persName>. <persName ref="#PB">PB</persName>. </item>
-            <item>Menus propos. <persName ref="#GP">GP</persName>. <persName ref="#MB">MB</persName>. <persName ref="#PF">PF</persName>. </item>
-            <item>Invités. <persName ref="#GP">GP</persName>. <persName ref="#CB">CB</persName>. <persName ref="#LE">LE</persName>. </item>
-            <item>Nouvelle réunion. </item>
-         </list>
-      </body>
-   </text>
+<TEI xml:id="T10010214-1979-03-OJ" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010214 pp. 1 à 1 (OJ) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Hélène Campaignolle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010214-1979-03-OJ</idno> <title>Ordre de jour de <ref target="#T10010214-1979-03">la réunion Oulipo</ref> du <date when="1979-03-04">04/03/1979</date></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-23" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:32:47Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="OJ">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010214x/f1.highres" n="1"/>
+      <p rend="incipit">14/3/79 ordre du jour</p>
+      <p rend="incipit">Présents : <persName ref="#GP">Georges Perec</persName>. <persName ref="#PF">PF</persName>. <persName ref="#LE">LE</persName>. <persName ref="#CB">CB</persName>. <persName ref="#JQ">JQ</persName>. <persName ref="#JD">JD</persName>. <persName ref="#JR">JR</persName>. <persName ref="#NA">NA</persName>. <persName ref="#MB">MB</persName>. <persName ref="#PB">PB</persName>.</p>
+      <p rend="incipit">Excusés : <persName ref="#FLL">FLL</persName>. <persName ref="#CB">CB</persName>. <persName ref="#HM">HM</persName>. <persName>BL</persName>. <persName ref="#JB">JB</persName>.</p>
+      <p rend="incipit">Absents : les autres</p>
+      <list type="ordered">
+        <item>Création. <persName ref="#JD">JD</persName>. <term>Chronologie</term>. <persName ref="#PB">PB</persName>. <term>Cryptobole</term></item>
+        <item><persName ref="#PF">PF</persName>. Au secours. Phynances. Photo Oulipo. <persName ref="#MB">MB</persName>. <persName ref="#PB">PB</persName>.</item>
+        <item><title>Bibliothèque oulipienne</title>. <persName ref="#PF">PF</persName>. Manuscrits.</item>
+        <item><title>Vol. II</title>. <persName ref="#JQ">JQ</persName>. <persName ref="#PF">PF</persName>.</item>
+        <item>Sous-commission théâtre. <persName ref="#PF">PF</persName>. <note n="1" resp="editor" xml:id="ftn1">Le numéro 5, écrit sous le numéro 8, a été remis à sa place dans la liste.</note></item>
+        <item>Erudition. <persName ref="#NA">NA</persName>. <persName ref="#CB">CB</persName>. <persName ref="#JD">JD</persName> (<persName ref="#RQ">Queneau</persName>). <persName ref="#PB">PB</persName>. <persName ref="#PB">PB</persName>.</item>
+        <item>Menus propos. <persName ref="#GP">GP</persName>. <persName ref="#MB">MB</persName>. <persName ref="#PF">PF</persName>.</item>
+        <item>Invités. <persName ref="#GP">GP</persName>. <persName ref="#CB">CB</persName>. <persName ref="#LE">LE</persName>.</item>
+        <item>Nouvelle réunion.</item>
+      </list>
+    </body>
+  </text>
 </TEI>

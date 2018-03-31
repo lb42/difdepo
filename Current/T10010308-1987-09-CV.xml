@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010308-1987-09-CV">
+<TEI xml:id="T10010308-1987-09-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010308 pp. 1 à 1 (CV) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Natalie Berkman</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010308-1987-09-CV</idno>
-               <title>Convocation à <ref target="#T10010308-1987-09">une réunion Oulipo</ref>, envoyée le <date when="1987-09-11">11/09/1987</date> par <persName ref="#PF">PF</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:41:57Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010308 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Natalie Berkman</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010308-1987-09-CV</idno> <title>Convocation à <ref target="#T10010308-1987-09">une réunion Oulipo</ref>, envoyée le <date when="1987-09-11">11/09/1987</date> par <persName ref="#PF">PF</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:41:57Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010308p/f1.highres"/>
-         <p rend="incipit">OULIPO</p>
-         <p rend="incipit">le 11 sept 87</p>
-         <p>Chers oulipiens,</p>
-         <p>L'ouvroir est à l'honneur ce matin : la <title>Bibliothèque oulipienne</title> entre en librairie et <title>Libération</title> lui consacre 3 pages!</p>
-         <p>Nous devons donc songer à travailler et, pour ce faire, à nous réunir. Ce sera le 25 septembre (un vendredi) à 19H chez P et M <persName ref="#PF">FOURNEL</persName>, 48 rue de l'abbé groult 75015 (45.31.77.65).</p>
-         <p>Merci de prévenir.</p>
-         <p>Amitiés,</p>
-         <p>
-            <persName ref="#PF">paul</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010308p/f1.highres" n="1"/>
+      <p rend="incipit">OULIPO</p>
+      <p rend="incipit">le 11 sept 87</p>
+      <p>Chers oulipiens,</p>
+      <p>L'ouvroir est à l'honneur ce matin : la <title>Bibliothèque oulipienne</title> entre en librairie et <title>Libération</title> lui consacre 3 pages!</p>
+      <p>Nous devons donc songer à travailler et, pour ce faire, à nous réunir. Ce sera le 25 septembre (un vendredi) à 19H chez P et M <persName ref="#PF">FOURNEL</persName>, 48 rue de l'abbé groult 75015 (45.31.77.65).</p>
+      <p>Merci de prévenir.</p>
+      <p>Amitiés,</p>
+      <p><persName ref="#PF">paul</persName></p>
+    </body>
   </text>
 </TEI>

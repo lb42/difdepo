@@ -1,67 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010124-1971-03-CV">
-	  <teiHeader>
-		    <fileDesc>
-         <titleStmt>
-				        <title>Transcription du scan 10010124 pp. 2 à 2 (CV) : version TEI</title>
-				        
-				        
-			         
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-				        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-			      </publicationStmt>
-         <sourceDesc>
-				        <bibl>
-					          <idno>T10010124-1971-03-CV</idno>
-					          <title>Convocation à <ref target="#T10010124-1971-03">une réunion Oulipo</ref>,						envoyée le <date when="1971-03-22">22/03/1971</date> par <persName ref="#FLL">FLL</persName> 
-               </title> 
-				        </bibl>
-			      </sourceDesc>
-      </fileDesc>
-		    <revisionDesc>
-			      <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-				
-				        <change when="2016-11">Conversion docx-tei initiale  </change>
-			      </listChange>
-		    </revisionDesc>
-	  </teiHeader>
-	  <text type="CV">
-		    <body>
-         <pb n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010124z/f2.highres"/>
-         <p rend="incipit">François LE LIONNAIS
-				<lb/>23, route de la Reine
-				<lb/>92 – BOULOGNE SUR SEINE
-				<lb/>Téléphone : 605-90-13</p>
-         <p rend="incipit">OuLiPo</p>
-         <p rend="incipit">le 22 Mars 1971</p>
-         <p rend="incipit">
-            <del>M. <persName ref="#PB">Paul Braffort</persName>
-            </del>
-         </p>
-         <p>Chers Brigadiers,</p>
-         <p>Notre prochaine réunion se tiendra, comme convenu, chez moi le MARDI 6 AVRIL 1971 de 11 heures à 15 heures. Nous espérons avoir comme invité d’honneur <persName>Jean Tardieu</persName>.</p>
-         <p>À l’ordre du jour :</p>
-         <p>a) Compte-rendu de la <name type="manif">célébration Nanterrienne</name>
-         </p>
-         <p>b) Dossier ex-Cape</p>
-         <p>c) Liste des invités d’honneur (<persName ref="#RQ">R. Queneau</persName>)</p>
-         <p>d) Amplification par la méthode des injections successives (<persName ref="#LE">L. Etienne</persName>)</p>
-         <p>e) Poèmes pour ruban de <persName>Möbius</persName> (<persName ref="#LE">L. Etienne</persName>)</p>
-         <p>f) selon vos désirs.</p>
-         <p>Pour des raisons qu’il vous sera aisé de comprendre, je vous demande de préciser si vous comptez ou non venir au déjeuner.</p>
-         <p>OuLiPiennement vôtre.</p>
-      </body>
-	  </text>
-	</TEI>
+<TEI xml:id="T10010124-1971-03-CV" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010124 pp. 2 à 2 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010124-1971-03-CV</idno> <title>Convocation à <ref target="#T10010124-1971-03">une réunion Oulipo</ref>, envoyée le <date when="1971-03-22">22/03/1971</date> par <persName ref="#FLL">FLL</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-11">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text type="CV">
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010124z/f2.highres" n="2"/>
+      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>Téléphone : 605-90-13</p>
+      <p rend="incipit">OuLiPo</p>
+      <p rend="incipit">le 22 Mars 1971</p>
+      <p rend="incipit"><del>M. <persName ref="#PB">Paul Braffort</persName></del> </p>
+      <p>Chers Brigadiers,</p>
+      <p>Notre prochaine réunion se tiendra, comme convenu, chez moi le MARDI 6 AVRIL 1971 de 11 heures à 15 heures. Nous espérons avoir comme invité d’honneur <persName>Jean Tardieu</persName>.</p>
+      <p>À l’ordre du jour :</p>
+      <p>a) Compte-rendu de la <name type="manif">célébration Nanterrienne</name></p>
+      <p>b) Dossier ex-Cape</p>
+      <p>c) Liste des invités d’honneur (<persName ref="#RQ">R. Queneau</persName>)</p>
+      <p>d) Amplification par la méthode des injections successives (<persName ref="#LE">L. Etienne</persName>)</p>
+      <p>e) Poèmes pour ruban de <persName>Möbius</persName> (<persName ref="#LE">L. Etienne</persName>)</p>
+      <p>f) selon vos désirs.</p>
+      <p>Pour des raisons qu’il vous sera aisé de comprendre, je vous demande de préciser si vous comptez ou non venir au déjeuner.</p>
+      <p>OuLiPiennement vôtre.</p>
+    </body>
+  </text>
+</TEI>

@@ -1,61 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010238-1981-04-CV">
+<TEI xml:id="T10010238-1981-04-CV" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010238 pp. 1 à 1 (CV) : version TEI</title>
-            
-      
-            
-            <respStmt>
-               <resp>Transcription</resp>
-               <name>Matthieu Verrier</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name>Maria Clara</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>T10010238-1981-04-CV</idno>
-               <title>Convocation à <ref target="#T10010238-1981-04">une réunion Oulipo</ref>, envoyée le <date when="1981-04-17">17/04/1981</date> par <persName ref="#JB">JB</persName> 
-                  <persName ref="#GP">GP</persName> 
-                  <persName ref="#JR">JR</persName> 
-               </title> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:39:21Z">Conversion docx-tei initiale  </change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010238 pp. 1 à 1 (CV) : version TEI</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Matthieu Verrier</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name>Maria Clara</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>T10010238-1981-04-CV</idno> <title>Convocation à <ref target="#T10010238-1981-04">une réunion Oulipo</ref>, envoyée le <date when="1981-04-17">17/04/1981</date> par <persName ref="#JB">JB</persName> <persName ref="#GP">GP</persName> <persName ref="#JR">JR</persName></title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:39:21Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="CV">
-      <body>
-         <pb n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f1.highres"/>
-         <p rend="incipit">Vendredi 17 avril 1981</p>
-         <p>Chers brigadiers,</p>
-         <p>Cette convocation se présente sous une forme inhabituelle, à cause du misérable accident de bicyclette survenu à notre ami <persName ref="#PF">Paul Fournel</persName>, lequel n’avait pas suffisamment médité le chapitre XLI du <title>Vol d’Icare</title>.</p>
-         <p>La prochaine réunion de l’OuLiPo, se tiendra le vendredi 24 avril, à partir d’onze heures, chez <persName>Isabelle</persName> et <persName ref="#MB">Marcel Benabou</persName> (48 rue du capitaine Marchal, Paris-20).</p>
-         <p>Prière de téléphoner, au 361.40.39 et au plus tard la veille, pour retenir son couvert.</p>
-         <p>Amitiés à tous.</p>
-         <p>Par procuration :</p>
-         <p>
-            <persName ref="#JB">JB</persName> 
-            <persName ref="#GP">GP</persName> 
-            <persName ref="#JR">JR</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f1.highres" n="1"/>
+      <p rend="incipit">Vendredi 17 avril 1981</p>
+      <p>Chers brigadiers,</p>
+      <p>Cette convocation se présente sous une forme inhabituelle, à cause du misérable accident de bicyclette survenu à notre ami <persName ref="#PF">Paul Fournel</persName>, lequel n’avait pas suffisamment médité le chapitre XLI du <title>Vol d’Icare</title>.</p>
+      <p>La prochaine réunion de l’OuLiPo, se tiendra le vendredi 24 avril, à partir d’onze heures, chez <persName>Isabelle</persName> et <persName ref="#MB">Marcel Benabou</persName> (48 rue du capitaine Marchal, Paris-20).</p>
+      <p>Prière de téléphoner, au 361.40.39 et au plus tard la veille, pour retenir son couvert.</p>
+      <p>Amitiés à tous.</p>
+      <p>Par procuration :</p>
+      <p><persName ref="#JB">JB</persName> <persName ref="#GP">GP</persName> <persName ref="#JR">JR</persName></p>
+    </body>
   </text>
 </TEI>
