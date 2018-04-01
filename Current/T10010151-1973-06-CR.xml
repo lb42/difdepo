@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="T10010151-1973-06-CR" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T10010151-1973-06-CR">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,8 +20,8 @@
           <date when="1973-06-06">06/06/1973</date>
           <placeName>Chez FLL</placeName>
           <list type="present">
-            <item><persName>Stanislaw Ulam</persName></item>
-            <item><persName>Ernest Coumet</persName></item>
+            <item><persName ref="#stanislawulam">Stanislaw Ulam</persName></item>
+            <item><persName ref="#ernestcoumet">Ernest Coumet</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -44,70 +41,70 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f6.highres" n="6"/>
       <p rend="incipit">6 Juin 73</p>
-      <p rend="incipit">Invités : <persName>Ulam</persName> – <persName>Coumet</persName></p>
-      <p><persName><supplied>R</supplied>Q</persName>. Donne lecture d’une lettre de <persName ref="#LA">Latis</persName>.</p>
+      <p rend="incipit">Invités : <persName ref="#ulam">Ulam</persName> – <persName ref="#coumet">Coumet</persName></p>
+      <p><persName ref="#rq"><supplied>R</supplied>Q</persName>. Donne lecture d’une lettre de <persName ref="#la">Latis</persName>.</p>
       <p><label type="rubrique">ACTION</label></p>
       <list type="unordered">
-        <item>Création d’un Errata pour le volume <title>Idées</title> (un volume circulera chez tous les membres)</item>
+        <item>Création d’un Errata pour le volume <title ref="#idees">Idées</title> (un volume circulera chez tous les membres)</item>
       </list>
       <list type="unordered">
         <item>Signaler les articles parus (s’il y en a)</item>
       </list>
-      <p><persName ref="#GP">Perec</persName> signale une notule dans le <title>Nouvel Observateur</title> (on s’indigne du fait que selon le <title>Nouvel Observateur</title> le livre devrait être lu dans la semaine.)</p>
-      <p>Beaucoup se plaignent de ne pas avoir reçu leurs exemplaires d’<title>Idées</title> (1+4 par personne). <persName ref="#PB">Braffort</persName> surtout (les autres dont <persName ref="#JR">Roubaud</persName> n’étant pas très sûrs de l’endroit où ils vivent ni de celui où arrive leur courrier).</p>
+      <p><persName ref="#gp">Perec</persName> signale une notule dans le <title ref="#nouvelobservateur">Nouvel Observateur</title> (on s’indigne du fait que selon le <title ref="#nouvelobservateur">Nouvel Observateur</title> le livre devrait être lu dans la semaine.)</p>
+      <p>Beaucoup se plaignent de ne pas avoir reçu leurs exemplaires d’<title>Idées</title> (1+4 par personne). <persName ref="#pb">Braffort</persName> surtout (les autres dont <persName ref="#jr">Roubaud</persName> n’étant pas très sûrs de l’endroit où ils vivent ni de celui où arrive leur courrier).</p>
       <list type="unordered">
-        <item><persName ref="#PB">Braffort</persName> trouve la couverture remarquable (<persName ref="#RQ">Queneau</persName> aussi, ce qui est normal puisqu’il a beaucoup collaboré)</item>
+        <item><persName ref="#pb">Braffort</persName> trouve la couverture remarquable (<persName ref="#rq">Queneau</persName> aussi, ce qui est normal puisqu’il a beaucoup collaboré)</item>
       </list>
-      <p>Errata Jerimadeth page 35 (<persName ref="#GP">Perec</persName>)</p>
+      <p>Errata Jerimadeth page 35 (<persName ref="#gp">Perec</persName>)</p>
       <list type="unordered">
-        <item><persName ref="#RQ">Queneau</persName> aura une émission à la TV sarroise, il demande si les oulipiens seront d’accord pour faire les guignols devant la caméra.</item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="#GP">Perec</persName> annonce que <persName>Nadeau</persName> demandera à <persName>Paris (Jean)</persName> de faire un article dans <title>la Quinzaine</title> (numéro du 1er juillet).</item>
+        <item><persName ref="#rq">Queneau</persName> aura une émission à la TV sarroise, il demande si les oulipiens seront d’accord pour faire les guignols devant la caméra.</item>
       </list>
       <list type="unordered">
-        <item><persName>Sipriot</persName> qui a une émission à la radio vous propose de faire une table ronde à la radio (sur l’Oulipo en général)</item>
+        <item><persName ref="#gp">Perec</persName> annonce que <persName ref="#nadeau">Nadeau</persName> demandera à <persName ref="#parisjean">Paris (Jean)</persName> de faire un article dans <title ref="#laquinzaine">la Quinzaine</title> (numéro du 1er juillet).</item>
       </list>
       <list type="unordered">
-        <item>Mais oui <persName ref="#GP">Perec</persName> nous sommes 11, même si <persName ref="#JL">Lescure</persName> arrive nous ne serons pas 13.</item>
+        <item><persName ref="#sipriot">Sipriot</persName> qui a une émission à la radio vous propose de faire une table ronde à la radio (sur l’Oulipo en général)</item>
       </list>
       <list type="unordered">
-        <item><persName ref="#FLL">FLL</persName>. <name type="manif">Columbia</name>. Le passage de l’Oulipo a été fort apprécié.</item>
+        <item>Mais oui <persName ref="#gp">Perec</persName> nous sommes 11, même si <persName ref="#jl">Lescure</persName> arrive nous ne serons pas 13.</item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="#fll">FLL</persName>. <name ref="#columbia">Columbia</name>. Le passage de l’Oulipo a été fort apprécié.</item>
       </list>
       <p>Il en reste des photos qui circulent.</p>
-      <p><persName ref="#RQ">Queneau</persName> : réunion intéressante. Une critique importante : style « <term>chansonnier</term> » de l’Oulipo (ceci annonce une création de <persName ref="#RQ">Queneau</persName>, <ref>voir + loin</ref>)</p>
-      <p><persName ref="#FLL">FLL</persName> intervient en soulignant le caractère « scientifique » de l’Oulipo. Bruits divers.</p>
+      <p><persName ref="#rq">Queneau</persName> : réunion intéressante. Une critique importante : style « <term ref="#chansonnier">chansonnier</term> » de l’Oulipo (ceci annonce une création de <persName ref="#rq">Queneau</persName>, <ref>voir + loin</ref>)</p>
+      <p><persName ref="#fll">FLL</persName> intervient en soulignant le caractère « scientifique » de l’Oulipo. Bruits divers.</p>
       <p><label type="rubrique">CREATION</label></p>
-      <p><persName ref="#RQ">Queneau</persName></p>
-      <p><term>S + 7</term> est une <term>translation</term>. Imaginons une <term>rotation</term>.</p>
+      <p><persName ref="#rq">Queneau</persName></p>
+      <p><term ref="#s7">S + 7</term> est une <term ref="#translation">translation</term>. Imaginons une <term ref="#rotation">rotation</term>.</p>
       <p>0 = A, 1 = B, 2 = C, 3 = D… Z = 25</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f7.highres" n="7"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f8.highres" n="8"/>
-      <p>Passage ensuite aux <term>translations sémantiques</term>.</p>
-      <p><persName>La Fontaine</persName> : - <title>cigale et la fourmi</title></p>
+      <p>Passage ensuite aux <term ref="#translationssemantiques">translations sémantiques</term>.</p>
+      <p><persName ref="#lafontaine">La Fontaine</persName> : - <title ref="#cigaleetlafourmi">cigale et la fourmi</title></p>
       <list type="unordered">
-        <item><title>corbeau et le renard</title></item>
+        <item><title ref="#corbeauetlerenard">corbeau et le renard</title></item>
       </list>
-      <p>(<term>Lecture galopante</term>)</p>
+      <p>(<term ref="#lecturegalopante">Lecture galopante</term>)</p>
       <p>Résultat très très remarquable.</p>
-      <p><persName><supplied>R</supplied>Q</persName> : Y a quand même un petit côté <term>chansonnier</term>.</p>
-      <p><persName ref="#FLL">FLL</persName>. Revient à son propos scientifique le <term>chansonnier</term> n’a pas sa place à l’Oulipo.</p>
-      <p><persName><supplied>R</supplied>Q</persName> : l’aspect <term>chansonnier</term> est dû au fait que nous utilisons des choses très connues (exemples les fables ci-dessus)</p>
+      <p><persName ref="#rq"><supplied>R</supplied>Q</persName> : Y a quand même un petit côté <term ref="#chansonnier">chansonnier</term>.</p>
+      <p><persName ref="#fll">FLL</persName>. Revient à son propos scientifique le <term ref="#chansonnier">chansonnier</term> n’a pas sa place à l’Oulipo.</p>
+      <p><persName ref="#rq"><supplied>R</supplied>Q</persName> : l’aspect <term ref="#chansonnier">chansonnier</term> est dû au fait que nous utilisons des choses très connues (exemples les fables ci-dessus)</p>
       <list type="unordered">
         <item>interruption jardin (pour laisser mettre la table).</item>
       </list>
       <list type="unordered">
-        <item><persName ref="#FLL">FLL</persName> <term>Brainstorming</term> : <ref>voir plus loin</ref></item>
+        <item><persName ref="#fll">FLL</persName> <term ref="#brainstorming">Brainstorming</term> : <ref>voir plus loin</ref></item>
       </list>
       <list type="unordered">
-        <item><persName ref="#MB">Bénabou</persName> Phynances. <name type="manif">Columbia</name> = 1300 NF (en billets de 100 Francs). <orgName>Gallimard</orgName> : 2890,66 Francs. Solde de l’avance.</item>
+        <item><persName ref="#mb">Bénabou</persName> Phynances. <name ref="#columbia">Columbia</name> = 1300 NF (en billets de 100 Francs). <orgName ref="#gallimard">Gallimard</orgName> : 2890,66 Francs. Solde de l’avance.</item>
       </list>
       <p>Qu’en faire ?</p>
-      <p>(une astuce de <persName ref="#GP">Perec</persName> qu’il vaut mieux passer sous silence pour son standing)</p>
+      <p>(une astuce de <persName ref="#gp">Perec</persName> qu’il vaut mieux passer sous silence pour son standing)</p>
       <list type="unordered">
         <item>Quelques photos</item>
-        <item>Sur <term>Brainstorming</term> 1000 à 2000 Francs.</item>
-        <item>Gros monologue <persName ref="#FLL">FLL</persName> sujets : 1) Nouvelles <term>structures</term></item>
+        <item>Sur <term ref="#brainstorming">Brainstorming</term> 1000 à 2000 Francs.</item>
+        <item>Gros monologue <persName ref="#fll">FLL</persName> sujets : 1) Nouvelles <term ref="#structures">structures</term></item>
       </list>
       <p>2) Auto-critique de l’Oulipo.</p>
       <list type="unordered">
@@ -117,71 +114,71 @@
       <list type="unordered">
         <item>Idées d’un week-end.</item>
         <item>Décade à Cerisy en 1975</item>
-        <item><term>Oulipo-sexe</term> (<persName ref="#LE">Luc Etienne</persName>)</item>
+        <item><term ref="#ouliposee">Oulipo-sexe</term> (<persName ref="#le">Luc Etienne</persName>)</item>
       </list>
       <list type="unordered">
-        <item><term>ATALA</term> (<term>Traduction automatique et linguistique appliquée</term>)</item>
+        <item><term ref="#atala">ATALA</term> (<term ref="#traductionautomatiqueetlinguistiqueappliquee">Traduction automatique et linguistique appliquée</term>)</item>
       </list>
-      <p>Conférence de <persName ref="#FLL">FLL</persName> 8 Décembre 1973. L’Oulipo et la linguistique</p>
-      <p><persName ref="#GP">Perec</persName> : ou lin po (linguistique)</p>
+      <p>Conférence de <persName ref="#fll">FLL</persName> 8 Décembre 1973. L’Oulipo et la linguistique</p>
+      <p><persName ref="#gp">Perec</persName> : ou lin po (linguistique)</p>
       <p>« Tout ce que voudriez savoir sur l’Oulipo et que vous n’avez jamais osé demander »</p>
       <list type="unordered">
-        <item><persName ref="#PF">Fournel</persName> <term>Arbre</term> en anglais pour enfants</item>
+        <item><persName ref="#pf">Fournel</persName> <term ref="#arbre">Arbre</term> en anglais pour enfants</item>
       </list>
-      <p>Quelle est l’origine de « <term>structure</term> »</p>
+      <p>Quelle est l’origine de « <term ref="#structure">structure</term> »</p>
       <list type="unordered">
-        <item><persName ref="#FLL">FLL</persName> : <term>policier en arbre</term>.</item>
+        <item><persName ref="#fll">FLL</persName> : <term ref="#policierenarbre">policier en arbre</term>.</item>
       </list>
-      <p>Dans le roman de <persName>Lebrun</persName> il y aura un hommage long. « à l’Oulipo ».</p>
+      <p>Dans le roman de <persName ref="#lebrun">Lebrun</persName> il y aura un hommage long. « à l’Oulipo ».</p>
       <p><label type="rubrique">CREATION</label></p>
       <list type="unordered">
-        <item><persName ref="#RQ">Queneau</persName> <term>holorime</term> à 4 coups. <ref>Verser au dossier</ref></item>
+        <item><persName ref="#rq">Queneau</persName> <term ref="#holorime">holorime</term> à 4 coups. <ref>Verser au dossier</ref></item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f9.highres" n="9"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f10.highres" n="10"/>
       <list type="unordered">
-        <item><persName ref="#GP">Perec</persName> : problème de Tour. Texte écrit sur les côtés d’un <term>polyèdre</term> – À suivre…</item>
+        <item><persName ref="#gp">Perec</persName> : problème de Tour. Texte écrit sur les côtés d’un <term ref="#polyedre">polyèdre</term> – À suivre…</item>
       </list>
       <list type="unordered">
-        <item><persName ref="#JQ">Queval</persName></item>
+        <item><persName ref="#jq">Queval</persName></item>
       </list>
-      <p><term>Boules de neige</term> en gaulois + galloromain</p>
-      <p>Transformés en <term>chutes de neige</term> (qui se trouvent être des <term>boules fondantes</term>).</p>
-      <p>Question de <persName>Ulam</persName> : langage parlé abrégeant le langage ordinaire comme la sténo abrège l’écrit.</p>
-      <p><persName ref="#GP">Perec</persName> parle de texte dont les voyelles sont supprimées et dont les consonnes sont coupées en 2 (horizontalement).</p>
+      <p><term ref="#boulesdeneige">Boules de neige</term> en gaulois + galloromain</p>
+      <p>Transformés en <term ref="#chutesdeneige">chutes de neige</term> (qui se trouvent être des <term ref="#boulesfondantes">boules fondantes</term>).</p>
+      <p>Question de <persName ref="#ulam">Ulam</persName> : langage parlé abrégeant le langage ordinaire comme la sténo abrège l’écrit.</p>
+      <p><persName ref="#gp">Perec</persName> parle de texte dont les voyelles sont supprimées et dont les consonnes sont coupées en 2 (horizontalement).</p>
       <list type="unordered">
-        <item>Parole donnée à l’invité <persName>COUMET</persName>.</item>
+        <item>Parole donnée à l’invité <persName ref="#coumet">COUMET</persName>.</item>
       </list>
-      <p>Question érudition : <persName>Auguste Comte</persName></p>
-      <p><title>Œuvre d’Auguste tome XII</title> page 756 et suivantes.</p>
+      <p>Question érudition : <persName ref="#augustecomte">Auguste Comte</persName></p>
+      <p><title ref="#ouvredaugustetomeii">Œuvre d’Auguste tome XII</title> page 756 et suivantes.</p>
       <p>Edition : <unclear>Anthropos</unclear></p>
-      <p><title>Recréations littérales et mystérieuses</title> <persName>Dobert</persName> 1650</p>
-      <p><persName ref="#RQ">Queneau</persName> : quel alphabet faudrait-il pour nommer toutes les particules de l’univers.</p>
-      <p><persName ref="#MB">Bénabou</persName> demande des lettres de <persName>Paulhan</persName>.</p>
+      <p><title ref="#recreationslitteralesetmysterieuses">Recréations littérales et mystérieuses</title> <persName ref="#dobert">Dobert</persName> 1650</p>
+      <p><persName ref="#rq">Queneau</persName> : quel alphabet faudrait-il pour nommer toutes les particules de l’univers.</p>
+      <p><persName ref="#mb">Bénabou</persName> demande des lettres de <persName ref="#paulhan">Paulhan</persName>.</p>
       <list type="unordered">
-        <item><persName ref="#JQ">Queval</persName> pense qu’<persName>Hector Malot</persName> était oulipien parce qu’il faisait son plan avant d’écrire ses livres. Mouvements divers.</item>
+        <item><persName ref="#jq">Queval</persName> pense qu’<persName ref="#hectormalot">Hector Malot</persName> était oulipien parce qu’il faisait son plan avant d’écrire ses livres. Mouvements divers.</item>
       </list>
       <list type="unordered">
-        <item><persName>Coumet</persName> : rapports entre la <term>casuistique</term> et la <term>combinatoire</term>.</item>
+        <item><persName ref="#coumet">Coumet</persName> : rapports entre la <term ref="#casuistique">casuistique</term> et la <term ref="#combinatoire">combinatoire</term>.</item>
       </list>
       <p>(ouvroir de péchés potentiels).</p>
-      <p>« <title>Traité des chiffres</title> » 1585 cryptographie <persName>De Vigenère</persName>.</p>
+      <p>« <title ref="#traitedeschiffres">Traité des chiffres</title> » 1585 cryptographie <persName ref="#devigenere">De Vigenère</persName>.</p>
       <list type="unordered">
-        <item><persName ref="#FLL">FLL</persName> qui ne peut se retenir parle d’échecs.</item>
+        <item><persName ref="#fll">FLL</persName> qui ne peut se retenir parle d’échecs.</item>
       </list>
-      <p><persName>John Brunner</persName> : « la ville est un échiquier ».</p>
-      <p><persName>Calmann Levy</persName></p>
+      <p><persName ref="#johnbrunner">John Brunner</persName> : « la ville est un échiquier ».</p>
+      <p><persName ref="#calmannlevy">Calmann Levy</persName></p>
       <p>Calmant les vits</p>
       <p>Qu’allemand les vit</p>
-      <p>Qu’a le Mans, <persName>Lévy</persName> ?</p>
+      <p>Qu’a le Mans, <persName ref="#levy">Lévy</persName> ?</p>
       <p>Calme Valeur enlève I.</p>
       <p>Cal ment. Lève I</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f11.highres" n="11"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010151v/f12.highres" n="12"/>
       <p><label type="rubrique">Menu propos</label></p>
-      <p>de <persName ref="#RQ">Queneau</persName></p>
-      <p><persName>Serge Golon</persName>. L’écrivain qui faisait des plans en couleur.</p>
-      <p>Inviter Madame <persName>Golon</persName> ?</p>
+      <p>de <persName ref="#rq">Queneau</persName></p>
+      <p><persName ref="#sergegolon">Serge Golon</persName>. L’écrivain qui faisait des plans en couleur.</p>
+      <p>Inviter Madame <persName ref="#golon">Golon</persName> ?</p>
       <p>Prochaine réunion :</p>
       <p>Fin juin : jeudi 28 juin</p>
     </body>
