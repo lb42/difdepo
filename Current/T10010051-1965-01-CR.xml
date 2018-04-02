@@ -19,12 +19,12 @@
         <bibl><idno>T10010051-1965-01-CR</idno> <meeting xml:id="T10010051-1965-01">
           <date when="1965-01-08">08/01/1965</date>
           <list type="present">
-            <item><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
-            <item><persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
-            <item><persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
-            <item><persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
-            <item><persName><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
-            <item><persName role="président"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
+            <item><persName ref="#jl" role="président"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></item>
             <item><persName role="invité">Jean Margat</persName></item>
           </list>
           </meeting> </bibl>
@@ -46,15 +46,15 @@
       <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
       <p rend="incipit">CIRCULAIRE No. 57</p>
       <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 8 JANVIER, 1965</p>
-      <p rend="incipit">PRESENTS : <persName>Prof. Margat</persName> (invité), <persName>N. Arnaud</persName>, <persName>P. Braffort</persName>, <persName>J. Queval</persName>, <persName>F. Le Lionnais</persName>, <persName>J. Duchateau</persName></p>
-      <p rend="incipit">PRESIDENT : <persName>J. LESCURE</persName></p>
-      <p> <label type="rubrique"><persName>BRAFFORT</persName> présente le <persName>Prof. Margat</persName> : Géologue (grand), des travaux sur la <term>phrase sacramentelle</term>, des dessins dans <title>Bizarre</title>, <title>la Joconde</title> (Film de <persName>H. Gruel</persName>)</label></p>
-      <p><persName>LESCURE</persName> : En lisant d’une page sur l’autre, c’est-à-dire horizontalement un recueil de poèmes de… trouvé chez <persName>R. Queneau</persName>, j’ai constaté une nette amélioration par rapport à la lecture « normale »</p>
-      <p>(<persName>J. Lescure</persName> lit le poème et ne le donne pas au secrétaire).</p>
-      <p><persName>LESCURE</persName> : C’est la fatalité séquentielle.</p>
-      <p><persName>BRAFFORT</persName> : ça supprime l’aspect <persName>Aragon</persName>.</p>
-      <p><persName>LE LIONNAIS</persName> : C’est toujours ça de gagné</p>
-      <p><persName>Duchateau</persName> fait part d’un travail sur <persName>Roussel</persName>. L’analyse d’un fragment du chapitre 15 des <title>impressions d’Afrique</title> permet de mettre en évidence :</p>
+      <p rend="incipit">PRESENTS : <persName>Prof. Margat</persName> (invité), <persName ref="#na">N. Arnaud</persName>, <persName ref="#pb">P. Braffort</persName>, <persName ref="#jq">J. Queval</persName>, <persName ref="#fll">F. Le Lionnais</persName>, <persName ref="#jd">J. Duchateau</persName></p>
+      <p rend="incipit">PRESIDENT : <persName ref="#jl">J. LESCURE</persName></p>
+      <p> <label type="rubrique"><persName ref="#pb">BRAFFORT</persName> présente le <persName>Prof. Margat</persName> : Géologue (grand), des travaux sur la <term>phrase sacramentelle</term>, des dessins dans <title>Bizarre</title>, <title>la Joconde</title> (Film de <persName>H. Gruel</persName>)</label></p>
+      <p><persName ref="#jl">LESCURE</persName> : En lisant d’une page sur l’autre, c’est-à-dire horizontalement un recueil de poèmes de… trouvé chez <persName ref="#rq">R. Queneau</persName>, j’ai constaté une nette amélioration par rapport à la lecture « normale »</p>
+      <p>(<persName ref="#jl">J. Lescure</persName> lit le poème et ne le donne pas au secrétaire).</p>
+      <p><persName ref="#jl">LESCURE</persName> : C’est la fatalité séquentielle.</p>
+      <p><persName ref="#pb">BRAFFORT</persName> : ça supprime l’aspect <persName>Aragon</persName>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : C’est toujours ça de gagné</p>
+      <p><persName ref="#jd">Duchateau</persName> fait part d’un travail sur <persName>Roussel</persName>. L’analyse d’un fragment du chapitre 15 des <title>impressions d’Afrique</title> permet de mettre en évidence :</p>
       <list type="ordered">
         <item>le souci de répéter certains (très peu) mots clefs pour la scène.</item>
         <item>Le désir de mettre en évidence ces <term>répétitions</term> en évitant d’autres <term>répétitions</term> par un jeu de <term>périphrases</term>.</item>
@@ -62,26 +62,26 @@
         <item>Le caractère plus qu’évident de ces <term>périphrases</term> a pour effet de « remonter » la <term>redondance</term> par ailleurs assez faible, du fait du petit nombre de mots répétés.</item>
       </list>
       <p>NB : Il est rappelé que nous devons nous méfier de la linguistique, notre but étant, non pas une analyse de ce genre, mais la découverte (et la création) de <term>contraintes</term> susceptibles de donner des <term>règles</term> voire des <term>structures utilisables</term>.</p>
-      <p><persName>N. Arnaud</persName> et <persName>J. Lescure</persName> nous entretiennent des <term>grilles</term>.</p>
-      <p><persName>LESCURE</persName> : Si vous prenez une mauvaise gouache et que vous la découpiez en 40, il y en aura 20 qui seront meilleures que l’original.</p>
-      <p><persName>ARNAUD</persName> : Moi je voulais parler plutôt de <term>cache</term>. Des <term>caches</term> qui seraient appliqués sur un texte. <persName>Char</persName> et <persName>Rimbaud</persName> en ont utilisés souvent.</p>
-      <p><persName>BRAFFORT</persName> : La <term>microstructure</term> supérieure à la <term>monostructure</term>.</p>
-      <p><persName>LESCURE</persName> : La <term>grille</term> doit être arbitraire.</p>
-      <p><persName>J . Queval</persName> parle de cet auteur… qui prétendait que <persName>Rimbaud</persName> avait plagié le <title>voyage</title> de <persName>Cook</persName>. Le même personnage aurait aussi expliqué <persName>Mallarmé</persName> de cette manière.</p>
+      <p><persName ref="#na">N. Arnaud</persName> et <persName ref="#jl">J. Lescure</persName> nous entretiennent des <term>grilles</term>.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Si vous prenez une mauvaise gouache et que vous la découpiez en 40, il y en aura 20 qui seront meilleures que l’original.</p>
+      <p><persName ref="#na">ARNAUD</persName> : Moi je voulais parler plutôt de <term>cache</term>. Des <term>caches</term> qui seraient appliqués sur un texte. <persName>Char</persName> et <persName>Rimbaud</persName> en ont utilisés souvent.</p>
+      <p><persName ref="#pb">BRAFFORT</persName> : La <term>microstructure</term> supérieure à la <term>monostructure</term>.</p>
+      <p><persName ref="#jl">LESCURE</persName> : La <term>grille</term> doit être arbitraire.</p>
+      <p><persName ref="#jq">J . Queval</persName> parle de cet auteur… qui prétendait que <persName>Rimbaud</persName> avait plagié le <title>voyage</title> de <persName>Cook</persName>. Le même personnage aurait aussi expliqué <persName>Mallarmé</persName> de cette manière.</p>
       <p>Il est question de différents travaux, non remis au secrétariat.</p>
-      <p><persName>BRAFFORT</persName> : Un travail sur un poème de <persName>Queneau</persName>.</p>
+      <p><persName ref="#pb">BRAFFORT</persName> : Un travail sur un poème de <persName ref="#rq">Queneau</persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f9.highres" n="9"/>
-      <p><persName>LE LIONNAIS</persName> : Un travail à <persName>Berge</persName> à partir des carrés latins. <persName>Berge</persName> doit nous fournir des éclaircissements à ce sujet.</p>
-      <p><persName>LE LIONNAIS</persName> : Parle des <term>puzzles combinatoires</term> : Le personnage peut être modifié (femme = taureau) et cela doit raccorder.</p>
-      <p><persName>F. Le Lionnais</persName> se faisant le porte-parole de <persName>R. Queneau</persName> nous entretient de <persName>Alexandre Dumasiate</persName>.</p>
-      <p><persName>QUEVAL</persName> et <persName>BRAFFORT</persName> : <persName>Mao</persName>, est-ce un asiate ?</p>
-      <p><persName>LESCURE</persName> : La vache.</p>
-      <p><persName>LE LIONNAIS</persName> : <persName>Aramis</persName> fait des vers d’une seule syllabe.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Un travail à <persName ref="#cb">Berge</persName> à partir des carrés latins. <persName ref="#cb">Berge</persName> doit nous fournir des éclaircissements à ce sujet.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Parle des <term>puzzles combinatoires</term> : Le personnage peut être modifié (femme = taureau) et cela doit raccorder.</p>
+      <p><persName ref="#fll">F. Le Lionnais</persName> se faisant le porte-parole de <persName ref="#rq">R. Queneau</persName> nous entretient de <persName>Alexandre Dumasiate</persName>.</p>
+      <p><persName ref="#jq">QUEVAL</persName> et <persName ref="#pb">BRAFFORT</persName> : <persName>Mao</persName>, est-ce un asiate ?</p>
+      <p><persName ref="#jl">LESCURE</persName> : La vache.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : <persName>Aramis</persName> fait des vers d’une seule syllabe.</p>
       <p>Il est encore question des cerveaux réunis, du <ref>texte circulaire pour la Halle aux Vins</ref>, conseillé de méditer sur le thème <term>inspiration</term> et <term>génie</term>.</p>
       <p>PS : Il est rappelé que les travaux « exposés » doivent être remis au secrétariat avec mode d’emploi.</p>
       <p>Prochaine réunion : le 1er Février, Basque.</p>
       <p>Le <persName><choice><abbr>S.P</abbr><expan>S.P</expan></choice></persName></p>
-      <p><persName><choice><abbr>J.D</abbr><expan>Jacques Duchateau</expan></choice></persName></p>
+      <p><persName ref="#jd"><choice><abbr>J.D</abbr><expan>Jacques Duchateau</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

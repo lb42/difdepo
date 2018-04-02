@@ -20,15 +20,15 @@
           <date when="1977-11-03">03/11/1977</date>
           <placeName>chez FLL</placeName>
           <list type="present">
-            <item><persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
-            <item><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
-            <item><persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
-            <item><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
-            <item><persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
-            <item><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
-            <item><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
-            <item><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
-            <item><persName role="président"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#ic" role="président"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
             <item><persName role="invité">Jacques Rigaud</persName></item>
           </list>
           </meeting> </bibl>
@@ -48,51 +48,51 @@
   <text type="CR">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010200q/f2.highres" n="2"/>
-      <p rend="incipit">Réunion du 3 novembre 77 chez <persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>.</p>
-      <p rend="incipit">Président : <persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></p>
-      <p rend="incipit">Présents : <persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>, <persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>, <persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName>, <persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, <persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName>, <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName><choice><abbr>N.A.</abbr><expan>Noël Arnaud</expan></choice></persName></p>
-      <p rend="incipit">Excusés : <persName>JQueval</persName>, <persName>Blavier</persName>, <persName><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName>, <persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>, <persName><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>, <persName><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>.</p>
+      <p rend="incipit">Réunion du 3 novembre 77 chez <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>.</p>
+      <p rend="incipit">Président : <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>, <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>, <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName>, <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#na"><choice><abbr>N.A.</abbr><expan>Noël Arnaud</expan></choice></persName></p>
+      <p rend="incipit">Excusés : <persName ref="#jq">JQueval</persName>, <persName ref="#ab">Blavier</persName>, <persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName>, <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>, <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>, <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>.</p>
       <p rend="incipit">Invité d’honneur : <persName>Jacques Rigaud</persName> sous directeur de l’<orgName>UNESCO</orgName>.</p>
-      <p><persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> présente <persName>Jacques Rigaud</persName>.</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> présente <persName>Jacques Rigaud</persName>.</p>
       <p>Ancien directeur de <orgName>cabinet de Duhamel</orgName>. Spécialiste des <term>calembours</term>.</p>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> :<title>Bibliothèque oulipienne</title> Les épreuves de <persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> sont arrivées. Les 3 autres sont en cours.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> :<title>Bibliothèque oulipienne</title> Les épreuves de <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> sont arrivées. Les 3 autres sont en cours.</p>
       <p>Dans la demande <orgName>CNL</orgName> 5 volumes prévus pour 1978.</p>
-      <p>Enverra à <orgName>JPK (imprimeur)</orgName> la page <title>PAPEPIPOPU</title> de <persName>Calvino</persName></p>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> :appel de 10 francs pour les timbres des convocations.</p>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> :<name type="manif">Mois de la poésie à Aix</name>. Attendus 4 oulipiens du 12 au 17</p>
-      <p><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> sera sur place. <persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.</p>
-      <p><persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> :le n° 1 de la revue <title>Maledicta</title> (revue scientifique réservée à l’insulte) éditée par <orgName>Academic Press</orgName>. Il faudrait établir des rapports avec ces gens-là.</p>
-      <p><persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> :il existe un <title>dictionnaire des injures</title>.</p>
-      <p><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> :<persName>Caradec</persName> en avait un en projet.</p>
-      <p><persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> :Il faudrait prendre contact avec 1 homme de lettres Mexicain qui travaille à « <title>vuelta</title> » (revue d’<persName>Octavio Paz</persName>) et qui fait 1 rubrique oulipienne : <persName>Jose de la Colina</persName>.</p>
+      <p>Enverra à <orgName>JPK (imprimeur)</orgName> la page <title>PAPEPIPOPU</title> de <persName ref="#ic">Calvino</persName></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> :appel de 10 francs pour les timbres des convocations.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> :<name type="manif">Mois de la poésie à Aix</name>. Attendus 4 oulipiens du 12 au 17</p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> sera sur place. <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> :le n° 1 de la revue <title>Maledicta</title> (revue scientifique réservée à l’insulte) éditée par <orgName>Academic Press</orgName>. Il faudrait établir des rapports avec ces gens-là.</p>
+      <p><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> :il existe un <title>dictionnaire des injures</title>.</p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> :<persName ref="#fc">Caradec</persName> en avait un en projet.</p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> :Il faudrait prendre contact avec 1 homme de lettres Mexicain qui travaille à « <title>vuelta</title> » (revue d’<persName>Octavio Paz</persName>) et qui fait 1 rubrique oulipienne : <persName>Jose de la Colina</persName>.</p>
       <p><label type="rubrique">Erudition :</label></p>
       <p>1 article d’<persName>E. Sanguineti</persName> cet été sur l’Oulipo et la <term>littérature définitionnelle</term> (il présente 1 <term>plagiaire par anticipation</term>).</p>
       <p>Arrivée de <persName>Jacques Rigaud</persName>.</p>
-      <p><persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>prend la parole, présentation.</p>
-      <p><persName>Jacques Rig.</persName> : met à l’ordre du jour : explication d’1 phrase de la lettre de <persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>.</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>prend la parole, présentation.</p>
+      <p><persName>Jacques Rig.</persName> : met à l’ordre du jour : explication d’1 phrase de la lettre de <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>.</p>
       <p>(poète ou mathématicien).</p>
-      <p><persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> : raconte 1 histoire de <persName>Jacques Rigaud</persName> de Palentêlé qui aimait tant les prémisses en amour d’une jeune fille qu’il l’aimait chaque jour avant l’autre jusqu’à ce qu’elle ait 7 ans et en meure…</p>
-      <p><persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>reparle de <title>Maledicta</title> et insiste sur les énormes moyens qui sont mis à leur disposition</p>
+      <p><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> : raconte 1 histoire de <persName>Jacques Rigaud</persName> de Palentêlé qui aimait tant les prémisses en amour d’une jeune fille qu’il l’aimait chaque jour avant l’autre jusqu’à ce qu’elle ait 7 ans et en meure…</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>reparle de <title>Maledicta</title> et insiste sur les énormes moyens qui sont mis à leur disposition</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010200q/f3.highres" n="3"/>
-      <p><persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : il faut d'abord faire une classification de l'insulte</p>
-      <p><persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : prendra contact avec l'équipe <title>Maledicta</title></p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : il faut d'abord faire une classification de l'insulte</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : prendra contact avec l'équipe <title>Maledicta</title></p>
       <p><persName>J Rigaud</persName> : faire une bourse internationale des injures</p>
       <p>Passage à table (salade de riz – gigot)</p>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : lecture des demandes d'aide au <orgName>CNL</orgName></p>
-      <p><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : propose quelque chose à l’éditeur Français de « <title>Science America</title> »</p>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <orgName>Gallimard</orgName> veut un plan du <title>volume 2</title></p>
-      <p><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : acheter une réserve de <title>volume oulipo 1</title> (100 exemplaires) accepté. <persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> stockera</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : lecture des demandes d'aide au <orgName>CNL</orgName></p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : propose quelque chose à l’éditeur Français de « <title>Science America</title> »</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <orgName>Gallimard</orgName> veut un plan du <title>volume 2</title></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : acheter une réserve de <title>volume oulipo 1</title> (100 exemplaires) accepté. <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> stockera</p>
       <p><label type="rubrique">Créations :</label></p>
-      <p><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term>Lipopode</term>. Trancher un « <term>pied</term> » à chaque <term>vers</term> (<term>pentamètre</term>). <term>Mètre</term> (pied de 2 <term>syllabes</term> qui n'existe que selon les idées conventionnelles de la <term>métrique</term> anglaise)</p>
-      <p><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : il serait intéressant de faire ça pour le français. 12 → 11 ou 10</p>
-      <p><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term>Boule de neige artisanale</term>. Une charte d'opticien est une sorte de <term>boule de neige</term>. <term>Contrainte typographique</term>.</p>
-      <p><persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : Anecdote et on remplace les personnages avec le système <term>Personnage + 7</term>. Quel dictionnaire prendre. Comment faire le stock ?</p>
-      <p><persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> nous lit un exemple magnifique.</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term>Lipopode</term>. Trancher un « <term>pied</term> » à chaque <term>vers</term> (<term>pentamètre</term>). <term>Mètre</term> (pied de 2 <term>syllabes</term> qui n'existe que selon les idées conventionnelles de la <term>métrique</term> anglaise)</p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : il serait intéressant de faire ça pour le français. 12 → 11 ou 10</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term>Boule de neige artisanale</term>. Une charte d'opticien est une sorte de <term>boule de neige</term>. <term>Contrainte typographique</term>.</p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : Anecdote et on remplace les personnages avec le système <term>Personnage + 7</term>. Quel dictionnaire prendre. Comment faire le stock ?</p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> nous lit un exemple magnifique.</p>
       <p>(Il a choisi entre les sept premiers personnages suivants)</p>
       <p><ref>Archives</ref></p>
       <p>Double joint</p>
-      <p><persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : cette recherche est dans la ligne « <term>sémantique</term> »</p>
-      <p><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> :</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : cette recherche est dans la ligne « <term>sémantique</term> »</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> :</p>
       <list type="ordered">
         <item><term>rimes anagrammatiques</term> Tour/ tour…</item>
       </list>
@@ -100,15 +100,15 @@
       <list type="ordered">
         <item><term>Index + 7</term> : traiter un index en <term>S+7</term> puis faire le livre correspondant à l'index obtenu</item>
       </list>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <title>A mots couverts</title> <ref>Archives</ref></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <title>A mots couverts</title> <ref>Archives</ref></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <ref>Archives</ref></p>
-      <p><persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : <term>poèmes numérique</term> de <persName>Bobby Lapointe</persName></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <ref>Archives</ref></p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : <term>poèmes numérique</term> de <persName>Bobby Lapointe</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010200q/f4.highres" n="4"/>
-      <p><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <persName>Georges Perec</persName> fera une <name type="manif">lecture de <title>La vie mode d'emploi</title> à <orgName>Pompidou</orgName></name> mercredi 7 décembre 1930</p>
-      <p><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : texte de <persName>Khulmann</persName> dans « <title>Poètes baroques allemands</title> » traduits par <persName>Marc Petit</persName> <orgName>Maspéro</orgName></p>
-      <p><persName><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : dans « <title>celui qui pourrissait</title> » (<orgName>prix <persName>Jean Rey</persName></orgName> ) une nouvelle <term>lipogramme</term> en A</p>
-      <p>Prochaine réunion : Oulipo chez <persName><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> le 9 XII 77</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <persName ref="#gp">Georges Perec</persName> fera une <name type="manif">lecture de <title>La vie mode d'emploi</title> à <orgName>Pompidou</orgName></name> mercredi 7 décembre 1930</p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : texte de <persName>Khulmann</persName> dans « <title>Poètes baroques allemands</title> » traduits par <persName>Marc Petit</persName> <orgName>Maspéro</orgName></p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : dans « <title>celui qui pourrissait</title> » (<orgName>prix <persName>Jean Rey</persName></orgName> ) une nouvelle <term>lipogramme</term> en A</p>
+      <p>Prochaine réunion : Oulipo chez <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> le 9 XII 77</p>
     </body>
   </text>
 </TEI>

@@ -20,12 +20,12 @@
           <date when="1981-04-24">24/04/1981</date>
           <placeName>chez Marcel Bénabou</placeName>
           <list type="present">
-            <item><persName><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
-            <item><persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
-            <item><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
-            <item><persName><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
-            <item><persName role="secrétaire"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
-            <item><persName role="président"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
+            <item><persName ref="#pb" role="secrétaire"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#jb" role="président"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,28 +45,28 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f4.highres" n="4"/>
       <p rend="incipit">Réunion du 24 4 81</p>
-      <p rend="incipit">Présents : <persName>J. Bens</persName> président</p>
-      <p rend="incipit"><persName>P. Braffort</persName> secrétaire</p>
-      <p><persName>M. Benabou</persName> (hôte)</p>
-      <p rend="incipit"><persName>J Duchateau</persName>, <persName>J Queval</persName>, <persName>J Roubaud</persName> puis <persName>G Perec</persName></p>
+      <p rend="incipit">Présents : <persName ref="#jb">J. Bens</persName> président</p>
+      <p rend="incipit"><persName ref="#pb">P. Braffort</persName> secrétaire</p>
+      <p><persName ref="#mb">M. Benabou</persName> (hôte)</p>
+      <p rend="incipit"><persName ref="#jd">J Duchateau</persName>, <persName ref="#jq">J Queval</persName>, <persName ref="#jr">J Roubaud</persName> puis <persName ref="#gp">G Perec</persName></p>
       <p>1. Etablissement de l’ordre du jour.</p>
       <p>2. Appel et contrôle des présences. Renvoi à Novembre de l’invitation à <persName>R. Sabatier</persName>. Projet de nourri chez <orgName>Drouant</orgName> (aux retransmissions en direct sur <orgName>France Culture</orgName>).</p>
-      <p>3. Point d’ordre par <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : récapitulé point obligé</p>
-      <p><persName><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : memento.</p>
+      <p>3. Point d’ordre par <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : récapitulé point obligé</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : memento.</p>
       <p><label type="rubrique">4. Action</label></p>
-      <p>– <persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : compte-rendu du <name type="manif">stage de Villeneuve-les-Avignon</name>.</p>
+      <p>– <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : compte-rendu du <name type="manif">stage de Villeneuve-les-Avignon</name>.</p>
       <p>Nécessité de préparer :</p>
       <p>– Photothèque</p>
       <p>– Publication jointe avec <orgName>CIRCA</orgName></p>
       <p>– JB contacte <persName>Jouanard</persName></p>
-      <p>– <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <name type="manif">Bourges</name>. Présentation ordinateur</p>
-      <p>– <persName><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : Proposition d’atelier.</p>
-      <p>Tutti : Donner des <unclear>monneaud</unclear> : <persName><choice><abbr>Marcel</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
-      <p><persName><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> participe postalement</p>
+      <p>– <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <name type="manif">Bourges</name>. Présentation ordinateur</p>
+      <p>– <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : Proposition d’atelier.</p>
+      <p>Tutti : Donner des <unclear>monneaud</unclear> : <persName ref="#mb"><choice><abbr>Marcel</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> participe postalement</p>
       <p><title>OULIPO 2</title> La publication pourrait avoir lieu dès Mai. Couverture <persName>CARELMAN</persName>. Plus de 400 pages.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f5.highres" n="5"/>
       <p><label type="rubrique">5. Créations</label></p>
-      <p><persName><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> Retour de l’<term>intersection</term></p>
+      <p><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> Retour de l’<term>intersection</term></p>
       <p>Rappel des travaux antérieurs.</p>
       <p>Introduction d’une <term>métrique</term> (en vue fonction)</p>
       <p>Application à un travail sur <title>Sanctuaire</title></p>
@@ -74,18 +74,18 @@
       <p><title>Bibliothèque oulipienne</title> (texte)</p>
       <p><title>Le roman caché.</title></p>
       <p><title>Le fils de Ruby Lamarr</title></p>
-      <p><persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>. Formalisation fondée sur la considération de trois exemples de base !</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>. Formalisation fondée sur la considération de trois exemples de base !</p>
       <p>Personnages-lieux-indice</p>
-      <p><persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName>. Présentation d’une séquence de <persName>More-Edlund</persName> une intervention de <persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> entraine un enchainement de plaisanterie.</p>
-      <p><persName><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> <title>Cinquante-trois jours</title> (WIP)</p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName>. Présentation d’une séquence de <persName>More-Edlund</persName> une intervention de <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> entraine un enchainement de plaisanterie.</p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> <title>Cinquante-trois jours</title> (WIP)</p>
       <p>2 <title>Bibliothèque oulipienne</title></p>
       <p><title>La cantatrice sauve</title>. (83)</p>
       <p><title>Beau-présent</title>.</p>
-      <p><persName>Arnaud</persName> <persName>Benabou</persName> <persName>Bens</persName> <persName>Berge</persName> <persName>Blavier</persName> <persName>Braffort</persName> <persName>Calvino</persName> <persName>Chapman</persName> <persName>Chambers</persName> <persName>Duchamp</persName> <persName>Duchateau</persName> <persName><choice><abbr>Etienne</abbr><expan>Etienne Lécroart</expan></choice></persName> <persName>Fournel</persName> <persName>Latis</persName> <persName>Le Lionnais</persName> <persName>Lescure</persName> <persName>Métail</persName> <persName>Mathews</persName> <persName>Perec</persName> <persName>Queneau</persName> <persName>Queval</persName> <persName>Roubaud</persName> <persName>Schmidt</persName></p>
+      <p><persName ref="#na">Arnaud</persName> <persName ref="#mb">Benabou</persName> <persName ref="#jb">Bens</persName> <persName ref="#cb">Berge</persName> <persName ref="#ab">Blavier</persName> <persName ref="#pb">Braffort</persName> <persName ref="#ic">Calvino</persName> <persName ref="#sc">Chapman</persName> <persName ref="#rc">Chambers</persName> <persName ref="#md">Duchamp</persName> <persName ref="#jd">Duchateau</persName> <persName ref="#le">Etienne</persName> <persName ref="#pf">Fournel</persName> <persName ref="#la">Latis</persName> <persName ref="#fll">Le Lionnais</persName> <persName ref="#jl">Lescure</persName> <persName ref="#mm">Métail</persName> <persName ref="#hm">Mathews</persName> <persName ref="#gp">Perec</persName> <persName ref="#rq">Queneau</persName> <persName ref="#jq">Queval</persName> <persName ref="#jr">Roubaud</persName> <persName ref="#ams">Schmidt</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f6.highres" n="6"/>
       <p><label type="rubrique">6. Erudition</label></p>
-      <p><persName><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> Livre de <persName>Todorov</persName> et <persName>Bakhtine</persName></p>
-      <p><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName>Kenneth Koch</persName> <persName>Jabi Goudy</persName></p>
+      <p><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> Livre de <persName>Todorov</persName> et <persName>Bakhtine</persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName>Kenneth Koch</persName> <persName>Jabi Goudy</persName></p>
       <p><label type="rubrique">7. Menus propos</label></p>
       <p>Prochaine réunion.</p>
     </body>

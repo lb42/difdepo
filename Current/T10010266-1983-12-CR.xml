@@ -20,18 +20,18 @@
           <date when="1983-12-02">02/12/1983</date>
           <placeName>Chez Isabelle et MB</placeName>
           <list type="present">
-            <item><persName><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
-            <item><persName><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
-            <item><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
-            <item><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
-            <item><persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
-            <item><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
-            <item><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
-            <item><persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
-            <item><persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
-            <item><persName role="secrétaire"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
-            <item><persName role="invité"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
-            <item><persName role="invité"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
+            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
+            <item><persName ref="#pf" role="secrétaire"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jj" role="invité"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
+            <item><persName ref="#fc" role="invité"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -51,50 +51,50 @@
   <text type="CR">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010266w/f11.highres" n="11"/>
-      <p rend="incipit">Réunion du 2 XII 83 chez <persName>Isabelle [Bénabou]</persName> et <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
+      <p rend="incipit">Réunion du 2 XII 83 chez <persName>Isabelle [Bénabou]</persName> et <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
       <list type="ordered">
         <item>Présentation des nouveaux membres :</item>
       </list>
-      <p>– <persName>Jacques Jouet</persName>, présenté par PF.</p>
-      <p>– <persName>F Caradec</persName> présenté par NA.</p>
+      <p>– <persName ref="#jj">Jacques Jouet</persName>, présenté par PF.</p>
+      <p>– <persName ref="#fc">F Caradec</persName> présenté par NA.</p>
       <list type="ordered">
         <item>Créations</item>
       </list>
-      <p><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term>Rime à 3 éléments</term></p>
-      <p><persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> : mélodies harmonisables à la machine.</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term>Rime à 3 éléments</term></p>
+      <p><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> : mélodies harmonisables à la machine.</p>
       <p>Concours de rapidité</p>
-      <p><persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : Alexandrins de longueurs variables. Bibliothèque oulipienne (<persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> envoie 1 double à <persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>)</p>
-      <p><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Alexandre – <title>Bibliothèque oulipienne</title></p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : Alexandrins de longueurs variables. Bibliothèque oulipienne (<persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> envoie 1 double à <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>)</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Alexandre – <title>Bibliothèque oulipienne</title></p>
       <p>Allusion au pérécedaire</p>
-      <p><persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> et <persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Présentation du <title>3e Bibliothèque oulipienne</title> proposé par <persName><choice><abbr>JQ.</abbr><expan>Jean Queval</expan></choice></persName></p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> et <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Présentation du <title>3e Bibliothèque oulipienne</title> proposé par <persName ref="#jq"><choice><abbr>JQ.</abbr><expan>Jean Queval</expan></choice></persName></p>
       <list type="ordered">
         <item>Action</item>
       </list>
-      <p><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : organisation du <name type="manif">stage d’Amiens</name> (3 et 4 XII 83)</p>
-      <p><persName><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : a fait des conférences sur <persName><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> à NY et sur la côte ouest.</p>
-      <p>Bibliothèque oulipienne : Demander à <persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> d’attendre à cause de l’encombrement</p>
-      <p><persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> livre avant le 31 XII 83 son art du <term>palindrome phonétique</term>.</p>
-      <p><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : nous sommes invités par Montréal d’aller faire une conférence.</p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : organisation du <name type="manif">stage d’Amiens</name> (3 et 4 XII 83)</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : a fait des conférences sur <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> à NY et sur la côte ouest.</p>
+      <p>Bibliothèque oulipienne : Demander à <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> d’attendre à cause de l’encombrement</p>
+      <p><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> livre avant le 31 XII 83 son art du <term>palindrome phonétique</term>.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : nous sommes invités par Montréal d’aller faire une conférence.</p>
       <p>Tous : Qui y va ?</p>
-      <p><persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> est titulaire.</p>
-      <p><persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : réunion au printemps 84 de la MPU (<orgName>Manifestation de la potentialité universelle</orgName>)</p>
-      <p><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> sera le coordinateur.</p>
-      <p><persName><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <name type="manif">L’hommage à FLL</name> a eu lieu à Beaubourg.</p>
-      <p>Avisée de <persName><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : annonce son séminaire de HE. Maison des sciences de l’homme. Mardi 10H et mercredi 14 10H</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> est titulaire.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : réunion au printemps 84 de la MPU (<orgName>Manifestation de la potentialité universelle</orgName>)</p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> sera le coordinateur.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <name type="manif">L’hommage à FLL</name> a eu lieu à Beaubourg.</p>
+      <p>Avisée de <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : annonce son séminaire de HE. Maison des sciences de l’homme. Mardi 10H et mercredi 14 10H</p>
       <p>Ce séminaire aura pour sujet : métaphore et récit dans l’œuvre de <persName>Galilée</persName>.</p>
       <p><title>Bibliothèque oulipienne</title> : <title>Reine Aztèque</title> numéro 22</p>
-      <p><persName><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> numéro 23</p>
-      <p><persName>Queval</persName> numéro 24</p>
-      <p><persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : point financier</p>
-      <p><persName><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <orgName>la quinzaine</orgName> veut faire 1 numéro Sur <persName>Chesterton</persName></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> numéro 23</p>
+      <p><persName ref="#jq">Queval</persName> numéro 24</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : point financier</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <orgName>la quinzaine</orgName> veut faire 1 numéro Sur <persName>Chesterton</persName></p>
       <p>Tous aiment bien mais personne ne veut écrire</p>
-      <p><persName><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : demander à <persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : demander à <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></p>
       <p>A paraître</p>
-      <p>Numéro 25 <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> loc. introuvables</p>
-      <p>Numéro 26 <persName><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> un train traverse la nuit</p>
-      <p>Numéro 27 <persName><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> théorie du <term>palindrome phonétique</term>.</p>
-      <p>Numéro 28 <persName><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></p>
-      <p>Numéro 29 <persName><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Alexandrins</p>
+      <p>Numéro 25 <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> loc. introuvables</p>
+      <p>Numéro 26 <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> un train traverse la nuit</p>
+      <p>Numéro 27 <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> théorie du <term>palindrome phonétique</term>.</p>
+      <p>Numéro 28 <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></p>
+      <p>Numéro 29 <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Alexandrins</p>
       <p>Prochain séance : 20 janvier</p>
     </body>
   </text>
