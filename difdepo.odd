@@ -119,7 +119,7 @@
       </attList>
     </classSpec>
     <!--MODULES-->
-    <moduleRef include="p hi term unclear del add choice sic corr abbr expan reg orig name date ref label lb listBibl
+    <moduleRef include="p hi term unclear del add choice sic corr abbr expan name date ref label lb listBibl
                pb respStmt resp teiCorpus title bibl meeting list item note gap desc" key="core"/>
     <moduleRef include="teiHeader fileDesc titleStmt publicationStmt sourceDesc
                encodingDesc
@@ -129,7 +129,6 @@
     <moduleRef include="particDesc settingDesc" key="corpus"/>
     <moduleRef include="orgName persName placeName listPerson person affiliation birth death
                listOrg org listPlace place location listEvent event" key="namesdates"/>
-    <moduleRef include="supplied" key="transcr"/>
     <!-- ELEMENTS -->
     <!-- need a schematron rule to permit address only within place/location -->
     <elementSpec ident="bibl" mode="change">

@@ -1,13 +1,13 @@
 #Divers
 * Insertion dans le teiHeader des noms retrouvés par Camille
 * Insertion des mentions des responsabilités
-	* **Quand on a "Camille", c'est Camille B, pas Camille V ? dans le doute j'ai laissé tel quel**
+	* Quand on a "Camille", c'est Camille B, pas Camille V ? dans le doute j'ai laissé tel quel. > réglé : Camille B
 * Indentation des fichiers	
 * Je passe tous les identifiants de fichiers en minuscules (en prévision de l'upload sur Drupal, qui convertit les noms en fichiers en minuscules)
 * Uniformisation des espaces autour de gap (avant et après), pb, lb (avant)
 * **Il me semble qu'on a parfois des unclear à la place de gap : `<unclear>texte illisible</unclear>`, `<unclear>...</unclear>`, etc. : la requête XPath `//unclear` renvoie toutes les occurrences, après on peut rechercher remplacer par `<gap/>`**
-* **Parfois, une note indique un ajout ou une suppression, mais on n'a pas le `<add> `correspondant. Exemple : t10010073-1967-01-oj.xml `<item><term ref="#carreslatins">Carrés latins</term> en littérature (<persName ref="#cb">Cl. Berge</persName>) <note n="12" resp="editor" xml:id="ftn12">Ajouté à la main</note></item>`**
-* **Erreur sur le fac-similé dans t10010170-1975-10-cv.xml (je n'ai pas trouvé la bonne page dans le dossier)**
+* **Parfois, une note indique un ajout ou une suppression, mais on n'a pas le `<add> `correspondant. Exemple : t10010073-1967-01-oj.xml `<item><term ref="#carreslatins">Carrés latins</term> en littérature (<persName ref="#cb">Cl. Berge</persName>) <note n="12" resp="editor" xml:id="ftn12">Ajouté à la main</note></item>`** > Chiara
+* **Erreur sur le fac-similé dans t10010170-1975-10-cv.xml (je n'ai pas trouvé la bonne page dans le dossier)** > Natalie
 
 
 #Notes
@@ -65,7 +65,8 @@ Pour tirer parti de l'encodage en TEI, j'ai remplacé automatiquement un certain
 
 J'hésite parfois avec supplied, je m'en remets à Lou...
 
-* **J'ai ajouté des balises <abbr></abbr> autour des noms de personnes qui sont visiblement des initiales (pas plus de trois caractères, en majuscules). La plupart sont des noms d'Oulipiens, j'ai indiqué dans un élément expan le nom complet. Mais il reste des abbréviations qui ne sont pas explicitées (notamment dans le teiHeader, pour les invités) : indiquer le nom complet dans `<expan></expan>` ? Requête XPath : `//abbr[.=following-sibling::expan]` (pour l'instant, dans ces cas, le contenu de expan est le même que celui de abbr). Soit vous corrigez directement les fichiers, soit vous m'envoyez un tableau d'équivalence (sans distinguer les différentes formes d'une même abbréviation : indiquez simplement la forme sans espace, sans tiret et sans point, "YM" et pas "Y.M.")**
+* **J'ai ajouté des balises <abbr></abbr> autour des noms de personnes qui sont visiblement des initiales (pas plus de trois caractères, en majuscules). La plupart sont des noms d'Oulipiens, j'ai indiqué dans un élément expan le nom complet. Mais il reste des abbréviations qui ne sont pas explicitées (notamment dans le teiHeader, pour les invités) : indiquer le nom complet dans `<expan></expan>` ? Requête XPath : `//abbr[.=following-sibling::expan]/translate(.,' .-','')`**
+* ` (pour l'instant, dans ces cas, le contenu de expan est le même que celui de abbr). Soit vous corrigez directement les fichiers, soit vous m'envoyez un tableau d'équivalence (sans distinguer les différentes formes d'une même abbréviation : indiquez simplement la forme sans espace, sans tiret et sans point, "YM" et pas "Y.M.")**
 
 ###sic/corr
 
