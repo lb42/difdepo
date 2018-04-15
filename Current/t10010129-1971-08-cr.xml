@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010129-1971-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010129-1971-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,17 +18,34 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010129-1971-08-cr</idno> <meeting xml:id="t10010129-1971-08">
-          <date when="1971-08-27">27/08/1971</date>
-          <placeName>chez François Le Lionnais</placeName>
-          <list type="present">
-            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
-            <item><persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></item>
-            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
-            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
-            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010129-1971-08-cr</idno>
+          <meeting xml:id="t10010129-1971-08">
+            <date when="1971-08-27">27/08/1971</date>
+            <placeName>chez François Le Lionnais</placeName>
+            <list type="present">
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jl"><choice>
+                    <abbr>JL</abbr>
+                    <expan>Jean Lescure</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -42,64 +60,213 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f1.highres" n="1"/>
-      <p>Compte-rendu de <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></p>
+      <p>Compte-rendu de <persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName></p>
       <p rend="incipit">OULIONNAIS DU JEUDI 27 AOÛT</p>
-      <p>La séance commence par un apéritif-débat auquel s’agglomèrent, l’un après l’autre, les arrivants. Le débat est à chaque fois recommencé, mais pas l’apéritif<note n="1" place="foot" resp="author">Note du Président-Fondateur: "J'ai compris"</note>. Comme il (le débat, toujours pas l’apéritif) connaîtra de nouveaux développements durant le repas, il est inutile d’en relater ici le contenu.</p>
-      <p>La table est dressée dans le jardin, sous la tonnelle traditionnelle. Elle réunit, en tournant dans le sens positif direct : <persName ref="#fll">Le Lionnais</persName>, <persName ref="#jl">Lescure</persName>, <persName ref="#rq">Queneau</persName>, <persName ref="#na">Arnaud</persName> et <persName ref="#jb">Bens</persName>. <persName ref="#la">Latis</persName> et <persName ref="#jd">Duchateau</persName> se sont fait excuser par lettre, les autres tacitement. Le Président immédiatement élu est <persName ref="#jb">Bens</persName>, malgré son peu d’habitude.</p>
-      <p>Pendant la composition de l’ordre du jour, assez nourri, le Président-Fondateur avale le premier de ses innombrables comprimés, ce qui ne l’empêche pas d’inscrire quatorze points, dont onze seront finalement récusés. Et l’on y va.</p>
-      <p><persName ref="#rq">QUENEAU</persName> fait d’abord remarquer que certains exemples destinés au <title ref="#dossiercape">Dossier Cape</title> sont à refaire, car ils n’émanent pas de membres autorisés de l’OuLiPo : tels les <term ref="#s7">S + 7</term> sur la Bible. Il s’y est mis, précisément, à l’aide d’un N.P.L.I. des années 48 ou 50, en utilisant : NM + 7 ; NF + 7 ; A + 7, et sur un texte de <persName ref="#nerval">Nerval</persName> et une fable de <persName ref="#lafontaine">La Fontaine</persName>. La fable, c’est <title ref="#lacigaleetlafourmi">la Cigale et la Fourmi</title>, qui devient (notamment) <title ref="#lacimaiseetlafraction">La Cimaise et la Fraction</title>. Le résultat est très rigolo, ce que tout le monde admire, mais :</p>
-      <p><persName ref="#jb">BENS</persName> : C’est rigolo, parce qu’on connaît le texte original. La valeur de <term ref="#s7">S + 7</term> est parodique. Si l’on en faisait sur des textes parfaitement inconnus (ou pas signalés), ce serait d’un intérêt beaucoup plus discutable.</p>
+      <p>La séance commence par un apéritif-débat auquel s’agglomèrent, l’un après l’autre, les
+        arrivants. Le débat est à chaque fois recommencé, mais pas l’apéritif<note n="1"
+          place="foot" resp="author">Note du Président-Fondateur: "J'ai compris"</note>. Comme il
+        (le débat, toujours pas l’apéritif) connaîtra de nouveaux développements durant le repas, il
+        est inutile d’en relater ici le contenu.</p>
+      <p>La table est dressée dans le jardin, sous la tonnelle traditionnelle. Elle réunit, en
+        tournant dans le sens positif direct : <persName ref="#fll">Le Lionnais</persName>,
+          <persName ref="#jl">Lescure</persName>, <persName ref="#rq">Queneau</persName>, <persName
+          ref="#na">Arnaud</persName> et <persName ref="#jb">Bens</persName>. <persName ref="#la"
+          >Latis</persName> et <persName ref="#jd">Duchateau</persName> se sont fait excuser par
+        lettre, les autres tacitement. Le Président immédiatement élu est <persName ref="#jb"
+          >Bens</persName>, malgré son peu d’habitude.</p>
+      <p>Pendant la composition de l’ordre du jour, assez nourri, le Président-Fondateur avale le
+        premier de ses innombrables comprimés, ce qui ne l’empêche pas d’inscrire quatorze points,
+        dont onze seront finalement récusés. Et l’on y va.</p>
+      <p><persName ref="#rq">QUENEAU</persName> fait d’abord remarquer que certains exemples
+        destinés au <title ref="#dossiercape">Dossier Cape</title> sont à refaire, car ils n’émanent
+        pas de membres autorisés de l’OuLiPo : tels les <term ref="#s7">S + 7</term> sur la Bible.
+        Il s’y est mis, précisément, à l’aide d’un N.P.L.I. des années 48 ou 50, en utilisant : NM +
+        7 ; NF + 7 ; A + 7, et sur un texte de <persName ref="#nerval">Nerval</persName> et une
+        fable de <persName ref="#lafontaine">La Fontaine</persName>. La fable, c’est <title
+          ref="#lacigaleetlafourmi">la Cigale et la Fourmi</title>, qui devient (notamment) <title
+          ref="#lacimaiseetlafraction">La Cimaise et la Fraction</title>. Le résultat est très
+        rigolo, ce que tout le monde admire, mais :</p>
+      <p><persName ref="#jb">BENS</persName> : C’est rigolo, parce qu’on connaît le texte original.
+        La valeur de <term ref="#s7">S + 7</term> est parodique. Si l’on en faisait sur des textes
+        parfaitement inconnus (ou pas signalés), ce serait d’un intérêt beaucoup plus
+        discutable.</p>
       <p>Approbations du Président-Fondateur.</p>
-      <p><persName ref="#rq">QUENEAU</persName> : Il y a plus grave. Je soupçonne aujourd’hui que tous les <term ref="#s7">S + 7</term> sont des faux. <lb/>Première bombe de la séance. Le Trt Satrape est requis de fournir des explications.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Il y a plus grave. Je soupçonne aujourd’hui que
+        tous les <term ref="#s7">S + 7</term> sont des faux. <lb/>Première bombe de la séance. Le
+        Trt Satrape est requis de fournir des explications.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f2.highres" n="2"/>
-      <p><persName ref="#rq">QUENEAU</persName> : L’expérience montre que l’on n’obtient des résultats intéressants que si l’on truque !</p>
-      <p><persName ref="#jl">LESCURE</persName> : Pas du tout ! Mais il est vrai que j’employais de tout petit lexique, où tous les mots sont du vocabulaire courant.</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : Nous prenons note pour la postérité. <lb/>On a tout de même eu chaud.</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : Cherchant une définition de l’OuLiPo à l’apéritif, question grave, sur laquelle il nous faudra revenir longuement, <persName ref="#rq">Queneau</persName> voulait nous imposer le critère suivant : que la structure utilisée soit mathématique (pas nécessairement numérique). En effet, plusieurs écrivains aujourd’hui, notamment ceux qui se réfèrent au nouveau roman, ou à l’équipe de <title ref="#telquel"><orgName ref="#telquel">Tel Quel</orgName></title> , ou à celle de <title ref="#change"><orgName ref="#change">Change</orgName></title> , sont attentifs à l’utilisation de constructions recherchées, parfois délicates. Leurs recherches diffèrent-elles des nôtres ? Et si oui, en quoi ? On voit que la restriction de <persName ref="#rq">Queneau</persName> permet des choix déjà fort étendus. Les langages à vocabulaires très restreints répondent à cette définition. Ex : les langages animaux (précisément : ce qu’en connaissent les hommes) et le <term ref="#vocabulairealgol">vocabulaire algol</term>. Bien entendu, on pourrait répondre à Queneau que toute loi de composition est d’essence mathématique… (Approbations) … mais alors, toutes les œuvres un tant soit peu élaborées deviennent OuLiPiennes !</p>
-      <p><persName ref="#jb">BENS</persName> : Pourquoi la <term ref="#restriction">restriction</term> est-elle un critère mathématique ? Et à partir de quel moment un vocabulaire est-il considéré comme restreint ?</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : Je crois que la notion de <term ref="#difficulte">difficulté</term> pourrait être mise en évidence…</p>
-      <p><persName ref="#jb">BENS</persName> : Elle ne peut pas être un critère : elle est beaucoup trop subjective.</p>
-      <p><persName ref="#rq">QUENEAU</persName> : On peut, par exemple, donner une évaluation quelconque à un dictionnaire ; donner par exemple la valeur 1 aux mots comportant la lettre E et la valeur 0 aux mots qui ne la comportent pas. On utilisera ensuite les mots ayant une des deux valeurs. C’est une contrainte « mathématique ».</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : <persName ref="#bourbaki">Bourbaki</persName> admettait jadis que les mathématiques concernent des ensembles possédant une structure…</p>
+      <p><persName ref="#rq">QUENEAU</persName> : L’expérience montre que l’on n’obtient des
+        résultats intéressants que si l’on truque !</p>
+      <p><persName ref="#jl">LESCURE</persName> : Pas du tout ! Mais il est vrai que j’employais de
+        tout petit lexique, où tous les mots sont du vocabulaire courant.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Nous prenons note pour la postérité. <lb/>On
+        a tout de même eu chaud.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Cherchant une définition de l’OuLiPo à
+        l’apéritif, question grave, sur laquelle il nous faudra revenir longuement, <persName
+          ref="#rq">Queneau</persName> voulait nous imposer le critère suivant : que la structure
+        utilisée soit mathématique (pas nécessairement numérique). En effet, plusieurs écrivains
+        aujourd’hui, notamment ceux qui se réfèrent au nouveau roman, ou à l’équipe de <title
+          ref="#telquel"><orgName ref="#telquel">Tel Quel</orgName></title> , ou à celle de <title
+          ref="#change"><orgName ref="#change">Change</orgName></title> , sont attentifs à
+        l’utilisation de constructions recherchées, parfois délicates. Leurs recherches
+        diffèrent-elles des nôtres ? Et si oui, en quoi ? On voit que la restriction de <persName
+          ref="#rq">Queneau</persName> permet des choix déjà fort étendus. Les langages à
+        vocabulaires très restreints répondent à cette définition. Ex : les langages animaux
+        (précisément : ce qu’en connaissent les hommes) et le <term ref="#vocabulairealgol"
+          >vocabulaire algol</term>. Bien entendu, on pourrait répondre à Queneau que toute loi de
+        composition est d’essence mathématique… (Approbations) … mais alors, toutes les œuvres un
+        tant soit peu élaborées deviennent OuLiPiennes !</p>
+      <p><persName ref="#jb">BENS</persName> : Pourquoi la <term ref="#restriction"
+          >restriction</term> est-elle un critère mathématique ? Et à partir de quel moment un
+        vocabulaire est-il considéré comme restreint ?</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Je crois que la notion de <term
+          ref="#difficulte">difficulté</term> pourrait être mise en évidence…</p>
+      <p><persName ref="#jb">BENS</persName> : Elle ne peut pas être un critère : elle est beaucoup
+        trop subjective.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : On peut, par exemple, donner une évaluation
+        quelconque à un dictionnaire ; donner par exemple la valeur 1 aux mots comportant la lettre
+        E et la valeur 0 aux mots qui ne la comportent pas. On utilisera ensuite les mots ayant une
+        des deux valeurs. C’est une <term>contrainte « mathématique »</term>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : <persName ref="#bourbaki">Bourbaki</persName>
+        admettait jadis que les mathématiques concernent des ensembles possédant une structure…</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f3.highres" n="3"/>
-      <p><persName ref="#jl">LESCURE</persName> : C’est une telle restriction qu’utilise l’<orgName ref="#oupeinpo">OuPeinPo</orgName> en décidant de peindre un tableau avec quatre couleurs données.</p>
-      <p><persName ref="#jb">BENS</persName> : Je ne suis pas d’accord : il s’agit alors de matériaux, et nous nous occupons d’outils ! Le vocabulaire restreint, les quatre couleurs données, un texte préalablement choisi sont des matériaux que lesquels nous travaillerons peut-être. Mais ce qui m’intéresse beaucoup plus c’est la méthode que nous utiliserons.</p>
-      <p><persName ref="#na">ARNAUD</persName> : La raison parle par la bouche du président de séance : il n’a pas déconné une seule fois depuis le début du repas.</p>
-      <p><persName ref="#jb">BENS</persName> : Bien qu’elle m’honore, cette observation ne sera pas au compte-rendu. J’ajoute, d’ailleurs, que, à partir du matériau (et quel que soit ce matériau, et notamment restreint ou non), ce qui fait le style, c’est le choix personnel, donc la méthode. <lb/>Après quelques secondes de silence, une discussion un tant soit peu chaude s’élève. Bens réclame des structures qui permettent à chacun de s’exprimer dans sa propre langue. Il reproche à <term ref="#s7">S + 7</term> de donner des résultats anonymes. <persName ref="#fll">Le Lionnais</persName>, de son côté, signale qu’une méthode peut très bien ne convenir qu’à un petit nombre et être OuLiPienne tout de même. Ces éléments, quoique un peu désordonnés, devront être pris en considération lors d’une prochaine discussion, que tout le monde, pour finir, souhaite vivement. Bens, que sa qualité de président de séance n’incline pas à l’impartialité, prétend que l’échec de l’OuLiPo c’est que, depuis sa fondation, très peu de ses membres se sont inspirés de ses méthodes pour leurs œuvres personnelles. Ce n’est pas tout à fait la deuxième bombe de la séance, mais au moins la première grenade. <lb/>On donne des exemples pris dans la littérature récente, et dont tous reparlerons peut-être. Dernières étincelles :</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : les <term ref="#structures">structures</term> que l’on ne recommence pas ne sont pas valables.</p>
-      <p><persName ref="#rq">QUENEAU</persName> : Je redemande : quelle est la différence entre l’OuLiPo et les autres ?</p>
+      <p><persName ref="#jl">LESCURE</persName> : C’est une telle restriction qu’utilise l’<orgName
+          ref="#oupeinpo">OuPeinPo</orgName> en décidant de peindre un tableau avec quatre couleurs
+        données.</p>
+      <p><persName ref="#jb">BENS</persName> : Je ne suis pas d’accord : il s’agit alors de
+        matériaux, et nous nous occupons d’outils ! Le vocabulaire restreint, les quatre couleurs
+        données, un texte préalablement choisi sont des matériaux que lesquels nous travaillerons
+        peut-être. Mais ce qui m’intéresse beaucoup plus c’est la méthode que nous utiliserons.</p>
+      <p><persName ref="#na">ARNAUD</persName> : La raison parle par la bouche du président de
+        séance : il n’a pas déconné une seule fois depuis le début du repas.</p>
+      <p><persName ref="#jb">BENS</persName> : Bien qu’elle m’honore, cette observation ne sera pas
+        au compte-rendu. J’ajoute, d’ailleurs, que, à partir du matériau (et quel que soit ce
+        matériau, et notamment restreint ou non), ce qui fait le style, c’est le choix personnel,
+        donc la méthode. <lb/>Après quelques secondes de silence, une discussion un tant soit peu
+        chaude s’élève. Bens réclame des structures qui permettent à chacun de s’exprimer dans sa
+        propre langue. Il reproche à <term ref="#s7">S + 7</term> de donner des résultats anonymes.
+          <persName ref="#fll">Le Lionnais</persName>, de son côté, signale qu’une méthode peut très
+        bien ne convenir qu’à un petit nombre et être OuLiPienne tout de même. Ces éléments, quoique
+        un peu désordonnés, devront être pris en considération lors d’une prochaine discussion, que
+        tout le monde, pour finir, souhaite vivement. Bens, que sa qualité de président de séance
+        n’incline pas à l’impartialité, prétend que l’échec de l’OuLiPo c’est que, depuis sa
+        fondation, très peu de ses membres se sont inspirés de ses méthodes pour leurs œuvres
+        personnelles. Ce n’est pas tout à fait la deuxième bombe de la séance, mais au moins la
+        première grenade. <lb/>On donne des exemples pris dans la littérature récente, et dont tous
+        reparlerons peut-être. Dernières étincelles :</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : les <term ref="#structures">structures</term>
+        que l’on ne recommence pas ne sont pas valables.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Je redemande : quelle est la différence entre
+        l’OuLiPo et les autres ?</p>
       <p><persName ref="#fll">LE LIONNAIS</persName> : Il faudrait faire un congrès !</p>
-      <p><persName ref="#na">ARNAUD</persName>/<persName ref="#rq">QUENEAU</persName> : Mais avec qui ? Combien de membres y-a-t-il ? Et qui sont-ils ? <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f4.highres" n="4"/>On compte sur ses doigts. Arnaud se manifeste une fois de plus comme le chef de la tendance traditionnaliste. Le Lionnais observe, avec juste raison, que les nouveaux venus donnent un sang nouveau (ainsi qu’une sueur nouvelle, ce que nous apprécions davantage : le sang, beuh !). Bens se demande si, dans certaines discussions fondamentales, qui devraient requérir une certaine « expérience » passée, les nouveaux membres ne pourraient être invités à garder un silence admiratif. Le Lionnais semble penser qu’il sera difficile d’y parvenir. (À quelles tractations s’est-il déjà livré ?) Il parsème d’ailleurs son intervention de diverses perfidies à l’égard des anciens membres, ce qui est vivement relevé. Enfin, on admet qu’il faut bien tenir compte d’une certaine diaspora. (On a dit : « diaspora ».)</p>
-      <p><persName ref="#rq">QUENEAU</persName> : Pendant les dix dernières séances, il faut bien admettre que s’il n’y avait pas eu les nouveaux, il n’y aurait eu personne. Cela paraît régler la question, au moins provisoirement. Les diplômes sont à la signature du Président-Fondateur.</p>
-      <p>Sur les points administratifs et techniques, on se félicite du travail de secrétariat effectué par la jeune génération. Puis :</p>
-      <p><persName ref="#jl">LESCURE</persName> : <persName ref="#pf">Fournel</persName> a-t-il un magnétophone ?</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : On ne sait pas. Mais, de toutes manières, cela ne servirait à rien.</p>
-      <p>L’attachement de <persName ref="#jl">Lescure</persName> pour les matériels d’enregistrement s’est tout de même manifesté. On verra dans quelques minutes qu’il aurait mieux fait de se taire.</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : Je voudrais signaler la difficulté de mathématiser la sémantique. (Ceci, bien entendu, dans la perspective mathématique réclamée par <persName ref="#rq">Queneau</persName> tout à l’heure.) On peut évidemment faire une liste de choses, puis construire une algèbre, avec : S = sentiments ; I = idées ; O = objets,… Mais ce n’est pas facile.</p>
-      <p><persName ref="#rq">QUENEAU</persName> : Au millénaire, on a eu une discussion sur ce thème. <persName ref="#jr">Roubaud</persName> était tout à fait contre. D’ailleurs, <persName ref="#jl">Lescure</persName> avait un magnétophone, mais on n’a jamais rien entendu.</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : On avait répondu à <persName ref="#jr">Roubaud</persName> : Combinons les thèmes. Nous appellerons ça « thématique », sinon « sémantique ».</p>
+      <p><persName ref="#na">ARNAUD</persName>/<persName ref="#rq">QUENEAU</persName> : Mais avec
+        qui ? Combien de membres y-a-t-il ? Et qui sont-ils ? <pb
+          facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f4.highres" n="4"/>On compte sur ses
+        doigts. Arnaud se manifeste une fois de plus comme le chef de la tendance traditionnaliste.
+        Le Lionnais observe, avec juste raison, que les nouveaux venus donnent un sang nouveau
+        (ainsi qu’une sueur nouvelle, ce que nous apprécions davantage : le sang, beuh !). Bens se
+        demande si, dans certaines discussions fondamentales, qui devraient requérir une certaine
+        « expérience » passée, les nouveaux membres ne pourraient être invités à garder un silence
+        admiratif. Le Lionnais semble penser qu’il sera difficile d’y parvenir. (À quelles
+        tractations s’est-il déjà livré ?) Il parsème d’ailleurs son intervention de diverses
+        perfidies à l’égard des anciens membres, ce qui est vivement relevé. Enfin, on admet qu’il
+        faut bien tenir compte d’une certaine diaspora. (On a dit : « diaspora ».)</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Pendant les dix dernières séances, il faut bien
+        admettre que s’il n’y avait pas eu les nouveaux, il n’y aurait eu personne. Cela paraît
+        régler la question, au moins provisoirement. Les diplômes sont à la signature du
+        Président-Fondateur.</p>
+      <p>Sur les points administratifs et techniques, on se félicite du travail de secrétariat
+        effectué par la jeune génération. Puis :</p>
+      <p><persName ref="#jl">LESCURE</persName> : <persName ref="#pf">Fournel</persName> a-t-il un
+        magnétophone ?</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : On ne sait pas. Mais, de toutes manières,
+        cela ne servirait à rien.</p>
+      <p>L’attachement de <persName ref="#jl">Lescure</persName> pour les matériels d’enregistrement
+        s’est tout de même manifesté. On verra dans quelques minutes qu’il aurait mieux fait de se
+        taire.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Je voudrais signaler la difficulté de
+        mathématiser la sémantique. (Ceci, bien entendu, dans la perspective mathématique réclamée
+        par <persName ref="#rq">Queneau</persName> tout à l’heure.) On peut évidemment faire une
+        liste de choses, puis construire une algèbre, avec : S = sentiments ; I = idées ; O =
+        objets,… Mais ce n’est pas facile.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Au millénaire, on a eu une discussion sur ce
+        thème. <persName ref="#jr">Roubaud</persName> était tout à fait contre. D’ailleurs,
+          <persName ref="#jl">Lescure</persName> avait un magnétophone, mais on n’a jamais rien
+        entendu.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : On avait répondu à <persName ref="#jr"
+          >Roubaud</persName> : Combinons les thèmes. Nous appellerons ça « thématique », sinon
+        « sémantique ».</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f5.highres" n="5"/>
       <p>SUR LES « PRINCIPES » DE L’OULIPO</p>
-      <p><persName ref="#rq">QUENEAU</persName> : À mon arrivée, ces messieurs discutaient pour savoir ce qu’est l’OuLiPo. Je leur ai asséné une définition : « N’est OuLiPo que ce qui comporte un élément mathématique ».</p>
+      <p><persName ref="#rq">QUENEAU</persName> : À mon arrivée, ces messieurs discutaient pour
+        savoir ce qu’est l’OuLiPo. Je leur ai asséné une définition : « N’est OuLiPo que ce qui
+        comporte un élément mathématique ».</p>
       <p><persName ref="#jl">LESCURE</persName> : Mais tout est mathématique.</p>
-      <p><persName ref="#na">ARNAUD</persName> : Si, dans un roman, tous les types ont un cor au pied, est-ce un ensemble ? est-ce mathématique ?</p>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : Que non pas ! N’importe quel groupe d’individus n’est pas un ensemble, ce serait trop facile… (C’est bien vrai. N.D.L.R) … Il faut une propriété qui permette de savoir si quelqu’un fait ou non partie de l’ensemble. <lb/>Nouvelle N.D.L.R. : Si un cor au pied n’est pas une propriété qui permette, exétéra, alors qu’estece qu’il vous faut !)</p>
+      <p><persName ref="#na">ARNAUD</persName> : Si, dans un roman, tous les types ont un cor au
+        pied, est-ce un ensemble ? est-ce mathématique ?</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Que non pas ! N’importe quel groupe
+        d’individus n’est pas un ensemble, ce serait trop facile… (C’est bien vrai. N.D.L.R) … Il
+        faut une propriété qui permette de savoir si quelqu’un fait ou non partie de l’ensemble.
+        <lb/>Nouvelle N.D.L.R. : Si un cor au pied n’est pas une propriété qui permette, exétéra,
+        alors qu’estece qu’il vous faut !)</p>
       <p><persName ref="#na">ARNAUD</persName> : Mais alors, quoi ?</p>
-      <p><persName ref="#rq">QUENEAU</persName> : Si vous voulez, <persName ref="#joyce">Joyce</persName> n’est pas OuLiPien. Il ne suffit pas de comparer chaque chapitre d’<persName ref="#ulysse">Ulysse</persName> à l’<title ref="#odyssee">Odyssée</title> pour en faire une œuvre OuLiPienne.</p>
-      <p>PLUSIEURS (y compris <persName ref="#fll">LE LIONNAIS</persName>) : Justement ça se discute. On souhaite une discussion sur ce point. Si on arrive à savoir pourquoi <persName ref="#joyce">Joyce</persName> n’est pas OuLiPien, les principes de l’OuLiPo auront fait un grand pas. Et ainsi de suite. (Nous voici aux principes qui font des pas, le Bordeaux, lui, fait son effet.)</p>
-      <p><persName ref="#jb">BENS</persName> : En outre, moi, réitérant ce que je réclame depuis plusieurs années, virgule, à la ligne, je déclare : « J’en ai marre des <term ref="#structures">structures</term> donnant lieu à trois bouts de vers par-ci, par-là. Est-il possible de trouver une x structure OuLiPienne qui permettre d’écrire un roman de 800 pages ? Tant qu’on n’aura pas répondu à cette question-là, on n’aura fait qu’améliorer quelques jeux de société ». <lb/>(La grenade aussi s’améliore.)</p>
-      <p><persName ref="#rq">QUENEAU</persName> : Je me permets de vous faire remarquer que l’on trouve des structures romanesques fort élaborées dans l’essai de <persName ref="#ricardou">Ricardou</persName>. <lb/>Encore ne sont-elles pas OuLiPiennes.</p>
-      <p><persName ref="#jb">BENS</persName> : On l’a déjà dit. Mais pourquoi ? Remarquez, j’ai une idée. Je crois que c’est leur côté « jeu de salon ». Ils trouvent leur fin dans le jeu. Leur livre est l’histoire de leur livre. <lb/>(L’assistance reste baba.)</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Si vous voulez, <persName ref="#joyce"
+          >Joyce</persName> n’est pas OuLiPien. Il ne suffit pas de comparer chaque chapitre
+          d’<persName ref="#ulysse">Ulysse</persName> à l’<title ref="#odyssee">Odyssée</title> pour
+        en faire une œuvre OuLiPienne.</p>
+      <p>PLUSIEURS (y compris <persName ref="#fll">LE LIONNAIS</persName>) : Justement ça se
+        discute. On souhaite une discussion sur ce point. Si on arrive à savoir pourquoi <persName
+          ref="#joyce">Joyce</persName> n’est pas OuLiPien, les principes de l’OuLiPo auront fait un
+        grand pas. Et ainsi de suite. (Nous voici aux principes qui font des pas, le Bordeaux, lui,
+        fait son effet.)</p>
+      <p><persName ref="#jb">BENS</persName> : En outre, moi, réitérant ce que je réclame depuis
+        plusieurs années, virgule, à la ligne, je déclare : « J’en ai marre des <term
+          ref="#structures">structures</term> donnant lieu à trois bouts de vers par-ci, par-là.
+        Est-il possible de trouver une x structure OuLiPienne qui permettre d’écrire un roman de 800
+        pages ? Tant qu’on n’aura pas répondu à cette question-là, on n’aura fait qu’améliorer
+        quelques jeux de société ». <lb/>(La grenade aussi s’améliore.)</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Je me permets de vous faire remarquer que l’on
+        trouve des structures romanesques fort élaborées dans l’essai de <persName ref="#ricardou"
+          >Ricardou</persName>. <lb/>Encore ne sont-elles pas OuLiPiennes.</p>
+      <p><persName ref="#jb">BENS</persName> : On l’a déjà dit. Mais pourquoi ? Remarquez, j’ai une
+        idée. Je crois que c’est leur côté « jeu de salon ». Ils trouvent leur fin dans le jeu. Leur
+        livre est l’histoire de leur livre. <lb/>(L’assistance reste baba.)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101296/f6.highres" n="6"/>
-      <p><persName ref="#fll">LE LIONNAIS</persName> : En vérité, la question est fondamentale, et mérite une étude des plus approfondies. Personnellement, je crois que la réponse se trouve dans la différence qui existe entre <term ref="#correspondances">correspondances</term> et <term ref="#morphismes">morphismes</term>.</p>
-      <p>On espère, ici et là, que le Président-Fondateur explicitera un jour cette lapidaire opinion. En attendant :</p>
-      <p><persName ref="#jl">LESCURE</persName> : Personnellement, je m’engage, quand <persName ref="#fll"><choice><abbr>F.L.L.</abbr><expan>François Le Lionnais</expan></choice></persName> aura écrit un texte sur correspondances et morphismes, à le ronéoter et à l’envoyer à tous les membres de l’OuLiPo.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : En vérité, la question est fondamentale, et
+        mérite une étude des plus approfondies. Personnellement, je crois que la réponse se trouve
+        dans la différence qui existe entre <term ref="#correspondances">correspondances</term> et
+          <term ref="#morphismes">morphismes</term>.</p>
+      <p>On espère, ici et là, que le Président-Fondateur explicitera un jour cette lapidaire
+        opinion. En attendant :</p>
+      <p><persName ref="#jl">LESCURE</persName> : Personnellement, je m’engage, quand <persName
+          ref="#fll"><choice>
+            <abbr>F.L.L.</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> aura écrit un texte sur correspondances et morphismes, à le ronéoter
+        et à l’envoyer à tous les membres de l’OuLiPo.</p>
       <p>On applaudit mollement, car il n’y a, évidemment, pas grand risque.</p>
-      <p><persName ref="#fll">Le Lionnais</persName> donne quelques compléments à son étude exhaustive sur « Qui est coupable ? » et continue d’engager tout un chacun à lui faire part de ses découvertes.</p>
-      <p>Revenant sur l’épineuse question ci-dessus, <persName ref="#jl">Lescure</persName> fait observer que si les correspondances et morphismes (à définir ultérieurement) permettent l’intégration à l’OuLiPo, que devra-t-on dire de <persName ref="#racine">Racine</persName> et <persName ref="#euripide">Euripide</persName>, <persName ref="#anouilh">Anouilh</persName> et <persName ref="#sophocle">Sophocle</persName>, exétéra ? On observe que la question reste posée. On observe même que le <term ref="#plagiat">plagiat</term> est laxiste, ce qui est fort. Voire que le <term ref="#plagiat">plagiat</term> pourrait être une des plus hautes formes de l’OuLiPo. On voit qu’un Congrès sur ce thème serait des plus nécessaires. Conclusion cependant positive :</p>
-      <p><persName ref="#rq">QUENEAU</persName> : L’OuLiPo, c’est comme la <term ref="#topologie">topologie</term>. (Vive admiration devant tous les couverts.) Pendant deux cents ans, ce n’était que simples jeux de l’esprit. Et puis, tout d’un coup, voilà que ça révolutionne les mathématiques. Donc, faut pas se décourager. <lb/>Personne n’y songe, bien entendu.</p>
+      <p><persName ref="#fll">Le Lionnais</persName> donne quelques compléments à son étude
+        exhaustive sur « Qui est coupable ? » et continue d’engager tout un chacun à lui faire part
+        de ses découvertes.</p>
+      <p>Revenant sur l’épineuse question ci-dessus, <persName ref="#jl">Lescure</persName> fait
+        observer que si les correspondances et morphismes (à définir ultérieurement) permettent
+        l’intégration à l’OuLiPo, que devra-t-on dire de <persName ref="#racine">Racine</persName>
+        et <persName ref="#euripide">Euripide</persName>, <persName ref="#anouilh"
+          >Anouilh</persName> et <persName ref="#sophocle">Sophocle</persName>, exétéra ? On observe
+        que la question reste posée. On observe même que le <term ref="#plagiat">plagiat</term> est
+        laxiste, ce qui est fort. Voire que le <term ref="#plagiat">plagiat</term> pourrait être une
+        des plus hautes formes de l’OuLiPo. On voit qu’un Congrès sur ce thème serait des plus
+        nécessaires. Conclusion cependant positive :</p>
+      <p><persName ref="#rq">QUENEAU</persName> : L’OuLiPo, c’est comme la <term ref="#topologie"
+          >topologie</term>. (Vive admiration devant tous les couverts.) Pendant deux cents ans, ce
+        n’était que simples jeux de l’esprit. Et puis, tout d’un coup, voilà que ça révolutionne les
+        mathématiques. Donc, faut pas se décourager. <lb/>Personne n’y songe, bien entendu.</p>
       <p>PROCHAINES DATES : vendredi 10 septembre <lb/>Mardi 26 octobre</p>
-      <p>(La seconde est plus importante, car on décide de lui octroyer la discussion sur les principes. Dites-le-vous.)</p>
+      <p>(La seconde est plus importante, car on décide de lui octroyer la discussion sur les
+        principes. Dites-le-vous.)</p>
     </body>
   </text>
 </TEI>

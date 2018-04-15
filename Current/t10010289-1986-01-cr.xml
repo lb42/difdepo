@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010289-1986-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010289-1986-01-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,20 +17,46 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010289-1986-01-cr</idno> <meeting xml:id="t10010289-1986-01">
-          <date when="1986-01-25">25/01/1986</date>
-          <placeName>chez Paul Fournier</placeName>
-          <list type="present">
-            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
-            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
-            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
-            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
-            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
-            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
-            <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
-            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010289-1986-01-cr</idno>
+          <meeting xml:id="t10010289-1986-01">
+            <date when="1986-01-25">25/01/1986</date>
+            <placeName>chez Paul Fournier</placeName>
+            <list type="present">
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fc"><choice>
+                    <abbr>FC</abbr>
+                    <expan>François Caradec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pb"><choice>
+                    <abbr>PB</abbr>
+                    <expan>Paul Braffort</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jj"><choice>
+                    <abbr>JJ</abbr>
+                    <expan>Jacques Jouet</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -45,55 +72,229 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102892/f2.highres" n="2"/>
       <p rend="incipit">OULIPO – Réunion du Samedi 25 janvier 1986 – 19h-23h</p>
-      <p>Présents : <persName ref="#pf">Paul Fournel</persName> qui reçoit avec <persName ref="#martine">Martine</persName>, <persName ref="#mb">Marcel Bénabou</persName>, <persName ref="#jb">Jacques Bens</persName>, <persName ref="#cb">Claude Berge</persName>, <persName ref="#pb">Paul Braffort</persName>, <persName ref="#fc">François Caradec</persName> qui préside, <persName ref="#jj">Jacques Jouet</persName> qui rapporte et <persName ref="#jr">Jacques Roubaud</persName> qui reprend trois fois du cabri massalé.</p>
+      <p>Présents : <persName ref="#pf">Paul Fournel</persName> qui reçoit avec <persName
+          ref="#martine">Martine</persName>, <persName ref="#mb">Marcel Bénabou</persName>,
+          <persName ref="#jb">Jacques Bens</persName>, <persName ref="#cb">Claude Berge</persName>,
+          <persName ref="#pb">Paul Braffort</persName>, <persName ref="#fc">François
+          Caradec</persName> qui préside, <persName ref="#jj">Jacques Jouet</persName> qui rapporte
+        et <persName ref="#jr">Jacques Roubaud</persName> qui reprend trois fois du cabri
+        massalé.</p>
       <p>On pense beaucoup aux absents.</p>
-      <p>Excusés : <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></p>
-      <p>Adresse du Président <persName ref="#na">Arnaud</persName> : un blâme au rapporteur de séance qui mentionne trop irrégulièrement le détail des matières de table. C’est vrai. Ça ne se reproduira plus. Les présents exigent d’être reçus à déjeuner par l’<orgName ref="#oucuipo">OuCuipo</orgName>.</p>
+      <p>Excusés : <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName></p>
+      <p>Adresse du Président <persName ref="#na">Arnaud</persName> : un blâme au rapporteur de
+        séance qui mentionne trop irrégulièrement le détail des matières de table. C’est vrai. Ça ne
+        se reproduira plus. Les présents exigent d’être reçus à déjeuner par l’<orgName
+          ref="#oucuipo">OuCuipo</orgName>.</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
         <item>Chaîne d’alexandrins. Un tas.</item>
-        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> exhibe <title ref="#lepalaisdescongres">Le palais des congrès</title>, qu’il a fait avec <persName ref="#bertin">Bertin</persName> : il s’agit d’écrire un texte sans accents et qu’un autre [texte] apparaisse si l’on superpose des accents. Ex : l’aine aime le rose avec le sale / L’aîné aime le rosé avec le salé.</item>
-        <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> a une moisson d’<term ref="#eodermdromes">eodermdromes</term> en langues anglaise. Il souhaite que soit invité (d’honneur) <persName ref="#mpetitot">M. Petitot</persName>, maître en théorie des <term ref="#catastrophes">catastrophes</term>. Il est en liaison avec le Pr. <persName ref="#delay">Delay</persName> (Illinois), adaptations oulipiennes possibles de la <term ref="#theoriedesjeu">théorie des jeux</term>.</item>
+        <item><persName ref="#jj"><choice>
+              <abbr>JJ</abbr>
+              <expan>Jacques Jouet</expan>
+            </choice></persName> exhibe <title ref="#lepalaisdescongres">Le palais des
+            congrès</title>, qu’il a fait avec <persName ref="#bertin">Bertin</persName> : il s’agit
+          d’écrire un texte sans accents et qu’un autre texte apparaisse si l’on superpose des
+          accents. Ex : l’aine aime le rose avec le sale / L’aîné aime le rosé avec le salé.</item>
+        <item><persName ref="#cb"><choice>
+              <abbr>CB</abbr>
+              <expan>Claude Berge</expan>
+            </choice></persName> a une moisson d’<term ref="#eodermdromes">eodermdromes</term> en
+          langues anglaise. Il souhaite que soit invité (d’honneur) <persName ref="#mpetitot">M.
+            Petitot</persName>, maître en théorie des <term ref="#catastrophes">catastrophes</term>.
+          Il est en liaison avec le Pr. <persName ref="#delay">Delay</persName> (Illinois),
+          adaptations oulipiennes possibles de la <term ref="#theoriedesjeu">théorie des
+          jeux</term>.</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> est invité à Milan par la <orgName ref="#montedison">Montedison</orgName> pour un hommage à <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName>, à l’occasion de sa traduction du <title ref="#styrene">Styrène</title> de <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName>.</item>
-        <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> apporte, de la part d’<persName ref="#emilie">Emilie</persName>, plusieurs articles de la presse italienne, à propos d’<persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName>.</item>
-        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> transmet, de la part de <persName ref="#jpbalpe">J. P. Balpe</persName> une proposition de la revue <title ref="#traverses">Traverses</title> (n° en cours sur le « Japanisme ») : écrire des textes français en utilisant les syllabes du japonais genre yamamoto kadératé… <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> propose de confier à tous la liste des dites syllabes : il doit les confier à <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> qui les fera suivre.</item>
-        <item>On rappelle les dates du <name ref="#stagedesaintquentin" type="manif">stage de Saint-Quentin</name> : 12, 13, 14 avril et festival de la nouvelle les 18 et 19 du même mois.</item>
-        <item>Tulle <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> et <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>. C’est parti. (Il y a un mois sur <persName ref="#rq">Queneau</persName>.)</item>
-        <item>Limoges demande <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>.</item>
+        <item><persName ref="#jr"><choice>
+              <abbr>JR</abbr>
+              <expan>Jacques Roubaud</expan>
+            </choice></persName> est invité à Milan par la <orgName ref="#montedison"
+            >Montedison</orgName> pour un hommage à <persName ref="#ic"><choice>
+              <abbr>IC</abbr>
+              <expan>Italo Calvino</expan>
+            </choice></persName>, à l’occasion de sa traduction du <title ref="#styrene"
+            >Styrène</title> de <persName ref="#rq"><choice>
+              <abbr>RQ</abbr>
+              <expan>Raymond Queneau</expan>
+            </choice></persName>.</item>
+        <item><persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName> apporte, de la part d’<persName ref="#emilie">Emilie</persName>,
+          plusieurs articles de la presse italienne, à propos d’<persName ref="#ic"><choice>
+              <abbr>IC</abbr>
+              <expan>Italo Calvino</expan>
+            </choice></persName>.</item>
+        <item><persName ref="#jj"><choice>
+              <abbr>JJ</abbr>
+              <expan>Jacques Jouet</expan>
+            </choice></persName> transmet, de la part de <persName ref="#jpbalpe">J. P.
+            Balpe</persName> une proposition de la revue <title ref="#traverses">Traverses</title>
+          (n° en cours sur le « Japanisme ») : écrire des textes français en utilisant les syllabes
+          du japonais genre yamamoto kadératé… <persName ref="#jr"><choice>
+              <abbr>JR</abbr>
+              <expan>Jacques Roubaud</expan>
+            </choice></persName> propose de confier à tous la liste des dites syllabes : il doit les
+          confier à <persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName> qui les fera suivre.</item>
+        <item>On rappelle les dates du <name ref="#stagedesaintquentin" type="manif">stage de
+            Saint-Quentin</name> : 12, 13, 14 avril et festival de la nouvelle les 18 et 19 du même
+          mois.</item>
+        <item>Tulle <persName ref="#jb"><choice>
+              <abbr>JB</abbr>
+              <expan>Jacques Bens</expan>
+            </choice></persName> et <persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName>. C’est parti. (Il y a un mois sur <persName ref="#rq"
+            >Queneau</persName>.)</item>
+        <item>Limoges demande <persName ref="#jr"><choice>
+              <abbr>JR</abbr>
+              <expan>Jacques Roubaud</expan>
+            </choice></persName>.</item>
         <item>Pau. Mais qui a parlé de Pau, si personne n’a rien à dire sur Pau ?</item>
-        <item>Mulhouse. Bibliothèque municipale, <name type="event">hommage à <persName ref="#gp">Perec</persName></name> . Un oulipien est demandé. <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> se précipite. Il a une amie non loin.</item>
-        <item>Un musée <persName ref="#restout">Rex Stout</persName> au Koweit. Personne n’est invité.</item>
-        <item>Hommage à <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName>, fin septembre 86 à Beaubourg. <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>.</item>
+        <item>Mulhouse. Bibliothèque municipale, <name type="event">hommage à <persName ref="#gp"
+              >Perec</persName></name> . Un oulipien est demandé. <persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName> se précipite. Il a une amie non loin.</item>
+        <item>Un musée <persName ref="#restout">Rex Stout</persName> au Koweit. Personne n’est
+          invité.</item>
+        <item>Hommage à <persName ref="#jq"><choice>
+              <abbr>JQ</abbr>
+              <expan>Jean Queval</expan>
+            </choice></persName>, fin septembre 86 à Beaubourg. <persName ref="#na"><choice>
+              <abbr>NA</abbr>
+              <expan>Noël Arnaud</expan>
+            </choice></persName>, <persName ref="#jr"><choice>
+              <abbr>JR</abbr>
+              <expan>Jacques Roubaud</expan>
+            </choice></persName>, <persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName>.</item>
         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102892/f3.highres" n="3"/>
-        <item>Cinquantenaire de la mort de <persName ref="#lordhornbee">Lord Hornbee</persName> (inventeur du meccano). <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>.</item>
+        <item>Cinquantenaire de la mort de <persName ref="#lordhornbee">Lord Hornbee</persName>
+          (inventeur du meccano). <persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName>.</item>
         <item>Sentence : « Le beau est oulipien ».</item>
       </list>
       <p><label type="rubrique">Bibliothèque oulipienne</label></p>
       <list type="unordered">
-        <item>: <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> La réimpression <persName ref="#ramsay">Ramsay</persName> doit paraître en septembre. Appel à tous ceux qui veulent faire des corrections à leurs <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> passées. Envoyez une photocopie corrigée à <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, pour le début MARS 86.</item>
-        <item>Débat sur le n° 30 (<title ref="#iiiemanifeste">IIIe manifeste</title> de <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>). Faut-il qu’il n’apparaisse qu’en Table des matières, ou qu’il y ait en plus la page de titre dans le volume, à sa place, suivie ou non d’une ou plusieurs pages blanches ? Avis divergents.</item>
-        <item>N° 29, 33 et 34 sous presse (<persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> et <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>).</item>
-        <item>Hommage <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>. <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> joindra MoN BeAU NeON. Rappel : réunion de février, dernier délai…</item>
-        <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> propose qu’une future <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> rassemble les objections d’oulipiens potentiels au <title ref="#iiiemanifeste">IIIe manifeste</title>. <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> y travaille, quand à lui.</item>
-        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> excuse <persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName>. On attend <title ref="#ultracrapidam">Ultra crapidam</title> pour la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Il paraît que c’est écrit sans contrainte. Hou ! C’est impossible.</item>
+        <item>: <persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName> La réimpression <orgName ref="#ramsay">Ramsay</orgName> doit
+          paraître en septembre. Appel à tous ceux qui veulent faire des corrections à leurs <title
+            ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> passées. Envoyez une
+          photocopie corrigée à <persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>, pour le début MARS 86.</item>
+        <item>Débat sur le n° 30 (<title ref="#iiiemanifeste">IIIe manifeste</title> de <persName
+            ref="#fll"><choice>
+              <abbr>FLL</abbr>
+              <expan>François Le Lionnais</expan>
+            </choice></persName>). Faut-il qu’il n’apparaisse qu’en Table des matières, ou qu’il y
+          ait en plus la page de titre dans le volume, à sa place, suivie ou non d’une ou plusieurs
+          pages blanches ? Avis divergents.</item>
+        <item>N° 29, 33 et 34 sous presse (<persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName>, <persName ref="#mm"><choice>
+              <abbr>MM</abbr>
+              <expan>Michele Métail</expan>
+            </choice></persName> et <persName ref="#mm"><choice>
+              <abbr>MM</abbr>
+              <expan>Michele Métail</expan>
+            </choice></persName>).</item>
+        <item>Hommage <persName ref="#fll"><choice>
+              <abbr>FLL</abbr>
+              <expan>François Le Lionnais</expan>
+            </choice></persName>. <persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName> joindra MoN BeAU NeON. Rappel : réunion de février, dernier
+          délai…</item>
+        <item><persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName> propose qu’une future <title ref="#bibliothequeoulipienne"
+            >Bibliothèque oulipienne</title> rassemble les objections d’oulipiens potentiels au
+            <title ref="#iiiemanifeste">IIIe manifeste</title>. <persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName> y travaille, quand à lui.</item>
+        <item><persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName> excuse <persName ref="#jl"><choice>
+              <abbr>JL</abbr>
+              <expan>Jean Lescure</expan>
+            </choice></persName>. On attend <title ref="#ultracrapidam">Ultra crapidam</title> pour
+          la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Il paraît que
+          c’est écrit sans <term ref="#contrainte">contrainte</term>. Hou ! C’est impossible.</item>
       </list>
       <p><label type="rubrique">Erudition :</label></p>
       <list type="unordered">
-        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <term ref="#alva">Alva</term> ( <term ref="#notionalphonseallaisienne">notion alphonseallaisienne</term> de « minimum de douze syllabes garanti »).</item>
-        <item>J’ai oublié de mentionner que <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> nous a tenus en haleine en nous rapportant divers <term ref="#systemesderecits">systèmes de récits</term> <term ref="#aallaisiens">a.allaisiens</term>.</item>
-        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <term ref="#alva">Alva</term> encore, encore <persName ref="#aallais">A. Allais</persName>.</item>
-        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> Poèmes monorimes. <persName ref="#francnohain">Franc-Nohain</persName>.</item>
-        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <term ref="#monovocalisme">monovocalisme</term> en a (+ qq. E) par <persName ref="#merall">Mérall</persName> et <persName ref="#rip">Rip</persName>. Fameux <term ref="#plagiaireparanticipation">plagiaire par anticipation</term> de <title ref="#whataman">What a man</title></item>
+        <item><persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName>
+          <term ref="#alva">Alva</term> ( <term ref="#notionalphonseallaisienne">notion
+            alphonseallaisienne</term> de « minimum de douze syllabes garanti »).</item>
+        <item>J’ai oublié de mentionner que <persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName> nous a tenus en haleine en nous rapportant divers <term
+            ref="#systemesderecits">systèmes de récits</term>
+          <term ref="#aallaisiens">a.allaisiens</term>.</item>
+        <item><persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName>
+          <term ref="#alva">Alva</term> encore, encore <persName ref="#aallais">A.
+          Allais</persName>.</item>
+        <item><persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName> Poèmes monorimes. <persName ref="#francnohain"
+            >Franc-Nohain</persName>.</item>
+        <item><persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName>
+          <term ref="#monovocalisme">monovocalisme</term> en a (+ qq. E) par <persName ref="#merall"
+            >Mérall</persName> et <persName ref="#rip">Rip</persName>. Fameux <term
+            ref="#plagiaireparanticipation">plagiaire par anticipation</term> de <title
+            ref="#whataman">What a man</title></item>
       </list>
       <p><label type="rubrique">Menus propos :</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> trésor OuLipo. Ça dort, ça dort.</item>
-        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> termine (mais c’est une création) par une chanson qu’il nous chante et dont les rimes sont radicalement neuves.</item>
-        <item>On but du punch coco, assis en chauffe-galet sous des anacardiers. On mangea (dans l’ordre canonique) : le riz, le grain (haricots rouges), cabri massalé, bred (ce sont légumes en salade) ; Fromages ; Mousse au chocolat. On but du Bois des Mattes.</item>
-        <item>Un mois plus tôt, cher Président, c’était Salades composées ; magrets de canard aux légumes et sauces d’oranges ; Salade verte ; Fromages ; Iles flottantes. On but du Graves et du blanc doux de Layon.</item>
+        <item><persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName> trésor OuLipo. Ça dort, ça dort.</item>
+        <item><persName ref="#fc"><choice>
+              <abbr>FC</abbr>
+              <expan>François Caradec</expan>
+            </choice></persName> termine (mais c’est une création) par une chanson qu’il nous chante
+          et dont les rimes sont radicalement neuves.</item>
+        <item>On but du punch coco, assis en chauffe-galet sous des anacardiers. On mangea (dans
+          l’ordre canonique) : le riz, le grain (haricots rouges), cabri massalé, bred (ce sont
+          légumes en salade) ; Fromages ; Mousse au chocolat. On but du Bois des Mattes.</item>
+        <item>Un mois plus tôt, cher Président, c’était Salades composées ; magrets de canard aux
+          légumes et sauces d’oranges ; Salade verte ; Fromages ; Iles flottantes. On but du Graves
+          et du blanc doux de Layon.</item>
       </list>
     </body>
   </text>
