@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010321-1988-11-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010321-1988-11-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,30 +17,16 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010321-1988-11-cr</idno>
-          <meeting xml:id="t10010321-1988-11">
-            <date when="1988-11-24">24/11/1988</date>
-            <placeName>chez JJ</placeName>
-            <list type="present">
-              <item><persName ref="#pf"><choice>
-                    <abbr>PF</abbr>
-                    <expan>Paul Fournel</expan>
-                  </choice></persName></item>
-              <item><persName ref="#mm"><choice>
-                    <abbr>MM</abbr>
-                    <expan>Michele Métail</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jr"><choice>
-                    <abbr>JR</abbr>
-                    <expan>Jacques Roubaud</expan>
-                  </choice></persName></item>
-              <item><persName ref="#mb"><choice>
-                    <abbr>MB</abbr>
-                    <expan>Marcel Bénabou</expan>
-                  </choice></persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010321-1988-11-cr</idno> <meeting xml:id="t10010321-1988-11">
+          <date when="1988-11-24">24 novembre 1988</date>
+          <placeName>chez JJ</placeName>
+          <list type="present">
+            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -58,130 +44,40 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010321c/f10.highres" n="10"/>
       <p rend="incipit">Séance 338</p>
-      <p rend="incipit">Présents : <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>, <persName ref="#jj"><choice>
-            <abbr>JJ</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName>, <persName ref="#mm"><choice>
-            <abbr>MM</abbr>
-            <expan>Michele Métail</expan>
-          </choice></persName>, <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>, <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName>, <persName ref="#cb"><choice>
-            <abbr>CB</abbr>
-            <expan>Claude Berge</expan>
-          </choice></persName>, <persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName> (mais non absent)</p>
-      <p rend="incipit">Absents : <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName>, <persName ref="#jl"><choice>
-            <abbr>JL</abbr>
-            <expan>Jean Lescure</expan>
-          </choice></persName>, <persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName>, <persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> (mais non absent)</p>
+      <p rend="incipit">Absents : <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#jj"><choice>
-              <abbr>JJ</abbr>
-              <expan>Jacques Jouet</expan>
-            </choice></persName>
-          <list type="unordered">
-            <item><term ref="#poemesdimorphes">Poèmes dimorphes</term> : <list type="ordered">
-                <item><term ref="#haiku">Haiku</term> + <term ref="#aleandrinmonostique">alexandrin
-                    monostique</term> (passage de 17 à 12 syllabes)</item>
-                <item><term ref="#triolet">triolet</term> + <term ref="#moraleelementaire">morale
-                    élémentaire</term></item>
-              </list>
-            </item>
-            <item><term ref="#filigrane">Filigrane</term> Chine</item>
-          </list>
-        </item>
-        <item><persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName> « Autour du <title ref="#jemesouviens">je me souviens</title> » :
-          présentation du « <title ref="#peutetre">Peut-être</title> »</item>
+        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> <list type="unordered">
+          <item><term ref="../thesauri/terms.xml#poemesdimorphes">Poèmes dimorphes</term> : <list type="ordered">
+            <item><term ref="../thesauri/terms.xml#haiku">Haiku</term> + <term ref="../thesauri/terms.xml#alexandrinmonostique">alexandrin monostique</term> (passage de 17 à 12 syllabes)</item>
+            <item><term ref="../thesauri/terms.xml#triolet">triolet</term> + <term ref="../thesauri/terms.xml#moraleelementaire">morale élémentaire</term></item>
+            </list> </item>
+          <item><term ref="../thesauri/terms.xml#filigrane">Filigrane</term> Chine</item>
+          </list> </item>
+        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> « Autour du <title ref="../thesauri/titles.xml#jemesouviens">je me souviens</title> » : présentation du « <title ref="../thesauri/titles.xml#peutetre">Peut-être</title> »</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName>
-          <term ref="#lipogrammesespagnols">Lipogrammes espagnols</term></item>
-        <item><persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName>
-          <persName ref="#ppa"><choice>
-              <abbr>PPA</abbr>
-              <expan>PPA</expan>
-            </choice></persName> (de <persName ref="#sarasin">Sarasin</persName>) : <term
-            ref="#tireurauquatrain">tireur au quatrain</term></item>
-        <item><persName ref="#jr"><choice>
-              <abbr>JR</abbr>
-              <expan>Jacques Roubaud</expan>
-            </choice></persName>
-          <title ref="#lecertamecoronario">le Certame Coronario</title> : poème à lecture verticale
-          et horizontale</item>
-        <item><persName ref="#fc"><choice>
-              <abbr>FC</abbr>
-              <expan>François Caradec</expan>
-            </choice></persName> (représenté par <persName ref="#jj"><choice>
-              <abbr>JJ</abbr>
-              <expan>Jacques Jouet</expan>
-            </choice></persName>) <title ref="#bardesetcordes">Bardes et cordes</title></item>
-        <item><persName ref="#jj"><choice>
-              <abbr>JJ</abbr>
-              <expan>Jacques Jouet</expan>
-            </choice></persName> Présentation d’un travail de <persName ref="#atchungui">A.
-            Tchungui</persName>: jeu sur le haut et les bas des lettres</item>
+        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <term ref="../thesauri/terms.xml#lipogrammesespagnols">Lipogrammes espagnols</term></item>
+        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#ppa"><abbr>PPA</abbr></persName> (de <persName ref="../thesauri/persons.xml#sarasin">Sarasin</persName>) : <term ref="../thesauri/terms.xml#tireurauquatrain">tireur au quatrain</term></item>
+        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> <title ref="../thesauri/titles.xml#lecertamecoronario">le Certame Coronario</title> : poème à lecture verticale et horizontale</item>
+        <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> (représenté par <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> ) <title ref="../thesauri/titles.xml#bardesetcordes">Bardes et cordes</title></item>
+        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> Présentation d’un travail de <persName ref="../thesauri/persons.xml#atchungui">A. Tchungui</persName>: jeu sur le haut et les bas des lettres</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName> Limons</item>
-        <item><persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName> Francfort</item>
+        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Limons</item>
+        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Francfort</item>
       </list>
       <p>(Considérations désabusées sur la décadence de l’enseignement)</p>
-      <p><persName ref="#jj"><choice>
-            <abbr>JJ</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName> Florence 20-21 Avril</p>
-      <p><name ref="#corbeilsemaineromanpolicier" type="manif">Corbeil : semaine roman
-          policier </name>: <name ref="#lectureouliposurlarime" type="manif">lecture Oulipo sur la
-          Rime</name>
-        <unclear>*</unclear></p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> Florence 20-21 Avril</p>
+      <p><name ref="../thesauri/events.xml#corbeilsemaineromanpolicier" type="manif">Corbeil : semaine roman policier </name>: <name ref="../thesauri/events.xml#lectureouliposurlarime" type="manif">lecture Oulipo sur la Rime</name> <unclear>*</unclear></p>
       <p>23 24 mars</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> l’amour</p>
-      <p><persName ref="#paulhan">Paulhan</persName></p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> l’amour</p>
+      <p><persName ref="../thesauri/persons.xml#paulhan">Paulhan</persName></p>
       <p>prochaine réunion 16 12</p>
     </body>
   </text>

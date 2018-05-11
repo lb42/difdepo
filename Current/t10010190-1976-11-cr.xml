@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010190-1976-11-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010190-1976-11-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,19 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010190-1976-11-cr</idno>
-          <meeting xml:id="t10010190-1976-11">
-            <date when="1976-11-25">25/11/1976</date>
-            <placeName>chez MB</placeName>
-            <list type="present">
-              <item><persName ref="#na" role="président"><choice>
-                    <abbr>NA</abbr>
-                    <expan>Noël Arnaud</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jeanparis" role="invité">Jean Paris</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010190-1976-11-cr</idno> <meeting xml:id="t10010190-1976-11">
+          <date when="1976-11-25">25 novembre 1976</date>
+          <placeName>chez MB</placeName>
+          <list type="present">
+            <item><persName ref="../thesauri/persons.xml#na" role="président"><abbr>NA</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jeanparis" role="invité">Jean Paris</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -48,330 +43,112 @@
   </teiHeader>
   <text type="cr">
     <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101902/f2.highres" n="2"/>
-      <p>2</p>
-      <p><title ref="#volume">volume 2</title>
-        <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> : Appel de créations / éruditions / documents.</p>
-      <p><title ref="#oulipo">oulipo</title>
-        <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> : sortir des discussions les <term ref="#structures"
-          >structures</term> proposées.</p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> : Date limite pour textes et documents Mai 77</p>
-      <p>EDITEUR <persName ref="#pf"><choice>
-            <abbr>P.F.</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName></p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> A titre privé : <persName ref="#rq"><choice>
-            <abbr>RQ</abbr>
-            <expan>Raymond Queneau</expan>
-          </choice></persName> enterré au cimetière de JUVISY</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> demandera à <persName ref="#jeanmarie">Jean Marie</persName> si l’on
-        peut avoir des textes inédits.</p>
-      <p>Avenir de l’<title ref="#encyclopedie">Encyclopédie</title> ?</p>
-      <p>(<persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName> menu propos sur <persName ref="#malrau">Malraux</persName>)</p>
-      <p><persName ref="#tournois">Tournois</persName>
-        <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> : <persName ref="#btournois">B. Tournois</persName> veut un
-        devis.</p>
-      <p>Mettre <persName ref="#rameil">Rameil</persName> sur le coup pour l’expo &lt; Chambre
-        individuelle, repas correct.</p>
-      <list type="unordered">
-        <item>frais payés</item>
-        <item>3 jours <unclear>*</unclear> : 2000 francs 78 personnes 3 jours – 1000 francs /
-          pièce ?</item>
-      </list>
-      <p><orgName ref="#pompidou">Pompidou</orgName>
-        <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> : 1<hi rend="sup">e</hi> événement prévu pour <orgName
-          ref="#pompidou">Pompidou</orgName> :</p>
-      <p>1 vitrine <persName ref="#rq">Queneau</persName> au <orgName ref="#sebasto"
-          >Sébasto</orgName> (ou à l’intérieur)</p>
-      <p>2<hi rend="sup">e</hi> chose : inauguration du <orgName ref="#centrepompidou">centre
-          Pompidou</orgName> en Janvier 77</p>
-      <p>Démonstrations ordinateurs-oulipo.</p>
-      <p><title ref="#n114">10<hi rend="sup">14</hi></title></p>
-      <p><term ref="#nouvelleaprogramme">Nouvelle à programme</term></p>
-      <p><name ref="#presentationnouvelleaprogramme" type="manif">Présentation <term
-            ref="#nouvelleaprogramme">Nouvelle à programme</term></name>
-        <persName ref="#pf">P. Fournel</persName></p>
-      <p>
-        <name ref="#epositionblaisegautier" type="manif">Exposition <persName ref="#blaisegautier"
-            >Blaise Gautier</persName></name> : Prévue pour Juin 77</p>
-      <p>20 000 francs pour une expo-conférence de 2 jours en juin.</p>
-      <p>Perte de l’<term ref="#arbreatheatre">Arbre à Théâtre</term> – refaire comme Bruxelles</p>
-      <list type="unordered">
-        <item>donner 6000 francs à <persName ref="#pf"><choice>
-              <abbr>PF</abbr>
-              <expan>Paul Fournel</expan>
-            </choice></persName> pour l’organisation globale</item>
-        <item>faire quelques frais</item>
-        <item>garder le reste pour la <title ref="#bibliothequeoulipienne">Bibliothèque
-            oulipienne</title></item>
-      </list>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101902/f3.highres" n="3"/>
-      <p rend="incipit">25 NOV. 76 <persName ref="#na">Arnaud</persName> Président 12 présents</p>
-      <p rend="incipit">Absents : <persName ref="#jl">Lescure</persName>, <persName ref="#mm"
-          >Métail</persName> 1</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> parle de son <title ref="#n3emanifeste">3e manifeste</title>. Il
-        attend <persName ref="#benaboujean">Bénabou (Jean)</persName> mais <persName ref="#jr">J
-          Roubaud</persName> pourra le remplacer. Il est pressé par tous d’avancer son travail.</p>
-      <p><title ref="#scientificamerican">Scientific American</title>
-        <persName ref="#hm"><choice>
-            <abbr>HM </abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName> Action : <persName ref="#martingardner">Martin Gardner</persName> va
-        consacrer son article de « <title ref="#scientificamerican">Scientific American</title> » de
-        Février à l’Oulipo.</p>
-      <p>(La gloire) Suite à l’article de <persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName> dans <title ref="#worldways">World Ways</title>
-        <persName ref="#am"><choice>
-            <abbr>AM</abbr>
-            <expan>AM</expan>
-          </choice></persName> va rencontrer <persName ref="#martingardner">Martin
-          Gardner</persName> à New York la semaine prochaine.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101902/f3.highres" n="2"/>
+      <p rend="incipit">25 NOV. 76 <persName ref="../thesauri/persons.xml#na">Arnaud</persName> Président 12 présents</p>
+      <p rend="incipit">Absents : <persName ref="../thesauri/persons.xml#jl">Lescure</persName>, <persName ref="../thesauri/persons.xml#mm">Métail</persName> 1</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> parle de son <title ref="../thesauri/titles.xml#n3emanifeste">3e manifeste</title>. Il attend <persName ref="../thesauri/persons.xml#benaboujean">Bénabou (Jean)</persName> mais <persName ref="../thesauri/persons.xml#jr">J Roubaud</persName> pourra le remplacer. Il est pressé par tous d’avancer son travail.</p>
+      <p><title ref="../thesauri/titles.xml#scientificamerican">Scientific American</title> <persName ref="../thesauri/persons.xml#hm"><abbr>HM </abbr></persName> Action : <persName ref="../thesauri/persons.xml#martingardner">Martin Gardner</persName> va consacrer son article de « <title ref="../thesauri/titles.xml#scientificamerican">Scientific American</title> » de Février à l’Oulipo.</p>
+      <p>(La gloire) Suite à l’article de <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> dans <title ref="../thesauri/titles.xml#worldways">World Ways</title> <persName ref="../thesauri/persons.xml#am"><abbr>AM</abbr></persName> va rencontrer <persName ref="../thesauri/persons.xml#martingardner">Martin Gardner</persName> à New York la semaine prochaine.</p>
       <p>lecture de la 1<hi rend="sup">e</hi> version de l’article.</p>
-      <p>Problème autour de la notion de <term ref="#hasard">hasard</term>.</p>
-      <p>Cris divers : l’oulipo c’est l’<term ref="#antihasard">anti-hasard</term>.</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> rappelle la position de <persName ref="#rq"><choice>
-            <abbr>RQ</abbr>
-            <expan>Raymond Queneau</expan>
-          </choice></persName> sur la question.</p>
-      <p>Cf article de <persName ref="#nadaud">Nadaud</persName> dans le dernier numéro de <title
-          ref="#laquinzaine">La Quinzaine</title> texte de <persName ref="#rq"><choice>
-            <abbr>RQ</abbr>
-            <expan>Raymond Queneau</expan>
-          </choice></persName> sur l’<term ref="#ecritureautomatique">écriture
-        automatique</term>.</p>
-      <p>offrir à <persName ref="#gardner">Gardner</persName> un exemplaire de chaque volume de la
-          <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> (et une photo insiste
-          <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName>).</p>
-      <p><title ref="#specialqueneau">Spécial Queneau</title> : Rapport de <persName ref="#pf">Paul
-          Fournel</persName> = il a reçu les participations de tous sauf de <persName ref="#mm">M.
-          Métail.</persName></p>
-      <p>les différents propositions de <persName ref="#ab">Blavier</persName> à choisir.</p>
-      <p><persName ref="#jq">Queval</persName> : propose qu’on fasse un cahier <persName ref="#rq"
-          >Queneau</persName> beaucoup plus développé et avec des textes non signés.</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> est contre l’anonymat, il propose qu’on fasse des textes avec des
-          <term ref="#structuresnouvelles">structures nouvelles</term></p>
+      <p>Problème autour de la notion de <term ref="../thesauri/terms.xml#hasard">hasard</term>.</p>
+      <p>Cris divers : l’oulipo c’est l’<term ref="../thesauri/terms.xml#antihasard">anti-hasard</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> rappelle la position de <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> sur la question.</p>
+      <p>Cf article de <persName ref="../thesauri/persons.xml#nadaud">Nadaud</persName> dans le dernier numéro de <title ref="../thesauri/titles.xml#laquinzaine">La Quinzaine</title> texte de <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> sur l’<term ref="../thesauri/terms.xml#ecritureautomatique">écriture automatique</term>.</p>
+      <p>offrir à <persName ref="../thesauri/persons.xml#gardner">Gardner</persName> un exemplaire de chaque volume de la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> (et une photo insiste <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> ).</p>
+      <p><title ref="../thesauri/titles.xml#specialqueneau">Spécial Queneau</title> : Rapport de <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> = il a reçu les participations de tous sauf de <persName ref="../thesauri/persons.xml#mm">M. Métail.</persName></p>
+      <p>les différents propositions de <persName ref="../thesauri/persons.xml#ab">Blavier</persName> à choisir.</p>
+      <p><persName ref="../thesauri/persons.xml#jq">Queval</persName> : propose qu’on fasse un cahier <persName ref="../thesauri/persons.xml#rq">Queneau</persName> beaucoup plus développé et avec des textes non signés.</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> est contre l’anonymat, il propose qu’on fasse des textes avec des <term ref="../thesauri/terms.xml#structuresnouvelles">structures nouvelles</term></p>
       <p>les présents justifient leur choix</p>
       <p>on demande à chacun de donner la clef.</p>
       <list type="unordered">
-        <item>On prend des décisions : une sous-commission est nommée : <persName ref="#pf">P.
-            Fournel</persName> – <persName ref="#gp">G. Perec</persName>.</item>
-        <item>Manquent <persName ref="#fll"><choice>
-              <abbr>FLL</abbr>
-              <expan>François Le Lionnais</expan>
-            </choice></persName> – <persName ref="#mm">Métail</persName> – <persName ref="#jd"
-            >Duchateau</persName> – <persName ref="#cb">Berge</persName></item>
+        <item>On prend des décisions : une sous-commission est nommée : <persName ref="../thesauri/persons.xml#pf">P. Fournel</persName> – <persName ref="../thesauri/persons.xml#gp">G. Perec</persName>.</item>
+        <item>Manquent <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> – <persName ref="../thesauri/persons.xml#mm">Métail</persName> – <persName ref="../thesauri/persons.xml#jd">Duchateau</persName> – <persName ref="../thesauri/persons.xml#cb">Berge</persName></item>
       </list>
-      <p><persName ref="#pb">Braffort</persName> : propose de reprendre un texte de <persName
-          ref="#la">Latis</persName> sur <persName ref="#rq">Queneau</persName> (<term
-          ref="#livreenformedetrapeze">livre en forme de trapèze)</term></p>
+      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : propose de reprendre un texte de <persName ref="../thesauri/persons.xml#la">Latis</persName> sur <persName ref="../thesauri/persons.xml#rq">Queneau</persName> (<term ref="../thesauri/terms.xml#livreenformedetrapeze">livre en forme de trapèze)</term></p>
       <p>analyse ce texte.</p>
       <p>on évoque le problème général de la représentation des « absents »</p>
       <p>problème du titre : oulipo</p>
-      <p><title ref="#pourraymondqueneau">Pour Raymond Queneau</title></p>
+      <p><title ref="../thesauri/titles.xml#pourraymondqueneau">Pour Raymond Queneau</title></p>
       <p>Pas de texte des morts</p>
       <p>Pas de texte des étrangers.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101902/f2.highres" n="3"/>
+      <p>2</p>
+      <p><title ref="../thesauri/titles.xml#volume2">volume 2</title> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Appel de créations / éruditions / documents.</p>
+      <p><title ref="../thesauri/titles.xml#oulipo">oulipo</title> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : sortir des discussions les <term ref="../thesauri/terms.xml#structures">structures</term> proposées.</p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Date limite pour textes et documents Mai 77</p>
+      <p>EDITEUR <persName ref="../thesauri/persons.xml#pf"><abbr>P.F.</abbr></persName></p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> A titre privé : <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> enterré au cimetière de JUVISY</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> demandera à <persName ref="../thesauri/persons.xml#jeanmarie">Jean Marie</persName> si l’on peut avoir des textes inédits.</p>
+      <p>Avenir de l’<title ref="../thesauri/titles.xml#encyclopedie">Encyclopédie</title> ?</p>
+      <p>(<persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> menu propos sur <persName ref="../thesauri/persons.xml#malraux">Malraux</persName>)</p>
+      <p><persName ref="../thesauri/persons.xml#tournois">Tournois</persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <persName ref="../thesauri/persons.xml#btournois">B. Tournois</persName> veut un devis.</p>
+      <p>Mettre <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> sur le coup pour l’expo &lt; Chambre individuelle, repas correct.</p>
+      <list type="unordered">
+        <item>frais payés</item>
+        <item>3 jours <unclear>*</unclear> : 2000 francs 78 personnes 3 jours – 1000 francs / pièce ?</item>
+      </list>
+      <p><orgName ref="../thesauri/organizations.xml#pompidou">Pompidou</orgName> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : 1<hi rend="sup">e</hi> événement prévu pour <orgName ref="../thesauri/organizations.xml#pompidou">Pompidou</orgName> :</p>
+      <p>1 vitrine <persName ref="../thesauri/persons.xml#rq">Queneau</persName> au <orgName ref="../thesauri/organizations.xml#sebasto">Sébasto</orgName> (ou à l’intérieur)</p>
+      <p>2<hi rend="sup">e</hi> chose : inauguration du <orgName ref="../thesauri/organizations.xml#centrepompidou">centre Pompidou</orgName> en Janvier 77</p>
+      <p>Démonstrations ordinateurs-oulipo.</p>
+      <p><title ref="../thesauri/titles.xml#n1014">10<hi rend="sup">14</hi></title></p>
+      <p><term ref="../thesauri/terms.xml#nouvelleaprogramme">Nouvelle à programme</term></p>
+      <p><name ref="../thesauri/events.xml#presentationnouvelleaprogramme" type="manif">Présentation <term ref="../thesauri/terms.xml#nouvelleaprogramme">Nouvelle à programme</term></name> <persName ref="../thesauri/persons.xml#pf">P. Fournel</persName></p>
+      <p><name ref="../thesauri/events.xml#expositionblaisegautier" type="manif">Exposition <persName ref="../thesauri/persons.xml#blaisegautier">Blaise Gautier</persName></name> : Prévue pour Juin 77</p>
+      <p>20 000 francs pour une expo-conférence de 2 jours en juin.</p>
+      <p>Perte de l’<term ref="../thesauri/terms.xml#arbreatheatre">Arbre à Théâtre</term> – refaire comme Bruxelles</p>
+      <list type="unordered">
+        <item>donner 6000 francs à <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> pour l’organisation globale</item>
+        <item>faire quelques frais</item>
+        <item>garder le reste pour la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+      </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101902/f4.highres" n="4"/>
       <p>3</p>
-      <p><persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> demande aux secrétaires de rappeler toutes les <term
-          ref="#structures">structures</term> proposées ces 4 dernières années.</p>
-      <p><persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName> l’essentiel est de gagner 10000 francs net pour la <title
-          ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <p>(chacun rétrocédant ses cachets à la <title ref="#bibliothequeoulipienne">Bibliothèque
-          oulipienne</title>)</p>
-      <p><persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName> A Bruxelles <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> et moi nous avons travaillé plus que tous les autres, il faudrait
-        être payé.</p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> Sur les 20 000 : 10 000 pour la <title ref="#bibliothequeoulipienne"
-          >Bibliothèque oulipienne</title></p>
+      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> demande aux secrétaires de rappeler toutes les <term ref="../thesauri/terms.xml#structures">structures</term> proposées ces 4 dernières années.</p>
+      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> l’essentiel est de gagner 10000 francs net pour la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+      <p>(chacun rétrocédant ses cachets à la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>)</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> A Bruxelles <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> et moi nous avons travaillé plus que tous les autres, il faudrait être payé.</p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> Sur les 20 000 : 10 000 pour la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
       <p>Et 10 000 à répartir cachets + frais.</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> Inauguration <orgName ref="#pompidou">Pompidou</orgName> coïncidera
-        avec 1 grande <name ref="#epositionmarcelduchamp" type="manif">exposition <persName
-            ref="#md">Marcel Duchamp</persName></name> .</p>
-      <p>1 article de <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> sur ses souvenirs avec <persName ref="#md">Duchamp</persName></p>
-      <p><persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName> : Pour l’expo à <orgName ref="#pompidou">Pompidou</orgName> il faut
-        exiger : des vitrines fermées et une assurance.</p>
-      <p><persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName> Aller au-delà de <name ref="#bruelles" type="manif"
-        >Bruxelles</name>.</p>
-      <p>Demander à <persName ref="#carelman">Carelman</persName> de faire les dessins pour
-        l’expo.</p>
-      <p>Discussion reportée au juin où la lettre de <persName ref="#bordaz">BORDAZ</persName>
-        arrivera</p>
-      <p><title ref="#orbor">OR BOR</title>
-        <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> signale l’existence de <persName ref="#or">OR</persName>
-        <persName ref="#bor">BOR</persName> revue de <persName ref="#borzic">Borzic</persName>.</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> Son avenir ?</p>
-      <p><persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> demander à <persName ref="#borzic">Borzic</persName> si <persName
-          ref="#satie">Satie</persName>-<persName ref="#rq">Queneau</persName> possible plutôt que
-          <persName ref="#rq">Queneau</persName>-goulag ?</p>
-      <p><persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName> l’oulipo veut-il faire de l’antisoviétisme ?</p>
-      <p><persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> Nous écrirons sur le goulag lorsque les russes auront écrit sur
-        l’oulipo.</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> Inauguration <orgName ref="../thesauri/organizations.xml#pompidou">Pompidou</orgName> coïncidera avec 1 grande <name ref="../thesauri/events.xml#expositionmarcelduchamp" type="manif">exposition <persName ref="../thesauri/persons.xml#md">Marcel Duchamp</persName></name>.</p>
+      <p>1 article de <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> sur ses souvenirs avec <persName ref="../thesauri/persons.xml#md">Duchamp</persName></p>
+      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>  : Pour l’expo à <orgName ref="../thesauri/organizations.xml#pompidou">Pompidou</orgName> il faut exiger : des vitrines fermées et une assurance.</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> Aller au-delà de <name ref="../thesauri/events.xml#bruxelles" type="manif">Bruxelles</name>.</p>
+      <p>Demander à <persName ref="../thesauri/persons.xml#carelman">Carelman</persName> de faire les dessins pour l’expo.</p>
+      <p>Discussion reportée au juin où la lettre de <persName ref="../thesauri/persons.xml#bordaz">BORDAZ</persName> arrivera</p>
+      <p><title ref="../thesauri/titles.xml#orbor">OR BOR</title> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> signale l’existence de <persName ref="../thesauri/persons.xml#or">OR</persName> <persName ref="../thesauri/persons.xml#bor">BOR</persName> revue de <persName ref="../thesauri/persons.xml#borzic">Borzic</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> Son avenir ?</p>
+      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> demander à <persName ref="../thesauri/persons.xml#borzic">Borzic</persName> si <persName ref="../thesauri/persons.xml#satie">Satie</persName>-<persName ref="../thesauri/persons.xml#rq">Queneau</persName> possible plutôt que <persName ref="../thesauri/persons.xml#rq">Queneau</persName>-goulag ?</p>
+      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> l’oulipo veut-il faire de l’antisoviétisme ?</p>
+      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> Nous écrirons sur le goulag lorsque les russes auront écrit sur l’oulipo.</p>
       <p>Bruits divers.</p>
-      <p><title ref="#cahiersqueneau">Cahiers <persName ref="#rq">Queneau</persName></title>
-        <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> : Les cahiers sont une vieille idée de <persName ref="#rameil"
-          >Rameil</persName> (bibliographe de <persName ref="#rq">Queneau</persName>)</p>
-      <p>publication périodique consacrée à <persName ref="#rq">Queneau</persName></p>
-      <p>2 types de publication &lt; inédits de <persName ref="#rq"><choice>
-            <abbr>RQ</abbr>
-            <expan>Raymond Queneau</expan>
-          </choice></persName></p>
-      <p>textes sur <persName ref="#rq"><choice>
-            <abbr>RQ</abbr>
-            <expan>Raymond Queneau</expan>
-          </choice></persName> (études) par thèmes</p>
+      <p><title ref="../thesauri/titles.xml#cahiersqueneau">Cahiers <persName ref="../thesauri/persons.xml#rq">Queneau</persName></title> <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : Les cahiers sont une vieille idée de <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> (bibliographe de <persName ref="../thesauri/persons.xml#rq">Queneau</persName>)</p>
+      <p>publication périodique consacrée à <persName ref="../thesauri/persons.xml#rq">Queneau</persName></p>
+      <p>2 types de publication &lt; inédits de <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></p>
+      <p>textes sur <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> (études) par thèmes</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101902/f5.highres" n="5"/>
       <p>4</p>
       <p>Problème : trouver 1 éditeur.</p>
-      <p><orgName ref="#gallimard">Gallimard</orgName> ? De toute façon <persName ref="#jeanmarie"
-          >Jean Marie</persName> d’abord.</p>
-      <p>Autre possibilité : <title ref="#tempsmeles">Temps mêlés</title>.</p>
-      <p><persName ref="#ab">Blavier</persName> va fermer pourquoi le dernier <title ref="#tm">TEMPS
-          MELES</title> ne serait-il pas le premier <title ref="#cahierqueneau">cahier <persName
-            ref="#rq">Queneau</persName></title> ?</p>
-      <p><persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName> Faut-il essayer de racheter les droits à <orgName ref="#gallimard"
-          >Gallimard</orgName> ?</p>
-      <p><persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> ce serait étonnant. Quel intérêt ?</p>
-      <p><persName ref="#ic"><choice>
-            <abbr>IC</abbr>
-            <expan>Italo Calvino</expan>
-          </choice></persName> Qui a les droits de <persName ref="#rq">Queneau</persName> ?</p>
-      <p><persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> Problème à voir avec <persName ref="#jeanmarie">Jean
-        Marie</persName>.</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>
-        <persName ref="#rameil">Rameil</persName> va faire un projet complet pour éditeurs.</p>
+      <p><orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName> ? De toute façon <persName ref="../thesauri/persons.xml#jeanmarie">Jean Marie</persName> d’abord.</p>
+      <p>Autre possibilité : <title ref="../thesauri/titles.xml#tempsmeles">Temps mêlés</title>.</p>
+      <p><persName ref="../thesauri/persons.xml#ab">Blavier</persName> va fermer pourquoi le dernier <title ref="../thesauri/titles.xml#tempsmeles">TEMPS MELES</title> ne serait-il pas le premier <title ref="../thesauri/titles.xml#cahierqueneau">cahier <persName ref="../thesauri/persons.xml#rq">Queneau</persName></title> ?</p>
+      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> Faut-il essayer de racheter les droits à <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName> ?</p>
+      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> ce serait étonnant. Quel intérêt ?</p>
+      <p><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> Qui a les droits de <persName ref="../thesauri/persons.xml#rq">Queneau</persName> ?</p>
+      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> Problème à voir avec <persName ref="../thesauri/persons.xml#jeanmarie">Jean Marie</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> va faire un projet complet pour éditeurs.</p>
       <p>Il possède déjà de quoi faire 2 volumes de cahiers.</p>
       <p>Préparer le n°1</p>
-      <p><persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> les contrats portent sur des volumes pas des articles, il faudrait
-        savoir où en était <persName ref="#rq">Queneau</persName>.</p>
-      <p><persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> le contrat de <persName ref="#rq">Queneau</persName> est
-        complexe…</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>
-        <persName ref="#rameil">Rameil</persName> veut que l’oulipo collabore avec lui +
-        collaborations individuelles.</p>
-      <p><persName ref="#jq"><choice>
-            <abbr>JQ</abbr>
-            <expan>Jean Queval</expan>
-          </choice></persName> Il y a 1 juriste chez <orgName ref="#gallimard">Gallimard</orgName>,
-          <persName ref="#boyer">Boyer</persName>, gentil, il faudrait lui demander les possibilités
-        juridiques <unclear>*.</unclear></p>
-      <p><persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName> Nommer 1 sous-commission chargée des <title ref="#cahiers"
-          >Cahiers</title> :</p>
-      <p><persName ref="#jb">Bens</persName> + <persName ref="#jq">Queval</persName> + <persName
-          ref="#mb">M. Bénabou</persName>. Pour aller chez <orgName ref="#gallimard"
-          >Gallimard</orgName> et préparer un rapport.</p>
-      <p><persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> : L’œuvre de <persName ref="#rq">Queneau</persName> n’est-elle pas
-        totalement oulipienne ?</p>
-      <p><term ref="#structuremathematique">Structure mathématique</term> extrêmement profonde.</p>
-      <p>Prochaine réunion chez <persName ref="#gp">Perec</persName></p>
+      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> les contrats portent sur des volumes pas des articles, il faudrait savoir où en était <persName ref="../thesauri/persons.xml#rq">Queneau</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> le contrat de <persName ref="../thesauri/persons.xml#rq">Queneau</persName> est complexe…</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> veut que l’oulipo collabore avec lui + collaborations individuelles.</p>
+      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> Il y a 1 juriste chez <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName>, <persName ref="../thesauri/persons.xml#boyer">Boyer</persName>, gentil, il faudrait lui demander les possibilités juridiques <unclear>*.</unclear></p>
+      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> Nommer 1 sous-commission chargée des <title ref="../thesauri/titles.xml#cahiers">Cahiers</title> :</p>
+      <p><persName ref="../thesauri/persons.xml#jb">Bens</persName> + <persName ref="../thesauri/persons.xml#jq">Queval</persName> + <persName ref="../thesauri/persons.xml#mb">M. Bénabou</persName>. Pour aller chez <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName> et préparer un rapport.</p>
+      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : L’œuvre de <persName ref="../thesauri/persons.xml#rq">Queneau</persName> n’est-elle pas totalement oulipienne ?</p>
+      <p><term ref="../thesauri/terms.xml#structuremathematique">Structure mathématique</term> extrêmement profonde.</p>
+      <p>Prochaine réunion chez <persName ref="../thesauri/persons.xml#gp">Perec</persName></p>
       <p>le lundi 20 Décembre</p>
     </body>
   </text>

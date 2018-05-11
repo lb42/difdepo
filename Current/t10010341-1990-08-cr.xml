@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010341-1990-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010341-1990-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,13 +20,13 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010341-1990-08-cr</idno> <meeting xml:id="t10010341-1990-08">
-          <date when="1990-08-24">24/08/1990</date>
+          <date when="1990-08-24">24 août 1990</date>
           <placeName>chez FC</placeName>
           <list type="present">
-            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
-            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
-            <item><persName ref="#jj" role="secrétaire"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
-            <item><persName ref="#jr" role="président"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jj" role="secrétaire"><abbr>JJ</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jr" role="président"><abbr>JR</abbr></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,44 +46,44 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103416/f6.highres" n="6"/>
-      <p rend="incipit">Oulipo 24.08.90 <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> qui reçoit</p>
-      <p rend="incipit"><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>.<persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>.<persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>.<persName ref="#jj"><choice><abbr>JJ.</abbr><expan>Jacques Jouet</expan></choice></persName></p>
-      <p rend="incipit">excusés <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.<persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>.<persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName>. Président <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></p>
-      <p rend="incipit">Secrétaire <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></p>
+      <p rend="incipit">Oulipo 24.08.90 <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> qui reçoit</p>
+      <p rend="incipit"><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>.<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>.<persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>.<persName ref="../thesauri/persons.xml#jj"><abbr>JJ.</abbr></persName></p>
+      <p rend="incipit">excusés <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>.<persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>.<persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>. Président <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></p>
+      <p rend="incipit">Secrétaire <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></p>
       <p><label type="rubrique">CRÉATION</label></p>
-      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> (création utilitaire) Dénu – poème pour une « <term ref="#denumeration">dénumération</term> » (changement de numéro du Tél.)</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> (création utilitaire) Dénu – poème pour une « <term ref="../thesauri/terms.xml#denumeration">dénumération</term> » (changement de numéro du Tél.)</p>
       <p>compte de syllabes</p>
       <p>et vers égaux riment entre eux.</p>
-      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Nouveau croisement <term ref="#langagecuit">langage cuit</term> / <title ref="#moraleelementaire"><term ref="#moraleelementaire">Morale élémentaire</term></title> . <title ref="#moraleelementaire">Morale élémentaire</title> 3 clinamen (titre)</p>
-      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>. <term ref="#langagecuit">langage cuit</term>. <title ref="#dictionnairedesideesrecues">Dictionnaire des idées reçues</title> ?</p>
-      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> la découpe. Excuse du 9 avril 90.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Nouveau croisement <term ref="../thesauri/terms.xml#langagecuit">langage cuit</term> / <title ref="../thesauri/titles.xml#moraleelementaire"><term ref="../thesauri/terms.xml#moraleelementaire">Morale élémentaire</term></title>. <title ref="../thesauri/titles.xml#moraleelementaire">Morale élémentaire</title> 3 clinamen (titre)</p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. <term ref="../thesauri/terms.xml#langagecuit">langage cuit</term>. <title ref="../thesauri/titles.xml#dictionnairedesideesrecues">Dictionnaire des idées reçues</title> ?</p>
+      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> la découpe. Excuse du 9 avril 90.</p>
       <p><label type="rubrique">ÉRUDITION</label></p>
-      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>. <term ref="#plagiatparanticipation">Plagiat par anticipation</term> <term ref="#canadadry">Canada dry</term> (nouveau concept oulipien). PPACD. « <title ref="#poetesoufaiseurs">Poètes ou Faiseurs</title> » d’<persName ref="#etiemble">Etiemble</persName> p.133</p>
-      <p><term ref="#plagiatgreffe">plagiat greffe</term> ? cf. <persName ref="#malbaud">Malbaud</persName>/<persName ref="#rimberbe">Rimberbe</persName> .</p>
-      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. Maladie de l’<term ref="#aleandrin">alexandrin</term>. Toxine bretonne de l’<term ref="#aleandrin">alexandrin</term>.</p>
-      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. <title ref="#prendypourz">x prend y pour z</title> <persName ref="#mauricenadeau">Maurice Nadeau</persName> raconte 1 quiproquo pour <persName ref="#rq">Queneau</persName>/<persName ref="#henriot">Henriot</persName> / <persName ref="#nadeau">Nadeau</persName>/ <persName ref="#vaudoyer">Vaudoyer</persName>.</p>
-      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. <title ref="#pourphoebe">Pour Phoebe</title>. Poème (1889) Rime amer, féérique, chimér- ique (<persName ref="#charlesgrolleau">Charles Grolleau</persName>)</p>
-      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. qu’importe le flacon, pourvu qu’on ait l’étiquette Relevé des titres de thèses.</p>
-      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. <title ref="#entreneigeetglace">Entre neige et glace</title> <persName ref="#marcscassau">Marc Scassau</persName>. récit à fournir d’une grille de <term ref="#motscroises">mots croisés</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <term ref="../thesauri/terms.xml#plagiatparanticipation">Plagiat par anticipation</term> <term ref="../thesauri/terms.xml#canadadry">Canada dry</term> (nouveau concept oulipien). PPACD. « <title ref="../thesauri/titles.xml#poetesoufaiseurs">Poètes ou Faiseurs</title> » d’<persName ref="../thesauri/persons.xml#etiemble">Etiemble</persName> p.133</p>
+      <p><term ref="../thesauri/terms.xml#plagiatgreffe">plagiat greffe</term> ? cf. <persName ref="../thesauri/persons.xml#malbaud">Malbaud</persName>/<persName ref="../thesauri/persons.xml#rimberbe">Rimberbe</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. Maladie de l’<term ref="../thesauri/terms.xml#alexandrin">alexandrin</term>. Toxine bretonne de l’<term ref="../thesauri/terms.xml#alexandrin">alexandrin</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <title ref="../thesauri/titles.xml#xprendypourz">x prend y pour z</title> <persName ref="../thesauri/persons.xml#mauricenadeau">Maurice Nadeau</persName> raconte 1 quiproquo pour <persName ref="../thesauri/persons.xml#rq">Queneau</persName>/<persName ref="../thesauri/persons.xml#henriot">Henriot</persName> / <persName ref="../thesauri/persons.xml#nadeau">Nadeau</persName>/ <persName ref="../thesauri/persons.xml#vaudoyer">Vaudoyer</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <title ref="../thesauri/titles.xml#pourphoebe">Pour Phoebe</title>. Poème (1889) Rime amer, féérique, chimér- ique (<persName ref="../thesauri/persons.xml#charlesgrolleau">Charles Grolleau</persName>)</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. qu’importe le flacon, pourvu qu’on ait l’étiquette Relevé des titres de thèses.</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <title ref="../thesauri/titles.xml#entreneigeetglace">Entre neige et glace</title> <persName ref="../thesauri/persons.xml#marcscassau">Marc Scassau</persName>. récit à fournir d’une grille de <term ref="../thesauri/terms.xml#motscroises">mots croisés</term>.</p>
       <p>(présomptueux)</p>
-      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. <term ref="#contresetine">Contre-sextine</term> sextine dénonçant, évacuant la <term ref="#setine">sextine</term> <persName ref="#alanausen">Alan Ausen</persName>.</p>
-      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. <term ref="#s7">S+7</term> <persName ref="#sorrentino">Sorrentino</persName>. « <title ref="#misterioso">Misterioso</title> » <term ref="#s7">S+7</term> d’un texte anglo-irlandais.</p>
-      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>. <term ref="#plagiairepoemesdipolymorphes">Plagiaire poèmes di.poly.morphes</term>. <persName ref="#aragon">Aragon</persName> et <persName ref="#troba">Troba</persName>r.</p>
-      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>. <term ref="#plagiairecombinatoire">Plagiaire combinatoire</term>. <persName ref="#mallarme">Mallarmé</persName> (vers de circonstance).</p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> Projets <term ref="#quenine">quenine</term>…etc. Rime. Octobre.</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <term ref="../thesauri/terms.xml#contresextine">Contre-sextine</term> sextine dénonçant, évacuant la <term ref="../thesauri/terms.xml#sextine">sextine</term> <persName ref="../thesauri/persons.xml#alanausen">Alan Ausen</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <term ref="../thesauri/terms.xml#s7">S+7</term> <persName ref="../thesauri/persons.xml#sorrentino">Sorrentino</persName>. « <title ref="../thesauri/titles.xml#misterioso">Misterioso</title> » <term ref="../thesauri/terms.xml#s7">S+7</term> d’un texte anglo-irlandais.</p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. <term ref="../thesauri/terms.xml#plagiairepoemesdipolymorphes">Plagiaire poèmes di.poly.morphes</term>. <persName ref="../thesauri/persons.xml#aragon">Aragon</persName> et <persName ref="../thesauri/persons.xml#troba">Troba</persName>r.</p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. <term ref="../thesauri/terms.xml#plagiairecombinatoire">Plagiaire combinatoire</term>. <persName ref="../thesauri/persons.xml#mallarme">Mallarmé</persName> (vers de circonstance).</p>
+      <p><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> Projets <term ref="../thesauri/terms.xml#quenine">quenine</term>…etc. Rime. Octobre.</p>
       <p><label type="rubrique">ACTIONS</label></p>
-      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>. Propositions dictionnaire (éditoriale) dico ou dico littéraires (<persName ref="#leiris">Leiris</persName>…)</p>
-      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. <orgName ref="#arsenal">Arsenal</orgName>. lecture. vendredi 12. 184. (octobre)</p>
-      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. Thionville. <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>.<persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>.<persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>.<persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>.<persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>.<persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>.</p>
-      <p>Tous. Avenir. Nouveaux membres. <persName ref="#plartigue">P. Lartigue</persName></p>
-      <p><persName ref="#bernardjaulin">Bernard Jaulin</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. Propositions dictionnaire (éditoriale) dico ou dico littéraires (<persName ref="../thesauri/persons.xml#leiris">Leiris</persName>…)</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <orgName ref="../thesauri/organizations.xml#arsenal">Arsenal</orgName>. lecture. vendredi 12. 184. (octobre)</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. Thionville. <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>.<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>.<persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>.<persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>.<persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>.<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>.</p>
+      <p>Tous. Avenir. Nouveaux membres. <persName ref="../thesauri/persons.xml#plartigue">P. Lartigue</persName></p>
+      <p><persName ref="../thesauri/persons.xml#bernardjaulin">Bernard Jaulin</persName>.</p>
       <p>Réunions</p>
-      <p>Mercredi 12 septembre <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>.</p>
-      <p>vendredi 5 octobre + <persName ref="#jaulin">Jaulin</persName> (<persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>)</p>
+      <p>Mercredi 12 septembre <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>.</p>
+      <p>vendredi 5 octobre + <persName ref="../thesauri/persons.xml#jaulin">Jaulin</persName> (<persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>)</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. Panneaux d’oculiste.</p>
-      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>. <persName ref="#francineperceval">Francine Perceval</persName> (lettre).</p>
-      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>. <title ref="#manufacture">Manufacture</title>.</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. Panneaux d’oculiste.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#francineperceval">Francine Perceval</persName> (lettre).</p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. <title ref="../thesauri/titles.xml#manufacture">Manufacture</title>.</p>
     </body>
   </text>
 </TEI>

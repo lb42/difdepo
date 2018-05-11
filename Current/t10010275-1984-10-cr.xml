@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010275-1984-10-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010275-1984-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,42 +17,19 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010275-1984-10-cr</idno>
-          <meeting xml:id="t10010275-1984-10">
-            <date when="1984-10-13">13/10/1984</date>
-            <placeName>Moulin dAnde</placeName>
-            <list type="present">
-              <item><persName ref="#mb"><choice>
-                    <abbr>MB</abbr>
-                    <expan>Marcel Bénabou</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jb"><choice>
-                    <abbr>JB</abbr>
-                    <expan>Jacques Bens</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pf"><choice>
-                    <abbr>PF</abbr>
-                    <expan>Paul Fournel</expan>
-                  </choice></persName></item>
-              <item><persName ref="#hm"><choice>
-                    <abbr>HM</abbr>
-                    <expan>Harry Mathews</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jr"><choice>
-                    <abbr>JR</abbr>
-                    <expan>Jacques Roubaud</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jj" role="secrétaire"><choice>
-                    <abbr>JJ</abbr>
-                    <expan>Jacques Jouet</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pb" role="président"><choice>
-                    <abbr>PB</abbr>
-                    <expan>Paul Braffort</expan>
-                  </choice></persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010275-1984-10-cr</idno> <meeting xml:id="t10010275-1984-10">
+          <date when="1984-10-13">13 octobre 1984</date>
+          <placeName>Moulin dAnde</placeName>
+          <list type="present">
+            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jj" role="secrétaire"><abbr>JJ</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#pb" role="président"><abbr>PB</abbr></persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -71,312 +48,76 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010275v/f3.highres" n="3"/>
       <p rend="incipit">OuLiPo – IVè congrès</p>
       <p rend="incipit">13 et 14 octobre 1984, au Moulin d’Andé</p>
-      <p rend="incipit">Présents : <persName ref="#mb">Marcel Bénabou</persName>, <persName
-          ref="#jb">Jacques Bens</persName>, <persName ref="#pb">Paul Braffort</persName> qui
-        préside, <persName ref="#pf">Paul Fournel</persName>, <persName ref="#jj">Jacques
-          Jouet</persName> qui prend des notes, <persName ref="#hm">Harry Mathews</persName>,
-          <persName ref="#jr">Jacques Roubaud</persName>.</p>
-      <p rend="incipit">Excuses de <persName ref="#na">Noël Arnaud</persName>, <persName ref="#cb"
-          >Claude Berge</persName>, <persName ref="#fc">François Caradec</persName>, <persName
-          ref="#le">Luc Etienne</persName>, <persName ref="#mm">Michèle Métail</persName>, <persName
-          ref="#jq">Jean Queval</persName>, <persName ref="#ic">Italo Calvino</persName>.</p>
-      <p rend="incipit">11h, le 13 octobre, le brouillard se lève doucement pendant que se fait
-        l’ordre du jour.</p>
+      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName>, <persName ref="../thesauri/persons.xml#jb">Jacques Bens</persName>, <persName ref="../thesauri/persons.xml#pb">Paul Braffort</persName> qui préside, <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName>, <persName ref="../thesauri/persons.xml#jj">Jacques Jouet</persName> qui prend des notes, <persName ref="../thesauri/persons.xml#hm">Harry Mathews</persName>, <persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName>.</p>
+      <p rend="incipit">Excuses de <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName>, <persName ref="../thesauri/persons.xml#cb">Claude Berge</persName>, <persName ref="../thesauri/persons.xml#fc">François Caradec</persName>, <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName>, <persName ref="../thesauri/persons.xml#mm">Michèle Métail</persName>, <persName ref="../thesauri/persons.xml#jq">Jean Queval</persName>, <persName ref="../thesauri/persons.xml#ic">Italo Calvino</persName>.</p>
+      <p rend="incipit">11h, le 13 octobre, le brouillard se lève doucement pendant que se fait l’ordre du jour.</p>
       <p><label type="rubrique">Engagements</label></p>
       <list type="unordered">
-        <item>Hommage à <persName ref="#fll"><choice>
-              <abbr>FLL</abbr>
-              <expan>François Le Lionnais</expan>
-            </choice></persName>. <persName ref="#mb">Marcel Bénabou</persName> rappelle les trois
-          directions envisagées : <persName ref="#fll"><choice>
-              <abbr>FLL</abbr>
-              <expan>François Le Lionnais</expan>
-            </choice></persName>-homme de projets, le 3è secteur, <persName ref="#fll"><choice>
-              <abbr>FLL</abbr>
-              <expan>François Le Lionnais</expan>
-            </choice></persName> organisateur. On s’oriente vers cette dernière en précisant : vie
-          quotidienne de l’Oulipo ou La vie quotidienne en France, au temps de l’OuLiPo.
-          Distribution des tâches dans une liste non close que <persName ref="#pf">Paul
-            Fournel</persName> est chargé de mettre au clair et d’envoyer à tous.</item>
-        <item><title ref="#lanouvellebarredujour">La nouvelle barre du jour</title>. La revue
-          québécoise prépare un numéro de textes oulipiens, si possibles inédits. <persName
-            ref="#mb">Marcel Bénabou</persName> a fait le recensement dans les archives récentes. On
-          s’entend sur : <persName ref="#hm"><choice>
-              <abbr>HM</abbr>
-              <expan>Harry Mathews</expan>
-            </choice></persName>-<title ref="#lejusteretour">Le juste retour</title> ; <persName
-            ref="#pb"><choice>
-              <abbr>PB</abbr>
-              <expan>Paul Braffort</expan>
-            </choice></persName>- <title ref="#meshyperbibliotheques">Mes
-          hyperbibliothèques</title> ; <persName ref="#jj"><choice>
-              <abbr>JJ</abbr>
-              <expan>Jacques Jouet</expan>
-            </choice></persName> – <title ref="#loulipiendemasque">L’oulipien démasqué</title> ;
-            <persName ref="#jr"><choice>
-              <abbr>JR</abbr>
-              <expan>Jacques Roubaud</expan>
-            </choice></persName> – 2 <term ref="#portraitsrobots">portraits-robots</term> et une
-            <term ref="#moraleelementaire">morale élémentaire</term> ; <persName ref="#jb"><choice>
-              <abbr>JB</abbr>
-              <expan>Jacques Bens</expan>
-            </choice></persName>/<persName ref="#jr"><choice>
-              <abbr>JR</abbr>
-              <expan>Jacques Roubaud</expan>
-            </choice></persName> – une <term ref="#moraleelementaire">morale élémentaire</term> ;
-            <persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName> – <term ref="#rimesbabelines">rimes babélines</term>, <term
-            ref="#antisemies">antisémies</term>…</item>
-        <item><term ref="#modeles">Modèles</term> oulipiens. Projet du <name ref="#iiiecongres"
-            type="manif">IIIè congrès</name> que <persName ref="#jr">Jacques Roubaud</persName>,
-          confirmé dans ses fonctions de coordinateur, est prié de relancer. Il s’agirait d’un livre
-          très distinct de l’<title ref="#atlas">Atlas</title> p.ex. ; rien à voir avec un <term
-            ref="#manuel">manuel</term> ; un <term ref="#livre">livre</term> de textes, les <term
-            ref="#references">références</term> des <term ref="#contraintes">contraintes</term>
-          n’étant données qu’en annexe. <persName ref="#jr"><choice>
-              <abbr>JR</abbr>
-              <expan>Jacques Roubaud</expan>
-            </choice></persName> doit faire une première liste des textes existants qui, à ses yeux,
-          sont des <term ref="#modeles">modèles</term> !</item>
-        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. stagiaires. Une
-            <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. constituée de
-          textes de stagiaires n’est pas considérée comme urgente. Elle se fera si chaque oulipien
-          opère, à chaque stage, une pré-sélection.</item>
-        <item>Dossier de présentation de l’OuLiPo. <persName ref="#pb">Paul Braffort</persName> doit
-          le réaliser, à partir des éléments bien mâchés de « <title ref="#trousselivres"
-            >Trousse-livres</title> ».</item>
-        <item>Livre des <term ref="#plagiairesparanticipation">Plagiaires par anticipation</term>.
-            <persName ref="#na">Noël Arnaud</persName> est reconduit, par acclamation, dans sa tâche
-          centrale. Appel aux autres oulipiens pour lui envoyer des communications (Ne pas se
-          contenter de lancer, oralement : « Au fait, il y a un tel qui… » Rédiger !)</item>
-        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Le 29 sera
-            « <persName ref="#aleandregreffoir">Alexandre Greffoir</persName> » (<persName ref="#mb"><choice>
-              <abbr>MB</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName>). Le 30, « <title ref="#le3emanifeste">Le 3<hi rend="sup">è</hi>
-            Manifeste</title> » ! <persName ref="#pf">Paul Fournel</persName> propose d’arrêter la
-            <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. au no. 30 et
-          d’engager une nouvelle série, de meilleure qualité typographique, qui serait réalisée par
-            <persName ref="#alainroger">Alain Roger</persName> qui a déjà imprimé des textes
-          oulipiens avec force recherche. <persName ref="#pf"><choice>
-              <abbr>Paul</abbr>
-              <expan>Paul Fournel</expan>
-            </choice></persName> doit demander devis et conditions.</item>
+        <item>Hommage à <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>. <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> rappelle les trois directions envisagées : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> -homme de projets, le 3è secteur, <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> organisateur. On s’oriente vers cette dernière en précisant : vie quotidienne de l’Oulipo ou La vie quotidienne en France, au temps de l’OuLiPo. Distribution des tâches dans une liste non close que <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> est chargé de mettre au clair et d’envoyer à tous.</item>
+        <item><title ref="../thesauri/titles.xml#lanouvellebarredujour">La nouvelle barre du jour</title>. La revue québécoise prépare un numéro de textes oulipiens, si possibles inédits. <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> a fait le recensement dans les archives récentes. On s’entend sur : <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> -<title ref="../thesauri/titles.xml#lejusteretour">Le juste retour</title> ; <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> - <title ref="../thesauri/titles.xml#meshyperbibliotheques">Mes hyperbibliothèques</title> ; <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> – <title ref="../thesauri/titles.xml#loulipiendemasque">L’oulipien démasqué</title> ; <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> – 2 <term ref="../thesauri/terms.xml#portraitsrobots">portraits-robots</term> et une <term ref="../thesauri/terms.xml#moraleelementaire">morale élémentaire</term> ; <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> /<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> – une <term ref="../thesauri/terms.xml#moraleelementaire">morale élémentaire</term> ; <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> – <term ref="../thesauri/terms.xml#rimesbabelines">rimes babélines</term>, <term ref="../thesauri/terms.xml#antisemies">antisémies</term>…</item>
+        <item><term ref="../thesauri/terms.xml#modeles">Modèles</term> oulipiens. Projet du <name ref="../thesauri/events.xml#iiiecongres" type="manif">IIIè congrès</name> que <persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName>, confirmé dans ses fonctions de coordinateur, est prié de relancer. Il s’agirait d’un livre très distinct de l’<title ref="../thesauri/titles.xml#atlas">Atlas</title> p.ex. ; rien à voir avec un <term ref="../thesauri/terms.xml#manuel">manuel</term> ; un <term ref="../thesauri/terms.xml#livre">livre</term> de textes, les <term ref="../thesauri/terms.xml#references">références</term> des <term ref="../thesauri/terms.xml#contraintes">contraintes</term> n’étant données qu’en annexe. <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> doit faire une première liste des textes existants qui, à ses yeux, sont des <term ref="../thesauri/terms.xml#modeles">modèles</term> !</item>
+        <item><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. stagiaires. Une <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. constituée de textes de stagiaires n’est pas considérée comme urgente. Elle se fera si chaque oulipien opère, à chaque stage, une pré-sélection.</item>
+        <item>Dossier de présentation de l’OuLiPo. <persName ref="../thesauri/persons.xml#pb">Paul Braffort</persName> doit le réaliser, à partir des éléments bien mâchés de « <title ref="../thesauri/titles.xml#trousselivres">Trousse-livres</title> ».</item>
+        <item>Livre des <term ref="../thesauri/terms.xml#plagiairesparanticipation">Plagiaires par anticipation</term>. <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName> est reconduit, par acclamation, dans sa tâche centrale. Appel aux autres oulipiens pour lui envoyer des communications (Ne pas se contenter de lancer, oralement : « Au fait, il y a un tel qui… » Rédiger !)</item>
+        <item><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Le 29 sera « <persName ref="../thesauri/persons.xml#alexandregreffoir">Alexandre Greffoir</persName> » (<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> ). Le 30, « <title ref="../thesauri/titles.xml#le3emanifeste">Le 3<hi rend="sup">è</hi> Manifeste</title> » ! <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> propose d’arrêter la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. au no. 30 et d’engager une nouvelle série, de meilleure qualité typographique, qui serait réalisée par <persName ref="../thesauri/persons.xml#alainroger">Alain Roger</persName> qui a déjà imprimé des textes oulipiens avec force recherche. <persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName> doit demander devis et conditions.</item>
       </list>
       <p><label type="rubrique">Administration</label></p>
       <list type="unordered">
-        <item>Archives. <persName ref="#mb">Marcel Bénabou</persName> rappelle qu’il avait été prévu
-          de rassembler les archives oulipo éparses. Que chacun fouille ses trésors et les
-          photocopie. Il y aura, ensuite, un rendez-vous de classement, chez <persName ref="#mb"><choice>
-              <abbr>Marcel</abbr>
-              <expan>Marcel Bénabou</expan>
-            </choice></persName>. Et que, dans la suite, les versements s’effectuent au fur et à
-          mesure.</item>
-        <item>Invités d’honneur. Les choisir moins pour les honorer que pour attendre d’eux des
-          communications intéressantes. La liste établie l’an dernier n’a pas été entamée :
-            <persName ref="#klinkenberg">Klinkenberg</persName>, <persName ref="#rotta"
-            >Rotta</persName>, <persName ref="#dossena">Dossena</persName>, <persName
-            ref="#cortazar">Cortázar</persName>, <persName ref="#pouillou">Pouilloux</persName>,
-            <persName ref="#devos">Devos</persName>, <persName ref="#magne">Magné</persName>,</item>
+        <item>Archives. <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> rappelle qu’il avait été prévu de rassembler les archives oulipo éparses. Que chacun fouille ses trésors et les photocopie. Il y aura, ensuite, un rendez-vous de classement, chez <persName ref="../thesauri/persons.xml#marcel"><abbr>Marcel</abbr></persName>. Et que, dans la suite, les versements s’effectuent au fur et à mesure.</item>
+        <item>Invités d’honneur. Les choisir moins pour les honorer que pour attendre d’eux des communications intéressantes. La liste établie l’an dernier n’a pas été entamée : <persName ref="../thesauri/persons.xml#klinkenberg">Klinkenberg</persName>, <persName ref="../thesauri/persons.xml#rotta">Rotta</persName>, <persName ref="../thesauri/persons.xml#dossena">Dossena</persName>, <persName ref="../thesauri/persons.xml#cortazar">Cortázar</persName>, <persName ref="../thesauri/persons.xml#pouilloux">Pouilloux</persName>, <persName ref="../thesauri/persons.xml#devos">Devos</persName>, <persName ref="../thesauri/persons.xml#magne">Magné</persName>,</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010275v/f4.highres" n="4"/>
-      <p><persName ref="#bc">Cerquiglini</persName>. D’autres noms sont lancés : <persName
-          ref="#nadaud">Nadaud</persName>, <persName ref="#fasola">Fasola</persName> &amp; <persName
-          ref="#lyant">Lyant</persName>, <persName ref="#benozilio">Benozilio</persName>, <persName
-          ref="#rio">Rio</persName>, <persName ref="#zumthor">Zumthor</persName>…</p>
+      <p><persName ref="../thesauri/persons.xml#bc">Cerquiglini</persName>. D’autres noms sont lancés : <persName ref="../thesauri/persons.xml#nadaud">Nadaud</persName>, <persName ref="../thesauri/persons.xml#fasola">Fasola</persName> &amp; <persName ref="../thesauri/persons.xml#lyant">Lyant</persName>, <persName ref="../thesauri/persons.xml#benozilio">Benozilio</persName>, <persName ref="../thesauri/persons.xml#rio">Rio</persName>, <persName ref="../thesauri/persons.xml#zumthor">Zumthor</persName>…</p>
       <list type="unordered">
-        <item>Trésor. En caisse, de quoi payer les deux <title ref="#bibliothequeoulipienne"
-            >Bibliothèque oulipienne</title>. qui sont sous presse. Débat sur la diffusion de la
-            <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Faut-il tendre
-          vers une diffusion exclusive d’un petit nombre de librairies ? Vers un abonnement ? On
-          s’oriente vers l’envoi d’un bon de commandes via <persName ref="#valentinbru">Valentin
-            Brû</persName>, Temps mêlés, AGP, lorsqu’il y a une ou plusieurs nouveautés (c’est,
-          aujourd’hui, le cas, les Bibliothèque oulipienne récentes n’ayant presque pas été
-          diffusées). <persName ref="#pf">Paul Fournel</persName> va écrire à <persName
-            ref="#clauderameil">Claude Rameil</persName>.</item>
-        <item><orgName ref="#ipu">I.P.U</orgName>. (<orgName
-            ref="#institutdelapotentialiteuniverselle">Institut de la potentialité
-            universelle</orgName>, i.e. réunion des <orgName ref="#oupo">OuXPo</orgName>).</item>
+        <item>Trésor. En caisse, de quoi payer les deux <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. qui sont sous presse. Débat sur la diffusion de la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Faut-il tendre vers une diffusion exclusive d’un petit nombre de librairies ? Vers un abonnement ? On s’oriente vers l’envoi d’un bon de commandes via <persName ref="../thesauri/persons.xml#valentinbru">Valentin Brû</persName>, Temps mêlés, AGP, lorsqu’il y a une ou plusieurs nouveautés (c’est, aujourd’hui, le cas, les Bibliothèque oulipienne récentes n’ayant presque pas été diffusées). <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> va écrire à <persName ref="../thesauri/persons.xml#clauderameil">Claude Rameil</persName>.</item>
+        <item><orgName ref="../thesauri/organizations.xml#ipu">I.P.U</orgName>. (<orgName ref="../thesauri/organizations.xml#institutdelapotentialiteuniverselle">Institut de la potentialité universelle</orgName>, i.e. réunion des <orgName ref="../thesauri/organizations.xml#ouxpo">OuXPo</orgName>).</item>
       </list>
-      <p><persName ref="#jb">Bens</persName> a vu <persName ref="#carelman">Carelman</persName>. Les
-          <orgName ref="#oupeinpiens">oupeinpiens</orgName> sont prêts.</p>
+      <p><persName ref="../thesauri/persons.xml#jb">Bens</persName> a vu <persName ref="../thesauri/persons.xml#carelman">Carelman</persName>. Les <orgName ref="../thesauri/organizations.xml#oupeinpiens">oupeinpiens</orgName> sont prêts.</p>
       <p><label type="rubrique">Oulipo et Université</label></p>
-      <p><persName ref="#pf">Paul Fournel</persName> estime que, dans une situation ambiante aussi
-        peu propice aux activités culturelles un tant soit peu subtiles ou de recherche, il serait
-        suicidaire de bouder les universitaires lorsqu’ils s’intéressent à nos travaux. On en
-        convient, non sans quelques résistances. <persName ref="#jb">Jacques Bens</persName> : « Je
-        veux choisir mes interlocuteurs ! »</p>
+      <p><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> estime que, dans une situation ambiante aussi peu propice aux activités culturelles un tant soit peu subtiles ou de recherche, il serait suicidaire de bouder les universitaires lorsqu’ils s’intéressent à nos travaux. On en convient, non sans quelques résistances. <persName ref="../thesauri/persons.xml#jb">Jacques Bens</persName> : « Je veux choisir mes interlocuteurs ! »</p>
       <p><label type="rubrique">Créations</label></p>
       <list type="unordered">
-        <item><persName ref="#mathieulusson">Mathieu Lusson</persName> a terminé un <term
-            ref="#sonnet">sonnet</term> de 24 mots que <persName ref="#jr">Jacques
-            Roubaud</persName> nous lit. Estime générale.</item>
-        <item><persName ref="#mb">Marcel Bénabou</persName> s’intéresse aux <term
-            ref="#contraintessemantiques">contraintes sémantiques</term>. Il voudrait faire du <term
-            ref="#s7">S+7</term> avec des <term ref="#listesalphabetiques">listes
-            alphabétiques</term> d’idées, sensations, sentiments…</item>
+        <item><persName ref="../thesauri/persons.xml#mathieulusson">Mathieu Lusson</persName> a terminé un <term ref="../thesauri/terms.xml#sonnet">sonnet</term> de 24 mots que <persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName> nous lit. Estime générale.</item>
+        <item><persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> s’intéresse aux <term ref="../thesauri/terms.xml#contraintessemantiques">contraintes sémantiques</term>. Il voudrait faire du <term ref="../thesauri/terms.xml#s7">S+7</term> avec des <term ref="../thesauri/terms.xml#listesalphabetiques">listes alphabétiques</term> d’idées, sensations, sentiments…</item>
       </list>
-      <p><persName ref="#pb">Paul Braffort</persName> mentionne un livre de <persName
-          ref="#leonbopp">Léon Bopp</persName> qui pourrait être utilisé. <persName ref="#hm">Harry
-          Mathews</persName> suggère le <term ref="#palindromesemantique">palindrome
-          sémantique</term> (situations répétées en sens inverse).</p>
+      <p><persName ref="../thesauri/persons.xml#pb">Paul Braffort</persName> mentionne un livre de <persName ref="../thesauri/persons.xml#leonbopp">Léon Bopp</persName> qui pourrait être utilisé. <persName ref="../thesauri/persons.xml#hm">Harry Mathews</persName> suggère le <term ref="../thesauri/terms.xml#palindromesemantique">palindrome sémantique</term> (situations répétées en sens inverse).</p>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#jr">Jacques Roubaud</persName> lit une savoureuse « <title
-            ref="#contributionauneinterpretationoulipiennedelhistoire">Contribution à une
-            interprétation oulipienne de l’Histoire</title> ». « C ‘est de l’érudition créatrice ! »
-          s’exclame l’assemblée. <persName ref="#jr">Roubaud</persName> établit une liaison entre le
-            <term ref="#sonnet">sonnet</term> et les <persName ref="#bourbons"
-          >Bourbons</persName>.</item>
-        <item><persName ref="#jr">Jacques Roubaud</persName> encore a trouvé dans « <title
-            ref="#laparoladipinta">La parola di pinta</title> » de <persName ref="#giovannipozzi"
-            >Giovanni Pozzi</persName> publié récemment chez <orgName ref="#adelfi"
-          >Adelfi</orgName>, un <term ref="#distique">distique</term> latin dont le système de <term
-            ref="#permutations">permutations</term> constitue un <term ref="#plagiatparanticipation"
-            >plagiat par anticipation</term> des <title ref="#centmillemilliardsdepoemes">Cent mille
-            milliards de poèmes</title>. Un certain <persName ref="#caramuel">Caramuel</persName>
-          (« C’était un mou ! » dit <persName ref="#pf"><choice>
-              <abbr>PF</abbr>
-              <expan>Paul Fournel</expan>
-            </choice></persName>) fut plagiaire de <persName ref="#fll"><choice>
-              <abbr>FLL</abbr>
-              <expan>François Le Lionnais</expan>
-            </choice></persName> quand il déclarait : « Le schéma abstrait est tout… » intitule,
-          au-delà, de noircir du papier (en substance).</item>
-        <item><persName ref="#mb">Marcel Bénabou</persName> suggère qu’on cherche des <term
-            ref="#acrostichesinvolontaires">acrostiches involontaires</term>. Ou bien de créer
-          (décidément, les <term ref="#rubriques">rubriques</term>
-          <term ref="#creation">création</term> et <term ref="#erudition">érudition</term>
-          communiquent de plus en plus !) des <term ref="#centonsacrostiches">centons
-            acrostiches</term>. Ex. un <term ref="#poemeacrostiche">poème acrostiche</term>
-          <persName ref="#pauleluard">Paul Eluard</persName> fait de <term ref="#vers">vers</term>
-            d’<persName ref="#eluard">Eluard</persName>.</item>
-        <item><persName ref="#mb">Marcel Bénabou</persName> encore : « le <term ref="#paradoe"
-            >paradoxe</term> du rhéteur » ex. définir en <term ref="#styletelegraphique">style
-            télégraphique</term> le contraire du <term ref="#styletelegraphique">style
-            télégraphique</term>…</item>
+        <item><persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName> lit une savoureuse « <title ref="../thesauri/titles.xml#contributionauneinterpretationoulipiennedelhistoire">Contribution à une interprétation oulipienne de l’Histoire</title> ». « C ‘est de l’érudition créatrice ! » s’exclame l’assemblée. <persName ref="../thesauri/persons.xml#jr">Roubaud</persName> établit une liaison entre le <term ref="../thesauri/terms.xml#sonnet">sonnet</term> et les <persName ref="../thesauri/persons.xml#bourbons">Bourbons</persName>.</item>
+        <item><persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName> encore a trouvé dans « <title ref="../thesauri/titles.xml#laparoladipinta">La parola di pinta</title> » de <persName ref="../thesauri/persons.xml#giovannipozzi">Giovanni Pozzi</persName> publié récemment chez <orgName ref="../thesauri/organizations.xml#adelfi">Adelfi</orgName>, un <term ref="../thesauri/terms.xml#distique">distique</term> latin dont le système de <term ref="../thesauri/terms.xml#permutations">permutations</term> constitue un <term ref="../thesauri/terms.xml#plagiatparanticipation">plagiat par anticipation</term> des <title ref="../thesauri/titles.xml#centmillemilliardsdepoemes">Cent mille milliards de poèmes</title>. Un certain <persName ref="../thesauri/persons.xml#caramuel">Caramuel</persName> (« C’était un mou ! » dit <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> ) fut plagiaire de <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> quand il déclarait : « Le schéma abstrait est tout… » intitule, au-delà, de noircir du papier (en substance).</item>
+        <item><persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> suggère qu’on cherche des <term ref="../thesauri/terms.xml#acrostichesinvolontaires">acrostiches involontaires</term>. Ou bien de créer (décidément, les <term ref="../thesauri/terms.xml#rubriques">rubriques</term> <term ref="../thesauri/terms.xml#creation">création</term> et <term ref="../thesauri/terms.xml#erudition">érudition</term> communiquent de plus en plus !) des <term ref="../thesauri/terms.xml#centonsacrostiches">centons acrostiches</term>. Ex. un <term ref="../thesauri/terms.xml#poemeacrostiche">poème acrostiche</term> <persName ref="../thesauri/persons.xml#pauleluard">Paul Eluard</persName> fait de <term ref="../thesauri/terms.xml#vers">vers</term> d’<persName ref="../thesauri/persons.xml#eluard">Eluard</persName>.</item>
+        <item><persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> encore : « le <term ref="../thesauri/terms.xml#paradoxe">paradoxe</term> du rhéteur » ex. définir en <term ref="../thesauri/terms.xml#styletelegraphique">style télégraphique</term> le contraire du <term ref="../thesauri/terms.xml#styletelegraphique">style télégraphique</term>…</item>
       </list>
       <p>Conclave</p>
       <p>Y a-t-il nécessité de conclave ?</p>
-      <p>L’an dernier, <persName ref="#pr">Pierre Rosenstiehl</persName> avait été élu en attente
-        (pas plus de deux élus d’un coup pour ne pas déstabiliser l’Ouvroir) et <persName
-          ref="#klinkenberg">Klinkenberg</persName> sous réserve d’être mieux connu (devait d’abord
-        être invité d’honneur).</p>
-      <p>On va dîner, canoter, apéroter, palabrer…On est déjà le soir, j’ai oublié la pause de
-        13h.</p>
-      <p>On confirme, a l’unanimité, l’élection de <persName ref="#pr">Pierre Rosenstiehl</persName>
-        après avoir tenté, vainement, d’appeler le Président <persName ref="#na">Arnaud</persName>
-        au téléphone.</p>
+      <p>L’an dernier, <persName ref="../thesauri/persons.xml#pr">Pierre Rosenstiehl</persName> avait été élu en attente (pas plus de deux élus d’un coup pour ne pas déstabiliser l’Ouvroir) et <persName ref="../thesauri/persons.xml#klinkenberg">Klinkenberg</persName> sous réserve d’être mieux connu (devait d’abord être invité d’honneur).</p>
+      <p>On va dîner, canoter, apéroter, palabrer…On est déjà le soir, j’ai oublié la pause de 13h.</p>
+      <p>On confirme, a l’unanimité, l’élection de <persName ref="../thesauri/persons.xml#pr">Pierre Rosenstiehl</persName> après avoir tenté, vainement, d’appeler le Président <persName ref="../thesauri/persons.xml#na">Arnaud</persName> au téléphone.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010275v/f5.highres" n="5"/>
-      <p><persName ref="#mb">Marcel Bénabou</persName> lit sa communication du <name
-          ref="#colloqueperec" type="manif">colloque Perec</name>: <title ref="#perecetlajudeite"
-          >Perec et la judéité</title>. Débat.</p>
+      <p><persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> lit sa communication du <name ref="../thesauri/events.xml#colloqueperec" type="manif">colloque Perec</name>: <title ref="../thesauri/titles.xml#perecetlajudeite">Perec et la judéité</title>. Débat.</p>
       <p>Le 14 octobre. Brouillard qui se lèvera sur une belle journée, encore.</p>
-      <p>Vie de l’<orgName ref="#alamo">Alamo</orgName></p>
-      <p><persName ref="#pb">Paul Braffort</persName> fait un point sur <term ref="#selts"
-          >S.E.L.T.S.</term> (<term ref="#syntheseelegantedelitteraturedutroisiemesecteur">Synthèse
-          élégante de littérature du troisième secteur</term>), sur <term ref="#lapal"
-          >L.A.P.A.L</term>. (<term ref="#langagealgorithmiquepourlatraductionassisteedelitterature"
-          >Langage algorithmique pour la traduction assistée de littérature</term>) et sur <term
-          ref="#palp">P.A.L.P.</term> (<term ref="#protocoledanalyselitterairepolymorphique"
-          >Protocole d’analyse littéraire polymorphique</term>). Pour <term ref="#palp">PALP</term>,
-          l’<orgName ref="#alamo">Alamo</orgName> aura bientôt besoin des oulipiens (eh oui !).</p>
+      <p>Vie de l’<orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName></p>
+      <p><persName ref="../thesauri/persons.xml#pb">Paul Braffort</persName> fait un point sur <term ref="../thesauri/terms.xml#selts">S.E.L.T.S.</term> (<term ref="../thesauri/terms.xml#syntheseelegantedelitteraturedutroisiemesecteur">Synthèse élégante de littérature du troisième secteur</term>), sur <term ref="../thesauri/terms.xml#lapal">L.A.P.A.L</term>. (<term ref="../thesauri/terms.xml#langagealgorithmiquepourlatraductionassisteedelitterature">Langage algorithmique pour la traduction assistée de littérature</term>) et sur <term ref="../thesauri/terms.xml#palp">P.A.L.P.</term> (<term ref="../thesauri/terms.xml#protocoledanalyselitterairepolymorphique">Protocole d’analyse littéraire polymorphique</term>). Pour <term ref="../thesauri/terms.xml#palp">PALP</term>, l’<orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName> aura bientôt besoin des oulipiens (eh oui !).</p>
       <p>La vie quotidienne au Nebraska</p>
-      <p><persName ref="#hm">Harry Mathews</persName> brosse un tableau apocalyptique et sibérien de
-        l’hiver dans le Nebraska. Il en profite pour demander aux présents leur avis sur
-        l’introduction que <persName ref="#warrenmotte">Warren Motte</persName> a écrite à ses
-        traductions de textes oulipiens. Quelque réserves de <persName ref="#jr">Jacques
-          Roubaud</persName> sur la <term ref="#theorieduhasard">théorie du hasard</term>, de
-          <persName ref="#hm"><choice>
-            <abbr>Harry</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName> lui-même sur quelques points de traduction. Autrement,
-        satisfecit.</p>
-      <p><title ref="#n3evolume">3è volume</title> (après Oulipo et <title ref="#atlas"
-          >Atlas</title>)</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> : La formule des deux premiers volumes est « éculée ». Le 3è vol.
-        doit trancher.</p>
-      <p><persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName> : Il faut un chapitre consacré aux « <term
-          ref="#croisementsdescontraintes">croisements des contraintes</term> ».</p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> : Il faut intégrer les <term ref="#modeles">modèles</term> oulipiens.
-        On nous attend à la vérification artistique des <term ref="#contraintes"
-        >contraintes</term>.</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> : Il faut que le volume soit consacré à de nouvelles <term
-          ref="#contraintes">contraintes</term>.</p>
-      <p><persName ref="#jj"><choice>
-            <abbr>JJ</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName> : Le volume de <term ref="#modeles">Modèles</term> doit être distinct
-        du volume de <term ref="#travau">travaux</term> et <term ref="#theorie">théorie</term>.</p>
-      <p><persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> : <term ref="#modeles">Modèles</term> d’accord, mais il y a de gros
-          <term ref="#modeles">modèles</term> ! (<title ref="#laviemodedemploi">La vie mode
-          d’emploi</title>, par exemple).</p>
-      <p>On s’oriente de façon décisive vers deux volumes différents. Trois volumes, en considérant
-        les <term ref="#plagiairesparanticipation">plagiaires par anticipation</term> !</p>
-      <p>On refait, grâce à <persName ref="#mb">Marcel Bénabou</persName>, un <term
-          ref="#inventaire">inventaire</term> des nouvelles <term ref="#contraintes"
-          >contraintes</term> et réflexions pondues depuis l’<title ref="#atlas">Atlas</title>.</p>
-      <p><persName ref="#jb">Jacques Bens</persName> et <persName ref="#pf">Paul Fournel</persName>
-        annoncent chacun « 2 ou 3 <term ref="#contraintes">contraintes</term> nouvelles » pour
-        bientôt.</p>
-      <p>Suggestions de textes théoriques possibles : 4è manifeste (<persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName>) ; réponse à Genette (<persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName>) ; Tollé, La règle et la contrainte (<persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>) ; Morphismes verticaux des contraintes (<persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName>) ; OuLiPo et contraintes sémantiques (<persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> fera un texte introductif à cette question confusément débattue) ;
-        Pour en finir avec le <term ref="#hasard">hasard</term> (<persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>).</p>
-      <p>Après un long débat fiévreux, on en vient à concevoir comme suit le volume trois : La
-        littérature, son histoire, ses genres, ses contraintes revus par l’OuLiPo, passés au crible,
-        revivifiés. Autrement dit, ne pas partir de ce que l’on a trouvé, mais partir de l’ensemble
-        des <term ref="#genres">genres</term> et <term ref="#formes">formes</term> existants en
-        montrant comment nous les digérons, les comprenons, les transformons.</p>
-      <p>Sont mentionnées : l’<term ref="#aleandrin">alexandrin</term>, la <term ref="#rime"
-          >rime</term>, le <term ref="#sonnet">sonnet</term>, les petites formes de <term
-          ref="#prose">prose</term>, la <term ref="#nouvelle">nouvelle</term>, le <term
-          ref="#theatre">théâtre</term>, l’<term ref="#anthologie">anthologie</term>, la <term
-          ref="#liste">liste</term>.</p>
-      <p>Propositions de titres : « <title ref="#guidepourlalitteratureuniverselle">Guide pour la
-          littérature universelle</title> » ; « <title ref="#guidedelitterature">Guide de
-          Littérature</title> » ; « <title ref="#nouveauguidedelitterature">Nouveau guide de
-          littérature</title> »…*</p>
-      <p>Décision d’un « <name ref="#seminairecreatifoulipo" type="manif">séminaire créatif
-          oulipo</name> » Moulin d’Andé les 16-17-18-19-20 mai 1985, afin d’avancer sinon
-        d’achever…</p>
+      <p><persName ref="../thesauri/persons.xml#hm">Harry Mathews</persName> brosse un tableau apocalyptique et sibérien de l’hiver dans le Nebraska. Il en profite pour demander aux présents leur avis sur l’introduction que <persName ref="../thesauri/persons.xml#warrenmotte">Warren Motte</persName> a écrite à ses traductions de textes oulipiens. Quelque réserves de <persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName> sur la <term ref="../thesauri/terms.xml#theorieduhasard">théorie du hasard</term>, de <persName ref="../thesauri/persons.xml#harry"><abbr>Harry</abbr></persName> lui-même sur quelques points de traduction. Autrement, satisfecit.</p>
+      <p><title ref="../thesauri/titles.xml#n3evolume">3è volume</title> (après Oulipo et <title ref="../thesauri/titles.xml#atlas">Atlas</title>)</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : La formule des deux premiers volumes est « éculée ». Le 3è vol. doit trancher.</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>  : Il faut un chapitre consacré aux « <term ref="../thesauri/terms.xml#croisementsdescontraintes">croisements des contraintes</term> ».</p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Il faut intégrer les <term ref="../thesauri/terms.xml#modeles">modèles</term> oulipiens. On nous attend à la vérification artistique des <term ref="../thesauri/terms.xml#contraintes">contraintes</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : Il faut que le volume soit consacré à de nouvelles <term ref="../thesauri/terms.xml#contraintes">contraintes</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : Le volume de <term ref="../thesauri/terms.xml#modeles">Modèles</term> doit être distinct du volume de <term ref="../thesauri/terms.xml#travaux">travaux</term> et <term ref="../thesauri/terms.xml#theorie">théorie</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>  : <term ref="../thesauri/terms.xml#modeles">Modèles</term> d’accord, mais il y a de gros <term ref="../thesauri/terms.xml#modeles">modèles</term> ! (<title ref="../thesauri/titles.xml#laviemodedemploi">La vie mode d’emploi</title>, par exemple).</p>
+      <p>On s’oriente de façon décisive vers deux volumes différents. Trois volumes, en considérant les <term ref="../thesauri/terms.xml#plagiairesparanticipation">plagiaires par anticipation</term> !</p>
+      <p>On refait, grâce à <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName>, un <term ref="../thesauri/terms.xml#inventaire">inventaire</term> des nouvelles <term ref="../thesauri/terms.xml#contraintes">contraintes</term> et réflexions pondues depuis l’<title ref="../thesauri/titles.xml#atlas">Atlas</title>.</p>
+      <p><persName ref="../thesauri/persons.xml#jb">Jacques Bens</persName> et <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> annoncent chacun « 2 ou 3 <term ref="../thesauri/terms.xml#contraintes">contraintes</term> nouvelles » pour bientôt.</p>
+      <p>Suggestions de textes théoriques possibles : 4è manifeste (<persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> ) ; réponse à Genette (<persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> ) ; Tollé, La règle et la contrainte (<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> ) ; Morphismes verticaux des contraintes (<persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> ) ; OuLiPo et contraintes sémantiques (<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> fera un texte introductif à cette question confusément débattue) ; Pour en finir avec le <term ref="../thesauri/terms.xml#hasard">hasard</term> (<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> ).</p>
+      <p>Après un long débat fiévreux, on en vient à concevoir comme suit le volume trois : La littérature, son histoire, ses genres, ses contraintes revus par l’OuLiPo, passés au crible, revivifiés. Autrement dit, ne pas partir de ce que l’on a trouvé, mais partir de l’ensemble des <term ref="../thesauri/terms.xml#genres">genres</term> et <term ref="../thesauri/terms.xml#formes">formes</term> existants en montrant comment nous les digérons, les comprenons, les transformons.</p>
+      <p>Sont mentionnées : l’<term ref="../thesauri/terms.xml#alexandrin">alexandrin</term>, la <term ref="../thesauri/terms.xml#rime">rime</term>, le <term ref="../thesauri/terms.xml#sonnet">sonnet</term>, les petites formes de <term ref="../thesauri/terms.xml#prose">prose</term>, la <term ref="../thesauri/terms.xml#nouvelle">nouvelle</term>, le <term ref="../thesauri/terms.xml#theatre">théâtre</term>, l’<term ref="../thesauri/terms.xml#anthologie">anthologie</term>, la <term ref="../thesauri/terms.xml#liste">liste</term>.</p>
+      <p>Propositions de titres : « <title ref="../thesauri/titles.xml#guidepourlalitteratureuniverselle">Guide pour la littérature universelle</title> » ; « <title ref="../thesauri/titles.xml#guidedelitterature">Guide de Littérature</title> » ; « <title ref="../thesauri/titles.xml#nouveauguidedelitterature">Nouveau guide de littérature</title> »…*</p>
+      <p>Décision d’un « <name ref="../thesauri/events.xml#seminairecreatifoulipo" type="manif">séminaire créatif oulipo</name> » Moulin d’Andé les 16-17-18-19-20 mai 1985, afin d’avancer sinon d’achever…</p>
       <p>Changement de date, la réunion de novembre 84 aura lieu le 22 chez PB, à 11h30.</p>
       <p>Il est 13h. On fatigue, on s’arrête.</p>
-      <p>*<persName ref="#mb">Marcel Bénabou</persName> et <persName ref="#jj">Jacques
-          Jouet</persName> sont nommés « rédacteurs » du <title ref="#guide">Guide</title>.</p>
+      <p>*<persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> et <persName ref="../thesauri/persons.xml#jj">Jacques Jouet</persName> sont nommés « rédacteurs » du <title ref="../thesauri/titles.xml#guide">Guide</title>.</p>
     </body>
   </text>
 </TEI>

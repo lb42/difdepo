@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010242-1981-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010242-1981-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,42 +17,19 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010242-1981-08-cr</idno>
-          <meeting xml:id="t10010242-1981-08">
-            <date when="1981-08-21">21/08/1981</date>
-            <placeName>chez PF</placeName>
-            <list type="present">
-              <item><persName ref="#jb"><choice>
-                    <abbr>JB</abbr>
-                    <expan>Jacques Bens</expan>
-                  </choice></persName></item>
-              <item><persName ref="#le"><choice>
-                    <abbr>LE</abbr>
-                    <expan>Luc Etienne</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jr"><choice>
-                    <abbr>JR</abbr>
-                    <expan>Jacques Roubaud</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pf"><choice>
-                    <abbr>PF</abbr>
-                    <expan>Paul Fournel</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pb"><choice>
-                    <abbr>PB</abbr>
-                    <expan>Paul Braffort</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jd"><choice>
-                    <abbr>JD</abbr>
-                    <expan>Jacques Duchateau</expan>
-                  </choice></persName></item>
-              <item><persName ref="#gp" role="président"><choice>
-                    <abbr>GP</abbr>
-                    <expan>Georges Perec</expan>
-                  </choice></persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010242-1981-08-cr</idno> <meeting xml:id="t10010242-1981-08">
+          <date when="1981-08-21">21 août 1981</date>
+          <placeName>chez PF</placeName>
+          <list type="present">
+            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#gp" role="président"><abbr>GP</abbr></persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -73,93 +50,25 @@
       <p rend="incipit">Présents : JB, GP, LE, JR, PF, PB, JD</p>
       <p rend="incipit">Excusés : MM, FLLPrésident : GP</p>
       <p rend="incipit">Absents : MB, HM, etc… JL</p>
-      <p>Le téléphone de <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> sonne occupé</p>
+      <p>Le téléphone de <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> sonne occupé</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> : Au mariage de <persName ref="#noureddinemechri">Noureddine
-          Mechri</persName> en Tunisie : un <term ref="#epithalame">épithalame</term> sous forme
-        d’un <term ref="#beaupresent">beau présent.</term></p>
-      <p>Très beau poème -&gt;deviendra <title ref="#bibliothequeoulipienne">Bibliothèque
-          oulipienne</title> 19</p>
-      <p><persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> : Faire un <term ref="#alphabetpangrammatique">alphabet
-          pangrammatique</term></p>
+      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>  : Au mariage de <persName ref="../thesauri/persons.xml#noureddinemechri">Noureddine Mechri</persName> en Tunisie : un <term ref="../thesauri/terms.xml#epithalame">épithalame</term> sous forme d’un <term ref="../thesauri/terms.xml#beaupresent">beau présent.</term></p>
+      <p>Très beau poème -&gt;deviendra <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> 19</p>
+      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>  : Faire un <term ref="../thesauri/terms.xml#alphabetpangrammatique">alphabet pangrammatique</term></p>
       <p>Traduire « le vieux whisky » en français sans a/sans b/sans c/sans d/…</p>
       <p>Action</p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> : Le <title ref="#volume">volume 2</title> sera prêt la semaine.
-        Signature <persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> semaine du 7 septembre : <persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName>-<persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>-<persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>.</p>
-      <p>Pour la Bibliothèque oulipienne il faudra payer en attendant <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> (<persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>+<persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> d’accord)</p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Le <title ref="../thesauri/titles.xml#volume2">volume 2</title> sera prêt la semaine. Signature <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> semaine du 7 septembre : <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> -<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> -<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>.</p>
+      <p>Pour la Bibliothèque oulipienne il faudra payer en attendant <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> (<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> +<persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> d’accord)</p>
       <p>Il faut faire un effort de vente. Autrement dit pour sortie vol 2</p>
-      <p><persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName> : Le prst Fu a trouvé une structure <term ref="#mobius"
-        >Möbius</term></p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> : Il faut demander à <persName ref="#ic">Calvino</persName> son texte
-        théorique sur <title ref="#siparunenuitdhiver">Si par une nuit d’hiver</title>.</p>
-      <p><persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName> : <term ref="#nouvellepalindromique">Nouvelle palindromique</term> de
-          <persName ref="#gayot">Gayot</persName> (signé <persName ref="#jbarine">J
-          Barine</persName>) dans nouvelles policières au Gué.</p>
-      <p><persName ref="#mp"><choice>
-            <abbr>MP</abbr>
-            <expan>MP</expan>
-          </choice></persName>/</p>
+      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>  : Le prst Fu a trouvé une structure <term ref="../thesauri/terms.xml#mobius">Möbius</term></p>
+      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : Il faut demander à <persName ref="../thesauri/persons.xml#ic">Calvino</persName> son texte théorique sur <title ref="../thesauri/titles.xml#siparunenuitdhiver">Si par une nuit d’hiver</title>.</p>
+      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>  : <term ref="../thesauri/terms.xml#nouvellepalindromique">Nouvelle palindromique</term> de <persName ref="../thesauri/persons.xml#gayot">Gayot</persName> (signé <persName ref="../thesauri/persons.xml#jbarine">J Barine</persName>) dans nouvelles policières au Gué.</p>
+      <p><persName ref="../thesauri/persons.xml#mp"><abbr>MP</abbr></persName> /</p>
       <p>Erudition</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> : <persName ref="#salomoncerton">Salomon Certon</persName> « Vers,
-          <term ref="#lipogrammes">lipogrammes</term> et autres œuvres en poésie » 1620 BN Inv
-        YE7580 Présence de <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> dans un vers.</p>
-      <p><persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName> : Texte sur la <orgName ref="#pataphysique"
-        >Pataphysique</orgName></p>
-      <p>Contrainte <term ref="#canadadry">« Canada dry »</term> : donne l’illusion d’une <term
-          ref="#contrainte">contrainte</term> mais n’a pas de <term ref="#contrainte"
-          >contrainte</term></p>
-      <p>Le 2e principe de <persName ref="#jq">Queval</persName> : [définition flottante.]</p>
+      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : <persName ref="../thesauri/persons.xml#salomoncerton">Salomon Certon</persName> « Vers, <term ref="../thesauri/terms.xml#lipogrammes">lipogrammes</term> et autres œuvres en poésie » 1620 BN Inv YE7580 Présence de <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> dans un vers.</p>
+      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>  : Texte sur la <orgName ref="../thesauri/organizations.xml#pataphysique">Pataphysique</orgName></p>
+      <p>Contrainte <term ref="../thesauri/terms.xml#canadadry">« Canada dry »</term> : donne l’illusion d’une <term ref="../thesauri/terms.xml#contrainte">contrainte</term> mais n’a pas de <term ref="../thesauri/terms.xml#contrainte">contrainte</term></p>
+      <p>Le 2e principe de <persName ref="../thesauri/persons.xml#jq">Queval</persName> : [définition flottante.]</p>
     </body>
   </text>
 </TEI>

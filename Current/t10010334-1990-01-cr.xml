@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010334-1990-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010334-1990-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,30 +17,16 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010334-1990-01-cr</idno>
-          <meeting xml:id="t10010334-1990-01">
-            <date when="1990-01-26">26/01/1990</date>
-            <placeName>chez FC</placeName>
-            <list type="present">
-              <item><persName ref="#mb"><choice>
-                    <abbr>MB</abbr>
-                    <expan>Marcel Bénabou</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jr"><choice>
-                    <abbr>JR</abbr>
-                    <expan>Jacques Roubaud</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jj"><choice>
-                    <abbr>JJ</abbr>
-                    <expan>Jacques Jouet</expan>
-                  </choice></persName></item>
-              <item><persName ref="#cb" role="président"><choice>
-                    <abbr>CB</abbr>
-                    <expan>Claude Berge</expan>
-                  </choice></persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010334-1990-01-cr</idno> <meeting xml:id="t10010334-1990-01">
+          <date when="1990-01-26">26 janvier 1990</date>
+          <placeName>chez FC</placeName>
+          <list type="present">
+            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
+            <item><persName ref="../thesauri/persons.xml#cb" role="président"><abbr>CB</abbr></persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -59,302 +45,93 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103344/f3.highres" n="3"/>
       <p>1</p>
-      <p rend="incipit">26.1.90. oulipo. <persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName>. <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>. <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>. <persName ref="#jj"><choice>
-            <abbr>JJ</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName>. <persName ref="#cb"><choice>
-            <abbr>CB</abbr>
-            <expan>Claude Berge</expan>
-          </choice></persName> (Président)</p>
-      <p rend="incipit">excusés : <persName ref="#na"><choice>
-            <abbr>NA</abbr>
-            <expan>Noël Arnaud</expan>
-          </choice></persName>. <persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName>. <persName ref="#jd"><choice>
-            <abbr>JD</abbr>
-            <expan>Jacques Duchateau</expan>
-          </choice></persName>. <persName ref="#mm"><choice>
-            <abbr>MM</abbr>
-            <expan>Michele Métail</expan>
-          </choice></persName>. <persName ref="#jq"><choice>
-            <abbr>JQ</abbr>
-            <expan>Jean Queval</expan>
-          </choice></persName></p>
+      <p rend="incipit">26.1.90. oulipo. <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> (Président)</p>
+      <p rend="incipit">excusés : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>. <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName>. <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></p>
       <p><label type="rubrique">CRÉATION</label></p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR.</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>
-        <title ref="#crisedetheatre">crise de théâtre</title>. Artaban (<term
-          ref="#oulipisationparacceleration">oulipisation par accélération</term>)</p>
-      <p>pour <term ref="#horspiel">hörspiel</term></p>
+      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR.</abbr></persName> <title ref="../thesauri/titles.xml#crisedetheatre">crise de théâtre</title>. Artaban (<term ref="../thesauri/terms.xml#oulipisationparacceleration">oulipisation par accélération</term>)</p>
+      <p>pour <term ref="../thesauri/terms.xml#horspiel">hörspiel</term></p>
       <p>Propositions pour le théâtre (nombreuses)</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> donne son texte.</p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName>. <title ref="#lelionestmortcesoir">le lion est mort ce soir</title>.
-        Cf. <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName>
-        <persName ref="#fenouil">Fenouil</persName></p>
-      <p>Réduction de <persName ref="#fenouillard">Fenouillard</persName> ?</p>
-      <p>en fait <term ref="#anagramme">anagramme</term> : Feu lion.</p>
+      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> donne son texte.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <title ref="../thesauri/titles.xml#lelionestmortcesoir">le lion est mort ce soir</title>. Cf. <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="../thesauri/persons.xml#fenouil">Fenouil</persName></p>
+      <p>Réduction de <persName ref="../thesauri/persons.xml#fenouillard">Fenouillard</persName> ?</p>
+      <p>en fait <term ref="../thesauri/terms.xml#anagramme">anagramme</term> : Feu lion.</p>
       <p><label type="rubrique">ÉRUDITION</label></p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB.</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName></p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB.</abbr></persName></p>
       <list type="unordered">
-        <item><term ref="#verbessuperlatifs">Verbes superlatifs</term>. Jouer. Jouir. 1 seul ? <term
-            ref="#hypotheseroubaud">hypothèse <persName ref="#jr">Roubaud</persName></term>
-        </item>
+        <item><term ref="../thesauri/terms.xml#verbessuperlatifs">Verbes superlatifs</term>. Jouer. Jouir. 1 seul ? <term ref="../thesauri/terms.xml#hypotheseroubaud">hypothèse <persName ref="../thesauri/persons.xml#jr">Roubaud</persName></term></item>
       </list>
       <p><del>saler. Salir.</del> conjecture d’unicité</p>
-      <p><term ref="#nomssuperlatifs">noms superlatifs</term> buée. nuée.</p>
+      <p><term ref="../thesauri/terms.xml#nomssuperlatifs">noms superlatifs</term> buée. nuée.</p>
       <p><del>mots</del></p>
       <list type="unordered">
-        <item><persName ref="#juliettejost">Juliette Jost</persName> Mémoire «<title
-          ref="#lauteuroulipien"> l’auteur oulipien </title>»</item>
+        <item><persName ref="../thesauri/persons.xml#juliettejost">Juliette Jost</persName> Mémoire «<title ref="../thesauri/titles.xml#lauteuroulipien"> l’auteur oulipien </title>»</item>
       </list>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName></p>
+      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></p>
       <list type="unordered">
-        <item><persName ref="#jr"><choice>
-              <abbr>JR</abbr>
-              <expan>Jacques Roubaud</expan>
-            </choice></persName> a rencontré un bosniaque fou. <persName ref="#micevic"
-            >MIČEVIČ</persName></item>
+        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> a rencontré un bosniaque fou. <persName ref="../thesauri/persons.xml#micevic">MIČEVIČ</persName></item>
       </list>
-      <p>a traduit 1 <term ref="#quatrain">quatrain</term> de <persName ref="#villon"
-          >Villon</persName> 24 versions</p>
+      <p>a traduit 1 <term ref="../thesauri/terms.xml#quatrain">quatrain</term> de <persName ref="../thesauri/persons.xml#villon">Villon</persName> 24 versions</p>
       <p>365 versions</p>
-      <p>Publié illustré par <persName ref="#velicsvicz">Velicsvicz</persName>.</p>
-      <p>a traduit <title ref="#delie">Délie</title></p>
+      <p>Publié illustré par <persName ref="../thesauri/persons.xml#velicsvicz">Velicsvicz</persName>.</p>
+      <p>a traduit <title ref="../thesauri/titles.xml#delie">Délie</title></p>
       <list type="unordered">
-        <item><persName ref="#jj"><choice>
-              <abbr>JJ</abbr>
-              <expan>Jacques Jouet</expan>
-            </choice></persName>
-          <persName ref="#mg">Michelle Grangaud</persName>. <title ref="#stationsanagrammes"
-            >Stations Anagrammes</title>.</item>
+        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="../thesauri/persons.xml#mg">Michelle Grangaud</persName>. <title ref="../thesauri/titles.xml#stationsanagrammes">Stations Anagrammes</title>.</item>
       </list>
       <p>Satisfaction</p>
       <p>Invitation future</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103344/f4.highres" n="4"/>
       <p>2</p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. (<persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>).</p>
+      <p><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. (<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> ).</p>
       <list type="ordered">
         <item>Sortie février</item>
-        <item>Tirés à part. 20 heures 30. Déçus de <persName ref="#fc"><choice>
-              <abbr>FC</abbr>
-              <expan>François Caradec</expan>
-            </choice></persName></item>
+        <item>Tirés à part. 20 heures 30. Déçus de <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
       </list>
       <p>Solutions artisanale à la demande.</p>
       <list type="ordered">
         <item>Promotion. Presse légère + déplacements.</item>
       </list>
-      <p>Cf. fil rouge. Rouvrent <orgName ref="#lesnoctambules">les Noctambules</orgName></p>
-      <p>6 Février générale du <title ref="#dimanchedelavie">Dimanche de la vie</title>.</p>
-      <p>24 Février. <name ref="#soireeoulipo" type="manif">Soirée oulipo</name>. <persName
-          ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>. <persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName>. <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>. <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>. <persName ref="#jj"><choice>
-            <abbr>JJ</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName>. <persName ref="#cb"><choice>
-            <abbr>CB</abbr>
-            <expan>Claude Berge</expan>
-          </choice></persName>. <persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName>. <persName ref="#mm"><choice>
-            <abbr>MM</abbr>
-            <expan>Michele Métail</expan>
-          </choice></persName>. <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> ?</p>
+      <p>Cf. fil rouge. Rouvrent <orgName ref="../thesauri/organizations.xml#lesnoctambules">les Noctambules</orgName></p>
+      <p>6 Février générale du <title ref="../thesauri/titles.xml#dimanchedelavie">Dimanche de la vie</title>.</p>
+      <p>24 Février. <name ref="../thesauri/events.xml#soireeoulipo" type="manif">Soirée oulipo</name>. <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>. <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  ?</p>
       <list type="ordered">
         <item>ordre piètre. Catastrophique. Tout faux.</item>
       </list>
       <p>Mais on va le justifier.</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB.</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> Contrats. RAS</p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC.</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName> incompétence en typographie. Conseil : lire chez <orgName ref="#retz"
-          >Retz</orgName>. <persName ref="#fbaudin">F. Baudin</persName> «<title
-          ref="#latypoautableaunoir"> La typographie au tableau noir </title>».</p>
-      <p><persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName>. <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> ignorants en <term ref="#typographie">typographie</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB.</abbr></persName> Contrats. RAS</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC.</abbr></persName> incompétence en typographie. Conseil : lire chez <orgName ref="../thesauri/organizations.xml#retz">Retz</orgName>. <persName ref="../thesauri/persons.xml#fbaudin">F. Baudin</persName> «<title ref="../thesauri/titles.xml#latypographieautableaunoir"> La typographie au tableau noir </title>».</p>
+      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> ignorants en <term ref="../thesauri/terms.xml#typographie">typographie</term>.</p>
       <p><label type="rubrique">ACTIONS</label></p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName> : Thionville 12.13.14 octobre <name ref="#queneauetlaville"
-          type="manif">Queneau et la ville</name></p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>  : Thionville 12.13.14 octobre <name ref="../thesauri/events.xml#queneauetlaville" type="manif">Queneau et la ville</name></p>
       <p>C’est une première</p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName> assume une action ! lecture thématique <title ref="#loulipoetlaville"
-          >l’oulipo et la ville.</title></p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF.</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> propose 1 création dite <term ref="#couillesdebastons7villes7"
-          >« Couilles de baston » (s+7 = villes +7)</term></p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> : <orgName ref="#madridinstitutfrancais">Madrid. Institut
-          français.</orgName>
-        <persName ref="#carlosmensch">Carlos Mensch</persName>. 2 lectures.</p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> : « Il faut suivre sa participante pourvu que ce soit en
-        montant ».</p>
-      <p>1. 2. 3 juin volontaires. <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>. <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>. <persName ref="#jj"><choice>
-            <abbr>JJ</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName>. + <persName ref="#mm"><choice>
-            <abbr>MM</abbr>
-            <expan>Michele Métail</expan>
-          </choice></persName> ? + <persName ref="#cb"><choice>
-            <abbr>CB</abbr>
-            <expan>Claude Berge</expan>
-          </choice></persName> !</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> assume une action ! lecture thématique <title ref="../thesauri/titles.xml#loulipoetlaville">l’oulipo et la ville.</title></p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF.</abbr></persName> propose 1 création dite <term ref="../thesauri/terms.xml#couillesdebastons7villes7">« Couilles de baston » (s+7 = villes +7)</term></p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : <orgName ref="../thesauri/organizations.xml#madridinstitutfrancais">Madrid. Institut français.</orgName> <persName ref="../thesauri/persons.xml#carlosmensch">Carlos Mensch</persName>. 2 lectures.</p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : « Il faut suivre sa participante pourvu que ce soit en montant ».</p>
+      <p>1. 2. 3 juin volontaires. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>. + <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>  ? + <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>  !</p>
       <p>2 lectures soirée. 3 demi-journées de stage.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103344/f5.highres" n="5"/>
       <p>3</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> : <name ref="#nuitfureurdelire" type="manif">Nuit. Fureur de
-          lire.</name> 21 octobre. <orgName ref="#theatrefrancais">Théâtre français</orgName>
-        lecture. <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>. <persName ref="#jeanloupriviere">Jean Loup Rivière</persName>.
-        AV.</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> : Limoges. <name ref="#colloqueperec" type="manif">Colloque
-          Perec</name>. <title ref="#laruse">La ruse</title>.</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> : 1991 l’unique année du <term ref="#palindrome">palindrome</term> du
-        siècle.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : <name ref="../thesauri/events.xml#nuitfureurdelire" type="manif">Nuit. Fureur de lire.</name> 21 octobre. <orgName ref="../thesauri/organizations.xml#theatrefrancais">Théâtre français</orgName> lecture. <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="../thesauri/persons.xml#jeanloupriviere">Jean Loup Rivière</persName>. AV.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : Limoges. <name ref="../thesauri/events.xml#colloqueperec" type="manif">Colloque Perec</name>. <title ref="../thesauri/titles.xml#laruse">La ruse</title>.</p>
+      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : 1991 l’unique année du <term ref="../thesauri/terms.xml#palindrome">palindrome</term> du siècle.</p>
       <p>Elles se raréfient.</p>
       <p>Créer des jumelages Lima &gt; Mali…etc.</p>
-      <p>Créer 1 ministère de la culture, des grands travaux et du <term ref="#palindrome"
-          >palindrome</term>.</p>
+      <p>Créer 1 ministère de la culture, des grands travaux et du <term ref="../thesauri/terms.xml#palindrome">palindrome</term>.</p>
       <p>&gt; correspondance avec le ministre.</p>
-      <p>&gt; correspondance avec <persName ref="#villslovalnoyon">Vills Loval Noyon</persName>.</p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC.</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName> 1961 !</p>
-      <p><persName ref="#jj"><choice>
-            <abbr>JJ.</abbr>
-            <expan>Jacques Jouet</expan>
-          </choice></persName> Inde Point du départ</p>
+      <p>&gt; correspondance avec <persName ref="../thesauri/persons.xml#villslovalnoyon">Vills Loval Noyon</persName>.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC.</abbr></persName> 1961 !</p>
+      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ.</abbr></persName> Inde Point du départ</p>
       <p>Malayalam + <unclear>*</unclear>.</p>
-      <p><persName ref="#gp">Perec.</persName></p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>. <persName ref="#klinkenberg">Klinkenberg.</persName> Invité
-        d’honneur.</p>
+      <p><persName ref="../thesauri/persons.xml#gp">Perec.</persName></p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#klinkenberg">Klinkenberg.</persName> Invité d’honneur.</p>
       <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>. <persName ref="#reda">Réda</persName> &gt; un ensemble d’inédits
-          <title ref="#nrf">NRF</title>.</p>
-      <p>Inédits pour <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>. <persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName> (plus vite que son ombre) propose <title ref="#moraleelementaire"
-          >Morale élémentaire</title>.</p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName>. <persName ref="#jd"><choice>
-            <abbr>JD</abbr>
-            <expan>Jacques Duchateau</expan>
-          </choice></persName> (excuse) où <persName ref="#dhammet">D. Hammet</persName>
-        déclare-t-il qu’il veut écrire un roman à partir d’un <term ref="#anneaudemoebius">anneau de
-            <persName ref="#moebius">Moebius</persName></term> .</p>
-      <p><persName ref="#fc"><choice>
-            <abbr>FC.</abbr>
-            <expan>François Caradec</expan>
-          </choice></persName> distribue livres de <term ref="#mnemotechnie">mnémotechnie</term>
-        particulièrement <term ref="#arithmnemotechniques">arithmnémotechniques</term>.</p>
-      <p><persName ref="#mb"><choice>
-            <abbr>MB</abbr>
-            <expan>Marcel Bénabou</expan>
-          </choice></persName>. <persName ref="#pb">Braffort</persName> nous aime</p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>. <persName ref="#jl">Lescure</persName> en forme.</p>
-      <p><label type="rubrique">Prochaine réunion 19/2/90 oulipo <persName ref="#jj"><choice>
-              <abbr>JJ.</abbr>
-              <expan>Jacques Jouet</expan>
-            </choice></persName> 16 Mars</label></p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#reda">Réda</persName> &gt; un ensemble d’inédits <title ref="../thesauri/titles.xml#nrf">NRF</title>.</p>
+      <p>Inédits pour <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> (plus vite que son ombre) propose <title ref="../thesauri/titles.xml#moraleelementaire">Morale élémentaire</title>.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> (excuse) où <persName ref="../thesauri/persons.xml#dhammet">D. Hammet</persName> déclare-t-il qu’il veut écrire un roman à partir d’un <term ref="../thesauri/terms.xml#anneaudemoebius">anneau de <persName ref="../thesauri/persons.xml#moebius">Moebius</persName></term>.</p>
+      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC.</abbr></persName> distribue livres de <term ref="../thesauri/terms.xml#mnemotechnie">mnémotechnie</term> particulièrement <term ref="../thesauri/terms.xml#arithmnemotechniques">arithmnémotechniques</term>.</p>
+      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#pb">Braffort</persName> nous aime</p>
+      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#jl">Lescure</persName> en forme.</p>
+      <p><label type="rubrique">Prochaine réunion 19/2/90 oulipo <persName ref="../thesauri/persons.xml#jj"><abbr>JJ.</abbr></persName> 16 Mars</label></p>
     </body>
   </text>
 </TEI>

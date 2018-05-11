@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010170-1975-10-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010170-1975-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,13 +17,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010170-1975-10-cv</idno>
-          <title>Convocation à <ref target="#t10010170-1975-10">une réunion Oulipo</ref>, envoyée le
-              <date when="1975-10-13">13/10/1975</date> par <persName ref="#fll" role="expéditeur"><choice>
-                <abbr>FLL</abbr>
-                <expan>François Le Lionnais</expan>
-              </choice></persName></title>
-        </bibl>
+        <bibl><idno>t10010170-1975-10-cv</idno> <title>Convocation à <ref target="#t10010170-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13 octobre 1975</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -39,31 +33,20 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101707/f3.highres" n="3"/>
-      <p rend="incipit"><add>N’oubliez pas le tableau du produit cartésien des structures
-          mathématiques sur les objets littéraires. Merci</add>. <note n="1" resp="editor">Ajout
-          manuscrit de FLL</note></p>
+      <p rend="incipit"><add>N’oubliez pas le tableau du produit cartésien des structures mathématiques sur les objets littéraires. Merci</add>. <note n="1" resp="editor">Ajout manuscrit de FLL</note></p>
       <p rend="incipit">Boulogne sur Seine le lundi 13 Octobre 1975</p>
       <p rend="incipit">Chers Brigadiers,</p>
       <p>La prochaine réunion de l’Oulipo a été fixée au mardi 28 Octobre vers 11h30.</p>
       <p>Notre ordre du jour est chargé.</p>
       <list type="ordered">
-        <item>Compte rendu du 8 Octobre (<name ref="#europalia" type="manif">Europalia</name> –
-          Bruxelles)</item>
-        <item>Préparation d’une <name ref="#nouvellemanifestationenfevrieroumars176aucentrepompidou"
-            type="manif">nouvelle manifestation (en février ou mars 1976) au Centre Pompidou</name>
-          Déloyalprolétaire</item>
-        <item>Distribution de photos, de <title ref="#tablesdequeneleieff">tables de <persName
-              ref="#queneleieff">Queneleieff</persName></title> , etc.</item>
+        <item>Compte rendu du 8 Octobre (<name ref="../thesauri/events.xml#europalia" type="manif">Europalia</name> – Bruxelles)</item>
+        <item>Préparation d’une <name ref="../thesauri/events.xml#nouvellemanifestationenfevrieroumars1976aucentrepompidou" type="manif">nouvelle manifestation (en février ou mars 1976) au Centre Pompidou</name> Déloyalprolétaire</item>
+        <item>Distribution de photos, de <title ref="../thesauri/titles.xml#tablesdequeneleieff">tables de <persName ref="../thesauri/persons.xml#queneleieff">Queneleieff</persName></title>, etc.</item>
         <item>Questions diverses importantes.</item>
         <item>Questions diverses sans importance</item>
       </list>
-      <p>En l’absence provisoire de sa secrétaire votre <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> (et <persName ref="#marieadele">Marie Adèle</persName>) vous seraient
-        extrêmement reconnaissants de leur faire reconnaître rapidement et sans faute votre
-        décision. Oulipiennement [et amicalement] vôtre</p>
-      <p><persName ref="#fll">F. Le Lionnais</persName></p>
+      <p>En l’absence provisoire de sa secrétaire votre <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> (et <persName ref="../thesauri/persons.xml#marieadele">Marie Adèle</persName>) vous seraient extrêmement reconnaissants de leur faire reconnaître rapidement et sans faute votre décision. Oulipiennement [et amicalement] vôtre</p>
+      <p><persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>
