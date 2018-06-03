@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010153-1973-09-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010153-1973-09-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,6 +21,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
       <p>Cet ordre du jour de la réunion du 05/09/1973 est un doublon de T10010176-1973-09-OJ (http://gallica.bnf.fr/ark:/12148/btv1b10010176x/f3.image). La page scannée se trouve (par erreur ?) dans le dossier 10010176, qui regroupe des document de 09/1975. Dans ces deux documents, le texte dactylographié est le même, mais les ajouts manuscrits différent.</p>
     </encodingDesc>
     <revisionDesc>

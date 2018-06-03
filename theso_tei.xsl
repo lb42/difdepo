@@ -45,7 +45,7 @@
         </xsl:variable>
         <!--  if we are in the right thesaurus for this element + form is the same, insert @ref pointing to skos:Concept/@rdf:ID  -->
         <xsl:if test="$thesaurus_id = $id and $thesaurus_type = $type">
-          <xsl:attribute name="ref">../thesauri/<xsl:value-of select="$filename"/>#<xsl:value-of select="./parent::*/@rdf:ID"/></xsl:attribute>
+          <xsl:attribute name="ref">difdepo:<xsl:value-of select="$filename"/>#<xsl:value-of select="./parent::*/@rdf:ID"/></xsl:attribute>
         </xsl:if>
       </xsl:for-each>
       <xsl:apply-templates select="* | @type | @role | processing-instruction() | comment() | text()"/>

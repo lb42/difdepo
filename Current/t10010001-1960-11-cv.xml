@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010001-1960-11-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010001-1960-11-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,6 +20,11 @@
         <bibl><idno>t10010001-1960-11-cv</idno> <title>Convocation à <ref target="#t10010001-1960-11">une réunion Oulipo</ref>, envoyée le <date when="1960-11-25">25 novembre 1960</date> par <persName ref="#jb" role="expéditeur">Jacques Bens</persName> à <persName ref="#jq" role="destinataire">Jean Queval</persName> <persName ref="#rq" role="destinataire">Raymond Queneau</persName> <persName ref="#ams" role="destinataire">Albert-Marie Schmidt</persName> <persName ref="#jl" role="destinataire">Jean Lescure</persName> <persName ref="#fll" role="destinataire">François Le Lionnais</persName> <persName ref="#jd" role="destinataire">Jacques Duchateau</persName> <persName ref="#cb" role="destinataire">Claude Berge</persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -61,7 +67,7 @@
       <p>= + =</p>
       <p><label type="rubrique">MEMENTO</label></p>
       <p>Je rappelle à <persName ref="#rq">Raymond Queneau</persName> qu’il doit écrire à MM;<persName ref="#ams">Schmidt</persName>, <persName ref="#la">Latis</persName> et <persName ref="#koenig">Koenig</persName>.</p>
-      <p>Je rappelle à tout chacun que la <name ref="#prochainereunion" type="manif">prochaine réunion</name>  aura lieu, à la Cave gasconne, le lundi 19 décembre à Midi 30. Aucune absence ne sera tolérée.</p>
+      <p>Je rappelle à tout chacun que la <name ref="#prochainereunion" type="manif">prochaine réunion</name> aura lieu, à la Cave gasconne, le lundi 19 décembre à Midi 30. Aucune absence ne sera tolérée.</p>
       <p>Je rappelle à <persName ref="#cb">Claude Berge</persName> qu’il sera le prochain chairmane, ce qui lui confère le droit et le devoir de rédiger le prochain ordre du jour. (Nous tâcherons de nous mettre d’accord tous les deux pour que cet ordre du jour vous soit communiqué avant la <name ref="#prochainereunion" type="manif">prochaine réunion</name> . )</p>
       <p>Je rappelle que le S. L. E. va s’inclure dans l’<orgName ref="#accommissiondescompositionsducollegedepataphysique">Accommission des Compositions du Collège de Pataphysique</orgName>. Chaque Séministe sera affectée du titre de dataire. (Toutes les précisions sur ce titre et ses obligations seront données ultérieurement).</p>
       <p><persName ref="#jb">Jacques BENS</persName></p>
