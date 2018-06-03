@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010270-1984-04-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010270-1984-04-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,23 +17,26 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010270-1984-04-cr</idno>
-          <meeting xml:id="t10010270-1984-04">
-            <date when="1984-04-27">27 avril 1984</date>
-            <placeName>chez MarieAdèle</placeName>
-            <list type="present">
-              <item><persName ref="#jr">Jacques Roubaud</persName></item>
-              <item><persName ref="#jj">Jacques Jouet</persName></item>
-              <item><persName ref="#hm">Harry Mathews</persName></item>
-              <item><persName ref="#pb">Paul Braffort</persName></item>
-              <item><persName ref="#fc">François Caradec</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010270-1984-04-cr</idno> <meeting xml:id="t10010270-1984-04">
+          <date when="1984-04-27">27 avril 1984</date>
+          <placeName>chez MarieAdèle</placeName>
+          <list type="present">
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
@@ -49,49 +53,41 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010270m/f11.highres" n="11"/>
       <p rend="incipit">Oulipo du 27-4-84</p>
-      <p rend="incipit">Présent : <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#jb"><abbr>JB</abbr></persName></p>
+      <p rend="incipit">Présent : <persName><abbr>JR</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>NA</abbr></persName>, <persName><abbr>JB</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p><persName><abbr>MB</abbr></persName></p>
       <list type="unordered">
-        <item><term ref="#motscroises">mots croisés</term> à définitions littérales exclusivement :
-            <unclear>entête du pont = po</unclear></item>
-        <item><term ref="#inclusion">inclusion</term> : il y a du désir dans la dérision Le vide se
-          niche au cœur de l’évidence</item>
+        <item><term>mots croisés</term> à définitions littérales exclusivement : <unclear>entête du pont = po</unclear></item>
+        <item><term>inclusion</term> : il y a du désir dans la dérision Le vide se niche au cœur de l’évidence</item>
       </list>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> : déplacement de <term ref="#ponctuation">ponctuation</term>
-        (archives)</p>
+      <p><persName><abbr>HM</abbr></persName> : déplacement de <term>ponctuation</term> (archives)</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <name ref="#stageoulipo" type="manif">Stage Oulipo</name> du 9 au
-        13 juillet – <name ref="#stagealamo" type="manif">stage <orgName ref="#Alamo">Alamo</orgName></name> 9-22</p>
-      <p>4 membres dont <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName></p>
-      <p>Négocier tout cela avec <persName ref="#jouanard">Jouanard</persName> : <persName ref="#pb"><abbr>PB</abbr></persName> est chargé de la négociation.</p>
-      <p>Distribution du numéro 25 de la <title ref="#bibliothequeoulipienne">Bibliothèque
-          oulipienne</title> Loc. Introuvables</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : le numéro 27 : <persName ref="#le">Luc Etienne</persName>, <title ref="#lartdupalindromephonetique">L’art du Palindrome phonétique</title></p>
+      <p><persName><abbr>PF</abbr></persName> : <name type="manif">Stage Oulipo</name> du 9 au 13 juillet – <name type="manif">stage <orgName>Alamo</orgName></name> 9-22</p>
+      <p>4 membres dont <persName><abbr>JR</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>JJ</abbr></persName></p>
+      <p>Négocier tout cela avec <persName>Jouanard</persName> : <persName><abbr>PB</abbr></persName> est chargé de la négociation.</p>
+      <p>Distribution du numéro 25 de la <title>Bibliothèque oulipienne</title> Loc. Introuvables</p>
+      <p><persName><abbr>PF</abbr></persName> : le numéro 27 : <persName>Luc Etienne</persName>, <title>L’art du Palindrome phonétique</title></p>
       <p>Prochains numéros</p>
-      <p>26 <persName ref="#jr"><abbr>JR</abbr></persName> Hommage à <persName ref="#jq">Queval</persName></p>
-      <p>28 <persName ref="#jq"><abbr>JQ</abbr></persName></p>
-      <p>29 Hommage à <persName ref="#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> : Publications en anglais de l’Oulipo : <persName ref="#warrenmotte">Warren Motte</persName></p>
+      <p>26 <persName><abbr>JR</abbr></persName> Hommage à <persName>Queval</persName></p>
+      <p>28 <persName><abbr>JQ</abbr></persName></p>
+      <p>29 Hommage à <persName><abbr>FLL</abbr></persName></p>
+      <p><persName><abbr>HM</abbr></persName> : Publications en anglais de l’Oulipo : <persName>Warren Motte</persName></p>
       <list type="unordered">
-        <item><unclear>Cacarnet Press</unclear> va publier l’œuvre complète de <persName ref="#hm"><abbr>HM</abbr></persName></item>
+        <item><unclear>Cacarnet Press</unclear> va publier l’œuvre complète de <persName><abbr>HM</abbr></persName></item>
       </list>
       <p><label type="rubrique">Stages</label></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <name ref="#stagealiege" type="manif">Stage à Liège</name> en
-        octobre = à voir</p>
+      <p><persName><abbr>PB</abbr></persName> : <name type="manif">Stage à Liège</name> en octobre = à voir</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#fc">F Caradec</persName>
-        <term ref="#aleandrin">Alexandrin</term></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <orgName ref="#alamo">Alamo</orgName> : nouvelles</p>
+      <p><persName>F Caradec</persName> <term>Alexandrin</term></p>
+      <p><persName><abbr>PB</abbr></persName> : <orgName>Alamo</orgName> : nouvelles</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010270m/f12.highres" n="12"/>
-      <p>Hommage à <persName ref="#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> structure : un ensemble des projets</p>
-      <p>Le <term ref="#troisiemesecteur">troisième secteur</term></p>
-      <p>Discussion sur le livre de <persName ref="#fll"><abbr>FLL</abbr></persName> : <title ref="#unecertainedisparate">une certaine
-        disparate</title></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> le donne en lecture à <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName></p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : mardi 29/5 <persName ref="#pb"><abbr>PB</abbr></persName></p>
+      <p>Hommage à <persName><abbr>FLL</abbr></persName></p>
+      <p><persName><abbr>FC</abbr></persName> structure : un ensemble des projets</p>
+      <p>Le <term>troisième secteur</term></p>
+      <p>Discussion sur le livre de <persName><abbr>FLL</abbr></persName> : <title>une certaine disparate</title></p>
+      <p><persName><abbr>PF</abbr></persName> le donne en lecture à <persName><abbr>MB</abbr></persName>, <persName><abbr>JR</abbr></persName></p>
+      <p><name type="manif">Prochaine réunion</name>  : mardi 29/5 <persName><abbr>PB</abbr></persName></p>
     </body>
   </text>
 </TEI>

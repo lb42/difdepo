@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010073-1967-01-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010073-1967-01-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,9 +18,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010073-1967-01-cv</idno> <title>Convocation à <ref target="#t10010073-1967-01">une réunion Oulipo</ref>, envoyée le <date when="1967-01-18">18 janvier 1967</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010073-1967-01-cv</idno> <title>Convocation à <ref target="#t10010073-1967-01">une réunion Oulipo</ref>, envoyée le <date when="1967-01-18">18 janvier 1967</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -35,13 +41,13 @@
       <p rend="incipit">OuLiPo</p>
       <p rend="incipit">le 18 janvier 1967</p>
       <p>Chers Amis,</p>
-      <p>Venu des antipodes, notre éminent Collègue <persName ref="#rc">Ross CHAMBERS</persName> sera à Paris en février. Compte-tenu des avis que vous avez exprimés au cours de notre <name ref="#congresdujanvier" type="manif">Congrès du 2 janvier</name> – et après avoir consulté <persName ref="#rq">Raymond QUENEAU</persName> et <persName ref="#la">LATIS</persName> – c’est à la date du vendredi 10 février que nous nous réunirons avec <persName ref="#rc">CHAMBERS</persName>.</p>
+      <p>Venu des antipodes, notre éminent Collègue <persName>Ross CHAMBERS</persName> sera à Paris en février. Compte-tenu des avis que vous avez exprimés au cours de notre <name type="manif">Congrès du 2 janvier</name> – et après avoir consulté <persName>Raymond QUENEAU</persName> et <persName>LATIS</persName> – c’est à la date du vendredi 10 février que nous nous réunirons avec <persName>CHAMBERS</persName>.</p>
       <p>Rendez-vous donc à midi trente au Restaurant JULIEN, 40. Rue de l’Université.</p>
       <p>D’ici-là vivez en paix.</p>
-      <p><persName ref="#la">LATIS</persName> P.S. – J’ai essayé – sans succès – de vous téléphoner hier mardi 17 janvier et ce matin.</p>
-      <p><persName ref="#jd">DUCHATEAU</persName> P.S. – Pouvez-vous faire le nécessaire pour retenir la salle ?</p>
-      <p>Savez-vous si <persName ref="#md">DUCHAMP</persName> est à Paris et où on pourrait le toucher ?</p>
-      <p>J’ai un tas de documents de dernier <name ref="#congres" type="manif">Congrès</name> à vous remettre.</p>
+      <p><persName>LATIS</persName> P.S. – J’ai essayé – sans succès – de vous téléphoner hier mardi 17 janvier et ce matin.</p>
+      <p><persName>DUCHATEAU</persName> P.S. – Pouvez-vous faire le nécessaire pour retenir la salle ?</p>
+      <p>Savez-vous si <persName>DUCHAMP</persName> est à Paris et où on pourrait le toucher ?</p>
+      <p>J’ai un tas de documents de dernier <name type="manif">Congrès</name> à vous remettre.</p>
       <p>Faut-il les envoyer par la poste en recommandé ou les garder jusqu’au 10 février ?</p>
     </body>
   </text>

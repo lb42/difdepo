@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010127-1971-06-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010127-1971-06-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010127-1971-06-cv</idno> <title>Convocation à <ref target="#t10010127-1971-06">une réunion Oulipo</ref>, envoyée le <date when="1971-06-03">3 juin 1971</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010127-1971-06-cv</idno> <title>Convocation à <ref target="#t10010127-1971-06">une réunion Oulipo</ref>, envoyée le <date when="1971-06-03">3 juin 1971</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -33,22 +39,22 @@
       <p rend="incipit">le 3 Juin 1971</p>
       <p rend="incipit">Lettre adressée à Messieurs</p>
       <list type="unordered">
-        <item><persName ref="#na">Noël ARNAUD</persName></item>
-        <item><persName ref="#mb">Marcel BENABOU</persName></item>
-        <item><persName ref="#jeanborzic">Jean BORZIC</persName></item>
-        <item><persName ref="#pb">Paul BRAFFORT</persName></item>
-        <item><persName ref="#georgesemmanuelclancier">Georges Emmanuel CLANCIER</persName></item>
-        <item><persName ref="#jd">Jacques DUCHATEAU</persName></item>
-        <item><persName ref="#reneetiemble">René ETIEMBLE</persName></item>
-        <item><persName ref="#jl">Jean LESCURE</persName></item>
-        <item><persName ref="#princenapoleonmurat">Prince Napoléon MURAT</persName></item>
-        <item><persName ref="#michelrouze">Michel ROUZE</persName></item>
+        <item><persName>Noël ARNAUD</persName></item>
+        <item><persName>Marcel BENABOU</persName></item>
+        <item><persName>Jean BORZIC</persName></item>
+        <item><persName>Paul BRAFFORT</persName></item>
+        <item><persName>Georges Emmanuel CLANCIER</persName></item>
+        <item><persName>Jacques DUCHATEAU</persName></item>
+        <item><persName>René ETIEMBLE</persName></item>
+        <item><persName>Jean LESCURE</persName></item>
+        <item><persName>Prince Napoléon MURAT</persName></item>
+        <item><persName>Michel ROUZE</persName></item>
       </list>
       <p>Chers Amis,</p>
-      <p>Je vous confirme qu’une démonstration de Scribe accroupi_bavard aura lieu le Vendredi 18 Juin à 15 heures au <orgName ref="#centredecalculanalogiquedelafacultedessciencesdorsay">Centre de Calcul Analogique de la Faculté des Sciences d’Orsay</orgName>.</p>
+      <p>Je vous confirme qu’une démonstration de Scribe accroupi_bavard aura lieu le Vendredi 18 Juin à 15 heures au <orgName>Centre de Calcul Analogique de la Faculté des Sciences d’Orsay</orgName>.</p>
       <p>Je vous propose de nous retrouver à 14 heures précises chez moi (23, route de la Reine à Boulogne sur Seine, rez-de-chaussée à droite), le départ collectif ayant lieu à 14 heures 15 irrévocablement.</p>
       <p>Bien cordialement vôtre.</p>
-      <p><persName ref="#fll">François Le Lionnais</persName></p>
+      <p><persName>François Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

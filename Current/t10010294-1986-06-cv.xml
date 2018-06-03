@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010294-1986-06-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010294-1986-06-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010294-1986-06-cv</idno> <title>Convocation à <ref target="#t10010294-1986-06">une réunion Oulipo</ref>, envoyée le <date when="1986-06-03">3 juin 1986</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010294-1986-06-cv</idno> <title>Convocation à <ref target="#t10010294-1986-06">une réunion Oulipo</ref>, envoyée le <date when="1986-06-03">3 juin 1986</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -34,10 +40,10 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">le 3 juin 86</p>
       <p>Chers oulipiens,</p>
-      <p>La réunion du mois de juin aura lieu le 20 à 19h chez <persName ref="#isabelle">Isabelle</persName> et <persName ref="#mb">Marcel Bénabou</persName> (48 rue du Capitaine Marchal 75020 43 61 40 39).</p>
+      <p>La réunion du mois de juin aura lieu le 20 à 19h chez <persName>Isabelle</persName> et <persName>Marcel Bénabou</persName> (48 rue du Capitaine Marchal 75020 43 61 40 39).</p>
       <p>Merci de prévenir,</p>
       <p>Amitiés,</p>
-      <p><persName ref="#pf"><abbr>Paul</abbr></persName></p>
+      <p><persName><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

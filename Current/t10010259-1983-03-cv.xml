@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010259-1983-03-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010259-1983-03-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010259-1983-03-cv</idno> <title>Convocation à <ref target="#t10010259-1983-03">une réunion Oulipo</ref>, envoyée le <date when="1983-03-02">2 mars 1983</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010259-1983-03-cv</idno> <title>Convocation à <ref target="#t10010259-1983-03">une réunion Oulipo</ref>, envoyée le <date when="1983-03-02">2 mars 1983</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -30,12 +36,12 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010259t/f1.highres" n="1"/>
       <p>Chers oulipiens,</p>
-      <p>Les deux femmes des deux secrétaires de l’Oulipo ne sont plus conjointement enceintes : <persName ref="#valentinfournel">Valentin Fournel</persName> ayant mis vendredi un terme à cette situation unique dans l’histoire pourtant déjà fort mouvementée, du secrétariat de l’Ouvroir. (la mère, l’enfant, la sœur et le père se portent bien).</p>
+      <p>Les deux femmes des deux secrétaires de l’Oulipo ne sont plus conjointement enceintes : <persName>Valentin Fournel</persName> ayant mis vendredi un terme à cette situation unique dans l’histoire pourtant déjà fort mouvementée, du secrétariat de l’Ouvroir. (la mère, l’enfant, la sœur et le père se portent bien).</p>
       <p>En attendant la fin de la période des biberons et des hauts cris, l’ouvroir se réunira en des lieux dont l’expérience nous dit qu’ils sont fort accueillants et autour de tables fort exotiquement garnies.</p>
-      <p>Pour la réunion du 18 mars à 11h30 ce sera chez <persName ref="#mm">Michèle Métail</persName> 22 Avenue Trudaine 75009 526 16 15 (RSVP), qu’on se le dise.</p>
+      <p>Pour la réunion du 18 mars à 11h30 ce sera chez <persName>Michèle Métail</persName> 22 Avenue Trudaine 75009 526 16 15 (RSVP), qu’on se le dise.</p>
       <p>Amitiés à tous,</p>
       <p>Amitiés</p>
-      <p><persName ref="#pf"><abbr>Paul</abbr></persName></p>
+      <p><persName><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

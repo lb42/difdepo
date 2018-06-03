@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010202-1978-01-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010202-1978-01-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010202-1978-01-cv</idno> <title>Convocation à <ref target="#t10010202-1978-01">une réunion Oulipo</ref>, envoyée le <date when="1978-01-05">5 janvier 1978</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010202-1978-01-cv</idno> <title>Convocation à <ref target="#t10010202-1978-01">une réunion Oulipo</ref>, envoyée le <date when="1978-01-05">5 janvier 1978</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -31,13 +37,13 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010202m/f7.highres" n="7"/>
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Paris le 5 Janvier 78</p>
-      <p><add>pour information <lb/>Amitiés <lb/><persName ref="#pf"><abbr>PF</abbr></persName></add> </p>
+      <p><add>pour information <lb/>Amitiés <lb/><persName><abbr>PF</abbr></persName></add></p>
       <p>Chers oulipiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu le jeudi 26 janvier 78 chez <persName ref="#mb">Marcel Bénabou</persName>, 7, villa Duthy, dans le 14°. Nous y procèderons à la distribution du dernier volume de la Bibliothèque oulipienne: "<title ref="#lesavoirdesrois">Le savoir des rois</title>" de <persName ref="#hm">Harry Mathews</persName>.</p>
-      <p>Peut-être y sera-t-il question également des aides du <orgName ref="#cnl">C.N.L.</orgName>...sait-on jamais?</p>
-      <p>En attendant, le secrétariat de l'ouvroir vous présente ses meilleurs voeux pour 78 et vous demande de retourner aussitôt que possible la découpe ci-dessous à <persName ref="#mb">Marcel Bénabou</persName>.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 26 janvier 78 chez <persName>Marcel Bénabou</persName>, 7, villa Duthy, dans le 14°. Nous y procèderons à la distribution du dernier volume de la Bibliothèque oulipienne: "<title>Le savoir des rois</title>" de <persName>Harry Mathews</persName>.</p>
+      <p>Peut-être y sera-t-il question également des aides du <orgName>C.N.L.</orgName>...sait-on jamais?</p>
+      <p>En attendant, le secrétariat de l'ouvroir vous présente ses meilleurs voeux pour 78 et vous demande de retourner aussitôt que possible la découpe ci-dessous à <persName>Marcel Bénabou</persName>.</p>
       <p>Bien oulipiennement,</p>
-      <p><persName ref="#pf">Paul Fournel</persName></p>
+      <p><persName>Paul Fournel</persName></p>
     </body>
   </text>
 </TEI>

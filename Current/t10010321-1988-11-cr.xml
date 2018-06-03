@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010321-1988-11-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010321-1988-11-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,20 +17,23 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010321-1988-11-cr</idno>
-          <meeting xml:id="t10010321-1988-11">
-            <date when="1988-11-24">24 novembre 1988</date>
-            <placeName>chez JJ</placeName>
-            <list type="present">
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#mm">Michele Métail</persName></item>
-              <item><persName ref="#jr">Jacques Roubaud</persName></item>
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010321-1988-11-cr</idno> <meeting xml:id="t10010321-1988-11">
+          <date when="1988-11-24">24 novembre 1988</date>
+          <placeName>chez JJ</placeName>
+          <list type="present">
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
@@ -45,55 +49,41 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010321c/f10.highres" n="10"/>
       <p rend="incipit">Séance 338</p>
-      <p rend="incipit">Présents : <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName> (mais non absent)</p>
-      <p rend="incipit">Absents : <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#jl"><abbr>JL</abbr></persName>, <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>PF</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>NA</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>FC</abbr></persName> (mais non absent)</p>
+      <p rend="incipit">Absents : <persName><abbr>PB</abbr></persName>, <persName><abbr>JL</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>HM</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName>
-          <list type="unordered">
-            <item><term ref="#poemesdimorphes">Poèmes dimorphes</term> : <list type="ordered">
-                <item><term ref="#haiku">Haiku</term> + <term ref="#aleandrinmonostique">alexandrin
-                    monostique</term> (passage de 17 à 12 syllabes)</item>
-                <item><term ref="#triolet">triolet</term> + <term ref="#moraleelementaire">morale
-                    élémentaire</term></item>
-              </list>
-            </item>
-            <item><term ref="#filigrane">Filigrane</term> Chine</item>
-          </list>
-        </item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> « Autour du <title ref="#jemesouviens">je me souviens</title> » :
-          présentation du « <title ref="#peutetre">Peut-être</title> »</item>
+        <item><persName><abbr>JJ</abbr></persName> <list type="unordered">
+          <item><term>Poèmes dimorphes</term> : <list type="ordered">
+            <item><term>Haiku</term> + <term>alexandrin monostique</term> (passage de 17 à 12 syllabes)</item>
+            <item><term>triolet</term> + <term>morale élémentaire</term></item>
+            </list> </item>
+          <item><term>Filigrane</term> Chine</item>
+          </list> </item>
+        <item><persName><abbr>MB</abbr></persName> « Autour du <title>je me souviens</title> » : présentation du « <title>Peut-être</title> »</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>
-          <term ref="#lipogrammesespagnols">Lipogrammes espagnols</term></item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>
-          <term ref="#ppa"><abbr>PPA</abbr></term> (de <persName ref="#sarasin">Sarasin</persName>) : <term ref="#tireurauquatrain">tireur au quatrain</term></item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName>
-          <title ref="#lecertamecoronario">le Certame Coronario</title> : poème à lecture verticale
-          et horizontale</item>
-        <item><persName ref="#fc"><abbr>FC</abbr></persName> (représenté par <persName ref="#jj"><abbr>JJ</abbr></persName>) <title ref="#bardesetcordes">Bardes et cordes</title></item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> Présentation d’un travail de <persName ref="#atchungui">A.
-            Tchungui</persName>: jeu sur le haut et les bas des lettres</item>
+        <item><persName><abbr>MB</abbr></persName> <term>Lipogrammes espagnols</term></item>
+        <item><persName><abbr>MB</abbr></persName> <term><abbr>PPA</abbr></term> (de <persName>Sarasin</persName>) : <term>tireur au quatrain</term></item>
+        <item><persName><abbr>JR</abbr></persName> <title>le Certame Coronario</title> : poème à lecture verticale et horizontale</item>
+        <item><persName><abbr>FC</abbr></persName> (représenté par <persName><abbr>JJ</abbr></persName>) <title>Bardes et cordes</title></item>
+        <item><persName><abbr>JJ</abbr></persName> Présentation d’un travail de <persName>A. Tchungui</persName>: jeu sur le haut et les bas des lettres</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> Limons</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> Francfort</item>
+        <item><persName><abbr>MB</abbr></persName> Limons</item>
+        <item><persName><abbr>MB</abbr></persName> Francfort</item>
       </list>
       <p>(Considérations désabusées sur la décadence de l’enseignement)</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> Florence 20-21 Avril</p>
-      <p><name ref="#corbeilsemaineromanpolicier" type="manif">Corbeil : semaine roman
-          policier </name>: <name ref="#lectureouliposurlarime" type="manif">lecture Oulipo sur la
-          Rime</name>
-        <unclear>*</unclear></p>
+      <p><persName><abbr>JJ</abbr></persName> Florence 20-21 Avril</p>
+      <p><name type="manif">Corbeil : semaine roman policier </name>: <name type="manif">lecture Oulipo sur la Rime</name> <unclear>*</unclear></p>
       <p>23 24 mars</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> l’amour</p>
-      <p><persName ref="#paulhan">Paulhan</persName></p>
-      <p><name ref="#prochainereunion" type="manif">prochaine réunion</name>  16 12</p>
+      <p><persName><abbr>PF</abbr></persName> l’amour</p>
+      <p><persName>Paulhan</persName></p>
+      <p><name type="manif">prochaine réunion</name> 16 12</p>
     </body>
   </text>
 </TEI>

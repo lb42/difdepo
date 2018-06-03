@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010321-1988-11-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010321-1988-11-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010321-1988-11-oj</idno> <title>Ordre de jour de <ref target="#t10010321-1988-11">la réunion Oulipo</ref> de <date when="1988-11-24">24 novembre 1988</date></title> </bibl>
+        <bibl><idno>t10010321-1988-11-oj</idno> <title>Ordre de jour de <ref target="#t10010321-1988-11">la réunion Oulipo</ref> de <date when="1988-11-24">24 novembre 1988</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -34,30 +40,30 @@
       <p rend="incipit">ordre du jour</p>
       <p><label type="rubrique">création</label></p>
       <list type="unordered">
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName>1 <term ref="#poemesdimorphes">Poèmes dimorphes</term> 1,2</item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName>2 la Chine</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> autour de <title ref="#jemesouviens">je me souviens</title></item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> <persName ref="#petrarque">Pétrarque</persName></item>
+        <item><persName><abbr>JJ</abbr></persName>1 <term>Poèmes dimorphes</term> 1,2</item>
+        <item><persName><abbr>JJ</abbr></persName>2 la Chine</item>
+        <item><persName><abbr>MB</abbr></persName> autour de <title>je me souviens</title></item>
+        <item><persName><abbr>JR</abbr></persName> <persName>Pétrarque</persName></item>
       </list>
       <p><label type="rubrique">érudition</label></p>
       <list type="unordered">
-        <item><persName ref="#fc"><abbr>FC</abbr></persName> <title ref="#bardesetcordes">bardes et cordes</title></item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>1 autour du <term ref="#lipogramme">lipogramme</term></item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>2 <term ref="#plagiaireparanticipation">plagiaire par anticipation</term> sur tel</item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> <title ref="#certamecoronario">certame coronario</title></item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> <persName ref="#tchungui">Tchungui</persName></item>
+        <item><persName><abbr>FC</abbr></persName> <title>bardes et cordes</title></item>
+        <item><persName><abbr>MB</abbr></persName>1 autour du <term>lipogramme</term></item>
+        <item><persName><abbr>MB</abbr></persName>2 <term>plagiaire par anticipation</term> sur tel</item>
+        <item><persName><abbr>JR</abbr></persName> <title>certame coronario</title></item>
+        <item><persName><abbr>JJ</abbr></persName> <persName>Tchungui</persName></item>
       </list>
       <p><label type="rubrique">action</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>1 Limours</item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName>2 Firenze</item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName>1 Corbeil</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>2 Frankfurt</item>
+        <item><persName><abbr>MB</abbr></persName>1 Limours</item>
+        <item><persName><abbr>JJ</abbr></persName>2 Firenze</item>
+        <item><persName><abbr>JJ</abbr></persName>1 Corbeil</item>
+        <item><persName><abbr>MB</abbr></persName>2 Frankfurt</item>
       </list>
       <p><label type="rubrique">menus propos</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>1 histoire poésie. <orgName ref="#pridelanouvelle">Prix de la nouvelle</orgName></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>2 l’amour</item>
+        <item><persName><abbr>PF</abbr></persName>1 histoire poésie. <orgName>Prix de la nouvelle</orgName></item>
+        <item><persName><abbr>PF</abbr></persName>2 l’amour</item>
       </list>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010064-1966-02-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010064-1966-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,16 +21,21 @@
           <date when="1966-02-04">4 février 1966</date>
           <placeName>Basque</placeName>
           <list type="present">
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#fll">François Le Lionnais</persName></item>
-            <item><persName ref="#rq">Raymond Queneau</persName></item>
-            <item><persName ref="#jd" role="secrétaire">Jacques Duchateau</persName></item>
-            <item><persName ref="#jq" role="président">Jean Queval</persName></item>
-            <item><persName ref="#andrelenteri" role="invité">André Lenteri</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Raymond Queneau</persName></item>
+            <item><persName role="secrétaire">Jacques Duchateau</persName></item>
+            <item><persName role="président">Jean Queval</persName></item>
+            <item><persName role="invité">André Lenteri</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -47,31 +53,31 @@
       <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE <lb/>Circulaire n° 69</p>
       <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 4 FEVRIER 1966</p>
       <p rend="incipit">(Basque)</p>
-      <p rend="incipit">PRÉSENTS : <persName ref="#pb">P. Braffort</persName>, <persName ref="#jq">J. Queval</persName>, <persName ref="#fll">F. Le Lionnais</persName>, <persName ref="#rq">R. Queneau</persName>, <persName ref="#jd">J. Duchateau</persName>, <persName ref="#andrelenteri">André Lenteri</persName>.</p>
-      <p rend="incipit">INVITÉ : <persName ref="#andrelenteri">André Lenteri</persName>.</p>
-      <p rend="incipit">PRÉSIDENT : <persName ref="#jq">J. Queval</persName>.</p>
-      <p><persName ref="#pb">BRAFFORT</persName> (accueille notre invité) : Vous avez, ce que refuse le parti radical à ses membres, la double appartenance : <term ref="#linguistique">linguistique</term> et <term ref="#mathematique">mathématique</term>.</p>
-      <p><persName ref="#alenteri">A. LENTERI</persName> : Je vous invite tous cordialement à voir notre <term ref="#machine">machine</term> fonctionner. C’est une belle <term ref="#machine">machine</term> toute neuve.</p>
-      <p>On ne prend pas rendez-vous pour se rendre à <persName ref="#blaisepascal">Blaise Pascal</persName> (où travaille <persName ref="#alenteri">A. Lenteri</persName>).</p>
-      <p><persName ref="#rq">R. QUENEAU</persName> : <persName ref="#la">Latis</persName> m’a envoyé des <term ref="#boulesdeneige">boules de neige</term>.</p>
-      <p><persName ref="#jd">J. DUCHATEAU</persName> : Moi aussi.</p>
-      <p>(<ref>Annexe 1</ref> – <persName ref="#la">Latis</persName>)</p>
-      <p><persName ref="#fll">F. LE LIONNAIS</persName> : La boule de neige sera l’arme secrète de l’OuLiPo.</p>
-      <p><persName ref="#jd">J. DUCHATEAU</persName> : (<ref>voir Annexe 2</ref>.)</p>
-      <p><persName ref="#rq">R. QUENEAU</persName> : Avec l’<term ref="#analogique">analogique</term>, on passe facilement de colibri à vestiaire.</p>
-      <p><persName ref="#jq">J. QUEVAL</persName> : <title ref="#lelarousse">Le Larousse</title> <term ref="#analogique">analogique</term> est particulièrement mauvais.</p>
-      <p><persName ref="#rq">R. QUENEAU</persName> : Il y en a des bons ?</p>
+      <p rend="incipit">PRÉSENTS : <persName>P. Braffort</persName>, <persName>J. Queval</persName>, <persName>F. Le Lionnais</persName>, <persName>R. Queneau</persName>, <persName>J. Duchateau</persName>, <persName>André Lenteri</persName>.</p>
+      <p rend="incipit">INVITÉ : <persName>André Lenteri</persName>.</p>
+      <p rend="incipit">PRÉSIDENT : <persName>J. Queval</persName>.</p>
+      <p><persName>BRAFFORT</persName> (accueille notre invité) : Vous avez, ce que refuse le parti radical à ses membres, la double appartenance : <term>linguistique</term> et <term>mathématique</term>.</p>
+      <p><persName>A. LENTERI</persName> : Je vous invite tous cordialement à voir notre <term>machine</term> fonctionner. C’est une belle <term>machine</term> toute neuve.</p>
+      <p>On ne prend pas rendez-vous pour se rendre à <persName>Blaise Pascal</persName> (où travaille <persName>A. Lenteri</persName>).</p>
+      <p><persName>R. QUENEAU</persName> : <persName>Latis</persName> m’a envoyé des <term>boules de neige</term>.</p>
+      <p><persName>J. DUCHATEAU</persName> : Moi aussi.</p>
+      <p>(<ref>Annexe 1</ref> – <persName>Latis</persName>)</p>
+      <p><persName>F. LE LIONNAIS</persName> : La boule de neige sera l’arme secrète de l’OuLiPo.</p>
+      <p><persName>J. DUCHATEAU</persName> : (<ref>voir Annexe 2</ref>.)</p>
+      <p><persName>R. QUENEAU</persName> : Avec l’<term>analogique</term>, on passe facilement de colibri à vestiaire.</p>
+      <p><persName>J. QUEVAL</persName> : <title>Le Larousse</title> <term>analogique</term> est particulièrement mauvais.</p>
+      <p><persName>R. QUENEAU</persName> : Il y en a des bons ?</p>
       <p>(Bruit blanc.)</p>
-      <p><persName ref="#jd">J. DUCHATEAU</persName> : Ce que j’ai fait n’est qu’un exercice, pour voir. Cela dit, il peut être intéressant de se donner a priori des <term ref="#contraintessemantiques">contraintes sémantiques</term> de ce genre, qui seront réellement des <term ref="#contraintes">contraintes</term> si on observe une certaine rigueur dans le maniement du jeu rigoureux dictionnaire <term ref="#analogique">analogique</term>.</p>
-      <p><ref>Annexe 3</ref> = <title ref="#definitiondeloulipo">Définition de l’OuLiPo</title> par <persName ref="#jq">J. Queval</persName>.</p>
+      <p><persName>J. DUCHATEAU</persName> : Ce que j’ai fait n’est qu’un exercice, pour voir. Cela dit, il peut être intéressant de se donner a priori des <term>contraintes sémantiques</term> de ce genre, qui seront réellement des <term>contraintes</term> si on observe une certaine rigueur dans le maniement du jeu rigoureux dictionnaire <term>analogique</term>.</p>
+      <p><ref>Annexe 3</ref> = <title>Définition de l’OuLiPo</title> par <persName>J. Queval</persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100647/f2.highres" n="2"/>
-      <p><persName ref="#fll">F. LE LIONNAIS</persName> (à la place de <persName ref="#na">N. Arnaud</persName>, absent) : <ref>Annexe 4</ref>.</p>
+      <p><persName>F. LE LIONNAIS</persName> (à la place de <persName>N. Arnaud</persName>, absent) : <ref>Annexe 4</ref>.</p>
       <p>Il a encore été question :</p>
-      <p>du <term ref="#romanpolicier">roman policier</term> (<persName ref="#pb">Braffort</persName>),</p>
-      <p>et d’un livre de <title ref="#mathematiqueselementaires">Mathématiques Elémentaires</title> de <persName ref="#alenteri">A. Lenteri</persName> qui a donné comme exercice : Chercher la relation est amoureux de … dans <title ref="#andromaque">Andromaque</title>.</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : le 25 février 1966.</p>
+      <p>du <term>roman policier</term> (<persName>Braffort</persName>),</p>
+      <p>et d’un livre de <title>Mathématiques Elémentaires</title> de <persName>A. Lenteri</persName> qui a donné comme exercice : Chercher la relation est amoureux de … dans <title>Andromaque</title>.</p>
+      <p><name type="manif">Prochaine réunion</name>  : le 25 février 1966.</p>
       <p>Le S.P.</p>
-      <p><persName ref="#jd"><abbr>J.D.</abbr></persName></p>
+      <p><persName><abbr>J.D.</abbr></persName></p>
     </body>
   </text>
 </TEI>

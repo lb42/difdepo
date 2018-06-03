@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010229-1980-06-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010229-1980-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010229-1980-06-oj</idno> <title>Ordre de jour de <ref target="#t10010229-1980-06">la réunion Oulipo</ref> du <date when="1980-06-20">20 juin 1980</date></title> </bibl>
+        <bibl><idno>t10010229-1980-06-oj</idno> <title>Ordre de jour de <ref target="#t10010229-1980-06">la réunion Oulipo</ref> du <date when="1980-06-20">20 juin 1980</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -38,24 +44,24 @@
       <p rend="incipit">Président : JR</p>
       <p><label type="rubrique">1) Création</label></p>
       <list type="unordered">
-        <item><persName ref="#mm"><abbr>MM</abbr></persName> : SB</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : Trouver des titres</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : Retour à la prose</item>
+        <item><persName><abbr>MM</abbr></persName> : SB</item>
+        <item><persName><abbr>PB</abbr></persName> : Trouver des titres</item>
+        <item><persName><abbr>PF</abbr></persName> : Retour à la prose</item>
       </list>
       <p><label type="rubrique">2) Action</label></p>
       <list type="unordered">
         <item>Coll : Villeneuve</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : Pompidou</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : V2</item>
+        <item><persName><abbr>PB</abbr></persName> : Pompidou</item>
+        <item><persName><abbr>PF</abbr></persName> : V2</item>
       </list>
       <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : distribution du numéro 13</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : problème du numéro 14</item>
+        <item><persName><abbr>PF</abbr></persName> : distribution du numéro 13</item>
+        <item><persName><abbr>PF</abbr></persName> : problème du numéro 14</item>
       </list>
       <p><label type="rubrique">4) Menus propos</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : sortie *** E.V.</item>
+        <item><persName><abbr>PF</abbr></persName> : sortie *** E.V.</item>
       </list>
     </body>
   </text>

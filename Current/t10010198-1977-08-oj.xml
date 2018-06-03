@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010198-1977-08-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010198-1977-08-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010198-1977-08-oj</idno> <title>Ordre de jour de <ref target="#t10010198-1977-08">la réunion Oulipo</ref> de <date when="1977-08-25">25 août 1977</date></title> </bibl>
+        <bibl><idno>t10010198-1977-08-oj</idno> <title>Ordre de jour de <ref target="#t10010198-1977-08">la réunion Oulipo</ref> de <date when="1977-08-25">25 août 1977</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
@@ -34,39 +40,39 @@
       <p rend="incipit">25-8-77 Ordre du jour</p>
       <p><label type="rubrique">Création =</label></p>
       <list type="unordered">
-        <item>1 <persName ref="#gp">Perec</persName> &gt; Hommage à l’oulipo, Work in progress, <persName ref="#plassard">Plassard</persName></item>
-        <item><persName ref="#pf">Fournel</persName>+<persName ref="#jr"><abbr>JR</abbr></persName> &gt; le <term ref="#cylindre">cylindre</term> ou <title ref="#lhoteldesens">l’hôtel de Sens</title></item>
-        <item><persName ref="#hm">Mathews</persName> &gt; conséquence de l’<term ref="#algorithme">algorithme</term></item>
-        <item><persName ref="#mb">Bénabou</persName> &gt; <unclear>***</unclear> suggestions</item>
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> &gt; lettre à <persName ref="#billy">Billy</persName></item>
-        <item><persName ref="#jb">Bens</persName> &gt; <persName ref="#charles">Charles</persName> au pied de la lettre <note n="1" resp="editor">Page entièrement barrée</note></item>
+        <item>1 <persName>Perec</persName> &gt; Hommage à l’oulipo, Work in progress, <persName>Plassard</persName></item>
+        <item><persName>Fournel</persName>+<persName><abbr>JR</abbr></persName> &gt; le <term>cylindre</term> ou <title>l’hôtel de Sens</title></item>
+        <item><persName>Mathews</persName> &gt; conséquence de l’<term>algorithme</term></item>
+        <item><persName>Bénabou</persName> &gt; <unclear>***</unclear> suggestions</item>
+        <item><persName><abbr>FLL</abbr></persName> &gt; lettre à <persName>Billy</persName></item>
+        <item><persName>Bens</persName> &gt; <persName>Charles</persName> au pied de la lettre <note n="1" resp="editor">Page entièrement barrée</note></item>
       </list>
-      <p><label type="rubrique">Action</label> </p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> <name ref="#avignon" type="manif">Avignon</name>- Photo- <title ref="#volume">Volume 2</title> <orgName ref="#cnl">CNL</orgName>- <title ref="#droledebaroque">Drôle de baroque</title></p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName><abbr>PF</abbr></persName> <name type="manif">Avignon</name>- Photo- <title>Volume 2</title> <orgName>CNL</orgName>- <title>Drôle de baroque</title></p>
+      <p><title>Bibliothèque oulipienne</title></p>
       <list type="unordered">
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> Fin du <title ref="#volumequeneau">volume Queneau</title></item>
+        <item><persName><abbr>FLL</abbr></persName> Fin du <title>volume Queneau</title></item>
         <item>Paiement</item>
         <item>volume sous presse</item>
       </list>
       <p><label type="rubrique">Phynances</label></p>
       <list type="unordered">
-        <item><orgName ref="#caissedepargne">Caisse d’Epargne</orgName></item>
-        <item>Phynances secrétariat pour <persName ref="#pf">Fournel</persName> (spécial <name ref="#avignon" type="manif">Avignon</name>)</item>
+        <item><orgName>Caisse d’Epargne</orgName></item>
+        <item>Phynances secrétariat pour <persName>Fournel</persName> (spécial <name type="manif">Avignon</name>)</item>
       </list>
       <p><label type="rubrique">Menu Propos</label></p>
       <list type="ordered">
-        <item><name ref="#ordinateuretecrivain" type="manif">Ordinateur et écrivain</name> <persName ref="#jb"><abbr>JB</abbr></persName> <orgName ref="#franceculture">France Culture</orgName>.</item>
-        <item><title ref="#ecrire">Ecrire</title> de <persName ref="#jeanguenot">Jean Guénot</persName> <persName ref="#mb"><abbr>MB</abbr></persName> <term ref="#collages">Collages</term></item>
-        <item><persName ref="#laclos">Laclos</persName> <persName ref="#le"><abbr>LE</abbr></persName> <title ref="#charliehebdo">Charlie Hebdo</title>.</item>
+        <item><name type="manif">Ordinateur et écrivain</name> <persName><abbr>JB</abbr></persName> <orgName>France Culture</orgName>.</item>
+        <item><title>Ecrire</title> de <persName>Jean Guénot</persName> <persName><abbr>MB</abbr></persName> <term>Collages</term></item>
+        <item><persName>Laclos</persName> <persName><abbr>LE</abbr></persName> <title>Charlie Hebdo</title>.</item>
       </list>
-      <p><persName ref="#rq">Queneau</persName> <persName ref="#fll"><abbr>FLL</abbr></persName> Des nouvelles de la succession <persName ref="#rq">Queneau</persName>.</p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName> Spectacle <persName ref="#rq">Queneau</persName></p>
+      <p><persName>Queneau</persName> <persName><abbr>FLL</abbr></persName> Des nouvelles de la succession <persName>Queneau</persName>.</p>
+      <p><persName><abbr>LE</abbr></persName> Spectacle <persName>Queneau</persName></p>
       <p><note n="2" resp="editor">Page entièrement barrée</note></p>
-      <p><label type="rubrique">Erudition</label> </p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> 3 articles de <title ref="#wordways">Word Ways</title></p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName> Nablat de Cornecul</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </p>
+      <p><label type="rubrique">Erudition</label></p>
+      <p><persName><abbr>HM</abbr></persName> 3 articles de <title>Word Ways</title></p>
+      <p><persName><abbr>LE</abbr></persName> Nablat de Cornecul</p>
+      <p><name type="manif">Prochaine réunion</name></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f4.highres" n="4"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f5.highres" n="5"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f6.highres" n="6"/>
@@ -79,42 +85,42 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f13.highres" n="13"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f14.highres" n="14"/>
       <p rend="incipit">Oulipo du Jeudi 25 aout 1977</p>
-      <p rend="incipit">Se sont inscrits : <persName ref="#mb">M. Bénabou</persName> – <persName ref="#jb">J. Bens</persName> (midi) – <persName ref="#le">L. Etienne</persName> – <persName ref="#pf">P. Fournel</persName> – <persName ref="#fll"><abbr>FLL</abbr></persName> – <persName ref="#hm">H. Mathews</persName></p>
-      <p rend="incipit">Excusés : <persName ref="#na">Noel Arnaud</persName> (santé) – <persName ref="#cb">C. Berge</persName> – <persName ref="#ab">A. Blavier</persName> – <persName ref="#ic">I. Calvino</persName> – <persName ref="#jl">J. Lescure</persName> – <persName ref="#jq">J. Queval</persName></p>
-      <p rend="incipit">Ne se sont pas manifestés : <persName ref="#pb">P. Braffort</persName> – <persName ref="#jd">J. Duchateau</persName> – <persName ref="#mm">M. Métail</persName> – <persName ref="#gp">G. Perec</persName> – <persName ref="#jr">J. Roubaud</persName></p>
+      <p rend="incipit">Se sont inscrits : <persName>M. Bénabou</persName> – <persName>J. Bens</persName> (midi) – <persName>L. Etienne</persName> – <persName>P. Fournel</persName> – <persName><abbr>FLL</abbr></persName> – <persName>H. Mathews</persName></p>
+      <p rend="incipit">Excusés : <persName>Noel Arnaud</persName> (santé) – <persName>C. Berge</persName> – <persName>A. Blavier</persName> – <persName>I. Calvino</persName> – <persName>J. Lescure</persName> – <persName>J. Queval</persName></p>
+      <p rend="incipit">Ne se sont pas manifestés : <persName>P. Braffort</persName> – <persName>J. Duchateau</persName> – <persName>M. Métail</persName> – <persName>G. Perec</persName> – <persName>J. Roubaud</persName></p>
       <p>Compléments à l’ordre du jour</p>
       <p><label type="rubrique">A Action et administration</label></p>
       <list type="ordered">
-        <item><name ref="#avignon" type="manif">Avignon</name></item>
-        <item><title ref="#labibliothequeoulipienne">La Bibliothèque oulipienne</title> <list type="ordered">
-          <item>Exemplaires de <persName ref="#na">Noel Arnaud</persName></item>
-          <item><title ref="#tristesse">Tristesse</title> de <persName ref="#fc">François Caradec</persName></item>
-          <item><orgName ref="#documenteverlag">Documente Verlag</orgName> (<persName ref="#jeanmariequeneau">Jean Marie Queneau</persName> &gt; <persName ref="#mb">Marcel Bénabou</persName>)</item>
+        <item><name type="manif">Avignon</name></item>
+        <item><title>La Bibliothèque oulipienne</title> <list type="ordered">
+          <item>Exemplaires de <persName>Noel Arnaud</persName></item>
+          <item><title>Tristesse</title> de <persName>François Caradec</persName></item>
+          <item><orgName>Documente Verlag</orgName> (<persName>Jean Marie Queneau</persName> &gt; <persName>Marcel Bénabou</persName>)</item>
           <item>Distribution des feuilles supplémentaires</item>
-          <item>Règlement de Vittu de <persName ref="#kerraou">Kerraou</persName>l par <persName ref="#fll"><abbr>FLL</abbr></persName> (2400 francs)</item>
+          <item>Règlement de Vittu de <persName>Kerraou</persName>l par <persName><abbr>FLL</abbr></persName> (2400 francs)</item>
           <item>Structuration des prochains numéros</item>
           </list> </item>
-        <item>Oulipo = <title ref="#evolume">2e volume</title></item>
-        <item>Photomontage= ne manque plus que <persName ref="#na">Noel Arnaud</persName> (<persName ref="#fll"><abbr>FLL</abbr></persName> s’en occupera ; le rappeler dans prochaine convocation).</item>
-        <item><orgName ref="#caissedepargne">Caisse d’Epargne</orgName> – Formulaire de transfert – Signature de <persName ref="#pf">Fournel</persName></item>
-        <item><persName ref="#rq">Raymond Queneau</persName> <list type="ordered">
+        <item>Oulipo = <title>2e volume</title></item>
+        <item>Photomontage= ne manque plus que <persName>Noel Arnaud</persName> (<persName><abbr>FLL</abbr></persName> s’en occupera ; le rappeler dans prochaine convocation).</item>
+        <item><orgName>Caisse d’Epargne</orgName> – Formulaire de transfert – Signature de <persName>Fournel</persName></item>
+        <item><persName>Raymond Queneau</persName> <list type="ordered">
           <item>Manuscrit sur histoire et définition Oulipo</item>
-          <item>Article de <persName ref="#jl">Jean Lescure</persName> pour <title ref="#encyclopedieuniversalis">Encyclopédie Universalis</title></item>
+          <item>Article de <persName>Jean Lescure</persName> pour <title>Encyclopédie Universalis</title></item>
           </list> </item>
         <item/>
       </list>
       <p><label type="rubrique">B Création</label></p>
       <list type="ordered">
-        <item>Lettre à <persName ref="#billy">Billy</persName></item>
+        <item>Lettre à <persName>Billy</persName></item>
       </list>
       <p><label type="rubrique">C Menu propos</label></p>
       <list type="ordered">
-        <item><orgName ref="#franceculture">France Culture</orgName> = 4 samedi (le dernier, après demain, 27 aout) sur la <term ref="#pataphysique">Pataphysique</term>. Interventions de <persName ref="#rq">Raymond Queneau</persName>.</item>
+        <item><orgName>France Culture</orgName> = 4 samedi (le dernier, après demain, 27 aout) sur la <term>Pataphysique</term>. Interventions de <persName>Raymond Queneau</persName>.</item>
       </list>
-      <p><persName ref="#grouchomar">Groucho Marx</persName> et la <term ref="#logiquemathematique">logique mathématique</term> : l’Ougagpo</p>
+      <p><persName>Groucho Marx</persName> et la <term>logique mathématique</term> : l’Ougagpo</p>
       <p><label type="rubrique">D Calendrier</label></p>
       <list type="ordered">
-        <item><name ref="#prochainereunion" type="manif">Prochaine réunion</name> = Jeudi 22 Septembre chez M. <persName ref="#mb">Bénabou</persName></item>
+        <item><name type="manif">Prochaine réunion</name> = Jeudi 22 Septembre chez M. <persName>Bénabou</persName></item>
       </list>
       <p>Invités d’honneur</p>
     </body>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010221-1979-09-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010221-1979-09-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010221-1979-09-cv</idno> <title>Convocation à <ref target="#t10010221-1979-09">une réunion Oulipo</ref>, envoyée le <date when="1979-09-20">20 septembre 1979</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010221-1979-09-cv</idno> <title>Convocation à <ref target="#t10010221-1979-09">une réunion Oulipo</ref>, envoyée le <date when="1979-09-20">20 septembre 1979</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-19" who="HCC">nettoyage des commentaires/notes</change>
@@ -35,12 +41,12 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 20 septembre 79</p>
       <p rend="incipit">Chers oulipiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le jeudi 4 octobre 1979 dans la belle maison d’<persName ref="#isabelle">Isabelle</persName> et <persName ref="#mb">Marcel Bénabou</persName> (48 rue du capitaine Marchal ou 27 rue de la Dhuisse dans le 20<hi rend="sup">e</hi> ; tel. 261. 40. 39).</p>
-      <p>Nous préparerons la semaine « <title ref="#volume">volume 2</title> » dont les dates ont été fixées : 15-20 octobre 79. Le lieu n’est pas encore définitivement arrêté à ce jour.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le jeudi 4 octobre 1979 dans la belle maison d’<persName>Isabelle</persName> et <persName>Marcel Bénabou</persName> (48 rue du capitaine Marchal ou 27 rue de la Dhuisse dans le 20<hi rend="sup">e</hi> ; tel. 261. 40. 39).</p>
+      <p>Nous préparerons la semaine « <title>volume 2</title> » dont les dates ont été fixées : 15-20 octobre 79. Le lieu n’est pas encore définitivement arrêté à ce jour.</p>
       <p>Le secrétariat vous espère en forme olympique et vous souhaite bien des douceurs.</p>
       <p>Au jeudi 4,</p>
-      <p><persName ref="#pf">Paul Fournel</persName></p>
-      <p>PS. Retournez la découpe ci-dessous à <persName ref="#mb">M. Bénabou</persName>. Merci.</p>
+      <p><persName>Paul Fournel</persName></p>
+      <p>PS. Retournez la découpe ci-dessous à <persName>M. Bénabou</persName>. Merci.</p>
     </body>
   </text>
 </TEI>

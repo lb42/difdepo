@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010295-1986-07-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010295-1986-07-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,16 +21,21 @@
           <date when="1986-07-12">12 juillet 1986</date>
           <placeName>Sommières</placeName>
           <list type="present">
-            <item><persName ref="#na">Noël Arnaud</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#jb">Jacques Bens</persName></item>
-            <item><persName ref="#mm">Michele Métail</persName></item>
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-27">restore accidentally deleted attendance lists</change>
@@ -43,7 +49,7 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010295p/f14.highres" n="14"/>
       <p rend="incipit">OULIPO 12/07/86</p>
       <list type="unordered">
-        <item>Présents : <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>.</item>
+        <item>Présents : <persName><abbr>NA</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>MB</abbr></persName>.</item>
         <item>Excusés : t<unclear>enants recat??</unclear>.</item>
         <item>Absents: 4 autres</item>
       </list>
@@ -59,7 +65,7 @@
       <list type="unordered">
         <item>Compte rendu <name type="manif">stage Sommières</name>.</item>
         <item>Excellence des stages à thèmes qui exigent des Oulipiens du renouveau.</item>
-        <item>Altercation entre <persName ref="#pb"><abbr>PB</abbr></persName> et <persName ref="#na"><abbr>NA</abbr></persName>.</item>
+        <item>Altercation entre <persName><abbr>PB</abbr></persName> et <persName><abbr>NA</abbr></persName>.</item>
         <item>Ne pas accepter la sponsorisation.</item>
       </list>
     </body>

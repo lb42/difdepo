@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010197-1977-06-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010197-1977-06-cv</idno> <title>Convocation à <ref target="#t10010197-1977-06">une réunion Oulipo</ref>, envoyée le <date when="1977-06-13">13 juin 1977</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010197-1977-06-cv</idno> <title>Convocation à <ref target="#t10010197-1977-06">une réunion Oulipo</ref>, envoyée le <date when="1977-06-13">13 juin 1977</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -34,10 +40,10 @@
       <p>OULIPO</p>
       <p>Paris le 13 Juin 1977.</p>
       <p>Chers Brigadiers,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le vendredi 24 Juin à 11 heures chez <persName ref="#mb">Marcel Bénabou</persName> (7, villa Duthy, dans le 14°).</p>
-      <p>On y distribuera le volume « <title ref="#aqueneau">A <persName>Queneau</persName></title> », on y fera les derniers préparatifs pour <name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>. On y commentera également les conclusions de la journée « <name ref="#ecrivainsordinateur" type="manif">écrivains-ordinateur</name> » du <orgName ref="#cnac">CNAC</orgName>. On y déjeunera (merci, <persName ref="#isabelle">Isabelle</persName>) et c’est pour cela que vous devez retourner aussitôt la découpe ci-dessous. Merci.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le vendredi 24 Juin à 11 heures chez <persName>Marcel Bénabou</persName> (7, villa Duthy, dans le 14°).</p>
+      <p>On y distribuera le volume « <title>A <persName>Queneau</persName></title> », on y fera les derniers préparatifs pour <name type="manif">Villeneuve-lès-Avignon</name>. On y commentera également les conclusions de la journée « <name type="manif">écrivains-ordinateur</name> » du <orgName>CNAC</orgName>. On y déjeunera (merci, <persName>Isabelle</persName>) et c’est pour cela que vous devez retourner aussitôt la découpe ci-dessous. Merci.</p>
       <p>Au 24, bien oulipiennement,</p>
-      <p><persName ref="#pf">Paul Fournel</persName>,</p>
+      <p><persName>Paul Fournel</persName>,</p>
       <p>Un secrétaire.</p>
     </body>
   </text>

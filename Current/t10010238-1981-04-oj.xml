@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010238-1981-04-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010238-1981-04-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010238-1981-04-oj</idno> <title>Ordre de jour de <ref target="#t10010238-1981-04">la réunion Oulipo</ref> du <date when="1981-04-24">24 avril 1981</date></title> </bibl>
+        <bibl><idno>t10010238-1981-04-oj</idno> <title>Ordre de jour de <ref target="#t10010238-1981-04">la réunion Oulipo</ref> du <date when="1981-04-24">24 avril 1981</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -33,22 +39,22 @@
       <p rend="incipit">Oulipo du 24 avril chez Marcel</p>
       <p rend="incipit">Ordre du jour</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <name ref="#villeneuve" type="manif">Villeneuve</name></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <name ref="#bourges" type="manif">Bourges</name></p>
-      <p>Tutti : le point sur <title ref="#oulipoii">Oulipo II</title></p>
+      <p><persName><abbr>PB</abbr></persName> : <name type="manif">Villeneuve</name></p>
+      <p><persName><abbr>MB</abbr></persName> : <name type="manif">Bourges</name></p>
+      <p>Tutti : le point sur <title>Oulipo II</title></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#jd"><abbr>JD</abbr></persName>+<persName ref="#pb"><abbr>PB</abbr></persName> : le retour de l’<term ref="#intersection">intersection</term></p>
-      <p><persName ref="#jq"><abbr>JQ</abbr></persName> : Version rectifiée du <term ref="#poemeinfini">poème infini</term></p>
-      <p><persName ref="#gp"><abbr>GP</abbr></persName> : <title ref="#w_">W</title> in P</p>
-      <p><persName ref="#gp"><abbr>GP</abbr></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>JD</abbr></persName>+<persName><abbr>PB</abbr></persName> : le retour de l’<term>intersection</term></p>
+      <p><persName><abbr>JQ</abbr></persName> : Version rectifiée du <term>poème infini</term></p>
+      <p><persName><abbr>GP</abbr></persName> : <title>W</title> in P</p>
+      <p><persName><abbr>GP</abbr></persName> : <title>Bibliothèque oulipienne</title></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#jd"><abbr>JD</abbr></persName> : <persName ref="#bakhtine">Bakhtine</persName> (<orgName ref="#seuil">Seuil</orgName>)</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <persName ref="#koch">Koch</persName> et <persName ref="#goudy">Goudy</persName></p>
+      <p><persName><abbr>JD</abbr></persName> : <persName>Bakhtine</persName> (<orgName>Seuil</orgName>)</p>
+      <p><persName><abbr>MB</abbr></persName> : <persName>Koch</persName> et <persName>Goudy</persName></p>
       <p>Point d’ordre</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> :</p>
+      <p><persName><abbr>MB</abbr></persName> :</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><orgName ref="#franceradio">France Radio</orgName> Lettre recommandée</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </p>
+      <p><orgName>France Radio</orgName> Lettre recommandée</p>
+      <p><name type="manif">Prochaine réunion</name></p>
     </body>
   </text>
 </TEI>

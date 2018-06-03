@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010182-1976-02-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010182-1976-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,10 +19,15 @@
       <sourceDesc>
         <bibl><idno>t10010182-1976-02-cr</idno> <meeting xml:id="t10010182-1976-02">
           <date when="1976-02-17">17 février 1976</date>
-          <gap/> 
+          <gap/>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
@@ -35,13 +41,13 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010182j/f2.highres" n="2"/>
       <p rend="incipit">OuLiPo 17/2/76</p>
-      <p><persName ref="#rq">Queneau</persName> = <term ref="#hypergraphes">hypergraphes</term></p>
+      <p><persName>Queneau</persName> = <term>hypergraphes</term></p>
       <list type="unordered">
-        <item><term ref="#graphe">graphe</term> des changements de lieu dans <title ref="#hamlet">Hamlet</title> = <term ref="#grapheeulerien">graphe eulérien</term> (on ne passe qu’une fois d’un lieu à un autre)- c’est donc oulipien</item>
-        <item><term ref="#hypergraphe">hypergraphe</term></item>
+        <item><term>graphe</term> des changements de lieu dans <title>Hamlet</title> = <term>graphe eulérien</term> (on ne passe qu’une fois d’un lieu à un autre)- c’est donc oulipien</item>
+        <item><term>hypergraphe</term></item>
       </list>
-      <p>le <term ref="#graphede">graphe de</term> <unclear>Goryon</unclear></p>
-      <p><term ref="#principederoubaud">principe de <persName ref="#jr">Roubaud</persName></term> = passer de la <term ref="#description">description</term> à l’<term ref="#invention">invention</term>.</p>
+      <p>le <term>graphe de</term> <unclear>Goryon</unclear></p>
+      <p><term>principe de <persName>Roubaud</persName></term> = passer de la <term>description</term> à l’<term>invention</term>.</p>
     </body>
   </text>
 </TEI>

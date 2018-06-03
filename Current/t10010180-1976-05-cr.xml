@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-05-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010180-1976-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,10 +20,15 @@
       <sourceDesc>
         <bibl><idno>t10010180-1976-05-cr</idno> <meeting xml:id="t10010180-1976-05">
           <date when="1976-05-13">13 mai 1976</date>
-          <gap/> 
+          <gap/>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -35,20 +41,20 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f22.highres" n="22"/>
       <p rend="incipit">OuLiPo 13 5 76</p>
-      <p><persName ref="#ic"><abbr>Italo</abbr></persName>’s Ro Yu HA Q K La Po Oph Gh For 2gr.</p>
-      <p><title ref="#hamlet">Hamlet</title></p>
+      <p><persName><abbr>Italo</abbr></persName>’s Ro Yu HA Q K La Po Oph Gh For 2gr.</p>
+      <p><title>Hamlet</title></p>
       <p>t<hi rend="sup">1</hi> + d<hi rend="sup">1</hi> x x</p>
       <p>t<hi rend="sup">2</hi> + d<hi rend="sup">2</hi> x</p>
       <p>t<hi rend="sup">3</hi> + d<hi rend="sup">3</hi></p>
       <p>Lyon : signature OuLiPo</p>
       <p>6/10</p>
       <p>6/12 Lyon</p>
-      <p>F <persName ref="#jb">Bens</persName> : 6335825 1 Cour du commerce</p>
+      <p>F <persName>Bens</persName> : 6335825 1 Cour du commerce</p>
       <p>Saint André</p>
       <p>liste de livres à</p>
-      <p><persName ref="#jb">Bens</persName> <persName ref="#pf">Fournel</persName> : <term ref="#multiplicationtables">multiplication tables</term> : substitution of</p>
+      <p><persName>Bens</persName> <persName>Fournel</persName> : <term>multiplication tables</term> : substitution of</p>
       <p>initial consonants (+<unclear>*occas. final ; mouillé</unclear>)</p>
-      <p>[<persName ref="#ic"><abbr>Italo</abbr></persName> : <term ref="#nouvellepoliciere">nouvelle policière</term>]</p>
+      <p>[<persName><abbr>Italo</abbr></persName> : <term>nouvelle policière</term>]</p>
     </body>
   </text>
 </TEI>

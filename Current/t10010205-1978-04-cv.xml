@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010205-1978-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010205-1978-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010205-1978-04-cv</idno> <title>Convocation à <ref target="#t10010205-1978-04">une réunion Oulipo</ref>, envoyée le <date when="1978-04-14">14 avril 1978</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010205-1978-04-cv</idno> <title>Convocation à <ref target="#t10010205-1978-04">une réunion Oulipo</ref>, envoyée le <date when="1978-04-14">14 avril 1978</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -31,11 +37,11 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010205z/f1.highres" n="1"/>
       <p rend="incipit">Paris, le 14 avril 78</p>
       <p>Chers oulipiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l'<orgName ref="#ouvroir">Ouvroir</orgName> aura lieu le jeudi 27 avril chez <persName ref="#gp">Georges Perec</persName> au 13 rue Linné, dans le 5°.</p>
-      <p>Nous y parlerons d'une éventuelle <name ref="#semaineoulipoaroyaumont" type="manif">semaine oulipo à Royaumont</name> fin août prochain, nous y procèderons (en principe) à la distribution du volume <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. du soussigné, nous y parlerons de l'<name ref="#epositionqueneau" type="manif">exposition <persName ref="#rq">Queneau</persName></name> (superbe) de la <orgName ref="#bn">B.N.</orgName> à laquelle les oulipiens ne furent pas conviés et qui se terminera avec le mois, nous y brasserons des <term ref="#phynances">phynances</term> et, bien entendu, nous efforcerons de créer.</p>
-      <p>Retournez la découpe ci-dessous à <persName ref="#gp"><abbr>Georges</abbr></persName> pour lui permettre de faire face aux problèmes d'intendance.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l'<orgName>Ouvroir</orgName> aura lieu le jeudi 27 avril chez <persName>Georges Perec</persName> au 13 rue Linné, dans le 5°.</p>
+      <p>Nous y parlerons d'une éventuelle <name type="manif">semaine oulipo à Royaumont</name> fin août prochain, nous y procèderons (en principe) à la distribution du volume <title>Bibliothèque oulipienne</title>. du soussigné, nous y parlerons de l'<name type="manif">exposition <persName>Queneau</persName></name> (superbe) de la <orgName>B.N.</orgName> à laquelle les oulipiens ne furent pas conviés et qui se terminera avec le mois, nous y brasserons des <term>phynances</term> et, bien entendu, nous efforcerons de créer.</p>
+      <p>Retournez la découpe ci-dessous à <persName><abbr>Georges</abbr></persName> pour lui permettre de faire face aux problèmes d'intendance.</p>
       <p>Bien oulipiennement,</p>
-      <p><persName ref="#pf">Paul Fournel</persName> <lb/>un secrétaire.</p>
+      <p><persName>Paul Fournel</persName> <lb/>un secrétaire.</p>
     </body>
   </text>
 </TEI>

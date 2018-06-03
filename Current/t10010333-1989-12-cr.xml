@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010333-1989-12-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010333-1989-12-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,21 +17,24 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010333-1989-12-cr</idno>
-          <meeting xml:id="t10010333-1989-12">
-            <date when="1989-12-12">12 décembre 1989</date>
-            <placeName>chez MB</placeName>
-            <list type="present">
-              <item><persName ref="#fc">François Caradec</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#jr">Jacques Roubaud</persName></item>
-              <item><persName ref="#mb" role="secrétaire">Marcel Bénabou</persName></item>
-              <item><persName ref="#mb" role="président">Marcel Bénabou</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010333-1989-12-cr</idno> <meeting xml:id="t10010333-1989-12">
+          <date when="1989-12-12">12 décembre 1989</date>
+          <placeName>chez MB</placeName>
+          <list type="present">
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName role="président">Marcel Bénabou</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -45,56 +49,40 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010333p/f11.highres" n="11"/>
       <p rend="incipit">OULIPO 12 12 89</p>
-      <p rend="incipit">chez <persName ref="#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName> (en retard)</p>
-      <p rend="incipit">Excusés : <persName ref="#jl"><abbr>JL</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>, <persName ref="#na"><abbr>NA</abbr></persName></p>
-      <p rend="incipit">Président + secrétaire = <persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">chez <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>MB</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>JR</abbr></persName> (en retard)</p>
+      <p rend="incipit">Excusés : <persName><abbr>JL</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>NA</abbr></persName></p>
+      <p rend="incipit">Président + secrétaire = <persName><abbr>MB</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <title ref="#banlieue">Banlieue</title> (texte pour <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> numéro 46)</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <title ref="#homonymes">Homonymes</title> (<term ref="#biographie">biographie</term> de <term ref="#personnageshomonymes">personnages homonymes</term>)</p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : Val de Marne : commande = <title ref="#cequediraitleportrait">Ce
-          que dirait le portrait</title> (<ref>ci-joint</ref>)</p>
+      <p><persName><abbr>PF</abbr></persName> : <title>Banlieue</title> (texte pour <title>Bibliothèque oulipienne</title> numéro 46)</p>
+      <p><persName><abbr>MB</abbr></persName> : <title>Homonymes</title> (<term>biographie</term> de <term>personnages homonymes</term>)</p>
+      <p><persName><abbr>JR</abbr></persName> : Val de Marne : commande = <title>Ce que dirait le portrait</title> (<ref>ci-joint</ref>)</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : <persName ref="#saintebeuve">Sainte Beuve</persName> = une <term ref="#citation">citation</term></p>
-      <p><persName ref="#jeandillou">Jeandillou</persName> : les <term ref="#supercherieslitteraires">supercheries littéraires</term></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#claudegagniere">Claude Gagnière</persName> : auteur
-        de <title ref="#aubonheurdesmots">Au bonheur des mots</title> (directeur littéraire de
-          <orgName ref="#franceloisirs">France Loisirs</orgName>)</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p><persName><abbr>FC</abbr></persName> : <persName>Sainte Beuve</persName> = une <term>citation</term></p>
+      <p><persName>Jeandillou</persName> : les <term>supercheries littéraires</term></p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Claude Gagnière</persName> : auteur de <title>Au bonheur des mots</title> (directeur littéraire de <orgName>France Loisirs</orgName>)</p>
+      <p><persName><abbr>MB</abbr></persName></p>
       <list type="unordered">
-        <item><persName ref="#jorif">Jorif</persName> : reconstituer le texte d’où sont extraits les
-          exemples du <title ref="#littre">Littré</title></item>
-        <item><persName ref="#muller">Muller</persName> : le langage comme source de la
-          religion</item>
+        <item><persName>Jorif</persName> : reconstituer le texte d’où sont extraits les exemples du <title>Littré</title></item>
+        <item><persName>Muller</persName> : le langage comme source de la religion</item>
       </list>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>
-        <persName ref="#ic">Calvino</persName> : <title ref="#souslesoleiljaguar">Sous le soleil,
-          jaguar</title> (<orgName ref="#seuil">Seuil</orgName>)</p>
-      <p>Dossier <title ref="#magazinelitteraire">Magazine littéraire</title> pour janvier : un
-        dossier <persName ref="#ic">Calvino</persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. Thionville : le maire a décidé de faire, en octobre 90, un <name ref="#colloque" type="manif">colloque</name>
-        sur <persName ref="#rq">Queneau</persName> avec lectures</p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : le point sur le <title ref="#volume3">volume 3</title> : tout est
-        prêt sauf <persName ref="#pb">Braffort</persName> (que faire s’il n’arrive pas ?)</p>
-      <p>Préface de <persName ref="#na"><abbr>NA</abbr></persName> : lecture du texte. Sortie le 5/2.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Tirés à part : possibilités avec le Pagemaker.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : le point sur des nouvelles <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> (listes)</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : les démêlés de la presse avec <persName ref="#rq"><abbr>R.Q.</abbr></persName> (confusion <persName ref="#claudedebon">Claude Debon</persName>
-        <persName ref="#clauderameil">Claude Rameil</persName>)</p>
+      <p><persName><abbr>PF</abbr></persName> <persName>Calvino</persName> : <title>Sous le soleil, jaguar</title> (<orgName>Seuil</orgName>)</p>
+      <p>Dossier <title>Magazine littéraire</title> pour janvier : un dossier <persName>Calvino</persName></p>
+      <p><persName><abbr>FC</abbr></persName>. Thionville : le maire a décidé de faire, en octobre 90, un <name type="manif">colloque</name> sur <persName>Queneau</persName> avec lectures</p>
+      <p><title>Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>PF</abbr></persName> : le point sur le <title>volume 3</title> : tout est prêt sauf <persName>Braffort</persName> (que faire s’il n’arrive pas ?)</p>
+      <p>Préface de <persName><abbr>NA</abbr></persName> : lecture du texte. Sortie le 5/2.</p>
+      <p><persName><abbr>PF</abbr></persName> : Tirés à part : possibilités avec le Pagemaker.</p>
+      <p><persName><abbr>MB</abbr></persName> : le point sur des nouvelles <title>Bibliothèque oulipienne</title> (listes)</p>
+      <p><persName><abbr>FC</abbr></persName> : les démêlés de la presse avec <persName><abbr>R.Q.</abbr></persName> (confusion <persName>Claude Debon</persName> <persName>Claude Rameil</persName>)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010333p/f12.highres" n="12"/>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#dickannegarn">Dick Annegarn</persName>, garçon
-        charmant, à grande culture oulipienne.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Prix : JJ : prix <persName ref="#thydemonnier">Thyde
-          Monnier</persName>
-        <orgName ref="#sgdl">SGDL</orgName></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <orgName ref="#goldenpridelitteraturesportive">golden prix de
-          littérature sportive</orgName>.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#ab">Blavier</persName>
-        <gap/> 400 lettres de <persName ref="#magritte">Magritte</persName>, publiées par <persName ref="#pf"><abbr>PF</abbr></persName></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : trouver des nouveaux noms pour les <orgName ref="#partiscommunistes">Partis communistes</orgName> de l’Est.</p>
-      <p>(suggestion de <persName ref="#gw"><abbr>GW</abbr></persName>)</p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Dick Annegarn</persName>, garçon charmant, à grande culture oulipienne.</p>
+      <p><persName><abbr>PF</abbr></persName> : Prix : JJ : prix <persName>Thyde Monnier</persName> <orgName>SGDL</orgName></p>
+      <p><persName><abbr>PF</abbr></persName> : <orgName>golden prix de littérature sportive</orgName>.</p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Blavier</persName> <gap/> 400 lettres de <persName>Magritte</persName>, publiées par <persName><abbr>PF</abbr></persName></p>
+      <p><persName><abbr>MB</abbr></persName> : trouver des nouveaux noms pour les <orgName>Partis communistes</orgName> de l’Est.</p>
+      <p>(suggestion de <persName><abbr>GW</abbr></persName>)</p>
     </body>
   </text>
 </TEI>

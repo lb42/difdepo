@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010215-1979-04-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010215-1979-04-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010215-1979-04-oj</idno> <title>Ordre de jour de <ref target="#t10010215-1979-04">la réunion Oulipo</ref> du <date when="1979-04-24">24 avril 1979</date></title> </bibl>
+        <bibl><idno>t10010215-1979-04-oj</idno> <title>Ordre de jour de <ref target="#t10010215-1979-04">la réunion Oulipo</ref> du <date when="1979-04-24">24 avril 1979</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -31,37 +37,37 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010215c/f1.highres" n="1"/>
       <p rend="incipit">Réunion du 24 Avril 79 <lb/>chez Dominique Roussillon</p>
       <list type="unordered">
-        <item>Présents : <persName ref="#fll"><abbr>FLL</abbr></persName>, <persName ref="#le"><abbr>LE</abbr></persName>, <persName ref="#jq"><abbr>JQ</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName>.</item>
-        <item>Excusés : <persName ref="#ab">Blavier</persName>, <persName ref="#na"><abbr>NA</abbr></persName>.</item>
-        <item>Absents: <persName ref="#gp"><abbr>GP</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#jl"><abbr>JL</abbr></persName>, <persName ref="#ic"><abbr>IC</abbr></persName></item>
-        <item>Président: <persName ref="#pf"><abbr>PF</abbr></persName></item>
-        <item>Invités: <persName ref="#j_">J</persName> et <persName ref="#arosentiehl">A Rosentiehl</persName></item>
+        <item>Présents : <persName><abbr>FLL</abbr></persName>, <persName><abbr>LE</abbr></persName>, <persName><abbr>JQ</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>PB</abbr></persName>.</item>
+        <item>Excusés : <persName>Blavier</persName>, <persName><abbr>NA</abbr></persName>.</item>
+        <item>Absents: <persName><abbr>GP</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>JL</abbr></persName>, <persName><abbr>IC</abbr></persName></item>
+        <item>Président: <persName><abbr>PF</abbr></persName></item>
+        <item>Invités: <persName>J</persName> et <persName>A Rosentiehl</persName></item>
       </list>
       <p>ORDRE DU JOUR</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item>Suggestion de <unclear>C</unclear>. <persName ref="#mb"><abbr>MB</abbr></persName></item>
-        <item>mini suggestion <persName ref="#cb"><abbr>CB</abbr></persName></item>
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> pour <persName ref="#jl"><abbr>JL</abbr></persName>: Exercice oulipien.</item>
-        <item>Microcréation de <persName ref="#pr">Rosenstiehl</persName></item>
-        <item><persName ref="#na">Noël Arnaud</persName> <persName ref="#pf"><abbr>PF</abbr></persName></item>
-        <item>Invités <persName ref="#cb"><abbr>CB</abbr></persName></item>
+        <item>Suggestion de <unclear>C</unclear>. <persName><abbr>MB</abbr></persName></item>
+        <item>mini suggestion <persName><abbr>CB</abbr></persName></item>
+        <item><persName><abbr>FLL</abbr></persName> pour <persName><abbr>JL</abbr></persName>: Exercice oulipien.</item>
+        <item>Microcréation de <persName>Rosenstiehl</persName></item>
+        <item><persName>Noël Arnaud</persName> <persName><abbr>PF</abbr></persName></item>
+        <item>Invités <persName><abbr>CB</abbr></persName></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><orgName ref="#cnl">CNL</orgName>: <persName ref="#pf"><abbr>PF</abbr></persName> +<persName ref="#pf"><abbr>PF</abbr></persName>: volume 2</item>
-        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>: <persName ref="#pf"><abbr>PF</abbr></persName></item>
-        <item>Phynances: <persName ref="#mb"><abbr>MB</abbr></persName></item>
-        <item>Carte postale <persName ref="#fll"><abbr>FLL</abbr></persName></item>
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName>: Chevalet</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>: <persName ref="#balpe">Balpe</persName></item>
+        <item><orgName>CNL</orgName>: <persName><abbr>PF</abbr></persName> +<persName><abbr>PF</abbr></persName>: volume 2</item>
+        <item><title>Bibliothèque oulipienne</title>: <persName><abbr>PF</abbr></persName></item>
+        <item>Phynances: <persName><abbr>MB</abbr></persName></item>
+        <item>Carte postale <persName><abbr>FLL</abbr></persName></item>
+        <item><persName><abbr>FLL</abbr></persName>: Chevalet</item>
+        <item><persName><abbr>PF</abbr></persName>: <persName>Balpe</persName></item>
       </list>
       <p><label type="rubrique">Menus Propos</label></p>
       <list type="unordered">
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName>: convalescence oulipienne</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>: projet de vitrine</item>
+        <item><persName><abbr>FLL</abbr></persName>: convalescence oulipienne</item>
+        <item><persName><abbr>MB</abbr></persName>: projet de vitrine</item>
       </list>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> : <lb/>Invités <lb/>17 mai; jeudi 14 juin</p>
+      <p><name type="manif">Prochaine réunion</name> : <lb/>Invités <lb/>17 mai; jeudi 14 juin</p>
     </body>
   </text>
 </TEI>

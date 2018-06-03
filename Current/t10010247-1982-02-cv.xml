@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010247-1982-02-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010247-1982-02-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010247-1982-02-cv</idno> <title>Convocation à <ref target="#t10010247-1982-02">une réunion Oulipo</ref>, envoyée le <date when="1982-02-01">1ᵉʳ février 1982</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010247-1982-02-cv</idno> <title>Convocation à <ref target="#t10010247-1982-02">une réunion Oulipo</ref>, envoyée le <date when="1982-02-01">1ᵉʳ février 1982</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -33,11 +39,11 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010247h/f1.highres" n="1"/>
       <p rend="incipit">Paris, le 1<hi rend="sup">er</hi> février 82</p>
       <p>Chers oulipotes,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’oulipo aura lieu le vendredi 19 février 1982 à 11 heures chez <persName ref="#mb"><abbr>Marcel</abbr></persName> et <persName ref="#isabellebenabou">Isabelle BENABOU</persName>, 48, rue du capitaine Marchal 75020 Paris (361.40.39).</p>
-      <p>Notre invité d’honneur sera <persName ref="#jj">Jacques Jouet</persName>.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’oulipo aura lieu le vendredi 19 février 1982 à 11 heures chez <persName><abbr>Marcel</abbr></persName> et <persName>Isabelle BENABOU</persName>, 48, rue du capitaine Marchal 75020 Paris (361.40.39).</p>
+      <p>Notre invité d’honneur sera <persName>Jacques Jouet</persName>.</p>
       <p>Retournez la découpe ci-dessous pour faciliter la tâche des hôtes. Merci.</p>
       <p>Bien à vous,</p>
-      <p><persName ref="#pf">Paul Fournel</persName></p>
+      <p><persName>Paul Fournel</persName></p>
       <p>un secrétaire</p>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010288-1985-12-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010288-1985-12-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,21 +17,24 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010288-1985-12-cr</idno>
-          <meeting xml:id="t10010288-1985-12">
-            <date when="1985-12-19">19 décembre 1985</date>
-            <placeName>chez Jacques Jouet</placeName>
-            <list type="present">
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-              <item><persName ref="#jb">Jacques Bens</persName></item>
-              <item><persName ref="#pb">Paul Braffort</persName></item>
-              <item><persName ref="#fc">François Caradec</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010288-1985-12-cr</idno> <meeting xml:id="t10010288-1985-12">
+          <date when="1985-12-19">19 décembre 1985</date>
+          <placeName>chez Jacques Jouet</placeName>
+          <list type="present">
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-27">restore accidentally deleted attendance lists</change>
@@ -43,70 +47,38 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010288m/f2.highres" n="2"/>
       <p rend="incipit">OULIPO – Réunion du Jeudi 19 décembre 1985 – 19h-23h</p>
-      <p>Présents : <persName ref="#jj">Jacques Jouet</persName> qui reçoit, avec <persName ref="#francoisesanchez">Françoise Sanchez</persName>, <persName ref="#mb">Marcel
-          Bénabou</persName>, <persName ref="#jb">Jacques Bens</persName> (Pdt. de S.), <persName ref="#pb">Paul Braffort</persName>, <persName ref="#fc">François Caradec</persName> et
-          <persName ref="#pf">Paul Fournel</persName></p>
-      <p>Excusés : <persName ref="#ab"><abbr>AB</abbr></persName>, <persName ref="#jl"><abbr>JL</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#pr"><abbr>PR</abbr></persName>, <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>.</p>
+      <p>Présents : <persName>Jacques Jouet</persName> qui reçoit, avec <persName>Françoise Sanchez</persName>, <persName>Marcel Bénabou</persName>, <persName>Jacques Bens</persName> (Pdt. de S.), <persName>Paul Braffort</persName>, <persName>François Caradec</persName> et <persName>Paul Fournel</persName></p>
+      <p>Excusés : <persName><abbr>AB</abbr></persName>, <persName><abbr>JL</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>PR</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>CB</abbr></persName>.</p>
       <p><label type="rubrique">Créations :</label></p>
       <list type="unordered">
-        <item><persName ref="#fc"><abbr>FC</abbr></persName> annonce la lecture d’un conte de Noël « qui n’est pas transcendant
-          ». (On convient de faire désormais précéder toute création de la formule propitiatoire : «
-          Ce n’est pas transcendant ! ») <list type="unordered">
-            <item>Or, naturellement, le conte de <persName ref="#fc"><abbr>FC</abbr></persName> est transcendant (sur le mode : A beau conter.)</item>
-          </list>
-        </item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName>, <title ref="#monbeauneon">MoN BeAu NeON</title> (c’est aussi un
-          conte de Noël), texte assez transcendant écrit avec les seules initiales des éléments
-          chimiques.</item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> Eloge du <term ref="#palindromedesyntagmes">palindrome de
-            syntagmes</term>. Une lecture palindromique de quelques phrases du répertoire («
-          Narcisse contemple Narcisse »…). Ça ira bien dans la première partie du <title ref="#guide">Guide</title>, dit-on.</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> rapporte sur la conférence-création de <persName ref="#jr"><abbr>JR</abbr></persName> : <title ref="#lauteuroulipien">L’auteur oulipien</title>. L’auteur
-          oulipien est tiraillé entre le pôle <persName ref="#rq"><abbr>RQ</abbr></persName> et le pôle <persName ref="#fll"><abbr>FLL</abbr></persName>, ce qui ne serait rien si le pôle (outsider) <persName ref="#jq"><abbr>JQ</abbr></persName> ne venait tout brouiller. <persName ref="#pf"><abbr>PF</abbr></persName> conteste les références données par <persName ref="#jr"><abbr>JR</abbr></persName> du <title ref="#n3emanifeste">3e manifeste</title> de <persName ref="#fll"><abbr>FLL</abbr></persName>.</item>
+        <item><persName><abbr>FC</abbr></persName> annonce la lecture d’un conte de Noël « qui n’est pas transcendant ». (On convient de faire désormais précéder toute création de la formule propitiatoire : « Ce n’est pas transcendant ! ») <list type="unordered">
+          <item>Or, naturellement, le conte de <persName><abbr>FC</abbr></persName> est transcendant (sur le mode : A beau conter.)</item>
+          </list> </item>
+        <item><persName><abbr>PB</abbr></persName>, <title>MoN BeAu NeON</title> (c’est aussi un conte de Noël), texte assez transcendant écrit avec les seules initiales des éléments chimiques.</item>
+        <item><persName><abbr>JJ</abbr></persName> Eloge du <term>palindrome de syntagmes</term>. Une lecture palindromique de quelques phrases du répertoire (« Narcisse contemple Narcisse »…). Ça ira bien dans la première partie du <title>Guide</title>, dit-on.</item>
+        <item><persName><abbr>PF</abbr></persName> rapporte sur la conférence-création de <persName><abbr>JR</abbr></persName> : <title>L’auteur oulipien</title>. L’auteur oulipien est tiraillé entre le pôle <persName><abbr>RQ</abbr></persName> et le pôle <persName><abbr>FLL</abbr></persName>, ce qui ne serait rien si le pôle (outsider) <persName><abbr>JQ</abbr></persName> ne venait tout brouiller. <persName><abbr>PF</abbr></persName> conteste les références données par <persName><abbr>JR</abbr></persName> du <title>3e manifeste</title> de <persName><abbr>FLL</abbr></persName>.</item>
       </list>
       <p><label type="rubrique">Actions :</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : « Vous n’êtes pas sans ignorer… » 25e anniversaire de l’Oulipo.
-          On pourrait le fêter en automne 86 (parution de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-          <orgName ref="#ramsay">Ramsay</orgName> ; 10e anniversaire de la mort de <persName ref="#rq"><abbr>RQ</abbr></persName> ; et… 26e anniversaire de l’Ouvroir). Six pages prévues dans le
-            <title ref="#magazinelitteraire">Magazine littéraire</title>. <list type="unordered">
-            <item>Problème du 3e Manifeste <persName ref="#fll"><abbr>FLL</abbr></persName>, dans la réédition <orgName ref="#ramsay">Ramsay</orgName>.
-              Comment faire pour que les lecteurs, à la lecture du texte intégral, ne viennent pas
-              exiger de l’éditeur des dommages et intérêts ?</item>
-          </list>
-        </item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> raconte sa tournée en Italie, pour la sortie de la traduction
-          italienne des travaux oulipiens. Bologne : bon repas, sombre débat ; Rome : bon débat,
-          piètre repas.</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> et <persName ref="#jj"><abbr>JJ</abbr></persName> racontent <name ref="#vitoria" type="manif">Vitoria</name>. Huit
-          heures d’atelier par jour, ça fait beaucoup ! Projet de publication des communications du
-          <name ref="#colloque" type="manif">colloque</name> et de textes oulipiens dont le choix est confié par l’assemblée à <persName ref="#mb"><abbr>MB</abbr></persName> et <persName ref="#jj"><abbr>JJ</abbr></persName>, pourvu que ce soit libre de droits.</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> raconte La Réunion avec verve : argent-braguette et chauffe-galet.
-          Il a parlé de l’Oulipo sous un baobab, après avoir planté, en terre, un marteau.</item>
-        <item><name ref="#stagetulle" type="manif">Stage Tulle</name> (1er et 2 fév). Je vous assure
-          que <persName ref="#jj"><abbr>JJ</abbr></persName> n’a jamais été candidat cf. les pv d’août et de novembre !
-            <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName> et/ou <persName ref="#mm"><abbr>MM</abbr></persName>.</item>
-        <item>Saint-Quentin (sur la nouvelle) les 12.13.14. avril. <persName ref="#jb"><abbr>JB</abbr></persName>. <persName ref="#pb"><abbr>PB</abbr></persName>. <persName ref="#pf"><abbr>PF</abbr></persName>. <persName ref="#jj"><abbr>JJ</abbr></persName>.</item>
+        <item><persName><abbr>PF</abbr></persName> : « Vous n’êtes pas sans ignorer… » 25e anniversaire de l’Oulipo. On pourrait le fêter en automne 86 (parution de la <title>Bibliothèque oulipienne</title> <orgName>Ramsay</orgName> ; 10e anniversaire de la mort de <persName><abbr>RQ</abbr></persName> ; et… 26e anniversaire de l’Ouvroir). Six pages prévues dans le <title>Magazine littéraire</title>. <list type="unordered">
+          <item>Problème du 3e Manifeste <persName><abbr>FLL</abbr></persName>, dans la réédition <orgName>Ramsay</orgName>. Comment faire pour que les lecteurs, à la lecture du texte intégral, ne viennent pas exiger de l’éditeur des dommages et intérêts ?</item>
+          </list> </item>
+        <item><persName><abbr>MB</abbr></persName> raconte sa tournée en Italie, pour la sortie de la traduction italienne des travaux oulipiens. Bologne : bon repas, sombre débat ; Rome : bon débat, piètre repas.</item>
+        <item><persName><abbr>MB</abbr></persName> et <persName><abbr>JJ</abbr></persName> racontent <name type="manif">Vitoria</name>. Huit heures d’atelier par jour, ça fait beaucoup ! Projet de publication des communications du <name type="manif">colloque</name> et de textes oulipiens dont le choix est confié par l’assemblée à <persName><abbr>MB</abbr></persName> et <persName><abbr>JJ</abbr></persName>, pourvu que ce soit libre de droits.</item>
+        <item><persName><abbr>PF</abbr></persName> raconte La Réunion avec verve : argent-braguette et chauffe-galet. Il a parlé de l’Oulipo sous un baobab, après avoir planté, en terre, un marteau.</item>
+        <item><name type="manif">Stage Tulle</name> (1er et 2 fév). Je vous assure que <persName><abbr>JJ</abbr></persName> n’a jamais été candidat cf. les pv d’août et de novembre ! <persName><abbr>JB</abbr></persName>, <persName><abbr>PB</abbr></persName> et/ou <persName><abbr>MM</abbr></persName>.</item>
+        <item>Saint-Quentin (sur la nouvelle) les 12.13.14. avril. <persName><abbr>JB</abbr></persName>. <persName><abbr>PB</abbr></persName>. <persName><abbr>PF</abbr></persName>. <persName><abbr>JJ</abbr></persName>.</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010288m/f3.highres" n="3"/>
-      <p>
-        <label type="rubrique"><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-          :</label></p>
+      <p><label type="rubrique"><title>Bibliothèque oulipienne</title> :</label></p>
       <list type="unordered">
-        <item>Hommage à <persName ref="#fll"><abbr>FLL</abbr></persName>. On convient de ne plus attendre. On a le texte de <persName ref="#fc"><abbr>FC</abbr></persName> (3e secteur), celui de <persName ref="#hm"><abbr>HM</abbr></persName> (T.), celui de <persName ref="#na"><abbr>NA</abbr></persName> (secret), celui de <persName ref="#jj"><abbr>JJ</abbr></persName> (outillage). Dans la limite de 2 pages, les autres oulipiens sont
-          invités à s’y joindre. Date limite : la réunion de Février (déjà fixée au 21).</item>
+        <item>Hommage à <persName><abbr>FLL</abbr></persName>. On convient de ne plus attendre. On a le texte de <persName><abbr>FC</abbr></persName> (3e secteur), celui de <persName><abbr>HM</abbr></persName> (T.), celui de <persName><abbr>NA</abbr></persName> (secret), celui de <persName><abbr>JJ</abbr></persName> (outillage). Dans la limite de 2 pages, les autres oulipiens sont invités à s’y joindre. Date limite : la réunion de Février (déjà fixée au 21).</item>
       </list>
       <p><label type="rubrique">Erudition :</label></p>
       <list type="unordered">
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName>. A Victoria, <persName ref="#ericbeaumatin">Eric
-            Beaumatin</persName> a mentionné un grand nombre de <term ref="#plagiairesparanticipation">plagiaires par anticipation</term> hispaniques. (ex. un
-          monovocalisme en a de <persName ref="#rubendario">Ruben Dario</persName>.) <persName ref="#pf"><abbr>PF</abbr></persName> suggère qu’un jour prochain, <persName ref="#ericb">Eric
-            B</persName>. soit invité d’honneur.</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> a reçu diverses traductions de textes connus, selon les méthodes
-          oulipiennes, par <persName ref="#leoncenadirpher">Léonce Nadirpher</persName>.</item>
-        <item><persName ref="#pc"><abbr>PC</abbr></persName> lit un texte d’<persName ref="#aallais">A. Allais</persName> 1897 «
-            <title ref="#lacrisetheatrale">La crise théâtrale</title> », lettre à <persName ref="#juleshuret">Jules Huret</persName>. (Très intéressant, peut-être à utiliser pour
-          le chapitre Théâtre du <title ref="#guide">Guide</title> ?)</item>
+        <item><persName><abbr>JJ</abbr></persName>. A Victoria, <persName>Eric Beaumatin</persName> a mentionné un grand nombre de <term>plagiaires par anticipation</term> hispaniques. (ex. un monovocalisme en a de <persName>Ruben Dario</persName>.) <persName><abbr>PF</abbr></persName> suggère qu’un jour prochain, <persName>Eric B</persName>. soit invité d’honneur.</item>
+        <item><persName><abbr>MB</abbr></persName> a reçu diverses traductions de textes connus, selon les méthodes oulipiennes, par <persName>Léonce Nadirpher</persName>.</item>
+        <item><persName><abbr>PC</abbr></persName> lit un texte d’<persName>A. Allais</persName> 1897 « <title>La crise théâtrale</title> », lettre à <persName>Jules Huret</persName>. (Très intéressant, peut-être à utiliser pour le chapitre Théâtre du <title>Guide</title> ?)</item>
       </list>
     </body>
   </text>

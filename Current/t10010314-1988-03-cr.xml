@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010314-1988-03-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010314-1988-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,18 +21,23 @@
           <date when="1988-03-11">11 mars 1988</date>
           <placeName>chez MM</placeName>
           <list type="present">
-            <item><persName ref="#cb">Claude Berge</persName></item>
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#mm">Michele Métail</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#fc">François Caradec</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#mb" role="secrétaire">Marcel Bénabou</persName></item>
-            <item><persName ref="#cb" role="président">Claude Berge</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName role="président">Claude Berge</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
@@ -58,13 +64,13 @@
       <p>CB <unclear>mata hari</unclear>: les yeux de la journée (=le soleil) en indonésien</p>
       <p>MB Présentation du Point de départ</p>
       <p>FC Inaction en cours</p>
-      <p>MB Erudition : <name ref="#colloque" type="manif">Colloque</name> sur les Permutations (1972)</p>
+      <p>MB Erudition : <name type="manif">Colloque</name> sur les Permutations (1972)</p>
       <p>Actes publiés chez Gauthier-Villars</p>
       <p>Verbes délocutifs : cf fiche sur Benveniste</p>
       <p>JJ programme de l’hommage à J. Queval qui aura lieu à Beaubourg le 19 mars</p>
       <p>MB-JJ-MM préparation programme de Marne-la-Vallée</p>
       <p>(Menu : repas indien)</p>
-      <p>19/4 <name ref="#prochainereunion" type="manif">Prochaine réunion</name>  chez JJ.</p>
+      <p>19/4 <name type="manif">Prochaine réunion</name> chez JJ.</p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010067-1966-07-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010067-1966-07-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,9 +18,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010067-1966-07-cv</idno> <title>Convocation à <ref target="#t10010067-1966-07">une réunion Oulipo</ref>, envoyée le <date when="1966-07-08">8 juillet 1966</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010067-1966-07-cv</idno> <title>Convocation à <ref target="#t10010067-1966-07">une réunion Oulipo</ref>, envoyée le <date when="1966-07-08">8 juillet 1966</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -32,18 +38,18 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010067k/f1.highres" n="1"/>
-      <p rend="incipit"><persName ref="#fll">F. LE LIONNAIS</persName></p>
+      <p rend="incipit"><persName>F. LE LIONNAIS</persName></p>
       <p rend="incipit">23. route de la Reine</p>
       <p rend="incipit">92 – BOULOGNE SUR SEINE</p>
       <p rend="incipit">T. :605.90.13</p>
       <p rend="incipit">Le 8 juillet 1966</p>
       <p>Chers Amis,</p>
-      <p>La dernière réunion de l’OULIPO, en date du jeudi 25 juin, a battu tous les records : nous étions 3 présents, à savoir : <persName ref="#jd">Jacques DUCHATEAU</persName>, <persName ref="#jl">Jean LESCURE</persName> et votre serviteur. Nos statuts n’ayant pas prévu de quorum, les décisions prises sont valables. Le principal de ces décisions concernent notre intention de consacrer une journée entière à nos travaux. Nous nous réunirons chez moi, le mardi 25 août, de 10h du matin à 19h. D’importantes communications sont annoncées.</p>
+      <p>La dernière réunion de l’OULIPO, en date du jeudi 25 juin, a battu tous les records : nous étions 3 présents, à savoir : <persName>Jacques DUCHATEAU</persName>, <persName>Jean LESCURE</persName> et votre serviteur. Nos statuts n’ayant pas prévu de quorum, les décisions prises sont valables. Le principal de ces décisions concernent notre intention de consacrer une journée entière à nos travaux. Nous nous réunirons chez moi, le mardi 25 août, de 10h du matin à 19h. D’importantes communications sont annoncées.</p>
       <p>Voudriez-vous me répondre assez rapidement pour me dire s’il vous sera possible de vous libérer pour cette date, afin de l’adopter définitivement ou de la changer.</p>
       <p>Je reste chez moi du 10 juillet au 27 août.</p>
       <p>A bientôt, j’espère.</p>
-      <p>pour <persName ref="#rq">R. QUENEAU</persName></p>
-      <p>P.S. – Es-tu au parfum des prochaines <name ref="#medaillesfield" type="manif">médailles Field</name> qui seront proclamées à Moscou, ? au <name ref="#congresdelunioninternationaledesmathematiciens" type="manif">Congrès de l’Union Internationale des Mathématiciens</name> ? Ce seront : <persName ref="#attias">ATTIAS</persName> – <persName ref="#paulcohen">Paul COHEN</persName> – <persName ref="#grothendiek">GROTHENDIEK</persName> et <persName ref="#smale">SMALE</persName>. (Ce dernier pour son <term ref="#theoremeduretournementdelasphere">théorème du retournement de la sphère</term> comme un gant). Bien entendu, motus et bouche cousue !</p>
+      <p>pour <persName>R. QUENEAU</persName></p>
+      <p>P.S. – Es-tu au parfum des prochaines <name type="manif">médailles Field</name> qui seront proclamées à Moscou, ? au <name type="manif">Congrès de l’Union Internationale des Mathématiciens</name> ? Ce seront : <persName>ATTIAS</persName> – <persName>Paul COHEN</persName> – <persName>GROTHENDIEK</persName> et <persName>SMALE</persName>. (Ce dernier pour son <term>théorème du retournement de la sphère</term> comme un gant). Bien entendu, motus et bouche cousue !</p>
     </body>
   </text>
 </TEI>

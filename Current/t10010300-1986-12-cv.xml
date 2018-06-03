@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010300-1986-12-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010300-1986-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010300-1986-12-cv</idno> <title>Convocation à <ref target="#t10010300-1986-12">une réunion Oulipo</ref>, envoyée le <date when="1986-12-16">16 décembre 1986</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010300-1986-12-cv</idno> <title>Convocation à <ref target="#t10010300-1986-12">une réunion Oulipo</ref>, envoyée le <date when="1986-12-16">16 décembre 1986</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -30,12 +36,12 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103003/f1.highres" n="1"/>
       <p>Oulipiens,</p>
-      <p>L'<orgName ref="#ouvroir">ouvroir</orgName> se réunira le <date>vendredi 19 Décembre 1986</date> à 19 heures chez <persName ref="#pf"><abbr>Paul</abbr></persName> et <persName ref="#martinefournel">Martine Fournel</persName> 48 rue de l'abbé Groult 75015 (45.31.77.65).</p>
-      <p>Notre invité d’honneur sera <persName ref="#jj">Jacques Jouet</persName>.</p>
+      <p>L'<orgName>ouvroir</orgName> se réunira le <date>vendredi 19 Décembre 1986</date> à 19 heures chez <persName><abbr>Paul</abbr></persName> et <persName>Martine Fournel</persName> 48 rue de l'abbé Groult 75015 (45.31.77.65).</p>
+      <p>Notre invité d’honneur sera <persName>Jacques Jouet</persName>.</p>
       <p>Merci de retourner au plus tôt la découpe ci-dessous.</p>
       <p>Au 19,</p>
       <p>Amitiés</p>
-      <p><persName ref="#pf"><abbr>Paul</abbr></persName></p>
+      <p><persName><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010304-1987-04-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010304-1987-04-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,18 +21,23 @@
           <date when="1987-04-28">28 avril 1987</date>
           <placeName>chez MM et HM</placeName>
           <list type="present">
-            <item><persName ref="#fc">François Caradec</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#mm">Michele Métail</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#pf">Paul Fournel</persName></item>
-            <item><persName ref="#hm">Harry Mathews</persName></item>
-            <item><persName ref="#jb" role="président">Jacques Bens</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName role="président">Jacques Bens</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-25" who="HCC">nettoyage des notions/terms</change>
@@ -49,60 +55,60 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010304w/f17.highres" n="17"/>
       <p rend="incipit">28/4/87 Oulipo Réunion n°</p>
-      <p rend="incipit">Excusés : <persName ref="#jl">Lescure</persName>, <persName ref="#pb">Braffort</persName>, <persName ref="#jd">Duchateau</persName>, <persName ref="#cb">Berge</persName>, le Président, <persName ref="#cb"><abbr>CB</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#jb"><abbr>JB</abbr></persName> président, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName>Lescure</persName>, <persName>Braffort</persName>, <persName>Duchateau</persName>, <persName>Berge</persName>, le Président, <persName><abbr>CB</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>FC</abbr></persName>, <persName><abbr>JB</abbr></persName> président, <persName><abbr>JR</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>HM</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <term ref="#structure">Structure</term> (<ref>voir annexe</ref>)</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : c’est exactement la <term ref="#structure">structure</term> d’un livre de <persName ref="#jcpirotte">J-C Pirotte</persName>, <title ref="#unetedanslacombe">Un Eté dans la combe</title></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : projet ctile : projet d’<term ref="#homophonie">homophonie</term> : eh dis tueur ?</p>
+      <p><persName><abbr>MB</abbr></persName> : <term>Structure</term> (<ref>voir annexe</ref>)</p>
+      <p><persName><abbr>FC</abbr></persName> : c’est exactement la <term>structure</term> d’un livre de <persName>J-C Pirotte</persName>, <title>Un Eté dans la combe</title></p>
+      <p><persName><abbr>PF</abbr></persName> : projet ctile : projet d’<term>homophonie</term> : eh dis tueur ?</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : préparation du <name ref="#programmeivrydu5mai87" type="manif">programme Ivry du 5 Mai 87</name></p>
+      <p><persName><abbr>JJ</abbr></persName> : préparation du <name type="manif">programme Ivry du 5 Mai 87</name></p>
       <p>Rendez-vous à 19h30</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> demande à <persName ref="#mb"><abbr>MB</abbr></persName> un certain nombre de volumes de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+      <p><persName><abbr>PF</abbr></persName> : <title>Bibliothèque oulipienne</title> demande à <persName><abbr>MB</abbr></persName> un certain nombre de volumes de la <title>Bibliothèque oulipienne</title>.</p>
       <p>Modification technique : livres dodus</p>
       <p>Changement de format</p>
       <p><label type="rubrique">Erudition :</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName></p>
+      <p><persName><abbr>JR</abbr></persName></p>
       <list type="ordered">
         <item>Contribution à l’interprétation oulipienne de l’histoire</item>
       </list>
-      <p>Un <term ref="#sonnet">sonnet</term> de 17 <term ref="#vers">vers</term> (non versé aux archives)</p>
-      <p>(2 quatrains de 5 <term ref="#vers">vers</term>, 1 sixain de 7 <term ref="#vers">vers</term>)</p>
+      <p>Un <term>sonnet</term> de 17 <term>vers</term> (non versé aux archives)</p>
+      <p>(2 quatrains de 5 <term>vers</term>, 1 sixain de 7 <term>vers</term>)</p>
       <list type="ordered">
-        <item><persName ref="#frcsdelauze">Frcs de Lauze</persName>, autour de <title ref="#apologiedeladanse">Apologie de la Danse</title> (1623)</item>
+        <item><persName>Frcs de Lauze</persName>, autour de <title>Apologie de la Danse</title> (1623)</item>
       </list>
-      <p><term ref="#sonnet">Sonnet</term> liminaire signé d’une <term ref="#anagramme">anagramme</term> VALSE (donc la VALSE a été inventée pour des raisons oulipiennes, bien avant le XIXème)</p>
+      <p><term>Sonnet</term> liminaire signé d’une <term>anagramme</term> VALSE (donc la VALSE a été inventée pour des raisons oulipiennes, bien avant le XIXème)</p>
       <list type="ordered">
-        <item><persName ref="#plemonnier">P. Lemonnier</persName> 1614, Antiquités</item>
+        <item><persName>P. Lemonnier</persName> 1614, Antiquités</item>
       </list>
-      <p>Avis au lecteur en lettres <term ref="#acrostiches">acrostiches</term>. (l’<term ref="#acrostiche">acrostiche</term> sur Avis au Lecteur)</p>
+      <p>Avis au lecteur en lettres <term>acrostiches</term>. (l’<term>acrostiche</term> sur Avis au Lecteur)</p>
       <list type="ordered">
-        <item>Un <term ref="#sonnet">sonnet</term> de 14 <term ref="#vers">vers</term> de 14 syllabes</item>
+        <item>Un <term>sonnet</term> de 14 <term>vers</term> de 14 syllabes</item>
       </list>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> président compte les rondelles de saucisson qu’il donne à <persName ref="#jr"><abbr>JR</abbr></persName></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#renedroin">René Droin</persName>, Tour ou les mots les plus courts ne sont pas les moins bons</p>
-      <p><term ref="#romanmonosyllabique">Roman monosyllabique</term></p>
+      <p><persName><abbr>JB</abbr></persName> président compte les rondelles de saucisson qu’il donne à <persName><abbr>JR</abbr></persName></p>
+      <p><persName><abbr>PF</abbr></persName> <persName>René Droin</persName>, Tour ou les mots les plus courts ne sont pas les moins bons</p>
+      <p><term>Roman monosyllabique</term></p>
       <p>Diverses réflexions</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <persName ref="#carlemmanuelderain">Carl Emmanuel Derain</persName> : bibliographie critique</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> New York : <ref>l’état des choses purs Octobre 1987 (voir lettre)</ref></p>
+      <p><persName><abbr>FC</abbr></persName> <persName>Carl Emmanuel Derain</persName> : bibliographie critique</p>
+      <p><persName><abbr>HM</abbr></persName> New York : <ref>l’état des choses purs Octobre 1987 (voir lettre)</ref></p>
       <p>On se démerde</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010304w/f18.highres" n="18"/>
       <p>28 IV 87</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName></p>
+      <p><persName><abbr>PF</abbr></persName></p>
       <list type="unordered">
-        <item>La Bibliothèque de <persName ref="#rq"><abbr>RQ</abbr></persName></item>
-        <item><persName ref="#bdemers">B. Demers</persName> <title ref="#leseercicesdestyle">Les Exercices de style</title></item>
-        <item><persName ref="#aimemaeght">Aimé Maeght</persName></item>
+        <item>La Bibliothèque de <persName><abbr>RQ</abbr></persName></item>
+        <item><persName>B. Demers</persName> <title>Les Exercices de style</title></item>
+        <item><persName>Aimé Maeght</persName></item>
       </list>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> La <term ref="#contrainte">contrainte</term> de Paulette</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> erudition <title ref="#lespritcreateur">L’Esprit Créateur</title></p>
-      <p><orgName ref="#departmentoffrenchofbostontougeuniversity">Department of French of Boston Touge University</orgName> (Winter 1986)</p>
-      <p>Article de <persName ref="#jjthomas">J-J Thomas</persName> <title ref="#machinationsformellessurloulipo">Machinations formelles : sur l’Oulipo</title>.</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <orgName ref="#aappfidassociationamispaspresetfutdisodoreducasse">AAPPFID Association Amis Pas Près et Fut d’Isodore Ducasse</orgName></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#thomaslescure">Thomas Lescure</persName>, journaliste du <title ref="#matin">Matin</title> va faire un grand article sur l’Oulipo</p>
-      <p> <label type="rubrique"><persName ref="#mb"><abbr>MB</abbr></persName> Menus Propos</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#louisedevilmorin">Louise de Vilmorin</persName>, un livre oulipien <title ref="#lalphabetdesaveu">L’Alphabet des Aveux</title></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <persName ref="#emileberr">Emile Berr</persName>, <title ref="#lespetiteschosesquifontplaisir">les petites choses qui font plaisir</title></p>
+      <p><persName><abbr>MB</abbr></persName> La <term>contrainte</term> de Paulette</p>
+      <p><persName><abbr>HM</abbr></persName> erudition <title>L’Esprit Créateur</title></p>
+      <p><orgName>Department of French of Boston Touge University</orgName> (Winter 1986)</p>
+      <p>Article de <persName>J-J Thomas</persName> <title>Machinations formelles : sur l’Oulipo</title>.</p>
+      <p><persName><abbr>FC</abbr></persName> <orgName>AAPPFID Association Amis Pas Près et Fut d’Isodore Ducasse</orgName></p>
+      <p><persName><abbr>PF</abbr></persName> <persName>Thomas Lescure</persName>, journaliste du <title>Matin</title> va faire un grand article sur l’Oulipo</p>
+      <p><label type="rubrique"><persName><abbr>MB</abbr></persName> Menus Propos</label></p>
+      <p><persName><abbr>PF</abbr></persName> <persName>Louise de Vilmorin</persName>, un livre oulipien <title>L’Alphabet des Aveux</title></p>
+      <p><persName><abbr>FC</abbr></persName> <persName>Emile Berr</persName>, <title>les petites choses qui font plaisir</title></p>
     </body>
   </text>
 </TEI>

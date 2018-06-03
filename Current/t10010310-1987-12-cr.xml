@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010310-1987-12-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010310-1987-12-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,17 +21,22 @@
           <date when="1987-12-19">19 décembre 1987</date>
           <placeName>chez FC</placeName>
           <list type="present">
-            <item><persName ref="#im">Ian Monk</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#fc">François Caradec</persName></item>
-            <item><persName ref="#cb">Claude Berge</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
+            <item><persName>Ian Monk</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Paul Braffort</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -45,9 +51,9 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010310h/f1.highres" n="1"/>
-      <p rend="incipit"><persName ref="#im"><abbr>IM</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </p>
-      <p>19 XII chez <persName ref="#fc"><abbr>FC</abbr></persName> à midi !</p>
+      <p rend="incipit"><persName><abbr>IM</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>PB</abbr></persName></p>
+      <p><name type="manif">Prochaine réunion</name></p>
+      <p>19 XII chez <persName><abbr>FC</abbr></persName> à midi !</p>
       <p><unclear>xesse</unclear> générale</p>
     </body>
   </text>

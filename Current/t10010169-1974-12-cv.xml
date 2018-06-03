@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010169-1974-12-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010169-1974-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010169-1974-12-cv</idno> <title>Convocation à <ref target="#t10010169-1974-12">une réunion Oulipo</ref>, envoyée le <date when="1974-12-02">2 décembre 1974</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010169-1974-12-cv</idno> <title>Convocation à <ref target="#t10010169-1974-12">une réunion Oulipo</ref>, envoyée le <date when="1974-12-02">2 décembre 1974</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -33,11 +39,11 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010169v/f1.highres" n="1"/>
       <p rend="incipit">Boulogne-sur-Seine, le 2 Décembre 1974</p>
       <p>Chers Brigadiers,</p>
-      <p>Notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  aura lieu, comme convenu, le LUNDI 16 Décembre, date choisie pour permettre d’y accueillir deux de nos Jacques (<persName ref="#jb">BENS</persName> et <persName ref="#jd">DUCHATEAU</persName>) à déjeuner.</p>
-      <p>À l’ordre du jour – très chargé, comme à l’habitude – : suite de l’examen et de la discussion de la « <title ref="#tabledequeneleiev">TABLE DE QUENELEIEV</title> » ; impression et diffusion des volumes de la « <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> » ; examen des statuts de l’Oulipo : affaires courantes ; sans compter ce que vous voudrez bien m’indiquer dans votre réponse.</p>
+      <p>Notre <name type="manif">prochaine réunion</name> aura lieu, comme convenu, le LUNDI 16 Décembre, date choisie pour permettre d’y accueillir deux de nos Jacques (<persName>BENS</persName> et <persName>DUCHATEAU</persName>) à déjeuner.</p>
+      <p>À l’ordre du jour – très chargé, comme à l’habitude – : suite de l’examen et de la discussion de la « <title>TABLE DE QUENELEIEV</title> » ; impression et diffusion des volumes de la « <title>Bibliothèque oulipienne</title> » ; examen des statuts de l’Oulipo : affaires courantes ; sans compter ce que vous voudrez bien m’indiquer dans votre réponse.</p>
       <p>Compte tenu des ralentissements prévisibles à la suite de la reprise des activités postales et en vue de faciliter l’étude ardue des problèmes d’intendance liés à la préparation du déjeuner, je vous serais reconnaissant de me faire parvenir votre réponse le plus tôt possible et, au besoin, par courrier tournant. (l’idéal étant que vous postiez la réponse à cette lettre avant de l’avoir reçue)</p>
       <p>Oulipiennement vôtre.</p>
-      <p><persName ref="#fll">F. Le Lionnais</persName></p>
+      <p><persName>F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

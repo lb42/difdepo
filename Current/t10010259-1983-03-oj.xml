@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010259-1983-03-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010259-1983-03-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010259-1983-03-oj</idno> <title>Ordre de jour de <ref target="#t10010259-1983-03">la réunion Oulipo</ref> du <date when="1983-03-18">18 mars 1983</date></title> </bibl>
+        <bibl><idno>t10010259-1983-03-oj</idno> <title>Ordre de jour de <ref target="#t10010259-1983-03">la réunion Oulipo</ref> du <date when="1983-03-18">18 mars 1983</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -29,49 +35,49 @@
   <text type="oj">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010259t/f2.highres" n="2"/>
-      <p rend="incipit">Ordre du Jour du 18/03/1983 chez <persName ref="#mm"><abbr>MM</abbr></persName></p>
-      <p>Président : <persName ref="#mb"><abbr>MB</abbr></persName> Secrétaire : <persName ref="#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Ordre du Jour du 18/03/1983 chez <persName><abbr>MM</abbr></persName></p>
+      <p>Président : <persName><abbr>MB</abbr></persName> Secrétaire : <persName><abbr>PF</abbr></persName></p>
       <p><label type="rubrique">- Création</label></p>
       <list type="unordered">
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> le vol d’<unclear>Itiers</unclear></item>
-        <item><persName ref="#mm"><abbr>MM</abbr></persName> Filigrane</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> livre sur <persName ref="#gp">Georges Perec</persName></item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> la grille mode d’emploi</item>
-        <item><persName ref="#le"><abbr>LE</abbr></persName> Unicité</item>
+        <item><persName><abbr>PB</abbr></persName> le vol d’<unclear>Itiers</unclear></item>
+        <item><persName><abbr>MM</abbr></persName> Filigrane</item>
+        <item><persName><abbr>PF</abbr></persName> livre sur <persName>Georges Perec</persName></item>
+        <item><persName><abbr>MB</abbr></persName> la grille mode d’emploi</item>
+        <item><persName><abbr>LE</abbr></persName> Unicité</item>
       </list>
       <p>- Action</p>
-      <p> <label type="rubrique"><persName ref="#pf"><abbr>PF</abbr></persName></label> </p>
+      <p><label type="rubrique"><persName><abbr>PF</abbr></persName></label></p>
       <list type="unordered">
         <item><name type="manif">Journée Oulipo Beaubourg</name></item>
         <item><name type="manif">Rencontres Oulipo</name> 2ème quinzaine d’Avril</item>
         <item><name type="manif">Journée Oulipo</name> Evreux</item>
-        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
-        <item><persName ref="#schmitt">Schmitt</persName> et <persName ref="#viala">Viala</persName> = oulipo et <unclear>?</unclear></item>
+        <item><title>Bibliothèque oulipienne</title></item>
+        <item><persName>Schmitt</persName> et <persName>Viala</persName> = oulipo et <unclear>?</unclear></item>
       </list>
-      <p> <label type="rubrique"><persName ref="#pb"><abbr>PB</abbr></persName></label> </p>
+      <p><label type="rubrique"><persName><abbr>PB</abbr></persName></label></p>
       <list type="unordered">
         <item>Milan</item>
         <item>Aix</item>
         <item>La Hollande</item>
         <item>Naples</item>
-        <item><orgName ref="#alamo">Alamo</orgName></item>
+        <item><orgName>Alamo</orgName></item>
       </list>
-      <p><persName ref="#mm"><abbr>MM</abbr></persName></p>
-      <p><orgName ref="#beaubourg">Beaubourg</orgName> (<orgName ref="#polyphoni">polyphonix</orgName>)</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p><persName><abbr>MM</abbr></persName></p>
+      <p><orgName>Beaubourg</orgName> (<orgName>polyphonix</orgName>)</p>
+      <p><persName><abbr>MB</abbr></persName></p>
       <p>Finances</p>
       <p>Erudition</p>
-      <p><persName ref="#na"><abbr>NA</abbr></persName></p>
+      <p><persName><abbr>NA</abbr></persName></p>
       <p>Volupté Mathématiques lettres</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p><persName><abbr>MB</abbr></persName></p>
       <p><name type="manif">Colloque R.Roussel à Nice</name></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p><persName><abbr>MB</abbr></persName></p>
       <p>Alexandre portrait</p>
       <p>Menus Propos</p>
-      <p><persName ref="#jq"><abbr>JQ</abbr></persName></p>
-      <p>Projet <title ref="#essaisdequeneau">Essais de <persName ref="#rq">Queneau</persName></title> </p>
+      <p><persName><abbr>JQ</abbr></persName></p>
+      <p>Projet <title>Essais de <persName>Queneau</persName></title></p>
       <p>Voir 8 Avril 83</p>
-      <p><orgName ref="#beaubourg">Beaubourg</orgName> <persName ref="#jb"><abbr>JB</abbr></persName>. <persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#cb"><abbr>CB</abbr></persName></p>
+      <p><orgName>Beaubourg</orgName> <persName><abbr>JB</abbr></persName>. <persName><abbr>MB</abbr></persName> <persName><abbr>CB</abbr></persName></p>
     </body>
   </text>
 </TEI>

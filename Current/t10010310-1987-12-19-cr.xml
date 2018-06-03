@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010310-1987-12-19-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010310-1987-12-19-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,10 +20,15 @@
         <bibl><idno>t10010310-1987-12-19-cr</idno> <meeting xml:id="t10010310-1987-12-19">
           <date when="1987-12-19">19 décembre 1987</date>
           <placeName>chez FC</placeName>
-          <gap/> 
+          <gap/>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -38,10 +44,10 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010310h/f15.highres" n="15"/>
       <p rend="incipit">Novembre 87</p>
       <p rend="incipit">OULIPO</p>
-      <p>Samedi : 19 XII 87 chez <persName ref="#fc"><abbr>FC</abbr></persName> à midi</p>
-      <p><term ref="#autobiographie">Autobiographie</term> de <persName ref="#hm"><abbr>HM</abbr></persName> : <title ref="#contemporaryauthorsautobiography">Contemporary Authors Autobiography</title></p>
-      <p><title ref="#volumevi">Volume VI</title></p>
-      <p><unclear>Constanet Polonais</unclear> : <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName></p>
+      <p>Samedi : 19 XII 87 chez <persName><abbr>FC</abbr></persName> à midi</p>
+      <p><term>Autobiographie</term> de <persName><abbr>HM</abbr></persName> : <title>Contemporary Authors Autobiography</title></p>
+      <p><title>Volume VI</title></p>
+      <p><unclear>Constanet Polonais</unclear> : <persName><abbr>JJ</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>CB</abbr></persName></p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010147-1973-12-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010147-1973-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010147-1973-12-cv</idno> <title>Convocation à <ref target="#t10010147-1973-12">une réunion Oulipo</ref>, envoyée le <date when="1973-12-19">19 décembre 1973</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010147-1973-12-cv</idno> <title>Convocation à <ref target="#t10010147-1973-12">une réunion Oulipo</ref>, envoyée le <date when="1973-12-19">19 décembre 1973</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-17" who="HCC">nettoyage des commentaires/notes</change>
@@ -32,17 +38,17 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101474/f2.highres" n="2"/>
-      <p rend="incipit"> <add><persName ref="#lucullus">Lucullus</persName> aimerait savoir comment s’est terminée la mise à mort de <persName ref="#jugurtha">Jugurtha</persName>. Et, par la même occasion avoir la nouvelle adresse de <persName ref="#na">Noël Arnaud</persName></add>. <note n="1" resp="editor">Ajout manuscrit de la main du secrétaire</note></p>
+      <p rend="incipit"><add><persName>Lucullus</persName> aimerait savoir comment s’est terminée la mise à mort de <persName>Jugurtha</persName>. Et, par la même occasion avoir la nouvelle adresse de <persName>Noël Arnaud</persName></add>. <note n="1" resp="editor">Ajout manuscrit de la main du secrétaire</note></p>
       <p rend="incipit">Le 19 Décembre 1972</p>
       <p>Chers Oulipotes,</p>
-      <p>Après une période de perturbations liée à l’état de santé de notre Président, l’OuLiPo envisage de reprendre ses activités le Mercredi 14 Février 1973. Nous renouvellerons bien entendu notre invitation à <persName ref="#emileleipp">Emile LEIPP</persName>.</p>
+      <p>Après une période de perturbations liée à l’état de santé de notre Président, l’OuLiPo envisage de reprendre ses activités le Mercredi 14 Février 1973. Nous renouvellerons bien entendu notre invitation à <persName>Emile LEIPP</persName>.</p>
       <p>On peut espérer qu’à cette date l’ouvrage attendu :</p>
-      <p><title ref="#oulipo">OULIPO</title></p>
-      <p><title ref="#creationsrecreationsrecreations">Créations, re-créations, récréations</title></p>
+      <p><title>OULIPO</title></p>
+      <p><title>Créations, re-créations, récréations</title></p>
       <p>sera paru ou sur le point de paraitre.</p>
       <p>(Ce sera moins la fin d’une époque que le commencement d’une nouvelle ère)</p>
       <p>OuLiPiennement,</p>
-      <p>Pour un secrétaire <persName ref="#pf">Paul Fournel</persName></p>
+      <p>Pour un secrétaire <persName>Paul Fournel</persName></p>
       <p>PS : Veuillez répondre aussi tôt que possible pour faciliter l’organisation des agapes.</p>
     </body>
   </text>

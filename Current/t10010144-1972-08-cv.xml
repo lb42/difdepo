@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010144-1972-08-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010144-1972-08-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010144-1972-08-cv</idno>
-          <title>Convocation à <ref target="#t10010144-1972-08">une réunion Oulipo</ref>, envoyée le
-              <date when="1972-08-15">15 août 1972</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title>
-        </bibl>
+        <bibl><idno>t10010144-1972-08-cv</idno> <title>Convocation à <ref target="#t10010144-1972-08">une réunion Oulipo</ref>, envoyée le <date when="1972-08-15">15 août 1972</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -36,20 +39,15 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010144s/f1.highres" n="1"/>
       <p rend="incipit">le 15 Août 1972</p>
       <p>Cher Oulipote,</p>
-      <p>Voulez-vous noter tout d’abord que notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  – qui a été primitivement fixée
-        au 4 Octobre 1972 – est reportée au mercredi 11 Octobre aux heures habituelles.</p>
-      <p>Cette réunion d’une IMPORTANCE EXCEPTIONNELLE sera essentiellement axée autour de la
-        publication du dossier <title ref="#ecape">EXCAPE</title> (Nom de l’auteur = OuLiPo ; titre
-        et participations à préciser : lettre de <orgName ref="#gallimard">Gallimard</orgName> à
-        chacun ; problèmes phynanciers etc…)</p>
-      <p>Notre invité d’honneur sera <persName ref="#merval">M. ERVAL</persName> Directeur
-          d’<orgName ref="#ideespoche">Idées-Poche</orgName>.</p>
+      <p>Voulez-vous noter tout d’abord que notre <name type="manif">prochaine réunion</name> – qui a été primitivement fixée au 4 Octobre 1972 – est reportée au mercredi 11 Octobre aux heures habituelles.</p>
+      <p>Cette réunion d’une IMPORTANCE EXCEPTIONNELLE sera essentiellement axée autour de la publication du dossier <title>EXCAPE</title> (Nom de l’auteur = OuLiPo ; titre et participations à préciser : lettre de <orgName>Gallimard</orgName> à chacun ; problèmes phynanciers etc…)</p>
+      <p>Notre invité d’honneur sera <persName>M. ERVAL</persName> Directeur d’<orgName>Idées-Poche</orgName>.</p>
       <p>Faites un effort pour être présent.</p>
       <p>OuLiPiennement vôtre</p>
       <p>Le Secrétaire Général provisoirement définitif</p>
-      <p><persName ref="#pf">Paul Fournel</persName></p>
+      <p><persName>Paul Fournel</persName></p>
       <p>le Président-Fondateur</p>
-      <p><persName ref="#fll"><abbr>F.LL.</abbr></persName></p>
+      <p><persName><abbr>F.LL.</abbr></persName></p>
     </body>
   </text>
 </TEI>

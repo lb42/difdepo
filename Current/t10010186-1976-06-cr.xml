@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010186-1976-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010186-1976-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,18 +21,23 @@
           <date when="1976-06-10">10 juin 1976</date>
           <placeName>chez GP</placeName>
           <list type="present">
-            <item><persName ref="#fll">François Le Lionnais</persName></item>
-            <item><persName ref="#gp">Georges Perec</persName></item>
-            <item><persName ref="#hm">Harry Mathews</persName></item>
-            <item><persName ref="#ic">Italo Calvino</persName></item>
-            <item><persName ref="#jb">Jacques Bens</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#na">Noël Arnaud</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Georges Perec</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>Italo Calvino</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -47,37 +53,37 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010186b/f2.highres" n="2"/>
       <p rend="incipit">OULIPO le 10/6/76</p>
-      <p rend="incipit">Présents : <persName ref="#fll"><abbr>FLL</abbr></persName>, <persName ref="#gp">Perec</persName>, <persName ref="#hm">Mathews</persName>, <persName ref="#ic">Calvino</persName>, <persName ref="#jb">Bens</persName>, <persName ref="#pb">Braffort</persName>, <persName ref="#na">Arnaud</persName>, <persName ref="#mb">Bénabou</persName></p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> : le point sur l’émission de <persName ref="#pillaudin">Pillaudin</persName> avec <persName ref="#pascallaine">Pascal Lainé</persName>.</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> dîne avec <persName ref="#laine">Lainé</persName> et voudrait lui suggérer des questions à poser : faut-il évoquer le problème des rapports Oulipo et chansonniers (débat entre <persName ref="#na">N. Arnaud</persName>, <persName ref="#jb">Bens</persName> et <persName ref="#fll"><abbr>FLL</abbr></persName> sur ce sujet).</p>
+      <p rend="incipit">Présents : <persName><abbr>FLL</abbr></persName>, <persName>Perec</persName>, <persName>Mathews</persName>, <persName>Calvino</persName>, <persName>Bens</persName>, <persName>Braffort</persName>, <persName>Arnaud</persName>, <persName>Bénabou</persName></p>
+      <p><persName><abbr>FLL</abbr></persName> : le point sur l’émission de <persName>Pillaudin</persName> avec <persName>Pascal Lainé</persName>.</p>
+      <p><persName><abbr>FLL</abbr></persName> dîne avec <persName>Lainé</persName> et voudrait lui suggérer des questions à poser : faut-il évoquer le problème des rapports Oulipo et chansonniers (débat entre <persName>N. Arnaud</persName>, <persName>Bens</persName> et <persName><abbr>FLL</abbr></persName> sur ce sujet).</p>
       <p>– Les membres présents dans la salle peuvent intervenir, mais discrètement.</p>
-      <p>– Oulipo et <term ref="#surrealisme">surréalisme</term>, Oulipo et <term ref="#hasard">hasard</term>, Oulipo et <term ref="#automatisme">automatisme</term>.</p>
-      <p><persName ref="#hmath">H. Math</persName> : l’<term ref="#algorithmedemathews">algorithme de <persName ref="#hm">Mathews</persName></term>  : quelques modifications.</p>
+      <p>– Oulipo et <term>surréalisme</term>, Oulipo et <term>hasard</term>, Oulipo et <term>automatisme</term>.</p>
+      <p><persName>H. Math</persName> : l’<term>algorithme de <persName>Mathews</persName></term>  : quelques modifications.</p>
       <p>Un exemplaire de l’ensemble est versé aux <ref>Archives</ref>.</p>
-      <p><persName ref="#jb">Bens</persName> : le problème du romancier : donner de la cohérence à un ensemble qui n’en a pas.</p>
-      <p><persName ref="#pb">Braffort</persName> : double problématique</p>
+      <p><persName>Bens</persName> : le problème du romancier : donner de la cohérence à un ensemble qui n’en a pas.</p>
+      <p><persName>Braffort</persName> : double problématique</p>
       <list type="ordered">
-        <item><term ref="#matrice">matrice</term> + <term ref="#permutation">permutation</term></item>
+        <item><term>matrice</term> + <term>permutation</term></item>
         <item>finalité posée au départ</item>
       </list>
       <p>Interruption pour mettre la table.</p>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#pb">Braffort</persName> : le 8/12/76 <name ref="#conferenceaorsaysurlitteratureetmathematiques" type="manif">conférence à Orsay sur Littérature et mathématiques</name>.</item>
-        <item><persName ref="#rq">Queneau</persName> : demande qui veut se charger de son article pour les <title ref="#nouvelleslitteraires">Nouvelles Littéraires</title> sur <title ref="#litteratureetmathematiques">Littérature et Mathématiques</title>.</item>
+        <item><persName>Braffort</persName> : le 8/12/76 <name type="manif">conférence à Orsay sur Littérature et mathématiques</name>.</item>
+        <item><persName>Queneau</persName> : demande qui veut se charger de son article pour les <title>Nouvelles Littéraires</title> sur <title>Littérature et Mathématiques</title>.</item>
       </list>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> propose 2 <term ref="#structure">structure</term>s valables pour l’Oulipo ainsi que pour l’<orgName ref="#oulipopo">Oulipopo</orgName> et établit un <term ref="#theoreme">théorème</term> sur la <term ref="#structureduromanpolicier">structure du roman policier</term> où il y a échange de meurtres et qu’on pourrait transposer ailleurs.</p>
-      <p><persName ref="#gp">Perec</persName> : présentation de <title ref="#alphabets">Alphabets</title>, livre fait en 160 onzains à partir de Esartinulo + une lettre.</p>
+      <p><persName><abbr>FLL</abbr></persName> propose 2 <term>structure</term>s valables pour l’Oulipo ainsi que pour l’<orgName>Oulipopo</orgName> et établit un <term>théorème</term> sur la <term>structure du roman policier</term> où il y a échange de meurtres et qu’on pourrait transposer ailleurs.</p>
+      <p><persName>Perec</persName> : présentation de <title>Alphabets</title>, livre fait en 160 onzains à partir de Esartinulo + une lettre.</p>
       <p>Acclamation générale.</p>
-      <p><persName ref="#rq">Queneau</persName> :</p>
+      <p><persName>Queneau</persName> :</p>
       <list type="unordered">
-        <item>recherche sur les <term ref="#homophonieslettresmots">homophonies lettres-mots</term> : inventaire à faire.</item>
-        <item>recherche sur les <term ref="#verbesquiontplusieurssens">verbes qui ont plusieurs sens</term> : il entoura.</item>
+        <item>recherche sur les <term>homophonies lettres-mots</term> : inventaire à faire.</item>
+        <item>recherche sur les <term>verbes qui ont plusieurs sens</term> : il entoura.</item>
       </list>
-      <p>Problème des <term ref="#onomatopees">onomatopées</term>.</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  3 Août</p>
-      <p>Invité d’honneur : <persName ref="#tardieu">Tardieu</persName>, Paris</p>
+      <p>Problème des <term>onomatopées</term>.</p>
+      <p><name type="manif">Prochaine réunion</name> 3 Août</p>
+      <p>Invité d’honneur : <persName>Tardieu</persName>, Paris</p>
     </body>
   </text>
 </TEI>

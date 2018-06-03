@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010133-1971-12-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010133-1971-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010133-1971-12-cv</idno>
-          <title>Convocation à <ref target="#t10010133-1971-12">une réunion Oulipo</ref>, envoyée le
-              <date when="1971-12-06">6 décembre 1971</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title>
-        </bibl>
+        <bibl><idno>t10010133-1971-12-cv</idno> <title>Convocation à <ref target="#t10010133-1971-12">une réunion Oulipo</ref>, envoyée le <date when="1971-12-06">6 décembre 1971</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -39,18 +42,13 @@
       <p>POtentielle</p>
       <p>Le 6 Décembre 1971.</p>
       <p>Cher Oulipote,</p>
-      <p>C’est le Vendredi 17 Décembre, 11 heures, qu’aura lieu, au domicile du président fondateur,
-        la <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Oulipo.</p>
-      <p>A part la liquidation du dossier <orgName ref="#cape">Cape</orgName>, l’ordre du jour sera
-        ce que vous en ferez…</p>
-      <p>On me signale toutefois, en dernière heure que nous aurons le plaisir de recevoir à notre
-        table Madame et Monsieur <persName ref="#rey">REY</persName>, du <orgName ref="#dictionnairerobert">dictionnaire Robert</orgName>.</p>
+      <p>C’est le Vendredi 17 Décembre, 11 heures, qu’aura lieu, au domicile du président fondateur, la <name type="manif">prochaine réunion</name> de l’Oulipo.</p>
+      <p>A part la liquidation du dossier <orgName>Cape</orgName>, l’ordre du jour sera ce que vous en ferez…</p>
+      <p>On me signale toutefois, en dernière heure que nous aurons le plaisir de recevoir à notre table Madame et Monsieur <persName>REY</persName>, du <orgName>dictionnaire Robert</orgName>.</p>
       <p>Au vendredi 17, oulipiennement,</p>
-      <p><persName ref="#pf">Paul Fournel</persName>,</p>
+      <p><persName>Paul Fournel</persName>,</p>
       <p>Un secrétaire.</p>
-      <p>NB : le volet mobile est à retourner au domicile du président <persName ref="#fll">Le
-          Lionnais</persName> (23 route de la Reine, 92-Boulogne) ; dans le but de faciliter
-        l’organisation matérielle de la réunion.</p>
+      <p>NB : le volet mobile est à retourner au domicile du président <persName>Le Lionnais</persName> (23 route de la Reine, 92-Boulogne) ; dans le but de faciliter l’organisation matérielle de la réunion.</p>
     </body>
   </text>
 </TEI>

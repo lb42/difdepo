@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010245-1981-12-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010245-1981-12-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010245-1981-12-oj</idno> <title>Ordre de jour de <ref target="#t10010245-1981-12">la réunion Oulipo</ref> du <date when="1981-12-11">11 décembre 1981</date></title> </bibl>
+        <bibl><idno>t10010245-1981-12-oj</idno> <title>Ordre de jour de <ref target="#t10010245-1981-12">la réunion Oulipo</ref> du <date when="1981-12-11">11 décembre 1981</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
@@ -35,27 +41,27 @@
       <p rend="incipit">PF président</p>
       <p><label type="rubrique">Création :</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : Un absent de marque.</item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> : <persName ref="#giordanobruno">Giordano Bruno</persName> et l’oulipo.</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : <term ref="#romanpolicierplagie">Roman policier plagié</term>.</item>
+        <item><persName><abbr>PF</abbr></persName> : Un absent de marque.</item>
+        <item><persName><abbr>JR</abbr></persName> : <persName>Giordano Bruno</persName> et l’oulipo.</item>
+        <item><persName><abbr>PB</abbr></persName> : <term>Roman policier plagié</term>.</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : <name ref="#nantes" type="manif">Nantes</name></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : <name ref="#villeneuve" type="manif">Villeneuve</name></item>
-        <item>Bibliothèque oulipienne : <persName ref="#pf"><abbr>PF</abbr></persName></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> + tous : <title ref="#atlas">Atlas</title></item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : <orgName ref="#alamo">Alamo</orgName></item>
+        <item><persName><abbr>PF</abbr></persName> : <name type="manif">Nantes</name></item>
+        <item><persName><abbr>PF</abbr></persName> : <name type="manif">Villeneuve</name></item>
+        <item>Bibliothèque oulipienne : <persName><abbr>PF</abbr></persName></item>
+        <item><persName><abbr>PF</abbr></persName> + tous : <title>Atlas</title></item>
+        <item><persName><abbr>PB</abbr></persName> : <orgName>Alamo</orgName></item>
       </list>
       <p><label type="rubrique">Erudition.</label></p>
       <list type="unordered">
-        <item><persName ref="#jl">J Lescure</persName> : AEIOU</item>
-        <item><persName ref="#jl"><abbr>JL</abbr></persName> : le mystère en fleur <persName ref="#jacquescharpentreau">Jacques Charpentreau</persName></item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : <title ref="#lacosmogonie">La cosmogonie</title> vue par <persName ref="#ic">Calvino</persName>.</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : <title ref="#dictionnairedelinformatique">dictionnaire de l’informatique</title></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#pb"><abbr>PB</abbr></persName> : <term ref="#jeudecartes">jeu de cartes</term></item>
+        <item><persName>J Lescure</persName> : AEIOU</item>
+        <item><persName><abbr>JL</abbr></persName> : le mystère en fleur <persName>Jacques Charpentreau</persName></item>
+        <item><persName><abbr>PB</abbr></persName> : <title>La cosmogonie</title> vue par <persName>Calvino</persName>.</item>
+        <item><persName><abbr>PB</abbr></persName> : <title>dictionnaire de l’informatique</title></item>
+        <item><persName><abbr>PF</abbr></persName> <persName><abbr>PB</abbr></persName> : <term>jeu de cartes</term></item>
       </list>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : vendredi 22 janvier 82</p>
+      <p><name type="manif">Prochaine réunion</name>  : vendredi 22 janvier 82</p>
     </body>
   </text>
 </TEI>

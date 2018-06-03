@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010307-1987-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010307-1987-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,17 +21,22 @@
           <date when="1987-08-28">28 août 1987</date>
           <placeName>Chez JJ</placeName>
           <list type="present">
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#hm">Harry Mathews</persName></item>
-            <item><persName ref="#fc">François Caradec</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#pb" role="secrétaire">Paul Braffort</persName></item>
-            <item><persName ref="#pf" role="président">Paul Fournel</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName role="secrétaire">Paul Braffort</persName></item>
+            <item><persName role="président">Paul Fournel</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
@@ -47,30 +53,30 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f1.highres" n="1"/>
       <p rend="incipit">Réunion du 28 Août 1987</p>
-      <p rend="incipit">Chez <persName ref="#jj">Jacques Jouet</persName></p>
-      <p rend="incipit">Excusés : <persName ref="#cb"><abbr>CB</abbr></persName>, <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#jl"><abbr>JL</abbr></persName>.</p>
-      <p rend="incipit">Présents : <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">: <persName ref="#jd"><abbr>JD</abbr></persName>, <persName ref="#am"><abbr>MM</abbr></persName>, <persName ref="#pr"><abbr>PR</abbr></persName>, <persName ref="#jq"><abbr>JQ</abbr></persName>.</p>
+      <p rend="incipit">Chez <persName>Jacques Jouet</persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>CB</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>JL</abbr></persName>.</p>
+      <p rend="incipit">Présents : <persName><abbr>JJ</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>PB</abbr></persName></p>
+      <p rend="incipit">: <persName><abbr>JD</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>PR</abbr></persName>, <persName><abbr>JQ</abbr></persName>.</p>
       <p><label type="rubrique">Créations :</label></p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : 10<hi rend="sup">14</hi> // <persName ref="#hm"><abbr>HM</abbr></persName> : projet //</p>
+      <p><persName><abbr>JJ</abbr></persName> : 10<hi rend="sup">14</hi> // <persName><abbr>HM</abbr></persName> : projet //</p>
       <p><label type="rubrique">Erudition :</label></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> : Roman Borgesien</p>
-      <p><persName ref="#schoenberg">Schoenberg</persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : Hymne <term ref="#monosyllabique">monosyllabique</term> en création</p>
-      <p><persName ref="#tristanbernard">Tristan Bernard</persName> à la Boule</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <term ref="#musiquepotentielle">Musique potentielle</term>.</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>: Alva <title ref="#sanantonio">San Antonio</title></p>
-      <p><term ref="#rimeberrychonne">Rime berrychonne</term></p>
+      <p><persName><abbr>HM</abbr></persName> : Roman Borgesien</p>
+      <p><persName>Schoenberg</persName></p>
+      <p><persName><abbr>FC</abbr></persName> : Hymne <term>monosyllabique</term> en création</p>
+      <p><persName>Tristan Bernard</persName> à la Boule</p>
+      <p><persName><abbr>MB</abbr></persName> : <term>Musique potentielle</term>.</p>
+      <p><persName><abbr>JJ</abbr></persName>: Alva <title>San Antonio</title></p>
+      <p><term>Rime berrychonne</term></p>
       <p><label type="rubrique">Action:</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>: New York / Francfort</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>: New York &amp; Seattle</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>: Francfort &amp; Saint-Quentin</p>
-      <p>Oulipo Idées <persName ref="#pf"><abbr>PF</abbr></persName></p>
+      <p><persName><abbr>PF</abbr></persName>: New York / Francfort</p>
+      <p><persName><abbr>HM</abbr></persName>: New York &amp; Seattle</p>
+      <p><persName><abbr>MB</abbr></persName>: Francfort &amp; Saint-Quentin</p>
+      <p>Oulipo Idées <persName><abbr>PF</abbr></persName></p>
       <p><label type="rubrique">Noms propres</label></p>
-      <p><persName ref="#ab"><abbr>AB</abbr></persName>: Saint-Quentin</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>: Carte de visite en hommage au Président</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : L’Infini</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#andreebergens">Andrée Bergens</persName></p>
+      <p><persName><abbr>AB</abbr></persName>: Saint-Quentin</p>
+      <p><persName><abbr>FC</abbr></persName>: Carte de visite en hommage au Président</p>
+      <p><persName><abbr>MB</abbr></persName> : L’Infini</p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Andrée Bergens</persName></p>
       <p>Prochaine Réunion</p>
       <p>25 VIII</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f2.highres" n="2"/>
@@ -79,55 +85,55 @@
       <list type="ordered">
         <item>Assiduité</item>
       </list>
-      <p><persName ref="#pf">Paul Fournel</persName> (président), <persName ref="#pb">Paul Braffort</persName> (secrétaire), <persName ref="#jj">Jacques Jouet</persName> (hôte), <persName ref="#mb">Marcel Bénabou</persName>, <persName ref="#fc">François Caradec</persName>, <persName ref="#hm">Harry Mathews</persName>, et <persName ref="#jr">Jacques Roubaud</persName> sont présents.</p>
-      <p><persName ref="#na">Noël Arnaud</persName>, <persName ref="#jb">Jacques Bens</persName>, <persName ref="#cb">Claude Berge</persName> et <persName ref="#jl">Jean Lescure</persName> sont excusés.</p>
+      <p><persName>Paul Fournel</persName> (président), <persName>Paul Braffort</persName> (secrétaire), <persName>Jacques Jouet</persName> (hôte), <persName>Marcel Bénabou</persName>, <persName>François Caradec</persName>, <persName>Harry Mathews</persName>, et <persName>Jacques Roubaud</persName> sont présents.</p>
+      <p><persName>Noël Arnaud</persName>, <persName>Jacques Bens</persName>, <persName>Claude Berge</persName> et <persName>Jean Lescure</persName> sont excusés.</p>
       <list type="ordered">
         <item>Création</item>
       </list>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> et <persName ref="#pb"><abbr>PB</abbr></persName> présentent un projet d’extension/ restriction du système « <title ref="#descentmillemilliardsdepoemes">des cent mille milliards de poèmes</title> ».</p>
+      <p><persName><abbr>JJ</abbr></persName> et <persName><abbr>PB</abbr></persName> présentent un projet d’extension/ restriction du système « <title>des cent mille milliards de poèmes</title> ».</p>
       <list type="unordered">
-        <item>Extension : on autorise la <term ref="#permutation">permutation</term> des <term ref="#versisorimes">vers isorimes</term>, pour les <term ref="#tercets">tercets</term> comme pour les <term ref="#quatrains">quatrains</term>.</item>
+        <item>Extension : on autorise la <term>permutation</term> des <term>vers isorimes</term>, pour les <term>tercets</term> comme pour les <term>quatrains</term>.</item>
       </list>
       <list type="unordered">
-        <item>Restriction : on filtre la production d’un <term ref="#sonnet">sonnet</term> en introduisant des <term ref="#contraintes">contraintes</term> supplémentaires de cohérence syntaxique (en genre et en nombre) et sémantique (concordance des temps et comptabilité des aspects) entre deux <term ref="#vers">vers</term> successifs.</item>
+        <item>Restriction : on filtre la production d’un <term>sonnet</term> en introduisant des <term>contraintes</term> supplémentaires de cohérence syntaxique (en genre et en nombre) et sémantique (concordance des temps et comptabilité des aspects) entre deux <term>vers</term> successifs.</item>
       </list>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> calcule le facteur de multiplication associé à la possibilité d’extension. Par contre l’évaluation de l’efficacité du filtrage dépend évidemment de la spécification précise des <term ref="#contraintes">contraintes</term> nouvelles tout comme du contenu particulier des <term ref="#vers">vers</term> composant les dix <term ref="#sonnets">sonnets</term> de base.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> souhaiterait constituer un système analogue à celui de <persName ref="#rq"><abbr>RQ</abbr></persName>, mais où les premiers <term ref="#hemistiches">hémistiches</term> seraient aussi permutables – à la <persName ref="#meschinot">Meschinot</persName> – ce qui amène, dans le cas usuel, c’est-à-dire sans l’extension de <persName ref="#jj"><abbr>JJ</abbr></persName>, à 10 puissances 28 <term ref="#poemes">poèmes</term>. Lorsqu’on autorise les <term ref="#permutations">permutations</term> de <term ref="#vers">vers</term> isorimes, on atteint un chiffre voisin de celui des particules élémentaires dans l’Univers (10 puissance 39), remarque <persName ref="#pb"><abbr>PB</abbr></persName>. Il devient alors naturel d’affecter un <term ref="#sonnet">sonnet</term> à chacune de ces particules, ce qui ne manquerait pas de leur conférer un cachet supplémentaire. Sans vouloir élaborer une observation qui ouvre de vertigineuses perspectives épistémologiques, <persName ref="#pb"><abbr>PB</abbr></persName> signale le <term ref="#plagiatparanticipation">plagiat par anticipation</term> qu’ont commis les physiciens en affublant les particules élémentaires d’attributs tels que le « charme », la « couleur », l’«étrangeté », etc… De toute évidence la « <term ref="#rime">rime</term> » serait un attribut parfaitement convenable.</p>
+      <p><persName><abbr>JR</abbr></persName> calcule le facteur de multiplication associé à la possibilité d’extension. Par contre l’évaluation de l’efficacité du filtrage dépend évidemment de la spécification précise des <term>contraintes</term> nouvelles tout comme du contenu particulier des <term>vers</term> composant les dix <term>sonnets</term> de base.</p>
+      <p><persName><abbr>HM</abbr></persName> souhaiterait constituer un système analogue à celui de <persName><abbr>RQ</abbr></persName>, mais où les premiers <term>hémistiches</term> seraient aussi permutables – à la <persName>Meschinot</persName> – ce qui amène, dans le cas usuel, c’est-à-dire sans l’extension de <persName><abbr>JJ</abbr></persName>, à 10 puissances 28 <term>poèmes</term>. Lorsqu’on autorise les <term>permutations</term> de <term>vers</term> isorimes, on atteint un chiffre voisin de celui des particules élémentaires dans l’Univers (10 puissance 39), remarque <persName><abbr>PB</abbr></persName>. Il devient alors naturel d’affecter un <term>sonnet</term> à chacune de ces particules, ce qui ne manquerait pas de leur conférer un cachet supplémentaire. Sans vouloir élaborer une observation qui ouvre de vertigineuses perspectives épistémologiques, <persName><abbr>PB</abbr></persName> signale le <term>plagiat par anticipation</term> qu’ont commis les physiciens en affublant les particules élémentaires d’attributs tels que le « charme », la « couleur », l’«étrangeté », etc… De toute évidence la « <term>rime</term> » serait un attribut parfaitement convenable.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f3.highres" n="3"/>
       <list type="ordered">
         <item>Erudition</item>
       </list>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> donne l’exemple d’une réalisation de « <term ref="#romanborgesien">roman borgésien</term> », en ce sens que chaque chapitre débouche sur une « bifurcations de chapitres ultérieurs (une réalisation est en cours, sous les auspices d’ « invisible « Seattle »).</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> lit (en la traduisant) une lettre de <persName ref="#schonberg">Schönberg</persName> à <persName ref="#kandinsky">Kandinsky</persName> où les principes de la création artistique sous <term ref="#contrainte">contrainte</term> sont lumineusement énoncés.</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> mentionne une œuvre peu connue de <persName ref="#macnab">Mac Nab</persName>, datée de 1899, et intitulée « <title ref="#hymnemonosyllabiqueaucreateur">Hymne monosyllabique au créateur</title> ». Ce <term ref="#monosyllabe">monosyllabe</term> comporte cependant plusieurs signes typographiques, contrairement au <term ref="#poeme">poème</term> de <persName ref="#fll"><abbr>FLL</abbr></persName> qui ne comporte qu’une lettre et demeure, par conséquent, un record inégalé.</p>
-      <p>A propos de <term ref="#musiquepotentielle">musique potentielle</term>, <persName ref="#mb"><abbr>MB</abbr></persName> communique un article de <persName ref="#jacqueschaille">Jacques Chaillé</persName> où figurent nombre de <term ref="#cryptogrammes">cryptogrammes</term> carolingiens de la meilleure eau.</p>
-      <p>Poursuivant sa quête des <term ref="#aleandrins">alexandrins</term> cachés dans l’œuvre <title ref="#sanantonienne">San Antonienne</title>, <persName ref="#jj"><abbr>JJ</abbr></persName> signale un Alva record : un <term ref="#aleandrin">alexandrin</term> d’une seule syllabe (dans « <title ref="#concertopourportejarretelle">Concerto pour porte-jarretelle</title> »).</p>
-      <p>Dans le cadre de son ouvrage en cours sur <persName ref="#rq"><abbr>RQ</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName> a noté l’utilisation dans le <term ref="#poeme">poème</term> « <title ref="#lesziau">Les Ziaux</title> », tiré du recueil « <title ref="#lesziau">Les Ziaux</title> », d’une exploitation de la « <term ref="#rimeberrychonne">rime berrychonne</term> » :</p>
+      <p><persName><abbr>HM</abbr></persName> donne l’exemple d’une réalisation de « <term>roman borgésien</term> », en ce sens que chaque chapitre débouche sur une « bifurcations de chapitres ultérieurs (une réalisation est en cours, sous les auspices d’ « invisible « Seattle »).</p>
+      <p><persName><abbr>HM</abbr></persName> lit (en la traduisant) une lettre de <persName>Schönberg</persName> à <persName>Kandinsky</persName> où les principes de la création artistique sous <term>contrainte</term> sont lumineusement énoncés.</p>
+      <p><persName><abbr>FC</abbr></persName> mentionne une œuvre peu connue de <persName>Mac Nab</persName>, datée de 1899, et intitulée « <title>Hymne monosyllabique au créateur</title> ». Ce <term>monosyllabe</term> comporte cependant plusieurs signes typographiques, contrairement au <term>poème</term> de <persName><abbr>FLL</abbr></persName> qui ne comporte qu’une lettre et demeure, par conséquent, un record inégalé.</p>
+      <p>A propos de <term>musique potentielle</term>, <persName><abbr>MB</abbr></persName> communique un article de <persName>Jacques Chaillé</persName> où figurent nombre de <term>cryptogrammes</term> carolingiens de la meilleure eau.</p>
+      <p>Poursuivant sa quête des <term>alexandrins</term> cachés dans l’œuvre <title>San Antonienne</title>, <persName><abbr>JJ</abbr></persName> signale un Alva record : un <term>alexandrin</term> d’une seule syllabe (dans « <title>Concerto pour porte-jarretelle</title> »).</p>
+      <p>Dans le cadre de son ouvrage en cours sur <persName><abbr>RQ</abbr></persName>, <persName><abbr>JJ</abbr></persName> a noté l’utilisation dans le <term>poème</term> « <title>Les Ziaux</title> », tiré du recueil « <title>Les Ziaux</title> », d’une exploitation de la « <term>rime berrychonne</term> » :</p>
       <p>Les eaux</p>
       <p>Les yeux</p>
       <p>Les ziaux.</p>
       <list type="ordered">
         <item>Action</item>
       </list>
-      <p>New York : Les participants aux <name ref="#oulipiadesdubaruchcollege" type="manif">Oulipiades du Baruch College</name> seront <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>. Le programme est le suivant :</p>
+      <p>New York : Les participants aux <name type="manif">Oulipiades du Baruch College</name> seront <persName><abbr>MB</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>JR</abbr></persName>. Le programme est le suivant :</p>
       <p>4 Novembre : lecture de textes oulipiens en anglais.</p>
       <p>5 Novembre : communications sur l’OULIPO.</p>
-      <p>6 Novembre : hommage à <persName ref="#gp"><abbr>GP</abbr></persName>.</p>
+      <p>6 Novembre : hommage à <persName><abbr>GP</abbr></persName>.</p>
       <p>Le 7 Novembre les oulipiens célèbreront à leur guise l’anniversaire de la révolution d’Octobre.</p>
-      <p>Les 9, 10 et 11 Novembre un déplacement à Seattle (devenu visible) est prévu avec le concours de <persName ref="#hm"><abbr>HM</abbr></persName> et <persName ref="#jr"><abbr>JR</abbr></persName>.</p>
-      <p>Frankfurt : des <name ref="#oulipiades" type="manif">Oulipiades</name>, organisées par <persName ref="#giljouanard">Gil Jouanard</persName>, auront lieu des 4, 5 et 6 Décembre avec la participation de <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>. Le 5, les oulipiens célèbreront l’anniversaire d’une grande partie d’entre eux.</p>
-      <p>Saint-Quentin : à l’occasion de l’ouverture de la nouvelle bibliothèque, l’inestimable <persName ref="#martinegrelle">Martine Grelle</persName> organise une <name ref="#lectureoulipo" type="manif">lecture OULIPO</name> le dimanche 22 Novembre. Seront sûrement présents : <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName> et <persName ref="#jj"><abbr>JJ</abbr></persName>. On espère <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>, et peut-être <persName ref="#mm"><abbr>MM</abbr></persName>. <persName ref="#pb"><abbr>PB</abbr></persName> sera également disponible, s’il n’est point épuisé par son effort de la veille (<name ref="#recitaldechansonssurdestetesderaymondqueneau" type="manif">récital de chansons sur des textes de <persName ref="#rq"><abbr>RQ</abbr></persName></name> </p>
+      <p>Les 9, 10 et 11 Novembre un déplacement à Seattle (devenu visible) est prévu avec le concours de <persName><abbr>HM</abbr></persName> et <persName><abbr>JR</abbr></persName>.</p>
+      <p>Frankfurt : des <name type="manif">Oulipiades</name>, organisées par <persName>Gil Jouanard</persName>, auront lieu des 4, 5 et 6 Décembre avec la participation de <persName><abbr>PB</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>JR</abbr></persName>. Le 5, les oulipiens célèbreront l’anniversaire d’une grande partie d’entre eux.</p>
+      <p>Saint-Quentin : à l’occasion de l’ouverture de la nouvelle bibliothèque, l’inestimable <persName>Martine Grelle</persName> organise une <name type="manif">lecture OULIPO</name> le dimanche 22 Novembre. Seront sûrement présents : <persName><abbr>MB</abbr></persName>, <persName><abbr>FC</abbr></persName> et <persName><abbr>JJ</abbr></persName>. On espère <persName><abbr>NA</abbr></persName>, <persName><abbr>CB</abbr></persName>, et peut-être <persName><abbr>MM</abbr></persName>. <persName><abbr>PB</abbr></persName> sera également disponible, s’il n’est point épuisé par son effort de la veille (<name type="manif">récital de chansons sur des textes de <persName><abbr>RQ</abbr></persName></name></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f4.highres" n="4"/>
       <list type="ordered">
         <item>Menus propos</item>
       </list>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> distribue aux présents d’admirables cartes de visite comme un hommage « in absentia » à notre président.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> présente la dernière livraison de «<title ref="#linfini">L’Infini</title> », livraison préparée par <persName ref="#alainnadaud">Alain Nadaud</persName> et qui contient, entre autres textes précieux, des livraisons de <persName ref="#mb"><abbr>MB</abbr></persName> et <persName ref="#jj"><abbr>JJ</abbr></persName>.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> signale la disparition totalement injustifiée d’<persName ref="#andreebergens">Andrée Bergens</persName> qui fut une précoce <term ref="#queneaulogue">Queneaulogue</term>.</p>
+      <p><persName><abbr>FC</abbr></persName> distribue aux présents d’admirables cartes de visite comme un hommage « in absentia » à notre président.</p>
+      <p><persName><abbr>MB</abbr></persName> présente la dernière livraison de «<title>L’Infini</title> », livraison préparée par <persName>Alain Nadaud</persName> et qui contient, entre autres textes précieux, des livraisons de <persName><abbr>MB</abbr></persName> et <persName><abbr>JJ</abbr></persName>.</p>
+      <p><persName><abbr>PF</abbr></persName> signale la disparition totalement injustifiée d’<persName>Andrée Bergens</persName> qui fut une précoce <term>Queneaulogue</term>.</p>
       <list type="ordered">
-        <item><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </item>
+        <item><name type="manif">Prochaine réunion</name></item>
       </list>
-      <p>Elle aura lieu le vendredi 25 Septembre dans les locaux abbatiaux et groultiens mis à notre disposition par la <orgName ref="#fondationfournel">fondation <persName ref="#pf">Fournel</persName></orgName> .</p>
+      <p>Elle aura lieu le vendredi 25 Septembre dans les locaux abbatiaux et groultiens mis à notre disposition par la <orgName>fondation <persName>Fournel</persName></orgName>.</p>
     </body>
   </text>
 </TEI>

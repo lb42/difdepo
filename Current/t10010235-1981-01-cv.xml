@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010235-1981-01-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010235-1981-01-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010235-1981-01-cv</idno> <title>Convocation à <ref target="#t10010235-1981-01">une réunion Oulipo</ref>, envoyée le <date when="1981-01-13">13 janvier 1981</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010235-1981-01-cv</idno> <title>Convocation à <ref target="#t10010235-1981-01">une réunion Oulipo</ref>, envoyée le <date when="1981-01-13">13 janvier 1981</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -33,10 +39,10 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102356/f1.highres" n="1"/>
       <p rend="incipit">Le 13 janvier 81</p>
       <p>Chers oulipiens,</p>
-      <p>C’est le 30 janvier 1981 à 11h30 que se tiendra la <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir ; chez <persName ref="#pf">Paul FOURNEL</persName> (48 rue de l’abbé Groult 75015 Paris. Tel : 531.77.65).</p>
+      <p>C’est le 30 janvier 1981 à 11h30 que se tiendra la <name type="manif">prochaine réunion</name> de l’Ouvroir ; chez <persName>Paul FOURNEL</persName> (48 rue de l’abbé Groult 75015 Paris. Tel : 531.77.65).</p>
       <p>L’ordre du jour comportera nécessairement la rubrique création.</p>
       <p>Meilleurs vœux oulipiens,</p>
-      <p><persName ref="#pf">Paul Fournel</persName></p>
+      <p><persName>Paul Fournel</persName></p>
       <p>Un secrétaire</p>
       <p>Découpe à remettre daredare pour l’intendance. Merci</p>
     </body>

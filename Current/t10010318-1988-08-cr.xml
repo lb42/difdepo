@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010318-1988-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010318-1988-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,17 +21,22 @@
           <date when="1988-08-26">26 août 1988</date>
           <placeName>chez FC</placeName>
           <list type="present">
-            <item><persName ref="#hm">Harry Mathews</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#cb">Claude Berge</persName></item>
-            <item><persName ref="#pf">Paul Fournel</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Paul Braffort</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
@@ -45,44 +51,44 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103183/f7.highres" n="7"/>
-      <p rend="incipit">Présents : <persName ref="#hm"><abbr>HM</abbr></persName> <persName ref="#jr"><abbr>JR</abbr></persName> <persName ref="#jj"><abbr>JJ</abbr></persName> <persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#cb"><abbr>CB</abbr></persName> <persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#fc"><abbr>FC</abbr></persName> <persName ref="#pb"><abbr>PB</abbr></persName> le 26 Août 88</p>
-      <p rend="incipit">Absents : <persName ref="#jl"><abbr>JL</abbr></persName> <persName ref="#jb"><abbr>JB</abbr></persName> <persName ref="#pr"><abbr>PR</abbr></persName> <persName ref="#jd"><abbr>JD</abbr></persName> <persName ref="#mm"><abbr>MM</abbr></persName> chez <persName ref="#c_"><abbr>C</abbr></persName> &amp; <persName ref="#fc"><abbr>FC</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#na"><abbr>NA</abbr></persName> <persName ref="#jq"><abbr>JQ</abbr></persName> Menu chinois</p>
+      <p rend="incipit">Présents : <persName><abbr>HM</abbr></persName> <persName><abbr>JR</abbr></persName> <persName><abbr>JJ</abbr></persName> <persName><abbr>MB</abbr></persName> <persName><abbr>CB</abbr></persName> <persName><abbr>PF</abbr></persName> <persName><abbr>FC</abbr></persName> <persName><abbr>PB</abbr></persName> le 26 Août 88</p>
+      <p rend="incipit">Absents : <persName><abbr>JL</abbr></persName> <persName><abbr>JB</abbr></persName> <persName><abbr>PR</abbr></persName> <persName><abbr>JD</abbr></persName> <persName><abbr>MM</abbr></persName> chez <persName><abbr>C</abbr></persName> &amp; <persName><abbr>FC</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>NA</abbr></persName> <persName><abbr>JQ</abbr></persName> Menu chinois</p>
       <p><label type="rubrique">CRÉATION</label></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> : <title ref="#cigarettes">Cigarettes</title> sort en France</p>
-      <p><term ref="#algorithmedemathews">algorithme de <persName ref="#hm">Mathews</persName></term> (<ref>voir document joint</ref>)</p>
-      <p><persName ref="#cb"><abbr>CB</abbr></persName> a fait un <term ref="#graphe">graphe</term> des relations entre les personnes : c’est 1 dégénéré du <term ref="#graphe">graphe</term> de <persName ref="#petersen">Petersen</persName></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> est respectueux pour <term ref="#am"><abbr>AM</abbr></term>° de la <term ref="#contrainte">contrainte</term> de <persName ref="#cb"><abbr>CB</abbr></persName>.</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>1 : <title ref="#desansetdesanes">Des ans et des ânes</title> sort aussi. Génération des personnages par un <term ref="#algorithme">algorithme</term> de <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p>Elaboré pour ce travail. Il y a également des <term ref="#oulipienneries">oulipienneries</term> locales.</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>2 : Sort également le <title ref="#queneau"><persName ref="#rq">Queneau</persName></title> à la <orgName ref="#manufacture">Manufacture</orgName>.</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>3 : <title ref="#n17ames">107 âmes</title>. Poèmes sur des gens existants. <term ref="#rimeberrychonne">Rime Berrychonne</term>. <term ref="#formefie">Forme fixe</term>.</p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : <title ref="#secondeslitaniesdelavierge">secondes litanies de la Vierge</title>, <ref>voir copie</ref>.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>1 : <title ref="#brisdemots">Bris de mots</title>. (<ref>voir document joint</ref>) <term ref="#surdefinition">surdéfinition</term> <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : <title ref="#blablabla">Blablabla</title> (<ref>archives</ref>)</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>2 : <title ref="#pointdedepart">Point de départ</title> (à paraître <orgName ref="#ramsay">Ramsay</orgName>)</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>2 : <title ref="#prose">Prose</title> : <ref>voir joint</ref></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <unclear>PASR</unclear></p>
+      <p><persName><abbr>HM</abbr></persName> : <title>Cigarettes</title> sort en France</p>
+      <p><term>algorithme de <persName>Mathews</persName></term> (<ref>voir document joint</ref>)</p>
+      <p><persName><abbr>CB</abbr></persName> a fait un <term>graphe</term> des relations entre les personnes : c’est 1 dégénéré du <term>graphe</term> de <persName>Petersen</persName></p>
+      <p><persName><abbr>HM</abbr></persName> est respectueux pour <term><abbr>AM</abbr></term>° de la <term>contrainte</term> de <persName><abbr>CB</abbr></persName>.</p>
+      <p><persName><abbr>JJ</abbr></persName>1 : <title>Des ans et des ânes</title> sort aussi. Génération des personnages par un <term>algorithme</term> de <persName><abbr>PB</abbr></persName></p>
+      <p>Elaboré pour ce travail. Il y a également des <term>oulipienneries</term> locales.</p>
+      <p><persName><abbr>JJ</abbr></persName>2 : Sort également le <title><persName>Queneau</persName></title> à la <orgName>Manufacture</orgName>.</p>
+      <p><persName><abbr>JJ</abbr></persName>3 : <title>107 âmes</title>. Poèmes sur des gens existants. <term>Rime Berrychonne</term>. <term>Forme fixe</term>.</p>
+      <p><persName><abbr>JR</abbr></persName> : <title>secondes litanies de la Vierge</title>, <ref>voir copie</ref>.</p>
+      <p><persName><abbr>MB</abbr></persName>1 : <title>Bris de mots</title>. (<ref>voir document joint</ref>) <term>surdéfinition</term> <title>Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>FC</abbr></persName> : <title>Blablabla</title> (<ref>archives</ref>)</p>
+      <p><persName><abbr>MB</abbr></persName>2 : <title>Point de départ</title> (à paraître <orgName>Ramsay</orgName>)</p>
+      <p><persName><abbr>FC</abbr></persName>2 : <title>Prose</title> : <ref>voir joint</ref></p>
+      <p><persName><abbr>PB</abbr></persName> : <unclear>PASR</unclear></p>
       <p><label type="rubrique">ERUDITION</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#belaval">Belaval</persName> : digression sur la <term ref="#rhetorique">rhétorique</term>.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>1 : <persName ref="#saintpotentien">Saint Potentien</persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : <persName ref="#charlescros">Charles Cros</persName> inventeur des <title ref="#schtroumpfs">Schtroumpfs</title>.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>2 : <persName ref="#damish">Damish</persName> : « <title ref="#impulsiondelaforme">impulsion de la forme</title>»</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <persName ref="#restout">Rex Stout</persName> apocryphe</p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Belaval</persName> : digression sur la <term>rhétorique</term>.</p>
+      <p><persName><abbr>HM</abbr></persName>1 : <persName>Saint Potentien</persName></p>
+      <p><persName><abbr>FC</abbr></persName> : <persName>Charles Cros</persName> inventeur des <title>Schtroumpfs</title>.</p>
+      <p><persName><abbr>HM</abbr></persName>2 : <persName>Damish</persName> : « <title>impulsion de la forme</title>»</p>
+      <p><persName><abbr>PB</abbr></persName> : <persName>Rex Stout</persName> apocryphe</p>
       <p><label type="rubrique">ACTION</label></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>1 : <title ref="#articlesurloulipo">Article sur l’oulipo</title> <orgName ref="#nyrb">NYRB</orgName></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>1 : Déménagement des archives de l’oulipo. <orgName ref="#archivesnationales">Archives Nationales</orgName> ? <orgName ref="#sgdl">SGDL</orgName> ? <orgName ref="#arsenal">Arsenal</orgName> ?</p>
-      <p>Tous : <name ref="#avignon" type="manif">Avignon</name>. <persName ref="#mb"><abbr>MB</abbr></persName> : <persName ref="#gp">Perec</persName> Trahi.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <name ref="#montreal" type="manif">Montréal</name> : <orgName ref="#lmcm">LMCM</orgName> organise le Mai prochain.</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : Rialt</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : <title ref="#ledesirbiographique">le désir biographique</title> (lettre qui aurait dû être adressée à <persName ref="#mb"><abbr>MB</abbr></persName>) <persName ref="#plejeune">P. Lejeune</persName></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>2 : NY <persName ref="#lennygoodman">Lenny Goodman</persName></p>
+      <p><persName><abbr>HM</abbr></persName>1 : <title>Article sur l’oulipo</title> <orgName>NYRB</orgName></p>
+      <p><persName><abbr>MB</abbr></persName>1 : Déménagement des archives de l’oulipo. <orgName>Archives Nationales</orgName> ? <orgName>SGDL</orgName> ? <orgName>Arsenal</orgName> ?</p>
+      <p>Tous : <name type="manif">Avignon</name>. <persName><abbr>MB</abbr></persName> : <persName>Perec</persName> Trahi.</p>
+      <p><persName><abbr>MB</abbr></persName> : <name type="manif">Montréal</name> : <orgName>LMCM</orgName> organise le Mai prochain.</p>
+      <p><persName><abbr>PB</abbr></persName> : Rialt</p>
+      <p><persName><abbr>JJ</abbr></persName> : <title>le désir biographique</title> (lettre qui aurait dû être adressée à <persName><abbr>MB</abbr></persName>) <persName>P. Lejeune</persName></p>
+      <p><persName><abbr>HM</abbr></persName>2 : NY <persName>Lenny Goodman</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103183/f8.highres" n="8"/>
       <p><label type="rubrique">MENUS-PROPOS</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : <title ref="#fantasiamathematica">Fantasia Mathématica</title> / lettre du libraire de W. Virginia</p>
-      <p><persName ref="#cb"><abbr>CB</abbr></persName> : donne le <title ref="#n3">n° 23</title> dans un titre de <persName ref="#fenoglio">Fénoglio</persName> à <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Aventures de la poésie de <persName ref="#cheymol">Cheymol</persName> / <persName ref="#rq">Queneau</persName></p>
-      <p>Dates : 23 septembre 88 (<persName ref="#pf"><abbr>PF</abbr></persName>)</p>
+      <p><persName><abbr>JR</abbr></persName> : <title>Fantasia Mathématica</title> / lettre du libraire de W. Virginia</p>
+      <p><persName><abbr>CB</abbr></persName> : donne le <title>n° 23</title> dans un titre de <persName>Fénoglio</persName> à <persName><abbr>PB</abbr></persName></p>
+      <p><persName><abbr>PF</abbr></persName> : Aventures de la poésie de <persName>Cheymol</persName> / <persName>Queneau</persName></p>
+      <p>Dates : 23 septembre 88 (<persName><abbr>PF</abbr></persName>)</p>
       <p>25 octobre 88</p>
     </body>
   </text>

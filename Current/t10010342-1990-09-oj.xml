@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010342-1990-09-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010342-1990-09-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010342-1990-09-oj</idno> <title>Ordre de jour de <ref target="#t10010342-1990-09">la réunion Oulipo</ref> du <date when="1990-09-12">12 septembre 1990</date></title> </bibl>
+        <bibl><idno>t10010342-1990-09-oj</idno> <title>Ordre de jour de <ref target="#t10010342-1990-09">la réunion Oulipo</ref> du <date when="1990-09-12">12 septembre 1990</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -35,30 +41,30 @@
       <p rend="incipit">Petit salé Lentilles</p>
       <p rend="incipit">Fromage</p>
       <p rend="incipit">Glace</p>
-      <p rend="incipit">Présents : <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#na"><abbr>NA</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>PF</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>JJ</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>NA</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <term ref="#s7777777">S+7+7+7+7+7+7+7</term>… Etc</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> Connais-toi toi-même</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> Le curé de Houilles</p>
+      <p><persName><abbr>FC</abbr></persName> <term>S+7+7+7+7+7+7+7</term>… Etc</p>
+      <p><persName><abbr>FC</abbr></persName> Connais-toi toi-même</p>
+      <p><persName><abbr>PF</abbr></persName> Le curé de Houilles</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> Sur deux « <title ref="#souvenirsdenfance">souvenirs d’enfance</title> » de <persName ref="#gp"><abbr>GP</abbr></persName> : 1 hypothèse oulipienne</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> <term ref="#holorime">Holorime</term> d’<persName ref="#op">Oskar Pastior</persName></p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="#pf"><abbr>PF</abbr></persName> <term ref="#moraleelementaire"><title ref="#moraleelementaire">Morale élémentaire</title></term> </p>
+      <p><persName><abbr>MB</abbr></persName> Sur deux « <title>souvenirs d’enfance</title> » de <persName><abbr>GP</abbr></persName> : 1 hypothèse oulipienne</p>
+      <p><persName><abbr>HM</abbr></persName> <term>Holorime</term> d’<persName>Oskar Pastior</persName></p>
+      <p><title>Bibliothèque oulipienne</title> <persName><abbr>PF</abbr></persName> <term><title>Morale élémentaire</title></term></p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> <name ref="#limoges" type="manif">Limoges</name></p>
-      <p><name ref="#ivry" type="manif">Ivry</name></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> <name ref="#strasbourg" type="manif">Strasbourg</name></p>
-      <p><name ref="#marseille" type="manif">Marseille</name></p>
-      <p><name ref="#meico" type="manif">Mexico</name></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <name ref="#thionville" type="manif">Thionville</name></p>
-      <p><name ref="#arsenal" type="manif">Arsenal</name> 12 oct</p>
+      <p><persName><abbr>MB</abbr></persName> <name type="manif">Limoges</name></p>
+      <p><name type="manif">Ivry</name></p>
+      <p><persName><abbr>PF</abbr></persName> <name type="manif">Strasbourg</name></p>
+      <p><name type="manif">Marseille</name></p>
+      <p><name type="manif">Mexico</name></p>
+      <p><persName><abbr>FC</abbr></persName> <name type="manif">Thionville</name></p>
+      <p><name type="manif">Arsenal</name> 12 oct</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#galilee">Galilée</persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <persName ref="#roussel">Roussel</persName></p>
-      <p><persName ref="#mm"><abbr>MM</abbr></persName> <orgName ref="#fondationheinz">Fondation Heinz</orgName></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#dbellos">D. Bellos</persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> <persName ref="#pius">Pius</persName></p>
+      <p><persName><abbr>MB</abbr></persName> <persName>Galilée</persName></p>
+      <p><persName><abbr>FC</abbr></persName> <persName>Roussel</persName></p>
+      <p><persName><abbr>MM</abbr></persName> <orgName>Fondation Heinz</orgName></p>
+      <p><persName><abbr>MB</abbr></persName> <persName>D. Bellos</persName></p>
+      <p><persName><abbr>FC</abbr></persName> <persName>Pius</persName></p>
     </body>
   </text>
 </TEI>

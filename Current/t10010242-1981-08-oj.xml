@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010242-1981-08-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010242-1981-08-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010242-1981-08-oj</idno> <title>Ordre de jour de <ref target="#t10010242-1981-08">la réunion Oulipo</ref> du <date when="1981-08-21">21 août 1981</date></title> </bibl>
+        <bibl><idno>t10010242-1981-08-oj</idno> <title>Ordre de jour de <ref target="#t10010242-1981-08">la réunion Oulipo</ref> du <date when="1981-08-21">21 août 1981</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -33,32 +39,32 @@
       <p rend="incipit">Réunion du 21 8 1981</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#gp"><abbr>GP</abbr></persName> : <term ref="#epithalame">Epithalame</term> -&gt; Bibliothèque oulipienne</item>
-        <item><persName ref="#pb">Braffort</persName> : Le désir</item>
-        <item><persName ref="#gp"><abbr>GP</abbr></persName> : <term ref="#pangrammes">Pangrammes</term></item>
+        <item><persName><abbr>GP</abbr></persName> : <term>Epithalame</term> -&gt; Bibliothèque oulipienne</item>
+        <item><persName>Braffort</persName> : Le désir</item>
+        <item><persName><abbr>GP</abbr></persName> : <term>Pangrammes</term></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <title ref="#vol">Vol 2</title></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <orgName ref="#slatkine">Slatkine</orgName></item>
+        <item><persName><abbr>PF</abbr></persName> <title>Vol 2</title></item>
+        <item><persName><abbr>PF</abbr></persName> <title>Bibliothèque oulipienne</title></item>
+        <item><persName><abbr>PF</abbr></persName> <orgName>Slatkine</orgName></item>
       </list>
       <p><label type="rubrique">Pataphysique</label></p>
       <list type="unordered">
-        <item><persName ref="#le"><abbr>LE</abbr></persName> : Doctrine</item>
+        <item><persName><abbr>LE</abbr></persName> : Doctrine</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> : Salomon Certon <persName ref="#pb">Braffort</persName> dans un sonnet sans E</item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> : Ecosse Orknay <persName ref="#williamfowler">William Fowler</persName></item>
-        <item><persName ref="#le"><abbr>LE</abbr></persName> : <term ref="#enigmepolicierepalindromique">Enigme policière palindromique</term></item>
+        <item><persName><abbr>JR</abbr></persName> : Salomon Certon <persName>Braffort</persName> dans un sonnet sans E</item>
+        <item><persName><abbr>JR</abbr></persName> : Ecosse Orknay <persName>William Fowler</persName></item>
+        <item><persName><abbr>LE</abbr></persName> : <term>Enigme policière palindromique</term></item>
       </list>
       <p><label type="rubrique">Menus propos</label></p>
       <list type="unordered">
-        <item>Contrainte dont la limite est un <term ref="#lipogramme">lipogramme</term></item>
+        <item>Contrainte dont la limite est un <term>lipogramme</term></item>
         <item>En EtrEVILE PROSE</item>
       </list>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </p>
+      <p><name type="manif">Prochaine réunion</name></p>
       <p><label type="rubrique">Invité d’honneur</label></p>
       <list type="unordered">
         <item>TO</item>

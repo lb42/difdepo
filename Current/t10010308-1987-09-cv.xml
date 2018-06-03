@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010308-1987-09-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010308-1987-09-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010308-1987-09-cv</idno> <title>Convocation à <ref target="#t10010308-1987-09">une réunion Oulipo</ref>, envoyée le <date when="1987-09-11">11 septembre 1987</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010308-1987-09-cv</idno> <title>Convocation à <ref target="#t10010308-1987-09">une réunion Oulipo</ref>, envoyée le <date when="1987-09-11">11 septembre 1987</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -34,11 +40,11 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">le 11 sept 87</p>
       <p>Chers oulipiens,</p>
-      <p>L'ouvroir est à l'honneur ce matin : la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> entre en librairie et <title ref="#liberation">Libération</title> lui consacre 3 pages!</p>
-      <p>Nous devons donc songer à travailler et, pour ce faire, à nous réunir. Ce sera le 25 septembre (un vendredi) à 19H chez P et M <persName ref="#pf">FOURNEL</persName>, 48 rue de l'abbé groult 75015 (45.31.77.65).</p>
+      <p>L'ouvroir est à l'honneur ce matin : la <title>Bibliothèque oulipienne</title> entre en librairie et <title>Libération</title> lui consacre 3 pages!</p>
+      <p>Nous devons donc songer à travailler et, pour ce faire, à nous réunir. Ce sera le 25 septembre (un vendredi) à 19H chez P et M <persName>FOURNEL</persName>, 48 rue de l'abbé groult 75015 (45.31.77.65).</p>
       <p>Merci de prévenir.</p>
       <p>Amitiés,</p>
-      <p><persName ref="#pf"><abbr>paul</abbr></persName></p>
+      <p><persName><abbr>paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

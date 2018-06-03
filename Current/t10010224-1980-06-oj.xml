@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010224-1980-06-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010224-1980-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010224-1980-06-oj</idno> <title>Ordre de jour de <ref target="#t10010229-1980-06">la réunion Oulipo</ref> de <date when="1980-06-10">10 juin 1980</date></title> </bibl>
+        <bibl><idno>t10010224-1980-06-oj</idno> <title>Ordre de jour de <ref target="#t10010229-1980-06">la réunion Oulipo</ref> de <date when="1980-06-10">10 juin 1980</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -30,14 +36,14 @@
   <text type="oj">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010224b/f3.highres" n="3"/>
-      <p><label type="rubrique">Commentaires</label> </p>
-      <p><persName ref="#cb"><abbr>CB</abbr></persName></p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName></p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName></p>
-      <p><label type="rubrique">Action</label> </p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><name ref="#villeneuve" type="manif">Villeneuve</name></p>
-      <p><name ref="#portcros" type="manif">Port Cros</name></p>
+      <p><label type="rubrique">Commentaires</label></p>
+      <p><persName><abbr>CB</abbr></persName></p>
+      <p><persName><abbr>JB</abbr></persName></p>
+      <p><persName><abbr>JB</abbr></persName></p>
+      <p><label type="rubrique">Action</label></p>
+      <p><title>Bibliothèque oulipienne</title></p>
+      <p><name type="manif">Villeneuve</name></p>
+      <p><name type="manif">Port Cros</name></p>
       <p>Prochaine séance</p>
     </body>
   </text>

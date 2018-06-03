@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010112-1970-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010112-1970-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010112-1970-04-cv</idno> <title>Convocation à <ref target="#t10010112-1970-04">une réunion Oulipo</ref>, envoyée le <date when="1970-04-01">1ᵉʳ avril 1970</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010112-1970-04-cv</idno> <title>Convocation à <ref target="#t10010112-1970-04">une réunion Oulipo</ref>, envoyée le <date when="1970-04-01">1ᵉʳ avril 1970</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -33,12 +39,12 @@
       <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
       <p rend="incipit">le 1<hi rend="sup">er</hi> Avril 1970</p>
       <p>Chers Brigadiers,</p>
-      <p>Je vous rappelle que notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  se tiendra, de 17 à 19 heures, le Jeudi 9 Avril, chez le signataire de cette babillarde.</p>
-      <p>Ceux qui assistaient à la dernière réunion savent déjà que nous avons décidé – à l’unanimité des présents – de tenir au mois d’Août un grand <name ref="#colloque" type="manif">colloque</name> d’au moins une journée pour fêter dignement le PREMIER MILLÉNAIRE de l’OuLiPo. Ceux qui n’étaient pas présents le savent maintenant puisqu’ils sont en train de lire ces lignes.</p>
+      <p>Je vous rappelle que notre <name type="manif">prochaine réunion</name> se tiendra, de 17 à 19 heures, le Jeudi 9 Avril, chez le signataire de cette babillarde.</p>
+      <p>Ceux qui assistaient à la dernière réunion savent déjà que nous avons décidé – à l’unanimité des présents – de tenir au mois d’Août un grand <name type="manif">colloque</name> d’au moins une journée pour fêter dignement le PREMIER MILLÉNAIRE de l’OuLiPo. Ceux qui n’étaient pas présents le savent maintenant puisqu’ils sont en train de lire ces lignes.</p>
       <p>Reste à déterminer la date. Voulez-vous nous indiquez si vous avez des dates préférées, des dates indifférentes, et des dates interdites. La feuille ci-jointe, à retourner si possible avant le 9 Avril, vous permettra de vous exprimer avec clarté.</p>
       <p>OuLiPiennement vôtre.</p>
-      <p>P/<persName ref="#flelionnais">F. ]LE LIONNAIS</persName>,</p>
-      <p><persName ref="#moniquelorillard">Monique LORILLARD</persName>,</p>
+      <p>P/<persName>F. ]LE LIONNAIS</persName>,</p>
+      <p><persName>Monique LORILLARD</persName>,</p>
       <p>Secrétaire.</p>
     </body>
   </text>

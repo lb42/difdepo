@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010326-1989-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010326-1989-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010326-1989-04-cv</idno> <title>Convocation à <ref target="#t10010326-1989-04">une réunion Oulipo</ref>, envoyée le <date when="1989-04-13">13 avril 1989</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010326-1989-04-cv</idno> <title>Convocation à <ref target="#t10010326-1989-04">une réunion Oulipo</ref>, envoyée le <date when="1989-04-13">13 avril 1989</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -31,7 +37,7 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010326m/f2.highres" n="2"/>
       <p>Paris, le 13 Avril 1989</p>
       <p>Chers oulipiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le mardi 25 avril 1989 à 19 heures chez <persName ref="#martine">Martine</persName> et <persName ref="#pf">Paul Fournel</persName> (tél : 45 31 77 65, 88 rue de l’Abbé Groult – 75015 Paris).</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le mardi 25 avril 1989 à 19 heures chez <persName>Martine</persName> et <persName>Paul Fournel</persName> (tél : 45 31 77 65, 88 rue de l’Abbé Groult – 75015 Paris).</p>
       <p>Merci de retourner la découpe ci-dessous.</p>
       <p>Au 25. Amitiés.</p>
     </body>

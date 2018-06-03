@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010204-1978-03-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010204-1978-03-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010204-1978-03-cv</idno> <title>Convocation à <ref target="#t10010204-1978-03">une réunion Oulipo</ref>, envoyée le <date when="1978-03-10">10 mars 1978</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010204-1978-03-cv</idno> <title>Convocation à <ref target="#t10010204-1978-03">une réunion Oulipo</ref>, envoyée le <date when="1978-03-10">10 mars 1978</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
@@ -33,23 +39,23 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010204h/f1.highres" n="1"/>
       <p rend="incipit">Paris, le 10 Mars 78</p>
-      <p rend="incipit"><add>N’oublie pas de payer la facture du <title ref="#calvino"><persName ref="#ic">Calvino</persName></title> <note n="1" resp="editor">Référence au numéro consacré à Calvino de la Bibliothèque oulipienne</note> (que j’ai déjà depuis longtemps)</add> </p>
+      <p rend="incipit"><add>N’oublie pas de payer la facture du <title><persName>Calvino</persName></title> <note n="1" resp="editor">Référence au numéro consacré à Calvino de la Bibliothèque oulipienne</note> (que j’ai déjà depuis longtemps)</add></p>
       <p rend="incipit"><add>Amitiés</add>,</p>
-      <p rend="incipit"> <persName ref="#paul"><add>Paul</add></persName> <note n="2" resp="editor">Ajout manuscrit de PF</note></p>
+      <p rend="incipit"><persName><add>Paul</add></persName> <note n="2" resp="editor">Ajout manuscrit de PF</note></p>
       <p rend="incipit">Chers brigadiers,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le vendredi 24 Mars 1978, chez <persName ref="#gp">Georges Perec</persName> :</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le vendredi 24 Mars 1978, chez <persName>Georges Perec</persName> :</p>
       <p>13 rue Linné (13)</p>
       <p>75005 Paris</p>
       <p>331 78 45</p>
       <p>Il y sera question :</p>
-      <p>1º) de gros sous (le <orgName ref="#cnl">C.N.L.</orgName> aura statué)</p>
-      <p>2º) de <name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
-      <p>3º) de <title ref="#bibliothequeoulipienne">bibliothèque oulipienne</title> (on y distribuera <title ref="#lecalvino">le <persName ref="#ic">Calvino</persName></title> , peut-être <title ref="#leroubaud">le <persName ref="#jr">Roubaud</persName></title> et peut-être <title ref="#lefournel">le <persName ref="#pf">Fournel</persName></title> )</p>
-      <p>4º) d’ <name ref="#epositionoulipo" type="manif"><choice><sic>exposion</sic><corr>exposition</corr></choice> oulipo</name>.</p>
+      <p>1º) de gros sous (le <orgName>C.N.L.</orgName> aura statué)</p>
+      <p>2º) de <name type="manif">Villeneuve-lès-Avignon</name></p>
+      <p>3º) de <title>bibliothèque oulipienne</title> (on y distribuera <title>le <persName>Calvino</persName></title>, peut-être <title>le <persName>Roubaud</persName></title> et peut-être <title>le <persName>Fournel</persName></title> )</p>
+      <p>4º) d’<name type="manif"><choice><sic>exposion</sic><corr>exposition</corr></choice> oulipo</name>.</p>
       <p>L’ordre du jour comportera nécessairement la rubrique « création » ; pensez-y.</p>
-      <p>Retournez la découpe ci-dessous à <persName ref="#gp">Perec</persName> aussi vite que possible, merci pour lui.</p>
+      <p>Retournez la découpe ci-dessous à <persName>Perec</persName> aussi vite que possible, merci pour lui.</p>
       <p>Au vendredi 24. Bien oulipiennement,</p>
-      <p><persName ref="#pf">Paul Fournel</persName> <lb/>Un secrétaire.</p>
+      <p><persName>Paul Fournel</persName> <lb/>Un secrétaire.</p>
     </body>
   </text>
 </TEI>

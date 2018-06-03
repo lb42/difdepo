@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010145-1972-11-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010145-1972-11-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010145-1972-11-oj</idno> <title>Ordre de jour de <ref target="#t10010145-1972-11">la réunion Oulipo</ref> du <date when="1972-11-08">8 novembre 1972</date></title> </bibl>
+        <bibl><idno>t10010145-1972-11-oj</idno> <title>Ordre de jour de <ref target="#t10010145-1972-11">la réunion Oulipo</ref> du <date when="1972-11-08">8 novembre 1972</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -32,12 +38,12 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101457/f6.highres" n="6"/>
       <p rend="incipit">Oulipo du 8/11/72</p>
       <p><label type="rubrique">Création –</label></p>
-      <p><persName ref="#gp">Perec</persName> : Du petit lait pour <persName ref="#fll"><abbr>F.L.L</abbr></persName></p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> : <term ref="#ponctuation">Ponctuation</term> et <term ref="#accentuation">accentuation</term></p>
-      <p><persName ref="#mb">Benabou</persName> : compléments à <persName ref="#fll"><abbr>FLL</abbr></persName> (pieds et points liés)</p>
-      <p>Information = <persName ref="#le">Luc Etienne</persName> : invité d’honneur prochain</p>
-      <p><persName ref="#gp">Perec</persName> : <orgName ref="#cerclepolivanoff">cercle <persName ref="#polivanoff">Polivanoff</persName></orgName> .</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> : Au sujet de <persName ref="#pb">Braffort</persName> : séminaire d’intoxication</p>
+      <p><persName>Perec</persName> : Du petit lait pour <persName><abbr>F.L.L</abbr></persName></p>
+      <p><persName><abbr>FLL</abbr></persName> : <term>Ponctuation</term> et <term>accentuation</term></p>
+      <p><persName>Benabou</persName> : compléments à <persName><abbr>FLL</abbr></persName> (pieds et points liés)</p>
+      <p>Information = <persName>Luc Etienne</persName> : invité d’honneur prochain</p>
+      <p><persName>Perec</persName> : <orgName>cercle <persName>Polivanoff</persName></orgName>.</p>
+      <p><persName><abbr>FLL</abbr></persName> : Au sujet de <persName>Braffort</persName> : séminaire d’intoxication</p>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
         <item>date</item>
@@ -45,7 +51,7 @@
       <p><label type="rubrique">Erudition</label></p>
       <p>Phynances</p>
       <p><label type="rubrique">Menus propos.</label></p>
-      <p><persName ref="#rq">R. Queneau</persName> Question information</p>
+      <p><persName>R. Queneau</persName> Question information</p>
     </body>
   </text>
 </TEI>

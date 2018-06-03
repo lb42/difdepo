@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010293-1986-05-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010293-1986-05-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010293-1986-05-oj</idno> <title>Ordre de jour de <ref target="#t10010293-1986-05">la réunion Oulipo</ref> du <date when="1986-05-10">10 mai 1986</date></title> </bibl>
+        <bibl><idno>t10010293-1986-05-oj</idno> <title>Ordre de jour de <ref target="#t10010293-1986-05">la réunion Oulipo</ref> du <date when="1986-05-10">10 mai 1986</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -32,11 +38,11 @@
       <p rend="incipit">OULIPO 10/5</p>
       <p rend="incipit">Ordre du jour Réunion</p>
       <p>Bibliothèque oulipienne</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> - 1. Hommage <persName ref="#fll"><abbr>FLL</abbr></persName> <lb/>2. - Bibliothèque <persName ref="#fll"><abbr>FLL</abbr></persName> <lb/>3. - manifeste plus réponse <lb/>Stage <unclear>soumis</unclear> <lb/>Correspondance</p>
-      <p><label type="rubrique">Action</label> </p>
+      <p><persName><abbr>FLL</abbr></persName> - 1. Hommage <persName><abbr>FLL</abbr></persName> <lb/>2. - Bibliothèque <persName><abbr>FLL</abbr></persName> <lb/>3. - manifeste plus réponse <lb/>Stage <unclear>soumis</unclear> <lb/>Correspondance</p>
+      <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#fc"><abbr>FC</abbr></persName></item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>.</item>
+        <item><persName><abbr>FC</abbr></persName></item>
+        <item><persName><abbr>MB</abbr></persName>.</item>
       </list>
       <p>20 juin midi ou soir</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f39.highres" n="39"/>

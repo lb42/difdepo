@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010173-1975-05-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010173-1975-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,17 +20,22 @@
         <bibl><idno>t10010173-1975-05-cr</idno> <meeting xml:id="t10010173-1975-05">
           <date when="1975-05-16">16 mai 1975</date>
           <list type="present">
-            <item><persName ref="#fll">François Le Lionnais</persName></item>
-            <item><persName ref="#rq">Raymond Queneau</persName></item>
-            <item><persName ref="#gp">Georges Perec</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#jq">Jean Queval</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Raymond Queneau</persName></item>
+            <item><persName>Georges Perec</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Jean Queval</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
@@ -43,74 +49,74 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010173k/f4.highres" n="4"/>
-      <p rend="incipit">168° <name ref="#seanceoulipo" type="manif">séance OULIPO</name></p>
+      <p rend="incipit">168° <name type="manif">séance OULIPO</name></p>
       <p rend="incipit">le 16 Mai 75</p>
-      <p rend="incipit">Présents : <persName ref="#fll"><abbr>FLL</abbr></persName> <persName ref="#rq"><abbr>RQ</abbr></persName> <persName ref="#gp"><abbr>GP</abbr></persName> <persName ref="#jr"><abbr>JR</abbr></persName> <persName ref="#pb"><abbr>PB</abbr></persName> <persName ref="#jq"><abbr>JQ</abbr></persName> <persName ref="#mb"><abbr>MB</abbr></persName>.</p>
+      <p rend="incipit">Présents : <persName><abbr>FLL</abbr></persName> <persName><abbr>RQ</abbr></persName> <persName><abbr>GP</abbr></persName> <persName><abbr>JR</abbr></persName> <persName><abbr>PB</abbr></persName> <persName><abbr>JQ</abbr></persName> <persName><abbr>MB</abbr></persName>.</p>
       <p rend="incipit">Excusés :</p>
-      <p rend="incipit"><persName ref="#pf">Paul Fournel</persName> malade, troubles de l’équilibre</p>
-      <p rend="incipit">mauvaise plaisanterie de <persName ref="#pb">Braffort</persName> dont le cynisme est révoltant_</p>
-      <p rend="incipit"><persName ref="#na">Arnaud</persName> est cloué au lit par <persName ref="#simoneveil">Simone Veil</persName></p>
-      <p rend="incipit"><persName ref="#le">Luc Etienne</persName> est cloué au lit par une mauvaise grippe.</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> <name ref="#europalia" type="manif">Europalia</name></p>
-      <p><persName ref="#blaisegauthier">Blaise Gauthier</persName>, directeur du <orgName ref="#cnac">CNAC</orgName>, responsable du <orgName ref="#centrebeaubourg">centre Beaubourg</orgName>.</p>
-      <p><name ref="#europalia" type="manif">Europalia</name> souhaite faire une <name ref="#manifestationoulipoabruelles" type="manif">manifestation Oulipo à Bruxelles</name></p>
+      <p rend="incipit"><persName>Paul Fournel</persName> malade, troubles de l’équilibre</p>
+      <p rend="incipit">mauvaise plaisanterie de <persName>Braffort</persName> dont le cynisme est révoltant_</p>
+      <p rend="incipit"><persName>Arnaud</persName> est cloué au lit par <persName>Simone Veil</persName></p>
+      <p rend="incipit"><persName>Luc Etienne</persName> est cloué au lit par une mauvaise grippe.</p>
+      <p><persName><abbr>FLL</abbr></persName> <name type="manif">Europalia</name></p>
+      <p><persName>Blaise Gauthier</persName>, directeur du <orgName>CNAC</orgName>, responsable du <orgName>centre Beaubourg</orgName>.</p>
+      <p><name type="manif">Europalia</name> souhaite faire une <name type="manif">manifestation Oulipo à Bruxelles</name></p>
       <p>Que demande-t-il ? il nous laisse le soin de décider</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> propose : Histoire et théorie de l’Oulipo. La vie de l’Oulipo</p>
-      <p>Récital : une pièce de <persName ref="#gp">Perec</persName>, le conte à <persName ref="#jr">Roubaud</persName></p>
-      <p><title ref="#n114poemes">10<hi rend="sup">14</hi> poèmes</title> en gros format</p>
-      <p><title ref="#leconteavotrefacon">Le conte à votre façon</title> réalisé en labyrinthe</p>
-      <p><persName ref="#mm">Michèle Métail</persName></p>
-      <p>Exposition avec <term ref="#rubandemoebius">ruban de Moebius</term>, + en certain nombre d’allusions aux autres <orgName ref="#oupo">OuXPo</orgName>.</p>
+      <p><persName><abbr>FLL</abbr></persName> propose : Histoire et théorie de l’Oulipo. La vie de l’Oulipo</p>
+      <p>Récital : une pièce de <persName>Perec</persName>, le conte à <persName>Roubaud</persName></p>
+      <p><title>10<hi rend="sup">14</hi> poèmes</title> en gros format</p>
+      <p><title>Le conte à votre façon</title> réalisé en labyrinthe</p>
+      <p><persName>Michèle Métail</persName></p>
+      <p>Exposition avec <term>ruban de Moebius</term>, + en certain nombre d’allusions aux autres <orgName>OuXPo</orgName>.</p>
       <p>date : possiblement avant le 10 Octobre.</p>
-      <p>+ Départ de <persName ref="#pb">Braffort</persName> +</p>
-      <p><persName ref="#rq"><abbr>RQ</abbr></persName> : <persName ref="#frenaud">Frénaud</persName> lui à rendu visite ; il est conseiller à la poésie pour <orgName ref="#beaubourg">Beaubourg</orgName> ;</p>
-      <p>La <name ref="#manifestationdebruelles" type="manif">manifestation de Bruxelles</name> sera reprise ensuite à <orgName ref="#beaubourg">Beaubourg</orgName>.</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> a reçu ensuite une lettre de <persName ref="#gauthier">Gauthier</persName> qui remet en question l’ensemble et l’entreprise en la réduisant à un après-midi</p>
+      <p>+ Départ de <persName>Braffort</persName> +</p>
+      <p><persName><abbr>RQ</abbr></persName> : <persName>Frénaud</persName> lui à rendu visite ; il est conseiller à la poésie pour <orgName>Beaubourg</orgName> ;</p>
+      <p>La <name type="manif">manifestation de Bruxelles</name> sera reprise ensuite à <orgName>Beaubourg</orgName>.</p>
+      <p><persName><abbr>FLL</abbr></persName> a reçu ensuite une lettre de <persName>Gauthier</persName> qui remet en question l’ensemble et l’entreprise en la réduisant à un après-midi</p>
       <p>a demandé qu’on lui donne des indications fermes.</p>
       <p>Un budget pour la commission qui s’occupera de la chose.</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="#mb">Bénabou</persName> : + pose le problème du nom de <title ref="#tabledequeneleiev">Table de Queneleiev</title> et propose <title ref="#tabulaqueniana">Tabula Queniana</title>, le problème sera discuté plus tard.</p>
-      <p><persName ref="#jr">Roubaud</persName> : <persName ref="#pontusdetyard">Pontus de Tyard</persName> a écrit : <title ref="#modelesdephrasesmodelesdelettresdamour">Modèles de phrases. Modèles de lettres d’amour</title>.</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> : <term ref="#versfiligranes">vers filigranés</term> qui sont en réalité des <term ref="#holorimes">holorimes</term></p>
-      <p>« <persName ref="#michellaclos">Michel Laclos</persName> a encore frappé »</p>
-      <p><persName ref="#jq">Queval</persName> : Non-érudition interne = une sombre histoire de saillie ardente</p>
-      <p><persName ref="#rq"><abbr>RQ</abbr></persName> : avalanche de demandes de la part des éditeurs scolaires pour reprendre des fragments de l’Oulipo.</p>
-      <p>Arrivée de <persName ref="#pb">Braffort</persName>, qui revient de <orgName ref="#franceculture">France Culture</orgName>, où il a eu une prise de bec avec <persName ref="#toesca">Toesca</persName></p>
-      <p>petites anecdotes sur <persName ref="#toesca">Toesca</persName> et l’occupation.</p>
+      <p><persName><abbr>FLL</abbr></persName></p>
+      <p><persName>Bénabou</persName> : + pose le problème du nom de <title>Table de Queneleiev</title> et propose <title>Tabula Queniana</title>, le problème sera discuté plus tard.</p>
+      <p><persName>Roubaud</persName> : <persName>Pontus de Tyard</persName> a écrit : <title>Modèles de phrases. Modèles de lettres d’amour</title>.</p>
+      <p><persName><abbr>FLL</abbr></persName> : <term>vers filigranés</term> qui sont en réalité des <term>holorimes</term></p>
+      <p>« <persName>Michel Laclos</persName> a encore frappé »</p>
+      <p><persName>Queval</persName> : Non-érudition interne = une sombre histoire de saillie ardente</p>
+      <p><persName><abbr>RQ</abbr></persName> : avalanche de demandes de la part des éditeurs scolaires pour reprendre des fragments de l’Oulipo.</p>
+      <p>Arrivée de <persName>Braffort</persName>, qui revient de <orgName>France Culture</orgName>, où il a eu une prise de bec avec <persName>Toesca</persName></p>
+      <p>petites anecdotes sur <persName>Toesca</persName> et l’occupation.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010173k/f5.highres" n="5"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010173k/f6.highres" n="6"/>
       <list type="unordered">
-        <item><persName ref="#jq">Queval</persName> : présente un livre : <title ref="#n7typesdambiguite">7 types d’ambiguïté</title></item>
-        <item><persName ref="#gp">Perec</persName> :<list type="unordered">
-          <item>diffusion du numéro 2 de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> (<persName ref="#jr">Roubaud</persName>) qui est prêt</item>
-          <item>prévision pour le numéro 3 : les <term ref="#aiomesdehilbert">axiomes de <persName ref="#hilbert">Hilbert</persName></term> , de <persName ref="#rq">Queneau</persName></item>
-          <item>discussion générale sur la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+        <item><persName>Queval</persName> : présente un livre : <title>7 types d’ambiguïté</title></item>
+        <item><persName>Perec</persName> :<list type="unordered">
+          <item>diffusion du numéro 2 de la <title>Bibliothèque oulipienne</title> (<persName>Roubaud</persName>) qui est prêt</item>
+          <item>prévision pour le numéro 3 : les <term>axiomes de <persName>Hilbert</persName></term>, de <persName>Queneau</persName></item>
+          <item>discussion générale sur la <title>Bibliothèque oulipienne</title></item>
           <item>diverses suggestions pratiques : problème de fonds pour la bibliothèque numéro 3 (100 francs par tête)</item>
-          <item>demander une subvention à la <orgName ref="#caissedeslettres">Caisse des Lettres</orgName></item>
+          <item>demander une subvention à la <orgName>Caisse des Lettres</orgName></item>
           </list> </item>
       </list>
       <list type="unordered">
-        <item><persName ref="#rq">Queneau</persName> : présente à nouveau le travail de <persName ref="#dbilly">D. Billy</persName> (déjà vu le 10/1/75)</item>
+        <item><persName>Queneau</persName> : présente à nouveau le travail de <persName>D. Billy</persName> (déjà vu le 10/1/75)</item>
       </list>
-      <p><persName ref="#billy">Billy</persName> demande son admission à l’Oulipo : une commission est nommée pour examiner cette candidature (<persName ref="#jr">Roubaud</persName> + <persName ref="#mb">Bénabou</persName>)</p>
+      <p><persName>Billy</persName> demande son admission à l’Oulipo : une commission est nommée pour examiner cette candidature (<persName>Roubaud</persName> + <persName>Bénabou</persName>)</p>
       <list type="unordered">
-        <item>Retour à <name ref="#europalia" type="manif">Europalia</name></item>
-      </list>
-      <list type="unordered">
-        <item>Problème <persName ref="#ab">Blavier</persName> : faut-il lui demander d’être « notre homme à Bruxelles »</item>
+        <item>Retour à <name type="manif">Europalia</name></item>
       </list>
       <list type="unordered">
-        <item>Lecture du Rapport de <persName ref="#jr">Roubaud</persName> sur l’extension de <title ref="#latabledequeneau">la table de Queneau</title>.</item>
-      </list>
-      <p>discussion sur l’usage de l’<term ref="#analogie">analogie</term> comme méthode de recherche.</p>
-      <list type="unordered">
-        <item><persName ref="#rq"><abbr>RQ</abbr></persName> : <del>le voisinage</del> a fait un travail sur la notion de <term ref="#voisinage">voisinage</term>. (notions topologiques)</item>
-        <item><del>propose</del>suggestion sur la notion de <term ref="#derivee">dérivée</term> (exemple : <term ref="#s7">S+7</term>)</item>
+        <item>Problème <persName>Blavier</persName> : faut-il lui demander d’être « notre homme à Bruxelles »</item>
       </list>
       <list type="unordered">
-        <item>Discussion sur le problème des <term ref="#langagesintercosmiques">langages intercosmiques</term></item>
+        <item>Lecture du Rapport de <persName>Roubaud</persName> sur l’extension de <title>la table de Queneau</title>.</item>
       </list>
-      <p>of <persName ref="#hansfreudenthallincos">Hans Freudenthal, Lincos</persName>, <title ref="#designofalanguageforcosmicintercourse">Design of a Language for Cosmic Intercourse</title>.</p>
+      <p>discussion sur l’usage de l’<term>analogie</term> comme méthode de recherche.</p>
+      <list type="unordered">
+        <item><persName><abbr>RQ</abbr></persName> : <del>le voisinage</del> a fait un travail sur la notion de <term>voisinage</term>. (notions topologiques)</item>
+        <item><del>propose</del>suggestion sur la notion de <term>dérivée</term> (exemple : <term>S+7</term>)</item>
+      </list>
+      <list type="unordered">
+        <item>Discussion sur le problème des <term>langages intercosmiques</term></item>
+      </list>
+      <p>of <persName>Hans Freudenthal, Lincos</persName>, <title>Design of a Language for Cosmic Intercourse</title>.</p>
       <list type="unordered">
         <item>Rédaction de la lettre.</item>
       </list>

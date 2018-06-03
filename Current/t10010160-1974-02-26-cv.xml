@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010160-1974-02-26-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010160-1974-02-26-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010160-1974-02-26-cv</idno> <title>Convocation à <ref target="#t10010160-1974-02-26">une réunion Oulipo</ref>, envoyée le <date when="1974-02-26">26 février 1974</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010160-1974-02-26-cv</idno> <title>Convocation à <ref target="#t10010160-1974-02-26">une réunion Oulipo</ref>, envoyée le <date when="1974-02-26">26 février 1974</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
@@ -37,10 +43,10 @@
       <p>Ma dernière lettre, du 19 février, constituait un bon exemple d’INVITATION ALÉATOIRE. Il n’existe pas de jeudi 8 mars en 1974.</p>
       <p>C’est le :</p>
       <p>Vendredi 8 mars 1974</p>
-      <p>que nous nous réunirons pour accueillir <persName ref="#mm">Michèle METAIL</persName> et fêter l’anniversaire du lendemain de la naissance de <persName ref="#gp">Georges PEREC</persName>. J’ai reçu les exemplaires de « <title ref="#lestechniquesdelapoesieclassique">LES TECHNIQUES DE LA POÉSIE CLASSIQUE</title> » ; ils sont à votre disposition.</p>
+      <p>que nous nous réunirons pour accueillir <persName>Michèle METAIL</persName> et fêter l’anniversaire du lendemain de la naissance de <persName>Georges PEREC</persName>. J’ai reçu les exemplaires de « <title>LES TECHNIQUES DE LA POÉSIE CLASSIQUE</title> » ; ils sont à votre disposition.</p>
       <p>En sollicitant votre indulgence pour un cortex déclinant, je n’en reste pas moins,</p>
       <p>Oulipiennement <add>et amicalement</add> <note n="1" resp="editor">Ajout manuscrit de la main de FLL</note> vôtre.</p>
-      <p><persName ref="#fll">F. Le Lionnais</persName></p>
+      <p><persName>F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

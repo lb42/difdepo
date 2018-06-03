@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010317-1988-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010317-1988-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,10 +20,15 @@
         <bibl><idno>t10010317-1988-06-cr</idno> <meeting xml:id="t10010317-1988-06">
           <date when="1988-06-24">24 juin 1988</date>
           <placeName>chez PF</placeName>
-          <gap/> 
+          <gap/>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -36,13 +42,13 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010317n/f3.highres" n="3"/>
       <p rend="incipit">24/6/88</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> Bze burr</p>
-      <p>la <term ref="#poesiegorille">poésie gorille</term> : une <term ref="#formefie">forme fixe</term></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> <title ref="#ledormeurduval">Le dormeur du val</title> en <term ref="#aleandrinsgreffes">alexandrins greffés</term></p>
-      <p><persName ref="#cb"><abbr>CB</abbr></persName> Création en cours : le <title ref="#n114emepoeme">10<hi rend="sup">14</hi>ème poème</title> de <persName ref="#rq">Raymond Queneau</persName></p>
-      <p>nouveau type de poème : une bergère 28 <term ref="#aleandrins">alexandrins</term></p>
+      <p><persName><abbr>JJ</abbr></persName> Bze burr</p>
+      <p>la <term>poésie gorille</term> : une <term>forme fixe</term></p>
+      <p><persName><abbr>MB</abbr></persName> <title>Le dormeur du val</title> en <term>alexandrins greffés</term></p>
+      <p><persName><abbr>CB</abbr></persName> Création en cours : le <title>10<hi rend="sup">14</hi>ème poème</title> de <persName>Raymond Queneau</persName></p>
+      <p>nouveau type de poème : une bergère 28 <term>alexandrins</term></p>
       <p>discussion sur la diérèse et consultation d’un dictionnaire</p>
-      <p><persName ref="#mm"><abbr>MM</abbr></persName> Erudition <title ref="#jeun17">Jeu n°17</title></p>
+      <p><persName><abbr>MM</abbr></persName> Erudition <title>Jeu n°17</title></p>
     </body>
   </text>
 </TEI>

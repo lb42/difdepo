@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010257-1983-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010257-1983-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,18 +21,23 @@
           <date when="1983-01-21">21 janvier 1983</date>
           <placeName>chez FLL</placeName>
           <list type="present">
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#mm">Michele Métail</persName></item>
-            <item><persName ref="#ic">Italo Calvino</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#cb">Claude Berge</persName></item>
-            <item><persName ref="#na">Noël Arnaud</persName></item>
-            <item><persName ref="#fll">François Le Lionnais</persName></item>
-            <item><persName ref="#pf">Paul Fournel</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Italo Calvino</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Paul Fournel</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
@@ -46,30 +52,30 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010257x/f3.highres" n="3"/>
-      <p rend="incipit">Réunion du 21 janvier 83 chez <persName ref="#fll"><abbr>FLL</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="#pb"><abbr>PB</abbr></persName> <persName ref="#mm"><abbr>MM</abbr></persName> <persName ref="#ic"><abbr>IC</abbr></persName> <persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#cb"><abbr>CB</abbr></persName> <persName ref="#na"><abbr>NA</abbr></persName> <persName ref="#fll"><abbr>FLL</abbr></persName> <persName ref="#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#ab"><abbr>AB</abbr></persName> <persName ref="#jb"><abbr>JB</abbr></persName> <persName ref="#jd"><abbr>JD</abbr></persName> <persName ref="#hm"><abbr>HM</abbr></persName> <persName ref="#jr"><abbr>JR</abbr></persName></p>
-      <p rend="incipit">Absents : <persName ref="#jl"><abbr>JL</abbr></persName></p>
-      <p><label type="rubrique">Création</label> </p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : lecture des textes de l’hommage à <persName ref="#gp"><abbr>GP</abbr></persName></p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName> : Faire un <term ref="#tetequialterneraitconsonnesetvoyelles">texte qui alternerait consonnes et voyelles</term></p>
-      <p>L’ensemble : c’est déjà fait : <term ref="#contrainteperec">contrainte <persName ref="#gp">Perec</persName></term> 1c 1v</p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> 1c2v</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> 2c 1v</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : lecture du 100<hi rend="sup">e</hi> chapitre de <title ref="#laviemodedemploi">la Vie mode d’emploi</title></p>
+      <p rend="incipit">Réunion du 21 janvier 83 chez <persName><abbr>FLL</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>PB</abbr></persName> <persName><abbr>MM</abbr></persName> <persName><abbr>IC</abbr></persName> <persName><abbr>MB</abbr></persName> <persName><abbr>CB</abbr></persName> <persName><abbr>NA</abbr></persName> <persName><abbr>FLL</abbr></persName> <persName><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>AB</abbr></persName> <persName><abbr>JB</abbr></persName> <persName><abbr>JD</abbr></persName> <persName><abbr>HM</abbr></persName> <persName><abbr>JR</abbr></persName></p>
+      <p rend="incipit">Absents : <persName><abbr>JL</abbr></persName></p>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName><abbr>PF</abbr></persName> : lecture des textes de l’hommage à <persName><abbr>GP</abbr></persName></p>
+      <p><persName><abbr>LE</abbr></persName> : Faire un <term>texte qui alternerait consonnes et voyelles</term></p>
+      <p>L’ensemble : c’est déjà fait : <term>contrainte <persName>Perec</persName></term> 1c 1v</p>
+      <p><persName><abbr>JR</abbr></persName> 1c2v</p>
+      <p><persName><abbr>PB</abbr></persName> 2c 1v</p>
+      <p><persName><abbr>MB</abbr></persName> : lecture du 100<hi rend="sup">e</hi> chapitre de <title>la Vie mode d’emploi</title></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : quelques projets communs avec <persName ref="#gp">Georges P.</persName></p>
-      <p><term ref="#cartedelalangue">Carte de la langue</term></p>
-      <p>Le roman du XIXe relier les extraits du <persName ref="#lagarde">Lagarde</persName> et <persName ref="#michard">Michard</persName> XIXe)</p>
-      <p><title ref="#lhistoireuniverselle">L’histoire universelle</title> Pièce de théâtre avec 5 voix</p>
-      <p><label type="rubrique">Administration</label> </p>
+      <p><persName><abbr>MB</abbr></persName> : quelques projets communs avec <persName>Georges P.</persName></p>
+      <p><term>Carte de la langue</term></p>
+      <p>Le roman du XIXe relier les extraits du <persName>Lagarde</persName> et <persName>Michard</persName> XIXe)</p>
+      <p><title>L’histoire universelle</title> Pièce de théâtre avec 5 voix</p>
+      <p><label type="rubrique">Administration</label></p>
       <p>Manque de sous à échéance</p>
-      <p>Diffusion de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <p><label type="rubrique">Action</label> </p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> Compte rendu du <name ref="#stage" type="manif">stage</name> oulipo à la <orgName ref="#facdavignon">fac d’Avignon</orgName></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <orgName ref="#associationgeorgesperec">association <persName ref="#gp"><abbr>GP</abbr></persName></orgName> </p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : 18-2-83 chez <persName ref="#mm"><abbr>MM</abbr></persName>. Invité <persName ref="#rota">Rota</persName>, Parrain <persName ref="#cb">Berge</persName>.</p>
-      <p><persName ref="#giampaolodossena">Giam Paolo Dossena</persName></p>
+      <p>Diffusion de la <title>Bibliothèque oulipienne</title>.</p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName><abbr>PB</abbr></persName> Compte rendu du <name type="manif">stage</name> oulipo à la <orgName>fac d’Avignon</orgName></p>
+      <p><persName><abbr>PF</abbr></persName> : <orgName>association <persName><abbr>GP</abbr></persName></orgName></p>
+      <p><name type="manif">Prochaine réunion</name>  : 18-2-83 chez <persName><abbr>MM</abbr></persName>. Invité <persName>Rota</persName>, Parrain <persName>Berge</persName>.</p>
+      <p><persName>Giam Paolo Dossena</persName></p>
       <p>Via Mercalli, 36</p>
       <p>Milano</p>
       <p>Italia</p>
@@ -77,13 +83,13 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010257x/f5.highres" n="5"/>
       <p>Liste établie le 21-I-83</p>
       <p><label type="rubrique">Invités / Parrains</label></p>
-      <p>3 <persName ref="#cortazar">Cortazar</persName> ?</p>
-      <p>2 <persName ref="#dossena">Dossena</persName> / <persName ref="#ic">Calvino</persName></p>
-      <p>1 <persName ref="#giancarlorota">Giancarlo Rota</persName> / <persName ref="#cb">Claude Berge</persName></p>
-      <p>4 <persName ref="#pouillou">Pouilloux</persName> / <persName ref="#mb">Bénabou</persName></p>
-      <p>6 <persName ref="#magne">Magné</persName> / <persName ref="#mb">Bénabou</persName></p>
-      <p>5 <persName ref="#devos">Devos</persName> / <persName ref="#pb">P. Braffort</persName></p>
-      <p><persName ref="#j_">J</persName> et <persName ref="#bc">B. Cerquiglini</persName>, <persName ref="#nadaud">Nadaud</persName>, <persName ref="#zumthor">Zumthor</persName></p>
+      <p>3 <persName>Cortazar</persName> ?</p>
+      <p>2 <persName>Dossena</persName> / <persName>Calvino</persName></p>
+      <p>1 <persName>Giancarlo Rota</persName> / <persName>Claude Berge</persName></p>
+      <p>4 <persName>Pouilloux</persName> / <persName>Bénabou</persName></p>
+      <p>6 <persName>Magné</persName> / <persName>Bénabou</persName></p>
+      <p>5 <persName>Devos</persName> / <persName>P. Braffort</persName></p>
+      <p><persName>J</persName> et <persName>B. Cerquiglini</persName>, <persName>Nadaud</persName>, <persName>Zumthor</persName></p>
     </body>
   </text>
 </TEI>

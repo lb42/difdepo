@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010206-1978-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010206-1978-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010206-1978-04-cv</idno> <title>Convocation à <ref target="#t10010206-1978-04">une réunion Oulipo</ref>, envoyée le <date when="1978-04-28">28 avril 1978</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010206-1978-04-cv</idno> <title>Convocation à <ref target="#t10010206-1978-04">une réunion Oulipo</ref>, envoyée le <date when="1978-04-28">28 avril 1978</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -34,15 +40,15 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Paris, le 28 avril 78.</p>
       <p>Chers oulipiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu le jeudi 11 mai à 11 heures chez <persName ref="#gp">Georges Perec</persName> au 13 rue Linné dans le 5ème.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 11 mai à 11 heures chez <persName>Georges Perec</persName> au 13 rue Linné dans le 5ème.</p>
       <p>Soyez gentils de répondre même si vous ne venez pas, pour éviter à nos hôtes du travail inutile.</p>
-      <p>Pensez aussi à envoyer à <persName ref="#mariejouannard">Marie Jouannard</persName> votre bibliographie si vous souhaitez que vos livres soient mis en vente en Avignon lors de la <name ref="#semaineoulipodejuillet" type="manif">semaine oulipo de juillet</name> (<persName ref="#mariejouannard">Marie Jouannard</persName>, <orgName ref="#lamaisondesmots">la maison des mots</orgName>, CIRCA, la Chartreuse-de-Villeuneve-lès-Avignon, 30).</p>
-      <p>À plusieurs occasions, des appels de phynances ont été faits lors de réunions pour couvrir les frais de convocation et de petit secrétariat. Ce sont les présents qui ont chaque fois supporté la dépense. Pour mettre fin à cette injustice, nous vous invitons à vous mettre en règle et à faire parvenir la somme ci-dessous indiquée à <persName ref="#pf">Paul Fournel</persName> 204 rue de la Croix-Nivert 75015 Paris.</p>
+      <p>Pensez aussi à envoyer à <persName>Marie Jouannard</persName> votre bibliographie si vous souhaitez que vos livres soient mis en vente en Avignon lors de la <name type="manif">semaine oulipo de juillet</name> (<persName>Marie Jouannard</persName>, <orgName>la maison des mots</orgName>, CIRCA, la Chartreuse-de-Villeuneve-lès-Avignon, 30).</p>
+      <p>À plusieurs occasions, des appels de phynances ont été faits lors de réunions pour couvrir les frais de convocation et de petit secrétariat. Ce sont les présents qui ont chaque fois supporté la dépense. Pour mettre fin à cette injustice, nous vous invitons à vous mettre en règle et à faire parvenir la somme ci-dessous indiquée à <persName>Paul Fournel</persName> 204 rue de la Croix-Nivert 75015 Paris.</p>
       <p>D’avance, merci.</p>
       <p>Bien oulipiennement à vous,</p>
-      <p><persName ref="#pf">Paul Fournel</persName></p>
+      <p><persName>Paul Fournel</persName></p>
       <p>Un secrétaire.</p>
-      <p><persName ref="#mb"><abbr>M.B</abbr></persName> ne doit rien pour les frais de secrétariat.</p>
+      <p><persName><abbr>M.B</abbr></persName> ne doit rien pour les frais de secrétariat.</p>
     </body>
   </text>
 </TEI>

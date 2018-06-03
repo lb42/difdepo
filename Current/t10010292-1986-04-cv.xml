@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010292-1986-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010292-1986-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010292-1986-04-cv</idno> <title>Convocation à <ref target="#t10010292-1986-04">une réunion Oulipo</ref>, envoyée le <date when="1986-04-17">17 avril 1986</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010292-1986-04-cv</idno> <title>Convocation à <ref target="#t10010292-1986-04">une réunion Oulipo</ref>, envoyée le <date when="1986-04-17">17 avril 1986</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -30,11 +36,11 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010292b/f1.highres" n="1"/>
       <p>Chers oulipiens,</p>
-      <p>La réunion du mois aura lieu le jeudi 17 avril à 11h 30 chez <persName ref="#pb">Braffort</persName> 7 rue Charles V 75004 (42.78.12.92)</p>
+      <p>La réunion du mois aura lieu le jeudi 17 avril à 11h 30 chez <persName>Braffort</persName> 7 rue Charles V 75004 (42.78.12.92)</p>
       <p>Contrairement à celle de mars elle sera riche en créations de toutes sortes.</p>
-      <p>Prévenez <persName ref="#pb"><abbr>Paul B.</abbr></persName> pour l'intendance.</p>
+      <p>Prévenez <persName><abbr>Paul B.</abbr></persName> pour l'intendance.</p>
       <p>Amitiés,</p>
-      <p><persName ref="#pf"><abbr>Paul</abbr></persName></p>
+      <p><persName><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

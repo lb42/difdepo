@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010199-1977-09-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010199-1977-09-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010199-1977-09-oj</idno> <title>Ordre de jour de <ref target="#t10010199-1977-09">la réunion Oulipo</ref> de <date when="1977-09-29">29 septembre 1977</date></title> </bibl>
+        <bibl><idno>t10010199-1977-09-oj</idno> <title>Ordre de jour de <ref target="#t10010199-1977-09">la réunion Oulipo</ref> de <date when="1977-09-29">29 septembre 1977</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
@@ -34,31 +40,31 @@
       <p rend="incipit">oulipo 29 Septembre <choice><corr>77</corr><sic>78</sic></choice></p>
       <p><label type="rubrique">Créations</label></p>
       <list type="unordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> précision sur l’<term ref="#algorithme">algorithme</term></item>
-        <item><title ref="#hoteldesens">Hôtel de Sens</title> <persName ref="#jr"><abbr>JR</abbr></persName>+<persName ref="#pf"><abbr>PF</abbr></persName></item>
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> publications</item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> work in progress</item>
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> Terminologie</item>
+        <item><persName><abbr>HM</abbr></persName> précision sur l’<term>algorithme</term></item>
+        <item><title>Hôtel de Sens</title> <persName><abbr>JR</abbr></persName>+<persName><abbr>PF</abbr></persName></item>
+        <item><persName><abbr>HM</abbr></persName> publications</item>
+        <item><persName><abbr>JR</abbr></persName> work in progress</item>
+        <item><persName><abbr>FLL</abbr></persName> Terminologie</item>
       </list>
       <p><label type="rubrique">Actions</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <title ref="#volume">volume 2</title>+ <orgName ref="#centrenationaldulivre">Centre National du Livre</orgName>+ <orgName ref="#gallimard">Gallimard</orgName>+ phynances</item>
-        <item><term ref="#oulipopedago">oulipo-pédago</term> (phynances)</item>
-        <item>théorie+ pratique (<name ref="#avignon" type="manif">Avignon</name>-<persName ref="#jr"><abbr>JR</abbr></persName>)</item>
+        <item><persName><abbr>PF</abbr></persName> <title>volume 2</title>+ <orgName>Centre National du Livre</orgName>+ <orgName>Gallimard</orgName>+ phynances</item>
+        <item><term>oulipo-pédago</term> (phynances)</item>
+        <item>théorie+ pratique (<name type="manif">Avignon</name>-<persName><abbr>JR</abbr></persName>)</item>
       </list>
-      <p><persName ref="#cb"><abbr>CB</abbr></persName> questions</p>
+      <p><persName><abbr>CB</abbr></persName> questions</p>
       <list type="unordered">
-        <item><name ref="#avignon" type="manif">Avignon</name> (<persName ref="#pf"><abbr>PF</abbr></persName>) lettre de <persName ref="#gjouanard">G. Jouanard</persName></item>
-        <item>Télévision (<persName ref="#pf"><abbr>PF</abbr></persName>)</item>
+        <item><name type="manif">Avignon</name> (<persName><abbr>PF</abbr></persName>) lettre de <persName>G. Jouanard</persName></item>
+        <item>Télévision (<persName><abbr>PF</abbr></persName>)</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName></p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>FLL</abbr></persName></p>
+      <p><persName><abbr>LE</abbr></persName></p>
+      <p><title>Bibliothèque oulipienne</title></p>
       <p>Constat de carence</p>
       <p><label type="rubrique">Menu propos</label></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> Lexico-pro</p>
-      <p>Invité <persName ref="#rigaud">Rigaud</persName></p>
+      <p><persName><abbr>PB</abbr></persName> Lexico-pro</p>
+      <p>Invité <persName>Rigaud</persName></p>
       <p>Date 3 Novembre 77</p>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010143-1972-09-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010143-1972-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,10 +20,15 @@
         <bibl><idno>t10010143-1972-09-cr</idno> <meeting xml:id="t10010143-1972-09">
           <date when="1972-09-12">12 septembre 1972</date>
           <placeName>Boulogne</placeName>
-          <gap/> 
+          <gap/>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -37,13 +43,13 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010143b/f3.highres" n="3"/>
       <p rend="incipit">Le 12 Septembre 1972</p>
-      <p><title ref="#ecape">Ex-Cape</title> = Titre</p>
-      <p><term ref="#litteraturepotentielle">Littérature Potentielle</term></p>
+      <p><title>Ex-Cape</title> = Titre</p>
+      <p><term>Littérature Potentielle</term></p>
       <list type="unordered">
         <item>Propositions et Récréations</item>
       </list>
       <p>21/9/ à 11H30 Contrat.</p>
-      <p>Prochain Oulipo Mercredi 11 Octobre. 11heures avec <persName ref="#ferval">F. Erval</persName></p>
+      <p>Prochain Oulipo Mercredi 11 Octobre. 11heures avec <persName>F. Erval</persName></p>
       <p>Problèmes matériels.</p>
     </body>
   </text>

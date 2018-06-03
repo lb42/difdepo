@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010328-1989-06-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010328-1989-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010328-1989-06-oj</idno> <title>Ordre de jour de <ref target="#t10010328-1989-06">la réunion Oulipo</ref> du <date when="1989-06-23">23 juin 1989</date></title> </bibl>
+        <bibl><idno>t10010328-1989-06-oj</idno> <title>Ordre de jour de <ref target="#t10010328-1989-06">la réunion Oulipo</ref> du <date when="1989-06-23">23 juin 1989</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -31,60 +37,60 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010328h/f2.highres" n="2"/>
       <p rend="incipit">OJ OULIPO</p>
       <p>du 23-6-89</p>
-      <p>chez <persName ref="#pf"><abbr>PF</abbr></persName></p>
-      <p>Excusés : <persName ref="#pr"><abbr>PR</abbr></persName>. <persName ref="#na"><abbr>NA</abbr></persName>. <persName ref="#cb"><abbr>CB</abbr></persName>. <persName ref="#jl"><abbr>JL</abbr></persName></p>
-      <p><persName ref="#jb">Bens</persName> excusé</p>
+      <p>chez <persName><abbr>PF</abbr></persName></p>
+      <p>Excusés : <persName><abbr>PR</abbr></persName>. <persName><abbr>NA</abbr></persName>. <persName><abbr>CB</abbr></persName>. <persName><abbr>JL</abbr></persName></p>
+      <p><persName>Bens</persName> excusé</p>
       <p>Abs</p>
-      <p>Présents : <persName ref="#jr"><abbr>JR</abbr></persName> (secrétaire), <persName ref="#mb"><abbr>MB</abbr></persName> (président), <persName ref="#pf"><abbr>PF</abbr></persName> (hôte), <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName></p>
+      <p>Présents : <persName><abbr>JR</abbr></persName> (secrétaire), <persName><abbr>MB</abbr></persName> (président), <persName><abbr>PF</abbr></persName> (hôte), <persName><abbr>HM</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>MM</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <list type="unordered">
-          <item>La <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> tome 3</item>
+        <item><persName><abbr>PF</abbr></persName> <list type="unordered">
+          <item>La <title>Bibliothèque oulipienne</title> tome 3</item>
           <item>Banlieue</item>
           </list> </item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> <list type="unordered">
+        <item><persName><abbr>JJ</abbr></persName> <list type="unordered">
           <item>Beau présent en beau présent</item>
           </list> <lb/></item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> <list type="unordered">
-          <item> <title ref="#rimeperlocchi"><term ref="#rimeperlocchi">Rime per l’occhi</term></title> </item>
-          <item>En cours de création (sonnet <term ref="#boustrophedon">boustrophédon</term>)</item>
+        <item><persName><abbr>JR</abbr></persName> <list type="unordered">
+          <item><title><term>Rime per l’occhi</term></title></item>
+          <item>En cours de création (sonnet <term>boustrophédon</term>)</item>
           </list> </item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> <list type="unordered">
-          <item><persName ref="#janecolling">Jane Colling</persName></item>
+        <item><persName><abbr>HM</abbr></persName> <list type="unordered">
+          <item><persName>Jane Colling</persName></item>
           <item>Atelier d’écriture</item>
-          <item><title ref="#schreibheft">Schreibheft</title></item>
+          <item><title>Schreibheft</title></item>
           <item>Questions 53 jours</item>
           </list> </item>
-        <item><persName ref="#mm"><abbr>MM</abbr></persName> <list type="unordered">
-          <item><term ref="#palindrome">Palindrome</term></item>
+        <item><persName><abbr>MM</abbr></persName> <list type="unordered">
+          <item><term>Palindrome</term></item>
           </list> </item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <list type="unordered">
+        <item><persName><abbr>PF</abbr></persName> <list type="unordered">
           <item>Sarrebrück</item>
           <item>Fric</item>
           </list> </item>
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> <list type="unordered">
-          <item>Montevideo – <persName ref="#leonguillaumin">Léon Guillaumin</persName></item>
+        <item><persName><abbr>HM</abbr></persName> <list type="unordered">
+          <item>Montevideo – <persName>Léon Guillaumin</persName></item>
           </list> </item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> <list type="unordered">
-          <item><persName ref="#thomas">Thomas</persName> contre Oulipo</item>
+        <item><persName><abbr>JR</abbr></persName> <list type="unordered">
+          <item><persName>Thomas</persName> contre Oulipo</item>
           </list> </item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> <list type="unordered">
+        <item><persName><abbr>MB</abbr></persName> <list type="unordered">
           <item>Villeneuve les Avignon</item>
           </list> </item>
       </list>
       <p><label type="rubrique">Menu-Propos</label></p>
       <list type="unordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> <list type="unordered">
-          <item><persName ref="#johncrombie">John Crombie</persName></item>
+        <item><persName><abbr>HM</abbr></persName> <list type="unordered">
+          <item><persName>John Crombie</persName></item>
           </list> </item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> <list type="unordered">
-          <item>Presse sur <persName ref="#rq">Queneau</persName> et <persName ref="#gp">Perec</persName></item>
+        <item><persName><abbr>JJ</abbr></persName> <list type="unordered">
+          <item>Presse sur <persName>Queneau</persName> et <persName>Perec</persName></item>
           <item>Effet de TLD</item>
           </list> </item>
       </list>

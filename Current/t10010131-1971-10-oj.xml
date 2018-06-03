@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010131-1971-10-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010131-1971-10-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010131-1971-10-oj</idno> <title>Ordre de jour de <ref target="#t10010131-1971-10">la réunion Oulipo</ref> de <date when="1971-10-26">26 octobre 1971</date></title> </bibl>
+        <bibl><idno>t10010131-1971-10-oj</idno> <title>Ordre de jour de <ref target="#t10010131-1971-10">la réunion Oulipo</ref> de <date when="1971-10-26">26 octobre 1971</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -32,19 +38,19 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f3.highres" n="3"/>
       <p>Ordre du Jour</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pf">Fournel</persName></p>
+      <p><persName>Fournel</persName></p>
       <p>Phynances</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#jr">Roubaud</persName></p>
-      <p> <label type="rubrique">Création</label> </p>
-      <p><persName ref="#le">Luc Etienne</persName> = <term ref="#intricationchiasmatique">intrication chiasmatique</term></p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> Portrait de <persName ref="#jb">J Bens</persName> en contestataire</p>
-      <p><persName ref="#levistrauss">Levi-Strauss</persName>.</p>
+      <p><persName>Roubaud</persName></p>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName>Luc Etienne</persName> = <term>intrication chiasmatique</term></p>
+      <p><persName><abbr>FLL</abbr></persName> Portrait de <persName>J Bens</persName> en contestataire</p>
+      <p><persName>Levi-Strauss</persName>.</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#rq"><abbr>RQ</abbr></persName> :</p>
-      <p><persName ref="#jq">Queval</persName></p>
-      <p><persName ref="#gp">Perec</persName></p>
-      <p>Date de la <name ref="#prochainereunion" type="manif">prochaine réunion</name> .</p>
+      <p><persName><abbr>RQ</abbr></persName> :</p>
+      <p><persName>Queval</persName></p>
+      <p><persName>Perec</persName></p>
+      <p>Date de la <name type="manif">prochaine réunion</name>.</p>
     </body>
   </text>
 </TEI>

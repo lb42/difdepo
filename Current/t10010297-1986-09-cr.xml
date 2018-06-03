@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010297-1986-09-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010297-1986-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,22 +17,25 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010297-1986-09-cr</idno>
-          <meeting xml:id="t10010297-1986-09">
-            <date when="1986-09-12">12 septembre 1986</date>
-            <placeName>chez Paul Fournel</placeName>
-            <list type="present">
-              <item><persName ref="#na">Noël Arnaud</persName></item>
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-              <item><persName ref="#jb">Jacques Bens</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#fc">François Caradec</persName></item>
-              <item><persName ref="#jj">Jacques Jouet</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010297-1986-09-cr</idno> <meeting xml:id="t10010297-1986-09">
+          <date when="1986-09-12">12 septembre 1986</date>
+          <placeName>chez Paul Fournel</placeName>
+          <list type="present">
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
@@ -47,85 +51,52 @@
       <p rend="incipit">REUNION DE L'OULIPO</p>
       <p>12 Septembre 1986</p>
       <list type="unordered">
-        <item>Président: <persName ref="#hm">Harry Mathews</persName>, Secrétaire: <persName ref="#pb">Paul Braffort</persName>.</item>
-        <item>Présents : <persName ref="#na">Noël Arnaud</persName>, <persName ref="#mb">Marcel
-            Bénabou</persName>, <persName ref="#jb">Jacques Bens</persName>, <persName ref="#pf">Paul Fournel</persName> (qui reçoit), <persName ref="#fc">François Caradec</persName>,
-            <persName ref="#jj">Jacques Jouet</persName>.</item>
-        <item>Excusés : <persName ref="#jq">Jean Queval</persName>
-          <persName ref="#jr">Jacques Roubaud</persName> (in absentia) <persName ref="#hm">Harry
-            Mathews</persName> (qui ne craint pas la contradiction).</item>
+        <item>Président: <persName>Harry Mathews</persName>, Secrétaire: <persName>Paul Braffort</persName>.</item>
+        <item>Présents : <persName>Noël Arnaud</persName>, <persName>Marcel Bénabou</persName>, <persName>Jacques Bens</persName>, <persName>Paul Fournel</persName> (qui reçoit), <persName>François Caradec</persName>, <persName>Jacques Jouet</persName>.</item>
+        <item>Excusés : <persName>Jean Queval</persName> <persName>Jacques Roubaud</persName> (in absentia) <persName>Harry Mathews</persName> (qui ne craint pas la contradiction).</item>
       </list>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> en grand forme) : <term ref="#sbamam">sbamam</term> seule recherche
-            <term ref="#mamabs">mamabs</term> affectueusement (l'acronyme est là pour nous faire
-          songer - s'il en était besoin à "sexe, bouche, anus, main, autre, mais(bis)"). Problème -
-          dont l'intérêt n'est évidemment pas purement littéraire - déduire la combinatoire érotique
-          en tenant compte de contraintes anatomiques et physiologiques.</item>
+        <item><persName><abbr>HM</abbr></persName> en grand forme) : <term>sbamam</term> seule recherche <term>mamabs</term> affectueusement (l'acronyme est là pour nous faire songer - s'il en était besoin à "sexe, bouche, anus, main, autre, mais(bis)"). Problème - dont l'intérêt n'est évidemment pas purement littéraire - déduire la combinatoire érotique en tenant compte de contraintes anatomiques et physiologiques.</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#fc"><abbr>FC</abbr></persName> (plus érudit que jamais): <lb/>1. Sonnet de Rimbaud (sous titre;
-            "<title ref="#fantaisie">fantaisie</title>") <lb/>2. "<title ref="#maboheme">Ma
-            Bohème</title>" est un <term ref="#boeme">boème</term> - rectification un <term ref="#poemebegue">poème bègue</term> (à la <persName ref="#jl">Lescure</persName>)</item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> (guère plus glabre): érudition égyptienne - texte funéraire <term ref="#liponymique">liponymique</term>.</item>
+        <item><persName><abbr>FC</abbr></persName> (plus érudit que jamais): <lb/>1. Sonnet de Rimbaud (sous titre; "<title>fantaisie</title>") <lb/>2. "<title>Ma Bohème</title>" est un <term>boème</term> - rectification un <term>poème bègue</term> (à la <persName>Lescure</persName>)</item>
+        <item><persName><abbr>JJ</abbr></persName> (guère plus glabre): érudition égyptienne - texte funéraire <term>liponymique</term>.</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> (modeste comme pas un) fait état de conversations préliminaires
-          avec des dames de <orgName ref="#lavillettemuseedessciencesetdestechniquesditmuseede">La
-            Villette (Musée des Sciences et des Techniques dit Musée de)</orgName>au sujet d'une
-          animation "<name type="manif">Les Mathématiques et l'Art</name>" prévue pour Avril 1987.
-            <persName ref="#mb"><abbr>Marcel B.</abbr></persName> négociera pour l'OULIPO
-          (rendez-vous à <placeName>la Madeleine</placeName>?).</item>
-        <item><persName ref="#jj"><abbr>JJ</abbr></persName> propose et fait adopter le principe d'une <name type="manif">lecture poétique à Ivry</name> (début 1987).</item>
+        <item><persName><abbr>PB</abbr></persName> (modeste comme pas un) fait état de conversations préliminaires avec des dames de <orgName>La Villette (Musée des Sciences et des Techniques dit Musée de)</orgName>au sujet d'une animation "<name type="manif">Les Mathématiques et l'Art</name>" prévue pour Avril 1987. <persName><abbr>Marcel B.</abbr></persName> négociera pour l'OULIPO (rendez-vous à <placeName>la Madeleine</placeName>?).</item>
+        <item><persName><abbr>JJ</abbr></persName> propose et fait adopter le principe d'une <name type="manif">lecture poétique à Ivry</name> (début 1987).</item>
       </list>
-      <p>
-        <label type="rubrique"><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-          <orgName ref="#ramsay">Ramsay</orgName></label>
-      </p>
+      <p><label type="rubrique"><title>Bibliothèque oulipienne</title> <orgName>Ramsay</orgName></label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> tance vertement les Oulipiens: quid de leurs corrections en vue
-          d'une édition définitive?</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> donne ses corrections; <persName ref="#jb"><abbr>JB</abbr></persName> déclare être exempt de toute correction. <persName ref="#jj"><abbr>JJ</abbr></persName> et <persName ref="#pb"><abbr>PB</abbr></persName> s'engagent à produire les leurs sous huitaine (engagement
-          incomplètement tenu).</item>
+        <item><persName><abbr>PF</abbr></persName> tance vertement les Oulipiens: quid de leurs corrections en vue d'une édition définitive?</item>
+        <item><persName><abbr>MB</abbr></persName> donne ses corrections; <persName><abbr>JB</abbr></persName> déclare être exempt de toute correction. <persName><abbr>JJ</abbr></persName> et <persName><abbr>PB</abbr></persName> s'engagent à produire les leurs sous huitaine (engagement incomplètement tenu).</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010297k/f3.highres" n="3"/>
       <p><label type="rubrique">Phynance</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> et <persName ref="#pb"><abbr>PB</abbr></persName> rendent compte de l'audit auquel ils se sont livrés en ce qui
-          concerne l'état des stocks. <lb/>Il est décidé de procéder à la diffusion d'une liste des
-          titres disponibles. De nouvelles techniques de diffusion sont envisagées. <lb/>Au corps de
-            <persName ref="#mb"><abbr>Marcel</abbr></persName> défendant, il est décidé d'envoyer les <title ref="#bibliothequesoulipiennes">Bibliothèques Oulipiennes</title> à <persName ref="#ab"><abbr>AB</abbr></persName></item>
+        <item><persName><abbr>MB</abbr></persName> et <persName><abbr>PB</abbr></persName> rendent compte de l'audit auquel ils se sont livrés en ce qui concerne l'état des stocks. <lb/>Il est décidé de procéder à la diffusion d'une liste des titres disponibles. De nouvelles techniques de diffusion sont envisagées. <lb/>Au corps de <persName><abbr>Marcel</abbr></persName> défendant, il est décidé d'envoyer les <title>Bibliothèques Oulipiennes</title> à <persName><abbr>AB</abbr></persName></item>
       </list>
       <p><label type="rubrique">Menu Propos</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : * vitrine <persName ref="#rq">Queneau</persName>
-          <placeName>rue Saint-Antoine</placeName>.</item>
-        <item><persName ref="#hm"><abbr>HM</abbr></persName>: * "<title ref="#cigarettes">cigarettes</title>" sera publié à
-          l'automne 1987.</item>
-        <item><persName ref="#jb"><abbr>JB</abbr></persName>: * <name ref="#epositionqueneau" type="manif">Exposition
-            Queneau</name> par les soins de la <orgName ref="#villedeparis">Ville de
-          Paris</orgName>.</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName>: * <name ref="#manifestationqueneau" type="manif">Manifestation
-            Queneau</name> à la <orgName ref="#maisondelapoesie">Maison de la
-          Poésie</orgName></item>
+        <item><persName><abbr>PF</abbr></persName> : * vitrine <persName>Queneau</persName> <placeName>rue Saint-Antoine</placeName>.</item>
+        <item><persName><abbr>HM</abbr></persName>: * "<title>cigarettes</title>" sera publié à l'automne 1987.</item>
+        <item><persName><abbr>JB</abbr></persName>: * <name type="manif">Exposition Queneau</name> par les soins de la <orgName>Ville de Paris</orgName>.</item>
+        <item><persName><abbr>MB</abbr></persName>: * <name type="manif">Manifestation Queneau</name> à la <orgName>Maison de la Poésie</orgName></item>
       </list>
       <p><label type="rubrique">"Guide" (ou "Moniteur")</label></p>
       <list type="unordered">
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> et <persName ref="#mb"><abbr>MB</abbr></persName> occupent d'ici la fin Octobre pour parachever la troisième partie
-          de l'oeuvre, <persName ref="#pf"><abbr>PF</abbr></persName> et <persName ref="#jj"><abbr>JJ</abbr></persName> de même pour la seconde. <persName ref="#fc"><abbr>FC</abbr></persName> et <persName ref="#na"><abbr>NA</abbr></persName> itou pour la quatrième et ultime. Le plan est, rappelons-le: <list type="ordered">
-            <item>Plagiaires revisités. <lb/>1. Par anticipation <lb/>2. par concommitance <lb/>3.
-              par malice <lb/>4. autoplagiat</item>
-            <item>L'auteur Oulipien <lb/>(détail non communiqué)</item>
-              <item><term ref="#contrainte">Contraintes</term> et Structures <lb/>1. La règle et la <term ref="#contrainte">contrainte</term> <lb/>Les éléments et
-              leur combinatoire <lb/>3. Tables sur cartes <lb/>4. Aux bonheurs du <term ref="#clinamen">clinamen</term></item>
-            <item>Glossaire</item>
-          </list>
-        </item>
+        <item><persName><abbr>PB</abbr></persName> et <persName><abbr>MB</abbr></persName> occupent d'ici la fin Octobre pour parachever la troisième partie de l'oeuvre, <persName><abbr>PF</abbr></persName> et <persName><abbr>JJ</abbr></persName> de même pour la seconde. <persName><abbr>FC</abbr></persName> et <persName><abbr>NA</abbr></persName> itou pour la quatrième et ultime. Le plan est, rappelons-le: <list type="ordered">
+          <item>Plagiaires revisités. <lb/>1. Par anticipation <lb/>2. par concommitance <lb/>3. par malice <lb/>4. autoplagiat</item>
+          <item>L'auteur Oulipien <lb/>(détail non communiqué)</item>
+          <item><term>Contraintes</term> et Structures <lb/>1. La règle et la <term>contrainte</term> <lb/>Les éléments et leur combinatoire <lb/>3. Tables sur cartes <lb/>4. Aux bonheurs du <term>clinamen</term></item>
+          <item>Glossaire</item>
+          </list> </item>
       </list>
       <p>Fait à <placeName>Paris</placeName> en l'an de grâce 1986.</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName>.</p>
+      <p><persName><abbr>PB</abbr></persName>.</p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010256-1982-12-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010256-1982-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010256-1982-12-cv</idno> <title>Convocation à <ref target="#t10010256-1982-12">une réunion Oulipo</ref>, envoyée le <date when="1982-12-01">1ᵉʳ décembre 1982</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010256-1982-12-cv</idno> <title>Convocation à <ref target="#t10010256-1982-12">une réunion Oulipo</ref>, envoyée le <date when="1982-12-01">1ᵉʳ décembre 1982</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -32,10 +38,10 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">1er Décembre 1982</p>
       <p>Brigadiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu le vendredi 17 Décembre à 11h chez le Président fondateur <persName ref="#fll"><abbr>FLL</abbr></persName> au 23 route de la reine à Boulogne (605 90 13)</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 17 Décembre à 11h chez le Président fondateur <persName><abbr>FLL</abbr></persName> au 23 route de la reine à Boulogne (605 90 13)</p>
       <p>Retournez la découpe ci-dessous pour faciliter la tâche culinaire... Merci.</p>
       <p>Au 17.</p>
-      <p>un secrétaire: <persName ref="#pf"><abbr>Paul</abbr></persName></p>
+      <p>un secrétaire: <persName><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

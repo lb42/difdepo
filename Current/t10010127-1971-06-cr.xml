@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010127-1971-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010127-1971-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,20 +21,25 @@
           <date when="1971-06-01">1ᵉʳ juin 1971</date>
           <placeName>chez François Le Lionnais</placeName>
           <list type="present">
-            <item><persName ref="#fll">François Le Lionnais</persName></item>
-            <item><persName ref="#rq">Raymond Queneau</persName></item>
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#ab">André Blavier</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#jq">Jean Queval</persName></item>
-            <item><persName ref="#la">Latis</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#pf">Paul Fournel</persName></item>
-            <item><persName ref="#le">Luc Etienne</persName></item>
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Raymond Queneau</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>André Blavier</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Jean Queval</persName></item>
+            <item><persName>Latis</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Luc Etienne</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-27">restore accidentally deleted attendance lists</change>
@@ -47,22 +53,22 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101279/f3.highres" n="3"/>
       <p rend="incipit">OULIPO</p>
       <p>Séance du 1 Juin 1971 à 11 h.</p>
-      <p>Présents : <persName ref="#rq">Raymond Queneau</persName>, <persName ref="#fll">François Le Lionnais</persName>, <persName ref="#mb">Marcel Bénabou</persName>, <persName ref="#andrepolavier">André Polavier</persName>, <persName ref="#pb">Paul Braffort</persName>, <persName ref="#jq">Jean Queval</persName>, <persName ref="#la">Latis</persName>, <persName ref="#jr">Jacques Roubaud</persName>, <persName ref="#pf">Paul Fournel</persName>, <persName ref="#le">Luc Etienne</persName>.</p>
-      <p>Excusés : <persName ref="#jl">Jean Lescure</persName>, <persName ref="#jd">Jacques Duchâteau</persName>, <persName ref="#gp">Georges Perec</persName></p>
-      <p>Invité d’honneur : <persName ref="#jeantardieu">Jean Tardieu</persName></p>
+      <p>Présents : <persName>Raymond Queneau</persName>, <persName>François Le Lionnais</persName>, <persName>Marcel Bénabou</persName>, <persName>André Polavier</persName>, <persName>Paul Braffort</persName>, <persName>Jean Queval</persName>, <persName>Latis</persName>, <persName>Jacques Roubaud</persName>, <persName>Paul Fournel</persName>, <persName>Luc Etienne</persName>.</p>
+      <p>Excusés : <persName>Jean Lescure</persName>, <persName>Jacques Duchâteau</persName>, <persName>Georges Perec</persName></p>
+      <p>Invité d’honneur : <persName>Jean Tardieu</persName></p>
       <p>Madame Tyman, universitaire canadienne, assiste à la réunion précédant le repas.</p>
       <p>Communications et travaux :</p>
-      <p><persName ref="#jq">Jean Queval</persName>  : Néologismes abstraits (<persName ref="#gorwell">G. Orwell</persName>).</p>
+      <p><persName>Jean Queval</persName>  : Néologismes abstraits (<persName>G. Orwell</persName>).</p>
       <p>Création : Sonnet multiple.</p>
-      <p><persName ref="#mb">Marcel Bénabou</persName> : Érudition : « Ave Maria » (Grand Larousse du XIXème siècle)</p>
-      <p><label>Création : Poème en tête-à-queue – <term ref="#haikaisation">Haïkaïsation</term></label> </p>
-      <p><persName ref="#pf">Paul Fournel</persName> : Menus propos et badineries</p>
-      <p><persName ref="#ab">André Blavier</persName> : Érudition : Poème alphabétique de <persName ref="#philipert">Philipert</persName></p>
-      <p><persName ref="#audebrand">Audebrand</persName> : Au bout de six mois – Les devoirs du mariage.</p>
-      <p><persName ref="#guypatindemery">Guy Patin d’Emery</persName> : Les dégringoleurs de pantes (avec un a) 1904</p>
-      <p><persName ref="#la">Latis</persName> : Communication administrative et phynancière.</p>
-      <p>Spectacle recommandé <date>Samedi à 15 heures</date>, 16 bis rue Lauriston :films de <persName ref="#chaval">Chaval</persName></p>
-      <p><persName ref="#fll">François Le Lionnais</persName> : Icogramme.</p>
+      <p><persName>Marcel Bénabou</persName> : Érudition : « Ave Maria » (Grand Larousse du XIXème siècle)</p>
+      <p><label>Création : Poème en tête-à-queue – <term>Haïkaïsation</term></label></p>
+      <p><persName>Paul Fournel</persName> : Menus propos et badineries</p>
+      <p><persName>André Blavier</persName> : Érudition : Poème alphabétique de <persName>Philipert</persName></p>
+      <p><persName>Audebrand</persName> : Au bout de six mois – Les devoirs du mariage.</p>
+      <p><persName>Guy Patin d’Emery</persName> : Les dégringoleurs de pantes (avec un a) 1904</p>
+      <p><persName>Latis</persName> : Communication administrative et phynancière.</p>
+      <p>Spectacle recommandé <date>Samedi à 15 heures</date>, 16 bis rue Lauriston :films de <persName>Chaval</persName></p>
+      <p><persName>François Le Lionnais</persName> : Icogramme.</p>
       <p>Le président de séance</p>
       <p>L. Etienne</p>
     </body>

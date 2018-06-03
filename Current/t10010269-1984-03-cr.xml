@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010269-1984-03-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010269-1984-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,25 +17,28 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010269-1984-03-cr</idno>
-          <meeting xml:id="t10010269-1984-03">
-            <date when="1984-03-30">30 mars 1984</date>
-            <placeName>Chez PB</placeName>
-            <list type="present">
-              <item><persName ref="#na">Noël Arnaud</persName></item>
-              <item><persName ref="#hm">Harry Mathews</persName></item>
-              <item><persName ref="#jj">Jacques Jouet</persName></item>
-              <item><persName ref="#le">Luc Etienne</persName></item>
-              <item><persName ref="#jq">Jean Queval</persName></item>
-              <item><persName ref="#fc">François Caradec</persName></item>
-              <item><persName ref="#jr">Jacques Roubaud</persName></item>
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-              <item><persName ref="#pb">Paul Braffort</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010269-1984-03-cr</idno> <meeting xml:id="t10010269-1984-03">
+          <date when="1984-03-30">30 mars 1984</date>
+          <placeName>Chez PB</placeName>
+          <list type="present">
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Luc Etienne</persName></item>
+            <item><persName>Jean Queval</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -50,56 +54,48 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102697/f1.highres" n="1"/>
       <p rend="incipit">Oulipo 30-03-84</p>
-      <p rend="incipit">Chez <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#le"><abbr>LE</abbr></persName>, <persName ref="#jq"><abbr>JQ</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>, <persName ref="#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Chez <persName><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>NA</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>LE</abbr></persName>, <persName><abbr>JQ</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>PB</abbr></persName></p>
       <p rend="incipit">Excusés :</p>
-      <p>Président <persName ref="#fll"><abbr>FLL</abbr></persName> (rubrique spéciale, consécutive au décès de <persName ref="#fll"><abbr>FLL</abbr></persName>)</p>
+      <p>Président <persName><abbr>FLL</abbr></persName> (rubrique spéciale, consécutive au décès de <persName><abbr>FLL</abbr></persName>)</p>
       <list type="unordered">
-        <item>article sur <persName ref="#fll"><abbr>FLL</abbr></persName>, le <title ref="#matin">Matin</title>, <title ref="#liberation">Libération</title></item>
+        <item>article sur <persName><abbr>FLL</abbr></persName>, le <title>Matin</title>, <title>Libération</title></item>
       </list>
       <list type="unordered">
-        <item>élection d’un nouveau président : <persName ref="#na"><abbr>NA</abbr></persName> unique candidat</item>
+        <item>élection d’un nouveau président : <persName><abbr>NA</abbr></persName> unique candidat</item>
       </list>
       <list type="unordered">
-        <item>hommage a été rendu à <persName ref="#fll"><abbr>FLL</abbr></persName> à <name ref="#cerisy" type="manif">Cerisy</name> (<ref>voir
-            Archives</ref>)</item>
+        <item>hommage a été rendu à <persName><abbr>FLL</abbr></persName> à <name type="manif">Cerisy</name> (<ref>voir Archives</ref>)</item>
       </list>
       <list type="unordered">
-        <item><title ref="#lepanorama">le Panorama</title> de <orgName ref="#franceculture">France
-            Culture</orgName> le 11 avril sera consacré à <persName ref="#fll"><abbr>FLL</abbr></persName></item>
+        <item><title>le Panorama</title> de <orgName>France Culture</orgName> le 11 avril sera consacré à <persName><abbr>FLL</abbr></persName></item>
       </list>
       <list type="unordered">
-        <item>un hommage : <persName ref="#fll"><abbr>FLL</abbr></persName> dans la <title ref="#bibliothequeoulipienne">Bibliothèque
-            oulipienne</title></item>
+        <item>un hommage : <persName><abbr>FLL</abbr></persName> dans la <title>Bibliothèque oulipienne</title></item>
       </list>
       <list type="unordered">
-        <item><persName ref="#jq"><abbr>JQ</abbr></persName> propose une concession <persName ref="#pb"><abbr>PB</abbr></persName>-<persName ref="#jb"><abbr>JB</abbr></persName> pour</item>
+        <item><persName><abbr>JQ</abbr></persName> propose une concession <persName><abbr>PB</abbr></persName>-<persName><abbr>JB</abbr></persName> pour</item>
       </list>
       <list type="unordered">
-        <item>Félicitations à <persName ref="#pb"><abbr>PB</abbr></persName> pour avoir fait l’hommage à <orgName ref="#beaubourg">Beaubourg</orgName></item>
+        <item>Félicitations à <persName><abbr>PB</abbr></persName> pour avoir fait l’hommage à <orgName>Beaubourg</orgName></item>
       </list>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : <term ref="#eodermdrome">Eodermdrome</term> en l’honneur de
-          <persName ref="#jq">J Queval</persName></p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName> : <term ref="#sonnetanagramme">sonnet anagramme</term></p>
+      <p><persName><abbr>JR</abbr></persName> : <term>Eodermdrome</term> en l’honneur de <persName>J Queval</persName></p>
+      <p><persName><abbr>LE</abbr></persName> : <term>sonnet anagramme</term></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : un <term ref="#plagiaireparanticipation">plagiaire par
-          anticipation</term> de <persName ref="#leporeo">Leporeo</persName> : <persName ref="#raimondecornet">Raimon de Cornet</persName></p>
-      <p><persName ref="#na"><abbr>NA</abbr></persName> : les théoriciens : qui décrivent la <term ref="#contrainte">contrainte</term> à laquelle ils obéissent</p>
-      <p><persName ref="#josephboulmier">Joseph Boulmier</persName> : <title ref="#lavillanelle">La
-            <term ref="#villanelle">Villanelle</term></title> (<ref>voir Texte joint</ref>)</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <persName ref="#ponge">Ponge</persName> Oulipien</p>
-      <p><persName ref="#nerval">Nerval</persName> oulipien</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : problème de la bibliothèque <persName ref="#fll">Le
-          Lionnais</persName> : historique des démarches et des possibilités</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> - proposition achat de la maison <persName ref="#fll"><abbr>FLL</abbr></persName></p>
-      <p>Voir <persName ref="#tania">Tania</persName> pour demander sous quelles conditions on peut
-        acheter</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>-<persName ref="#pf"><abbr>PF</abbr></persName> : le problème de la distribution de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> va consulter les représentants</p>
+      <p><persName><abbr>JR</abbr></persName> : un <term>plagiaire par anticipation</term> de <persName>Leporeo</persName> : <persName>Raimon de Cornet</persName></p>
+      <p><persName><abbr>NA</abbr></persName> : les théoriciens : qui décrivent la <term>contrainte</term> à laquelle ils obéissent</p>
+      <p><persName>Joseph Boulmier</persName> : <title>La <term>Villanelle</term></title> (<ref>voir Texte joint</ref>)</p>
+      <p><persName><abbr>MB</abbr></persName> : <persName>Ponge</persName> Oulipien</p>
+      <p><persName>Nerval</persName> oulipien</p>
+      <p><persName><abbr>MB</abbr></persName> : problème de la bibliothèque <persName>Le Lionnais</persName> : historique des démarches et des possibilités</p>
+      <p><persName><abbr>PF</abbr></persName> - proposition achat de la maison <persName><abbr>FLL</abbr></persName></p>
+      <p>Voir <persName>Tania</persName> pour demander sous quelles conditions on peut acheter</p>
+      <p><persName><abbr>MB</abbr></persName>-<persName><abbr>PF</abbr></persName> : le problème de la distribution de la <title>Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>PB</abbr></persName> va consulter les représentants</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102697/f2.highres" n="2"/>
-      <p><persName ref="#na"><abbr>NA</abbr></persName> : lecture de la <title ref="#reponseagenette">Réponse à <persName ref="#genette">Genette</persName></title> , parue dans <title ref="#sureaunumero1">Sureau </title>numéro 1</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  le 27-4-83 soir</p>
+      <p><persName><abbr>NA</abbr></persName> : lecture de la <title>Réponse à <persName>Genette</persName></title>, parue dans <title>Sureau</title> numéro 1</p>
+      <p><name type="manif">Prochaine réunion</name> le 27-4-83 soir</p>
     </body>
   </text>
 </TEI>

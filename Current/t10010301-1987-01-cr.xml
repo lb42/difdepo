@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010301-1987-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010301-1987-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,19 +21,24 @@
           <date when="1987-01-29">29 janvier 1987</date>
           <placeName>chez JJ</placeName>
           <list type="present">
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#jj">Jacques Jouet</persName></item>
-            <item><persName ref="#jb">Jacques Bens</persName></item>
-            <item><persName ref="#na">Noël Arnaud</persName></item>
-            <item><persName ref="#pf">Paul Fournel</persName></item>
-            <item><persName ref="#cb">Claude Berge</persName></item>
-            <item><persName ref="#mm">Michele Métail</persName></item>
-            <item><persName ref="#mb" role="secrétaire">Marcel Bénabou</persName></item>
-            <item><persName ref="#fc" role="président">François Caradec</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName role="président">François Caradec</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -48,30 +54,30 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010301j/f7.highres" n="7"/>
       <p rend="incipit">OULIPO du 29 1 87</p>
-      <p rend="incipit">Présents : <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName>, <persName ref="#jj"><abbr>JJ</abbr></persName>, <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Président : <persName ref="#fc">François Caradec</persName></p>
-      <p rend="incipit">Secrétaire : <persName ref="#mb">Marcel Bénabou</persName></p>
+      <p rend="incipit">Présents : <persName><abbr>JR</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Président : <persName>François Caradec</persName></p>
+      <p rend="incipit">Secrétaire : <persName>Marcel Bénabou</persName></p>
       <p>Menu : salade pamplemousse. Bœuf aux carottes – brocolis – riz. Fromage. Poire – glace – chocolat</p>
       <p>Vins :</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : <title ref="#laliberteguidantlepeintre">La liberté guidant le peintre</title></p>
-      <p>Une <term ref="#construction">construction</term> établie sur le <term ref="#contraste">contraste</term> entre un <term ref="#substantif">substantif</term> seul (placé au centre) et un <term ref="#entourage">entourage</term> qui exclut les <term ref="#substantifs">substantifs</term>.</p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> En vue de l’<orgName ref="#outhepo">Outhepo</orgName> : quelques questions sur le théâtre</p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> Supplément à la <title ref="#viedessaintes">Vie des Saintes</title></p>
-      <p>à partir du corpus homogène à Vies de Saintes. Faire une <term ref="#combinatoire">combinatoire</term></p>
-      <p>On passe à table et on parle de l’hommage = <persName ref="#jq">Queval</persName></p>
+      <p><persName><abbr>JJ</abbr></persName> : <title>La liberté guidant le peintre</title></p>
+      <p>Une <term>construction</term> établie sur le <term>contraste</term> entre un <term>substantif</term> seul (placé au centre) et un <term>entourage</term> qui exclut les <term>substantifs</term>.</p>
+      <p><persName><abbr>JR</abbr></persName> En vue de l’<orgName>Outhepo</orgName> : quelques questions sur le théâtre</p>
+      <p><persName><abbr>JB</abbr></persName> Supplément à la <title>Vie des Saintes</title></p>
+      <p>à partir du corpus homogène à Vies de Saintes. Faire une <term>combinatoire</term></p>
+      <p>On passe à table et on parle de l’hommage = <persName>Queval</persName></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : <term ref="#palindrome">Palindrome</term> cinématographique tournés par <persName ref="#raoulruiz">Raoul Ruiz</persName></p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : <term ref="#lipogramme">Lipogramme</term> en o = Texte d’<persName ref="#alphonsekarr">Alphonse Karr</persName></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : Hommage de <persName ref="#moreas">Moréas</persName> à <persName ref="#jq">Queval</persName></p>
+      <p><persName><abbr>JR</abbr></persName> : <term>Palindrome</term> cinématographique tournés par <persName>Raoul Ruiz</persName></p>
+      <p><persName><abbr>JB</abbr></persName> : <term>Lipogramme</term> en o = Texte d’<persName>Alphonse Karr</persName></p>
+      <p><persName><abbr>FC</abbr></persName> : Hommage de <persName>Moréas</persName> à <persName>Queval</persName></p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> <title ref="#zazie">Zazie</title> <name ref="#representationachatenay" type="manif">représentation à Chatenay</name></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> Dune lettre</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> <name ref="#lectureoulipoaivry" type="manif">Lecture Oulipo à Ivry</name> couplé avec <name ref="#spectacleroubaud" type="manif">Spectacle <persName ref="#jr">Roubaud</persName></name> le 2 juin</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> le 23 mai à la Villette = <name ref="#tableronde" type="manif">Table-Ronde</name></p>
+      <p><persName><abbr>PF</abbr></persName> <title>Zazie</title> <name type="manif">représentation à Chatenay</name></p>
+      <p><persName><abbr>MB</abbr></persName> Dune lettre</p>
+      <p><persName><abbr>JJ</abbr></persName> <name type="manif">Lecture Oulipo à Ivry</name> couplé avec <name type="manif">Spectacle <persName>Roubaud</persName></name> le 2 juin</p>
+      <p><persName><abbr>PB</abbr></persName> le 23 mai à la Villette = <name type="manif">Table-Ronde</name></p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : Film de <persName ref="#raoulruiz">Raoul Ruiz</persName> = <term ref="#labyrinthe">Labyrinthe</term> avec <persName ref="#prosentiehl">P. Rosentiehl</persName>.</p>
-      <p>Préparation de la lecture à faire ce même jour à la <orgName ref="#maisondesecrivains">Maison des Ecrivains</orgName>, à 18h. Programme mis au point par <persName ref="#jj"><abbr>JJ</abbr></persName> et <persName ref="#pb"><abbr>PB</abbr></persName>.</p>
+      <p><persName><abbr>JR</abbr></persName> : Film de <persName>Raoul Ruiz</persName> = <term>Labyrinthe</term> avec <persName>P. Rosentiehl</persName>.</p>
+      <p>Préparation de la lecture à faire ce même jour à la <orgName>Maison des Ecrivains</orgName>, à 18h. Programme mis au point par <persName><abbr>JJ</abbr></persName> et <persName><abbr>PB</abbr></persName>.</p>
     </body>
   </text>
 </TEI>

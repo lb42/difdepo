@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010329-1989-08-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010329-1989-08-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010329-1989-08-cv</idno> <title>Convocation à <ref target="#t10010329-1989-08">une réunion Oulipo</ref>, envoyée le <date when="1989-08-02">2 août 1989</date></title> </bibl>
+        <bibl><idno>t10010329-1989-08-cv</idno> <title>Convocation à <ref target="#t10010329-1989-08">une réunion Oulipo</ref>, envoyée le <date when="1989-08-02">2 août 1989</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -33,7 +39,7 @@
       <p>OULIPO</p>
       <p>Paris, le 2 août 1989</p>
       <p>Chers oulipiens,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le vendredi 18 août 1989 à 19 heures chez <persName ref="#isabelle">Isabelle</persName> et <persName ref="#mb">Marcel Bénabou</persName> (5 rue Simon Lefranc, 75004 – 40 29 96 45).</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le vendredi 18 août 1989 à 19 heures chez <persName>Isabelle</persName> et <persName>Marcel Bénabou</persName> (5 rue Simon Lefranc, 75004 – 40 29 96 45).</p>
       <p>Merci de retourner la découpe ci-dessous.</p>
       <p>Au 18, amitiés.</p>
     </body>

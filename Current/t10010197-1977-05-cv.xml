@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-05-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010197-1977-05-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010197-1977-05-cv</idno> <title>Convocation à <ref target="#t10010197-1977-05">une réunion Oulipo</ref>, envoyée le <date when="1977-05-23">23 mai 1977</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010197-1977-05-cv</idno> <title>Convocation à <ref target="#t10010197-1977-05">une réunion Oulipo</ref>, envoyée le <date when="1977-05-23">23 mai 1977</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -34,12 +40,12 @@
       <p>OULIPO</p>
       <p>Paris le 23 Mai 77</p>
       <p>Chers oulipotes,</p>
-      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu le jeudi 2 juin 1977, à 11 heures chez <persName ref="#mb">Marcel Bénabou</persName>, villa Duthy dans le 14°.</p>
-      <p>On y procèdera à la distribution du volume « <title ref="#aqueneau">A <persName>Queneau</persName></title> » de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> Il faudra ensuite établir un programme détaillé de la semaine oulipo de <name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name> qui aura lieu, comme prévu du 15 au 21 juillet 77.</p>
+      <p>La <name type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 2 juin 1977, à 11 heures chez <persName>Marcel Bénabou</persName>, villa Duthy dans le 14°.</p>
+      <p>On y procèdera à la distribution du volume « <title>A <persName>Queneau</persName></title> » de la <title>Bibliothèque oulipienne</title> Il faudra ensuite établir un programme détaillé de la semaine oulipo de <name type="manif">Villeneuve-lès-Avignon</name> qui aura lieu, comme prévu du 15 au 21 juillet 77.</p>
       <p>Ces diverses actions, j’en suis sûr, ne porteront pas ombrage à la création qui sera aussi vigoureusement représentée qu’à la dernière réunion…</p>
-      <p>Retournez la découpe ci-dessous aussi tôt que possible à <persName ref="#mb">Marcel Bénabou</persName>. D’avance, merci.</p>
+      <p>Retournez la découpe ci-dessous aussi tôt que possible à <persName>Marcel Bénabou</persName>. D’avance, merci.</p>
       <p>Au 2 juin, oulipiennement vôtre,</p>
-      <p><persName ref="#pf">Paul Fournel</persName>,</p>
+      <p><persName>Paul Fournel</persName>,</p>
       <p>Un secrétaire.</p>
     </body>
   </text>

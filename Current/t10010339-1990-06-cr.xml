@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010339-1990-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010339-1990-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,22 +17,25 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010339-1990-06-cr</idno>
-          <meeting xml:id="t10010339-1990-06">
-            <date when="1990-06-23">23 juin 1990</date>
-            <placeName>chez FC</placeName>
-            <list type="present">
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-              <item><persName ref="#mm">Michele Métail</persName></item>
-              <item><persName ref="#fc">François Caradec</persName></item>
-              <item><persName ref="#jj">Jacques Jouet</persName></item>
-              <item><persName ref="#pf" role="secrétaire">Paul Fournel</persName></item>
-              <item><persName ref="#jr" role="président">Jacques Roubaud</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010339-1990-06-cr</idno> <meeting xml:id="t10010339-1990-06">
+          <date when="1990-06-23">23 juin 1990</date>
+          <placeName>chez FC</placeName>
+          <list type="present">
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Jacques Jouet</persName></item>
+            <item><persName role="secrétaire">Paul Fournel</persName></item>
+            <item><persName role="président">Jacques Roubaud</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -45,60 +49,39 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010339c/f11.highres" n="11"/>
-      <p rend="incipit">Séance du 23 06 90 chez <persName ref="#fc"><abbr>FC</abbr></persName> Menu : Kimson Gamay</p>
+      <p rend="incipit">Séance du 23 06 90 chez <persName><abbr>FC</abbr></persName> Menu : Kimson Gamay</p>
       <p rend="incipit">rôti</p>
       <p rend="incipit">HV + pommes de terre</p>
       <p rend="incipit">fromages</p>
       <p rend="incipit">gâteau au chocolat</p>
-      <p rend="incipit">Présents : <persName ref="#mb"><abbr>MB</abbr></persName>
-        <persName ref="#mm"><abbr>MM</abbr></persName>
-        <persName ref="#fc"><abbr>FC</abbr></persName>
-        <persName ref="#jj"><abbr>JJ</abbr></persName>
-        <persName ref="#jr"><abbr>JR</abbr></persName>
-        <persName ref="#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">excusés : <persName ref="#na"><abbr>NA</abbr></persName>
-        <persName ref="#pr"><abbr>PR</abbr></persName>
-        <persName ref="#cb"><abbr>CB</abbr></persName>
-        <persName ref="#hm"><abbr>HM</abbr></persName>
-        <persName ref="#jd"><abbr>JD</abbr></persName>
-        <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">absents : <persName ref="#jq"><abbr>JQ</abbr></persName>
-        <persName ref="#ab"><abbr>AB</abbr></persName></p>
-      <p rend="incipit">Président <persName ref="#jr"><abbr>JR</abbr></persName>, secrétaire <persName ref="#pf"><abbr>PF</abbr></persName>. [Ritmo était présent]</p>
+      <p rend="incipit">Présents : <persName><abbr>MB</abbr></persName> <persName><abbr>MM</abbr></persName> <persName><abbr>FC</abbr></persName> <persName><abbr>JJ</abbr></persName> <persName><abbr>JR</abbr></persName> <persName><abbr>PF</abbr></persName></p>
+      <p rend="incipit">excusés : <persName><abbr>NA</abbr></persName> <persName><abbr>PR</abbr></persName> <persName><abbr>CB</abbr></persName> <persName><abbr>HM</abbr></persName> <persName><abbr>JD</abbr></persName> <persName><abbr>PB</abbr></persName></p>
+      <p rend="incipit">absents : <persName><abbr>JQ</abbr></persName> <persName><abbr>AB</abbr></persName></p>
+      <p rend="incipit">Président <persName><abbr>JR</abbr></persName>, secrétaire <persName><abbr>PF</abbr></persName>. [Ritmo était présent]</p>
       <p><label type="rubrique">Création :</label></p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : 4 nouveaux <term ref="#filigranes">filigranes</term></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : fait de même mais à l’envers</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : <title ref="#mecriteelementaire">Mécrite élémentaire</title>
-          (<orgName ref="#alamo">Alamo</orgName>)</p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : <title ref="#moraleelementaire"><term ref="#moraleelementaire">Morale élémentaire</term></title> en <term ref="#motscomposesdecomposes">mots composés
-          décomposés</term></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : Rappel du 23 juin</p>
-      <p>le 24 Novembre 89 nous avons tenu une séance pour décider de reprendre des <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> individuelles, collections
-        thématiques</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Positions de l’Oulipo sur la <term ref="#reformedelorthographie">réforme de l’orthographie</term></p>
+      <p><persName><abbr>JJ</abbr></persName> : 4 nouveaux <term>filigranes</term></p>
+      <p><persName><abbr>MB</abbr></persName> : fait de même mais à l’envers</p>
+      <p><persName><abbr>JJ</abbr></persName> : <title>Mécrite élémentaire</title> (<orgName>Alamo</orgName>)</p>
+      <p><persName><abbr>JR</abbr></persName> : <title><term>Morale élémentaire</term></title> en <term>mots composés décomposés</term></p>
+      <p><persName><abbr>MB</abbr></persName> : Rappel du 23 juin</p>
+      <p>le 24 Novembre 89 nous avons tenu une séance pour décider de reprendre des <title>Bibliothèque oulipienne</title> individuelles, collections thématiques</p>
+      <p><persName><abbr>PF</abbr></persName> : Positions de l’Oulipo sur la <term>réforme de l’orthographie</term></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="#mm"><abbr>MM</abbr></persName> : <persName ref="#schenyue">Schen Yue</persName> (444-513) a isolé
-        les 4 <term ref="#tons">tons</term> &gt; réponse selon le <term ref="#principederoubaud">principe de <persName ref="#jr">Roubaud</persName></term> .</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : <persName ref="#ezrapound">Ezra Pound</persName>
-        <term ref="#plagiaireparanticipation">plagiaire par anticipation</term> de <persName ref="#rq"><abbr>RQ</abbr></persName></p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : <term ref="#curiositessyntaiques">Curiosités syntaxiques</term></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Soutenance <persName ref="#carolus">Carolus</persName>
-        L’INVITER</p>
+      <p><persName><abbr>MM</abbr></persName> : <persName>Schen Yue</persName> (444-513) a isolé les 4 <term>tons</term> &gt; réponse selon le <term>principe de <persName>Roubaud</persName></term>.</p>
+      <p><persName><abbr>FC</abbr></persName> : <persName>Ezra Pound</persName> <term>plagiaire par anticipation</term> de <persName><abbr>RQ</abbr></persName></p>
+      <p><persName><abbr>JJ</abbr></persName> : <term>Curiosités syntaxiques</term></p>
+      <p><persName><abbr>PF</abbr></persName> : Soutenance <persName>Carolus</persName> L’INVITER</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#tarbes">Tarbes</persName> nous invite OK pour le
-        printemps 91</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <title ref="#nouvellerevuefrancaise">Nouvelle Revue
-          Française</title></p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName> : Thionville + <orgName ref="#arsenal">Arsenal</orgName> pour <name ref="#lafureurdelire" type="manif">la fureur de lire</name></p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Tarbes</persName> nous invite OK pour le printemps 91</p>
+      <p><persName><abbr>PF</abbr></persName> : <title>Nouvelle Revue Française</title></p>
+      <p><persName><abbr>FC</abbr></persName> : Thionville + <orgName>Arsenal</orgName> pour <name type="manif">la fureur de lire</name></p>
       <p>1 Japonais le démarche</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : Projet en Italie à Florence</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : Projet en Italie à Naples naissance d’un Oulipo italien ? INVITER
-          <persName ref="#eco">ECO</persName></p>
+      <p><persName><abbr>MB</abbr></persName> : Projet en Italie à Florence</p>
+      <p><persName><abbr>MB</abbr></persName> : Projet en Italie à Naples naissance d’un Oulipo italien ? INVITER <persName>ECO</persName></p>
       <p>Menu Propos :</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <term ref="#monostiquefau">monostique faux</term> (blâme : c’était
-        une érudition)</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#lalanne">Lalanne</persName></p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName> : la <title ref="#manufacture">Manufacture</title> arnaque dur.</p>
+      <p><persName><abbr>MB</abbr></persName> : <term>monostique faux</term> (blâme : c’était une érudition)</p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Lalanne</persName></p>
+      <p><persName><abbr>JJ</abbr></persName> : la <title>Manufacture</title> arnaque dur.</p>
     </body>
   </text>
 </TEI>

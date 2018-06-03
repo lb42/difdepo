@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010284-1985-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010284-1985-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,17 +21,22 @@
           <date when="1985-08-23">23 août 1985</date>
           <placeName>Chez JJ</placeName>
           <list type="present">
-            <item><persName ref="#jb">Jacques Bens</persName></item>
-            <item><persName ref="#cb">Claude Berge</persName></item>
-            <item><persName ref="#pb">Paul Braffort</persName></item>
-            <item><persName ref="#fc">François Caradec</persName></item>
-            <item><persName ref="#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="#pf" role="secrétaire">Paul Fournel</persName></item>
-            <item><persName ref="#mb" role="président">Marcel Bénabou</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>François Caradec</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName role="secrétaire">Paul Fournel</persName></item>
+            <item><persName role="président">Marcel Bénabou</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -46,44 +52,44 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010284t/f5.highres" n="5"/>
       <p rend="incipit">OULIPO – Réunion du Vendredi 23 août 1985, à 19h.</p>
-      <p rend="incipit">Présents : <persName ref="#jj">Jacques Jouet</persName> qui reçoit avec <persName ref="#francoisesanchez">Françoise Sanchez</persName>, <persName ref="#mb">Marcel Bénabou</persName> qui préside, <persName ref="#jb">Jacques Bens</persName>, <persName ref="#cb">Claude Berge</persName> qui vient tard, <persName ref="#pb">Paul Braffort</persName>, <persName ref="#fc">François Caradec</persName>, <persName ref="#pf">Paul Fournel</persName> qui prend des notes, <persName ref="#jr">Jacques Roubaud</persName>.</p>
-      <p rend="incipit">Excusé : <persName ref="#jq">Jean Queval</persName> qui se met en congé d’Oulipo « jusqu’à nouvel ordre » (lettre à <persName ref="#mb"><abbr>MB</abbr></persName>, lue ici).</p>
+      <p rend="incipit">Présents : <persName>Jacques Jouet</persName> qui reçoit avec <persName>Françoise Sanchez</persName>, <persName>Marcel Bénabou</persName> qui préside, <persName>Jacques Bens</persName>, <persName>Claude Berge</persName> qui vient tard, <persName>Paul Braffort</persName>, <persName>François Caradec</persName>, <persName>Paul Fournel</persName> qui prend des notes, <persName>Jacques Roubaud</persName>.</p>
+      <p rend="incipit">Excusé : <persName>Jean Queval</persName> qui se met en congé d’Oulipo « jusqu’à nouvel ordre » (lettre à <persName><abbr>MB</abbr></persName>, lue ici).</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p>: <persName ref="#mb"><abbr>MB</abbr></persName> mentionne l’article de <persName ref="#poirotdelpech">Poirot-Delpech</persName> sur <persName ref="#gp">Perec</persName>, dans <orgName ref="#lemonde">Le Monde</orgName> du 15 août. <persName ref="#fc"><abbr>FC</abbr></persName> : Il ne parle que des livres de chez <orgName ref="#hachette">Hachette</orgName> !</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <persName ref="#poirot">Poirot</persName> dit un certain nombre de sottises, nous lui avons fait une lettre, avec <persName ref="#paulette">Paulette</persName>, que <persName ref="#jr"><abbr>JR</abbr></persName> devrait signer (ce qu’il fait). Allusion amusée à un lapsus de <persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#sarah">Sarah</persName>, pour <persName ref="#esther">Esther</persName>.</p>
-      <p>Il est mandaté pour, la prochaine fois, parler de <persName ref="#rachel">Rachel</persName>…</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> demande l’accord de l’ouvroir sur le principe d’un article sur le livre de <persName ref="#gp"><abbr>GP</abbr></persName> à paraître chez <orgName ref="#hachette">Hachette</orgName> (<title ref="#magazinelitteraire">Magazine littéraire</title>).</p>
-      <p>: <persName ref="#fc"><abbr>FC</abbr></persName> présente des photos de <persName ref="#gp">Georges Perec</persName>.</p>
-      <p>: <persName ref="#mb"><abbr>MB</abbr></persName> parle de la séance au cours de laquelle des Oupeinpiens ont présenté leurs travaux aux Oulipiens. Document de l’exposé de <persName ref="#thierryfoulc">Thierry Foulc</persName>.</p>
-      <p>Projet d’une réunion Oulipo-<orgName ref="#oupeinpo">Oupeinpo</orgName>, à notre initiative, début 86.</p>
-      <p>: <persName ref="#pb"><abbr>PB</abbr></persName> mentionne la rediffusion TV du film « <title ref="#jetueil">Je tue il</title>, » dans lequel on voit passer <persName ref="#rq"><abbr>RQ</abbr></persName>.</p>
+      <p>: <persName><abbr>MB</abbr></persName> mentionne l’article de <persName>Poirot-Delpech</persName> sur <persName>Perec</persName>, dans <orgName>Le Monde</orgName> du 15 août. <persName><abbr>FC</abbr></persName> : Il ne parle que des livres de chez <orgName>Hachette</orgName> !</p>
+      <p><persName><abbr>MB</abbr></persName> : <persName>Poirot</persName> dit un certain nombre de sottises, nous lui avons fait une lettre, avec <persName>Paulette</persName>, que <persName><abbr>JR</abbr></persName> devrait signer (ce qu’il fait). Allusion amusée à un lapsus de <persName><abbr>PF</abbr></persName> <persName>Sarah</persName>, pour <persName>Esther</persName>.</p>
+      <p>Il est mandaté pour, la prochaine fois, parler de <persName>Rachel</persName>…</p>
+      <p><persName><abbr>PF</abbr></persName> demande l’accord de l’ouvroir sur le principe d’un article sur le livre de <persName><abbr>GP</abbr></persName> à paraître chez <orgName>Hachette</orgName> (<title>Magazine littéraire</title>).</p>
+      <p>: <persName><abbr>FC</abbr></persName> présente des photos de <persName>Georges Perec</persName>.</p>
+      <p>: <persName><abbr>MB</abbr></persName> parle de la séance au cours de laquelle des Oupeinpiens ont présenté leurs travaux aux Oulipiens. Document de l’exposé de <persName>Thierry Foulc</persName>.</p>
+      <p>Projet d’une réunion Oulipo-<orgName>Oupeinpo</orgName>, à notre initiative, début 86.</p>
+      <p>: <persName><abbr>PB</abbr></persName> mentionne la rediffusion TV du film « <title>Je tue il</title>, » dans lequel on voit passer <persName><abbr>RQ</abbr></persName>.</p>
       <p><label type="rubrique">Créations</label></p>
-      <p>: <persName ref="#jj"><abbr>JJ</abbr></persName> : Poème, une <term ref="#belleabsente">belle absente</term> définissant la <term ref="#belleabsente">belle absente</term>, ou, du moins, en parlant.</p>
-      <p>: <persName ref="#pb"><abbr>PB</abbr></persName> communique quelques <term ref="#pangrammesminimau">pangrammes minimaux</term> (voyelles et tous accents et signes diacritiques) écrits par…</p>
-      <p>: <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#augustusdemorgan">Augustus de Morgan</persName> : <title ref="#abudgetofparadoes">A budget of paradoxes</title> (à présenter à une prochaine séance.</p>
-      <p>: <persName ref="#jj"><abbr>JJ</abbr></persName>, 14 = 15 en <term ref="#palindromedhemistiches">palindrome d’hémistiches</term>, formule nouvelle pour un <term ref="#sonnetalongueurvariable">sonnet à longueur variable</term>.</p>
-      <p>: <persName ref="#fc"><abbr>FC</abbr></persName>, Chaîne de l’Oulipo. Chaîne de la réussite littéraire. A ne rompre sous aucun prétexte si vous la recevez.</p>
-      <p>: <persName ref="#mb"><abbr>MB</abbr></persName> nous entretient de son ouvrage en cours : « <title ref="#pourquoijenaiecritaucundemeslivres">Pourquoi je n’ai écrit aucun de mes livres</title> ».</p>
+      <p>: <persName><abbr>JJ</abbr></persName> : Poème, une <term>belle absente</term> définissant la <term>belle absente</term>, ou, du moins, en parlant.</p>
+      <p>: <persName><abbr>PB</abbr></persName> communique quelques <term>pangrammes minimaux</term> (voyelles et tous accents et signes diacritiques) écrits par…</p>
+      <p>: <persName><abbr>JR</abbr></persName>, <persName>Augustus de Morgan</persName> : <title>A budget of paradoxes</title> (à présenter à une prochaine séance.</p>
+      <p>: <persName><abbr>JJ</abbr></persName>, 14 = 15 en <term>palindrome d’hémistiches</term>, formule nouvelle pour un <term>sonnet à longueur variable</term>.</p>
+      <p>: <persName><abbr>FC</abbr></persName>, Chaîne de l’Oulipo. Chaîne de la réussite littéraire. A ne rompre sous aucun prétexte si vous la recevez.</p>
+      <p>: <persName><abbr>MB</abbr></persName> nous entretient de son ouvrage en cours : « <title>Pourquoi je n’ai écrit aucun de mes livres</title> ».</p>
       <p><label type="rubrique">Erudipo</label></p>
-      <p>: <persName ref="#fc"><abbr>FC</abbr></persName>, <term ref="#degoulinadedalvas">dégoulinade d’<term ref="#alvas">Alvas</term></term> et <term ref="#assonancesbabebines">assonances babébines</term>.</p>
-      <p>(A ce propos, errata du CR du 8 juin dernier : l’<term ref="#aleandrin">alexandrin</term> de <persName ref="#ab">Blavier</persName> devait se lire : « Frustrée est-elle, elle qui se voyait lustrée. »)</p>
+      <p>: <persName><abbr>FC</abbr></persName>, <term>dégoulinade d’<term>Alvas</term></term> et <term>assonances babébines</term>.</p>
+      <p>(A ce propos, errata du CR du 8 juin dernier : l’<term>alexandrin</term> de <persName>Blavier</persName> devait se lire : « Frustrée est-elle, elle qui se voyait lustrée. »)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010284t/f6.highres" n="6"/>
-      <p>: <persName ref="#mb"><abbr>MB</abbr></persName> : « Dans le nous, abstiens-toi. »</p>
-      <p>: <persName ref="#catherinedaste">Catherine Dasté</persName> demande à <persName ref="#jj"><abbr>JJ</abbr></persName> de communiquer un extrait du <name ref="#seminairedelacan" type="manif">séminaire de <persName ref="#lacan">Lacan</persName></name> « <title ref="#desformationsdelinconscient">Des formations de l’Inconscient</title> » (11-12-1957). <persName ref="#lacan">Lacan</persName> y rapporte une histoire de cheval que <persName ref="#rq"><abbr>RQ</abbr></persName> lui a racontée. (A propose du mot d’esprit et du comique).</p>
+      <p>: <persName><abbr>MB</abbr></persName> : « Dans le nous, abstiens-toi. »</p>
+      <p>: <persName>Catherine Dasté</persName> demande à <persName><abbr>JJ</abbr></persName> de communiquer un extrait du <name type="manif">séminaire de <persName>Lacan</persName></name> « <title>Des formations de l’Inconscient</title> » (11-12-1957). <persName>Lacan</persName> y rapporte une histoire de cheval que <persName><abbr>RQ</abbr></persName> lui a racontée. (A propose du mot d’esprit et du comique).</p>
       <p><label type="rubrique">Actions</label></p>
-      <p>: Proposition de <name ref="#stage" type="manif">stage</name> à Tulle. Acceptée. <persName ref="#jb"><abbr>JB</abbr></persName> et <persName ref="#pb"><abbr>PB</abbr></persName>, si weekend.</p>
-      <p>: Saint-Quentin, <name ref="#stagesurlanouvelle" type="manif">stage sur la nouvelle</name>. Réunion de préparation le 3 septembre.</p>
-      <p>: <persName ref="#jb"><abbr>JB</abbr></persName>, compte-rendu du <name ref="#stagedevilleneuve" type="manif">stage de Villeneuve</name>. 23 stagiaires. Un des stages les plus réussis, de mémoire d’oulipien. <persName ref="#mb"><abbr>MB</abbr></persName> : il faut prévoir un deuxième niveau. <persName ref="#jr"><abbr>JR</abbr></persName> : nous en sommes incapables !</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : il faut faire des stages spécialisés (cf. <name ref="#saintquentin" type="manif">Saint-Quentin</name>), ex : <term ref="#langagecuit">langage cuit</term>. <persName ref="#jr"><abbr>JR</abbr></persName> : oui, ex. les <term ref="#formesfies">formes fixes</term>.</p>
-      <p>: <persName ref="#cb"><abbr>CB</abbr></persName> veut travailler sur les gnômes.</p>
-      <p>: <title ref="#guidedelitterature">Guide de littérature</title>. La réunion de septembre lui sera entièrement consacrée, ainsi qu’un <name ref="#seminaireande" type="manif">séminaire Andé</name>, pour la Toussaint, les 1<hi rend="sup">ier</hi>, 2 et 3 novembre.</p>
-      <p>: <persName ref="#mb"><abbr>MB</abbr></persName>. Problème des archives Oulipo. <persName ref="#pauletteperec">Paulette Perec</persName> propose un dépôt à l’Arsenal. <persName ref="#jb"><abbr>JB</abbr></persName> approuve. <persName ref="#fc"><abbr>FC</abbr></persName> : il faut d’abord déboulonner la sculpture de <persName ref="#rimbaud">Rimbaud</persName>. Tous : étudions la question (laquelle ?)</p>
-      <p> <label type="rubrique"><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></label> </p>
-      <p>: Pour la réédition des trente premiers numéros, chez <orgName ref="#ramsay">Ramsay</orgName>, que chacun envoie le texte définitif (si révisons et corrections il y a) avant le 15 octobre 85, dernier délai. Suspense : <title ref="#aleandreaugreffoir">Alexandre au Greffoir</title> sera-t-il livré à temps ? <persName ref="#pf"><abbr>PF</abbr></persName> demande une préface au Président <persName ref="#na">Arnaud</persName>.</p>
-      <p>: <persName ref="#pf"><abbr>PF</abbr></persName> lit des morceaux d’un texte d’<persName ref="#ab"><abbr>AB</abbr></persName> qui n’est pas oulipien.</p>
-      <p>: Distribution de la dernière lettre de <persName ref="#le"><abbr>LE</abbr></persName>, en fac-simile, dans une <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> hors-série.</p>
-      <p>Samedi 28 septembre : séance chez <persName ref="#jb">Jacques Bens</persName>,</p>
-      <p>A Limours, à 16 heures. On travaille sur le <title ref="#guide">Guide</title>,</p>
+      <p>: Proposition de <name type="manif">stage</name> à Tulle. Acceptée. <persName><abbr>JB</abbr></persName> et <persName><abbr>PB</abbr></persName>, si weekend.</p>
+      <p>: Saint-Quentin, <name type="manif">stage sur la nouvelle</name>. Réunion de préparation le 3 septembre.</p>
+      <p>: <persName><abbr>JB</abbr></persName>, compte-rendu du <name type="manif">stage de Villeneuve</name>. 23 stagiaires. Un des stages les plus réussis, de mémoire d’oulipien. <persName><abbr>MB</abbr></persName> : il faut prévoir un deuxième niveau. <persName><abbr>JR</abbr></persName> : nous en sommes incapables !</p>
+      <p><persName><abbr>MB</abbr></persName> : il faut faire des stages spécialisés (cf. <name type="manif">Saint-Quentin</name>), ex : <term>langage cuit</term>. <persName><abbr>JR</abbr></persName> : oui, ex. les <term>formes fixes</term>.</p>
+      <p>: <persName><abbr>CB</abbr></persName> veut travailler sur les gnômes.</p>
+      <p>: <title>Guide de littérature</title>. La réunion de septembre lui sera entièrement consacrée, ainsi qu’un <name type="manif">séminaire Andé</name>, pour la Toussaint, les 1<hi rend="sup">ier</hi>, 2 et 3 novembre.</p>
+      <p>: <persName><abbr>MB</abbr></persName>. Problème des archives Oulipo. <persName>Paulette Perec</persName> propose un dépôt à l’Arsenal. <persName><abbr>JB</abbr></persName> approuve. <persName><abbr>FC</abbr></persName> : il faut d’abord déboulonner la sculpture de <persName>Rimbaud</persName>. Tous : étudions la question (laquelle ?)</p>
+      <p><label type="rubrique"><title>Bibliothèque oulipienne</title></label></p>
+      <p>: Pour la réédition des trente premiers numéros, chez <orgName>Ramsay</orgName>, que chacun envoie le texte définitif (si révisons et corrections il y a) avant le 15 octobre 85, dernier délai. Suspense : <title>Alexandre au Greffoir</title> sera-t-il livré à temps ? <persName><abbr>PF</abbr></persName> demande une préface au Président <persName>Arnaud</persName>.</p>
+      <p>: <persName><abbr>PF</abbr></persName> lit des morceaux d’un texte d’<persName><abbr>AB</abbr></persName> qui n’est pas oulipien.</p>
+      <p>: Distribution de la dernière lettre de <persName><abbr>LE</abbr></persName>, en fac-simile, dans une <title>Bibliothèque oulipienne</title> hors-série.</p>
+      <p>Samedi 28 septembre : séance chez <persName>Jacques Bens</persName>,</p>
+      <p>A Limours, à 16 heures. On travaille sur le <title>Guide</title>,</p>
       <p>Après, on dîne.</p>
       <p>Il y eut :</p>
       <p>Taboulé</p>

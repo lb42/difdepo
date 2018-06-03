@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010324-1989-02-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010324-1989-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,9 +19,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010324-1989-02-oj</idno> <title>Ordre de jour de <ref target="#t10010324-1989-02">la réunion Oulipo</ref> du <date when="1989-02-13">13 février 1989</date></title> </bibl>
+        <bibl><idno>t10010324-1989-02-oj</idno> <title>Ordre de jour de <ref target="#t10010324-1989-02">la réunion Oulipo</ref> du <date when="1989-02-13">13 février 1989</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -32,35 +38,35 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010324q/f3.highres" n="3"/>
       <p rend="incipit">Oulipo ordre du jour <date>13.2.89</date></p>
-      <p>Président: <persName ref="#na"><abbr>NA</abbr></persName>, Secrétaire: <persName ref="#mb"><abbr>MB</abbr></persName>, Lieu: chez <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#na">Arnaud</persName>, <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#fc"><abbr>FC</abbr></persName></p>
-      <p>Excusés: <persName ref="#cb">Berge</persName></p>
+      <p>Président: <persName><abbr>NA</abbr></persName>, Secrétaire: <persName><abbr>MB</abbr></persName>, Lieu: chez <persName><abbr>HM</abbr></persName>, <persName>Arnaud</persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>FC</abbr></persName></p>
+      <p>Excusés: <persName>Berge</persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#mb">Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie paronymiques</item>
-        <item><persName ref="#fc">François Caradec</persName> : Défi de Roubaud</item>
+        <item><persName>Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie paronymiques</item>
+        <item><persName>François Caradec</persName> : Défi de Roubaud</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#gabrieldelautrec">Gabriel de Lautrec</persName> (<persName ref="#fc">Caradec</persName>)</item>
-        <item><persName ref="#cb">Berge</persName> : <persName ref="#renaudpalisse">Renaud Palisse</persName> (<persName ref="#jj">Jacques Jouet</persName>)</item>
-        <item><persName ref="#na">Arnaud</persName>: Métrologie la relation ∏/sin1</item>
-        <item><persName ref="#na">Arnaud</persName>: Relation <persName ref="#bataille">Bataille</persName>/<persName ref="#rq">Queneau</persName></item>
-        <item><persName ref="#fc">Caradec</persName>: Prière (un et/ou une) d'insérer</item>
+        <item><persName>Gabriel de Lautrec</persName> (<persName>Caradec</persName>)</item>
+        <item><persName>Berge</persName> : <persName>Renaud Palisse</persName> (<persName>Jacques Jouet</persName>)</item>
+        <item><persName>Arnaud</persName>: Métrologie la relation ∏/sin1</item>
+        <item><persName>Arnaud</persName>: Relation <persName>Bataille</persName>/<persName>Queneau</persName></item>
+        <item><persName>Caradec</persName>: Prière (un et/ou une) d'insérer</item>
         <item>Jacques Roubaud: L'Oulipisme est-il un manièrisme ?</item>
-        <item>Jacques Roubaud: <persName ref="#carloporta">Carlo Porta</persName></item>
+        <item>Jacques Roubaud: <persName>Carlo Porta</persName></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> <unclear>Quebec</unclear></item>
-        <item><persName ref="#pf">Paul Fournel</persName>: le 4 mars</item>
+        <item><persName><abbr>MB</abbr></persName> <unclear>Quebec</unclear></item>
+        <item><persName>Paul Fournel</persName>: le 4 mars</item>
       </list>
       <p><label type="rubrique">Menus propos</label></p>
       <list type="unordered">
-        <item><persName ref="#hm">Harry Mathews</persName>: Bac de français <unclear>Dernier opéra de Jonhson</unclear></item>
+        <item><persName>Harry Mathews</persName>: Bac de français <unclear>Dernier opéra de Jonhson</unclear></item>
         <item>Jacques Roubaud: Influence de l'Oulipo sur les <unclear>grèves</unclear> de Californie</item>
       </list>
       <p>Au <placeName>Moulin d'Andé</placeName>?</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> : le 17 mars <lb/>(peut-être chez <persName ref="#fc">François Caradec</persName>)</p>
+      <p><name type="manif">Prochaine réunion</name> : le 17 mars <lb/>(peut-être chez <persName>François Caradec</persName>)</p>
     </body>
   </text>
 </TEI>

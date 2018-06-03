@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010171-1975-02-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010171-1975-02-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010171-1975-02-cv</idno> <title>Convocation à <ref target="#t10010171-1975-02">une réunion Oulipo</ref>, envoyée le <date when="1975-02-10">10 février 1975</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010171-1975-02-cv</idno> <title>Convocation à <ref target="#t10010171-1975-02">une réunion Oulipo</ref>, envoyée le <date when="1975-02-10">10 février 1975</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -31,13 +37,13 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010171p/f1.highres" n="1"/>
-      <p rend="incipit"><persName ref="#mb">Marcel Bénabou</persName></p>
+      <p rend="incipit"><persName>Marcel Bénabou</persName></p>
       <p rend="incipit">Boulogne-sur-Seine, le Lundi 10 Février 1975</p>
       <p>Chers Brigadiers,</p>
-      <p>Cette fois-ci – la dérivée de ma sciatique étant devenue négative – je compte bien sur vous pour le Vendredi 28 Février. À l’ordre du jour, outre les affaires courantes, toujours nombreuses, l’édition du <title ref="#numerodelabibliothequeoulipienne">numéro 2 de la Bibliothèque oulipienne</title> (<persName ref="#jr">ROUBAUD</persName>), les <title ref="#operateurs">Opérateurs</title> de <persName ref="#rq">QUENEAU</persName> et les travaux de la Commission (<persName ref="#mb">BENABOU</persName>-<persName ref="#jr">ROUBAUD</persName>(<persName ref="#fll"><abbr>FLL</abbr></persName>) relatifs à l’extension de la <title ref="#tabledequeneleiev">Table de QUENELEIEV</title>.</p>
+      <p>Cette fois-ci – la dérivée de ma sciatique étant devenue négative – je compte bien sur vous pour le Vendredi 28 Février. À l’ordre du jour, outre les affaires courantes, toujours nombreuses, l’édition du <title>numéro 2 de la Bibliothèque oulipienne</title> (<persName>ROUBAUD</persName>), les <title>Opérateurs</title> de <persName>QUENEAU</persName> et les travaux de la Commission (<persName>BENABOU</persName>-<persName>ROUBAUD</persName>(<persName><abbr>FLL</abbr></persName>) relatifs à l’extension de la <title>Table de QUENELEIEV</title>.</p>
       <p>N’oubliez pas de me faire savoir aussi longtemps que possible à l’avance si vous venez ou non, de manière à engager le plus rationnellement possible les crédits du déjeuner.</p>
       <p>Oulipiennement vôtre. à tous deux</p>
-      <p><persName ref="#fll">François Le Lionnais</persName></p>
+      <p><persName>François Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

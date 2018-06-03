@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010183-1976-03-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010183-1976-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,27 +17,30 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010183-1976-03-cr</idno>
-          <meeting xml:id="t10010183-1976-03">
-            <date when="1976-03-09">9 mars 1976</date>
-            <placeName>chez FLL</placeName>
-            <list type="present">
-              <item><persName ref="#rq">Raymond Queneau</persName></item>
-              <item><persName ref="#cb">Claude Berge</persName></item>
-              <item><persName ref="#jb">Jacques Bens</persName></item>
-              <item><persName ref="#le">Luc Etienne</persName></item>
-              <item><persName ref="#gp">Georges Perec</persName></item>
-              <item><persName ref="#hm">Harry Mathews</persName></item>
-              <item><persName ref="#pb">Paul Braffort</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#mb">Marcel Bénabou</persName></item>
-              <item><persName ref="#fll" role="président">François Le Lionnais</persName></item>
-              <item><persName ref="#jeantardieu" role="invité">Jean Tardieu</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010183-1976-03-cr</idno> <meeting xml:id="t10010183-1976-03">
+          <date when="1976-03-09">9 mars 1976</date>
+          <placeName>chez FLL</placeName>
+          <list type="present">
+            <item><persName>Raymond Queneau</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Luc Etienne</persName></item>
+            <item><persName>Georges Perec</persName></item>
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName role="président">François Le Lionnais</persName></item>
+            <item><persName role="invité">Jean Tardieu</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
@@ -53,81 +57,42 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101830/f2.highres" n="2"/>
       <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
       <p rend="incipit">REUNION DU 9 MARS 1976</p>
-      <p rend="incipit">PRESENTS : <persName ref="#fll">F. Le Lionnais</persName>, <persName ref="#rq">R. Queneau</persName>, <persName ref="#cb">C. Berge</persName>, <persName ref="#jb">J. Bens</persName>, <persName ref="#le">L. Etienne</persName>, <persName ref="#gp">G. Perec</persName>, <persName ref="#hm">H. Mathews</persName>, <persName ref="#pb">P. Braffort</persName>, <persName ref="#pf">P. Fournel</persName>, <persName ref="#mb">M. Bénabou</persName>.</p>
-      <p rend="incipit">EXCUSES : <persName ref="#na">N. Arnaud</persName>, <persName ref="#jd">J.
-          Duchateau</persName>, <persName ref="#ic">I. Calvino</persName>, <persName ref="#mm">M.
-          Métail</persName>, <persName ref="#jq">J. Queval</persName>, <persName ref="#jr">J.
-          Roubaud</persName></p>
-      <p rend="incipit">INVITE DEFAILLANT : <persName ref="#jtardieu">J. Tardieu</persName>.</p>
+      <p rend="incipit">PRESENTS : <persName>F. Le Lionnais</persName>, <persName>R. Queneau</persName>, <persName>C. Berge</persName>, <persName>J. Bens</persName>, <persName>L. Etienne</persName>, <persName>G. Perec</persName>, <persName>H. Mathews</persName>, <persName>P. Braffort</persName>, <persName>P. Fournel</persName>, <persName>M. Bénabou</persName>.</p>
+      <p rend="incipit">EXCUSES : <persName>N. Arnaud</persName>, <persName>J. Duchateau</persName>, <persName>I. Calvino</persName>, <persName>M. Métail</persName>, <persName>J. Queval</persName>, <persName>J. Roubaud</persName></p>
+      <p rend="incipit">INVITE DEFAILLANT : <persName>J. Tardieu</persName>.</p>
       <p>On fête l’anniversaire de 15 ans et 107 jours de l’OuLiPo.</p>
-      <p><persName ref="#fll"><abbr>FLL.</abbr></persName> Lecture de la lettre d’excuses de <persName ref="#jeantardieu">Jean
-          Tardieu</persName>, qui ne peut venir encore aujourd’hui.</p>
-      <p><persName ref="#fll"><abbr>F.L.L.</abbr></persName> Point financier. Bilan négatif : 1000 francs Kodak : - 550 (à
-        venir).</p>
-      <p><persName ref="#rq"><abbr>R.Q.</abbr></persName> Il faudrait demander l’état actuel des droits d’auteur du volume
-        Oulipien à <persName ref="#mmeouali">Mme Ouali</persName>.</p>
-      <p><persName ref="#pf"><abbr>P.F.</abbr></persName> Le texte sur <persName ref="#hilbert">Hilbert</persName> de <persName ref="#rq"><abbr>R.Q.</abbr></persName> sera prêt demain.</p>
-      <p><persName ref="#rq"><abbr>R.Q.</abbr></persName>
-        <title ref="#lesnouvelleslitteraires">Les Nouvelles Littéraires</title> proposent à
-          <persName ref="#rq"><abbr>R.Q.</abbr></persName> de préparer un dossier du genre « <title ref="#scienceetlitterature">Science et littérature</title> ». (Article théorique du genre <persName ref="#jr">Roubaud</persName>.)</p>
-      <p><persName ref="#pb"><abbr>P.B.</abbr></persName> Allusion à la séance de <persName ref="#jr">Roubaud</persName> sur :
-          <name ref="#oulipomathematiquesetpoesie" type="manif">OuLiPo, Mathématiques et
-          Poésie</name>.</p>
-      <p><persName ref="#fll"><abbr>F.L.L.</abbr></persName> Compte-rendu de la <name ref="#conferencede" type="manif">conférence de</name> <persName ref="#jr">Roubaud</persName> à l’<orgName ref="#ihp">IHP</orgName> : <persName ref="#bourbaki">Bourbaki</persName> est mort en 1968. La poésie est morte avec <title ref="#louvebasse">Louve basse</title> de <persName ref="#denisroche">Denis Roche</persName>. Brillant.</p>
-      <p><persName ref="#pb"><abbr>P.B.</abbr></persName> propose un article sur les <term ref="#techniquesrhetoriques">techniques rhétoriques</term> dans les <term ref="#ouvragesscientifiques">ouvrages
-          scientifiques</term>.</p>
-      <p><persName ref="#cb">Berge</persName>, <persName ref="#pb">Braffort</persName>, <persName ref="#gp">Perec</persName> et <persName ref="#pf">Fournel</persName> demandent des délais
-        pour apporter leur contribution. On propose le 2 mai. <persName ref="#rq">R.
-          Queneau</persName> va négocier avec la feuille publique.</p>
-      <p><persName ref="#fll"><abbr>F.L.L.</abbr></persName> Les photos ne sont pas encore arrivées. Le problème de la carte
-        postale passe par la découverte d’un commanditaire.</p>
-      <p><persName ref="#hm"><abbr>H.M.</abbr></persName>
-        <title ref="#suiteamericaine">Suite américaine</title> : OuLiPo est cité dans <title ref="#words">Words</title> à propos de la publication de <title ref="#legalfrancais">l’Égal Français.</title></p>
-      <p><persName ref="#rqetiemble">R.Q. Etiemble</persName> affirme, dans la troisième édition des
-          <title ref="#essaisdelitteraturevraimentgenerale">Essais de littérature (vraiment)
-          générale</title> : la seule chose qui sauve la littérature, c’est l’OuLiPo.</p>
+      <p><persName><abbr>FLL.</abbr></persName> Lecture de la lettre d’excuses de <persName>Jean Tardieu</persName>, qui ne peut venir encore aujourd’hui.</p>
+      <p><persName><abbr>F.L.L.</abbr></persName> Point financier. Bilan négatif : 1000 francs Kodak : - 550 (à venir).</p>
+      <p><persName><abbr>R.Q.</abbr></persName> Il faudrait demander l’état actuel des droits d’auteur du volume Oulipien à <persName>Mme Ouali</persName>.</p>
+      <p><persName><abbr>P.F.</abbr></persName> Le texte sur <persName>Hilbert</persName> de <persName><abbr>R.Q.</abbr></persName> sera prêt demain.</p>
+      <p><persName><abbr>R.Q.</abbr></persName> <title>Les Nouvelles Littéraires</title> proposent à <persName><abbr>R.Q.</abbr></persName> de préparer un dossier du genre « <title>Science et littérature</title> ». (Article théorique du genre <persName>Roubaud</persName>.)</p>
+      <p><persName><abbr>P.B.</abbr></persName> Allusion à la séance de <persName>Roubaud</persName> sur : <name type="manif">OuLiPo, Mathématiques et Poésie</name>.</p>
+      <p><persName><abbr>F.L.L.</abbr></persName> Compte-rendu de la <name type="manif">conférence de</name> <persName>Roubaud</persName> à l’<orgName>IHP</orgName> : <persName>Bourbaki</persName> est mort en 1968. La poésie est morte avec <title>Louve basse</title> de <persName>Denis Roche</persName>. Brillant.</p>
+      <p><persName><abbr>P.B.</abbr></persName> propose un article sur les <term>techniques rhétoriques</term> dans les <term>ouvrages scientifiques</term>.</p>
+      <p><persName>Berge</persName>, <persName>Braffort</persName>, <persName>Perec</persName> et <persName>Fournel</persName> demandent des délais pour apporter leur contribution. On propose le 2 mai. <persName>R. Queneau</persName> va négocier avec la feuille publique.</p>
+      <p><persName><abbr>F.L.L.</abbr></persName> Les photos ne sont pas encore arrivées. Le problème de la carte postale passe par la découverte d’un commanditaire.</p>
+      <p><persName><abbr>H.M.</abbr></persName> <title>Suite américaine</title> : OuLiPo est cité dans <title>Words</title> à propos de la publication de <title>l’Égal Français.</title></p>
+      <p><persName>R.Q. Etiemble</persName> affirme, dans la troisième édition des <title>Essais de littérature (vraiment) générale</title> : la seule chose qui sauve la littérature, c’est l’OuLiPo.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101830/f3.highres" n="3"/>
       <p>9 MARS 76/2</p>
-      <p><persName ref="#fll"><abbr>F.L.L.</abbr></persName>
-        <orgName ref="#pompidolium">Pompidolium</orgName> : <persName ref="#fll"><abbr>F.L.L.</abbr></persName> a reçu un coup de téléphone de <persName ref="#blaisegauthier">Blaise
-          Gauthier</persName> qui réclame un spectacle. <persName ref="#fll"><abbr>F.L.L.</abbr></persName> lui a rappelé que l’OuLiPo ne se produit pas gratuitement.
-        Rendez-vous est pris pour le 22 mars avec lui.</p>
-      <p><persName ref="#pf"><abbr>P.F.</abbr></persName> Compléments d’informations relatives à <title ref="#larbreatheatre">L’Arbre à Théâtre</title> : le million promis à <persName ref="#pf">Fournel</persName>
-        pourrait être récupéré par <persName ref="#tournois">Tournois</persName>, directeur du <name ref="#festivaldevilleneuvelesavignon" type="manif">Festival de
-          Villeneuve-lès-Avignon</name>.</p>
-      <p><persName ref="#rq"><abbr>R.Q.</abbr></persName> Information : <persName ref="#andrefrenaud">André Frénaud</persName>
-        est devenu conseiller littéraire du <orgName ref="#pompidolium">Pompidolium</orgName>.
-        <persName ref="#andredubouchet">André du Bouchet</persName> a également un rôle important en
-        ces lieux.</p>
-      <p><persName ref="#gp"><abbr>G.P.</abbr></persName> a entrepris la traduction de <title ref="#odradek">Odradek</title>,
-        texte partiellement OuLiPien de <persName ref="#hm">Mathews</persName>.</p>
-      <p><persName ref="#rq"><abbr>R.Q.</abbr></persName> s’étonne (et admire) que <persName ref="#gp">Perec</persName> puisse
-        parler d’une œuvre avant de l’avoir achevée.</p>
-      <p>Puis, il lit un texte de <persName ref="#gilbertremy">Gilbert Rémy</persName>, <ref>versé
-          aux archives</ref> : c’est un bon poète, mais un OuLiPien débutant.</p>
-      <p><persName ref="#cb"><abbr>C.B.</abbr></persName> rend compte d’un livre de <persName ref="#terentianusmaurus">Terentianus Maurus</persName> (<persName ref="#pbettencourt">P. Bettencourt</persName>).
-        Il s’agit de <term ref="#proverbeslatins">proverbes latins</term>, lesquels sont <ref>versés
-          aux archives</ref>.</p>
-      <p>Il évoque le problème du <term ref="#graphe">graphe</term> de <title ref="#chatenpoche">Chat en poche</title>, de <persName ref="#feydeau">Feydeau</persName>. A son grand
-        désespoir, il n’a pas réussi à trouver une <term ref="#loi">loi</term>. D’ailleurs,
-          <persName ref="#feydeau">Feydeau</persName> n’avait aucune formation mathématique : il est
-        probable qu’il utilisait les chiffres au <term ref="#hasard">hasard</term>.</p>
-      <p>Réflexions sur l’<term ref="#arithmomanie">arithmomanie</term> de certains littérateurs
-          (<persName ref="#sade">Sade</persName>).</p>
-      <p><persName ref="#jl"><abbr>J.L.</abbr></persName> arrive.</p>
-      <p><persName ref="#rq"><abbr>R.Q.</abbr></persName> rappelle sa <term ref="#theoriedeshypergraphes">théorie des
-          hypergraphes</term>, qui s’applique à la <term ref="#systematique">systématique</term> des
-          <term ref="#personnages">personnages</term> par <term ref="#scenes">scènes</term>.</p>
-      <p><persName ref="#gp"><abbr>G.P.</abbr></persName> et <persName ref="#hm"><abbr>H.M.</abbr></persName> recherchent l’<term ref="#argot">argot</term> des arnaqueurs.
-          <persName ref="#le">L. Etienne</persName> fait une suggestion pratique.</p>
-      <p><persName ref="#mb"><abbr>M.B.</abbr></persName> parle du <orgName ref="#cielcentreinterdisciplinairedetudesludiques">CIEL (Centre Interdisciplinaire d’Etudes Ludiques)</orgName> de <orgName ref="#parisvii">Paris VII.</orgName></p>
-      <p><persName ref="#gp"><abbr>G.P.</abbr></persName> propose de déjeuner désormais chez lui.</p>
-      <p><persName ref="#mb"><abbr>M.B.</abbr></persName> fait la même proposition.</p>
+      <p><persName><abbr>F.L.L.</abbr></persName> <orgName>Pompidolium</orgName> : <persName><abbr>F.L.L.</abbr></persName> a reçu un coup de téléphone de <persName>Blaise Gauthier</persName> qui réclame un spectacle. <persName><abbr>F.L.L.</abbr></persName> lui a rappelé que l’OuLiPo ne se produit pas gratuitement. Rendez-vous est pris pour le 22 mars avec lui.</p>
+      <p><persName><abbr>P.F.</abbr></persName> Compléments d’informations relatives à <title>L’Arbre à Théâtre</title> : le million promis à <persName>Fournel</persName> pourrait être récupéré par <persName>Tournois</persName>, directeur du <name type="manif">Festival de Villeneuve-lès-Avignon</name>.</p>
+      <p><persName><abbr>R.Q.</abbr></persName> Information : <persName>André Frénaud</persName> est devenu conseiller littéraire du <orgName>Pompidolium</orgName>. <persName>André du Bouchet</persName> a également un rôle important en ces lieux.</p>
+      <p><persName><abbr>G.P.</abbr></persName> a entrepris la traduction de <title>Odradek</title>, texte partiellement OuLiPien de <persName>Mathews</persName>.</p>
+      <p><persName><abbr>R.Q.</abbr></persName> s’étonne (et admire) que <persName>Perec</persName> puisse parler d’une œuvre avant de l’avoir achevée.</p>
+      <p>Puis, il lit un texte de <persName>Gilbert Rémy</persName>, <ref>versé aux archives</ref> : c’est un bon poète, mais un OuLiPien débutant.</p>
+      <p><persName><abbr>C.B.</abbr></persName> rend compte d’un livre de <persName>Terentianus Maurus</persName> (<persName>P. Bettencourt</persName>). Il s’agit de <term>proverbes latins</term>, lesquels sont <ref>versés aux archives</ref>.</p>
+      <p>Il évoque le problème du <term>graphe</term> de <title>Chat en poche</title>, de <persName>Feydeau</persName>. A son grand désespoir, il n’a pas réussi à trouver une <term>loi</term>. D’ailleurs, <persName>Feydeau</persName> n’avait aucune formation mathématique : il est probable qu’il utilisait les chiffres au <term>hasard</term>.</p>
+      <p>Réflexions sur l’<term>arithmomanie</term> de certains littérateurs (<persName>Sade</persName>).</p>
+      <p><persName><abbr>J.L.</abbr></persName> arrive.</p>
+      <p><persName><abbr>R.Q.</abbr></persName> rappelle sa <term>théorie des hypergraphes</term>, qui s’applique à la <term>systématique</term> des <term>personnages</term> par <term>scènes</term>.</p>
+      <p><persName><abbr>G.P.</abbr></persName> et <persName><abbr>H.M.</abbr></persName> recherchent l’<term>argot</term> des arnaqueurs. <persName>L. Etienne</persName> fait une suggestion pratique.</p>
+      <p><persName><abbr>M.B.</abbr></persName> parle du <orgName>CIEL (Centre Interdisciplinaire d’Etudes Ludiques)</orgName> de <orgName>Paris VII.</orgName></p>
+      <p><persName><abbr>G.P.</abbr></persName> propose de déjeuner désormais chez lui.</p>
+      <p><persName><abbr>M.B.</abbr></persName> fait la même proposition.</p>
       <p>Comme il faut choisir, on choisit la première adresse citée.</p>
-      <p><persName ref="#pf"><abbr>P.F.</abbr></persName> parle de l’expédition lyonnaise prévue pour le 15 mai.</p>
-      <p>Divers menu propos sont entretenus à propos, notamment, des titres de films pornos (ou :
-          <title ref="#larrieretrainsiffleratroisfois">L’Arrière-train sifflera trois fois</title>),
-        et de la difficulté d’écrire un texte en ne répétant jamais aucun mot.</p>
+      <p><persName><abbr>P.F.</abbr></persName> parle de l’expédition lyonnaise prévue pour le 15 mai.</p>
+      <p>Divers menu propos sont entretenus à propos, notamment, des titres de films pornos (ou : <title>L’Arrière-train sifflera trois fois</title>), et de la difficulté d’écrire un texte en ne répétant jamais aucun mot.</p>
       <p>Sur quoi, la séance se clôt et l’assemblée se disperse.</p>
     </body>
   </text>

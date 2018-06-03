@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010341-1990-08-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010341-1990-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -22,14 +23,19 @@
           <date when="1990-08-24">24 août 1990</date>
           <placeName>chez FC</placeName>
           <list type="present">
-            <item><persName ref="#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="#mm">Michele Métail</persName></item>
-            <item><persName ref="#jj" role="secrétaire">Jacques Jouet</persName></item>
-            <item><persName ref="#jr" role="président">Jacques Roubaud</persName></item>
+            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName role="secrétaire">Jacques Jouet</persName></item>
+            <item><persName role="président">Jacques Roubaud</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
@@ -45,44 +51,44 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103416/f6.highres" n="6"/>
-      <p rend="incipit">Oulipo 24.08.90 <persName ref="#fc"><abbr>FC</abbr></persName> qui reçoit</p>
-      <p rend="incipit"><persName ref="#jr"><abbr>JR</abbr></persName>.<persName ref="#mb"><abbr>MB</abbr></persName>.<persName ref="#mm"><abbr>MM</abbr></persName>.<persName ref="#jj"><abbr>JJ.</abbr></persName></p>
-      <p rend="incipit">excusés <persName ref="#pf"><abbr>PF</abbr></persName>.<persName ref="#pb"><abbr>PB</abbr></persName>.<persName ref="#na"><abbr>NA</abbr></persName>. Président <persName ref="#jr"><abbr>JR</abbr></persName></p>
-      <p rend="incipit">Secrétaire <persName ref="#jj"><abbr>JJ</abbr></persName></p>
+      <p rend="incipit">Oulipo 24.08.90 <persName><abbr>FC</abbr></persName> qui reçoit</p>
+      <p rend="incipit"><persName><abbr>JR</abbr></persName>.<persName><abbr>MB</abbr></persName>.<persName><abbr>MM</abbr></persName>.<persName><abbr>JJ.</abbr></persName></p>
+      <p rend="incipit">excusés <persName><abbr>PF</abbr></persName>.<persName><abbr>PB</abbr></persName>.<persName><abbr>NA</abbr></persName>. Président <persName><abbr>JR</abbr></persName></p>
+      <p rend="incipit">Secrétaire <persName><abbr>JJ</abbr></persName></p>
       <p><label type="rubrique">CRÉATION</label></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> (création utilitaire) Dénu – poème pour une « <term ref="#denumeration">dénumération</term> » (changement de numéro du Tél.)</p>
+      <p><persName><abbr>HM</abbr></persName> (création utilitaire) Dénu – poème pour une « <term>dénumération</term> » (changement de numéro du Tél.)</p>
       <p>compte de syllabes</p>
       <p>et vers égaux riment entre eux.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> Nouveau croisement <term ref="#langagecuit">langage cuit</term> / <title ref="#moraleelementaire"><term ref="#moraleelementaire">Morale élémentaire</term></title> . <title ref="#moraleelementaire">Morale élémentaire</title> 3 clinamen (titre)</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>. <term ref="#langagecuit">langage cuit</term>. <title ref="#dictionnairedesideesrecues">Dictionnaire des idées reçues</title> ?</p>
-      <p><persName ref="#mm"><abbr>MM</abbr></persName> la découpe. Excuse du 9 avril 90.</p>
+      <p><persName><abbr>MB</abbr></persName> Nouveau croisement <term>langage cuit</term> / <title><term>Morale élémentaire</term></title>. <title>Morale élémentaire</title> 3 clinamen (titre)</p>
+      <p><persName><abbr>JJ</abbr></persName>. <term>langage cuit</term>. <title>Dictionnaire des idées reçues</title> ?</p>
+      <p><persName><abbr>MM</abbr></persName> la découpe. Excuse du 9 avril 90.</p>
       <p><label type="rubrique">ÉRUDITION</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>. <term ref="#plagiatparanticipation">Plagiat par anticipation</term> <term ref="#canadadry">Canada dry</term> (nouveau concept oulipien). PPACD. « <title ref="#poetesoufaiseurs">Poètes ou Faiseurs</title> » d’<persName ref="#etiemble">Etiemble</persName> p.133</p>
-      <p><term ref="#plagiatgreffe">plagiat greffe</term> ? cf. <persName ref="#malbaud">Malbaud</persName>/<persName ref="#rimberbe">Rimberbe</persName> .</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. Maladie de l’<term ref="#aleandrin">alexandrin</term>. Toxine bretonne de l’<term ref="#aleandrin">alexandrin</term>.</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. <title ref="#prendypourz">x prend y pour z</title> <persName ref="#mauricenadeau">Maurice Nadeau</persName> raconte 1 quiproquo pour <persName ref="#rq">Queneau</persName>/<persName ref="#henriot">Henriot</persName> / <persName ref="#nadeau">Nadeau</persName>/ <persName ref="#vaudoyer">Vaudoyer</persName>.</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. <title ref="#pourphoebe">Pour Phoebe</title>. Poème (1889) Rime amer, féérique, chimér- ique (<persName ref="#charlesgrolleau">Charles Grolleau</persName>)</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. qu’importe le flacon, pourvu qu’on ait l’étiquette Relevé des titres de thèses.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>. <title ref="#entreneigeetglace">Entre neige et glace</title> <persName ref="#marcscassau">Marc Scassau</persName>. récit à fournir d’une grille de <term ref="#motscroises">mots croisés</term>.</p>
+      <p><persName><abbr>MB</abbr></persName>. <term>Plagiat par anticipation</term> <term>Canada dry</term> (nouveau concept oulipien). PPACD. « <title>Poètes ou Faiseurs</title> » d’<persName>Etiemble</persName> p.133</p>
+      <p><term>plagiat greffe</term> ? cf. <persName>Malbaud</persName>/<persName>Rimberbe</persName>.</p>
+      <p><persName><abbr>FC</abbr></persName>. Maladie de l’<term>alexandrin</term>. Toxine bretonne de l’<term>alexandrin</term>.</p>
+      <p><persName><abbr>FC</abbr></persName>. <title>x prend y pour z</title> <persName>Maurice Nadeau</persName> raconte 1 quiproquo pour <persName>Queneau</persName>/<persName>Henriot</persName> / <persName>Nadeau</persName>/ <persName>Vaudoyer</persName>.</p>
+      <p><persName><abbr>FC</abbr></persName>. <title>Pour Phoebe</title>. Poème (1889) Rime amer, féérique, chimér- ique (<persName>Charles Grolleau</persName>)</p>
+      <p><persName><abbr>FC</abbr></persName>. qu’importe le flacon, pourvu qu’on ait l’étiquette Relevé des titres de thèses.</p>
+      <p><persName><abbr>HM</abbr></persName>. <title>Entre neige et glace</title> <persName>Marc Scassau</persName>. récit à fournir d’une grille de <term>mots croisés</term>.</p>
       <p>(présomptueux)</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>. <term ref="#contresetine">Contre-sextine</term> sextine dénonçant, évacuant la <term ref="#setine">sextine</term> <persName ref="#alanausen">Alan Ausen</persName>.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>. <term ref="#s7">S+7</term> <persName ref="#sorrentino">Sorrentino</persName>. « <title ref="#misterioso">Misterioso</title> » <term ref="#s7">S+7</term> d’un texte anglo-irlandais.</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>. <term ref="#plagiairepoemesdipolymorphes">Plagiaire poèmes di.poly.morphes</term>. <persName ref="#aragon">Aragon</persName> et <persName ref="#troba">Troba</persName>r.</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>. <term ref="#plagiairecombinatoire">Plagiaire combinatoire</term>. <persName ref="#mallarme">Mallarmé</persName> (vers de circonstance).</p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> Projets <term ref="#quenine">quenine</term>…etc. Rime. Octobre.</p>
+      <p><persName><abbr>HM</abbr></persName>. <term>Contre-sextine</term> sextine dénonçant, évacuant la <term>sextine</term> <persName>Alan Ausen</persName>.</p>
+      <p><persName><abbr>HM</abbr></persName>. <term>S+7</term> <persName>Sorrentino</persName>. « <title>Misterioso</title> » <term>S+7</term> d’un texte anglo-irlandais.</p>
+      <p><persName><abbr>JJ</abbr></persName>. <term>Plagiaire poèmes di.poly.morphes</term>. <persName>Aragon</persName> et <persName>Troba</persName>r.</p>
+      <p><persName><abbr>JJ</abbr></persName>. <term>Plagiaire combinatoire</term>. <persName>Mallarmé</persName> (vers de circonstance).</p>
+      <p><title>Bibliothèque oulipienne</title> Projets <term>quenine</term>…etc. Rime. Octobre.</p>
       <p><label type="rubrique">ACTIONS</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>. Propositions dictionnaire (éditoriale) dico ou dico littéraires (<persName ref="#leiris">Leiris</persName>…)</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. <orgName ref="#arsenal">Arsenal</orgName>. lecture. vendredi 12. 184. (octobre)</p>
-      <p><persName ref="#fc"><abbr>FC</abbr></persName>. Thionville. <persName ref="#fc"><abbr>FC</abbr></persName>.<persName ref="#mb"><abbr>MB</abbr></persName>.<persName ref="#mm"><abbr>MM</abbr></persName>.<persName ref="#hm"><abbr>HM</abbr></persName>.<persName ref="#jj"><abbr>JJ</abbr></persName>.<persName ref="#jr"><abbr>JR</abbr></persName>.</p>
-      <p>Tous. Avenir. Nouveaux membres. <persName ref="#plartigue">P. Lartigue</persName></p>
-      <p><persName ref="#bernardjaulin">Bernard Jaulin</persName>.</p>
+      <p><persName><abbr>MB</abbr></persName>. Propositions dictionnaire (éditoriale) dico ou dico littéraires (<persName>Leiris</persName>…)</p>
+      <p><persName><abbr>FC</abbr></persName>. <orgName>Arsenal</orgName>. lecture. vendredi 12. 184. (octobre)</p>
+      <p><persName><abbr>FC</abbr></persName>. Thionville. <persName><abbr>FC</abbr></persName>.<persName><abbr>MB</abbr></persName>.<persName><abbr>MM</abbr></persName>.<persName><abbr>HM</abbr></persName>.<persName><abbr>JJ</abbr></persName>.<persName><abbr>JR</abbr></persName>.</p>
+      <p>Tous. Avenir. Nouveaux membres. <persName>P. Lartigue</persName></p>
+      <p><persName>Bernard Jaulin</persName>.</p>
       <p>Réunions</p>
-      <p>Mercredi 12 septembre <persName ref="#mm"><abbr>MM</abbr></persName>.</p>
-      <p>vendredi 5 octobre + <persName ref="#jaulin">Jaulin</persName> (<persName ref="#hm"><abbr>HM</abbr></persName>)</p>
+      <p>Mercredi 12 septembre <persName><abbr>MM</abbr></persName>.</p>
+      <p>vendredi 5 octobre + <persName>Jaulin</persName> (<persName><abbr>HM</abbr></persName>)</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>. Panneaux d’oculiste.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>. <persName ref="#francineperceval">Francine Perceval</persName> (lettre).</p>
-      <p><persName ref="#jj"><abbr>JJ</abbr></persName>. <title ref="#manufacture">Manufacture</title>.</p>
+      <p><persName><abbr>HM</abbr></persName>. Panneaux d’oculiste.</p>
+      <p><persName><abbr>MB</abbr></persName>. <persName>Francine Perceval</persName> (lettre).</p>
+      <p><persName><abbr>JJ</abbr></persName>. <title>Manufacture</title>.</p>
     </body>
   </text>
 </TEI>

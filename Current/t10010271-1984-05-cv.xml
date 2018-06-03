@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010271-1984-05-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010271-1984-05-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010271-1984-05-cv</idno> <title>Convocation à <ref target="#t10010271-1984-05">une réunion Oulipo</ref>, envoyée le <date when="1984-05-10">10 mai 1984</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010271-1984-05-cv</idno> <title>Convocation à <ref target="#t10010271-1984-05">une réunion Oulipo</ref>, envoyée le <date when="1984-05-10">10 mai 1984</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -34,9 +40,9 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 10 mai 84</p>
       <p rend="incipit">Chers oulipiens,</p>
-      <p>Le mardi 29 mai 1984 à 11h30, l’ouvroir se réunira chez <persName ref="#pb">Paul Braffort</persName> 7 rue Charles V dans le 4<hi rend="sup">e</hi> (278.12.92). <persName ref="#jd">Jacques Duchateau</persName> s’est excusé pour les réunions de mai et juin pour cause de festivals (vaches-cochons-corvées) mais à part lui, nous devons être nombreux pour fêter le printemps. Prévenez donc <persName ref="#pb">Braffort</persName> de votre venue et que personne ne boycotte les <name ref="#jeuoulipiques" type="manif">jeux oulipiques</name>.</p>
+      <p>Le mardi 29 mai 1984 à 11h30, l’ouvroir se réunira chez <persName>Paul Braffort</persName> 7 rue Charles V dans le 4<hi rend="sup">e</hi> (278.12.92). <persName>Jacques Duchateau</persName> s’est excusé pour les réunions de mai et juin pour cause de festivals (vaches-cochons-corvées) mais à part lui, nous devons être nombreux pour fêter le printemps. Prévenez donc <persName>Braffort</persName> de votre venue et que personne ne boycotte les <name type="manif">jeux oulipiques</name>.</p>
       <p>Amitiés,</p>
-      <p><persName ref="#pf"><abbr>Paul</abbr></persName></p>
+      <p><persName><abbr>Paul</abbr></persName></p>
       <p>Un secrétaire</p>
     </body>
   </text>

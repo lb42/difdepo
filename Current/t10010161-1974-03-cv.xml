@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010161-1974-03-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010161-1974-03-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010161-1974-03-cv</idno> <title>Convocation à <ref target="#t10010161-1974-03">une réunion Oulipo</ref>, envoyée le <date when="1974-03-21">21 mars 1974</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010161-1974-03-cv</idno> <title>Convocation à <ref target="#t10010161-1974-03">une réunion Oulipo</ref>, envoyée le <date when="1974-03-21">21 mars 1974</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
@@ -32,14 +38,14 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f1.highres" n="1"/>
-      <p rend="incipit"> <add><persName ref="#marieadele">Marie Adèle</persName> compte bien que vous arriverez avec une dédicace bien sentie pour son livre d’or.</add> <note n="1" resp="editor">Ajout manuscrit de la main de FLL</note></p>
+      <p rend="incipit"><add><persName>Marie Adèle</persName> compte bien que vous arriverez avec une dédicace bien sentie pour son livre d’or.</add> <note n="1" resp="editor">Ajout manuscrit de la main de FLL</note></p>
       <p rend="incipit">Boulogne sur Seine, le 21 mars 1974</p>
       <p rend="incipit">Chers Brigadiers,</p>
-      <p>Notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  est prévue pour le Vendredi 5 Avril prochain. Nous serons heureux d’y accueillir une nouvelle fois <persName ref="#mm">Michèle METAIL</persName> et de considérer avec intérêt les nouveaux travaux qu’elle soumettra à notre bienveillante attention. Peut-être aurons-nous le plaisir d’avoir <persName ref="#jb">Jacques BENS</persName> parmi nous.</p>
-      <p>À l’ordre du jour : les interventions traditionnelles, la préparation (sous la férule de <persName ref="#mb">Marcel BENABOU</persName>) de 2 ou 3 journées de travaux intensifs et épuisants pendant l’été, et les points que vous inscrirez. Et je vous rappelle que vous pourrez trouver « <title ref="#lestechniquesdelapoesieclassique">Les Techniques de la Poésie Classique</title> » pour la modique somme de 32 francs.</p>
+      <p>Notre <name type="manif">prochaine réunion</name> est prévue pour le Vendredi 5 Avril prochain. Nous serons heureux d’y accueillir une nouvelle fois <persName>Michèle METAIL</persName> et de considérer avec intérêt les nouveaux travaux qu’elle soumettra à notre bienveillante attention. Peut-être aurons-nous le plaisir d’avoir <persName>Jacques BENS</persName> parmi nous.</p>
+      <p>À l’ordre du jour : les interventions traditionnelles, la préparation (sous la férule de <persName>Marcel BENABOU</persName>) de 2 ou 3 journées de travaux intensifs et épuisants pendant l’été, et les points que vous inscrirez. Et je vous rappelle que vous pourrez trouver « <title>Les Techniques de la Poésie Classique</title> » pour la modique somme de 32 francs.</p>
       <p>N’oubliez pas ‑ pour les raisons d’intendance que vous connaissez ‑ de me faire savoir si vous viendrez.</p>
       <p>Oulipiennement vôtre.</p>
-      <p><persName ref="#fll">F. Le Lionnais</persName></p>
+      <p><persName>F. Le Lionnais</persName></p>
       <p>TROP SÉRIEUX, S’ABSTENIR</p>
     </body>
   </text>

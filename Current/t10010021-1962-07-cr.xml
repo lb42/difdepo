@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010021-1962-07-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010021-1962-07-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,24 +17,27 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010021-1962-07-cr</idno>
-          <meeting xml:id="t10010021-1962-07">
-            <date when="1962-07-02">2 juillet 1962</date>
-            <placeName>dans les jardins de la Régence</placeName>
-            <list type="present">
-              <item><persName ref="#rq">Raymond Queneau</persName></item>
-              <item><persName ref="#jl">Jean Lescure</persName></item>
-              <item><persName ref="#na">Noël Arnaud</persName></item>
-              <item><persName ref="#cb">Claude Berge</persName></item>
-              <item><persName ref="#jb">Jacques Bens</persName></item>
-              <item><persName ref="#fll">François Le Lionnais</persName></item>
-              <item><persName ref="#jd">Jacques Duchateau</persName></item>
-              <item><persName ref="#jq">Jean Queval</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010021-1962-07-cr</idno> <meeting xml:id="t10010021-1962-07">
+          <date when="1962-07-02">2 juillet 1962</date>
+          <placeName>dans les jardins de la Régence</placeName>
+          <list type="present">
+            <item><persName>Raymond Queneau</persName></item>
+            <item><persName>Jean Lescure</persName></item>
+            <item><persName>Noël Arnaud</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Jacques Duchateau</persName></item>
+            <item><persName>Jean Queval</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -47,37 +51,23 @@
       <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
       <p>Circulaire n°23</p>
       <p>Réunion du 2 juillet 1962 <lb/>(dans les jardins de la Régence)</p>
-      <p>PRESENTS : <persName ref="#na">Arnaud</persName>, <persName ref="#cb">Berge</persName>,
-          <persName ref="#jb">Bens</persName>, <persName ref="#jd">Duchateau</persName>, <persName ref="#fll">Le Lionnais</persName>, <persName ref="#jl">Lescure</persName>, <persName ref="#rq">Queneau</persName>, <persName ref="#jq">Queval</persName>.</p>
-      <p>PRESENTES : <persName ref="#mmeberge">Mme Berge</persName>, <persName ref="#mmeduchateau">Mme Duchateau</persName>, <persName ref="#mmegenestou">Mme
-          Genestoux</persName>, <persName ref="#mmelescure">Mme Lescure</persName>, <persName ref="#mmequeneau">Mme Queneau</persName>.</p>
-      <p>EXCUSES : <persName ref="#la">Latis</persName>, <persName ref="#ams">Schmidt</persName>.</p>
-      <p>EXCUSEE : <persName ref="#mmelelionnais">Mme Le Lionnais</persName>.</p>
-      <p>PRESIDENT : <persName ref="#rq">Queneau</persName>.</p>
-      <p>Les dames sont placées au bas bout de la table, pour ne point troubler les délicates
-        cogitations des messieurs. Elles les troubleront tout de même.</p>
-      <p><name ref="#lecture" type="manif">Lecture</name> de diverses lettres à <persName ref="#mflorkin">M. Florkin</persName>, concernant
-        notre voyage à <placeName>Liège</placeName>. (<ref>Copies des lettres versées aux
-          archives</ref>.)</p>
-      <p><persName ref="#rq">Queneau</persName> signale une <term ref="#piecealphabetique">pièce
-          alphabétique</term> française citée par <persName ref="#pouchkine">Pouchkine</persName> en
-        1834. Cette pièce se trouve à la page 726 du tome II des <title ref="#ouvrescompletes">Œuvres Complètes</title> du dit <persName ref="#pouchkine">Pouchkine</persName>, dans la
-        traduction <persName ref="#maynieu">Maynieux</persName>. On n’a pas retrouvé l’auteur de la
-        pièce.</p>
-      <p><persName ref="#rq">Queneau</persName> signale également un projet de roman de <persName ref="#msourina">M. Sourina</persName> qui pourrait se lire, soit à la suite, soit en
-        sautant une page sur deux.</p>
-      <p><persName ref="#jb">Bens</persName> fait une longue <name ref="#communication" type="manif">communication</name> sur le <term ref="#romancombinatoire">roman « combinatoire »</term> de <persName ref="#marcsaporta">Marc Saporta</persName> intitulé <title ref="#compositionn1">Composition n°1</title> (cf.
-          <ref>annexe</ref>.) Sa conclusion n’est pas très favorable. <lb/><persName ref="#rq">QUENEAU</persName> : Le vent qui Sa-porta l’emporte <lb/><persName ref="#fll">LE
-          LIONNAIS</persName> : C’est une imposture.</p>
-      <p>Les notes de cette réunion, prises par <persName ref="#jl">Jean Lescure</persName>,
-        deviennent ici, parfaitement incohérentes. En voici l’essentiel.</p>
+      <p>PRESENTS : <persName>Arnaud</persName>, <persName>Berge</persName>, <persName>Bens</persName>, <persName>Duchateau</persName>, <persName>Le Lionnais</persName>, <persName>Lescure</persName>, <persName>Queneau</persName>, <persName>Queval</persName>.</p>
+      <p>PRESENTES : <persName>Mme Berge</persName>, <persName>Mme Duchateau</persName>, <persName>Mme Genestoux</persName>, <persName>Mme Lescure</persName>, <persName>Mme Queneau</persName>.</p>
+      <p>EXCUSES : <persName>Latis</persName>, <persName>Schmidt</persName>.</p>
+      <p>EXCUSEE : <persName>Mme Le Lionnais</persName>.</p>
+      <p>PRESIDENT : <persName>Queneau</persName>.</p>
+      <p>Les dames sont placées au bas bout de la table, pour ne point troubler les délicates cogitations des messieurs. Elles les troubleront tout de même.</p>
+      <p><name type="manif">Lecture</name> de diverses lettres à <persName>M. Florkin</persName>, concernant notre voyage à <placeName>Liège</placeName>. (<ref>Copies des lettres versées aux archives</ref>.)</p>
+      <p><persName>Queneau</persName> signale une <term>pièce alphabétique</term> française citée par <persName>Pouchkine</persName> en 1834. Cette pièce se trouve à la page 726 du tome II des <title>Œuvres Complètes</title> du dit <persName>Pouchkine</persName>, dans la traduction <persName>Maynieux</persName>. On n’a pas retrouvé l’auteur de la pièce.</p>
+      <p><persName>Queneau</persName> signale également un projet de roman de <persName>M. Sourina</persName> qui pourrait se lire, soit à la suite, soit en sautant une page sur deux.</p>
+      <p><persName>Bens</persName> fait une longue <name type="manif">communication</name> sur le <term>roman « combinatoire »</term> de <persName>Marc Saporta</persName> intitulé <title>Composition n°1</title> (cf. <ref>annexe</ref>.) Sa conclusion n’est pas très favorable. <lb/><persName>QUENEAU</persName> : Le vent qui Sa-porta l’emporte <lb/><persName>LE LIONNAIS</persName> : C’est une imposture.</p>
+      <p>Les notes de cette réunion, prises par <persName>Jean Lescure</persName>, deviennent ici, parfaitement incohérentes. En voici l’essentiel.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100217/f2.highres" n="2"/>
-      <p><persName ref="#cardinaltisserand">Cardinal Tisserand</persName> : non membre à vie et à
-        mort <lb/>Définitif dans les deux cas</p>
+      <p><persName>Cardinal Tisserand</persName> : non membre à vie et à mort <lb/>Définitif dans les deux cas</p>
       <p>Femme à combinaisons</p>
       <p><label type="rubrique">DRAPEAU</label></p>
       <list type="unordered">
-        <item>Et avec <persName ref="#pb">Braffort</persName></item>
+        <item>Et avec <persName>Braffort</persName></item>
         <item>entre brunes mains</item>
         <item>opiner du bonnet</item>
       </list>
@@ -92,8 +82,7 @@
         <item>j’ai le même air queue</item>
       </list>
       <p>La séance s’achève dans la plus grande confusion.</p>
-      <p>Prochaine séance : 24 août 1962, toujours chez <persName ref="#fll">Le Lionnais</persName>,
-        hôte généreux.</p>
+      <p>Prochaine séance : 24 août 1962, toujours chez <persName>Le Lionnais</persName>, hôte généreux.</p>
       <p>Le S.P.</p>
     </body>
   </text>

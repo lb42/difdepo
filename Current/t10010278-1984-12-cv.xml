@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010278-1984-12-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010278-1984-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010278-1984-12-cv</idno> <title>Convocation à <ref target="#t10010278-1984-12">une réunion Oulipo</ref>, envoyée le <date when="1984-12-31">31 décembre 1984</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010278-1984-12-cv</idno> <title>Convocation à <ref target="#t10010278-1984-12">une réunion Oulipo</ref>, envoyée le <date when="1984-12-31">31 décembre 1984</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -33,10 +39,10 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f11.highres" n="11"/>
       <p rend="incipit">Le 3 XII 84</p>
       <p>Cher oulipiens,</p>
-      <p><persName ref="#le">Luc Étienne</persName> est mort la semaine dernière d’une leucémie. Ses obsèques ont eu lieu dans les Ardennes et seuls ses proches étaient présents. Quelques jours avant sa mort, il m’avait chargé de vous faire ses amitiés e de vous faire savoir qu’il ne souhaitait pas voir paraître « d’hommage à <persName ref="#le"><abbr>L.E</abbr></persName> » dans la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Je vous donnerai lecture de sa lettre lors de notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  qui aura lieu le Vendredi 14 Décembre chez <persName ref="#jj">Jacques Jouet</persName> au 12 rue de Lancry dans le 12è (241.20.07). Comme d’habitude elle commencera vers 12h.</p>
-      <p>Merci de retourner la découpe à <persName ref="#jj"><abbr>Jacques</abbr></persName>.</p>
+      <p><persName>Luc Étienne</persName> est mort la semaine dernière d’une leucémie. Ses obsèques ont eu lieu dans les Ardennes et seuls ses proches étaient présents. Quelques jours avant sa mort, il m’avait chargé de vous faire ses amitiés e de vous faire savoir qu’il ne souhaitait pas voir paraître « d’hommage à <persName><abbr>L.E</abbr></persName> » dans la <title>Bibliothèque oulipienne</title>. Je vous donnerai lecture de sa lettre lors de notre <name type="manif">prochaine réunion</name> qui aura lieu le Vendredi 14 Décembre chez <persName>Jacques Jouet</persName> au 12 rue de Lancry dans le 12è (241.20.07). Comme d’habitude elle commencera vers 12h.</p>
+      <p>Merci de retourner la découpe à <persName><abbr>Jacques</abbr></persName>.</p>
       <p>Au 14. Amitiés.</p>
-      <p><persName ref="#pf"><abbr>Paul</abbr></persName>.</p>
+      <p><persName><abbr>Paul</abbr></persName>.</p>
     </body>
   </text>
 </TEI>

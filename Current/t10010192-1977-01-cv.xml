@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010192-1977-01-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010192-1977-01-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,9 +18,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010192-1977-01-cv</idno> <title>Convocation à <ref target="#t10010192-1977-01">une réunion Oulipo</ref>, envoyée le <date when="1977-01-07">7 janvier 1977</date> par <persName ref="#pf" role="expéditeur">Paul Fournel</persName></title> </bibl>
+        <bibl><idno>t10010192-1977-01-cv</idno> <title>Convocation à <ref target="#t10010192-1977-01">une réunion Oulipo</ref>, envoyée le <date when="1977-01-07">7 janvier 1977</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -35,12 +41,12 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Le 7 Janvier 77.</p>
       <p>Chers oulipiens,</p>
-      <p>Le secrétariat de l'Oulipo vous présente ses voeux pour 77 et vous annonce que la <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l'ouvroir aura lieu le jeudi 27 janvier chez <persName ref="#gp">Georges Perec</persName>.</p>
+      <p>Le secrétariat de l'Oulipo vous présente ses voeux pour 77 et vous annonce que la <name type="manif">prochaine réunion</name> de l'ouvroir aura lieu le jeudi 27 janvier chez <persName>Georges Perec</persName>.</p>
       <p>13 rue Linné, <placeName>Paris</placeName> 5º <lb/>métro Jussieu. Tel: 331 78 45</p>
-      <p>Cette séance commencera à II heures précises. Il y sera question, entre autres sujets, du bouclage du voume <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> "pour <persName ref="#rq">Queneau</persName> et du statut officiel de l'Ouvroir.</p>
-      <p>Notre invité d'honneur sera Monsieur <persName ref="#jpcortada">J.P. Cortada</persName>, professeur à <placeName>Lyon</placeName>, qui nous dira quelques mots sur les recherches à caractère oulipien dans la littérature Sud-américaine.</p>
+      <p>Cette séance commencera à II heures précises. Il y sera question, entre autres sujets, du bouclage du voume <title>Bibliothèque oulipienne</title> "pour <persName>Queneau</persName> et du statut officiel de l'Ouvroir.</p>
+      <p>Notre invité d'honneur sera Monsieur <persName>J.P. Cortada</persName>, professeur à <placeName>Lyon</placeName>, qui nous dira quelques mots sur les recherches à caractère oulipien dans la littérature Sud-américaine.</p>
       <p>N'oubliez pas d'envoyer (dans les meilleurs délais) la découpe ci-dessous pour faciliter l'intendance. Merci.</p>
-      <p>Au 27, bien oulipiennement, <lb/><persName ref="#pf">Paul Fournel</persName> <lb/>Un secrétaire.</p>
+      <p>Au 27, bien oulipiennement, <lb/><persName>Paul Fournel</persName> <lb/>Un secrétaire.</p>
     </body>
   </text>
 </TEI>

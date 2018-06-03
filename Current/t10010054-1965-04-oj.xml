@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010054-1965-04-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010054-1965-04-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010054-1965-04-oj</idno> <title>Ordre de jour de <ref target="#t10010054-1965-04">la réunion Oulipo</ref> du <date when="1965-04-12">12 avril 1965</date></title> </bibl>
+        <bibl><idno>t10010054-1965-04-oj</idno> <title>Ordre de jour de <ref target="#t10010054-1965-04">la réunion Oulipo</ref> du <date when="1965-04-12">12 avril 1965</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
@@ -38,41 +44,41 @@
       <p rend="incipit">Projet d’ordre du jour</p>
       <p><label type="rubrique">DOMAINE DU PROTOCOLE :</label></p>
       <list type="ordered">
-        <item>Accueil de notre invité d’honneur <persName ref="#robertfaure">Robert Faure</persName></item>
+        <item>Accueil de notre invité d’honneur <persName>Robert Faure</persName></item>
         <item>Lunettes à double foyer</item>
       </list>
       <p><label type="rubrique">QUESTIONS ADMINISTRATIVES</label></p>
       <list type="ordered">
-        <item>La situation du <orgName ref="#secretariat">secrétariat</orgName> est-elle toujours tragique ?</item>
+        <item>La situation du <orgName>secrétariat</orgName> est-elle toujours tragique ?</item>
         <item>Les comptes-rendus</item>
-        <item>Suite du <term ref="#mythe">mythe</term> du XXème siècle : à <ref>l’enregistrement de Verviers</ref></item>
-        <item>Mise en chantier d’un nouveau <term ref="#mythe">mythe</term> : l’enregistrement de <name ref="#lacommemorationdu1clinamen" type="manif">la commémoration du 10 clinamen</name> (vul 1er avril) à l’<orgName ref="#ortf">ORTF</orgName></item>
-        <item>Dossiers du <orgName ref="#college">collège</orgName>.</item>
+        <item>Suite du <term>mythe</term> du XXème siècle : à <ref>l’enregistrement de Verviers</ref></item>
+        <item>Mise en chantier d’un nouveau <term>mythe</term> : l’enregistrement de <name type="manif">la commémoration du 10 clinamen</name> (vul 1er avril) à l’<orgName>ORTF</orgName></item>
+        <item>Dossiers du <orgName>collège</orgName>.</item>
         <item/>
-        <item>« Je rêve d’une opération Tartine » <persName ref="#fll"><abbr>F.LL</abbr></persName></item>
-        <item><name ref="#prochainereunion" type="manif">Prochaine réunion</name> . Samedi 12 Juin à 12h30 chez <persName ref="#pb">Braffort</persName>, 31 rue de Chaumusson, Limours (Seine-et-Oise). (Téléphone : 251<note n="1" resp="editor">Corrigé en 253 sur les pages 1-2</note> à Limours).</item>
+        <item>« Je rêve d’une opération Tartine » <persName><abbr>F.LL</abbr></persName></item>
+        <item><name type="manif">Prochaine réunion</name>. Samedi 12 Juin à 12h30 chez <persName>Braffort</persName>, 31 rue de Chaumusson, Limours (Seine-et-Oise). (Téléphone : 251<note n="1" resp="editor">Corrigé en 253 sur les pages 1-2</note> à Limours).</item>
       </list>
       <p>Planning d’acheminement des impétrants.</p>
       <p><label type="rubrique">CHRONIQUE EVENEMENTIELLE</label></p>
       <list type="ordered">
-        <item>L’OuLiPo sort de la clandestinité : « <title ref="#batonschiffresetlettres">Bâtons, Chiffres et Lettres</title> »</item>
-        <item>Correspondance avec <persName ref="#edeline">Edeline</persName> (Bruxelles) <persName ref="#fll"><abbr>F.LL</abbr></persName></item>
-        <item><name ref="#concoursdenewstatesman" type="manif">Concours de New Statesman</name> ……… Que (val = neau)</item>
+        <item>L’OuLiPo sort de la clandestinité : « <title>Bâtons, Chiffres et Lettres</title> »</item>
+        <item>Correspondance avec <persName>Edeline</persName> (Bruxelles) <persName><abbr>F.LL</abbr></persName></item>
+        <item><name type="manif">Concours de New Statesman</name> ……… Que (val = neau)</item>
         <item/>
         <item/>
       </list>
       <p><label type="rubrique">SUR LE PLAN DE LA CREATION</label></p>
       <list type="ordered">
-        <item>L’<term ref="#isosyntaisme">isosyntaxisme</term> dans les Alpes Maritimes (suite)….</item>
-        <item><term ref="#sonnetssystematiques">Sonnets systématiques</term>…. <persName ref="#jq">Queval</persName></item>
-        <item>Hymne Oulipien <persName ref="#pb">Braffort</persName></item>
-        <item>Roman policier <term ref="#duchateau">Duchateau</term> <unclear>Relecture</unclear> Temps, <gap/> ] <unclear>dévergondées</unclear> <unclear>mots illisibles</unclear>]</item>
+        <item>L’<term>isosyntaxisme</term> dans les Alpes Maritimes (suite)….</item>
+        <item><term>Sonnets systématiques</term>…. <persName>Queval</persName></item>
+        <item>Hymne Oulipien <persName>Braffort</persName></item>
+        <item>Roman policier <term>Duchateau</term> <unclear>Relecture</unclear> Temps, <gap/> ] <unclear>dévergondées</unclear> <unclear>mots illisibles</unclear>]</item>
         <item/>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010054t/f18.highres" n="18"/>
-      <p>« La <term ref="#machine">machine</term> n’en est encore qu’à ses essais. Un jour peut-être, <term ref="#kaleidoscopeelectrophonique">kaleidoscope électrophonique</term> composera des <term ref="#figuresmusicales">figures musicales</term> en <term ref="#quantite">quantité</term>, inventera des <term ref="#rythmes">rythmes</term>, des <term ref="#melodies">mélodies</term> en série. L’<term ref="#homme">homme</term> aura des <term ref="#machinesacreer">machines à créer</term>, comme il aura des <term ref="#machinesaraisonner">machines à raisonner</term> exactement, son rôle se bornant à choisir »</p>
-      <p>Et <persName ref="#valery">Valéry</persName> prévoir des « Usines de Combinaisons »</p>
-      <p>(<persName ref="#pvalery">P. Valéry</persName> : <title ref="#cahierstomeiii">Cahiers. Tome XIII</title>)</p>
+      <p>« La <term>machine</term> n’en est encore qu’à ses essais. Un jour peut-être, <term>kaleidoscope électrophonique</term> composera des <term>figures musicales</term> en <term>quantité</term>, inventera des <term>rythmes</term>, des <term>mélodies</term> en série. L’<term>homme</term> aura des <term>machines à créer</term>, comme il aura des <term>machines à raisonner</term> exactement, son rôle se bornant à choisir »</p>
+      <p>Et <persName>Valéry</persName> prévoir des « Usines de Combinaisons »</p>
+      <p>(<persName>P. Valéry</persName> : <title>Cahiers. Tome XIII</title>)</p>
     </body>
   </text>
 </TEI>

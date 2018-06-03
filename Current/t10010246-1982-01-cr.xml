@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010246-1982-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010246-1982-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,25 +17,28 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010246-1982-01-cr</idno>
-          <meeting xml:id="t10010246-1982-01">
-            <date when="1982-01-15">15 janvier 1982</date>
-            <placeName>chez Martine et PF</placeName>
-            <list type="present">
-              <item><persName ref="#hm">Harry Mathews</persName></item>
-              <item><persName ref="#le">Luc Etienne</persName></item>
-              <item><persName ref="#cb">Claude Berge</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#mm">Michele Métail</persName></item>
-              <item><persName ref="#le">Luc Etienne</persName></item>
-              <item><persName ref="#cb">Claude Berge</persName></item>
-              <item><persName ref="#jr" role="secrétaire">Jacques Roubaud</persName></item>
-              <item><persName ref="#pb" role="président">Paul Braffort</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010246-1982-01-cr</idno> <meeting xml:id="t10010246-1982-01">
+          <date when="1982-01-15">15 janvier 1982</date>
+          <placeName>chez Martine et PF</placeName>
+          <list type="present">
+            <item><persName>Harry Mathews</persName></item>
+            <item><persName>Luc Etienne</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Luc Etienne</persName></item>
+            <item><persName>Claude Berge</persName></item>
+            <item><persName role="secrétaire">Jacques Roubaud</persName></item>
+            <item><persName role="président">Paul Braffort</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -51,87 +55,56 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102462/f3.highres" n="3"/>
       <p rend="incipit">Séance du 15/1/82</p>
       <list type="unordered">
-        <item>Présents : <persName ref="#pb"><abbr>PB</abbr></persName> président <persName ref="#jr"><abbr>JR</abbr></persName> secrétaire <persName ref="#hm"><abbr>HM</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#mm"><abbr>MM</abbr></persName>, <persName ref="#le"><abbr>LE</abbr></persName>, <persName ref="#cb"><abbr>CB</abbr></persName>,</item>
-        <item>Excusés : <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#jd"><abbr>JD</abbr></persName>, <persName ref="#gp"><abbr>GP</abbr></persName>, <persName ref="#jl"><abbr>JL</abbr></persName>, <persName ref="#ic"><abbr>IC</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName>,</item>
-        <item>absents <persName ref="#na"><abbr>NA</abbr></persName>, <persName ref="#fll"><abbr>FLL</abbr></persName>,</item>
+        <item>Présents : <persName><abbr>PB</abbr></persName> président <persName><abbr>JR</abbr></persName> secrétaire <persName><abbr>HM</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>LE</abbr></persName>, <persName><abbr>CB</abbr></persName>,</item>
+        <item>Excusés : <persName><abbr>JB</abbr></persName>, <persName><abbr>JD</abbr></persName>, <persName><abbr>GP</abbr></persName>, <persName><abbr>JL</abbr></persName>, <persName><abbr>IC</abbr></persName>, <persName><abbr>MB</abbr></persName>,</item>
+        <item>absents <persName><abbr>NA</abbr></persName>, <persName><abbr>FLL</abbr></persName>,</item>
       </list>
       <p><label type="rubrique">Création</label></p>
       <list type="ordered">
-        <item><persName ref="#le"><abbr>LE</abbr></persName> présente des <term ref="#palindromesbilingues">palindromes
-            bilingues</term>. Continuant sur sa lancée il a composé des <term ref="#palindromesbilinguesphonetiquesfrancoallemands">palindromes bilingues phonétiques
-            franco-allemands</term></item>
+        <item><persName><abbr>LE</abbr></persName> présente des <term>palindromes bilingues</term>. Continuant sur sa lancée il a composé des <term>palindromes bilingues phonétiques franco-allemands</term></item>
       </list>
-      <p><persName ref="#madonna">Madonna</persName> lore Waser wile lore alles essen otto</p>
-      <p><persName ref="#otto">Otto</persName> ne sait cela errol livré sa vérole à vos dames</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> propose de traduire <title ref="#meinkampf">Mein Kampf</title> qui
-        est sans doute la <gap/> de « La Recherche ».</p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName> montre un dessin non palindromique de <persName ref="#jeaneffel">Jean
-          Effel</persName> pour illustrer un de ses <term ref="#palindromes">palindromes</term></p>
+      <p><persName>Madonna</persName> lore Waser wile lore alles essen otto</p>
+      <p><persName>Otto</persName> ne sait cela errol livré sa vérole à vos dames</p>
+      <p><persName><abbr>PF</abbr></persName> propose de traduire <title>Mein Kampf</title> qui est sans doute la <gap/> de « La Recherche ».</p>
+      <p><persName><abbr>LE</abbr></persName> montre un dessin non palindromique de <persName>Jean Effel</persName> pour illustrer un de ses <term>palindromes</term></p>
       <list type="ordered">
-        <item><persName ref="#le"><abbr>LE</abbr></persName> présente un <term ref="#doublerubandemoebiusavecentrelacement">double ruban de Moebius avec entrelacement</term> ou <term ref="#faurubandesanimaupasplats">faux ruban des animaux pas plats</term> (de la largeur
-          du ruban) il y a un mâle et une femelle. Le mâle est devant la femelle qui reste fixe ou
-          du moins court moins vite et lui court après ; il faut rentrer et il s’aperçoit qu’il est
-          dos à dos avec elle. Il faut qu’il fasse un autre tour. <lb/><persName ref="#cb"><abbr>CB</abbr></persName> évoque le problème du « Gossip »  <gap/> coups de téléphone ne
-          <gap/> pour que tout le monde sache que chacun sait que les autres ne savait pas…</item>
-        <item><persName ref="#le"><abbr>LE</abbr></persName>
-          <ref><title ref="#teticule">Texticule</title></ref> pour le 2<hi rend="sup">ème</hi>
-          millénaire avec 14 mois de retard</item>
+        <item><persName><abbr>LE</abbr></persName> présente un <term>double ruban de Moebius avec entrelacement</term> ou <term>faux ruban des animaux pas plats</term> (de la largeur du ruban) il y a un mâle et une femelle. Le mâle est devant la femelle qui reste fixe ou du moins court moins vite et lui court après ; il faut rentrer et il s’aperçoit qu’il est dos à dos avec elle. Il faut qu’il fasse un autre tour. <lb/><persName><abbr>CB</abbr></persName> évoque le problème du « Gossip »  <gap/> coups de téléphone ne <gap/> pour que tout le monde sache que chacun sait que les autres ne savait pas…</item>
+        <item><persName><abbr>LE</abbr></persName> <ref><title>Texticule</title></ref> pour le 2<hi rend="sup">ème</hi> millénaire avec 14 mois de retard</item>
       </list>
       <p>Le texte est joint</p>
       <list type="ordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> dans le roman qu’il écrit il utilise un <term ref="#s_">S+2</term>,
-          (IX est fraction de n)</item>
+        <item><persName><abbr>HM</abbr></persName> dans le roman qu’il écrit il utilise un <term>S+2</term>, (IX est fraction de n)</item>
       </list>
-      <p><persName ref="#cb"><abbr>Cl B</abbr></persName> propose pour f(n) les <term ref="#decimalesdep">décimales de
-        π</term>.</p>
-      <p>– Il propose un type de <term ref="#metacontraintes">métacontraintes</term>. Etant donné
-        une <term ref="#contrainte">contrainte</term> qui utilise un texte initial, ce texte *** se trouve parmi les produits de la
-        <title ref="#contrainte">contrainte</title>. Nom (<persName ref="#pf"><abbr>PF</abbr></persName>) mama : <term ref="#metacontraintes">métacontraintes</term> de
-          <persName ref="#hm">Mathews</persName>.</p>
+      <p><persName><abbr>Cl B</abbr></persName> propose pour f(n) les <term>décimales de π</term>.</p>
+      <p>– Il propose un type de <term>métacontraintes</term>. Etant donné une <term>contrainte</term> qui utilise un texte initial, ce texte *** se trouve parmi les produits de la <title>contrainte</title>. Nom (<persName><abbr>PF</abbr></persName>) mama : <term>métacontraintes</term> de <persName>Mathews</persName>.</p>
       <p>Erudition</p>
       <list type="ordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>
-          <term ref="#moraleelementaire">morale élémentaire</term></item>
+        <item><persName><abbr>PF</abbr></persName> <term>morale élémentaire</term></item>
       </list>
-      <p>– Le <name ref="#seminairequeneau" type="manif">séminaire <persName ref="#rq">Queneau</persName></name> de Mme<persName ref="#debon"> Debon</persName> a lieu un
-        samedi de chaque mois. Le journal de <persName ref="#rq">Queneau</persName> a été lu (en
-        dehors du fils) par elle. Il y a un journal de création exceptionnel.</p>
-      <p>– <persName ref="#pf"><abbr>PF</abbr></persName> communique certains résultats</p>
+      <p>– Le <name type="manif">séminaire <persName>Queneau</persName></name> de Mme <persName>Debon</persName> a lieu un samedi de chaque mois. Le journal de <persName>Queneau</persName> a été lu (en dehors du fils) par elle. Il y a un journal de création exceptionnel.</p>
+      <p>– <persName><abbr>PF</abbr></persName> communique certains résultats</p>
       <list type="ordered">
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> signale ce film <title>je tue il</title>.</item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName>. Signale <title ref="#herecomethetigers">Here come the
-            tigers</title>.</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName>. <title ref="#petitecosmogonieportative">Petite cosmogonie
-            portative</title> : les questions de <persName ref="#ic">Calvino</persName>. <persName ref="#pb"><abbr>PB</abbr></persName> en écrit une.</item>
+        <item><persName><abbr>PB</abbr></persName> signale ce film <title>je tue il</title>.</item>
+        <item><persName><abbr>JR</abbr></persName>. Signale <title>Here come the tigers</title>.</item>
+        <item><persName><abbr>PB</abbr></persName>. <title>Petite cosmogonie portative</title> : les questions de <persName>Calvino</persName>. <persName><abbr>PB</abbr></persName> en écrit une.</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="ordered">
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> annonce la constitution à <orgName ref="#alamo">ALAMO</orgName></item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> annonce le <orgName ref="#projettosca">projet
-          TOSCA</orgName></item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName>
-          <name ref="#eposealenssurloulipoetordinateurs" type="manif">exposé à l’ENS sur l’oulipo et
-            ordinateurs</name>.</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>
-          <name ref="#amiensstage" type="manif">Amiens : <name ref="#stage" type="manif">stage</name></name> proposé V26 S27 D28
-          février</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>
-          <name ref="#millefeuillesjourneeoulipo" type="manif">Millefeuilles : journée oulipo</name>
-          en mars. 12 mars 1982</item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>, Australie<name ref="#visitedeloulipo" type="manif">visite de
-            l’oulipo</name> en 1984 ou 1985</item>
+        <item><persName><abbr>JR</abbr></persName> annonce la constitution à <orgName>ALAMO</orgName></item>
+        <item><persName><abbr>PB</abbr></persName> annonce le <orgName>projet TOSCA</orgName></item>
+        <item><persName><abbr>PB</abbr></persName> <name type="manif">exposé à l’ENS sur l’oulipo et ordinateurs</name>.</item>
+        <item><persName><abbr>PF</abbr></persName> <name type="manif">Amiens : <name type="manif">stage</name></name> proposé V26 S27 D28 février</item>
+        <item><persName><abbr>PF</abbr></persName> <name type="manif">Millefeuilles : journée oulipo</name> en mars. 12 mars 1982</item>
+        <item><persName><abbr>PF</abbr></persName>, Australie<name type="manif">visite de l’oulipo</name> en 1984 ou 1985</item>
       </list>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> parle d’un <name ref="#colloquesurlacontrainte" type="manif">colloque
-          sur la <term ref="#contrainte">contrainte</term></name> !</p>
+      <p><persName><abbr>HM</abbr></persName> parle d’un <name type="manif">colloque sur la <term>contrainte</term></name> !</p>
       <list type="ordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>
-          <name ref="#villeneuve" type="manif">Villeneuve</name></item>
+        <item><persName><abbr>PF</abbr></persName> <name type="manif">Villeneuve</name></item>
       </list>
       <p><label type="rubrique">Bibliothèque oulipienne</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> annonce la réception du <title ref="#n18braffort">18
-            Braffort</title> et <title ref="#n1perec">19 Perec</title>, l’annonce du <title ref="#calvino">20 (Calvino)</title></item>
-        <item><persName ref="#cb"><abbr>CB</abbr></persName> annonce qu’il n’y aurait pas de <term ref="#palindromespossiblesenchinois">palindromes possibles en chinois</term>.</item>
+        <item><persName><abbr>PF</abbr></persName> annonce la réception du <title>18 Braffort</title> et <title>19 Perec</title>, l’annonce du <title>20 (Calvino)</title></item>
+        <item><persName><abbr>CB</abbr></persName> annonce qu’il n’y aurait pas de <term>palindromes possibles en chinois</term>.</item>
       </list>
     </body>
   </text>

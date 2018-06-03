@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010237-1981-03-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010237-1981-03-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010237-1981-03-oj</idno> <title>Ordre de jour de <ref target="#t10010237-1981-03">la réunion Oulipo</ref> du <date when="1981-03-27">27 mars 1981</date></title> </bibl>
+        <bibl><idno>t10010237-1981-03-oj</idno> <title>Ordre de jour de <ref target="#t10010237-1981-03">la réunion Oulipo</ref> du <date when="1981-03-27">27 mars 1981</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -31,31 +37,31 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102373/f11.highres" n="11"/>
       <p rend="incipit">Réunion du 27 mars 81-Ordre du jour-</p>
-      <p rend="incipit">Présents : <persName ref="#jb"><abbr>JB</abbr></persName>, <persName ref="#jr"><abbr>JR</abbr></persName>, <persName ref="#pf"><abbr>PF</abbr></persName>, <persName ref="#le"><abbr>LE</abbr></persName>, <persName ref="#mb"><abbr>MB</abbr></persName> + <persName ref="#pb"><abbr>PB</abbr></persName>, <persName ref="#jd"><abbr>JD</abbr></persName>, <persName ref="#ic"><abbr>IC</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#fll"><abbr>FLL</abbr></persName>, <persName ref="#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>JB</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>LE</abbr></persName>, <persName><abbr>MB</abbr></persName> + <persName><abbr>PB</abbr></persName>, <persName><abbr>JD</abbr></persName>, <persName><abbr>IC</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>FLL</abbr></persName>, <persName><abbr>HM</abbr></persName></p>
       <p rend="incipit">Absents :</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <title ref="#legendes">Légendes</title></p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : Une nouvelle section d’<term ref="#ouvroirpotentiel">ouvroir x potentiel</term></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <term ref="#hypermorale">hyper morale</term></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : pour <persName ref="#jq"><abbr>JQ</abbr></persName> : <term ref="#contraintedeberge">Contrainte de Berge</term></p>
-      <p>Pour <persName ref="#jl"><abbr>JL</abbr></persName> : pseudo création</p>
-      <p><persName ref="#ic"><abbr>IC</abbr></persName> : quelques explications de la création du <title ref="#voyageur">Voyageur</title></p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>/<persName ref="#jr"><abbr>JR</abbr></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> (<term ref="#rimesenoulipo">rimes en oulipo</term>)</p>
+      <p><persName><abbr>PB</abbr></persName> : <title>Légendes</title></p>
+      <p><persName><abbr>JB</abbr></persName> : Une nouvelle section d’<term>ouvroir x potentiel</term></p>
+      <p><persName><abbr>PF</abbr></persName> : <term>hyper morale</term></p>
+      <p><persName><abbr>MB</abbr></persName> : pour <persName><abbr>JQ</abbr></persName> : <term>Contrainte de Berge</term></p>
+      <p>Pour <persName><abbr>JL</abbr></persName> : pseudo création</p>
+      <p><persName><abbr>IC</abbr></persName> : quelques explications de la création du <title>Voyageur</title></p>
+      <p><title>Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>PF</abbr></persName>/<persName><abbr>JR</abbr></persName> : <title>Bibliothèque oulipienne</title> (<term>rimes en oulipo</term>)</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : Table ronde pour <name ref="#actionpoetique" type="manif">Action Poétique</name></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <name ref="#bourges" type="manif">Bourges</name>/<persName ref="#mb"><abbr>MB</abbr></persName></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <title ref="#volume">Volume 2</title> (épreuves)</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : réponse aux couvre. Avenir Bébé.</p>
-      <p>Tous : Bilan <name ref="#journeeoulipo3" type="manif">journée oulipo 23</name> à <orgName ref="#beaubourg">Beaubourg</orgName></p>
-      <p><name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name> Pâques</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#simonnet">Simonnet</persName></p>
-      <p><persName ref="#le"><abbr>LE</abbr></persName> : OULIPO à <orgName ref="#franceculture">France Culture</orgName></p>
+      <p><persName><abbr>JB</abbr></persName> : Table ronde pour <name type="manif">Action Poétique</name></p>
+      <p><persName><abbr>PF</abbr></persName> : <name type="manif">Bourges</name>/<persName><abbr>MB</abbr></persName></p>
+      <p><persName><abbr>PF</abbr></persName> : <title>Volume 2</title> (épreuves)</p>
+      <p><persName><abbr>PF</abbr></persName> : réponse aux couvre. Avenir Bébé.</p>
+      <p>Tous : Bilan <name type="manif">journée oulipo 23</name> à <orgName>Beaubourg</orgName></p>
+      <p><name type="manif">Villeneuve-lès-Avignon</name> Pâques</p>
+      <p><persName><abbr>PF</abbr></persName> : <persName>Simonnet</persName></p>
+      <p><persName><abbr>LE</abbr></persName> : OULIPO à <orgName>France Culture</orgName></p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="#jr"><abbr>JR</abbr></persName> : Nouvelle adresse</p>
+      <p><persName><abbr>JR</abbr></persName> : Nouvelle adresse</p>
       <p>Invité d’honneur</p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : <persName ref="#chapon">Chapon</persName> (bibliothèque)</p>
+      <p><persName><abbr>JB</abbr></persName> : <persName>Chapon</persName> (bibliothèque)</p>
     </body>
   </text>
 </TEI>

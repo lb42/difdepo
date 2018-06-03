@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010203-1978-02-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010203-1978-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010203-1978-02-oj</idno> <title>Ordre de jour de <ref target="#t10010203-1978-02">la réunion Oulipo</ref> du <date when="1978-02-17">17 février 1978</date></title> </bibl>
+        <bibl><idno>t10010203-1978-02-oj</idno> <title>Ordre de jour de <ref target="#t10010203-1978-02">la réunion Oulipo</ref> du <date when="1978-02-17">17 février 1978</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -32,25 +38,25 @@
       <p rend="incipit">Ordre du jour 17-02-78</p>
       <p>Président:</p>
       <p><label type="rubrique">I. Action</label></p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>: impôts.</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>: <unclear>plu...ances</unclear></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>: <name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>: <orgName ref="#centrenationaldeslettres">Centre National des Lettres</orgName></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>: <title ref="#selecteddeclarationsofdependence">SELECTED DECLARATIONS OF DEPENDENCE</title></p>
-      <p><persName ref="#gp"><abbr>GP</abbr></persName>: traduction italienne de l'Oulipo</p>
+      <p><persName><abbr>MB</abbr></persName>: impôts.</p>
+      <p><persName><abbr>MB</abbr></persName>: <unclear>plu...ances</unclear></p>
+      <p><persName><abbr>PF</abbr></persName>: <name type="manif">Villeneuve-lès-Avignon</name></p>
+      <p><persName><abbr>PF</abbr></persName>: <orgName>Centre National des Lettres</orgName></p>
+      <p><persName><abbr>HM</abbr></persName>: <title>SELECTED DECLARATIONS OF DEPENDENCE</title></p>
+      <p><persName><abbr>GP</abbr></persName>: traduction italienne de l'Oulipo</p>
       <p><label type="rubrique">Bibliothèque oulipienne.</label></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>: work in progress</p>
-      <p>Problème des exemplaires fautifs du <persName ref="#aqueneau">A. Queneau</persName> restant.</p>
+      <p><persName><abbr>PF</abbr></persName>: work in progress</p>
+      <p>Problème des exemplaires fautifs du <persName>A. Queneau</persName> restant.</p>
       <p><label type="rubrique">Créations</label></p>
-      <p><persName ref="#gp"><abbr>GP</abbr></persName>: (399 555 999)</p>
-      <p><name ref="#colloque" type="manif">colloque</name> <persName ref="#gp"><abbr>GP</abbr></persName></p>
+      <p><persName><abbr>GP</abbr></persName>: (399 555 999)</p>
+      <p><name type="manif">colloque</name> <persName><abbr>GP</abbr></persName></p>
       <p><label type="rubrique">Erudition.</label></p>
-      <p><persName ref="#mb"><abbr>MB.</abbr></persName>: <persName ref="#novalis">Novalis</persName> plagiaire par anticipation.</p>
-      <p><persName ref="#cb"><abbr>CB</abbr></persName>: fabrication des noms par ordinateur.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName>: <persName ref="#lewiscarroll">Lewis Carroll</persName></p>
-      <p><persName ref="#na"><abbr>NA</abbr></persName>: Présentation de <persName ref="#claudejrameil">Claude J. Rameil</persName></p>
+      <p><persName><abbr>MB.</abbr></persName>: <persName>Novalis</persName> plagiaire par anticipation.</p>
+      <p><persName><abbr>CB</abbr></persName>: fabrication des noms par ordinateur.</p>
+      <p><persName><abbr>HM</abbr></persName>: <persName>Lewis Carroll</persName></p>
+      <p><persName><abbr>NA</abbr></persName>: Présentation de <persName>Claude J. Rameil</persName></p>
       <p><label type="rubrique">Menus propos.</label></p>
-      <p><persName ref="#pf"><abbr>PF.</abbr></persName>: <persName ref="#jeanmayer">Jean Mayer</persName></p>
+      <p><persName><abbr>PF.</abbr></persName>: <persName>Jean Mayer</persName></p>
     </body>
   </text>
 </TEI>

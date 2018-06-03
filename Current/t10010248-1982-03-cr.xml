@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010248-1982-03-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010248-1982-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -12,23 +13,26 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010248-1982-03-cr</idno>
-          <meeting xml:id="t10010248-1982-03">
-            <date when="1982-03-12">12 mars 1982</date>
-            <placeName>chez Isabelle et MB</placeName>
-            <list type="present">
-              <item><persName ref="#fll">François Le Lionnais</persName></item>
-              <item><persName ref="#jb">Jacques Bens</persName></item>
-              <item><persName ref="#mm">Michele Métail</persName></item>
-              <item><persName ref="#jr">Jacques Roubaud</persName></item>
-              <item><persName ref="#pb">Paul Braffort</persName></item>
-              <item><persName ref="#le">Luc Etienne</persName></item>
-              <item><persName ref="#hm" role="président">Harry Mathews</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010248-1982-03-cr</idno> <meeting xml:id="t10010248-1982-03">
+          <date when="1982-03-12">12 mars 1982</date>
+          <placeName>chez Isabelle et MB</placeName>
+          <list type="present">
+            <item><persName>François Le Lionnais</persName></item>
+            <item><persName>Jacques Bens</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Luc Etienne</persName></item>
+            <item><persName role="président">Harry Mathews</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -43,111 +47,85 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010248z/f10.highres" n="10"/>
-      <p rend="incipit">Réunion du 12 mars 82 chez <persName ref="#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Réunion du 12 mars 82 chez <persName><abbr>MB</abbr></persName></p>
       <list type="unordered">
-        <item>Présents : <persName ref="#fll"><abbr>FLL</abbr></persName>. <persName ref="#mb"><abbr>MB</abbr></persName>. <persName ref="#jb"><abbr>JB</abbr></persName>. <persName ref="#hm"><abbr>HM</abbr></persName>. <persName ref="#mm"><abbr>MM</abbr></persName>. <persName ref="#jr"><abbr>JR</abbr></persName>. <persName ref="#pb"><abbr>PB</abbr></persName>. <persName ref="#le"><abbr>LE</abbr></persName></item>
-        <item>Excusés : <persName ref="#jd"><abbr>JD</abbr></persName>. <persName ref="#cb"><abbr>CB</abbr></persName>. <persName ref="#jl"><abbr>JL</abbr></persName>. <persName ref="#jq"><abbr>JQ</abbr></persName>. <persName ref="#na"><abbr>NA</abbr></persName>. <persName ref="#ic"><abbr>IC</abbr></persName>.</item>
+        <item>Présents : <persName><abbr>FLL</abbr></persName>. <persName><abbr>MB</abbr></persName>. <persName><abbr>JB</abbr></persName>. <persName><abbr>HM</abbr></persName>. <persName><abbr>MM</abbr></persName>. <persName><abbr>JR</abbr></persName>. <persName><abbr>PB</abbr></persName>. <persName><abbr>LE</abbr></persName></item>
+        <item>Excusés : <persName><abbr>JD</abbr></persName>. <persName><abbr>CB</abbr></persName>. <persName><abbr>JL</abbr></persName>. <persName><abbr>JQ</abbr></persName>. <persName><abbr>NA</abbr></persName>. <persName><abbr>IC</abbr></persName>.</item>
         <item>Absents :</item>
-        <item>Président <persName ref="#hm"><abbr>HM</abbr></persName>.</item>
+        <item>Président <persName><abbr>HM</abbr></persName>.</item>
       </list>
       <p>Déclaration liminaire du président s’excusant a priori de sa surdité.</p>
-      <p><persName ref="#gp">PEREC</persName>.</p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> : L’avenir des écrits de <persName ref="#gp">Perec</persName>.
-          <persName ref="#hm"><abbr>HM</abbr></persName> a vu <orgName ref="#pol">POL</orgName> qui lui a parlé de ce
-        problème. <orgName ref="#pol">POL</orgName> veut faire une édition des <title ref="#ouvrescompletes">œuvres complètes</title> (rachat des droits à <persName ref="#nadeau">Nadeau</persName> + textes inédits). <orgName ref="#pol">POL</orgName> en a
-        parlé à la cousine de <persName ref="#gp"><abbr>Georges</abbr></persName> (<persName ref="#lili">Lili</persName>) : elle est d’accord pour que
-        ce soit <persName ref="#jr"><abbr>JR</abbr></persName> et <persName ref="#hm"><abbr>HM</abbr></persName> aidés de <persName ref="#mb"><abbr>MB</abbr></persName> et de tous qui s’occupent de l’établissement littéraire du texte.</p>
+      <p><persName>PEREC</persName>.</p>
+      <p><persName><abbr>HM</abbr></persName> : L’avenir des écrits de <persName>Perec</persName>. <persName><abbr>HM</abbr></persName> a vu <orgName>POL</orgName> qui lui a parlé de ce problème. <orgName>POL</orgName> veut faire une édition des <title>œuvres complètes</title> (rachat des droits à <persName>Nadeau</persName> + textes inédits). <orgName>POL</orgName> en a parlé à la cousine de <persName><abbr>Georges</abbr></persName> (<persName>Lili</persName>) : elle est d’accord pour que ce soit <persName><abbr>JR</abbr></persName> et <persName><abbr>HM</abbr></persName> aidés de <persName><abbr>MB</abbr></persName> et de tous qui s’occupent de l’établissement littéraire du texte.</p>
       <p>Il faut publier les textes de jeunesse et tous les inédits.</p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : Il faudra veiller à ne pas faire la même chose que pour <persName ref="#borisvian">Boris Vian</persName></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName> : <orgName ref="#pol">POL</orgName> voudrait d’abord faire un recueil
-        de tous ses textes dispersés</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : <persName ref="#gp"><abbr>Georges</abbr></persName> tenait beaucoup à ce que ses vœux soient recueillis.</p>
-      <p><persName ref="#fll"><abbr>FLL</abbr></persName> : Les échos dans les médias : une chose m’a frappé dans l’émission de
-          <unclear>Vrigny</unclear> et dans l’article du <title ref="#monde">Monde</title> c’est que
-        les oulipiens ont bien parlé de <persName ref="#gp"><abbr>Georges</abbr></persName>.</p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : Nous serions coupables s’il en allait différemment.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Nous avons tous reçu de nombreux appels au nom de l’oulipo.</p>
+      <p><persName><abbr>JB</abbr></persName> : Il faudra veiller à ne pas faire la même chose que pour <persName>Boris Vian</persName></p>
+      <p><persName><abbr>HM</abbr></persName> : <orgName>POL</orgName> voudrait d’abord faire un recueil de tous ses textes dispersés</p>
+      <p><persName><abbr>MB</abbr></persName> : <persName><abbr>Georges</abbr></persName> tenait beaucoup à ce que ses vœux soient recueillis.</p>
+      <p><persName><abbr>FLL</abbr></persName> : Les échos dans les médias : une chose m’a frappé dans l’émission de <unclear>Vrigny</unclear> et dans l’article du <title>Monde</title> c’est que les oulipiens ont bien parlé de <persName><abbr>Georges</abbr></persName>.</p>
+      <p><persName><abbr>JB</abbr></persName> : Nous serions coupables s’il en allait différemment.</p>
+      <p><persName><abbr>PF</abbr></persName> : Nous avons tous reçu de nombreux appels au nom de l’oulipo.</p>
       <list type="unordered">
-        <item>Lectures d’articles de presse (<title ref="#nouvelleslitteraires">Nouvelles
-            littéraires</title>)</item>
-        <item>Projet pour <name ref="#epositionasaintcloud" type="manif">exposition à
-            Saint-Cloud</name>.</item>
-        <item>Projet <name ref="#lectureaaioubeaubourg" type="manif">lecture à Aix ou
-            Beaubourg</name>.</item>
-        <item>Projet <name ref="#spectaclelectureavilleneuve" type="manif">spectacle-lecture à
-            Villeneuve</name>.</item>
+        <item>Lectures d’articles de presse (<title>Nouvelles littéraires</title>)</item>
+        <item>Projet pour <name type="manif">exposition à Saint-Cloud</name>.</item>
+        <item>Projet <name type="manif">lecture à Aix ou Beaubourg</name>.</item>
+        <item>Projet <name type="manif">spectacle-lecture à Villeneuve</name>.</item>
       </list>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : Invite des membres de l’oulipo à aller à la manifestation de <name ref="#penserclasserabeaubourg" type="manif">Penser-classer à Beaubourg</name>.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> est mandaté pour téléphoner à <persName ref="#jouanard">Jouanard</persName> et <persName ref="#zerki">Zerki</persName> pour le projet <name ref="#spectacleperecavilleneuvelesavignon" type="manif">spectacle Perec à Villeneuve lès
-          Avignon</name>.</p>
+      <p><persName><abbr>MB</abbr></persName> : Invite des membres de l’oulipo à aller à la manifestation de <name type="manif">Penser-classer à Beaubourg</name>.</p>
+      <p><persName><abbr>PF</abbr></persName> est mandaté pour téléphoner à <persName>Jouanard</persName> et <persName>Zerki</persName> pour le projet <name type="manif">spectacle Perec à Villeneuve lès Avignon</name>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010248z/f11.highres" n="11"/>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : <persName ref="#mariejouanard">Marie Jouanard</persName> veut
-        changer la date de la 3<hi rend="sup">e</hi> à la la 4<hi rend="sup">e</hi> semaine de
-        juillet</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> a demandé que la date soit maintenue.</p>
+      <p><persName><abbr>PB</abbr></persName> : <persName>Marie Jouanard</persName> veut changer la date de la 3<hi rend="sup">e</hi> à la la 4<hi rend="sup">e</hi> semaine de juillet</p>
+      <p><persName><abbr>PB</abbr></persName> a demandé que la date soit maintenue.</p>
       <p>Donc date du 19 au 24 juillet.</p>
-      <p><persName ref="#jb"><abbr>JB</abbr></persName> : Pour le Pano une <name ref="#emissionspecialesurgeorgesperec" type="manif">émission spéciale sur <persName>Georges Perec</persName></name> le 7 avril.</p>
-      <p>Travail d’archives. « <title ref="#georgesperecmodedemploi"><persName>Georges Perec</persName>, mode
-          d’emploi</title> ».</p>
-      <p>Laissons la parole à <persName ref="#gp"><abbr>Georges</abbr></persName> au maximum.</p>
-      <p>Une émission a été enregistrée « <title ref="#les5chosesquevousvoudriezfaireavantdemourir">les 50 choses que vous voudriez faire avant de mourir</title> »</p>
-      <p>La diffusion sera diffusée pour prolonger « L’effort Perec ». <orgName ref="#franceculture">France Culture</orgName>.</p>
-      <p>– <persName ref="#hm"><abbr>HM</abbr></persName> : Nous devons faire un hommage à <persName ref="#gp"><abbr>GP</abbr></persName> dans la <title ref="#bibliothequeoulipienne">Bibliothèque
-          oulipienne</title></p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Collationnera les textes pour <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p>Il faut trouver une cohérence éditoriale. Proposition « d’idées du livre » à la prochaine
-        séance.</p>
-      <p>– <persName ref="#hm"><abbr>HM</abbr></persName>+<persName ref="#pf"><abbr>PF</abbr></persName> : organisation de la <name ref="#lecture" type="manif">lecture</name>
-        de l’après-midi au <name ref="#millefeuille" type="manif">Millefeuille</name>.</p>
+      <p><persName><abbr>JB</abbr></persName> : Pour le Pano une <name type="manif">émission spéciale sur <persName>Georges Perec</persName></name> le 7 avril.</p>
+      <p>Travail d’archives. « <title><persName>Georges Perec</persName>, mode d’emploi</title> ».</p>
+      <p>Laissons la parole à <persName><abbr>Georges</abbr></persName> au maximum.</p>
+      <p>Une émission a été enregistrée « <title>les 50 choses que vous voudriez faire avant de mourir</title> »</p>
+      <p>La diffusion sera diffusée pour prolonger « L’effort Perec ». <orgName>France Culture</orgName>.</p>
+      <p>– <persName><abbr>HM</abbr></persName> : Nous devons faire un hommage à <persName><abbr>GP</abbr></persName> dans la <title>Bibliothèque oulipienne</title></p>
+      <p><persName><abbr>PF</abbr></persName> : Collationnera les textes pour <title>Bibliothèque oulipienne</title></p>
+      <p>Il faut trouver une cohérence éditoriale. Proposition « d’idées du livre » à la prochaine séance.</p>
+      <p>– <persName><abbr>HM</abbr></persName>+<persName><abbr>PF</abbr></persName> : organisation de la <name type="manif">lecture</name> de l’après-midi au <name type="manif">Millefeuille</name>.</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> : Un rêve nettement oulipien.</item>
+        <item><persName><abbr>FLL</abbr></persName> : Un rêve nettement oulipien.</item>
       </list>
-      <p><label type="rubrique">Il expliquait une structure à <persName ref="#jr">Roubaud</persName>. Un poème de trois morceaux en vers (6-7-8 vers)</label></p>
+      <p><label type="rubrique">Il expliquait une structure à <persName>Roubaud</persName>. Un poème de trois morceaux en vers (6-7-8 vers)</label></p>
       <p>Chaque morceau avec une structure différente au plan des rimes.</p>
-      <p><term ref="#antirimes">Antirimes</term>/<term ref="#mezzanine">mezzanine</term>/<term ref="#postrime">post-rime</term></p>
+      <p><term>Antirimes</term>/<term>mezzanine</term>/<term>post-rime</term></p>
       <p>Inventer deux morceaux en vers x et y.</p>
-      <p>x : <term ref="#anterime">antérime</term>+<term ref="#mezzanine">mezzanine</term></p>
-      <p>y : <term ref="#mezzanine">mezzanine</term>+<term ref="#rime">rime</term></p>
+      <p>x : <term>antérime</term>+<term>mezzanine</term></p>
+      <p>y : <term>mezzanine</term>+<term>rime</term></p>
       <list type="unordered">
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> : <persName ref="#philippot">Philippot</persName> : Les autres
-          ouXpo se portent bien.</item>
+        <item><persName><abbr>FLL</abbr></persName> : <persName>Philippot</persName> : Les autres ouXpo se portent bien.</item>
       </list>
-      <p><persName ref="#philippot">Philippot</persName> a fait une musique sur le <term ref="#poemebooleen">poème booléen</term> de <persName ref="#fll"><abbr>FLL</abbr></persName>.</p>
+      <p><persName>Philippot</persName> a fait une musique sur le <term>poème booléen</term> de <persName><abbr>FLL</abbr></persName>.</p>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> : Lectures de <persName ref="#rpreissnitz">R. Preissnitz</persName>
-          à Paris, poète autrichien qui a fait des choses oulipiennes sans connaitre
-          l’oulipo.</item>
-        <item><persName ref="#le"><abbr>LE</abbr></persName> : Annonce un recueil de nouvelles de <persName ref="#jacquesfulgence">Jacques Fulgence</persName> au Seuil « <title ref="#lesyeudelamour">Les Yeux de l’amour</title> »</item>
-        <item><persName ref="#mm"><abbr>MM</abbr></persName> : Petite musique chinoise. Forme poétique chinoise Lion Tchi
-          (pratiquée par Lipo) découverte passionnante ! mérite développement</item>
+        <item><persName><abbr>JR</abbr></persName> : Lectures de <persName>R. Preissnitz</persName> à Paris, poète autrichien qui a fait des choses oulipiennes sans connaitre l’oulipo.</item>
+        <item><persName><abbr>LE</abbr></persName> : Annonce un recueil de nouvelles de <persName>Jacques Fulgence</persName> au Seuil « <title>Les Yeux de l’amour</title> »</item>
+        <item><persName><abbr>MM</abbr></persName> : Petite musique chinoise. Forme poétique chinoise Lion Tchi (pratiquée par Lipo) découverte passionnante ! mérite développement</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010248z/f12.highres" n="12"/>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName> : Bilan du <name ref="#stagedamiens" type="manif">stage
-          d’Amiens</name>.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName> : Proposition d’organisation des <name ref="#stage" type="manif">stages</name></p>
+      <p><persName><abbr>PB</abbr></persName> : Bilan du <name type="manif">stage d’Amiens</name>.</p>
+      <p><persName><abbr>PF</abbr></persName> : Proposition d’organisation des <name type="manif">stages</name></p>
       <list type="ordered">
         <item>Petit historique + petite explication théorique</item>
         <item>Exercices/proposition de structures</item>
-        <item>Journée libre d’exercices sur une <term ref="#contrainte">contrainte</term> choisie de façon à ce que chaque
-          stagiaire fasse son texte.</item>
+        <item>Journée libre d’exercices sur une <term>contrainte</term> choisie de façon à ce que chaque stagiaire fasse son texte.</item>
       </list>
-      <p>Prochaines dates : 23 avril chez <persName ref="#pf"><abbr>PF</abbr></persName></p>
-      <p>28 mai chez <persName ref="#pf"><abbr>PF</abbr></persName></p>
+      <p>Prochaines dates : 23 avril chez <persName><abbr>PF</abbr></persName></p>
+      <p>28 mai chez <persName><abbr>PF</abbr></persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010248z/f13.highres" n="13"/>
       <p>12-3-82</p>
-      <p><name ref="#lecturegeorgesperecaumillefeuilles" type="manif">Lecture <persName ref="#gp"><abbr>GP</abbr></persName> au Millefeuilles</name> (Programme)</p>
+      <p><name type="manif">Lecture <persName><abbr>GP</abbr></persName> au Millefeuilles</name> (Programme)</p>
       <list type="unordered">
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : <title ref="#teteena">Texte en A</title></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : <title ref="#jemesouviens">Je me souviens</title></item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> : <title ref="#ladisparition">La Disparition</title></item>
-        <item><persName ref="#jr"><abbr>JR</abbr></persName> : Fin de <title ref="#laviemodedemploi">La Vie mode
-            d’emploi</title></item>
-        <item><persName ref="#mm"><abbr>MM</abbr></persName> : Fin d’<title ref="#unhommequidort">Un homme qui
-          dort</title></item>
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> : <title ref="#ellisisland">Ellis Island</title></item>
+        <item><persName><abbr>PB</abbr></persName> : <title>Texte en A</title></item>
+        <item><persName><abbr>PF</abbr></persName> : <title>Je me souviens</title></item>
+        <item><persName><abbr>MB</abbr></persName> : <title>La Disparition</title></item>
+        <item><persName><abbr>JR</abbr></persName> : Fin de <title>La Vie mode d’emploi</title></item>
+        <item><persName><abbr>MM</abbr></persName> : Fin d’<title>Un homme qui dort</title></item>
+        <item><persName><abbr>HM</abbr></persName> : <title>Ellis Island</title></item>
       </list>
     </body>
   </text>

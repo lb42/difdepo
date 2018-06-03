@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010193-1977-02-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010193-1977-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,9 +18,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010193-1977-02-oj</idno> <title>Ordre de jour de <ref target="#t10010193-1977-02">la réunion Oulipo</ref> de <date when="1977-02-24">24 février 1977</date></title> </bibl>
+        <bibl><idno>t10010193-1977-02-oj</idno> <title>Ordre de jour de <ref target="#t10010193-1977-02">la réunion Oulipo</ref> de <date when="1977-02-24">24 février 1977</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
@@ -33,41 +39,41 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010193d/f9.highres" n="9"/>
       <p rend="incipit">OULIPO 24 2 77</p>
-      <p rend="incipit">Présents : <persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#pf"><abbr>PF</abbr></persName> <persName ref="#fll"><abbr>FLL</abbr></persName> <persName ref="#le"><abbr>LE</abbr></persName> <persName ref="#jl"><abbr>JL</abbr></persName>(ne déjeune pas) <persName ref="#ic"><abbr>IC</abbr></persName> ( ?) <persName ref="#hm"><abbr>HM</abbr></persName> <persName ref="#gp"><abbr>GP</abbr></persName> <persName ref="#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#jb"><abbr>JB</abbr></persName> <persName ref="#jq"><abbr>JQ</abbr></persName></p>
+      <p rend="incipit">Présents : <persName><abbr>MB</abbr></persName> <persName><abbr>PF</abbr></persName> <persName><abbr>FLL</abbr></persName> <persName><abbr>LE</abbr></persName> <persName><abbr>JL</abbr></persName>(ne déjeune pas) <persName><abbr>IC</abbr></persName> ( ?) <persName><abbr>HM</abbr></persName> <persName><abbr>GP</abbr></persName> <persName><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName><abbr>JB</abbr></persName> <persName><abbr>JQ</abbr></persName></p>
       <p><label type="rubrique">Créations :</label></p>
       <list type="unordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> <term ref="#structureparetension">Structure par extension</term></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName>+<persName ref="#pb"><abbr>PB</abbr></persName> <orgName ref="#centrepompidou">Centre Pompidou</orgName>. <name ref="#ordinateur" type="manif">Ordinateur</name> (adaptation <term ref="#arbre">Arbre</term>)</item>
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> traduction de <title ref="#moraleelementaire">Morale Elémentaire</title></item>
+        <item><persName><abbr>HM</abbr></persName> <term>Structure par extension</term></item>
+        <item><persName><abbr>PF</abbr></persName>+<persName><abbr>PB</abbr></persName> <orgName>Centre Pompidou</orgName>. <name type="manif">Ordinateur</name> (adaptation <term>Arbre</term>)</item>
+        <item><persName><abbr>HM</abbr></persName> traduction de <title>Morale Elémentaire</title></item>
       </list>
       <p><label type="rubrique">Action :</label></p>
       <list type="unordered">
-        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> : Devis <persName ref="#rq">Queneau</persName>.</item>
+        <item><title>Bibliothèque oulipienne</title> : Devis <persName>Queneau</persName>.</item>
         <item>Statuts loi 1901</item>
         <item>Phynances.</item>
-        <item>Voyage <name ref="#avignon" type="manif">Avignon</name> (<name ref="#villeneuve" type="manif">Villeneuve</name>). <persName ref="#pf"><abbr>PF</abbr></persName></item>
-        <item><persName ref="#mb">Marcel Bénabou</persName>. <title ref="#ilcaffe">Il Caffè</title>.</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : <term ref="#litteratureassisteeparordinateur">littérature assistée par ordinateur</term> (<orgName ref="#centrebeaubourg">centre Beaubourg</orgName>)</item>
+        <item>Voyage <name type="manif">Avignon</name> (<name type="manif">Villeneuve</name>). <persName><abbr>PF</abbr></persName></item>
+        <item><persName>Marcel Bénabou</persName>. <title>Il Caffè</title>.</item>
+        <item><persName><abbr>PB</abbr></persName> : <term>littérature assistée par ordinateur</term> (<orgName>centre Beaubourg</orgName>)</item>
       </list>
-      <p><title ref="#cahiersqueneau">Cahiers Queneau</title> : <persName ref="#fll"><abbr>FLL</abbr></persName></p>
+      <p><title>Cahiers Queneau</title> : <persName><abbr>FLL</abbr></persName></p>
       <p><label type="rubrique">Menu propos :</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> à propos d’une création ‘pataphysique.</item>
-        <item><persName ref="#mb"><abbr>MB</abbr></persName> présentation d’<title ref="#y_">Y</title> de <persName ref="#lancri">Lancri</persName></item>
-        <item><persName ref="#le"><abbr>LE</abbr></persName> souvenir de <persName ref="#la">Latis</persName></item>
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> <title ref="#lequidametlamort">le quidam et la mort</title> de <persName ref="#reouven">Reouven</persName>.</item>
-        <item><persName ref="#pb"><abbr>PB</abbr></persName> : Encore <orgName ref="#cnac">CNAC</orgName>-<persName ref="#gp"><abbr>GP</abbr></persName></item>
+        <item><persName><abbr>PF</abbr></persName> à propos d’une création ‘pataphysique.</item>
+        <item><persName><abbr>MB</abbr></persName> présentation d’<title>Y</title> de <persName>Lancri</persName></item>
+        <item><persName><abbr>LE</abbr></persName> souvenir de <persName>Latis</persName></item>
+        <item><persName><abbr>PF</abbr></persName> <title>le quidam et la mort</title> de <persName>Reouven</persName>.</item>
+        <item><persName><abbr>PB</abbr></persName> : Encore <orgName>CNAC</orgName>-<persName><abbr>GP</abbr></persName></item>
       </list>
       <p>Retombés articles</p>
       <list type="unordered">
-        <item><persName ref="#hm"><abbr>HM</abbr></persName> : Retombées <title ref="#scientificamerican">Scientific American</title>.</item>
-        <item><persName ref="#gp"><abbr>GP</abbr></persName> : 5 lettres</item>
+        <item><persName><abbr>HM</abbr></persName> : Retombées <title>Scientific American</title>.</item>
+        <item><persName><abbr>GP</abbr></persName> : 5 lettres</item>
       </list>
       <p><label type="rubrique">Invités</label></p>
       <list type="unordered">
-        <item><persName ref="#pf"><abbr>PF</abbr></persName> : <persName ref="#cortada">Cortada</persName></item>
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> : <persName ref="#jeanmariequeneau">Jean-Marie Queneau</persName></item>
+        <item><persName><abbr>PF</abbr></persName> : <persName>Cortada</persName></item>
+        <item><persName><abbr>FLL</abbr></persName> : <persName>Jean-Marie Queneau</persName></item>
         <item>Date</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010193d/f10.highres" n="10"/>
@@ -76,25 +82,25 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010193d/f13.highres" n="13"/>
       <p rend="incipit"><choice><corr>24</corr> <sic>23</sic></choice> 2 77</p>
       <p>OuLiPo</p>
-      <p>Retombées <title ref="#time">Time</title> et <title ref="#scientificamerican">Scientific American</title></p>
-      <p><persName ref="#hm"><abbr>HM</abbr></persName></p>
+      <p>Retombées <title>Time</title> et <title>Scientific American</title></p>
+      <p><persName><abbr>HM</abbr></persName></p>
       <list type="unordered">
-        <item><term ref="#mobiuspalindrome">Möbius palindrome</term> (invertible capitals)</item>
-        <item><term ref="#triolet">triolet</term>, <term ref="#villanelle">villanelle</term>, etc. en prose (<persName ref="#phstewick">Ph. Stewick</persName>, <title ref="#chicagoreview">Chicago Review</title>) – semantic as well as sonnet rhymes</item>
+        <item><term>Möbius palindrome</term> (invertible capitals)</item>
+        <item><term>triolet</term>, <term>villanelle</term>, etc. en prose (<persName>Ph. Stewick</persName>, <title>Chicago Review</title>) – semantic as well as sonnet rhymes</item>
       </list>
-      <p><persName ref="#gp"><abbr>GP</abbr></persName>: “<term ref="#conceptualpoetry">Conceptual poetry</term>”: shifting punctuation</p>
+      <p><persName><abbr>GP</abbr></persName>: “<term>Conceptual poetry</term>”: shifting punctuation</p>
       <p>3 readings in 1 3 lines of each stanza, 2 of <gap/> : 10 readings of each stanza.</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>: hommage à <persName ref="#rq"><abbr>RQ</abbr></persName></p>
+      <p><persName><abbr>PF</abbr></persName>: hommage à <persName><abbr>RQ</abbr></persName></p>
       <p>Devis: 2900 francs</p>
       <p>Vente: 35 francs au libraire et 50 francs au public</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName>: <title ref="#ilcaffe">Il Caffè</title>: Oulipo invited to contribute</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName>: <orgName ref="#cnac">CNAC</orgName>- <name ref="#ordinateur" type="manif">ordinateur</name></p>
+      <p><persName><abbr>MB</abbr></persName>: <title>Il Caffè</title>: Oulipo invited to contribute</p>
+      <p><persName><abbr>PB</abbr></persName>: <orgName>CNAC</orgName>- <name type="manif">ordinateur</name></p>
       <p>Nouvelle</p>
-      <p><persName ref="#pf"><abbr>PF</abbr></persName>: <name ref="#villeneuve" type="manif">Villeneuve</name> – <persName ref="#bernardtournois">Bernard Tournois</persName></p>
+      <p><persName><abbr>PF</abbr></persName>: <name type="manif">Villeneuve</name> – <persName>Bernard Tournois</persName></p>
       <p>10-20 7</p>
       <p>Statut loi 1901 Association</p>
-      <p><persName ref="#pb"><abbr>PB</abbr></persName>: <orgName ref="#cnacgp">CNAC–GP</orgName> vendredi 18:30</p>
-      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> : mars 24</p>
+      <p><persName><abbr>PB</abbr></persName>: <orgName>CNAC–GP</orgName> vendredi 18:30</p>
+      <p><name type="manif">Prochaine réunion</name> : mars 24</p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010172-1975-04-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010172-1975-04-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,9 +17,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010172-1975-04-oj</idno> <title>Ordre de jour de <ref target="#t10010172-1975-04">la réunion Oulipo</ref> de <date when="1975-04-10">10 avril 1975</date></title> </bibl>
+        <bibl><idno>t10010172-1975-04-oj</idno> <title>Ordre de jour de <ref target="#t10010172-1975-04">la réunion Oulipo</ref> de <date when="1975-04-10">10 avril 1975</date></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
@@ -35,27 +41,27 @@
       <p rend="incipit">Ordre du jour</p>
       <p rend="incipit">Après une interruption de 2 mois, le cours majestueux des séances oulipiennes reprend.</p>
       <list type="unordered">
-        <item>Présents : <persName ref="#fll"><abbr>FLL</abbr></persName> <persName ref="#rq"><abbr>RQ</abbr></persName> <persName ref="#na"><abbr>NA</abbr></persName> <persName ref="#le"><abbr>LE</abbr></persName> <persName ref="#pb"><abbr>PB</abbr></persName> <persName ref="#mb"><abbr>MB</abbr></persName> <persName ref="#jl">Lescure</persName> (au café)</item>
-        <item>Président : <persName ref="#mb"><abbr>MB</abbr></persName></item>
-        <item>Excusés : <persName ref="#gp">Perec</persName> (au Canada) <persName ref="#jq">Queval</persName> (pneumonie) <persName ref="#jr">Roubaud</persName> – <persName ref="#ic">Calvino</persName> – <persName ref="#pf">Fournel</persName> (Lyon) <persName ref="#hm">Mathews</persName></item>
+        <item>Présents : <persName><abbr>FLL</abbr></persName> <persName><abbr>RQ</abbr></persName> <persName><abbr>NA</abbr></persName> <persName><abbr>LE</abbr></persName> <persName><abbr>PB</abbr></persName> <persName><abbr>MB</abbr></persName> <persName>Lescure</persName> (au café)</item>
+        <item>Président : <persName><abbr>MB</abbr></persName></item>
+        <item>Excusés : <persName>Perec</persName> (au Canada) <persName>Queval</persName> (pneumonie) <persName>Roubaud</persName> – <persName>Calvino</persName> – <persName>Fournel</persName> (Lyon) <persName>Mathews</persName></item>
       </list>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="#orenchev">Orenchev</persName> et <persName ref="#ivanov">Ivanov</persName> <persName ref="#fll"><abbr>FLL</abbr></persName> x</item>
-        <item><persName ref="#fll"><abbr>FLL</abbr></persName> - <persName ref="#quenelief">Quenelief</persName> et la commission <persName ref="#jr">Roubaud</persName> <persName ref="#jb">Bens</persName>_ x</item>
-        <item><persName ref="#na">N. Arnaud</persName> Méthode de création de <persName ref="#louisoury">Louis Oury</persName> <del>et <persName ref="#gerarddefunes">Gérard de Funès</persName></del> x</item>
-        <item><persName ref="#le">L. Etienne</persName> Information <title ref="#jeunearchimede">Jeune Archimède</title> x</item>
+        <item><persName>Orenchev</persName> et <persName>Ivanov</persName> <persName><abbr>FLL</abbr></persName> x</item>
+        <item><persName><abbr>FLL</abbr></persName> - <persName>Quenelief</persName> et la commission <persName>Roubaud</persName> <persName>Bens</persName>_ x</item>
+        <item><persName>N. Arnaud</persName> Méthode de création de <persName>Louis Oury</persName> <del>et <persName>Gérard de Funès</persName></del> x</item>
+        <item><persName>L. Etienne</persName> Information <title>Jeune Archimède</title> x</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="#rq"><abbr>RQ</abbr></persName> Diffusion livre <persName ref="#gp">Perec</persName> <title ref="#ulcerations">Ulcérations</title> x</item>
+        <item><persName><abbr>RQ</abbr></persName> Diffusion livre <persName>Perec</persName> <title>Ulcérations</title> x</item>
         <item>Echos du livre n° 1-2 x</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
-      <p><term ref="#calculdusens">Calcul du sens</term> <persName ref="#rq"><abbr>RQ</abbr></persName> x</p>
-      <p><persName ref="#armandlanou">Armand Lanoux</persName> <persName ref="#rq"><abbr>RQ</abbr></persName> x</p>
+      <p><term>Calcul du sens</term> <persName><abbr>RQ</abbr></persName> x</p>
+      <p><persName>Armand Lanoux</persName> <persName><abbr>RQ</abbr></persName> x</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="#pascallaine">Pascal Lainé</persName> <persName ref="#fll"><abbr>FLL</abbr></persName> x</p>
+      <p><persName>Pascal Lainé</persName> <persName><abbr>FLL</abbr></persName> x</p>
       <p>Oulipo et Procédé</p>
       <p>Prochain jour 16 Mai Vendredi</p>
     </body>

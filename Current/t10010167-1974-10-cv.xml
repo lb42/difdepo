@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010167-1974-10-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010167-1974-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,9 +18,14 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010167-1974-10-cv</idno> <title>Convocation à <ref target="#t10010167-1974-10">une réunion Oulipo</ref>, envoyée le <date when="1974-10-08">8 octobre 1974</date> par <persName ref="#fll" role="expéditeur">François Le Lionnais</persName></title> </bibl>
+        <bibl><idno>t10010167-1974-10-cv</idno> <title>Convocation à <ref target="#t10010167-1974-10">une réunion Oulipo</ref>, envoyée le <date when="1974-10-08">8 octobre 1974</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-09">restore senders from docx</change>
@@ -35,12 +41,12 @@
       <p rend="incipit">Le tableau noir (des 2 cotés) devrait être livré cette semaine.</p>
       <p rend="incipit">Boulogne-sur-Seine, le 8 Octobre 1974</p>
       <p>Chers Brigadiers,</p>
-      <p>Je vous rappelle que notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  est fixée au Jeudi 24 Octobre.</p>
-      <p>Notre invitée d’honneur sera <persName ref="#sylviaroubaud">Sylvia ROUBAUD</persName> qui nous fera – de 13 heures 30 à 15 heures – un exposé d’<term ref="#anoulipisme">Anoulipisme</term> sur les <term ref="#romansdechevalerie">Romans de Chevalerie</term>, la <term ref="#combinatoire">Combinatoire</term> et les <term ref="#nombres">Nombres</term>.</p>
+      <p>Je vous rappelle que notre <name type="manif">prochaine réunion</name> est fixée au Jeudi 24 Octobre.</p>
+      <p>Notre invitée d’honneur sera <persName>Sylvia ROUBAUD</persName> qui nous fera – de 13 heures 30 à 15 heures – un exposé d’<term>Anoulipisme</term> sur les <term>Romans de Chevalerie</term>, la <term>Combinatoire</term> et les <term>Nombres</term>.</p>
       <p>Je compte sur vous pour me préciser dans le meilleur délai possible si vous venez.</p>
       <p>Oulipiennement vôtre.</p>
-      <p>Le Président <persName ref="#lelyonnais">Le Lyonnais</persName> : étonné mais flatté de vous recevoir.</p>
-      <p><persName ref="#fll">F. Le Lionnais</persName></p>
+      <p>Le Président <persName>Le Lyonnais</persName> : étonné mais flatté de vous recevoir.</p>
+      <p><persName>F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

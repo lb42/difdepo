@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010229-1980-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xml:id="t10010229-1980-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,22 +17,25 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010229-1980-06-cr</idno>
-          <meeting xml:id="t10010229-1980-06">
-            <date when="1980-06-20">20 juin 1980</date>
-            <placeName>chez PF</placeName>
-            <list type="present">
-              <item><persName ref="#jr">Jacques Roubaud</persName></item>
-              <item><persName ref="#jq">Jean Queval</persName></item>
-              <item><persName ref="#pb">Paul Braffort</persName></item>
-              <item><persName ref="#mm">Michele Métail</persName></item>
-              <item><persName ref="#pf">Paul Fournel</persName></item>
-              <item><persName ref="#le">Luc Etienne</persName></item>
-            </list>
-          </meeting>
-        </bibl>
+        <bibl><idno>t10010229-1980-06-cr</idno> <meeting xml:id="t10010229-1980-06">
+          <date when="1980-06-20">20 juin 1980</date>
+          <placeName>chez PF</placeName>
+          <list type="present">
+            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName>Jean Queval</persName></item>
+            <item><persName>Paul Braffort</persName></item>
+            <item><persName>Michele Métail</persName></item>
+            <item><persName>Paul Fournel</persName></item>
+            <item><persName>Luc Etienne</persName></item>
+          </list>
+          </meeting> </bibl>
       </sourceDesc>
-        </fileDesc><encodingDesc>       <listPrefixDef>         <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>       </listPrefixDef>     </encodingDesc> 
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
     <revisionDesc>
       <listChange>
         <change when="2018-01-06">restore date from docx</change>
@@ -48,29 +52,18 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010229k/f3.highres" n="3"/>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item>Participation à l'hommage à <persName ref="#sebastienbottin">Sébastien
-            Bottin</persName></item>
-        <item><persName ref="#pb">P. Braffort</persName> : les titres. Comment trouver un titre ?
-          Composer des titres à partir de <term ref="#contrepeteries">contrepèteries</term>.
-          Variante de la technique de <persName ref="#roussel">Roussel</persName>. Ex : le rapt de
-          Trappes – les ciseaux de Sosie. L'appliquer aux têtes de chapitre.</item>
-        <item><persName ref="#jq">J. Queval</persName> : « Suite » récit qui ferait appel à des
-            <term ref="#dominantesconsonantiques">dominantes consonantiques</term> (systématisation
-          des idées de Joyce)</item>
-        <item><persName ref="#pf">P. Fournel</persName> : Retour à la prose. Contribution à
-          l'hommage à <persName ref="#rq">Queneau</persName> (cahier de <persName ref="#valentinbru">Valentin Bru</persName> (?)).</item>
+        <item>Participation à l'hommage à <persName>Sébastien Bottin</persName></item>
+        <item><persName>P. Braffort</persName> : les titres. Comment trouver un titre ? Composer des titres à partir de <term>contrepèteries</term>. Variante de la technique de <persName>Roussel</persName>. Ex : le rapt de Trappes – les ciseaux de Sosie. L'appliquer aux têtes de chapitre.</item>
+        <item><persName>J. Queval</persName> : « Suite » récit qui ferait appel à des <term>dominantes consonantiques</term> (systématisation des idées de Joyce)</item>
+        <item><persName>P. Fournel</persName> : Retour à la prose. Contribution à l'hommage à <persName>Queneau</persName> (cahier de <persName>Valentin Bru</persName> (?)).</item>
       </list>
-      <p>Texte en prose réalisé à partir des contraintes de <term ref="#moraleelementaire">morale
-          élémentaire</term> (extrait une morale élémentaire à partir de « <title ref="#odile">Odile</title> ») - inclusion d'une forme fixe dans un poème en prose.</p>
+      <p>Texte en prose réalisé à partir des contraintes de <term>morale élémentaire</term> (extrait une morale élémentaire à partir de « <title>Odile</title> ») - inclusion d'une forme fixe dans un poème en prose.</p>
       <p><label type="rubrique">Action</label></p>
-      <p><name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>.</p>
-      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> distribution numéro
-        13</p>
-      <p>Problème volume 14 – agrandissement du format – un volume de l'Oulipo réalisé avec les 14
-        volumes déjà édités – Quel éditeur ? <orgName ref="#bourgeois">Bourgeois</orgName> ?
-          <orgName ref="#potchokovsky"><persName>P. Otchokovsky</persName></orgName> ?</p>
-      <p><persName ref="#mb"><abbr>MB</abbr></persName> : bilan financier.</p>
-      <p>Compte <orgName ref="#gallimard">Gallimard</orgName> – 76,77 – versement = 450 F</p>
+      <p><name type="manif">Villeneuve-lès-Avignon</name>.</p>
+      <p><title>Bibliothèque oulipienne</title> distribution numéro 13</p>
+      <p>Problème volume 14 – agrandissement du format – un volume de l'Oulipo réalisé avec les 14 volumes déjà édités – Quel éditeur ? <orgName>Bourgeois</orgName> ? <orgName><persName>P. Otchokovsky</persName></orgName> ?</p>
+      <p><persName><abbr>MB</abbr></persName> : bilan financier.</p>
+      <p>Compte <orgName>Gallimard</orgName> – 76,77 – versement = 450 F</p>
     </body>
   </text>
 </TEI>
