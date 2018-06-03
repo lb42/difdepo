@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010149-1973-04-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010149-1973-04-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,7 +19,7 @@
         <bibl><idno>t10010149-1973-04-cr</idno> <meeting xml:id="t10010149-1973-04">
           <date when="1973-04-25">25 avril 1973</date>
           <list type="present">
-            <item><persName role="invité">Émile Leipp</persName></item>
+            <item><persName ref="difdepo:persons.xml#emileleipp" role="invité">Émile Leipp</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,25 +47,25 @@
       <list type="unordered">
         <item>Sortie Oulipo : reportée au 9 Mai à Columbia</item>
         <item>Problème des envois : diverses difficultés matérielles</item>
-        <item>Lecture d’un fragment de la <title>Loi du Talion</title> de <persName>G. Klein</persName></item>
+        <item>Lecture d’un fragment de la <title ref="difdepo:titles.xml#loidutalion">Loi du Talion</title> de <persName ref="difdepo:persons.xml#gklein">G. Klein</persName></item>
       </list>
       <p><label type="rubrique">Action :</label></p>
-      <p><persName>R. Queneau</persName> : projet de bulletin.</p>
-      <p>(.Vendredi 4 Mai : suite du <title>Graal</title>.)</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> : projet de bulletin.</p>
+      <p>(.Vendredi 4 Mai : suite du <title ref="difdepo:titles.xml#graal">Graal</title>.)</p>
       <list type="unordered">
-        <item><persName><abbr>RQ</abbr></persName> : Brain-storming</item>
+        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : Brain-storming</item>
       </list>
       <p><label type="rubrique">Menus-propos :</label></p>
-      <p><persName><abbr>FLL</abbr></persName> : Madame <persName>Weher</persName>, directrice du <orgName>Palace</orgName>, nous prête sa salle.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Madame <persName ref="difdepo:persons.xml#weher">Weher</persName>, directrice du <orgName ref="difdepo:organizations.xml#palace">Palace</orgName>, nous prête sa salle.</p>
       <list type="unordered">
-        <item><persName><abbr>R.Q</abbr></persName> : <persName>Wittgenstein</persName> : exemple de phrase fausse : j’ai marché sur la lune.</item>
+        <item><persName ref="difdepo:persons.xml#rq"><abbr>R.Q</abbr></persName> : <persName ref="difdepo:persons.xml#wittgenstein">Wittgenstein</persName> : exemple de phrase fausse : j’ai marché sur la lune.</item>
       </list>
       <list type="unordered">
-        <item>Ecrire des <term>contrepets</term></item>
+        <item>Ecrire des <term ref="difdepo:terms.xml#contrepets">contrepets</term></item>
       </list>
       <p>Le 9 Mai prochaine séance</p>
       <p>Mercredi 6 Juin</p>
-      <p>Invité prévu: Mademoiselle <persName>Chen</persName>. Probable (à discuter)</p>
+      <p>Invité prévu: Mademoiselle <persName ref="difdepo:persons.xml#chen">Chen</persName>. Probable (à discuter)</p>
     </body>
   </text>
 </TEI>

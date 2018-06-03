@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010259-1983-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010259-1983-03-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,17 +20,17 @@
           <date when="1983-03-18">18 mars 1983</date>
           <placeName>chez Michèle Métail</placeName>
           <list type="present">
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Jean Queval</persName></item>
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>Jacques Bens</persName></item>
-            <item><persName>Michele Métail</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Noël Arnaud</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -53,50 +52,50 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010259t/f3.highres" n="3"/>
       <p rend="incipit">Compte-rendu</p>
-      <p>Réunion du 18 Mars 83 Chez <persName>Michèle Métail</persName></p>
-      <p>Présents : <persName><abbr>MB</abbr></persName>, <persName><abbr>JQ</abbr></persName>, <persName><abbr>LE</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>NA</abbr></persName></p>
-      <p>Excusés : <persName><abbr>FLL</abbr></persName>, <persName><abbr>AB</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>IC</abbr></persName>, <persName><abbr>HM</abbr></persName></p>
-      <p>Absents : <persName><abbr>JD</abbr></persName></p>
-      <p><persName>Queval</persName> : <lb/>Projet d’un livre sur les <title>Essais de <persName>Queneau</persName></title> (voir document en archive) <lb/>Essayer de réunir les fils de la pensée de <persName>Queneau</persName>.</p>
-      <p>NA : <lb/>Souhaiterait aussi faire un texte sur <persName>Queneau</persName> et politique : Front National, Critique sociale, etc…</p>
+      <p>Réunion du 18 Mars 83 Chez <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName></p>
+      <p>Présents : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></p>
+      <p>Excusés : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p>Absents : <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName> : <lb/>Projet d’un livre sur les <title ref="difdepo:titles.xml#essaisdequeneau">Essais de <persName ref="difdepo:persons.xml#queneau">Queneau</persName></title> (voir document en archive) <lb/>Essayer de réunir les fils de la pensée de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
+      <p>NA : <lb/>Souhaiterait aussi faire un texte sur <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et politique : Front National, Critique sociale, etc…</p>
       <p><label type="rubrique">Créations :</label></p>
       <list type="unordered">
-        <item><persName><abbr>PB</abbr></persName> : <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <list type="unordered">
           <item>Le vol d’Itiers scénario interactif fait pour un concours. (voir archive) (50 000 F de prix)</item>
           </list> </item>
-        <item><persName><abbr>PF</abbr></persName> : <list type="unordered">
-          <item>Projet de livre sur <persName>Perec</persName> pour <unclear><persName>Veyrier</persName></unclear></item>
-          <item><persName><abbr>CB</abbr></persName> : <persName>Perec</persName> et arts plastiques</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <list type="unordered">
+          <item>Projet de livre sur <persName ref="difdepo:persons.xml#perec">Perec</persName> pour <unclear><persName ref="difdepo:persons.xml#veyrier">Veyrier</persName></unclear></item>
+          <item><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : <persName ref="difdepo:persons.xml#perec">Perec</persName> et arts plastiques</item>
           </list> </item>
-        <item><persName><abbr>MM</abbr></persName> : <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : <list type="unordered">
           <item>Filigrane : (archives) l’empire (des sens) interdits</item>
           </list> </item>
-        <item><persName><abbr>LE</abbr></persName> : <list type="unordered">
-          <item>Unicité : Ce repère <persName>Perec</persName> (voir Bibliothèque oulipienne <persName><abbr>GP</abbr></persName>)</item>
-          <item>Défi à <persName><abbr>PB</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : <list type="unordered">
+          <item>Unicité : Ce repère <persName ref="difdepo:persons.xml#perec">Perec</persName> (voir Bibliothèque oulipienne <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>)</item>
+          <item>Défi à <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></item>
           </list> </item>
-        <item><persName><abbr>MB</abbr></persName> : <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <list type="unordered">
           <item>La grille mode d’emploi. (Archives)</item>
           </list> </item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> : <list type="unordered">
-          <item><orgName>Beaubourg</orgName> vendredi 8</item>
-          <item>Novembre 83 Evreux : <persName><abbr>NA</abbr></persName>. <persName><abbr>JB</abbr></persName>. <persName><abbr>PB</abbr></persName>. <persName><abbr>MB</abbr></persName> ?</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <list type="unordered">
+          <item><orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> vendredi 8</item>
+          <item>Novembre 83 Evreux : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>. <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>. <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> ?</item>
           </list> </item>
-        <item><persName><abbr>PF</abbr></persName> : <list type="unordered">
-          <item>Bibliothèque oulipienne : <persName>Evelyne <unclear>Lecuire</unclear></persName> les <title>Bibliothèque oulipienne</title>. Prend contact avec <persName><abbr>MB</abbr></persName></item>
-          <item><persName>Schmitt</persName> + <persName>Viala</persName> ; OK de l’Oulipo pour une Opération université</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <list type="unordered">
+          <item>Bibliothèque oulipienne : <persName ref="difdepo:persons.xml#evelynelecuire">Evelyne <unclear>Lecuire</unclear></persName> les <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Prend contact avec <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></item>
+          <item><persName ref="difdepo:persons.xml#schmitt">Schmitt</persName> + <persName ref="difdepo:persons.xml#viala">Viala</persName> ; OK de l’Oulipo pour une Opération université</item>
           </list> </item>
-        <item><name type="manif">Prochaine réunion</name> 29 Avril 83</item>
-        <item><persName><abbr>CB</abbr></persName> fait un rapport sur le traité apporté par <persName><abbr>NA</abbr></persName> (<unclear>inter ?</unclear>)</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> 29 Avril 83</item>
+        <item><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> fait un rapport sur le traité apporté par <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> (<unclear>inter ?</unclear>)</item>
         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010259t/f4.highres" n="4"/>
-        <item><persName><abbr>MB</abbr></persName>. <persName>Isabelle B</persName>. : a proposé une amélioration de sa <term>contrainte</term></item>
-        <item>Phynances= décompte <orgName>Gallimard</orgName> pour ventes Oulipo 1.</item>
-        <item><name type="manif">Colloque</name> <persName>R. Roussel</persName> à Nice le 26-27-28 juin</item>
-        <item>Alexandrins oraux et fortuits de <persName>Alain Borer</persName></item>
-        <item>Arrivée de <persName>Bay</persName>, <persName>Brunella Eruli</persName> et la télévision suisse et <unclear>?</unclear></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="difdepo:persons.xml#isabelleb">Isabelle B</persName>. : a proposé une amélioration de sa <term ref="difdepo:terms.xml#contrainte">contrainte</term></item>
+        <item>Phynances= décompte <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> pour ventes Oulipo 1.</item>
+        <item><name ref="difdepo:events.xml#colloque" type="manif">Colloque</name> <persName ref="difdepo:persons.xml#rroussel">R. Roussel</persName> à Nice le 26-27-28 juin</item>
+        <item>Alexandrins oraux et fortuits de <persName ref="difdepo:persons.xml#alainborer">Alain Borer</persName></item>
+        <item>Arrivée de <persName ref="difdepo:persons.xml#bay">Bay</persName>, <persName ref="difdepo:persons.xml#brunellaeruli">Brunella Eruli</persName> et la télévision suisse et <unclear>?</unclear></item>
       </list>
     </body>
   </text>

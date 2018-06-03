@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010315-1988-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010315-1988-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010315-1988-04-cv</idno> <title>Convocation à <ref target="#t10010315-1988-04">une réunion Oulipo</ref>, envoyée le <date when="1988-04-07">7 avril 1988</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010315-1988-04-cv</idno> <title>Convocation à <ref target="#t10010315-1988-04">une réunion Oulipo</ref>, envoyée le <date when="1988-04-07">7 avril 1988</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -37,12 +36,12 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010315r/f1.highres" n="1"/>
-      <p>Autres oulipiens présents :    <persName><abbr>CB</abbr></persName> <persName><abbr>JJ</abbr></persName> <persName><abbr>MM</abbr></persName> <persName><abbr>MB</abbr></persName> <persName><abbr>FC</abbr></persName> <persName><abbr>PB</abbr></persName></p>
-      <p>Expéditeur : <persName><abbr>PF</abbr></persName>    </p>
+      <p>Autres oulipiens présents :    <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p>Expéditeur : <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>    </p>
       <p>OULIPO</p>
       <p>Le 7 avril 1988</p>
       <p>Cher oulipien,</p>
-      <p>Notre <name type="manif">prochaine réunion</name> aura lieu le mardi 19 avril à 19 heures chez Jacques Jouet au 12 rue Lancry 75010 Paris (tél : 42 41 20 07)</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu le mardi 19 avril à 19 heures chez Jacques Jouet au 12 rue Lancry 75010 Paris (tél : 42 41 20 07)</p>
       <p>Retournez la découpe ci-dessous au plus tôt.</p>
       <p>Des signatures Oulipo sont prévues au Salon du Livre, vous serez contactés par les services commerciaux des Editions Ramsay ? ?</p>
       <p>Amitiés,</p>

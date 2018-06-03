@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010207-1978-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010207-1978-06-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,40 +40,40 @@
       <p rend="incipit">à 18h chez G. Perec</p>
       <p><label type="rubrique">Action :</label></p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> : Caisse</item>
-        <item><persName><abbr>MB</abbr></persName> + PF : B. O. + Projets + libraires + nouvel imprimeur.</item>
-        <item><persName><abbr>PF</abbr></persName> : Avignon → JB</item>
-        <item><persName><abbr>PF</abbr></persName> : Royaumont</item>
-        <item><persName><abbr>PF</abbr></persName> : <persName>Métail</persName></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Caisse</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> + PF : B. O. + Projets + libraires + nouvel imprimeur.</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Avignon → JB</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Royaumont</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#metail">Métail</persName></item>
       </list>
       <p><label type="rubrique">Création :</label></p>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> : <persName>Roubaud</persName> absent → Hôtel de Sens parti</item>
-        <item><persName><abbr>GP</abbr></persName> : Projet «<title> trompe-l’œil </title>»</item>
-        <item><persName><abbr>JB</abbr></persName> : Projet : «<title> La promenade de François </title>».</item>
-        <item><persName><abbr>LE</abbr></persName> : Projet : «<title> les temps emmêlés </title>»</item>
-        <item><persName><abbr>PB</abbr></persName> : Le principe de l’avalanche</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> absent → Hôtel de Sens parti</item>
+        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Projet «<title ref="difdepo:titles.xml#trompeloil"> trompe-l’œil </title>»</item>
+        <item><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Projet : «<title ref="difdepo:titles.xml#lapromenadedefrancois"> La promenade de François </title>».</item>
+        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Projet : «<title ref="difdepo:titles.xml#lestempsemmeles"> les temps emmêlés </title>»</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Le principe de l’avalanche</item>
       </list>
       <p><label type="rubrique">Érudition :</label></p>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> : sortie de <title>l’anthologie des GR</title> de <persName>P Zumthor</persName></item>
-        <item><persName><abbr>PF</abbr></persName> : les livres de <persName>Roubaud</persName></item>
-        <item><persName><abbr>JD</abbr></persName> : un auteur à signaler.</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : sortie de <title ref="difdepo:titles.xml#lanthologiedesgr">l’anthologie des GR</title> de <persName ref="difdepo:persons.xml#pzumthor">P Zumthor</persName></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : les livres de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></item>
+        <item><persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> : un auteur à signaler.</item>
       </list>
       <p><label type="rubrique">Traduction :</label></p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> : lettre et article du traducteur</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lettre et article du traducteur</item>
       </list>
       <p><label type="rubrique">Informations :</label></p>
       <list type="unordered">
-        <item><persName><abbr>FLL</abbr></persName> : <persName>Andrée Vergès</persName>/ Film de vendredi</item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#andreeverges">Andrée Vergès</persName>/ Film de vendredi</item>
       </list>
-      <p><label type="rubrique"><name type="manif">Prochaine réunion</name>  :</label></p>
+      <p><label type="rubrique"><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  :</label></p>
       <p>10/8/78</p>
       <p>14/9.78</p>
       <p><label type="rubrique">Problème de logique :</label></p>
       <list type="unordered">
-        <item><persName><abbr>L.E.</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#le"><abbr>L.E.</abbr></persName></item>
       </list>
     </body>
   </text>

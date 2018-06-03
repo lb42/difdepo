@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010304-1987-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010304-1987-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010304-1987-04-cv</idno> <title>Convocation à <ref target="#t10010304-1987-04">une réunion Oulipo</ref>, envoyée le <date when="1987-04-16">16 avril 1987</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010304-1987-04-cv</idno> <title>Convocation à <ref target="#t10010304-1987-04">une réunion Oulipo</ref>, envoyée le <date when="1987-04-16">16 avril 1987</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,11 +39,11 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Le 16.04.87</p>
       <p>Oulipiens,</p>
-      <p>L’ouvroir se réunira pour la prochaine et pour la première fois chez <persName>Marie Chaix</persName> et <persName>Harry Mathews</persName> au 67 rue de Grenelle 75007 Paris (45.49.39.59), le Mardi 28 Avril 1987 à 19 heures.</p>
+      <p>L’ouvroir se réunira pour la prochaine et pour la première fois chez <persName ref="difdepo:persons.xml#mariechaix">Marie Chaix</persName> et <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> au 67 rue de Grenelle 75007 Paris (45.49.39.59), le Mardi 28 Avril 1987 à 19 heures.</p>
       <p>Notez bien le code de la porte d’entrée : 7043.</p>
-      <p>Notez aussi que <name type="manif">la lecture oulipo au Théâtre du quartier d’Ivry</name> aura lieu le 5 Mai. J’ai des invitations en ma possession.</p>
+      <p>Notez aussi que <name ref="difdepo:events.xml#lalectureoulipoautheatreduquartierdivry" type="manif">la lecture oulipo au Théâtre du quartier d’Ivry</name> aura lieu le 5 Mai. J’ai des invitations en ma possession.</p>
       <p>Retournez la découpe et partagez-vous mes amitiés,</p>
-      <p><persName><abbr>Paul</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName>.</p>
     </body>
   </text>
 </TEI>

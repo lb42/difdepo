@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010285-1985-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010285-1985-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,13 +20,13 @@
           <date when="1985-09-28">28 septembre 1985</date>
           <placeName>Chez JB</placeName>
           <list type="present">
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>François Caradec</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Michele Métail</persName></item>
-            <item><persName role="secrétaire">Jacques Jouet</persName></item>
-            <item><persName role="président">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet" role="secrétaire">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -52,40 +51,40 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102858/f2.highres" n="2"/>
       <p rend="incipit">OULIPO – Réunion du Samedi 28 septembre 85, de 16h à 23h.</p>
-      <p rend="incipit">Présents : <persName>Jacques Bens</persName> qui reçoit (à Limours, il fait beau), en compagnie d’<persName>Agnès Vaquin</persName>, <persName>Noël Arnaud</persName>, <persName>Marcel Bénabou</persName>, <persName>Paul Braffort</persName>, <persName>François Caradec</persName>, <persName>Paul Fournel</persName>, <persName>Jacques Jouet</persName>, <persName>Michèle Métail</persName>.</p>
-      <p rend="incipit">Exc. <persName>Claude Berge</persName>, <persName>Harry Mathews</persName>, <persName>Pierre Rosenstiehl</persName>. <persName>Jacques Roubaud</persName>.</p>
-      <p rend="incipit"><persName><abbr>NA</abbr></persName> préside. <persName><abbr>JJ</abbr></persName> prend des notes.</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> qui reçoit (à Limours, il fait beau), en compagnie d’<persName ref="difdepo:persons.xml#agnesvaquin">Agnès Vaquin</persName>, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName>.</p>
+      <p rend="incipit">Exc. <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName>. <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> préside. <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> prend des notes.</p>
       <p><label type="rubrique">GUIDE</label></p>
       <p>(Ce pourquoi nous étions là.)</p>
-      <p><persName><abbr>PF</abbr></persName>, qui n’était pas à <name type="manif">Andé</name> en mai dernier, donne ses remarques : il y a des manques ; il faut commencer par les principes (<ref>III</ref>).</p>
-      <p><persName><abbr>JB</abbr></persName> acquiesce.</p>
-      <p><persName><abbr>MB</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>JJ</abbr></persName> : c’est plus percutant de commencer par « <title>L’histoire revisitée</title>. »</p>
-      <p><persName><abbr>NA</abbr></persName> rappelle qu’il était question de faire un volume qui tranchât avec les précédents.</p>
-      <p><persName><abbr>PF</abbr></persName> et <persName><abbr>MM</abbr></persName> (respectivement) : Attention aux galéjades et kanulars !!</p>
-      <p><persName><abbr>JJ</abbr></persName> : La <term>méthode axiomatique</term>, c’est sérieux.</p>
-      <p><persName><abbr>FC</abbr></persName> : A Andé, on a fait un <term>plan encyclopédique</term> (un plan de travail). Le plan du livre peut être différent. Quand tous les textes seront écrits, il y aura des surprises.</p>
-      <p><persName><abbr>MB</abbr></persName> lit une esquisse de présentation générale.</p>
-      <p><persName><abbr>MM</abbr></persName> : Ce sont des formules défensives !</p>
-      <p><persName><abbr>PF</abbr></persName> : Les textes auront le dernier mot.</p>
-      <p>Revue rapide du plan dans son ensemble. Débats sur <persName>Roussel</persName>, sur les Lacunaires, la <term>science revisitée</term>, la <term>fable</term> (<persName><abbr>PF</abbr></persName> et <persName><abbr>JB</abbr></persName> ont des idées sur le <term>rapport récit/moralité</term>) le <term>pantoum</term>, les <term>sentences parallèles chinoises</term>…</p>
-      <p>A propos des « <term>formes littéraires revivifiées</term>, » il ne s’agit pas de traiter des textes préexistants (<term>traductions <persName>queval</persName>iennes</term>), mais de réfléchir sur les <term>formes</term> et <term>genres</term> eux-mêmes.</p>
-      <p><persName><abbr>MM</abbr></persName> critique le titre de <title>GUIDE</title>. Mieux, carrément : <title>POUR EN FINIR AVEC LE HASARD</title>.</p>
-      <p>Republier les <term>carrés sémiotiques</term> d’<persName>Italo Calvino</persName>. Il est évidemment trop tôt pour savoir si <persName><abbr>IC</abbr></persName> laisse des textes intéressant directement l’Oulipo.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, qui n’était pas à <name ref="difdepo:events.xml#ande" type="manif">Andé</name> en mai dernier, donne ses remarques : il y a des manques ; il faut commencer par les principes (<ref>III</ref>).</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> acquiesce.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : c’est plus percutant de commencer par « <title ref="difdepo:titles.xml#lhistoirerevisitee">L’histoire revisitée</title>. »</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> rappelle qu’il était question de faire un volume qui tranchât avec les précédents.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> et <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> (respectivement) : Attention aux galéjades et kanulars !!</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : La <term ref="difdepo:terms.xml#methodeaxiomatique">méthode axiomatique</term>, c’est sérieux.</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : A Andé, on a fait un <term ref="difdepo:terms.xml#planencyclopedique">plan encyclopédique</term> (un plan de travail). Le plan du livre peut être différent. Quand tous les textes seront écrits, il y aura des surprises.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lit une esquisse de présentation générale.</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : Ce sont des formules défensives !</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Les textes auront le dernier mot.</p>
+      <p>Revue rapide du plan dans son ensemble. Débats sur <persName ref="difdepo:persons.xml#roussel">Roussel</persName>, sur les Lacunaires, la <term ref="difdepo:terms.xml#sciencerevisitee">science revisitée</term>, la <term ref="difdepo:terms.xml#fable">fable</term> (<persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> et <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> ont des idées sur le <term ref="difdepo:terms.xml#rapportrecitmoralite">rapport récit/moralité</term>) le <term ref="difdepo:terms.xml#pantoum">pantoum</term>, les <term ref="difdepo:terms.xml#sentencesparalleleschinoises">sentences parallèles chinoises</term>…</p>
+      <p>A propos des « <term ref="difdepo:terms.xml#formeslitterairesrevivifiees">formes littéraires revivifiées</term>, » il ne s’agit pas de traiter des textes préexistants (<term ref="difdepo:terms.xml#traductionsquevaliennes">traductions <persName ref="difdepo:persons.xml#queval">queval</persName>iennes</term>), mais de réfléchir sur les <term ref="difdepo:terms.xml#formes">formes</term> et <term ref="difdepo:terms.xml#genres">genres</term> eux-mêmes.</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> critique le titre de <title ref="difdepo:titles.xml#guide">GUIDE</title>. Mieux, carrément : <title ref="difdepo:titles.xml#pourenfiniraveclehasard">POUR EN FINIR AVEC LE HASARD</title>.</p>
+      <p>Republier les <term ref="difdepo:terms.xml#carressemiotiques">carrés sémiotiques</term> d’<persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>. Il est évidemment trop tôt pour savoir si <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> laisse des textes intéressant directement l’Oulipo.</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>MM</abbr></persName> lit toute une série de <term>Filigranes</term> et quelques-uns de ses <title>50 Poèmes corpusculaires</title>. Ce sera la <title>Bibliothèque oulipienne</title> no.33.</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> lit toute une série de <term ref="difdepo:terms.xml#filigranes">Filigranes</term> et quelques-uns de ses <title ref="difdepo:titles.xml#n50poemescorpusculaires">50 Poèmes corpusculaires</title>. Ce sera la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> no.33.</p>
       <p>La fraîcheur tombe, sous le pommier. Par ailleurs, la faim nous gagne. A table.</p>
       <p><label type="rubrique">Actions</label></p>
-      <p><persName><abbr>MB</abbr></persName> lit des lettres adressées à l’Oulipo émanant de gens peinés de la mort d’<persName><abbr>Italo</abbr></persName>.</p>
-      <p><persName><abbr>NA</abbr></persName> lit un texte qu’il a écrit à ce même propos, à la demande <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102858/f3.highres" n="3"/>d’un journal. Malheureusement, ce texte n’est pas paru. <persName>Noël</persName> y parle longuement et chaleureusement d’<persName><abbr>Italo</abbr></persName>. Longuement, aussi du <term>clinamen</term>.</p>
-      <p>Débat sur le <term>clinamen</term> : <term>hasard contrôlé</term>, <term>liberté</term>, <term>laxisme</term>, <term>programmation d’un court-circuit</term>, <term>défense contre la raideur</term>…</p>
-      <p>Rappel : en III, le Guide prévoit « <title>Du clinamen</title> » ! (<persName><abbr>NA</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>MB</abbr></persName>).</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lit des lettres adressées à l’Oulipo émanant de gens peinés de la mort d’<persName ref="difdepo:persons.xml#italo"><abbr>Italo</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> lit un texte qu’il a écrit à ce même propos, à la demande <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102858/f3.highres" n="3"/>d’un journal. Malheureusement, ce texte n’est pas paru. <persName ref="difdepo:persons.xml#noel">Noël</persName> y parle longuement et chaleureusement d’<persName ref="difdepo:persons.xml#italo"><abbr>Italo</abbr></persName>. Longuement, aussi du <term ref="difdepo:terms.xml#clinamen">clinamen</term>.</p>
+      <p>Débat sur le <term ref="difdepo:terms.xml#clinamen">clinamen</term> : <term ref="difdepo:terms.xml#hasardcontrole">hasard contrôlé</term>, <term ref="difdepo:terms.xml#liberte">liberté</term>, <term ref="difdepo:terms.xml#laxisme">laxisme</term>, <term ref="difdepo:terms.xml#programmationduncourtcircuit">programmation d’un court-circuit</term>, <term ref="difdepo:terms.xml#defensecontrelaraideur">défense contre la raideur</term>…</p>
+      <p>Rappel : en III, le Guide prévoit « <title ref="difdepo:titles.xml#duclinamen">Du clinamen</title> » ! (<persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>).</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p>Qui cite le vers de <persName>l’Abbé Piron</persName> (<term>Métromanie</term>), <term>plagiat par anticipation</term> notre concept de <term>plagiat par anticipation</term> :</p>
+      <p>Qui cite le vers de <persName ref="difdepo:persons.xml#labbepiron">l’Abbé Piron</persName> (<term ref="difdepo:terms.xml#metromanie">Métromanie</term>), <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term> notre concept de <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term> :</p>
       <p>« Leurs écrits sont des vols qu’ils nous ont fait d’avance. » ?</p>
       <p><label type="rubrique">Création en cours</label></p>
-      <p><persName><abbr>JB</abbr></persName> et <persName><abbr>JJ</abbr></persName> travaillent sur des <term>Modèles</term> (cf. <term>modèles musicaux</term>) <term>graphiques</term> : plans de jardins, d’architecture…</p>
-      <p><persName><abbr>JB</abbr></persName> lit « <title>L’amer en ce jardin</title> » qui théorise l’approche. Débat.</p>
-      <p><name type="manif">Prochaine réunion</name> chez <persName>Claude Berge</persName>, le mercredi 16 oct. à 11h30.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> et <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> travaillent sur des <term ref="difdepo:terms.xml#modeles">Modèles</term> (cf. <term ref="difdepo:terms.xml#modelesmusicaux">modèles musicaux</term>) <term ref="difdepo:terms.xml#graphiques">graphiques</term> : plans de jardins, d’architecture…</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> lit « <title ref="difdepo:titles.xml#lamerencejardin">L’amer en ce jardin</title> » qui théorise l’approche. Débat.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, le mercredi 16 oct. à 11h30.</p>
     </body>
   </text>
 </TEI>

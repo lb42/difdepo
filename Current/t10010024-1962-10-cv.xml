@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010024-1962-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010024-1962-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -35,16 +34,16 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010024k/f1.highres" n="1"/>
-      <p rend="incipit">La <name type="manif">prochaine réunion</name> de l’Oulipo aura lieu :</p>
+      <p rend="incipit">La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Oulipo aura lieu :</p>
       <p rend="incipit">le mercredi 31 octobre 1962</p>
       <p rend="incipit">à midi 30</p>
-      <p rend="incipit">chez <persName>Claude Berge</persName></p>
+      <p rend="incipit">chez <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></p>
       <p rend="incipit">8 rue Claude Matras</p>
       <p>Mic 45-73</p>
       <p>Issy-les-Moulineaux</p>
       <p>Escalier gauche / 8e Etage / Porte gauche</p>
       <p>Attention !</p>
-      <p>Le <name type="manif">Salon de <lb/>l’Automobile</name></p>
+      <p>Le <name ref="difdepo:events.xml#salondelautomobile" type="manif">Salon de <lb/>l’Automobile</name></p>
       <p>pose des problèmes</p>
       <p>de stationnement !</p>
     </body>

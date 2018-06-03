@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010330-1989-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010330-1989-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,11 +20,11 @@
           <date when="1989-09-15">15 septembre 1989</date>
           <placeName>chez FC</placeName>
           <list type="present">
-            <item><persName>Jacques Jouet</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Jacques Roubaud</persName></item>
-            <item><persName role="secrétaire">Marcel Bénabou</persName></item>
-            <item><persName role="président">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews" role="président">Harry Mathews</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -50,73 +49,73 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f12.highres" n="12"/>
       <p rend="incipit">OULIPO du 15-9-89</p>
-      <p rend="incipit">chez <persName><abbr>FC</abbr></persName></p>
+      <p rend="incipit">chez <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></p>
       <p rend="incipit">Présents</p>
-      <p rend="incipit"><persName><abbr>FC</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>MM</abbr></persName>, <persName><abbr>JL</abbr></persName>, <persName>Roubaud</persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>PB</abbr></persName>.</p>
-      <p rend="incipit">Président <persName><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Secrétaire : <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>.</p>
+      <p rend="incipit">Président <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Secrétaire : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>FC</abbr></persName></item>
-        <item><term>S+7</term> = O (circulaire) (sera publié en <title>Bibliothèque oulipienne</title>)</item>
-        <item><title>Pour lire à deux</title> (sera publié en <title>Bibliothèque oulipienne</title>)</item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></item>
+        <item><term ref="difdepo:terms.xml#s7">S+7</term> = O (circulaire) (sera publié en <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>)</item>
+        <item><title ref="difdepo:titles.xml#pourlireadeux">Pour lire à deux</title> (sera publié en <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>)</item>
       </list>
       <p>Le même texte écrit deux fois. Un sur la page de droite, l’autre à la page de gauche.</p>
       <p>Administration générale. Félicitations</p>
       <list type="ordered">
-        <item><title>L’enfileur de perles</title> (Tuyaux de poêle)</item>
-        <item><persName><abbr>MB</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>JJ</abbr></persName> : compte rendu de la réunion sur le tome III</item>
+        <item><title ref="difdepo:titles.xml#lenfileurdeperles">L’enfileur de perles</title> (Tuyaux de poêle)</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : compte rendu de la réunion sur le tome III</item>
       </list>
-      <p>reprendre sous forme de <title>Bibliothèque oulipienne</title> des textes qui devaient figurer au tome III</p>
+      <p>reprendre sous forme de <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> des textes qui devaient figurer au tome III</p>
       <p>peu &gt; réunion de travail samedi après-midi de novembre (25/11)</p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> <title>les sept règles de <persName>Perec</persName></title> (état n°2) (<term>monovocalisme</term> en e)</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <title ref="difdepo:titles.xml#lesseptreglesdeperec">les sept règles de <persName ref="difdepo:persons.xml#perec">Perec</persName></title> (état n°2) (<term ref="difdepo:terms.xml#monovocalisme">monovocalisme</term> en e)</item>
       </list>
       <p>lecture d’un texte admirable. Félicitations</p>
       <p>Blâme tacite des autres oulipiens.</p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> <unclear>*</unclear> non utilisés dans la <title>Disparition</title> : lecture et commentaire</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <unclear>*</unclear> non utilisés dans la <title ref="difdepo:titles.xml#disparition">Disparition</title> : lecture et commentaire</item>
       </list>
-      <p>(<term>textes lipogrammatiques</term>, dont un sur la circoncision du fils du rabbin)</p>
+      <p>(<term ref="difdepo:terms.xml#texteslipogrammatiques">textes lipogrammatiques</term>, dont un sur la circoncision du fils du rabbin)</p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName> : Un poème en <term>belle absente</term> + utilisation de vers de <persName>Shakespeare</persName> (<term>sonnet</term>) + répétition de vers en fonction de la répétition des lettres.</item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Un poème en <term ref="difdepo:terms.xml#belleabsente">belle absente</term> + utilisation de vers de <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName> (<term ref="difdepo:terms.xml#sonnet">sonnet</term>) + répétition de vers en fonction de la répétition des lettres.</item>
       </list>
-      <p><label type="rubrique"><persName><abbr>FC</abbr></persName> : Erudition <persName>Jean Moreas</persName></label></p>
+      <p><label type="rubrique"><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Erudition <persName ref="difdepo:persons.xml#jeanmoreas">Jean Moreas</persName></label></p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> : <title>Dictionnaire Houdin</title> : des</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : <title ref="difdepo:titles.xml#dictionnairehoudin">Dictionnaire Houdin</title> : des</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010330b/f13.highres" n="13"/>
       <p>OULIPO (2) 15-9-89</p>
       <list type="unordered">
-        <item><persName><abbr>JR</abbr></persName> <persName>Hermogène</persName> (à propos de)</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#hermogene">Hermogène</persName> (à propos de)</item>
       </list>
-      <p><persName>Annabel Patterson</persName> <title>Hermogen and the Renaissance</title>, <orgName>Oxford</orgName> 1970</p>
+      <p><persName ref="difdepo:persons.xml#annabelpatterson">Annabel Patterson</persName> <title ref="difdepo:titles.xml#hermogenandtherenaissance">Hermogen and the Renaissance</title>, <orgName ref="difdepo:organizations.xml#oxford">Oxford</orgName> 1970</p>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName> “<title>53 jours</title>” des échos</item>
-        <item><persName><abbr>MB</abbr></persName> Explication de l’exergue du chapitre XII de “<title>53 jours</title>”</item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> “<title ref="difdepo:titles.xml#n53jours">53 jours</title>” des échos</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Explication de l’exergue du chapitre XII de “<title ref="difdepo:titles.xml#n53jours">53 jours</title>”</item>
       </list>
-      <p>(traduction en latin de la <term>contrepèterie</term> : « les archéologues mettaient dans les caisses le produit de leurs fouilles »)</p>
+      <p>(traduction en latin de la <term ref="difdepo:terms.xml#contrepeterie">contrepèterie</term> : « les archéologues mettaient dans les caisses le produit de leurs fouilles »)</p>
       <list type="unordered">
-        <item><persName><abbr>JR</abbr></persName> Nouveaux membres : proposer des noms</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> Nouveaux membres : proposer des noms</item>
       </list>
-      <p>Prochains invités <persName>Klinkenberg</persName> (téléphoner = <persName>Blavier</persName> ou à <persName>Dabou</persName>)</p>
-      <p><persName>Lascault</persName></p>
-      <p><persName>Pavic</persName></p>
-      <p><persName>Cerquiglini</persName></p>
+      <p>Prochains invités <persName ref="difdepo:persons.xml#klinkenberg">Klinkenberg</persName> (téléphoner = <persName ref="difdepo:persons.xml#blavier">Blavier</persName> ou à <persName ref="difdepo:persons.xml#dabou">Dabou</persName>)</p>
+      <p><persName ref="difdepo:persons.xml#lascault">Lascault</persName></p>
+      <p><persName ref="difdepo:persons.xml#pavic">Pavic</persName></p>
+      <p><persName ref="difdepo:persons.xml#bc">Cerquiglini</persName></p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> <persName><abbr>MB</abbr></persName> : lecture à Ivry le 3/10 à 20 30 (Programme à déterminer)</item>
-        <item><persName><abbr>MB</abbr></persName> Invitation à l’<orgName>Oupeinpo</orgName> en janvier.</item>
-        <item><persName><abbr>MB</abbr></persName> : Nouvelle de <persName><abbr>PB</abbr></persName> : sera à Paris du 23 10 au 17 11</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lecture à Ivry le 3/10 à 20 30 (Programme à déterminer)</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Invitation à l’<orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> en janvier.</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Nouvelle de <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : sera à Paris du 23 10 au 17 11</item>
       </list>
-      <p><name type="manif">Prochaine réunion</name>  : 17/10 chez <persName><abbr>CB</abbr></persName>.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : 17/10 chez <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>.</p>
       <p>Jeudi 16/11 (lieu à déterminer)</p>
-      <p><persName><abbr>PF</abbr></persName> : sera à Sarrebruck.</p>
-      <p>Traduction de <persName>Calvino</persName> = <title>Forêt. Racine. Labyrinthe</title></p>
-      <p>problème avec Madame <persName>Calvino</persName> à cause d’un agent américain</p>
-      <p><persName><abbr>HM</abbr></persName> <title>Java</title> (la revue) demande textes oulipiens</p>
-      <p>Centre de vente : <persName><abbr>MB</abbr></persName>, de l’Oulipo</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : sera à Sarrebruck.</p>
+      <p>Traduction de <persName ref="difdepo:persons.xml#calvino">Calvino</persName> = <title ref="difdepo:titles.xml#foretracinelabyrinthe">Forêt. Racine. Labyrinthe</title></p>
+      <p>problème avec Madame <persName ref="difdepo:persons.xml#calvino">Calvino</persName> à cause d’un agent américain</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <title ref="difdepo:titles.xml#java">Java</title> (la revue) demande textes oulipiens</p>
+      <p>Centre de vente : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, de l’Oulipo</p>
       <p>Menus Propos</p>
       <p>+ (391581 x 2<hi rend="sup">276193</hi>) -1 le nombre premier le plus grand.</p>
     </body>

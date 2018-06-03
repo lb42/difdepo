@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010144-1972-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010144-1972-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,17 +19,17 @@
         <bibl><idno>t10010144-1972-10-cr</idno> <meeting xml:id="t10010144-1972-10">
           <date when="1972-10-11">11 octobre 1972</date>
           <list type="present">
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Raymond Queneau</persName></item>
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName>Jean Queval</persName></item>
-            <item><persName>Jacques Roubaud</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Georges Perec</persName></item>
-            <item><persName>Claude Berge</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName role="invité">Françoise Erval</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoiseerval" role="invité">Françoise Erval</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -55,84 +54,84 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010144s/f6.highres" n="6"/>
       <p rend="incipit">Séance du 11 Octobre 1972</p>
-      <p rend="incipit">Présents : <persName><abbr>FLL</abbr></persName> <persName><abbr>RQ</abbr></persName> <persName><abbr>Luc Et</abbr></persName>. <persName>J. Queval</persName>. <persName>J. Roubaud</persName>. <persName>Fournel</persName>. <persName>M. Benabou</persName>. <persName>Perec</persName>. <persName>Berge</persName>. <persName>Braffort</persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> <persName ref="difdepo:persons.xml#lucet"><abbr>Luc Et</abbr></persName>. <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>. <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName>. <persName ref="difdepo:persons.xml#fournel">Fournel</persName>. <persName ref="difdepo:persons.xml#mbenabou">M. Benabou</persName>. <persName ref="difdepo:persons.xml#perec">Perec</persName>. <persName ref="difdepo:persons.xml#berge">Berge</persName>. <persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
       <p>Discussion générale</p>
       <p><label type="rubrique">+ Création:</label></p>
-      <p>Oulipo <term>sémantique</term> -, X, Y, Z <persName><abbr>FLL</abbr></persName></p>
+      <p>Oulipo <term ref="difdepo:terms.xml#semantique">sémantique</term> -, X, Y, Z <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
       <p><label type="rubrique">+ Erudition :</label></p>
-      <p><persName>Roubaud</persName> : Gwyddbwyll. <persName><abbr>Luc Et</abbr></persName>. <name type="manif">Exposition <orgName>BN</orgName>.</name></p>
+      <p><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : Gwyddbwyll. <persName ref="difdepo:persons.xml#lucet"><abbr>Luc Et</abbr></persName>. <name ref="difdepo:events.xml#expositionbn" type="manif">Exposition <orgName ref="difdepo:organizations.xml#bn">BN</orgName>.</name></p>
       <p><label type="rubrique">+ Action :</label></p>
-      <p>discussion phynancière – X-storming <persName><abbr>FLL</abbr></persName> – <persName>Roubaud</persName> : Go</p>
-      <p>Manuscrit <title>exCape</title>: contenu épreuve.</p>
+      <p>discussion phynancière – X-storming <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> – <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : Go</p>
+      <p>Manuscrit <title ref="difdepo:titles.xml#excape">exCape</title>: contenu épreuve.</p>
       <p><label type="rubrique">+ Menus propos:</label></p>
-      <p><persName>Fournel</persName> – <persName>Perec</persName>: oubli – <persName>Braffort</persName>: <persName>Escher</persName>.</p>
-      <p><persName>Baudot</persName> par <persName><abbr>FLL</abbr></persName>. <persName>Duchateau</persName> récompenses.</p>
-      <p>Prochains invités : <persName>Calvino</persName> – <persName>Lepp</persName> – <persName>Simonet</persName> – Prochain 8/11 – 13/12</p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> – <persName ref="difdepo:persons.xml#perec">Perec</persName>: oubli – <persName ref="difdepo:persons.xml#braffort">Braffort</persName>: <persName ref="difdepo:persons.xml#escher">Escher</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#baudot">Baudot</persName> par <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> récompenses.</p>
+      <p>Prochains invités : <persName ref="difdepo:persons.xml#calvino">Calvino</persName> – <persName ref="difdepo:persons.xml#lepp">Lepp</persName> – <persName ref="difdepo:persons.xml#simonet">Simonet</persName> – Prochain 8/11 – 13/12</p>
       <p><label type="rubrique">+ Recréations :</label></p>
-      <p><persName>Perec</persName> : <term>Comptines</term> facilement mémorisable</p>
-      <p><persName><abbr>Luc Et</abbr></persName> : Asphyxie et aération sornette à sonnette</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : <term ref="difdepo:terms.xml#comptines">Comptines</term> facilement mémorisable</p>
+      <p><persName ref="difdepo:persons.xml#lucet"><abbr>Luc Et</abbr></persName> : Asphyxie et aération sornette à sonnette</p>
       <p><label type="rubrique">+ Action immédiate:</label></p>
-      <p>Déjeuner <persName><abbr>FLL</abbr></persName></p>
-      <p>Prière d’insérer <persName>Perec</persName>.</p>
+      <p>Déjeuner <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p>Prière d’insérer <persName ref="difdepo:persons.xml#perec">Perec</persName>.</p>
       <list type="unordered">
-        <item><persName>Perec</persName> : création : une <term>comptine</term> sur les chiffres de 1 à 20</item>
+        <item><persName ref="difdepo:persons.xml#perec">Perec</persName> : création : une <term ref="difdepo:terms.xml#comptine">comptine</term> sur les chiffres de 1 à 20</item>
       </list>
       <list type="unordered">
-        <item><persName><abbr>FLL</abbr></persName>. Asphyxie, aération.</item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Asphyxie, aération.</item>
       </list>
       <list type="unordered">
-        <item><persName>Fournel</persName> : <persName>Fred. O’Brady</persName></item>
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : <persName ref="difdepo:persons.xml#fredobrady">Fred. O’Brady</persName></item>
       </list>
       <list type="unordered">
         <item>Oubli du 3ème secteur : nom des villas – nom des promotions immobilières.</item>
       </list>
       <list type="unordered">
-        <item><persName>Baudot</persName> : la <term>machine</term> à écrire : textes composés par ordinateur.</item>
+        <item><persName ref="difdepo:persons.xml#baudot">Baudot</persName> : la <term ref="difdepo:terms.xml#machine">machine</term> à écrire : textes composés par ordinateur.</item>
       </list>
       <list type="unordered">
-        <item>Distribution du livre d’<persName>Escher</persName>.</item>
+        <item>Distribution du livre d’<persName ref="difdepo:persons.xml#escher">Escher</persName>.</item>
       </list>
       <list type="unordered">
-        <item>Action <persName>Roubaud</persName> : Go : Revue demande textes</item>
+        <item>Action <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : Go : Revue demande textes</item>
       </list>
       <list type="unordered">
-        <item><persName>Roubaud</persName> : Qwyddbwyll : jeu pratiqué par <persName><choice><sic><unclear>Peredur</unclear></sic><corr>Perec</corr></choice></persName> : sorte d’<term>échecs</term> = les pièces se déplacent seules : <term>machines</term> <orgName>IBM</orgName> ?</item>
+        <item><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : Qwyddbwyll : jeu pratiqué par <persName ref="difdepo:persons.xml#perec"><choice><sic><unclear>Peredur</unclear></sic><corr>Perec</corr></choice></persName> : sorte d’<term ref="difdepo:terms.xml#echecs">échecs</term> = les pièces se déplacent seules : <term ref="difdepo:terms.xml#machines">machines</term> <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName> ?</item>
       </list>
       <list type="unordered">
-        <item><persName>L. Etienne</persName> : manuel de confession à languettes</item>
+        <item><persName ref="difdepo:persons.xml#le">L. Etienne</persName> : manuel de confession à languettes</item>
       </list>
       <list type="unordered">
-        <item><persName><abbr>FLL</abbr></persName> : la <term>relation X prend Y pour Z</term> : appliquer la relation</item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : la <term ref="difdepo:terms.xml#relationxprendypourz">relation X prend Y pour Z</term> : appliquer la relation</item>
       </list>
       <p>En inventer d’autres.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010144s/f7.highres" n="7"/>
       <list type="unordered">
-        <item><persName>Braffort</persName> : Rapprocher du <term>roman policier</term> : X est l’assassin de Y</item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : Rapprocher du <term ref="difdepo:terms.xml#romanpolicier">roman policier</term> : X est l’assassin de Y</item>
       </list>
       <list type="unordered">
-        <item><persName>Fournel</persName> : Western.</item>
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Western.</item>
       </list>
       <list type="unordered">
-        <item><persName>Queneau</persName> : le track muk. Problème de l’énigme</item>
+        <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : le track muk. Problème de l’énigme</item>
       </list>
       <p>aspect logique</p>
       <p>aspect psychologique</p>
       <p>Pour le dossier : Prière d’insérer.</p>
       <list type="unordered">
-        <item>Erudition <persName>Queneau</persName> : <persName>Restif</persName> utilise un caractère différent pour chaque personnage</item>
+        <item>Erudition <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <persName ref="difdepo:persons.xml#restif">Restif</persName> utilise un caractère différent pour chaque personnage</item>
       </list>
       <list type="unordered">
-        <item>Erudition <persName>Perec</persName> : <title>les Formes simples</title> de <persName>Jolles</persName>.</item>
+        <item>Erudition <persName ref="difdepo:persons.xml#perec">Perec</persName> : <title ref="difdepo:titles.xml#lesformessimples">les Formes simples</title> de <persName ref="difdepo:persons.xml#jolles">Jolles</persName>.</item>
       </list>
       <list type="unordered">
-        <item><persName>Luc Etienne</persName> : <title>Que Sais-je</title> de <persName>Bernasconi</persName> sur l’énigme.</item>
+        <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : <title ref="difdepo:titles.xml#quesaisje">Que Sais-je</title> de <persName ref="difdepo:persons.xml#bernasconi">Bernasconi</persName> sur l’énigme.</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010144s/f8.highres" n="8"/>
       <p>11-10</p>
-      <p><persName><abbr>FLL</abbr></persName> : problème de repas</p>
-      <p><persName><abbr>R.Q.</abbr></persName> : Contrat = discussion des termes.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : problème de repas</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> : Contrat = discussion des termes.</p>
       <p>Délai de 3 ans.</p>
-      <p><persName><abbr>FLL</abbr></persName> : Titre : OULIPO – <term>Littérature Potentielle</term></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Titre : OULIPO – <term ref="difdepo:terms.xml#litteraturepotentielle">Littérature Potentielle</term></p>
       <p>Créations – recréations soumis à approbation</p>
       <list type="unordered">
         <item>Lettre aux collaborateurs</item>
@@ -140,12 +139,12 @@
       <list type="unordered">
         <item>Demander les secondes épreuves</item>
       </list>
-      <p><persName><abbr>FLL</abbr></persName> X-storming : rappel d’une proposition antérieure</p>
-      <p>Vrai et faux <term>brain-storming</term>.</p>
-      <p>Arrivée de <persName>F. ERVAL</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> X-storming : rappel d’une proposition antérieure</p>
+      <p>Vrai et faux <term ref="difdepo:terms.xml#brainstorming">brain-storming</term>.</p>
+      <p>Arrivée de <persName ref="difdepo:persons.xml#ferval">F. ERVAL</persName>.</p>
       <list type="unordered">
-        <item>Problème : <persName>Carelman</persName> pour le frontispisce.</item>
-        <item><persName>Luc Etienne</persName> : problème du <term>ruban de <persName>Möebius</persName></term></item>
+        <item>Problème : <persName ref="difdepo:persons.xml#carelman">Carelman</persName> pour le frontispisce.</item>
+        <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : problème du <term ref="difdepo:terms.xml#rubandemoebius">ruban de <persName ref="difdepo:persons.xml#moebius">Möebius</persName></term></item>
       </list>
       <list type="unordered">
         <item>Titre : Créations, recréations, recréations : adopté par 6 contre 2 et 2 abstentions.</item>
@@ -156,7 +155,7 @@
       <p>Service de presse : arrangement par exemplaire, d’auteur.</p>
       <p>Faire un service de presse collectif.</p>
       <list type="unordered">
-        <item><persName>Fournel</persName> se charge de faire faire un tampon Hommage de l’Oulipo.</item>
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> se charge de faire faire un tampon Hommage de l’Oulipo.</item>
       </list>
     </body>
   </text>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010224-1980-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010224-1980-06-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,13 +36,13 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010224b/f3.highres" n="3"/>
       <p><label type="rubrique">Commentaires</label></p>
-      <p><persName><abbr>CB</abbr></persName></p>
-      <p><persName><abbr>JB</abbr></persName></p>
-      <p><persName><abbr>JB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
       <p><label type="rubrique">Action</label></p>
-      <p><title>Bibliothèque oulipienne</title></p>
-      <p><name type="manif">Villeneuve</name></p>
-      <p><name type="manif">Port Cros</name></p>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></p>
+      <p><name ref="difdepo:events.xml#portcros" type="manif">Port Cros</name></p>
       <p>Prochaine séance</p>
     </body>
   </text>

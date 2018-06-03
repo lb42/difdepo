@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010186-1976-05-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010186-1976-05-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010186-1976-05-cv</idno> <title>Convocation à <ref target="#t10010186-1976-05">une réunion Oulipo</ref>, envoyée le <date when="1976-05-20">20 mai 1976</date> par <persName role="expéditeur">Marcel Bénabou</persName></title></bibl>
+        <bibl><idno>t10010186-1976-05-cv</idno> <title>Convocation à <ref target="#t10010186-1976-05">une réunion Oulipo</ref>, envoyée le <date when="1976-05-20">20 mai 1976</date> par <persName ref="difdepo:persons.xml#marcelbenabou" role="expéditeur">Marcel Bénabou</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,15 +38,15 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010186b/f1.highres" n="1"/>
       <p rend="incipit">Paris, le 20 Mai 1976</p>
       <p>Chers amis,</p>
-      <p>Le Jeudi 10 Juin 1976, se tiendra la prochaine séance de l’Oulipo, au domicile de <persName>G. Pérec</persName>. L’adresse, familière désormais à tous, est : 13, rue Linné Paris 5ème, métro Jussieu. En raison de l’ordre du jour changé, il serait souhaitable que le travail commence vers onze heures. Les points suivants seront discutés :</p>
+      <p>Le Jeudi 10 Juin 1976, se tiendra la prochaine séance de l’Oulipo, au domicile de <persName ref="difdepo:persons.xml#gperec">G. Pérec</persName>. L’adresse, familière désormais à tous, est : 13, rue Linné Paris 5ème, métro Jussieu. En raison de l’ordre du jour changé, il serait souhaitable que le travail commence vers onze heures. Les points suivants seront discutés :</p>
       <list type="ordered">
-        <item>Premiers commentaires sur la « <title>matrice maîtresse</title> » de <persName>Mathews</persName> ;</item>
-        <item>Lecture de la deuxième partie du <title>conte du Labrador</title> de <persName>Roubaud</persName> ;</item>
-        <item>Préparation de la soirée « <name type="manif">Dialogues</name> » : en effet, le10 Juin au soir, aura lieu l’enregistrement de l’émission « <name type="manif">Dialogues</name> », de <persName>R. Pillaudin</persName>, consacrée à l’Oulipo. Notre Président-Fondateur y dialoguera avec <persName>P. Lainé</persName> sur le thème : où en est l’Oulipo ? Les membres de l’Oulipo, qui recevront tous une invitation de <orgName>Radio France</orgName>, pourront assister à ce dialogue et participer au débat qui suivra.</item>
+        <item>Premiers commentaires sur la « <title ref="difdepo:titles.xml#matricemaitresse">matrice maîtresse</title> » de <persName ref="difdepo:persons.xml#mathews">Mathews</persName> ;</item>
+        <item>Lecture de la deuxième partie du <title ref="difdepo:titles.xml#contedulabrador">conte du Labrador</title> de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> ;</item>
+        <item>Préparation de la soirée « <name ref="difdepo:events.xml#dialogues" type="manif">Dialogues</name> » : en effet, le10 Juin au soir, aura lieu l’enregistrement de l’émission « <name ref="difdepo:events.xml#dialogues" type="manif">Dialogues</name> », de <persName ref="difdepo:persons.xml#rpillaudin">R. Pillaudin</persName>, consacrée à l’Oulipo. Notre Président-Fondateur y dialoguera avec <persName ref="difdepo:persons.xml#plaine">P. Lainé</persName> sur le thème : où en est l’Oulipo ? Les membres de l’Oulipo, qui recevront tous une invitation de <orgName ref="difdepo:organizations.xml#radiofrance">Radio France</orgName>, pourront assister à ce dialogue et participer au débat qui suivra.</item>
       </list>
       <p>Amicalement à tous,</p>
       <p>Un secrétaire</p>
-      <p><persName><abbr>MB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
     </body>
   </text>
 </TEI>

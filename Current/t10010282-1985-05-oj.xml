@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010282-1985-05-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010282-1985-05-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,26 +36,26 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010282x/f5.highres" n="5"/>
       <p rend="incipit">OULIPO du 17/5/85</p>
-      <p rend="incipit">Excusés : <persName><abbr>JR</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>MM</abbr></persName></p>
-      <p rend="incipit">Présents : <persName><abbr>FC</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>JQ</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName> <term>ROR</term></item>
-        <item><persName><abbr>JJ</abbr></persName> Encouragement et/ou découragement à la création</item>
-        <item><persName><abbr>PF</abbr></persName> <term>Oritonyrime</term></item>
-        <item><persName><abbr>MB</abbr></persName> <title>Si l’amour</title></item>
-        <item><persName><abbr>FC</abbr></persName> Dictée de <term>rimes singes</term></item>
-        <item><persName><abbr>NA</abbr></persName> <term>Style alexandrin</term></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <term ref="difdepo:terms.xml#ror">ROR</term></item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Encouragement et/ou découragement à la création</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <term ref="difdepo:terms.xml#oritonyrime">Oritonyrime</term></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <title ref="difdepo:titles.xml#silamour">Si l’amour</title></item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Dictée de <term ref="difdepo:terms.xml#rimessinges">rimes singes</term></item>
+        <item><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> <term ref="difdepo:terms.xml#stylealexandrin">Style alexandrin</term></item>
       </list>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>JQ</abbr></persName> Essais de <persName>Queneau</persName></p>
-      <p><persName><abbr>MB</abbr></persName> <name type="manif">Vitoria</name></p>
-      <p><persName><abbr>FC</abbr></persName></p>
-      <p><persName><abbr>HM</abbr></persName> <title>Bibliothèque oulipienne</title></p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> Essais de <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <name ref="difdepo:events.xml#vitoria" type="manif">Vitoria</name></p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>FC</abbr></persName> Lavagne</p>
-      <p><persName><abbr>PB</abbr></persName> Un <term>plagiaire</term> de <persName>Luc Etienne</persName> (<term>nouvelle en ruban de Möbius</term>)</p>
-      <p><persName><abbr>HM</abbr></persName> <persName>Thomas Pynchon</persName> (<title>Rainbow</title>)</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Lavagne</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> Un <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> (<term ref="difdepo:terms.xml#nouvelleenrubandemobius">nouvelle en ruban de Möbius</term>)</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#thomaspynchon">Thomas Pynchon</persName> (<title ref="difdepo:titles.xml#rainbow">Rainbow</title>)</p>
     </body>
   </text>
 </TEI>

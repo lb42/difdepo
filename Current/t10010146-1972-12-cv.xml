@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010146-1972-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010146-1972-12-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,9 +37,9 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010146p/f1.highres" n="1"/>
       <p rend="incipit">Le 1er Décembre 1972</p>
       <p rend="incipit">Chers OuLipotes,</p>
-      <p>Le Président <persName>LE LIONNAIS</persName> ayant été hospitalisé d’urgence nous avons décidé d’annuler la réunion prévue pour le 13 Décembre.</p>
+      <p>Le Président <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> ayant été hospitalisé d’urgence nous avons décidé d’annuler la réunion prévue pour le 13 Décembre.</p>
       <p>L’état de santé du Président n’est pas alarmant mais il nécessite une modification des dates prévues pour l’intervention chirurgicale. A l’heure actuelle le Président est à l’Hôpital Ambroise Paré (chambre 449, 4<hi rend="sup">ème</hi> étage) en attendant son transfert à la clinique de Choisy.</p>
-      <p>La date de la <name type="manif">prochaine réunion</name> sera communiquée par courrier en temps utile</p>
+      <p>La date de la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> sera communiquée par courrier en temps utile</p>
       <p>Oulipiennement vôtre</p>
       <p>Un secrétaire</p>
     </body>

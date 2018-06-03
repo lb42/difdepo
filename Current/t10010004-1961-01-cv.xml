@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010004-1961-01-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010004-1961-01-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010004-1961-01-cv</idno> <title>Convocation à <ref target="#t10010004-1961-01">une réunion Oulipo</ref>, envoyée le <date when="1961-01-25">25 janvier 1961</date> par <persName role="expéditeur">Jacques Bens</persName></title></bibl>
+        <bibl><idno>t10010004-1961-01-cv</idno> <title>Convocation à <ref target="#t10010004-1961-01">une réunion Oulipo</ref>, envoyée le <date when="1961-01-25">25 janvier 1961</date> par <persName ref="difdepo:persons.xml#jacquesbens" role="expéditeur">Jacques Bens</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -41,22 +40,22 @@
       <p rend="incipit">Echéances</p>
       <p rend="incipit">mercredi 25 janvier</p>
       <p>Messieurs et chers confrères,</p>
-      <p>Notre ami <persName>Le Lionnais</persName> vient de me téléphoner pour me dire que la date du 14 février, prévue pour notre prochain déjeuner, ne lui convient plus. J’ai appelé trois autres personnes (celles dont je connais le numéro de téléphone), et voici le résultat général :</p>
-      <p><persName>F. LE LIONNAIS</persName> : lundi 13 – jeudi 16 – vendredi 17</p>
-      <p><persName>A.-M. SCHMIDT</persName> : lundi 13 – vendredi 17</p>
-      <p><persName>R. QUENEAU</persName> : lundi 13 – vendredi 17</p>
-      <p><persName>J. LESCURE</persName> : lundi 13</p>
+      <p>Notre ami <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> vient de me téléphoner pour me dire que la date du 14 février, prévue pour notre prochain déjeuner, ne lui convient plus. J’ai appelé trois autres personnes (celles dont je connais le numéro de téléphone), et voici le résultat général :</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : lundi 13 – jeudi 16 – vendredi 17</p>
+      <p><persName ref="difdepo:persons.xml#amschmidt">A.-M. SCHMIDT</persName> : lundi 13 – vendredi 17</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : lundi 13 – vendredi 17</p>
+      <p><persName ref="difdepo:persons.xml#jlescure">J. LESCURE</persName> : lundi 13</p>
       <p>Le lundi 13 février paraît donc, jusqu’à plus ample informé, la seule date possible.</p>
       <p>Il faudrait que chacun des autres membres de l’Ou.Li.Po. me donne son accord, afin que je puisse confirmer – ou infirmer – cette date.</p>
-      <p>Par la même occasion, que celui qui peut se charger de retenir la salle se fasse connaître (n’est-ce pas <persName>Jean Lescure</persName> ?). Car, si je téléphone moi-même, le gérant ne saura pas de qui il s’agit. (J’en suis humilié, mais c’est ainsi.)</p>
-      <p>Une réponse rapide est évidemment souhaitable. (Même sur carte postale.) A : <persName><abbr>J.B.</abbr></persName> c/o Librairie <orgName>Gallimard</orgName> / 5 rue Sébastien-Bottin / Paris – 7.</p>
+      <p>Par la même occasion, que celui qui peut se charger de retenir la salle se fasse connaître (n’est-ce pas <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> ?). Car, si je téléphone moi-même, le gérant ne saura pas de qui il s’agit. (J’en suis humilié, mais c’est ainsi.)</p>
+      <p>Une réponse rapide est évidemment souhaitable. (Même sur carte postale.) A : <persName ref="difdepo:persons.xml#jb"><abbr>J.B.</abbr></persName> c/o Librairie <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> / 5 rue Sébastien-Bottin / Paris – 7.</p>
       <p>Le Secrétaire Provisoire.</p>
-      <p><persName><abbr>J.B.</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>J.B.</abbr></persName></p>
       <p>Rectificatifs à la circulaire n°3 :</p>
       <list type="ordered">
-        <item>M. <persName>Louis Barnier</persName> ne se prénomme pas Lucien.</item>
-        <item>Le <persName>Chevalier de Piis</persName> ne s’appelle pas de Pise ;</item>
-        <item>Ce n’est pas un « <title>Grand Rhétoriqueur</title> » : l’<title>Encyclopédie de la Pléiade</title> le fait naître en 1855 et mourir en 1831.</item>
+        <item>M. <persName ref="difdepo:persons.xml#louisbarnier">Louis Barnier</persName> ne se prénomme pas Lucien.</item>
+        <item>Le <persName ref="difdepo:persons.xml#chevalierdepiis">Chevalier de Piis</persName> ne s’appelle pas de Pise ;</item>
+        <item>Ce n’est pas un « <title ref="difdepo:titles.xml#grandrhetoriqueur">Grand Rhétoriqueur</title> » : l’<title ref="difdepo:titles.xml#encyclopediedelapleiade">Encyclopédie de la Pléiade</title> le fait naître en 1855 et mourir en 1831.</item>
         <item>Dont acte (de contrition).</item>
       </list>
     </body>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010175-1975-07-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010175-1975-07-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010175-1975-07-cv</idno> <title>Convocation à <ref target="#t10010175-1975-07">une réunion Oulipo</ref>, envoyée le <date when="1975-07-23">23 juillet 1975</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010175-1975-07-cv</idno> <title>Convocation à <ref target="#t10010175-1975-07">une réunion Oulipo</ref>, envoyée le <date when="1975-07-23">23 juillet 1975</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,12 +39,12 @@
       <p rend="incipit">Je sors demain, 24, en forme fracassante de la clinique de l’Avenue de la Porte de Choisy.</p>
       <p rend="incipit">Boulogne-sur-Seine, le 23 Juillet 1975</p>
       <p>Chers Brigadiers,</p>
-      <p>Notre <name type="manif">prochaine réunion</name> a été fixée au Jeudi 7 Août. Elle est importante. En dehors de certaines questions fondamentales et des questions courantes, nous aurons à prendre les dernières dispositions pour la préparation de la participation de l’OULIPO à la <name type="manif">manifestation d’<orgName>EUROPALIA</orgName></name> à Bruxelles, le MERCREDI 8 OCTOBRE 1975. Votre présence vous permettra donc de peser sur les décisions et le programme. Les 8 et 9 Juillet, j’ai rencontré, à Bruxelles, le Secrétaire Général d’<orgName>EUROPALIA</orgName>, <persName>Robert de SMET</persName>. Un compte rendu circonstancié (en français moderne : briefing) vous sera donné le 7 Août. En me répondant, voulez-vous me préciser ce que vous désirez ajouter à l’Ordre du jour de la réunion et si vous avez une idée sur votre emploi du temps du 8 Octobre.</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> a été fixée au Jeudi 7 Août. Elle est importante. En dehors de certaines questions fondamentales et des questions courantes, nous aurons à prendre les dernières dispositions pour la préparation de la participation de l’OULIPO à la <name ref="difdepo:events.xml#manifestationdeuropalia" type="manif">manifestation d’<orgName ref="difdepo:organizations.xml#europalia">EUROPALIA</orgName></name> à Bruxelles, le MERCREDI 8 OCTOBRE 1975. Votre présence vous permettra donc de peser sur les décisions et le programme. Les 8 et 9 Juillet, j’ai rencontré, à Bruxelles, le Secrétaire Général d’<orgName ref="difdepo:organizations.xml#europalia">EUROPALIA</orgName>, <persName ref="difdepo:persons.xml#robertdesmet">Robert de SMET</persName>. Un compte rendu circonstancié (en français moderne : briefing) vous sera donné le 7 Août. En me répondant, voulez-vous me préciser ce que vous désirez ajouter à l’Ordre du jour de la réunion et si vous avez une idée sur votre emploi du temps du 8 Octobre.</p>
       <p>Bien oulipiennement vôtre,</p>
-      <p><persName>F. Le Lionnais</persName></p>
-      <p>PS – Peut-être serez-vous intéressé d’apprendre ce qui m’est arrivé lors de notre dernière réunion, celle du 20 Juin. J’ai été victime de deux héros d’une pièce de théâtre de <persName>Maeterlinck</persName>.</p>
-      <p><persName>ADALGUR</persName> et <persName>BROLITENE</persName></p>
-      <p><persName>Adalgur</persName> m’a valu cette somnolence qui m’a privé de l’enchantement de la conversation. Pour <persName>Brolitene</persName>, cela a été plus grave, un commencement d’empoisonnement que je n’ai jugulé qu’en deux jours.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
+      <p>PS – Peut-être serez-vous intéressé d’apprendre ce qui m’est arrivé lors de notre dernière réunion, celle du 20 Juin. J’ai été victime de deux héros d’une pièce de théâtre de <persName ref="difdepo:persons.xml#maeterlinck">Maeterlinck</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#adalgur">ADALGUR</persName> et <persName ref="difdepo:persons.xml#brolitene">BROLITENE</persName></p>
+      <p><persName ref="difdepo:persons.xml#adalgur">Adalgur</persName> m’a valu cette somnolence qui m’a privé de l’enchantement de la conversation. Pour <persName ref="difdepo:persons.xml#brolitene">Brolitene</persName>, cela a été plus grave, un commencement d’empoisonnement que je n’ai jugulé qu’en deux jours.</p>
     </body>
   </text>
 </TEI>

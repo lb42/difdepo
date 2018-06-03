@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010135-1972-01-02-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010135-1972-01-02-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010135-1972-01-02-cv</idno> <title>Convocation à <ref target="#t10010135-1972-01-02">une réunion Oulipo</ref>, envoyée le <date when="1972-01-02">2 janvier 1972</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010135-1972-01-02-cv</idno> <title>Convocation à <ref target="#t10010135-1972-01-02">une réunion Oulipo</ref>, envoyée le <date when="1972-01-02">2 janvier 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -42,13 +41,13 @@
       <p>POtentielle</p>
       <p>Le 2 Janvier 1972</p>
       <p>Cher Oulipote,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l’OULIPO aura lieu le jeudi 13 Janvier 1972 au domicile du président fondateur, 23 route de la Reine à Boulogne.</p>
-      <p>Il sera question du dossier <orgName>Cape</orgName>, auquel il serait souhaitable d’ajouter quelques « chapeaux » explicatifs. Et le TS <persName>Latis</persName> sera là pour signaler les extraits retenus pour la prochaine livraison des <title>Subsidia Pataphysica</title>.</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OULIPO aura lieu le jeudi 13 Janvier 1972 au domicile du président fondateur, 23 route de la Reine à Boulogne.</p>
+      <p>Il sera question du dossier <orgName ref="difdepo:organizations.xml#cape">Cape</orgName>, auquel il serait souhaitable d’ajouter quelques « chapeaux » explicatifs. Et le TS <persName ref="difdepo:persons.xml#latis">Latis</persName> sera là pour signaler les extraits retenus pour la prochaine livraison des <title ref="difdepo:titles.xml#subsidiapataphysica">Subsidia Pataphysica</title>.</p>
       <p>Lors de la dernière réunion les membres présents sont tombés d’accord pour repousser la séance photographique au printemps.</p>
       <p>En outre, le projet de « dossier de réunion » ayant été accepté à l’unanimité des présents il serait souhaitable de préparer quelque peu les interventions (sur un bout de papier, même usagé, par exemple) de façon à garder des traces précises. Ceci pour le régal des historiens.</p>
-      <p><persName>Pole Fournelle</persName></p>
+      <p><persName ref="difdepo:persons.xml#polefournelle">Pole Fournelle</persName></p>
       <p>Un secrétaire.</p>
-      <p>NB : le volet mobile est à retourner chez le Président <persName>Le Lionnais</persName>.</p>
+      <p>NB : le volet mobile est à retourner chez le Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
     </body>
   </text>
 </TEI>

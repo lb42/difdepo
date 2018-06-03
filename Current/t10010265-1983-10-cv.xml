@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010265-1983-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010265-1983-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010265-1983-10-cv</idno> <title>Convocation à <ref target="#t10010265-1983-10">une réunion Oulipo</ref>, envoyée le <date when="1983-10-13">13 octobre 1983</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010265-1983-10-cv</idno> <title>Convocation à <ref target="#t10010265-1983-10">une réunion Oulipo</ref>, envoyée le <date when="1983-10-13">13 octobre 1983</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,10 +39,10 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 13 x 83</p>
       <p>Chers brigadiers,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 4 novembre à 11h30 chez <persName>Michèle Métail</persName> au 22 Ave Trudaine 75009 (526.16.15).</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 4 novembre à 11h30 chez <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> au 22 Ave Trudaine 75009 (526.16.15).</p>
       <p>La suivante aura lieu au même endroit mais à 18h le vendredi 2 décembre. Retenez cette date. Merci de retourner la découpe ci-dessous.</p>
       <p>Amicalement et oulipiennement,</p>
-      <p><persName><abbr>Paul</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
       <p>(un secrétaire)</p>
     </body>
   </text>

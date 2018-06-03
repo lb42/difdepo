@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010131-1971-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010131-1971-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010131-1971-10-cv</idno> <title>Convocation à <ref target="#t10010131-1971-10">une réunion Oulipo</ref>, envoyée le <date when="1971-10-14">14 octobre 1971</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010131-1971-10-cv</idno> <title>Convocation à <ref target="#t10010131-1971-10">une réunion Oulipo</ref>, envoyée le <date when="1971-10-14">14 octobre 1971</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -42,13 +41,13 @@
       <p>POtentielle</p>
       <p>le 14 Octobre 1971</p>
       <p>Chers OuLiPotes,</p>
-      <p>C’est le mardi 26 Octobre, 11 heures, qu’aura lieu, au domicile du Président-fondateur, la <name type="manif">prochaine réunion</name> de l’OuLiPo.</p>
-      <p>L’ordre du jour promet d’être particulièrement chargé : nous parlerons de phynances, d’<term>icogramme</term>, du dossier ex-<orgName>Cape</orgName>, des <title>Subsidia Pataphysica</title> ; et nous profiterons de la présence du Brigadier <persName>Bens</persName> pour aborder des questions fondamentales touchant à la vocation profonde de l’Ouvroir (ainsi qu’à ses œuvres et à ses buts d’ailleurs).</p>
+      <p>C’est le mardi 26 Octobre, 11 heures, qu’aura lieu, au domicile du Président-fondateur, la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OuLiPo.</p>
+      <p>L’ordre du jour promet d’être particulièrement chargé : nous parlerons de phynances, d’<term ref="difdepo:terms.xml#icogramme">icogramme</term>, du dossier ex-<orgName ref="difdepo:organizations.xml#cape">Cape</orgName>, des <title ref="difdepo:titles.xml#subsidiapataphysica">Subsidia Pataphysica</title> ; et nous profiterons de la présence du Brigadier <persName ref="difdepo:persons.xml#bens">Bens</persName> pour aborder des questions fondamentales touchant à la vocation profonde de l’Ouvroir (ainsi qu’à ses œuvres et à ses buts d’ailleurs).</p>
       <p>Il s’agira donc d’une réunion « historique » à laquelle il serait souhaitable de voir la totalité des membres…</p>
       <p>Au mardi 26, OuLiPiennement :</p>
-      <p><persName>Paul Fournel</persName></p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
       <p>Le Secrétaire.</p>
-      <p>nb : le volet mobile est à retourner au domicile du Président <persName>Le Lionnais</persName> (23 route de la Reine 92 ‑ Boulogne) ; ceci pour faciliter l’organisation matérielle de la réunion.</p>
+      <p>nb : le volet mobile est à retourner au domicile du Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> (23 route de la Reine 92 ‑ Boulogne) ; ceci pour faciliter l’organisation matérielle de la réunion.</p>
     </body>
   </text>
 </TEI>

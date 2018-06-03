@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010228-1980-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010228-1980-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,12 +20,12 @@
           <date when="1980-05-23">23 mai 1980</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Noël Arnaud</persName></item>
-            <item><persName>Jacques Bens</persName></item>
-            <item><persName>Claude Berge</persName></item>
-            <item><persName>Italo Calvino</persName></item>
-            <item><persName>Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -53,31 +52,31 @@
       <p rend="incipit">Oulipo 23-5-80</p>
       <p rend="incipit">Présents : MB, NA, JB, CB, IC, MM</p>
       <p rend="incipit">Excusés : GP, FLL, PF, JD, LE, JQ</p>
-      <p><persName><abbr>JB</abbr></persName> : <name type="manif">Villeneuve-lès-Avignon</name></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
       <p>Date fixé : 14-19 août</p>
-      <p>– Proposition <persName>Bens</persName> ***: faire 2 salles d'exercice, l'une pour les débutants, l'autres pour les avancer qui veulent rester plusieurs jours</p>
+      <p>– Proposition <persName ref="difdepo:persons.xml#bens">Bens</persName> ***: faire 2 salles d'exercice, l'une pour les débutants, l'autres pour les avancer qui veulent rester plusieurs jours</p>
       <p>– préparation du <ref>planning ci-joint</ref></p>
-      <p><persName>C. Berge</persName> : <orgName>Cerisy</orgName> et *** <term>graphes</term></p>
+      <p><persName ref="difdepo:persons.xml#cberge">C. Berge</persName> : <orgName ref="difdepo:organizations.xml#cerisy">Cerisy</orgName> et *** <term ref="difdepo:terms.xml#graphes">graphes</term></p>
       <p>Comment et qui ?</p>
-      <p><persName>Fournel</persName> (au téléphone) : <persName>Erval</persName> est d'accord pour lire le manuscrit d'Oulipo 2 qui lui sera remis le 26 avril ou le 27, dès que <persName>Braffort</persName> aura remis la partie qui (<unclear>illisible</unclear>)</p>
-      <p><persName><abbr>FLL</abbr></persName> (au téléphone) : au <gap/> prépare un concours sur <title>Art et ordinateur</title></p>
-      <p><persName><abbr>PB</abbr></persName> : - Beaubourg 80 – <persName>Balpe</persName></p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> (au téléphone) : <persName ref="difdepo:persons.xml#erval">Erval</persName> est d'accord pour lire le manuscrit d'Oulipo 2 qui lui sera remis le 26 avril ou le 27, dès que <persName ref="difdepo:persons.xml#braffort">Braffort</persName> aura remis la partie qui (<unclear>illisible</unclear>)</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> (au téléphone) : au <gap/> prépare un concours sur <title ref="difdepo:titles.xml#artetordinateur">Art et ordinateur</title></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : - Beaubourg 80 – <persName ref="difdepo:persons.xml#balpe">Balpe</persName></p>
       <p>faire une manifestation fin novembre ou décembre à Beaubourg au moment de la (illisible) des Bourgeois</p>
-      <p>– TEP <persName>Queneau</persName> : à prévoir</p>
-      <p><persName><abbr>IC</abbr></persName> : ***</p>
-      <p><persName><abbr>NA</abbr></persName> : Oulipo ***</p>
+      <p>– TEP <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : à prévoir</p>
+      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : ***</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Oulipo ***</p>
       <p>prévoir pour le 30 juin des textes sur Queneau</p>
-      <p><persName><abbr>PB</abbr></persName> : fournir arithmétique de Queneau</p>
-      <p><persName><abbr>JB</abbr></persName></p>
-      <p><persName><abbr>CB</abbr></persName> : correspondance mathématiques</p>
-      <p><persName><abbr>NA</abbr></persName> : exercice</p>
-      <p><persName><abbr>Italo</abbr></persName> : ex</p>
-      <p><persName><abbr>MB</abbr></persName> : histoires</p>
-      <p><persName><abbr>PF</abbr></persName> : <title>morale élémentaire</title></p>
-      <p><persName><abbr>JB</abbr></persName> : Car du <name type="manif">stage à Avignon</name></p>
-      <p><persName>Isou</persName> : *** remis à <persName>Arnaud</persName> au *** sur l'oulipo</p>
-      <p><persName>M Métail</persName> : projet à partir du <title>Bottin</title> : rassembler ceux qui ont fait quelque chose avec le <title>Bottin</title></p>
-      <p>20 juin <name type="manif">prochaine réunion</name></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : fournir arithmétique de Queneau</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : correspondance mathématiques</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : exercice</p>
+      <p><persName ref="difdepo:persons.xml#italo"><abbr>Italo</abbr></persName> : ex</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : histoires</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#moraleelementaire">morale élémentaire</title></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Car du <name ref="difdepo:events.xml#stageaavignon" type="manif">stage à Avignon</name></p>
+      <p><persName ref="difdepo:persons.xml#isou">Isou</persName> : *** remis à <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> au *** sur l'oulipo</p>
+      <p><persName ref="difdepo:persons.xml#mmetail">M Métail</persName> : projet à partir du <title ref="difdepo:titles.xml#bottin">Bottin</title> : rassembler ceux qui ont fait quelque chose avec le <title ref="difdepo:titles.xml#bottin">Bottin</title></p>
+      <p>20 juin <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name></p>
     </body>
   </text>
 </TEI>

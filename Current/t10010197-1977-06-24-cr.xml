@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010197-1977-06-24-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-24-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,15 +20,15 @@
           <date when="1977-06-24">24 juin 1977</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName>Jean Queval</persName></item>
-            <item><persName>Jean Lescure</persName></item>
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Harry Mathews</persName></item>
-            <item><persName>André Blavier</persName></item>
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName role="président">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#ab">André Blavier</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -53,81 +52,81 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f28.highres" n="28"/>
       <p rend="incipit">OULIPO du 24-06-77</p>
-      <p rend="incipit">Oui : <persName><abbr>MB</abbr></persName> <persName><abbr>PF</abbr></persName> <persName><abbr>FLL</abbr></persName> <persName><abbr>LE</abbr></persName> <persName><abbr>JQ</abbr></persName> <persName><abbr>HM</abbr></persName> <persName><abbr>AB</abbr></persName> <persName><abbr>JL</abbr></persName></p>
-      <p rend="incipit">Non : <persName><abbr>GP</abbr></persName> <persName><abbr>IC</abbr></persName></p>
+      <p rend="incipit">Oui : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName></p>
+      <p rend="incipit">Non : <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f29.highres" n="29"/>
       <p rend="incipit">le 24 Juin 77</p>
-      <p rend="incipit">Présents : <persName><abbr>JQ</abbr></persName> <persName><abbr>JL</abbr></persName> <persName><abbr>LE</abbr></persName> <persName><abbr>PB</abbr></persName> <persName><abbr>PF</abbr></persName> <persName><abbr>HM</abbr></persName> <persName><abbr>AB</abbr></persName> <persName><abbr>FLL</abbr></persName> <persName><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Président : <persName><abbr>PB</abbr></persName></p>
-      <p><title>Bibliothèque oulipienne</title></p>
-      <p><persName><abbr>PF</abbr></persName> : Problème des exemplaires fautifs. Que devons-nous en faire ?</p>
-      <p><persName><abbr>FLL</abbr></persName> : les poinçonner et les marquer</p>
-      <p><persName><abbr>LE</abbr></persName> : Faire un bon coup de poinçon.</p>
-      <p><persName><abbr>JL</abbr></persName> : en tous cas les limiter aux membres de l’oulipo. 2 exemplaires par personne et détruire le reste.</p>
-      <p><persName><abbr>AB</abbr></persName> : les donner aux bibliothèques publiques.</p>
-      <p><persName><abbr>PB</abbr></persName> : propose 5 exemplaires poinçonnés à chaque membre, les autres en dépôt au secrétariat</p>
-      <p><persName><abbr>HM</abbr></persName> : contre ! </p>
-      <p><persName><abbr>FLL</abbr></persName> : débrocher et donner sa contribution à chacun comme des tirés à part.</p>
-      <p><persName><abbr>PF</abbr></persName> : Donner 2 exemplaires poinçonnés à chacun</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Problème des exemplaires fautifs. Que devons-nous en faire ?</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : les poinçonner et les marquer</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Faire un bon coup de poinçon.</p>
+      <p><persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> : en tous cas les limiter aux membres de l’oulipo. 2 exemplaires par personne et détruire le reste.</p>
+      <p><persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName> : les donner aux bibliothèques publiques.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : propose 5 exemplaires poinçonnés à chaque membre, les autres en dépôt au secrétariat</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : contre ! </p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : débrocher et donner sa contribution à chacun comme des tirés à part.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Donner 2 exemplaires poinçonnés à chacun</p>
       <p>Désosser le reste pour donner en tirés à part à chacun DÉCISION</p>
-      <p><persName><abbr>MB</abbr></persName> : Etat des ventes (<ref>voir document secrétariat</ref> <title>Bibliothèque oulipienne</title>)</p>
-      <p>34 oulipo, 2 <persName>Jean Marie Queneau</persName>, 1 <persName>Kerraoul</persName>, 6 Archives, 2 dépôt = 45 exemplaires</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Etat des ventes (<ref>voir document secrétariat</ref> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>)</p>
+      <p>34 oulipo, 2 <persName ref="difdepo:persons.xml#jeanmariequeneau">Jean Marie Queneau</persName>, 1 <persName ref="difdepo:persons.xml#kerraoul">Kerraoul</persName>, 6 Archives, 2 dépôt = 45 exemplaires</p>
       <p>105 à vendre</p>
-      <p>8 min., 3 fed., 10 <orgName>gall</orgName>., 7 Rep., 5 <persName>Jean Marie Queneau</persName>, 3 taxt., 1 <persName>Puech</persName>, 1 <persName>Rameil</persName>, 1 <persName>Paulette</persName>, 20 <persName><abbr>FLL</abbr></persName>, 5 <persName><abbr>PB</abbr></persName>, 2 <persName><abbr>HM</abbr></persName>, 2 <persName><abbr>PF</abbr></persName>, 3 <persName><abbr>LE</abbr></persName>, 4 <persName><abbr>GP</abbr></persName>, 4 <persName><abbr>MB</abbr></persName>, 5 <persName><abbr>IC</abbr></persName>, 5 <persName><abbr>JQ</abbr></persName>, 5 <persName><abbr>JL</abbr></persName>, 1 <persName><abbr>AB</abbr></persName>, 4 <persName><abbr>JR</abbr></persName></p>
-      <p><persName>Georges Lambrichs</persName> veut faire faire un article dans <title>La Nouvelle Revue Française</title>. On ne peut que lui prêter les exemplaires.</p>
+      <p>8 min., 3 fed., 10 <orgName ref="difdepo:organizations.xml#gall">gall</orgName>., 7 Rep., 5 <persName ref="difdepo:persons.xml#jeanmariequeneau">Jean Marie Queneau</persName>, 3 taxt., 1 <persName ref="difdepo:persons.xml#puech">Puech</persName>, 1 <persName ref="difdepo:persons.xml#rameil">Rameil</persName>, 1 <persName ref="difdepo:persons.xml#paulette">Paulette</persName>, 20 <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, 5 <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, 2 <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, 2 <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, 3 <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, 4 <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, 4 <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, 5 <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>, 5 <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, 5 <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, 1 <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>, 4 <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#georgeslambrichs">Georges Lambrichs</persName> veut faire faire un article dans <title ref="difdepo:titles.xml#lanouvellerevuefrancaise">La Nouvelle Revue Française</title>. On ne peut que lui prêter les exemplaires.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f30.highres" n="30"/>
-      <p><name type="manif">Avignon</name></p>
-      <p><persName><abbr>PF</abbr></persName> : organisation matérielle pour <name type="manif">Villeneuve-lès-Avignon</name>.</p>
-      <p>Le 14 au soir : <persName>Lescure</persName>-<persName>Fournel</persName></p>
-      <p><persName><abbr>PB</abbr></persName> descend en voiture donc descend l’expo.</p>
-      <p><persName><abbr>PB</abbr></persName> : fait envoyer les panneaux de <orgName>Pompidou</orgName>.</p>
-      <p><persName><abbr>JL </abbr></persName>: apporte un petit film super 8</p>
-      <p><persName><abbr>PB</abbr></persName> : Des diapos.</p>
-      <p><persName><abbr>JL</abbr></persName> : s’occupe chez <orgName>Gallimard</orgName> du <title>volume oulipo</title>.</p>
-      <p><persName><abbr>PF</abbr></persName> : Des « <title>clefs </title>» chez <orgName>Denoël</orgName>.</p>
-      <p><persName><abbr>PB</abbr></persName> : organisation : après-midi et soir.</p>
+      <p><name ref="difdepo:events.xml#avignon" type="manif">Avignon</name></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : organisation matérielle pour <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>.</p>
+      <p>Le 14 au soir : <persName ref="difdepo:persons.xml#lescure">Lescure</persName>-<persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> descend en voiture donc descend l’expo.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : fait envoyer les panneaux de <orgName ref="difdepo:organizations.xml#pompidou">Pompidou</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#jl"><abbr>JL </abbr></persName>: apporte un petit film super 8</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Des diapos.</p>
+      <p><persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> : s’occupe chez <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> du <title ref="difdepo:titles.xml#volumeoulipo">volume oulipo</title>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Des « <title ref="difdepo:titles.xml#clefs">clefs </title>» chez <orgName ref="difdepo:organizations.xml#denoel">Denoël</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : organisation : après-midi et soir.</p>
       <list type="unordered">
         <item>ordinateurs</item>
         <item>lectures</item>
         <item>exposés</item>
       </list>
-      <p><persName><abbr>FLL</abbr></persName> : téléphone à <persName>Jean Marie Queneau</persName> pour avoir un manuscrit de <persName><abbr>RQ</abbr></persName>.</p>
-      <p><persName><abbr>LE </abbr></persName>: Donnera des <term>rubans de Moëbius</term>.</p>
-      <p><orgName>Pompidou</orgName></p>
-      <p><persName><abbr>PB</abbr></persName> : Bilan de la <name type="manif">journée Ecrivains Algorithme ordinateur</name>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : téléphone à <persName ref="difdepo:persons.xml#jeanmariequeneau">Jean Marie Queneau</persName> pour avoir un manuscrit de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE </abbr></persName>: Donnera des <term ref="difdepo:terms.xml#rubansdemoebius">rubans de Moëbius</term>.</p>
+      <p><orgName ref="difdepo:organizations.xml#pompidou">Pompidou</orgName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Bilan de la <name ref="difdepo:events.xml#journeeecrivainsalgorithmeordinateur" type="manif">journée Ecrivains Algorithme ordinateur</name>.</p>
       <p>Faible participation du public et surtout pas assez d’écrivains</p>
-      <p>Progression du programme sur les <term>aphorismes artificiels</term> de <persName>Marcel Bénabou</persName></p>
-      <p>Progression du travail sur le roman de <persName>Calvino</persName>.</p>
-      <p><persName><abbr>FLL</abbr></persName> : A propos d’<term>Arbre</term> <persName><abbr>FLL</abbr></persName> parle de "<title> Autoroute </title>" le roman de <persName>Lebrun</persName> qui vient de sortir chez <orgName>Lattès</orgName>.</p>
-      <p><title>Oulipo 2</title></p>
-      <p><persName><abbr>PF </abbr></persName>: Rien de nouveau.</p>
-      <p><persName><abbr>JQ</abbr></persName> : voudrait que le 1<hi rend="sup">ère</hi> chapitre de son roman se trouve dedans (voir réunion précédente)</p>
+      <p>Progression du programme sur les <term ref="difdepo:terms.xml#aphorismesartificiels">aphorismes artificiels</term> de <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></p>
+      <p>Progression du travail sur le roman de <persName ref="difdepo:persons.xml#calvino">Calvino</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : A propos d’<term ref="difdepo:terms.xml#arbre">Arbre</term> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> parle de "<title ref="difdepo:titles.xml#autoroute"> Autoroute </title>" le roman de <persName ref="difdepo:persons.xml#lebrun">Lebrun</persName> qui vient de sortir chez <orgName ref="difdepo:organizations.xml#lattes">Lattès</orgName>.</p>
+      <p><title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF </abbr></persName>: Rien de nouveau.</p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : voudrait que le 1<hi rend="sup">ère</hi> chapitre de son roman se trouve dedans (voir réunion précédente)</p>
       <p>Le manuel</p>
-      <p><persName><abbr>MB</abbr></persName> : une possibilité de solution pour <persName>Balpe</persName>. Suite voir <persName>Roubaud</persName></p>
-      <p><persName><abbr>LE </abbr></persName>: Des nombreux livres existent dans ce style.</p>
-      <p>Demander liste livres à <persName><abbr>LE</abbr></persName></p>
-      <p><persName><abbr>PF</abbr></persName> : Inviter <persName>Balpe</persName> pour voir (avec un projet).</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : une possibilité de solution pour <persName ref="difdepo:persons.xml#balpe">Balpe</persName>. Suite voir <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE </abbr></persName>: Des nombreux livres existent dans ce style.</p>
+      <p>Demander liste livres à <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Inviter <persName ref="difdepo:persons.xml#balpe">Balpe</persName> pour voir (avec un projet).</p>
       <p>Retombées</p>
-      <p><persName><abbr>HM</abbr></persName> : Est-ce le type de <title>Worldways</title> ? <persName>Martin Gardner</persName> fait 1 livre dans lequel il consacre un article à l’oulipo. (Un chapitre)</p>
-      <p><label type="rubrique"><name type="manif">Prochaine réunion</name></label></p>
-      <p>le jeudi 25 août chez <persName><abbr>FLL</abbr></persName></p>
-      <p>Le jeudi 22 Septembre chez <persName>Bénabou</persName></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Est-ce le type de <title ref="difdepo:titles.xml#worldways">Worldways</title> ? <persName ref="difdepo:persons.xml#martingardner">Martin Gardner</persName> fait 1 livre dans lequel il consacre un article à l’oulipo. (Un chapitre)</p>
+      <p><label type="rubrique"><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></label></p>
+      <p>le jeudi 25 août chez <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p>Le jeudi 22 Septembre chez <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f31.highres" n="31"/>
-      <p><orgName>Radio scolaire</orgName></p>
-      <p><persName><abbr>PF</abbr></persName> : une émission de 20 minutes qui se fera à Avignon et ensuite à Paris.</p>
-      <p><persName>Queval</persName></p>
+      <p><orgName ref="difdepo:organizations.xml#radioscolaire">Radio scolaire</orgName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : une émission de 20 minutes qui se fera à Avignon et ensuite à Paris.</p>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>JQ</abbr></persName> : <term>Sonnet prosaïque</term>. Faire des mauvais sonnets.</p>
-      <p><persName><abbr>FLL</abbr></persName> : c’est du sous-oulipo.</p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : <term ref="difdepo:terms.xml#sonnetprosaique">Sonnet prosaïque</term>. Faire des mauvais sonnets.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : c’est du sous-oulipo.</p>
       <p><label type="rubrique">Phynances</label></p>
-      <p><persName><abbr>PF</abbr></persName> : payer le secrétariat</p>
-      <p>10 franc par oulipien + frais secrétariat (<title>Bibliothèque oulipienne</title> etc…)</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : payer le secrétariat</p>
+      <p>10 franc par oulipien + frais secrétariat (<title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> etc…)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f32.highres" n="32"/>
-      <p><persName><abbr>FLL</abbr></persName> : Annonce lecture de <persName>Roubaud</persName> à <persName>Polivanov</persName> ce soir à 17 heures</p>
-      <p>Photo de groupe : cette photo va être publiée dans un livre du <orgName>Seuil</orgName>. Les absents doivent envoyer leur portrait à <persName><abbr>FLL</abbr></persName>.</p>
-      <p><persName><abbr>FLL</abbr></persName> : succession <persName>Queneau.</persName></p>
-      <p><persName>Robert Gallimard</persName> voudrait pléiade en 4 volumes. <persName><abbr>Claude</abbr></persName> ???</p>
-      <p><persName><abbr>AB</abbr></persName> : le fonds <persName>Queneau</persName> de ce qui est imprimé sera à Verviers.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Annonce lecture de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> à <persName ref="difdepo:persons.xml#polivanov">Polivanov</persName> ce soir à 17 heures</p>
+      <p>Photo de groupe : cette photo va être publiée dans un livre du <orgName ref="difdepo:organizations.xml#seuil">Seuil</orgName>. Les absents doivent envoyer leur portrait à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : succession <persName ref="difdepo:persons.xml#queneau">Queneau.</persName></p>
+      <p><persName ref="difdepo:persons.xml#robertgallimard">Robert Gallimard</persName> voudrait pléiade en 4 volumes. <persName ref="difdepo:persons.xml#claude"><abbr>Claude</abbr></persName> ???</p>
+      <p><persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName> : le fonds <persName ref="difdepo:persons.xml#queneau">Queneau</persName> de ce qui est imprimé sera à Verviers.</p>
     </body>
   </text>
 </TEI>

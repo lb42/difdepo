@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010208-1978-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010208-1978-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,14 +20,14 @@
           <date when="1978-08-10">10 août 1978</date>
           <placeName>chez GP</placeName>
           <list type="present">
-            <item><persName>Georges Perec</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Jacques Bens</persName></item>
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Noël Arnaud</persName></item>
-            <item><persName role="président">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud" role="président">Jacques Roubaud</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -52,57 +51,57 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102089/f2.highres" n="2"/>
-      <p rend="incipit">Réunion du 10 août 78 chez <persName>Georges Perec</persName></p>
-      <p rend="incipit">Présents : <persName><abbr>GP</abbr></persName> <persName><abbr>JR</abbr></persName> <persName><abbr>PF</abbr></persName> <persName><abbr>JB</abbr></persName> <persName><abbr>FLL</abbr></persName> <persName><abbr>PB</abbr></persName> <persName><abbr>MB</abbr></persName> <persName><abbr>NA</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>LE</abbr></persName> <persName><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Absents : <persName><abbr>MM</abbr></persName>, <persName><abbr>CB</abbr></persName> <persName><abbr>IC</abbr></persName> <persName><abbr>JL</abbr></persName></p>
-      <p rend="incipit"><persName><abbr>JR</abbr></persName> a battu <persName>Fournel</persName> de 9’, <persName>Bens</persName> de 52’, <persName>Braffort</persName> de 58’, <persName><abbr>FLL</abbr></persName> 58’, <persName><abbr>MB</abbr></persName> 58’, <persName><abbr>NA</abbr></persName> 81’.</p>
-      <p rend="incipit">Président de séance : <persName><abbr>JR</abbr></persName></p>
-      <p><persName><abbr>JR</abbr></persName> et <persName><abbr>PF</abbr></persName> donnent <name type="manif">lecture</name> de l’hôtel de Sens.</p>
-      <p><persName><abbr>PB</abbr></persName> cryptoboles : ces cryptoboles sont nés en Avignon.</p>
-      <p>Idée d’un « élève » M. <persName>Jean Delmas</persName>.</p>
-      <p>Voir documents <persName><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Réunion du 10 août 78 chez <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> a battu <persName ref="difdepo:persons.xml#fournel">Fournel</persName> de 9’, <persName ref="difdepo:persons.xml#bens">Bens</persName> de 52’, <persName ref="difdepo:persons.xml#braffort">Braffort</persName> de 58’, <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> 58’, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> 58’, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> 81’.</p>
+      <p rend="incipit">Président de séance : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> et <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> donnent <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> de l’hôtel de Sens.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> cryptoboles : ces cryptoboles sont nés en Avignon.</p>
+      <p>Idée d’un « élève » M. <persName ref="difdepo:persons.xml#jeandelmas">Jean Delmas</persName>.</p>
+      <p>Voir documents <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
       <p>DEF. Un texte de plusieurs mots comportant des lettres blanches pouvant être remplacées.</p>
       <p>Toutes les substitutions réalisables doivent être correctes.</p>
       <p>Le cryptobole est une généralisation telle que la suite des solutions contienne deux textes significatifs.</p>
-      <p><persName><abbr>PB</abbr></persName>, <persName><abbr>MB</abbr></persName> : Rapport sur Avignon. Défection de <persName>Perec</persName> → – 2000 francs</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Rapport sur Avignon. Défection de <persName ref="difdepo:persons.xml#perec">Perec</persName> → – 2000 francs</p>
       <p>Cela n’a pas été le succès de l’an dernier. Il y a eu quelques plaintes mais l’ensemble était bon.</p>
       <p>Il y avait un ordinateur.</p>
-      <p><persName><abbr>PF</abbr></persName> : Le contrat Royaumont est signé. Réunion chez <persName><abbr>PF</abbr></persName> le 22 août pour préparation.</p>
-      <p><persName><abbr>MB</abbr></persName> : La circulaire aux libraires : une seule réponse aujourd’hui « lo Païs » de Draguignan qui voudra deux de chaque prochain.</p>
-      <p>Une commande de la <orgName>FNAC</orgName>.</p>
-      <p><persName><abbr>PB</abbr></persName> : Avons-nous pensé à la librairie de <orgName>Beaubourg</orgName> ?</p>
-      <p><persName><abbr>PF</abbr></persName> : Les prochains :</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Le contrat Royaumont est signé. Réunion chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> le 22 août pour préparation.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : La circulaire aux libraires : une seule réponse aujourd’hui « lo Païs » de Draguignan qui voudra deux de chaque prochain.</p>
+      <p>Une commande de la <orgName ref="difdepo:organizations.xml#fnac">FNAC</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Avons-nous pensé à la librairie de <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> ?</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Les prochains :</p>
       <list type="unordered">
         <item>Mes hypertropes numéro 9</item>
         <item>Hôtel de Sens numéro 10</item>
         <item>Aphorismes numéro 11</item>
         <item>Promenade de François numéro 12</item>
       </list>
-      <p><persName><abbr>FLL</abbr></persName> : <title>Le manifeste</title> viendra avant fin 78 et posera un problème sérieux de mise en page (grand tableau).</p>
-      <p><persName><abbr>NA</abbr></persName> : Projet de faire publier par <orgName>Bourgeois</orgName> les 32 premiers comptes rendus de séances constitutifs de l’oulipo.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <title ref="difdepo:titles.xml#lemanifeste">Le manifeste</title> viendra avant fin 78 et posera un problème sérieux de mise en page (grand tableau).</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Projet de faire publier par <orgName ref="difdepo:organizations.xml#bourgeois">Bourgeois</orgName> les 32 premiers comptes rendus de séances constitutifs de l’oulipo.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102089/f3.highres" n="3"/>
-      <p><persName><abbr>PB</abbr></persName> : <orgName>Bourgeois</orgName> est prêt à publier <title>oulipo 2</title>.</p>
-      <p><persName><abbr>GP</abbr></persName> : Et le faux <name type="manif">colloque</name> de <orgName>Cerisy</orgName>.</p>
-      <p><persName><abbr>GP</abbr></persName> : <orgName>POL</orgName> est d’accord pour publier l’oulipo.</p>
-      <p>PB : Il faut envoyer une lettre à <orgName>Gallimard</orgName> pour leur demander où ils en sont.</p>
-      <p>Il faut donner les comptes rendus chez <orgName>Hachette</orgName>.</p>
-      <p>Le livre de classe chez <orgName>Belin</orgName>.</p>
-      <p>Le 2 à <orgName>Gallimard</orgName>.</p>
-      <p>Le <name type="manif">Cerisy</name> à <orgName>Bourgeois</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#bourgeois">Bourgeois</orgName> est prêt à publier <title ref="difdepo:titles.xml#oulipo2">oulipo 2</title>.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Et le faux <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> de <orgName ref="difdepo:organizations.xml#cerisy">Cerisy</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : <orgName ref="difdepo:organizations.xml#pol">POL</orgName> est d’accord pour publier l’oulipo.</p>
+      <p>PB : Il faut envoyer une lettre à <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> pour leur demander où ils en sont.</p>
+      <p>Il faut donner les comptes rendus chez <orgName ref="difdepo:organizations.xml#hachette">Hachette</orgName>.</p>
+      <p>Le livre de classe chez <orgName ref="difdepo:organizations.xml#belin">Belin</orgName>.</p>
+      <p>Le 2 à <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>.</p>
+      <p>Le <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name> à <orgName ref="difdepo:organizations.xml#bourgeois">Bourgeois</orgName>.</p>
       <p>Il ne reste plus qu’à les écrire.</p>
-      <p>JR : Il faut inviter <persName>Balpe</persName> pour la réunion d’octobre.</p>
-      <p><persName><abbr>FLL</abbr></persName> : J’ai toutes les photos. <persName>Massin</persName> fera le montage, mais il y a un ressentiment de <orgName>Gallimard</orgName> à l’égard de l’oulipo depuis la mort de <persName>R Queneau</persName>.</p>
-      <p>Si cela ne marche pas avec <persName>Massin</persName> j’ai une solution de replis.</p>
-      <p><persName><abbr>FLL</abbr></persName> : L’ouvrage de <persName>Marcel Brun</persName> que nous n’avons toujours pas, n’est toujours pas imprimé… cela viendra dit <persName>Mme Brun</persName> (en principe fin septembre).</p>
-      <p><persName><abbr>FLL</abbr></persName> lit une lettre → il faut la publier dans <title>oulipo 2</title>.</p>
-      <p><persName><abbr>PB</abbr></persName> : J’avais jadis présenté un projet de formalisation, je vais m’y remettre et vous donner un premier jet à la <name type="manif">prochaine réunion</name>.</p>
-      <p><persName><abbr>MB</abbr></persName> : Ce texte servira de base à <title>oulipo 2</title>.</p>
-      <p><persName><abbr>PB</abbr></persName> : Je me suis attaqué à « <title>Morale élémentaire</title> », il faut m’aider.</p>
+      <p>JR : Il faut inviter <persName ref="difdepo:persons.xml#balpe">Balpe</persName> pour la réunion d’octobre.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : J’ai toutes les photos. <persName ref="difdepo:persons.xml#massin">Massin</persName> fera le montage, mais il y a un ressentiment de <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> à l’égard de l’oulipo depuis la mort de <persName ref="difdepo:persons.xml#rqueneau">R Queneau</persName>.</p>
+      <p>Si cela ne marche pas avec <persName ref="difdepo:persons.xml#massin">Massin</persName> j’ai une solution de replis.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : L’ouvrage de <persName ref="difdepo:persons.xml#marcelbrun">Marcel Brun</persName> que nous n’avons toujours pas, n’est toujours pas imprimé… cela viendra dit <persName ref="difdepo:persons.xml#mmebrun">Mme Brun</persName> (en principe fin septembre).</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> lit une lettre → il faut la publier dans <title ref="difdepo:titles.xml#oulipo2">oulipo 2</title>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : J’avais jadis présenté un projet de formalisation, je vais m’y remettre et vous donner un premier jet à la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Ce texte servira de base à <title ref="difdepo:titles.xml#oulipo2">oulipo 2</title>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Je me suis attaqué à « <title ref="difdepo:titles.xml#moraleelementaire">Morale élémentaire</title> », il faut m’aider.</p>
       <p>51 formes fixes</p>
       <p>16 poèmes en prose partie 2</p>
       <p>64 poèmes en prose partie 3</p>
-      <p><title><abbr>ME</abbr></title> est une sorte de conclusion de l’œuvre de <persName>Queneau</persName>, il faudrait chercher dans les poèmes les traces des autres œuvres.</p>
+      <p><title ref="difdepo:titles.xml#me"><abbr>ME</abbr></title> est une sorte de conclusion de l’œuvre de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, il faudrait chercher dans les poèmes les traces des autres œuvres.</p>
       <p>Faisons tout cela de façon naïve.</p>
     </body>
   </text>

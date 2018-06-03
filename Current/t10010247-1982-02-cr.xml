@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010247-1982-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010247-1982-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,13 +20,13 @@
           <date when="1982-02-19">19 février 1982</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName>Michele Métail</persName></item>
-            <item><persName>Claude Berge</persName></item>
-            <item><persName>Jean Queval</persName></item>
-            <item><persName>Jacques Roubaud</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName role="président">Jacques Bens</persName></item>
-            <item><persName role="invité">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet" role="invité">Jacques Jouet</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -53,33 +52,33 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010247h/f36.highres" n="36"/>
       <p rend="incipit">Réunion du 19 II 82 chez MB</p>
       <list type="unordered">
-        <item>Présents : <persName><abbr>JB</abbr></persName>-<persName><abbr>MM</abbr></persName>-<persName><abbr>CB</abbr></persName>-<persName><abbr>JQ</abbr></persName>-<persName><abbr>JR</abbr></persName>-<persName><abbr>PF</abbr></persName>-<persName><abbr>MB</abbr></persName>.</item>
-        <item>Excusés : <persName><abbr>FLL</abbr></persName>. <persName><abbr>JL</abbr></persName>. <persName><abbr>GP</abbr></persName>.</item>
-        <item>Absents : <persName><abbr>NA</abbr></persName></item>
-        <item>Invité : <persName>Jacques Jouet</persName></item>
-        <item>Président de séance : <persName><abbr>JB</abbr></persName></item>
+        <item>Présents : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>-<persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>-<persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>-<persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>-<persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>-<persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>-<persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>.</item>
+        <item>Excusés : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>. <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>.</item>
+        <item>Absents : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></item>
+        <item>Invité : <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+        <item>Président de séance : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></item>
       </list>
-      <p>Traditionnelle <term>arrivée palindromique</term> de <persName><abbr>LE</abbr></persName> pour la rue de la Dhuys.</p>
-      <p>Présentation de l’invité par <persName><abbr>PF</abbr></persName>.</p>
-      <p><persName><abbr>PF</abbr></persName> : Préparation du <name type="manif">stage d’Amiens</name> (coup de téléphone attendu de <persName>Beton</persName>)</p>
-      <p><persName><abbr>PF</abbr></persName> : <title>Bibliothèque oulipienne</title> Vente du 1<hi rend="sup">er</hi>tirage oulipo <title>Bibliothèque oulipienne</title> terminée.</p>
+      <p>Traditionnelle <term ref="difdepo:terms.xml#arriveepalindromique">arrivée palindromique</term> de <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> pour la rue de la Dhuys.</p>
+      <p>Présentation de l’invité par <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Préparation du <name ref="difdepo:events.xml#stagedamiens" type="manif">stage d’Amiens</name> (coup de téléphone attendu de <persName ref="difdepo:persons.xml#beton">Beton</persName>)</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> Vente du 1<hi rend="sup">er</hi>tirage oulipo <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> terminée.</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>JQ</abbr></persName> : <title>Le conte du mouton</title> changé en <persName>Perec</persName>. <title>Bibliothèque oulipienne</title> n°20 ou 21</item>
-        <item><persName><abbr>JR</abbr></persName> : Est en train d’écrire des <term>poèmes infinis</term>. -&gt; <name type="manif">exposé à Amiens</name>.</item>
-        <item><persName><abbr>MB</abbr></persName> : Petit supplément aux dictionnaires des locutions françaises. –<title>Bibliothèque oulipienne</title>. N°21 ou 22</item>
+        <item><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : <title ref="difdepo:titles.xml#lecontedumouton">Le conte du mouton</title> changé en <persName ref="difdepo:persons.xml#perec">Perec</persName>. <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> n°20 ou 21</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Est en train d’écrire des <term ref="difdepo:terms.xml#poemesinfinis">poèmes infinis</term>. -&gt; <name ref="difdepo:events.xml#exposeaamiens" type="manif">exposé à Amiens</name>.</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Petit supplément aux dictionnaires des locutions françaises. –<title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. N°21 ou 22</item>
         <item>Téléphone au Président -&gt;téléphone d’Amiens.</item>
-        <item><persName>Bens</persName> : Il n’y a pas de sommelier, il n’y a que de sottes gens.</item>
-        <item><persName><abbr>JJ</abbr></persName> :</item>
+        <item><persName ref="difdepo:persons.xml#bens">Bens</persName> : Il n’y a pas de sommelier, il n’y a que de sottes gens.</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> :</item>
       </list>
       <p><label type="rubrique">Action :</label></p>
       <list type="unordered">
-        <item><persName><abbr>JR</abbr></persName> : Envoyer projets de travaux pour ordinateur pour <orgName>Alamo</orgName>. exposé de <persName><abbr>JB</abbr></persName> sur la <orgName>SGDL</orgName></item>
-        <item><persName><abbr>JJ</abbr></persName> lit <title>Zoo ME monosyllabique</title>.</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Envoyer projets de travaux pour ordinateur pour <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>. exposé de <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> sur la <orgName ref="difdepo:organizations.xml#sgdl">SGDL</orgName></item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> lit <title ref="difdepo:titles.xml#zoomemonosyllabique">Zoo ME monosyllabique</title>.</item>
       </list>
-      <p><label type="rubrique">Arrivée de <persName><abbr>PB</abbr></persName>+<persName><abbr>JD</abbr></persName> Départ de <persName><abbr>LE</abbr></persName></label></p>
+      <p><label type="rubrique">Arrivée de <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>+<persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> Départ de <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></label></p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> : Lit quelques textes dont requin sorti du bestiaire et pot-sec d’après <persName>Wozniak</persName></item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Lit quelques textes dont requin sorti du bestiaire et pot-sec d’après <persName ref="difdepo:persons.xml#wozniak">Wozniak</persName></item>
       </list>
     </body>
   </text>

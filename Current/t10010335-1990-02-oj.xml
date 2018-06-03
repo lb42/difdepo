@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010335-1990-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010335-1990-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,40 +39,40 @@
       <p rend="incipit">- Contrôle des présences</p>
       <p><label type="rubrique">- Création</label></p>
       <list type="unordered">
-        <item><persName>Paul Fournel</persName> <title>Bobo</title></item>
-        <item><persName>François Caradec</persName> <title>Var + Vache qui rit</title></item>
-        <item><persName>Harry Mathews</persName> <title>L’amour à péage</title></item>
-        <item><persName>Jacques Jouet</persName> Conjecture de <persName>Luc Etienne</persName></item>
+        <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> <title ref="difdepo:titles.xml#bobo">Bobo</title></item>
+        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> <title ref="difdepo:titles.xml#varvachequirit">Var + Vache qui rit</title></item>
+        <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> <title ref="difdepo:titles.xml#lamourapeage">L’amour à péage</title></item>
+        <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> Conjecture de <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
       </list>
       <p><label type="rubrique">- Erudition</label></p>
       <list type="unordered">
-        <item><persName>Michèle Métail</persName> <term><unclear>Palindrome</unclear></term></item>
-        <item><persName>Harry Mathews</persName> <list type="unordered">
-          <item><title>Naître</title></item>
-          <item><title>A Walter Rat’s asset</title></item>
-          <item><title><unclear>Nichanian</unclear></title></item>
-          <item><title><unclear>Plauert</unclear></title></item>
+        <item><persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> <term ref="difdepo:terms.xml#palindrome"><unclear>Palindrome</unclear></term></item>
+        <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> <list type="unordered">
+          <item><title ref="difdepo:titles.xml#naitre">Naître</title></item>
+          <item><title ref="difdepo:titles.xml#awalterratsasset">A Walter Rat’s asset</title></item>
+          <item><title ref="difdepo:titles.xml#nichanian"><unclear>Nichanian</unclear></title></item>
+          <item><title ref="difdepo:titles.xml#plauert"><unclear>Plauert</unclear></title></item>
           </list> </item>
-        <item><persName>Claude Berge</persName> <title>Cent anagrammes</title></item>
+        <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> <title ref="difdepo:titles.xml#centanagrammes">Cent anagrammes</title></item>
       </list>
       <p><label type="rubrique">- Action</label></p>
       <list type="unordered">
-        <item><persName>Paul Fournel</persName> <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> <list type="unordered">
           <item>Bibliothèque oulipienne vendredi soir</item>
           <item>Créteil</item>
-          <item><orgName>France Culture</orgName></item>
+          <item><orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName></item>
           <item>Naples</item>
-          <item><persName>Queneau</persName> et la ville ?</item>
+          <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> et la ville ?</item>
           </list> </item>
-        <item><persName><abbr>HM</abbr></persName> <orgName>Oucuipo</orgName></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <orgName ref="difdepo:organizations.xml#oucuipo">Oucuipo</orgName></item>
       </list>
       <p><label type="rubrique">- Menu-propos</label></p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName> Ingold</item>
-        <item><persName><abbr>MM</abbr></persName> <unclear>Secrétaire de <persName>Q</persName></unclear></item>
-        <item><persName><abbr>PB</abbr></persName> Petit propos oulipien</item>
-        <item><persName><abbr>JJ</abbr></persName> <unclear>107 à ???</unclear></item>
-        <item><orgName>Oupsypo</orgName> + Chicago</item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> Ingold</item>
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <unclear>Secrétaire de <persName ref="difdepo:persons.xml#q_">Q</persName></unclear></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> Petit propos oulipien</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <unclear>107 à ???</unclear></item>
+        <item><orgName ref="difdepo:organizations.xml#oupsypo">Oupsypo</orgName> + Chicago</item>
       </list>
     </body>
   </text>

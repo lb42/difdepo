@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010224-1980-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010224-1980-01-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,10 +19,10 @@
         <bibl><idno>t10010224-1980-01-cr</idno> <meeting xml:id="t10010224-1980-01">
           <date when="1980-01-10">10 janvier 1980</date>
           <list type="present">
-            <item><persName>Jacques Roubaud</persName></item>
-            <item><persName>Jacques Bens</persName></item>
-            <item><persName>Claude Berge</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,25 +47,25 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010224b/f1.highres" n="1"/>
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Séance du 10 janvier 80</p>
-      <p rend="incipit">Présents : <persName><abbr>JR</abbr></persName> <persName><abbr>JB</abbr></persName> <persName><abbr>CB</abbr></persName> <persName><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>FLL</abbr></persName> <persName><abbr>LE</abbr></persName> <persName><abbr>JQ</abbr></persName> <persName><abbr>HM</abbr></persName> <persName><abbr>PB</abbr></persName> <persName><abbr>GP</abbr></persName></p>
-      <p><persName>J. Queval</persName> : <title><persName>Queneau</persName> et le cinéma</title>  : livre en préparation</p>
-      <p><persName><abbr>JB</abbr></persName> à <name type="manif">Reims</name> : <title><persName>Queneau</persName> et le cinéma</title>. 9 et 10 février <orgName>Maison de la Culture</orgName>. <persName>Rameil</persName> propose changer déjà un recueil sur le sujet auquel <persName>Bens</persName> a participé.</p>
-      <p><persName><abbr>FLL</abbr></persName> : le <title>3e manifeste</title> n’est pas achevé, mais un texte est prêt qui s’appellera</p>
-      <p><persName><abbr>NA</abbr></persName> demande que les vides du manuscrit du <title>volume 2</title> soient comblés : grands manques chez <persName><abbr>JR</abbr></persName>, <persName><abbr>GP</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>MB</abbr></persName>.</p>
-      <p><persName><abbr>CB</abbr></persName> a des remarques à faire sur le texte signé <persName><abbr>BBB</abbr></persName>. Pour une <term>systématique</term> de la <term>littérature récurrente</term>. <persName><abbr>CB</abbr></persName> fera une note qui apportera des compléments ou des corrections.</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jqueval">J. Queval</persName> : <title ref="difdepo:titles.xml#queneauetlecinema"><persName ref="difdepo:persons.xml#queneau">Queneau</persName> et le cinéma</title>  : livre en préparation</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> à <name ref="difdepo:events.xml#reims" type="manif">Reims</name> : <title ref="difdepo:titles.xml#queneauetlecinema"><persName ref="difdepo:persons.xml#queneau">Queneau</persName> et le cinéma</title>. 9 et 10 février <orgName ref="difdepo:organizations.xml#maisondelaculture">Maison de la Culture</orgName>. <persName ref="difdepo:persons.xml#rameil">Rameil</persName> propose changer déjà un recueil sur le sujet auquel <persName ref="difdepo:persons.xml#bens">Bens</persName> a participé.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : le <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title> n’est pas achevé, mais un texte est prêt qui s’appellera</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> demande que les vides du manuscrit du <title ref="difdepo:titles.xml#volume2">volume 2</title> soient comblés : grands manques chez <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> a des remarques à faire sur le texte signé <persName ref="difdepo:persons.xml#bergebensbraffort"><abbr>BBB</abbr></persName>. Pour une <term ref="difdepo:terms.xml#systematique">systématique</term> de la <term ref="difdepo:terms.xml#litteraturerecurrente">littérature récurrente</term>. <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> fera une note qui apportera des compléments ou des corrections.</p>
       <p><label type="rubrique">Communication</label></p>
-      <p>Un projet pour <orgName>Cerisy</orgName> sur les <term>graphes</term> : il faut une représentation de l’Oulipo : des mathématiciens (<persName><abbr>JR</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>CB</abbr></persName>) et des littérateurs (<persName><abbr>JB</abbr></persName> ou <persName><abbr>GP</abbr></persName>)</p>
-      <p><persName><abbr>MB</abbr></persName> Eventualité d’un <name type="manif">colloque</name> à <orgName>Cerisy</orgName> sur l’Oulipo.</p>
-      <p><persName><abbr>JB</abbr></persName> signale un livre : <title>Almanach du Crime de <persName>Michel Lebrun</persName></title>.</p>
-      <p><persName>Duchateau</persName> : <persName>Yack Rivois</persName> qui a fait un <term>roman par citations</term> <title>Les demoiselles d’A</title> (<orgName>Belfond</orgName>) éventuellement l’inviter. <persName>Bens</persName> propose d’inviter par fournées les épigones.</p>
+      <p>Un projet pour <orgName ref="difdepo:organizations.xml#cerisy">Cerisy</orgName> sur les <term ref="difdepo:terms.xml#graphes">graphes</term> : il faut une représentation de l’Oulipo : des mathématiciens (<persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>) et des littérateurs (<persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> ou <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>)</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Eventualité d’un <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> à <orgName ref="difdepo:organizations.xml#cerisy">Cerisy</orgName> sur l’Oulipo.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> signale un livre : <title ref="difdepo:titles.xml#almanachducrimedemichellebrun">Almanach du Crime de <persName ref="difdepo:persons.xml#michellebrun">Michel Lebrun</persName></title>.</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> : <persName ref="difdepo:persons.xml#yackrivois">Yack Rivois</persName> qui a fait un <term ref="difdepo:terms.xml#romanparcitations">roman par citations</term> <title ref="difdepo:titles.xml#lesdemoisellesda">Les demoiselles d’A</title> (<orgName ref="difdepo:organizations.xml#belfond">Belfond</orgName>) éventuellement l’inviter. <persName ref="difdepo:persons.xml#bens">Bens</persName> propose d’inviter par fournées les épigones.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010224b/f2.highres" n="2"/>
-      <p><persName><abbr>JD</abbr></persName> <title>Le numéro 13</title> est prêt : il sera envoyé lundi prochain</p>
-      <p><title>14 : <persName>Bénabou</persName></title></p>
-      <p><title>15 : <persName>Berge</persName> et <persName>Roubaud</persName></title></p>
-      <p>Faire un dépôt des archives Oulipo au <orgName>Fond Doucet</orgName>.</p>
-      <p><name type="manif">Prochaine réunion</name> le vendredi 22 février 80.</p>
-      <p>Décision d’inviter <persName>Cortazar</persName></p>
+      <p><persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> <title ref="difdepo:titles.xml#lenumero13">Le numéro 13</title> est prêt : il sera envoyé lundi prochain</p>
+      <p><title ref="difdepo:titles.xml#n14benabou">14 : <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></title></p>
+      <p><title ref="difdepo:titles.xml#n15bergeetroubaud">15 : <persName ref="difdepo:persons.xml#berge">Berge</persName> et <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></title></p>
+      <p>Faire un dépôt des archives Oulipo au <orgName ref="difdepo:organizations.xml#fonddoucet">Fond Doucet</orgName>.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> le vendredi 22 février 80.</p>
+      <p>Décision d’inviter <persName ref="difdepo:persons.xml#cortazar">Cortazar</persName></p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010048-1964-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010048-1964-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010048-1964-10-cv</idno> <title>Convocation à <ref target="#t10010048-1964-10">une réunion Oulipo</ref>, envoyée le <date when="1964-10-26">26 octobre 1964</date> par <persName role="expéditeur">Noël Arnaud</persName></title></bibl>
+        <bibl><idno>t10010048-1964-10-cv</idno> <title>Convocation à <ref target="#t10010048-1964-10">une réunion Oulipo</ref>, envoyée le <date when="1964-10-26">26 octobre 1964</date> par <persName ref="difdepo:persons.xml#noelarnaud" role="expéditeur">Noël Arnaud</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,11 +38,11 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100486/f4.highres" n="4"/>
       <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
       <p rend="incipit">Paris, le 26 octobre 1964.</p>
-      <p>L’OULIPO a pensé qu’il serait agréable à quelques peintres et sculpteurs de se réunir pour déjeuner à l’enseigne de la <term>Potentialité</term> et du restaurant Julien et Petit, 40 rue de l’Université (petite salle du 1er étage) le jeudi 5 novembre à 12 heures 30 précises.</p>
-      <p>Quelques <term>hypothèdes</term> et <term>oupeinpothèses</term> de travail pourront être échangées.</p>
+      <p>L’OULIPO a pensé qu’il serait agréable à quelques peintres et sculpteurs de se réunir pour déjeuner à l’enseigne de la <term ref="difdepo:terms.xml#potentialite">Potentialité</term> et du restaurant Julien et Petit, 40 rue de l’Université (petite salle du 1er étage) le jeudi 5 novembre à 12 heures 30 précises.</p>
+      <p>Quelques <term ref="difdepo:terms.xml#hypothedes">hypothèdes</term> et <term ref="difdepo:terms.xml#oupeinpotheses">oupeinpothèses</term> de travail pourront être échangées.</p>
       <p>Tenue de soirée facultative.</p>
       <p>Pour l’OULIPO et par délégation :</p>
-      <p><persName>Noël Arnaud</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>.</p>
     </body>
   </text>
 </TEI>

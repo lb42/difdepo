@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010337-1990-04-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010337-1990-04-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,9 +19,9 @@
         <bibl><idno>t10010337-1990-04-09-cr</idno> <meeting xml:id="t10010337-1990-04-09">
           <date when="1990-04-09">9 avril 1990</date>
           <list type="present">
-            <item><persName role="secrétaire">Harry Mathews</persName></item>
-            <item><persName role="président">Harry Mathews</persName></item>
-            <item><persName role="invité">Dominique Clavier</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews" role="secrétaire">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews" role="président">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#dominiqueclavier" role="invité">Dominique Clavier</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -49,10 +48,10 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010337g/f44.highres" n="44"/>
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Réunion du 9 avril 1990</p>
-      <p rend="incipit">Excusés : <persName><abbr>NA</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>JJ</abbr></persName></p>
-      <p rend="incipit">Absents : <persName><abbr>JL</abbr></persName>, <persName><abbr>JD</abbr></persName>, <persName><abbr>JB</abbr></persName>, <persName><abbr>PR</abbr></persName>, <persName><abbr>JQ</abbr></persName>, <persName><abbr>PB</abbr></persName></p>
-      <p rend="incipit">Président et secrétaire de séance : <persName><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Invité d’honneur : <persName>Dominique Clavier</persName>, chercheur en mathématiques appliquées à l’<orgName>Institute for Advanced Studies</orgName>,Princeton auteur de <title>The Rhyme of Reason : Literature and Mathematics, A Night at Las Vegas : <persName>Heisenberg</persName>, <persName>Mallarmé</persName>, <persName>Duchamp</persName></title> ; etc.</p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName></p>
+      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Président et secrétaire de séance : <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Invité d’honneur : <persName ref="difdepo:persons.xml#dominiqueclavier">Dominique Clavier</persName>, chercheur en mathématiques appliquées à l’<orgName ref="difdepo:organizations.xml#instituteforadvancedstudies">Institute for Advanced Studies</orgName>,Princeton auteur de <title ref="difdepo:titles.xml#therhymeofreasonliteratureandmathematicsanightatlasvegasheisenbergmallarmeduchamp">The Rhyme of Reason : Literature and Mathematics, A Night at Las Vegas : <persName ref="difdepo:persons.xml#heisenberg">Heisenberg</persName>, <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>, <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName></title> ; etc.</p>
       <p>Vin d’apéritif, champagne Krug</p>
       <p><label type="rubrique">Menu :</label></p>
       <list type="unordered">
@@ -70,29 +69,29 @@
         <item>Richebourg 1937 (Domaine de la Romanée-Conti)</item>
         <item>Champagne Cristla Roederer 1953 ou Château yquem 1947</item>
       </list>
-      <p><persName><abbr>HM</abbr></persName> : souhaite le bienvenu à l’invité d’honneur</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : souhaite le bienvenu à l’invité d’honneur</p>
       <p><label type="rubrique">CREATION</label></p>
-      <p><persName><abbr>DC</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#dominiqueclavier"><abbr>DC</abbr></persName></p>
       <list type="ordered">
-        <item>« <term>X prend y pour x</term> » : une méthode pour appliquer le principe de la <term>n-ine</term> à des strophes de n’importe quelle longueur. Cette méthode ne ressemble pas à la <term>septine</term> de <persName><abbr>JR</abbr></persName>, à qui <persName><abbr>DC</abbr></persName> rend néanmoins hommage.</item>
-        <item>« <title>le clavier de Clavier</title> » : suite aux tables de <persName><abbr>RQ</abbr></persName> et <persName><abbr>MB</abbr></persName>, un <term>système de classement de tout procédé ou structure oulipien</term>, avec indication des possibilités de croisement, même de plusieurs éléments.</item>
-        <item>« L’<orgName>Oupolpo</orgName> » (1) : <title>Larousse</title> ou <title>Littré</title>, source des <term>S+3</term> ( ?) dans la correspondance secrète de <persName>Pétain</persName> et de <persName>De Gaulle</persName>, 1940-1944 ?</item>
+        <item>« <term ref="difdepo:terms.xml#xprendypourx">X prend y pour x</term> » : une méthode pour appliquer le principe de la <term ref="difdepo:terms.xml#nine">n-ine</term> à des strophes de n’importe quelle longueur. Cette méthode ne ressemble pas à la <term ref="difdepo:terms.xml#septine">septine</term> de <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, à qui <persName ref="difdepo:persons.xml#dominiqueclavier"><abbr>DC</abbr></persName> rend néanmoins hommage.</item>
+        <item>« <title ref="difdepo:titles.xml#leclavierdeclavier">le clavier de Clavier</title> » : suite aux tables de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> et <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, un <term ref="difdepo:terms.xml#systemedeclassementdetoutprocedeoustructureoulipien">système de classement de tout procédé ou structure oulipien</term>, avec indication des possibilités de croisement, même de plusieurs éléments.</item>
+        <item>« L’<orgName ref="difdepo:organizations.xml#oupolpo">Oupolpo</orgName> » (1) : <title ref="difdepo:titles.xml#larousse">Larousse</title> ou <title ref="difdepo:titles.xml#littre">Littré</title>, source des <term ref="difdepo:terms.xml#s3">S+3</term> ( ?) dans la correspondance secrète de <persName ref="difdepo:persons.xml#petain">Pétain</persName> et de <persName ref="difdepo:persons.xml#degaulle">De Gaulle</persName>, 1940-1944 ?</item>
       </list>
-      <p>« L’<orgName>Oupolpo</orgName> » (2) : Le <term>lipogramme</term>, moyen d’<term>encryptage</term> dans les armées bolschévicks, 1918-1922</p>
-      <p><persName><abbr>HM</abbr></persName> : « le <term>palindrome sexuel</term> », nouvelle solution du problème du <term>palindrome sémantique</term> (avec un ex. de 28 lignes et 1 ex. de 28 pages).</p>
+      <p>« L’<orgName ref="difdepo:organizations.xml#oupolpo">Oupolpo</orgName> » (2) : Le <term ref="difdepo:terms.xml#lipogramme">lipogramme</term>, moyen d’<term ref="difdepo:terms.xml#encryptage">encryptage</term> dans les armées bolschévicks, 1918-1922</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : « le <term ref="difdepo:terms.xml#palindromesexuel">palindrome sexuel</term> », nouvelle solution du problème du <term ref="difdepo:terms.xml#palindromesemantique">palindrome sémantique</term> (avec un ex. de 28 lignes et 1 ex. de 28 pages).</p>
       <p><label type="rubrique">ERUDITION</label></p>
-      <p><persName><abbr>DC</abbr></persName> « L’<term>eodermdrome</term> » : <term>méthode</term> et <term>structure</term> dans <title>A la recherche du temps perdu</title>. « L’<orgName>Oupolpo</orgName> » (2) Le « <term>centon référentiel</term> » dans le journal intime de <persName>Charles Quint</persName></p>
-      <p><persName><abbr>HM</abbr></persName> « <title>Comment j’ai écrit tous mes livres</title> » -- échange de lettres avec <persName><abbr>RQ</abbr></persName> de 1956 à 1971</p>
+      <p><persName ref="difdepo:persons.xml#dominiqueclavier"><abbr>DC</abbr></persName> « L’<term ref="difdepo:terms.xml#eodermdrome">eodermdrome</term> » : <term ref="difdepo:terms.xml#methode">méthode</term> et <term ref="difdepo:terms.xml#structure">structure</term> dans <title ref="difdepo:titles.xml#alarecherchedutempsperdu">A la recherche du temps perdu</title>. « L’<orgName ref="difdepo:organizations.xml#oupolpo">Oupolpo</orgName> » (2) Le « <term ref="difdepo:terms.xml#centonreferentiel">centon référentiel</term> » dans le journal intime de <persName ref="difdepo:persons.xml#charlesquint">Charles Quint</persName></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> « <title ref="difdepo:titles.xml#commentjaiecrittousmeslivres">Comment j’ai écrit tous mes livres</title> » -- échange de lettres avec <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> de 1956 à 1971</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010337g/f45.highres" n="45"/>
       <p>Oulipo 9 V 90 –2</p>
       <p><label type="rubrique">ACTION</label></p>
-      <p><persName><abbr>DC</abbr></persName> Invitation de l’<orgName>Institute of Advanced Studies</orgName> à l’ensemble de l’Oulipo de participer à une réunion (aller-retour en Concorde, logement à New-York à l’Hôtel Carlyle, service limousine New-York-Princeton, défraiement 500 dollars(environ 2.800 Fcs) par personne et par jour) avec les mathématiciens et littéraires de l’<orgName>Institute of Advanced Studies</orgName>, autour d’un sujet de notre choix</p>
+      <p><persName ref="difdepo:persons.xml#dominiqueclavier"><abbr>DC</abbr></persName> Invitation de l’<orgName ref="difdepo:organizations.xml#instituteofadvancedstudies">Institute of Advanced Studies</orgName> à l’ensemble de l’Oulipo de participer à une réunion (aller-retour en Concorde, logement à New-York à l’Hôtel Carlyle, service limousine New-York-Princeton, défraiement 500 dollars(environ 2.800 Fcs) par personne et par jour) avec les mathématiciens et littéraires de l’<orgName ref="difdepo:organizations.xml#instituteofadvancedstudies">Institute of Advanced Studies</orgName>, autour d’un sujet de notre choix</p>
       <p>Faute de participation cette aimable invitation a dû être déclinée, mais avec la plus grande courtoisie.</p>
-      <p><persName><abbr>HM</abbr></persName> Invitation, au nom de l’Oulipo, à tous les membres de l’<orgName>Institute of Advanced Studies</orgName>, de participer pendant une semaine de l’été 1991 (aller-retour en Concorde, défraiement quotidien de 3.000F (il n’y aura pas de limousine après tout)) avec les membres de l’Oulipo à une <name type="manif">réunion de l’Hôtel Plaza-Athénée</name>, où les chercheurs de l’<orgName>Institute of Advanced Studies</orgName> seront également logés, nourris et blanchis, autour d’un sujet de leur choix.</p>
-      <p><persName>Dominique Clavier</persName> s’est déclaré autorisé à accepter une telle invitation, ce qu’il fit par la suite, avec une délicatesse défiant toute description.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> Invitation, au nom de l’Oulipo, à tous les membres de l’<orgName ref="difdepo:organizations.xml#instituteofadvancedstudies">Institute of Advanced Studies</orgName>, de participer pendant une semaine de l’été 1991 (aller-retour en Concorde, défraiement quotidien de 3.000F (il n’y aura pas de limousine après tout)) avec les membres de l’Oulipo à une <name ref="difdepo:events.xml#reuniondelhotelplazaathenee" type="manif">réunion de l’Hôtel Plaza-Athénée</name>, où les chercheurs de l’<orgName ref="difdepo:organizations.xml#instituteofadvancedstudies">Institute of Advanced Studies</orgName> seront également logés, nourris et blanchis, autour d’un sujet de leur choix.</p>
+      <p><persName ref="difdepo:persons.xml#dominiqueclavier">Dominique Clavier</persName> s’est déclaré autorisé à accepter une telle invitation, ce qu’il fit par la suite, avec une délicatesse défiant toute description.</p>
       <p><label type="rubrique">MENUS PROPOS</label></p>
-      <p><persName><abbr>DC</abbr></persName> a récité « <title>Le Lac</title> », deux fois, et en entier, sans en donner la moindre raison.</p>
-      <p><persName><abbr>HM</abbr></persName> a raconté une recette de cuisine.</p>
+      <p><persName ref="difdepo:persons.xml#dominiqueclavier"><abbr>DC</abbr></persName> a récité « <title ref="difdepo:titles.xml#lelac">Le Lac</title> », deux fois, et en entier, sans en donner la moindre raison.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> a raconté une recette de cuisine.</p>
       <p>La réunion a pris fin à 0h37 (noter que la convocation pour le 10 avril s’est trouvé ainsi quelque peu justifiée).</p>
     </body>
   </text>

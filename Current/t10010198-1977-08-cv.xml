@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010198-1977-08-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010198-1977-08-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010198-1977-08-cv</idno> <title>Convocation à <ref target="#t10010198-1977-08">une réunion Oulipo</ref>, envoyée le <date when="1977-08-04">4 août 1977</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010198-1977-08-cv</idno> <title>Convocation à <ref target="#t10010198-1977-08">une réunion Oulipo</ref>, envoyée le <date when="1977-08-04">4 août 1977</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,11 +39,11 @@
       <p>OULIPO</p>
       <p>Paris le 4 Aout 77.</p>
       <p>Chers oulipiens,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 25 Aout prochain. Contrairement à nos habitudes récentes, elle aura lieu chez le Président <persName>Le Lionnais</persName>, au 23 rue de la Reine à Boulogne. Nous y ferons un repas froid et chaleureux. Pour en faciliter la préparation, je vous prie de retourner très vite la découpe ci-dessous au susnommé Président.</p>
-      <p><persName>Jacques Roubaud</persName> et <persName>Jacques Bens</persName> s’étant soumis à l’épreuve de la photo en Avignon il ne reste plus que <persName>Noel Arnaud</persName> dans le camp des « oublieux »… Ainsi isolé il ne manquera pas de se faire tirer le portrait et de le faire parvenir à <persName><abbr>FLL</abbr></persName>.</p>
-      <p>Nous dresserons un rapide bilan de « <name type="manif">l’oulipo à Villeneuve</name> », nous parlerons de la caisse des lettres, du <title>volume 2</title>, de pédagogie et de cent choses encore. S’il fait beau, nous profiterons du jardin.</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 25 Aout prochain. Contrairement à nos habitudes récentes, elle aura lieu chez le Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, au 23 rue de la Reine à Boulogne. Nous y ferons un repas froid et chaleureux. Pour en faciliter la préparation, je vous prie de retourner très vite la découpe ci-dessous au susnommé Président.</p>
+      <p><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> et <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> s’étant soumis à l’épreuve de la photo en Avignon il ne reste plus que <persName ref="difdepo:persons.xml#noelarnaud">Noel Arnaud</persName> dans le camp des « oublieux »… Ainsi isolé il ne manquera pas de se faire tirer le portrait et de le faire parvenir à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>.</p>
+      <p>Nous dresserons un rapide bilan de « <name ref="difdepo:events.xml#loulipoavilleneuve" type="manif">l’oulipo à Villeneuve</name> », nous parlerons de la caisse des lettres, du <title ref="difdepo:titles.xml#volume2">volume 2</title>, de pédagogie et de cent choses encore. S’il fait beau, nous profiterons du jardin.</p>
       <p>Au 25, bien oulipiennement,</p>
-      <p><persName>Paul Fournel</persName>,</p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>,</p>
       <p>Un secrétaire.</p>
     </body>
   </text>

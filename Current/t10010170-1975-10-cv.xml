@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010170-1975-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010170-1975-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010170-1975-10-cv</idno> <title>Convocation à <ref target="#t10010170-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13 octobre 1975</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010170-1975-10-cv</idno> <title>Convocation à <ref target="#t10010170-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13 octobre 1975</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -41,17 +40,17 @@
       <p rend="incipit"><add>N’oubliez pas le tableau du produit cartésien des structures mathématiques sur les objets littéraires. Merci</add>. <note n="1" resp="editor">Ajout manuscrit de FLL</note></p>
       <p rend="incipit">Boulogne sur Seine le lundi 13 Octobre 1975</p>
       <p rend="incipit">Chers Brigadiers,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l’Oulipo a été fixée au mardi 28 Octobre vers 11h30.</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Oulipo a été fixée au mardi 28 Octobre vers 11h30.</p>
       <p>Notre ordre du jour est chargé.</p>
       <list type="ordered">
-        <item>Compte rendu du 8 Octobre (<name type="manif">Europalia</name> – Bruxelles)</item>
-        <item>Préparation d’une <name type="manif">nouvelle manifestation (en février ou mars 1976) au Centre Pompidou</name> Déloyalprolétaire</item>
-        <item>Distribution de photos, de <title>tables de <persName>Queneleieff</persName></title>, etc.</item>
+        <item>Compte rendu du 8 Octobre (<name ref="difdepo:events.xml#europalia" type="manif">Europalia</name> – Bruxelles)</item>
+        <item>Préparation d’une <name ref="difdepo:events.xml#nouvellemanifestationenfevrieroumars1976aucentrepompidou" type="manif">nouvelle manifestation (en février ou mars 1976) au Centre Pompidou</name> Déloyalprolétaire</item>
+        <item>Distribution de photos, de <title ref="difdepo:titles.xml#tablesdequeneleieff">tables de <persName ref="difdepo:persons.xml#queneleieff">Queneleieff</persName></title>, etc.</item>
         <item>Questions diverses importantes.</item>
         <item>Questions diverses sans importance</item>
       </list>
-      <p>En l’absence provisoire de sa secrétaire votre <persName><abbr>PF</abbr></persName> (et <persName>Marie Adèle</persName>) vous seraient extrêmement reconnaissants de leur faire reconnaître rapidement et sans faute votre décision. Oulipiennement [et amicalement] vôtre</p>
-      <p><persName>F. Le Lionnais</persName></p>
+      <p>En l’absence provisoire de sa secrétaire votre <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> (et <persName ref="difdepo:persons.xml#marieadele">Marie Adèle</persName>) vous seraient extrêmement reconnaissants de leur faire reconnaître rapidement et sans faute votre décision. Oulipiennement [et amicalement] vôtre</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

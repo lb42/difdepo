@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010288-1985-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010288-1985-12-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010288-1985-12-cv</idno> <title>Convocation à <ref target="#t10010288-1985-12">une réunion Oulipo</ref>, envoyée le <date when="1985">1985</date> par <persName role="expéditeur">Jacques Jouet</persName></title></bibl>
+        <bibl><idno>t10010288-1985-12-cv</idno> <title>Convocation à <ref target="#t10010288-1985-12">une réunion Oulipo</ref>, envoyée le <date when="1985">1985</date> par <persName ref="difdepo:persons.xml#jacquesjouet" role="expéditeur">Jacques Jouet</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -38,11 +37,11 @@
       <p>Oulipiens,</p>
       <p>La réunion de Décembre 85 aura lieu</p>
       <p>le jeudi 19 décembre à 19h*</p>
-      <p>chez <persName>J. Jouet</persName> 12 rue de Lancry, Paris Xe (42 41 20 07)</p>
-      <p><persName>Paul Fournel</persName> étant à la réunion, ce ne sera donc pas sa belle écriture manuscrite qui nous convoquera, cette fois.</p>
+      <p>chez <persName ref="difdepo:persons.xml#jj">J. Jouet</persName> 12 rue de Lancry, Paris Xe (42 41 20 07)</p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> étant à la réunion, ce ne sera donc pas sa belle écriture manuscrite qui nous convoquera, cette fois.</p>
       <p>Amitiés</p>
-      <p>p.o, <persName><abbr>JJ</abbr></persName>.</p>
-      <p>* Et non le 20, comme il avait été, un moment, envisagé, lors de la précédente réunion, chez <persName>Paul Braffort</persName>.</p>
+      <p>p.o, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>.</p>
+      <p>* Et non le 20, comme il avait été, un moment, envisagé, lors de la précédente réunion, chez <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>.</p>
     </body>
   </text>
 </TEI>

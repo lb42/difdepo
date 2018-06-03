@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010227-1980-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010227-1980-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010227-1980-04-cv</idno> <title>Convocation à <ref target="#t10010227-1980-04">une réunion Oulipo</ref>, envoyée le <date when="1980-04-01">1ᵉʳ avril 1980</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010227-1980-04-cv</idno> <title>Convocation à <ref target="#t10010227-1980-04">une réunion Oulipo</ref>, envoyée le <date when="1980-04-01">1ᵉʳ avril 1980</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,8 +39,8 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 1<hi rend="sup">er</hi> avril 80</p>
       <p>Chers Oulipiens,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l'ouvroir aura lieu le vendredi 18 avril prochain à 11h chez <persName>Paul Fournel</persName> 48 rue de l'Abbé Groult 75015 Paris (531.77.65).</p>
-      <p>Il y sera question du <title>volume 2</title> et du retour éventuel de <persName>Michèle Métail</persName> (elle souhaitait être présente dès cette première réunion du 18, mais elle ne sera pas convoquée)</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l'ouvroir aura lieu le vendredi 18 avril prochain à 11h chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 48 rue de l'Abbé Groult 75015 Paris (531.77.65).</p>
+      <p>Il y sera question du <title ref="difdepo:titles.xml#volume2">volume 2</title> et du retour éventuel de <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> (elle souhaitait être présente dès cette première réunion du 18, mais elle ne sera pas convoquée)</p>
       <p>Prévenez l'intendance en retournant la découpe et partagez-vous mes amitiés</p>
       <p>Un secrétaire</p>
     </body>

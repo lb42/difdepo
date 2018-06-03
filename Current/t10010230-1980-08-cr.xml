@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010230-1980-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010230-1980-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,12 +20,12 @@
           <date when="1980-08-08">8 août 1980</date>
           <placeName>Chez MB</placeName>
           <list type="present">
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName role="invité">Dominique Roussillon</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#dominiqueroussillon" role="invité">Dominique Roussillon</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -51,51 +50,51 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010230z/f8.highres" n="8"/>
       <p rend="incipit">Oulipo</p>
-      <p rend="incipit">Séance du 8 août 80 chez <persName><abbr>Marcel</abbr></persName> et <persName>Isabelle</persName></p>
-      <p rend="incipit">Présents : <persName><abbr>FLL</abbr></persName>, <persName><abbr>LE</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>PF</abbr></persName> <persName>Dominique Roussillon</persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>JQ</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>NA</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>IC</abbr></persName></p>
-      <p rend="incipit">Absents : <persName><abbr>JL</abbr></persName></p>
-      <p rend="incipit">Président : <persName><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Séance du 8 août 80 chez <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> et <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#dominiqueroussillon">Dominique Roussillon</persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName></p>
+      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName></p>
+      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
       <p><label type="rubrique">Créations</label></p>
-      <p>1) Exposés des diverses collaborations au <title>n° spécial</title> des <orgName>Amis de <persName>Valentin Bru</persName></orgName></p>
-      <p><persName><abbr>PB</abbr></persName> : travail sur les <term>Mathématiquess</term> dans la <term>classification des sciences</term>. <term>Transduction</term>.</p>
-      <p><persName><abbr>PB</abbr></persName> s’engage à donner un texte sur la <term>transduction</term>.</p>
-      <p>Tous : Il faut en faire une <title>Bibliothèque oulipienne</title>.</p>
-      <p>Le <title>n°15 les amours dans l’harmonie des passions</title>.</p>
-      <p>Ou <title>n°16</title></p>
-      <p><persName><abbr>PB</abbr></persName> : qu’est-ce que je vais faire pour <title><persName>Valentin Bru</persName></title></p>
-      <p><persName><abbr>MB</abbr></persName> : <term>aphorismes</term> de <persName><abbr>RQ</abbr></persName> dans une <term>liste modèle</term>.</p>
-      <p><persName><abbr>FLL</abbr></persName> : les week-end téléphoniques de <persName><abbr>RQ</abbr></persName>.</p>
-      <p><persName><abbr>LE</abbr></persName> : 10 puissance 14 redoublement du mot « marchandises » : idée pour PB.</p>
+      <p>1) Exposés des diverses collaborations au <title ref="difdepo:titles.xml#nspecial">n° spécial</title> des <orgName ref="difdepo:organizations.xml#amisdevalentinbru">Amis de <persName ref="difdepo:persons.xml#valentinbru">Valentin Bru</persName></orgName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : travail sur les <term ref="difdepo:terms.xml#mathematiquess">Mathématiquess</term> dans la <term ref="difdepo:terms.xml#classificationdessciences">classification des sciences</term>. <term ref="difdepo:terms.xml#transduction">Transduction</term>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> s’engage à donner un texte sur la <term ref="difdepo:terms.xml#transduction">transduction</term>.</p>
+      <p>Tous : Il faut en faire une <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+      <p>Le <title ref="difdepo:titles.xml#n15lesamoursdanslharmoniedespassions">n°15 les amours dans l’harmonie des passions</title>.</p>
+      <p>Ou <title ref="difdepo:titles.xml#n16">n°16</title></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : qu’est-ce que je vais faire pour <title ref="difdepo:titles.xml#valentinbru"><persName ref="difdepo:persons.xml#valentinbru">Valentin Bru</persName></title></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#aphorismes">aphorismes</term> de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> dans une <term ref="difdepo:terms.xml#listemodele">liste modèle</term>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : les week-end téléphoniques de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : 10 puissance 14 redoublement du mot « marchandises » : idée pour PB.</p>
       <p>PF : retour en prose.</p>
       <p>JB : le bel absent</p>
-      <p>2. <persName><abbr>LE</abbr></persName> : un nouvel opéra de <persName>Mozart</persName></p>
-      <p><title>La Clémence de <persName>Titus</persName></title> livret de <persName>Métastase</persName> très mauvais.</p>
-      <p>Il faudrait faire un nouveau livret en tenant compte des <term>contraintes de la musique</term>.</p>
-      <p><persName><abbr>PF</abbr></persName> : Faites attention de ne pas faire de grosses corrections après coup. Coût sur les deux derniers : 1600 francs.</p>
-      <p><persName><abbr>PF</abbr></persName> : Tel à <orgName>POL</orgName> qui est prêt à publier les 14 premiers <title>Bibliothèque oulipienne</title>.</p>
+      <p>2. <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : un nouvel opéra de <persName ref="difdepo:persons.xml#mozart">Mozart</persName></p>
+      <p><title ref="difdepo:titles.xml#laclemencedetitus">La Clémence de <persName ref="difdepo:persons.xml#titus">Titus</persName></title> livret de <persName ref="difdepo:persons.xml#metastase">Métastase</persName> très mauvais.</p>
+      <p>Il faudrait faire un nouveau livret en tenant compte des <term ref="difdepo:terms.xml#contraintesdelamusique">contraintes de la musique</term>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Faites attention de ne pas faire de grosses corrections après coup. Coût sur les deux derniers : 1600 francs.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Tel à <orgName ref="difdepo:organizations.xml#pol">POL</orgName> qui est prêt à publier les 14 premiers <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
       <p>Pouvons-nous vendre nos exemplaires ?</p>
-      <p><lb/><persName><abbr>FLL</abbr></persName> : cela peut aider les ventes au contraire !</p>
-      <p><persName><abbr>FLL</abbr></persName> redemande à ce que nous ne parlions pas tous à la fois.</p>
+      <p><lb/><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : cela peut aider les ventes au contraire !</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> redemande à ce que nous ne parlions pas tous à la fois.</p>
       <p>Vote : recomposer le volume</p>
       <p>On demande 12000 on accepte 10000</p>
       <p>Tirage : 5000 on accepte 4000</p>
-      <p>Tel <persName><abbr>Georges</abbr></persName> et <persName><abbr>JR</abbr></persName></p>
-      <p><persName><abbr>PF</abbr></persName> : <del><persName>Erval</persName> attend pour voir <orgName><persName>Gallimard</persName></orgName> pour <title>volume 2</title></del></p>
-      <p><persName><abbr>MB</abbr></persName> : Vente à <name type="manif">Villeneuve</name> : 1500 F environ.</p>
+      <p>Tel <persName ref="difdepo:persons.xml#georges"><abbr>Georges</abbr></persName> et <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <del><persName ref="difdepo:persons.xml#erval">Erval</persName> attend pour voir <orgName ref="difdepo:organizations.xml#gallimard"><persName ref="difdepo:persons.xml#gallimard">Gallimard</persName></orgName> pour <title ref="difdepo:titles.xml#volume2">volume 2</title></del></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Vente à <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name> : 1500 F environ.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010230z/f9.highres" n="9"/>
-      <p><persName><abbr>PF</abbr></persName> : <persName>Erval</persName> attend pour voir <persName>Cl. Gallimard</persName></p>
-      <p><persName><abbr>PB</abbr></persName> : <orgName>Pompidou</orgName> 2</p>
-      <p>Accord avec <persName>Balpe</persName> et <persName>Bottin</persName> pour présenter un plan pour une <name type="manif">quinzaine informatique et littérature à Pompidou</name>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#erval">Erval</persName> attend pour voir <persName ref="difdepo:persons.xml#clgallimard">Cl. Gallimard</persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#pompidou">Pompidou</orgName> 2</p>
+      <p>Accord avec <persName ref="difdepo:persons.xml#balpe">Balpe</persName> et <persName ref="difdepo:persons.xml#bottin">Bottin</persName> pour présenter un plan pour une <name ref="difdepo:events.xml#quinzaineinformatiqueetlitteratureapompidou" type="manif">quinzaine informatique et littérature à Pompidou</name>.</p>
       <p>Une soirée avec les oulipiens et d’autres.</p>
-      <p><persName><abbr>PB</abbr></persName> et <persName><abbr>MB</abbr></persName> : <name type="manif">stage</name> <name type="manif">Villeneuve</name></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> et <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="difdepo:events.xml#stage" type="manif">stage</name> <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></p>
       <p>Il faut se faire payer beaucoup plus.</p>
-      <p><persName><abbr>PB</abbr></persName> : perspective de publication des travaux des stagiaires avec <persName>B. Tournois</persName>.</p>
-      <p><persName><abbr>MB</abbr></persName>. Il faut faire un plan de travail et se faire payer.</p>
-      <p><persName><abbr>PB</abbr></persName>. <unclear>Avignon</unclear> : 2 <name type="manif">stages</name> d’une semaine l’an prochain.</p>
-      <p><persName><abbr>MB</abbr></persName>. Vente <name type="manif">Villeneuve</name> 1372 F pour Bibliothèque oulipienne + 70 F photos.</p>
-      <p><persName><abbr>FLL</abbr></persName> : poèmes de <persName>Pierre Angé</persName> à la pensée universelle</p>
-      <p><persName><abbr>FLL</abbr></persName> : <title>Le grand horloger</title> de <persName>Kenneth Fairy</persName> chez <orgName>NEO</orgName> trad. <persName>B. Viz</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : perspective de publication des travaux des stagiaires avec <persName ref="difdepo:persons.xml#btournois">B. Tournois</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Il faut faire un plan de travail et se faire payer.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. <unclear>Avignon</unclear> : 2 <name ref="difdepo:events.xml#stages" type="manif">stages</name> d’une semaine l’an prochain.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Vente <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name> 1372 F pour Bibliothèque oulipienne + 70 F photos.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : poèmes de <persName ref="difdepo:persons.xml#pierreange">Pierre Angé</persName> à la pensée universelle</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <title ref="difdepo:titles.xml#legrandhorloger">Le grand horloger</title> de <persName ref="difdepo:persons.xml#kennethfairy">Kenneth Fairy</persName> chez <orgName ref="difdepo:organizations.xml#neo">NEO</orgName> trad. <persName ref="difdepo:persons.xml#bviz">B. Viz</persName>.</p>
       <p>Prix 25 F.</p>
     </body>
   </text>

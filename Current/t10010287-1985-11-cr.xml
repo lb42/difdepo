@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010287-1985-11-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010287-1985-11-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,11 +20,11 @@
           <date when="1985-11-22">22 novembre 1985</date>
           <placeName>chez Paul Braffort</placeName>
           <list type="present">
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>François Caradec</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Jacques Jouet</persName></item>
-            <item><persName>Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -47,35 +46,35 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102875/f11.highres" n="11"/>
       <p rend="incipit">OULIPO- Réunion du Vendredi 22 novembre 1985 – 11h30-15h</p>
-      <p>Présents <persName>Paul Braffort</persName> qui reçoit, avec <persName>Jo</persName>…, <persName>Marcel Bénabou</persName>, <persName>François Caradec</persName>, <persName>Paul Fournel</persName>, <persName>Jacques Jouet</persName>, <persName>Michèle Métail</persName> et <persName>Pierre Rosenstiehl</persName> qui préside.</p>
-      <p>Excusés <persName>Noël Arnaud</persName>, <persName>Jacques Bens</persName>, <persName>Harry Mathews</persName> et deux anonymes dans l’un desquels on croit reconnaître <persName>Jean Lescure</persName>.</p>
+      <p>Présents <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> qui reçoit, avec <persName ref="difdepo:persons.xml#jo">Jo</persName>…, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> qui préside.</p>
+      <p>Excusés <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> et deux anonymes dans l’un desquels on croit reconnaître <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>.</p>
       <p><label type="rubrique">Créations</label></p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> : Mince contribution à une <title>Histoire générale des cantatrices</title>. <list type="unordered">
-          <item>Comprenant le commentaire d’un <term>hétéropangramme</term> : « De Q.G Mbuji : TV, Schwarzkopf lynx. » Public perplexe.</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Mince contribution à une <title ref="difdepo:titles.xml#histoiregeneraledescantatrices">Histoire générale des cantatrices</title>. <list type="unordered">
+          <item>Comprenant le commentaire d’un <term ref="difdepo:terms.xml#heteropangramme">hétéropangramme</term> : « De Q.G Mbuji : TV, Schwarzkopf lynx. » Public perplexe.</item>
           </list> </item>
-        <item><persName><abbr>MB</abbr></persName> lit le chapitre de <title>Pourquoi je n’ai écrit…</title> concernant l’Oulipo. <persName><abbr>Marcel</abbr></persName> affirme avoir mis un point final à son livre.</item>
-        <item><persName><abbr>MM</abbr></persName> donne une source chinoise de ses <title>Poèmes corpusculaires</title>.</item>
-        <item><persName><abbr>PR</abbr></persName> distribue un article relatif aux <term>labyrinthes</term>.</item>
-        <item><persName><abbr>PR</abbr></persName> encore, promet pour bientôt un <term>algorithme syntaxique</term>, sur le modèle de « <title>L’art de sonner les cloches</title> » (cf. <title>Mathématiques et Sciences humaines</title> n°60, 1977.) Un air de cloches obéit à une règle de permutation des éléments sonnants d’une batterie. (Félicitations solennelles)</item>
-        <item><persName><abbr>PB</abbr></persName> veut réactiver l’<orgName>OUMUPO</orgName>.</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lit le chapitre de <title ref="difdepo:titles.xml#pourquoijenaiecrit">Pourquoi je n’ai écrit…</title> concernant l’Oulipo. <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> affirme avoir mis un point final à son livre.</item>
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> donne une source chinoise de ses <title ref="difdepo:titles.xml#poemescorpusculaires">Poèmes corpusculaires</title>.</item>
+        <item><persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName> distribue un article relatif aux <term ref="difdepo:terms.xml#labyrinthes">labyrinthes</term>.</item>
+        <item><persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName> encore, promet pour bientôt un <term ref="difdepo:terms.xml#algorithmesyntaxique">algorithme syntaxique</term>, sur le modèle de « <title ref="difdepo:titles.xml#lartdesonnerlescloches">L’art de sonner les cloches</title> » (cf. <title ref="difdepo:titles.xml#mathematiquesetscienceshumaines">Mathématiques et Sciences humaines</title> n°60, 1977.) Un air de cloches obéit à une règle de permutation des éléments sonnants d’une batterie. (Félicitations solennelles)</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> veut réactiver l’<orgName ref="difdepo:organizations.xml#oumupo">OUMUPO</orgName>.</item>
         <item>Chaîne d’alexandrins. Une bonne moisson (à condition de compter ceux qui n’en sont pas !).</item>
       </list>
       <p><label type="rubrique">Actions</label></p>
       <list type="unordered">
-        <item><title><orgName>Le Monde de la Musique</orgName></title> veut publier des textes de <persName>Perec</persName> sur la musique, + <title>La Cantatrice sauve</title>. Leur facturer…</item>
-        <item><persName><abbr>PF</abbr></persName> part à la Réunion (l’île). Il y causera, entre autres choses, de l’Ouvroir.</item>
-        <item><title>Oulipo l</title> est traduit en italien. <persName><abbr>MB</abbr></persName> va le présenter à Bologne puis à Rome. (<orgName>Association culturelle italo-française</orgName>).</item>
-        <item>Vitoria. 2 oulipiens pour un atelier en 3 groupes… (<persName><abbr>MB</abbr></persName>, <persName><abbr>JJ</abbr></persName>).</item>
-        <item>Tulle, stage 1 et 2 février <persName><abbr>JB</abbr></persName>. <persName><abbr>MM</abbr></persName> (à confirmer).</item>
-        <item>Guide. Blâme collectif. Un <name type="manif">Andé au printemps</name>.</item>
-        <item>La reprise des Bibliothèques Oulipiennes est annoncée pour Novembre (<persName>Ramsay</persName>).</item>
+        <item><title ref="difdepo:titles.xml#lemondedelamusique"><orgName ref="difdepo:organizations.xml#lemondedelamusique">Le Monde de la Musique</orgName></title> veut publier des textes de <persName ref="difdepo:persons.xml#perec">Perec</persName> sur la musique, + <title ref="difdepo:titles.xml#lacantatricesauve">La Cantatrice sauve</title>. Leur facturer…</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> part à la Réunion (l’île). Il y causera, entre autres choses, de l’Ouvroir.</item>
+        <item><title ref="difdepo:titles.xml#oulipol">Oulipo l</title> est traduit en italien. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> va le présenter à Bologne puis à Rome. (<orgName ref="difdepo:organizations.xml#associationculturelleitalofrancaise">Association culturelle italo-française</orgName>).</item>
+        <item>Vitoria. 2 oulipiens pour un atelier en 3 groupes… (<persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>).</item>
+        <item>Tulle, stage 1 et 2 février <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>. <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> (à confirmer).</item>
+        <item>Guide. Blâme collectif. Un <name ref="difdepo:events.xml#andeauprintemps" type="manif">Andé au printemps</name>.</item>
+        <item>La reprise des Bibliothèques Oulipiennes est annoncée pour Novembre (<persName ref="difdepo:persons.xml#ramsay">Ramsay</persName>).</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName><abbr>MM</abbr></persName> : Une pelouse délaissée (et chinoise) broda un texte dont les divers chemins de lecture donnent 380 quatrains lisibles.</item>
-        <item><persName><abbr>NA</abbr></persName> communique deux éruditions : un texte d’<persName>Elise Jouhandeau</persName>, un autre du « <title>Petit casablancais</title> », pouvant respectivement constituer un hommage à <persName>Roussel</persName> et à <persName>Duchamp</persName>.</item>
-        <item>On but de la clairette, du Sancerre et de l’eau dans des verres minuscules. On mangea une formidable choucroute. On apprit (PR) qu’un manuscrit de <persName>Newton</persName> se regarde à une distance réglementaire de six mètres.</item>
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : Une pelouse délaissée (et chinoise) broda un texte dont les divers chemins de lecture donnent 380 quatrains lisibles.</item>
+        <item><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> communique deux éruditions : un texte d’<persName ref="difdepo:persons.xml#elisejouhandeau">Elise Jouhandeau</persName>, un autre du « <title ref="difdepo:titles.xml#petitcasablancais">Petit casablancais</title> », pouvant respectivement constituer un hommage à <persName ref="difdepo:persons.xml#roussel">Roussel</persName> et à <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName>.</item>
+        <item>On but de la clairette, du Sancerre et de l’eau dans des verres minuscules. On mangea une formidable choucroute. On apprit (PR) qu’un manuscrit de <persName ref="difdepo:persons.xml#newton">Newton</persName> se regarde à une distance réglementaire de six mètres.</item>
       </list>
     </body>
   </text>

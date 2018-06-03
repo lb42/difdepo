@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010338-1990-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010338-1990-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,13 +22,13 @@
           <date when="1990-05-22">22 mai 1990</date>
           <placeName>chez PF</placeName>
           <list type="present">
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>François Caradec</persName></item>
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Jacques Jouet</persName></item>
-            <item><persName>Michele Métail</persName></item>
-            <item><persName>Harry Mathews</persName></item>
-            <item><persName>Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -56,60 +55,60 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f3.highres" n="3"/>
       <p>1</p>
       <p rend="incipit">oulipo du 22 mai <choice><sic>1985</sic><corr>1990</corr></choice></p>
-      <p rend="incipit"><persName><abbr>PF</abbr></persName> <persName><abbr>FC</abbr></persName> <persName><abbr>MB</abbr></persName> <persName><abbr>JJ</abbr></persName> <persName><abbr>MM</abbr></persName></p>
-      <p rend="incipit"><persName><abbr>MM</abbr></persName>. <persName><abbr>JR</abbr></persName>. un peu tard.</p>
-      <p rend="incipit">excusés anonymes <persName><abbr>JQ</abbr></persName> / <persName><abbr>NA</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. un peu tard.</p>
+      <p rend="incipit">excusés anonymes <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> / <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></p>
       <p><label type="rubrique">CREATIONS</label></p>
-      <p><persName><abbr>PF</abbr></persName> « Demande de création ». <title>Collection Soluble</title> remplacer liseron</p>
-      <p>projet oulipo. <persName>Francine Perceval</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> « Demande de création ». <title ref="difdepo:titles.xml#collectionsoluble">Collection Soluble</title> remplacer liseron</p>
+      <p>projet oulipo. <persName ref="difdepo:persons.xml#francineperceval">Francine Perceval</persName>.</p>
       <p>Un peu consternant</p>
-      <p><persName><abbr>MB</abbr></persName> répond.</p>
-      <p><persName><abbr>FC</abbr></persName> Doublement. Triplement Rime. <term>Rime à syllabe redoublée</term>.</p>
-      <p><term>Rime à syllabe triplée</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> répond.</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Doublement. Triplement Rime. <term ref="difdepo:terms.xml#rimeasyllaberedoublee">Rime à syllabe redoublée</term>.</p>
+      <p><term ref="difdepo:terms.xml#rimeasyllabetriplee">Rime à syllabe triplée</term></p>
       <p>v1. ‑ cou</p>
       <p>v2 ‑ coucou</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>FC</abbr></persName>. <term>Plagiat anticipation. CANADA DRY</term> <persName>A. Allais</persName>. "<title> L’Affaire Blaireau</title>"</p>
-      <p><persName><abbr>FC</abbr></persName> <orgName>Estienne</orgName>. Travaux de l’école. mise en page sur textes oulipiens.</p>
-      <p><persName><abbr>MB</abbr></persName>. <title>Asynartète</title>. Poème créé à partir d’<term>hémistiches</term> d’un autre poème.</p>
-      <p><persName><abbr>MB</abbr></persName>. <persName>J C Renard</persName> <term>plagiaire</term>. «<title> Une autre parole </title>» (<title>Alchimie</title>) Série 81. f 102</p>
-      <p>(<term>Poème double</term> suivant qu’on coupe ou non un mot en 2 parties, chacune créant un nouveau mot.</p>
-      <p><persName><abbr>JJ</abbr></persName>. <title>Host</title> - <term>roman lipogrammatique</term>. (26)</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>. <term ref="difdepo:terms.xml#plagiatanticipationcanadadry">Plagiat anticipation. CANADA DRY</term> <persName ref="difdepo:persons.xml#aallais">A. Allais</persName>. "<title ref="difdepo:titles.xml#laffaireblaireau"> L’Affaire Blaireau</title>"</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <orgName ref="difdepo:organizations.xml#estienne">Estienne</orgName>. Travaux de l’école. mise en page sur textes oulipiens.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <title ref="difdepo:titles.xml#asynartete">Asynartète</title>. Poème créé à partir d’<term ref="difdepo:terms.xml#hemistiches">hémistiches</term> d’un autre poème.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="difdepo:persons.xml#jcrenard">J C Renard</persName> <term ref="difdepo:terms.xml#plagiaire">plagiaire</term>. «<title ref="difdepo:titles.xml#uneautreparole"> Une autre parole </title>» (<title ref="difdepo:titles.xml#alchimie">Alchimie</title>) Série 81. f 102</p>
+      <p>(<term ref="difdepo:terms.xml#poemedouble">Poème double</term> suivant qu’on coupe ou non un mot en 2 parties, chacune créant un nouveau mot.</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <title ref="difdepo:titles.xml#host">Host</title> - <term ref="difdepo:terms.xml#romanlipogrammatique">roman lipogrammatique</term>. (26)</p>
       <list type="unordered">
         <item>ordre de lettres absentes.</item>
       </list>
-      <p><persName><abbr>JJ</abbr></persName>écrit.</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>écrit.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f4.highres" n="4"/>
       <p>2</p>
       <p><label type="rubrique">ACTIONS</label></p>
-      <p><persName><abbr>PF</abbr></persName>. <persName>Schiavetta</persName>. <persName><abbr>MB</abbr></persName>. <persName><abbr>MM</abbr></persName>. <persName><abbr>JJ</abbr></persName>.</p>
-      <p>Coupry. <name type="manif">Colloque argot</name>. Maison <gap/>. Première soirée happening.</p>
-      <p><persName><abbr>FC</abbr></persName>centralise. Nous suivons.</p>
-      <p><persName>Andé</persName>. Rouen. Février 91. Théâtre. + <persName>Morelin</persName>. OK sauf <persName><abbr>MM</abbr></persName> qui veut pas.</p>
-      <p>Droits auteur. <orgName>Gallimard</orgName>. <title>Atlas</title>. Folio. E. 5798 / 8000 exemplaires</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="difdepo:persons.xml#schiavetta">Schiavetta</persName>. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>.</p>
+      <p>Coupry. <name ref="difdepo:events.xml#colloqueargot" type="manif">Colloque argot</name>. Maison <gap/>. Première soirée happening.</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>centralise. Nous suivons.</p>
+      <p><persName ref="difdepo:persons.xml#ande">Andé</persName>. Rouen. Février 91. Théâtre. + <persName ref="difdepo:persons.xml#morelin">Morelin</persName>. OK sauf <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> qui veut pas.</p>
+      <p>Droits auteur. <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>. <title ref="difdepo:titles.xml#atlas">Atlas</title>. Folio. E. 5798 / 8000 exemplaires</p>
       <p>Iris 11796 exemplaires.</p>
-      <p><orgName><choice><sic>Boringhieri</sic><corr>Bollinghieri</corr></choice></orgName>. Traduction oulipien en Italie début 91. choix <title>Bibliothèque oulipienne</title>1 <title>Bibliothèque oulipienne</title> 2</p>
-      <p><persName><abbr>MB.</abbr></persName> Amsterdam. Article pour mettre en tête d’une revue. <unclear>Debois</unclear></p>
-      <p>Tokyo. <persName>M. Sakazume</persName>. Traduction <title>Vie Mode d’Emploi</title></p>
+      <p><orgName ref="difdepo:organizations.xml#bollinghieri"><choice><sic>Boringhieri</sic><corr>Bollinghieri</corr></choice></orgName>. Traduction oulipien en Italie début 91. choix <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>1 <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> 2</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB.</abbr></persName> Amsterdam. Article pour mettre en tête d’une revue. <unclear>Debois</unclear></p>
+      <p>Tokyo. <persName ref="difdepo:persons.xml#msakazume">M. Sakazume</persName>. Traduction <title ref="difdepo:titles.xml#viemodedemploi">Vie Mode d’Emploi</title></p>
       <p>Strasbourg. Renseignements biblio…</p>
-      <p><orgName>Gallimard</orgName></p>
-      <p>Orléans. <name type="manif">lecture <orgName>FNAC</orgName></name> <persName><abbr>CB</abbr></persName>.<persName><abbr>JJ</abbr></persName></p>
+      <p><orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName></p>
+      <p>Orléans. <name ref="difdepo:events.xml#lecturefnac" type="manif">lecture <orgName ref="difdepo:organizations.xml#fnac">FNAC</orgName></name> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>.<persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName></p>
       <p>Marseille</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f5.highres" n="5"/>
       <p>3</p>
-      <p>Ottawa. <name type="manif">colloque plagiat</name>.</p>
-      <p><persName><abbr>MB.</abbr></persName> projet de communication.</p>
-      <p><persName><abbr>FC.</abbr></persName> propose l’achat de <persName>Tabourot</persName>.</p>
-      <p><persName><abbr>PF</abbr></persName> sui le commande à 33%</p>
-      <p><persName><abbr>PF.</abbr></persName> Carcassonne. <name type="manif">Hommage à <persName>Roubaud</persName></name>. Histoire du chef de Gare.</p>
+      <p>Ottawa. <name ref="difdepo:events.xml#colloqueplagiat" type="manif">colloque plagiat</name>.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB.</abbr></persName> projet de communication.</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC.</abbr></persName> propose l’achat de <persName ref="difdepo:persons.xml#tabourot">Tabourot</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> sui le commande à 33%</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF.</abbr></persName> Carcassonne. <name ref="difdepo:events.xml#hommagearoubaud" type="manif">Hommage à <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></name>. Histoire du chef de Gare.</p>
       <p><label type="rubrique">MENU PROPOS</label></p>
-      <p><persName><abbr>JJ</abbr></persName>-<persName><abbr>MB</abbr></persName>. mon semblable mon frère.</p>
-      <p><persName><abbr>HM</abbr></persName> <term>lecture poldéviste et poldadamiste</term>.</p>
-      <p>le passeport de <persName><abbr>Harry</abbr></persName> expire en Mai 2000</p>
-      <p><persName><abbr>JR</abbr></persName> <name type="manif">Salerno Festival de Poésie</name></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>-<persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. mon semblable mon frère.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <term ref="difdepo:terms.xml#lecturepoldevisteetpoldadamiste">lecture poldéviste et poldadamiste</term>.</p>
+      <p>le passeport de <persName ref="difdepo:persons.xml#harry"><abbr>Harry</abbr></persName> expire en Mai 2000</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <name ref="difdepo:events.xml#salernofestivaldepoesie" type="manif">Salerno Festival de Poésie</name></p>
       <p>on n’y voit plus la mer.</p>
-      <p><persName><abbr>JR</abbr></persName>. <title>Schreibheft</title> N°35. <persName><abbr>JR</abbr></persName> <persName><abbr>HM</abbr></persName> &gt; <term>palindrome</term> de celui de l’<title>hexameron</title>.</p>
-      <p>(<term>palindrome de paragraphes</term>)</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <title ref="difdepo:titles.xml#schreibheft">Schreibheft</title> N°35. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> &gt; <term ref="difdepo:terms.xml#palindrome">palindrome</term> de celui de l’<title ref="difdepo:titles.xml#hexameron">hexameron</title>.</p>
+      <p>(<term ref="difdepo:terms.xml#palindromedeparagraphes">palindrome de paragraphes</term>)</p>
     </body>
   </text>
 </TEI>

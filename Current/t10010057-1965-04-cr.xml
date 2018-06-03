@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010057-1965-04-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010057-1965-04-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,26 +43,26 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100575/f1.highres" n="1"/>
       <p rend="incipit">OULIPO</p>
       <list type="ordered">
-        <item><persName>Braffort</persName> =</item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName> =</item>
         <item>Namur</item>
         <item>Note de frais</item>
         <item>Film</item>
         <item/>
       </list>
       <list type="ordered">
-        <item>Contribution <term>Pataphysique</term></item>
+        <item>Contribution <term ref="difdepo:terms.xml#pataphysique">Pataphysique</term></item>
         <item>Problèmes d’échecs + Note frais</item>
-        <item><term>Intersection</term></item>
+        <item><term ref="difdepo:terms.xml#intersection">Intersection</term></item>
       </list>
       <list type="ordered">
-        <item><term>Vers</term> ambigu</item>
+        <item><term ref="difdepo:terms.xml#vers">Vers</term> ambigu</item>
       </list>
-      <p><term>Ambiguités combinées</term>. Il ruminait des pensées sur ces routes</p>
+      <p><term ref="difdepo:terms.xml#ambiguitescombinees">Ambiguités combinées</term>. Il ruminait des pensées sur ces routes</p>
       <p>L’obstination de cet homme brave la tourmente Le pilote ferme la porte.</p>
       <list type="ordered">
-        <item><name type="manif">Prochaine réunion</name>.</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>.</item>
       </list>
-      <p>17 avril : 18 h plus ou moins 1 chez <persName><abbr>FLL</abbr></persName></p>
+      <p>17 avril : 18 h plus ou moins 1 chez <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
     </body>
   </text>
 </TEI>

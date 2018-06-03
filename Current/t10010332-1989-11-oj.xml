@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010332-1989-11-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010332-1989-11-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,36 +38,36 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103327/f8.highres" n="8"/>
       <p rend="incipit">16 11 89</p>
       <list type="unordered">
-        <item>Présents- Absents <persName><abbr>MB</abbr></persName></item>
-        <item>Présentation de l’invité <persName><abbr>CB</abbr></persName></item>
+        <item>Présents- Absents <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></item>
+        <item>Présentation de l’invité <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></item>
       </list>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>JR</abbr></persName>. <persName><abbr>MB</abbr></persName> <term>Mots isocèles</term> x</p>
-      <p><persName><abbr>HM</abbr></persName> un catholique un protestant x</p>
-      <p><persName><abbr>MM</abbr></persName> le tatami – x</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <term ref="difdepo:terms.xml#motsisoceles">Mots isocèles</term> x</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> un catholique un protestant x</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> le tatami – x</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>MB</abbr></persName> <term>Jeu de Babel</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <term ref="difdepo:terms.xml#jeudebabel">Jeu de Babel</term></p>
       <p>La mort de lipo et de quelques autres</p>
-      <p><persName><abbr><del>JR</del></abbr></persName> <del>Erudition</del> - <persName><abbr>JR</abbr></persName> <term>Nombre de <persName>Perec</persName></term> (suite) x</p>
-      <p><persName><abbr>PF</abbr></persName> <term>Quintin écholalique</term> x</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr><del>JR</del></abbr></persName> <del>Erudition</del> - <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <term ref="difdepo:terms.xml#nombredeperec">Nombre de <persName ref="difdepo:persons.xml#perec">Perec</persName></term> (suite) x</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <term ref="difdepo:terms.xml#quintinecholalique">Quintin écholalique</term> x</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>MM</abbr></persName> Cartes de visite x – <title>Conversions</title> x</p>
-      <p><persName><abbr>FC</abbr></persName> Québécois x <persName><abbr>PF</abbr></persName>. Québécois x <persName><abbr>JJ</abbr></persName> <persName>Queneau</persName></p>
-      <p><persName><abbr>JR</abbr></persName> Poitiers x</p>
-      <p><persName><abbr>MB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Cartes de visite x – <title ref="difdepo:titles.xml#conversions">Conversions</title> x</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Québécois x <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. Québécois x <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> Poitiers x</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
       <list type="unordered">
         <item>Finances x <del>Archives</del></item>
         <item>Madrid x</item>
       </list>
-      <p><persName><abbr>PF</abbr></persName> Mexico x</p>
-      <p>Bibliothèque oulipienne <persName><abbr>PF</abbr></persName> x</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Mexico x</p>
+      <p>Bibliothèque oulipienne <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> x</p>
       <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName><abbr>PF</abbr></persName> Lacarrière x</p>
-      <p><persName><abbr>JJ</abbr></persName> <title>Petit Larousse illustré</title> x</p>
-      <p>Invité <persName>Réuven</persName> et <persName>Courteline</persName> x</p>
-      <p><persName><abbr>PB</abbr></persName> <persName>Butor</persName></p>
-      <p><name type="manif">Prochaine réunion</name> avec <persName>Paul Zumthor</persName></p>
-      <p>Mardi 12/12 oulipo chez <persName><abbr>MB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Lacarrière x</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <title ref="difdepo:titles.xml#petitlarousseillustre">Petit Larousse illustré</title> x</p>
+      <p>Invité <persName ref="difdepo:persons.xml#reuven">Réuven</persName> et <persName ref="difdepo:persons.xml#courteline">Courteline</persName> x</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#butor">Butor</persName></p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> avec <persName ref="difdepo:persons.xml#paulzumthor">Paul Zumthor</persName></p>
+      <p>Mardi 12/12 oulipo chez <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
       <p>janvier 26/1/90</p>
     </body>
   </text>

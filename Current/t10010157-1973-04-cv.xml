@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010157-1973-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010157-1973-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010157-1973-04-cv</idno> <title>Convocation à <ref target="#t10010157-1973-04">une réunion Oulipo</ref>, envoyée le <date when="1973-04-26">26 avril 1973</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010157-1973-04-cv</idno> <title>Convocation à <ref target="#t10010157-1973-04">une réunion Oulipo</ref>, envoyée le <date when="1973-04-26">26 avril 1973</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -41,15 +40,15 @@
       <p rend="incipit">Chers Brigadiers,</p>
       <p>Un mot à la hâte pour enrichir votre calendrier de deux dates mémorables.</p>
       <list type="ordered">
-        <item>Mercredi 9 Mai. <name type="manif">Prochaine réunion</name> OuLiPo, comme d’habitude vers 11 heures à Boulogne. Déjeuner rapide. Départ en caravane vers 14H15 pour nous rendre au <orgName>centre universitaire de Columbia</orgName> à Paris, 4 Rue de Chevreuse, où nous sommes invités par sa Directrice, Madame <persName>Danielle Haase-Dubosc</persName> à une conférence-débat sur l’OuLiPo et sa mission.</item>
+        <item>Mercredi 9 Mai. <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> OuLiPo, comme d’habitude vers 11 heures à Boulogne. Déjeuner rapide. Départ en caravane vers 14H15 pour nous rendre au <orgName ref="difdepo:organizations.xml#centreuniversitairedecolumbia">centre universitaire de Columbia</orgName> à Paris, 4 Rue de Chevreuse, où nous sommes invités par sa Directrice, Madame <persName ref="difdepo:persons.xml#daniellehaasedubosc">Danielle Haase-Dubosc</persName> à une conférence-débat sur l’OuLiPo et sa mission.</item>
       </list>
       <list type="ordered">
-        <item>Mercredi 6 Juin. Réunion suivante de l’OuLiPo, vers 11 heures à Boulogne. Invité d’honneur : <persName>Ernest COUMET</persName>, s’il est libre.</item>
+        <item>Mercredi 6 Juin. Réunion suivante de l’OuLiPo, vers 11 heures à Boulogne. Invité d’honneur : <persName ref="difdepo:persons.xml#ernestcoumet">Ernest COUMET</persName>, s’il est libre.</item>
       </list>
       <p>N’oubliez pas, pour des raisons d’intendance (que certains d’entre vous prennent un peu trop à la légère, mais que ma délicatesse naturelle continue à m’interdire de nommer) de bien préciser la position que vous prendrez vis-à-vis de ces deux dates.</p>
       <p>Oulipiennement vôtre</p>
       <p>Pour les deux secrétaires généraux</p>
-      <p><persName>F. Le Lionnais</persName></p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

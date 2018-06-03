@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010180-1975-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1975-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,71 +40,71 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f9.highres" n="9"/>
       <p rend="incipit">7 8 75</p>
-      <p><persName><abbr>GP</abbr></persName> <term>mots croisés</term> : définitions oulipiennes.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <term ref="difdepo:terms.xml#motscroises">mots croisés</term> : définitions oulipiennes.</p>
       <p>prières d’insérer</p>
-      <p><persName><abbr>RQ</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></p>
       <list type="unordered">
-        <item><term>épigraphe</term> de <persName>Boileau</persName> pour <persName>Hilbert</persName> transposé</item>
+        <item><term ref="difdepo:terms.xml#epigraphe">épigraphe</term> de <persName ref="difdepo:persons.xml#boileau">Boileau</persName> pour <persName ref="difdepo:persons.xml#hilbert">Hilbert</persName> transposé</item>
       </list>
-      <p>anglais = <term>anaphore</term> - ouverture déterminée par la <term>synonymie</term></p>
+      <p>anglais = <term ref="difdepo:terms.xml#anaphore">anaphore</term> - ouverture déterminée par la <term ref="difdepo:terms.xml#synonymie">synonymie</term></p>
       <list type="unordered">
-        <item><persName>Lechs</persName> (<title>Figaro</title>) <persName>Calvino</persName> : utilisation des travaux de l’Oulipo</item>
+        <item><persName ref="difdepo:persons.xml#lechs">Lechs</persName> (<title ref="difdepo:titles.xml#figaro">Figaro</title>) <persName ref="difdepo:persons.xml#calvino">Calvino</persName> : utilisation des travaux de l’Oulipo</item>
       </list>
-      <p>(reconnait le fait) <title>Ulcérations</title></p>
-      <p><term>Homosyntaxisme</term></p>
+      <p>(reconnait le fait) <title ref="difdepo:titles.xml#ulcerations">Ulcérations</title></p>
+      <p><term ref="difdepo:terms.xml#homosyntaxisme">Homosyntaxisme</term></p>
       <list type="unordered">
-        <item>Dernier <title>Il Caffè</title>, de travaux originaux soi-disant Oulipiens.</item>
-        <item>Calvino : <title>Le château des destins croisés</title>…</item>
+        <item>Dernier <title ref="difdepo:titles.xml#ilcaffe">Il Caffè</title>, de travaux originaux soi-disant Oulipiens.</item>
+        <item>Calvino : <title ref="difdepo:titles.xml#lechateaudesdestinscroises">Le château des destins croisés</title>…</item>
       </list>
       <p>L’auberge…</p>
       <p>(à partir des tarots)</p>
-      <p>Pratique de l’<term>Oulipo sémantique</term> : personnages lisent les textes pour justifier histoires divergentes.</p>
-      <p><persName><abbr>PB</abbr></persName></p>
+      <p>Pratique de l’<term ref="difdepo:terms.xml#ouliposemantique">Oulipo sémantique</term> : personnages lisent les textes pour justifier histoires divergentes.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
       <list type="unordered">
-        <item><persName>Calvino</persName> : roman en cours – meurtre par un IBM</item>
+        <item><persName ref="difdepo:persons.xml#calvino">Calvino</persName> : roman en cours – meurtre par un IBM</item>
         <item>Pro-création : travail à faire sur la définition du transport des matières infectes</item>
         <item>Roman : « Les matières infectes »</item>
       </list>
-      <p><persName><abbr>FLL</abbr></persName></p>
-      <p><persName>Goujon</persName> <title>Mathématiques de base pour linguistes</title> (<orgName>Hermann</orgName>)</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#goujon">Goujon</persName> <title ref="difdepo:titles.xml#mathematiquesdebasepourlinguistes">Mathématiques de base pour linguistes</title> (<orgName ref="difdepo:organizations.xml#hermann">Hermann</orgName>)</p>
       <list type="unordered">
-        <item><term>analyse graphique</term> de <title>Hamlet</title> : <term>chemin eulérien</term> (cf. <term>ponts de Königsberg</term>)</item>
+        <item><term ref="difdepo:terms.xml#analysegraphique">analyse graphique</term> de <title ref="difdepo:titles.xml#hamlet">Hamlet</title> : <term ref="difdepo:terms.xml#chemineulerien">chemin eulérien</term> (cf. <term ref="difdepo:terms.xml#pontsdekonigsberg">ponts de Königsberg</term>)</item>
         <item>Ecrire un Hamlet hamiltonien</item>
-        <item><persName>Bens</persName> : nouveau jeu : trop court, intercaler entre chaque deux phrases une phrase nouvelle tout en respectant la continuité du discours</item>
+        <item><persName ref="difdepo:persons.xml#bens">Bens</persName> : nouveau jeu : trop court, intercaler entre chaque deux phrases une phrase nouvelle tout en respectant la continuité du discours</item>
       </list>
-      <p>Contraintes supplémentaire : <persName><abbr>RQ</abbr></persName> transformer <unclear>*</unclear> en <term>nouvelle policière</term></p>
-      <p><lb/><persName><abbr>FLL</abbr></persName> : Qui suis-je ? <term>Roman policier</term></p>
+      <p>Contraintes supplémentaire : <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> transformer <unclear>*</unclear> en <term ref="difdepo:terms.xml#nouvellepoliciere">nouvelle policière</term></p>
+      <p><lb/><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Qui suis-je ? <term ref="difdepo:terms.xml#romanpolicier">Roman policier</term></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f10.highres" n="10"/>
-      <p><name type="manif">Europalia</name></p>
+      <p><name ref="difdepo:events.xml#europalia" type="manif">Europalia</name></p>
       <p>logement : pour trois</p>
-      <p>transport : <persName><abbr>PB</abbr></persName> voiture</p>
+      <p>transport : <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> voiture</p>
       <p>4 voyages payés</p>
-      <p><name type="manif">Europalia</name> : soirée du 8 octobre 20 heures 30 – 23 heures 30 Palace des Beaux-Arts rue Ravenstein</p>
+      <p><name ref="difdepo:events.xml#europalia" type="manif">Europalia</name> : soirée du 8 octobre 20 heures 30 – 23 heures 30 Palace des Beaux-Arts rue Ravenstein</p>
       <list type="unordered">
-        <item><title>10 milliards de poèmes</title> grand part</item>
-        <item>Ordinateurs (<persName><abbr>PB</abbr></persName>) &gt; sonnet <persName><abbr>RQ</abbr></persName> au chasse</item>
+        <item><title ref="difdepo:titles.xml#n10milliardsdepoemes">10 milliards de poèmes</title> grand part</item>
+        <item>Ordinateurs (<persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>) &gt; sonnet <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> au chasse</item>
       </list>
-      <p>vérification du <term>palindrome</term></p>
-      <p><title>conte à votre façon</title> modifié</p>
+      <p>vérification du <term ref="difdepo:terms.xml#palindrome">palindrome</term></p>
+      <p><title ref="difdepo:titles.xml#conteavotrefacon">conte à votre façon</title> modifié</p>
       <list type="unordered">
-        <item><persName>Duchateau</persName></item>
+        <item><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName></item>
         <item>Salle Oulipo : 3 murs</item>
       </list>
       <p>(3 semaines) 1 ou 2 consoles</p>
       <list type="unordered">
         <item>arrivée le 7 au soir théâtre + prose</item>
       </list>
-      <p>Soirée : confirmé 60’ 2 heures de jeu &gt; <persName>Duchateau</persName> <persName>Fournel</persName></p>
-      <p><term>Plagiats</term> 8’ (confirmés)</p>
-      <p>Œuvres <persName><abbr>GP</abbr></persName> 30’ intervenants</p>
-      <p><persName><abbr>JR</abbr></persName> 30’</p>
-      <p><persName><abbr>LE</abbr></persName> 7’</p>
-      <p><term>S+7</term> 10’ ?</p>
-      <p>Interruption organisée <persName><abbr>RQ</abbr></persName> : <title>Conte à votre façon</title></p>
-      <p><persName><abbr>GP</abbr></persName> <title>L'augmentation</title></p>
-      <p>1 <persName><abbr>JL</abbr></persName></p>
-      <p><persName><abbr>LE</abbr></persName></p>
-      <p><term>S+7</term></p>
+      <p>Soirée : confirmé 60’ 2 heures de jeu &gt; <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> <persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
+      <p><term ref="difdepo:terms.xml#plagiats">Plagiats</term> 8’ (confirmés)</p>
+      <p>Œuvres <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> 30’ intervenants</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> 30’</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> 7’</p>
+      <p><term ref="difdepo:terms.xml#s7">S+7</term> 10’ ?</p>
+      <p>Interruption organisée <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : <title ref="difdepo:titles.xml#conteavotrefacon">Conte à votre façon</title></p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <title ref="difdepo:titles.xml#laugmentation">L'augmentation</title></p>
+      <p>1 <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></p>
+      <p><term ref="difdepo:terms.xml#s7">S+7</term></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f11.highres" n="11"/>
       <p>MC (moves around)</p>
       <p>10’ = actes oulipiens devient conférences</p>
@@ -113,17 +112,17 @@
       <p>projections</p>
       <p>10’ = conférence : 1) création historique</p>
       <p>« déjà fait »</p>
-      <p>Intervenants : <persName>Arnaud</persName> <persName>Queval</persName> <persName>Bens</persName></p>
-      <p>Interruptions : &gt; <term>plagiats</term></p>
+      <p>Intervenants : <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> <persName ref="difdepo:persons.xml#queval">Queval</persName> <persName ref="difdepo:persons.xml#bens">Bens</persName></p>
+      <p>Interruptions : &gt; <term ref="difdepo:terms.xml#plagiats">plagiats</term></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f13.highres" n="12"/>
       <p>Préparations : Exposition</p>
       <p>Vitrines – de présentation</p>
-      <p><persName><abbr>GP</abbr></persName></p>
-      <p>bande à <persName>Métail</persName> enregistrement <persName>Duchateau</persName></p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
+      <p>bande à <persName ref="difdepo:persons.xml#metail">Métail</persName> enregistrement <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName></p>
       <p>régie sonore</p>
       <p>régie illustration</p>
       <p>diapos</p>
-      <p>écrire la séance <persName><abbr>HM</abbr></persName></p>
+      <p>écrire la séance <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
     </body>
   </text>
 </TEI>

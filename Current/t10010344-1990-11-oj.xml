@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010344-1990-11-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010344-1990-11-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,24 +39,24 @@
       <p rend="incipit">Réunion du 26-11-90</p>
       <p>Ordre du jour</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>JJ</abbr></persName> : Glose</p>
-      <p><persName><abbr>FC</abbr></persName> : l’année du <term>palindrome</term>, 1ers zéléments</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Glose</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : l’année du <term ref="difdepo:terms.xml#palindrome">palindrome</term>, 1ers zéléments</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>MB</abbr></persName> : <persName>Nicolo de Rossi</persName> <term>plagiaire par anticipation</term></p>
-      <p><persName><abbr>FC</abbr></persName> : Pas terrible, terrible</p>
-      <p><persName><abbr>MM</abbr></persName> : Hommage taoïste à <persName>Paul Braffort</persName></p>
-      <p><persName><abbr>CB</abbr></persName> : <persName>Queneau</persName> mathématicien</p>
-      <p><persName><abbr>JR</abbr></persName> : <term>Sextine</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="difdepo:persons.xml#nicoloderossi">Nicolo de Rossi</persName> <term ref="difdepo:terms.xml#plagiaireparanticipation">plagiaire par anticipation</term></p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Pas terrible, terrible</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : Hommage taoïste à <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : <persName ref="difdepo:persons.xml#queneau">Queneau</persName> mathématicien</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <term ref="difdepo:terms.xml#sextine">Sextine</term></p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>MB</abbr></persName> : Thionville/ Capri/ Allemagne/ Marne la Vallée/ Oulipo 3000/ Berlin</p>
-      <p><persName><abbr>PF</abbr></persName> : Marseille/ Mexico</p>
-      <p><persName><abbr>PF</abbr></persName> : Polytechnique</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Thionville/ Capri/ Allemagne/ Marne la Vallée/ Oulipo 3000/ Berlin</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Marseille/ Mexico</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Polytechnique</p>
       <p><label type="rubrique">Menus propos :</label></p>
-      <p><persName><abbr>JR</abbr></persName> : un poème <lb/><persName><abbr>PF</abbr></persName> : <persName><abbr>JR</abbr></persName> et les sonnets du XVIe</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : un poème <lb/><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> et les sonnets du XVIe</p>
       <p><label type="rubrique">Bibliothèque oulipienne :</label></p>
-      <p><persName><abbr>PF</abbr></persName> : <title>Bibliothèque oulipienne</title> <title>Morale élémentaire</title></p>
-      <p><label type="rubrique"><name type="manif">Prochaine réunion</name>  : jeudi 20/12 chez PF</label></p>
-      <p><persName>Berge</persName> <persName>Braffort</persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> <title ref="difdepo:titles.xml#moraleelementaire">Morale élémentaire</title></p>
+      <p><label type="rubrique"><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : jeudi 20/12 chez PF</label></p>
+      <p><persName ref="difdepo:persons.xml#berge">Berge</persName> <persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010198-1977-08-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010198-1977-08-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,77 +39,77 @@
       <p rend="incipit">25-8-77 Ordre du jour</p>
       <p><label type="rubrique">Création =</label></p>
       <list type="unordered">
-        <item>1 <persName>Perec</persName> &gt; Hommage à l’oulipo, Work in progress, <persName>Plassard</persName></item>
-        <item><persName>Fournel</persName>+<persName><abbr>JR</abbr></persName> &gt; le <term>cylindre</term> ou <title>l’hôtel de Sens</title></item>
-        <item><persName>Mathews</persName> &gt; conséquence de l’<term>algorithme</term></item>
-        <item><persName>Bénabou</persName> &gt; <unclear>***</unclear> suggestions</item>
-        <item><persName><abbr>FLL</abbr></persName> &gt; lettre à <persName>Billy</persName></item>
-        <item><persName>Bens</persName> &gt; <persName>Charles</persName> au pied de la lettre <note n="1" resp="editor">Page entièrement barrée</note></item>
+        <item>1 <persName ref="difdepo:persons.xml#perec">Perec</persName> &gt; Hommage à l’oulipo, Work in progress, <persName ref="difdepo:persons.xml#plassard">Plassard</persName></item>
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName>+<persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> &gt; le <term ref="difdepo:terms.xml#cylindre">cylindre</term> ou <title ref="difdepo:titles.xml#lhoteldesens">l’hôtel de Sens</title></item>
+        <item><persName ref="difdepo:persons.xml#mathews">Mathews</persName> &gt; conséquence de l’<term ref="difdepo:terms.xml#algorithme">algorithme</term></item>
+        <item><persName ref="difdepo:persons.xml#benabou">Bénabou</persName> &gt; <unclear>***</unclear> suggestions</item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> &gt; lettre à <persName ref="difdepo:persons.xml#billy">Billy</persName></item>
+        <item><persName ref="difdepo:persons.xml#bens">Bens</persName> &gt; <persName ref="difdepo:persons.xml#charles">Charles</persName> au pied de la lettre <note n="1" resp="editor">Page entièrement barrée</note></item>
       </list>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>PF</abbr></persName> <name type="manif">Avignon</name>- Photo- <title>Volume 2</title> <orgName>CNL</orgName>- <title>Drôle de baroque</title></p>
-      <p><title>Bibliothèque oulipienne</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <name ref="difdepo:events.xml#avignon" type="manif">Avignon</name>- Photo- <title ref="difdepo:titles.xml#volume2">Volume 2</title> <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName>- <title ref="difdepo:titles.xml#droledebaroque">Drôle de baroque</title></p>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
       <list type="unordered">
-        <item><persName><abbr>FLL</abbr></persName> Fin du <title>volume Queneau</title></item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> Fin du <title ref="difdepo:titles.xml#volumequeneau">volume Queneau</title></item>
         <item>Paiement</item>
         <item>volume sous presse</item>
       </list>
       <p><label type="rubrique">Phynances</label></p>
       <list type="unordered">
-        <item><orgName>Caisse d’Epargne</orgName></item>
-        <item>Phynances secrétariat pour <persName>Fournel</persName> (spécial <name type="manif">Avignon</name>)</item>
+        <item><orgName ref="difdepo:organizations.xml#caissedepargne">Caisse d’Epargne</orgName></item>
+        <item>Phynances secrétariat pour <persName ref="difdepo:persons.xml#fournel">Fournel</persName> (spécial <name ref="difdepo:events.xml#avignon" type="manif">Avignon</name>)</item>
       </list>
       <p><label type="rubrique">Menu Propos</label></p>
       <list type="ordered">
-        <item><name type="manif">Ordinateur et écrivain</name> <persName><abbr>JB</abbr></persName> <orgName>France Culture</orgName>.</item>
-        <item><title>Ecrire</title> de <persName>Jean Guénot</persName> <persName><abbr>MB</abbr></persName> <term>Collages</term></item>
-        <item><persName>Laclos</persName> <persName><abbr>LE</abbr></persName> <title>Charlie Hebdo</title>.</item>
+        <item><name ref="difdepo:events.xml#ordinateuretecrivain" type="manif">Ordinateur et écrivain</name> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName>.</item>
+        <item><title ref="difdepo:titles.xml#ecrire">Ecrire</title> de <persName ref="difdepo:persons.xml#jeanguenot">Jean Guénot</persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <term ref="difdepo:terms.xml#collages">Collages</term></item>
+        <item><persName ref="difdepo:persons.xml#laclos">Laclos</persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <title ref="difdepo:titles.xml#charliehebdo">Charlie Hebdo</title>.</item>
       </list>
-      <p><persName>Queneau</persName> <persName><abbr>FLL</abbr></persName> Des nouvelles de la succession <persName>Queneau</persName>.</p>
-      <p><persName><abbr>LE</abbr></persName> Spectacle <persName>Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> Des nouvelles de la succession <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> Spectacle <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
       <p><note n="2" resp="editor">Page entièrement barrée</note></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>HM</abbr></persName> 3 articles de <title>Word Ways</title></p>
-      <p><persName><abbr>LE</abbr></persName> Nablat de Cornecul</p>
-      <p><name type="manif">Prochaine réunion</name></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> 3 articles de <title ref="difdepo:titles.xml#wordways">Word Ways</title></p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> Nablat de Cornecul</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f14.highres" n="4"/>
       <p rend="incipit">Oulipo du Jeudi 25 aout 1977</p>
-      <p rend="incipit">Se sont inscrits : <persName>M. Bénabou</persName> – <persName>J. Bens</persName> (midi) – <persName>L. Etienne</persName> – <persName>P. Fournel</persName> – <persName><abbr>FLL</abbr></persName> – <persName>H. Mathews</persName></p>
-      <p rend="incipit">Excusés : <persName>Noel Arnaud</persName> (santé) – <persName>C. Berge</persName> – <persName>A. Blavier</persName> – <persName>I. Calvino</persName> – <persName>J. Lescure</persName> – <persName>J. Queval</persName></p>
-      <p rend="incipit">Ne se sont pas manifestés : <persName>P. Braffort</persName> – <persName>J. Duchateau</persName> – <persName>M. Métail</persName> – <persName>G. Perec</persName> – <persName>J. Roubaud</persName></p>
+      <p rend="incipit">Se sont inscrits : <persName ref="difdepo:persons.xml#mbenabou">M. Bénabou</persName> – <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> (midi) – <persName ref="difdepo:persons.xml#le">L. Etienne</persName> – <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName> – <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> – <persName ref="difdepo:persons.xml#hmathews">H. Mathews</persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#noelarnaud">Noel Arnaud</persName> (santé) – <persName ref="difdepo:persons.xml#cberge">C. Berge</persName> – <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName> – <persName ref="difdepo:persons.xml#icalvino">I. Calvino</persName> – <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName> – <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName></p>
+      <p rend="incipit">Ne se sont pas manifestés : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> – <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName> – <persName ref="difdepo:persons.xml#mmetail">M. Métail</persName> – <persName ref="difdepo:persons.xml#gperec">G. Perec</persName> – <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName></p>
       <p>Compléments à l’ordre du jour</p>
       <p><label type="rubrique">A Action et administration</label></p>
       <list type="ordered">
-        <item><name type="manif">Avignon</name></item>
-        <item><title>La Bibliothèque oulipienne</title> <list type="ordered">
-          <item>Exemplaires de <persName>Noel Arnaud</persName></item>
-          <item><title>Tristesse</title> de <persName>François Caradec</persName></item>
-          <item><orgName>Documente Verlag</orgName> (<persName>Jean Marie Queneau</persName> &gt; <persName>Marcel Bénabou</persName>)</item>
+        <item><name ref="difdepo:events.xml#avignon" type="manif">Avignon</name></item>
+        <item><title ref="difdepo:titles.xml#labibliothequeoulipienne">La Bibliothèque oulipienne</title> <list type="ordered">
+          <item>Exemplaires de <persName ref="difdepo:persons.xml#noelarnaud">Noel Arnaud</persName></item>
+          <item><title ref="difdepo:titles.xml#tristesse">Tristesse</title> de <persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+          <item><orgName ref="difdepo:organizations.xml#documenteverlag">Documente Verlag</orgName> (<persName ref="difdepo:persons.xml#jeanmariequeneau">Jean Marie Queneau</persName> &gt; <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>)</item>
           <item>Distribution des feuilles supplémentaires</item>
-          <item>Règlement de Vittu de <persName>Kerraou</persName>l par <persName><abbr>FLL</abbr></persName> (2400 francs)</item>
+          <item>Règlement de Vittu de <persName ref="difdepo:persons.xml#kerraou">Kerraou</persName>l par <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> (2400 francs)</item>
           <item>Structuration des prochains numéros</item>
           </list> </item>
-        <item>Oulipo = <title>2e volume</title></item>
-        <item>Photomontage= ne manque plus que <persName>Noel Arnaud</persName> (<persName><abbr>FLL</abbr></persName> s’en occupera ; le rappeler dans prochaine convocation).</item>
-        <item><orgName>Caisse d’Epargne</orgName> – Formulaire de transfert – Signature de <persName>Fournel</persName></item>
-        <item><persName>Raymond Queneau</persName> <list type="ordered">
+        <item>Oulipo = <title ref="difdepo:titles.xml#n2evolume">2e volume</title></item>
+        <item>Photomontage= ne manque plus que <persName ref="difdepo:persons.xml#noelarnaud">Noel Arnaud</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> s’en occupera ; le rappeler dans prochaine convocation).</item>
+        <item><orgName ref="difdepo:organizations.xml#caissedepargne">Caisse d’Epargne</orgName> – Formulaire de transfert – Signature de <persName ref="difdepo:persons.xml#fournel">Fournel</persName></item>
+        <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> <list type="ordered">
           <item>Manuscrit sur histoire et définition Oulipo</item>
-          <item>Article de <persName>Jean Lescure</persName> pour <title>Encyclopédie Universalis</title></item>
+          <item>Article de <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> pour <title ref="difdepo:titles.xml#encyclopedieuniversalis">Encyclopédie Universalis</title></item>
           </list> </item>
         <item/>
       </list>
       <p><label type="rubrique">B Création</label></p>
       <list type="ordered">
-        <item>Lettre à <persName>Billy</persName></item>
+        <item>Lettre à <persName ref="difdepo:persons.xml#billy">Billy</persName></item>
       </list>
       <p><label type="rubrique">C Menu propos</label></p>
       <list type="ordered">
-        <item><orgName>France Culture</orgName> = 4 samedi (le dernier, après demain, 27 aout) sur la <term>Pataphysique</term>. Interventions de <persName>Raymond Queneau</persName>.</item>
+        <item><orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName> = 4 samedi (le dernier, après demain, 27 aout) sur la <term ref="difdepo:terms.xml#pataphysique">Pataphysique</term>. Interventions de <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>.</item>
       </list>
-      <p><persName>Groucho Marx</persName> et la <term>logique mathématique</term> : l’Ougagpo</p>
+      <p><persName ref="difdepo:persons.xml#grouchomarx">Groucho Marx</persName> et la <term ref="difdepo:terms.xml#logiquemathematique">logique mathématique</term> : l’Ougagpo</p>
       <p><label type="rubrique">D Calendrier</label></p>
       <list type="ordered">
-        <item><name type="manif">Prochaine réunion</name> = Jeudi 22 Septembre chez M. <persName>Bénabou</persName></item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> = Jeudi 22 Septembre chez M. <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></item>
       </list>
       <p>Invités d’honneur</p>
     </body>

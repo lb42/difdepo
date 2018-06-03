@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010324-1989-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010324-1989-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,35 +37,35 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010324q/f3.highres" n="3"/>
       <p rend="incipit">Oulipo ordre du jour <date>13.2.89</date></p>
-      <p>Président: <persName><abbr>NA</abbr></persName>, Secrétaire: <persName><abbr>MB</abbr></persName>, Lieu: chez <persName><abbr>HM</abbr></persName>, <persName>Arnaud</persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>FC</abbr></persName></p>
-      <p>Excusés: <persName>Berge</persName></p>
+      <p>Président: <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, Secrétaire: <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, Lieu: chez <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></p>
+      <p>Excusés: <persName ref="difdepo:persons.xml#berge">Berge</persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName>Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie paronymiques</item>
-        <item><persName>François Caradec</persName> : Défi de Roubaud</item>
+        <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> : les <del>Compléments</del> la Poésie paronymiques</item>
+        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> : Défi de Roubaud</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName>Gabriel de Lautrec</persName> (<persName>Caradec</persName>)</item>
-        <item><persName>Berge</persName> : <persName>Renaud Palisse</persName> (<persName>Jacques Jouet</persName>)</item>
-        <item><persName>Arnaud</persName>: Métrologie la relation ∏/sin1</item>
-        <item><persName>Arnaud</persName>: Relation <persName>Bataille</persName>/<persName>Queneau</persName></item>
-        <item><persName>Caradec</persName>: Prière (un et/ou une) d'insérer</item>
+        <item><persName ref="difdepo:persons.xml#gabrieldelautrec">Gabriel de Lautrec</persName> (<persName ref="difdepo:persons.xml#caradec">Caradec</persName>)</item>
+        <item><persName ref="difdepo:persons.xml#berge">Berge</persName> : <persName ref="difdepo:persons.xml#renaudpalisse">Renaud Palisse</persName> (<persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>)</item>
+        <item><persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>: Métrologie la relation ∏/sin1</item>
+        <item><persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>: Relation <persName ref="difdepo:persons.xml#bataille">Bataille</persName>/<persName ref="difdepo:persons.xml#queneau">Queneau</persName></item>
+        <item><persName ref="difdepo:persons.xml#caradec">Caradec</persName>: Prière (un et/ou une) d'insérer</item>
         <item>Jacques Roubaud: L'Oulipisme est-il un manièrisme ?</item>
-        <item>Jacques Roubaud: <persName>Carlo Porta</persName></item>
+        <item>Jacques Roubaud: <persName ref="difdepo:persons.xml#carloporta">Carlo Porta</persName></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> <unclear>Quebec</unclear></item>
-        <item><persName>Paul Fournel</persName>: le 4 mars</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <unclear>Quebec</unclear></item>
+        <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>: le 4 mars</item>
       </list>
       <p><label type="rubrique">Menus propos</label></p>
       <list type="unordered">
-        <item><persName>Harry Mathews</persName>: Bac de français <unclear>Dernier opéra de Jonhson</unclear></item>
+        <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>: Bac de français <unclear>Dernier opéra de Jonhson</unclear></item>
         <item>Jacques Roubaud: Influence de l'Oulipo sur les <unclear>grèves</unclear> de Californie</item>
       </list>
       <p>Au <placeName>Moulin d'Andé</placeName>?</p>
-      <p><name type="manif">Prochaine réunion</name> : le 17 mars <lb/>(peut-être chez <persName>François Caradec</persName>)</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> : le 17 mars <lb/>(peut-être chez <persName ref="difdepo:persons.xml#fc">François Caradec</persName>)</p>
     </body>
   </text>
 </TEI>

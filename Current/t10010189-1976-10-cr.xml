@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010189-1976-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010189-1976-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,17 +20,17 @@
           <date when="1976-10-28">28 octobre 1976</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Georges Perec</persName></item>
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Jacques Bens</persName></item>
-            <item><persName>Italo Calvino</persName></item>
-            <item><persName>Noël Arnaud</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName>Harry Mathews</persName></item>
-            <item><persName>Jean Queval</persName></item>
-            <item><persName role="invité">Jean-Paul Cortada</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanpaulcortada" role="invité">Jean-Paul Cortada</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -56,53 +55,53 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f14.highres" n="14"/>
       <p rend="incipit">Oulipo le 28 10 1976</p>
-      <p><persName><abbr>FLL</abbr></persName> : <persName>Queneau</persName> (enterrement) stricte intimité</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#queneau">Queneau</persName> (enterrement) stricte intimité</p>
       <list type="unordered">
-        <item>propose une publication de la <title>Bibliothèque oulipienne</title> se rattachant à <persName>Queneau</persName></item>
-        <item>dernière entrevue avec <persName><abbr>Q.</abbr></persName> jeudi à la <orgName>Salpetrière</orgName></item>
+        <item>propose une publication de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> se rattachant à <persName ref="difdepo:persons.xml#queneau">Queneau</persName></item>
+        <item>dernière entrevue avec <persName ref="difdepo:persons.xml#q_"><abbr>Q.</abbr></persName> jeudi à la <orgName ref="difdepo:organizations.xml#salpetriere">Salpetrière</orgName></item>
         <item>antépénultième</item>
       </list>
-      <p><persName><abbr>FLL</abbr></persName> annonce la <name type="manif">conférence de</name> <persName>Roubaud</persName></p>
-      <p><persName>Perec</persName> annonce la projection d’un film</p>
-      <p><persName><abbr>FLL</abbr></persName> parle de <persName>Parzysz</persName>= étude du <title>Conte à votre façon</title></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> annonce la <name ref="difdepo:events.xml#conferencede" type="manif">conférence de</name> <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> annonce la projection d’un film</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> parle de <persName ref="difdepo:persons.xml#parzysz">Parzysz</persName>= étude du <title ref="difdepo:titles.xml#conteavotrefacon">Conte à votre façon</title></p>
       <p>travail mathématique, littéraire qui est impeccable</p>
       <p>penser à l’inviter</p>
       <list type="unordered">
         <item>parler de la cassette Oulipo</item>
       </list>
-      <p>inviter <persName>Paris</persName> pour novembre</p>
+      <p>inviter <persName ref="difdepo:persons.xml#paris">Paris</persName> pour novembre</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f15.highres" n="15"/>
       <p>28 10 78</p>
-      <p><persName>Braffort</persName> : <title>mes hypertropes</title> (21-1 <term>poèmes</term> fondés sur le <term>nombre de <persName>Fibonacci</persName></term> à 3 <term>contraintes</term> =</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <title ref="difdepo:titles.xml#meshypertropes">mes hypertropes</title> (21-1 <term ref="difdepo:terms.xml#poemes">poèmes</term> fondés sur le <term ref="difdepo:terms.xml#nombredefibonacci">nombre de <persName ref="difdepo:persons.xml#fibonacci">Fibonacci</persName></term> à 3 <term ref="difdepo:terms.xml#contraintes">contraintes</term> =</p>
       <list type="ordered">
-        <item><term>Ordre alphabétique</term> suivant le nom des membres de l’Oulipo</item>
-        <item>éléments de chaque poème sont <term>fibonacciés</term> dans la mesure où ils intègrent les poèmes composant…</item>
+        <item><term ref="difdepo:terms.xml#ordrealphabetique">Ordre alphabétique</term> suivant le nom des membres de l’Oulipo</item>
+        <item>éléments de chaque poème sont <term ref="difdepo:terms.xml#fibonaccies">fibonacciés</term> dans la mesure où ils intègrent les poèmes composant…</item>
         <item><unclear>sans déterminé sons</unclear></item>
       </list>
-      <p><persName><abbr>HM.</abbr></persName> Roman e= <term>algorithme de M</term> présent en entier</p>
-      <p><persName>Perec</persName> <term>contrainte des voyelles</term> dans l’ordre</p>
-      <p><persName>Braffort</persName> : <term>linguistique</term> du <unclear>Commercial</unclear> Bureau</p>
-      <p><persName>Queval</persName> : incorporation de <term>citations clandestines</term> chez <persName>Powell</persName></p>
-      <p>– longue discussion sur la commémoration de <persName><abbr>R.Q.</abbr></persName></p>
-      <p>2 proposition conjoints = un volume <title>Bibliothèque oulipienne</title></p>
-      <p>un <title>Oulipo 2</title> dédié à <persName>Queneau</persName></p>
-      <p><persName>Bens</persName> soulève problème des autres membres décédés de l’Oulipo</p>
-      <p>(<persName>Schmidt</persName>, <persName>Latis</persName>, <persName>Duchamp</persName>)</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM.</abbr></persName> Roman e= <term ref="difdepo:terms.xml#algorithmedem">algorithme de M</term> présent en entier</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> <term ref="difdepo:terms.xml#contraintedesvoyelles">contrainte des voyelles</term> dans l’ordre</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <term ref="difdepo:terms.xml#linguistique">linguistique</term> du <unclear>Commercial</unclear> Bureau</p>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName> : incorporation de <term ref="difdepo:terms.xml#citationsclandestines">citations clandestines</term> chez <persName ref="difdepo:persons.xml#powell">Powell</persName></p>
+      <p>– longue discussion sur la commémoration de <persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName></p>
+      <p>2 proposition conjoints = un volume <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p>un <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title> dédié à <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#bens">Bens</persName> soulève problème des autres membres décédés de l’Oulipo</p>
+      <p>(<persName ref="difdepo:persons.xml#schmidt">Schmidt</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName>)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010189p/f16.highres" n="16"/>
       <p rend="incipit">OULIPO du 28 Octobre</p>
       <p rend="incipit">Assisteront : Excusés :</p>
-      <p rend="incipit"><persName>BENABOU</persName> <persName><del>Queval</del></persName></p>
-      <p rend="incipit"><persName>FOURNEL</persName> <persName><del>Mathews</del></persName></p>
-      <p rend="incipit"><persName><del>CORTADA</del></persName> <persName>PEREC</persName> <persName>Roubaud</persName></p>
-      <p rend="incipit"><persName><abbr>FLL</abbr></persName> <persName>Berge</persName></p>
-      <p rend="incipit"><persName>Bens</persName> (en retard)</p>
-      <p rend="incipit"><persName>Calvino</persName></p>
-      <p rend="incipit"><persName>N. Arnaud</persName></p>
-      <p rend="incipit"><persName>Braffort</persName></p>
-      <p rend="incipit"><persName><del>Berge</del></persName></p>
-      <p rend="incipit"><persName>Luc Etienne</persName></p>
-      <p rend="incipit"><persName>Mathews</persName></p>
-      <p rend="incipit"><persName>Queval</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#benabou">BENABOU</persName> <persName ref="difdepo:persons.xml#queval"><del>Queval</del></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#fournel">FOURNEL</persName> <persName ref="difdepo:persons.xml#mathews"><del>Mathews</del></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#cortada"><del>CORTADA</del></persName> <persName ref="difdepo:persons.xml#perec">PEREC</persName> <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#berge">Berge</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#bens">Bens</persName> (en retard)</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#calvino">Calvino</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#berge"><del>Berge</del></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#mathews">Mathews</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#queval">Queval</persName></p>
     </body>
   </text>
 </TEI>

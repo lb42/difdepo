@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010319-1988-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010319-1988-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,11 +20,11 @@
           <date when="1988-09-23">23 septembre 1988</date>
           <placeName>chez PF</placeName>
           <list type="present">
-            <item><persName>Jacques Roubaud</persName></item>
-            <item><persName>Jacques Jouet</persName></item>
-            <item><persName>Harry Mathews</persName></item>
-            <item><persName role="secrétaire">Marcel Bénabou</persName></item>
-            <item><persName role="président">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#fc" role="président">François Caradec</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -49,48 +48,48 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010319j/f2.highres" n="2"/>
-      <p rend="incipit">OULIPO chez <persName><abbr>PF</abbr></persName> 23-9-88</p>
-      <p rend="incipit">Présents : <persName><abbr>FC</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>HM</abbr></persName>, <persName><abbr>MB</abbr></persName> Président : <persName><abbr>FC</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>JL</abbr></persName> <persName><abbr>PB</abbr></persName> <persName><abbr>NA</abbr></persName> <persName><abbr>MM</abbr></persName> Secrétaire : <persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit">OULIPO chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> 23-9-88</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Président : <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Secrétaire : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
       <list type="unordered">
         <item>Point d’ordre :</item>
-        <item>Indignation de <persName><abbr>JR</abbr></persName> devant le côté non formel de l’ordre du jour. Reprise du décompte des séances.</item>
+        <item>Indignation de <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> devant le côté non formel de l’ordre du jour. Reprise du décompte des séances.</item>
       </list>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>HM</abbr></persName> 3 Créations</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> 3 Créations</p>
       <list type="ordered">
-        <item>The calling : procédé de parodie de <persName>Charlotte Brontë</persName> (<ref>archivé</ref>)</item>
-        <item>OPA en e : article dans l’<title>Economist</title> du 30-4-88</item>
-        <item><persName>Zvereva</persName> un <term>palindrome</term> entre Z et A</item>
+        <item>The calling : procédé de parodie de <persName ref="difdepo:persons.xml#charlottebronte">Charlotte Brontë</persName> (<ref>archivé</ref>)</item>
+        <item>OPA en e : article dans l’<title ref="difdepo:titles.xml#economist">Economist</title> du 30-4-88</item>
+        <item><persName ref="difdepo:persons.xml#zvereva">Zvereva</persName> un <term ref="difdepo:terms.xml#palindrome">palindrome</term> entre Z et A</item>
       </list>
-      <p><persName><abbr>JJ</abbr></persName> Pas de bibelots pour Pnom = un 3<hi rend="sup">e</hi> <term>hétérogramme</term>, mais hélas avec noms propres. (<ref>archive)</ref></p>
-      <p><persName><abbr>FC</abbr></persName> <term>Rime anagrammatique</term> (<ref>archive</ref>)</p>
-      <p><persName><abbr>JR</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Pas de bibelots pour Pnom = un 3<hi rend="sup">e</hi> <term ref="difdepo:terms.xml#heterogramme">hétérogramme</term>, mais hélas avec noms propres. (<ref>archive)</ref></p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <term ref="difdepo:terms.xml#rimeanagrammatique">Rime anagrammatique</term> (<ref>archive</ref>)</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
       <list type="unordered">
-        <item><title>L’auteur oulipien</title> (communication faite en décembre 86, qui va être publiée) (<ref>archives</ref>)</item>
-        <item>Variation sur l’<term>Ouliporime </term> (à venir)</item>
+        <item><title ref="difdepo:titles.xml#lauteuroulipien">L’auteur oulipien</title> (communication faite en décembre 86, qui va être publiée) (<ref>archives</ref>)</item>
+        <item>Variation sur l’<term ref="difdepo:terms.xml#ouliporime">Ouliporime </term> (à venir)</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>FC</abbr></persName> un livre sur <persName>Nicolas Cirier</persName> aux <orgName>éditions des Cendres</orgName></p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> un livre sur <persName ref="difdepo:persons.xml#nicolascirier">Nicolas Cirier</persName> aux <orgName ref="difdepo:organizations.xml#editionsdescendres">éditions des Cendres</orgName></p>
       <p>(un correcteur fou de l’imprimerie royale)</p>
-      <p><persName><abbr>JR</abbr></persName> <persName>Turing</persName> (inventeur des <term>machines de <persName>Turing</persName></term> ) quelques anecdotes sur sa vie.</p>
-      <p><persName><abbr>JJ</abbr></persName> une lettre de <persName>Queneau</persName> sur la <title>Petite cosmogonie portative</title>, avec nombreuses explications.</p>
-      <p><persName><abbr>HM</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#turing">Turing</persName> (inventeur des <term ref="difdepo:terms.xml#machinesdeturing">machines de <persName ref="difdepo:persons.xml#turing">Turing</persName></term> ) quelques anecdotes sur sa vie.</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> une lettre de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> sur la <title ref="difdepo:titles.xml#petitecosmogonieportative">Petite cosmogonie portative</title>, avec nombreuses explications.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
       <list type="unordered">
-        <item>Signature de <title>Cigarettes</title> – Vitrine Oulipo à la librairie des <orgName>Quatre Saisons</orgName></item>
-        <item>Article d’<persName>Adelaide Russo</persName> : <title>Oulipo’s mechanical Measures</title></item>
+        <item>Signature de <title ref="difdepo:titles.xml#cigarettes">Cigarettes</title> – Vitrine Oulipo à la librairie des <orgName ref="difdepo:organizations.xml#quatresaisons">Quatre Saisons</orgName></item>
+        <item>Article d’<persName ref="difdepo:persons.xml#adelaiderusso">Adelaide Russo</persName> : <title ref="difdepo:titles.xml#ouliposmechanicalmeasures">Oulipo’s mechanical Measures</title></item>
       </list>
-      <p><title>20e siècle la problématique du discours</title>. <orgName>Michigan Romance Studies</orgName></p>
-      <p><persName><abbr>JR</abbr></persName></p>
+      <p><title ref="difdepo:titles.xml#n20esieclelaproblematiquedudiscours">20e siècle la problématique du discours</title>. <orgName ref="difdepo:organizations.xml#michiganromancestudies">Michigan Romance Studies</orgName></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
       <list type="unordered">
-        <item><persName>Bourbaki</persName> : 2 émissions sur <orgName>France Culture</orgName> : rapports de <persName>Bourbaki</persName> et de l’Oulipo chez <persName><abbr>JR</abbr></persName>.</item>
-        <item>Réponse à <unclear>*</unclear> <persName>Robert Richards</persName> : lecture de la lettre proposée par <persName><abbr>JR</abbr></persName>.</item>
+        <item><persName ref="difdepo:persons.xml#bourbaki">Bourbaki</persName> : 2 émissions sur <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName> : rapports de <persName ref="difdepo:persons.xml#bourbaki">Bourbaki</persName> et de l’Oulipo chez <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>.</item>
+        <item>Réponse à <unclear>*</unclear> <persName ref="difdepo:persons.xml#robertrichards">Robert Richards</persName> : lecture de la lettre proposée par <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>.</item>
       </list>
       <p>Approbation générale, après quelques suggestions</p>
-      <p><persName><abbr>PF</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
       <list type="unordered">
-        <item><persName>Peter Mayer</persName></item>
-        <item>Le point sur la situation éditoriale (<orgName>Ramsay</orgName> et l’avenir de <persName><abbr>PF</abbr></persName>)</item>
+        <item><persName ref="difdepo:persons.xml#petermayer">Peter Mayer</persName></item>
+        <item>Le point sur la situation éditoriale (<orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName> et l’avenir de <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>)</item>
       </list>
       <p>Requis pour autres agapes, le secrétaire de séance quitte la réunion à 21 heures 45</p>
     </body>

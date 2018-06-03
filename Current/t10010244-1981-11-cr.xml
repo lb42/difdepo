@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010244-1981-11-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010244-1981-11-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,11 +20,11 @@
           <date when="1981-11-13">13 novembre 1981</date>
           <placeName>chez CB</placeName>
           <list type="present">
-            <item><persName>Claude Berge</persName></item>
-            <item><persName>Georges Perec</persName></item>
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName role="secrétaire">Paul Braffort</persName></item>
-            <item><persName role="président">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort" role="secrétaire">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews" role="président">Harry Mathews</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010252-1982-08-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010252-1982-08-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010252-1982-08-cv</idno> <title>Convocation à <ref target="#t10010252-1982-08">une réunion Oulipo</ref>, envoyée le <date when="1982-08-04">4 août 1982</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010252-1982-08-cv</idno> <title>Convocation à <ref target="#t10010252-1982-08">une réunion Oulipo</ref>, envoyée le <date when="1982-08-04">4 août 1982</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -38,11 +37,11 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 4 Août 82</p>
       <p>Oulipiens,</p>
-      <p>L'ouvroir se réunira le 20 Août (un venderdi)à 11h 30 chez <persName>Martine</persName> et <persName>Paul Fournel</persName>, 48 rue de l'abbé Groult (75015) tel 531 77 65.</p>
-      <p>Des bruits ont couru selon lesquels <persName>Jean Lescure</persName> en personne participerait à cette réunion...</p>
+      <p>L'ouvroir se réunira le 20 Août (un venderdi)à 11h 30 chez <persName ref="difdepo:persons.xml#martine">Martine</persName> et <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, 48 rue de l'abbé Groult (75015) tel 531 77 65.</p>
+      <p>Des bruits ont couru selon lesquels <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> en personne participerait à cette réunion...</p>
       <p>Soyez gentils de retourner la découpe et de fournir vos créations</p>
       <p>Oulipiennement,</p>
-      <p><persName>Paul Fournel</persName> <lb/>un secrétaire.</p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> <lb/>un secrétaire.</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010093-1968-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010093-1968-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010093-1968-10-cv</idno> <title>Convocation à <ref target="#t10010093-1968-10">une réunion Oulipo</ref>, envoyée le <date when="1968-10-29">29 octobre 1968</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010093-1968-10-cv</idno> <title>Convocation à <ref target="#t10010093-1968-10">une réunion Oulipo</ref>, envoyée le <date when="1968-10-29">29 octobre 1968</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -38,9 +37,9 @@
       <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
       <p rend="incipit">Le 29 Octobre 1968</p>
       <p>Chers Brigadiers,</p>
-      <p>L’esprit de notre éminent collègue, <persName>Noël ARNAUD</persName>, est aigu et prompt à détecter l’erreur. Il n’a pas manqué d’apercevoir une contradiction entre ma lettre du 18 Octobre et nos conventions orales. C’étaient ces dernières qui étaient valables.</p>
-      <p>Voulez-vous noter que, si la <name type="manif">prochaine réunion</name> de l’OuLiPo a bien lieu sans changement le Vendredi 8 Novembre, la suivante aura lieu non le Vendredi 22 mais le Vendredi 29 Novembre.</p>
-      <p>A cette dernière réunion, je propose de mettre à l’ordre du jour le nom d’un éventuel invité d’honneur, <persName>René THOM</persName>, dont pourront vous parler le Satrape <persName>QUENEAU</persName> et <persName>Claude BERGE</persName>.</p>
+      <p>L’esprit de notre éminent collègue, <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName>, est aigu et prompt à détecter l’erreur. Il n’a pas manqué d’apercevoir une contradiction entre ma lettre du 18 Octobre et nos conventions orales. C’étaient ces dernières qui étaient valables.</p>
+      <p>Voulez-vous noter que, si la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OuLiPo a bien lieu sans changement le Vendredi 8 Novembre, la suivante aura lieu non le Vendredi 22 mais le Vendredi 29 Novembre.</p>
+      <p>A cette dernière réunion, je propose de mettre à l’ordre du jour le nom d’un éventuel invité d’honneur, <persName ref="difdepo:persons.xml#renethom">René THOM</persName>, dont pourront vous parler le Satrape <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> et <persName ref="difdepo:persons.xml#claudeberge">Claude BERGE</persName>.</p>
       <p>Bon courage et OuLiPiennement votre.</p>
     </body>
   </text>

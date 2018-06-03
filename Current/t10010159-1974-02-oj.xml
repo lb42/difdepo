@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010159-1974-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010159-1974-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,17 +36,17 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010159f/f5.highres" n="5"/>
       <p rend="incipit">OULIPO du 8/2/74</p>
-      <p><name type="manif">Prochaine réunion</name> = pour le 8 Mars</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> = pour le 8 Mars</p>
       <list type="unordered">
-        <item>Préface l’<persName>Etiemble</persName> à <title>Gil Blas</title> (<orgName>Folio</orgName>)</item>
-        <item><persName>Soulié</persName> <title>Confessions du Diable</title></item>
-        <item><persName>Sainte-Beuve</persName> =</item>
+        <item>Préface l’<persName ref="difdepo:persons.xml#etiemble">Etiemble</persName> à <title ref="difdepo:titles.xml#gilblas">Gil Blas</title> (<orgName ref="difdepo:organizations.xml#folio">Folio</orgName>)</item>
+        <item><persName ref="difdepo:persons.xml#soulie">Soulié</persName> <title ref="difdepo:titles.xml#confessionsdudiable">Confessions du Diable</title></item>
+        <item><persName ref="difdepo:persons.xml#saintebeuve">Sainte-Beuve</persName> =</item>
       </list>
       <p>19/4/74</p>
       <list type="unordered">
         <item>Cuisine</item>
         <item>Une recette alphabétique</item>
-        <item>Publication de <persName>Perec</persName> par <persName>Bens</persName></item>
+        <item>Publication de <persName ref="difdepo:persons.xml#perec">Perec</persName> par <persName ref="difdepo:persons.xml#bens">Bens</persName></item>
       </list>
     </body>
   </text>

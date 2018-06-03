@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010140-1972-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010140-1972-06-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,12 +36,12 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101400/f10.highres" n="10"/>
       <p rend="incipit">Oulipo du 20/6/72</p>
-      <p rend="incipit">Oulipo de chagrin : <persName>C. Berge</persName>, <persName>L. Etienne</persName>, <persName><abbr>M.B.</abbr></persName> <persName><abbr>FLL</abbr></persName></p>
-      <p rend="incipit">Absence de <persName>Queneau</persName></p>
-      <p><title>Cape</title> : lié à l’absence de <persName>Queneau</persName></p>
-      <p>Suggestion de <persName>Queneau</persName> (par lettre) : étudier les <term>combinatorialistes</term> du XVIIème</p>
-      <p>Proposition : partir du plan de <persName><abbr>FLL</abbr></persName> : <term>relations</term></p>
-      <p>Découvrir des <term>relations ternaires</term> (<term>quaternaires</term>, etc) nouvelles.</p>
+      <p rend="incipit">Oulipo de chagrin : <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#le">L. Etienne</persName>, <persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p rend="incipit">Absence de <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><title ref="difdepo:titles.xml#cape">Cape</title> : lié à l’absence de <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p>Suggestion de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> (par lettre) : étudier les <term ref="difdepo:terms.xml#combinatorialistes">combinatorialistes</term> du XVIIème</p>
+      <p>Proposition : partir du plan de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <term ref="difdepo:terms.xml#relations">relations</term></p>
+      <p>Découvrir des <term ref="difdepo:terms.xml#relationsternaires">relations ternaires</term> (<term ref="difdepo:terms.xml#quaternaires">quaternaires</term>, etc) nouvelles.</p>
     </body>
   </text>
 </TEI>

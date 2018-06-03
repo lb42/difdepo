@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010241-1981-07-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010241-1981-07-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,11 +20,11 @@
           <date when="1981-07-24">24 juillet 1981</date>
           <placeName>chez PF</placeName>
           <list type="present">
-            <item><persName>Georges Perec</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Jacques Roubaud</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName role="président">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -49,58 +48,58 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010241t/f10.highres" n="10"/>
-      <p rend="incipit">Réunion du 24 juillet 81 chez <persName><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Présents : <persName><abbr>GP</abbr></persName> <persName><abbr>PF</abbr></persName> <persName><abbr>JR</abbr></persName> <persName><abbr>JB</abbr></persName> <persName><abbr>PB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>FLL</abbr></persName> <persName><abbr>MM</abbr></persName> <persName><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Réunion du 24 juillet 81 chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
       <p rend="incipit">Absents</p>
       <p rend="incipit">Président</p>
-      <p>Distribution de Oulipo 15 (Io et le Loup) : 2 exemplaires pour <persName><abbr>GP</abbr></persName> <persName><abbr>JR</abbr></persName> <persName><abbr>JB</abbr></persName> <persName><abbr>LE</abbr></persName></p>
+      <p>Distribution de Oulipo 15 (Io et le Loup) : 2 exemplaires pour <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></p>
       <p>Parution du volume Oulipo Slatkine :</p>
-      <p><persName>J Roubaud</persName> fera la préface et on mettra les manifestes de la Bibliothèque oulipienne.</p>
+      <p><persName ref="difdepo:persons.xml#jroubaud">J Roubaud</persName> fera la préface et on mettra les manifestes de la Bibliothèque oulipienne.</p>
       <p>Oulipo</p>
       <p>La Bibliothèque oulipienne</p>
-      <p>Avec les manifestes de <persName><abbr>FLL</abbr></persName></p>
-      <p>Présentation de <persName>J Roubaud</persName></p>
-      <p>RAYMOND <persName>QUENEAU</persName> <persName>M BENABOU</persName> <persName>J BENS</persName>…</p>
+      <p>Avec les manifestes de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p>Présentation de <persName ref="difdepo:persons.xml#jroubaud">J Roubaud</persName></p>
+      <p>RAYMOND <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> <persName ref="difdepo:persons.xml#mbenabou">M BENABOU</persName> <persName ref="difdepo:persons.xml#jbens">J BENS</persName>…</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010241t/f11.highres" n="11"/>
       <p><label type="rubrique">Compte-rendu</label></p>
       <p>L’ordre du jour étant fait le président propose de réserver le plus important pour l’arrivée des retardataires</p>
-      <p><persName>Luc Etienne</persName> Menu propos : a) <title>L’Histoire de la langue française</title> de <persName>Ferdinand Brunot</persName> en 17 volumes. Il était ébéniste et fabriquait sa salle à manger avec lyrisme.</p>
-      <p>b) <persName>Yves Lamy</persName> <orgName>Ecole normale supérieure de Rabat</orgName>. Cite un élève : <persName>Balèze Pascal</persName></p>
-      <p>Le système des examens a autant d’inconvénients que d’avantages mais parfois c’est le contraire. Auteur de mots croisés 7 sur 7 sans noir. <term>Mots croisés palindromiques</term>.</p>
-      <p><persName><abbr>JB</abbr></persName> propose de nommer homo palindromes anna et hétéro écart, ou trace, ou le contraste. (Ils sont appelés <term>anacycliques</term> <persName><abbr>LE</abbr></persName> pense que c’étaient les <term>palindromes de mots</term> donc <term>phrases anacycliques</term>).</p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> Menu propos : a) <title ref="difdepo:titles.xml#lhistoiredelalanguefrancaise">L’Histoire de la langue française</title> de <persName ref="difdepo:persons.xml#ferdinandbrunot">Ferdinand Brunot</persName> en 17 volumes. Il était ébéniste et fabriquait sa salle à manger avec lyrisme.</p>
+      <p>b) <persName ref="difdepo:persons.xml#yveslamy">Yves Lamy</persName> <orgName ref="difdepo:organizations.xml#ecolenormalesuperieurederabat">Ecole normale supérieure de Rabat</orgName>. Cite un élève : <persName ref="difdepo:persons.xml#balezepascal">Balèze Pascal</persName></p>
+      <p>Le système des examens a autant d’inconvénients que d’avantages mais parfois c’est le contraire. Auteur de mots croisés 7 sur 7 sans noir. <term ref="difdepo:terms.xml#motscroisespalindromiques">Mots croisés palindromiques</term>.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> propose de nommer homo palindromes anna et hétéro écart, ou trace, ou le contraste. (Ils sont appelés <term ref="difdepo:terms.xml#anacycliques">anacycliques</term> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> pense que c’étaient les <term ref="difdepo:terms.xml#palindromesdemots">palindromes de mots</term> donc <term ref="difdepo:terms.xml#phrasesanacycliques">phrases anacycliques</term>).</p>
       <p>Action</p>
-      <p><persName>Perec</persName> : film. <persName>Christine Lipinska</persName> sur l’oulipo 52’ dans un <name type="manif">stage à Villeneuve</name> CIRCA, <orgName>INA</orgName>… faire un film oulipien. Point de départ de l’OULIPO Mettre des extraits de films de preman (arithmétique,…).</p>
-      <p>– <persName><abbr>GP</abbr></persName> annonce une adaptation cinématographique de <title>La Disparition</title>.</p>
-      <p>– Le film muet dit <persName><abbr>PF</abbr></persName> est un <term>lipogramme</term>, <term>plagiat par anticipation</term>.</p>
-      <p>– <persName><abbr>PF</abbr></persName> montre un biberon de poupée appartenant à <persName>Charlotte</persName>. Le président semble fasciné</p>
-      <p>b) <name type="manif">Cerisy</name>. <persName><abbr>JB</abbr></persName> lit une lettre sur le <name type="manif">colloque</name> OULIPO d’<persName>Edith Heurgon</persName> sur le problème de la présidence du <name type="manif">colloque</name> (<persName><abbr>FLL</abbr></persName>). Les présents semblent ne pas avoir d’objections majeures aux propositions faites.</p>
-      <p>– <persName><abbr>PF</abbr></persName> téléphone au président <persName><abbr>FLL</abbr></persName> : le volume 2 est prévu à l’office de septembre chez <orgName>Gallimard</orgName>. La <title>Bibliothèque oulipienne</title> chez <orgName>Slatkine</orgName> en novembre présentation <persName><abbr>JR</abbr></persName> préface : les deux manifestes de <persName><abbr>FLL</abbr></persName></p>
-      <p>c) <persName><abbr>PF</abbr></persName> photo. <persName>Martine</persName> a fait des photos lors de la dernière séance. Elles sont achetables et consultables.</p>
-      <p><persName><abbr>GP</abbr></persName> propose de taxer les communications de l’Oulipo</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : film. <persName ref="difdepo:persons.xml#christinelipinska">Christine Lipinska</persName> sur l’oulipo 52’ dans un <name ref="difdepo:events.xml#stageavilleneuve" type="manif">stage à Villeneuve</name> CIRCA, <orgName ref="difdepo:organizations.xml#ina">INA</orgName>… faire un film oulipien. Point de départ de l’OULIPO Mettre des extraits de films de preman (arithmétique,…).</p>
+      <p>– <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> annonce une adaptation cinématographique de <title ref="difdepo:titles.xml#ladisparition">La Disparition</title>.</p>
+      <p>– Le film muet dit <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> est un <term ref="difdepo:terms.xml#lipogramme">lipogramme</term>, <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term>.</p>
+      <p>– <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> montre un biberon de poupée appartenant à <persName ref="difdepo:persons.xml#charlotte">Charlotte</persName>. Le président semble fasciné</p>
+      <p>b) <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>. <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> lit une lettre sur le <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> OULIPO d’<persName ref="difdepo:persons.xml#edithheurgon">Edith Heurgon</persName> sur le problème de la présidence du <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>). Les présents semblent ne pas avoir d’objections majeures aux propositions faites.</p>
+      <p>– <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> téléphone au président <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : le volume 2 est prévu à l’office de septembre chez <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>. La <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> chez <orgName ref="difdepo:organizations.xml#slatkine">Slatkine</orgName> en novembre présentation <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> préface : les deux manifestes de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p>c) <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> photo. <persName ref="difdepo:persons.xml#martine">Martine</persName> a fait des photos lors de la dernière séance. Elles sont achetables et consultables.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> propose de taxer les communications de l’Oulipo</p>
       <p>Création</p>
-      <p><persName>Luc Etienne</persName> Vous allez dire que c’est pas Oulipien. Pour moi tout procédé est oulipien. Il lit un texte : « Elle se voyait déjà réduite à l’impotence ou même vouée à la potence ». La littérature potentielle n’est faite pour les impotents</p>
-      <p><persName><abbr>GP</abbr></persName> rappelle un procédé voisin : ces jetés doivent être conservés. <persName><abbr>PB</abbr></persName> (claire sombre). <persName><abbr>LE</abbr></persName> utilise des contraires « grammaticaux »</p>
-      <p><persName><abbr>LE</abbr></persName> lit un poème selon cette <term>contrainte</term> où tous sont soulagés de retrouver l’obscénité absente de sa précédente communication.</p>
-      <p>Une discussion s’installe sur les <term>clinamens</term> (principe de <persName>Queval</persName>, <title>Revenantes</title>,…)</p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> Vous allez dire que c’est pas Oulipien. Pour moi tout procédé est oulipien. Il lit un texte : « Elle se voyait déjà réduite à l’impotence ou même vouée à la potence ». La littérature potentielle n’est faite pour les impotents</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> rappelle un procédé voisin : ces jetés doivent être conservés. <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> (claire sombre). <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> utilise des contraires « grammaticaux »</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> lit un poème selon cette <term ref="difdepo:terms.xml#contrainte">contrainte</term> où tous sont soulagés de retrouver l’obscénité absente de sa précédente communication.</p>
+      <p>Une discussion s’installe sur les <term ref="difdepo:terms.xml#clinamens">clinamens</term> (principe de <persName ref="difdepo:persons.xml#queval">Queval</persName>, <title ref="difdepo:titles.xml#revenantes">Revenantes</title>,…)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010241t/f12.highres" n="12"/>
       <p><label type="rubrique">5 Action</label></p>
-      <p><persName><abbr>PF</abbr></persName> Bibliothèque oulipienne <orgName>Slatkine</orgName>. Problème de la couleur de couverture : rouge et rouge ?</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Bibliothèque oulipienne <orgName ref="difdepo:organizations.xml#slatkine">Slatkine</orgName>. Problème de la couleur de couverture : rouge et rouge ?</p>
       <p>La Cantatrice sauve y sera. Parution novembre. Tirage initial 1000</p>
-      <p>6 <persName><abbr>PF</abbr></persName> Menu propos sur le récital de <persName><abbr>PB</abbr></persName>. Malheureusement pas d’oulipiens.</p>
-      <p>7 <name type="manif">Villeneuve</name></p>
-      <p><persName><abbr>PB</abbr></persName> : 5ème <name type="manif">stage</name>. Vrai stage bien rôdé. Surtout des enseignants très motivés.</p>
-      <p><persName><abbr>JR</abbr></persName> a fait un <ref>compte-rendu versé aux archives</ref>. On a évité la révolte du 3ème jour. L’ordinateur a marché. On revient à Pâques et en Juillet 1982.</p>
-      <p><persName><abbr>JR</abbr></persName> observe qu’il faut amener nous-mêmes des livres à vendre.</p>
-      <p><persName><abbr>GP</abbr></persName> dit qu’il faut que le prochain <name type="manif">stage</name> soit un atelier : Jour 1 et 2 présentation des <term>contrainte</term>s. Ensuite travailler par groupes sur une famille de <term>contraintes</term> afin d’obtenir de bons textes. Il faudrait un matériel pour publier les résultats.</p>
-      <p><persName><abbr>PB</abbr></persName> va écrire à <persName>Jouanard</persName>.</p>
-      <p>8 <persName><abbr>JD</abbr></persName> Menu propos : « J’ai rencontré un soviétique qui avait entendu parler de l’Oulipo ».</p>
-      <p>9 <persName><abbr>PB</abbr></persName> Sonnets de <persName>Braffort</persName>-<persName>Heredia</persName></p>
-      <p>Un sonnet de sonnets dans son autobiographie que n’ai-je (valise de <persName>Queneau</persName> et Que sais-je )</p>
-      <p><persName><abbr>JR</abbr></persName> a montré qu’on peut se contenter de 6 rimes distinctes et 26 au maximum.</p>
-      <p><persName><abbr>PB</abbr></persName> a fait un <term>triolet de triolets</term>. D’où l’algèbre <term>contrainte</term> poétique. On peut associer le <term>polynsome de <persName>Peichel</persName></term>.</p>
-      <p>10 <name type="manif">Villeneuve</name> Créations</p>
-      <p><persName><abbr>JR</abbr></persName> présente son compte-rendu des créations suggérées à <name type="manif">Villeneuve</name>.</p>
+      <p>6 <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Menu propos sur le récital de <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. Malheureusement pas d’oulipiens.</p>
+      <p>7 <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : 5ème <name ref="difdepo:events.xml#stage" type="manif">stage</name>. Vrai stage bien rôdé. Surtout des enseignants très motivés.</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> a fait un <ref>compte-rendu versé aux archives</ref>. On a évité la révolte du 3ème jour. L’ordinateur a marché. On revient à Pâques et en Juillet 1982.</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> observe qu’il faut amener nous-mêmes des livres à vendre.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> dit qu’il faut que le prochain <name ref="difdepo:events.xml#stage" type="manif">stage</name> soit un atelier : Jour 1 et 2 présentation des <term ref="difdepo:terms.xml#contrainte">contrainte</term>s. Ensuite travailler par groupes sur une famille de <term ref="difdepo:terms.xml#contraintes">contraintes</term> afin d’obtenir de bons textes. Il faudrait un matériel pour publier les résultats.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> va écrire à <persName ref="difdepo:persons.xml#jouanard">Jouanard</persName>.</p>
+      <p>8 <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> Menu propos : « J’ai rencontré un soviétique qui avait entendu parler de l’Oulipo ».</p>
+      <p>9 <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> Sonnets de <persName ref="difdepo:persons.xml#braffort">Braffort</persName>-<persName ref="difdepo:persons.xml#heredia">Heredia</persName></p>
+      <p>Un sonnet de sonnets dans son autobiographie que n’ai-je (valise de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et Que sais-je )</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> a montré qu’on peut se contenter de 6 rimes distinctes et 26 au maximum.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> a fait un <term ref="difdepo:terms.xml#trioletdetriolets">triolet de triolets</term>. D’où l’algèbre <term ref="difdepo:terms.xml#contrainte">contrainte</term> poétique. On peut associer le <term ref="difdepo:terms.xml#polynsomedepeichel">polynsome de <persName ref="difdepo:persons.xml#peichel">Peichel</persName></term>.</p>
+      <p>10 <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name> Créations</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> présente son compte-rendu des créations suggérées à <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name>.</p>
     </body>
   </text>
 </TEI>

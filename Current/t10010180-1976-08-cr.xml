@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010180-1976-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,9 +20,9 @@
         <bibl><idno>t10010180-1976-08-cr</idno> <meeting xml:id="t10010180-1976-08">
           <date when="1976-08-03">3 août 1976</date>
           <list type="present">
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Georges Perec</persName></item>
-            <item><persName>Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -46,34 +45,34 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f23.highres" n="23"/>
       <p rend="incipit">OuLiPo le 3 8 76</p>
-      <p><persName><abbr>FLL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
       <list type="unordered">
-        <item><name type="manif">Bruxelles</name> – La Maensch et La hésine</item>
+        <item><name ref="difdepo:events.xml#bruxelles" type="manif">Bruxelles</name> – La Maensch et La hésine</item>
         <item>Proposition de programme apparemment clownesque</item>
       </list>
-      <p><persName><abbr>GP</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
       <list type="unordered">
-        <item><persName>Roubaud</persName> : <unclear>phrases</unclear> du Mississipi</item>
-        <item>Lyon : <orgName>Fédérop</orgName></item>
+        <item><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : <unclear>phrases</unclear> du Mississipi</item>
+        <item>Lyon : <orgName ref="difdepo:organizations.xml#federop">Fédérop</orgName></item>
       </list>
-      <p><persName>Montserrat Caballé</persName></p>
-      <p><persName><abbr>PB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#montserratcaballe">Montserrat Caballé</persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
       <list type="unordered">
         <item>TV – générer programme à partir de</item>
       </list>
-      <p>«<title> Pastille d’Ariès </title>» (<title>L’antitête</title>) de <persName>Tzara</persName>.</p>
+      <p>«<title ref="difdepo:titles.xml#pastilledaries"> Pastille d’Ariès </title>» (<title ref="difdepo:titles.xml#lantitete">L’antitête</title>) de <persName ref="difdepo:persons.xml#tzara">Tzara</persName>.</p>
       <p>paramètres écrits. &gt; paramètres visuels TV</p>
       <p>typographie</p>
-      <p><term>syntagmes</term></p>
+      <p><term ref="difdepo:terms.xml#syntagmes">syntagmes</term></p>
       <p>arguments décrits</p>
       <p>avec</p>
       <p>Les idées</p>
       <p>engendrées par les</p>
       <p>mots : mots associés qui sont associés</p>
-      <p>avec d’autres mots dans le même <term>syntagme</term></p>
-      <p><persName><abbr>GP</abbr></persName> - <orgName>OuCinePo</orgName></p>
+      <p>avec d’autres mots dans le même <term ref="difdepo:terms.xml#syntagme">syntagme</term></p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> - <orgName ref="difdepo:organizations.xml#oucinepo">OuCinePo</orgName></p>
       <list type="unordered">
-        <item><persName>Charles Nodier</persName> <title>Dictionnaire des onomatopées</title></item>
+        <item><persName ref="difdepo:persons.xml#charlesnodier">Charles Nodier</persName> <title ref="difdepo:titles.xml#dictionnairedesonomatopees">Dictionnaire des onomatopées</title></item>
       </list>
     </body>
   </text>

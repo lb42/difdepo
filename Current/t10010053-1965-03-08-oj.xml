@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010053-1965-03-08-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010053-1965-03-08-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +41,7 @@
       <p rend="incipit">Projet d’ordre du jour</p>
       <p><label type="rubrique">CREATION</label></p>
       <list type="ordered">
-        <item><gap/> // <persName>Braffort</persName> ; <gap/> selon pays</item>
+        <item><gap/> // <persName ref="difdepo:persons.xml#braffort">Braffort</persName> ; <gap/> selon pays</item>
         <item><gap/> n°4</item>
         <item/>
         <item/>
@@ -50,17 +49,17 @@
       </list>
       <p><label type="rubrique">QUESTIONS ADMINISTRATIVES</label></p>
       <list type="ordered">
-        <item><gap/> <unclear>SIA</unclear> <gap/> = imitation faite par personne <persName><abbr>FLL</abbr></persName></item>
-        <item><persName>Braffort</persName></item>
-        <item><persName>Bens</persName>_le Midi <gap/> ]</item>
+        <item><gap/> <unclear>SIA</unclear> <gap/> = imitation faite par personne <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName></item>
+        <item><persName ref="difdepo:persons.xml#bens">Bens</persName>_le Midi <gap/> ]</item>
         <item/>
-        <item>Invité d’honneur = <persName>R. Faure</persName></item>
+        <item>Invité d’honneur = <persName ref="difdepo:persons.xml#rfaure">R. Faure</persName></item>
         <item>Prochaine date.</item>
       </list>
       <p><label type="rubrique">RELATIONS EXTERIEURES</label></p>
       <list type="ordered">
-        <item>Conversation avec le <persName>Professeur Puech</persName> sur les <term>religions potentielles</term></item>
-        <item>Exercises d’un jeune Oulipien (<persName>David Sullerot</persName>)</item>
+        <item>Conversation avec le <persName ref="difdepo:persons.xml#professeurpuech">Professeur Puech</persName> sur les <term ref="difdepo:terms.xml#religionspotentielles">religions potentielles</term></item>
+        <item>Exercises d’un jeune Oulipien (<persName ref="difdepo:persons.xml#davidsullerot">David Sullerot</persName>)</item>
       </list>
     </body>
   </text>

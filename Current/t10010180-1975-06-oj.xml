@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010180-1975-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1975-06-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,40 +39,40 @@
       <p rend="incipit">Réunion du 20 6 75</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName> <unclear>Katz</unclear> illustré</item>
-        <item><persName>Calvino</persName> aide à la création</item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <unclear>Katz</unclear> illustré</item>
+        <item><persName ref="difdepo:persons.xml#calvino">Calvino</persName> aide à la création</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName><abbr>GP</abbr></persName> <persName>Victor Hugo</persName></item>
-        <item><persName><abbr>HM</abbr></persName> <persName>Blavier</persName> <term>antinomie</term></item>
+        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#victorhugo">Victor Hugo</persName></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#blavier">Blavier</persName> <term ref="difdepo:terms.xml#antinomie">antinomie</term></item>
         <item>Index</item>
-        <item><persName><abbr>RQ</abbr></persName> solution généralisée, solution définitive</item>
+        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> solution généralisée, solution définitive</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>GP</abbr></persName> <title>Bibliothèque oulipienne</title> contentieux <title>Bibliothèque oulipienne</title></item>
-        <item><persName>Calvino</persName> traduction italienne</item>
-        <item><persName><abbr>RQ</abbr></persName> <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> contentieux <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+        <item><persName ref="difdepo:persons.xml#calvino">Calvino</persName> traduction italienne</item>
+        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> <list type="unordered">
           <item>diffusion du livre</item>
-          <item><persName>Updike</persName></item>
-          <item><title>Bibliothèque oulipienne</title> <persName>Queval</persName></item>
+          <item><persName ref="difdepo:persons.xml#updike">Updike</persName></item>
+          <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="difdepo:persons.xml#queval">Queval</persName></item>
           <item><unclear>*( ?)</unclear></item>
           <item><unclear>*</unclear></item>
           </list> </item>
-        <item><persName><abbr>FLL</abbr></persName> <name type="manif">Europalia</name></item>
-        <item><persName><abbr>MB</abbr></persName> fric</item>
-        <item><name type="manif">Prochaine réunion</name></item>
-        <item><persName><abbr>PF</abbr></persName> – publications</item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> fric</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> – publications</item>
       </list>
       <p><label type="rubrique">Menus propos :</label></p>
       <list type="unordered">
-        <item><persName><abbr>GP</abbr></persName> <term>x pour y</term> pour <persName>Queneau</persName></item>
-        <item><persName><abbr>LE</abbr></persName> édition</item>
-        <item><persName>Braffort</persName></item>
+        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <term ref="difdepo:terms.xml#xpoury">x pour y</term> pour <persName ref="difdepo:persons.xml#queneau">Queneau</persName></item>
+        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> édition</item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName></item>
       </list>
       <list type="unordered">
-        <item><persName><abbr>FLL</abbr></persName> <term>crime parfait</term></item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <term ref="difdepo:terms.xml#crimeparfait">crime parfait</term></item>
       </list>
     </body>
   </text>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010213-1979-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010213-1979-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,12 +20,12 @@
           <date when="1979-02-15">15 février 1979</date>
           <placeName>chez PF</placeName>
           <list type="present">
-            <item><persName>Luc Etienne</persName></item>
-            <item><persName>Harry Mathews</persName></item>
-            <item><persName>Paul Braffort</persName></item>
-            <item><persName>Noël Arnaud</persName></item>
-            <item><persName>Valérie Beaudouin</persName></item>
-            <item><persName role="président">Italo Calvino</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#vb">Valérie Beaudouin</persName></item>
+            <item><persName ref="difdepo:persons.xml#italocalvino" role="président">Italo Calvino</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -50,57 +49,57 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f1.highres" n="1"/>
-      <p rend="incipit">Oulipo : réunion du 15 février 1979 chez <persName><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Présents : <persName><abbr>LE</abbr></persName> (11 30), <persName><abbr>HM</abbr></persName> (11 05), <persName><abbr>IC</abbr></persName> (11 40), <persName><abbr>PB</abbr></persName> (11 30), <persName><abbr>NA</abbr></persName> (12 00), <persName><abbr>PF</abbr></persName> (11 00), <persName><abbr>VB</abbr></persName> (13 20) Président : <persName>Italo CALVINO</persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>F.LL</abbr></persName>, <persName><abbr>MB</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>GP</abbr></persName>, <persName><abbr>JD</abbr></persName>, JQ</p>
-      <p rend="incipit">Inexcusable : <persName>J Lescure</persName>,</p>
+      <p rend="incipit">Oulipo : réunion du 15 février 1979 chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> (11 30), <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> (11 05), <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> (11 40), <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> (11 30), <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> (12 00), <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> (11 00), <persName ref="difdepo:persons.xml#vb"><abbr>VB</abbr></persName> (13 20) Président : <persName ref="difdepo:persons.xml#italocalvino">Italo CALVINO</persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, JQ</p>
+      <p rend="incipit">Inexcusable : <persName ref="difdepo:persons.xml#jlescure">J Lescure</persName>,</p>
       <p><label type="rubrique">1. Création</label></p>
       <p>a) HM</p>
-      <p>couronne de <term>sonnet</term> (<term>plagiat par anticipation</term>)</p>
-      <p>15 <term>sonnets</term> (14 <term>sonnets</term> + V<hi rend="sub">i, 15</hi> = V<hi rend="sub">i, i</hi>)</p>
-      <p>(<term>sonnet diagonal</term>)</p>
-      <p>b) <persName><abbr>HM</abbr></persName> 2 motifs : battre les records</p>
-      <p>combiner des <term>structures</term></p>
-      <p>technique de la <term>rime brisée</term>.</p>
-      <p>Rappel du <term>formalisme</term> : ± A ± T</p>
+      <p>couronne de <term ref="difdepo:terms.xml#sonnet">sonnet</term> (<term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term>)</p>
+      <p>15 <term ref="difdepo:terms.xml#sonnets">sonnets</term> (14 <term ref="difdepo:terms.xml#sonnets">sonnets</term> + V<hi rend="sub">i, 15</hi> = V<hi rend="sub">i, i</hi>)</p>
+      <p>(<term ref="difdepo:terms.xml#sonnetdiagonal">sonnet diagonal</term>)</p>
+      <p>b) <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> 2 motifs : battre les records</p>
+      <p>combiner des <term ref="difdepo:terms.xml#structures">structures</term></p>
+      <p>technique de la <term ref="difdepo:terms.xml#rimebrisee">rime brisée</term>.</p>
+      <p>Rappel du <term ref="difdepo:terms.xml#formalisme">formalisme</term> : ± A ± T</p>
       <p>(D<hi rend="sup">1</hi> F<hi rend="sup">1</hi></p>
-      <p>D<hi rend="sup">2</hi> F<hi rend="sup">2</hi> <name type="manif">lecture quenienne</name></p>
-      <p>⋮7 paires de <term>vers</term></p>
+      <p>D<hi rend="sup">2</hi> F<hi rend="sup">2</hi> <name ref="difdepo:events.xml#lecturequenienne" type="manif">lecture quenienne</name></p>
+      <p>⋮7 paires de <term ref="difdepo:terms.xml#vers">vers</term></p>
       <p>(D<hi rend="sup">14</hi> F<hi rend="sup">14</hi></p>
-      <p>Limitation <term>sémantique</term> : les <term>antonymies</term> :</p>
-      <p>possibilité d’élargir à une forme plus générale de <term>binarité</term>.</p>
-      <p>c) <persName><abbr>LE</abbr></persName> 14 <term>rimes</term> imposées : deux <term>sonnets</term></p>
-      <p>🡪 2<hi rend="sup">14</hi> <term>poèmes</term>.</p>
+      <p>Limitation <term ref="difdepo:terms.xml#semantique">sémantique</term> : les <term ref="difdepo:terms.xml#antonymies">antonymies</term> :</p>
+      <p>possibilité d’élargir à une forme plus générale de <term ref="difdepo:terms.xml#binarite">binarité</term>.</p>
+      <p>c) <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> 14 <term ref="difdepo:terms.xml#rimes">rimes</term> imposées : deux <term ref="difdepo:terms.xml#sonnets">sonnets</term></p>
+      <p>🡪 2<hi rend="sup">14</hi> <term ref="difdepo:terms.xml#poemes">poèmes</term>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f2.highres" n="2"/>
       <p><label type="rubrique">2. Bibliothèque oulipienne.</label></p>
       <p>Distribution de l’Hôtel de Sens.</p>
       <p><label type="rubrique">3. Erudition</label></p>
-      <p><persName><abbr>L.E.</abbr></persName> : allusion au <term>cymbalum pataphysicien</term>. <term>Plagiat</term> de <title>10<hi rend="sup">14</hi></title> dans « <title>j’aime lire</title> ». Le secrétariat est chargé de protester. (<persName><abbr>L.E</abbr></persName> doit donner la référence).</p>
-      <p><persName><abbr>IC</abbr></persName> Revue « <title>Lendemains</title> »</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>L.E.</abbr></persName> : allusion au <term ref="difdepo:terms.xml#cymbalumpataphysicien">cymbalum pataphysicien</term>. <term ref="difdepo:terms.xml#plagiat">Plagiat</term> de <title ref="difdepo:titles.xml#n1014">10<hi rend="sup">14</hi></title> dans « <title ref="difdepo:titles.xml#jaimelire">j’aime lire</title> ». Le secrétariat est chargé de protester. (<persName ref="difdepo:persons.xml#le"><abbr>L.E</abbr></persName> doit donner la référence).</p>
+      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> Revue « <title ref="difdepo:titles.xml#lendemains">Lendemains</title> »</p>
       <p><label type="rubrique">4. Action.</label></p>
-      <p>– <persName><abbr>PB</abbr></persName> : Bruxelles</p>
-      <p><orgName>CNAC</orgName>/<persName><abbr>GP</abbr></persName></p>
+      <p>– <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Bruxelles</p>
+      <p><orgName ref="difdepo:organizations.xml#cnac">CNAC</orgName>/<persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> : Royaumont ?</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Royaumont ?</item>
       </list>
       <p>VLA ?</p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName>. Enseignement à <orgName>Hamilton College</orgName></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. Enseignement à <orgName ref="difdepo:organizations.xml#hamiltoncollege">Hamilton College</orgName></item>
       </list>
-      <p><persName>JARRY</persName>- <term>carrés lescuriens</term></p>
-      <p><persName>ROUSSEL</persName></p>
-      <p><persName>QUENEAU</persName>- <term>homosyntaxisme</term> + extraction de vocabulaire</p>
-      <p><persName>PEREC</persName></p>
-      <p>Discussion : justification des gravures de <persName>Dürer</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#jarry">JARRY</persName>- <term ref="difdepo:terms.xml#carreslescuriens">carrés lescuriens</term></p>
+      <p><persName ref="difdepo:persons.xml#roussel">ROUSSEL</persName></p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName>- <term ref="difdepo:terms.xml#homosyntaxisme">homosyntaxisme</term> + extraction de vocabulaire</p>
+      <p><persName ref="difdepo:persons.xml#perec">PEREC</persName></p>
+      <p>Discussion : justification des gravures de <persName ref="difdepo:persons.xml#durer">Dürer</persName>.</p>
       <p>contraintes de jaquette.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f3.highres" n="3"/>
-      <p><orgName>Maison de la culture de Calais</orgName></p>
-      <p><name type="manif">L’informatique et la vie culturelle.</name></p>
-      <p>Contact<persName><abbr>JB</abbr></persName></p>
-      <p><persName><abbr>PB</abbr></persName></p>
-      <p><orgName>IBM</orgName>.</p>
-      <p><term>Possibilités et limites</term></p>
-      <p><persName>L.E. G. PEREC</persName> à Reims</p>
+      <p><orgName ref="difdepo:organizations.xml#maisondelaculturedecalais">Maison de la culture de Calais</orgName></p>
+      <p><name ref="difdepo:events.xml#linformatiqueetlavieculturelle" type="manif">L’informatique et la vie culturelle.</name></p>
+      <p>Contact<persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p><orgName ref="difdepo:organizations.xml#ibm">IBM</orgName>.</p>
+      <p><term ref="difdepo:terms.xml#possibilitesetlimites">Possibilités et limites</term></p>
+      <p><persName ref="difdepo:persons.xml#legperec">L.E. G. PEREC</persName> à Reims</p>
       <p><label type="rubrique">5. Finances</label></p>
       <p>Projet de rapport financier et moral.</p>
     </body>

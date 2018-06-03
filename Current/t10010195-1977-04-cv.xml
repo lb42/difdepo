@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010195-1977-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010195-1977-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010195-1977-04-cv</idno> <title>Convocation à <ref target="#t10010195-1977-04">une réunion Oulipo</ref>, envoyée le <date when="1977-04-12">12 avril 1977</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010195-1977-04-cv</idno> <title>Convocation à <ref target="#t10010195-1977-04">une réunion Oulipo</ref>, envoyée le <date when="1977-04-12">12 avril 1977</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,10 +39,10 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit"><placeName>Paris</placeName> le 12 Avril 77.</p>
       <p>Brigadiers,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l'Ouvroir aura lieu le jeudi 21 Avril à II heures chez <persName>Marcel Bénabou</persName>:</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l'Ouvroir aura lieu le jeudi 21 Avril à II heures chez <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>:</p>
       <p>7 villa Duthy <lb/>75014 <placeName>Paris</placeName> <lb/>542 41 68</p>
-      <p>Il y sera question du volume "à <persName>Queneau</persName> de la <title>bibliothèque oulipienne</title> et des quelques trois ou quatre volumes à venir. On y touchera quelques nots des status, du volume 2 et tout se passera dans l'harmonie si vous retournez sans tarder la découpe ci-dessous à <persName>Marcel Bénabou</persName>.</p>
-      <p>Au jeudi 21, oulipiennement, <lb/><persName>Paul Fournel</persName> <lb/>Un secrétaire.</p>
+      <p>Il y sera question du volume "à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">bibliothèque oulipienne</title> et des quelques trois ou quatre volumes à venir. On y touchera quelques nots des status, du volume 2 et tout se passera dans l'harmonie si vous retournez sans tarder la découpe ci-dessous à <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</p>
+      <p>Au jeudi 21, oulipiennement, <lb/><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> <lb/>Un secrétaire.</p>
     </body>
   </text>
 </TEI>

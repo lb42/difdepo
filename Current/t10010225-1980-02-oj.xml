@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010225-1980-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010225-1980-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,13 +39,13 @@
       <p rend="incipit">OJ</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>HM</abbr></persName> : <term>Introduction diasémique</term></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : <term ref="difdepo:terms.xml#introductiondiasemique">Introduction diasémique</term></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><title>Volume 2</title></item>
-        <item><name type="manif">Villeneuve-lès-Avignon</name></item>
-        <item><title>Bibliothèque oulipienne</title></item>
+        <item><title ref="difdepo:titles.xml#volume2">Volume 2</title></item>
+        <item><name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></item>
+        <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
       </list>
     </body>
   </text>

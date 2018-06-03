@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010183-1976-02-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010183-1976-02-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010183-1976-02-cv</idno> <title>Convocation à <ref target="#t10010183-1976-02">une réunion Oulipo</ref>, envoyée le <date when="1976-02-25">25 février 1976</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010183-1976-02-cv</idno> <title>Convocation à <ref target="#t10010183-1976-02">une réunion Oulipo</ref>, envoyée le <date when="1976-02-25">25 février 1976</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,12 +38,12 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101830/f1.highres" n="1"/>
       <p>Boulogne-sur-Seine, le 25 Février 1976</p>
       <p>Chers Brigadiers et ière,</p>
-      <p>Notre <name type="manif">prochaine réunion</name> se tiendra – pour cette fois encore – chez votre Président Fondateur, le Mardi 9 Mars 1976. Cette invitation est adressée également à ceux des Membres qui ont négligé d’envoyer, comme il leur a été demandé, une dizaine d’enveloppes timbrées et à leur adresse.</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> se tiendra – pour cette fois encore – chez votre Président Fondateur, le Mardi 9 Mars 1976. Cette invitation est adressée également à ceux des Membres qui ont négligé d’envoyer, comme il leur a été demandé, une dizaine d’enveloppes timbrées et à leur adresse.</p>
       <p>La réunion suivante a été fixée au Jeudi 15 Avril. Nous ne savons pas encore dans quel restaurant elle aura lieu et nous ne pourrons en avertir que les Membres qu’ont donné au Secrétariat le moyen de le faire.</p>
-      <p>A l’ordre du jour : la réorganisation administrative, les prochaines publications de la <title>Bibliothèque oulipienne</title> et toutes autres questions que vous voudrez bien nous indiquer.</p>
+      <p>A l’ordre du jour : la réorganisation administrative, les prochaines publications de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> et toutes autres questions que vous voudrez bien nous indiquer.</p>
       <p>Soyez courageux et envoyez-nous vos enveloppes timbrées (ce n’est qu’un mauvais moment à passer) ; bien amicaloupiennement vôtre.</p>
-      <p><persName>François Le Lionnais</persName></p>
-      <p>PS – Et, bien entendu, invité d’honneur : <persName><abbr>Jean</abbr></persName> (Re)<persName>tardieu</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></p>
+      <p>PS – Et, bien entendu, invité d’honneur : <persName ref="difdepo:persons.xml#jean"><abbr>Jean</abbr></persName> (Re)<persName ref="difdepo:persons.xml#tardieu">tardieu</persName>.</p>
     </body>
   </text>
 </TEI>

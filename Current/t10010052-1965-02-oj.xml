@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010052-1965-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010052-1965-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,11 +39,11 @@
       <p rend="incipit">Réunion du Gueule 1 Gueules 93 014</p>
       <p rend="incipit">(vulg : Vendredi 1er février 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p>INVITE D’HONNEUR : <persName>Professeur G. Kreisel</persName> (Illogique mathématique)</p>
-      <p>ABSENCE EXCUSEES : <persName>Be</persName> (<persName>ns</persName> + <persName>rge</persName>) <persName>Blavier</persName>, <persName>Schmidt</persName>, <persName>Arnaud</persName></p>
+      <p>INVITE D’HONNEUR : <persName ref="difdepo:persons.xml#professeurgkreisel">Professeur G. Kreisel</persName> (Illogique mathématique)</p>
+      <p>ABSENCE EXCUSEES : <persName ref="difdepo:persons.xml#be">Be</persName> (<persName ref="difdepo:persons.xml#ns">ns</persName> + <persName ref="difdepo:persons.xml#rge">rge</persName>) <persName ref="difdepo:persons.xml#blavier">Blavier</persName>, <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName></p>
       <p><label type="rubrique">ERUDITIONS</label></p>
       <list type="ordered">
-        <item><term>Sonnet</term> de <persName>Victor Hugo</persName> – <persName>R. Queneau</persName></item>
+        <item><term ref="difdepo:terms.xml#sonnet">Sonnet</term> de <persName ref="difdepo:persons.xml#victorhugo">Victor Hugo</persName> – <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName></item>
         <item/>
         <item/>
         <item/>
@@ -54,8 +53,8 @@
       </list>
       <p><label type="rubrique">CREATIONS</label></p>
       <list type="ordered">
-        <item><term>Discrète</term> <unclear>ouverte</unclear> au <persName>professeur Kreisel</persName> – <persName><abbr>FLL</abbr></persName></item>
-        <item>Y-a-t ’il des <term>mots</term> « <term>génériques</term> ? » - <persName>G. Kreisel</persName></item>
+        <item><term ref="difdepo:terms.xml#discrete">Discrète</term> <unclear>ouverte</unclear> au <persName ref="difdepo:persons.xml#professeurkreisel">professeur Kreisel</persName> – <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item>Y-a-t ’il des <term ref="difdepo:terms.xml#mots">mots</term> « <term ref="difdepo:terms.xml#generiques">génériques</term> ? » - <persName ref="difdepo:persons.xml#gkreisel">G. Kreisel</persName></item>
         <item/>
         <item/>
         <item/>
@@ -64,45 +63,45 @@
       </list>
       <p><label type="rubrique">ACTIONS</label></p>
       <list type="ordered">
-        <item><orgName>Les Cerveaux réunis</orgName></item>
-        <item>Esclave pour <persName>J. Duchateau</persName></item>
+        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les Cerveaux réunis</orgName></item>
+        <item>Esclave pour <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName></item>
         <item><ref>L’enregistrement de Verviers</ref> est-il un mythe ?</item>
-        <item><term>Dieu</term> est-il pop ?</item>
+        <item><term ref="difdepo:terms.xml#dieu">Dieu</term> est-il pop ?</item>
         <item>Visite de S.A</item>
         <item/>
         <item/>
-        <item><term>Grille des libertés</term></item>
+        <item><term ref="difdepo:terms.xml#grilledeslibertes">Grille des libertés</term></item>
         <item>Prochain invité d’honneur</item>
-        <item><name type="manif">Prochaine réunion</name>  </item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  </item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010052x/f18.highres" n="18"/>
       <p rend="incipit">OuLiPo</p>
       <p rend="incipit">Réunion du Gueule 1 Gueules 93 014</p>
       <p rend="incipit">(vulg : Vendredi 1er février 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p>INVITE D’HONNEUR : <persName>Professeur G. Kreisel</persName> (Illogique mathématique)</p>
-      <p>ABSENCE EXCUSEES : <persName>Be</persName> (<persName>ns</persName> + <persName>rge</persName>) <persName>Blavier</persName>, <persName>Schmidt</persName>, <persName>Arnaud</persName></p>
-      <p>Et naturellement : Président : <persName>Claude Berge</persName></p>
+      <p>INVITE D’HONNEUR : <persName ref="difdepo:persons.xml#professeurgkreisel">Professeur G. Kreisel</persName> (Illogique mathématique)</p>
+      <p>ABSENCE EXCUSEES : <persName ref="difdepo:persons.xml#be">Be</persName> (<persName ref="difdepo:persons.xml#ns">ns</persName> + <persName ref="difdepo:persons.xml#rge">rge</persName>) <persName ref="difdepo:persons.xml#blavier">Blavier</persName>, <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName></p>
+      <p>Et naturellement : Président : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></p>
       <p><label type="rubrique">ERUDITIONS</label></p>
       <list type="ordered">
-        <item><term>Sonnet</term> de <persName>Victor Hugo</persName> – <persName>R. Queneau</persName></item>
+        <item><term ref="difdepo:terms.xml#sonnet">Sonnet</term> de <persName ref="difdepo:persons.xml#victorhugo">Victor Hugo</persName> – <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName></item>
       </list>
       <p><label type="rubrique">CREATIONS</label></p>
       <list type="ordered">
-        <item><term>Discrète</term> <unclear>ouverte</unclear> au <persName>professeur Kreisel</persName> – <persName><abbr>FLL</abbr></persName></item>
-        <item>Y-a-t ’il des <term>mots</term> « <term>génériques</term> ? » - <persName>G. Kreisel</persName></item>
+        <item><term ref="difdepo:terms.xml#discrete">Discrète</term> <unclear>ouverte</unclear> au <persName ref="difdepo:persons.xml#professeurkreisel">professeur Kreisel</persName> – <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item>Y-a-t ’il des <term ref="difdepo:terms.xml#mots">mots</term> « <term ref="difdepo:terms.xml#generiques">génériques</term> ? » - <persName ref="difdepo:persons.xml#gkreisel">G. Kreisel</persName></item>
         <item/>
       </list>
       <p><label type="rubrique">ACTIONS</label></p>
       <list type="ordered">
-        <item><orgName>Les Cerveaux réunis</orgName> – <persName><abbr>FLL</abbr></persName>. (pour réunion élément de réponse à <persName><abbr>JB</abbr></persName>)</item>
-        <item>Esclave pour <persName>J. Duchateau</persName></item>
+        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les Cerveaux réunis</orgName> – <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. (pour réunion élément de réponse à <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>)</item>
+        <item>Esclave pour <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName></item>
         <item><ref>L’enregistrement de Verviers</ref> est-il un mythe ?</item>
         <item>Dieu est-il pop ?</item>
         <item>Visite de S.A</item>
-        <item><term>Grille des libertés</term></item>
+        <item><term ref="difdepo:terms.xml#grilledeslibertes">Grille des libertés</term></item>
         <item>Prochain invité d’honneur</item>
-        <item><name type="manif">Prochaine réunion</name>  : <name type="manif">Oulibasque</name>. Lundi 8 mars 1965</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : <name ref="difdepo:events.xml#oulibasque" type="manif">Oulibasque</name>. Lundi 8 mars 1965</item>
       </list>
     </body>
   </text>

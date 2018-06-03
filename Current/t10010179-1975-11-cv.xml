@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010179-1975-11-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010179-1975-11-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010179-1975-11-cv</idno> <title>Convocation à <ref target="#t10010179-1975-11">une réunion Oulipo</ref>, envoyée le <date when="1975-11-25">25 novembre 1975</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010179-1975-11-cv</idno> <title>Convocation à <ref target="#t10010179-1975-11">une réunion Oulipo</ref>, envoyée le <date when="1975-11-25">25 novembre 1975</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -37,19 +36,19 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101798/f1.highres" n="1"/>
-      <p rend="incipit">M. <persName>F. LE LIONNAIS</persName></p>
+      <p rend="incipit">M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName></p>
       <p rend="incipit">23, Route de la Reine</p>
       <p rend="incipit">92100 BOULOGNE- sur SEINE</p>
       <p rend="incipit">Tél : 605. 90. 13</p>
       <p rend="incipit">Boulogne-sur-Seine, le 25 Novembre 1975</p>
       <p>Chers Brigadiers,</p>
-      <p>Notre <name type="manif">prochaine réunion</name> générale a été fixée au Mercredi 10 Décembre.</p>
-      <p>C’est la dernière réunion importante qui aura un effet sur les <name type="manif">manifestations oulipiennes</name>, 26, rue des Francs-Bourgeois, du Mercredi 13 au Dimanche 25 Janvier inclus. Nous entendrons les rapports des différentes commissions chargées d’examiner avec <persName>Blaise GAUTHIER</persName> et le <orgName>Centre Pompidou</orgName> les problèmes soulevés par ces manifestations : disposition et équipement des locaux, contenu des expositions des éléments d’animation éphémère, des vitrines, de la librairie ; dates et programmes des deux séances.</p>
-      <p>Nous aurons également à discuter des quatre prochains volumes de la <title>Bibliothèque oulipienne</title> : <title>Perverbes</title> (<persName>H. MATHEWS</persName>), <title>Axiomatisation de la littérature</title>, <title>Hilbert</title> (<persName>R. QUENEAU</persName>), <title>Labrador II</title> (<persName>J. ROUBAUD</persName>), <title>Troisième Manifeste</title> (<persName><abbr>F.LL</abbr></persName>) et de leur financement. A ce sujet, chacun de ceux qui ne l’ont pas encore fait est invité à adresser une contribution de 100 francs, par versement ou virement au CCP du Trésorier <persName>Marcel Bénabou</persName>, n°3 988 65 Paris.</p>
-      <p>Des <term>Tables de QUENELEIEFF</term> seront distribuées ainsi que des photos ; ou envoyés aux absents.</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> générale a été fixée au Mercredi 10 Décembre.</p>
+      <p>C’est la dernière réunion importante qui aura un effet sur les <name ref="difdepo:events.xml#manifestationsoulipiennes" type="manif">manifestations oulipiennes</name>, 26, rue des Francs-Bourgeois, du Mercredi 13 au Dimanche 25 Janvier inclus. Nous entendrons les rapports des différentes commissions chargées d’examiner avec <persName ref="difdepo:persons.xml#blaisegauthier">Blaise GAUTHIER</persName> et le <orgName ref="difdepo:organizations.xml#centrepompidou">Centre Pompidou</orgName> les problèmes soulevés par ces manifestations : disposition et équipement des locaux, contenu des expositions des éléments d’animation éphémère, des vitrines, de la librairie ; dates et programmes des deux séances.</p>
+      <p>Nous aurons également à discuter des quatre prochains volumes de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : <title ref="difdepo:titles.xml#perverbes">Perverbes</title> (<persName ref="difdepo:persons.xml#hmathews">H. MATHEWS</persName>), <title ref="difdepo:titles.xml#axiomatisationdelalitterature">Axiomatisation de la littérature</title>, <title ref="difdepo:titles.xml#hilbert">Hilbert</title> (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>), <title ref="difdepo:titles.xml#labradorii">Labrador II</title> (<persName ref="difdepo:persons.xml#jroubaud">J. ROUBAUD</persName>), <title ref="difdepo:titles.xml#troisiememanifeste">Troisième Manifeste</title> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>) et de leur financement. A ce sujet, chacun de ceux qui ne l’ont pas encore fait est invité à adresser une contribution de 100 francs, par versement ou virement au CCP du Trésorier <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, n°3 988 65 Paris.</p>
+      <p>Des <term ref="difdepo:terms.xml#tablesdequeneleieff">Tables de QUENELEIEFF</term> seront distribuées ainsi que des photos ; ou envoyés aux absents.</p>
       <p>Oulipiennement vôtre et à Vendredi</p>
-      <p><persName>F. Le Lionnais</persName></p>
-      <p>« M. <persName>Charles Danger</persName>, 72 ans, a trouvé la mort vendredi soir pour avoir simplement tenté de prendre un paquet de cigarettes dans sa poche. »</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
+      <p>« M. <persName ref="difdepo:persons.xml#charlesdanger">Charles Danger</persName>, 72 ans, a trouvé la mort vendredi soir pour avoir simplement tenté de prendre un paquet de cigarettes dans sa poche. »</p>
     </body>
   </text>
 </TEI>

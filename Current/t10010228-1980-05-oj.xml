@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010228-1980-05-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010228-1980-05-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,18 +38,18 @@
       <p rend="incipit">Oulipo du 23-5-80</p>
       <p rend="incipit">Présents : PB NA JB CB MB</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>JB</abbr></persName> : car *** stage</p>
-      <p><persName><abbr>PB</abbr></persName> : <name type="manif">Beaubourg 80</name> + TEP <persName>Queneau</persName></p>
-      <p><persName><abbr>NA</abbr></persName> : Oulipo ***</p>
-      <p><persName><abbr>CB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : car *** stage</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#beaubourg80" type="manif">Beaubourg 80</name> + TEP <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Oulipo ***</p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>MM</abbr></persName> : projet</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : projet</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>CB</abbr></persName> : question</p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : question</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName><abbr>JB</abbr></persName> : <persName>Isou</persName></p>
-      <p><persName><abbr>JB</abbr></persName> : *** Douret ***</p>
-      <p><persName><abbr>PB</abbr></persName>  : Faux espoir</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <persName ref="difdepo:persons.xml#isou">Isou</persName></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : *** Douret ***</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>  : Faux espoir</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010305-1987-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010305-1987-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,9 +20,9 @@
           <date when="1987-05-22">22 mai 1987</date>
           <placeName>chez JJ</placeName>
           <list type="present">
-            <item><persName>Marcel Bénabou</persName></item>
-            <item><persName>Paul Fournel</persName></item>
-            <item><persName>Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,22 +47,22 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010305b/f7.highres" n="7"/>
       <p rend="incipit">OULIPO 22 V 87</p>
-      <p rend="incipit">Présents : <persName><abbr>MB</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>JJ</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName><abbr>JB</abbr></persName>, <persName><abbr>PF</abbr></persName>, <persName><abbr>JL</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>CB</abbr></persName>, <persName><abbr>PR</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>HM</abbr></persName></p>
-      <p><persName><abbr>PF</abbr></persName> : <title>Edi...tueurs</title> : publication offerte par <persName><abbr>PF</abbr></persName> à son personnel à l’occasion de mon anniversaire de 40 ans</p>
-      <p>Exercice d’<term>homophonie</term> sur les noms le personnel de <orgName>Ramsay</orgName></p>
-      <p><persName><abbr>PF</abbr></persName> en donne lecture – (<ref>voir archives</ref>)</p>
-      <p><persName><abbr>JJ</abbr></persName> <term>Filigranes</term>  <ref>: 2</ref> <term>filigranes</term> <ref>(archives)</ref></p>
-      <p><persName><abbr>MB</abbr></persName> <title>Le Bilboquet</title>  <ref>: lecture (archives)</ref></p>
-      <p><persName><abbr>PF</abbr></persName> : les problèmes posés par la lettre de <persName>Gil Jouanard</persName> : <persName><abbr>PF</abbr></persName> prépare une lettre à <persName>Gil</persName> pour établir une règle de fonctionnement</p>
-      <p><persName><abbr>JJ</abbr></persName> : Pour le <title>Science</title> a publié un <term>hétérogramme</term> de <persName><abbr>JJ</abbr></persName></p>
-      <p><persName><abbr>PF</abbr></persName> : Le <orgName>Magazine</orgName> est prêt à faire 6 pages en septembre sur l’OULIPO, à l’occasion de la sortie de la <title>Bibliothèque oulipienne</title> Ramsay. <persName><abbr>PF</abbr></persName> et <persName><abbr>JJ</abbr></persName> sont chargés de faire le nécessaire.</p>
-      <p><persName><abbr>MB</abbr></persName> : demande à <persName><abbr>PF</abbr></persName> le dimanche à <orgName>Gallimard</orgName> où en sont les choses pour les volumes Oulipo.</p>
-      <p><persName><abbr>MB</abbr></persName> : Proposition <persName>Beaumatin</persName> pour un volume <title><persName>Perec</persName>Aujourd’hui</title></p>
-      <p><persName><abbr>J.J.</abbr></persName> sur quelque chose d’autobiographique</p>
-      <p><persName><abbr>JJ</abbr></persName> :</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#editueurs">Edi...tueurs</title> : publication offerte par <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> à son personnel à l’occasion de mon anniversaire de 40 ans</p>
+      <p>Exercice d’<term ref="difdepo:terms.xml#homophonie">homophonie</term> sur les noms le personnel de <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> en donne lecture – (<ref>voir archives</ref>)</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <term ref="difdepo:terms.xml#filigranes">Filigranes</term>  <ref>: 2</ref> <term ref="difdepo:terms.xml#filigranes">filigranes</term> <ref>(archives)</ref></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <title ref="difdepo:titles.xml#lebilboquet">Le Bilboquet</title>  <ref>: lecture (archives)</ref></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : les problèmes posés par la lettre de <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName> : <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> prépare une lettre à <persName ref="difdepo:persons.xml#gil">Gil</persName> pour établir une règle de fonctionnement</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Pour le <title ref="difdepo:titles.xml#science">Science</title> a publié un <term ref="difdepo:terms.xml#heterogramme">hétérogramme</term> de <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Le <orgName ref="difdepo:organizations.xml#magazine">Magazine</orgName> est prêt à faire 6 pages en septembre sur l’OULIPO, à l’occasion de la sortie de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> Ramsay. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> et <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> sont chargés de faire le nécessaire.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : demande à <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> le dimanche à <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> où en sont les choses pour les volumes Oulipo.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Proposition <persName ref="difdepo:persons.xml#beaumatin">Beaumatin</persName> pour un volume <title ref="difdepo:titles.xml#perecaujourdhui"><persName ref="difdepo:persons.xml#perec">Perec</persName>Aujourd’hui</title></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>J.J.</abbr></persName> sur quelque chose d’autobiographique</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> :</p>
       <p><label type="rubrique">Erudition :</label></p>
-      <p><persName>Gautier</persName> : la fin des <orgName>clubs des Haschichins</orgName></p>
+      <p><persName ref="difdepo:persons.xml#gautier">Gautier</persName> : la fin des <orgName ref="difdepo:organizations.xml#clubsdeshaschichins">clubs des Haschichins</orgName></p>
       <p>Menu : Lapin avec champignons et un citron confit</p>
     </body>
   </text>

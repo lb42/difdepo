@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010319-1988-09-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010319-1988-09-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010319-1988-09-cv</idno> <title>Convocation à <ref target="#t10010319-1988-09">une réunion Oulipo</ref>, envoyée le <date when="1988-09-13">13 septembre 1988</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010319-1988-09-cv</idno> <title>Convocation à <ref target="#t10010319-1988-09">une réunion Oulipo</ref>, envoyée le <date when="1988-09-13">13 septembre 1988</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,10 +39,10 @@
       <p>OULIPO</p>
       <p>le 13 Septembre 88</p>
       <p>oulipiens,</p>
-      <p>L’ouvroir se réunira le 23 à 19 heures chez <persName>Martine</persName> et <persName>Paul Fournel</persName> (48 rue de l’Abbé Groult 75015, Paris, 45.31.77.65).</p>
+      <p>L’ouvroir se réunira le 23 à 19 heures chez <persName ref="difdepo:persons.xml#martine">Martine</persName> et <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> (48 rue de l’Abbé Groult 75015, Paris, 45.31.77.65).</p>
       <p>Merci de retourner la découpe.</p>
       <p>Amitiés,</p>
-      <p><persName><abbr>Paul</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

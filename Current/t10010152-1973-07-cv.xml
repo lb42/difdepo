@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010152-1973-07-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010152-1973-07-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010152-1973-07-cv</idno> <title>Convocation à <ref target="#t10010152-1973-07">une réunion Oulipo</ref>, envoyée le <date when="1973-07-03">3 juillet 1973</date> par <persName role="expéditeur">François Le Lionnais</persName></title></bibl>
+        <bibl><idno>t10010152-1973-07-cv</idno> <title>Convocation à <ref target="#t10010152-1973-07">une réunion Oulipo</ref>, envoyée le <date when="1973-07-03">3 juillet 1973</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,13 +38,13 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101529/f1.highres" n="1"/>
       <p rend="incipit">Le 3 Juillet 1973</p>
       <p rend="incipit">Chers Brigadiers,</p>
-      <p>Notre <name type="manif">prochaine réunion</name> aura lieu Mercredi 18 Juillet. Notre Invité d’Honneur sera <persName>Jean-Claude HERZ</persName>.</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu Mercredi 18 Juillet. Notre Invité d’Honneur sera <persName ref="difdepo:persons.xml#jeanclaudeherz">Jean-Claude HERZ</persName>.</p>
       <p>À l’ordre du jour, notamment, suite de l’étude des réactions à la publication du livre.</p>
       <p>Oulipiennement vôtre.</p>
       <p>Pour le Secrétaire Général provisoirement définitif et</p>
       <p>pour le Secrétaire Général définitivement provisoire momentanément défaillants</p>
       <p>Le Président Fondateur</p>
-      <p><persName>F. Le Lionnais</persName></p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

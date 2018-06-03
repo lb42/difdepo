@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010145-1972-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010145-1972-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010145-1972-10-cv</idno> <title>Convocation à <ref target="#t10010145-1972-10">une réunion Oulipo</ref>, envoyée le <date when="1972-10-27">27 octobre 1972</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010145-1972-10-cv</idno> <title>Convocation à <ref target="#t10010145-1972-10">une réunion Oulipo</ref>, envoyée le <date when="1972-10-27">27 octobre 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,11 +38,11 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101457/f1.highres" n="1"/>
       <p rend="incipit">le 27 Octobre 1972</p>
       <p>Cher Oulipote,</p>
-      <p>La <name type="manif">prochaine réunion</name> aura lieu le mercredi 8 Novembre 1972.</p>
-      <p>Notre invité d’honneur sera probablement <persName>Italo CALVINO</persName> ; sinon ce sera <persName>Emile LEIPP</persName>.</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu le mercredi 8 Novembre 1972.</p>
+      <p>Notre invité d’honneur sera probablement <persName ref="difdepo:persons.xml#italocalvino">Italo CALVINO</persName> ; sinon ce sera <persName ref="difdepo:persons.xml#emileleipp">Emile LEIPP</persName>.</p>
       <p>A l’ordre du jour :</p>
       <list type="unordered">
-        <item>dernières nouvelles de la mise en fabrication d’<title>ex-Cape</title>.</item>
+        <item>dernières nouvelles de la mise en fabrication d’<title ref="difdepo:titles.xml#excape">ex-Cape</title>.</item>
         <item>discussion du budget</item>
         <item>perspectives d’avenir</item>
         <item>le reste à la carte (et le repas au menu).</item>
@@ -51,7 +50,7 @@
       <p>Si vous restez déjeuner nous insistons pour que l’intendance en soit prévenue à temps.</p>
       <p>Au mercredi 8,</p>
       <p>un secrétaire</p>
-      <p><persName>Paul Fournel</persName></p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
       <p>PS : La réunion suivante est prévue pour le Mercredi 13 Décembre 1972</p>
     </body>
   </text>

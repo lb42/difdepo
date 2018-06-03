@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010305-1987-05-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010305-1987-05-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,26 +37,26 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010305b/f6.highres" n="6"/>
       <p rend="incipit">Ordre du jour</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName><abbr>PF</abbr></persName> : <title>Edi…tueurs</title></p>
-      <p><persName><abbr>JJ</abbr></persName> : <term>Filigranes</term></p>
-      <p><persName><abbr>MB</abbr></persName> : <title>Le Bilboquet</title></p>
-      <p><persName><abbr>PF</abbr></persName> : <title>L’enlèvement d’Hortense</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#editueurs">Edi…tueurs</title></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : <term ref="difdepo:terms.xml#filigranes">Filigranes</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <title ref="difdepo:titles.xml#lebilboquet">Le Bilboquet</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#lenlevementdhortense">L’enlèvement d’Hortense</title></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName><abbr>JJ</abbr></persName> : <persName>Théophile Gautier</persName></p>
-      <p><persName><abbr>MB</abbr></persName> : Limousin</p>
-      <p><persName><abbr>MB</abbr></persName> : <persName>Deloy</persName></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : <persName ref="difdepo:persons.xml#theophilegautier">Théophile Gautier</persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Limousin</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="difdepo:persons.xml#deloy">Deloy</persName></p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>JJ</abbr></persName> : Port Cros</p>
-      <p><persName><abbr>PF</abbr></persName> : <persName>Gil Jouanard</persName></p>
-      <p><persName><abbr>MB</abbr></persName> :</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Port Cros</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> :</p>
       <list type="unordered">
         <item>Seattle</item>
-        <item><persName>Perec</persName></item>
+        <item><persName ref="difdepo:persons.xml#perec">Perec</persName></item>
       </list>
-      <p><persName><abbr>PF</abbr></persName> : <title>Magazine Littéraire</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#magazinelitteraire">Magazine Littéraire</title></p>
       <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName><abbr>JJ</abbr></persName> : Pour la Science</p>
-      <p><persName><abbr>MB</abbr></persName> : La Villette</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Pour la Science</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : La Villette</p>
     </body>
   </text>
 </TEI>

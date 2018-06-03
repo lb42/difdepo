@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010283-1985-06-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010283-1985-06-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,38 +36,38 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010283c/f4.highres" n="4"/>
       <p rend="incipit">Oulipo 08-06-85</p>
-      <p rend="incipit">Présents : <persName>Paul Braffort</persName> président, <persName>Jacques Jouet</persName> secrétaire, <persName>Jacques Roubaud</persName>, <persName>François Caradec</persName>, <persName>Harry Mathews</persName>, <persName>Jacques Bens</persName> (hôte), <persName>Paul Fournel</persName>, <persName>Marcel Bénabou</persName></p>
-      <p rend="incipit">Excusés : <persName>Michèle Métail</persName>, <persName>Jean Queval</persName>, <persName>Claude Berge</persName>, <persName>Pierre Rosenstiehl</persName>, <persName>Italo Calvino</persName>, <persName>Noël Arnaud</persName></p>
-      <p rend="incipit">Inexcusés : <persName>Jean Lescure</persName>, <persName>Jacques Duchateau</persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> président, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> secrétaire, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> (hôte), <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName>, <persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></p>
+      <p rend="incipit">Inexcusés : <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></p>
       <p><label type="rubrique">1 Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>PR</abbr></persName> (<persName><abbr>MB</abbr></persName>)</item>
-        <item><persName><abbr>HM</abbr></persName> Technique poétique <persName><abbr>FLL</abbr></persName></item>
-        <item><persName><abbr>FC</abbr></persName> Inutilité de la rime</item>
+        <item><persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName> (<persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>)</item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> Technique poétique <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Inutilité de la rime</item>
       </list>
       <p><label type="rubrique">2 Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> le point sur le guide</item>
-        <item><persName><abbr>JB</abbr></persName> <name type="manif">Créteil</name></item>
-        <item><persName><abbr>MB</abbr></persName> <persName><abbr>GP</abbr></persName></item>
-        <item><persName><abbr>MB</abbr></persName> Vittoria</item>
-        <item><persName><abbr>PF</abbr></persName> réunion avec <name type="manif">Oupeinpo</name></item>
-        <item><persName><abbr>HM</abbr></persName> <orgName>Invisible Seattle</orgName></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> le point sur le guide</item>
+        <item><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <name ref="difdepo:events.xml#creteil" type="manif">Créteil</name></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Vittoria</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> réunion avec <name ref="difdepo:events.xml#oupeinpo" type="manif">Oupeinpo</name></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <orgName ref="difdepo:organizations.xml#invisibleseattle">Invisible Seattle</orgName></item>
       </list>
       <p><label type="rubrique">3 Adresse du président</label> +</p>
-      <p><label type="rubrique">4 <title>Bibliothèque oulipienne</title></label> + <persName><abbr>PF</abbr></persName></p>
+      <p><label type="rubrique">4 <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></label> + <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
       <p><label type="rubrique">5 Erudition</label></p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> <persName>Pierre de Saint Lois</persName></item>
-        <item><persName><abbr>FC</abbr></persName> <term>Canada Dry</term> <persName><abbr>AB</abbr></persName></item>
-        <item><persName><abbr>FC</abbr></persName> <persName>François le Gloupier</persName></item>
-        <item><persName><abbr>HM</abbr></persName> <term>Erreur</term> et <term>clinamen</term></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#pierredesaintlois">Pierre de Saint Lois</persName></item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <term ref="difdepo:terms.xml#canadadry">Canada Dry</term> <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#francoislegloupier">François le Gloupier</persName></item>
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <term ref="difdepo:terms.xml#erreur">Erreur</term> et <term ref="difdepo:terms.xml#clinamen">clinamen</term></item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010283c/f5.highres" n="5"/>
       <p><label type="rubrique">6 Menus propos</label></p>
       <list type="unordered">
-        <item><persName><abbr>FC</abbr></persName> Photos du <name type="manif">Congrès</name></item>
-        <item><persName><abbr>JB</abbr></persName> Oulipo France Musique</item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Photos du <name ref="difdepo:events.xml#congres" type="manif">Congrès</name></item>
+        <item><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> Oulipo France Musique</item>
       </list>
       <p>7 Prochaines séances</p>
       <p>Juillet</p>

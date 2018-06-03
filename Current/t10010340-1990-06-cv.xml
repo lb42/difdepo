@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010340-1990-06-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010340-1990-06-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010340-1990-06-cv</idno> <title>Convocation à <ref target="#t10010340-1990-06">une réunion Oulipo</ref>, envoyée le <date when="1990-06-25">25 juin 1990</date> par <persName role="expéditeur">Paul Fournel</persName></title></bibl>
+        <bibl><idno>t10010340-1990-06-cv</idno> <title>Convocation à <ref target="#t10010340-1990-06">une réunion Oulipo</ref>, envoyée le <date when="1990-06-25">25 juin 1990</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,10 +39,10 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Paris, le 25 juin 1990</p>
       <p>Chers Oulipiens,</p>
-      <p>La <name type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le mardi 3 juillet 1990 à 19 heures chez <persName>Jacques Jouet</persName> (12 rue de Lancry, 75010 Paris, tél : 42.41.20.07)</p>
-      <p>Merci de retourner la découpe ci-dessous directement chez <persName>Jacques Jouet</persName>.</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le mardi 3 juillet 1990 à 19 heures chez <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (12 rue de Lancry, 75010 Paris, tél : 42.41.20.07)</p>
+      <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>.</p>
       <p>Au 3, amitiés</p>
-      <p><persName><abbr>Paul</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
     </body>
   </text>
 </TEI>

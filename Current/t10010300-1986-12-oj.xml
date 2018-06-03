@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010300-1986-12-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010300-1986-12-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,33 +36,33 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103003/f6.highres" n="6"/>
       <p rend="incipit"><date>19 XII 86</date>OULIPO</p>
       <p rend="incipit">Ordre du jour</p>
-      <p><persName><abbr>PF</abbr></persName>, <persName><abbr>JR</abbr></persName>, <persName><abbr>MM</abbr></persName>, <persName><abbr>PB</abbr></persName>, <persName><abbr>FC</abbr></persName>, <persName><abbr>JJ</abbr></persName>, <persName><abbr>MB</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>.</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> <unclear>Politesse mortuaire</unclear></item>
-        <item><persName><abbr>MM</abbr></persName> Déménagement</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <unclear>Politesse mortuaire</unclear></item>
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Déménagement</item>
       </list>
       <p><label type="rubrique">Erudition</label></p>
       <list type="unordered">
-        <item><persName><abbr>MB</abbr></persName> Colporteurs d'image</item>
-        <item><persName><abbr>PF</abbr></persName> <persName>Mme Marquet</persName></item>
-        <item><persName><abbr>MB</abbr></persName> Machine à faire slogans</item>
-        <item><persName><abbr>MB</abbr></persName> Guide de l'espression écrite</item>
-        <item><persName><abbr>PB</abbr></persName> S<unclear>uissesse</unclear></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Colporteurs d'image</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mmemarquet">Mme Marquet</persName></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Machine à faire slogans</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Guide de l'espression écrite</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> S<unclear>uissesse</unclear></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>JJ</abbr></persName> Maison des Ecrivains</item>
-        <item><persName><abbr>PF</abbr></persName> Quelques Oulipens et la presse</item>
-        <item><persName><abbr>PB</abbr></persName> Le Havre <lb/>Saint-Etienne</item>
+        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Maison des Ecrivains</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Quelques Oulipens et la presse</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> Le Havre <lb/>Saint-Etienne</item>
       </list>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> <persName>Chichina</persName></item>
-        <item><persName><abbr>MM</abbr></persName> Valère Novarina</item>
-        <item><persName><abbr>MB</abbr></persName> Stage Port Cros</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#chichina">Chichina</persName></item>
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Valère Novarina</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Stage Port Cros</item>
         <item>Ne pas oublier de prendre un tiré à part</item>
       </list>
-      <p><name type="manif">Prochaine réunion</name> le 29/1/87</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> le 29/1/87</p>
     </body>
   </text>
 </TEI>

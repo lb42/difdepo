@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010011-1961-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010011-1961-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,14 +19,14 @@
         <bibl><idno>t10010011-1961-09-cr</idno> <meeting xml:id="t10010011-1961-09">
           <date when="1961-09-25">25 septembre 1961</date>
           <list type="present">
-            <item><persName>Noël Arnaud</persName></item>
-            <item><persName>François Le Lionnais</persName></item>
-            <item><persName>Latis</persName></item>
-            <item><persName>Raymond Queneau</persName></item>
-            <item><persName>Jacques Duchateau</persName></item>
-            <item><persName>Jean Lescure</persName></item>
-            <item><persName>Jacques Bens</persName></item>
-            <item><persName role="président">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#latis">Latis</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval" role="président">Jean Queval</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -50,101 +49,101 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010011t/f1.highres" n="1"/>
-      <p rend="incipit">25 septembre 1961 <orgName>OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</orgName></p>
+      <p rend="incipit">25 septembre 1961 <orgName ref="difdepo:organizations.xml#ouvroirdelitteraturepotentielle">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</orgName></p>
       <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 8 SEPTEMBRE 1961</p>
       <p rend="incipit">(Premier Jour de l’An Pataphysique)</p>
-      <p rend="incipit">PRESENTS : (dans le sens des aiguilles d’une montre) : <persName>Arnaud</persName>, <persName>Le Lionnais</persName>, <persName>Latis</persName>, <persName>Queneau</persName>, <persName>Duchâteau</persName>, <persName>Queval</persName>, <persName>Lescure</persName>, <persName>Bens</persName>.</p>
-      <p rend="incipit">PRESIDENT : <persName>Jean QUEVAL</persName>.</p>
+      <p rend="incipit">PRESENTS : (dans le sens des aiguilles d’une montre) : <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, <persName ref="difdepo:persons.xml#duchateau">Duchâteau</persName>, <persName ref="difdepo:persons.xml#queval">Queval</persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>.</p>
+      <p rend="incipit">PRESIDENT : <persName ref="difdepo:persons.xml#jeanqueval">Jean QUEVAL</persName>.</p>
       <p>Des regrets sont préalablement déroulés à propos du retard du précédent compte-rendu. Quelques remarques sont faites à ce sujet qui ne manquent pas toujours d’à-propos. Exemples :</p>
-      <p><persName>LESCURE</persName> : Il faut laisser au dataire le temps d’élaborer un rapport aussi essentiel.</p>
-      <p><persName>LATIS</persName> : Mais ce rapport est urgent puisqu’il rappelle le travail de chacun !</p>
-      <p><persName>QUENEAU</persName> : Considérons que le Satrape <persName>Bens</persName>…</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Il faut laisser au dataire le temps d’élaborer un rapport aussi essentiel.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Mais ce rapport est urgent puisqu’il rappelle le travail de chacun !</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Considérons que le Satrape <persName ref="difdepo:persons.xml#bens">Bens</persName>…</p>
       <p>TOUS : Oh !</p>
-      <p><persName>QUENEAU</persName> : …le dataire <persName>Bens</persName> est excusable, dans la mesure où cette réunion fut essentielle et maximale. Mais ce retard n’en est pas moins regrettable. Il ne faudrait pas se laisser glisser sur le toboggan de la facilité.</p>
-      <p><persName>QUEVAL</persName> : Je salue l’effort de rhétorique du précédent orateur.</p>
-      <p><persName>LESCURE</persName> : MOI, j’ai corrigé ma contribution au dossier !</p>
-      <p><persName>BENS</persName> : Je crois que l’on a omis de me rendre ma communication…</p>
-      <p><persName>LATIS</persName> : Le dataire chie dans la colle.</p>
-      <p><persName>BENS</persName> : ! ? . . . ? ! ; ! ! ! . . . ? ? ? ; : ; : ; ‘ ! (<term>Poème ponctuatif</term> à la manière de <persName><abbr>F.L.L.</abbr></persName>).</p>
-      <p><persName>LATIS</persName> : Remarquons cependant que c’est quand on engueule les gens qu’ils se mettent à travailler.</p>
-      <p><persName>QUEVAL</persName> : Ce que nous venons d’entendre s’inscrit dans le droit-fil de la plupart des orthodoxies.</p>
-      <p><persName>QUENEAU</persName> : Le Président prend son rôle comme dans la totalité des orthodoxies.</p>
-      <p><persName>LE LIONNAIS</persName> : J’ai envoyé au T.S. une carte de Milan, pour <name type="manif">le tricentenaire de la fondation de l’OuLiPo</name>. Je propose que le T.S. la communique la prochaine fois.</p>
-      <p><persName>QUENEAU</persName> : Entendu. (Je suis désolé…Je ne croyais pas…etc…)</p>
-      <p><persName>LATIS</persName> : Permettez-moi de présenter à l’assemblée présente ainsi qu’aux membres absents tous mes vœux de bonne année <term>pataphysique</term>.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : …le dataire <persName ref="difdepo:persons.xml#bens">Bens</persName> est excusable, dans la mesure où cette réunion fut essentielle et maximale. Mais ce retard n’en est pas moins regrettable. Il ne faudrait pas se laisser glisser sur le toboggan de la facilité.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je salue l’effort de rhétorique du précédent orateur.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : MOI, j’ai corrigé ma contribution au dossier !</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Je crois que l’on a omis de me rendre ma communication…</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Le dataire chie dans la colle.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : ! ? . . . ? ! ; ! ! ! . . . ? ? ? ; : ; : ; ‘ ! (<term ref="difdepo:terms.xml#poemeponctuatif">Poème ponctuatif</term> à la manière de <persName ref="difdepo:persons.xml#fll"><abbr>F.L.L.</abbr></persName>).</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Remarquons cependant que c’est quand on engueule les gens qu’ils se mettent à travailler.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Ce que nous venons d’entendre s’inscrit dans le droit-fil de la plupart des orthodoxies.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Le Président prend son rôle comme dans la totalité des orthodoxies.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : J’ai envoyé au T.S. une carte de Milan, pour <name ref="difdepo:events.xml#letricentenairedelafondationdeloulipo" type="manif">le tricentenaire de la fondation de l’OuLiPo</name>. Je propose que le T.S. la communique la prochaine fois.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Entendu. (Je suis désolé…Je ne croyais pas…etc…)</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Permettez-moi de présenter à l’assemblée présente ainsi qu’aux membres absents tous mes vœux de bonne année <term ref="difdepo:terms.xml#pataphysique">pataphysique</term>.</p>
       <p>(Congratulations générales. Chocs de verres. Libations.)</p>
-      <p>Une bonne définition de la Philosophie est alors donnée par <persName>Latis</persName>. Elle peut s’énoncer approximativement ainsi :</p>
+      <p>Une bonne définition de la Philosophie est alors donnée par <persName ref="difdepo:persons.xml#latis">Latis</persName>. Elle peut s’énoncer approximativement ainsi :</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010011t/f2.highres" n="2"/>
       <p>Si je t’explique quelque chose que j’ai compris et que tu comprends, ce n’est pas de la</p>
       <p>philosophie ;</p>
       <p>Si je t’explique quelque chose que j’ai compris et que tu ne comprends pas, ce n’est pas de la philosophie ;</p>
       <p>Si je t’explique quelque chose que je n’ai pas compris et que tu comprends, ce n’est pas de la philosophie ;</p>
       <p>Si je t’explique quelque chose que je n’ai pas compris et que tu ne comprends pas, c’est de la philosophie.</p>
-      <p><persName>LE LIONNAIS</persName> : Je voulais vous parler des <term>Alexandrins polysémiques</term>. Je n’ai réalisé qu’un seul <term>alexandrin</term> pour l’instant. Mais il est évident que nous pourrons parvenir successivement au <term>distique</term>, au <term>quatrain</term>, au <term>sonnet</term>, à la <term>ballade</term> (<term>alexandrine</term>), à la <term>tragédie</term>, à l’<term>épopée</term>. Le principe est le suivant : composer des <term>vers</term> dont les mots peuvent être pris dans des sens différents (sans modification de leur orthographe : il s’agit donc d’une <term>homonymie</term> parfaite, celle qui peut jouer lors d’une lecture muette). Exemple :</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je voulais vous parler des <term ref="difdepo:terms.xml#alexandrinspolysemiques">Alexandrins polysémiques</term>. Je n’ai réalisé qu’un seul <term ref="difdepo:terms.xml#alexandrin">alexandrin</term> pour l’instant. Mais il est évident que nous pourrons parvenir successivement au <term ref="difdepo:terms.xml#distique">distique</term>, au <term ref="difdepo:terms.xml#quatrain">quatrain</term>, au <term ref="difdepo:terms.xml#sonnet">sonnet</term>, à la <term ref="difdepo:terms.xml#ballade">ballade</term> (<term ref="difdepo:terms.xml#alexandrine">alexandrine</term>), à la <term ref="difdepo:terms.xml#tragedie">tragédie</term>, à l’<term ref="difdepo:terms.xml#epopee">épopée</term>. Le principe est le suivant : composer des <term ref="difdepo:terms.xml#vers">vers</term> dont les mots peuvent être pris dans des sens différents (sans modification de leur orthographe : il s’agit donc d’une <term ref="difdepo:terms.xml#homonymie">homonymie</term> parfaite, celle qui peut jouer lors d’une lecture muette). Exemple :</p>
       <p>L’HOMME FERME LA PORTE ET BRAVE LA TOURMENTE</p>
       <p>Quatre sens possibles :</p>
       <p>— un homme résolu tient une femme dans ses bras et, avec courage, la fait souffrir ;</p>
       <p>— un homme donne un tour de clé dans une serrure et affronte un orage ;</p>
       <p>— un homme résolu tient une femme dans ses bras et affronte un orage ;</p>
       <p>— un homme donne un tour de clé dans une serrure et, avec courage, fait souffrir une femme.</p>
-      <p><persName>QUEVAL</persName> : Faut-il placer différemment la ponctuation ?</p>
-      <p><persName>QUENEAU</persName> : Ah, non ! On ne ponctue plus ! D’ailleurs, cela pourrait être un axiome de l’OuLiPo. Quoique, au fond, « on ne ponctue plus », cela frise l’orthodoxie. Cela pourrait être un signe de reconnaissance : « Ponctues-tu ? »</p>
-      <p><persName>LE LIONNAIS</persName> : Je propose les deux solutions extrêmes : « On ne ponctue plus » et « On ne fait que ponctuer ».</p>
-      <p><persName>QUENEAU</persName> : Je voudrais poser une question aux mathématiciens de l’OuLiPo à propos de la <term>loi d’Estoup-Zipf</term>. Je le ferai quand <persName>Moles</persName> sera parmi nous. En attendant, et toujours à propos de la <name type="manif">communication</name> de <persName>Le Lionnais</persName>, je vous signale une <term>Loi de Zipf</term> (tout seul) :</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Faut-il placer différemment la ponctuation ?</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Ah, non ! On ne ponctue plus ! D’ailleurs, cela pourrait être un axiome de l’OuLiPo. Quoique, au fond, « on ne ponctue plus », cela frise l’orthodoxie. Cela pourrait être un signe de reconnaissance : « Ponctues-tu ? »</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je propose les deux solutions extrêmes : « On ne ponctue plus » et « On ne fait que ponctuer ».</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je voudrais poser une question aux mathématiciens de l’OuLiPo à propos de la <term ref="difdepo:terms.xml#loidestoupzipf">loi d’Estoup-Zipf</term>. Je le ferai quand <persName ref="difdepo:persons.xml#moles">Moles</persName> sera parmi nous. En attendant, et toujours à propos de la <name ref="difdepo:events.xml#communication" type="manif">communication</name> de <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, je vous signale une <term ref="difdepo:terms.xml#loidezipf">Loi de Zipf</term> (tout seul) :</p>
       <p>« Le nombre de significations d’un mot et proportionnel à la racine carrée de sa fréquence. »</p>
-      <p><persName>LATIS</persName> : Cette loi est un truisme, parce que…</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Cette loi est un truisme, parce que…</p>
       <p>(Longue démonstration, impossible à prendre autrement qu’en sténographie. Quand nous aurons un magnétophone, rien de tout cela ne sera perdu. N.S.P.)</p>
-      <p><persName>QUEVAL</persName> (au dataire) : Notez au moins que les infinitifs à grande fréquence et, par conséquent, à significations étendues, sont les verbes faire, etc….</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> (au dataire) : Notez au moins que les infinitifs à grande fréquence et, par conséquent, à significations étendues, sont les verbes faire, etc….</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010011t/f3.highres" n="3"/>
-      <p><persName>QUENEAU</persName> : Je suis heureux que <persName>Latis</persName> parle de <term>machines</term> linguistiques.</p>
-      <p><persName>LATIS</persName> (après un temps) : Tiens, je viens de faire un <term>alexandrin</term> comme le Régent : à partir du célèbre :</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je suis heureux que <persName ref="difdepo:persons.xml#latis">Latis</persName> parle de <term ref="difdepo:terms.xml#machines">machines</term> linguistiques.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> (après un temps) : Tiens, je viens de faire un <term ref="difdepo:terms.xml#alexandrin">alexandrin</term> comme le Régent : à partir du célèbre :</p>
       <p>(MIEL) (DOUX)</p>
       <p>ET LA GRECE MA MERE OU LE CIEL EST SI MOU</p>
       <p>j’écris :</p>
       <p>ET L’AGRES CE MAT MERDRE HOULE CIEL ET SIMOUN.</p>
-      <p><persName>LE LIONNAIS</persName> : La parole ! Aurai-je enfin la parole !</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : La parole ! Aurai-je enfin la parole !</p>
       <p>(Il la prend.)</p>
-      <p><persName>LE LIONNAIS</persName> : Je suis désolé, mais l’<term>alexandrin polysémique</term> doit être également <term>monomorphique</term>. Sinon, il s’agit simplement d’<term>holorimes</term>, dont plusieurs exemples vous sont connus :</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je suis désolé, mais l’<term ref="difdepo:terms.xml#alexandrinpolysemique">alexandrin polysémique</term> doit être également <term ref="difdepo:terms.xml#monomorphique">monomorphique</term>. Sinon, il s’agit simplement d’<term ref="difdepo:terms.xml#holorimes">holorimes</term>, dont plusieurs exemples vous sont connus :</p>
       <p>GAL AMANT DE LA REINE ALLA TOUR MAGNANIME</p>
       <p>GALAMMENT DE L’ARENE A LA TOUR MAGNE A NIMES</p>
-      <p>Je vous signale, à ce propos, que ce distique n’est pas de <persName>Hugo</persName>, comme on le prétend. (Mais de qui ? N.S.P.)</p>
+      <p>Je vous signale, à ce propos, que ce distique n’est pas de <persName ref="difdepo:persons.xml#hugo">Hugo</persName>, comme on le prétend. (Mais de qui ? N.S.P.)</p>
       <p>Autres exemples cités :</p>
       <p>PAR LES BOIS DU DJINN OU S’ENTASSE DE L’EFFROI</p>
-      <p>PARLE ET BOIS DU GIN OU CENT TASSES DE LAIT FROID (<persName>Hugo</persName>)</p>
+      <p>PARLE ET BOIS DU GIN OU CENT TASSES DE LAIT FROID (<persName ref="difdepo:persons.xml#hugo">Hugo</persName>)</p>
       <p>DANS CES MEUBLES LAQUÉS, RIDEAUX ET DAIS MOROSES,</p>
       <p>OU, DURE, EVE D’EFFORTS SA LANGUE IRRITE (ERREUR !)</p>
       <p>OU DU REVE DES FORTS ALANGUIS RIT (TERREUR !)</p>
-      <p>DANSE, AIME, BLEU LAQUAIS, RIS D’OSER DES MOTS ROSES (<persName>Cros</persName>)</p>
-      <p><persName>LE LIONNAIS</persName> : Notez que, dans les <term>vers holorimes</term>, le second <term>vers</term> doit s’enchaîner avec le premier.</p>
+      <p>DANSE, AIME, BLEU LAQUAIS, RIS D’OSER DES MOTS ROSES (<persName ref="difdepo:persons.xml#cros">Cros</persName>)</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Notez que, dans les <term ref="difdepo:terms.xml#versholorimes">vers holorimes</term>, le second <term ref="difdepo:terms.xml#vers">vers</term> doit s’enchaîner avec le premier.</p>
       <p>(Conversations particulières.)</p>
-      <p><persName>LE LIONNAIS</persName> : La parole ! Aurai-je la parole ! Le président s’en fout !</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : La parole ! Aurai-je la parole ! Le président s’en fout !</p>
       <p>(Il la prend)</p>
-      <p><persName>LE LIONNAIS</persName> : Je voulais également vous signaler les deux <term>alexandrins</term> d’<persName>Allais</persName>, dont l’un contient le minimum de <term>signes typographiques</term>, et l’autre le maximum :</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je voulais également vous signaler les deux <term ref="difdepo:terms.xml#alexandrins">alexandrins</term> d’<persName ref="difdepo:persons.xml#allais">Allais</persName>, dont l’un contient le minimum de <term ref="difdepo:terms.xml#signestypographiques">signes typographiques</term>, et l’autre le maximum :</p>
       <p>DE 97 A 99</p>
       <p>MAINTS CHOUANS GOUAILLEURS BAFRAIENT CHAUDE ANDOUILLE ET</p>
       <p>FROID BŒUF</p>
       <p>(Il redemande la parole. On lui crie : « Vous n’arrêtez pas de l’avoir ! » Il rétorque : « On me la coupe sans cesse ! » et enchaîne : )</p>
-      <p><persName>LE LIONNAIS</persName> : <persName>Estoup</persName> était, en 1916, professeur de sténographie. C’est afin de rédiger un traité qu’il a étudié la fréquence des mots et découvert sa loi.</p>
-      <p><persName>LATIS</persName> : C’est une loi de bon sens !</p>
-      <p><persName>LE LIONNAIS</persName> : Pardonnez-moi, mais le bon sens ne suffit pas à expliquer la loi. Le bon sens indique seulement une approximation, soit : la fréquence d’un mot est en raison inverse de sa place dans l’ordre</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : <persName ref="difdepo:persons.xml#estoup">Estoup</persName> était, en 1916, professeur de sténographie. C’est afin de rédiger un traité qu’il a étudié la fréquence des mots et découvert sa loi.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : C’est une loi de bon sens !</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Pardonnez-moi, mais le bon sens ne suffit pas à expliquer la loi. Le bon sens indique seulement une approximation, soit : la fréquence d’un mot est en raison inverse de sa place dans l’ordre</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010011t/f4.highres" n="4"/>
-      <p>des fréquences. (C’est plus qu’une constatation de bon sens : cela découle tout naturellement de la définition des <term>fréquences</term> ; c’est presque une pétition de principe.) Mais ce que le bon sens n’explique pas, c’est que la <term>Loi d’Estoup-Zipf</term> n’est pas approchée, mais rigoureuse.</p>
-      <p><persName>QUENEAU</persName> : Pour éclairer la discussion, permettez-moi de vous énoncer de nouveau cette loi :</p>
+      <p>des fréquences. (C’est plus qu’une constatation de bon sens : cela découle tout naturellement de la définition des <term ref="difdepo:terms.xml#frequences">fréquences</term> ; c’est presque une pétition de principe.) Mais ce que le bon sens n’explique pas, c’est que la <term ref="difdepo:terms.xml#loidestoupzipf">Loi d’Estoup-Zipf</term> n’est pas approchée, mais rigoureuse.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Pour éclairer la discussion, permettez-moi de vous énoncer de nouveau cette loi :</p>
       <p>LA PLACE D’UN MOT DANS LA LISTE ETABLIE SUIVANT LES FREQUENCES, MULTIPLIEE PAR SA FREQUENCE, EST CONSTANTE.</p>
-      <p><persName>QUENEAU</persName> : J’ai essayé de faire un texte sur lequel la loi ne s’applique pas.</p>
-      <p><persName>LE LIONNAIS</persName> : C’est un travail parfaitement OuLiPien !</p>
-      <p><persName>QUENEAU</persName> : J’ai commencé par prendre les deux possibilités extrêmes : si l’on répète mille fois le même mot, elle s’applique ; si l’on écrit mille mots différents, elle s’applique encore. Or, ce qu’il y a d’extrêmement curieux, c’est qu’il existe des langues où cette loi ne s’applique pas. Ce sont : la <term>poésie hermétique</term> ; le latin du moyen âge ; l’hébreu moderne ; l’espéranto ; le <term>basic english</term>. En revanche (et contre toute attente, peut-être) elle s’applique parfaitement à la langue de <persName>Joyce</persName>.</p>
-      <p><persName>BENS</persName> : Pour fabriquer des textes où la loi ne s’applique pas, il faudrait savoir pourquoi elle ne s’applique pas aux langues citées ci-dessus.</p>
-      <p><persName>QUEVAL</persName> : C’est curieux qu’elle ne s’applique, ni avec l’<term>espéranto</term> qui est une <term>langue artificielle</term>, ni avec le basic english qui est une langue la plus naturelle du monde.</p>
-      <p><persName>LE LIONNAIS</persName> : Le basic english n’est pas une langue naturelle ! Je voudrais vous signaler qu’il existe deux connaisseurs de cette question, ce sont ceux qui ont amélioré la loi : MM. <persName>Benoît MANDELBROT</persName> et <persName>APOSTEL</persName>. M. <persName>Mandelbrot</persName> ne sait pas parler français, mais il pourrait répondre en partie aux « pourquoi ». L’ennui, c’est que nous risquons de ne pas comprendre…</p>
-      <p><persName>Jean Lescure</persName> lit la version améliorée de sa communication pour le <title>Dossier de l’OuLiPo</title>. On l’approuve.</p>
-      <p>L’OuLiPo verse une souscription de 50 nouveaux francs pour la revue « <title>TEMPS MELES</title> » qui vient de publier un magnifique numéro consacré à la <name type="manif">décade</name> <persName>QUENEAU</persName> de Cerisy-la-Salle (septembre 1960).</p>
-      <p><name type="manif">Prochaine réunion</name>  :</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’ai essayé de faire un texte sur lequel la loi ne s’applique pas.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : C’est un travail parfaitement OuLiPien !</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’ai commencé par prendre les deux possibilités extrêmes : si l’on répète mille fois le même mot, elle s’applique ; si l’on écrit mille mots différents, elle s’applique encore. Or, ce qu’il y a d’extrêmement curieux, c’est qu’il existe des langues où cette loi ne s’applique pas. Ce sont : la <term ref="difdepo:terms.xml#poesiehermetique">poésie hermétique</term> ; le latin du moyen âge ; l’hébreu moderne ; l’espéranto ; le <term ref="difdepo:terms.xml#basicenglish">basic english</term>. En revanche (et contre toute attente, peut-être) elle s’applique parfaitement à la langue de <persName ref="difdepo:persons.xml#joyce">Joyce</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Pour fabriquer des textes où la loi ne s’applique pas, il faudrait savoir pourquoi elle ne s’applique pas aux langues citées ci-dessus.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : C’est curieux qu’elle ne s’applique, ni avec l’<term ref="difdepo:terms.xml#esperanto">espéranto</term> qui est une <term ref="difdepo:terms.xml#langueartificielle">langue artificielle</term>, ni avec le basic english qui est une langue la plus naturelle du monde.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Le basic english n’est pas une langue naturelle ! Je voudrais vous signaler qu’il existe deux connaisseurs de cette question, ce sont ceux qui ont amélioré la loi : MM. <persName ref="difdepo:persons.xml#benoitmandelbrot">Benoît MANDELBROT</persName> et <persName ref="difdepo:persons.xml#apostel">APOSTEL</persName>. M. <persName ref="difdepo:persons.xml#mandelbrot">Mandelbrot</persName> ne sait pas parler français, mais il pourrait répondre en partie aux « pourquoi ». L’ennui, c’est que nous risquons de ne pas comprendre…</p>
+      <p><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> lit la version améliorée de sa communication pour le <title ref="difdepo:titles.xml#dossierdeloulipo">Dossier de l’OuLiPo</title>. On l’approuve.</p>
+      <p>L’OuLiPo verse une souscription de 50 nouveaux francs pour la revue « <title ref="difdepo:titles.xml#tempsmeles">TEMPS MELES</title> » qui vient de publier un magnifique numéro consacré à la <name ref="difdepo:events.xml#decade" type="manif">décade</name> <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> de Cerisy-la-Salle (septembre 1960).</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  :</p>
       <p>MARDI 3 OCTOBRE 1962 Remise au mardi 17 octobre</p>
       <p>au restaurant Julien et Petit, rue de l’Université.</p>
       <p>(Pas d’ordre du jour communiqué au S. P.)</p>
       <p>par délégation,</p>
-      <p><persName>Gustave Flaubert</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#gustaveflaubert">Gustave Flaubert</persName>.</p>
     </body>
   </text>
 </TEI>

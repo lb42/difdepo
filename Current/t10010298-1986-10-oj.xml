@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010298-1986-10-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010298-1986-10-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,13 +37,13 @@
       <p rend="incipit">&gt;OULIPO du 18/10/86</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><term>Palindrome québécois</term> et exercices divers</item>
+        <item><term ref="difdepo:terms.xml#palindromequebecois">Palindrome québécois</term> et exercices divers</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><name type="manif">Stage Port Cros</name></item>
+        <item><name ref="difdepo:events.xml#stageportcros" type="manif">Stage Port Cros</name></item>
         <item>Subventions C de L</item>
-        <item>Le point sur le <title>Guide</title></item>
+        <item>Le point sur le <title ref="difdepo:titles.xml#guide">Guide</title></item>
       </list>
     </body>
   </text>

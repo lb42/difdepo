@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010317-1988-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010317-1988-06-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,13 +41,13 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010317n/f3.highres" n="3"/>
       <p rend="incipit">24/6/88</p>
-      <p><persName><abbr>JJ</abbr></persName> Bze burr</p>
-      <p>la <term>poésie gorille</term> : une <term>forme fixe</term></p>
-      <p><persName><abbr>MB</abbr></persName> <title>Le dormeur du val</title> en <term>alexandrins greffés</term></p>
-      <p><persName><abbr>CB</abbr></persName> Création en cours : le <title>10<hi rend="sup">14</hi>ème poème</title> de <persName>Raymond Queneau</persName></p>
-      <p>nouveau type de poème : une bergère 28 <term>alexandrins</term></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Bze burr</p>
+      <p>la <term ref="difdepo:terms.xml#poesiegorille">poésie gorille</term> : une <term ref="difdepo:terms.xml#formefixe">forme fixe</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <title ref="difdepo:titles.xml#ledormeurduval">Le dormeur du val</title> en <term ref="difdepo:terms.xml#alexandrinsgreffes">alexandrins greffés</term></p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> Création en cours : le <title ref="difdepo:titles.xml#n1014emepoeme">10<hi rend="sup">14</hi>ème poème</title> de <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></p>
+      <p>nouveau type de poème : une bergère 28 <term ref="difdepo:terms.xml#alexandrins">alexandrins</term></p>
       <p>discussion sur la diérèse et consultation d’un dictionnaire</p>
-      <p><persName><abbr>MM</abbr></persName> Erudition <title>Jeu n°17</title></p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Erudition <title ref="difdepo:titles.xml#jeun17">Jeu n°17</title></p>
     </body>
   </text>
 </TEI>

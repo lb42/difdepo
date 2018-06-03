@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010116-1970-08-21-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010116-1970-08-21-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +37,7 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010116f/f2.highres" n="2"/>
       <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle <lb/></p>
       <p rend="incipit">Jeudi 20, Vendredi 21 Août 1970</p>
-      <p><label type="rubrique"><name type="manif">LE MILLENAIRE</name></label></p>
+      <p><label type="rubrique"><name ref="difdepo:events.xml#lemillenaire" type="manif">LE MILLENAIRE</name></label></p>
       <p>(Pré-programme adopté le lundi 3 Août)</p>
       <p>(A élaguer, compléter, ordonner, retoucher, améliorer par qui de droit)</p>
       <list type="ordered">
@@ -50,46 +49,46 @@
       </list>
       <list type="ordered">
         <item>QUESTIONS FONDAMENTALES ET ESSENTIELLES</item>
-        <item>Un <term>OuLiPo sémantique</term> est-il possible ? (<persName><abbr>F.LL</abbr></persName>) Contenu Thématique <unclear>topier</unclear> Qu’est-ce que la sémantique ?</item>
-        <item><title>S/Z</title></item>
-        <item>L’OuLiPo n’est pas une <term>littérature aléatoire</term>/ <term>littérature par ordinateur</term> ?</item>
-        <item>La part possible de l’ordinateur dans l’<term>OuLiPo sémantique</term></item>
-        <item><term>Glissements de sens</term> dans les <term>mots croisés</term></item>
-        <item>Les <term>définitions</term> dans les <term>mots croisés</term></item>
+        <item>Un <term ref="difdepo:terms.xml#ouliposemantique">OuLiPo sémantique</term> est-il possible ? (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>) Contenu Thématique <unclear>topier</unclear> Qu’est-ce que la sémantique ?</item>
+        <item><title ref="difdepo:titles.xml#sz">S/Z</title></item>
+        <item>L’OuLiPo n’est pas une <term ref="difdepo:terms.xml#litteraturealeatoire">littérature aléatoire</term>/ <term ref="difdepo:terms.xml#litteratureparordinateur">littérature par ordinateur</term> ?</item>
+        <item>La part possible de l’ordinateur dans l’<term ref="difdepo:terms.xml#ouliposemantique">OuLiPo sémantique</term></item>
+        <item><term ref="difdepo:terms.xml#glissementsdesens">Glissements de sens</term> dans les <term ref="difdepo:terms.xml#motscroises">mots croisés</term></item>
+        <item>Les <term ref="difdepo:terms.xml#definitions">définitions</term> dans les <term ref="difdepo:terms.xml#motscroises">mots croisés</term></item>
         <item/>
-        <item><term>Modèles non standards</term> (<persName>P. BRAFFORT</persName>)</item>
-        <item>Etude d’un mythe ; le dossier Cape (<persName>P. BRAFFORT</persName>)</item>
-        <item><persName>Duchateau</persName></item>
+        <item><term ref="difdepo:terms.xml#modelesnonstandards">Modèles non standards</term> (<persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName>)</item>
+        <item>Etude d’un mythe ; le dossier Cape (<persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName>)</item>
+        <item><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName></item>
       </list>
       <list type="ordered">
         <item>QUESTIONS ESSENTIELLES SANS TOUTEFOIS ETRE FONDAMENTALES</item>
-        <item>Rapports avec les autres groupes (<persName>R. QUENEAU</persName>) Pas de revue <orgName><title>Tel Quel</title></orgName> <title><orgName>Change</orgName></title> <title>Poétique</title></item>
-        <item>Les <term>structures du roman policier</term> (<persName><abbr>F.LL</abbr></persName>)</item>
-        <item>Collaboration radiophonique (<persName>G. Perec</persName>)</item>
+        <item>Rapports avec les autres groupes (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>) Pas de revue <orgName ref="difdepo:organizations.xml#telquel"><title ref="difdepo:titles.xml#telquel">Tel Quel</title></orgName> <title ref="difdepo:titles.xml#change"><orgName ref="difdepo:organizations.xml#change">Change</orgName></title> <title ref="difdepo:titles.xml#poetique">Poétique</title></item>
+        <item>Les <term ref="difdepo:terms.xml#structuresduromanpolicier">structures du roman policier</term> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item>Collaboration radiophonique (<persName ref="difdepo:persons.xml#gperec">G. Perec</persName>)</item>
         <item/>
       </list>
       <list type="ordered">
         <item>QUESTIONS NON TOUT A FAIT DEPOURVUES D’INTERET</item>
-        <item><term>Lexique des mots autologiques et antiautologiques</term>. <term>Relations croisées</term> (<persName><abbr>F.LL</abbr></persName>)</item>
-        <item><term>Blancs alexandrins dans la prose</term> (<persName>J. QUEVAL</persName>)</item>
+        <item><term ref="difdepo:terms.xml#lexiquedesmotsautologiquesetantiautologiques">Lexique des mots autologiques et antiautologiques</term>. <term ref="difdepo:terms.xml#relationscroisees">Relations croisées</term> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><term ref="difdepo:terms.xml#blancsalexandrinsdanslaprose">Blancs alexandrins dans la prose</term> (<persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName>)</item>
         <item/>
       </list>
       <p><label type="rubrique">Travailleurs tcheques.</label></p>
       <list type="ordered">
         <item>DIVERS</item>
         <item>Menus propos.</item>
-        <item><term>Metaquès</term> (<persName>R. QUENEAU</persName>) Mon mari est allé à l’hôpital on l’a pris pour un cow boy</item>
+        <item><term ref="difdepo:terms.xml#metaques">Metaquès</term> (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>) Mon mari est allé à l’hôpital on l’a pris pour un cow boy</item>
       </list>
-      <p><term>Palindrome</term>. <persName>Proust</persName></p>
+      <p><term ref="difdepo:terms.xml#palindrome">Palindrome</term>. <persName ref="difdepo:persons.xml#proust">Proust</persName></p>
       <list type="ordered">
         <item>Divers :</item>
-        <item><name type="manif">Prochaine réunion</name> Invités. <persName>Bénabou</persName>. <persName>Barthes</persName>. <persName>Jaulin</persName></item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> Invités. <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>. <persName ref="difdepo:persons.xml#barthes">Barthes</persName>. <persName ref="difdepo:persons.xml#jaulin">Jaulin</persName></item>
       </list>
-      <p>V. 11 Septembre ; puis J. 28 août (<persName>Bénabou</persName>)</p>
+      <p>V. 11 Septembre ; puis J. 28 août (<persName ref="difdepo:persons.xml#benabou">Bénabou</persName>)</p>
       <list type="ordered">
         <item>Divers.</item>
       </list>
-      <p><title>Change</title> (<orgName>Seuil</orgName>) n°6 <persName>Perec</persName> <term>Palindrome</term></p>
+      <p><title ref="difdepo:titles.xml#change">Change</title> (<orgName ref="difdepo:organizations.xml#seuil">Seuil</orgName>) n°6 <persName ref="difdepo:persons.xml#perec">Perec</persName> <term ref="difdepo:terms.xml#palindrome">Palindrome</term></p>
     </body>
   </text>
 </TEI>

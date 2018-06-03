@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010187-1976-07-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010187-1976-07-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010187-1976-07-cv</idno> <title>Convocation à <ref target="#t10010187-1976-07">une réunion Oulipo</ref>, envoyée le <date when="1976-07-05">5 juillet 1976</date> par <persName role="expéditeur">Georges Perec</persName> à <persName role="destinataire">Marcel Bénabou</persName></title></bibl>
+        <bibl><idno>t10010187-1976-07-cv</idno> <title>Convocation à <ref target="#t10010187-1976-07">une réunion Oulipo</ref>, envoyée le <date when="1976-07-05">5 juillet 1976</date> par <persName ref="difdepo:persons.xml#georgesperec" role="expéditeur">Georges Perec</persName> à <persName ref="difdepo:persons.xml#marcelbenabou" role="destinataire">Marcel Bénabou</persName></title></bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -38,18 +37,18 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010187s/f1.highres" n="1"/>
       <p rend="incipit">5/7/76</p>
-      <p>Cher <persName><abbr>Marcel</abbr></persName> :</p>
-      <p>Notre <name type="manif">prochaine réunion</name> a été fixée au mardi 3 août 1976, à 11h30, 13 rue Linné.</p>
+      <p>Cher <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> :</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> a été fixée au mardi 3 août 1976, à 11h30, 13 rue Linné.</p>
       <p>A l’ordre du jour, notamment :</p>
       <list type="ordered">
-        <item><title>la Princesse Hoppy</title>, 2° livraison</item>
-        <item>C.r. de la <name type="manif">rencontre de Lyon</name></item>
-        <item><persName>Montserrat Caballé</persName> ou <title>la Cantatrice sauve</title></item>
+        <item><title ref="difdepo:titles.xml#laprincessehoppy">la Princesse Hoppy</title>, 2° livraison</item>
+        <item>C.r. de la <name ref="difdepo:events.xml#rencontredelyon" type="manif">rencontre de Lyon</name></item>
+        <item><persName ref="difdepo:persons.xml#montserratcaballe">Montserrat Caballé</persName> ou <title ref="difdepo:titles.xml#lacantatricesauve">la Cantatrice sauve</title></item>
         <item>etc.</item>
       </list>
       <p>Me fais savoir à temps si tu viendras afin que je puisse organiser le repas en conséquence.</p>
       <p>D’avance merci</p>
-      <p>Oulipiennement à toi<persName><abbr>GP</abbr></persName></p>
+      <p>Oulipiennement à toi<persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
     </body>
   </text>
 </TEI>

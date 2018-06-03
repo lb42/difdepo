@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010230-1980-08-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010230-1980-08-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,27 +38,27 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010230z/f7.highres" n="7"/>
       <p rend="incipit">Ordre du jour 8/8/80</p>
       <p><label type="rubrique">Créations :</label></p>
-      <p><persName><abbr>PB</abbr></persName> : Collaboration au <title>n° Valentin Brû</title></p>
-      <p><persName><abbr>MB</abbr></persName> : idem</p>
-      <p><persName><abbr>FLL</abbr></persName> : idem</p>
-      <p><persName><abbr>LE</abbr></persName> : idem</p>
-      <p><persName><abbr>PF</abbr></persName> : idem</p>
-      <p><persName><abbr>LE</abbr></persName> : Un nouvel Opéra de <persName>Mozart</persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Collaboration au <title ref="difdepo:titles.xml#nvalentinbru">n° Valentin Brû</title></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Un nouvel Opéra de <persName ref="difdepo:persons.xml#mozart">Mozart</persName></p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName><abbr>PB</abbr></persName> : <name type="manif">Villeneuve-lès-Avignon</name></p>
-      <p><persName><abbr>JB</abbr></persName></p>
-      <p><persName><abbr>PB</abbr></persName> : <term>Oulipo pédago</term></p>
-      <p><persName><abbr>PF</abbr></persName> ; <title>Oulipo 2</title> / <persName><abbr>FLL</abbr></persName> : <persName>Pierre Angé</persName>, <title>3e manifeste</title></p>
-      <p><persName><abbr>PB</abbr></persName> : <name type="manif">Pompidou</name> 2</p>
-      <p><label type="rubrique"><title>Bibliothèque oulipienne</title></label></p>
-      <p><persName><abbr>PF</abbr></persName> : <title>n°14</title>/ <orgName>POL</orgName></p>
-      <p><persName><abbr>MB</abbr></persName> : Phynances</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <term ref="difdepo:terms.xml#oulipopedago">Oulipo pédago</term></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> ; <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title> / <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#pierreange">Pierre Angé</persName>, <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#pompidou" type="manif">Pompidou</name> 2</p>
+      <p><label type="rubrique"><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></label></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#n14">n°14</title>/ <orgName ref="difdepo:organizations.xml#pol">POL</orgName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Phynances</p>
       <p><label type="rubrique">Phynances</label></p>
-      <p><persName><abbr>MB</abbr></persName> : <name type="manif">Villeneuve</name></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></p>
       <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName><abbr>FLL</abbr></persName> : Raba</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Raba</p>
       <p>Souris chouette grenouille</p>
-      <p>La <term>métempsychose</term> : les <unclear>cysygies</unclear> en littérature (reportez cela !)</p>
+      <p>La <term ref="difdepo:terms.xml#metempsychose">métempsychose</term> : les <unclear>cysygies</unclear> en littérature (reportez cela !)</p>
     </body>
   </text>
 </TEI>

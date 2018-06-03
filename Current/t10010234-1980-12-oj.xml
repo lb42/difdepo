@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010234-1980-12-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010234-1980-12-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,28 +38,28 @@
       <p rend="incipit">Ordre du jour</p>
       <list type="unordered">
         <item>Création</item>
-        <item><persName><abbr>JQ</abbr></persName> <persName>Benshi</persName></item>
-        <item><persName><abbr>JR</abbr></persName> <orgName>CRA</orgName> <persName>Mallarmé</persName></item>
-        <item><persName><abbr>PF</abbr></persName> <term>Magnétophone</term> à 8 pistes</item>
-        <item><persName><abbr>MB</abbr></persName> Oulipo et histoire</item>
-        <item><persName><abbr>PB</abbr></persName> <unclear>???</unclear></item>
+        <item><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#benshi">Benshi</persName></item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <orgName ref="difdepo:organizations.xml#cra">CRA</orgName> <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <term ref="difdepo:terms.xml#magnetophone">Magnétophone</term> à 8 pistes</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Oulipo et histoire</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <unclear>???</unclear></item>
         <item>Action</item>
-        <item><persName><abbr>PF</abbr></persName> : <title>Bibliothèque oulipienne</title>+ <title>vol II</title> + <name type="manif">Rouen</name></item>
-        <item><persName><abbr>MB</abbr></persName> : <title><abbr>BO</abbr></title> + Phinances + Diffusion</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>+ <title ref="difdepo:titles.xml#volii">vol II</title> + <name ref="difdepo:events.xml#rouen" type="manif">Rouen</name></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne"><abbr>BO</abbr></title> + Phinances + Diffusion</item>
         <item>JQ : <unclear>???</unclear>Invité d’honneur</item>
-        <item><persName><abbr>PB</abbr></persName> : <orgName>Alamo</orgName> <persName><abbr>JB</abbr></persName> : <name type="manif">Toulouse</name></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <name ref="difdepo:events.xml#toulouse" type="manif">Toulouse</name></item>
       </list>
       <list type="unordered">
         <item>Erudition</item>
-        <item><persName><abbr>MB</abbr></persName> : <term>cartes surréalistes</term></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#cartessurrealistes">cartes surréalistes</term></item>
       </list>
       <list type="unordered">
         <item>Menus propos</item>
-        <item><persName><abbr>NL</abbr></persName> + <title>Libération</title></item>
+        <item><persName ref="difdepo:persons.xml#nl"><abbr>NL</abbr></persName> + <title ref="difdepo:titles.xml#liberation">Libération</title></item>
       </list>
       <list type="unordered">
         <item>Prochaine séance + invité d’honneur</item>
-        <item><orgName>Oupopo</orgName> <persName><abbr>JD</abbr></persName></item>
+        <item><orgName ref="difdepo:organizations.xml#oupopo">Oupopo</orgName> <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName></item>
       </list>
     </body>
   </text>

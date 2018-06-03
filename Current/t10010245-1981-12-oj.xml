@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010245-1981-12-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010245-1981-12-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,27 +40,27 @@
       <p rend="incipit">PF président</p>
       <p><label type="rubrique">Création :</label></p>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> : Un absent de marque.</item>
-        <item><persName><abbr>JR</abbr></persName> : <persName>Giordano Bruno</persName> et l’oulipo.</item>
-        <item><persName><abbr>PB</abbr></persName> : <term>Roman policier plagié</term>.</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Un absent de marque.</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <persName ref="difdepo:persons.xml#giordanobruno">Giordano Bruno</persName> et l’oulipo.</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <term ref="difdepo:terms.xml#romanpolicierplagie">Roman policier plagié</term>.</item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName><abbr>PF</abbr></persName> : <name type="manif">Nantes</name></item>
-        <item><persName><abbr>PF</abbr></persName> : <name type="manif">Villeneuve</name></item>
-        <item>Bibliothèque oulipienne : <persName><abbr>PF</abbr></persName></item>
-        <item><persName><abbr>PF</abbr></persName> + tous : <title>Atlas</title></item>
-        <item><persName><abbr>PB</abbr></persName> : <orgName>Alamo</orgName></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <name ref="difdepo:events.xml#nantes" type="manif">Nantes</name></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></item>
+        <item>Bibliothèque oulipienne : <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> + tous : <title ref="difdepo:titles.xml#atlas">Atlas</title></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName></item>
       </list>
       <p><label type="rubrique">Erudition.</label></p>
       <list type="unordered">
-        <item><persName>J Lescure</persName> : AEIOU</item>
-        <item><persName><abbr>JL</abbr></persName> : le mystère en fleur <persName>Jacques Charpentreau</persName></item>
-        <item><persName><abbr>PB</abbr></persName> : <title>La cosmogonie</title> vue par <persName>Calvino</persName>.</item>
-        <item><persName><abbr>PB</abbr></persName> : <title>dictionnaire de l’informatique</title></item>
-        <item><persName><abbr>PF</abbr></persName> <persName><abbr>PB</abbr></persName> : <term>jeu de cartes</term></item>
+        <item><persName ref="difdepo:persons.xml#jlescure">J Lescure</persName> : AEIOU</item>
+        <item><persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> : le mystère en fleur <persName ref="difdepo:persons.xml#jacquescharpentreau">Jacques Charpentreau</persName></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <title ref="difdepo:titles.xml#lacosmogonie">La cosmogonie</title> vue par <persName ref="difdepo:persons.xml#calvino">Calvino</persName>.</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <title ref="difdepo:titles.xml#dictionnairedelinformatique">dictionnaire de l’informatique</title></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <term ref="difdepo:terms.xml#jeudecartes">jeu de cartes</term></item>
       </list>
-      <p><name type="manif">Prochaine réunion</name>  : vendredi 22 janvier 82</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : vendredi 22 janvier 82</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xml:id="t10010329-1989-08-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010329-1989-08-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,27 +39,27 @@
       <p rend="incipit">OULIPO</p>
       <p><label type="rubrique">Erudition :</label></p>
       <p>PPA</p>
-      <p>Des <term>hypogrammes saussuriens</term> </p>
-      <p>au <term>beau présent</term></p>
+      <p>Des <term ref="difdepo:terms.xml#hypogrammessaussuriens">hypogrammes saussuriens</term> </p>
+      <p>au <term ref="difdepo:terms.xml#beaupresent">beau présent</term></p>
       <list type="unordered">
-        <item>les articles de <persName>Starobinski</persName> sur <persName>Saussure</persName> et le <term>vers saturnien</term></item>
-        <item>la démonstration de <persName>Latis</persName> <title>Subsidia</title> 15 page 38</item>
+        <item>les articles de <persName ref="difdepo:persons.xml#starobinski">Starobinski</persName> sur <persName ref="difdepo:persons.xml#saussure">Saussure</persName> et le <term ref="difdepo:terms.xml#verssaturnien">vers saturnien</term></item>
+        <item>la démonstration de <persName ref="difdepo:persons.xml#latis">Latis</persName> <title ref="difdepo:titles.xml#subsidia">Subsidia</title> 15 page 38</item>
       </list>
-      <p>OULIPO Présent dans <title>Bucolique</title></p>
+      <p>OULIPO Présent dans <title ref="difdepo:titles.xml#bucolique">Bucolique</title></p>
       <list type="unordered">
-        <item>passage à la limite de l’<term>hypogramme</term> = le <term>beau présent anagramme</term> permanent</item>
+        <item>passage à la limite de l’<term ref="difdepo:terms.xml#hypogramme">hypogramme</term> = le <term ref="difdepo:terms.xml#beaupresentanagramme">beau présent anagramme</term> permanent</item>
       </list>
-      <p><title>The Infant’s Grammar</title></p>
+      <p><title ref="difdepo:titles.xml#theinfantsgrammar">The Infant’s Grammar</title></p>
       <p><label type="rubrique">Finances</label></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f16.highres" n="15"/>
       <p rend="incipit">OULIPO 18/8</p>
       <p rend="incipit">Oui Excusés</p>
-      <p rend="incipit"><persName><abbr>JR</abbr></persName> <persName><abbr>NA</abbr></persName></p>
-      <p rend="incipit"><persName><abbr>FC</abbr></persName> <persName><abbr>JL</abbr></persName></p>
-      <p rend="incipit"><persName><abbr>JJ</abbr></persName> <persName><abbr>HM</abbr></persName> (en Amérique)</p>
-      <p rend="incipit"><persName><abbr>CB</abbr></persName> <persName><abbr>MM</abbr></persName></p>
-      <p rend="incipit"><persName><abbr>PF</abbr></persName></p>
-      <p rend="incipit"><persName><abbr>MB</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> (en Amérique)</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
     </body>
   </text>
 </TEI>
