@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010180-1977-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1977-06-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,14 +18,14 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010180-1977-06-cr</idno> <meeting xml:id="t10010180-1977-06">
-          <date when="1977-06-24">24 juin 1977</date>
+          <date when="1977-06-24">24/06/1977</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -44,29 +43,29 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f29.highres" n="29"/>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> L.S. <orgName ref="../thesauri/organizations.xml#beaubourg">Beaubourg</orgName></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> L.S. <orgName ref="#beaubourg">Beaubourg</orgName></p>
       <p><unclear>Schler</unclear></p>
       <p rend="incipit"><unclear>Crypl</unclear></p>
       <p rend="incipit">OuLiPo le 24 6 77</p>
-      <p><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="../thesauri/persons.xml#pf"><abbr>P.F.</abbr></persName> <title ref="../thesauri/titles.xml#aqueneau">A <persName ref="../thesauri/persons.xml#rq">Queneau</persName></title>. Quoi faire des 150 exemplaires du tirage défectif ?</p>
+      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="#pf"><choice><abbr>P.F.</abbr><expan>Paul Fournel</expan></choice></persName> <title ref="#aqueneau">A <persName>Queneau</persName></title>. Quoi faire des 150 exemplaires du tirage défectif ?</p>
       <p>2 exemplaires à chaque oulipien – à poinçonner ; engagement de ne jamais les vendre</p>
       <p>+ autres décomposés en « tirés à parts »</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f30.highres" n="30"/>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : <persName ref="../thesauri/persons.xml#conradbureau">Conrad Bureau</persName> : <title ref="../thesauri/titles.xml#linguistiquefonctionnelle">Linguistique fonctionnelle …</title></item>
-        <item><persName ref="../thesauri/persons.xml#jq">Queval</persName> : incorporation de</item>
+        <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <persName ref="#conradbureau">Conrad Bureau</persName> : <title ref="#linguistiquefonctionnelle">Linguistique fonctionnelle …</title></item>
+        <item><persName ref="#jq">Queval</persName> : incorporation de</item>
       </list>
-      <p><term ref="../thesauri/terms.xml#citationsclandestines">citations clandestines</term> – <persName ref="../thesauri/persons.xml#anthonypowell">Anthony Powell</persName>, Qu. <persName ref="../thesauri/persons.xml#proust">Proust.</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> :</p>
+      <p><term ref="#citationsclandestines">citations clandestines</term> – <persName ref="#anthonypowell">Anthony Powell</persName>, Qu. <persName ref="#proust">Proust.</persName></p>
+      <p><persName ref="#pb">Braffort</persName> :</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> :</item>
-        <item><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : <title ref="../thesauri/titles.xml#oulipoii">Oulipo II</title> pour<persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> :</item>
+        <item><persName ref="#pb">Braffort</persName> : <title ref="#oulipoii">Oulipo II</title> pour<persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
       </list>
-      <p>aussi bien que <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> pour <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></p>
+      <p>aussi bien que <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> pour <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : <title ref="../thesauri/titles.xml#oulipoii">Oulipo II</title> non seulement à <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> mais à <persName ref="../thesauri/persons.xml#ams">Schmidt</persName></item>
+        <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : <title ref="#oulipoii">Oulipo II</title> non seulement à <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName> mais à <persName ref="#ams">Schmidt</persName></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#la">Latis</persName></p>
+      <p><persName ref="#la">Latis</persName></p>
     </body>
   </text>
 </TEI>

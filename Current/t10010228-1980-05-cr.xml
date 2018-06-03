@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010228-1980-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010228-1980-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +17,15 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010228-1980-05-cr</idno> <meeting xml:id="t10010228-1980-05">
-          <date when="1980-05-23">23 mai 1980</date>
+          <date when="1980-05-23">23/05/1980</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,31 +47,31 @@
       <p rend="incipit">Oulipo 23-5-80</p>
       <p rend="incipit">Présents : MB, NA, JB, CB, IC, MM</p>
       <p rend="incipit">Excusés : GP, FLL, PF, JD, LE, JQ</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : <name ref="../thesauri/events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : <name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
       <p>Date fixé : 14-19 août</p>
-      <p>– Proposition <persName ref="../thesauri/persons.xml#jb">Bens</persName> ***: faire 2 salles d'exercice, l'une pour les débutants, l'autres pour les avancer qui veulent rester plusieurs jours</p>
+      <p>– Proposition <persName ref="#jb">Bens</persName> ***: faire 2 salles d'exercice, l'une pour les débutants, l'autres pour les avancer qui veulent rester plusieurs jours</p>
       <p>– préparation du <ref>planning ci-joint</ref></p>
-      <p><persName ref="../thesauri/persons.xml#cb">C. Berge</persName> : <orgName ref="../thesauri/organizations.xml#cerisy">Cerisy</orgName> et *** <term ref="../thesauri/terms.xml#graphes">graphes</term></p>
+      <p><persName ref="#cb">C. Berge</persName> : <orgName ref="#cerisy">Cerisy</orgName> et *** <term ref="#graphes">graphes</term></p>
       <p>Comment et qui ?</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> (au téléphone) : <persName ref="../thesauri/persons.xml#erval">Erval</persName> est d'accord pour lire le manuscrit d'Oulipo 2 qui lui sera remis le 26 avril ou le 27, dès que <persName ref="../thesauri/persons.xml#pb">Braffort</persName> aura remis la partie qui (<unclear>illisible</unclear>)</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> (au téléphone) : au <gap/> prépare un concours sur <title ref="../thesauri/titles.xml#artetordinateur">Art et ordinateur</title></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : - Beaubourg 80 – <persName ref="../thesauri/persons.xml#balpe">Balpe</persName></p>
+      <p><persName ref="#pf">Fournel</persName> (au téléphone) : <persName ref="#erval">Erval</persName> est d'accord pour lire le manuscrit d'Oulipo 2 qui lui sera remis le 26 avril ou le 27, dès que <persName ref="#pb">Braffort</persName> aura remis la partie qui (<unclear>illisible</unclear>)</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> (au téléphone) : au <gap/> prépare un concours sur <title ref="#artetordinateur">Art et ordinateur</title></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : - Beaubourg 80 – <persName ref="#balpe">Balpe</persName></p>
       <p>faire une manifestation fin novembre ou décembre à Beaubourg au moment de la (illisible) des Bourgeois</p>
-      <p>– TEP <persName ref="../thesauri/persons.xml#rq">Queneau</persName> : à prévoir</p>
-      <p><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> : ***</p>
-      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> : Oulipo ***</p>
+      <p>– TEP <persName ref="#rq">Queneau</persName> : à prévoir</p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> : ***</p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : Oulipo ***</p>
       <p>prévoir pour le 30 juin des textes sur Queneau</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : fournir arithmétique de Queneau</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> : correspondance mathématiques</p>
-      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> : exercice</p>
-      <p><persName ref="../thesauri/persons.xml#italo"><abbr>Italo</abbr></persName> : ex</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : histoires</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="../thesauri/titles.xml#moraleelementaire">morale élémentaire</title></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : Car du <name ref="../thesauri/events.xml#stageaavignon" type="manif">stage à Avignon</name></p>
-      <p><persName ref="../thesauri/persons.xml#isou">Isou</persName> : *** remis à <persName ref="../thesauri/persons.xml#na">Arnaud</persName> au *** sur l'oulipo</p>
-      <p><persName ref="../thesauri/persons.xml#mm">M Métail</persName> : projet à partir du <title ref="../thesauri/titles.xml#bottin">Bottin</title> : rassembler ceux qui ont fait quelque chose avec le <title ref="../thesauri/titles.xml#bottin">Bottin</title></p>
-      <p>20 juin prochaine réunion</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : fournir arithmétique de Queneau</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : correspondance mathématiques</p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : exercice</p>
+      <p><persName ref="#ic"><choice><abbr>Italo</abbr><expan>Italo Calvino</expan></choice></persName> : ex</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : histoires</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <title ref="#moraleelementaire">morale élémentaire</title></p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : Car du <name ref="#stageaavignon" type="manif">stage à Avignon</name></p>
+      <p><persName ref="#isou">Isou</persName> : *** remis à <persName ref="#na">Arnaud</persName> au *** sur l'oulipo</p>
+      <p><persName ref="#mm">M Métail</persName> : projet à partir du <title ref="#bottin">Bottin</title> : rassembler ceux qui ont fait quelque chose avec le <title ref="#bottin">Bottin</title></p>
+      <p>20 juin <name ref="#prochainereunion" type="manif">prochaine réunion</name> </p>
     </body>
   </text>
 </TEI>

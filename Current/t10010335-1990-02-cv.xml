@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010335-1990-02-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010335-1990-02-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010335-1990-02-cv</idno> <title>Convocation à <ref target="#t10010335-1990-02">une réunion Oulipo</ref>, envoyée le <date when="1990-02-01">1 février 1990</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010335-1990-02-cv</idno> <title>Convocation à <ref target="#t10010335-1990-02">une réunion Oulipo</ref>, envoyée le <date when="1990-02-01">01/02/1990</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,9 +32,9 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Paris, le 1er février 1990</p>
       <p>Chers oulipiens,</p>
-      <p>La prochaine réunion de l’Ouvroir aura lieu le lundi 19 février 1990 à 19 heures chez <persName ref="../thesauri/persons.xml#jj">Jacques Jouet</persName> (12 rue de Lancry-75010 Paris, tél. 42 41 20 07).</p>
-      <p><persName ref="../thesauri/persons.xml#despatin">Despatin</persName> &amp; <persName ref="../thesauri/persons.xml#gobeli">Gobeli</persName> seront présents, à 19 heures, pour une séance photos.</p>
-      <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="../thesauri/persons.xml#jj">Jacques Jouet</persName>.</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le lundi 19 février 1990 à 19 heures chez <persName ref="#jj">Jacques Jouet</persName> (12 rue de Lancry-75010 Paris, tél. 42 41 20 07).</p>
+      <p><persName ref="#despatin">Despatin</persName> &amp; <persName ref="#gobeli">Gobeli</persName> seront présents, à 19 heures, pour une séance photos.</p>
+      <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="#jj">Jacques Jouet</persName>.</p>
       <p>Au 19, amitiés.</p>
       <p>Paul</p>
     </body>

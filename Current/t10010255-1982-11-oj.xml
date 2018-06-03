@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010255-1982-11-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010255-1982-11-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010255-1982-11-oj</idno> <title>Ordre de jour de <ref target="#t10010255-1982-11">la réunion Oulipo</ref> de <date when="1982-11-16">16 novembre 1982</date></title></bibl>
+        <bibl><idno>t10010255-1982-11-oj</idno> <title>Ordre de jour de <ref target="#t10010255-1982-11">la réunion Oulipo</ref> de <date when="1982-11-16">16/11/1982</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,32 +32,32 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102551/f30.highres" n="30"/>
       <p rend="incipit">OULIPO du Mardi 16 novembre 1982</p>
-      <p rend="incipit">Présidence : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p rend="incipit">Secrétariat : <persName ref="../thesauri/persons.xml#mb">Marcel Benabou</persName>.</p>
+      <p rend="incipit">Présidence : <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></p>
+      <p rend="incipit">Secrétariat : <persName ref="#mb">Marcel Benabou</persName>.</p>
       <p rend="incipit">Excusés</p>
       <p rend="incipit">Inexcusés</p>
-      <p><label type="rubrique">Action</label></p>
-      <p>Toulouse / Albi : <persName ref="../thesauri/persons.xml#pb">Braffort</persName> <lb/><persName ref="../thesauri/persons.xml#mb">Benabou</persName> : Enigme <persName ref="../thesauri/persons.xml#jq">Queval</persName></p>
-      <p><title ref="../thesauri/titles.xml#jemesouviens">Je me souviens</title> …<unclear>illisible</unclear> <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName></p>
-      <p><persName ref="../thesauri/persons.xml#monicaguell">Monica Guell</persName> <orgName ref="../thesauri/organizations.xml#amisgeorgesperec">Amis <persName ref="../thesauri/persons.xml#gp">Georges Perec</persName></orgName></p>
-      <p><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> ; La Haye Pays-Bas,</p>
-      <p><persName ref="../thesauri/persons.xml#mb">Benabou</persName> <persName ref="../thesauri/persons.xml#gp">Perec</persName> par <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName></p>
-      <p>Table <persName ref="../thesauri/persons.xml#mb">Marcel Benabou</persName></p>
-      <p><label type="rubrique">Travaux création</label></p>
-      <p><term ref="../thesauri/terms.xml#bouledeneige">Boule de neige</term>, <persName ref="../thesauri/persons.xml#jq">Queval</persName></p>
-      <p>Question : <persName ref="../thesauri/persons.xml#harry"><abbr>Harry</abbr></persName></p>
-      <p><orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName> : <orgName ref="../thesauri/organizations.xml#atelierlitteratureassisteeparordinateur">atelier littérature assistée par ordinateur</orgName></p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p>Création oumupienne <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName></p>
-      <p>Oumupo : par <persName ref="../thesauri/persons.xml#hm">Harry Mathews</persName> ; opéra à 4 notes <persName ref="../thesauri/persons.xml#johncage">John Cage</persName></p>
+      <p><label type="rubrique">Action</label> </p>
+      <p>Toulouse / Albi : <persName ref="#pb">Braffort</persName> <lb/><persName ref="#mb">Benabou</persName> : Enigme <persName ref="#jq">Queval</persName></p>
+      <p><title ref="#jemesouviens">Je me souviens</title> …<unclear>illisible</unclear> <persName ref="#le">Luc Etienne</persName></p>
+      <p><persName ref="#monicaguell">Monica Guell</persName> <orgName ref="#amisgeorgesperec">Amis <persName ref="#gp">Georges Perec</persName></orgName> </p>
+      <p><persName ref="#pf">Paul Fournel</persName> ; La Haye Pays-Bas,</p>
+      <p><persName ref="#mb">Benabou</persName> <persName ref="#gp">Perec</persName> par <persName ref="#le">Luc Etienne</persName></p>
+      <p>Table <persName ref="#mb">Marcel Benabou</persName></p>
+      <p><label type="rubrique">Travaux création</label> </p>
+      <p><term ref="#bouledeneige">Boule de neige</term>, <persName ref="#jq">Queval</persName></p>
+      <p>Question : <persName ref="#hm"><choice><abbr>Harry</abbr><expan>Harry Mathews</expan></choice></persName></p>
+      <p><orgName ref="#alamo">Alamo</orgName> : <orgName ref="#atelierlitteratureassisteeparordinateur">atelier littérature assistée par ordinateur</orgName></p>
+      <p><label type="rubrique">Erudition</label> </p>
+      <p>Création oumupienne <persName ref="#le">Luc Etienne</persName></p>
+      <p>Oumupo : par <persName ref="#hm">Harry Mathews</persName> ; opéra à 4 notes <persName ref="#johncage">John Cage</persName></p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : <title ref="../thesauri/titles.xml#cheneetchien">Chêne et Chien</title>, Texas …. <unclear>Illisible</unclear></p>
-      <p><title ref="../thesauri/titles.xml#dictionnairemathematiques">Dictionnaire Mathématiques</title> : Dieu et Diable</p>
-      <p>FLL : <unclear>Claire Margot</unclear>  ; <persName ref="../thesauri/persons.xml#marieadele">Marie-Adèle</persName>.</p>
-      <p>Prochaine réunion : 17 XII</p>
+      <p><persName ref="#pb">Braffort</persName> : <title ref="#cheneetchien">Chêne et Chien</title>, Texas …. <unclear>Illisible</unclear></p>
+      <p><title ref="#dictionnairemathematiques">Dictionnaire Mathématiques</title> : Dieu et Diable</p>
+      <p>FLL : <unclear>Claire Margot</unclear>  ; <persName ref="#marieadele">Marie-Adèle</persName>.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : 17 XII</p>
       <p><unclear>Ecrit</unclear></p>
-      <p><label type="rubrique">Invités d’honneur :</label></p>
-      <p><persName ref="../thesauri/persons.xml#klinkenberg">Klinkenberg</persName>, <persName ref="../thesauri/persons.xml#marinayaguello">Marina Yaguello</persName> (<persName ref="../thesauri/persons.xml#pb">Braffort</persName>).</p>
+      <p><label type="rubrique">Invités d’honneur :</label> </p>
+      <p><persName ref="#klinkenberg">Klinkenberg</persName>, <persName ref="#marinayaguello">Marina Yaguello</persName> (<persName ref="#pb">Braffort</persName>).</p>
     </body>
   </text>
 </TEI>

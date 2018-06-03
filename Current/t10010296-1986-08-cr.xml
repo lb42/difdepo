@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010296-1986-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010296-1986-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +17,16 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010296-1986-08-cr</idno> <meeting xml:id="t10010296-1986-08">
-          <date when="1986-08-22">22 août 1986</date>
+          <date when="1986-08-22">22/08/1986</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj" role="président"><abbr>JJ</abbr></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jj" role="président"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,27 +44,27 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102964/f5.highres" n="5"/>
-      <p rend="incipit">Réunion du 22 Août 86 chez <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> (Prt). <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>. <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>.</p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>. <persName ref="../thesauri/persons.xml#na"><abbr>NA.</abbr></persName></p>
-      <p rend="incipit">Absents : <persName ref="../thesauri/persons.xml#am"><abbr>AM</abbr></persName>. <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName>. <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName>. <persName ref="../thesauri/persons.xml#fr"><abbr>FR</abbr></persName>.</p>
+      <p rend="incipit">Réunion du 22 Août 86 chez <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>. <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>. <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>. <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> (Prt). <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>. <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.</p>
+      <p rend="incipit">Excusés : <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>, <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>. <persName ref="#na"><choice><abbr>NA.</abbr><expan>Noël Arnaud</expan></choice></persName></p>
+      <p rend="incipit">Absents : <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. <persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName>. <persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName>. <persName ref="#pr"><choice><abbr>PR</abbr><expan>Pierre Rosenstiehl</expan></choice></persName>.</p>
       <p rend="incipit">Aubergines, feuilles de vigne, concombre, gigot pommes de terre carottes</p>
       <p rend="incipit">Fromage glace et framboises, rosé et rouge.</p>
       <p><label type="rubrique">Créations</label></p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> ébauche d’un traitement oulipien de l’Histoire (donnera un exemple en archives plus tard). Préface à son étude sur <persName ref="../thesauri/persons.xml#petrarque">Pétrarque</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : c’était le même projet que celui du début du <title ref="../thesauri/titles.xml#vol3">vol. 3</title> dans sa première manière.</p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> : <term ref="../thesauri/terms.xml#traductionliponymique">Traduction liponymique</term> : <ref>archives</ref>.</p>
-      <p><label type="rubrique">Eruditions</label></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> ; <persName ref="../thesauri/persons.xml#rdari">Rdari</persName> : la <title ref="../thesauri/titles.xml#grammairedelimaginaire">grammaire de l’imaginaire</title> (éd. <orgName ref="../thesauri/organizations.xml#messidor">Messidor</orgName>)</p>
-      <p>Grand nombre de <term ref="../thesauri/terms.xml#plagiatsparanticipation">plagiats par anticipation</term></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : revue « <title ref="../thesauri/titles.xml#pratiques">Pratiques</title> » article de <persName ref="../thesauri/persons.xml#francisdebyser">Francis Debyser</persName> ne cite pas l’Oulipo ni l’oulipopo dont il est membre.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#jeangrenier">Jean Grenier</persName> journal citation de l’oignon (<ref>archive</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Lettres de <persName ref="../thesauri/persons.xml#belaval">Belaval</persName> à <persName ref="../thesauri/persons.xml#jp"><abbr>JP</abbr></persName> (<ref>archives</ref>)</p>
-      <p>Téléphone au président <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> couché malade.</p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> : <term ref="../thesauri/terms.xml#ensemblevide">ensemble vide</term> (0 x infini)</p>
-      <p><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : pour la prochaine réunion chaque <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> corrigée.</p>
-      <p><persName ref="../thesauri/persons.xml#ba"><abbr>BA</abbr></persName> : <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : préface à des variations sur la Marseillaise</p>
-      <p><title ref="../thesauri/titles.xml#vol3">Vol. 3</title> report à la réunion du 12 sept. <unclear>…</unclear> chez <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> ébauche d’un traitement oulipien de l’Histoire (donnera un exemple en archives plus tard). Préface à son étude sur <persName ref="#petrarque">Pétrarque</persName>.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : c’était le même projet que celui du début du <title ref="#vol3">vol. 3</title> dans sa première manière.</p>
+      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> : <term ref="#traductionliponymique">Traduction liponymique</term> : <ref>archives</ref>.</p>
+      <p><label type="rubrique">Eruditions</label> </p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> ; <persName ref="#rdari">Rdari</persName> : la <title ref="#grammairedelimaginaire">grammaire de l’imaginaire</title> (éd. <orgName ref="#messidor">Messidor</orgName>)</p>
+      <p>Grand nombre de <term ref="#plagiatsparanticipation">plagiats par anticipation</term></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : revue « <title ref="#pratiques">Pratiques</title> » article de <persName ref="#francisdebyser">Francis Debyser</persName> ne cite pas l’Oulipo ni l’oulipopo dont il est membre.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>. <persName ref="#jeangrenier">Jean Grenier</persName> journal citation de l’oignon (<ref>archive</ref>)</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Lettres de <persName ref="#belaval">Belaval</persName> à <persName ref="#jp"><choice><abbr>JP</abbr><expan>JP</expan></choice></persName> (<ref>archives</ref>)</p>
+      <p>Téléphone au président <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> couché malade.</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : <term ref="#ensemblevide">ensemble vide</term> (0 x infini)</p>
+      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> : <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : pour la <name ref="#prochainereunion" type="manif">prochaine réunion</name>  chaque <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> corrigée.</p>
+      <p><persName ref="#ba"><choice><abbr>BA</abbr><expan>BA</expan></choice></persName> : <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : préface à des variations sur la Marseillaise</p>
+      <p><title ref="#vol3">Vol. 3</title> report à la réunion du 12 sept. <unclear>…</unclear> chez <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

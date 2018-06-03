@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010029-1963-03-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010029-1963-03-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,7 +18,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010029-1963-03-cv</idno> <title>Convocation à <ref target="#t10010029-1963-03">une réunion Oulipo</ref>, envoyée le <date when="1963-03-15">15 mars 1963</date> par <persName ref="../thesauri/persons.xml#andremalraux" role="expéditeur">André Malraux</persName></title></bibl>
+        <bibl><idno>t10010029-1963-03-cv</idno> <title>Convocation à <ref target="#t10010029-1963-03">une réunion Oulipo</ref>, envoyée le <date when="1963-03-15">15/03/1963</date> par <persName ref="#andremalrau" role="expéditeur">André Malraux</persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -37,15 +36,15 @@
       <p rend="incipit">OuLiPo</p>
       <p rend="incipit">Vendredi 15 mars 1963</p>
       <p>Chers amis,</p>
-      <p>La prochaine réunion de l’OuLiPo se tiendra :</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’OuLiPo se tiendra :</p>
       <p>le vendredi 22 mars, à midi 30</p>
-      <p>chez Mme <persName ref="../thesauri/persons.xml#alinegagnaire">Aline Gagnaire</persName></p>
+      <p>chez Mme <persName ref="#alinegagnaire">Aline Gagnaire</persName></p>
       <p>29 rue G. Pitart</p>
       <p>Paris—15</p>
-      <p>Notre invité d’honneur sera M. <persName ref="../thesauri/persons.xml#georgesemmanuelclancier">Georges-Emmanuel Clancier</persName>.</p>
+      <p>Notre invité d’honneur sera M. <persName ref="#georgesemmanuelclancier">Georges-Emmanuel Clancier</persName>.</p>
       <p>Amitiés à tous,</p>
       <p>Le S.P. d’honneur :</p>
-      <p><persName ref="../thesauri/persons.xml#andremalraux">André Malraux</persName></p>
+      <p><persName ref="#andremalrau">André Malraux</persName></p>
     </body>
   </text>
 </TEI>

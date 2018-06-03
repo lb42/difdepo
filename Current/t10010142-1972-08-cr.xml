@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010142-1972-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010142-1972-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +17,15 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010142-1972-08-cr</idno> <meeting xml:id="t10010142-1972-08">
-          <date when="1972-08-22">22 août 1972</date>
+          <date when="1972-08-22">22/08/1972</date>
           <placeName>Boulogne</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#la"><abbr>L</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#la"><choice><abbr>L</abbr><expan>Latis</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -46,59 +45,59 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010142w/f3.highres" n="3"/>
       <p rend="incipit">Le 22/8/72</p>
-      <p rend="incipit">Présents : .<persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> – <persName ref="../thesauri/persons.xml#jq">Queval</persName> – <persName ref="../thesauri/persons.xml#le">L. Etienne</persName> – <persName ref="../thesauri/persons.xml#la">Latis</persName> – <persName ref="../thesauri/persons.xml#mb"><abbr>M.B.</abbr></persName> – <persName ref="../thesauri/persons.xml#gp">G. Perec</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> = état de santé.</p>
+      <p rend="incipit">Présents : .<persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> – <persName ref="#jq">Queval</persName> – <persName ref="#le">L. Etienne</persName> – <persName ref="#la">Latis</persName> – <persName ref="#mb"><choice><abbr>M.B.</abbr><expan>Marcel Bénabou</expan></choice></persName> – <persName ref="#gp">G. Perec</persName>.</p>
+      <p><persName ref="#rq">Queneau</persName> = état de santé.</p>
       <list type="unordered">
-        <item>A porté sur l’origine d’un bijou <term ref="../thesauri/terms.xml#pataphysique">pataphysique</term> porté par le T.S.</item>
+        <item>A porté sur l’origine d’un bijou <term ref="#pataphysique">pataphysique</term> porté par le T.S.</item>
       </list>
       <list type="unordered">
-        <item>Sur le <term ref="../thesauri/terms.xml#contrepet">Contrepet</term> : vertu subversive</item>
+        <item>Sur le <term ref="#contrepet">Contrepet</term> : vertu subversive</item>
       </list>
       <p>Nécessité ou non de l’obscénité.</p>
-      <p>Défiance vis à vis de l’<term ref="../thesauri/terms.xml#arbitraire">arbitraire</term></p>
+      <p>Défiance vis à vis de l’<term ref="#arbitraire">arbitraire</term></p>
       <list type="unordered">
-        <item>Dossier <title ref="../thesauri/titles.xml#cape">Cape</title></item>
+        <item>Dossier <title ref="#cape">Cape</title></item>
       </list>
-      <p>Problème du titre : <persName ref="../thesauri/persons.xml#erval">Erval</persName> est réticent</p>
+      <p>Problème du titre : <persName ref="#erval">Erval</persName> est réticent</p>
       <list type="unordered">
-        <item>Anecdote de <persName ref="../thesauri/persons.xml#la">Latis</persName> sur les <title ref="../thesauri/titles.xml#memoires">Mémoires</title> du <persName ref="../thesauri/persons.xml#baronmollet">Baron Mollet</persName>.</item>
-        <item><persName ref="../thesauri/persons.xml#la">Latis</persName> ne paie pas d’impôts : il sera sans doute chargé à ce titre de recevoir l’avance financière de <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName>.</item>
-        <item>Le cas de <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName> : disparition</item>
-      </list>
-      <list type="unordered">
-        <item>Invité proposé par <persName ref="../thesauri/persons.xml#jq">Queval</persName> : <persName ref="../thesauri/persons.xml#clsimonet">Cl. Simonet</persName>. <persName ref="../thesauri/persons.xml#andredalmas">André Dalmas</persName>.</item>
+        <item>Anecdote de <persName ref="#la">Latis</persName> sur les <title ref="#memoires">Mémoires</title> du <persName ref="#baronmollet">Baron Mollet</persName>.</item>
+        <item><persName ref="#la">Latis</persName> ne paie pas d’impôts : il sera sans doute chargé à ce titre de recevoir l’avance financière de <orgName ref="#gallimard">Gallimard</orgName>.</item>
+        <item>Le cas de <persName ref="#na">Noël Arnaud</persName> : disparition</item>
       </list>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#sergegolon">Serge Golon</persName> : procédé de fabrication d'<title ref="../thesauri/titles.xml#angelique">Angélique</title>.</item>
+        <item>Invité proposé par <persName ref="#jq">Queval</persName> : <persName ref="#clsimonet">Cl. Simonet</persName>. <persName ref="#andredalmas">André Dalmas</persName>.</item>
       </list>
-      <p>Ecrire à Madame <persName ref="../thesauri/persons.xml#golon">Golon</persName> ou l’inviter ?</p>
+      <list type="unordered">
+        <item><persName ref="#sergegolon">Serge Golon</persName> : procédé de fabrication d'<title ref="#angelique">Angélique</title>.</item>
+      </list>
+      <p>Ecrire à Madame <persName ref="#golon">Golon</persName> ou l’inviter ?</p>
       <list type="unordered">
         <item>Projet : Ecrire aux écrivains pour leur demander leur procédé de fabrication.</item>
       </list>
-      <p>(un colloque à Cerisy ?)</p>
-      <p>Découvrir nous-mêmes des <term ref="../thesauri/terms.xml#procedes">procédés</term></p>
+      <p>(un <name ref="#colloque" type="manif">colloque</name> à <name ref="#cerisy" type="manif">Cerisy</name> ?)</p>
+      <p>Découvrir nous-mêmes des <term ref="#procedes">procédés</term></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#cami">Cami</persName> est-il oulipien ? Quelques exemples : « un <term ref="../thesauri/terms.xml#contrepet">contrepet</term> de situation » La baleine dans le ventre de Jonas.</item>
-        <item><persName ref="../thesauri/persons.xml#jq">Queval</persName> : figuration imprimée du ton</item>
+        <item><persName ref="#cami">Cami</persName> est-il oulipien ? Quelques exemples : « un <term ref="#contrepet">contrepet</term> de situation » La baleine dans le ventre de Jonas.</item>
+        <item><persName ref="#jq">Queval</persName> : figuration imprimée du ton</item>
       </list>
-      <p>Projet de <term ref="../thesauri/terms.xml#romanpolicier">roman policier</term> avec 10</p>
+      <p>Projet de <term ref="#romanpolicier">roman policier</term> avec 10</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : - remettre en route d’idée du brain-storming.</item>
-        <item>a proposé une liste de mots désignant des <term ref="../thesauri/terms.xml#notions">notions</term>, des <term ref="../thesauri/terms.xml#structures">structures</term> ou des <term ref="../thesauri/terms.xml#relationsmathematiques">relations mathématiques</term>.</item>
+        <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : - remettre en route d’idée du brain-storming.</item>
+        <item>a proposé une liste de mots désignant des <term ref="#notions">notions</term>, des <term ref="#structures">structures</term> ou des <term ref="#relationsmathematiques">relations mathématiques</term>.</item>
       </list>
       <p>Repartir de cette liste, voir ce qu’on peut en tirer pour la création littéraire.</p>
       <p>Possibilités de rénover l’Oulipo de cette façon.</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#gp">Perec</persName> : lecture des <title ref="../thesauri/titles.xml#revenentes">Revenentes</title></item>
-        <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : l’usage des chiffres dans le <term ref="../thesauri/terms.xml#romanpopulaire">roman populaire</term> : <unclear>Damoclès</unclear></item>
+        <item><persName ref="#gp">Perec</persName> : lecture des <title ref="#revenentes">Revenentes</title></item>
+        <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : l’usage des chiffres dans le <term ref="#romanpopulaire">roman populaire</term> : <unclear>Damoclès</unclear></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#alexbouvier">Alex. Bouvier</persName></p>
+      <p><persName ref="#alebouvier">Alex. Bouvier</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010142w/f4.highres" n="4"/>
       <list type="unordered">
         <item>Le 12 Septembre 72</item>
         <item>Le 4 Octobre 72</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#alexisbouvier">Alexis Bouvier</persName>, <title ref="../thesauri/titles.xml#lescreanciersdelechafaud">Les Créanciers de l’échafaud</title></p>
+      <p><persName ref="#aleisbouvier">Alexis Bouvier</persName>, <title ref="#lescreanciersdelechafaud">Les Créanciers de l’échafaud</title></p>
     </body>
   </text>
 </TEI>

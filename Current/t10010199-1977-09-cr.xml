@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010199-1977-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010199-1977-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +17,46 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010199-1977-09-cr</idno> <meeting xml:id="t10010199-1977-09">
-          <date when="1977-09-29">29 septembre 1977</date>
-          <placeName>chez MB</placeName>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010199-1977-09-cr</idno>
+          <meeting xml:id="t10010199-1977-09">
+            <date when="1977-09-29">29/09/1977</date>
+            <placeName>chez MB</placeName>
+            <list type="present">
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#hm"><choice>
+                    <abbr>HM</abbr>
+                    <expan>Harry Mathews</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pb"><choice>
+                    <abbr>PB</abbr>
+                    <expan>Paul Braffort</expan>
+                  </choice></persName></item>
+              <item><persName ref="#le"><choice>
+                    <abbr>LE</abbr>
+                    <expan>Luc Etienne</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -46,48 +72,180 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101993/f20.highres" n="20"/>
-      <p rend="incipit">Oulipo chez <persName ref="../thesauri/persons.xml#mb">Bénabou</persName> 29 Septembre 1977</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> (dont la femme est mourante)</p>
+      <p rend="incipit">Oulipo chez <persName ref="#mb">Bénabou</persName> 29 Septembre 1977</p>
+      <p rend="incipit">Présents : <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>
+        <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>
+        <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>
+        <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName>
+        <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName>
+        <persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName>
+        <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>
+        <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName></p>
+      <p rend="incipit">Excusés : <persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName>
+        <persName ref="#jl"><choice>
+            <abbr>JL</abbr>
+            <expan>Jean Lescure</expan>
+          </choice></persName>
+        <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName> (dont la femme est mourante)</p>
       <p><label type="rubrique">Créations</label></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>  : Précisions sur l’<term ref="../thesauri/terms.xml#algorithme">algorithme</term> de <persName ref="../thesauri/persons.xml#hm">Mathews</persName></p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> : Précisions sur l’<term ref="#algorithme">algorithme</term> de
+          <persName ref="#hm">Mathews</persName></p>
       <p>EVER EVER</p>
       <p>OVER ROVE</p>
       <p>OVEN ENOV</p>
       <p>EVEN VENE</p>
-      <p>Dans un <term ref="../thesauri/terms.xml#carrealgorithmique">carré algorithmique</term> de n rangs, il faut que n<hi rend="sup">2</hi> – (m-2) éléments soient différents (<ref>voir documents joints</ref>)</p>
+      <p>Dans un <term ref="#carrealgorithmique">carré algorithmique</term> de n rangs, il faut que
+          n<hi rend="sup">2</hi> – (m-2) éléments soient différents (<ref>voir documents
+          joints</ref>)</p>
       <p>Demande aux mathématiciens de formaliser.</p>
-      <p>Ensuite <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> présente deux livres de lui parus aux USA :</p>
+      <p>Ensuite <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> présente deux livres de lui parus aux USA :</p>
       <list type="unordered">
-        <item><title ref="../thesauri/titles.xml#selecteddeclarationsofdependence">Selected declarations of dependence</title></item>
-        <item><title ref="../thesauri/titles.xml#trialimpressions">Trial impressions</title></item>
+        <item><title ref="#selecteddeclarationsofdependence">Selected declarations of
+            dependence</title></item>
+        <item><title ref="#trialimpressions">Trial impressions</title></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : Progrès de la rédaction de la <title ref="../thesauri/titles.xml#princessehoppy">Princesse Hoppy</title> (cité dans article de <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> aux <title ref="../thesauri/titles.xml#nouvelleslitteraires">Nouvelles Littéraires</title>). 8 chapitres sont terminés le 9<hi rend="sup">ème</hi> utilisera un ordinateur.</p>
-      <p>Annonce un article de « <title ref="../thesauri/titles.xml#litterature">Littérature</title> » dans lequel beaucoup de « trucs » de <title ref="../thesauri/titles.xml#hoppy">Hoppy</title> sont dévoilés.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : Il faudra construire un texte tel qu’aucun ordinateur actuel ne puisse le résoudre. Plus fort que le cyber de control data.</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> ou <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <title ref="../thesauri/titles.xml#hoteldesens">Hotel de Sens</title> : Amélie fout le bordel. En cours de rédaction.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : pose un problème de terminologie : <term ref="../thesauri/terms.xml#ouliposemantique">ouliposémantique</term> vieille lutte autour du mot</p>
-      <p>quel mot pourrait-on utiliser à la place ? <term ref="../thesauri/terms.xml#oulipothematique">oulipothématique</term> ? en suspens</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : propose un lexique pour <title ref="../thesauri/titles.xml#volume2">volume 2</title></p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> : Progrès de la rédaction de la <title ref="#princessehoppy"
+          >Princesse Hoppy</title> (cité dans article de <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> aux <title ref="#nouvelleslitteraires">Nouvelles
+        Littéraires</title>). 8 chapitres sont terminés le 9<hi rend="sup">ème</hi> utilisera un
+        ordinateur.</p>
+      <p>Annonce un article de « <title ref="#litterature">Littérature</title> » dans lequel
+        beaucoup de « trucs » de <title ref="#hoppy">Hoppy</title> sont dévoilés.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : Il faudra construire un texte tel qu’aucun ordinateur actuel ne
+        puisse le résoudre. Plus fort que le cyber de control data.</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> ou <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <title ref="#hoteldesens">Hotel de Sens</title> : Amélie fout le
+        bordel. En cours de rédaction.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : pose un problème de terminologie : <term ref="#ouliposemantique"
+          >ouliposémantique</term> vieille lutte autour du mot</p>
+      <p>quel mot pourrait-on utiliser à la place ? <term ref="#oulipothematique"
+          >oulipothématique</term> ? en suspens</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : propose un lexique pour <title ref="#volume">volume 2</title></p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  :</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> :</p>
       <list type="unordered">
-        <item>Entrevue avec <persName ref="../thesauri/persons.xml#vichniac">Vichniac</persName> au <orgName ref="../thesauri/organizations.xml#centrenationaldulivre">Centre National du Livre</orgName></item>
-        <item>Proposition de <persName ref="../thesauri/persons.xml#jouanard">Jouanard</persName> pour Novembre et Décembre (<persName ref="../thesauri/persons.xml#cb">Berge</persName>, <persName ref="../thesauri/persons.xml#jr">Roubaud</persName>, <persName ref="../thesauri/persons.xml#mb">Bénabou</persName>, <persName ref="../thesauri/persons.xml#formel">Formel</persName>, <persName ref="../thesauri/persons.xml#pb">Braffort</persName>)</item>
-        <item>Proposition <persName ref="../thesauri/persons.xml#gillesdaude">Gilles Daude</persName> (télévision) pour <title ref="../thesauri/titles.xml#droledebaroque">drôle de baroque</title>. Reçu un peu froidement &gt; lui proposer l’<term ref="../thesauri/terms.xml#arbre">Arbre</term> et pas le reste</item>
+        <item>Entrevue avec <persName ref="#vichniac">Vichniac</persName> au <orgName
+            ref="#centrenationaldulivre">Centre National du Livre</orgName></item>
+        <item>Proposition de <persName ref="#jouanard">Jouanard</persName> pour Novembre et Décembre
+            (<persName ref="#cb">Berge</persName>, <persName ref="#jr">Roubaud</persName>, <persName
+            ref="#mb">Bénabou</persName>, <persName ref="#formel">Formel</persName>, <persName
+            ref="#pb">Braffort</persName>)</item>
+        <item>Proposition <persName ref="#gillesdaude">Gilles Daude</persName> (télévision) pour
+            <title ref="#droledebaroque">drôle de baroque</title>. Reçu un peu froidement &gt; lui
+          proposer l’<term ref="#arbre">Arbre</term> et pas le reste</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> les épreuves sont en retard. L’agent n’est pas rentré. Rencontre avec <persName ref="../thesauri/persons.xml#jpk"><abbr>JPK</abbr></persName></p>
-      <p>tel samedi à <persName ref="../thesauri/persons.xml#jpk"><abbr>JPK</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : que faire des exemplaires fautifs?</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : distribuer les volumes / détruire / ½ ½ / tirés à part ?</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque
+          oulipienne</title> les épreuves sont en retard. L’agent n’est pas rentré. Rencontre avec
+          <persName ref="#jpk"><choice>
+            <abbr>JPK</abbr>
+            <expan>JPK</expan>
+          </choice></persName></p>
+      <p>tel samedi à <persName ref="#jpk"><choice>
+            <abbr>JPK</abbr>
+            <expan>JPK</expan>
+          </choice></persName></p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : que faire des exemplaires fautifs?</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> : distribuer les volumes / détruire / ½ ½ / tirés à part ?</p>
       <p>Aucune décision : attendre.</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : Donner les 150 exemplaires aux bibliothèques</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> : Donner les 150 exemplaires aux bibliothèques</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101993/f21.highres" n="21"/>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>  : donne lecture d’une lettre mentionnant l’oulipo de <persName ref="../thesauri/persons.xml#ams">AM Schmidt</persName> envoyée à <persName ref="../thesauri/persons.xml#cavanna">Cavanna</persName> à <title ref="../thesauri/titles.xml#charliehebdo">Charlie Hebdo</title>.</p>
-      <p>Soulève l’éternel problème de <persName ref="../thesauri/persons.xml#julientorma">Julien Torma</persName> et note qu’il a vécu aux mêmes endroits que lui-même.</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>  : donne photocopie de l’article sur l’oulipo dans <title ref="../thesauri/titles.xml#horizon">Horizon</title>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : donne un article sur « <title ref="../thesauri/titles.xml#laronde">La Ronde</title>» de <persName ref="../thesauri/persons.xml#vadim">Vadim</persName> passé à la télévision</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : bilan de <name ref="../thesauri/events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
+      <p><persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+      </choice></persName> : donne <name ref="#lecture" type="manif">lecture</name> d’une lettre mentionnant l’oulipo de <persName
+          ref="#ams">AM Schmidt</persName> envoyée à <persName ref="#cavanna">Cavanna</persName> à
+          <title ref="#charliehebdo">Charlie Hebdo</title>.</p>
+      <p>Soulève l’éternel problème de <persName ref="#julientorma">Julien Torma</persName> et note
+        qu’il a vécu aux mêmes endroits que lui-même.</p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> : donne photocopie de l’article sur l’oulipo dans <title
+          ref="#horizon">Horizon</title>.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : donne un article sur « <title ref="#laronde">La Ronde</title>» de
+          <persName ref="#vadim">Vadim</persName> passé à la télévision</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>
+        <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : bilan de <name ref="#villeneuvelesavignon" type="manif"
+          >Villeneuve-lès-Avignon</name></p>
     </body>
   </text>
 </TEI>

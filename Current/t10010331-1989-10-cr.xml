@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010331-1989-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010331-1989-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,17 +17,17 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010331-1989-10-cr</idno> <meeting xml:id="t10010331-1989-10">
-          <date when="1989-10-17">17 octobre 1989</date>
+          <date when="1989-10-17">17/10/1989</date>
           <placeName>chez CB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb" role="secrétaire"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr" role="président"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gilbertlascault" role="invité">Gilbert Lascault</persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
+            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#mb" role="secrétaire"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#jr" role="président"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#gilbertlascault" role="invité">Gilbert Lascault</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,67 +47,67 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010331s/f2.highres" n="2"/>
       <p rend="incipit">OULIPO du 17 10 89</p>
-      <p rend="incipit">chez <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></p>
-      <p rend="incipit">Président <persName ref="../thesauri/persons.xml#jr"><abbr>J.R.</abbr></persName></p>
-      <p rend="incipit">Secrétaire <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>.</p>
-      <p rend="incipit">Invité : <persName ref="../thesauri/persons.xml#gilbertlascault">Gilbert Lascault</persName></p>
+      <p rend="incipit">chez <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></p>
+      <p rend="incipit">Président <persName ref="#jr"><choice><abbr>J.R.</abbr><expan>Jacques Roubaud</expan></choice></persName></p>
+      <p rend="incipit">Secrétaire <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>, <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>, <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>.</p>
+      <p rend="incipit">Invité : <persName ref="#gilbertlascault">Gilbert Lascault</persName></p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <title ref="../thesauri/titles.xml#lejournaliste">Le journaliste</title> : un roman qui est en dérivé de <term ref="../thesauri/terms.xml#xprendypourz">x prend y pour z</term></item>
+        <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> <title ref="#lejournaliste">Le journaliste</title> : un roman qui est en dérivé de <term ref="#prendypourz">x prend y pour z</term></item>
       </list>
       <p>(<ref>voir Archives</ref>)</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> <title ref="../thesauri/titles.xml#unpapillonrarissime">un papillon rarissime</title></item>
+        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> <title ref="#unpapillonrarissime">un papillon rarissime</title></item>
       </list>
-      <p>encore un <term ref="../thesauri/terms.xml#heteropangramme">hétéropangramme</term> !</p>
+      <p>encore un <term ref="#heteropangramme">hétéropangramme</term> !</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> <title ref="../thesauri/titles.xml#cinquantepoemesoligogrammes">Cinquante poèmes oligogrammes</title></item>
+        <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> <title ref="#cinquantepoemesoligogrammes">Cinquante poèmes oligogrammes</title></item>
       </list>
-      <p>Une variation sur le <term ref="../thesauri/terms.xml#beaupresent">beau présent</term> : le <term ref="../thesauri/terms.xml#beaupresent">beau présent</term> est une <term ref="../thesauri/terms.xml#locution">locution</term> dont les lettres seules sont utilisées pour faire un texte</p>
+      <p>Une variation sur le <term ref="#beaupresent">beau présent</term> : le <term ref="#beaupresent">beau présent</term> est une <term ref="#locution">locution</term> dont les lettres seules sont utilisées pour faire un texte</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>1 <term ref="../thesauri/terms.xml#palindrome">Palindrome</term> chinois : présentation (<ref>photocopie remise aux archives</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>2 <term ref="../thesauri/terms.xml#rebus">Rébus</term> : traduction d’un <unclear>satra</unclear> pour illettrés (date des <persName ref="../thesauri/persons.xml#tang">Tang</persName>)</p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="../thesauri/persons.xml#albertcamus">Albert Camus</persName> oulipien ? Dans sa préface aux <title ref="../thesauri/titles.xml#maximes">Maximes</title> de <persName ref="../thesauri/persons.xml#chamfort">Chamfort</persName> <persName ref="../thesauri/persons.xml#camus">Camus</persName> a posé par anticipation quelques-uns des principes de la fabrication d’<term ref="../thesauri/terms.xml#aphorismes">aphorismes</term></p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> Oulipo en Allemagne : on y trouve des choses peri- ou para oulipiens</p>
-      <p>Citation de <persName ref="../thesauri/persons.xml#jeanfaktor">Jean Faktor</persName></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Appel pressant : des mots sur le <term ref="../thesauri/terms.xml#modelehierarchique">modèle hiérarchique</term></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <title ref="../thesauri/titles.xml#dereutricularia">De re utricularia</title> : cornemuses de <persName ref="../thesauri/persons.xml#klein">Klein</persName></p>
-      <p>Abracadabra = <term ref="../thesauri/terms.xml#acrostiche">acrostiche</term> en fin de vers du premier mot du poème</p>
+      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>1 <term ref="#palindrome">Palindrome</term> chinois : présentation (<ref>photocopie remise aux archives</ref>)</p>
+      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>2 <term ref="#rebus">Rébus</term> : traduction d’un <unclear>satra</unclear> pour illettrés (date des <persName ref="#tang">Tang</persName>)</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> <persName ref="#albertcamus">Albert Camus</persName> oulipien ? Dans sa préface aux <title ref="#maimes">Maximes</title> de <persName ref="#chamfort">Chamfort</persName> <persName ref="#camus">Camus</persName> a posé par anticipation quelques-uns des principes de la fabrication d’<term ref="#aphorismes">aphorismes</term></p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> Oulipo en Allemagne : on y trouve des choses peri- ou para oulipiens</p>
+      <p>Citation de <persName ref="#jeanfaktor">Jean Faktor</persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Appel pressant : des mots sur le <term ref="#modelehierarchique">modèle hiérarchique</term></p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <title ref="#dereutricularia">De re utricularia</title> : cornemuses de <persName ref="#klein">Klein</persName></p>
+      <p>Abracadabra = <term ref="#acrostiche">acrostiche</term> en fin de vers du premier mot du poème</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010331s/f3.highres" n="3"/>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> le 27 août 89, <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> a écrit dans la cendre du Mont Fuji à 3776 le mot OULIPO</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <list type="unordered">
-          <item>Protestation véhémente contre la légèreté de <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> et de <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-          <item>Trésorerie : <orgName ref="../thesauri/organizations.xml#ramsay">Ramsay</orgName> a payé la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>1</item>
+        <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> le 27 août 89, <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> a écrit dans la cendre du Mont Fuji à 3776 le mot OULIPO</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <list type="unordered">
+          <item>Protestation véhémente contre la légèreté de <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> et de <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+          <item>Trésorerie : <orgName ref="#ramsay">Ramsay</orgName> a payé la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>1</item>
           </list> </item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="../thesauri/persons.xml#sicav">Sicav</persName> &amp; Trésorerie à acheter avec l’argent</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <persName ref="#sicav">Sicav</persName> &amp; Trésorerie à acheter avec l’argent</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> lecture de la lettre de <persName ref="../thesauri/persons.xml#bellos">Bellos</persName> (<ref>ci-joint</ref>)</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> lecture de la lettre de <persName ref="#bellos">Bellos</persName> (<ref>ci-joint</ref>)</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> – Ivry : compte rendu de notre lecture chez <persName ref="../thesauri/persons.xml#catherinedaste">Catherine Dasté</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> – Allemagne : à Sarrebruck avec <persName ref="../thesauri/persons.xml#helmle">Helmlé</persName></p>
-      <p>tournée OULIPO (<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>)</p>
-      <p>au cas de la <title ref="../thesauri/titles.xml#bellehortense">Belle Hortense</title> et de <persName ref="../thesauri/persons.xml#gp">Perec</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> Mexico possibilité</p>
-      <p><persName ref="../thesauri/persons.xml#thomas">Thomas</persName>, attaché culturel à Mexico, souhaite inviter oulipo au Mexique. Oui accord des présents</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> Qu’est-ce que l’Oulipo ? « Ce n’est pas une école, c’est une crèche »</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> réclame des textes pour la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> 3</p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> Etat des textes disponibles inédits.</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> L’Oulipo dans le Monde : faire une <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> polyglotte</p>
-      <p>à ajouter à l’ordre du jour du <name ref="../thesauri/events.xml#congresdenovembre" type="manif">Congrès de novembre</name>. </p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> – Ivry : compte rendu de notre lecture chez <persName ref="#catherinedaste">Catherine Dasté</persName></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> – Allemagne : à Sarrebruck avec <persName ref="#helmle">Helmlé</persName></p>
+      <p>tournée OULIPO (<persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>)</p>
+      <p>au cas de la <title ref="#bellehortense">Belle Hortense</title> et de <persName ref="#gp">Perec</persName></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> Mexico possibilité</p>
+      <p><persName ref="#thomas">Thomas</persName>, attaché culturel à Mexico, souhaite inviter oulipo au Mexique. Oui accord des présents</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> Qu’est-ce que l’Oulipo ? « Ce n’est pas une école, c’est une crèche »</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> réclame des textes pour la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> 3</p>
+      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> Etat des textes disponibles inédits.</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> L’Oulipo dans le Monde : faire une <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> polyglotte</p>
+      <p>à ajouter à l’ordre du jour du <name ref="#congresdenovembre" type="manif">Congrès de novembre</name>. </p>
       <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : l’auteur de <title ref="../thesauri/titles.xml#traitedestautogrammes">Traité des tautogrammes</title> de <persName ref="../thesauri/persons.xml#guillaumin">Guillaumin</persName></p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> : Louvre = texte de <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> mis en scène par <persName ref="../thesauri/persons.xml#dzenki">D. Zenki</persName></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : l’auteur de <title ref="#traitedestautogrammes">Traité des tautogrammes</title> de <persName ref="#guillaumin">Guillaumin</persName></p>
+      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> : Louvre = texte de <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> mis en scène par <persName ref="#dzenki">D. Zenki</persName></p>
       <p>6 7 et 8 12</p>
-      <p><persName ref="../thesauri/persons.xml#fcbocquillon">FC Bocquillon</persName> et <persName ref="../thesauri/persons.xml#rimbaud">Rimbaud</persName></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <orgName ref="../thesauri/organizations.xml#wice">WICE</orgName> : lecture de <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p><persName ref="#fcbocquillon">FC Bocquillon</persName> et <persName ref="#rimbaud">Rimbaud</persName></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> <orgName ref="#wice">WICE</orgName> : lecture de <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010331s/f4.highres" n="4"/>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> Propose comme invité d’honneur <persName ref="../thesauri/persons.xml#jeanmayer">Jean Mayer</persName></p>
-      <p>Prochaine réunion jeudi 16 11 chez <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p>25 11 chez <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> 10 h</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> Propose comme invité d’honneur <persName ref="#jeanmayer">Jean Mayer</persName></p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  jeudi 16 11 chez <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></p>
+      <p>25 11 chez <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> 10 h</p>
       <p>OULIPO</p>
       <p>17 10 89</p>
     </body>

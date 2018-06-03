@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010256-1982-12-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010256-1982-12-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010256-1982-12-cv</idno> <title>Convocation à <ref target="#t10010256-1982-12">une réunion Oulipo</ref>, envoyée le <date when="1982-12-01">1 décembre 1982</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010256-1982-12-cv</idno> <title>Convocation à <ref target="#t10010256-1982-12">une réunion Oulipo</ref>, envoyée le <date when="1982-12-01">01/12/1982</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,10 +32,10 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">1er Décembre 1982</p>
       <p>Brigadiens,</p>
-      <p>La prochaine réunion de l’ouvroir aura lieu le vendredi 17 Décembre à 11h chez le Président fondateur <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> au 23 route de la reine à Boulogne (605 90 13)</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu le vendredi 17 Décembre à 11h chez le Président fondateur <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> au 23 route de la reine à Boulogne (605 90 13)</p>
       <p>Retournez la découpe ci-dessous pour faciliter la tâche culinaire... Merci.</p>
       <p>Au 17.</p>
-      <p>un secrétaire: <persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName></p>
+      <p>un secrétaire: <persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

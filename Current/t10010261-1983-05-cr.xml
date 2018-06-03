@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010261-1983-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010261-1983-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,17 +17,17 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010261-1983-05-cr</idno> <meeting xml:id="t10010261-1983-05">
-          <date when="1983-05-20">20 mai 1983</date>
+          <date when="1983-05-20">20/05/1983</date>
           <placeName>Chez Michèle Métail</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -47,36 +46,36 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010261n/f2.highres" n="2"/>
       <p rend="incipit">Oulipo du 20-5-83</p>
-      <p rend="incipit">Chez <persName ref="../thesauri/persons.xml#mm"><abbr>M.M.</abbr></persName></p>
-      <p>Présents : <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>.</p>
-      <p>Excusés : <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName> (2 fois), <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. - Présentation de <persName ref="../thesauri/persons.xml#ham">HaM</persName>. Plaisirs singuliers (<ref>Archives</ref>)</p>
+      <p rend="incipit">Chez <persName ref="#mm"><choice><abbr>M.M.</abbr><expan>Michele Métail</expan></choice></persName></p>
+      <p>Présents : <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>, <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>, <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName>, <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>.</p>
+      <p>Excusés : <persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName> (2 fois), <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>, <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName>, <persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName>.</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. - Présentation de <persName ref="#ham">HaM</persName>. Plaisirs singuliers (<ref>Archives</ref>)</p>
       <p>Livre monothématique : le thème est la masturbation</p>
       <p>procédés oulipiens sont venus ce matériau : universalité : égalité des sexes</p>
       <p>5 éléments : âge, endroit, méthode</p>
-      <p>– Présentation : <term ref="../thesauri/terms.xml#poemesaversreguliers">Poèmes à vers réguliers</term> : 20 lettres (<term ref="../thesauri/terms.xml#isogrammes">isogrammes</term>)</p>
-      <p>Un son produit des <term ref="../thesauri/terms.xml#heterogrammes">hétérogrammes</term> (archives)</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName>. <term ref="../thesauri/terms.xml#romanssanspersonnages">Romans sans personnages</term></p>
+      <p>– Présentation : <term ref="#poemesaversreguliers">Poèmes à vers réguliers</term> : 20 lettres (<term ref="#isogrammes">isogrammes</term>)</p>
+      <p>Un son produit des <term ref="#heterogrammes">hétérogrammes</term> (archives)</p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName>. <term ref="#romanssanspersonnages">Romans sans personnages</term></p>
       <p>On expulse le personnage considéré comme porteur d’une histoire et d’une psychologie</p>
       <p>Renouvellement</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>. Les <term ref="../thesauri/terms.xml#bibliothequesinedites">bibliothèques inédites</term></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>. Les <term ref="#bibliothequesinedites">bibliothèques inédites</term></p>
       <p>une bibliothèque classée par ordre arithmétique (<ref>archives</ref>)</p>
-      <p>(<persName ref="../thesauri/persons.xml#le"><abbr>L.E.</abbr></persName>) coup de téléphone : opéré au quinze vingt <persName ref="../thesauri/persons.xml#professeurharot">Professeur Harot</persName> 5<hi rend="sup">e</hi> et chambre 529</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. La grille mode d’emploi : rappel à l’ordre</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> Dijon : <name ref="../thesauri/events.xml#interventionalen" type="manif">intervention à l’E.N</name>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>P.B.</abbr></persName> Milan : <name ref="../thesauri/events.xml#interventionaucentrefrancois" type="manif">intervention au Centre François</name></p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> <orgName ref="../thesauri/organizations.xml#polyphonix">Polyphonix</orgName> le 9 juin : reconstituer une <name ref="../thesauri/events.xml#seancedeloulipo" type="manif">séance de l’Oulipo</name></p>
+      <p>(<persName ref="#le"><choice><abbr>L.E.</abbr><expan>Luc Etienne</expan></choice></persName>) coup de téléphone : opéré au quinze vingt <persName ref="#professeurharot">Professeur Harot</persName> 5<hi rend="sup">e</hi> et chambre 529</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>. La grille mode d’emploi : rappel à l’ordre</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> Dijon : <name ref="#interventionalen" type="manif">intervention à l’E.N</name>.</p>
+      <p><persName ref="#pb"><choice><abbr>P.B.</abbr><expan>Paul Braffort</expan></choice></persName> Milan : <name ref="#interventionaucentrefrancois" type="manif">intervention au Centre François</name></p>
+      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> <orgName ref="#polyphoni">Polyphonix</orgName> le 9 juin : reconstituer une <name ref="#seancedeloulipo" type="manif">séance de l’Oulipo</name></p>
       <p>Préparation : le 29 mai à 11h / prévenir tout le monde)</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> <name ref="../thesauri/events.xml#villeneuve" type="manif">Villeneuve</name> : organisation dates <orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName> 7-16/15-20 juillet <unclear>…</unclear></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> <name ref="#villeneuve" type="manif">Villeneuve</name> : organisation dates <orgName ref="#alamo">Alamo</orgName> 7-16/15-20 juillet <unclear>…</unclear></p>
       <p>Conditions : 5 voyages – 24x journée</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010261n/f3.highres" n="3"/>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Phynances : <unclear>…</unclear> d’un prélèvement sur les cachets</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Phynances : <unclear>…</unclear> d’un prélèvement sur les cachets</p>
       <p>Réactiver la coutume de l’achat par l’auteur</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : voudrait que le secrétariat s’occupe des relations</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> le <name ref="../thesauri/events.xml#colloqueperec" type="manif">Colloque Perec</name> à <orgName ref="../thesauri/organizations.xml#cerisy">Cerisy</orgName></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>J.B.</abbr></persName> et contre le principe de la participation de l’Oulipo en tant que corps</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : voudrait que le secrétariat s’occupe des relations</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> le <name ref="#colloqueperec" type="manif">Colloque Perec</name> à <orgName ref="#cerisy">Cerisy</orgName></p>
+      <p><persName ref="#jb"><choice><abbr>J.B.</abbr><expan>Jacques Bens</expan></choice></persName> et contre le principe de la participation de l’Oulipo en tant que corps</p>
       <p>Vote en faveur de la participation</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>. Compte-rendu des <name ref="../thesauri/events.xml#etapesamsterdam" type="manif">étapes Amsterdam</name></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>. Compte-rendu des <name ref="#etapesamsterdam" type="manif">étapes Amsterdam</name></p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010297-1986-09-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010297-1986-09-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010297-1986-09-cv</idno> <title>Convocation à <ref target="#t10010297-1986-09">une réunion Oulipo</ref>, envoyée le <date when="1986-09-02">2 septembre 1986</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010297-1986-09-cv</idno> <title>Convocation à <ref target="#t10010297-1986-09">une réunion Oulipo</ref>, envoyée le <date when="1986-09-02">02/09/1986</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -32,11 +31,11 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010297k/f1.highres" n="1"/>
       <p>le 2 septembre 86</p>
       <p>Chers oulipiens,</p>
-      <p>La prochaine réunion de l'<orgName ref="../thesauri/organizations.xml#ouvroir">ouvroir</orgName> aura lieu le vendredi 12 septembre 86 à 19 h chez <persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName> et <persName ref="../thesauri/persons.xml#martinefournel">Martine Fournel</persName>, 48 rue de l'abbé Groult 75015 Paris (45317765).</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l'<orgName ref="#ouvroir">ouvroir</orgName> aura lieu le vendredi 12 septembre 86 à 19 h chez <persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName> et <persName ref="#martinefournel">Martine Fournel</persName>, 48 rue de l'abbé Groult 75015 Paris (45317765).</p>
       <p>Merci de retourner la découpe.</p>
       <p>Amitiés,</p>
-      <p><persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName></p>
-      <p>PS: N'oubliez pas vos <title ref="../thesauri/titles.xml#bibliothequesoulipiennes">Bibliothèques Oulipiennes</title> corrigées et prêtes pour l'édition en volume. Que ceux qui ne viennent pas veuillent bien me les envoyer.</p>
+      <p><persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName></p>
+      <p>PS: N'oubliez pas vos <title ref="#bibliothequesoulipiennes">Bibliothèques Oulipiennes</title> corrigées et prêtes pour l'édition en volume. Que ceux qui ne viennent pas veuillent bien me les envoyer.</p>
       <p>Merci.</p>
     </body>
   </text>

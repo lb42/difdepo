@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010180-1976-10-12-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-10-12-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,14 +18,14 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010180-1976-10-12-cr</idno> <meeting xml:id="t10010180-1976-10-12">
-          <date when="1976-10-12">12 octobre 1976</date>
+          <date when="1976-10-12">12/10/1976</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb" role="président"><abbr>PB</abbr></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#pb" role="président"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,17 +44,17 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f28.highres" n="28"/>
       <p rend="incipit">12/10/76</p>
-      <p rend="incipit">Préside : <persName ref="../thesauri/persons.xml#pb">Braffort</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <name ref="../thesauri/events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name> : on demandera 250 francs de cachet par jour, + 12 voyages. 4 présents. 1 semaine.</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> OuLiPo : A <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>. Contents : shorter English contribution.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> Nouveau livre de <persName ref="../thesauri/persons.xml#ab">Blavier</persName>.</p>
-      <p>Tous moins <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> Fonds et cahiers <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></p>
-      <p>(<persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> more creation, less action)</p>
-      <p>In <title ref="../thesauri/titles.xml#n100000milliards">100 000 Milliards</title></p>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> 1 2 « Marchandise » as rhyming words</p>
+      <p rend="incipit">Préside : <persName ref="#pb">Braffort</persName></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> <name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name> : on demandera 250 francs de cachet par jour, + 12 voyages. 4 présents. 1 semaine.</p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> OuLiPo : A <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName>. Contents : shorter English contribution.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> Nouveau livre de <persName ref="#ab">Blavier</persName>.</p>
+      <p>Tous moins <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> Fonds et cahiers <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></p>
+      <p>(<persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> more creation, less action)</p>
+      <p>In <title ref="#n1milliards">100 000 Milliards</title></p>
+      <p><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> 1 2 « Marchandise » as rhyming words</p>
       <p>since sonnet by definition can’t have same word <unclear>* *</unclear> a fonction, as a rhyme)</p>
       <p>only 99000 Billion 10<hi rend="sup">12</hi> &gt; only 12 permutable verses</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>’s ? : Pétainmollittrop : jamais dit à Paris ; en jour libre, oui</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>’s ? : Pétainmollittrop : jamais dit à Paris ; en jour libre, oui</p>
     </body>
   </text>
 </TEI>

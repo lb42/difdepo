@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010188-1976-09-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010188-1976-09-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010188-1976-09-cv</idno> <title>Convocation à <ref target="#t10010188-1976-09">une réunion Oulipo</ref>, envoyée le <date when="1976-09-23">23 septembre 1976</date> par <persName ref="../thesauri/persons.xml#gp" role="expéditeur"><abbr>GP</abbr></persName></title></bibl>
+        <bibl><idno>t10010188-1976-09-cv</idno> <title>Convocation à <ref target="#t10010188-1976-09">une réunion Oulipo</ref>, envoyée le <date when="1976-09-23">23/09/1976</date> par <persName ref="#gp" role="expéditeur"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -32,12 +31,12 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101887/f1.highres" n="1"/>
-      <p rend="incipit"><persName ref="../thesauri/persons.xml#gp">Georges Perec</persName></p>
+      <p rend="incipit"><persName ref="#gp">Georges Perec</persName></p>
       <p rend="incipit">13 rue Linné</p>
       <p rend="incipit">75005 Paris</p>
       <p rend="incipit">331 78 45</p>
       <p>Cher Oulipien :</p>
-      <p>La prochaine réunion de l’OuLiPo aura lieu</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’OuLiPo aura lieu</p>
       <list type="ordered">
         <item>chez moi</item>
         <item>le jeudi 23 septembre 1976</item>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010244-1981-11-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010244-1981-11-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,14 +17,14 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010244-1981-11-cr</idno> <meeting xml:id="t10010244-1981-11">
-          <date when="1981-11-13">13 novembre 1981</date>
+          <date when="1981-11-13">13/11/1981</date>
           <placeName>chez CB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb" role="secrétaire"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm" role="président"><abbr>HM</abbr></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#pb" role="secrétaire"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#hm" role="président"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>

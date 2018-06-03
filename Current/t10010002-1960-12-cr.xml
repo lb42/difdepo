@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010002-1960-12-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010002-1960-12-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +17,16 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010002-1960-12-cr</idno> <meeting xml:id="t10010002-1960-12">
-          <date when="1960-12-22">22 décembre 1960</date>
+          <date when="1960-12-22">22/12/1960</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#as"><abbr>AS</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb" role="secrétaire"><abbr>JB</abbr></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></item>
+            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
+            <item><persName ref="#ams"><choice><abbr>AMSS</abbr><expan>Albert-Marie Schmidt</expan></choice></persName></item>
+            <item><persName ref="#jb" role="secrétaire"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -55,17 +54,17 @@
       <p><label type="rubrique">A. DENOMINATIONS :</label></p>
       <p>L’expression “SEMINAIRE DE LITTERATURE EXPERIMENTALE” ayant été contestée, pour l’un ou l’autre de ses termes, par quelques membres du groupe, d’autres termes furent proposés. Un vote régulier conduisit à la dénomination définitive (jusqu’à nouvel ordre) suivant :</p>
       <p>OUVROIR DE LITTÉRATURE POTENTIELLE (OLiPo)</p>
-      <p><label type="rubrique">B. RELATIONS AVEC <orgName ref="../thesauri/organizations.xml#lecollegedepataphysique">LE COLLEGE DE PATAPHYSIQUE</orgName>.</label></p>
-      <p>La présence de <persName ref="../thesauri/persons.xml#na">Noël ARNAUD</persName>, Régent de <orgName ref="../thesauri/organizations.xml#pataphysique">Pataphysique</orgName> Générale et de Clinique de Rhétoriconose, Covice-Rogateur, Conférent Majeur O. G. G., a donné à notre un caractère particulièrement intéressant, et nous a permis de régler la situation de l’OLiPo dans le sein du Collège. Cette situation est la suivante :</p>
-      <p>L’OLiPo est intégré à la Sous-Commission des Epiphanies et Ithyphanies, elle-même incluse dans la Commission des Imprévisibles, dont l’un des trois Présidents est le Trt S. <persName ref="../thesauri/persons.xml#rq">Raymond Queneau</persName>.</p>
-      <p>Au titre de la Sous-Commission, l’OLiPo pourra posséder des dataires (chargés des relations administratives ; les deux dataires provisoirement proposées sont <persName ref="../thesauri/persons.xml#cb">Claude Berge</persName> et <persName ref="../thesauri/persons.xml#jb">Jacques Bens</persName>) ; elle pourra également créer des chaires, auxquelles des régents seront attachés. Ces créations feront l’objet d’une prochaine réunion, dès que les différents travaux commenceront à se dégager des brumes de l’ante-potentialité.</p>
+      <p><label type="rubrique">B. RELATIONS AVEC <orgName ref="#lecollegedepataphysique">LE COLLEGE DE PATAPHYSIQUE</orgName>.</label></p>
+      <p>La présence de <persName ref="#na">Noël ARNAUD</persName>, Régent de <orgName ref="#pataphysique">Pataphysique</orgName> Générale et de Clinique de Rhétoriconose, Covice-Rogateur, Conférent Majeur O. G. G., a donné à notre un caractère particulièrement intéressant, et nous a permis de régler la situation de l’OLiPo dans le sein du Collège. Cette situation est la suivante :</p>
+      <p>L’OLiPo est intégré à la Sous-Commission des Epiphanies et Ithyphanies, elle-même incluse dans la Commission des Imprévisibles, dont l’un des trois Présidents est le Trt S. <persName ref="#rq">Raymond Queneau</persName>.</p>
+      <p>Au titre de la Sous-Commission, l’OLiPo pourra posséder des dataires (chargés des relations administratives ; les deux dataires provisoirement proposées sont <persName ref="#cb">Claude Berge</persName> et <persName ref="#jb">Jacques Bens</persName>) ; elle pourra également créer des chaires, auxquelles des régents seront attachés. Ces créations feront l’objet d’une <name ref="#prochainereunion" type="manif">prochaine réunion</name> , dès que les différents travaux commenceront à se dégager des brumes de l’ante-potentialité.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010002v/f2.highres" n="2"/>
       <p><label type="rubrique">C. HISTOIRE DES LITTERATURES EXPERIMENTALES.</label></p>
-      <p>Parmi les travaux de l’OLiPo, un des premiers envisagés (avant même la fondation de notre groupe) est une sorte d’<title ref="../thesauri/titles.xml#histoiredeslitteraturesexperimentales">Histoire des Littératures Expérimentales</title>. Pour le moment, il s’agit seulement de réunir des sources d’informations. Chaque membre est donc invité, dans la mesure de ses possibilités, à proposer des documents. <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName> a déjà entrepris une série de conférences sur ce thème. Le texte de ces conférences doit être bientôt publié. Il va de soi que, dès sa publication, ce texte constituera le dossier n. 1 des archives de l’H. L. E.</p>
-      <p>Un des premiers problèmes prosés concerne la définition de ce que nous voulons entendre par Littérature Experimentales. Que chacun apporte, à la prochaine réunion, le fruit de ses réflexions.</p>
+      <p>Parmi les travaux de l’OLiPo, un des premiers envisagés (avant même la fondation de notre groupe) est une sorte d’<title ref="#histoiredeslitteratureseperimentales">Histoire des Littératures Expérimentales</title>. Pour le moment, il s’agit seulement de réunir des sources d’informations. Chaque membre est donc invité, dans la mesure de ses possibilités, à proposer des documents. <persName ref="#na">Noël Arnaud</persName> a déjà entrepris une série de conférences sur ce thème. Le texte de ces conférences doit être bientôt publié. Il va de soi que, dès sa publication, ce texte constituera le dossier n. 1 des archives de l’H. L. E.</p>
+      <p>Un des premiers problèmes prosés concerne la définition de ce que nous voulons entendre par Littérature Experimentales. Que chacun apporte, à la <name ref="#prochainereunion" type="manif">prochaine réunion</name> , le fruit de ses réflexions.</p>
       <p><label type="rubrique">D. PROCHAINE REUNION.</label></p>
-      <p>La prochaine réunion aura lieu le vendredi 13 janvier 1961.</p>
-      <p>Président : <persName ref="../thesauri/persons.xml#jd">Jacques DUCHATEAU</persName>.</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  aura lieu le vendredi 13 janvier 1961.</p>
+      <p>Président : <persName ref="#jd">Jacques DUCHATEAU</persName>.</p>
       <p><label type="rubrique">Ordre du jour (à revoir) :</label></p>
       <list type="unordered">
         <item>congratulations et vœux de bonne année ;</item>
@@ -74,11 +73,11 @@
       </list>
       <p><label type="rubrique">E. DIVERS.</label></p>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#rq">Raymond Queneau</persName> propose d’inviter <persName ref="../thesauri/persons.xml#francoisrostand">François Rostand</persName> à se joindre à nous. Cette invitation sera effectuée par le Canal du Secrétariat actuel, future Daterie.</item>
-        <item>A la suite de la réunion, quelques membres de l’OLiPo se sont rendus à <name ref="../thesauri/events.xml#lexpositiondubuffet" type="manif">l’exposition Dubuffet</name>, au Pavillon de Marsan. Ils ont été surpris de constater le nombre singulier de de portraits de <persName ref="../thesauri/persons.xml#jeanpaulhan">Jean Paulhan</persName> exposés sur les murs. L’un d’entre eux a même fait remarquer que les portraits les plus ressemblants NE SONT PAS ceux de <persName ref="../thesauri/persons.xml#jeanpaulhan">Jean Paulhan</persName>, mais ceux de <persName ref="../thesauri/persons.xml#fautrier">Fautrier</persName>, de <persName ref="../thesauri/persons.xml#michaux">Michaux</persName> et de divers inconnus. Cette façon d’équivoque ne leur à pas permis de trancher si <persName ref="../thesauri/persons.xml#jeanpaulhan">Jean Paulhan</persName> existe ou non.</item>
+        <item><persName ref="#rq">Raymond Queneau</persName> propose d’inviter <persName ref="#francoisrostand">François Rostand</persName> à se joindre à nous. Cette invitation sera effectuée par le Canal du Secrétariat actuel, future Daterie.</item>
+        <item>A la suite de la réunion, quelques membres de l’OLiPo se sont rendus à <name ref="#lexpositiondubuffet" type="manif">l’exposition Dubuffet</name>, au Pavillon de Marsan. Ils ont été surpris de constater le nombre singulier de de portraits de <persName ref="#jeanpaulhan">Jean Paulhan</persName> exposés sur les murs. L’un d’entre eux a même fait remarquer que les portraits les plus ressemblants NE SONT PAS ceux de <persName ref="#jeanpaulhan">Jean Paulhan</persName>, mais ceux de <persName ref="#fautrier">Fautrier</persName>, de <persName ref="#michau">Michaux</persName> et de divers inconnus. Cette façon d’équivoque ne leur à pas permis de trancher si <persName ref="#jeanpaulhan">Jean Paulhan</persName> existe ou non.</item>
         <item>Il est vivement conseillé au membres de l’OLiPo de s’abstenir, à l’avenir, et au cours des réunions, de commander des maquereaux au vin blanc.</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#jb">Jacques BENS</persName></p>
+      <p><persName ref="#jb">Jacques BENS</persName></p>
     </body>
   </text>
 </TEI>

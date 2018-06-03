@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010221-1979-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010221-1979-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,8 +17,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010221-1979-10-cr</idno> <meeting xml:id="t10010221-1979-10">
-          <date when="1979-10-04">4 octobre 1979</date>
-          <gap/>
+          <date when="1979-10-04">04/10/1979</date>
+          <gap/> 
           </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
@@ -38,41 +37,41 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102210/f9.highres" n="9"/>
       <p rend="incipit">Le 4 octobre 79</p>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : création : <term ref="../thesauri/terms.xml#quenel">QUENEL</term> (<persName ref="../thesauri/persons.xml#rq">Queneau</persName> + <persName ref="../thesauri/persons.xml#pf">Fournel</persName>)</item>
+        <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : création : <term ref="#quenel">QUENEL</term> (<persName ref="#rq">Queneau</persName> + <persName ref="#pf">Fournel</persName>)</item>
       </list>
-      <p><term ref="../thesauri/terms.xml#tabledemultiplication">Table de multiplication</term> du <title ref="../thesauri/titles.xml#chiendent">chiendent</title> (<ref>voir copie jointe</ref>).</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> : le texte ira tout droit dans les séries du <title ref="../thesauri/titles.xml#vol2">vol. 2</title></p>
+      <p><term ref="#tabledemultiplication">Table de multiplication</term> du <title ref="#chiendent">chiendent</title> (<ref>voir copie jointe</ref>).</p>
+      <p><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : le texte ira tout droit dans les séries du <title ref="#vol">vol. 2</title></p>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : Annonce publication d’un volume de poèmes. Reprise des <term ref="../thesauri/terms.xml#ulcerations"><title ref="../thesauri/titles.xml#ulcerations">Ulcérations</title></term> avec modification. Il y aura des <term ref="../thesauri/terms.xml#moraleselementaires">Morales Elémentaires</term>.</item>
-      </list>
-      <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : donnera un papier sur la notion de <term ref="../thesauri/terms.xml#chefdouvre">« chef d’œuvre »</term> <note n="1" resp="editor">L’expression « chef d’œuvre » est ici présentée comme une notion par le rédacteur du CR</note> (<ref>voir CR de Juillet</ref>)</item>
+        <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> : Annonce publication d’un volume de poèmes. Reprise des <term ref="#ulcerations"><title ref="#ulcerations">Ulcérations</title></term> avec modification. Il y aura des <term ref="#moraleselementaires">Morales Elémentaires</term>.</item>
       </list>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : Erudition</item>
+        <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : donnera un papier sur la notion de <term ref="#chefdouvre">« chef d’œuvre »</term> <note n="1" resp="editor">L’expression « chef d’œuvre » est ici présentée comme une notion par le rédacteur du CR</note> (<ref>voir CR de Juillet</ref>)</item>
       </list>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#etiennetabourot">Etienne Tabourot</persName></item>
-        <item><title ref="../thesauri/titles.xml#rides">Rides</title> de <persName ref="../thesauri/persons.xml#charlessimmons">Charles Simmons</persName> (éd. <orgName ref="../thesauri/organizations.xml#ramsay">Ramsay</orgName>)</item>
-        <item>« <title ref="../thesauri/titles.xml#adieualavie">Adieu à la vie</title> » de <persName ref="../thesauri/persons.xml#rossini">Rossini</persName> où toute la mélodie est sur la note do</item>
+        <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : Erudition</item>
       </list>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> : roman soviétique de <persName ref="../thesauri/persons.xml#vaxionov">V. Axionov</persName> : « <title ref="../thesauri/titles.xml#recherchedungenre">recherche d’un genre</title>» (<orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName>)</item>
+        <item><persName ref="#etiennetabourot">Etienne Tabourot</persName></item>
+        <item><title ref="#rides">Rides</title> de <persName ref="#charlessimmons">Charles Simmons</persName> (éd. <orgName ref="#ramsay">Ramsay</orgName>)</item>
+        <item>« <title ref="#adieualavie">Adieu à la vie</title> » de <persName ref="#rossini">Rossini</persName> où toute la mélodie est sur la note do</item>
       </list>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> : partir d’un roman, le changer d’angle. Discussion générale.</item>
+        <item><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> : roman soviétique de <persName ref="#vaionov">V. Axionov</persName> : « <title ref="#recherchedungenre">recherche d’un genre</title>» (<orgName ref="#gallimard">Gallimard</orgName>)</item>
       </list>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. Action : évocation du cours de « créative writing » de <persName ref="../thesauri/persons.xml#bennington">Bennington</persName>.</item>
+        <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> : partir d’un roman, le changer d’angle. Discussion générale.</item>
       </list>
       <list type="ordered">
-        <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> : Mardi 23 octobre 17h20 sur A2.</item>
-        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> ira porter la bonne parole en Italie.</item>
-        <item>Organisation délicate de la <name ref="../thesauri/events.xml#semaineoulipo" type="manif">semaine Oulipo</name></item>
-        <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>. Citation d’un discours de <persName ref="../thesauri/persons.xml#giscard">Giscard</persName> faisant allusion à la <term ref="../thesauri/terms.xml#litteraturecombinatoire">littérature combinatoire</term>.</item>
+        <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. Action : évocation du cours de « créative writing » de <persName ref="#bennington">Bennington</persName>.</item>
       </list>
-      <p>Prochaine réunion</p>
-      <p>Vendredi 23 nov. chez <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>.</p>
+      <list type="ordered">
+        <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> : Mardi 23 octobre 17h20 sur A2.</item>
+        <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> ira porter la bonne parole en Italie.</item>
+        <item>Organisation délicate de la <name ref="#semaineoulipo" type="manif">semaine Oulipo</name></item>
+        <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>. Citation d’un discours de <persName ref="#giscard">Giscard</persName> faisant allusion à la <term ref="#litteraturecombinatoire">littérature combinatoire</term>.</item>
+      </list>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </p>
+      <p>Vendredi 23 nov. chez <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.</p>
     </body>
   </text>
 </TEI>

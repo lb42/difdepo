@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010064-1966-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010064-1966-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +17,15 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010064-1966-02-cr</idno> <meeting xml:id="t10010064-1966-02">
-          <date when="1966-02-04">4 février 1966</date>
+          <date when="1966-02-04">04/02/1966</date>
           <placeName>Basque</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jd" role="secrétaire"><abbr>JD</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq" role="président"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#andrelenteri" role="invité">André Lenteri</persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
+            <item><persName ref="#jd" role="secrétaire"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
+            <item><persName ref="#jq" role="président"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#andrelenteri" role="invité">André Lenteri</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,31 +47,31 @@
       <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE <lb/>Circulaire n° 69</p>
       <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 4 FEVRIER 1966</p>
       <p rend="incipit">(Basque)</p>
-      <p rend="incipit">PRÉSENTS : <persName ref="../thesauri/persons.xml#pb">P. Braffort</persName>, <persName ref="../thesauri/persons.xml#jq">J. Queval</persName>, <persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName>, <persName ref="../thesauri/persons.xml#rq">R. Queneau</persName>, <persName ref="../thesauri/persons.xml#jd">J. Duchateau</persName>, <persName ref="../thesauri/persons.xml#andrelenteri">André Lenteri</persName>.</p>
-      <p rend="incipit">INVITÉ : <persName ref="../thesauri/persons.xml#andrelenteri">André Lenteri</persName>.</p>
-      <p rend="incipit">PRÉSIDENT : <persName ref="../thesauri/persons.xml#jq">J. Queval</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb">BRAFFORT</persName> (accueille notre invité) : Vous avez, ce que refuse le parti radical à ses membres, la double appartenance : <term ref="../thesauri/terms.xml#linguistique">linguistique</term> et <term ref="../thesauri/terms.xml#mathematique">mathématique</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#alenteri">A. LENTERI</persName> : Je vous invite tous cordialement à voir notre <term ref="../thesauri/terms.xml#machine">machine</term> fonctionner. C’est une belle <term ref="../thesauri/terms.xml#machine">machine</term> toute neuve.</p>
-      <p>On ne prend pas rendez-vous pour se rendre à <persName ref="../thesauri/persons.xml#blaisepascal">Blaise Pascal</persName> (où travaille <persName ref="../thesauri/persons.xml#alenteri">A. Lenteri</persName>).</p>
-      <p><persName ref="../thesauri/persons.xml#rq">R. QUENEAU</persName> : <persName ref="../thesauri/persons.xml#la">Latis</persName> m’a envoyé des <term ref="../thesauri/terms.xml#boulesdeneige">boules de neige</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#jd">J. DUCHATEAU</persName> : Moi aussi.</p>
-      <p>(<ref>Annexe 1</ref> – <persName ref="../thesauri/persons.xml#la">Latis</persName>)</p>
-      <p><persName ref="../thesauri/persons.xml#fll">F. LE LIONNAIS</persName> : La boule de neige sera l’arme secrète de l’OuLiPo.</p>
-      <p><persName ref="../thesauri/persons.xml#jd">J. DUCHATEAU</persName> : (<ref>voir Annexe 2</ref>.)</p>
-      <p><persName ref="../thesauri/persons.xml#rq">R. QUENEAU</persName> : Avec l’<term ref="../thesauri/terms.xml#analogique">analogique</term>, on passe facilement de colibri à vestiaire.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">J. QUEVAL</persName> : <title ref="../thesauri/titles.xml#lelarousse">Le Larousse</title> <term ref="../thesauri/terms.xml#analogique">analogique</term> est particulièrement mauvais.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">R. QUENEAU</persName> : Il y en a des bons ?</p>
+      <p rend="incipit">PRÉSENTS : <persName ref="#pb">P. Braffort</persName>, <persName ref="#jq">J. Queval</persName>, <persName ref="#fll">F. Le Lionnais</persName>, <persName ref="#rq">R. Queneau</persName>, <persName ref="#jd">J. Duchateau</persName>, <persName ref="#andrelenteri">André Lenteri</persName>.</p>
+      <p rend="incipit">INVITÉ : <persName ref="#andrelenteri">André Lenteri</persName>.</p>
+      <p rend="incipit">PRÉSIDENT : <persName ref="#jq">J. Queval</persName>.</p>
+      <p><persName ref="#pb">BRAFFORT</persName> (accueille notre invité) : Vous avez, ce que refuse le parti radical à ses membres, la double appartenance : <term ref="#linguistique">linguistique</term> et <term ref="#mathematique">mathématique</term>.</p>
+      <p><persName ref="#alenteri">A. LENTERI</persName> : Je vous invite tous cordialement à voir notre <term ref="#machine">machine</term> fonctionner. C’est une belle <term ref="#machine">machine</term> toute neuve.</p>
+      <p>On ne prend pas rendez-vous pour se rendre à <persName ref="#blaisepascal">Blaise Pascal</persName> (où travaille <persName ref="#alenteri">A. Lenteri</persName>).</p>
+      <p><persName ref="#rq">R. QUENEAU</persName> : <persName ref="#la">Latis</persName> m’a envoyé des <term ref="#boulesdeneige">boules de neige</term>.</p>
+      <p><persName ref="#jd">J. DUCHATEAU</persName> : Moi aussi.</p>
+      <p>(<ref>Annexe 1</ref> – <persName ref="#la">Latis</persName>)</p>
+      <p><persName ref="#fll">F. LE LIONNAIS</persName> : La boule de neige sera l’arme secrète de l’OuLiPo.</p>
+      <p><persName ref="#jd">J. DUCHATEAU</persName> : (<ref>voir Annexe 2</ref>.)</p>
+      <p><persName ref="#rq">R. QUENEAU</persName> : Avec l’<term ref="#analogique">analogique</term>, on passe facilement de colibri à vestiaire.</p>
+      <p><persName ref="#jq">J. QUEVAL</persName> : <title ref="#lelarousse">Le Larousse</title> <term ref="#analogique">analogique</term> est particulièrement mauvais.</p>
+      <p><persName ref="#rq">R. QUENEAU</persName> : Il y en a des bons ?</p>
       <p>(Bruit blanc.)</p>
-      <p><persName ref="../thesauri/persons.xml#jd">J. DUCHATEAU</persName> : Ce que j’ai fait n’est qu’un exercice, pour voir. Cela dit, il peut être intéressant de se donner a priori des <term ref="../thesauri/terms.xml#contraintessemantiques">contraintes sémantiques</term> de ce genre, qui seront réellement des <term ref="../thesauri/terms.xml#contraintes">contraintes</term> si on observe une certaine rigueur dans le maniement du jeu rigoureux dictionnaire <term ref="../thesauri/terms.xml#analogique">analogique</term>.</p>
-      <p><ref>Annexe 3</ref> = <title ref="../thesauri/titles.xml#definitiondeloulipo">Définition de l’OuLiPo</title> par <persName ref="../thesauri/persons.xml#jq">J. Queval</persName>.</p>
+      <p><persName ref="#jd">J. DUCHATEAU</persName> : Ce que j’ai fait n’est qu’un exercice, pour voir. Cela dit, il peut être intéressant de se donner a priori des <term ref="#contraintessemantiques">contraintes sémantiques</term> de ce genre, qui seront réellement des <term ref="#contraintes">contraintes</term> si on observe une certaine rigueur dans le maniement du jeu rigoureux dictionnaire <term ref="#analogique">analogique</term>.</p>
+      <p><ref>Annexe 3</ref> = <title ref="#definitiondeloulipo">Définition de l’OuLiPo</title> par <persName ref="#jq">J. Queval</persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100647/f2.highres" n="2"/>
-      <p><persName ref="../thesauri/persons.xml#fll">F. LE LIONNAIS</persName> (à la place de <persName ref="../thesauri/persons.xml#na">N. Arnaud</persName>, absent) : <ref>Annexe 4</ref>.</p>
+      <p><persName ref="#fll">F. LE LIONNAIS</persName> (à la place de <persName ref="#na">N. Arnaud</persName>, absent) : <ref>Annexe 4</ref>.</p>
       <p>Il a encore été question :</p>
-      <p>du <term ref="../thesauri/terms.xml#romanpolicier">roman policier</term> (<persName ref="../thesauri/persons.xml#pb">Braffort</persName>),</p>
-      <p>et d’un livre de <title ref="../thesauri/titles.xml#mathematiqueselementaires">Mathématiques Elémentaires</title> de <persName ref="../thesauri/persons.xml#alenteri">A. Lenteri</persName> qui a donné comme exercice : Chercher la relation est amoureux de … dans <title ref="../thesauri/titles.xml#andromaque">Andromaque</title>.</p>
-      <p>Prochaine réunion : le 25 février 1966.</p>
+      <p>du <term ref="#romanpolicier">roman policier</term> (<persName ref="#pb">Braffort</persName>),</p>
+      <p>et d’un livre de <title ref="#mathematiqueselementaires">Mathématiques Elémentaires</title> de <persName ref="#alenteri">A. Lenteri</persName> qui a donné comme exercice : Chercher la relation est amoureux de … dans <title ref="#andromaque">Andromaque</title>.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : le 25 février 1966.</p>
       <p>Le S.P.</p>
-      <p><persName ref="../thesauri/persons.xml#jd"><abbr>J.D.</abbr></persName></p>
+      <p><persName ref="#jd"><choice><abbr>J.D.</abbr><expan>Jacques Duchateau</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

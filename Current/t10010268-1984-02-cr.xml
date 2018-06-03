@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010268-1984-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010268-1984-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,18 +17,38 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010268-1984-02-cr</idno> <meeting xml:id="t10010268-1984-02">
-          <date when="1984-02-24">24 février 1984</date>
-          <placeName>chez Martine et PF</placeName>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf" role="secrétaire"><abbr>PF</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010268-1984-02-cr</idno>
+          <meeting xml:id="t10010268-1984-02">
+            <date when="1984-02-24">24/02/1984</date>
+            <placeName>chez Martine et PF</placeName>
+            <list type="present">
+              <item><persName ref="#jj"><choice>
+                    <abbr>JJ</abbr>
+                    <expan>Jacques Jouet</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fc"><choice>
+                    <abbr>FC</abbr>
+                    <expan>François Caradec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#hm"><choice>
+                    <abbr>HM</abbr>
+                    <expan>Harry Mathews</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pb"><choice>
+                    <abbr>PB</abbr>
+                    <expan>Paul Braffort</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf" role="secrétaire"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -48,40 +68,112 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010268s/f14.highres" n="14"/>
       <p rend="incipit">Oulipo 24/2/84</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : Mouvement élémentaire de déshabillage</p>
-      <p>5 <term ref="../thesauri/terms.xml#moraleselementaires">morales élémentaires</term> : <term ref="../thesauri/terms.xml#contrainte">contrainte</term> pragmatique (<ref>ci joint</ref>)</p>
+      <p><persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName> : Mouvement élémentaire de déshabillage</p>
+      <p>5 <term ref="#moraleselementaires">morales élémentaires</term> : <term ref="#contrainte"
+          >contrainte</term> pragmatique (<ref>ci joint</ref>)</p>
       <p>Motion de félicitation</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></p>
-      <p>La <persName ref="../thesauri/persons.xml#courtisanechrysomallo">Courtisane Chrysomallo</persName> (p. 287 <unclear>éd. <orgName ref="../thesauri/organizations.xml#pauvert">Pauvert</orgName> <title ref="../thesauri/titles.xml#locussolus">Locus Solus</title></unclear> )</p>
-      <p>Réécrire l’<term ref="../thesauri/terms.xml#acrostiche">acrostiche</term> qui manque dans <title ref="../thesauri/titles.xml#locussolus">Locus Solus</title></p>
+      <p><persName ref="#fc"><choice>
+            <abbr>FC</abbr>
+            <expan>François Caradec</expan>
+          </choice></persName></p>
+      <p>La <persName ref="#courtisanechrysomallo">Courtisane Chrysomallo</persName> (p. 287
+          <unclear>éd. <orgName ref="#pauvert">Pauvert</orgName>
+          <title ref="#locussolus">Locus Solus</title></unclear> )</p>
+      <p>Réécrire l’<term ref="#acrostiche">acrostiche</term> qui manque dans <title
+          ref="#locussolus">Locus Solus</title></p>
       <p>Motion de félicitations</p>
       <p>Rajouter la rubrique Chrysomallo dite Crypto-Maso)</p>
       <p>Glose sur Vase Brisé</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>  : <term ref="../thesauri/terms.xml#palindromedecontraintes">Palindrome de contraintes</term> (<ref>ci joint</ref>)</p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> : <term ref="#palindromedecontraintes">Palindrome de
+          contraintes</term> (<ref>ci joint</ref>)</p>
       <p>Félicitations</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="../thesauri/persons.xml#efoury">E Foury</persName> (vivant en 1894) (<ref>voici joint</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#glecomte">G Lecomte</persName> : a pété chez <persName ref="../thesauri/persons.xml#mallarme">Mallarmé</persName></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>  : Panama : une <term ref="../thesauri/terms.xml#contrainte">contrainte</term> peut en cacher une autre</p>
+      <p><persName ref="#fc"><choice>
+            <abbr>FC</abbr>
+            <expan>François Caradec</expan>
+          </choice></persName>
+        <persName ref="#efoury">E Foury</persName> (vivant en 1894) (<ref>voici joint</ref>)</p>
+      <p><persName ref="#glecomte">G Lecomte</persName> : a pété chez <persName ref="#mallarme"
+          >Mallarmé</persName></p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> : Panama : une <term ref="#contraine">contrainte</term> peut en cacher une autre</p>
       <p>A mon plan un canal Panama</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : une érudition de la plus haute importance</p>
-      <p>A <unclear>pap</unclear>de Vitranger : la date de la naissance de <unclear>Laun</unclear> 24-2</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> : une érudition de la plus haute importance</p>
+      <p>A <unclear>pap</unclear>de Vitranger : la date de la naissance de <unclear>Laun</unclear>
+        24-2</p>
       <p>Félicitations</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Pentecôte à Lyon : <name ref="../thesauri/events.xml#stagele1011juin" type="manif">stage le 10-11 juin</name></p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : Pentecôte à Lyon : <name ref="#stagele111juin" type="manif">stage
+          le 10-11 juin</name></p>
       <list type="unordered">
         <item>Impôts</item>
-        <item><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. : état des choses</item>
-        <item>Caen : Oulipo typographique avec <persName ref="../thesauri/persons.xml#alain">Alain</persName> Rogers les Fosses 14770 St Pierre la Vieille (34) 69 52 56</item>
+        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. : état des
+          choses</item>
+        <item>Caen : Oulipo typographique avec <persName ref="#alain">Alain</persName> Rogers les
+          Fosses 14770 St Pierre la Vieille (34) 69 52 56</item>
         <item><unclear>Smaraudauche</unclear></item>
-        <item><name ref="../thesauri/events.xml#colloquequeneau" type="manif">Colloque Queneau</name>à Limoges</item>
+        <item><name ref="#colloquequeneau" type="manif">Colloque Queneau</name>à Limoges</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010268s/f15.highres" n="15"/>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : les ventes des livres de <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> propose de publier les pages OULIPO dans le <title ref="../thesauri/titles.xml#avb">AVB</title></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>  : <orgName ref="../thesauri/organizations.xml#shakespeareandco">Shakespeare and Co</orgName> : un atelier d’écriture fait par <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> à New York.</p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : La Chaux de Fond : le 15 mars <name ref="../thesauri/events.xml#conferenceoulipo" type="manif">conférence OULIPO</name></p>
-      <p><name ref="../thesauri/events.xml#stageliege" type="manif">Stage Liège</name> : <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> + <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> + <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> + <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : date 19-22 avril ; 26-29 avril</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : Le point sur <orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <persName ref="../thesauri/persons.xml#demouzon">Demouzon</persName> : une série d’énigmes dont une <unclear>….</unclear> = GP</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : les ventes des livres de <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName></p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <persName ref="#rameil">Rameil</persName> propose de publier les
+        pages OULIPO dans le <title ref="#avb">AVB</title></p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> : <orgName ref="#shakespeareandco">Shakespeare and Co</orgName> : un
+        atelier d’écriture fait par <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> à New York.</p>
+      <p><persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName> : La Chaux de Fond : le 15 mars <name ref="#conferenceoulipo"
+          type="manif">conférence OULIPO</name></p>
+      <p><name ref="#stageliege" type="manif">Stage Liège</name> : <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> + <persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName> + <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> + <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : date 19-22 avril ; 26-29 avril</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : Le point sur <orgName ref="#alamo">Alamo</orgName></p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <persName ref="#demouzon">Demouzon</persName> : une série d’énigmes
+        dont une <unclear>….</unclear> = GP</p>
       <p>Vendredi 30/3 à midi chez MM : <unclear>….</unclear></p>
     </body>
   </text>

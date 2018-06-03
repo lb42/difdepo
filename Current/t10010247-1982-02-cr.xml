@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010247-1982-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010247-1982-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +17,16 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010247-1982-02-cr</idno> <meeting xml:id="t10010247-1982-02">
-          <date when="1982-02-19">19 février 1982</date>
+          <date when="1982-02-19">19/02/1982</date>
           <placeName>chez MB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb" role="président"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj" role="invité"><abbr>JJ</abbr></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jb" role="président"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#jj" role="invité"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,33 +47,33 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010247h/f36.highres" n="36"/>
       <p rend="incipit">Réunion du 19 II 82 chez MB</p>
       <list type="unordered">
-        <item>Présents : <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>-<persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>-<persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>-<persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName>-<persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>-<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>-<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>.</item>
-        <item>Excusés : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>. <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName>. <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>.</item>
-        <item>Absents : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-        <item>Invité : <persName ref="../thesauri/persons.xml#jj">Jacques Jouet</persName></item>
-        <item>Président de séance : <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
+        <item>Présents : <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>-<persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>-<persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>-<persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName>-<persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>-<persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>-<persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>.</item>
+        <item>Excusés : <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>. <persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName>. <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>.</item>
+        <item>Absents : <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+        <item>Invité : <persName ref="#jj">Jacques Jouet</persName></item>
+        <item>Président de séance : <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
       </list>
-      <p>Traditionnelle <term ref="../thesauri/terms.xml#arriveepalindromique">arrivée palindromique</term> de <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> pour la rue de la Dhuys.</p>
-      <p>Présentation de l’invité par <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Préparation du <name ref="../thesauri/events.xml#stagedamiens" type="manif">stage d’Amiens</name> (coup de téléphone attendu de <persName ref="../thesauri/persons.xml#beton">Beton</persName>)</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> Vente du 1<hi rend="sup">er</hi>tirage oulipo <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> terminée.</p>
+      <p>Traditionnelle <term ref="#arriveepalindromique">arrivée palindromique</term> de <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> pour la rue de la Dhuys.</p>
+      <p>Présentation de l’invité par <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Préparation du <name ref="#stagedamiens" type="manif">stage d’Amiens</name> (coup de téléphone attendu de <persName ref="#beton">Beton</persName>)</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> Vente du 1<hi rend="sup">er</hi>tirage oulipo <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> terminée.</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> : <title ref="../thesauri/titles.xml#lecontedumouton">Le conte du mouton</title> changé en <persName ref="../thesauri/persons.xml#gp">Perec</persName>. <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> n°20 ou 21</item>
-        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> : Est en train d’écrire des <term ref="../thesauri/terms.xml#poemesinfinis">poèmes infinis</term>. -&gt; <name ref="../thesauri/events.xml#exposeaamiens" type="manif">exposé à Amiens</name>.</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Petit supplément aux dictionnaires des locutions françaises. –<title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. N°21 ou 22</item>
+        <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> : <title ref="#lecontedumouton">Le conte du mouton</title> changé en <persName ref="#gp">Perec</persName>. <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> n°20 ou 21</item>
+        <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : Est en train d’écrire des <term ref="#poemesinfinis">poèmes infinis</term>. -&gt; <name ref="#eposeaamiens" type="manif">exposé à Amiens</name>.</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Petit supplément aux dictionnaires des locutions françaises. –<title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. N°21 ou 22</item>
         <item>Téléphone au Président -&gt;téléphone d’Amiens.</item>
-        <item><persName ref="../thesauri/persons.xml#jb">Bens</persName> : Il n’y a pas de sommelier, il n’y a que de sottes gens.</item>
-        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> :</item>
+        <item><persName ref="#jb">Bens</persName> : Il n’y a pas de sommelier, il n’y a que de sottes gens.</item>
+        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> :</item>
       </list>
       <p><label type="rubrique">Action :</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> : Envoyer projets de travaux pour ordinateur pour <orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName>. exposé de <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> sur la <orgName ref="../thesauri/organizations.xml#sgdl">SGDL</orgName></item>
-        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> lit <title ref="../thesauri/titles.xml#zoomemonosyllabique">Zoo ME monosyllabique</title>.</item>
+        <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : Envoyer projets de travaux pour ordinateur pour <orgName ref="#alamo">Alamo</orgName>. exposé de <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> sur la <orgName ref="#sgdl">SGDL</orgName></item>
+        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> lit <title ref="#zoomemonosyllabique">Zoo ME monosyllabique</title>.</item>
       </list>
-      <p><label type="rubrique">Arrivée de <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>+<persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> Départ de <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></label></p>
+      <p><label type="rubrique">Arrivée de <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>+<persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> Départ de <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></label> </p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> : Lit quelques textes dont requin sorti du bestiaire et pot-sec d’après <persName ref="../thesauri/persons.xml#wozniak">Wozniak</persName></item>
+        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> : Lit quelques textes dont requin sorti du bestiaire et pot-sec d’après <persName ref="#wozniak">Wozniak</persName></item>
       </list>
     </body>
   </text>

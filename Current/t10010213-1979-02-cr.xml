@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010213-1979-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010213-1979-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +17,15 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010213-1979-02-cr</idno> <meeting xml:id="t10010213-1979-02">
-          <date when="1979-02-15">15 février 1979</date>
+          <date when="1979-02-15">15/02/1979</date>
           <placeName>chez PF</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#vb"><abbr>VB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ic" role="président"><abbr>IC</abbr></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#vb"><choice><abbr>VB</abbr><expan>Valérie Beaudouin</expan></choice></persName></item>
+            <item><persName ref="#ic" role="président"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,57 +44,57 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f1.highres" n="1"/>
-      <p rend="incipit">Oulipo : réunion du 15 février 1979 chez <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> (11 30), <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> (11 05), <persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> (11 40), <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> (11 30), <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> (12 00), <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> (11 00), <persName ref="../thesauri/persons.xml#vb"><abbr>VB</abbr></persName> (13 20) Président : <persName ref="../thesauri/persons.xml#ic">Italo CALVINO</persName></p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#fll"><abbr>F.LL</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName>, JQ</p>
-      <p rend="incipit">Inexcusable : <persName ref="../thesauri/persons.xml#jl">J Lescure</persName>,</p>
+      <p rend="incipit">Oulipo : réunion du 15 février 1979 chez <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> (11 30), <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> (11 05), <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> (11 40), <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> (11 30), <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> (12 00), <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> (11 00), <persName ref="#vb"><choice><abbr>VB</abbr><expan>Valérie Beaudouin</expan></choice></persName> (13 20) Président : <persName ref="#ic">Italo CALVINO</persName></p>
+      <p rend="incipit">Excusés : <persName ref="#fll"><choice><abbr>F.LL</abbr><expan>François Le Lionnais</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>, <persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName>, JQ</p>
+      <p rend="incipit">Inexcusable : <persName ref="#jl">J Lescure</persName>,</p>
       <p><label type="rubrique">1. Création</label></p>
       <p>a) HM</p>
-      <p>couronne de <term ref="../thesauri/terms.xml#sonnet">sonnet</term> (<term ref="../thesauri/terms.xml#plagiatparanticipation">plagiat par anticipation</term>)</p>
-      <p>15 <term ref="../thesauri/terms.xml#sonnets">sonnets</term> (14 <term ref="../thesauri/terms.xml#sonnets">sonnets</term> + V<hi rend="sub">i, 15</hi> = V<hi rend="sub">i, i</hi>)</p>
-      <p>(<term ref="../thesauri/terms.xml#sonnetdiagonal">sonnet diagonal</term>)</p>
-      <p>b) <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> 2 motifs : battre les records</p>
-      <p>combiner des <term ref="../thesauri/terms.xml#structures">structures</term></p>
-      <p>technique de la <term ref="../thesauri/terms.xml#rimebrisee">rime brisée</term>.</p>
-      <p>Rappel du <term ref="../thesauri/terms.xml#formalisme">formalisme</term> : ± A ± T</p>
+      <p>couronne de <term ref="#sonnet">sonnet</term> (<term ref="#plagiatparanticipation">plagiat par anticipation</term>)</p>
+      <p>15 <term ref="#sonnets">sonnets</term> (14 <term ref="#sonnets">sonnets</term> + V<hi rend="sub">i, 15</hi> = V<hi rend="sub">i, i</hi>)</p>
+      <p>(<term ref="#sonnetdiagonal">sonnet diagonal</term>)</p>
+      <p>b) <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> 2 motifs : battre les records</p>
+      <p>combiner des <term ref="#structures">structures</term></p>
+      <p>technique de la <term ref="#rimebrisee">rime brisée</term>.</p>
+      <p>Rappel du <term ref="#formalisme">formalisme</term> : ± A ± T</p>
       <p>(D<hi rend="sup">1</hi> F<hi rend="sup">1</hi></p>
-      <p>D<hi rend="sup">2</hi> F<hi rend="sup">2</hi> <name ref="../thesauri/events.xml#lecturequenienne" type="manif">lecture quenienne</name></p>
-      <p>⋮7 paires de <term ref="../thesauri/terms.xml#vers">vers</term></p>
+      <p>D<hi rend="sup">2</hi> F<hi rend="sup">2</hi> <name ref="#lecturequenienne" type="manif">lecture quenienne</name></p>
+      <p>⋮7 paires de <term ref="#vers">vers</term></p>
       <p>(D<hi rend="sup">14</hi> F<hi rend="sup">14</hi></p>
-      <p>Limitation <term ref="../thesauri/terms.xml#semantique">sémantique</term> : les <term ref="../thesauri/terms.xml#antonymies">antonymies</term> :</p>
-      <p>possibilité d’élargir à une forme plus générale de <term ref="../thesauri/terms.xml#binarite">binarité</term>.</p>
-      <p>c) <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> 14 <term ref="../thesauri/terms.xml#rimes">rimes</term> imposées : deux <term ref="../thesauri/terms.xml#sonnets">sonnets</term></p>
-      <p>→ 2<hi rend="sup">14</hi> <term ref="../thesauri/terms.xml#poemes">poèmes</term>.</p>
+      <p>Limitation <term ref="#semantique">sémantique</term> : les <term ref="#antonymies">antonymies</term> :</p>
+      <p>possibilité d’élargir à une forme plus générale de <term ref="#binarite">binarité</term>.</p>
+      <p>c) <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> 14 <term ref="#rimes">rimes</term> imposées : deux <term ref="#sonnets">sonnets</term></p>
+      <p>🡪 2<hi rend="sup">14</hi> <term ref="#poemes">poèmes</term>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f2.highres" n="2"/>
       <p><label type="rubrique">2. Bibliothèque oulipienne.</label></p>
       <p>Distribution de l’Hôtel de Sens.</p>
       <p><label type="rubrique">3. Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>L.E.</abbr></persName> : allusion au <term ref="../thesauri/terms.xml#cymbalumpataphysicien">cymbalum pataphysicien</term>. <term ref="../thesauri/terms.xml#plagiat">Plagiat</term> de <title ref="../thesauri/titles.xml#n1014">10<hi rend="sup">14</hi></title> dans « <title ref="../thesauri/titles.xml#jaimelire">j’aime lire</title> ». Le secrétariat est chargé de protester. (<persName ref="../thesauri/persons.xml#le"><abbr>L.E</abbr></persName> doit donner la référence).</p>
-      <p><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> Revue « <title ref="../thesauri/titles.xml#lendemains">Lendemains</title> »</p>
+      <p><persName ref="#le"><choice><abbr>L.E.</abbr><expan>Luc Etienne</expan></choice></persName> : allusion au <term ref="#cymbalumpataphysicien">cymbalum pataphysicien</term>. <term ref="#plagiat">Plagiat</term> de <title ref="#n114">10<hi rend="sup">14</hi></title> dans « <title ref="#jaimelire">j’aime lire</title> ». Le secrétariat est chargé de protester. (<persName ref="#le"><choice><abbr>L.E</abbr><expan>Luc Etienne</expan></choice></persName> doit donner la référence).</p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> Revue « <title ref="#lendemains">Lendemains</title> »</p>
       <p><label type="rubrique">4. Action.</label></p>
-      <p>– <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Bruxelles</p>
-      <p><orgName ref="../thesauri/organizations.xml#cnac">CNAC</orgName>/<persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></p>
+      <p>– <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Bruxelles</p>
+      <p><orgName ref="#cnac">CNAC</orgName>/<persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Royaumont ?</item>
+        <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Royaumont ?</item>
       </list>
       <p>VLA ?</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. Enseignement à <orgName ref="../thesauri/organizations.xml#hamiltoncollege">Hamilton College</orgName></item>
+        <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>. Enseignement à <orgName ref="#hamiltoncollege">Hamilton College</orgName></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#jarry">JARRY</persName>- <term ref="../thesauri/terms.xml#carreslescuriens">carrés lescuriens</term></p>
-      <p><persName ref="../thesauri/persons.xml#roussel">ROUSSEL</persName></p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName>- <term ref="../thesauri/terms.xml#homosyntaxisme">homosyntaxisme</term> + extraction de vocabulaire</p>
-      <p><persName ref="../thesauri/persons.xml#gp">PEREC</persName></p>
-      <p>Discussion : justification des gravures de <persName ref="../thesauri/persons.xml#durer">Dürer</persName>.</p>
+      <p><persName ref="#jarry">JARRY</persName>- <term ref="#carreslescuriens">carrés lescuriens</term></p>
+      <p><persName ref="#roussel">ROUSSEL</persName></p>
+      <p><persName ref="#rq">QUENEAU</persName>- <term ref="#homosyntaisme">homosyntaxisme</term> + extraction de vocabulaire</p>
+      <p><persName ref="#gp">PEREC</persName></p>
+      <p>Discussion : justification des gravures de <persName ref="#durer">Dürer</persName>.</p>
       <p>contraintes de jaquette.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010213g/f3.highres" n="3"/>
-      <p><orgName ref="../thesauri/organizations.xml#maisondelaculturedecalais">Maison de la culture de Calais</orgName></p>
-      <p><name ref="../thesauri/events.xml#linformatiqueetlavieculturelle" type="manif">L’informatique et la vie culturelle.</name></p>
-      <p>Contact<persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p><orgName ref="../thesauri/organizations.xml#ibm">IBM</orgName>.</p>
-      <p><term ref="../thesauri/terms.xml#possibilitesetlimites">Possibilités et limites</term></p>
-      <p><persName ref="../thesauri/persons.xml#legperec">L.E. G. PEREC</persName> à Reims</p>
+      <p><orgName ref="#maisondelaculturedecalais">Maison de la culture de Calais</orgName></p>
+      <p><name ref="#linformatiqueetlavieculturelle" type="manif">L’informatique et la vie culturelle.</name></p>
+      <p>Contact<persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></p>
+      <p><orgName ref="#ibm">IBM</orgName>.</p>
+      <p><term ref="#possibilitesetlimites">Possibilités et limites</term></p>
+      <p><persName ref="#legperec">L.E. G. PEREC</persName> à Reims</p>
       <p><label type="rubrique">5. Finances</label></p>
       <p>Projet de rapport financier et moral.</p>
     </body>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010317-1988-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010317-1988-06-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,9 +17,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010317-1988-06-cr</idno> <meeting xml:id="t10010317-1988-06">
-          <date when="1988-06-24">24 juin 1988</date>
+          <date when="1988-06-24">24/06/1988</date>
           <placeName>chez PF</placeName>
-          <gap/>
+          <gap/> 
           </meeting> </bibl>
       </sourceDesc>
     </fileDesc>
@@ -37,13 +36,13 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010317n/f3.highres" n="3"/>
       <p rend="incipit">24/6/88</p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> Bze burr</p>
-      <p>la <term ref="../thesauri/terms.xml#poesiegorille">poésie gorille</term> : une <term ref="../thesauri/terms.xml#formefixe">forme fixe</term></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <title ref="../thesauri/titles.xml#ledormeurduval">Le dormeur du val</title> en <term ref="../thesauri/terms.xml#alexandrinsgreffes">alexandrins greffés</term></p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> Création en cours : le <title ref="../thesauri/titles.xml#n1014emepoeme">10<hi rend="sup">14</hi>ème poème</title> de <persName ref="../thesauri/persons.xml#rq">Raymond Queneau</persName></p>
-      <p>nouveau type de poème : une bergère 28 <term ref="../thesauri/terms.xml#alexandrins">alexandrins</term></p>
+      <p><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> Bze burr</p>
+      <p>la <term ref="#poesiegorille">poésie gorille</term> : une <term ref="#formefie">forme fixe</term></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <title ref="#ledormeurduval">Le dormeur du val</title> en <term ref="#aleandrinsgreffes">alexandrins greffés</term></p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> Création en cours : le <title ref="#n114emepoeme">10<hi rend="sup">14</hi>ème poème</title> de <persName ref="#rq">Raymond Queneau</persName></p>
+      <p>nouveau type de poème : une bergère 28 <term ref="#aleandrins">alexandrins</term></p>
       <p>discussion sur la diérèse et consultation d’un dictionnaire</p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> Erudition <title ref="../thesauri/titles.xml#jeun17">Jeu n°17</title></p>
+      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> Erudition <title ref="#jeun17">Jeu n°17</title></p>
     </body>
   </text>
 </TEI>

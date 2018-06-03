@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010197-1977-06-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010197-1977-06-02-oj</idno> <title>Ordre de jour de <ref target="#t10010197-1977-06-02">la réunion Oulipo</ref> de <date when="1977-06-02">2 juin 1977</date></title></bibl>
+        <bibl><idno>t10010197-1977-06-02-oj</idno> <title>Ordre de jour de <ref target="#t10010197-1977-06-02">la réunion Oulipo</ref> de <date when="1977-06-02">02/06/1977</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,16 +32,16 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f13.highres" n="13"/>
       <p rend="incipit">2/6/77</p>
-      <p rend="incipit">Oui : <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName></p>
-      <p rend="incipit">Non : <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Un peu : <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> <del><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></del></p>
-      <p><name ref="../thesauri/events.xml#villeneuveexpo" type="manif">Villeneuve Expo</name></p>
+      <p rend="incipit">Oui : <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></p>
+      <p rend="incipit">Non : <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></p>
+      <p rend="incipit">Un peu : <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> <del><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></del> </p>
+      <p><name ref="#villeneuveepo" type="manif">Villeneuve Expo</name></p>
       <p>9-21 Juillet.</p>
-      <p>Voir <persName ref="../thesauri/persons.xml#burgelin">Burgelin</persName> </p>
+      <p>Voir <persName ref="#burgelin">Burgelin</persName> </p>
       <p>Pour le moment :</p>
       <list type="unordered">
-        <item><orgName ref="../thesauri/organizations.xml#associationdesprofesseursdefrancaisdulycee">Association des Professeurs de Français du Lycée</orgName></item>
-        <item>hommage à <persName ref="../thesauri/persons.xml#jq">Jean Queval</persName>.</item>
+        <item><orgName ref="#associationdesprofesseursdefrancaisdulycee">Association des Professeurs de Français du Lycée</orgName></item>
+        <item>hommage à <persName ref="#jq">Jean Queval</persName>.</item>
       </list>
     </body>
   </text>

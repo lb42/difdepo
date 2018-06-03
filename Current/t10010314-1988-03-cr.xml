@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010314-1988-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010314-1988-03-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,17 +17,17 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010314-1988-03-cr</idno> <meeting xml:id="t10010314-1988-03">
-          <date when="1988-03-11">11 mars 1988</date>
+          <date when="1988-03-11">11/03/1988</date>
           <placeName>chez MM</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb" role="secrétaire"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb" role="président"><abbr>CB</abbr></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#mb" role="secrétaire"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#cb" role="président"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -59,13 +58,13 @@
       <p>CB <unclear>mata hari</unclear>: les yeux de la journée (=le soleil) en indonésien</p>
       <p>MB Présentation du Point de départ</p>
       <p>FC Inaction en cours</p>
-      <p>MB Erudition : Colloque sur les Permutations (1972)</p>
+      <p>MB Erudition : <name ref="#colloque" type="manif">Colloque</name> sur les Permutations (1972)</p>
       <p>Actes publiés chez Gauthier-Villars</p>
       <p>Verbes délocutifs : cf fiche sur Benveniste</p>
       <p>JJ programme de l’hommage à J. Queval qui aura lieu à Beaubourg le 19 mars</p>
       <p>MB-JJ-MM préparation programme de Marne-la-Vallée</p>
       <p>(Menu : repas indien)</p>
-      <p>19/4 Prochaine réunion chez JJ.</p>
+      <p>19/4 <name ref="#prochainereunion" type="manif">Prochaine réunion</name>  chez JJ.</p>
     </body>
   </text>
 </TEI>

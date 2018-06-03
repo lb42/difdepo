@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010059-1965-09-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010059-1965-09-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,7 +21,10 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010059-1965-09-oj</idno> <title>Ordre de jour de <ref target="#t10010059-1965-09">la réunion Oulipo</ref> du <date when="1965-09-24">24 septembre 1965</date></title></bibl>
+        <bibl><idno>t10010059-1965-09-oj</idno>
+          <title>Ordre de jour de <ref target="#t10010059-1965-09">la réunion Oulipo</ref> du <date
+              when="1965-09-24">24/09/1965</date></title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -37,37 +40,66 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100592/f1.highres" n="1"/>
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Réunion du 17 absolu 93 (vulg. 24 septembre 1965)</p>
-      <p rend="incipit">Excusés : (<persName ref="../thesauri/persons.xml#cb">Berge</persName>, retard), <persName ref="../thesauri/persons.xml#la">Latis</persName> (retard), <persName ref="../thesauri/persons.xml#na">Arnaud</persName>, <persName ref="../thesauri/persons.xml#pb">Braffort</persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#rq">Queneau</persName>, <persName ref="../thesauri/persons.xml#jq">Queval</persName>, <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="../thesauri/persons.xml#jd">Duchateau</persName>, <persName ref="../thesauri/persons.xml#jb">Bens</persName>, <persName ref="../thesauri/persons.xml#ams">AM Schmidt</persName>, <persName ref="../thesauri/persons.xml#jl">Lescure</persName>.</p>
+      <p rend="incipit">Excusés : (<persName ref="#cb">Berge</persName>, retard), <persName
+          ref="#la">Latis</persName> (retard), <persName ref="#na">Arnaud</persName>, <persName
+          ref="#pb">Braffort</persName></p>
+      <p rend="incipit">Présents : <persName ref="#rq">Queneau</persName>, <persName ref="#jq"
+          >Queval</persName>, <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>, <persName ref="#jd">Duchateau</persName>, <persName ref="#jb"
+          >Bens</persName>, <persName ref="#ams">AM Schmidt</persName>, <persName ref="#jl"
+          >Lescure</persName>.</p>
       <p><label type="rubrique">Projet d’ordre du jour</label></p>
       <p><label type="rubrique">A/ SUR LE PLAN EVENEMENTIEL</label></p>
-      <p>1/ Secrétariat. La situation est-elle moins tragique ? <persName ref="../thesauri/persons.xml#jd">J. Duchateau</persName></p>
-      <p>2/ Mises au point. La <ref>circulaire N°62</ref>. <persName ref="../thesauri/persons.xml#la">Latis</persName>.</p>
-      <p>3/ Bordeay. Réunion <orgName ref="../thesauri/organizations.xml#sigma">Sigma</orgName>. <persName ref="../thesauri/persons.xml#jl">Lescure</persName>.</p>
-      <p>4/ <persName ref="../thesauri/persons.xml#diogene">Diogène</persName> : « <title ref="../thesauri/titles.xml#problemedulangage">Problème du langage</title> ».<persName ref="../thesauri/persons.xml#lionnais">Lionnais</persName></p>
-      <p>A bis / Méditation : Aspect social de l’Oulipo <persName ref="../thesauri/persons.xml#rq">R. Queneau</persName>.</p>
+      <p>1/ Secrétariat. La situation est-elle moins tragique ? <persName ref="#jd">J.
+          Duchateau</persName></p>
+      <p>2/ Mises au point. La <ref>circulaire N°62</ref>. <persName ref="#la">Latis</persName>.</p>
+      <p>3/ Bordeay. Réunion <orgName ref="#sigma">Sigma</orgName>. <persName ref="#jl"
+          >Lescure</persName>.</p>
+      <p>4/ <persName ref="#diogene">Diogène</persName> : « <title ref="#problemedulangage">Problème
+          du langage</title> ».<persName ref="#lionnais">Lionnais</persName></p>
+      <p>A bis / Méditation : Aspect social de l’Oulipo <persName ref="#rq">R.
+        Queneau</persName>.</p>
       <p><label type="rubrique">B/ CREATION</label></p>
-      <p>1/<term ref="../thesauri/terms.xml#formesfixesdansleroman">Formes fixes dans le roman</term> : <persName ref="../thesauri/persons.xml#jq">Queval</persName></p>
-      <p>2/ Le 14<hi rend="sup">e</hi> vers. Résultats du plébiscite. <persName ref="../thesauri/persons.xml#jd">J. Duchâteau</persName>.</p>
-      <p>3/ Le <term ref="../thesauri/terms.xml#mecanopoetique">mécano poétique</term>. <persName ref="../thesauri/persons.xml#jl">Lescure</persName></p>
-      <p>4/ Les <term ref="../thesauri/terms.xml#acrosmotiches">acrosmotiches</term> <persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
-      <p>5/ La <term ref="../thesauri/terms.xml#negation">négation</term> 6/ Le <term ref="../thesauri/terms.xml#voisinage">voisinage</term> 7/ La <term ref="../thesauri/terms.xml#segmentation">segmentation</term></p>
-      <p>8/ L’<term ref="../thesauri/terms.xml#alternance">alternance</term> <persName ref="../thesauri/persons.xml#rq">R. Queneau</persName></p>
-      <p>6/ Les <term ref="../thesauri/terms.xml#bordsdespoemes">bords des poèmes</term></p>
-      <p>a / proposition – par <persName ref="../thesauri/persons.xml#rfaure">R. Faure</persName> – de la Compagnie<orgName ref="../thesauri/organizations.xml#bull"> Bull</orgName></p>
-      <p>b/ Proposition de <persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName> : sonnets et poèmes plus courts.</p>
-      <p>c/ Rassemblement des titres et des ouvrages et transmissions. Qui ? <persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName>.</p>
-      <p>7/ Collaboration <unclear>aux</unclear> <title ref="../thesauri/titles.xml#subsidia">subsidia</title> <persName ref="../thesauri/persons.xml#la">Latis</persName>. Promesse par <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p>1/<term ref="#formesfiesdansleroman">Formes fixes dans le roman</term> : <persName
+          ref="#jq">Queval</persName></p>
+      <p>2/ Le 14<hi rend="sup">e</hi> vers. Résultats du plébiscite. <persName ref="#jd">J.
+          Duchâteau</persName>.</p>
+      <p>3/ Le <term ref="#mecanopoetique">mécano poétique</term>. <persName ref="#jl"
+          >Lescure</persName></p>
+      <p>4/ Les <term ref="#acrosmotiches">acrosmotiches</term>
+        <persName ref="#fll">F. Le Lionnais</persName></p>
+      <p>5/ La <term ref="#negation">négation</term> 6/ Le <term ref="#voisinage">voisinage</term>
+        7/ La <term ref="#segmentation">segmentation</term></p>
+      <p>8/ L’<term ref="#alternance">alternance</term>
+        <persName ref="#rq">R. Queneau</persName></p>
+      <p>6/ Les <term ref="#bordsdespoemes">bords des poèmes</term></p>
+      <p>a / proposition – par <persName ref="#rfaure">R. Faure</persName> – de la Compagnie<orgName
+          ref="#compagniebull"> Bull</orgName></p>
+      <p>b/ Proposition de <persName ref="#fll">F. Le Lionnais</persName> : sonnets et poèmes plus
+        courts.</p>
+      <p>c/ Rassemblement des titres et des ouvrages et transmissions. Qui ? <persName ref="#fll">F.
+          Le Lionnais</persName>.</p>
+      <p>7/ Collaboration <unclear>aux</unclear> <title ref="#subsidia">subsidia</title>
+        <persName ref="#la">Latis</persName>. Promesse par <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName></p>
       <p><label type="rubrique">C/ PLAGIAT PAR ANTICIPATION</label></p>
-      <p>1/ Le <persName ref="../thesauri/persons.xml#balzac">Balzac</persName> de <persName ref="../thesauri/persons.xml#rodin">Rodin</persName> <persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
+      <p>1/ Le <persName ref="#balzac">Balzac</persName> de <persName ref="#rodin">Rodin</persName>
+        <persName ref="#fll">F. Le Lionnais</persName></p>
       <p>2./ ….</p>
       <p><label type="rubrique">D/ ACTION</label></p>
       <p>1/ Timbre Oulipo <lb/>2/ La célébration du Demi-millénaire. Réforme du siècle.</p>
-      <p>Nomination de 1 ou 2 responsables pour le choix d’un lieu (enquête sur prix et confort) et réservation …. <persName ref="../thesauri/persons.xml#jd">J. Duchâteau</persName>.</p>
+      <p>Nomination de 1 ou 2 responsables pour le choix d’un lieu (enquête sur prix et confort) et
+        réservation …. <persName ref="#jd">J. Duchâteau</persName>.</p>
       <p>2/ Prochaines réunions :</p>
-      <p>a/ du vendredi 29 octobre fin après-midi au mardi 2 novembre, pour fêtes demi-millénaire.</p>
+      <p>a/ du vendredi 29 octobre fin après-midi au mardi 2 novembre, pour fêtes
+        demi-millénaire.</p>
       <p>b/ entre le 18 et le 25 novembre</p>
-      <p>3/ Prochains invités : <persName ref="../thesauri/persons.xml#rfaure">R. Faure</persName>, <persName ref="../thesauri/persons.xml#coumet">Coumet</persName>, <persName ref="../thesauri/persons.xml#antoineopach">Antoine Opach</persName></p>
+      <p>3/ Prochains invités : <persName ref="#rfaure">R. Faure</persName>, <persName ref="#coumet"
+          >Coumet</persName>, <persName ref="#antoineopach">Antoine Opach</persName></p>
     </body>
   </text>
 </TEI>

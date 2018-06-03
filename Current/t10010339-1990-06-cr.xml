@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010339-1990-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010339-1990-06-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,18 +17,38 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010339-1990-06-cr</idno> <meeting xml:id="t10010339-1990-06">
-          <date when="1990-06-23">23 juin 1990</date>
-          <placeName>chez FC</placeName>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf" role="secrétaire"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr" role="président"><abbr>JR</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010339-1990-06-cr</idno>
+          <meeting xml:id="t10010339-1990-06">
+            <date when="1990-06-23">23/06/1990</date>
+            <placeName>chez FC</placeName>
+            <list type="present">
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mm"><choice>
+                    <abbr>MM</abbr>
+                    <expan>Michele Métail</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fc"><choice>
+                    <abbr>FC</abbr>
+                    <expan>François Caradec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jj"><choice>
+                    <abbr>JJ</abbr>
+                    <expan>Jacques Jouet</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf" role="secrétaire"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr" role="président"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -44,39 +64,174 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010339c/f11.highres" n="11"/>
-      <p rend="incipit">Séance du 23 06 90 chez <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> Menu : Kimson Gamay</p>
+      <p rend="incipit">Séance du 23 06 90 chez <persName ref="#fc"><choice>
+            <abbr>FC</abbr>
+            <expan>François Caradec</expan>
+          </choice></persName> Menu : Kimson Gamay</p>
       <p rend="incipit">rôti</p>
       <p rend="incipit">HV + pommes de terre</p>
       <p rend="incipit">fromages</p>
       <p rend="incipit">gâteau au chocolat</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">excusés : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> <persName ref="../thesauri/persons.xml#pr"><abbr>PR</abbr></persName> <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">absents : <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="../thesauri/persons.xml#ab"><abbr>AB</abbr></persName></p>
-      <p rend="incipit">Président <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, secrétaire <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. [Ritmo était présent]</p>
+      <p rend="incipit">Présents : <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>
+        <persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName>
+        <persName ref="#fc"><choice>
+            <abbr>FC</abbr>
+            <expan>François Caradec</expan>
+          </choice></persName>
+        <persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName>
+        <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>
+        <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName></p>
+      <p rend="incipit">excusés : <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName>
+        <persName ref="#pr"><choice>
+            <abbr>PR</abbr>
+            <expan>Pierre Rosenstiehl</expan>
+          </choice></persName>
+        <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>
+        <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName>
+        <persName ref="#jd"><choice>
+            <abbr>JD</abbr>
+            <expan>Jacques Duchateau</expan>
+          </choice></persName>
+        <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName></p>
+      <p rend="incipit">absents : <persName ref="#jq"><choice>
+            <abbr>JQ</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName>
+        <persName ref="#ab"><choice>
+            <abbr>AB</abbr>
+            <expan>André Blavier</expan>
+          </choice></persName></p>
+      <p rend="incipit">Président <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>, secrétaire <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>. [Ritmo était présent]</p>
       <p><label type="rubrique">Création :</label></p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : 4 nouveaux <term ref="../thesauri/terms.xml#filigranes">filigranes</term></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : fait de même mais à l’envers</p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : <title ref="../thesauri/titles.xml#mecriteelementaire">Mécrite élémentaire</title> (<orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName>)</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>  : <title ref="../thesauri/titles.xml#moraleelementaire"><term ref="../thesauri/terms.xml#moraleelementaire">Morale élémentaire</term></title> en <term ref="../thesauri/terms.xml#motscomposesdecomposes">mots composés décomposés</term></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : Rappel du 23 juin</p>
-      <p>le 24 Novembre 89 nous avons tenu une séance pour décider de reprendre des <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> individuelles, collections thématiques</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Positions de l’Oulipo sur la <term ref="../thesauri/terms.xml#reformedelorthographie">réforme de l’orthographie</term></p>
+      <p><persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName> : 4 nouveaux <term ref="#filigranes">filigranes</term></p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : fait de même mais à l’envers</p>
+      <p><persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName> : <title ref="#mecriteelementaire">Mécrite élémentaire</title>
+          (<orgName ref="#alamo">Alamo</orgName>)</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> : <title ref="#moraleelementaire"><term ref="#moraleelementaire"
+            >Morale élémentaire</term></title> en <term ref="#motscomposesdecomposes">mots composés
+          décomposés</term></p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : Rappel du 23 juin</p>
+      <p>le 24 Novembre 89 nous avons tenu une séance pour décider de reprendre des <title
+          ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> individuelles, collections
+        thématiques</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : Positions de l’Oulipo sur la <term ref="#reformedelorthographie"
+          >réforme de l’orthographie</term></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>  : <persName ref="../thesauri/persons.xml#schenyue">Schen Yue</persName> (444-513) a isolé les 4 <term ref="../thesauri/terms.xml#tons">tons</term> &gt; réponse selon le <term ref="../thesauri/terms.xml#principederoubaud">principe de <persName ref="../thesauri/persons.xml#jr">Roubaud</persName></term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>  : <persName ref="../thesauri/persons.xml#ezrapound">Ezra Pound</persName> <term ref="../thesauri/terms.xml#plagiaireparanticipation">plagiaire par anticipation</term> de <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : <term ref="../thesauri/terms.xml#curiositessyntaxiques">Curiosités syntaxiques</term></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Soutenance <persName ref="../thesauri/persons.xml#carolus">Carolus</persName> L’INVITER</p>
+      <p><persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName> : <persName ref="#schenyue">Schen Yue</persName> (444-513) a isolé
+        les 4 <term ref="#tons">tons</term> &gt; réponse selon le <term ref="#principederoubaud"
+          >principe de <persName ref="#jr">Roubaud</persName></term> .</p>
+      <p><persName ref="#fc"><choice>
+            <abbr>FC</abbr>
+            <expan>François Caradec</expan>
+          </choice></persName> : <persName ref="#ezrapound">Ezra Pound</persName>
+        <term ref="#plagiaireparanticipation">plagiaire par anticipation</term> de <persName
+          ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName></p>
+      <p><persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName> : <term ref="#curiositessyntaiques">Curiosités syntaxiques</term></p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : Soutenance <persName ref="#carolus">Carolus</persName>
+        L’INVITER</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <persName ref="../thesauri/persons.xml#tarbes">Tarbes</persName> nous invite OK pour le printemps 91</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <title ref="../thesauri/titles.xml#nouvellerevuefrancaise">Nouvelle Revue Française</title></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>  : Thionville + <orgName ref="../thesauri/organizations.xml#arsenal">Arsenal</orgName> pour <name ref="../thesauri/events.xml#lafureurdelire" type="manif">la fureur de lire</name></p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <persName ref="#tarbes">Tarbes</persName> nous invite OK pour le
+        printemps 91</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <title ref="#nouvellerevuefrancaise">Nouvelle Revue
+          Française</title></p>
+      <p><persName ref="#fc"><choice>
+            <abbr>FC</abbr>
+            <expan>François Caradec</expan>
+          </choice></persName> : Thionville + <orgName ref="#arsenal">Arsenal</orgName> pour <name
+          ref="#lafureurdelire" type="manif">la fureur de lire</name></p>
       <p>1 Japonais le démarche</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : Projet en Italie à Florence</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : Projet en Italie à Naples naissance d’un Oulipo italien ? INVITER <persName ref="../thesauri/persons.xml#eco">ECO</persName></p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : Projet en Italie à Florence</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : Projet en Italie à Naples naissance d’un Oulipo italien ? INVITER
+          <persName ref="#eco">ECO</persName></p>
       <p>Menu Propos :</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : <term ref="../thesauri/terms.xml#monostiquefaux">monostique faux</term> (blâme : c’était une érudition)</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : <persName ref="../thesauri/persons.xml#lalanne">Lalanne</persName></p>
-      <p><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>  : la <title ref="../thesauri/titles.xml#manufacture">Manufacture</title> arnaque dur.</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : <term ref="#monostiquefau">monostique faux</term> (blâme : c’était
+        une érudition)</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : <persName ref="#lalanne">Lalanne</persName></p>
+      <p><persName ref="#jj"><choice>
+            <abbr>JJ</abbr>
+            <expan>Jacques Jouet</expan>
+          </choice></persName> : la <title ref="#manufacture">Manufacture</title> arnaque dur.</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010280-1985-03-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010280-1985-03-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010280-1985-03-oj</idno> <title>Ordre de jour de <ref target="#t10010280-1985-03">la réunion Oulipo</ref> du <date when="1985-03-29">29 mars 1985</date></title></bibl>
+        <bibl><idno>t10010280-1985-03-oj</idno> <title>Ordre de jour de <ref target="#t10010280-1985-03">la réunion Oulipo</ref> du <date when="1985-03-29">29/03/1985</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -34,35 +33,35 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f2.highres" n="2"/>
       <p rend="incipit">Ordre du jour</p>
       <p><label type="rubrique">Propos d’Apéro</label></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="../thesauri/persons.xml#ic">Italo Calvino</persName></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : <persName ref="../thesauri/persons.xml#emilelessafre">Emile Lessafre</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Immatériaux</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Don du Quebec</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <persName ref="#ic">Italo Calvino</persName></p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : <persName ref="#emilelessafre">Emile Lessafre</persName></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <name ref="#immateriau" type="manif">Immatériaux</name></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Don du Quebec</p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : le duel littéraire</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Projet de <persName ref="../thesauri/persons.xml#pauletteperec">Paulette Perec</persName></p>
-      <p>Collectif <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : guide de littérature</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : épouvantail</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : l’être supérieur</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : le duel littéraire</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Projet de <persName ref="#pauletteperec">Paulette Perec</persName></p>
+      <p>Collectif <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : guide de littérature</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : épouvantail</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : l’être supérieur</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="../thesauri/events.xml#villeneuve" type="manif">Villeneuve</name></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="../thesauri/events.xml#limoges" type="manif">Limoges</name> + <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : Prospective Pavic</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Espagne</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <name ref="#villeneuve" type="manif">Villeneuve</name></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <name ref="#limoges" type="manif">Limoges</name> + <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : Prospective Pavic</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Espagne</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="../thesauri/terms.xml#plagiaire">plagiaire</term></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : tireur à la ligne <term ref="../thesauri/terms.xml#poetiquemusical">poétique musical</term></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : - un ho de lettres</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <term ref="#plagiaire">plagiaire</term></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : tireur à la ligne <term ref="#poetiquemusical">poétique musical</term></p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : - un ho de lettres</p>
       <list type="unordered">
         <item>une curieuse exposition</item>
-        <item>Maboulite <term ref="../thesauri/terms.xml#holorimeux">holorimeux</term></item>
-        <item><term ref="../thesauri/terms.xml#tragedie">Tragédie</term> classique</item>
+        <item>Maboulite <term ref="#holorimeu">holorimeux</term></item>
+        <item><term ref="#tragedie">Tragédie</term> classique</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> :</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> :</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : création proposée</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : traduction de <title ref="../thesauri/titles.xml#laviemodedemploi">La Vie Mode d’Emploi</title></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : création proposée</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : traduction de <title ref="#laviemodedemploi">La Vie Mode d’Emploi</title></p>
     </body>
   </text>
 </TEI>

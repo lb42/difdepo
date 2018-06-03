@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010021-1962-07-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010021-1962-07-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +17,46 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010021-1962-07-cr</idno> <meeting xml:id="t10010021-1962-07">
-          <date when="1962-07-02">2 juillet 1962</date>
-          <placeName>dans les jardins de la Régence</placeName>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010021-1962-07-cr</idno>
+          <meeting xml:id="t10010021-1962-07">
+            <date when="1962-07-02">02/07/1962</date>
+            <placeName>dans les jardins de la Régence</placeName>
+            <list type="present">
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jl"><choice>
+                    <abbr>JL</abbr>
+                    <expan>Jean Lescure</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jd"><choice>
+                    <abbr>JD</abbr>
+                    <expan>Jacques Duchateau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -46,23 +72,47 @@
       <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
       <p>Circulaire n°23</p>
       <p>Réunion du 2 juillet 1962 <lb/>(dans les jardins de la Régence)</p>
-      <p>PRESENTS : <persName ref="../thesauri/persons.xml#na">Arnaud</persName>, <persName ref="../thesauri/persons.xml#cb">Berge</persName>, <persName ref="../thesauri/persons.xml#jb">Bens</persName>, <persName ref="../thesauri/persons.xml#jd">Duchateau</persName>, <persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName>, <persName ref="../thesauri/persons.xml#jl">Lescure</persName>, <persName ref="../thesauri/persons.xml#rq">Queneau</persName>, <persName ref="../thesauri/persons.xml#jq">Queval</persName>.</p>
-      <p>PRESENTES : <persName ref="../thesauri/persons.xml#mmeberge">Mme Berge</persName>, <persName ref="../thesauri/persons.xml#mmeduchateau">Mme Duchateau</persName>, <persName ref="../thesauri/persons.xml#mmegenestoux">Mme Genestoux</persName>, <persName ref="../thesauri/persons.xml#mmelescure">Mme Lescure</persName>, <persName ref="../thesauri/persons.xml#mmequeneau">Mme Queneau</persName>.</p>
-      <p>EXCUSES : <persName ref="../thesauri/persons.xml#la">Latis</persName>, <persName ref="../thesauri/persons.xml#ams">Schmidt</persName>.</p>
-      <p>EXCUSEE : <persName ref="../thesauri/persons.xml#mmelelionnais">Mme Le Lionnais</persName>.</p>
-      <p>PRESIDENT : <persName ref="../thesauri/persons.xml#rq">Queneau</persName>.</p>
-      <p>Les dames sont placées au bas bout de la table, pour ne point troubler les délicates cogitations des messieurs. Elles les troubleront tout de même.</p>
-      <p>Lecture de diverses lettres à <persName ref="../thesauri/persons.xml#mflorkin">M. Florkin</persName>, concernant notre voyage à <placeName>Liège</placeName>. (<ref>Copies des lettres versées aux archives</ref>.)</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> signale une <term ref="../thesauri/terms.xml#piecealphabetique">pièce alphabétique</term> française citée par <persName ref="../thesauri/persons.xml#pouchkine">Pouchkine</persName> en 1834. Cette pièce se trouve à la page 726 du tome II des <title ref="../thesauri/titles.xml#ouvrescompletes">Œuvres Complètes</title> du dit <persName ref="../thesauri/persons.xml#pouchkine">Pouchkine</persName>, dans la traduction <persName ref="../thesauri/persons.xml#maynieux">Maynieux</persName>. On n’a pas retrouvé l’auteur de la pièce.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> signale également un projet de roman de <persName ref="../thesauri/persons.xml#msourina">M. Sourina</persName> qui pourrait se lire, soit à la suite, soit en sautant une page sur deux.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">Bens</persName> fait une longue communication sur le <term ref="../thesauri/terms.xml#romancombinatoire">roman « combinatoire »</term> de <persName ref="../thesauri/persons.xml#marcsaporta">Marc Saporta</persName> intitulé <title ref="../thesauri/titles.xml#compositionn1">Composition n°1</title> (cf. <ref>annexe</ref>.) Sa conclusion n’est pas très favorable. <lb/><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Le vent qui Sa-porta l’emporte <lb/><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : C’est une imposture.</p>
-      <p>Les notes de cette réunion, prises par <persName ref="../thesauri/persons.xml#jl">Jean Lescure</persName>, deviennent ici, parfaitement incohérentes. En voici l’essentiel.</p>
+      <p>PRESENTS : <persName ref="#na">Arnaud</persName>, <persName ref="#cb">Berge</persName>,
+          <persName ref="#jb">Bens</persName>, <persName ref="#jd">Duchateau</persName>, <persName
+          ref="#fll">Le Lionnais</persName>, <persName ref="#jl">Lescure</persName>, <persName
+          ref="#rq">Queneau</persName>, <persName ref="#jq">Queval</persName>.</p>
+      <p>PRESENTES : <persName ref="#mmeberge">Mme Berge</persName>, <persName
+          ref="#mmeduchateau">Mme Duchateau</persName>, <persName ref="#mmegenestou">Mme
+          Genestoux</persName>, <persName ref="#mmelescure">Mme Lescure</persName>, <persName
+          ref="#mmequeneau">Mme Queneau</persName>.</p>
+      <p>EXCUSES : <persName ref="#la">Latis</persName>, <persName ref="#ams"
+        >Schmidt</persName>.</p>
+      <p>EXCUSEE : <persName ref="#mmelelionnais">Mme Le Lionnais</persName>.</p>
+      <p>PRESIDENT : <persName ref="#rq">Queneau</persName>.</p>
+      <p>Les dames sont placées au bas bout de la table, pour ne point troubler les délicates
+        cogitations des messieurs. Elles les troubleront tout de même.</p>
+      <p><name ref="#lecture" type="manif">Lecture</name> de diverses lettres à <persName ref="#mflorkin">M. Florkin</persName>, concernant
+        notre voyage à <placeName>Liège</placeName>. (<ref>Copies des lettres versées aux
+          archives</ref>.)</p>
+      <p><persName ref="#rq">Queneau</persName> signale une <term ref="#piecealphabetique">pièce
+          alphabétique</term> française citée par <persName ref="#pouchkine">Pouchkine</persName> en
+        1834. Cette pièce se trouve à la page 726 du tome II des <title ref="#ouvrescompletes"
+          >Œuvres Complètes</title> du dit <persName ref="#pouchkine">Pouchkine</persName>, dans la
+        traduction <persName ref="#maynieu">Maynieux</persName>. On n’a pas retrouvé l’auteur de la
+        pièce.</p>
+      <p><persName ref="#rq">Queneau</persName> signale également un projet de roman de <persName
+          ref="#msourina">M. Sourina</persName> qui pourrait se lire, soit à la suite, soit en
+        sautant une page sur deux.</p>
+      <p><persName ref="#jb">Bens</persName> fait une longue <name ref="#communication" type="manif">communication</name> sur le <term
+          ref="#romancombinatoire">roman « combinatoire »</term> de <persName ref="#marcsaporta"
+          >Marc Saporta</persName> intitulé <title ref="#compositionn1">Composition n°1</title> (cf.
+          <ref>annexe</ref>.) Sa conclusion n’est pas très favorable. <lb/><persName ref="#rq"
+          >QUENEAU</persName> : Le vent qui Sa-porta l’emporte <lb/><persName ref="#fll">LE
+          LIONNAIS</persName> : C’est une imposture.</p>
+      <p>Les notes de cette réunion, prises par <persName ref="#jl">Jean Lescure</persName>,
+        deviennent ici, parfaitement incohérentes. En voici l’essentiel.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100217/f2.highres" n="2"/>
-      <p><persName ref="../thesauri/persons.xml#cardinaltisserand">Cardinal Tisserand</persName> : non membre à vie et à mort <lb/>Définitif dans les deux cas</p>
+      <p><persName ref="#cardinaltisserand">Cardinal Tisserand</persName> : non membre à vie et à
+        mort <lb/>Définitif dans les deux cas</p>
       <p>Femme à combinaisons</p>
       <p><label type="rubrique">DRAPEAU</label></p>
       <list type="unordered">
-        <item>Et avec <persName ref="../thesauri/persons.xml#pb">Braffort</persName></item>
+        <item>Et avec <persName ref="#pb">Braffort</persName></item>
         <item>entre brunes mains</item>
         <item>opiner du bonnet</item>
       </list>
@@ -77,7 +127,8 @@
         <item>j’ai le même air queue</item>
       </list>
       <p>La séance s’achève dans la plus grande confusion.</p>
-      <p>Prochaine séance : 24 août 1962, toujours chez <persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName>, hôte généreux.</p>
+      <p>Prochaine séance : 24 août 1962, toujours chez <persName ref="#fll">Le Lionnais</persName>,
+        hôte généreux.</p>
       <p>Le S.P.</p>
     </body>
   </text>

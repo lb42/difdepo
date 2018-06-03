@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010191-1976-12-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010191-1976-12-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,7 +18,10 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010191-1976-12-oj</idno> <title>Ordre de jour de <ref target="#t10010191-1976-12">la réunion Oulipo</ref> de <date when="1976-12-20">20 décembre 1976</date></title></bibl>
+        <bibl><idno>t10010191-1976-12-oj</idno>
+          <title>Ordre de jour de <ref target="#t10010191-1976-12">la réunion Oulipo</ref> de <date
+              when="1976-12-20">20/12/1976</date></title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -32,47 +35,195 @@
   <text type="oj">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010191h/f30.highres" n="30"/>
-      <p rend="incipit">20 Décembre 76 Président <persName ref="../thesauri/persons.xml#pb">Braffort Paul</persName></p>
+      <p rend="incipit">20 Décembre 76 Président <persName ref="#pb">Braffort Paul</persName></p>
       <p rend="incipit">SÉANCE N°</p>
       <p rend="incipit">ORDRE DU JOUR</p>
-      <p rend="incipit">Absents : <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="../thesauri/persons.xml#ab"><abbr>AB</abbr></persName> <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> <persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p rend="incipit">Absents : <persName ref="#jl"><choice>
+            <abbr>JL</abbr>
+            <expan>Jean Lescure</expan>
+          </choice></persName>
+        <persName ref="#ab"><choice>
+            <abbr>AB</abbr>
+            <expan>André Blavier</expan>
+          </choice></persName>
+        <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>
+        <persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName>
+        <persName ref="#jd"><choice>
+            <abbr>JD</abbr>
+            <expan>Jacques Duchateau</expan>
+          </choice></persName>
+        <persName ref="#ic"><choice>
+            <abbr>IC</abbr>
+            <expan>Italo Calvino</expan>
+          </choice></persName>
+        <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName>
+        <persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>
+        <persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName>
+        <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName>
+        <persName ref="#jq"><choice>
+            <abbr>JQ</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName>
+        <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>
+        <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName>
+        <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>
+        <persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName>
+        <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName></p>
       <p><label type="rubrique">Action :</label></p>
       <list type="unordered">
-        <item>Enveloppes (<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> ) prêt <orgName ref="../thesauri/organizations.xml#ibm">IBM</orgName></item>
-        <item><name ref="../thesauri/events.xml#avignon" type="manif">Avignon</name> (<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> ) <name ref="../thesauri/events.xml#semaineoulipo" type="manif">semaine OULIPO</name> (15.7-15.8)</item>
-        <item><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> spécial <persName ref="../thesauri/persons.xml#rq">Queneau</persName> (<persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> +<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> )</item>
-        <item>Amérique (<persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> )</item>
-        <item>Une possible disciple (<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> ) <persName ref="../thesauri/persons.xml#annemariechristin">Anne-Marie Christin</persName>, <persName ref="../thesauri/persons.xml#marionmilner">Marion Milner</persName></item>
-        <item>Grande photo oulipo (<persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> )</item>
+        <item>Enveloppes (<persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>
+          <persName ref="#jb"><choice>
+              <abbr>JB</abbr>
+              <expan>Jacques Bens</expan>
+            </choice></persName>
+          <persName ref="#na"><choice>
+              <abbr>NA</abbr>
+              <expan>Noël Arnaud</expan>
+            </choice></persName>) prêt <orgName ref="#ibm">IBM</orgName></item>
+        <item><name ref="#avignon" type="manif">Avignon</name> (<persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>) <name ref="#semaineoulipo" type="manif">semaine OULIPO</name>
+          (15.7-15.8)</item>
+        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> spécial <persName
+            ref="#rq">Queneau</persName> (<persName ref="#gp"><choice>
+              <abbr>GP</abbr>
+              <expan>Georges Perec</expan>
+            </choice></persName>+<persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>)</item>
+        <item>Amérique (<persName ref="#hm"><choice>
+              <abbr>HM</abbr>
+              <expan>Harry Mathews</expan>
+            </choice></persName>)</item>
+        <item>Une possible disciple (<persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName>) <persName ref="#annemariechristin">Anne-Marie
+            Christin</persName>, <persName ref="#marionmilner">Marion Milner</persName></item>
+        <item>Grande photo oulipo (<persName ref="#fll"><choice>
+              <abbr>FLL</abbr>
+              <expan>François Le Lionnais</expan>
+            </choice></persName>)</item>
       </list>
       <p><label type="rubrique">Administration :</label></p>
       <list type="unordered">
-        <item>Statut légal (<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> )</item>
-        <item>Phynance (secrétariat) (<persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> )</item>
+        <item>Statut légal (<persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>)</item>
+        <item>Phynance (secrétariat) (<persName ref="#fll"><choice>
+              <abbr>FLL</abbr>
+              <expan>François Le Lionnais</expan>
+            </choice></persName>)</item>
       </list>
       <p><label type="rubrique">Créations :</label></p>
       <list type="unordered">
-        <item>Dans la ligne détournée de <persName ref="../thesauri/persons.xml#gp">Perec</persName> (<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> )</item>
-        <item><term ref="../thesauri/terms.xml#asla">ASLA</term> (<persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> -<persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> )</item>
-        <item><term ref="../thesauri/terms.xml#sautemouton">saute-mouton</term> (<persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> )</item>
+        <item>Dans la ligne détournée de <persName ref="#gp">Perec</persName> (<persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>)</item>
+        <item><term ref="#asla">ASLA</term> (<persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName>-<persName ref="#pf"><choice>
+              <abbr>PF</abbr>
+              <expan>Paul Fournel</expan>
+            </choice></persName>)</item>
+        <item><term ref="#sautemouton">saute-mouton</term> (<persName ref="#jq"><choice>
+              <abbr>JQ</abbr>
+              <expan>Jean Queval</expan>
+            </choice></persName>)</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010191h/f31.highres" n="31"/>
       <p><label type="rubrique">Menus propos :</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#ab">Blavier</persName> « <title ref="../thesauri/titles.xml#occupetoidhomelies">occupe-toi d’homélies</title> » (<persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> )</item>
-        <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
+        <item><persName ref="#ab">Blavier</persName> « <title ref="#occupetoidhomelies">occupe-toi
+            d’homélies</title> » (<persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName>)</item>
+        <item><persName ref="#jb"><choice>
+              <abbr>JB</abbr>
+              <expan>Jacques Bens</expan>
+            </choice></persName></item>
       </list>
-      <p><title ref="../thesauri/titles.xml#cahiersqueneau">Cahiers Queneau</title> : <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> -<persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> -<persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></p>
+      <p><title ref="#cahiersqueneau">Cahiers Queneau</title> : <persName ref="#jq"><choice>
+            <abbr>JQ</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName>-<persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>-<persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName></p>
       <p><label type="rubrique">Erudition :</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : <persName ref="../thesauri/persons.xml#sheldonklein">Sheldon Klein</persName></item>
-        <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
+        <item><persName ref="#pb"><choice>
+              <abbr>PB</abbr>
+              <expan>Paul Braffort</expan>
+            </choice></persName> : <persName ref="#sheldonklein">Sheldon Klein</persName></item>
+        <item><persName ref="#le"><choice>
+              <abbr>LE</abbr>
+              <expan>Luc Etienne</expan>
+            </choice></persName></item>
+        <item><persName ref="#hm"><choice>
+              <abbr>HM</abbr>
+              <expan>Harry Mathews</expan>
+            </choice></persName></item>
       </list>
-      <p>Après <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> « <title ref="../thesauri/titles.xml#fronton">Fronton</title> » dans la <title ref="../thesauri/titles.xml#nouvellerevuefrancaise">Nouvelle Revue Française</title> de Février.</p>
+      <p>Après <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> « <title>Fronton</title> » dans la  <title ref="#nrf">Nouvelle Revue Française</title> de
+        Février.</p>
       <p>Prochaine date (prochain invité)</p>
-      <p>Jeudi 27/1 <persName ref="../thesauri/persons.xml#cortada">Cortada</persName></p>
+      <p>Jeudi 27/1 <persName ref="#cortada">Cortada</persName></p>
     </body>
   </text>
 </TEI>

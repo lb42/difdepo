@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010313-1988-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010313-1988-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,17 +17,17 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010313-1988-02-cr</idno> <meeting xml:id="t10010313-1988-02">
-          <date when="1988-02-19">19 février 1988</date>
+          <date when="1988-02-19">19/02/1988</date>
           <placeName>chez FLL</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb" role="secrétaire"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb" role="président"><abbr>MB</abbr></persName></item>
+            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#mb" role="secrétaire"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#mb" role="président"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -52,12 +51,12 @@
       <p>Excusés : P. Rosenstiehl, N.A., JR, PB., JB. (lettre de remise en congé) (archives)</p>
       <p>Président et secrétaire : MB</p>
       <p>- HM : Histoire de l’Oulipo : la Cadillac blanche bordeaux de HM a une plaque OULIPO (archives)</p>
-      <p>- MM : - Port Sports : une <term ref="../thesauri/terms.xml#contrainte">contrainte</term> multiple</p>
+      <p>- MM : - Port Sports : une <term ref="#contrainte">contrainte</term> multiple</p>
       <p>un poème de 250 vers : 5 strophes chaque vers est un pangramme libre avec toute une série de contraintes combinées</p>
       <p>Michèle Métail boit une double gorgée de vin blanc</p>
-      <p>- PF Liseron : incitation à la débauche créatrice pour une nouvelle collection : création d’une collection pour enfants chez Ramsay, dont le 1<hi rend="sup">er</hi> élément est <title ref="../thesauri/titles.xml#lesanimauxdetoutlemonde">Les animaux de tout le monde</title> de <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>. / 4 vol en 88</p>
+      <p>- PF Liseron : incitation à la débauche créatrice pour une nouvelle collection : création d’une collection pour enfants chez Ramsay, dont le 1<hi rend="sup">er</hi> élément est <title ref="#lesanimaudetoutlemonde">Les animaux de tout le monde</title> de <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>. / 4 vol en 88</p>
       <p>PF voudrait lui donner une forte ossature oulipienne (archives)</p>
-      <p>Francine Perceval, ex de chez <orgName ref="../thesauri/organizations.xml#hachette">Hachette</orgName>, dirige la collection</p>
+      <p>Francine Perceval, ex de chez <orgName ref="#hachette">Hachette</orgName>, dirige la collection</p>
       <p>- JJ Projet de livre consacré à Perec : contribution de JJ</p>
       <p>Les sept règles de Perec : <unclear>?</unclear> texte tout en e sur GP (archives)</p>
       <p>La lecture de ce texte, où MB détecte un clinamen, provoque l’admiration générale.</p>
@@ -65,7 +64,7 @@
       <p>un recueil où figure Blaise et rose, une petite pièce en vers monosyllabiques (archives)</p>
       <p>- JJ Action Directe : photo de Francfort après l’attentat contre le Centre français où était présentée l’expo OULIPO (archives)</p>
       <p>- MB Erudition : article d’A. Souriau Les Poètes imaginaires (Revue d’Esthétique XVI, 3, 1963)</p>
-      <p>- MM Action Genève : lecture et colloque 12-13 Mai</p>
+      <p>- MM Action Genève : <name ref="#lecture" type="manif">lecture</name> et <name ref="#colloque" type="manif">colloque</name> 12-13 Mai</p>
       <p>PB MB MM M Métail s’occupe des contacts</p>
       <p>- HM une Bibliothèque oulipienne : contenant quelques écrits oulipiens en français</p>
       <p>- PF fera composer les futurs Bibliothèque oulipienne chez Ramsay : seul le brochage sera à la charge de l’Oulipo</p>
@@ -84,7 +83,7 @@
       <p>- Avignon : Jouanic : quelques précisions sur les lectures oulipiennes et les participants éventuels</p>
       <p>- <unclear>Animest</unclear> 1/ confirmation pour la lecture du 28 avril (HM, MM, NA)</p>
       <p>2/ Problème posé aux organisateurs pour le refus qui a été opposé à leur projet de spectacle mêlant le Vicomte pourfendu et le Château des Destins croisés. Ils demandent l’autorisation d’utilisation, pour un programme de substitution l’Arbre à Théâtre de Fournel</p>
-      <p>Prochaine réunion OULIPO 11/3</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  OULIPO 11/3</p>
       <p>Vendredi 11/3 réunion chez MM pour préparer Marne la Vallée</p>
     </body>
   </text>

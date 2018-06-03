@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010131-1971-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010131-1971-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,25 +17,66 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010131-1971-10-cr</idno> <meeting xml:id="t10010131-1971-10">
-          <date when="1971-10-26">26 octobre 1971</date>
-          <placeName>chez FLL</placeName>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#la"><abbr>L</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll" role="président"><abbr>FLL</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010131-1971-10-cr</idno>
+          <meeting xml:id="t10010131-1971-10">
+            <date when="1971-10-26">26/10/1971</date>
+            <placeName>chez FLL</placeName>
+            <list type="present">
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#la"><choice>
+                    <abbr>L</abbr>
+                    <expan>Latis</expan>
+                  </choice></persName></item>
+              <item><persName ref="#le"><choice>
+                    <abbr>LE</abbr>
+                    <expan>Luc Etienne</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pb"><choice>
+                    <abbr>PB</abbr>
+                    <expan>Paul Braffort</expan>
+                  </choice></persName></item>
+              <item><persName ref="#gp"><choice>
+                    <abbr>GP</abbr>
+                    <expan>Georges Perec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jl"><choice>
+                    <abbr>JL</abbr>
+                    <expan>Jean Lescure</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fll" role="président"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -53,95 +94,300 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f5.highres" n="5"/>
       <p rend="incipit">le 26 Octobre 71</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> <persName ref="../thesauri/persons.xml#la"><abbr>L</abbr></persName> <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></p>
-      <p rend="incipit">Excusé : <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>
+        <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName>
+        <persName ref="#la"><choice>
+            <abbr>L</abbr>
+            <expan>Latis</expan>
+          </choice></persName>
+        <persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName>
+        <persName ref="#jq"><choice>
+            <abbr>JQ</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName>
+        <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>
+        <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName>
+        <persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>
+        <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>
+        <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>
+        <persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName>
+        <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>
+        <persName ref="#jl"><choice>
+            <abbr>JL</abbr>
+            <expan>Jean Lescure</expan>
+          </choice></persName></p>
+      <p rend="incipit">Excusé : <persName ref="#jd"><choice>
+            <abbr>JD</abbr>
+            <expan>Jacques Duchateau</expan>
+          </choice></persName></p>
       <p rend="incipit">Difficile fixation de l’ordre du jour</p>
-      <p><persName ref="../thesauri/persons.xml#le">Luc Etienne</persName></p>
-      <p><term ref="../thesauri/terms.xml#intricationchiasmatique">Intrication chiasmatique</term></p>
+      <p><persName ref="#le">Luc Etienne</persName></p>
+      <p><term ref="#intricationchiasmatique">Intrication chiasmatique</term></p>
       <p>greffe d’une chair sur un squelette venu d’ailleurs.</p>
-      <p><persName ref="../thesauri/persons.xml#zola">Zola</persName> x <persName ref="../thesauri/persons.xml#rq">Queneau</persName></p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> Ce n’est qu’une nouvelle formule de la <term ref="../thesauri/terms.xml#chimere">Chimère</term>, bien connue déjà (avec 3 textes)</p>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> ce n’est pas tout à fait ça : ici il n’y a que 2 auteurs</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : l’intérêt est de contaminer un texte abstrait avec un texte concret.</p>
-      <p><term ref="../thesauri/terms.xml#axiomatique">Axiomatique</term></p>
+      <p><persName ref="#zola">Zola</persName> x <persName ref="#rq">Queneau</persName></p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> Ce n’est qu’une nouvelle formule de la <term ref="#chimere"
+          >Chimère</term>, bien connue déjà (avec 3 textes)</p>
+      <p><persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName> ce n’est pas tout à fait ça : ici il n’y a que 2 auteurs</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : l’intérêt est de contaminer un texte abstrait avec un texte
+        concret.</p>
+      <p><term ref="#aiomatique">Axiomatique</term></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : <persName ref="../thesauri/persons.xml#bonino">Bonino</persName> : aucun mot port <unclear>***</unclear> les autres</p>
+      <p><persName ref="#jr">Roubaud</persName> : <persName ref="#bonino">Bonino</persName> : aucun
+        mot port <unclear>***</unclear> les autres</p>
       <p>aucun mot n’est reconnaissable</p>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> Pièce de <persName ref="../thesauri/persons.xml#roussin">Roussin</persName> <title ref="../thesauri/titles.xml#letranger">l’Etranger</title> au théâtre</p>
-      <p>Comparaison avec <title ref="../thesauri/titles.xml#finneganswake">Finnegan’s Wake</title></p>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> l’ouisseur : une langue qui n’existe pas _ les mots obtenus par ordinateur ne sont pas assez « charnels »</p>
-      <p><persName ref="../thesauri/persons.xml#cb">Berge</persName> : l’ordinateur peut donner du charnel si on le lui demande.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : Invitons <persName ref="../thesauri/persons.xml#bonino">Bonino</persName> !</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> : le dossier <orgName ref="../thesauri/organizations.xml#cape">Cape</orgName> sera fermé le 15 Novembre. Problème de l’éditeur.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : une proposition de la part de <persName ref="../thesauri/persons.xml#riviere">Rivière</persName> avec <persName ref="../thesauri/persons.xml#weber">Weber</persName>.</p>
-      <p>Diverses propositions d’éditeurs = <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> propose collection <title ref="../thesauri/titles.xml#idees">Idées</title> - <title ref="../thesauri/titles.xml#poetique">Poétique</title> (ou <persName ref="../thesauri/persons.xml#beres">Beres</persName>)</p>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> <persName ref="../thesauri/persons.xml#pauvert">Pauvert</persName></p>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> <persName ref="../thesauri/persons.xml#nadaud">Nadaud</persName></p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> = aimerait recevoir du courrier.</p>
+      <p><persName ref="#gp">Perec</persName> Pièce de <persName ref="#roussin">Roussin</persName>
+        <title ref="#letranger">l’Etranger</title> au théâtre</p>
+      <p>Comparaison avec <title ref="#finneganswake">Finnegan’s Wake</title></p>
+      <p><persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName> l’ouisseur : une langue qui n’existe pas _ les mots obtenus par
+        ordinateur ne sont pas assez « charnels »</p>
+      <p><persName ref="#cb">Berge</persName> : l’ordinateur peut donner du charnel si on le lui
+        demande.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : Invitons <persName ref="#bonino">Bonino</persName> !</p>
+      <p><persName ref="#pf">Fournel</persName> : le dossier <orgName ref="#cape">Cape</orgName>
+        sera fermé le 15 Novembre. Problème de l’éditeur.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : une proposition de la part de <persName ref="#riviere"
+          >Rivière</persName> avec <persName ref="#weber">Weber</persName>.</p>
+      <p>Diverses propositions d’éditeurs = <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> propose collection <title ref="#idees">Idées</title> - <title
+          ref="#poetique">Poétique</title> (ou <persName ref="#beres">Beres</persName>)</p>
+      <p><persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName>
+        <persName ref="#pauvert">Pauvert</persName></p>
+      <p><persName ref="#gp">Perec</persName>
+        <persName ref="#nadaud">Nadaud</persName></p>
+      <p><persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName> = aimerait recevoir du courrier.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f6.highres" n="6"/>
-      <p><persName ref="../thesauri/persons.xml#la">Latis</persName> : propose de publier des Bonnes feuilles</p>
+      <p><persName ref="#la">Latis</persName> : propose de publier des Bonnes feuilles</p>
       <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : présence à Paris de <persName ref="../thesauri/persons.xml#marcussolomon">Marcus Solomon</persName> = conférence le 15/1/72 Halle aux vins -16h</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : présence à Paris de <persName ref="#marcussolomon">Marcus
+          Solomon</persName> = conférence le 15/1/72 Halle aux vins -16h</p>
       <p>9 quai Saint Bernard. Tour 22-32</p>
-      <p>problème de la <term ref="../thesauri/terms.xml#semiologiedelesquimau">Sémiologie de l’Esquimau</term> (<term ref="../thesauri/terms.xml#langueacatastrophes">langue à catastrophes</term>) un numéro sur <title ref="../thesauri/titles.xml#poetiquesetmathematiques">Poétiques et Mathématiques</title></p>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> : <persName ref="../thesauri/persons.xml#hm">Harry Mathews</persName> part pour U.S.A., que peut-il faire pour nous</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : Rechercher les premiers romans de <persName ref="../thesauri/persons.xml#rexstout">Rex Stout</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">Jean Queval</persName> : sur <persName ref="../thesauri/persons.xml#irismurdoch">Iris Murdoch</persName> </p>
+      <p>problème de la <term ref="#semiologiedelesquimau">Sémiologie de l’Esquimau</term> (<term
+          ref="#langueacatastrophes">langue à catastrophes</term>) un numéro sur <title
+          ref="#poetiquesetmathematiques">Poétiques et Mathématiques</title></p>
+      <p><persName ref="#gp">Perec</persName> : <persName ref="#hm">Harry Mathews</persName> part
+        pour U.S.A., que peut-il faire pour nous</p>
+      <p><persName ref="#pb">Braffort</persName> : Rechercher les premiers romans de <persName
+          ref="#restout">Rex Stout</persName>.</p>
+      <p><persName ref="#jq">Jean Queval</persName> : sur <persName ref="#irismurdoch">Iris
+          Murdoch</persName> </p>
       <p>Contestation créatrice</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : sur <persName ref="../thesauri/persons.xml#jb">Jacques Bens</persName> = bureau d’études</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : tout ce que nous avons fait est propédeutique, nous avons déjà un langage commun.</p>
-      <p><term ref="../thesauri/terms.xml#experiencefractionnelle">Expérience fractionnelle</term> de <persName ref="../thesauri/persons.xml#pb">Braffort</persName> et <persName ref="../thesauri/persons.xml#jd">Duchateau</persName>. <persName ref="../thesauri/persons.xml#jb">Bens</persName> = le cas du <title ref="../thesauri/titles.xml#vasebrise">Vase brisé</title></p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : sur <persName ref="#jb">Jacques Bens</persName> = bureau
+        d’études</p>
+      <p><persName ref="#pb">Braffort</persName> : tout ce que nous avons fait est propédeutique,
+        nous avons déjà un langage commun.</p>
+      <p><term ref="#eperiencefractionnelle">Expérience fractionnelle</term> de <persName ref="#pb"
+          >Braffort</persName> et <persName ref="#jd">Duchateau</persName>. <persName ref="#jb"
+          >Bens</persName> = le cas du <title ref="#vasebrise">Vase brisé</title></p>
       <p>nos réunions sont bonnes, mais il faut travailler par ailleurs</p>
       <p>– Interruption pour mettre la table.</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName>  : donner à chacun la parole pour éviter des malentendus</p>
-      <p><persName ref="../thesauri/persons.xml#la">Latis</persName> : remarque méthodologique = l’Oulipo doit-il créer des <term ref="../thesauri/terms.xml#structures">structures</term> ?</p>
-      <p>A l’origine, l’étincelle est venue des <title ref="../thesauri/titles.xml#n10014depoemes">100<hi rend="sup">14</hi> de poèmes</title>. Il n’y a rien eu d’autre</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : les <title ref="../thesauri/titles.xml#n10014depoemes">100<hi rend="sup">14</hi> de poèmes</title> ne sont qu’un aspect des possibilités des <term ref="../thesauri/terms.xml#structures">structures</term>. Elle n’a pas été reprise; car on a cherché chacun de son côté = cf. <title ref="../thesauri/titles.xml#zinga8">Zinga 8</title>, <persName ref="../thesauri/persons.xml#gp">Perec</persName>, <persName ref="../thesauri/persons.xml#jr">Roubaud</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : le dossier <orgName ref="../thesauri/organizations.xml#cape">Cape</orgName> apporte la preuve qu’il y a d’autres directions.</p>
-      <p>ne nous limitons pas au <term ref="../thesauri/terms.xml#combinatoire">combinatoire</term>. passons à <term ref="../thesauri/terms.xml#louliposemantique">l’oulipo sémantique</term>.</p>
-      <p>Cherchons des <term ref="../thesauri/terms.xml#structures">structures</term> efficaces</p>
+      <p><persName ref="#jq"><choice>
+            <abbr>JQ</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName> : donner à chacun la parole pour éviter des malentendus</p>
+      <p><persName ref="#la">Latis</persName> : remarque méthodologique = l’Oulipo doit-il créer des
+          <term ref="#structures">structures</term> ?</p>
+      <p>A l’origine, l’étincelle est venue des <title ref="#n114depoemes">100<hi rend="sup">14</hi>
+          de poèmes</title>. Il n’y a rien eu d’autre</p>
+      <p><persName ref="#pb">Braffort</persName> : les <title ref="#n114depoemes">100<hi rend="sup"
+            >14</hi> de poèmes</title> ne sont qu’un aspect des possibilités des <term
+          ref="#structures">structures</term>. Elle n’a pas été reprise; car on a cherché chacun de
+        son côté = cf. <title ref="#zinga8">Zinga 8</title>, <persName ref="#gp">Perec</persName>,
+          <persName ref="#jr">Roubaud</persName>.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : le dossier <orgName ref="#cape">Cape</orgName> apporte la preuve
+        qu’il y a d’autres directions.</p>
+      <p>ne nous limitons pas au <term ref="#combinatoire">combinatoire</term>. passons à <term
+          ref="#louliposemantique">l’oulipo sémantique</term>.</p>
+      <p>Cherchons des <term ref="#structures">structures</term> efficaces</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f7.highres" n="7"/>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> : qu’attendons-nous de l’Oulipo ?</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>  : on a fait jusqu’à présent du « bricolage » - le bricolage je m’en fous.</p>
+      <p><persName ref="#gp">Perec</persName> : qu’attendons-nous de l’Oulipo ?</p>
+      <p><persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName> : on a fait jusqu’à présent du « bricolage » - le bricolage je m’en
+        fous.</p>
       <p>Il a 2 sortes d’entreprises littéraires :</p>
       <list type="unordered">
-        <item>la forme détermine le fond (<term ref="../thesauri/terms.xml#s7">S+7</term> - schémas)</item>
-        <item>l’histoire au fond a une <term ref="../thesauri/terms.xml#structure">structure</term> préalable.</item>
+        <item>la forme détermine le fond (<term ref="#s7">S+7</term> - schémas)</item>
+        <item>l’histoire au fond a une <term ref="#structure">structure</term> préalable.</item>
       </list>
       <p>Je veux savoir comment écrire ce que j’ai à écrire.</p>
-      <p>Sur <title ref="../thesauri/titles.xml#zinga8">Zinga 8</title> : son échec ou son succès ne prouve rien sur la validité de la méthode.</p>
-      <p>Je ne tiens pas à voir les <term ref="../thesauri/terms.xml#structures">structures</term> ni à les faire voir.</p>
-      <p>Qu’est-ce qui fait l’originalité de l’Oulipo par rapport aux autres « <term ref="../thesauri/terms.xml#constructivistes">constructivistes</term> ».</p>
-      <p>Je cherche une <term ref="../thesauri/terms.xml#structure">structure</term> pour le théâtre.</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> : il y a des structures au théâtre : <persName ref="../thesauri/persons.xml#gp">Perec</persName>. <persName ref="../thesauri/persons.xml#pf">Fournel</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>  : comment exprimer ce que je veux dire le plus totalement possible.</p>
+      <p>Sur <title ref="#zinga8">Zinga 8</title> : son échec ou son succès ne prouve rien sur la
+        validité de la méthode.</p>
+      <p>Je ne tiens pas à voir les <term ref="#structures">structures</term> ni à les faire
+        voir.</p>
+      <p>Qu’est-ce qui fait l’originalité de l’Oulipo par rapport aux autres « <term
+          ref="#constructivistes">constructivistes</term> ».</p>
+      <p>Je cherche une <term ref="#structure">structure</term> pour le théâtre.</p>
+      <p><persName ref="#pf">Fournel</persName> : il y a des structures au théâtre : <persName
+          ref="#gp">Perec</persName>. <persName ref="#pf">Fournel</persName>.</p>
+      <p><persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName> : comment exprimer ce que je veux dire le plus totalement
+        possible.</p>
       <p>Si l’oulipo ne l’aide pas, à quoi sert-il ?</p>
       <p>Il y aussi d’autres travaux…</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : tous tes points de vue m’intéressent ; <persName ref="../thesauri/persons.xml#jb">Bens</persName> n’a peut-être pas compris la vocation Oulipo.</p>
-      <p>L’Oulipo propose des <term ref="../thesauri/terms.xml#structuresgeneratrices">structures génératrices</term> d’inspiration et non une <term ref="../thesauri/terms.xml#structure">structure</term> pour canaliser une inspiration. De telles <term ref="../thesauri/terms.xml#structures">structures</term> sont possibles</p>
-      <p>L’oulipo est impuissant à fournir ces <term ref="../thesauri/terms.xml#structures">structures</term>-là. Il faut des séminaires, du travail ardu mais les réunions et déjeuners de l’Oulipo actuel n’y arriveront pas.</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>  : S’agit-il oui ou non de donner des <term ref="../thesauri/terms.xml#structures">structures</term> ?</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : Non ! Nous l’avons cru au début, mais très vite, j’ai compris que ça ne marcherait pas.</p>
-      <p>Je m’intéresse aux <term ref="../thesauri/terms.xml#structuresacrobatiques">structures acrobatiques</term>, qu’ont de l’avenir comme excitant de l’esprit.</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : déception peu en apport à nos collaborations et rêves premiers. Nos rêves impliquaient un travail beaucoup plus intense. Ce qui se fait à <title ref="../thesauri/titles.xml#change">Change</title>, <title ref="../thesauri/titles.xml#telquel">Tel Quel</title>, <title ref="../thesauri/titles.xml#poetique">Poétique</title> est voisin de nous ; ils ont une audience plus grande que la nôtre. Mais nous sommes clandestins par vocation. Pour bien faire, il faut beaucoup travailler. Mais pourquoi ne pas continuer être qui nous sommes. Ce que cherche <persName ref="../thesauri/persons.xml#jb">Bens</persName>, on le trouvera peut-être un jour.</p>
-      <p>Nous ne sommes pas des <del>écriv</del> créateurs, mais des artisans. <persName ref="../thesauri/persons.xml#jb">Bens</persName> se désespère une peu vite. IL faut se tenir au courant dans la linguistique, de la critique, ~</p>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : ce que <persName ref="../thesauri/persons.xml#jb">Bens</persName> veut, essayons de le résoudre par la pratique.</p>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> : Relit le début de <title ref="../thesauri/titles.xml#techniqueduroman">Technique du Roman</title> de <persName ref="../thesauri/persons.xml#rq">R. Queneau</persName>.</p>
-      <p>Au départ le désir de l’écriture est accompagné d’un désir de <term ref="../thesauri/terms.xml#contrainte">contrainte</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : Qu’est-ce qui est oulipien ou non ? Ce qui est mathématique</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : tous tes points de vue m’intéressent ; <persName ref="#jb"
+          >Bens</persName> n’a peut-être pas compris la vocation Oulipo.</p>
+      <p>L’Oulipo propose des <term ref="#structuresgeneratrices">structures génératrices</term>
+        d’inspiration et non une <term ref="#structure">structure</term> pour canaliser une
+        inspiration. De telles <term ref="#structures">structures</term> sont possibles</p>
+      <p>L’oulipo est impuissant à fournir ces <term ref="#structures">structures</term>-là. Il faut
+        des séminaires, du travail ardu mais les réunions et déjeuners de l’Oulipo actuel n’y
+        arriveront pas.</p>
+      <p><persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName> : S’agit-il oui ou non de donner des <term ref="#structures"
+          >structures</term> ?</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : Non ! Nous l’avons cru au début, mais très vite, j’ai compris que
+        ça ne marcherait pas.</p>
+      <p>Je m’intéresse aux <term ref="#structuresacrobatiques">structures acrobatiques</term>,
+        qu’ont de l’avenir comme excitant de l’esprit.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : déception peu en apport à nos collaborations et rêves premiers. Nos
+        rêves impliquaient un travail beaucoup plus intense. Ce qui se fait à <title ref="#change"
+          >Change</title>, <title ref="#telquel">Tel Quel</title>, <title ref="#poetique"
+          >Poétique</title> est voisin de nous ; ils ont une audience plus grande que la nôtre. Mais
+        nous sommes clandestins par vocation. Pour bien faire, il faut beaucoup travailler. Mais
+        pourquoi ne pas continuer être qui nous sommes. Ce que cherche <persName ref="#jb"
+          >Bens</persName>, on le trouvera peut-être un jour.</p>
+      <p>Nous ne sommes pas des <del>écriv</del> créateurs, mais des artisans. <persName ref="#jb"
+          >Bens</persName> se désespère une peu vite. IL faut se tenir au courant dans la
+        linguistique, de la critique, ~</p>
+      <p><persName ref="#jr">Roubaud</persName> : ce que <persName ref="#jb">Bens</persName> veut,
+        essayons de le résoudre par la pratique.</p>
+      <p><persName ref="#gp">Perec</persName> : Relit le début de <title ref="#techniqueduroman"
+          >Technique du Roman</title> de <persName ref="#rq">R. Queneau</persName>.</p>
+      <p>Au départ le désir de l’écriture est accompagné d’un désir de <term ref="contrainte">contrainte</term>.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : Qu’est-ce qui est oulipien ou non ? Ce qui est mathématique</p>
       <p>Bref des choses sont oulipiennes en dehors de l’oulipo.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f8.highres" n="8"/>
       <p rend="incipit">Oulipo du 6 Avril 1971</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>.</p>
-      <p>Discussion sur l’admission de <persName ref="../thesauri/persons.xml#pf">Fournel</persName></p>
-      <p>Problème du nombre des membres : statutairement 10 et pas plus les nouveaux membres ne sont qu’associés.</p>
-      <p><persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> : Poèmes pour <term ref="../thesauri/terms.xml#rubandemoebius">ruban de Moebius</term>. <note n="1" resp="editor">Page entièrement barrée.</note></p>
+      <p rend="incipit">Présents : <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>, <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName>, <persName ref="#jl"><choice>
+            <abbr>JL</abbr>
+            <expan>Jean Lescure</expan>
+          </choice></persName>, <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName>, <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>, <persName ref="#jd"><choice>
+            <abbr>JD</abbr>
+            <expan>Jacques Duchateau</expan>
+          </choice></persName>, <persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName>, <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>.</p>
+      <p>Discussion sur l’admission de <persName ref="#pf">Fournel</persName></p>
+      <p>Problème du nombre des membres : statutairement 10 et pas plus les nouveaux membres ne sont
+        qu’associés.</p>
+      <p><persName ref="#le">Luc Etienne</persName> : Poèmes pour <term ref="#rubandemoebius">ruban
+          de Moebius</term>. <note n="1" resp="editor">Page entièrement barrée.</note></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f9.highres" n="9"/>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> Nous avons fait du tout fait <persName ref="../thesauri/persons.xml#jb">Bens</persName> veut du sur mesure.</p>
-      <p>Divers exemples des <term ref="../thesauri/terms.xml#structures">structures</term> : <term ref="../thesauri/terms.xml#arbretheatre">arbre théâtre</term> <persName ref="../thesauri/persons.xml#pf">Fournel</persName></p>
-      <p><term ref="../thesauri/terms.xml#structures">structures</term> Queneau = oulipo (gigantesque <term ref="../thesauri/terms.xml#acrostiche">acrostiche</term>)</p>
-      <p><persName ref="../thesauri/persons.xml#jq">Queval</persName> « Tu dois faire des <term ref="../thesauri/terms.xml#structures">structures</term>, nom de Dieu ! » Approbation générale.</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> on donnera à <persName ref="../thesauri/persons.xml#jb">Bens</persName> 50 <term ref="../thesauri/terms.xml#structures">structures</term> s’il veut.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> Nous avons fait du tout fait <persName ref="#jb">Bens</persName> veut
+        du sur mesure.</p>
+      <p>Divers exemples des <term ref="#structures">structures</term> : <term ref="#arbretheatre"
+          >arbre théâtre</term>
+        <persName ref="#pf">Fournel</persName></p>
+      <p><term ref="#structures">structures</term> Queneau = oulipo (gigantesque <term
+          ref="#acrostiche">acrostiche</term>)</p>
+      <p><persName ref="#jq">Queval</persName> « Tu dois faire des <term ref="#structures"
+          >structures</term>, nom de Dieu ! » Approbation générale.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> on donnera à <persName ref="#jb">Bens</persName> 50 <term
+          ref="#structures">structures</term> s’il veut.</p>
     </body>
   </text>
 </TEI>

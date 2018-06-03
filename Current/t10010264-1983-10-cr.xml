@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010264-1983-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010264-1983-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +17,49 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010264-1983-10-cr</idno> <meeting xml:id="t10010264-1983-10">
-          <date when="1983-10-02">2 octobre 1983</date>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb" role="secrétaire"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na" role="président"><abbr>NA</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010264-1983-10-cr</idno>
+          <meeting xml:id="t10010264-1983-10">
+            <date when="1983-10-02">02/10/1983</date>
+            <list type="present">
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mm"><choice>
+                    <abbr>MM</abbr>
+                    <expan>Michele Métail</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+              <item><persName ref="#le"><choice>
+                    <abbr>LE</abbr>
+                    <expan>Luc Etienne</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mb" role="secrétaire"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na" role="président"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -48,58 +77,169 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f38.highres" n="38"/>
       <p rend="incipit">Dimanche 2 Octobre 83</p>
       <p rend="incipit">(séance ouverte : 9h30)</p>
-      <p rend="incipit">Président : <persName ref="../thesauri/persons.xml#na"><abbr>N.A.</abbr></persName></p>
-      <p rend="incipit">Secrétaire : <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> Bibliothèque oulipienne : les textes ne sont pas prêts au moment où on les <unclear>…</unclear> nécessité d’un « éditeur » . <persName ref="../thesauri/persons.xml#jb"><abbr>J.B.</abbr></persName> se propose.</p>
-      <p>23 – Hommage à <persName ref="../thesauri/persons.xml#gp">Perec</persName> : récapitulation des textes – le numéro est clos.</p>
-      <p>24 – La ponctuation de <persName ref="../thesauri/persons.xml#jq">J. Queval</persName> : lecture du manuscrit – acceptation enthousiaste.</p>
-      <p>– Et aussi le 2<hi rend="sup">e</hi> <persName ref="../thesauri/persons.xml#jq">Queval</persName></p>
-      <p>– <persName ref="../thesauri/persons.xml#le"><abbr>L.E.</abbr></persName> la <term ref="../thesauri/terms.xml#contrainteducoupeurde">contrainte du coupeur de</term> <unclear>brousse</unclear></p>
+      <p rend="incipit">Président : <persName ref="#na"><choice>
+            <abbr>N.A.</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName></p>
+      <p rend="incipit">Secrétaire : <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>.</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> Bibliothèque oulipienne : les textes ne sont pas prêts au moment où
+        on les <unclear>…</unclear> nécessité d’un « éditeur » . <persName ref="#jb"><choice>
+            <abbr>J.B.</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName> se propose.</p>
+      <p>23 – Hommage à <persName ref="#gp">Perec</persName> : récapitulation des textes – le numéro
+        est clos.</p>
+      <p>24 – La ponctuation de <persName ref="#jq">J. Queval</persName> : lecture du manuscrit –
+        acceptation enthousiaste.</p>
+      <p>– Et aussi le 2<hi rend="sup">e</hi>
+        <persName ref="#jq">Queval</persName></p>
+      <p>– <persName ref="#le"><choice>
+            <abbr>L.E.</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName> la <term ref="#contrainteducoupeurde">contrainte du coupeur de</term>
+        <unclear>brousse</unclear></p>
       <p>Ordre de publication à déterminer</p>
-      <p>– <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> les <term ref="../thesauri/terms.xml#locutionsintrouvables">locutions introuvables</term></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>M.B.</abbr></persName> pour l’hommage à <persName ref="../thesauri/persons.xml#gp">Perec</persName>, augmenter le tirage.</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>J.B.</abbr></persName> En faire un tirage spécial pour les <orgName ref="../thesauri/organizations.xml#amisdegeorgesperec">Amis de <persName ref="../thesauri/persons.xml#gp">Georges Perec</persName></orgName>  : voir comment cela est possible.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB.</abbr></persName> Faire le dépôt légal des exemplaires non encore déposés.</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ.</abbr></persName> Propose un de ses amis pour imprimer la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>P.B.</abbr></persName>  : Communication /<ref>voir archives</ref></p>
-      <p>Une problématique nouvelle de la <term ref="../thesauri/terms.xml#prosodie">prosodie</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB.</abbr></persName> Compléments à « <title ref="../thesauri/titles.xml#lareineazteque">la reine Aztèque</title> »</p>
-      <p>Proposition de <term ref="../thesauri/terms.xml#contrainte">contrainte</term> reposant sur des mots = <term ref="../thesauri/terms.xml#fonction">fonction</term> …</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>J.R.</abbr></persName> – L’<term ref="../thesauri/terms.xml#alexandrin">alexandrin</term> : projet de programme de reconnaissance des <term ref="../thesauri/terms.xml#alexandrins">alexandrins</term> (en créer la confection avec <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> )</p>
-      <p>– La <term ref="../thesauri/terms.xml#familledesrimes">famille des rimes</term> : <term ref="../thesauri/terms.xml#rimesoulipo">rimes oulipo</term>, <term ref="../thesauri/terms.xml#rimesbabebibobu">rimes babebibobu</term>, <term ref="../thesauri/terms.xml#rimeleporeiambi">rime leporeiambi</term></p>
-      <p>– <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="../thesauri/persons.xml#dubois">Dubois</persName>, le <title ref="../thesauri/titles.xml#jeudelarenaissance">Jeu de la Renaissance</title> Vrin 83</p>
+      <p>– <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> les <term ref="#locutionsintrouvables">locutions
+        introuvables</term></p>
+      <p><persName ref="#mb"><choice>
+            <abbr>M.B.</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> pour l’hommage à <persName ref="#gp">Perec</persName>, augmenter le
+        tirage.</p>
+      <p><persName ref="#jb"><choice>
+            <abbr>J.B.</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName> En faire un tirage spécial pour les <orgName
+          ref="#amisdegeorgesperec">Amis de <persName ref="#gp">Georges Perec</persName></orgName>
+         : voir comment cela est possible.</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB.</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> Faire le dépôt légal des exemplaires non encore déposés.</p>
+      <p><persName ref="#jq"><choice>
+            <abbr>JQ.</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName> Propose un de ses amis pour imprimer la <title
+          ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName ref="#pb"><choice>
+            <abbr>P.B.</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : Communication /<ref>voir archives</ref></p>
+      <p>Une problématique nouvelle de la <term ref="#prosodie">prosodie</term>.</p>
+      <p><persName ref="#cb"><choice>
+            <abbr>CB.</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName> Compléments à « <title ref="#lareineazteque">la reine
+        Aztèque</title> »</p>
+      <p>Proposition de <term ref="#contrainte">contrainte</term> reposant sur des mots = <term ref="#fonction">fonction</term>
+        …</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>J.R.</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> – L’<term ref="#aleandrin">alexandrin</term> : projet de programme de
+        reconnaissance des <term ref="#aleandrins">alexandrins</term> (en créer la confection avec
+          <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName>)</p>
+      <p>– La <term ref="#familledesrimes">famille des rimes</term> : <term ref="#rimesoulipo">rimes
+          oulipo</term>, <term ref="#rimesbabebibobu">rimes babebibobu</term>, <term
+          ref="#rimeleporeiambi">rime leporeiambi</term></p>
+      <p>– <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>
+        <persName ref="#dubois">Dubois</persName>, le <title ref="#jeudelarenaissance">Jeu de la
+          Renaissance</title> Vrin 83</p>
       <p>– glissement progressif de la rime en changeant le support de la rime</p>
       <p>arme orme orbe serbe …</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f39.highres" n="39"/>
       <p>Oulipo (dimanche 2-10-83)</p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> proposition de participer à une revue de <persName ref="../thesauri/persons.xml#pinguilly">Pinguilly</persName>, qui s’appelle <title ref="../thesauri/titles.xml#trousselivres">Trousse-livres</title> : sur l’ <term ref="../thesauri/terms.xml#atelierdecriture">atelier d’écriture</term></p>
-      <p>Il nous propose 12 pages sur 32 : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> fera la présentation</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> + <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> feront un article présentant à la fois <orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName> et <orgName ref="../thesauri/organizations.xml#oulipo">Oulipo</orgName> avec travaux et stagiaires</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>J.Q.</abbr></persName> propose un texte : <title ref="../thesauri/titles.xml#delouvroirdeloulipoetsonexterieuratoutelhumanite">De L’Ouvroir de l’Oulipo et son extérieur à toute l’humanité</title></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB.</abbr></persName> Définition .. <term ref="../thesauri/terms.xml#n1n1">n+1 n-1</term></p>
-      <p>Définition en par <unclear>..</unclear> leur mots autre lesquels il est situé dans un dictionnaire donné</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> érudition sur le singe dactylographe</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> présentation de l’exercice : un nom propre <unclear>… sur son nerf</unclear></p>
+      <p><persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName> proposition de participer à une revue de <persName ref="#pinguilly"
+          >Pinguilly</persName>, qui s’appelle <title ref="#trousselivres">Trousse-livres</title> :
+        sur l’ <term ref="#atelierdecriture">atelier d’écriture</term></p>
+      <p>Il nous propose 12 pages sur 32 : <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName> fera la présentation</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> + <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> feront un article présentant à la fois <orgName ref="#alamo"
+          >Alamo</orgName> et <orgName ref="#oulipo">Oulipo</orgName> avec travaux et stagiaires</p>
+      <p><persName ref="#jq"><choice>
+            <abbr>J.Q.</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName> propose un texte : <title
+          ref="#delouvroirdeloulipoetsoneterieuratoutelhumanite">De L’Ouvroir de l’Oulipo et son
+          extérieur à toute l’humanité</title></p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB.</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> Définition .. <term ref="#n1n1">n+1 n-1</term></p>
+      <p>Définition en par <unclear>..</unclear> leur mots autre lesquels il est situé dans un
+        dictionnaire donné</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName> érudition sur le singe dactylographe</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> présentation de l’exercice : un nom propre <unclear>… sur son
+          nerf</unclear></p>
       <p><unclear>…que</unclear> de : masculin-féminin</p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> a déjà fait des choses de ce genre</p>
+      <p><persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName> a déjà fait des choses de ce genre</p>
       <p>Prochaines réunions :</p>
-      <p>Vendredi 4 novembre à midi chez <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>  : invité <persName ref="../thesauri/persons.xml#klinkenberg">Klinkenberg</persName></p>
-      <p>Vendredi 2 Décembre chez <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. Le soir : séance d’intronisation des nouveaux élus</p>
-      <p>Clôture du congrès par <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> (13h05)</p>
+      <p>Vendredi 4 novembre à midi chez <persName ref="#mm"><choice>
+            <abbr>MM</abbr>
+            <expan>Michele Métail</expan>
+          </choice></persName> : invité <persName ref="#klinkenberg">Klinkenberg</persName></p>
+      <p>Vendredi 2 Décembre chez <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>. Le soir : séance d’intronisation des nouveaux élus</p>
+      <p>Clôture du <name ref="#congres" type="manif">congrès</name> par <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName> (13h05)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102640/f40.highres" n="40"/>
-      <p><persName ref="../thesauri/persons.xml#mb">Marcel Benabou</persName> <name ref="../thesauri/events.xml#congresoulipo" type="manif">Congrès Oulipo</name> 1/10/83</p>
+      <p><persName ref="#mb">Marcel Benabou</persName>
+        <name ref="#congresoulipo" type="manif">Congrès Oulipo</name> 1/10/83</p>
       <p>Organisation</p>
       <list type="unordered">
         <item>statuts à modifier</item>
-        <item>Stages déjà engagés</item>
+        <item><name ref="#stage" type="manif">Stages</name> déjà engagés</item>
         <item>Archives</item>
         <item>Comptes-rendus</item>
         <item>Bibliothèque</item>
-        <item>réunion commune <orgName ref="../thesauri/organizations.xml#oulipooupeinpooulipoalamo">Oulipo-<orgName ref="../thesauri/organizations.xml#oupeinpo">Oupeinpo</orgName>, Oulipo-<orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName></orgName></item>
-        <item>les <term ref="../thesauri/terms.xml#alipo">Alipo</term></item>
+        <item>réunion commune <orgName ref="#oulipooupeinpooulipoalamo">Oulipo-<orgName ref="#oupeinpo">Oupeinpo</orgName>,
+              Oulipo-<orgName ref="#alamo">Alamo</orgName></orgName></item>
+        <item>les <term ref="#alipo">Alipo</term></item>
         <item>Remplacer (une fois par trois, par exemple) le déjeuner par un dîner.</item>
         <item>(constitution d’un dossier de présentation de l’Oulipo = brochure</item>
-        <item>habilitation de <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>.</item>
+        <item>habilitation de <persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName>.</item>
       </list>
     </body>
   </text>

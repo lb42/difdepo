@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010180-1976-11-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-11-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,7 +17,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010180-1976-11-oj</idno> <title>Ordre de jour de <ref target="#t10010190-1976-11">la réunion Oulipo</ref> de <date when="1976-11-25">25 novembre 1976</date></title></bibl>
+        <bibl><idno>t10010180-1976-11-oj</idno> <title>Ordre de jour de <ref target="#t10010190-1976-11">la réunion Oulipo</ref> de <date when="1976-11-25">25/11/1976</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,19 +32,19 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f27.highres" n="27"/>
       <p rend="incipit">OuLiPo 25 11 76</p>
-      <p>Phynances : debt envers <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> – contributions de 100 francs etc.</p>
-      <p><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> – pousser <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> à faire son texte</p>
-      <p><title ref="../thesauri/titles.xml#bibliothequeoulipiennespecialqueneau">Bibliothèque oulipienne « spécial Queneau »</title></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> – <persName ref="../thesauri/persons.xml#mm">Métail</persName> –impossible</p>
-      <p><persName ref="../thesauri/persons.xml#ab">Blavier</persName></p>
+      <p>Phynances : debt envers <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> – contributions de 100 francs etc.</p>
+      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> – pousser <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> à faire son texte</p>
+      <p><title ref="#bibliothequeoulipiennespecialqueneau">Bibliothèque oulipienne « spécial Queneau »</title></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> – <persName ref="#mm">Métail</persName> –impossible</p>
+      <p><persName ref="#ab">Blavier</persName></p>
       <p>Contributions by mail ?</p>
-      <p><persName ref="../thesauri/persons.xml#jl">Lescure</persName></p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> /</p>
-      <p><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> /</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> manquent : <persName ref="../thesauri/persons.xml#jd">Duchateau</persName>, <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="../thesauri/persons.xml#cb">Berge</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> propose de republier un <persName ref="../thesauri/persons.xml#la">Latis</persName></p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> titre <title ref="../thesauri/titles.xml#pourrq">Pour RQ</title></p>
-      <p>sous-commission <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>, chez <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="#jl">Lescure</persName></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> /</p>
+      <p><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> /</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> manquent : <persName ref="#jd">Duchateau</persName>, <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>, <persName ref="#cb">Berge</persName></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> propose de republier un <persName ref="#la">Latis</persName></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> titre <title ref="#pourrq">Pour RQ</title></p>
+      <p>sous-commission <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>, <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, chez <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

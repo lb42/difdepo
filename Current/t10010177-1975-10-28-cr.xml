@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010177-1975-10-28-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010177-1975-10-28-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,18 +17,18 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010177-1975-10-28-cr</idno> <meeting xml:id="t10010177-1975-10-28">
-          <date when="1975-10-28">28 octobre 1975</date>
+          <date when="1975-10-28">28/10/1975</date>
           <placeName>chez PF</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#la"><abbr>L</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#la"><choice><abbr>L</abbr><expan>Latis</expan></choice></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -49,73 +48,73 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010177c/f4.highres" n="4"/>
       <p rend="incipit">28-10-75</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></p>
       <list type="unordered">
-        <item>Beaubourg a l’intention de récupérer des documents d’<orgName ref="../thesauri/organizations.xml#europalia">Europalia</orgName>.</item>
+        <item>Beaubourg a l’intention de récupérer des documents d’<orgName ref="#europalia">Europalia</orgName>.</item>
         <item>profiter de l’expérience pour améliorer le spectacle</item>
-        <item>améliorer le <term ref="../thesauri/terms.xml#rubandemoebius">ruban de Moebius</term></item>
+        <item>améliorer le <term ref="#rubandemoebius">ruban de Moebius</term></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : fixer un calendrier avec compte à rebours : suggère que le spectacle soit sérieusement transformé, en raison du changement de public.</p>
+      <p><persName ref="#pb">Braffort</persName> : fixer un calendrier avec compte à rebours : suggère que le spectacle soit sérieusement transformé, en raison du changement de public.</p>
       <p>discussion remise en attendant Duchateau.</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : où en est la littérature axiomatique ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> : elle n’avance pas. projet de <term ref="../thesauri/terms.xml#geometriefinieetprojective">géométrie finie et projective</term>.</p>
+      <p><persName ref="#pb">Braffort</persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> : où en est la littérature axiomatique ?</p>
+      <p><persName ref="#rq">Queneau</persName> : elle n’avance pas. projet de <term ref="#geometriefinieetprojective">géométrie finie et projective</term>.</p>
       <p>cela demande des années.</p>
-      <p><orgName ref="../thesauri/organizations.xml#leminotaure">le Minotaure</orgName> demande des exemplaires (2×3 <persName ref="../thesauri/persons.xml#gp">Perec</persName> + <persName ref="../thesauri/persons.xml#jr">Roubaud</persName>)</p>
-      <p>Distribution de documents divers relatifs à <orgName ref="../thesauri/organizations.xml#europalia">Europalia</orgName> (surtout les sonnets de <persName ref="../thesauri/persons.xml#rq">Queneau</persName> sur ordinateur)</p>
-      <p><persName ref="../thesauri/persons.xml#ic">Calvino</persName> : nouvelles de la traduction italienne <persName ref="../thesauri/persons.xml#ic">Calvino</persName> a eu les premières pages de cette traduction et elles ne sont pas très bonnes.</p>
+      <p><orgName ref="#leminotaure">le Minotaure</orgName> demande des exemplaires (2×3 <persName ref="#gp">Perec</persName> + <persName ref="#jr">Roubaud</persName>)</p>
+      <p>Distribution de documents divers relatifs à <orgName ref="#europalia">Europalia</orgName> (surtout les sonnets de <persName ref="#rq">Queneau</persName> sur ordinateur)</p>
+      <p><persName ref="#ic">Calvino</persName> : nouvelles de la traduction italienne <persName ref="#ic">Calvino</persName> a eu les premières pages de cette traduction et elles ne sont pas très bonnes.</p>
       <p>problème de la traduction : faut-il traduire le résultat ou employer le même procédé ?</p>
       <p>à rediscuter ultérieurement</p>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : projet de descendre le Mississipi. Demande des contraintes <unclear>***.</unclear></p>
+      <p><persName ref="#jr">Roubaud</persName> : projet de descendre le Mississipi. Demande des contraintes <unclear>***.</unclear></p>
       <p>départ : Mai – arrivée Septembre.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> : propose la traduction dans la ville étape</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : Photos = elles manquent.</p>
+      <p><persName ref="#rq">Queneau</persName> : propose la traduction dans la ville étape</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : Photos = elles manquent.</p>
       <list type="unordered">
-        <item>celles de <persName ref="../thesauri/persons.xml#blgauthier">Bl. Gauthier</persName></item>
-        <item>celles de <persName ref="../thesauri/persons.xml#pb">Braffort</persName></item>
+        <item>celles de <persName ref="#blgauthier">Bl. Gauthier</persName></item>
+        <item>celles de <persName ref="#pb">Braffort</persName></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : les photos de Bruxelles – sont chez <persName ref="../thesauri/persons.xml#pb">Braffort</persName></p>
-      <p><persName ref="../thesauri/persons.xml#jl">Lescure</persName> : film au montage.</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> : il a fait aussi des photos qu’il a remises à l’envoyé de <persName ref="../thesauri/persons.xml#bgautier">B. Gautier</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> s’engage à régler ces deux affaires</p>
+      <p><persName ref="#pb">Braffort</persName> : les photos de Bruxelles – sont chez <persName ref="#pb">Braffort</persName></p>
+      <p><persName ref="#jl">Lescure</persName> : film au montage.</p>
+      <p><persName ref="#pf">Fournel</persName> : il a fait aussi des photos qu’il a remises à l’envoyé de <persName ref="#bgautier">B. Gautier</persName>.</p>
+      <p><persName ref="#pb">Braffort</persName> s’engage à régler ces deux affaires</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010177c/f5.highres" n="5"/>
-      <p><title ref="../thesauri/titles.xml#tablesdequeneleieff">Tables de Queneleieff</title></p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : Préverbes généralisés</p>
-      <p>Système <persName ref="../thesauri/persons.xml#hm">Mathews</persName> a un handicap : la compatibilité grammaticale des 2 moitiés.</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> propose d’avoir un corpus beaucoup plus grand et d’étendre les possibilités grâce à l’ordinateur</p>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : Propose de faire des permutations sur les consonnes (<term ref="../thesauri/terms.xml#contrepeteries">contrepèteries</term>)</p>
-      <p><persName ref="../thesauri/persons.xml#jq">Queval</persName> : se méfierait et demande un exemple à <persName ref="../thesauri/persons.xml#jr">Roubaud</persName> qui propose : A verre à digue phase propice.</p>
-      <p>Coup de téléphone de <persName ref="../thesauri/persons.xml#blaisegauthier">Blaise Gauthier</persName>.</p>
+      <p><title ref="#tablesdequeneleieff">Tables de Queneleieff</title></p>
+      <p><persName ref="#pb">Braffort</persName> : Préverbes généralisés</p>
+      <p>Système <persName ref="#hm">Mathews</persName> a un handicap : la compatibilité grammaticale des 2 moitiés.</p>
+      <p><persName ref="#pb">Braffort</persName> propose d’avoir un corpus beaucoup plus grand et d’étendre les possibilités grâce à l’ordinateur</p>
+      <p><persName ref="#jr">Roubaud</persName> : Propose de faire des permutations sur les consonnes (<term ref="#contrepeteries">contrepèteries</term>)</p>
+      <p><persName ref="#jq">Queval</persName> : se méfierait et demande un exemple à <persName ref="#jr">Roubaud</persName> qui propose : A verre à digue phase propice.</p>
+      <p>Coup de téléphone de <persName ref="#blaisegauthier">Blaise Gauthier</persName>.</p>
       <p>exposition du 13 au 29/1 avec 2 séances (soir et après-midi)</p>
       <p>ou 3 au 15/2</p>
       <p>+ discussion sur les dates.</p>
-      <p>Vendredi 21 Novembre : prochaine réunion</p>
+      <p>Vendredi 21 Novembre : <name ref="#prochainereunion" type="manif">prochaine réunion</name> </p>
       <p>préparation de Franc-Bourgeois-Beaubourg.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></p>
       <list type="unordered">
         <item>prépare un projet de troisième manifeste.</item>
       </list>
       <p>les préverbes et le 10<hi rend="sup">14</hi> de poèmes sont une application du (<unclear>illisible</unclear>)</p>
       <p>qui pourrait se figurer a<hi rend="sup">b</hi></p>
       <list type="unordered">
-        <item>autre élément de ce <title ref="../thesauri/titles.xml#troisiememanifeste">troisième manifeste</title> :</item>
+        <item>autre élément de ce <title ref="#troisiememanifeste">troisième manifeste</title> :</item>
       </list>
-      <p>Élection de <persName ref="../thesauri/persons.xml#mm">Michèle Métail</persName></p>
-      <p>Braffort présente la critique, puis la défense de <persName ref="../thesauri/persons.xml#michele"><abbr>Michèle</abbr></persName>.</p>
-      <p>discussion juridique soulevée par <persName ref="../thesauri/persons.xml#na">Arnaud</persName>.</p>
+      <p>Élection de <persName ref="#mm">Michèle Métail</persName></p>
+      <p>Braffort présente la critique, puis la défense de <persName ref="#ma"><choice><abbr>Michèle</abbr><expan>Michèle Audin</expan></choice></persName>.</p>
+      <p>discussion juridique soulevée par <persName ref="#na">Arnaud</persName>.</p>
       <p>Vote unanime des présents.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010177c/f6.highres" n="6"/>
-      <p><persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> : à propos de <persName ref="../thesauri/persons.xml#feydeau">Feydeau</persName>, <title ref="../thesauri/titles.xml#chatenpoche">Chat en poche</title>. la pièce a dû être faite avec un <term ref="../thesauri/terms.xml#graphe">graphe</term> : festival du quiproquo. Ne peut-on pas trouver les papiers de <persName ref="../thesauri/persons.xml#feydeau">Feydeau</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> s’engage à les trouver.</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> :</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>R.Q.</abbr></persName> : <gap/></p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>J.Q.</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#cb">Berge</persName></p>
+      <p><persName ref="#le">Luc Etienne</persName> : à propos de <persName ref="#feydeau">Feydeau</persName>, <title ref="#chatenpoche">Chat en poche</title>. la pièce a dû être faite avec un <term ref="#graphe">graphe</term> : festival du quiproquo. Ne peut-on pas trouver les papiers de <persName ref="#feydeau">Feydeau</persName>.</p>
+      <p><persName ref="#rq">Queneau</persName> s’engage à les trouver.</p>
+      <p><persName ref="#pb">Braffort</persName> :</p>
+      <p><persName ref="#rq"><choice><abbr>R.Q.</abbr><expan>Raymond Queneau</expan></choice></persName> : <gap/> </p>
+      <p><persName ref="#jq"><choice><abbr>J.Q.</abbr><expan>Jean Queval</expan></choice></persName></p>
+      <p><persName ref="#cb">Berge</persName></p>
       <p>Interventions diverses sur ce problème.</p>
-      <p><persName ref="../thesauri/persons.xml#feydeau">Feydeau</persName> a fait ça empiriquement.</p>
+      <p><persName ref="#feydeau">Feydeau</persName> a fait ça empiriquement.</p>
       <p>Travail à faire : examiner les combinaisons qui manquent et refaire la pièce.</p>
-      <p><persName ref="../thesauri/persons.xml#ic">Calvino</persName> : article de <persName ref="../thesauri/persons.xml#gianpaolodossena">Gianpaolo Dossena</persName> dans <title ref="../thesauri/titles.xml#ilcaffe">Il Caffè</title> sur une langue ludique secrète.</p>
+      <p><persName ref="#ic">Calvino</persName> : article de <persName ref="#gianpaolodossena">Gianpaolo Dossena</persName> dans <title ref="#ilcaffe">Il Caffè</title> sur une langue ludique secrète.</p>
       <p>décrit une série de manipulations consonantiques et vocaliques puis sémantiques.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> rappelle qu’il a fait un travail sur le <title ref="../thesauri/titles.xml#lac">Lac</title>.</p>
+      <p><persName ref="#rq">Queneau</persName> rappelle qu’il a fait un travail sur le <title ref="#lac">Lac</title>.</p>
     </body>
   </text>
 </TEI>

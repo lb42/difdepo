@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010022-1962-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010022-1962-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +17,15 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010022-1962-08-cr</idno> <meeting xml:id="t10010022-1962-08">
-          <date when="1962-08-24">24 août 1962</date>
+          <date when="1962-08-24">24/08/1962</date>
           <placeName>Salle à manger de la Régence</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jd" role="secrétaire"><abbr>JD</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll" role="président"><abbr>FLL</abbr></persName></item>
+            <item><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></item>
+            <item><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
+            <item><persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></item>
+            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
+            <item><persName ref="#jd" role="secrétaire"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName></item>
+            <item><persName ref="#fll" role="président"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,50 +44,50 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010022p/f1.highres" n="1"/>
-      <p rend="incipit"><orgName ref="../thesauri/organizations.xml#ouvroirdelitteraturepotentielle">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</orgName></p>
+      <p rend="incipit"><orgName ref="#ouvroirdelitteraturepotentielle">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</orgName></p>
       <p rend="incipit">Circulaire n°24</p>
       <p rend="incipit">Réunion du 24 août 1962</p>
       <p rend="incipit">(dans la salle à manger de la Régence)</p>
-      <p rend="incipit">PRESENTS : <persName ref="../thesauri/persons.xml#jb">BENS</persName>, <persName ref="../thesauri/persons.xml#jd">DUCHATEAU</persName>, <persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName>, <persName ref="../thesauri/persons.xml#jl">LESCURE</persName>, <persName ref="../thesauri/persons.xml#rq">QUENEAU</persName>.</p>
+      <p rend="incipit">PRESENTS : <persName ref="#jb">BENS</persName>, <persName ref="#jd">DUCHATEAU</persName>, <persName ref="#fll">LE LIONNAIS</persName>, <persName ref="#jl">LESCURE</persName>, <persName ref="#rq">QUENEAU</persName>.</p>
       <p rend="incipit">Excusés : Les autres.</p>
-      <p rend="incipit">PRESIDENT : <persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName>.</p>
+      <p rend="incipit">PRESIDENT : <persName ref="#fll">LE LIONNAIS</persName>.</p>
       <p>La pluie nous ayant chassé des jardins, nous nous retirons à l’abri.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> présente des documents sur les écrits <term ref="../thesauri/terms.xml#lipogrammatiques">lipogrammatiques</term>, des remarques de <persName ref="../thesauri/persons.xml#mbalestra">M. Balestra</persName> sur les <title ref="../thesauri/titles.xml#centmillemilliardsdepoemes">cent mille milliards de poèmes</title>, ainsi qu’un <term ref="../thesauri/terms.xml#poemeisovocalique">poème isovocalique</term> sur « <title ref="../thesauri/titles.xml#leviergelevivace">le vierge, le vivace</title>, etc… »</p>
+      <p><persName ref="#rq">Queneau</persName> présente des documents sur les écrits <term ref="#lipogrammatiques">lipogrammatiques</term>, des remarques de <persName ref="#mbalestra">M. Balestra</persName> sur les <title ref="#centmillemilliardsdepoemes">cent mille milliards de poèmes</title>, ainsi qu’un <term ref="#poemeisovocalique">poème isovocalique</term> sur « <title ref="#leviergelevivace">le vierge, le vivace</title>, etc… »</p>
       <p>(<ref>Voir annexes</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : On peut faire des <term ref="../thesauri/terms.xml#isomorphismes">isomorphismes</term> et transformer des poèmes préexistants d’un bout à l’autre.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : J’admire, parce que j’ai essayé les <term ref="../thesauri/terms.xml#isovocalismes">isovocalismes</term> et j’ai pu constater que c’est très difficile. Il y a des verbes insolubles.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Mais je crois que notre bon <persName ref="../thesauri/persons.xml#mallarme">Mallarmé</persName> est parfaitement <term ref="../thesauri/terms.xml#potentiel">potentiel</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName> présente alors un poème <term ref="../thesauri/terms.xml#holorime">holorime</term> « à répétition ».</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : On peut faire des <term ref="#isomorphismes">isomorphismes</term> et transformer des poèmes préexistants d’un bout à l’autre.</p>
+      <p><persName ref="#jb">BENS</persName> : J’admire, parce que j’ai essayé les <term ref="#isovocalismes">isovocalismes</term> et j’ai pu constater que c’est très difficile. Il y a des verbes insolubles.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Mais je crois que notre bon <persName ref="#mallarme">Mallarmé</persName> est parfaitement <term ref="#potentiel">potentiel</term>.</p>
+      <p><persName ref="#fll">Le Lionnais</persName> présente alors un poème <term ref="#holorime">holorime</term> « à répétition ».</p>
       <p>(<ref>Voir annexes</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName> propose alors de composer un poème <term ref="../thesauri/terms.xml#tangent">tangent</term> à trois poèmes <term ref="../thesauri/terms.xml#tangents">tangents</term> deux à deux. Cela se rapproche du problème d’<persName ref="../thesauri/persons.xml#apollonius">Apollonius</persName> (trois sphères plus une). Les conventions à utiliser sont les suivantes :</p>
+      <p><persName ref="#fll">Le Lionnais</persName> propose alors de composer un poème <term ref="#tangent">tangent</term> à trois poèmes <term ref="#tangents">tangents</term> deux à deux. Cela se rapproche du problème d’<persName ref="#apollonius">Apollonius</persName> (trois sphères plus une). Les conventions à utiliser sont les suivantes :</p>
       <list type="unordered">
         <item>Inscrire un poème non dans un rectangle mais dans un cercle</item>
-        <item>On appellera « <term ref="../thesauri/terms.xml#bords">bords</term> » du poème : le premier et le dernier mot de chaque <term ref="../thesauri/terms.xml#vers">vers</term>, ainsi que le premier et le dernier <term ref="../thesauri/terms.xml#vers">vers</term></item>
-        <item>Il y a <term ref="../thesauri/terms.xml#tangence">tangence</term> quand les bords des deux poèmes ont un mot commun</item>
+        <item>On appellera « <term ref="#bords">bords</term> » du poème : le premier et le dernier mot de chaque <term ref="#vers">vers</term>, ainsi que le premier et le dernier <term ref="#vers">vers</term></item>
+        <item>Il y a <term ref="#tangence">tangence</term> quand les bords des deux poèmes ont un mot commun</item>
       </list>
-      <p>On discute pour arriver à comprendre. On y parvient. On souhaite de nouveaux contacts avec <persName ref="../thesauri/persons.xml#mquemada">M. Quemada</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Il nous faudrait un <term ref="../thesauri/terms.xml#inventaire">inventaire</term> des « <term ref="../thesauri/terms.xml#bords">bords</term> » de la littérature française.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : Comment fera-t-on avec le théâtre en <term ref="../thesauri/terms.xml#vers">vers</term> ? La <term ref="../thesauri/terms.xml#tirade">tirade</term> est-elle un poème ?</p>
+      <p>On discute pour arriver à comprendre. On y parvient. On souhaite de nouveaux contacts avec <persName ref="#mquemada">M. Quemada</persName>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Il nous faudrait un <term ref="#inventaire">inventaire</term> des « <term ref="#bords">bords</term> » de la littérature française.</p>
+      <p><persName ref="#jb">BENS</persName> : Comment fera-t-on avec le théâtre en <term ref="#vers">vers</term> ? La <term ref="#tirade">tirade</term> est-elle un poème ?</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010022p/f2.highres" n="2"/>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Cela dépend : oui si elle fait un tout. Exemples : <title ref="../thesauri/titles.xml#lesongedathalie">le songe d’Athalie</title>, <title ref="../thesauri/titles.xml#lesstancesderodrigue">les Stances de Rodrigue</title>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Pour que le problème soit intéressant, il faudrait faire en sorte que le 4ème poème (celui qui est à composer) soit <title ref="../thesauri/titles.xml#lajeuneparque">La Jeune Parque</title>.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : On pourrait essayer avec trois <term ref="../thesauri/terms.xml#vers">vers</term>, plus un.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Ce n’est pas sérieux.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : C’est un exercice.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Un exercice à dissimuler !</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : J’envisage des poèmes <term ref="../thesauri/terms.xml#anaglyphiques">anaglyphiques</term>, à lire avec des lunettes rouges et vertes. Et même des poèmes à quatre dimensions.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> (la bouche pleine) : Ch’est quand même <term ref="../thesauri/terms.xml#metrique">métrique</term>, et non <term ref="../thesauri/terms.xml#topologique">topologique</term>. Il faut écrire des <term ref="../thesauri/terms.xml#vers">vers</term> de la même dimension, sinon ils ne seront pas <term ref="../thesauri/terms.xml#tangents">tangents</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Il y a une <term ref="../thesauri/terms.xml#metrique">métrique</term> des <term ref="../thesauri/terms.xml#bords">bords</term>. L’intérieur est sans importance.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> (entre ses dents) : Hypocrite.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : J’ai l’intention, d’ailleurs, de proposer l’étude des <unclear>séquences/sécances</unclear>, et notamment des cordes dans les figures.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : Il nous épuisera.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> (pensif) : Il y a tout de même quelque chose à faire dans le poème évidé.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : C’est l’œuf de Colomb : on met sa mouillette, il ne reste que le bord.</p>
-      <p>(Intermède : deux répliques de « <persName ref="../thesauri/persons.xml#landru">Landru</persName> »)</p>
-      <p>On reparle de <persName ref="../thesauri/persons.xml#mflorkin">M. Florkin</persName> et de Liège. Il y eut des échanges de correspondance. On attend.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Cela dépend : oui si elle fait un tout. Exemples : <title ref="#lesongedathalie">le songe d’Athalie</title>, <title ref="#lesstancesderodrigue">les Stances de Rodrigue</title>.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Pour que le problème soit intéressant, il faudrait faire en sorte que le 4ème poème (celui qui est à composer) soit <title ref="#lajeuneparque">La Jeune Parque</title>.</p>
+      <p><persName ref="#jb">BENS</persName> : On pourrait essayer avec trois <term ref="#vers">vers</term>, plus un.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Ce n’est pas sérieux.</p>
+      <p><persName ref="#jb">BENS</persName> : C’est un exercice.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Un exercice à dissimuler !</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : J’envisage des poèmes <term ref="#anaglyphiques">anaglyphiques</term>, à lire avec des lunettes rouges et vertes. Et même des poèmes à quatre dimensions.</p>
+      <p><persName ref="#rq">QUENEAU</persName> (la bouche pleine) : Ch’est quand même <term ref="#metrique">métrique</term>, et non <term ref="#topologique">topologique</term>. Il faut écrire des <term ref="#vers">vers</term> de la même dimension, sinon ils ne seront pas <term ref="#tangents">tangents</term>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Il y a une <term ref="#metrique">métrique</term> des <term ref="#bords">bords</term>. L’intérieur est sans importance.</p>
+      <p><persName ref="#jb">BENS</persName> (entre ses dents) : Hypocrite.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : J’ai l’intention, d’ailleurs, de proposer l’étude des <unclear>séquences/sécances</unclear>, et notamment des cordes dans les figures.</p>
+      <p><persName ref="#jb">BENS</persName> : Il nous épuisera.</p>
+      <p><persName ref="#jl">LESCURE</persName> (pensif) : Il y a tout de même quelque chose à faire dans le poème évidé.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : C’est l’œuf de Colomb : on met sa mouillette, il ne reste que le bord.</p>
+      <p>(Intermède : deux répliques de « <persName ref="#landru">Landru</persName> »)</p>
+      <p>On reparle de <persName ref="#mflorkin">M. Florkin</persName> et de <name ref="#liege" type="manif">Liège</name>. Il y eut des échanges de correspondance. On attend.</p>
       <p>Considérations nombreuses sur le jeu d’échecs.</p>
-      <p>Prochaine réunion le 14 septembre 1962.</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>J.B.</abbr></persName></p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  le 14 septembre 1962.</p>
+      <p><persName ref="#jb"><choice><abbr>J.B.</abbr><expan>Jacques Bens</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

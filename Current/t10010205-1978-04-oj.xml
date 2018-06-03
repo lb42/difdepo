@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010205-1978-04-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010205-1978-04-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010205-1978-04-oj</idno> <title>Ordre de jour de <ref target="#t10010205-1978-04">la réunion Oulipo</ref> du <date when="1978-04-27">27 avril 1978</date></title></bibl>
+        <bibl><idno>t10010205-1978-04-oj</idno> <title>Ordre de jour de <ref target="#t10010205-1978-04">la réunion Oulipo</ref> du <date when="1978-04-27">27/04/1978</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -30,57 +29,57 @@
   <text type="oj">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010205z/f2.highres" n="2"/>
-      <p rend="incipit"><date>Jeudi 27 avril 78</date> chez <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></p>
+      <p rend="incipit"><date>Jeudi 27 avril 78</date> chez <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></p>
       <p rend="incipit">Ordre du jour</p>
-      <p rend="incipit">Président <persName ref="../thesauri/persons.xml#fll"><abbr>F.L.L.</abbr></persName></p>
-      <p rend="incipit">Excusés: <persName ref="../thesauri/persons.xml#jb">Bens</persName>, <persName ref="../thesauri/persons.xml#ab">Blavier</persName>, <persName ref="../thesauri/persons.xml#jq">Queval</persName> et peut-être <persName ref="../thesauri/persons.xml#hm">Mathews</persName> <lb/>Espéré: <persName ref="../thesauri/persons.xml#jr">Roubaud</persName>, <persName ref="../thesauri/persons.xml#pb">Braffort</persName> <lb/>Retard: <persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName></p>
+      <p rend="incipit">Président <persName ref="#fll"><choice><abbr>F.L.L.</abbr><expan>François Le Lionnais</expan></choice></persName></p>
+      <p rend="incipit">Excusés: <persName ref="#jb">Bens</persName>, <persName ref="#ab">Blavier</persName>, <persName ref="#jq">Queval</persName> et peut-être <persName ref="#hm">Mathews</persName> <lb/>Espéré: <persName ref="#jr">Roubaud</persName>, <persName ref="#pb">Braffort</persName> <lb/>Retard: <persName ref="#jr">Jacques Roubaud</persName></p>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item>1) Action périoulipienne <persName ref="../thesauri/persons.xml#hm">Mathews</persName> / <persName ref="../thesauri/persons.xml#marcel"><abbr>Marcel</abbr></persName></item>
-        <item>Royaumont plus A<unclear>rquar</unclear>. <persName ref="../thesauri/persons.xml#pf">Fournel</persName>. ordinateur: <persName ref="../thesauri/persons.xml#pb">Braffort</persName> :</item>
-        <item>Article du <title ref="../thesauri/titles.xml#pointdujour">Point du Jour</title>. <persName ref="../thesauri/persons.xml#pf">Fournel</persName></item>
-        <item><persName ref="../thesauri/persons.xml#jb">Jacques BENS</persName> : sur les <term ref="../thesauri/terms.xml#inventaires">inventaires</term>.</item>
-        <item><persName ref="../thesauri/persons.xml#jd">Jacques DUCHATEAU</persName> et <persName ref="../thesauri/persons.xml#cb">Claude BERGE</persName> : sur la « <term ref="../thesauri/terms.xml#methodebergeduchateau">méthode Berge-Duchâteau</term> ».</item>
-        <item><persName ref="../thesauri/persons.xml#rq">Raymond QUENEAU</persName> : sur « <term ref="../thesauri/terms.xml#s7">S + 7</term> ».</item>
-        <item><orgName ref="../thesauri/organizations.xml#librairieroutedelareine">Librairie Route de la Reine</orgName> <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> La voix de l'Oulipo</item>
+        <item>1) Action périoulipienne <persName ref="#hm">Mathews</persName> / <persName ref="#mb"><choice><abbr>Marcel</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+        <item><name ref="#royaumont" type="manif">Royaumont</name> plus A<unclear>rquar</unclear>. <persName ref="#pf">Fournel</persName>. ordinateur: <persName ref="#pb">Braffort</persName> :</item>
+        <item>Article du <title ref="#pointdujour">Point du Jour</title>. <persName ref="#pf">Fournel</persName></item>
+        <item><persName ref="#jb">Jacques BENS</persName> : sur les <term ref="#inventaires">inventaires</term>.</item>
+        <item><persName ref="#jd">Jacques DUCHATEAU</persName> et <persName ref="#cb">Claude BERGE</persName> : sur la « <term ref="#methodebergeduchateau">méthode Berge-Duchâteau</term> ».</item>
+        <item><persName ref="#rq">Raymond QUENEAU</persName> : sur « <term ref="#s7">S + 7</term> ».</item>
+        <item><orgName ref="#librairieroutedelareine">Librairie Route de la Reine</orgName> <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> La voix de l'Oulipo</item>
       </list>
       <p><label type="rubrique">1 bis) Administration</label></p>
       <list type="unordered">
-        <item><unclear>Coe</unclear> <persName ref="../thesauri/persons.xml#mm">Métail</persName></item>
+        <item><unclear>Coe</unclear> <persName ref="#mm">Métail</persName></item>
       </list>
       <p><label type="rubrique">2) Création</label></p>
       <list type="unordered">
-        <item><placeName>Cerisy</placeName> <persName ref="../thesauri/persons.xml#gp">Perec</persName></item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Table de <persName ref="../thesauri/persons.xml#rq">Queneau</persName>: Rajouter <lb/>Catégorie grammaticale <lb/>le genre littéraire</item>
-        <item><persName ref="../thesauri/persons.xml#moebius">Moëbius</persName> retro <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName>.</item>
+        <item><placeName>Cerisy</placeName> <persName ref="#gp">Perec</persName></item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Table de <persName ref="#rq">Queneau</persName>: Rajouter <lb/>Catégorie grammaticale <lb/>le genre littéraire</item>
+        <item><persName ref="#moebius">Moëbius</persName> retro <persName ref="#le">Luc Etienne</persName>.</item>
       </list>
-      <p><label type="rubrique">2 bis) <unclear>Ermanion</unclear></label></p>
+      <p><label type="rubrique">2 bis) <unclear>Ermanion</unclear></label> </p>
       <list type="unordered">
-        <item>10/18 <persName ref="../thesauri/persons.xml#zumthor">Zumthor</persName> <title ref="../thesauri/titles.xml#anthologiedesrhetoriqueurs">anthologie des rhétoriqueurs</title> plus livre du Seuil les baroques. Action poétique.</item>
+        <item>10/18 <persName ref="#zumthor">Zumthor</persName> <title ref="#anthologiedesrhetoriqueurs">anthologie des rhétoriqueurs</title> plus livre du Seuil les baroques. Action poétique.</item>
       </list>
       <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
       <list type="unordered">
-        <item>Bilan <persName ref="../thesauri/persons.xml#marcel"><abbr>Marcel</abbr></persName> <lb/>Diffusion, distribution et dépôt.</item>
-        <item>Calcul du prix <persName ref="../thesauri/persons.xml#marcel"><abbr>Marcel</abbr></persName> et <persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName></item>
-        <item>Phynance <persName ref="../thesauri/persons.xml#mb"><abbr>Marcel B</abbr></persName></item>
+        <item>Bilan <persName ref="#mb"><choice><abbr>Marcel</abbr><expan>Marcel Bénabou</expan></choice></persName> <lb/>Diffusion, distribution et dépôt.</item>
+        <item>Calcul du prix <persName ref="#mb"><choice><abbr>Marcel</abbr><expan>Marcel Bénabou</expan></choice></persName> et <persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName></item>
+        <item>Phynance <persName ref="#mb"><choice><abbr>Marcel B</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
       </list>
       <p><label type="rubrique">4) Phynances</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#mmebrun">Mme Brun</persName> - <persName ref="../thesauri/persons.xml#dominique">Dominique</persName></item>
-        <item>Appel secrétariat. <persName ref="../thesauri/persons.xml#pf">Fournel</persName></item>
-        <item>Caisse des lettres - <persName ref="../thesauri/persons.xml#pf">Fournel</persName></item>
+        <item><persName ref="#mmebrun">Mme Brun</persName> - <persName ref="#dominique">Dominique</persName></item>
+        <item>Appel secrétariat. <persName ref="#pf">Fournel</persName></item>
+        <item>Caisse des lettres - <persName ref="#pf">Fournel</persName></item>
       </list>
       <p><label type="rubrique">5) Menus propos</label></p>
       <list type="unordered">
-        <item>Activités de <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> = <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>Culte de la personnalité de <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="../thesauri/persons.xml#pb">Braffort</persName></item>
-        <item>Exposition <persName ref="../thesauri/persons.xml#rq">Queneau</persName> à la <orgName ref="../thesauri/organizations.xml#bn">B.N.</orgName> = <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>Papier à lettre Oulipo = <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>La <unclear>porte</unclear> fau<unclear>sse</unclear> <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>.</item>
+        <item>Activités de <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> = <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+        <item>Culte de la personnalité de <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> <persName ref="#pb">Braffort</persName></item>
+        <item>Exposition <persName ref="#rq">Queneau</persName> à la <orgName ref="#bn">B.N.</orgName> = <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+        <item>Papier à lettre Oulipo = <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+        <item>La <unclear>porte</unclear> fau<unclear>sse</unclear> <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>.</item>
       </list>
-      <p><label type="rubrique">6) Prochaine réunion</label></p>
+      <p><label type="rubrique">6) <name ref="#prochainereunion" type="manif">Prochaine réunion</name> </label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#gp">Georges Perec</persName> = <date>Jeudi 11 Mai</date></item>
+        <item><persName ref="#gp">Georges Perec</persName> = <date>Jeudi 11 Mai</date></item>
         <item>Suivante = <date>Jeudi 29 Juin</date> à 18 h.</item>
       </list>
     </body>

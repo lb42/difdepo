@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010342-1990-09-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010342-1990-09-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010342-1990-09-oj</idno> <title>Ordre de jour de <ref target="#t10010342-1990-09">la réunion Oulipo</ref> du <date when="1990-09-12">12 septembre 1990</date></title></bibl>
+        <bibl><idno>t10010342-1990-09-oj</idno> <title>Ordre de jour de <ref target="#t10010342-1990-09">la réunion Oulipo</ref> du <date when="1990-09-12">12/09/1990</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -36,30 +35,30 @@
       <p rend="incipit">Petit salé Lentilles</p>
       <p rend="incipit">Fromage</p>
       <p rend="incipit">Glace</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>, <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></p>
+      <p rend="incipit">Excusés : <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <term ref="../thesauri/terms.xml#s7777777">S+7+7+7+7+7+7+7</term>… Etc</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> Connais-toi toi-même</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> Le curé de Houilles</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <term ref="#s7777777">S+7+7+7+7+7+7+7</term>… Etc</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> Connais-toi toi-même</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> Le curé de Houilles</p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Sur deux « <title ref="../thesauri/titles.xml#souvenirsdenfance">souvenirs d’enfance</title> » de <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : 1 hypothèse oulipienne</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <term ref="../thesauri/terms.xml#holorime">Holorime</term> d’<persName ref="../thesauri/persons.xml#op">Oskar Pastior</persName></p>
-      <p><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <term ref="../thesauri/terms.xml#moraleelementaire"><title ref="../thesauri/titles.xml#moraleelementaire">Morale élémentaire</title></term></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Sur deux « <title ref="#souvenirsdenfance">souvenirs d’enfance</title> » de <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> : 1 hypothèse oulipienne</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> <term ref="#holorime">Holorime</term> d’<persName ref="#op">Oskar Pastior</persName></p>
+      <p><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> <term ref="#moraleelementaire"><title ref="#moraleelementaire">Morale élémentaire</title></term> </p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <name ref="../thesauri/events.xml#limoges" type="manif">Limoges</name></p>
-      <p><name ref="../thesauri/events.xml#ivry" type="manif">Ivry</name></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <name ref="../thesauri/events.xml#strasbourg" type="manif">Strasbourg</name></p>
-      <p><name ref="../thesauri/events.xml#marseille" type="manif">Marseille</name></p>
-      <p><name ref="../thesauri/events.xml#mexico" type="manif">Mexico</name></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <name ref="../thesauri/events.xml#thionville" type="manif">Thionville</name></p>
-      <p><name ref="../thesauri/events.xml#arsenal" type="manif">Arsenal</name> 12 oct</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <name ref="#limoges" type="manif">Limoges</name></p>
+      <p><name ref="#ivry" type="manif">Ivry</name></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> <name ref="#strasbourg" type="manif">Strasbourg</name></p>
+      <p><name ref="#marseille" type="manif">Marseille</name></p>
+      <p><name ref="#meico" type="manif">Mexico</name></p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <name ref="#thionville" type="manif">Thionville</name></p>
+      <p><name ref="#arsenal" type="manif">Arsenal</name> 12 oct</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#galilee">Galilée</persName></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="../thesauri/persons.xml#roussel">Roussel</persName></p>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> <orgName ref="../thesauri/organizations.xml#fondationheinz">Fondation Heinz</orgName></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#dbellos">D. Bellos</persName></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="../thesauri/persons.xml#pius">Pius</persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName ref="#galilee">Galilée</persName></p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <persName ref="#roussel">Roussel</persName></p>
+      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> <orgName ref="#fondationheinz">Fondation Heinz</orgName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName ref="#dbellos">D. Bellos</persName></p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> <persName ref="#pius">Pius</persName></p>
     </body>
   </text>
 </TEI>

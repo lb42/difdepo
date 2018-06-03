@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010217-1979-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010217-1979-06-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,14 +17,14 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010217-1979-06-cr</idno> <meeting xml:id="t10010217-1979-06">
-          <date when="1979-06-14">14 juin 1979</date>
+          <date when="1979-06-14">14/06/1979</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
+            <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
+            <item><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,31 +44,31 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102178/f2.highres" n="2"/>
       <p rend="incipit">14-06-1979 OULIPO</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#gp">Perec</persName>, <persName ref="../thesauri/persons.xml#ic">Calvino</persName>, <persName ref="../thesauri/persons.xml#pb">Braffort</persName>, <persName ref="../thesauri/persons.xml#mb">Bénabou</persName>, <persName ref="../thesauri/persons.xml#pf">Fournel</persName>, <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName></p>
-      <p><persName ref="../thesauri/persons.xml#gpbretecher">G.P. Brétecher</persName> : une <term ref="../thesauri/terms.xml#bandedessinee">bande dessinée</term> sans légende confiée à 4 auteurs différents pour remplir les bulles : tentative amusante</p>
+      <p rend="incipit">Présents : <persName ref="#gp">Perec</persName>, <persName ref="#ic">Calvino</persName>, <persName ref="#pb">Braffort</persName>, <persName ref="#mb">Bénabou</persName>, <persName ref="#pf">Fournel</persName>, <persName ref="#le">Luc Etienne</persName></p>
+      <p><persName ref="#gpbretecher">G.P. Brétecher</persName> : une <term ref="#bandedessinee">bande dessinée</term> sans légende confiée à 4 auteurs différents pour remplir les bulles : tentative amusante</p>
       <p>réflexion sur des contraintes du genre = évocation de tentatives analogues</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>M.B.</abbr></persName> : <title ref="../thesauri/titles.xml#lescartes">les cartes</title> : prix de vente : 2,50</p>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>Luc Et.</abbr></persName> : fabrication automatique de poèmes de <persName ref="../thesauri/persons.xml#mallarme">Mallarmé</persName></p>
-      <p>Lecture d’un poème obtenu par la méthode <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> <unclear>Désci</unclear>.</p>
-      <p><persName ref="../thesauri/persons.xml#ic"><abbr>I.C.</abbr></persName> à propos du roman récemment publié : roman de la quête du roman (<title ref="../thesauri/titles.xml#siunenuitdhiverunvoyageur">Si une nuit d’hiver un voyageur</title>)</p>
+      <p><persName ref="#mb"><choice><abbr>M.B.</abbr><expan>Marcel Bénabou</expan></choice></persName> : <title ref="#lescartes">les cartes</title> : prix de vente : 2,50</p>
+      <p><persName ref="#le"><choice><abbr>Luc Et.</abbr><expan>Luc Etienne</expan></choice></persName> : fabrication automatique de poèmes de <persName ref="#mallarme">Mallarmé</persName></p>
+      <p>Lecture d’un poème obtenu par la méthode <persName ref="#le">Luc Etienne</persName> <unclear>Désci</unclear>.</p>
+      <p><persName ref="#ic"><choice><abbr>I.C.</abbr><expan>Italo Calvino</expan></choice></persName> à propos du roman récemment publié : roman de la quête du roman (<title ref="#siunenuitdhiverunvoyageur">Si une nuit d’hiver un voyageur</title>)</p>
       <p>12 chapitres du cadre ; 10 chapitres du roman proprement dit</p>
-      <p>Schéma de <persName ref="../thesauri/persons.xml#platon">Platon</persName> au débat du <title ref="../thesauri/titles.xml#sophiste">Sophiste</title></p>
+      <p>Schéma de <persName ref="#platon">Platon</persName> au débat du <title ref="#sophiste">Sophiste</title></p>
       <p>longue analyse du roman, qui plonge les auditeurs dans l’admiration.</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>G.P.</abbr></persName> présente 3 travaux</p>
+      <p><persName ref="#gp"><choice><abbr>G.P.</abbr><expan>Georges Perec</expan></choice></persName> présente 3 travaux</p>
       <list type="unordered">
-        <item>Le livre de 2000 phrases de <persName ref="../thesauri/persons.xml#jpparmelli">J.P. Parmelli</persName></item>
+        <item>Le livre de 2000 phrases de <persName ref="#jpparmelli">J.P. Parmelli</persName></item>
       </list>
       <p>2 parties : mille premières phrases de 1000 livres</p>
       <p>mille premières phrases 1000 livres</p>
       <list type="unordered">
         <item>Petite fabrique de littérature, le club des amis du texte</item>
       </list>
-      <p><term ref="../thesauri/terms.xml#inventaire">inventaire</term> des méthodes de création, 45 influencées par l’OULIPO.</p>
+      <p><term ref="#inventaire">inventaire</term> des méthodes de création, 45 influencées par l’OULIPO.</p>
       <list type="unordered">
-        <item><unclear>*</unclear> du monde du <term ref="../thesauri/terms.xml#palindrome">palindrome</term> en espagnol publié à Caracas <unclear>oiradario</unclear></item>
+        <item><unclear>*</unclear> du monde du <term ref="#palindrome">palindrome</term> en espagnol publié à Caracas <unclear>oiradario</unclear></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#ic"><abbr>I.C.</abbr></persName> et <persName ref="../thesauri/persons.xml#gp"><abbr>G.P.</abbr></persName> : jeu de <persName ref="../thesauri/persons.xml#flahaut">Flahaut</persName>, joué par <persName ref="../thesauri/persons.xml#gp">Perec</persName> et <persName ref="../thesauri/persons.xml#ic">Calvino</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>P.F.</abbr></persName> : <persName ref="../thesauri/persons.xml#flammarion"><unclear>Flammarion</unclear></persName> est prêt à prendre en dépôt 15 volumes de la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName ref="#ic"><choice><abbr>I.C.</abbr><expan>Italo Calvino</expan></choice></persName> et <persName ref="#gp"><choice><abbr>G.P.</abbr><expan>Georges Perec</expan></choice></persName> : jeu de <persName ref="#flahaut">Flahaut</persName>, joué par <persName ref="#gp">Perec</persName> et <persName ref="#ic">Calvino</persName></p>
+      <p><persName ref="#pf"><choice><abbr>P.F.</abbr><expan>Paul Fournel</expan></choice></persName> : <persName ref="#flammarion"><unclear>Flammarion</unclear></persName> est prêt à prendre en dépôt 15 volumes de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010212-1979-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010212-1979-01-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +17,16 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010212-1979-01-cr</idno> <meeting xml:id="t10010212-1979-01">
-          <date when="1979-01-11">11 janvier 1979</date>
+          <date when="1979-01-11">11/01/1979</date>
           <placeName>chez Dominique Roussillon</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb" role="président"><abbr>PB</abbr></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#pb" role="président"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -46,57 +45,57 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102121/f2.highres" n="2"/>
-      <p rend="incipit">Chez <persName ref="../thesauri/persons.xml#dominiqueroussillon">Dominique Roussillon</persName>. Réunion du 11.1.79</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></p>
-      <p rend="incipit">Absents : Excusés : <persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName> <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> <persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></p>
-      <p rend="incipit">N. Ex : <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>,</p>
-      <p rend="incipit">Président : <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Chez <persName ref="#dominiqueroussillon">Dominique Roussillon</persName>. Réunion du 11.1.79</p>
+      <p rend="incipit">Présents : <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> <persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></p>
+      <p rend="incipit">Absents : Excusés : <persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName> <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> <persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> <persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> <persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></p>
+      <p rend="incipit">N. Ex : <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName>,</p>
+      <p rend="incipit">Président : <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></p>
       <p><label type="rubrique">CREATION</label></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Projet de roman « <title ref="../thesauri/titles.xml#lesmatieresinfectes">Les matières infectes</title> » à partir du règlement du transport des matières infectes. Le personnage principal sera un fonctionnaire initial chargé du transport des matières infectes.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Projet de roman « <title ref="#lesmatieresinfectes">Les matières infectes</title> » à partir du règlement du transport des matières infectes. Le personnage principal sera un fonctionnaire initial chargé du transport des matières infectes.</p>
       <p>(À suivre)</p>
       <p><label type="rubrique">ACTION</label></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Le <title ref="../thesauri/titles.xml#volume2">volume 2</title> régresse. Il faut des textes.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Le <title ref="#volume">volume 2</title> régresse. Il faut des textes.</p>
       <p>Une réunion se tiendra mardi prochain.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Prenons l’engagement de fournir des textes pour Pâques.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Ils devaient être faits pour Noël.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : Je ne me souvenais pas de ce qu’on me demandait.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Faire un rappel dans la prochaine convocation.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Prenons l’engagement de fournir des textes pour Pâques.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Ils devaient être faits pour Noël.</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : Je ne me souvenais pas de ce qu’on me demandait.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Faire un rappel dans la prochaine convocation.</p>
       <p><label type="rubrique">ÉRUDITION</label></p>
-      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> : La <term ref="../thesauri/terms.xml#sextine">sextine</term> : <persName ref="../thesauri/persons.xml#alaincalame">Alain Calame</persName> a communiqué copie d’un livre du <persName ref="../thesauri/persons.xml#comtedegrammont">comte de Grammont</persName> sur l’histoire de la sextine avec des exemples. Le livre n’était pas connu de <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>.</p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> : La <term ref="#setine">sextine</term> : <persName ref="#alaincalame">Alain Calame</persName> a communiqué copie d’un livre du <persName ref="#comtedegrammont">comte de Grammont</persName> sur l’histoire de la sextine avec des exemples. Le livre n’était pas connu de <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102121/f3.highres" n="3"/>
-      <p><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> : À propos d’<term ref="../thesauri/terms.xml#acrostiche">acrostiche</term> : plus répandu qu'on le croit</p>
+      <p><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> : À propos d’<term ref="#acrostiche">acrostiche</term> : plus répandu qu'on le croit</p>
       <p><ref>« Copie sera donnée aux archives ».</ref></p>
       <p>À table</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : On devrait faire une petite réunion à Bruxelles.</p>
-      <p>Et <persName ref="../thesauri/persons.xml#mm">Métail</persName> ?</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : A-t-elle parlé de l’Oulipo à <orgName ref="../thesauri/organizations.xml#poesieininterrompue">Poésie ininterrompue</orgName> ?</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : On devrait faire une petite réunion à Bruxelles.</p>
+      <p>Et <persName ref="#mm">Métail</persName> ?</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : A-t-elle parlé de l’Oulipo à <orgName ref="#poesieininterrompue">Poésie ininterrompue</orgName> ?</p>
       <p>Silence.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Je demanderai.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Où allons-nous ouvrir le compte en banque Oulipo ?</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Près de chez moi.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Je dois 30 volumes des <title ref="../thesauri/titles.xml#hypertropes">Hypertropes</title>.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Il faut en fixer le prix.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : 2279,10 → 2300 francs</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Je demanderai.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Où allons-nous ouvrir le compte en banque Oulipo ?</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Près de chez moi.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Je dois 30 volumes des <title ref="#hypertropes">Hypertropes</title>.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Il faut en fixer le prix.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : 2279,10 🡪 2300 francs</p>
       <p>20 francs ?</p>
       <p>30 francs prix public.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : On fixera le prix mardi.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : On fixera le prix mardi.</p>
       <p>Le prochain ( numéro 10) coûtera + cher.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Et les ventes ?</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Rien mais il va y avoir une exposition à <orgName ref="../thesauri/organizations.xml#autrementdit">Autrement dit</orgName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Des textes !</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Les <term ref="../thesauri/terms.xml#aphorismes">aphorismes</term> sont presque prêts.</p>
-      <p>Pour <title ref="../thesauri/titles.xml#volume2">Volume 2</title> il faut le proposer à <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName> avant toute autre.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> avait demandé de faire faire des cartes postales.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="../thesauri/persons.xml#massin">Massin</persName> s’en occupe.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Et les ventes ?</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Rien mais il va y avoir une exposition à <orgName ref="#autrementdit">Autrement dit</orgName>.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Des textes !</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Les <term ref="#aphorismes">aphorismes</term> sont presque prêts.</p>
+      <p>Pour <title ref="#volume">Volume 2</title> il faut le proposer à <orgName ref="#gallimard">Gallimard</orgName> avant toute autre.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> avait demandé de faire faire des cartes postales.</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : <persName ref="#massin">Massin</persName> s’en occupe.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102121/f4.highres" n="4"/>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Gros succès de <title ref="../thesauri/titles.xml#graaltheatre">Graal Théâtre</title> à Marseille.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Le spectacle aura lieu à Paris au Printemps.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : Pour l’édition italienne il faut une suite à l’histoire de <persName ref="../thesauri/persons.xml#jl">Lescure</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : Il faut que ce soit <persName ref="../thesauri/persons.xml#francois">François</persName>.</p>
-      <p>Prochaine réunion : 15 février.</p>
-      <p>Arrivée de <persName ref="../thesauri/persons.xml#jb">J Bens</persName>.</p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Gros succès de <title ref="#graaltheatre">Graal Théâtre</title> à Marseille.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Le spectacle aura lieu à Paris au Printemps.</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : Pour l’édition italienne il faut une suite à l’histoire de <persName ref="#jl">Lescure</persName>.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : Il faut que ce soit <persName ref="#francois">François</persName>.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : 15 février.</p>
+      <p>Arrivée de <persName ref="#jb">J Bens</persName>.</p>
       <list type="unordered">
-        <item>15 février chez <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
+        <item>15 février chez <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
         <item>14 mars chez</item>
       </list>
     </body>

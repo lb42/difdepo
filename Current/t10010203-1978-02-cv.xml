@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010203-1978-02-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010203-1978-02-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010203-1978-02-cv</idno> <title>Convocation à <ref target="#t10010203-1978-02">une réunion Oulipo</ref>, envoyée le <date when="1978-02-04">4 février 1978</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010203-1978-02-cv</idno> <title>Convocation à <ref target="#t10010203-1978-02">une réunion Oulipo</ref>, envoyée le <date when="1978-02-04">04/02/1978</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,13 +32,13 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Paris, le 4 Février 1978</p>
       <p>Amitiés,</p>
-      <p><persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName></p>
+      <p><persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName></p>
       <p>Chers oulipotes,</p>
-      <p>La prochaine réunion de l’Ouvroir aura lieu le vendredi 17 février à onze heures chez <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> au 7, Villa Duthy dans le 14°.</p>
-      <p>Nous y parlerons du <orgName ref="../thesauri/organizations.xml#cnl">C.N.L.</orgName> et de la prochaine <name type="event">semaine Oulipo à la Chartreuse de Villeneuve-lès-Avignon</name>. Notre ordre du jour comportera nécessairement la rubrique création, pensez-y.</p>
-      <p>Pour faciliter la tâche d'<persName ref="../thesauri/persons.xml#isabelle">Isabelle</persName> et <persName ref="../thesauri/persons.xml#marcel"><abbr>Marcel</abbr></persName>, soyez gentils de retourner la découpe ci-dessous dès que possible.</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le vendredi 17 février à onze heures chez <persName ref="#mb">Marcel Bénabou</persName> au 7, Villa Duthy dans le 14°.</p>
+      <p>Nous y parlerons du <orgName ref="#cnl">C.N.L.</orgName> et de la prochaine <name type="manif">semaine Oulipo à la Chartreuse de Villeneuve-lès-Avignon</name>. Notre ordre du jour comportera nécessairement la rubrique création, pensez-y.</p>
+      <p>Pour faciliter la tâche d'<persName ref="#isabelle">Isabelle</persName> et <persName ref="#mb"><choice><abbr>Marcel</abbr><expan>Marcel Bénabou</expan></choice></persName>, soyez gentils de retourner la découpe ci-dessous dès que possible.</p>
       <p>Au 17, bien oulipiennement,</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName></p>
+      <p><persName ref="#pf">Paul Fournel</persName></p>
     </body>
   </text>
 </TEI>

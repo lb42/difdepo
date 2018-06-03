@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010225-1980-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010225-1980-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010225-1980-02-oj</idno> <title>Ordre de jour de <ref target="#t10010225-1980-02">la réunion Oulipo</ref> du <date when="1980-02-22">22 février 1980</date></title></bibl>
+        <bibl><idno>t10010225-1980-02-oj</idno> <title>Ordre de jour de <ref target="#t10010225-1980-02">la réunion Oulipo</ref> du <date when="1980-02-22">22/02/1980</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -35,13 +34,13 @@
       <p rend="incipit">OJ</p>
       <p><label type="rubrique">Création</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : <term ref="../thesauri/terms.xml#introductiondiasemique">Introduction diasémique</term></item>
+        <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <term ref="#introductiondiasemique">Introduction diasémique</term></item>
       </list>
       <p><label type="rubrique">Action</label></p>
       <list type="unordered">
-        <item><title ref="../thesauri/titles.xml#volume2">Volume 2</title></item>
-        <item><name ref="../thesauri/events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></item>
-        <item><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+        <item><title ref="#volume">Volume 2</title></item>
+        <item><name ref="#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></item>
+        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
       </list>
     </body>
   </text>

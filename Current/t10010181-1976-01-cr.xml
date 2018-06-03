@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010181-1976-01-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010181-1976-01-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,21 +17,53 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010181-1976-01-cr</idno> <meeting xml:id="t10010181-1976-01">
-          <date when="1976-01-12">12 janvier 1976</date>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ic" role="président"><abbr>IC</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010181-1976-01-cr</idno>
+          <meeting xml:id="t10010181-1976-01">
+            <date when="1976-01-12">12/01/1976</date>
+            <list type="present">
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pb"><choice>
+                    <abbr>PB</abbr>
+                    <expan>Paul Braffort</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mm"><choice>
+                    <abbr>MM</abbr>
+                    <expan>Michele Métail</expan>
+                  </choice></persName></item>
+              <item><persName ref="#le"><choice>
+                    <abbr>LE</abbr>
+                    <expan>Luc Etienne</expan>
+                  </choice></persName></item>
+              <item><persName ref="#gp"><choice>
+                    <abbr>GP</abbr>
+                    <expan>Georges Perec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#ic" role="président"><choice>
+                    <abbr>IC</abbr>
+                    <expan>Italo Calvino</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -48,56 +80,156 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101813/f1.highres" n="1"/>
       <p rend="incipit">12 Janvier 1976</p>
-      <p rend="incipit">Président : <persName ref="../thesauri/persons.xml#ic">Calvino</persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#jb">Bens</persName> – <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> – <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> – <persName ref="../thesauri/persons.xml#pb">P Braffort</persName> – <persName ref="../thesauri/persons.xml#mm">Métail</persName> – <persName ref="../thesauri/persons.xml#le">Etienne</persName> – <persName ref="../thesauri/persons.xml#gp">Perec</persName> – <persName ref="../thesauri/persons.xml#mb">Bénabou</persName> (en retard)</p>
-      <p rend="incipit"><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> Fait la genèse d’une nouvelle forme (celle du début de <title ref="../thesauri/titles.xml#moraleelementaire">Morale Elémentaire</title>)</p>
+      <p rend="incipit">Président : <persName ref="#ic">Calvino</persName></p>
+      <p rend="incipit">Présents : <persName ref="#jb">Bens</persName> – <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> – <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> – <persName ref="#pb">P Braffort</persName> – <persName ref="#mm"
+          >Métail</persName> – <persName ref="#le">Etienne</persName> – <persName ref="#gp"
+          >Perec</persName> – <persName ref="#mb">Bénabou</persName> (en retard)</p>
+      <p rend="incipit"><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName></p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> Fait la genèse d’une nouvelle forme (celle du début de <title
+          ref="#moraleelementaire">Morale Elémentaire</title>)</p>
       <p>Poème entendu comme une musique chinoise : les mots correspondent à des coups de gong</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> signale l’article de <persName ref="../thesauri/persons.xml#jb">Jacques Bens</persName> dans la 15e et le juge excellent.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : les poètes « suivront-ils » cette <term ref="../thesauri/terms.xml#formefixe">forme fixe</term> ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : rappelle que les troubadours devaient chacun créer 10 ou 15 formes fixes chacun. Avoue ne pas être musicien et ne jamais écouter de musique mais les sensations sont auditives pour cette forme. 2 montagnes séparées par un ruisseau avec des coups de gong et de lumière.</p>
-      <p><persName ref="../thesauri/persons.xml#pimpaneau">PIMPANEAU</persName> vient de publier un recueil de poèmes chinois du XIIe particulièrement goûté des hippies ( ??). Dans ce livre il y a le texte chinois, la traduction mot à mot et une traduction rédigée. En tête certains poèmes avec 6 ou 7 traductions différentes.</p>
-      <p>Titre du livre : le <title ref="../thesauri/titles.xml#clododudharmadeanshan">Clodo du DHARMA de An-Shan</title></p>
-      <p>Par <persName ref="../thesauri/persons.xml#pimpaneau">Pimpaneau</persName></p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> signale l’article de <persName ref="#jb">Jacques Bens</persName> dans
+        la 15e et le juge excellent.</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : les poètes « suivront-ils » cette <term ref="#formefie">forme
+          fixe</term> ?</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : rappelle que les troubadours devaient chacun créer 10 ou 15 formes
+        fixes chacun. Avoue ne pas être musicien et ne jamais écouter de musique mais les sensations
+        sont auditives pour cette forme. 2 montagnes séparées par un ruisseau avec des coups de gong
+        et de lumière.</p>
+      <p><persName ref="#pimpaneau">PIMPANEAU</persName> vient de publier un recueil de poèmes
+        chinois du XIIe particulièrement goûté des hippies ( ??). Dans ce livre il y a le texte
+        chinois, la traduction mot à mot et une traduction rédigée. En tête certains poèmes avec 6
+        ou 7 traductions différentes.</p>
+      <p>Titre du livre : le <title ref="#clododudharmadeanshan">Clodo du DHARMA de
+        An-Shan</title></p>
+      <p>Par <persName ref="#pimpaneau">Pimpaneau</persName></p>
       <p>(publication sur l’Asie du Sud Est)</p>
       <p>Condominas</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> Classer les archives</p>
-      <p>Rappel à l’ordre de <persName ref="../thesauri/persons.xml#pb">P Braffort</persName> : on attend toujours sa formalisation de l’activité littéraire</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : faire envoyer certains compte rendus de réunion pour tous (20 exemplaires) 50p environ</p>
-      <p>Nouvelle promesse de <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : Classer tous les travaux des autres (non-oulipiens) : stériles – répétitifs - féconds etc…</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : <persName ref="../thesauri/persons.xml#rexstout">Rex Stout</persName> est mort.</p>
-      <p>Signale la parution aux Idées une réédition du livre de <persName ref="../thesauri/persons.xml#fc">Caradec</persName> sur <persName ref="../thesauri/persons.xml#lautreamont">Lautréamont</persName></p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : Je dois réduire mes activités et notamment les envois de convocation.</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> prend le courrier et s’arrange avec <persName ref="../thesauri/persons.xml#jb">Bens</persName>. Chacun apporte 10 enveloppes</p>
-      <p>à son adresse à la prochaine réunion.</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> Classer les archives</p>
+      <p>Rappel à l’ordre de <persName ref="#pb">P Braffort</persName> : on attend toujours sa
+        formalisation de l’activité littéraire</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : faire envoyer certains compte rendus de réunion pour tous (20
+        exemplaires) 50p environ</p>
+      <p>Nouvelle promesse de <persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName></p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : Classer tous les travaux des autres (non-oulipiens) : stériles –
+        répétitifs - féconds etc…</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : <persName ref="#restout">Rex Stout</persName> est mort.</p>
+      <p>Signale la parution aux Idées une réédition du livre de <persName ref="#fc"
+          >Caradec</persName> sur <persName ref="#lautreamont">Lautréamont</persName></p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : Je dois réduire mes activités et notamment les envois de
+        convocation.</p>
+      <p><persName ref="#pf">Fournel</persName> prend le courrier et s’arrange avec <persName
+          ref="#jb">Bens</persName>. Chacun apporte 10 enveloppes</p>
+      <p>à son adresse à la <name ref="#prochainereunion" type="manif">prochaine réunion</name> .</p>
       <p>Où faire les réunions à l’avenir ? Problème du repas…</p>
-      <p><persName ref="../thesauri/persons.xml#jb">Bens</persName> propose le <orgName ref="../thesauri/organizations.xml#procope">Procope</orgName>….</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>  : propose une <term ref="../thesauri/terms.xml#traductionhomophonique">traduction homophonique</term> de « on the banisters » de <persName ref="../thesauri/persons.xml#margaretgibbs">Margaret Gibbs</persName></p>
+      <p><persName ref="#jb">Bens</persName> propose le <orgName ref="#procope"
+        >Procope</orgName>….</p>
+      <p><persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName> : propose une <term ref="#traductionhomophonique">traduction
+          homophonique</term> de « on the banisters » de <persName ref="#margaretgibbs">Margaret
+          Gibbs</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101813/f2.highres" n="2"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101813/f3.highres" n="3"/>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> souhaiterait qu’une 4e personne prenne la signature sur le compte.</p>
-      <p>Une équipe <persName ref="../thesauri/persons.xml#jb">Bens</persName>-<persName ref="../thesauri/persons.xml#pf">Fournel</persName>-<persName ref="../thesauri/persons.xml#mb">Bénabou</persName> va désormais s’occuper des taches matérielles.</p>
-      <p><persName ref="../thesauri/persons.xml#mm">Métail</persName> nous annonce sa lecture du 22 janvier</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> souhaiterait qu’une 4e personne prenne la signature sur le
+        compte.</p>
+      <p>Une équipe <persName ref="#jb">Bens</persName>-<persName ref="#pf"
+          >Fournel</persName>-<persName ref="#mb">Bénabou</persName> va désormais s’occuper des
+        taches matérielles.</p>
+      <p><persName ref="#mm">Métail</persName> nous annonce sa lecture du 22 janvier</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>  : Proposition faite par <orgName ref="../thesauri/organizations.xml#federop">Fédérop</orgName> pour faire vitrine + signature + conférence</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName> : Proposition faite par <orgName ref="#federop">Fédérop</orgName>
+        pour faire vitrine + signature + conférence</p>
       <p>Mai 1e quinzaine</p>
-      <p>Accord de principe : <persName ref="../thesauri/persons.xml#gp">Perec</persName> – <persName ref="../thesauri/persons.xml#pb">Braffort</persName> – <persName ref="../thesauri/persons.xml#pf">Fournel</persName> – (<persName ref="../thesauri/persons.xml#mb">Bénabou</persName> – <persName ref="../thesauri/persons.xml#hm">Mathews</persName> ?)</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : Informatique. Projet d’1 centre Art-ordinateur – <persName ref="../thesauri/persons.xml#pb">Braffort</persName> travaille avec eux. L’oulipo pourrait être client.</p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : A reçu un coup de tel assez froid de <persName ref="../thesauri/persons.xml#blaisegauthier">Blaise Gauthier</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : De mauvais échos sur <persName ref="../thesauri/persons.xml#bg"><abbr>BG</abbr></persName></p>
+      <p>Accord de principe : <persName ref="#gp">Perec</persName> – <persName ref="#pb"
+          >Braffort</persName> – <persName ref="#pf">Fournel</persName> – (<persName ref="#mb"
+          >Bénabou</persName> – <persName ref="#hm">Mathews</persName> ?)</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : Informatique. Projet d’1 centre Art-ordinateur – <persName
+          ref="#pb">Braffort</persName> travaille avec eux. L’oulipo pourrait être client.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : A reçu un coup de tel assez froid de <persName
+          ref="#blaisegauthier">Blaise Gauthier</persName>.</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : De mauvais échos sur <persName ref="#blaisegauthier"><choice>
+            <abbr>BG</abbr>
+            <expan>Blaise Gauthier</expan>
+          </choice></persName></p>
       <p>Interruption pour le déjeuner</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : les photos grand format couleurs</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : les photos grand format couleurs</p>
       <p>Faire une carte postale</p>
-      <p><persName ref="../thesauri/persons.xml#ic">Calvino</persName> : traduction de la <title ref="../thesauri/titles.xml#lp">LP</title></p>
-      <p>Son « petit abécédaire » : sera publié dans la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : le mécénat pour les déjeuners de l’OuLiPo</p>
-      <p><persName ref="../thesauri/persons.xml#pb">P. Braffort</persName> : Oulipo 2. Commencer à y penser.</p>
-      <p><persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> : Vœux du <orgName ref="../thesauri/organizations.xml#gam">GAM</orgName> se lit « VŒUX 1976 » de loin</p>
-      <p><persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> : carnets de <persName ref="../thesauri/persons.xml#feydeau">Feydeau</persName></p>
+      <p><persName ref="#ic">Calvino</persName> : traduction de la <title ref="#lp">LP</title></p>
+      <p>Son « petit abécédaire » : sera publié dans la <title ref="#bibliothequeoulipienne"
+          >Bibliothèque oulipienne</title></p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : le mécénat pour les déjeuners de l’OuLiPo</p>
+      <p><persName ref="#pb">P. Braffort</persName> : Oulipo 2. Commencer à y penser.</p>
+      <p><persName ref="#le">Luc Etienne</persName> : Vœux du <orgName ref="#gam">GAM</orgName> se
+        lit « VŒUX 1976 » de loin</p>
+      <p><persName ref="#le">Luc Etienne</persName> : carnets de <persName ref="#feydeau"
+          >Feydeau</persName></p>
       <p><label type="rubrique">Divers menus propos érudits</label></p>
-      <p>– <persName ref="../thesauri/persons.xml#rq">Queneau</persName> : <ref>bibliographie des graphes d’œuvres littéraires (Harary amélioré) document archivé</ref></p>
-      <p>– <persName ref="../thesauri/persons.xml#gp">Perec</persName> : <title ref="../thesauri/titles.xml#almanachvermot">Almanach Vermot</title> : déception devant la médiocre qualité</p>
+      <p>– <persName ref="#rq">Queneau</persName> : <ref>bibliographie des graphes d’œuvres
+          littéraires (Harary amélioré) document archivé</ref></p>
+      <p>– <persName ref="#gp">Perec</persName> : <title ref="#almanachvermot">Almanach
+          Vermot</title> : déception devant la médiocre qualité</p>
       <p>– prochaine séance mardi 17 février</p>
     </body>
   </text>

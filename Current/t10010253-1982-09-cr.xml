@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010253-1982-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010253-1982-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,9 +17,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010253-1982-09-cr</idno> <meeting xml:id="t10010253-1982-09">
-          <date when="1982-09-20">20 septembre 1982</date>
+          <date when="1982-09-20">20/09/1982</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#mm" role="président"><abbr>MM</abbr></persName></item>
+            <item><persName ref="#mm" role="président"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -39,43 +38,43 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102534/f4.highres" n="4"/>
       <p rend="incipit">20 septembre</p>
-      <p rend="incipit">Présidente : <persName ref="../thesauri/persons.xml#mm">M. Métail</persName></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : lit quelques lettres, notamment une épitre intéressante de <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName>.</p>
-      <p>Soirée <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> le 2 décembre au <orgName ref="../thesauri/organizations.xml#centrecultureldelabbaye">Centre culturel de l’Abbaye</orgName>.</p>
-      <p>Verviers : Bref compte rendu par <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : l’Oulipo de New Zealand</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> + <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="../thesauri/events.xml#ateliersdecrituredecerisy" type="manif">Ateliers d’écriture de <orgName ref="../thesauri/organizations.xml#cerisy">Cerisy</orgName></name>. A l’unanimité, l’Oulipo décide que les <unclear>….</unclear> <name ref="../thesauri/events.xml#ateliers" type="manif">Ateliers</name> peuvent se tenir sans l’Oulipo.</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> + discussion générale : dépôt des archives à la <orgName ref="../thesauri/organizations.xml#bibliothequesaintegenevieve">Bibliothèque Sainte Geneviève</orgName> (ou ailleurs ?). Préparation des dites archives. Déjeuner sous-commission avec conservateur de sainte Geneviève.</p>
-      <p>« <name ref="../thesauri/events.xml#hommageagp" type="manif">Hommage à <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> </name>». On choisit une date limite = prochaine réunion.</p>
-      <p>Deux directions : « <title ref="../thesauri/titles.xml#jemesouviens">Je me souviens</title> » + Textes inspirés par l’œuvre de <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> : 2 Bibliothèque oulipienne</p>
+      <p rend="incipit">Présidente : <persName ref="#mm">M. Métail</persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : lit quelques lettres, notamment une épitre intéressante de <persName ref="#le">Luc Etienne</persName>.</p>
+      <p>Soirée <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> le 2 décembre au <orgName ref="#centrecultureldelabbaye">Centre culturel de l’Abbaye</orgName>.</p>
+      <p>Verviers : Bref compte rendu par <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>.</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : l’Oulipo de New Zealand</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> + <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <name ref="#ateliersdecrituredecerisy" type="manif">Ateliers d’écriture de <orgName ref="#cerisy">Cerisy</orgName></name> . A l’unanimité, l’Oulipo décide que les <unclear>….</unclear> <name ref="#ateliers" type="manif">Ateliers</name> peuvent se tenir sans l’Oulipo.</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> + discussion générale : dépôt des archives à la <orgName ref="#bibliothequesaintegenevieve">Bibliothèque Sainte Geneviève</orgName> (ou ailleurs ?). Préparation des dites archives. Déjeuner sous-commission avec conservateur de sainte Geneviève.</p>
+      <p>« <name ref="#hommageageorgesperec" type="manif">Hommage à <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> </name>». On choisit une date limite = <name ref="#prochainereunion" type="manif">prochaine réunion</name> .</p>
+      <p>Deux directions : « <title ref="#jemesouviens">Je me souviens</title> » + Textes inspirés par l’œuvre de <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>.</p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> : 2 Bibliothèque oulipienne</p>
       <p>- Réflexions d’un insecte <unclear>insensible</unclear></p>
       <p>- Sur la ponctuation</p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> :</p>
-      <p><term ref="../thesauri/terms.xml#motscroises">Mots croisés</term> avec des définitions sur 2 grilles différentes.</p>
-      <p><term ref="../thesauri/terms.xml#antipalindromes">Antipalindromes</term> véritables : cylindre ?</p>
-      <p><persName ref="../thesauri/persons.xml#mm">M. Métail</persName> <title ref="../thesauri/titles.xml#gigantexten2">Gigantexte n°2</title> (mais aussi n°1 : vivre)</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : un nouvel inventeur de <persName ref="../thesauri/persons.xml#tabourotdesaccords">Tabourot des Accords</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> prend le texte pour le lire (dit-il)</p>
+      <p><persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName> :</p>
+      <p><term ref="#motscroises">Mots croisés</term> avec des définitions sur 2 grilles différentes.</p>
+      <p><term ref="#antipalindromes">Antipalindromes</term> véritables : cylindre ?</p>
+      <p><persName ref="#mm">M. Métail</persName> <title ref="#giganteten">Gigantexte n°2</title> (mais aussi n°1 : vivre)</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : un nouvel inventeur de <persName ref="#tabourotdesaccords">Tabourot des Accords</persName></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> prend le texte pour le lire (dit-il)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102534/f5.highres" n="5"/>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> : <term ref="../thesauri/terms.xml#sonnetholorime">Sonnet holorime</term> d’<persName ref="../thesauri/persons.xml#alphonseallais">Alphonse Allais</persName></p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : Lettre d’un lecteur (<persName ref="../thesauri/persons.xml#mbaillu">M. Baillu</persName>) : <term ref="../thesauri/terms.xml#poemeshomophoniques">poèmes homophoniques</term></p>
-      <p><term ref="../thesauri/terms.xml#poemealphabetique">Poème « alphabétique »</term> (à sigler) ( <unclear><del>anagrammes de l’alphabet</del></unclear> )</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>/ Signale qu’<persName ref="../thesauri/persons.xml#yvonbelaval">Yvon Belaval</persName> a publié, en 1963, une analyse de la PCP.</p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> : <term ref="#sonnetholorime">Sonnet holorime</term> d’<persName ref="#alphonseallais">Alphonse Allais</persName></p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : Lettre d’un lecteur (<persName ref="#mbaillu">M. Baillu</persName>) : <term ref="#poemeshomophoniques">poèmes homophoniques</term></p>
+      <p><term ref="#poemealphabetique">Poème « alphabétique »</term> (à sigler) ( <unclear><del>anagrammes de l’alphabet</del></unclear> )</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>/ Signale qu’<persName ref="#yvonbelaval">Yvon Belaval</persName> a publié, en 1963, une analyse de la PCP.</p>
       <p>« Cent idées » a publié les « groupes célèbres de l’histoire », dont l’Oulipo !</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> : <persName ref="../thesauri/persons.xml#martingardner">Martin Gardner</persName> a publié une édition savante d’<title ref="../thesauri/titles.xml#aliceetdelatraverseedumiroir">Alice et de la Traversée du miroir</title>.</p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> : <persName ref="#martingardner">Martin Gardner</persName> a publié une édition savante d’<title ref="#aliceetdelatraverseedumiroir">Alice et de la Traversée du miroir</title>.</p>
       <p>Psycho diagnostic sur les Alexandrins des Grosses rêveuses.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Question sur « <title ref="../thesauri/titles.xml#masquedesorateurs">Masque des orateurs</title> » de Richesource</p>
-      <p>Nomination de <persName ref="../thesauri/persons.xml#pierremenard">Pierre Ménard</persName> Oulipien</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : Commentaires sur l’<term ref="../thesauri/terms.xml#algorithme">algorithme</term> de Dieu.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Question sur « <title ref="#masquedesorateurs">Masque des orateurs</title> » de Richesource</p>
+      <p>Nomination de <persName ref="#pierremenard">Pierre Ménard</persName> Oulipien</p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName> : Commentaires sur l’<term ref="#algorithme">algorithme</term> de Dieu.</p>
       <p>Invités d’honneur proposés</p>
-      <p><persName ref="../thesauri/persons.xml#garybloom">Gary Bloom</persName> par <persName ref="../thesauri/persons.xml#cb">Claude Berge</persName></p>
-      <p>{ <persName ref="../thesauri/persons.xml#bjerome">B. Jérôme</persName></p>
-      <p><persName ref="../thesauri/persons.xml#dsallenave">D. Sallenave</persName>} par <persName ref="../thesauri/persons.xml#jb">J Bens</persName></p>
-      <p><persName ref="../thesauri/persons.xml#juliocortazar">Julio Cortazar</persName> par <persName ref="../thesauri/persons.xml#mb">M. Benabou</persName></p>
-      <p><persName ref="../thesauri/persons.xml#jmklinkenberg">JM Klinkenberg</persName> par <persName ref="../thesauri/persons.xml#jq">J Queval</persName>.</p>
+      <p><persName ref="#garybloom">Gary Bloom</persName> par <persName ref="#cb">Claude Berge</persName></p>
+      <p>{ <persName ref="#bjerome">B. Jérôme</persName></p>
+      <p><persName ref="#dsallenave">D. Sallenave</persName>} par <persName ref="#jb">J Bens</persName></p>
+      <p><persName ref="#juliocortazar">Julio Cortazar</persName> par <persName ref="#mb">M. Benabou</persName></p>
+      <p><persName ref="#jmklinkenberg">JM Klinkenberg</persName> par <persName ref="#jq">J Queval</persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102534/f6.highres" n="6"/>
-      <p>Prochaine réunion : vendredi 15 octobre (Sainte Thérèse d’Avila)</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : vendredi 15 octobre (Sainte Thérèse d’Avila)</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010259-1983-03-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010259-1983-03-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010259-1983-03-oj</idno> <title>Ordre de jour de <ref target="#t10010259-1983-03">la réunion Oulipo</ref> du <date when="1983-03-18">18 mars 1983</date></title></bibl>
+        <bibl><idno>t10010259-1983-03-oj</idno> <title>Ordre de jour de <ref target="#t10010259-1983-03">la réunion Oulipo</ref> du <date when="1983-03-18">18/03/1983</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -30,49 +29,49 @@
   <text type="oj">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010259t/f2.highres" n="2"/>
-      <p rend="incipit">Ordre du Jour du 18/03/1983 chez <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></p>
-      <p>Président : <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> Secrétaire : <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Ordre du Jour du 18/03/1983 chez <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></p>
+      <p>Président : <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> Secrétaire : <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></p>
       <p><label type="rubrique">- Création</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> le vol d’<unclear>Itiers</unclear></item>
-        <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName> Filigrane</item>
-        <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> livre sur <persName ref="../thesauri/persons.xml#gp">Georges Perec</persName></item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> la grille mode d’emploi</item>
-        <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName> Unicité</item>
+        <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> le vol d’<unclear>Itiers</unclear></item>
+        <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName> Filigrane</item>
+        <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> livre sur <persName ref="#gp">Georges Perec</persName></item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> la grille mode d’emploi</item>
+        <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName> Unicité</item>
       </list>
       <p>- Action</p>
-      <p><label type="rubrique"><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></label></p>
+      <p> <label type="rubrique"><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></label> </p>
       <list type="unordered">
-        <item><name type="event">Journée Oulipo Beaubourg</name></item>
-        <item><name type="event">Rencontres Oulipo</name> 2ème quinzaine d’Avril</item>
-        <item><name type="event">Journée Oulipo</name> Evreux</item>
-        <item><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
-        <item><persName ref="../thesauri/persons.xml#schmitt">Schmitt</persName> et <persName ref="../thesauri/persons.xml#viala">Viala</persName> = oulipo et <unclear>?</unclear></item>
+        <item><name type="manif">Journée Oulipo Beaubourg</name></item>
+        <item><name type="manif">Rencontres Oulipo</name> 2ème quinzaine d’Avril</item>
+        <item><name type="manif">Journée Oulipo</name> Evreux</item>
+        <item><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+        <item><persName ref="#schmitt">Schmitt</persName> et <persName ref="#viala">Viala</persName> = oulipo et <unclear>?</unclear></item>
       </list>
-      <p><label type="rubrique"><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></label></p>
+      <p> <label type="rubrique"><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></label> </p>
       <list type="unordered">
         <item>Milan</item>
         <item>Aix</item>
         <item>La Hollande</item>
         <item>Naples</item>
-        <item><orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName></item>
+        <item><orgName ref="#alamo">Alamo</orgName></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></p>
-      <p><orgName ref="../thesauri/organizations.xml#beaubourg">Beaubourg</orgName> (<orgName ref="../thesauri/organizations.xml#polyphonix">polyphonix</orgName>)</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></p>
+      <p><orgName ref="#beaubourg">Beaubourg</orgName> (<orgName ref="#polyphoni">polyphonix</orgName>)</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
       <p>Finances</p>
       <p>Erudition</p>
-      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></p>
+      <p><persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName></p>
       <p>Volupté Mathématiques lettres</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p><name type="event">Colloque R.Roussel à Nice</name></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
+      <p><name type="manif">Colloque R.Roussel à Nice</name></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
       <p>Alexandre portrait</p>
       <p>Menus Propos</p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></p>
-      <p>Projet <title ref="../thesauri/titles.xml#essaisdequeneau">Essais de <persName ref="../thesauri/persons.xml#rq">Queneau</persName></title></p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></p>
+      <p>Projet <title ref="#essaisdequeneau">Essais de <persName ref="#rq">Queneau</persName></title> </p>
       <p>Voir 8 Avril 83</p>
-      <p><orgName ref="../thesauri/organizations.xml#beaubourg">Beaubourg</orgName> <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></p>
+      <p><orgName ref="#beaubourg">Beaubourg</orgName> <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>. <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

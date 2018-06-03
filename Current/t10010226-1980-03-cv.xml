@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010226-1980-03-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010226-1980-03-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,7 +17,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010226-1980-03-cv</idno> <title>Convocation à <ref target="#t10010226-1980-03">une réunion Oulipo</ref>, envoyée le <date when="1980-03-04">4 mars 1980</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010226-1980-03-cv</idno> <title>Convocation à <ref target="#t10010226-1980-03">une réunion Oulipo</ref>, envoyée le <date when="1980-03-04">04/03/1980</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -36,9 +35,9 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">le 4 mars 80</p>
       <p>Chers oulipiens,</p>
-      <p>La prochaine réunion aura lieu chez <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> (361.40.39) le jeudi 13 mars à 11 heures. Il y sera question du <title ref="../thesauri/titles.xml#volume2">volume 2</title> ce qui, vous en conviendrez, sera un sujet peu banal. <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> sont priés de bien vouloir apporter leurs textes divers et multiples. Merci à eux !</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  aura lieu chez <persName ref="#mb">Marcel Bénabou</persName> (361.40.39) le jeudi 13 mars à 11 heures. Il y sera question du <title ref="#volume">volume 2</title> ce qui, vous en conviendrez, sera un sujet peu banal. <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>, <persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> sont priés de bien vouloir apporter leurs textes divers et multiples. Merci à eux !</p>
       <p>Prévenez pour l’intendance et réjouissez-vous à la perspective de cette proche réunion.</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName>,</p>
+      <p><persName ref="#pf">Paul Fournel</persName>,</p>
       <p>Un secrétaire</p>
     </body>
   </text>

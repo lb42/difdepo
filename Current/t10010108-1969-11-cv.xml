@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010108-1969-11-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010108-1969-11-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010108-1969-11-cv</idno> <title>Convocation à <ref target="#t10010108-1969-11">une réunion Oulipo</ref>, envoyée le <date when="1969-11-26">26 novembre 1969</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title></bibl>
+        <bibl><idno>t10010108-1969-11-cv</idno> <title>Convocation à <ref target="#t10010108-1969-11">une réunion Oulipo</ref>, envoyée le <date when="1969-11-26">26/11/1969</date> par <persName ref="#fll" role="expéditeur"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -32,16 +31,16 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010108x/f3.highres" n="3"/>
       <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
       <p rend="incipit">le 26 Novembre 1969</p>
-      <p rend="incipit">Monsieur <persName ref="../thesauri/persons.xml#pb">Paul BRAFFORT</persName></p>
+      <p rend="incipit">Monsieur <persName ref="#pb">Paul BRAFFORT</persName></p>
       <p>Chers Brigadiers,</p>
-      <p>La prochaine réunion OuLiPo aura lieu le : <lb/>Vendredi 12 Décembre 1969, à 16 heures 30 précises, chez <persName ref="../thesauri/persons.xml#fll"><abbr>F.LL.</abbr></persName></p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  OuLiPo aura lieu le : <lb/>Vendredi 12 Décembre 1969, à 16 heures 30 précises, chez <persName ref="#fll"><choice><abbr>F.LL.</abbr><expan>François Le Lionnais</expan></choice></persName></p>
       <p>À l’ordre du jour :</p>
-      <p>– Achèvement ( ? ? ! ! …) du <title ref="../thesauri/titles.xml#dossiercape">dossier Cape</title>.</p>
+      <p>– Achèvement ( ? ? ! ! …) du <title ref="#dossiercape">dossier Cape</title>.</p>
       <p>– Plan d’une étude plus générale des structures du roman policier.</p>
       <p>– Menus propos.</p>
       <p>– La séance sera impérieusement levée à 19 heures au plus tard.</p>
       <p>OuLiPiennement <del>vôtre</del>à toi,</p>
-      <p><persName ref="../thesauri/persons.xml#fll">François Le Lionnais</persName></p>
+      <p><persName ref="#fll">François Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

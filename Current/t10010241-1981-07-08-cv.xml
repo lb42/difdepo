@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010241-1981-07-08-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010241-1981-07-08-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010241-1981-07-08-cv</idno> <title>Convocation à <ref target="#t10010241-1981-07-08">une réunion Oulipo</ref>, envoyée le <date when="1981-07-08">8 juillet 1981</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010241-1981-07-08-cv</idno> <title>Convocation à <ref target="#t10010241-1981-07-08">une réunion Oulipo</ref>, envoyée le <date when="1981-07-08">08/07/1981</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -35,11 +34,11 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 8 VII 81</p>
       <p>Brigadiers,</p>
-      <p>La prochaine réunion de l’ouvroir aura lieu, sous le signe du soleil, le 24 juillet à 11h30 chez <persName ref="../thesauri/persons.xml#martine">Martine</persName> et <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> : 48 rue de l’abbé Groult 75015 Paris (5317765).</p>
-      <p>Il y sera question de Villeneuve, du <title ref="../thesauri/titles.xml#volume2">volume 2</title> et de la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> qui va s’enrichir d’un nouveau titre de <persName ref="../thesauri/persons.xml#jd">Jacques Duchateau</persName>.</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu, sous le signe du soleil, le 24 juillet à 11h30 chez <persName ref="#martine">Martine</persName> et <persName ref="#pf">Paul Fournel</persName> : 48 rue de l’abbé Groult 75015 Paris (5317765).</p>
+      <p>Il y sera question de <name ref="#villeneuve" type="manif">Villeneuve</name>, du <title ref="#volume">volume 2</title> et de la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title> qui va s’enrichir d’un nouveau titre de <persName ref="#jd">Jacques Duchateau</persName>.</p>
       <p>Venez nombreux. Venez bronzés</p>
       <p>Amitiés,</p>
-      <p><persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName></p>
+      <p><persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName></p>
       <p>Un secrétaire</p>
     </body>
   </text>

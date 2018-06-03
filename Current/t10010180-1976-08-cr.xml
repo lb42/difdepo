@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010180-1976-08-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-08-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,11 +18,11 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010180-1976-08-cr</idno> <meeting xml:id="t10010180-1976-08">
-          <date when="1976-08-03">3 août 1976</date>
+          <date when="1976-08-03">03/08/1976</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -41,34 +40,34 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f23.highres" n="23"/>
       <p rend="incipit">OuLiPo le 3 8 76</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></p>
       <list type="unordered">
-        <item><name ref="../thesauri/events.xml#bruxelles" type="manif">Bruxelles</name> – La Maensch et La hésine</item>
+        <item><name ref="#bruxelles" type="manif">Bruxelles</name> – La Maensch et La hésine</item>
         <item>Proposition de programme apparemment clownesque</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : <unclear>phrases</unclear> du Mississipi</item>
-        <item>Lyon : <orgName ref="../thesauri/organizations.xml#federop">Fédérop</orgName></item>
+        <item><persName ref="#jr">Roubaud</persName> : <unclear>phrases</unclear> du Mississipi</item>
+        <item>Lyon : <orgName ref="#federop">Fédérop</orgName></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#montserratcaballe">Montserrat Caballé</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p><persName ref="#montserratcaballe">Montserrat Caballé</persName></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></p>
       <list type="unordered">
         <item>TV – générer programme à partir de</item>
       </list>
-      <p>«<title ref="../thesauri/titles.xml#pastilledaries"> Pastille d’Ariès </title>» (<title ref="../thesauri/titles.xml#lantitete">L’antitête</title>) de <persName ref="../thesauri/persons.xml#tzara">Tzara</persName>.</p>
+      <p>«<title ref="#pastilledaries"> Pastille d’Ariès </title>» (<title ref="#lantitete">L’antitête</title>) de <persName ref="#tzara">Tzara</persName>.</p>
       <p>paramètres écrits. &gt; paramètres visuels TV</p>
       <p>typographie</p>
-      <p><term ref="../thesauri/terms.xml#syntagmes">syntagmes</term></p>
+      <p><term ref="#syntagmes">syntagmes</term></p>
       <p>arguments décrits</p>
       <p>avec</p>
       <p>Les idées</p>
       <p>engendrées par les</p>
       <p>mots : mots associés qui sont associés</p>
-      <p>avec d’autres mots dans le même <term ref="../thesauri/terms.xml#syntagme">syntagme</term></p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> - <orgName ref="../thesauri/organizations.xml#oucinepo">OuCinePo</orgName></p>
+      <p>avec d’autres mots dans le même <term ref="#syntagme">syntagme</term></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> - <orgName ref="#oucinepo">OuCinePo</orgName></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#charlesnodier">Charles Nodier</persName> <title ref="../thesauri/titles.xml#dictionnairedesonomatopees">Dictionnaire des onomatopées</title></item>
+        <item><persName ref="#charlesnodier">Charles Nodier</persName> <title ref="#dictionnairedesonomatopees">Dictionnaire des onomatopées</title></item>
       </list>
     </body>
   </text>

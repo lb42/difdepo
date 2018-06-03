@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010266-1983-11-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010266-1983-11-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010266-1983-11-cv</idno> <title>Convocation à <ref target="#t10010266-1983-11">une réunion Oulipo</ref>, envoyée le <date when="1983-11-16">16 novembre 1983</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010266-1983-11-cv</idno> <title>Convocation à <ref target="#t10010266-1983-11">une réunion Oulipo</ref>, envoyée le <date when="1983-11-16">16/11/1983</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -35,12 +34,12 @@
       <p rend="incipit">Oulipo</p>
       <p rend="incipit">Le 16 XI 83</p>
       <p>Chers brigadiers,</p>
-      <p>La prochaine réunion de l’ouvroir aura lieu le vendredi 2 décembre à 18 heures chez <persName ref="../thesauri/persons.xml#isabelle">Isabelle</persName> et <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> (48 rue du Capitaine Marchal 75020).</p>
-      <p>Cette réunion sera notre première « réunion du soir, » nous y recevrons pour la première fois <persName ref="../thesauri/persons.xml#jj">Jacques Jouet</persName> et peut-être <persName ref="../thesauri/persons.xml#fc">François Caradec</persName> dont la lettre d’acceptation n’est pas parvenue à ce jour au secrétariat.</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’ouvroir aura lieu le vendredi 2 décembre à 18 heures chez <persName ref="#isabelle">Isabelle</persName> et <persName ref="#mb">Marcel Bénabou</persName> (48 rue du Capitaine Marchal 75020).</p>
+      <p>Cette réunion sera notre première « réunion du soir, » nous y recevrons pour la première fois <persName ref="#jj">Jacques Jouet</persName> et peut-être <persName ref="#fc">François Caradec</persName> dont la lettre d’acceptation n’est pas parvenue à ce jour au secrétariat.</p>
       <p>L’ordre du jour comportera la rubrique ‘création.’</p>
       <p>Retournez la découpe ci-dessous pour faciliter les tâches d’intendance. Merci.</p>
       <p>Bien à vous,</p>
-      <p><persName ref="../thesauri/persons.xml#paul"><abbr>Paul</abbr></persName></p>
+      <p><persName ref="#pf"><choice><abbr>Paul</abbr><expan>Paul Fournel</expan></choice></persName></p>
       <p>Un secrétaire</p>
     </body>
   </text>

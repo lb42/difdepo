@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010109-1970-01-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010109-1970-01-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010109-1970-01-cv</idno> <title>Convocation à <ref target="#t10010109-1970-01">une réunion Oulipo</ref>, envoyée le <date when="1970-01-14">14 janvier 1970</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title></bibl>
+        <bibl><idno>t10010109-1970-01-cv</idno> <title>Convocation à <ref target="#t10010109-1970-01">une réunion Oulipo</ref>, envoyée le <date when="1970-01-14">14/01/1970</date> par <persName ref="#fll" role="expéditeur"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -32,14 +31,14 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010109c/f1.highres" n="1"/>
       <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
       <p rend="incipit">le <date>14 Janvier 1970</date></p>
-      <p rend="incipit">Monsieur <persName ref="../thesauri/persons.xml#jb">Jacques BENS</persName></p>
+      <p rend="incipit">Monsieur <persName ref="#jb">Jacques BENS</persName></p>
       <p>Chers Brigadiers,</p>
       <p>La précédente réunion de l’OuLiPo – qui s’est tenue le Vendredi 12 Décembre 1969 – a été caractérisée par un sérieux et une intensité de travail jamais égalés.</p>
-      <p>Il dépend beaucoup du Brigadier <persName ref="../thesauri/persons.xml#pb">BRAFFORT</persName> que soit terminé le travail concernant l’<title ref="../thesauri/titles.xml#editioncape">Édition CAPE</title>.</p>
+      <p>Il dépend beaucoup du Brigadier <persName ref="#pb">BRAFFORT</persName> que soit terminé le travail concernant l’<title ref="#editioncape">Édition CAPE</title>.</p>
       <p>À l’ordre du jour, nous avons toujours l’étude des structures du roman policier et toutes autres questions qu’il plairait à votre fantaisie de jeter dans le débat.</p>
       <p>OuLiPiennement votre.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
-      <p>P.S. Ci-joint une nouvelle liste du « <title ref="../thesauri/titles.xml#chantdesigne">Chant de signe</title> ».</p>
+      <p><persName ref="#fll">F. Le Lionnais</persName></p>
+      <p>P.S. Ci-joint une nouvelle liste du « <title ref="#chantdesigne">Chant de signe</title> ».</p>
     </body>
   </text>
 </TEI>

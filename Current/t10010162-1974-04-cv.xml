@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010162-1974-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010162-1974-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010162-1974-04-cv</idno> <title>Convocation à <ref target="#t10010162-1974-04">une réunion Oulipo</ref>, envoyée le <date when="1974-04-19">19 avril 1974</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title></bibl>
+        <bibl><idno>t10010162-1974-04-cv</idno> <title>Convocation à <ref target="#t10010162-1974-04">une réunion Oulipo</ref>, envoyée le <date when="1974-04-19">19/04/1974</date> par <persName ref="#fll" role="expéditeur"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -33,15 +32,15 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010162q/f1.highres" n="1"/>
-      <p rend="incipit"><add>Félicitations pour l’exposé sur les <term ref="../thesauri/terms.xml#antonymes">antonymes</term> que je vais aller écouter cet après-midi et qui aura été remarquable.</add> <note n="1" resp="editor">Ajout manuscrit de la main de FLL</note></p>
+      <p rend="incipit"><add>Félicitations pour l’exposé sur les <term ref="#antonymes">antonymes</term> que je vais aller écouter cet après-midi et qui aura été remarquable.</add> <note n="1" resp="editor">Ajout manuscrit de la main de FLL</note></p>
       <p rend="incipit">Boulogne-sur-Seine, le 19 avril 1974</p>
       <p rend="incipit">Pour votre prochaine réception</p>
       <p rend="incipit">LE PRÉSIDENT</p>
       <p rend="incipit">A déjà tout prévu <note n="2" resp="editor">Collage de lettres de journal et dessin</note></p>
       <p>Chers Brigadiers,</p>
-      <p>Le sort en est jeté. Notre prochaine réunion est fixée au Lundi 13 Mai. Notre invité d’honneur sera <persName ref="../thesauri/persons.xml#guidoalmansi">Guido ALMANSI</persName>, venu tout exprès de la verte Erin. À l’ordre du jour, que vous le vouliez ou non, le phynancement des publications à la gloire de <persName ref="../thesauri/persons.xml#gp">PEREC</persName> et de <persName ref="../thesauri/persons.xml#jr">ROUBAUD</persName>, la thèse (sur l’OULIPO) de <persName ref="../thesauri/persons.xml#teresapalumbo">Teresa PALUMBO</persName>, la préparation du grand congrès des lundi 10 et mardi 11 Juin (ayez la bonté d’en prendre note), l’article du <title ref="../thesauri/titles.xml#bulletindeleducationnationale">Bulletin de l’Éducation nationale</title> et tout ce qu’il vous plaira d’ajouter pour l’ornement de nos discussions.</p>
-      <p>Je supplie <persName ref="../thesauri/persons.xml#pb">BRAFFORT</persName> de me faire savoir s’il vient ou non et vous adresse mes pensées les plus oulipiennes.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
+      <p>Le sort en est jeté. Notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  est fixée au Lundi 13 Mai. Notre invité d’honneur sera <persName ref="#guidoalmansi">Guido ALMANSI</persName>, venu tout exprès de la verte Erin. À l’ordre du jour, que vous le vouliez ou non, le phynancement des publications à la gloire de <persName ref="#gp">PEREC</persName> et de <persName ref="#jr">ROUBAUD</persName>, la thèse (sur l’OULIPO) de <persName ref="#teresapalumbo">Teresa PALUMBO</persName>, la préparation du grand <name ref="#congres" type="manif">congrès</name> des lundi 10 et mardi 11 Juin (ayez la bonté d’en prendre note), l’article du <title ref="#bulletindeleducationnationale">Bulletin de l’Éducation nationale</title> et tout ce qu’il vous plaira d’ajouter pour l’ornement de nos discussions.</p>
+      <p>Je supplie <persName ref="#pb">BRAFFORT</persName> de me faire savoir s’il vient ou non et vous adresse mes pensées les plus oulipiennes.</p>
+      <p><persName ref="#fll">F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

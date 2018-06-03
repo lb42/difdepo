@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010119-1970-11-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010119-1970-11-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010119-1970-11-cv</idno> <title>Convocation à <ref target="#t10010119-1970-11">une réunion Oulipo</ref>, envoyée le <date when="1970-11-13">13 novembre 1970</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title></bibl>
+        <bibl><idno>t10010119-1970-11-cv</idno> <title>Convocation à <ref target="#t10010119-1970-11">une réunion Oulipo</ref>, envoyée le <date when="1970-11-13">13/11/1970</date> par <persName ref="#fll" role="expéditeur"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -32,18 +31,18 @@
   <text type="cv">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010119s/f1.highres" n="1"/>
-      <p rend="incipit"><persName ref="../thesauri/persons.xml#fll">François LE LIONNAIS</persName></p>
+      <p rend="incipit"><persName ref="#fll">François LE LIONNAIS</persName></p>
       <p rend="incipit">23, route de la REINE</p>
       <p rend="incipit">92 – BOULOGNE SUR SEINE</p>
       <p rend="incipit">Tél : 605 90-13</p>
       <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
       <p rend="incipit">Le 13 Novembre 1970</p>
-      <p rend="incipit">Monsieur <persName ref="../thesauri/persons.xml#jd">Jacques DUCHATEAU</persName></p>
+      <p rend="incipit">Monsieur <persName ref="#jd">Jacques DUCHATEAU</persName></p>
       <p>Chers Brigadiers,</p>
-      <p>Notre prochaine réunion aura lieu chez le signataire de cette bafouille</p>
+      <p>Notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  aura lieu chez le signataire de cette bafouille</p>
       <p>Le Mercredi 2 Décembre 1970 à 11 heures.</p>
       <p>Cette invitation s’étend, évidemment, à nos deux nouveaux membres :</p>
-      <p><persName ref="../thesauri/persons.xml#mb">Marcel BENABOU</persName> et <persName ref="../thesauri/persons.xml#le">Luc ETIENNE</persName>.</p>
+      <p><persName ref="#mb">Marcel BENABOU</persName> et <persName ref="#le">Luc ETIENNE</persName>.</p>
       <p>A l’ordre du jour, outre les questions courantes concernant la création, l’érudition, l’action, l’administration et les menus propos, nous aurons à nous pencher courageusement sur le dossier futur-ex-Cape.</p>
       <p>Il est important que chacun vous fasse savoir s’il pourra participer aux agapes de manière à faciliter le planning de l’intendance.</p>
       <p>OuLiPiennement vôtre.</p>

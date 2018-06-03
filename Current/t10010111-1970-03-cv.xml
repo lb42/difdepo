@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010111-1970-03-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010111-1970-03-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010111-1970-03-cv</idno> <title>Convocation à <ref target="#t10010111-1970-03">une réunion Oulipo</ref>, envoyée le <date when="1970-03-09">9 mars 1970</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title></bibl>
+        <bibl><idno>t10010111-1970-03-cv</idno> <title>Convocation à <ref target="#t10010111-1970-03">une réunion Oulipo</ref>, envoyée le <date when="1970-03-09">09/03/1970</date> par <persName ref="#fll" role="expéditeur"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -34,9 +33,9 @@
       <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
       <p rend="incipit">le 9 Mars 1970</p>
       <p>Chers Brigadiers,</p>
-      <p>Comme convenu, notre prochaine réunion se tiendra (si je ne suis pas exclu de l’OuLiPo à cette date) Vendredi 20 Mars, chez moi.</p>
+      <p>Comme convenu, notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  se tiendra (si je ne suis pas exclu de l’OuLiPo à cette date) Vendredi 20 Mars, chez moi.</p>
       <p>Elle est prévue pour 17 heures et tout est arrangé pour que vous soyez accueillis avec la dignité, le confort et la sécurité qui sont dus à d’éminentes personnalités.</p>
-      <p>Entre temps, <persName ref="../thesauri/persons.xml#na">Noël ARNAUD</persName> aura retourné le questionnaire dûment rempli. Chacune de ses réponses sera à la fois saisissante de vérité et frappée au coin du bon sens.</p>
+      <p>Entre temps, <persName ref="#na">Noël ARNAUD</persName> aura retourné le questionnaire dûment rempli. Chacune de ses réponses sera à la fois saisissante de vérité et frappée au coin du bon sens.</p>
       <p>Bon courage et croyez-moi bien OuLiPiennement vôtre.</p>
     </body>
   </text>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010195-1977-04-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010195-1977-04-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010195-1977-04-cv</idno> <title>Convocation à <ref target="#t10010195-1977-04">une réunion Oulipo</ref>, envoyée le <date when="1977-04-12">12 avril 1977</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010195-1977-04-cv</idno> <title>Convocation à <ref target="#t10010195-1977-04">une réunion Oulipo</ref>, envoyée le <date when="1977-04-12">12/04/1977</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -35,10 +34,10 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit"><placeName>Paris</placeName> le 12 Avril 77.</p>
       <p>Brigadiers,</p>
-      <p>La prochaine réunion de l'Ouvroir aura lieu le jeudi 21 Avril à II heures chez <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName>:</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l'Ouvroir aura lieu le jeudi 21 Avril à II heures chez <persName ref="#mb">Marcel Bénabou</persName>:</p>
       <p>7 villa Duthy <lb/>75014 <placeName>Paris</placeName> <lb/>542 41 68</p>
-      <p>Il y sera question du volume "à <persName ref="../thesauri/persons.xml#rq">Queneau</persName> de la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">bibliothèque oulipienne</title> et des quelques trois ou quatre volumes à venir. On y touchera quelques nots des status, du volume 2 et tout se passera dans l'harmonie si vous retournez sans tarder la découpe ci-dessous à <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName>.</p>
-      <p>Au jeudi 21, oulipiennement, <lb/><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> <lb/>Un secrétaire.</p>
+      <p>Il y sera question du volume "à <persName ref="#rq">Queneau</persName> de la <title ref="#bibliothequeoulipienne">bibliothèque oulipienne</title> et des quelques trois ou quatre volumes à venir. On y touchera quelques nots des status, du volume 2 et tout se passera dans l'harmonie si vous retournez sans tarder la découpe ci-dessous à <persName ref="#mb">Marcel Bénabou</persName>.</p>
+      <p>Au jeudi 21, oulipiennement, <lb/><persName ref="#pf">Paul Fournel</persName> <lb/>Un secrétaire.</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010343-1990-09-25-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010343-1990-09-25-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010343-1990-09-25-cv</idno> <title>Convocation à <ref target="#t10010343-1990-09-25">une réunion Oulipo</ref>, envoyée le <date when="1990-09-25">25 septembre 1990</date> par <persName ref="../thesauri/persons.xml#pf" role="expéditeur"><abbr>PF</abbr></persName></title></bibl>
+        <bibl><idno>t10010343-1990-09-25-cv</idno> <title>Convocation à <ref target="#t10010343-1990-09-25">une réunion Oulipo</ref>, envoyée le <date when="1990-09-25">25/09/1990</date> par <persName ref="#pf" role="expéditeur"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -35,10 +34,10 @@
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">Paris, le 25 septembre 1990</p>
       <p>Chers Oulipiens,</p>
-      <p>La prochaine réunion de l’Ouvroir aura lieu le vendredi 5 octobre 1990 à 19 heures chez <persName ref="../thesauri/persons.xml#mariechaix">Marie Chaix</persName> et <persName ref="../thesauri/persons.xml#hm">Harry Mathews</persName> (67 rue de Grenelle 75007 – Paris, tél. 45.49.39.59)</p>
-      <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="../thesauri/persons.xml#mc"><abbr>M.C</abbr></persName> &amp; <persName ref="../thesauri/persons.xml#hm"><abbr>H.M.</abbr></persName></p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Ouvroir aura lieu le vendredi 5 octobre 1990 à 19 heures chez <persName ref="#mariechai">Marie Chaix</persName> et <persName ref="#hm">Harry Mathews</persName> (67 rue de Grenelle 75007 – Paris, tél. 45.49.39.59)</p>
+      <p>Merci de retourner la découpe ci-dessous directement chez <persName ref="#mc"><choice><abbr>M.C</abbr><expan>Marie Chaix</expan></choice></persName> &amp; <persName ref="#hm"><choice><abbr>H.M.</abbr><expan>Harry Mathews</expan></choice></persName></p>
       <p>Au 5, amitiés.</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName></p>
+      <p><persName ref="#pf">Paul Fournel</persName></p>
     </body>
   </text>
 </TEI>

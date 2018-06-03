@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010166-1974-09-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010166-1974-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,21 +17,53 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010166-1974-09-cr</idno> <meeting xml:id="t10010166-1974-09">
-          <date when="1974-09-19">19 septembre 1974</date>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010166-1974-09-cr</idno>
+          <meeting xml:id="t10010166-1974-09">
+            <date when="1974-09-19">19/09/1974</date>
+            <list type="present">
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#gp"><choice>
+                    <abbr>GP</abbr>
+                    <expan>Georges Perec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jr"><choice>
+                    <abbr>JR</abbr>
+                    <expan>Jacques Roubaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#le"><choice>
+                    <abbr>LE</abbr>
+                    <expan>Luc Etienne</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pb"><choice>
+                    <abbr>PB</abbr>
+                    <expan>Paul Braffort</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jl"><choice>
+                    <abbr>JL</abbr>
+                    <expan>Jean Lescure</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -49,101 +81,187 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f10.highres" n="10"/>
       <p rend="incipit">Oulipo du 19-9-74</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="../thesauri/persons.xml#gp">G Perec</persName>, <persName ref="../thesauri/persons.xml#jr">J. Roubaud</persName>, <persName ref="../thesauri/persons.xml#mb">M. Bénabou</persName>, <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName>, <persName ref="../thesauri/persons.xml#jq">J. Queval</persName>, <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName>, <persName ref="../thesauri/persons.xml#pb">Braffort</persName> – <persName ref="../thesauri/persons.xml#jl">Lescure</persName></p>
-      <p rend="incipit">Absents : <persName ref="../thesauri/persons.xml#hm">Mathews</persName>, <persName ref="../thesauri/persons.xml#ic">Calvino</persName>.</p>
+      <p rend="incipit">Présents : <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>, <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName>, <persName ref="#gp">G Perec</persName>, <persName ref="#jr">J.
+          Roubaud</persName>, <persName ref="#mb">M. Bénabou</persName>, <persName ref="#le">Luc
+          Etienne</persName>, <persName ref="#jq">J. Queval</persName>, <persName ref="#pf">Paul
+          Fournel</persName>, <persName ref="#pb">Braffort</persName> – <persName ref="#jl"
+          >Lescure</persName></p>
+      <p rend="incipit">Absents : <persName ref="#hm">Mathews</persName>, <persName ref="#ic"
+          >Calvino</persName>.</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>R.Q.</abbr></persName> Suites du livre =</p>
-      <p>– <persName ref="../thesauri/persons.xml#erval">Erval</persName> optimiste sur le livre.</p>
-      <p>– <persName ref="../thesauri/persons.xml#laclos">Laclos</persName> continue à plagier l’Oulipo dans <title ref="../thesauri/titles.xml#lefigaro">le Figaro</title>. On cite divers exemples envoyés par des lecteurs</p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> : Distribution du numéro 2451 des <title ref="../thesauri/titles.xml#nouvelleslitteraires">Nouvelles littéraires</title> avec article de présentation fait par <persName ref="../thesauri/persons.xml#pf">Fournel</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : pourquoi <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName> n’organise-t-il pas au <orgName ref="../thesauri/organizations.xml#sicob">SICOB</orgName> une réunion avec l’Oulipo.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> : C’est trop tard. Les <title ref="../thesauri/titles.xml#n1010poemes">10<hi rend="sup">10</hi> poèmes</title> sont au <orgName ref="../thesauri/organizations.xml#sicob">SICOB</orgName></p>
-      <p>Remercions et félicitons <persName ref="../thesauri/persons.xml#pf">Fournel</persName>.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>R.Q.</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> Suites du livre =</p>
+      <p>– <persName ref="#erval">Erval</persName> optimiste sur le livre.</p>
+      <p>– <persName ref="#laclos">Laclos</persName> continue à plagier l’Oulipo dans <title
+          ref="#lefigaro">le Figaro</title>. On cite divers exemples envoyés par des lecteurs</p>
+      <p><persName ref="#pf">Fournel</persName> : Distribution du numéro 2451 des <title
+          ref="#nouvelleslitteraires">Nouvelles littéraires</title> avec article de présentation
+        fait par <persName ref="#pf">Fournel</persName></p>
+      <p><persName ref="#pb">Braffort</persName> : pourquoi <orgName ref="#gallimard"
+          >Gallimard</orgName> n’organise-t-il pas au <orgName ref="#sicob">SICOB</orgName> une
+        réunion avec l’Oulipo.</p>
+      <p><persName ref="#rq">Queneau</persName> : C’est trop tard. Les <title ref="#n11poemes">10<hi
+            rend="sup">10</hi> poèmes</title> sont au <orgName ref="#sicob">SICOB</orgName></p>
+      <p>Remercions et félicitons <persName ref="#pf">Fournel</persName>.</p>
       <p><label type="rubrique">Érudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>  : à propos de <persName ref="../thesauri/persons.xml#pierrejeanremi">Pierre Jean Rémi</persName> (<persName ref="../thesauri/persons.xml#angemy">Angémy</persName>)</p>
-      <p>Le héros du livre <title ref="../thesauri/titles.xml#memoires">Mémoires</title> secrets pour servir à l’histoire du temps présents a fait une étude des thèmes de romans du XVIIIème.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> : à propos de <persName ref="#pierrejeanremi">Pierre Jean
+          Rémi</persName> (<persName ref="#angemy">Angémy</persName>)</p>
+      <p>Le héros du livre <title ref="#memoires">Mémoires</title> secrets pour servir à l’histoire
+        du temps présents a fait une étude des thèmes de romans du XVIIIème.</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : un mot sur <persName ref="../thesauri/persons.xml#rexstout">Rex Stout</persName> = <persName ref="../thesauri/persons.xml#giscard">Giscard</persName> aime <persName ref="../thesauri/persons.xml#rexstout">Rex Stout</persName></p>
+      <p><persName ref="#pb">Braffort</persName> : un mot sur <persName ref="#restout">Rex
+          Stout</persName> = <persName ref="#giscard">Giscard</persName> aime <persName
+          ref="#restout">Rex Stout</persName></p>
       <p>Quel rapport avec l’Oulipo ? Nul.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">J. Queval</persName> L’<term ref="../thesauri/terms.xml#antirime">antirime</term> =</p>
-      <p>Une définition = l’<term ref="../thesauri/terms.xml#antirime">antirime</term> est une non-rime qui acquiert un sens lorsqu’elle se substitue à la <term ref="../thesauri/terms.xml#rime">rime</term></p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : cette définition n’est pas celle qui avait été proposée à l’Oulipo : elle partait de l’<term ref="../thesauri/terms.xml#antiphoneme">antiphonème</term> qui ne peut être produit que par une machine. Un <term ref="../thesauri/terms.xml#phoneme">phonème</term> se définit par 4 traits qui peuvent être positifs ou négatifs.</p>
-      <p><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><del>Braffort</del></persName></p>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : plutôt d’accord avec <persName ref="../thesauri/persons.xml#jq">Queval</persName> : allusion aux derniers poèmes de <persName ref="../thesauri/persons.xml#rimbaud">Rimbaud</persName>, qui a fait de l’<term ref="../thesauri/terms.xml#antirime">antirime</term> sur ce modèle : singe, ange – cœur.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">Queval</persName> : Réponse : il trouve marrant rhume et rhume.</p>
+      <p><persName ref="#jq">J. Queval</persName> L’<term ref="#antirime">antirime</term> =</p>
+      <p>Une définition = l’<term ref="#antirime">antirime</term> est une non-rime qui acquiert un
+        sens lorsqu’elle se substitue à la <term ref="#rime">rime</term></p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : cette définition n’est pas celle qui avait été proposée à
+        l’Oulipo : elle partait de l’<term ref="#antiphoneme">antiphonème</term> qui ne peut être
+        produit que par une machine. Un <term ref="#phoneme">phonème</term> se définit par 4 traits
+        qui peuvent être positifs ou négatifs.</p>
+      <p><persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>.</p>
+      <p>
+        <persName ref="#pb"><del>Braffort</del></persName>
+      </p>
+      <p><persName ref="#jr">Roubaud</persName> : plutôt d’accord avec <persName ref="#jq"
+          >Queval</persName> : allusion aux derniers poèmes de <persName ref="#rimbaud"
+          >Rimbaud</persName>, qui a fait de l’<term ref="#antirime">antirime</term> sur ce modèle :
+        singe, ange – cœur.</p>
+      <p><persName ref="#jq">Queval</persName> : Réponse : il trouve marrant rhume et rhume.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f11.highres" n="11"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f12.highres" n="12"/>
       <p>19/9/74</p>
-      <p><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : <del>redéfini</del> c’est plutôt de la <term ref="../thesauri/terms.xml#parcerime"><unclear>parce</unclear>-rime</term> ou de la <term ref="../thesauri/terms.xml#quasirime">quasi-rime</term></p>
-      <p><persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> : critique la définition de l’<term ref="../thesauri/terms.xml#antiphoneme">antiphonème</term> de <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="../thesauri/persons.xml#rq">Queneau</persName> :</p>
+      <p><persName ref="#pb">Braffort</persName> : <del>redéfini</del> c’est plutôt de la <term
+          ref="#parcerime"><unclear>parce</unclear>-rime</term> ou de la <term ref="#quasirime"
+          >quasi-rime</term></p>
+      <p><persName ref="#le">Luc Etienne</persName> : critique la définition de l’<term
+          ref="#antiphoneme">antiphonème</term> de <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName></p>
+      <p><persName ref="#rq">Queneau</persName> :</p>
       <list type="unordered">
         <item>Faire rimer hallebarde avec miséricorde</item>
-        <item><persName ref="../thesauri/persons.xml#jq">Queval</persName> ne propose pas vraiment de l’Oulipo.</item>
-        <item>Il y a des <term ref="../thesauri/terms.xml#contrerimes">contrerimes</term> partout</item>
+        <item><persName ref="#jq">Queval</persName> ne propose pas vraiment de l’Oulipo.</item>
+        <item>Il y a des <term ref="#contrerimes">contrerimes</term> partout</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : rapports mal éclaircies entre <term ref="../thesauri/terms.xml#phoneme">phonème</term> et <term ref="../thesauri/terms.xml#rimes">rimes</term> rend difficile la définition de l’<term ref="../thesauri/terms.xml#antirime">antirime</term> à partir de l’<term ref="../thesauri/terms.xml#antiphoneme">antiphonème</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>  : accepte certaines objections – voudrait qu’on appelle <term ref="../thesauri/terms.xml#corimes">co-rimes</term> son <term ref="../thesauri/terms.xml#antirimes">anti-rimes</term></p>
-      <p><persName ref="../thesauri/persons.xml#pf">Fournel</persName> : <term ref="../thesauri/terms.xml#antirimes">antirimes</term> et <term ref="../thesauri/terms.xml#haikai">haïkaï</term></p>
+      <p><persName ref="#jr">Roubaud</persName> : rapports mal éclaircies entre <term ref="#phoneme"
+          >phonème</term> et <term ref="#rimes">rimes</term> rend difficile la définition de l’<term
+          ref="#antirime">antirime</term> à partir de l’<term ref="#antiphoneme"
+        >antiphonème</term>.</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName> : accepte certaines objections – voudrait qu’on appelle <term
+          ref="#corimes">co-rimes</term> son <term ref="#antirimes">anti-rimes</term></p>
+      <p><persName ref="#pf">Fournel</persName> : <term ref="#antirimes">antirimes</term> et <term
+          ref="#haikai">haïkaï</term></p>
       <list type="unordered">
-        <item>Rétablir des vrais <term ref="../thesauri/terms.xml#rimes">rimes</term> <note n="1" resp="editor">Lecture incertaine. « nèmes »/ « mêmes »</note> contre des faux <term ref="../thesauri/terms.xml#rimes">rimes</term></item>
+        <item>Rétablir des vrais <term ref="#rimes">rimes</term>
+          <note n="1" resp="editor">Lecture incertaine. « nèmes »/ « mêmes »</note> contre des faux
+            <term ref="#rimes">rimes</term></item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> = qu’est-ce qui permet de faire des <term ref="../thesauri/terms.xml#rimes">rimes</term> ? pourquoi pas <term ref="../thesauri/terms.xml#s7">S+7</term> avec un dictionnaire de <term ref="../thesauri/terms.xml#rimes">rimes</term></p>
-      <p>Il propose la <term ref="../thesauri/terms.xml#rimepalindromique">rime palindromique</term> : le roi s’habille chez Dior.</p>
+      <p><persName ref="#gp">Perec</persName> = qu’est-ce qui permet de faire des <term ref="#rimes"
+          >rimes</term> ? pourquoi pas <term ref="#s7">S+7</term> avec un dictionnaire de <term
+          ref="#rimes">rimes</term></p>
+      <p>Il propose la <term ref="#rimepalindromique">rime palindromique</term> : le roi s’habille
+        chez Dior.</p>
       <p>à Noël j’ai vu Léon.</p>
-      <p>Baptisée – la <term ref="../thesauri/terms.xml#palindrime">palindrime</term></p>
+      <p>Baptisée – la <term ref="#palindrime">palindrime</term></p>
       <p>Queneau on a examiné le canal</p>
-      <p>de l’urètre de <persName ref="../thesauri/persons.xml#lacan">Lacan</persName></p>
-      <p><persName ref="../thesauri/persons.xml#jr">Roubaud</persName> : Création Tissage</p>
+      <p>de l’urètre de <persName ref="#lacan">Lacan</persName></p>
+      <p><persName ref="#jr">Roubaud</persName> : Création Tissage</p>
       <list type="unordered">
-        <item>Utilise le principe du tissage à la main pour faire des <term ref="../thesauri/terms.xml#poemes">poèmes</term> dans les <term ref="../thesauri/terms.xml#poemes">poèmes</term></item>
+        <item>Utilise le principe du tissage à la main pour faire des <term ref="#poemes"
+            >poèmes</term> dans les <term ref="#poemes">poèmes</term></item>
       </list>
-      <p>Introduire un dessin dans le <term ref="../thesauri/terms.xml#poeme">poème</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#gp">Perec</persName> discussion sur ce principe</p>
-      <p>Propositions de diverses <term ref="../thesauri/terms.xml#combinaisons">combinaisons</term> avec alphabets inscrit dans un <term ref="../thesauri/terms.xml#poeme">poème</term>.</p>
-      <p><title ref="../thesauri/titles.xml#loulipotureducercle">l’oulipoture du cercle</title>.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">Queval</persName> : triple chimère. Remplacer « Alice » par homme de bonne volonté.</p>
+      <p>Introduire un dessin dans le <term ref="#poeme">poème</term>.</p>
+      <p><persName ref="#gp">Perec</persName> discussion sur ce principe</p>
+      <p>Propositions de diverses <term ref="#combinaisons">combinaisons</term> avec alphabets
+        inscrit dans un <term ref="#poeme">poème</term>.</p>
+      <p><title ref="#loulipotureducercle">l’oulipoture du cercle</title>.</p>
+      <p><persName ref="#jq">Queval</persName> : triple chimère. Remplacer « Alice » par homme de
+        bonne volonté.</p>
       <p>d’affaire.</p>
       <p>de paille.</p>
-      <p>mais ce n’est pas une chimère ! s’étonne <persName ref="../thesauri/persons.xml#gp">Perec</persName></p>
+      <p>mais ce n’est pas une chimère ! s’étonne <persName ref="#gp">Perec</persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f13.highres" n="13"/>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f14.highres" n="14"/>
       <p>19-9-74</p>
-      <p><persName ref="../thesauri/persons.xml#jl">Lescure</persName> : communication Au compte-rendu d’une réunion fractionnel comportant <persName ref="../thesauri/persons.xml#jl">Lescure</persName>, <persName ref="../thesauri/persons.xml#jb">Bens</persName>, <persName ref="../thesauri/persons.xml#jd">Duchateau</persName>, <persName ref="../thesauri/persons.xml#cb">Berge</persName>.</p>
+      <p><persName ref="#jl">Lescure</persName> : communication Au compte-rendu d’une réunion
+        fractionnel comportant <persName ref="#jl">Lescure</persName>, <persName ref="#jb"
+          >Bens</persName>, <persName ref="#jd">Duchateau</persName>, <persName ref="#cb"
+          >Berge</persName>.</p>
       <list type="unordered">
-        <item>Les problèmes de dissidence : <persName ref="../thesauri/persons.xml#jd">Duchateau</persName> est-il un dissident ? il veut des <term ref="../thesauri/terms.xml#structures">structures</term> nouvelles.</item>
+        <item>Les problèmes de dissidence : <persName ref="#jd">Duchateau</persName> est-il un
+          dissident ? il veut des <term ref="#structures">structures</term> nouvelles.</item>
       </list>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pf">Fournel</persName> : faire un Oulipo spécial pour permettre à <persName ref="../thesauri/persons.xml#jd">Duchateau</persName> de s’expliquer</item>
+        <item><persName ref="#pf">Fournel</persName> : faire un Oulipo spécial pour permettre à
+            <persName ref="#jd">Duchateau</persName> de s’expliquer</item>
       </list>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#rq">Queneau</persName> : en quoi nos réunions sont-elles moins animées que celles de jadis ?</item>
+        <item><persName ref="#rq">Queneau</persName> : en quoi nos réunions sont-elles moins animées
+          que celles de jadis ?</item>
       </list>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pb">Braffort</persName> : <persName ref="../thesauri/persons.xml#jd">Duchateau</persName> parce que le recrutement n’est pas conforme aux statuts.</item>
+        <item><persName ref="#pb">Braffort</persName> : <persName ref="#jd">Duchateau</persName>
+          parce que le recrutement n’est pas conforme aux statuts.</item>
       </list>
       <list type="unordered">
-        <item>Éclaircissements historiques sur les rapports entre Oulipo et <orgName ref="../thesauri/organizations.xml#pataphysique">Pataphysique</orgName>.</item>
+        <item>Éclaircissements historiques sur les rapports entre Oulipo et <orgName
+            ref="#pataphysique">Pataphysique</orgName>.</item>
       </list>
       <list type="unordered">
-        <item>Le problème <persName ref="../thesauri/persons.xml#la">Latis</persName> : différentes appréciations sur la proximité et l’œuvre de <persName ref="../thesauri/persons.xml#la">Latis</persName></item>
+        <item>Le problème <persName ref="#la">Latis</persName> : différentes appréciations sur la
+          proximité et l’œuvre de <persName ref="#la">Latis</persName></item>
       </list>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#rq">Queneau</persName> propose l’adoption des nouveaux statuts</item>
+        <item><persName ref="#rq">Queneau</persName> propose l’adoption des nouveaux statuts</item>
       </list>
-      <p>Arrivée de <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName>.</p>
-      <p>Le problème de la réponse. <persName ref="../thesauri/persons.xml#pb">Braffort</persName> et <persName ref="../thesauri/persons.xml#jl">Lescure</persName> sont chargés de rédiger la réponse</p>
-      <p>Le projet sera soumis à <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>. <persName ref="../thesauri/persons.xml#le">Et</persName> à <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>.</p>
+      <p>Arrivée de <persName ref="#na">Noël Arnaud</persName>.</p>
+      <p>Le problème de la réponse. <persName ref="#pb">Braffort</persName> et <persName ref="#jl"
+          >Lescure</persName> sont chargés de rédiger la réponse</p>
+      <p>Le projet sera soumis à <persName ref="#rq"><choice>
+            <abbr>RQ</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName>. <persName ref="#et">Et</persName> à <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>.</p>
       <list type="unordered">
         <item>Diverses propositions : admettre des nouveaux comme étrangers</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#rq"><abbr>R.Q.</abbr></persName> demande qu’on considère comme nul tout ce qu’a été dit sur le problème des dissidents.</p>
+      <p><persName ref="#rq"><choice>
+            <abbr>R.Q.</abbr>
+            <expan>Raymond Queneau</expan>
+          </choice></persName> demande qu’on considère comme nul tout ce qu’a été dit sur le
+        problème des dissidents.</p>
       <p>Il faut dire aux « dissidents » de venir s’expliquer.</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#gp">Perec</persName> propose d’inviter <persName ref="../thesauri/persons.xml#pascallaine">Pascal Lainé</persName> – <persName ref="../thesauri/persons.xml#rq">Queneau</persName> propose <persName ref="../thesauri/persons.xml#mauriceloi">Maurice Loi</persName></item>
+        <item><persName ref="#gp">Perec</persName> propose d’inviter <persName ref="#pascallaine"
+            >Pascal Lainé</persName> – <persName ref="#rq">Queneau</persName> propose <persName
+            ref="#mauriceloi">Maurice Loi</persName></item>
       </list>
-      <p>Prochaine réunion : jeudi 24 Octobre.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : jeudi 24 Octobre.</p>
     </body>
   </text>
 </TEI>

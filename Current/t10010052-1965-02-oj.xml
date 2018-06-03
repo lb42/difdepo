@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010052-1965-02-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010052-1965-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010052-1965-02-oj</idno> <title>Ordre de jour de <ref target="#t10010052-1965-02">la réunion Oulipo</ref> du <date when="1965-02-01">1 février 1965</date></title></bibl>
+        <bibl><idno>t10010052-1965-02-oj</idno> <title>Ordre de jour de <ref target="#t10010052-1965-02">la réunion Oulipo</ref> du <date when="1965-02-01">01/02/1965</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -35,11 +34,11 @@
       <p rend="incipit">Réunion du Gueule 1 Gueules 93 014</p>
       <p rend="incipit">(vulg : Vendredi 1er février 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p>INVITE D’HONNEUR : <persName ref="../thesauri/persons.xml#professeurgkreisel">Professeur G. Kreisel</persName> (Illogique mathématique)</p>
-      <p>ABSENCE EXCUSEES : <persName ref="../thesauri/persons.xml#be">Be</persName> (<persName ref="../thesauri/persons.xml#ns">ns</persName> + <persName ref="../thesauri/persons.xml#rge">rge</persName>) <persName ref="../thesauri/persons.xml#ab">Blavier</persName>, <persName ref="../thesauri/persons.xml#ams">Schmidt</persName>, <persName ref="../thesauri/persons.xml#na">Arnaud</persName></p>
+      <p>INVITE D’HONNEUR : <persName ref="#professeurgkreisel">Professeur G. Kreisel</persName> (Illogique mathématique)</p>
+      <p>ABSENCE EXCUSEES : <persName ref="#be">Be</persName> (<persName ref="#ns">ns</persName> + <persName ref="#rge">rge</persName>) <persName ref="#ab">Blavier</persName>, <persName ref="#ams">Schmidt</persName>, <persName ref="#na">Arnaud</persName></p>
       <p><label type="rubrique">ERUDITIONS</label></p>
       <list type="ordered">
-        <item><term ref="../thesauri/terms.xml#sonnet">Sonnet</term> de <persName ref="../thesauri/persons.xml#victorhugo">Victor Hugo</persName> – <persName ref="../thesauri/persons.xml#rq">R. Queneau</persName></item>
+        <item><term ref="#sonnet">Sonnet</term> de <persName ref="#victorhugo">Victor Hugo</persName> – <persName ref="#rq">R. Queneau</persName></item>
         <item/>
         <item/>
         <item/>
@@ -49,8 +48,8 @@
       </list>
       <p><label type="rubrique">CREATIONS</label></p>
       <list type="ordered">
-        <item><term ref="../thesauri/terms.xml#discrete">Discrète</term> <unclear>ouverte</unclear> au <persName ref="../thesauri/persons.xml#professeurkreisel">professeur Kreisel</persName> – <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>Y-a-t ’il des <term ref="../thesauri/terms.xml#mots">mots</term> « <term ref="../thesauri/terms.xml#generiques">génériques</term> ? » - <persName ref="../thesauri/persons.xml#gkreisel">G. Kreisel</persName></item>
+        <item><term ref="#discrete">Discrète</term> <unclear>ouverte</unclear> au <persName ref="#professeurkreisel">professeur Kreisel</persName> – <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+        <item>Y-a-t ’il des <term ref="#mots">mots</term> « <term ref="#generiques">génériques</term> ? » - <persName ref="#gkreisel">G. Kreisel</persName></item>
         <item/>
         <item/>
         <item/>
@@ -59,45 +58,45 @@
       </list>
       <p><label type="rubrique">ACTIONS</label></p>
       <list type="ordered">
-        <item><orgName ref="../thesauri/organizations.xml#lescerveauxreunis">Les Cerveaux réunis</orgName></item>
-        <item>Esclave pour <persName ref="../thesauri/persons.xml#jd">J. Duchateau</persName></item>
+        <item><orgName ref="#lescerveaureunis">Les Cerveaux réunis</orgName></item>
+        <item>Esclave pour <persName ref="#jd">J. Duchateau</persName></item>
         <item><ref>L’enregistrement de Verviers</ref> est-il un mythe ?</item>
-        <item><term ref="../thesauri/terms.xml#dieu">Dieu</term> est-il pop ?</item>
+        <item><term ref="#dieu">Dieu</term> est-il pop ?</item>
         <item>Visite de S.A</item>
         <item/>
         <item/>
-        <item><term ref="../thesauri/terms.xml#grilledeslibertes">Grille des libertés</term></item>
+        <item><term ref="#grilledeslibertes">Grille des libertés</term></item>
         <item>Prochain invité d’honneur</item>
-        <item>Prochaine réunion </item>
+        <item><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  </item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010052x/f18.highres" n="18"/>
       <p rend="incipit">OuLiPo</p>
       <p rend="incipit">Réunion du Gueule 1 Gueules 93 014</p>
       <p rend="incipit">(vulg : Vendredi 1er février 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p>INVITE D’HONNEUR : <persName ref="../thesauri/persons.xml#professeurgkreisel">Professeur G. Kreisel</persName> (Illogique mathématique)</p>
-      <p>ABSENCE EXCUSEES : <persName ref="../thesauri/persons.xml#be">Be</persName> (<persName ref="../thesauri/persons.xml#ns">ns</persName> + <persName ref="../thesauri/persons.xml#rge">rge</persName>) <persName ref="../thesauri/persons.xml#ab">Blavier</persName>, <persName ref="../thesauri/persons.xml#ams">Schmidt</persName>, <persName ref="../thesauri/persons.xml#na">Arnaud</persName></p>
-      <p>Et naturellement : Président : <persName ref="../thesauri/persons.xml#cb">Claude Berge</persName></p>
+      <p>INVITE D’HONNEUR : <persName ref="#professeurgkreisel">Professeur G. Kreisel</persName> (Illogique mathématique)</p>
+      <p>ABSENCE EXCUSEES : <persName ref="#be">Be</persName> (<persName ref="#ns">ns</persName> + <persName ref="#rge">rge</persName>) <persName ref="#ab">Blavier</persName>, <persName ref="#ams">Schmidt</persName>, <persName ref="#na">Arnaud</persName></p>
+      <p>Et naturellement : Président : <persName ref="#cb">Claude Berge</persName></p>
       <p><label type="rubrique">ERUDITIONS</label></p>
       <list type="ordered">
-        <item><term ref="../thesauri/terms.xml#sonnet">Sonnet</term> de <persName ref="../thesauri/persons.xml#victorhugo">Victor Hugo</persName> – <persName ref="../thesauri/persons.xml#rq">R. Queneau</persName></item>
+        <item><term ref="#sonnet">Sonnet</term> de <persName ref="#victorhugo">Victor Hugo</persName> – <persName ref="#rq">R. Queneau</persName></item>
       </list>
       <p><label type="rubrique">CREATIONS</label></p>
       <list type="ordered">
-        <item><term ref="../thesauri/terms.xml#discrete">Discrète</term> <unclear>ouverte</unclear> au <persName ref="../thesauri/persons.xml#professeurkreisel">professeur Kreisel</persName> – <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>Y-a-t ’il des <term ref="../thesauri/terms.xml#mots">mots</term> « <term ref="../thesauri/terms.xml#generiques">génériques</term> ? » - <persName ref="../thesauri/persons.xml#gkreisel">G. Kreisel</persName></item>
+        <item><term ref="#discrete">Discrète</term> <unclear>ouverte</unclear> au <persName ref="#professeurkreisel">professeur Kreisel</persName> – <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+        <item>Y-a-t ’il des <term ref="#mots">mots</term> « <term ref="#generiques">génériques</term> ? » - <persName ref="#gkreisel">G. Kreisel</persName></item>
         <item/>
       </list>
       <p><label type="rubrique">ACTIONS</label></p>
       <list type="ordered">
-        <item><orgName ref="../thesauri/organizations.xml#lescerveauxreunis">Les Cerveaux réunis</orgName> – <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>. (pour réunion élément de réponse à <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>)</item>
-        <item>Esclave pour <persName ref="../thesauri/persons.xml#jd">J. Duchateau</persName></item>
+        <item><orgName ref="#lescerveaureunis">Les Cerveaux réunis</orgName> – <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>. (pour réunion élément de réponse à <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>)</item>
+        <item>Esclave pour <persName ref="#jd">J. Duchateau</persName></item>
         <item><ref>L’enregistrement de Verviers</ref> est-il un mythe ?</item>
         <item>Dieu est-il pop ?</item>
         <item>Visite de S.A</item>
-        <item><term ref="../thesauri/terms.xml#grilledeslibertes">Grille des libertés</term></item>
+        <item><term ref="#grilledeslibertes">Grille des libertés</term></item>
         <item>Prochain invité d’honneur</item>
-        <item>Prochaine réunion : <name ref="../thesauri/events.xml#oulibasque" type="manif">Oulibasque</name>. Lundi 8 mars 1965</item>
+        <item><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : <name ref="#oulibasque" type="manif">Oulibasque</name>. Lundi 8 mars 1965</item>
       </list>
     </body>
   </text>

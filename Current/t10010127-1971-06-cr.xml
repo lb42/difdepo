@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010127-1971-06-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010127-1971-06-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,19 +17,19 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010127-1971-06-cr</idno> <meeting xml:id="t10010127-1971-06">
-          <date when="1971-06-01">1 juin 1971</date>
+          <date when="1971-06-01">01/06/1971</date>
           <placeName>chez François Le Lionnais</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ap"><abbr>AP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#la"><abbr>L</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#lu"><abbr>LU</abbr></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#ab"><choice><abbr>AB</abbr><expan>André Blavier</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName></item>
+            <item><persName ref="#la"><choice><abbr>L</abbr><expan>Latis</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -48,22 +47,22 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101279/f3.highres" n="3"/>
       <p rend="incipit">OULIPO</p>
       <p>Séance du 1 Juin 1971 à 11 h.</p>
-      <p>Présents : <persName ref="../thesauri/persons.xml#rq">Raymond Queneau</persName>, <persName ref="../thesauri/persons.xml#fll">François Le Lionnais</persName>, <persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName>, <persName ref="../thesauri/persons.xml#andrepolavier">André Polavier</persName>, <persName ref="../thesauri/persons.xml#pb">Paul Braffort</persName>, <persName ref="../thesauri/persons.xml#jq">Jean Queval</persName>, <persName ref="../thesauri/persons.xml#la">Latis</persName>, <persName ref="../thesauri/persons.xml#jr">Jacques Roubaud</persName>, <persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName>, <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName>.</p>
-      <p>Excusés : <persName ref="../thesauri/persons.xml#jl">Jean Lescure</persName>, <persName ref="../thesauri/persons.xml#jd">Jacques Duchâteau</persName>, <persName ref="../thesauri/persons.xml#gp">Georges Perec</persName></p>
-      <p>Invité d’honneur : <persName ref="../thesauri/persons.xml#jeantardieu">Jean Tardieu</persName></p>
+      <p>Présents : <persName ref="#rq">Raymond Queneau</persName>, <persName ref="#fll">François Le Lionnais</persName>, <persName ref="#mb">Marcel Bénabou</persName>, <persName ref="#andrepolavier">André Polavier</persName>, <persName ref="#pb">Paul Braffort</persName>, <persName ref="#jq">Jean Queval</persName>, <persName ref="#la">Latis</persName>, <persName ref="#jr">Jacques Roubaud</persName>, <persName ref="#pf">Paul Fournel</persName>, <persName ref="#le">Luc Etienne</persName>.</p>
+      <p>Excusés : <persName ref="#jl">Jean Lescure</persName>, <persName ref="#jd">Jacques Duchâteau</persName>, <persName ref="#gp">Georges Perec</persName></p>
+      <p>Invité d’honneur : <persName ref="#jeantardieu">Jean Tardieu</persName></p>
       <p>Madame Tyman, universitaire canadienne, assiste à la réunion précédant le repas.</p>
       <p>Communications et travaux :</p>
-      <p><persName ref="../thesauri/persons.xml#jq">Jean Queval</persName>  : Néologismes abstraits (<persName ref="../thesauri/persons.xml#gorwell">G. Orwell</persName>).</p>
+      <p><persName ref="#jq">Jean Queval</persName>  : Néologismes abstraits (<persName ref="#gorwell">G. Orwell</persName>).</p>
       <p>Création : Sonnet multiple.</p>
-      <p><persName ref="../thesauri/persons.xml#mb">Marcel Bénabou</persName> : Érudition : « Ave Maria » (Grand Larousse du XIXème siècle)</p>
-      <p><label>Création : Poème en tête-à-queue – <term ref="../thesauri/terms.xml#haikaisation">Haïkaïsation</term></label></p>
-      <p><persName ref="../thesauri/persons.xml#pf">Paul Fournel</persName> : Menus propos et badineries</p>
-      <p><persName ref="../thesauri/persons.xml#ab">André Blavier</persName> : Érudition : Poème alphabétique de <persName ref="../thesauri/persons.xml#philipert">Philipert</persName></p>
-      <p><persName ref="../thesauri/persons.xml#audebrand">Audebrand</persName> : Au bout de six mois – Les devoirs du mariage.</p>
-      <p><persName ref="../thesauri/persons.xml#guypatindemery">Guy Patin d’Emery</persName> : Les dégringoleurs de pantes (avec un a) 1904</p>
-      <p><persName ref="../thesauri/persons.xml#la">Latis</persName> : Communication administrative et phynancière.</p>
-      <p>Spectacle recommandé <date>Samedi à 15 heures</date>, 16 bis rue Lauriston :films de <persName ref="../thesauri/persons.xml#chaval">Chaval</persName></p>
-      <p><persName ref="../thesauri/persons.xml#fll">François Le Lionnais</persName> : Icogramme.</p>
+      <p><persName ref="#mb">Marcel Bénabou</persName> : Érudition : « Ave Maria » (Grand Larousse du XIXème siècle)</p>
+      <p><label>Création : Poème en tête-à-queue – <term ref="#haikaisation">Haïkaïsation</term></label> </p>
+      <p><persName ref="#pf">Paul Fournel</persName> : Menus propos et badineries</p>
+      <p><persName ref="#ab">André Blavier</persName> : Érudition : Poème alphabétique de <persName ref="#philipert">Philipert</persName></p>
+      <p><persName ref="#audebrand">Audebrand</persName> : Au bout de six mois – Les devoirs du mariage.</p>
+      <p><persName ref="#guypatindemery">Guy Patin d’Emery</persName> : Les dégringoleurs de pantes (avec un a) 1904</p>
+      <p><persName ref="#la">Latis</persName> : Communication administrative et phynancière.</p>
+      <p>Spectacle recommandé <date>Samedi à 15 heures</date>, 16 bis rue Lauriston :films de <persName ref="#chaval">Chaval</persName></p>
+      <p><persName ref="#fll">François Le Lionnais</persName> : Icogramme.</p>
       <p>Le président de séance</p>
       <p>L. Etienne</p>
     </body>

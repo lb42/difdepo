@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010177-1975-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010177-1975-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010177-1975-10-cv</idno> <title>Convocation à <ref target="#t10010177-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13 octobre 1975</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title></bibl>
+        <bibl><idno>t10010177-1975-10-cv</idno> <title>Convocation à <ref target="#t10010177-1975-10">une réunion Oulipo</ref>, envoyée le <date when="1975-10-13">13/10/1975</date> par <persName ref="#fll" role="expéditeur"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -34,17 +33,17 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010177c/f3.highres" n="3"/>
       <p rend="incipit">Boulogne sur Seine, le lundi 13 octobre 1975</p>
       <p>Chers brigadiers,</p>
-      <p>La prochaine réunion de l’Oulipo a été fixée au mardi 28 octobre vers 11h30.</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’Oulipo a été fixée au mardi 28 octobre vers 11h30.</p>
       <p>Notre ordre du jour est chargé.</p>
       <list type="ordered">
-        <item>Compte rendu du 8 octobre (<name ref="../thesauri/events.xml#europalia" type="manif">Europalia</name>- Bruxelles)</item>
-        <item>Préparation d’une <name ref="../thesauri/events.xml#nouvellemanifestationenfevriermars1976aucentrepompidou" type="manif">nouvelle manifestation (en février –mars 1976) au Centre Pompidou</name> <unclear>déloyal prolétaire</unclear></item>
-        <item>Distribution de photos, de <title ref="../thesauri/titles.xml#tablesdequeneleieff">tables de Queneleieff</title>, etc ;</item>
+        <item>Compte rendu du 8 octobre (<name ref="#europalia" type="manif">Europalia</name>- Bruxelles)</item>
+        <item>Préparation d’une <name ref="#nouvellemanifestationenfevriermars176aucentrepompidou" type="manif">nouvelle manifestation (en février –mars 1976) au Centre Pompidou</name> <unclear>déloyal prolétaire</unclear></item>
+        <item>Distribution de photos, de <title ref="#tablesdequeneleieff">tables de Queneleieff</title>, etc ;</item>
         <item>Questions diverses importantes</item>
         <item>Questions diverses sans importance</item>
       </list>
-      <p>En l’absence provisoire de sa secrétaire votre <persName ref="../thesauri/persons.xml#pf"><abbr>P. F.</abbr></persName> (et <persName ref="../thesauri/persons.xml#marieadele">Marie Adèle</persName>) vous seraient extrêmement reconnaissantes de leur faire connaître RAPIDEMENT et SANS FAUTE votre décision. Oulipiennement vôtre</p>
-      <p><persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
+      <p>En l’absence provisoire de sa secrétaire votre <persName ref="#pf"><choice><abbr>P. F.</abbr><expan>Paul Fournel</expan></choice></persName> (et <persName ref="#marieadele">Marie Adèle</persName>) vous seraient extrêmement reconnaissantes de leur faire connaître RAPIDEMENT et SANS FAUTE votre décision. Oulipiennement vôtre</p>
+      <p><persName ref="#fll">F. Le Lionnais</persName></p>
     </body>
   </text>
 </TEI>

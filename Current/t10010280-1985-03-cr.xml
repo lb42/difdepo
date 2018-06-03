@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010280-1985-03-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010280-1985-03-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +17,16 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010280-1985-03-cr</idno> <meeting xml:id="t10010280-1985-03">
-          <date when="1985-03-29">29 mars 1985</date>
+          <date when="1985-03-29">29/03/1985</date>
           <placeName>Chez PB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf" role="président"><abbr>PF</abbr></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></item>
+            <item><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName></item>
+            <item><persName ref="#pf" role="président"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -47,7 +46,7 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f3.highres" n="3"/>
-      <p rend="incipit">Oulipo 29/03/85 chez <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Oulipo 29/03/85 chez <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName></p>
       <p rend="incipit">Menu :</p>
       <p rend="incipit">cœurs d’artichauts</p>
       <p rend="incipit">hors d’œuvres variés</p>
@@ -55,49 +54,49 @@
       <p rend="incipit">rôti petits pois et pommes de terre nouvelles</p>
       <p rend="incipit">fromages</p>
       <p rend="incipit">fruits</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> (Président), <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>.</p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#pr"><abbr>PR</abbr></persName>, <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> (lecture d’une lettre)</p>
+      <p rend="incipit">Présents : <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> (Président), <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName>, <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>.</p>
+      <p rend="incipit">Excusés : <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>, <persName ref="#pr"><choice><abbr>PR</abbr><expan>Pierre Rosenstiehl</expan></choice></persName>, <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName> (lecture d’une lettre)</p>
       <p><label type="rubrique">Propos d’apéro</label></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : distribution des exemplaires de la <title ref="../thesauri/titles.xml#nbj">NBJ</title> (<title ref="../thesauri/titles.xml#nouvellebarredujour">Nouvelle Barre du Jour</title>)</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : à propos des<name ref="../thesauri/events.xml#immateriaux" type="manif">Immatériaux</name>, exposition à Beaubourg</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : Pourquoi y a-t-il un blanc après le nom de <persName ref="../thesauri/persons.xml#caroline">Caroline</persName></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : des nouvelles d’<persName ref="../thesauri/persons.xml#ic">Italo Calvino</persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : distribution des exemplaires de la <title ref="#nbj">NBJ</title> (<title ref="#nouvellebarredujour">Nouvelle Barre du Jour</title>)</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : à propos des <name ref="#immateriau" type="manif">Immatériaux</name>, exposition à Beaubourg</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : Pourquoi y a-t-il un blanc après le nom de <persName ref="#caroline">Caroline</persName></p>
+      <p><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : des nouvelles d’<persName ref="#ic">Italo Calvino</persName></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : <title ref="../thesauri/titles.xml#leduellitteraire">le duel littéraire</title> (<persName ref="../thesauri/persons.xml#robwittig">Rob Wittig</persName>, <title ref="../thesauri/titles.xml#codeoftheliteraryduel">Code of the Literary Duel</title>)</p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : une proposition de <persName ref="../thesauri/persons.xml#gp">G. Perec</persName> : les <term ref="../thesauri/terms.xml#genitifsrecessifs">génitifs récessifs</term> = recherche à faire</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Présentation du projet de « <title ref="../thesauri/titles.xml#guide">Guide</title> »</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : souhaite que le <term ref="../thesauri/terms.xml#systeme">système</term> soit moins scolaire</p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : <title ref="../thesauri/titles.xml#lesymetriquedulcerations">le symétrique d’ulcérations</title> (archives) « <title ref="../thesauri/titles.xml#letresuperieur">l’être supérieur</title> » <persName ref="../thesauri/persons.xml#roselmit">Roselmit</persName></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : <title ref="#leduellitteraire">le duel littéraire</title> (<persName ref="#robwittig">Rob Wittig</persName>, <title ref="#codeoftheliteraryduel">Code of the Literary Duel</title>)</p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : une proposition de <persName ref="#gp">G. Perec</persName> : les <term ref="#genitifsrecessifs">génitifs récessifs</term> = recherche à faire</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Présentation du projet de « <title ref="#guide">Guide</title> »</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : souhaite que le <term ref="#systeme">système</term> soit moins scolaire</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : <title ref="#lesymetriquedulcerations">le symétrique d’ulcérations</title> (archives) « <title ref="#letresuperieur">l’être supérieur</title> » <persName ref="#roselmit">Roselmit</persName></p>
       <p>Félicitations</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : une création de <persName ref="../thesauri/persons.xml#jferon">J. Féron</persName> « <title ref="../thesauri/titles.xml#epouvantail">Épouvantail</title> » <term ref="../thesauri/terms.xml#variations">variations</term></p>
-      <p><label type="rubrique"><name ref="../thesauri/events.xml#oulipovilleneuve" type="manif">Oulipo Villeneuve</name></label></p>
-      <p>Proposés : <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> ( ?), <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> du 7 au 12 juillet</p>
-      <p><label type="rubrique"><title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></label></p>
-      <p>PF : 2 volumes de <persName ref="../thesauri/persons.xml#jq"><abbr>J.Q.</abbr></persName></p>
-      <p>Pli de la lettre de <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName> : 50 ex Hors Série</p>
-      <p><label type="rubrique"><name ref="../thesauri/events.xml#limoges" type="manif">Limoges</name> : Compte rendu de <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> et <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></label></p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> demande qu’on ait le droit de séparer les stagiaires</p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : « … n’est pas des marchands de cochons » : refuser de passer à la Télé</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : une création de <persName ref="#jferon">J. Féron</persName> « <title ref="#epouvantail">Épouvantail</title> » <term ref="#variations">variations</term></p>
+      <p> <label type="rubrique"><name ref="#oulipovilleneuve" type="manif">Oulipo Villeneuve</name></label> </p>
+      <p>Proposés : <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName>, <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>, <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> ( ?), <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> du 7 au 12 juillet</p>
+      <p> <label type="rubrique"><title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></label> </p>
+      <p>PF : 2 volumes de <persName ref="#jq"><choice><abbr>J.Q.</abbr><expan>Jean Queval</expan></choice></persName></p>
+      <p>Pli de la lettre de <persName ref="#le">Luc Etienne</persName> : 50 ex Hors Série</p>
+      <p> <label type="rubrique"><name ref="#limoges" type="manif">Limoges</name> : Compte rendu de <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> et <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></label> </p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> demande qu’on ait le droit de séparer les stagiaires</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : « … n’est pas des marchands de cochons » : refuser de passer à la Télé</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : proposition de l’Université de Pavia</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : proposition de <persName ref="../thesauri/persons.xml#ericbeaumartin">Eric Beaumartin</persName> pour un <name ref="../thesauri/events.xml#stageavitria" type="manif">stage à Vitria</name></p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : proposition de l’Université de Pavia</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : proposition de <persName ref="#ericbeaumartin">Eric Beaumartin</persName> pour un <name ref="#stageavitria" type="manif">stage à Vitria</name></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> – <title ref="../thesauri/titles.xml#unhommedelettres">un homme de lettres</title> (<ref>copie réussie</ref>)</p>
+      <p><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> – <title ref="#unhommedelettres">un homme de lettres</title> (<ref>copie réussie</ref>)</p>
       <list type="unordered">
-        <item><title ref="../thesauri/titles.xml#unecurieuseexposition">une curieuse exposition</title> (<ref>copie réussie</ref>)</item>
-        <item><title ref="../thesauri/titles.xml#mabouliteholorimeuse">Maboulite holorimeuse</title> (<persName ref="../thesauri/persons.xml#aallais">A. Allais</persName>) (génial) (<ref>copie réussie</ref>)</item>
-        <item><title ref="../thesauri/titles.xml#tragedieclassique">Tragédie classique</title> (<persName ref="../thesauri/persons.xml#rdubillard">R. Dubillard</persName>) (génial) (<ref>copie réussie</ref>)</item>
+        <item><title ref="#unecurieuseeposition">une curieuse exposition</title> (<ref>copie réussie</ref>)</item>
+        <item><title ref="#mabouliteholorimeuse">Maboulite holorimeuse</title> (<persName ref="#aallais">A. Allais</persName>) (génial) (<ref>copie réussie</ref>)</item>
+        <item><title ref="#tragedieclassique">Tragédie classique</title> (<persName ref="#rdubillard">R. Dubillard</persName>) (génial) (<ref>copie réussie</ref>)</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> <term ref="../thesauri/terms.xml#tireuralalignemusicale">Tireur à la ligne musicale</term></p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> <term ref="#tireuralalignemusicale">Tireur à la ligne musicale</term></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f4.highres" n="4"/>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="../thesauri/persons.xml#brasillach">Brasillach</persName>, <title ref="../thesauri/titles.xml#n8septcouleurs">8 sept couleurs</title></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : extrait des travaux de <persName ref="../thesauri/persons.xml#laurentchabin">Laurent Chabin</persName></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <persName ref="#brasillach">Brasillach</persName>, <title ref="#n8septcouleurs">8 sept couleurs</title></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : extrait des travaux de <persName ref="#laurentchabin">Laurent Chabin</persName></p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : <persName ref="../thesauri/persons.xml#aristote">Aristote</persName>, dieu oulipiste.</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : Traduction de <title ref="../thesauri/titles.xml#viemodedemploi">Vie Mode d’Emploi</title></p>
-      <p><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName> : Numéro spécial <title ref="../thesauri/titles.xml#plainchant">Plain-Chant</title> sur <persName ref="../thesauri/persons.xml#ab">Blavier</persName></p>
-      <p>Prochaine réunion : Vendredi 26/4 <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p><name ref="../thesauri/events.xml#ande" type="manif">Andé</name>16 Mai</p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : <persName ref="#aristote">Aristote</persName>, dieu oulipiste.</p>
+      <p><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName> : Traduction de <title ref="#viemodedemploi">Vie Mode d’Emploi</title></p>
+      <p><persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName> : Numéro spécial <title ref="#plainchant">Plain-Chant</title> sur <persName ref="#ab">Blavier</persName></p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  : Vendredi 26/4 <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></p>
+      <p><name ref="#ande" type="manif">Andé</name>16 Mai</p>
     </body>
   </text>
 </TEI>

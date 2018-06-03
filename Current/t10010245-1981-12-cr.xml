@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010245-1981-12-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010245-1981-12-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,13 +17,13 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010245-1981-12-cr</idno> <meeting xml:id="t10010245-1981-12">
-          <date when="1981-12-11">11 décembre 1981</date>
+          <date when="1981-12-11">11/12/1981</date>
           <placeName>chez PB</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf" role="président"><abbr>PF</abbr></persName></item>
+            <item><persName ref="#jl"><choice><abbr>JL</abbr><expan>Jean Lescure</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName></item>
+            <item><persName ref="#pf" role="président"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -43,42 +42,42 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010245m/f2.highres" n="2"/>
-      <p rend="incipit">11.12.81. chez <persName ref="../thesauri/persons.xml#pb">Braffort</persName>.</p>
+      <p rend="incipit">11.12.81. chez <persName ref="#pb">Braffort</persName>.</p>
       <p rend="incipit">Présents.</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jl">Lescure</persName></item>
-        <item><persName ref="../thesauri/persons.xml#jr">Roubaud</persName></item>
-        <item><persName ref="../thesauri/persons.xml#pb">Braffort</persName></item>
-        <item><persName ref="../thesauri/persons.xml#pf">Fournel</persName></item>
-        <item><persName ref="../thesauri/persons.xml#mm">Metail</persName>.</item>
+        <item><persName ref="#jl">Lescure</persName></item>
+        <item><persName ref="#jr">Roubaud</persName></item>
+        <item><persName ref="#pb">Braffort</persName></item>
+        <item><persName ref="#pf">Fournel</persName></item>
+        <item><persName ref="#mm">Metail</persName>.</item>
       </list>
       <p rend="incipit">Excusés.</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jb">Bens</persName></item>
-        <item><persName ref="../thesauri/persons.xml#gp">Perec</persName></item>
-        <item><persName ref="../thesauri/persons.xml#jd">Duchâteau</persName></item>
-        <item><persName ref="../thesauri/persons.xml#le">Etienne</persName></item>
-        <item><persName ref="../thesauri/persons.xml#jq">Queval</persName>.</item>
-        <item><persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName></item>
-        <item><persName ref="../thesauri/persons.xml#cb">Berge</persName>.</item>
-        <item><persName ref="../thesauri/persons.xml#mb">Benabou</persName>.</item>
+        <item><persName ref="#jb">Bens</persName></item>
+        <item><persName ref="#gp">Perec</persName></item>
+        <item><persName ref="#jd">Duchâteau</persName></item>
+        <item><persName ref="#le">Etienne</persName></item>
+        <item><persName ref="#jq">Queval</persName>.</item>
+        <item><persName ref="#fll">Le Lionnais</persName></item>
+        <item><persName ref="#cb">Berge</persName>.</item>
+        <item><persName ref="#mb">Benabou</persName>.</item>
       </list>
-      <p>– <persName ref="../thesauri/persons.xml#giordanobruno">Giordano Bruno</persName> et l’Oulipo. <persName ref="../thesauri/persons.xml#jr">J. Roubaud</persName>.</p>
-      <p><term ref="../thesauri/terms.xml#plagiatparanticipation">Plagiat par anticipation</term>. <term ref="../thesauri/terms.xml#versrapportes">Vers rapportés</term>. (<term ref="../thesauri/terms.xml#miseenfacteur">mise en facteur</term>.). La <term ref="../thesauri/terms.xml#prose">prose</term> de <persName ref="../thesauri/persons.xml#gbruno">G. Bruno</persName> est calculée numériquement, selon ce principe.</p>
-      <p>Cf. <term ref="../thesauri/terms.xml#algorithmedemathews">algorithme de Mathews</term></p>
-      <p>– <persName ref="../thesauri/persons.xml#pb">Braffort</persName> : le <term ref="../thesauri/terms.xml#romanpolicierplagie">roman policier plagié</term>.</p>
-      <p>A partir de chefs-d’œuvre du <term ref="../thesauri/terms.xml#romanpolicier">roman policier</term>. <title ref="../thesauri/titles.xml#lacotedesdieux">La Côte des Dieux</title>. <persName ref="../thesauri/persons.xml#pfrondey">P. Frondey</persName>. « remake » d’<persName ref="../thesauri/persons.xml#andremage">André Mage</persName>.</p>
-      <p>– <persName ref="../thesauri/persons.xml#pf">Fournel</persName>. « <title ref="../thesauri/titles.xml#unabsentdemarque">Un absent de marque</title> ». Questions de commentaires de textes, sans texte.</p>
+      <p>– <persName ref="#giordanobruno">Giordano Bruno</persName> et l’Oulipo. <persName ref="#jr">J. Roubaud</persName>.</p>
+      <p><term ref="#plagiatparanticipation">Plagiat par anticipation</term>. <term ref="#versrapportes">Vers rapportés</term>. (<term ref="#miseenfacteur">mise en facteur</term>.). La <term ref="#prose">prose</term> de <persName ref="#gbruno">G. Bruno</persName> est calculée numériquement, selon ce principe.</p>
+      <p>Cf. <term ref="#algorithmedemathews">algorithme de Mathews</term></p>
+      <p>– <persName ref="#pb">Braffort</persName> : le <term ref="#romanpolicierplagie">roman policier plagié</term>.</p>
+      <p>A partir de chefs-d’œuvre du <term ref="#romanpolicier">roman policier</term>. <title ref="#lacotedesdieu">La Côte des Dieux</title>. <persName ref="#pfrondey">P. Frondey</persName>. « remake » d’<persName ref="#andremage">André Mage</persName>.</p>
+      <p>– <persName ref="#pf">Fournel</persName>. « <title ref="#unabsentdemarque">Un absent de marque</title> ». Questions de commentaires de textes, sans texte.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010245m/f3.highres" n="3"/>
-      <p>– <persName ref="../thesauri/persons.xml#pb">Braffort</persName>. <persName ref="../thesauri/persons.xml#ic">Calvino</persName>.</p>
-      <p>Travail sur <title ref="../thesauri/titles.xml#petitecosmogonie">petite cosmogonie</title>. Il reste 5 choses à trouver.</p>
-      <p>– <persName ref="../thesauri/persons.xml#jl">Lescure</persName>. Poème du XVIIIème. En <term ref="../thesauri/terms.xml#baba">b.a.ba.</term></p>
-      <p><persName ref="../thesauri/persons.xml#charpentreau">Charpentreau</persName>. auteur de poèmes d’enfants. « <title ref="../thesauri/titles.xml#lemystereenfleur">le mystère en fleur</title> ». Livre pédagogique pour enfants. Cite l’oulipo.</p>
-      <p><orgName ref="../thesauri/organizations.xml#ecoledenamur">Ecole de Namur</orgName>. Traces d’oulipisme.</p>
-      <p>– <persName ref="../thesauri/persons.xml#jlchautemps">J. L. Chautemps</persName>. saxophoniste.</p>
-      <p>– <name ref="../thesauri/events.xml#villeneuve" type="manif">Villeneuve</name>. Prestations à Pâques. Juillet.</p>
-      <p>– Création d’un réseau informatique <orgName ref="../thesauri/organizations.xml#alamo">Alamo</orgName>. Paris. Avignon. Toulouse.</p>
-      <p>– <title ref="../thesauri/titles.xml#dictionnairedelinformatique">Dictionnaire de l’informatique</title>. <orgName ref="../thesauri/organizations.xml#larousse">Larousse</orgName>.</p>
+      <p>– <persName ref="#pb">Braffort</persName>. <persName ref="#ic">Calvino</persName>.</p>
+      <p>Travail sur <title ref="#petitecosmogonie">petite cosmogonie</title>. Il reste 5 choses à trouver.</p>
+      <p>– <persName ref="#jl">Lescure</persName>. Poème du XVIIIème. En <term ref="#baba">b.a.ba.</term></p>
+      <p><persName ref="#charpentreau">Charpentreau</persName>. auteur de poèmes d’enfants. « <title ref="#lemystereenfleur">le mystère en fleur</title> ». Livre pédagogique pour enfants. Cite l’oulipo.</p>
+      <p><orgName ref="#ecoledenamur">Ecole de Namur</orgName>. Traces d’oulipisme.</p>
+      <p>– <persName ref="#jlchautemps">J. L. Chautemps</persName>. saxophoniste.</p>
+      <p>– <name ref="#villeneuve" type="manif">Villeneuve</name>. Prestations à Pâques. Juillet.</p>
+      <p>– Création d’un réseau informatique <orgName ref="#alamo">Alamo</orgName>. Paris. Avignon. Toulouse.</p>
+      <p>– <title ref="#dictionnairedelinformatique">Dictionnaire de l’informatique</title>. <orgName ref="#larousse">Larousse</orgName>.</p>
       <p>article art et ordinateur. oulipo cité.</p>
     </body>
   </text>

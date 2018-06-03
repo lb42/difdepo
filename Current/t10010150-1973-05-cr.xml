@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010150-1973-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010150-1973-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +17,15 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010150-1973-05-cr</idno> <meeting xml:id="t10010150-1973-05">
-          <date when="1973-05-09">9 mai 1973</date>
+          <date when="1973-05-09">09/05/1973</date>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ernestcoumet" role="invité">Ernest Coumet</persName></item>
+            <item><persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName></item>
+            <item><persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName></item>
+            <item><persName ref="#le"><choice><abbr>LE</abbr><expan>Luc Etienne</expan></choice></persName></item>
+            <item><persName ref="#ic"><choice><abbr>IC</abbr><expan>Italo Calvino</expan></choice></persName></item>
+            <item><persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#ernestcoumet" role="invité">Ernest Coumet</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -45,23 +44,23 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010150d/f2.highres" n="2"/>
       <p rend="incipit">OuLiPo Séance du 9/5/73</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="../thesauri/persons.xml#le">Luc Etienne</persName>, <persName ref="../thesauri/persons.xml#ic">Calvino</persName>, <persName ref="../thesauri/persons.xml#hm">Mathews</persName>, <persName ref="../thesauri/persons.xml#mb">Bénabou</persName></p>
+      <p rend="incipit">Présents : <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName>, <persName ref="#fll"><choice><abbr>FLL</abbr><expan>François Le Lionnais</expan></choice></persName>, <persName ref="#le">Luc Etienne</persName>, <persName ref="#ic">Calvino</persName>, <persName ref="#hm">Mathews</persName>, <persName ref="#mb">Bénabou</persName></p>
       <list type="unordered">
-        <item>Présentation par <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName> du justificatif : beau volume</item>
+        <item>Présentation par <persName ref="#rq"><choice><abbr>RQ</abbr><expan>Raymond Queneau</expan></choice></persName> du justificatif : beau volume</item>
         <item>Règlement de quelques questions concernent les services de presse.</item>
-        <item>Préparatif des réponses aux questions de <orgName ref="../thesauri/organizations.xml#reidhall">Reid Hall</orgName></item>
+        <item>Préparatif des réponses aux questions de <orgName ref="#reidhall">Reid Hall</orgName></item>
         <item>(peut-être)</item>
       </list>
-      <p>17 Mai <persName ref="../thesauri/persons.xml#escher">Escher</persName></p>
+      <p>17 Mai <persName ref="#escher">Escher</persName></p>
       <p><label type="rubrique">Création :</label></p>
-      <p><persName ref="../thesauri/persons.xml#harry"><abbr>Harry</abbr></persName></p>
-      <p><term ref="../thesauri/terms.xml#poesieautonymique">Poésie autonymique</term> = pousser jusqu’au bout en inversant aussi bien les articles, les temps du verbe, les mots outils.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p><persName ref="#hm"><choice><abbr>Harry</abbr><expan>Harry Mathews</expan></choice></persName></p>
+      <p><term ref="#poesieautonymique">Poésie autonymique</term> = pousser jusqu’au bout en inversant aussi bien les articles, les temps du verbe, les mots outils.</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></p>
       <list type="unordered">
-        <item><term ref="../thesauri/terms.xml#autonymiesemantique">Autonymie sémantique</term> = l’envers du <term ref="../thesauri/terms.xml#mythedodipe">mythe d’Œdipe</term>.</item>
-        <item>Lecture d’un extrait de roman de <persName ref="../thesauri/persons.xml#poincare">Poincaré</persName></item>
+        <item><term ref="#autonymiesemantique">Autonymie sémantique</term> = l’envers du <term ref="#mythedodipe">mythe d’Œdipe</term>.</item>
+        <item>Lecture d’un extrait de roman de <persName ref="#poincare">Poincaré</persName></item>
       </list>
-      <p>Départ en taxi pour <orgName ref="../thesauri/organizations.xml#reidhall">Reid Hall</orgName></p>
+      <p>Départ en taxi pour <orgName ref="#reidhall">Reid Hall</orgName></p>
       <p>4 Rue de Chevreuse Paris</p>
     </body>
   </text>

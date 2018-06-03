@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010036-1963-10-31-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010036-1963-10-31-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +17,47 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010036-1963-10-31-cr</idno> <meeting xml:id="t10010036-1963-10-31">
-          <date when="1963-10-31">31 octobre 1963</date>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#la"><abbr>L</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ab" role="président"><abbr>AB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#lesclaveleclech" role="invité">L'esclave Leclech</persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010036-1963-10-31-cr</idno>
+          <meeting xml:id="t10010036-1963-10-31">
+            <date when="1963-10-31">31/10/1963</date>
+            <list type="present">
+              <item><persName ref="#jl"><choice>
+                    <abbr>JL</abbr>
+                    <expan>Jean Lescure</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#la"><choice>
+                    <abbr>L</abbr>
+                    <expan>Latis</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jd"><choice>
+                    <abbr>JD</abbr>
+                    <expan>Jacques Duchateau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#ab" role="président"><choice>
+                    <abbr>AB</abbr>
+                    <expan>André Blavier</expan>
+                  </choice></persName></item>
+              <item><persName ref="#lesclaveleclech" role="invité">L'esclave
+                Leclech</persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -49,134 +76,247 @@
       <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE <lb/></p>
       <p rend="incipit">Circulaire n°39</p>
       <p rend="incipit">COMPTE-RENDU DU 31 OCTOBRE 1963</p>
-      <p rend="incipit">PRESENTS : <persName ref="../thesauri/persons.xml#jl">Lescure</persName>, <persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName>, <persName ref="../thesauri/persons.xml#la">Latis</persName>, <persName ref="../thesauri/persons.xml#jq">Queval</persName>/2, <persName ref="../thesauri/persons.xml#rq">Queneau</persName>, <persName ref="../thesauri/persons.xml#jd">Duchateau</persName>, <persName ref="../thesauri/persons.xml#na">Arnaud</persName>.</p>
-      <p rend="incipit">ABSENTS : <persName ref="../thesauri/persons.xml#jq">Queval</persName>/2, <persName ref="../thesauri/persons.xml#cb">Berge</persName>, <persName ref="../thesauri/persons.xml#jb">Bens</persName>, <persName ref="../thesauri/persons.xml#ams">Schmidt</persName>.</p>
-      <p rend="incipit">INVITE (au dessert) : L’esclave <persName ref="../thesauri/persons.xml#leclech">Leclech</persName>.</p>
-      <p rend="incipit">PRESIDENT : <persName ref="../thesauri/persons.xml#ab">BLAVIER</persName>.</p>
-      <p>En attendant l’arrivée de <persName ref="../thesauri/persons.xml#ab">Blavier</persName>, quelques idées générales sont échangées.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : « J’ai reçu une lettre d’admiratrice ».</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Un sot trouve toujours un puceau qui l’admire.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : « Dans la lettre on me dit que je suis mort. La lettre était accompagnée d’un bouquet de chrysanthèmes.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : « Tu les as reçus » ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Tu as un jardin ?</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Oui.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : C’est toi, c’est lui, les chrysanthèmes venaient d’un jardin.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> (lisant la lettre) : D’après l’écriture ce serait… (censuré).</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Je vais vous donner une définition de la <term ref="../thesauri/terms.xml#philosophie">philosophie</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : Ah, enfin.</p>
+      <p rend="incipit">PRESENTS : <persName ref="#jl">Lescure</persName>, <persName ref="#fll">Le
+          Lionnais</persName>, <persName ref="#la">Latis</persName>, <persName ref="#jq"
+          >Queval</persName>/2, <persName ref="#rq">Queneau</persName>, <persName ref="#jd"
+          >Duchateau</persName>, <persName ref="#na">Arnaud</persName>.</p>
+      <p rend="incipit">ABSENTS : <persName ref="#jq">Queval</persName>/2, <persName ref="#cb"
+          >Berge</persName>, <persName ref="#jb">Bens</persName>, <persName ref="#ams"
+          >Schmidt</persName>.</p>
+      <p rend="incipit">INVITE (au dessert) : L’esclave <persName ref="#leclech"
+        >Leclech</persName>.</p>
+      <p rend="incipit">PRESIDENT : <persName ref="#ab">BLAVIER</persName>.</p>
+      <p>En attendant l’arrivée de <persName ref="#ab">Blavier</persName>, quelques idées générales
+        sont échangées.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : « J’ai reçu une lettre d’admiratrice ».</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Un sot trouve toujours un puceau qui
+        l’admire.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : « Dans la lettre on me dit que je suis mort. La
+        lettre était accompagnée d’un bouquet de chrysanthèmes.</p>
+      <p><persName ref="#jl">LESCURE</persName> : « Tu les as reçus » ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Tu as un jardin ?</p>
+      <p><persName ref="#jl">LESCURE</persName> : Oui.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : C’est toi, c’est lui, les chrysanthèmes venaient
+        d’un jardin.</p>
+      <p><persName ref="#jl">LESCURE</persName> (lisant la lettre) : D’après l’écriture ce serait…
+        (censuré).</p>
+      <p><persName ref="#la">LATIS</persName> : Je vais vous donner une définition de la <term
+          ref="#philosophie">philosophie</term>.</p>
+      <p><persName ref="#jb">BENS</persName> : Ah, enfin.</p>
       <p>Quelques voix (charitables) : Artung, artung.</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Je vous ai compris (voir <ref>compte-rendu n°28</ref>).</p>
-      <p>Arrivée de <persName ref="../thesauri/persons.xml#ab">Blavier</persName>. On passe aux choses sérieuses.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : T’es Président.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : J’apporte des tartes.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Voici l’ordre du jour.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : J’ai apporté des tartes.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Président, présidez.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : Je donne la parole à <persName ref="../thesauri/persons.xml#rq">Queneau</persName> (il l’a demandée).</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : …</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Articule.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : C’est vert, mais juste.</p>
+      <p><persName ref="#la">LATIS</persName> : Je vous ai compris (voir <ref>compte-rendu
+          n°28</ref>).</p>
+      <p>Arrivée de <persName ref="#ab">Blavier</persName>. On passe aux choses sérieuses.</p>
+      <p><persName ref="#jl">LESCURE</persName> : T’es Président.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : J’apporte des tartes.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Voici l’ordre du jour.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : J’ai apporté des tartes.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Président, présidez.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : Je donne la parole à <persName ref="#rq"
+          >Queneau</persName> (il l’a demandée).</p>
+      <p><persName ref="#rq">QUENEAU</persName> : …</p>
+      <p><persName ref="#jl">LESCURE</persName> : Articule.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : C’est vert, mais juste.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010036w/f7.highres" n="7"/>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : J’ai fait le <term ref="../thesauri/terms.xml#repertoire">répertoire</term> des travaux de l’OuLiPo.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : J’ai fait le <term ref="#repertoire"
+          >répertoire</term> des travaux de l’OuLiPo.</p>
       <p>(Voir <ref>Annexe I</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Grassassa on peut se mettre au <term ref="../thesauri/terms.xml#lexiqueoulipien">lexique oulipien</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Comme dans les grandes entreprises : un <term ref="../thesauri/terms.xml#inventairepermanent">inventaire permanent</term>. On demandera à un esclave d’établir une fiche pour chaque chose et vice versa. Il faudra deux sortes de fiches :</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Grassassa on peut se mettre au <term
+          ref="#leiqueoulipien">lexique oulipien</term>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Comme dans les grandes entreprises : un <term
+          ref="#inventairepermanent">inventaire permanent</term>. On demandera à un esclave
+        d’établir une fiche pour chaque chose et vice versa. Il faudra deux sortes de fiches :</p>
       <list type="ordered">
-        <item>description des <term ref="../thesauri/terms.xml#structures">structures</term> ;</item>
+        <item>description des <term ref="#structures">structures</term> ;</item>
         <item>les exemples.</item>
       </list>
       <p>Une voix : deux couleurs : ultra-violet et infra-rouge.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Pour la classification <persName ref="../thesauri/persons.xml#cb">Berge</persName> a des idées et moi les miennes. C’est pas toujours les mêmes. Je propose une commission : <persName ref="../thesauri/persons.xml#rq">Queneau</persName>, <persName ref="../thesauri/persons.xml#cb">Berge</persName> et moi.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : De cet inventaire il ressort qu’il y a ceux qui travaillent et les autres.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : J’ai pas mis de noms aux différentes contributions.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : La parole à <persName ref="../thesauri/persons.xml#rq">Queneau</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Je la garde ou je la prends ?</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : Vous n’avez plus la parole.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Je suis allé l’autre jour au séminaire de <term ref="../thesauri/terms.xml#linguistiquequantitative">linguistique quantitative</term> et là <persName ref="../thesauri/persons.xml#mrherauld">Mr. Hérauld</persName> m’a dit que le nombre de mots qui composent un <term ref="../thesauri/terms.xml#alexandrin">alexandrin</term> se retrouve avec constance chez un auteur pour un poème donné. Il existe des <term ref="../thesauri/terms.xml#alexandrins">alexandrins</term> de trois mots chez <persName ref="../thesauri/persons.xml#moliere">Molière</persName>. Cette répartition des mots, il pourrait être intéressant de la modifier. Je pense que d’une manière générale on pourrait dire que nous aurions deux catégories de travaux à envisager :</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Pour la classification <persName ref="#cb"
+          >Berge</persName> a des idées et moi les miennes. C’est pas toujours les mêmes. Je propose
+        une commission : <persName ref="#rq">Queneau</persName>, <persName ref="#cb"
+          >Berge</persName> et moi.</p>
+      <p><persName ref="#jl">LESCURE</persName> : De cet inventaire il ressort qu’il y a ceux qui
+        travaillent et les autres.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : J’ai pas mis de noms aux différentes
+        contributions.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : La parole à <persName ref="#rq"
+        >Queneau</persName>.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Je la garde ou je la prends ?</p>
+      <p><persName ref="#ab">BLAVIER</persName> : Vous n’avez plus la parole.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Je suis allé l’autre jour au <name ref="#seminairede" type="manif">séminaire de</name> <term
+          ref="#linguistiquequantitative">linguistique quantitative</term> et là <persName
+          ref="#mrherauld">Mr. Hérauld</persName> m’a dit que le nombre de mots qui composent un
+          <term ref="#aleandrin">alexandrin</term> se retrouve avec constance chez un auteur pour un
+        poème donné. Il existe des <term ref="#aleandrins">alexandrins</term> de trois mots chez
+          <persName ref="#moliere">Molière</persName>. Cette répartition des mots, il pourrait être
+        intéressant de la modifier. Je pense que d’une manière générale on pourrait dire que nous
+        aurions deux catégories de travaux à envisager :</p>
       <list type="ordered">
         <item>modifier ce dont l’auteur n’est pas conscient ;</item>
         <item>ce dont il est conscient.</item>
       </list>
       <p>Il s’agit-là de deux perspectives différentes.</p>
-      <p>Quelques minutes de méditations, puis <persName ref="../thesauri/persons.xml#jl">Lescure</persName>, ayant à faire face à une « attaque » Castelo-bensif au cours de laquelle il est accusé d’avoir fait venir <persName ref="../thesauri/persons.xml#jb">J. Bens</persName> à Paris huit jours trop tôt, raison de l’absence du dit <persName ref="../thesauri/persons.xml#jb">Bens</persName>, <persName ref="../thesauri/persons.xml#jl">Lescure</persName> contre-attaque grâce à l’appui de <persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName>, se fait applaudir pour le recrutement de l’esclave <persName ref="../thesauri/persons.xml#michelbernard">Michel Bernard</persName> et profitant de son avantage entreprend de nous lire <persName ref="../thesauri/persons.xml#stephanelupasco">Stéphane Lupasco</persName> : quelques commentaires (divers) : <persName ref="../thesauri/persons.xml#rq">Queneau</persName> : <persName ref="../thesauri/persons.xml#lupisco">Lupisco</persName> presque OuLiPo.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : C’est du <term ref="../thesauri/terms.xml#s7">S + 7</term> mais une fois décodé.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Deco ?</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Dé.</p>
+      <p>Quelques minutes de méditations, puis <persName ref="#jl">Lescure</persName>, ayant à faire
+        face à une « attaque » Castelo-bensif au cours de laquelle il est accusé d’avoir fait venir
+          <persName ref="#jb">J. Bens</persName> à Paris huit jours trop tôt, raison de l’absence du
+        dit <persName ref="#jb">Bens</persName>, <persName ref="#jl">Lescure</persName>
+        contre-attaque grâce à l’appui de <persName ref="#fll">Le Lionnais</persName>, se fait
+        applaudir pour le recrutement de l’esclave <persName ref="#michelbernard">Michel
+          Bernard</persName> et profitant de son avantage entreprend de nous lire <persName
+          ref="#stephanelupasco">Stéphane Lupasco</persName> : quelques commentaires (divers) :
+          <persName ref="#rq">Queneau</persName> : <persName ref="#lupisco">Lupisco</persName>
+        presque OuLiPo.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : C’est du <term ref="#s7">S + 7</term> mais
+        une fois décodé.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Deco ?</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Dé.</p>
       <p>Tous : Ah ! bon.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Lipo naïve.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Lipo naïve.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010036w/f8.highres" n="8"/>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : Ou rituelle.</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Potentialité de la <term ref="../thesauri/terms.xml#tautologie">tautologie</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : La parole à <persName ref="../thesauri/persons.xml#na">Arnaud</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : Je veux parler d’un génie <persName ref="../thesauri/persons.xml#alexandreflan">Alexandre Flan</persName>…</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : On en est comme deux ronds…</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : Il s’agit de <term ref="../thesauri/terms.xml#rimesalphabetiques">rimes alphabétiques</term> : chaque lettre est considérée comme une <term ref="../thesauri/terms.xml#rime">rime</term>.</p>
+      <p><persName ref="#na">ARNAUD</persName> : Ou rituelle.</p>
+      <p><persName ref="#la">LATIS</persName> : Potentialité de la <term ref="#tautologie"
+          >tautologie</term>.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : La parole à <persName ref="#na"
+        >Arnaud</persName>.</p>
+      <p><persName ref="#na">ARNAUD</persName> : Je veux parler d’un génie <persName
+          ref="#aleandreflan">Alexandre Flan</persName>…</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : On en est comme deux ronds…</p>
+      <p><persName ref="#na">ARNAUD</persName> : Il s’agit de <term ref="#rimesalphabetiques">rimes
+          alphabétiques</term> : chaque lettre est considérée comme une <term ref="#rime"
+          >rime</term>.</p>
       <p>(Voir <ref>Annexe II</ref>)</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Remarquez qu’<persName ref="../thesauri/persons.xml#na">Arnaud</persName> est un spécialiste de l’<term ref="../thesauri/terms.xml#alphabetique">alphabétique</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Et <persName ref="../thesauri/persons.xml#jl">Lescure</persName> de la naïveté.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : La parole à <persName ref="../thesauri/persons.xml#rq">Queneau</persName> pour l’honneur de l’OuLiPo et de la France réunis.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : <persName ref="../thesauri/persons.xml#philippot">Philippot</persName> dans <title ref="../thesauri/titles.xml#critique">Critique</title>, page 880 – Octobre 1963 – n°197, écrit à propos d’<term ref="../thesauri/terms.xml#algol">Algol</term> et de <term ref="../thesauri/terms.xml#fortran">Fortran</term> : ces « <term ref="../thesauri/terms.xml#jargons">jargons</term> »… pourraient aussi être, et très bien pour peu qu’on le veuille, les véhicules d’une expression poétique ». Il semble bien que <persName ref="../thesauri/persons.xml#philippot">Philippot</persName> à Cerisy eut l’occasion d’avoir une vue d’ensemble de ce qu’il avait pu entrevoir lors du déjeuner où nous les conviâmes en ce qui concerne nos « intentions et travaux ». La France est humiliée à Stuttgart : ils peuvent, à Stuttgart, faire tous les travaux qu’ils veulent avec des <term ref="../thesauri/terms.xml#machines">machines</term>. Ainsi ils donnent à la <term ref="../thesauri/terms.xml#machine">machine</term> du <term ref="../thesauri/terms.xml#vocabulaire">vocabulaire</term> de <persName ref="../thesauri/persons.xml#kafka">Kafka</persName> et ils obtiennent du <persName ref="../thesauri/persons.xml#kafka">Kafka</persName>. Ce qui tendrait à prouver que la <term ref="../thesauri/terms.xml#syntaxe">syntaxe</term> n’est rien puisqu’ils ne donnent que le <term ref="../thesauri/terms.xml#vocabulaire">vocabulaire</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Ca prouverait aussi que <persName ref="../thesauri/persons.xml#kafka">Kafka</persName> était juif : en hébreu la <term ref="../thesauri/terms.xml#syntaxe">syntaxe</term> n’a pas d’importance.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : L’ennui c’est que <persName ref="../thesauri/persons.xml#maxbense">Max Bense</persName> choisit lui-même les <term ref="../thesauri/terms.xml#phrases">phrases</term> parmi celles qui sortent de la <term ref="../thesauri/terms.xml#machine">machine</term>. Alors, alors…</p>
+      <p><persName ref="#la">LATIS</persName> : Remarquez qu’<persName ref="#na">Arnaud</persName>
+        est un spécialiste de l’<term ref="#alphabetique">alphabétique</term>.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Et <persName ref="#jl">Lescure</persName> de la
+        naïveté.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : La parole à <persName ref="#rq">Queneau</persName>
+        pour l’honneur de l’OuLiPo et de la France réunis.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : <persName ref="#philippot">Philippot</persName>
+        dans <title ref="#critique">Critique</title>, page 880 – Octobre 1963 – n°197, écrit à
+        propos d’<term ref="#algol">Algol</term> et de <term ref="#fortran">Fortran</term> : ces
+          « <term ref="#jargons">jargons</term> »… pourraient aussi être, et très bien pour peu
+        qu’on le veuille, les véhicules d’une expression poétique ». Il semble bien que <persName
+          ref="#philippot">Philippot</persName> à <name ref="#cerisy" type="manif">Cerisy</name> eut l’occasion d’avoir une vue d’ensemble
+        de ce qu’il avait pu entrevoir lors du déjeuner où nous les conviâmes en ce qui concerne nos
+        « intentions et travaux ». La France est humiliée à Stuttgart : ils peuvent, à Stuttgart,
+        faire tous les travaux qu’ils veulent avec des <term ref="#machines">machines</term>. Ainsi
+        ils donnent à la <term ref="#machine">machine</term> du <term ref="#vocabulaire"
+          >vocabulaire</term> de <persName ref="#kafka">Kafka</persName> et ils obtiennent du
+          <persName ref="#kafka">Kafka</persName>. Ce qui tendrait à prouver que la <term
+          ref="#syntae">syntaxe</term> n’est rien puisqu’ils ne donnent que le <term
+          ref="#vocabulaire">vocabulaire</term>.</p>
+      <p><persName ref="#la">LATIS</persName> : Ca prouverait aussi que <persName ref="#kafka"
+          >Kafka</persName> était juif : en hébreu la <term ref="#syntae">syntaxe</term> n’a pas
+        d’importance.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : L’ennui c’est que <persName ref="#mabense">Max
+          Bense</persName> choisit lui-même les <term ref="#phrases">phrases</term> parmi celles qui
+        sortent de la <term ref="#machine">machine</term>. Alors, alors…</p>
       <p>LATIS : Donc ça ne prouverait pas qu’il était juif.</p>
-      <p><persName ref="../thesauri/persons.xml#jd">DUCHATEAU</persName> : Ca ne prouve pas qu’il ne l’était pas.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : A propos de <persName ref="../thesauri/persons.xml#bense">Bense</persName> : j’ai vu à la <orgName ref="../thesauri/organizations.xml#biennaledeparis">Biennale de Paris</orgName> un film que son fils a fait d’après une idée de son père. Il a pris une phrase de <persName ref="../thesauri/persons.xml#hegel">Hegel</persName> dans laquelle Jetzt revient souvent (et qui fournit le titre du film). Les mots de cette phrase il en a compté les <term ref="../thesauri/terms.xml#syllabes">syllabes</term> et à chaque mot, il a fait correspondre un plan dont la longueur est proportionnée au nombre de <term ref="../thesauri/terms.xml#syllabes">syllabes</term>. Bien sûr le sens des mots n’a aucune importance. L’histoire du film est inventée par l’auteur : il s’agit d’une fille qui a rendez-vous avec un garçon, et un tramway écrase le garçon. Ce qui est intéressant c’est d’établir entre la <term ref="../thesauri/terms.xml#structure">structure</term> d’un texte et celle d’un film une <term ref="../thesauri/terms.xml#correspondance">correspondance</term>…</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : … de métro.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Non de tramway.</p>
+      <p><persName ref="#jd">DUCHATEAU</persName> : Ca ne prouve pas qu’il ne l’était pas.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : A propos de <persName ref="#bense"
+          >Bense</persName> : j’ai vu à la <orgName ref="#biennaledeparis">Biennale de
+          Paris</orgName> un film que son fils a fait d’après une idée de son père. Il a pris une
+        phrase de <persName ref="#hegel">Hegel</persName> dans laquelle Jetzt revient souvent (et
+        qui fournit le titre du film). Les mots de cette phrase il en a compté les <term
+          ref="#syllabes">syllabes</term> et à chaque mot, il a fait correspondre un plan dont la
+        longueur est proportionnée au nombre de <term ref="#syllabes">syllabes</term>. Bien sûr le
+        sens des mots n’a aucune importance. L’histoire du film est inventée par l’auteur : il
+        s’agit d’une fille qui a rendez-vous avec un garçon, et un tramway écrase le garçon. Ce qui
+        est intéressant c’est d’établir entre la <term ref="#structure">structure</term> d’un texte
+        et celle d’un film une <term ref="#correspondance">correspondance</term>…</p>
+      <p><persName ref="#na">ARNAUD</persName> : … de métro.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Non de tramway.</p>
       <p>Serveuse : Et comme dessert ?</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010036w/f9.highres" n="9"/>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : On a des tartes.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : On a des tartes.</p>
       <p>Serveuse : Vous voulez des tartes ?</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : Non, on les a apportées.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Ca vient du Japon.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : Non, on les a apportées.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Ca vient du Japon.</p>
       <p>Serveuse : Vous voulez qu’on vous les coupe ?</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Si c’était possible.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Si c’était possible.</p>
       <p>Serveuse : On va vous les couper.</p>
-      <p><persName ref="../thesauri/persons.xml#leclech">LECLECH’</persName> (qui vient d’arriver) : Mais…</p>
+      <p><persName ref="#leclech">LECLECH’</persName> (qui vient d’arriver) : Mais…</p>
       <p>Serveuse : Ne craignez rien on vous les rendra intactes.</p>
       <p>Quelques instants plus tard.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : C’est bon.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : C’est lourd.</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : C’est ce que voulait <persName ref="../thesauri/persons.xml#rq">Queneau</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#leclech">LECLECH’</persName> : C’est facile à passer à la douane.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : Oui : si ça vous plaît j’en ai une troisième dans ma valise.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> (car il est là) : Je demande la parole.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : Vous l’avez.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> : J’ai trouvé une solution à toutes nos difficultés concernant la <term ref="../thesauri/terms.xml#rime">rime</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : A propos, l’<term ref="../thesauri/terms.xml#antirime">antirime</term> c’est négatif, absolument, j’ai essayé.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> : Avec le <term ref="../thesauri/terms.xml#sonnetasiate">sonnet asiate</term> tout est positif. La longueur du <term ref="../thesauri/terms.xml#vers">vers</term> d’un <term ref="../thesauri/terms.xml#sonnet">sonnet</term>, on peut la réduire. On peut la réduire tant et si bien que l’on finira par arriver au <term ref="../thesauri/terms.xml#sonnetasiate">sonnet asiate</term> qui devra son nom au sens vertical de sa lecture. Comme vous pouvez le constater facilement mille avantages : l’équivalence entre la <term ref="../thesauri/terms.xml#postrime">post-rime</term> et l’<term ref="../thesauri/terms.xml#anterime">antérime</term>, le problème de la <term ref="../thesauri/terms.xml#redondance">redondance</term>, la <term ref="../thesauri/terms.xml#structure">structure</term> des <term ref="../thesauri/terms.xml#motscroises">mots croisés</term>…</p>
+      <p><persName ref="#jl">LESCURE</persName> : C’est bon.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : C’est lourd.</p>
+      <p><persName ref="#na">ARNAUD</persName> : C’est ce que voulait <persName ref="#rq"
+          >Queneau</persName>.</p>
+      <p><persName ref="#leclech">LECLECH’</persName> : C’est facile à passer à la douane.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : Oui : si ça vous plaît j’en ai une troisième dans
+        ma valise.</p>
+      <p><persName ref="#jq">QUEVAL</persName> (car il est là) : Je demande la parole.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : Vous l’avez.</p>
+      <p><persName ref="#jq">QUEVAL</persName> : J’ai trouvé une solution à toutes nos difficultés
+        concernant la <term ref="#rime">rime</term>.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : A propos, l’<term ref="#antirime">antirime</term>
+        c’est négatif, absolument, j’ai essayé.</p>
+      <p><persName ref="#jq">QUEVAL</persName> : Avec le <term ref="#sonnetasiate">sonnet
+          asiate</term> tout est positif. La longueur du <term ref="#vers">vers</term> d’un <term
+          ref="#sonnet">sonnet</term>, on peut la réduire. On peut la réduire tant et si bien que
+        l’on finira par arriver au <term ref="#sonnetasiate">sonnet asiate</term> qui devra son nom
+        au sens vertical de sa lecture. Comme vous pouvez le constater facilement mille avantages :
+        l’équivalence entre la <term ref="#postrime">post-rime</term> et l’<term ref="#anterime"
+          >antérime</term>, le problème de la <term ref="#redondance">redondance</term>, la <term
+          ref="#structure">structure</term> des <term ref="#motscroises">mots croisés</term>…</p>
       <p>Une grande minute d’un très relatif silence de stupeur admirative.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> (avec difficulté et conviction) : C’est une des grandes émotions de ma vie.</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : Vous avez essayé ?</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> : J’ai plusieurs <term ref="../thesauri/terms.xml#sonnetsasiates">sonnets asiates</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Donnez un <term ref="../thesauri/terms.xml#exempleabstrait">exemple abstrait</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> : Je ne donne jamais d’<term ref="../thesauri/terms.xml#exempledabstrait">exemple d’abstrait</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Il nous cache une défaite.</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Il nous dame le pion, oui.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Qu’est-ce que ça veut dire un <term ref="../thesauri/terms.xml#sonnet">sonnet</term> en <term ref="../thesauri/terms.xml#motscroises">mots croisés</term> ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> (avec difficulté et conviction) : C’est une des
+        grandes émotions de ma vie.</p>
+      <p><persName ref="#na">ARNAUD</persName> : Vous avez essayé ?</p>
+      <p><persName ref="#jq">QUEVAL</persName> : J’ai plusieurs <term ref="#sonnetsasiates">sonnets
+          asiates</term>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Donnez un <term ref="#eempleabstrait">exemple
+          abstrait</term>.</p>
+      <p><persName ref="#jq">QUEVAL</persName> : Je ne donne jamais d’<term ref="#eempledabstrait"
+          >exemple d’abstrait</term>.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Il nous cache une défaite.</p>
+      <p><persName ref="#la">LATIS</persName> : Il nous dame le pion, oui.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Qu’est-ce que ça veut dire un <term
+          ref="#sonnet">sonnet</term> en <term ref="#motscroises">mots croisés</term> ?</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010036w/f10.highres" n="10"/>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : On peut avoir la même ligne horizontale et perpendiculaire.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> : Ca simplifie.</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Il faut un sens dans tous les sens…</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : … même en diagonale…</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Je crains que vous ne vous écartiez du <term ref="../thesauri/terms.xml#sonnet">sonnet</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Le <persName ref="../thesauri/persons.xml#christ">Christ</persName> qu’est-ce qui fait là-haut : des <term ref="../thesauri/terms.xml#motscroises">mots croisés</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Sept siècles avant <persName ref="../thesauri/persons.xml#jesuschrist">Jésus-Christ</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Oui ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : <persName ref="../thesauri/persons.xml#aleman">Aleman</persName> a inventé musiques et paroles selon ce qu’il a appris du langage parlé par la voix des perdrix.</p>
-      <p><persName ref="../thesauri/persons.xml#la">LATIS</persName> : Il y a aussi <persName ref="../thesauri/persons.xml#rambuteau">Rambuteau</persName> parmi les <term ref="../thesauri/terms.xml#prepotentiels">prépotentiels</term>. <persName ref="../thesauri/persons.xml#merimee">Mérimée</persName> dans sa correspondance t IV rapporte que le préfet de la Seine <persName ref="../thesauri/persons.xml#rambuteau">Rambuteau</persName> s’était rendu célèbre par ses cuirs involontaires. Ainsi à sa femme prévenue qu’il rentrerait peut-être un peu tard car il devait voir un ingénieur pour une histoire de chauffage, il avait envoyé le billet suivant :</p>
+      <p><persName ref="#la">LATIS</persName> : On peut avoir la même ligne horizontale et
+        perpendiculaire.</p>
+      <p><persName ref="#jq">QUEVAL</persName> : Ca simplifie.</p>
+      <p><persName ref="#la">LATIS</persName> : Il faut un sens dans tous les sens…</p>
+      <p><persName ref="#ab">BLAVIER</persName> : … même en diagonale…</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Je crains que vous ne vous écartiez du <term
+          ref="#sonnet">sonnet</term>.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Le <persName ref="#christ">Christ</persName>
+        qu’est-ce qui fait là-haut : des <term ref="#motscroises">mots croisés</term>.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Sept siècles avant <persName ref="#jesuschrist"
+          >Jésus-Christ</persName>.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Oui ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> : <persName ref="#aleman">Aleman</persName> a
+        inventé musiques et paroles selon ce qu’il a appris du langage parlé par la voix des
+        perdrix.</p>
+      <p><persName ref="#la">LATIS</persName> : Il y a aussi <persName ref="#rambuteau"
+          >Rambuteau</persName> parmi les <term ref="#prepotentiels">prépotentiels</term>. <persName
+          ref="#merimee">Mérimée</persName> dans sa correspondance t IV rapporte que le préfet de la
+        Seine <persName ref="#rambuteau">Rambuteau</persName> s’était rendu célèbre par ses cuirs
+        involontaires. Ainsi à sa femme prévenue qu’il rentrerait peut-être un peu tard car il
+        devait voir un ingénieur pour une histoire de chauffage, il avait envoyé le billet
+        suivant :</p>
       <p>« Mon rat mon heure est venue. Adieu. »</p>
-      <p><persName ref="../thesauri/persons.xml#madamerambuteau">Madame Rambuteau</persName> a cru qu’il allait se suicider.</p>
+      <p><persName ref="#madamerambuteau">Madame Rambuteau</persName> a cru qu’il allait se
+        suicider.</p>
       <p>Avant de lever la séance, différentes questions administratives sont traitées :</p>
       <list type="ordered">
-        <item>le <name ref="../thesauri/events.xml#tricentenaire" type="manif">tricentenaire</name> : on aura droit de se payer 2 Kirs, on envisagera l’édition des comptes-rendus. On invitera des esclaves et <persName ref="../thesauri/persons.xml#jferry">J. Ferry</persName>.</item>
-        <item><persName ref="../thesauri/persons.xml#ab">Blavier</persName> va publier le « <title ref="../thesauri/titles.xml#cerisy">Cerisy</title> », et nous fait part du <persName ref="../thesauri/persons.xml#christianbeck">Christian Beck</persName> à Verviers en octobre 64 ou printemps 65.</item>
-        <item><persName ref="../thesauri/persons.xml#rq">Queneau</persName> a commandé 5 exemplaires du <persName ref="../thesauri/persons.xml#verbeek">Verbeek</persName>.</item>
-        <item><persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName> fera une grande déclaration sur : <term ref="../thesauri/terms.xml#fonction">Fonction</term> et <term ref="../thesauri/terms.xml#application">application</term>, <term ref="../thesauri/terms.xml#injection">injection</term>, <term ref="../thesauri/terms.xml#surjection">surjection</term>, <term ref="../thesauri/terms.xml#bijection">bijection</term>.</item>
+        <item>le <name ref="#tricentenaire" type="manif">tricentenaire</name> : on aura droit de se
+          payer 2 Kirs, on envisagera l’édition des comptes-rendus. On invitera des esclaves et
+            <persName ref="#jferry">J. Ferry</persName>.</item>
+        <item><persName ref="#ab">Blavier</persName> va publier le « <title ref="#cerisy"
+            >Cerisy</title> », et nous fait part du <persName ref="#christianbeck">Christian
+            Beck</persName> à Verviers en octobre 64 ou printemps 65.</item>
+        <item><persName ref="#rq">Queneau</persName> a commandé 5 exemplaires du <persName
+            ref="#verbeek">Verbeek</persName>.</item>
+        <item><persName ref="#fll">Le Lionnais</persName> fera une grande déclaration sur : <term
+            ref="#fonction">Fonction</term> et <term ref="#application">application</term>, <term
+            ref="#injection">injection</term>, <term ref="#surjection">surjection</term>, <term
+            ref="#bijection">bijection</term>.</item>
       </list>
-      <p>Prochaine réunion ex-basque 29 novembre 1963, 12h30.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  ex-basque 29 novembre 1963, 12h30.</p>
       <p>Pour le nouveau SP :</p>
-      <p><persName ref="../thesauri/persons.xml#louismoigret">Louis Moigret</persName>.</p>
+      <p><persName ref="#louismoigret">Louis Moigret</persName>.</p>
     </body>
   </text>
 </TEI>

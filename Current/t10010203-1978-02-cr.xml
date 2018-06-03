@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010203-1978-02-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010203-1978-02-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +17,46 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010203-1978-02-cr</idno> <meeting xml:id="t10010203-1978-02">
-          <date when="1978-02-17">17 février 1978</date>
-          <placeName>chez Marcel Bénabou</placeName>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010203-1978-02-cr</idno>
+          <meeting xml:id="t10010203-1978-02">
+            <date when="1978-02-17">17/02/1978</date>
+            <placeName>chez Marcel Bénabou</placeName>
+            <list type="present">
+              <item><persName ref="#mb"><choice>
+                    <abbr>MB</abbr>
+                    <expan>Marcel Bénabou</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#pf"><choice>
+                    <abbr>PF</abbr>
+                    <expan>Paul Fournel</expan>
+                  </choice></persName></item>
+              <item><persName ref="#gp"><choice>
+                    <abbr>GP</abbr>
+                    <expan>Georges Perec</expan>
+                  </choice></persName></item>
+              <item><persName ref="#hm"><choice>
+                    <abbr>HM</abbr>
+                    <expan>Harry Mathews</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -43,49 +69,202 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102032/f13.highres" n="13"/>
-      <p rend="incipit">Réunion du 17 février 1978 chez <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Invité d'honneur: <persName ref="../thesauri/persons.xml#clauderameil">Claude Rameil</persName>.</p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>. <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName>. <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName>. <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>. <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>. <persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName>.</p>
-      <p rend="incipit">Absents<persName ref="../thesauri/persons.xml#ic"><abbr>IC</abbr></persName>. <persName ref="../thesauri/persons.xml#le"><abbr>LE</abbr></persName>. <persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName>. <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>M.B.</abbr></persName> distribue les tirés à part du "<title ref="../thesauri/titles.xml#aqueneau">A <persName ref="../thesauri/persons.xml#rq">Queneau</persName></title> ".</p>
+      <p rend="incipit">Réunion du 17 février 1978 chez <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName></p>
+      <p rend="incipit">Invité d'honneur: <persName ref="#clauderameil">Claude
+        Rameil</persName>.</p>
+      <p rend="incipit">Présents : <persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>. <persName ref="#jb"><choice>
+            <abbr>JB</abbr>
+            <expan>Jacques Bens</expan>
+          </choice></persName>. <persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>. <persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>. <persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName>. <persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName>. <persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>. <persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>.</p>
+      <p rend="incipit">Absents<persName ref="#ic"><choice>
+            <abbr>IC</abbr>
+            <expan>Italo Calvino</expan>
+          </choice></persName>. <persName ref="#le"><choice>
+            <abbr>LE</abbr>
+            <expan>Luc Etienne</expan>
+          </choice></persName>. <persName ref="#jq"><choice>
+            <abbr>JQ</abbr>
+            <expan>Jean Queval</expan>
+          </choice></persName>. <persName ref="#jr"><choice>
+            <abbr>JR</abbr>
+            <expan>Jacques Roubaud</expan>
+          </choice></persName>.</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>M.B.</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> distribue les tirés à part du "<title ref="#aqueneau">A <persName ref="#rq">Queneau</persName></title> ".</p>
       <p>Le président devra partir tôt. Il prend la parole tout de suite.</p>
       <list type="unordered">
-        <item>Le Président Fondateur présente <persName ref="../thesauri/persons.xml#dominiqueroussillon">Dominique Roussillon</persName> qui l'accompagne et qui déjeunera avec nous. Il présente ses excuses pour la brièveté de son passage.</item>
-        <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> propose le vote d'un blâme pour <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> qui n'a pas pu donner le téléphone de <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>. <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> se défend.</item>
-        <item>Réception de <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> qui sera invité à parler des <title ref="../thesauri/titles.xml#cahiersqueneau">Cahiers <persName ref="../thesauri/persons.xml#rq">Queneau</persName></title>.</item>
-        <item>Annonce d'un samedi de <name ref="../thesauri/events.xml#festivalculturelcalvino" type="manif">Festival Culturel <persName ref="../thesauri/persons.xml#ic">Calvino</persName></name> en Mars.</item>
+        <item>Le Président Fondateur présente <persName ref="#dominiqueroussillon">Dominique
+            Roussillon</persName> qui l'accompagne et qui déjeunera avec nous. Il présente ses
+          excuses pour la brièveté de son passage.</item>
+        <item><persName ref="#fll"><choice>
+              <abbr>FLL</abbr>
+              <expan>François Le Lionnais</expan>
+            </choice></persName> propose le vote d'un blâme pour <persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName> qui n'a pas pu donner le téléphone de <persName ref="#na"><choice>
+              <abbr>NA</abbr>
+              <expan>Noël Arnaud</expan>
+            </choice></persName>. <persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName> se défend.</item>
+        <item>Réception de <persName ref="#rameil">Rameil</persName> qui sera invité à parler des
+            <title ref="#cahiersqueneau">Cahiers <persName ref="#rq">Queneau</persName></title>
+          .</item>
+        <item>Annonce d'un samedi de <name ref="#festivalculturelcalvino" type="manif">Festival
+            Culturel <persName ref="#ic">Calvino</persName></name> en Mars.</item>
       </list>
       <list type="unordered">
-        <item>Conseille <persName ref="../thesauri/persons.xml#zumthor">ZUMTHOR</persName> <title ref="../thesauri/titles.xml#lemasqueetlalumiere">le masque et la lumière"</title> sur le grands rhétoriqueurs au <orgName ref="../thesauri/organizations.xml#seuil">Seuil</orgName>.</item>
-        <item>Une O.P.A. de l'oulipo sur la Grèce. Un article fait en Grèce et en Grec sur l'oulipo.</item>
-        <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL.</abbr></persName> a envoyé à <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> les "<title ref="../thesauri/titles.xml#septtransformationsgenetiques">Sept Transformations Génétiques</title>" que l'on distribue (voir <ref>pièce jointe</ref>)</item>
-        <item>"<title ref="../thesauri/titles.xml#lescontraintesduversclassique">Les contraintes du vers classique</title>". La Veuve <unclear><persName ref="../thesauri/persons.xml#marcelbrum">Marcel Brum</persName></unclear> dit que son mari a fait un volume "<title ref="../thesauri/titles.xml#lescontraintesduverslibere">Les contraintes du vers libéré</title>". Prix 10 F pour la souscription l'argent est ramassé. A suivre.</item>
+        <item>Conseille <persName ref="#zumthor">ZUMTHOR</persName>
+          <title ref="#lemasqueetlalumiere">le masque et la lumière"</title> sur le grands
+          rhétoriqueurs au <orgName ref="#seuil">Seuil</orgName>.</item>
+        <item>Une O.P.A. de l'oulipo sur la Grèce. Un article fait en Grèce et en Grec sur
+          l'oulipo.</item>
+        <item><persName ref="#fll"><choice>
+              <abbr>FLL.</abbr>
+              <expan>François Le Lionnais</expan>
+            </choice></persName> a envoyé à <persName ref="#mb"><choice>
+              <abbr>MB</abbr>
+              <expan>Marcel Bénabou</expan>
+            </choice></persName> les "<title ref="#septtransformationsgenetiques">Sept
+            Transformations Génétiques</title>" que l'on distribue (voir <ref>pièce
+          jointe</ref>)</item>
+        <item>"<title ref="#lescontraintesduversclassique">Les contraintes du vers
+          classique</title>". La Veuve <unclear><persName ref="#marcelbrum">Marcel
+            Brum</persName></unclear> dit que son mari a fait un volume "<title ref="#lescontraintesduverslibere">Les contraintes du vers libéré</title>". Prix 10 F
+          pour la souscription l'argent est ramassé. A suivre.</item>
       </list>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Impôts. L'an dernier nous avons reçu 1200 F de <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName>. Sur ces sommes il faudra me rembourser ma part d'impôt.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : le prochain volume sera au crédit de l'Association.</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>: Impôts. L'an dernier nous avons reçu 1200 F de <orgName ref="#gallimard">Gallimard</orgName>. Sur ces sommes il faudra me rembourser ma part
+        d'impôt.</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>: le prochain volume sera au crédit de l'Association.</p>
       <p>Villeneuve. Jouannard propose 10 000 F en tout du 11 au 18 juillet.</p>
-      <p>Tous: C'est trop peu. Donner accord de principe et demander plus d'argent. (faire le calcul financier) 150 F j/ht - Pas un sou pour ordinateur.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Phynances: 3200 pur le <persName ref="../thesauri/persons.xml#hm"><abbr>H.M</abbr></persName>. <lb/>Situation actuelle 3000 Francs d'actif. <lb/>Il faut mettre les volumes de <persName ref="../thesauri/persons.xml#hm"><abbr>H.M.</abbr></persName> en librairie. <lb/>Ceux qui ont des contacts avec les librairies doivent les placer.</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : J'en mettrai à <orgName ref="../thesauri/organizations.xml#larepetition">La Répétition</orgName></p>
+      <p>Tous: C'est trop peu. Donner accord de principe et demander plus d'argent. (faire le calcul
+        financier) 150 F j/ht - Pas un sou pour ordinateur.</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>: Phynances: 3200 pur le <persName ref="#hm"><choice>
+            <abbr>H.M</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> . <lb/>Situation actuelle 3000 Francs d'actif. <lb/>Il faut mettre
+        les volumes de <persName ref="#hm"><choice>
+            <abbr>H.M.</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> en librairie. <lb/>Ceux qui ont des contacts avec les librairies
+        doivent les placer.</p>
+      <p><persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>: J'en mettrai à <orgName ref="#larepetition">La
+        Répétition</orgName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102032/f14.highres" n="14"/>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : J'irai en placer dans les principales librairies (<orgName ref="../thesauri/organizations.xml#hune">Hune</orgName> - <orgName ref="../thesauri/organizations.xml#repetition">Répétition</orgName>...)</p>
-      <p>La parole est à <persName ref="../thesauri/persons.xml#rameil">Rameil</persName> notre invité</p>
-      <p><persName ref="../thesauri/persons.xml#cr"><abbr>CR</abbr></persName> Remercie.</p>
-      <p><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName> : Rameil est un bibliographe (entre autre <persName ref="../thesauri/persons.xml#rq">Queneau</persName>) organisateur d'expositions Queneau <lb/>Bibliographie au service de tout le monde.</p>
-      <p><persName ref="../thesauri/persons.xml#cr"><abbr>CR</abbr></persName> : la Bibliographie sera publiée au feuilleton dans <title ref="../thesauri/titles.xml#tempsmeles">Temps Mêlés</title> Queneau.</p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Pourquoi pas dans la Pléiade?</p>
-      <p><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName> : <orgName ref="../thesauri/organizations.xml#gallimard">Gallimard</orgName> envisagerait la publication de <title ref="../thesauri/titles.xml#cahiersrq">Cahiers <persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></title>.</p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName>: J'irai en placer dans les principales librairies (<orgName ref="#hune">Hune</orgName> - <orgName ref="#repetition">Répétition</orgName>...)</p>
+      <p>La parole est à <persName ref="#rameil">Rameil</persName> notre invité</p>
+      <p><persName ref="#cr"><choice>
+            <abbr>CR</abbr>
+            <expan>Claude Rameil</expan>
+          </choice></persName> Remercie.</p>
+      <p><persName ref="#na"><choice>
+            <abbr>NA</abbr>
+            <expan>Noël Arnaud</expan>
+          </choice></persName>: Rameil est un bibliographe (entre autre <persName ref="#rq">Queneau</persName>) organisateur d'expositions Queneau <lb/>Bibliographie au service de
+        tout le monde.</p>
+      <p><persName ref="#cr"><choice>
+            <abbr>CR</abbr>
+            <expan>Claude Rameil</expan>
+          </choice></persName>: la Bibliographie sera publiée au feuilleton dans <title ref="#tempsmeles">Temps Mêlés</title> Queneau.</p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>: Pourquoi pas dans la Pléiade?</p>
+      <p><persName ref="#fll"><choice>
+            <abbr>FLL</abbr>
+            <expan>François Le Lionnais</expan>
+          </choice></persName>: <orgName ref="#gallimard">Gallimard</orgName> envisagerait la
+        publication de <title ref="#cahiersraymondqueneau">Cahiers <persName ref="#rq"><choice>
+              <abbr>RQ</abbr>
+              <expan>Raymond Queneau</expan>
+            </choice></persName></title> .</p>
       <p>Étrange coup de fil à ricochets.</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> distribue et signe "<title ref="../thesauri/titles.xml#selecteddeclarationsofdependence">Selected declarations of dependence</title>" oeuvre oulipienne en anglais. <lb/>On passe à table.</p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName> distribue et signe "<title ref="#selecteddeclarationsofdependence">Selected declarations of dependence</title>" oeuvre oulipienne en anglais. <lb/>On passe
+        à table.</p>
       <p>Les volumes 6 et 7 seront livrés la semaine prochaine.</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : Créations voir <ref>pièce jointe 3 puissance 33</ref> <lb/>projet 5 puissance 55 et 9 puissance 99 (le plus grand chiffre que l'on puisse écrire avec trois chiffres) <lb/>le 999 sera pour la <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="../thesauri/persons.xml#novalis">Novalis</persName> plagiaire par anticipation <ref>voir pièce jointe</ref>. Communication suivra.</p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName> : liste des noms de <persName ref="../thesauri/persons.xml#kodratov">KODRATOV</persName> <ref>voir pièce jointe</ref></p>
-      <p><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : le <orgName ref="../thesauri/organizations.xml#cnl">CNL</orgName> veut un plan de <title ref="../thesauri/titles.xml#oulipo2">oulipo 2</title> et donnera sa décision en Mars.</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : parle du faux <name ref="../thesauri/events.xml#colloquedecerisy" type="manif">colloque de Cerisy</name>. Document à la prochaine séance <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102032/f15.highres" n="15"/>tout doit être bidon.</p>
-      <p><persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName> : Il faudrait que ce soit exemplaire.</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : Il faut se mettre au travail tout de suite pour rendre un <unclear>manuscrit</unclear> à <orgName ref="../thesauri/organizations.xml#bourgeois">Bourgeois</orgName> en Novembre 1978.</p>
-      <p>Prochaine réunion, vendredi 24 Mars 1978 chez <persName ref="../thesauri/persons.xml#gp">Perec</persName></p>
+      <p><persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>: Créations voir <ref>pièce jointe 3 puissance 33</ref>
+        <lb/>projet 5 puissance 55 et 9 puissance 99 (le plus grand chiffre que l'on puisse écrire
+        avec trois chiffres) <lb/>le 999 sera pour la <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName>: <persName ref="#novalis">Novalis</persName> plagiaire par
+        anticipation <ref>voir pièce jointe</ref>. Communication suivra.</p>
+      <p><persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName>: liste des noms de <persName ref="#kodratov">KODRATOV</persName>
+        <ref>voir pièce jointe</ref></p>
+      <p><persName ref="#pf"><choice>
+            <abbr>PF</abbr>
+            <expan>Paul Fournel</expan>
+          </choice></persName>: le <orgName ref="#cnl">CNL</orgName> veut un plan de <title ref="#oulipo">oulipo 2</title> et donnera sa décision en Mars.</p>
+      <p><persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>: parle du faux <name ref="#colloquedecerisy" type="manif">colloque de
+          Cerisy</name>. Document à la prochaine séance <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102032/f15.highres" n="15"/>tout doit être
+        bidon.</p>
+      <p><persName ref="#hm"><choice>
+            <abbr>HM</abbr>
+            <expan>Harry Mathews</expan>
+          </choice></persName>: Il faudrait que ce soit exemplaire.</p>
+      <p><persName ref="#gp"><choice>
+            <abbr>GP</abbr>
+            <expan>Georges Perec</expan>
+          </choice></persName>: Il faut se mettre au travail tout de suite pour rendre un
+          <unclear>manuscrit</unclear> à <orgName ref="#bourgeois">Bourgeois</orgName> en Novembre
+        1978.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> , vendredi 24 Mars 1978 chez <persName ref="#gp">Perec</persName></p>
     </body>
   </text>
 </TEI>

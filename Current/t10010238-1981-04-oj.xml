@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010238-1981-04-oj" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010238-1981-04-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +16,7 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010238-1981-04-oj</idno> <title>Ordre de jour de <ref target="#t10010238-1981-04">la réunion Oulipo</ref> du <date when="1981-04-24">24 avril 1981</date></title></bibl>
+        <bibl><idno>t10010238-1981-04-oj</idno> <title>Ordre de jour de <ref target="#t10010238-1981-04">la réunion Oulipo</ref> du <date when="1981-04-24">24/04/1981</date></title> </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -34,22 +33,22 @@
       <p rend="incipit">Oulipo du 24 avril chez Marcel</p>
       <p rend="incipit">Ordre du jour</p>
       <p><label type="rubrique">Action</label></p>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="../thesauri/events.xml#villeneuve" type="manif">Villeneuve</name></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="../thesauri/events.xml#bourges" type="manif">Bourges</name></p>
-      <p>Tutti : le point sur <title ref="../thesauri/titles.xml#oulipoii">Oulipo II</title></p>
+      <p><persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : <name ref="#villeneuve" type="manif">Villeneuve</name></p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <name ref="#bourges" type="manif">Bourges</name></p>
+      <p>Tutti : le point sur <title ref="#oulipoii">Oulipo II</title></p>
       <p><label type="rubrique">Création</label></p>
-      <p><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName>+<persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName> : le retour de l’<term ref="../thesauri/terms.xml#intersection">intersection</term></p>
-      <p><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName> : Version rectifiée du <term ref="../thesauri/terms.xml#poemeinfini">poème infini</term></p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : <title ref="../thesauri/titles.xml#w_">W</title> in P</p>
-      <p><persName ref="../thesauri/persons.xml#gp"><abbr>GP</abbr></persName> : <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName>+<persName ref="#pb"><choice><abbr>PB</abbr><expan>Paul Braffort</expan></choice></persName> : le retour de l’<term ref="#intersection">intersection</term></p>
+      <p><persName ref="#jq"><choice><abbr>JQ</abbr><expan>Jean Queval</expan></choice></persName> : Version rectifiée du <term ref="#poemeinfini">poème infini</term></p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> : <title ref="#w_">W</title> in P</p>
+      <p><persName ref="#gp"><choice><abbr>GP</abbr><expan>Georges Perec</expan></choice></persName> : <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
       <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="../thesauri/persons.xml#jd"><abbr>JD</abbr></persName> : <persName ref="../thesauri/persons.xml#bakhtine">Bakhtine</persName> (<orgName ref="../thesauri/organizations.xml#seuil">Seuil</orgName>)</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="../thesauri/persons.xml#koch">Koch</persName> et <persName ref="../thesauri/persons.xml#goudy">Goudy</persName></p>
+      <p><persName ref="#jd"><choice><abbr>JD</abbr><expan>Jacques Duchateau</expan></choice></persName> : <persName ref="#bakhtine">Bakhtine</persName> (<orgName ref="#seuil">Seuil</orgName>)</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : <persName ref="#koch">Koch</persName> et <persName ref="#goudy">Goudy</persName></p>
       <p>Point d’ordre</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> :</p>
+      <p><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> :</p>
       <p><label type="rubrique">Menus propos</label></p>
-      <p><orgName ref="../thesauri/organizations.xml#franceradio">France Radio</orgName> Lettre recommandée</p>
-      <p>Prochaine réunion</p>
+      <p><orgName ref="#franceradio">France Radio</orgName> Lettre recommandée</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name> </p>
     </body>
   </text>
 </TEI>

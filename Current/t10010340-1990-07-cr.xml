@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010340-1990-07-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010340-1990-07-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +17,16 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><idno>t10010340-1990-07-cr</idno> <meeting xml:id="t10010340-1990-07">
-          <date when="1990-07-03">3 juillet 1990</date>
+          <date when="1990-07-03">03/07/1990</date>
           <placeName>Chez JJ</placeName>
           <list type="present">
-            <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#martinegrelle" role="invité">Martine Grelle</persName></item>
-            <item><persName ref="../thesauri/persons.xml#valentinfournel" role="invité">Valentin Fournel</persName></item>
+            <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></item>
+            <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName></item>
+            <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName></item>
+            <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></item>
+            <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName></item>
+            <item><persName ref="#martinegrelle" role="invité">Martine Grelle</persName></item>
+            <item><persName ref="#valentinfournel" role="invité">Valentin Fournel</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -49,38 +48,38 @@
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010340r/f5.highres" n="5"/>
       <p rend="incipit">OULIPO</p>
       <p rend="incipit">3-7-90</p>
-      <p rend="incipit">chez <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> (+<persName ref="../thesauri/persons.xml#martinegrelle">Martine Grelle</persName>, <persName ref="../thesauri/persons.xml#valentinfournel">Valentin Fournel</persName>)</p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></p>
-      <p rend="incipit">Absents : <persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="../thesauri/persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p rend="incipit">chez <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName></p>
+      <p rend="incipit">Présents : <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName>, <persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName>, <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>, <persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName>, <persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> (+<persName ref="#martinegrelle">Martine Grelle</persName>, <persName ref="#valentinfournel">Valentin Fournel</persName>)</p>
+      <p rend="incipit">Excusés : <persName ref="#mm"><choice><abbr>MM</abbr><expan>Michele Métail</expan></choice></persName>, <persName ref="#cb"><choice><abbr>CB</abbr><expan>Claude Berge</expan></choice></persName></p>
+      <p rend="incipit">Absents : <persName ref="#na"><choice><abbr>NA</abbr><expan>Noël Arnaud</expan></choice></persName>, <persName ref="#jb"><choice><abbr>JB</abbr><expan>Jacques Bens</expan></choice></persName>, <persName ref="#hm"><choice><abbr>HM</abbr><expan>Harry Mathews</expan></choice></persName></p>
       <p><label type="rubrique">Création :</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> : Tentative de contrepet <term ref="../thesauri/terms.xml#canadadry">Canada-dry</term></item>
-        <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : Remplacer <persName ref="../thesauri/persons.xml#pc"><abbr>PC</abbr></persName> par <persName ref="../thesauri/persons.xml#pj"><abbr>PJ</abbr></persName> (le parti des gens)</item>
-        <item><persName ref="../thesauri/persons.xml#jj"><abbr>JJ</abbr></persName> : Démonstration de la « <term ref="../thesauri/terms.xml#recriteelementaire">récrite élémentaire</term> » Admiration générale</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Quelques <term ref="../thesauri/terms.xml#homophonies">homophonies</term> (consternation générale)</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Présentation de nouveau facial <title ref="../thesauri/titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. <term ref="../thesauri/terms.xml#moraleselementaires">Morales élémentaires</term> fascicules remis à <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>. Publication à la rentrée. Programme des prochaines : envoyer nos desiderata à <persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName>.</item>
+        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> : Tentative de contrepet <term ref="#canadadry">Canada-dry</term></item>
+        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : Remplacer <persName ref="#pc"><choice><abbr>PC</abbr><expan>Parti Communiste</expan></choice></persName> par <persName ref="#pj"><choice><abbr>PJ</abbr><expan>Parti des gens</expan></choice></persName> (le parti des gens)</item>
+        <item><persName ref="#jj"><choice><abbr>JJ</abbr><expan>Jacques Jouet</expan></choice></persName> : Démonstration de la « <term ref="#recriteelementaire">récrite élémentaire</term> » Admiration générale</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Quelques <term ref="#homophonies">homophonies</term> (consternation générale)</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Présentation de nouveau facial <title ref="#bibliothequeoulipienne">Bibliothèque oulipienne</title>. <term ref="#moraleselementaires">Morales élémentaires</term> fascicules remis à <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>. Publication à la rentrée. Programme des prochaines : envoyer nos desiderata à <persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName>.</item>
       </list>
       <p><label type="rubrique">Erudition :</label></p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="../thesauri/titles.xml#dictionnairedespersonnages">Dictionnaire des personnages</title> de <persName ref="../thesauri/persons.xml#rq">Raymond Queneau</persName> à <persName ref="../thesauri/persons.xml#mmaitz">M. Maitz</persName>.</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : un exemplaire de cette oeuvre avait déjà été envoyée au Secrétariat</item>
-        <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : la <term ref="../thesauri/terms.xml#reformedelorthographe">réforme de l’orthographe</term> : un superbe texte de l’<orgName ref="../thesauri/organizations.xml#academiefrancaise">Académie française</orgName> reniant une précédente réforme. On demande photocopie pour archives.</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Musique pour l’année des <term ref="../thesauri/terms.xml#palindromes">palindromes</term> : <persName ref="../thesauri/persons.xml#haydn">Haydn</persName>, Sonate du <term ref="../thesauri/terms.xml#palindrome">Palindrome</term> <unclear>Heredevrelle Mère and Zuruck</unclear> que 45</item>
-        <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : La <title ref="../thesauri/titles.xml#fureurdelire">Fureur de lire</title> : la <name ref="../thesauri/events.xml#lectureoulipo" type="manif">lecture Oulipo</name> à Paris se fera à l’Arsenal le vendredi soir</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : Présentation du futur volume <persName ref="../thesauri/persons.xml#gp">Perec</persName> : « <title ref="../thesauri/titles.xml#jesuisne">Je suis né</title> »</item>
+        <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : <title ref="#dictionnairedespersonnages">Dictionnaire des personnages</title> de <persName ref="#rq">Raymond Queneau</persName> à <persName ref="#mmaitz">M. Maitz</persName>.</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : un exemplaire de cette oeuvre avait déjà été envoyée au Secrétariat</item>
+        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : la <term ref="#reformedelorthographe">réforme de l’orthographe</term> : un superbe texte de l’<orgName ref="#academiefrancaise">Académie française</orgName> reniant une précédente réforme. On demande photocopie pour archives.</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Musique pour l’année des <term ref="#palindromes">palindromes</term> : <persName ref="#haydn">Haydn</persName>, Sonate du <term ref="#palindrome">Palindrome</term> <unclear>Heredevrelle Mère and Zuruck</unclear> que 45</item>
+        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : La <title ref="#fureurdelire">Fureur de lire</title> : la <name ref="#lectureoulipo" type="manif">lecture Oulipo</name> à Paris se fera à l’Arsenal le vendredi soir</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : Présentation du futur volume <persName ref="#gp">Perec</persName> : « <title ref="#jesuisne">Je suis né</title> »</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010340r/f6.highres" n="6"/>
       <p>OULIPO 3-7-90</p>
       <list type="unordered">
-        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> Création : une vingt-sixine (mais où chaque vers est représenté par une lettre)</item>
-        <item><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> : s’engage à faire un commentaire : zay. Veuf. <unclear>Köln</unclear></item>
-        <item><persName ref="../thesauri/persons.xml#jr"><abbr>JR</abbr></persName> : un <term ref="../thesauri/terms.xml#sonnetabstrait">sonnet abstrait</term> mais français</item>
-        <item><persName ref="../thesauri/persons.xml#pf"><abbr>PF</abbr></persName> : Moretz et son <unclear>épithlame</unclear> de <persName ref="../thesauri/persons.xml#jacqueschessex">Jacques Chessex</persName></item>
-        <item><persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName> : Fureur</item>
+        <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> Création : une vingt-sixine (mais où chaque vers est représenté par une lettre)</item>
+        <item><persName ref="#mb"><choice><abbr>MB</abbr><expan>Marcel Bénabou</expan></choice></persName> : s’engage à faire un commentaire : zay. Veuf. <unclear>Köln</unclear></item>
+        <item><persName ref="#jr"><choice><abbr>JR</abbr><expan>Jacques Roubaud</expan></choice></persName> : un <term ref="#sonnetabstrait">sonnet abstrait</term> mais français</item>
+        <item><persName ref="#pf"><choice><abbr>PF</abbr><expan>Paul Fournel</expan></choice></persName> : Moretz et son <unclear>épithlame</unclear> de <persName ref="#jacqueschesse">Jacques Chessex</persName></item>
+        <item><persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName> : Fureur</item>
       </list>
-      <p>Conversation générale sur l’état présent de l’édition française ainsi que le remaniement ministériel en cours. Proposition de ministres de la culture : <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName>, <persName ref="../thesauri/persons.xml#jq">Jean Queval</persName>.</p>
-      <p>Prochaine réunion vendredi 24 août chez <persName ref="../thesauri/persons.xml#fc"><abbr>FC</abbr></persName></p>
+      <p>Conversation générale sur l’état présent de l’édition française ainsi que le remaniement ministériel en cours. Proposition de ministres de la culture : <persName ref="#na">Noël Arnaud</persName>, <persName ref="#jq">Jean Queval</persName>.</p>
+      <p><name ref="#prochainereunion" type="manif">Prochaine réunion</name>  vendredi 24 août chez <persName ref="#fc"><choice><abbr>FC</abbr><expan>François Caradec</expan></choice></persName></p>
     </body>
   </text>
 </TEI>

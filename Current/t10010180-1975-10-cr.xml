@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010180-1975-10-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1975-10-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,10 +18,12 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010180-1975-10-cr</idno> <meeting xml:id="t10010180-1975-10">
-          <date when="1975-10-03">3 octobre 1975</date>
-          <gap/>
-          </meeting> </bibl>
+        <bibl><idno>t10010180-1975-10-cr</idno>
+          <meeting xml:id="t10010180-1975-10">
+            <date when="1975-10-03">03/10/1975</date>
+            <gap/>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -36,13 +38,33 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f15.highres" n="15"/>
-      <p><persName ref="../thesauri/persons.xml#pb"><abbr>PB</abbr></persName>  : Programme d’ordinateurs (<persName ref="../thesauri/persons.xml#decowell">de Cowell</persName>) « Elisa »</p>
-      <p>Dialogues corrigés qu’on peut soumettre à des <term ref="../thesauri/terms.xml#contraintes">contraintes</term></p>
-      <p>Déduction question de <term ref="../thesauri/terms.xml#answersystems">answer systems</term>.</p>
-      <p><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName>  : tables de listing pour formation de noms féminins en toutes langues</p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName>  : <unclear>*</unclear> : « <term ref="../thesauri/terms.xml#palindrome">palindrome</term> » - chaste &gt;, obscène &lt;</p>
-      <p>[<name ref="../thesauri/events.xml#bruxellesexposition" type="manif">Bruxelles : Exposition</name>] <note n="1" resp="editor">Probablement Europalia.</note></p>
-      <p><persName ref="../thesauri/persons.xml#mb"><abbr>MB</abbr></persName> (entretien à la radio) : Priorité aux <term ref="../thesauri/terms.xml#structures">structures</term> et non pas aux œuvres : la valeur de la cohérence interne d’une <term ref="../thesauri/terms.xml#structure">structure</term> qui ne donne pas des résultats immédiats (mais à l’avenir, qui sait ?)</p>
+      <p><persName ref="#pb"><choice>
+            <abbr>PB</abbr>
+            <expan>Paul Braffort</expan>
+          </choice></persName> : Programme d’ordinateurs (<persName ref="#decowell">de
+          Cowell</persName>) « Elisa »</p>
+      <p>Dialogues corrigés qu’on peut soumettre à des <term ref="#contraintes"
+        >contraintes</term></p>
+      <p>Déduction question de <term ref="#answersystems">answer systems</term>.</p>
+      <p><persName ref="#cb"><choice>
+            <abbr>CB</abbr>
+            <expan>Claude Berge</expan>
+          </choice></persName> : tables de listing pour formation de noms féminins en toutes
+        langues</p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> : <unclear>*</unclear> : « <term ref="#palindrome"
+        >palindrome</term> » - chaste &gt;, obscène &lt;</p>
+      <p>[<name ref="#bruelleseposition" type="manif">Bruxelles : Exposition</name>] <note n="1"
+        resp="editor">Probablement <name ref="#europalia" type="manif">Europalia</name>.</note></p>
+      <p><persName ref="#mb"><choice>
+            <abbr>MB</abbr>
+            <expan>Marcel Bénabou</expan>
+          </choice></persName> (entretien à la radio) : Priorité aux <term ref="#structures"
+          >structures</term> et non pas aux œuvres : la valeur de la cohérence interne d’une <term
+          ref="#structure">structure</term> qui ne donne pas des résultats immédiats (mais à
+        l’avenir, qui sait ?)</p>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010155-1973-10-cv" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010155-1973-10-cv">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +17,13 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010155-1973-10-cv</idno> <title>Convocation à <ref target="#t10010155-1973-10">une réunion Oulipo</ref>, envoyée le <date when="1973-10-22">22 octobre 1973</date> par <persName ref="../thesauri/persons.xml#fll" role="expéditeur"><abbr>FLL</abbr></persName></title> </bibl>
+        <bibl><idno>t10010155-1973-10-cv</idno>
+          <title>Convocation à <ref target="#t10010155-1973-10">une réunion Oulipo</ref>, envoyée le
+              <date when="1973-10-22">22/10/1973</date> par <persName ref="#fll" role="expéditeur"><choice>
+                <abbr>FLL</abbr>
+                <expan>François Le Lionnais</expan>
+              </choice></persName></title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -34,13 +40,19 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010155n/f1.highres" n="1"/>
       <p rend="incipit">Le 22 Octobre 1973,</p>
-      <p rend="incipit"><add>J’ai noté que vous venez le 16 novembre</add><note n="1" resp="editor">Ajout manuscrit de la main de FLL [Note de l'éditeur]</note></p>
-      <p rend="incipit"><add>Je n’oublie le fisc, qui, de toute façon ne nous oublierait pas.</add> <note n="1" resp="editor">Ajout manuscrit de la main de FLL [Note de l'éditeur]</note></p>
+      <p rend="incipit"><add>J’ai noté que vous venez le 16 novembre</add><note n="1" resp="editor"
+          >Ajout manuscrit de la main de FLL [Note de l'éditeur]</note></p>
+      <p rend="incipit"><add>Je n’oublie le fisc, qui, de toute façon ne nous oublierait pas.</add>
+        <note n="1" resp="editor">Ajout manuscrit de la main de FLL [Note de l'éditeur]</note></p>
       <p rend="incipit">Chers Brigadiers,</p>
-      <p>C’est entendu. <persName ref="../thesauri/persons.xml#jeaneffel">Jean EFFEL</persName> vient de me confirmer qu’il accepte de revenir, comme invité d’honneur, à notre prochaine réunion du vendredi 16 novembre. Il sera accompagné de son crapaud de granit en l’honneur duquel j’ai inscrit du goémon à notre menu.</p>
-      <p>Notre ordre du jour sera, comme la dernière fois, si riche que seul un Président à la poigne d’acier pourra en conduire la discussion jusqu’au bout.</p>
+      <p>C’est entendu. <persName ref="#jeaneffel">Jean EFFEL</persName> vient de me confirmer qu’il
+        accepte de revenir, comme invité d’honneur, à notre <name ref="#prochainereunion" type="manif">prochaine réunion</name>  du vendredi 16
+        novembre. Il sera accompagné de son crapaud de granit en l’honneur duquel j’ai inscrit du
+        goémon à notre menu.</p>
+      <p>Notre ordre du jour sera, comme la dernière fois, si riche que seul un Président à la
+        poigne d’acier pourra en conduire la discussion jusqu’au bout.</p>
       <p>J’attends la confirmation de votre venue et vous adresse mes oulipiennes amitiés.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">F. Le Lionnais</persName></p>
+      <p><persName ref="#fll">F. Le Lionnais</persName></p>
       <p>P.S. La réunion suivante aura lieu le vendredi 7 décembre.</p>
     </body>
   </text>

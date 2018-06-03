@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xml:id="t10010019-1962-05-cr" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010019-1962-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,21 +18,53 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010019-1962-05-cr</idno> <meeting xml:id="t10010019-1962-05">
-          <date when="1962-05-07">7 mai 1962</date>
-          <list type="present">
-            <item><persName ref="../thesauri/persons.xml#jl"><abbr>JL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#rq"><abbr>RQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#fll"><abbr>FLL</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na"><abbr>NA</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jb"><abbr>JB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#jq"><abbr>JQ</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#cb"><abbr>CB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#ab"><abbr>AB</abbr></persName></item>
-            <item><persName ref="../thesauri/persons.xml#na" role="président"><abbr>NA</abbr></persName></item>
-          </list>
-          </meeting> </bibl>
+        <bibl><idno>t10010019-1962-05-cr</idno>
+          <meeting xml:id="t10010019-1962-05">
+            <date when="1962-05-07">07/05/1962</date>
+            <list type="present">
+              <item><persName ref="#jl"><choice>
+                    <abbr>JL</abbr>
+                    <expan>Jean Lescure</expan>
+                  </choice></persName></item>
+              <item><persName ref="#rq"><choice>
+                    <abbr>RQ</abbr>
+                    <expan>Raymond Queneau</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#fll"><choice>
+                    <abbr>FLL</abbr>
+                    <expan>François Le Lionnais</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jb"><choice>
+                    <abbr>JB</abbr>
+                    <expan>Jacques Bens</expan>
+                  </choice></persName></item>
+              <item><persName ref="#jq"><choice>
+                    <abbr>JQ</abbr>
+                    <expan>Jean Queval</expan>
+                  </choice></persName></item>
+              <item><persName ref="#cb"><choice>
+                    <abbr>CB</abbr>
+                    <expan>Claude Berge</expan>
+                  </choice></persName></item>
+              <item><persName ref="#ab"><choice>
+                    <abbr>AB</abbr>
+                    <expan>André Blavier</expan>
+                  </choice></persName></item>
+              <item><persName ref="#na" role="président"><choice>
+                    <abbr>NA</abbr>
+                    <expan>Noël Arnaud</expan>
+                  </choice></persName></item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -48,58 +80,127 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010019d/f1.highres" n="1"/>
-      <p rend="incipit"><orgName ref="../thesauri/organizations.xml#ouvroirdelitteraturepotentielle">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</orgName></p>
+      <p rend="incipit"><orgName ref="#ouvroirdelitteraturepotentielle">OUVROIR DE <lb/>LITTERATURE
+          <lb/>POTENTIELLE</orgName></p>
       <p rend="incipit">Circulaire n°21</p>
       <p rend="incipit">COMPTE RENDU DE LA REUNION DU 7 MAI 1962</p>
-      <p rend="incipit">PRESENTS : <persName ref="../thesauri/persons.xml#jl">Lescure</persName> – <persName ref="../thesauri/persons.xml#jq">Queval</persName> – <persName ref="../thesauri/persons.xml#ab">Blavier</persName> – <persName ref="../thesauri/persons.xml#rq">Queneau</persName> – <persName ref="../thesauri/persons.xml#cb">Berge</persName> – <persName ref="../thesauri/persons.xml#fll">Le Lionnais</persName> – <persName ref="../thesauri/persons.xml#na">Arnaud</persName> – <persName ref="../thesauri/persons.xml#jb">Bens</persName>.</p>
-      <p rend="incipit">Excusés : <persName ref="../thesauri/persons.xml#ams">Schmidt</persName> – <persName ref="../thesauri/persons.xml#la">Latis</persName>.</p>
-      <p rend="incipit">ABSENT PAR CONGE SPECIAL : <persName ref="../thesauri/persons.xml#jd">Duchateau</persName> (délégué de l’OuLiPo au <orgName ref="../thesauri/organizations.xml#festivaldecannes">Festival de Cannes</orgName>).</p>
-      <p rend="incipit">PRESIDENT : <persName ref="../thesauri/persons.xml#na">Noël Arnaud</persName>.</p>
-      <p>Dix minutes sont consacrées à l’installation du magnétophone. On commence, pour constater assez vite que le magnéto ne fonctionne pas. <persName ref="../thesauri/persons.xml#jl">Lescure</persName> lui applique la méthode <term ref="../thesauri/terms.xml#s7">S+7</term>, sans résultat notoire. On décide, la mort dans l’âme, de s’en passer. On efface tout (c’est une façon de parler) et on recommence.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Je voudrais signaler, avant toute chose, que j’ai reçu, à la suite de mes entretiens avec <persName ref="../thesauri/persons.xml#charbonnier">Charbonnier</persName>, une lettre et une seule, au sujet de la <term ref="../thesauri/terms.xml#litteraturepotentielle">Littérature Potentielle</term>. Elle émane de M. <persName ref="../thesauri/persons.xml#guychristanrobert">Guy-Christan ROBERT</persName>, « Le Salenga », 16 avenue des Arènes de Cimiez, NICE. Je tiens à ce que le nom de ce correspondant, qui a bien mérité de la <term ref="../thesauri/terms.xml#potentialite">Potentialité</term>, figure dans nos C.R. Puisque j’ai la parole, je la garde pour signaler deux errata relatifs respectivement aux circulaires 18 et 19 : a) <term ref="../thesauri/terms.xml#paf">PAF</term> n’est pas le nom de la machine de <persName ref="../thesauri/persons.xml#mstarynkevitch">M. Starynkevitch</persName> mais la langue que cette machine utilise ; b) mon travail sur « Le Vallon » n’est pas le résultat de transformations lettriques mais phonétiques.</p>
-      <p><persName ref="../thesauri/persons.xml#jq">QUEVAL</persName> : Le début de ce travail devrait être signé Tomartine.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Et la suite : Tatartine !</p>
-      <p>On envisage des solutions pour aménager – ou plutôt : pour créer- le budget de l’OuLiPo.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : On pourrait demander une subvention à <persName ref="../thesauri/persons.xml#mmalraux">M. Malraux</persName>.</p>
-      <p><persName ref="../thesauri/persons.xml#cb">BERGE</persName> : On pourrait vendre le <title ref="../thesauri/titles.xml#dossieroulipo">Dossier OuLiPo</title> dans les kiosques et les gares.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : On pourrait demander une subvention au gouvernement belge au titre des relations internationales.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : La publication des CR nous aidera peut-être : <persName ref="../thesauri/persons.xml#gastongallimard">Gaston Gallimard</persName> fera bien une avance…</p>
-      <p>LE S.P : Je dois avouer, à mon grand dam, que j’ai égaré le brouillon d’une des réunions. C’est d’autant plus regrettable que c’est celle où nous avons reçu <persName ref="../thesauri/persons.xml#mquemada">M. Quemada</persName>.</p>
+      <p rend="incipit">PRESENTS : <persName ref="#jl">Lescure</persName> – <persName ref="#jq"
+          >Queval</persName> – <persName ref="#ab">Blavier</persName> – <persName ref="#rq"
+          >Queneau</persName> – <persName ref="#cb">Berge</persName> – <persName ref="#fll">Le
+          Lionnais</persName> – <persName ref="#na">Arnaud</persName> – <persName ref="#jb"
+          >Bens</persName>.</p>
+      <p rend="incipit">Excusés : <persName ref="#ams">Schmidt</persName> – <persName ref="#la"
+          >Latis</persName>.</p>
+      <p rend="incipit">ABSENT PAR CONGE SPECIAL : <persName ref="#jd">Duchateau</persName> (délégué
+        de l’OuLiPo au <orgName ref="#festivaldecannes">Festival de Cannes</orgName>).</p>
+      <p rend="incipit">PRESIDENT : <persName ref="#na">Noël Arnaud</persName>.</p>
+      <p>Dix minutes sont consacrées à l’installation du magnétophone. On commence, pour constater
+        assez vite que le magnéto ne fonctionne pas. <persName ref="#jl">Lescure</persName> lui
+        applique la méthode <term ref="#s7">S+7</term>, sans résultat notoire. On décide, la mort
+        dans l’âme, de s’en passer. On efface tout (c’est une façon de parler) et on recommence.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Je voudrais signaler, avant toute chose, que j’ai
+        reçu, à la suite de mes entretiens avec <persName ref="#charbonnier">Charbonnier</persName>,
+        une lettre et une seule, au sujet de la <term ref="#litteraturepotentielle">Littérature
+          Potentielle</term>. Elle émane de M. <persName ref="#guychristanrobert">Guy-Christan
+          ROBERT</persName>, « Le Salenga », 16 avenue des Arènes de Cimiez, NICE. Je tiens à ce que
+        le nom de ce correspondant, qui a bien mérité de la <term ref="#potentialite"
+          >Potentialité</term>, figure dans nos C.R. Puisque j’ai la parole, je la garde pour
+        signaler deux errata relatifs respectivement aux circulaires 18 et 19 : a) <term ref="#paf"
+          >PAF</term> n’est pas le nom de la machine de <persName ref="#mstarynkevitch">M.
+          Starynkevitch</persName> mais la langue que cette machine utilise ; b) mon travail sur
+        « Le Vallon » n’est pas le résultat de transformations lettriques mais phonétiques.</p>
+      <p><persName ref="#jq">QUEVAL</persName> : Le début de ce travail devrait être signé
+        Tomartine.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Et la suite : Tatartine !</p>
+      <p>On envisage des solutions pour aménager – ou plutôt : pour créer- le budget de
+        l’OuLiPo.</p>
+      <p><persName ref="#jl">LESCURE</persName> : On pourrait demander une subvention à <persName
+          ref="#mmalrau">M. Malraux</persName>.</p>
+      <p><persName ref="#cb">BERGE</persName> : On pourrait vendre le <title ref="#dossieroulipo"
+          >Dossier OuLiPo</title> dans les kiosques et les gares.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : On pourrait demander une subvention au
+        gouvernement belge au titre des relations internationales.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : La publication des CR nous aidera peut-être :
+          <persName ref="#gastongallimard">Gaston Gallimard</persName> fera bien une avance…</p>
+      <p>LE S.P : Je dois avouer, à mon grand dam, que j’ai égaré le brouillon d’une des réunions.
+        C’est d’autant plus regrettable que c’est celle où nous avons reçu <persName ref="#mquemada"
+          >M. Quemada</persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010019d/f2.highres" n="2"/>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Il faudrait que chacun de nous refasse un C.R. d’après les souvenirs qu’il a gardés de cette réunion</p>
+      <p><persName ref="#jl">LESCURE</persName> : Il faudrait que chacun de nous refasse un C.R.
+        d’après les souvenirs qu’il a gardés de cette réunion</p>
       <p>(Enthousiasme médiocre).</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Oui, on pourrait reconstituer cette séance approximativement.</p>
-      <p>Aux dernières nouvelles, ce brouillon a été retrouvé par l’imprudent mais opiniâtre Secrétaire Provisoire. D’ailleurs, tous les membres de l’OuLiPo ont actuellement reçu le CR de cette mémorable séance.</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : Pourrait-on effectuer la publication des C.R. en septembre ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Oui, on pourrait reconstituer cette séance
+        approximativement.</p>
+      <p>Aux dernières nouvelles, ce brouillon a été retrouvé par l’imprudent mais opiniâtre
+        Secrétaire Provisoire. D’ailleurs, tous les membres de l’OuLiPo ont actuellement reçu le CR
+        de cette mémorable séance.</p>
+      <p><persName ref="#na">ARNAUD</persName> : Pourrait-on effectuer la publication des C.R. en
+        septembre ?</p>
       <p>LE S.P. : Je peux commencer à en préparer le texte.</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : Ce jour-là, nous devrons tout à notre cher Secrétaire Provisoire.</p>
+      <p><persName ref="#na">ARNAUD</persName> : Ce jour-là, nous devrons tout à notre cher
+        Secrétaire Provisoire.</p>
       <p>LE S.P. : C’est pas tombé dans l’oreille d’un sourd.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Je suppose que nous joindrons aux C.R. les documents que nous possédons ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Certainement. Je pense même que ces documents devraient être inclus dans le courant des C.R., et non reportés en annexes.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Je suppose que nous joindrons aux C.R. les
+        documents que nous possédons ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Certainement. Je pense même que ces documents
+        devraient être inclus dans le courant des C.R., et non reportés en annexes.</p>
       <p>(Approbation générale).</p>
-      <p><persName ref="../thesauri/persons.xml#na">Arnaud</persName> parle des <term ref="../thesauri/terms.xml#machines">machines</term>.</p>
+      <p><persName ref="#na">Arnaud</persName> parle des <term ref="#machines">machines</term>.</p>
       <p>On discute sur les statuts :</p>
-      <p>X… (pardon !) : Ne pourrions-nous créer, et chercher ensuite, des membres bienfaiteurs ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Excellente idée. Nous pourrions contacter Monsieur de … et Madame de … (Anonymat respecté, suivant le vœu de qui-de-droit). A propos, avez-vous vu le dernier slogan de la <orgName ref="../thesauri/organizations.xml#maisonvilmorinandrieux">maison Vilmorin-Andrieux</orgName> ? C’est charmant : « Je t’aime, on sème… » C’est sûrement une idée de <persName ref="../thesauri/persons.xml#louisedevilmorin">Louise de Vilmorin</persName>. D’ailleurs, il y a quelques années, elle avait déjà dit à <persName ref="../thesauri/persons.xml#gg"><abbr>G.G</abbr></persName> : « Je méditerai, tu m’éditeras… »</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : Je proteste. J’ai trouvé cette astuce dans plusieurs éditions de l’<title ref="../thesauri/titles.xml#almanachvermot">Almanach Vermot</title>. D’avant-guerre.</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Il n’est pas interdit d’utiliser l’<title ref="../thesauri/titles.xml#almanachvermot">Almanach Vermot</title>. D’ailleurs, je propose la mise en œuvre d’une <term ref="../thesauri/terms.xml#machine">machine</term> à utiliser cet excellent outil de travail.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Messieurs, messieurs, revenons à nos moutons, je veux dire à nos membres. Je crois que la différence entre les correspondants et les associés doit faire intervenir d’une part, l’éloignement ; d’autre part, notre désir de les voir.</p>
+      <p>X… (pardon !) : Ne pourrions-nous créer, et chercher ensuite, des membres
+        bienfaiteurs ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Excellente idée. Nous pourrions contacter Monsieur
+        de … et Madame de … (Anonymat respecté, suivant le vœu de qui-de-droit). A propos, avez-vous
+        vu le dernier slogan de la <orgName ref="#maisonvilmorinandrieu">maison
+          Vilmorin-Andrieux</orgName> ? C’est charmant : « Je t’aime, on sème… » C’est sûrement une
+        idée de <persName ref="#louisedevilmorin">Louise de Vilmorin</persName>. D’ailleurs, il y a
+        quelques années, elle avait déjà dit à <persName ref="#gg"><choice>
+            <abbr>G.G</abbr>
+          <expan>Gaston Gallimard</expan>
+          </choice></persName>: « Je
+        méditerai, tu m’éditeras… »</p>
+      <p><persName ref="#jb">BENS</persName> : Je proteste. J’ai trouvé cette astuce dans plusieurs
+        éditions de l’<title ref="#almanachvermot">Almanach Vermot</title>. D’avant-guerre.</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Il n’est pas interdit d’utiliser l’<title
+          ref="#almanachvermot">Almanach Vermot</title>. D’ailleurs, je propose la mise en œuvre
+        d’une <term ref="#machine">machine</term> à utiliser cet excellent outil de travail.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Messieurs, messieurs, revenons à nos moutons,
+        je veux dire à nos membres. Je crois que la différence entre les correspondants et les
+        associés doit faire intervenir d’une part, l’éloignement ; d’autre part, notre désir de les
+        voir.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010019d/f3.highres" n="3"/>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : Au fond, l’éloignement est une notion inutile.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : C’est vrai. On pourrait donc supprimer des correspondants l’impératif xénique. D’ailleurs, je propose d’intervertir les termes : je préfèrerais que l’on appelât associés ceux qui nous sont les plus chers.</p>
+      <p><persName ref="#jb">BENS</persName> : Au fond, l’éloignement est une notion inutile.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : C’est vrai. On pourrait donc supprimer des
+        correspondants l’impératif xénique. D’ailleurs, je propose d’intervertir les termes : je
+        préfèrerais que l’on appelât associés ceux qui nous sont les plus chers.</p>
       <p>(Adopté)</p>
-      <p><persName ref="../thesauri/persons.xml#jb">BENS</persName> : Quant aux honoraires, êtes-vous d’accord pour les conserver ?</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : Je ne suis pas d’accord : les fondateurs resteront fondateurs, quoi qu’il advienne. Tu es OuLiPolus in aeternum.</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> ! Il est peut-être nécessaire de donner une autre définition des honoraires. Par exemple, au terme d’une longue carrière…</p>
-      <p><persName ref="../thesauri/persons.xml#rq">QUENEAU</persName> : On devrait nommer membres bienfaiteurs ceux qui possèdent une machine et sont décidés à nous en faire bénéficier… A ce propos, je vous signale que <persName ref="../thesauri/persons.xml#mstarynkevitch">M. Starynkevitch</persName> m’a envoyé un faux annuaire de téléphone, fabriqué par sa machine, avec de faux noms de personnes et de rues.</p>
-      <p><persName ref="../thesauri/persons.xml#na">ARNAUD</persName> : on pourrait le publier en annexe dans le C.R. général !</p>
-      <p><persName ref="../thesauri/persons.xml#fll">LE LIONNAIS</persName> : Messieurs, je serais heureux de récupérer, s’il est possible, mon haut de forme et mon gong. Afin d’impressionner d’autres assemblées que les nôtres. Par ailleurs, je crois que nous pouvons envisager dès à présent les <name ref="../thesauri/events.xml#festivitesdelaroutedelareine" type="manif">festivités de la Route de la Reine</name>.</p>
-      <p><persName ref="../thesauri/persons.xml#ab">BLAVIER</persName> : De mon côté je vais tâcher de faire inviter l’OuLiPo à Liège.</p>
-      <p><persName ref="../thesauri/persons.xml#jl">LESCURE</persName> : Dans un petit bouchon !</p>
-      <p>La prochaine réunion de l’OuLiPo aura lieu, au même restaurant du VIEUX PARIS le</p>
+      <p><persName ref="#jb">BENS</persName> : Quant aux honoraires, êtes-vous d’accord pour les
+        conserver ?</p>
+      <p><persName ref="#rq">QUENEAU</persName> : Je ne suis pas d’accord : les fondateurs resteront
+        fondateurs, quoi qu’il advienne. Tu es OuLiPolus in aeternum.</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> ! Il est peut-être nécessaire de donner une
+        autre définition des honoraires. Par exemple, au terme d’une longue carrière…</p>
+      <p><persName ref="#rq">QUENEAU</persName> : On devrait nommer membres bienfaiteurs ceux qui
+        possèdent une machine et sont décidés à nous en faire bénéficier… A ce propos, je vous
+        signale que <persName ref="#mstarynkevitch">M. Starynkevitch</persName> m’a envoyé un faux
+        annuaire de téléphone, fabriqué par sa machine, avec de faux noms de personnes et de
+        rues.</p>
+      <p><persName ref="#na">ARNAUD</persName> : on pourrait le publier en annexe dans le C.R.
+        général !</p>
+      <p><persName ref="#fll">LE LIONNAIS</persName> : Messieurs, je serais heureux de récupérer,
+        s’il est possible, mon haut de forme et mon gong. Afin d’impressionner d’autres assemblées
+        que les nôtres. Par ailleurs, je crois que nous pouvons envisager dès à présent les <name
+          ref="#festivitesdelaroutedelareine" type="manif">festivités de la Route de la
+        Reine</name>.</p>
+      <p><persName ref="#ab">BLAVIER</persName> : De mon côté je vais tâcher de faire inviter
+        l’OuLiPo à Liège.</p>
+      <p><persName ref="#jl">LESCURE</persName> : Dans un petit bouchon !</p>
+      <p>La <name ref="#prochainereunion" type="manif">prochaine réunion</name>  de l’OuLiPo aura lieu, au même restaurant du VIEUX PARIS le</p>
       <p>LUNDI 4 JUIN 1962</p>
-      <p>La réception chez le Régent <persName ref="../thesauri/persons.xml#lionnais">Lionnais</persName> aura probablement lieu le 2 juillet. Mais confirmation en sera prise (et donné) lors de la prochaine réunion.</p>
-      <p>La réception à Liège n’aura pas lieu avant le mois de septembre.</p>
+      <p>La réception chez le Régent <persName ref="#lionnais">Lionnais</persName> aura probablement
+        lieu le 2 juillet. Mais confirmation en sera prise (et donné) lors de la prochaine
+        réunion.</p>
+      <p>La réception à <name ref="#liege" type="manif">Liège</name> n’aura pas lieu avant le mois de septembre.</p>
       <p>Le Secrétaire Pro.</p>
     </body>
   </text>
