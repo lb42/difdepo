@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010241-1981-07-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010241-1981-07-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -22,26 +21,11 @@
             <date when="1981-07-24">24/07/1981</date>
             <placeName>chez PF</placeName>
             <list type="present">
-              <item><persName ref="#gp"><choice>
-                    <abbr>GP</abbr>
-                    <expan>Georges Perec</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pf"><choice>
-                    <abbr>PF</abbr>
-                    <expan>Paul Fournel</expan>
-                  </choice></persName></item>
-              <item><persName ref="#jr"><choice>
-                    <abbr>JR</abbr>
-                    <expan>Jacques Roubaud</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pb"><choice>
-                    <abbr>PB</abbr>
-                    <expan>Paul Braffort</expan>
-                  </choice></persName></item>
-              <item><persName ref="#pb" role="président"><choice>
-                    <abbr>PB</abbr>
-                    <expan>Paul Braffort</expan>
-                  </choice></persName></item>
+              <item><persName ref="#gp">Georges Perec</persName></item>
+              <item><persName ref="#pf">Paul Fournel</persName></item>
+              <item><persName ref="#jr">Jacques Roubaud</persName></item>
+              <item><persName ref="#pb">Paul Braffort</persName></item>
+              <item><persName ref="#pb" role="président">Paul Braffort</persName></item>
             </list>
           </meeting>
         </bibl>
@@ -61,69 +45,27 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010241t/f10.highres" n="10"/>
-      <p rend="incipit">Réunion du 24 juillet 81 chez <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName></p>
-      <p rend="incipit">Présents : <persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName>
-        <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName>
-        <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>
-        <persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName>
-        <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName></p>
-      <p rend="incipit">Excusés : <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName>
-        <persName ref="#mm"><choice>
-            <abbr>MM</abbr>
-            <expan>Michele Métail</expan>
-          </choice></persName>
-        <persName ref="#hm"><choice>
-            <abbr>HM</abbr>
-            <expan>Harry Mathews</expan>
-          </choice></persName></p>
+      <p rend="incipit">Réunion du 24 juillet 81 chez <persName ref="#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="#gp"><abbr>GP</abbr></persName>
+        <persName ref="#pf"><abbr>PF</abbr></persName>
+        <persName ref="#jr"><abbr>JR</abbr></persName>
+        <persName ref="#jb"><abbr>JB</abbr></persName>
+        <persName ref="#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="#fll"><abbr>FLL</abbr></persName>
+        <persName ref="#mm"><abbr>MM</abbr></persName>
+        <persName ref="#hm"><abbr>HM</abbr></persName></p>
       <p rend="incipit">Absents</p>
       <p rend="incipit">Président</p>
-      <p>Distribution de Oulipo 15 (Io et le Loup) : 2 exemplaires pour <persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName>
-        <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName>
-        <persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName>
-        <persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName></p>
+      <p>Distribution de Oulipo 15 (Io et le Loup) : 2 exemplaires pour <persName ref="#gp"><abbr>GP</abbr></persName>
+        <persName ref="#jr"><abbr>JR</abbr></persName>
+        <persName ref="#jb"><abbr>JB</abbr></persName>
+        <persName ref="#le"><abbr>LE</abbr></persName></p>
       <p>Parution du volume Oulipo Slatkine :</p>
       <p><persName ref="#jr">J Roubaud</persName> fera la préface et on mettra les manifestes de la
         Bibliothèque oulipienne.</p>
       <p>Oulipo</p>
       <p>La Bibliothèque oulipienne</p>
-      <p>Avec les manifestes de <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName></p>
+      <p>Avec les manifestes de <persName ref="#fll"><abbr>FLL</abbr></persName></p>
       <p>Présentation de <persName ref="#jr">J Roubaud</persName></p>
       <p>RAYMOND <persName ref="#rq">QUENEAU</persName>
         <persName ref="#mb">M BENABOU</persName>
@@ -132,175 +74,71 @@
       <p><label type="rubrique">Compte-rendu</label></p>
       <p>L’ordre du jour étant fait le président propose de réserver le plus important pour
         l’arrivée des retardataires</p>
-      <p><persName ref="#le">Luc Etienne</persName> Menu propos : a) <title
-          ref="#lhistoiredelalanguefrancaise">L’Histoire de la langue française</title> de <persName
-          ref="#ferdinandbrunot">Ferdinand Brunot</persName> en 17 volumes. Il était ébéniste et
+      <p><persName ref="#le">Luc Etienne</persName> Menu propos : a) <title ref="#lhistoiredelalanguefrancaise">L’Histoire de la langue française</title> de <persName ref="#ferdinandbrunot">Ferdinand Brunot</persName> en 17 volumes. Il était ébéniste et
         fabriquait sa salle à manger avec lyrisme.</p>
       <p>b) <persName ref="#yveslamy">Yves Lamy</persName>
         <orgName ref="#ecolenormalesuperieurederabat">Ecole normale supérieure de Rabat</orgName>.
         Cite un élève : <persName ref="#balezepascal">Balèze Pascal</persName></p>
       <p>Le système des examens a autant d’inconvénients que d’avantages mais parfois c’est le
-        contraire. Auteur de mots croisés 7 sur 7 sans noir. <term ref="#motscroisespalindromiques"
-          >Mots croisés palindromiques</term>.</p>
-      <p><persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-          </choice></persName> propose de nommer homo palindromes anna et hétéro écart, ou trace, ou
+        contraire. Auteur de mots croisés 7 sur 7 sans noir. <term ref="#motscroisespalindromiques">Mots croisés palindromiques</term>.</p>
+      <p><persName ref="#jb"><abbr>JB</abbr></persName> propose de nommer homo palindromes anna et hétéro écart, ou trace, ou
         le contraste. (Ils sont appelés <term ref="#anacycliques">anacycliques</term>
-        <persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName> pense que c’étaient les <term ref="#palindromesdemots">palindromes de
+        <persName ref="#le"><abbr>LE</abbr></persName> pense que c’étaient les <term ref="#palindromesdemots">palindromes de
           mots</term> donc <term ref="#phrasesanacycliques">phrases anacycliques</term>).</p>
       <p>Action</p>
       <p><persName ref="#gp">Perec</persName> : film. <persName ref="#christinelipinska">Christine
-          Lipinska</persName> sur l’oulipo 52’ dans un <name ref="#stageavilleneuve" type="manif"
-          >stage à Villeneuve</name> CIRCA, <orgName ref="#ina">INA</orgName>… faire un film
+          Lipinska</persName> sur l’oulipo 52’ dans un <name ref="#stageavilleneuve" type="manif">stage à Villeneuve</name> CIRCA, <orgName ref="#ina">INA</orgName>… faire un film
         oulipien. Point de départ de l’OULIPO Mettre des extraits de films de preman
         (arithmétique,…).</p>
-      <p>– <persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> annonce une adaptation cinématographique de <title
-          ref="#ladisparition">La Disparition</title>.</p>
-      <p>– Le film muet dit <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> est un <term ref="#lipogramme">lipogramme</term>, <term
-          ref="#plagiatparanticipation">plagiat par anticipation</term>.</p>
-      <p>– <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> montre un biberon de poupée appartenant à <persName ref="#charlotte"
-          >Charlotte</persName>. Le président semble fasciné</p>
-      <p>b) <name ref="#cerisy" type="manif">Cerisy</name>. <persName ref="#jb"><choice>
-            <abbr>JB</abbr>
-            <expan>Jacques Bens</expan>
-      </choice></persName> lit une lettre sur le <name ref="#colloque" type="manif">colloque</name> OULIPO d’<persName ref="#edithheurgon"
-        >Edith Heurgon</persName> sur le problème de la présidence du <name ref="#colloque" type="manif">colloque</name> (<persName
-          ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName>). Les présents semblent ne pas avoir d’objections majeures aux
+      <p>– <persName ref="#gp"><abbr>GP</abbr></persName> annonce une adaptation cinématographique de <title ref="#ladisparition">La Disparition</title>.</p>
+      <p>– Le film muet dit <persName ref="#pf"><abbr>PF</abbr></persName> est un <term ref="#lipogramme">lipogramme</term>, <term ref="#plagiatparanticipation">plagiat par anticipation</term>.</p>
+      <p>– <persName ref="#pf"><abbr>PF</abbr></persName> montre un biberon de poupée appartenant à <persName ref="#charlotte">Charlotte</persName>. Le président semble fasciné</p>
+      <p>b) <name ref="#cerisy" type="manif">Cerisy</name>. <persName ref="#jb"><abbr>JB</abbr></persName> lit une lettre sur le <name ref="#colloque" type="manif">colloque</name> OULIPO d’<persName ref="#edithheurgon">Edith Heurgon</persName> sur le problème de la présidence du <name ref="#colloque" type="manif">colloque</name> (<persName ref="#fll"><abbr>FLL</abbr></persName>). Les présents semblent ne pas avoir d’objections majeures aux
         propositions faites.</p>
-      <p>– <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> téléphone au président <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName> : le volume 2 est prévu à l’office de septembre chez <orgName
-          ref="#gallimard">Gallimard</orgName>. La <title ref="#bibliothequeoulipienne">Bibliothèque
+      <p>– <persName ref="#pf"><abbr>PF</abbr></persName> téléphone au président <persName ref="#fll"><abbr>FLL</abbr></persName> : le volume 2 est prévu à l’office de septembre chez <orgName ref="#gallimard">Gallimard</orgName>. La <title ref="#bibliothequeoulipienne">Bibliothèque
           oulipienne</title> chez <orgName ref="#slatkine">Slatkine</orgName> en novembre
-        présentation <persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> préface : les deux manifestes de <persName ref="#fll"><choice>
-            <abbr>FLL</abbr>
-            <expan>François Le Lionnais</expan>
-          </choice></persName></p>
-      <p>c) <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> photo. <persName ref="#martine">Martine</persName> a fait des photos
+        présentation <persName ref="#jr"><abbr>JR</abbr></persName> préface : les deux manifestes de <persName ref="#fll"><abbr>FLL</abbr></persName></p>
+      <p>c) <persName ref="#pf"><abbr>PF</abbr></persName> photo. <persName ref="#martine">Martine</persName> a fait des photos
         lors de la dernière séance. Elles sont achetables et consultables.</p>
-      <p><persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> propose de taxer les communications de l’Oulipo</p>
+      <p><persName ref="#gp"><abbr>GP</abbr></persName> propose de taxer les communications de l’Oulipo</p>
       <p>Création</p>
       <p><persName ref="#le">Luc Etienne</persName> Vous allez dire que c’est pas Oulipien. Pour moi
         tout procédé est oulipien. Il lit un texte : « Elle se voyait déjà réduite à l’impotence ou
         même vouée à la potence ». La littérature potentielle n’est faite pour les impotents</p>
-      <p><persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-          </choice></persName> rappelle un procédé voisin : ces jetés doivent être conservés.
-          <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> (claire sombre). <persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName> utilise des contraires « grammaticaux »</p>
-      <p><persName ref="#le"><choice>
-            <abbr>LE</abbr>
-            <expan>Luc Etienne</expan>
-          </choice></persName> lit un poème selon cette <term ref="#contrainte">contrainte</term> où
+      <p><persName ref="#gp"><abbr>GP</abbr></persName> rappelle un procédé voisin : ces jetés doivent être conservés.
+          <persName ref="#pb"><abbr>PB</abbr></persName> (claire sombre). <persName ref="#le"><abbr>LE</abbr></persName> utilise des contraires « grammaticaux »</p>
+      <p><persName ref="#le"><abbr>LE</abbr></persName> lit un poème selon cette <term ref="#contrainte">contrainte</term> où
         tous sont soulagés de retrouver l’obscénité absente de sa précédente communication.</p>
       <p>Une discussion s’installe sur les <term ref="#clinamens">clinamens</term> (principe de
           <persName ref="#jq">Queval</persName>, <title ref="#revenantes">Revenantes</title>,…)</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010241t/f12.highres" n="12"/>
       <p><label type="rubrique">5 Action</label></p>
-      <p><persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> Bibliothèque oulipienne <orgName ref="#slatkine">Slatkine</orgName>.
+      <p><persName ref="#pf"><abbr>PF</abbr></persName> Bibliothèque oulipienne <orgName ref="#slatkine">Slatkine</orgName>.
         Problème de la couleur de couverture : rouge et rouge ?</p>
       <p>La Cantatrice sauve y sera. Parution novembre. Tirage initial 1000</p>
-      <p>6 <persName ref="#pf"><choice>
-            <abbr>PF</abbr>
-            <expan>Paul Fournel</expan>
-          </choice></persName> Menu propos sur le récital de <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName>. Malheureusement pas d’oulipiens.</p>
+      <p>6 <persName ref="#pf"><abbr>PF</abbr></persName> Menu propos sur le récital de <persName ref="#pb"><abbr>PB</abbr></persName>. Malheureusement pas d’oulipiens.</p>
       <p>7 <name ref="#villeneuve" type="manif">Villeneuve</name></p>
-      <p><persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-      </choice></persName> : 5ème <name ref="#stage" type="manif">stage</name>. Vrai stage bien rôdé. Surtout des enseignants très
+      <p><persName ref="#pb"><abbr>PB</abbr></persName> : 5ème <name ref="#stage" type="manif">stage</name>. Vrai stage bien rôdé. Surtout des enseignants très
         motivés.</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> a fait un <ref>compte-rendu versé aux archives</ref>. On a évité la
+      <p><persName ref="#jr"><abbr>JR</abbr></persName> a fait un <ref>compte-rendu versé aux archives</ref>. On a évité la
         révolte du 3ème jour. L’ordinateur a marché. On revient à Pâques et en Juillet 1982.</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> observe qu’il faut amener nous-mêmes des livres à vendre.</p>
-      <p><persName ref="#gp"><choice>
-            <abbr>GP</abbr>
-            <expan>Georges Perec</expan>
-      </choice></persName> dit qu’il faut que le prochain <name ref="#stage" type="manif">stage</name> soit un atelier : Jour 1 et 2
+      <p><persName ref="#jr"><abbr>JR</abbr></persName> observe qu’il faut amener nous-mêmes des livres à vendre.</p>
+      <p><persName ref="#gp"><abbr>GP</abbr></persName> dit qu’il faut que le prochain <name ref="#stage" type="manif">stage</name> soit un atelier : Jour 1 et 2
         présentation des <term ref="#contrainte">contrainte</term>s. Ensuite travailler par groupes
         sur une famille de <term ref="#contrainte">contraintes</term> afin d’obtenir de bons textes.
         Il faudrait un matériel pour publier les résultats.</p>
-      <p><persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> va écrire à <persName ref="#jouanard">Jouanard</persName>.</p>
-      <p>8 <persName ref="#jd"><choice>
-            <abbr>JD</abbr>
-            <expan>Jacques Duchateau</expan>
-          </choice></persName> Menu propos : « J’ai rencontré un soviétique qui avait entendu parler
+      <p><persName ref="#pb"><abbr>PB</abbr></persName> va écrire à <persName ref="#jouanard">Jouanard</persName>.</p>
+      <p>8 <persName ref="#jd"><abbr>JD</abbr></persName> Menu propos : « J’ai rencontré un soviétique qui avait entendu parler
         de l’Oulipo ».</p>
-      <p>9 <persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> Sonnets de <persName ref="#pb">Braffort</persName>-<persName
-          ref="#heredia">Heredia</persName></p>
-      <p>Un sonnet de sonnets dans son autobiographie que n’ai-je (valise de <persName ref="#rq"
-          >Queneau</persName> et Que sais-je )</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> a montré qu’on peut se contenter de 6 rimes distinctes et 26 au
+      <p>9 <persName ref="#pb"><abbr>PB</abbr></persName> Sonnets de <persName ref="#pb">Braffort</persName>-<persName ref="#heredia">Heredia</persName></p>
+      <p>Un sonnet de sonnets dans son autobiographie que n’ai-je (valise de <persName ref="#rq">Queneau</persName> et Que sais-je )</p>
+      <p><persName ref="#jr"><abbr>JR</abbr></persName> a montré qu’on peut se contenter de 6 rimes distinctes et 26 au
         maximum.</p>
-      <p><persName ref="#pb"><choice>
-            <abbr>PB</abbr>
-            <expan>Paul Braffort</expan>
-          </choice></persName> a fait un <term ref="#trioletdetriolets">triolet de triolets</term>.
-        D’où l’algèbre <term ref="#contrainte">contrainte</term> poétique. On peut associer le <term
-          ref="#polynsomedepeichel">polynsome de <persName ref="#peichel">Peichel</persName></term>
+      <p><persName ref="#pb"><abbr>PB</abbr></persName> a fait un <term ref="#trioletdetriolets">triolet de triolets</term>.
+        D’où l’algèbre <term ref="#contrainte">contrainte</term> poétique. On peut associer le <term ref="#polynsomedepeichel">polynsome de <persName ref="#peichel">Peichel</persName></term>
         .</p>
       <p>10 <name ref="#villeneuve" type="manif">Villeneuve</name> Créations</p>
-      <p><persName ref="#jr"><choice>
-            <abbr>JR</abbr>
-            <expan>Jacques Roubaud</expan>
-          </choice></persName> présente son compte-rendu des créations suggérées à <name
-          ref="#villeneuve" type="manif">Villeneuve</name>.</p>
+      <p><persName ref="#jr"><abbr>JR</abbr></persName> présente son compte-rendu des créations suggérées à <name ref="#villeneuve" type="manif">Villeneuve</name>.</p>
     </body>
   </text>
 </TEI>
