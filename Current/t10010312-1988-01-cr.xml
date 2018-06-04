@@ -20,15 +20,15 @@
           <date when="1988-01-08">8 janvier 1988</date>
           <placeName>chez Harry Mathews</placeName>
           <list type="present">
-            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#na">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
             <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#hm">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#mm">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName></item>
           </list>
           </meeting> </bibl>
       </sourceDesc>
@@ -52,8 +52,8 @@
       <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
       <p>Séance du 8 Janvier 1988</p>
       <p><label type="rubrique">1. Assiduité</label></p>
-      <p><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (président), <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> (secrétaire), <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>l, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> (hôte), <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> sont présents.</p>
-      <p><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchâteau</persName> et <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> sont excusés.</p>
+      <p><persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName> (président), <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> (secrétaire), <persName ref="difdepo:persons.xml#na">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>l, <persName ref="difdepo:persons.xml#hm">Harry Mathews</persName> (hôte), <persName ref="difdepo:persons.xml#mm">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> sont présents.</p>
+      <p><persName ref="difdepo:persons.xml#jb">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#cb">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jd">Jacques Duchâteau</persName> et <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> sont excusés.</p>
       <p>Nous recevons une invitée d’honneur, <persName ref="difdepo:persons.xml#lenniegoodman">Lennie Goodman</persName>. Cette amie de longue date est présentée par notre hôte. Dans sa réponse, elle exprime tout l’amour qu'elle nous porte et qui, grâce à elle, se propage comme une épidémie au delà de l’océan.</p>
       <p><label type="rubrique">2. Créations</label></p>
       <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> propose une généralisation de la <term ref="difdepo:terms.xml#contrainte">contrainte</term> "<term ref="difdepo:terms.xml#beaupresentbelleabsente">beau présent/belle absente</term>”. On part, ici aussi d’un (ou de plusieurs) mot(s) : prénom ou nom de personne, etc... A chaque lettre du mot à encoder, on associe un fragment de texte (un vers, une phrase, un paragraphe.) où la fréquence de la lettre est supérieure, de façon significative à sa fréquence "naturelle" en français, c'est ainsi que, pour la lettre "S", on songe à "Pour qui sont ces serpents, etc...”. On porrait imaginer alors que la fréquence des occurences de chaque lettre du mot ou texte à encoder soit calculée non pas phrase par phrase, mais globalement. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> observe alors que sa méthode peut présenter des difficultés lorsqu’une même lettre apparait plusieurs fois dans le texte à encoder. Il propose, dans ce cas, d’introduire un <term ref="difdepo:terms.xml#coefficientdeponderation">coefficient de pondération</term> qui pourra être le nombre de <persName ref="difdepo:persons.xml#fibonacci">Fibonacci</persName> correspondant à l'ordre de la lettre en question dans le texte source.</p>
