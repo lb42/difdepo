@@ -13,7 +13,7 @@
   former @ref are overwritten (or removed if there is no match in the current thesaurus)
   -->
   <xsl:import href="normalize.xsl"/>
-  <xsl:template match="t:persName | t:orgName | t:name[@type = 'manif'] | t:term | t:text//t:title">
+  <xsl:template match="t:persName | t:orgName | t:name[@type = 'manif'] | t:term | t:text//t:title | t:name[ancestor::t:titleStmt]">
     <!-- get info on the current tei element  -->
     <!-- before comparing forms of the thesaurus and the form in the tei, normalize the later -->
     <xsl:variable name="id">
@@ -22,7 +22,12 @@
       </xsl:call-template>
     </xsl:variable>
     <!--  get type  -->
-    <xsl:variable name="type" select="name()"/>
+    <xsl:variable name="type">
+      <xsl:choose>
+        <xsl:when test="name() = 'name' and ancestor::t:titleStmt">team</xsl:when>
+        <xsl:otherwise><xsl:value-of select="name()"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:copy>
       <xsl:for-each select="collection('thesauri/?select=*.xml')//*[self::skos:altLabel or self::skos:prefLabel]">
         <!-- get info on the current thesaurus entry  -->
@@ -41,6 +46,7 @@
             <xsl:when test="$filename = 'events.xml'">name</xsl:when>
             <xsl:when test="$filename = 'titles.xml'">title</xsl:when>
             <xsl:when test="$filename = 'terms.xml'">term</xsl:when>
+            <xsl:when test="$filename = 'team.xml'">team</xsl:when>
           </xsl:choose>
         </xsl:variable>
         <!--  if we are in the right thesaurus for this element + form is the same, insert @ref pointing to skos:Concept/@rdf:ID  -->

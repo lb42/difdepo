@@ -19,12 +19,24 @@
       <xsl:when test="$filename = 'events.xml'">name</xsl:when>
       <xsl:when test="$filename = 'titles.xml'">title</xsl:when>
       <xsl:when test="$filename = 'terms.xml'">term</xsl:when>
+      <xsl:when test="$filename = 'team.xml'">name</xsl:when>
+    </xsl:choose>
+  </xsl:variable>
+  <xsl:variable name="ancestor">
+    <xsl:choose>
+      <xsl:when test="$filename = 'persons.xml'">TEI</xsl:when>
+      <xsl:when test="$filename = 'organizations.xml'">text</xsl:when>
+      <xsl:when test="$filename = 'events.xml'">text</xsl:when>
+      <xsl:when test="$filename = 'titles.xml'">text</xsl:when>
+      <xsl:when test="$filename = 'terms.xml'">text</xsl:when>
+      <xsl:when test="$filename = 'team.xml'">titleStmt</xsl:when>
     </xsl:choose>
   </xsl:variable>
   <xsl:template match="rdf:RDF">
     <xsl:copy>
       <xsl:apply-templates select="* | @* | text() | processing-instruction() | comment()"/>
-      <xsl:for-each select="collection('Current/?select=*.xml')//t:*[name() = $type][not(@ref)][not(parent::t:titleStmt or parent::t:bibl)]">
+      <xsl:for-each select="collection('Current/?select=*.xml')//t:*[name() = $type][not(@ref)][ancestor::t:*[name()=$ancestor]]">
+        <!--    [not(parent::t:titleStmt or parent::t:bibl)]    -->
         <!--  get info on the current form  -->
         <!--  create a readable label  -->
         <xsl:variable name="form">
