@@ -1,88 +1,185 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010216-1979-05-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010216-1979-05-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010216 pp. 2 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010216-1979-05-cr</idno> <meeting xml:id="t10010216-1979-05">
-          <date when="1979-05-17">17 mai 1979</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#bernardparzysz" role="invité">Bernard Parzysz</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-19" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:32:56Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010216 pp. 2 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 17 mai 1979</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010216-1979-05-cr</idno> 
+               <meeting xml:id="t10010216-1979-05">
+                  <date when="1979-05-17">17 mai 1979</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#bernardparzysz" role="invité">Bernard Parzysz</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-19" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:32:56Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010216t/f2.highres" n="2"/>
-      <p rend="incipit">17/05/79</p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#lescure">Lescure</persName> – <persName ref="difdepo:persons.xml#blavier">Blavier</persName> – <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> – <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName></p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></p>
-      <p rend="incipit">Invité <persName ref="difdepo:persons.xml#parzysz">Parzysz</persName></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Lettre de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> qui parle de son hospitalisation à Penne (Aveyron)</p>
-      <p>Souhaite qu’on reçoive beaucoup de lettres comme celle-là.</p>
-      <p><persName ref="difdepo:persons.xml#parzysz">Parzysz</persName> : vieil admirateur de l’Oulipo ; travaux sur la <term ref="difdepo:terms.xml#litteratureenarbres">littérature en arbres</term> (musicien de surcroît)</p>
-      <p>- raconte sa découverte du <title ref="difdepo:titles.xml#conteavotrefacon">Conte à votre façon</title> – tentative de l’utiliser dans les classes de 4<hi rend="sup">e</hi></p>
-      <p>- projet de « <term ref="difdepo:terms.xml#livreelectronique">livre électronique</term> » avec le <title ref="difdepo:titles.xml#conteavotrefacon">conte à votre façon</title></p>
-      <p>Discussion sur les conditions de possibilité.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p>- <persName ref="difdepo:persons.xml#chevalet">chevalet</persName></p>
-      <p>-<title ref="difdepo:titles.xml#cartepostale">carte postale</title> Oulipo : prix approximatif</p>
-      <p>3600 le premier mille</p>
-      <p>740 le mille suivant</p>
-      <p><orgName ref="difdepo:organizations.xml#leminotaure">Le Minotaure</orgName> en commande une vingtaine <lb/><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> une centaine – commandes</p>
-      <p>- date <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>  : jeudi 14 juin invité <persName ref="difdepo:persons.xml#cortazar">Cortazar</persName></p>
-      <p>Mercredi 4 juillet</p>
-      <p>- sortie du tunnel : fin du <title ref="difdepo:titles.xml#dictionnairesdemathews">Dictionnaires de <persName ref="difdepo:persons.xml#mathews">Mathews</persName></title></p>
-      <p>Fin du livre sur les <title ref="difdepo:titles.xml#nombresremarquables">nombres remarquables</title></p>
-      <p>Donc possibilité</p>
-      <p>- mots/records</p>
-      <p><term ref="difdepo:terms.xml#classification">Classification</term> des <term ref="difdepo:terms.xml#structures">structures</term> : Pour une <term ref="difdepo:terms.xml#systematique">systématique</term> de la <term ref="difdepo:terms.xml#litteraturerecurrente">littérature récurrente</term> ; réunion avec <persName ref="difdepo:persons.xml#jaulin"><unclear>Jaulin</unclear></persName>, <persName ref="difdepo:persons.xml#pr">Rosenstiehl</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#berge">Berge</persName>. Copie promise d’un article dont lecture est faite.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> a obtenu la bourse Del Ducal. <lb/>Brève rétrospective à prix éditeurs pour les membres de l’Oulipo.</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>. Extension de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> pour <term ref="difdepo:terms.xml#pasticheautomatique">pastiche automatique</term>. Copie promise.</p>
-      <p>Commentaires sur la communication.</p>
-      <p>Un <term ref="difdepo:terms.xml#poemeantonymique">poème antonymique</term> de <persName ref="difdepo:persons.xml#lamy">Lamy</persName> : cris de Mai.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Stratèges : journal de jeux auquel il va participer (<title ref="difdepo:titles.xml#scienceetvie">science et vie</title>) une rubrique de jeux oulipiens.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010216t/f3.highres" n="3"/>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. Rapport sur l’entrevue avec le <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName></p>
-      <p>Lecture des documents communiqués au <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName> pour subvention 79.</p>
-      <p>Proposition d’une réunion à 4 ou 5 pour élaboration du <title ref="difdepo:titles.xml#voloulipo2">vol Oulipo 2</title> (<persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> + membres tournant).</p>
-      <p>Unanimité moins une abstention.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>. Réunion des gens de <orgName ref="difdepo:organizations.xml#royaumont">Royaumont</orgName> à Maisons Alfort.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010216t/f2.highres" n="2"/>
+         <p rend="incipit">17/05/79</p>
+         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#lescure">Lescure</persName> – <persName ref="difdepo:persons.xml#blavier">Blavier</persName> – <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> – <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>
+         </p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Invité <persName ref="difdepo:persons.xml#parzysz">Parzysz</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Lettre de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> qui parle de son hospitalisation à Penne (Aveyron)</p>
+         <p>Souhaite qu’on reçoive beaucoup de lettres comme celle-là.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#parzysz">Parzysz</persName> : vieil admirateur de l’Oulipo ; travaux sur la <term ref="difdepo:terms.xml#litteratureenarbres">littérature en arbres</term> (musicien de surcroît)</p>
+         <p>- raconte sa découverte du <title ref="difdepo:titles.xml#conteavotrefacon">Conte à votre façon</title> – tentative de l’utiliser dans les classes de 4<hi rend="sup">e</hi>
+         </p>
+         <p>- projet de « <term ref="difdepo:terms.xml#livreelectronique">livre électronique</term> » avec le <title ref="difdepo:titles.xml#conteavotrefacon">conte à votre façon</title>
+         </p>
+         <p>Discussion sur les conditions de possibilité.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p>- <persName ref="difdepo:persons.xml#chevalet">chevalet</persName>
+         </p>
+         <p>-<title ref="difdepo:titles.xml#cartepostale">carte postale</title> Oulipo : prix approximatif</p>
+         <p>3600 le premier mille</p>
+         <p>740 le mille suivant</p>
+         <p>
+            <orgName ref="difdepo:organizations.xml#leminotaure">Le Minotaure</orgName> en commande une vingtaine <lb/>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> une centaine – commandes</p>
+         <p>- date <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>  : jeudi 14 juin invité <persName ref="difdepo:persons.xml#cortazar">Cortazar</persName>
+         </p>
+         <p>Mercredi 4 juillet</p>
+         <p>- sortie du tunnel : fin du <title ref="difdepo:titles.xml#dictionnairesdemathews">Dictionnaires de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>
+            </title>
+         </p>
+         <p>Fin du livre sur les <title ref="difdepo:titles.xml#nombresremarquables">nombres remarquables</title>
+         </p>
+         <p>Donc possibilité</p>
+         <p>- mots/records</p>
+         <p>
+            <term ref="difdepo:terms.xml#classification">Classification</term> des <term ref="difdepo:terms.xml#structures">structures</term> : Pour une <term ref="difdepo:terms.xml#systematique">systématique</term> de la <term ref="difdepo:terms.xml#litteraturerecurrente">littérature récurrente</term> ; réunion avec <persName ref="difdepo:persons.xml#jaulin">
+               <unclear>Jaulin</unclear>
+            </persName>, <persName ref="difdepo:persons.xml#pr">Rosenstiehl</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#berge">Berge</persName>. Copie promise d’un article dont lecture est faite.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> a obtenu la bourse Del Ducal. <lb/>Brève rétrospective à prix éditeurs pour les membres de l’Oulipo.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName>. Extension de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> pour <term ref="difdepo:terms.xml#pasticheautomatique">pastiche automatique</term>. Copie promise.</p>
+         <p>Commentaires sur la communication.</p>
+         <p>Un <term ref="difdepo:terms.xml#poemeantonymique">poème antonymique</term> de <persName ref="difdepo:persons.xml#lamy">Lamy</persName> : cris de Mai.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> : Stratèges : journal de jeux auquel il va participer (<title ref="difdepo:titles.xml#scienceetvie">science et vie</title>) une rubrique de jeux oulipiens.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010216t/f3.highres" n="3"/>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>. Rapport sur l’entrevue avec le <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName>
+         </p>
+         <p>Lecture des documents communiqués au <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName> pour subvention 79.</p>
+         <p>Proposition d’une réunion à 4 ou 5 pour élaboration du <title ref="difdepo:titles.xml#voloulipo2">vol Oulipo 2</title> (<persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> + membres tournant).</p>
+         <p>Unanimité moins une abstention.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>. Réunion des gens de <orgName ref="difdepo:organizations.xml#royaumont">Royaumont</orgName> à Maisons Alfort.</p>
+      </body>
   </text>
 </TEI>

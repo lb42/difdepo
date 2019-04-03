@@ -1,50 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010236-1981-02-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010236-1981-02-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010236 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010236-1981-02-cv</idno> <title>Convocation à <ref target="#t10010236-1981-02">une réunion Oulipo</ref>, envoyée le <date when="1981-02-08">8 février 1981</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:34:52Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010236 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 8 février 1981</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010236-1981-02-cv</idno> 
+               <title>Convocation à <ref target="#t10010236-1981-02">une réunion Oulipo</ref>, envoyée le <date when="1981-02-08">8 février 1981</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:34:52Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010236n/f1.highres" n="1"/>
-      <p rend="incipit">Oulipo Paris le 8 II 81</p>
-      <p rend="incipit">Chers oulipiens,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 19 Février à 11 chez <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> et <persName ref="difdepo:persons.xml#isabellebenabou">Isabelle Bénabou</persName>, 48 rue du Capitaine Marchal 75020, 361.40.39. Il y sera question du <title ref="difdepo:titles.xml#volume2">volume 2</title> qui pose quelques problèmes typographiques à la maison <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>.</p>
-      <p>N’oubliez pas que la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> manque de textes !</p>
-      <p>Notre invité d’honneur sera <persName ref="difdepo:persons.xml#claudesimonnet">Claude Simonnet</persName>.</p>
-      <p>Retournez la découpe ci-dessous dans les meilleurs délais (les plus brefs) pour faciliter la tâche d’<persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> et de <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel.</abbr></persName></p>
-      <p>Amitiés oulipiennes</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>,</p>
-      <p>Un secrétaire</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010236n/f1.highres" n="1"/>
+         <p rend="incipit">Oulipo Paris le 8 II 81</p>
+         <p rend="incipit">Chers oulipiens,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 19 Février à 11 chez <persName ref="difdepo:persons.xml#marcel">
+               <abbr>Marcel</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#isabellebenabou">Isabelle Bénabou</persName>, 48 rue du Capitaine Marchal 75020, 361.40.39. Il y sera question du <title ref="difdepo:titles.xml#volume2">volume 2</title> qui pose quelques problèmes typographiques à la maison <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>.</p>
+         <p>N’oubliez pas que la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> manque de textes !</p>
+         <p>Notre invité d’honneur sera <persName ref="difdepo:persons.xml#claudesimonnet">Claude Simonnet</persName>.</p>
+         <p>Retournez la découpe ci-dessous dans les meilleurs délais (les plus brefs) pour faciliter la tâche d’<persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> et de <persName ref="difdepo:persons.xml#marcel">
+               <abbr>Marcel.</abbr>
+            </persName>
+         </p>
+         <p>Amitiés oulipiennes</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>,</p>
+         <p>Un secrétaire</p>
+      </body>
   </text>
 </TEI>

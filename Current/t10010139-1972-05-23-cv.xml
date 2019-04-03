@@ -1,51 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010139-1972-05-23-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010139-1972-05-23-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010139 pp. 14 à 14 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010139-1972-05-23-cv</idno> <title>Convocation à <ref target="#t10010139-1972-05-23">une réunion Oulipo</ref>, envoyée le <date when="1972-05-23">23 mai 1972</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:23:36Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010139 pp. 14 à 14 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 23 mai 1972</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010139-1972-05-23-cv</idno> 
+               <title>Convocation à <ref target="#t10010139-1972-05-23">une réunion Oulipo</ref>, envoyée le <date when="1972-05-23">23 mai 1972</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:23:36Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010139m/f14.highres" n="14"/>
-      <p rend="incipit"><persName ref="difdepo:persons.xml#francoislelionnais">François LE LIONNAIS</persName> 23, route de la Reine 92100 – BOULOGNE SUR SEINE</p>
-      <p rend="incipit">Téléphone : 005 90 13</p>
-      <p rend="incipit">le 23 Mai 1972</p>
-      <p rend="incipit">Monsieur <persName ref="difdepo:persons.xml#marcelbenabou">Marcel BENABOU</persName></p>
-      <p rend="incipit">TROISIEME SECTEUR</p>
-      <p>Chers Amis,</p>
-      <p>Le moment est venu de passer des paroles aux actes et de fonder une CONFRERIE DU TROISIEME SECTEUR. Je vous propose de nous réunir en Assemblée Constituante le vendredi 9 Juin 1972 à 12 heures chez le signataire de ces lignes. Voulez-vous me répondre le plus rapidement possible (ou, mieux, téléphoner) pour me dire si cette date vous convient.</p>
-      <p>Trisectoriellement vôtre</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
-      <p>P.S. Cette lettre est envoyée à MM. <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Benabou</persName>, <persName ref="difdepo:persons.xml#micheldecaudin">Michel Decaudin</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010139m/f14.highres"
+             n="14"/>
+         <p rend="incipit">
+            <persName ref="difdepo:persons.xml#francoislelionnais">François LE LIONNAIS</persName> 23, route de la Reine 92100 – BOULOGNE SUR SEINE</p>
+         <p rend="incipit">Téléphone : 005 90 13</p>
+         <p rend="incipit">le 23 Mai 1972</p>
+         <p rend="incipit">Monsieur <persName ref="difdepo:persons.xml#marcelbenabou">Marcel BENABOU</persName>
+         </p>
+         <p rend="incipit">TROISIEME SECTEUR</p>
+         <p>Chers Amis,</p>
+         <p>Le moment est venu de passer des paroles aux actes et de fonder une CONFRERIE DU TROISIEME SECTEUR. Je vous propose de nous réunir en Assemblée Constituante le vendredi 9 Juin 1972 à 12 heures chez le signataire de ces lignes. Voulez-vous me répondre le plus rapidement possible (ou, mieux, téléphoner) pour me dire si cette date vous convient.</p>
+         <p>Trisectoriellement vôtre</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
+         </p>
+         <p>P.S. Cette lettre est envoyée à MM. <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Benabou</persName>, <persName ref="difdepo:persons.xml#micheldecaudin">Michel Decaudin</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
+      </body>
   </text>
 </TEI>

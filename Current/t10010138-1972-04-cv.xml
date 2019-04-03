@@ -1,55 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010138-1972-04-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010138-1972-04-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010138 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010138-1972-04-cv</idno> <title>Convocation à <ref target="#t10010138-1972-04">une réunion Oulipo</ref>, envoyée le <date when="1972-04-05">5 avril 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:23:32Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010138 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 5 avril 1972</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010138-1972-04-cv</idno> 
+               <title>Convocation à <ref target="#t10010138-1972-04">une réunion Oulipo</ref>, envoyée le <date when="1972-04-05">5 avril 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:23:32Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101385/f1.highres" n="1"/>
-      <p rend="incipit">le 5 Avril 1972</p>
-      <p>Cher OuLiPote,</p>
-      <p>Comme prévu, la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OuLiPo aura lieu le mardi 18 Avril à 11 heures, 23 route de la Reine à Boulogne.</p>
-      <p>Je tiens à attirer votre attention sur les 7 points suivants :</p>
-      <p>1° - Notre invité d’honneur sera <persName ref="difdepo:persons.xml#danielherault">Daniel Hérault</persName>, Directeur du <name ref="difdepo:events.xml#seminairedelinguistiquequantitative" type="manif">Séminaire de Linguistique quantitative</name>.</p>
-      <p>2° - Il sera question de la création éventuelle d’une <orgName ref="difdepo:organizations.xml#souscocommissiondescombinardsdeloulipo">sous cocommission des « Combinards de l’OuLiPo »</orgName> (outre les membres combinateurs, on signale les candidatures de <persName ref="difdepo:persons.xml#stanislawulam">Stanislaw Ulam</persName>, <persName ref="difdepo:persons.xml#giancarlorota">Giancarlo Rota</persName>, <persName ref="difdepo:persons.xml#paulstein">Paul Stein</persName>, <persName ref="difdepo:persons.xml#alanweinstein">Alan Weinstein</persName>).</p>
-      <p>3° - Il serait souhaitable de penser à fournir une liste d’ouvrages que vous aimeriez voir figurer dans une bibliothèque oulipienne.</p>
-      <p>4° - La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, contrairement à ce qui avait été décidé, n’aura pas lieu le 16 Mai. Le Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> propose la date du mardi 23 Mai, mais la discussion reste ouverte…</p>
-      <p>5° - Notre invité d’honneur, pour cette <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, sera <persName ref="difdepo:persons.xml#stanislawulam">Stanislaw Ulam</persName> de passage en France.</p>
-      <p>6° - Nous vous signalons, d’autre part, que <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName> et <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> sont invités à participer jeudi 6 Avril à 21H30, à l’émission de la <orgName ref="difdepo:organizations.xml#n2chaine">2° chaîne</orgName> « <title ref="difdepo:titles.xml#italiques">Italiques</title> » pour y présenter les « <title ref="difdepo:titles.xml#clefspourlalitteraturepotentielle">Clefs pour la littérature potentielle</title> ».</p>
-      <p>7° - Nous insistons pour que vous nous répondiez si vous venez déjeuner ou non afin de faciliter l’organisation matérielle de cette opération. Nous vous demandons également de penser au dossier de séance dont il a déjà été question.</p>
-      <p>En nous excusant de la longueur de cette missive, OuLiPiennement</p>
-      <p>Un Secrétaire :</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101385/f1.highres" n="1"/>
+         <p rend="incipit">le 5 Avril 1972</p>
+         <p>Cher OuLiPote,</p>
+         <p>Comme prévu, la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OuLiPo aura lieu le mardi 18 Avril à 11 heures, 23 route de la Reine à Boulogne.</p>
+         <p>Je tiens à attirer votre attention sur les 7 points suivants :</p>
+         <p>1° - Notre invité d’honneur sera <persName ref="difdepo:persons.xml#danielherault">Daniel Hérault</persName>, Directeur du <name ref="difdepo:events.xml#seminairedelinguistiquequantitative"
+                  type="manif">Séminaire de Linguistique quantitative</name>.</p>
+         <p>2° - Il sera question de la création éventuelle d’une <orgName ref="difdepo:organizations.xml#souscocommissiondescombinardsdeloulipo">sous cocommission des « Combinards de l’OuLiPo »</orgName> (outre les membres combinateurs, on signale les candidatures de <persName ref="difdepo:persons.xml#stanislawulam">Stanislaw Ulam</persName>, <persName ref="difdepo:persons.xml#giancarlorota">Giancarlo Rota</persName>, <persName ref="difdepo:persons.xml#paulstein">Paul Stein</persName>, <persName ref="difdepo:persons.xml#alanweinstein">Alan Weinstein</persName>).</p>
+         <p>3° - Il serait souhaitable de penser à fournir une liste d’ouvrages que vous aimeriez voir figurer dans une bibliothèque oulipienne.</p>
+         <p>4° - La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, contrairement à ce qui avait été décidé, n’aura pas lieu le 16 Mai. Le Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> propose la date du mardi 23 Mai, mais la discussion reste ouverte…</p>
+         <p>5° - Notre invité d’honneur, pour cette <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, sera <persName ref="difdepo:persons.xml#stanislawulam">Stanislaw Ulam</persName> de passage en France.</p>
+         <p>6° - Nous vous signalons, d’autre part, que <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName> et <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> sont invités à participer jeudi 6 Avril à 21H30, à l’émission de la <orgName ref="difdepo:organizations.xml#n2chaine">2° chaîne</orgName> « <title ref="difdepo:titles.xml#italiques">Italiques</title> » pour y présenter les « <title ref="difdepo:titles.xml#clefspourlalitteraturepotentielle">Clefs pour la littérature potentielle</title> ».</p>
+         <p>7° - Nous insistons pour que vous nous répondiez si vous venez déjeuner ou non afin de faciliter l’organisation matérielle de cette opération. Nous vous demandons également de penser au dossier de séance dont il a déjà été question.</p>
+         <p>En nous excusant de la longueur de cette missive, OuLiPiennement</p>
+         <p>Un Secrétaire :</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+         </p>
+      </body>
   </text>
 </TEI>

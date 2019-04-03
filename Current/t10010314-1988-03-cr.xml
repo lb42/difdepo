@@ -1,75 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010314-1988-03-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010314-1988-03-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010314 pp. 1 à 1 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#barbaraservant">Barbara Servant</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010314-1988-03-cr</idno> <meeting xml:id="t10010314-1988-03">
-          <date when="1988-03-11">11 mars 1988</date>
-          <placeName>chez MM</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge" role="président">Claude Berge</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:37:53Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010314 pp. 1 à 1 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 11 mars 1988</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#barbaraservant">Barbara Servant</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010314-1988-03-cr</idno> 
+               <meeting xml:id="t10010314-1988-03">
+                  <date when="1988-03-11">11 mars 1988</date>
+                  <placeName>chez MM</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge" role="président">Claude Berge</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:37:53Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103149/f1.highres" n="1"/>
-      <p>Oulipo de 11-3-88</p>
-      <p>(Chez M. Métail)</p>
-      <p>Présents : CB, JJ, MM, MB, FC +PB</p>
-      <p>Président CB. Secrétaire MB</p>
-      <p>CB. Voyage en Australie, a retrouvé la trace de GP</p>
-      <p>JJ refuse de donner un menu propos</p>
-      <p>MM contribution au numéro Plein Chant consacré à NA</p>
-      <p>Fantaisie acoustique du Levant</p>
-      <p>Texte fait avec tous les mots européens empruntés par le chinois</p>
-      <p>CB <unclear>mata hari</unclear>: les yeux de la journée (=le soleil) en indonésien</p>
-      <p>MB Présentation du Point de départ</p>
-      <p>FC Inaction en cours</p>
-      <p>MB Erudition : <name ref="difdepo:events.xml#colloque" type="manif">Colloque</name> sur les Permutations (1972)</p>
-      <p>Actes publiés chez Gauthier-Villars</p>
-      <p>Verbes délocutifs : cf fiche sur Benveniste</p>
-      <p>JJ programme de l’hommage à J. Queval qui aura lieu à Beaubourg le 19 mars</p>
-      <p>MB-JJ-MM préparation programme de Marne-la-Vallée</p>
-      <p>(Menu : repas indien)</p>
-      <p>19/4 <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez JJ.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103149/f1.highres" n="1"/>
+         <p>Oulipo de 11-3-88</p>
+         <p>(Chez M. Métail)</p>
+         <p>Présents : CB, JJ, MM, MB, FC +PB</p>
+         <p>Président CB. Secrétaire MB</p>
+         <p>CB. Voyage en Australie, a retrouvé la trace de GP</p>
+         <p>JJ refuse de donner un menu propos</p>
+         <p>MM contribution au numéro Plein Chant consacré à NA</p>
+         <p>Fantaisie acoustique du Levant</p>
+         <p>Texte fait avec tous les mots européens empruntés par le chinois</p>
+         <p>CB <unclear>mata hari</unclear>: les yeux de la journée (=le soleil) en indonésien</p>
+         <p>MB Présentation du Point de départ</p>
+         <p>FC Inaction en cours</p>
+         <p>MB Erudition : <name ref="difdepo:events.xml#colloque" type="manif">Colloque</name> sur les Permutations (1972)</p>
+         <p>Actes publiés chez Gauthier-Villars</p>
+         <p>Verbes délocutifs : cf fiche sur Benveniste</p>
+         <p>JJ programme de l’hommage à J. Queval qui aura lieu à Beaubourg le 19 mars</p>
+         <p>MB-JJ-MM préparation programme de Marne-la-Vallée</p>
+         <p>(Menu : repas indien)</p>
+         <p>19/4 <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez JJ.</p>
+      </body>
   </text>
 </TEI>

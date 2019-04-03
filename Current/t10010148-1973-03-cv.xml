@@ -1,52 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010148-1973-03-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010148-1973-03-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010148 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010148-1973-03-cv</idno> <title>Convocation à <ref target="#t10010148-1973-03">une réunion Oulipo</ref>, envoyée le <date when="1973-03-15">15 mars 1973</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-17" who="HCC">nettoyage des commentaires /notes</change>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:24:08Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010148 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 15 mars 1973</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010148-1973-03-cv</idno> 
+               <title>Convocation à <ref target="#t10010148-1973-03">une réunion Oulipo</ref>, envoyée le <date when="1973-03-15">15 mars 1973</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-17" who="HCC">nettoyage des commentaires /notes</change>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:24:08Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010148k/f1.highres" n="1"/>
-      <p rend="incipit">Le 15 Mars 1973</p>
-      <p rend="incipit">Chers Brigadiers,</p>
-      <p>Comme nous l’avions décidé notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu Mercredi 28 Mars de 11 heures à 15 heures.</p>
-      <p>Notre invité d’honneur ne sera pas ‑ comme prévu précédemment ‑ notre ami <persName ref="difdepo:persons.xml#eleipp">E. LEIPP</persName> : il sera notre hôte, si Dieu le veut en Avril. Notre invité d’honneur du 28 Mars sera <persName ref="difdepo:persons.xml#renethom">René THOM</persName> : c’est une véritable catastrophe !</p>
-      <p>Nos deux derniers membres, élus à l’unanimité, <persName ref="difdepo:persons.xml#italocalvino">Italo CALVINO</persName> et <persName ref="difdepo:persons.xml#harrymathews">Harry MATHEWS</persName> seront parmi nous.</p>
-      <p>Nous avons un ordre du jour chargé dont le point le plus important sera la très prochaine sortie de presse de notre ouvrage.</p>
-      <p>N’oubliez pas ‑ pour des raisons d’intendance ‑ de répondre au formulaire au bas de cette lettre.</p>
-      <p>Oulipiennement vôtre.</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
-      <p>(<add>lequel serait content d’un rendez-vous clandestin pour la mise au point de l’opération « <orgName ref="difdepo:organizations.xml#caissedepargne">Caisse d’Epargne</orgName> ». Amitiés <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></add> <note n="1" resp="editor">Ajout manuscrit.</note></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010148k/f1.highres" n="1"/>
+         <p rend="incipit">Le 15 Mars 1973</p>
+         <p rend="incipit">Chers Brigadiers,</p>
+         <p>Comme nous l’avions décidé notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu Mercredi 28 Mars de 11 heures à 15 heures.</p>
+         <p>Notre invité d’honneur ne sera pas ‑ comme prévu précédemment ‑ notre ami <persName ref="difdepo:persons.xml#eleipp">E. LEIPP</persName> : il sera notre hôte, si Dieu le veut en Avril. Notre invité d’honneur du 28 Mars sera <persName ref="difdepo:persons.xml#renethom">René THOM</persName> : c’est une véritable catastrophe !</p>
+         <p>Nos deux derniers membres, élus à l’unanimité, <persName ref="difdepo:persons.xml#italocalvino">Italo CALVINO</persName> et <persName ref="difdepo:persons.xml#harrymathews">Harry MATHEWS</persName> seront parmi nous.</p>
+         <p>Nous avons un ordre du jour chargé dont le point le plus important sera la très prochaine sortie de presse de notre ouvrage.</p>
+         <p>N’oubliez pas ‑ pour des raisons d’intendance ‑ de répondre au formulaire au bas de cette lettre.</p>
+         <p>Oulipiennement vôtre.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+         </p>
+         <p>(<add>lequel serait content d’un rendez-vous clandestin pour la mise au point de l’opération « <orgName ref="difdepo:organizations.xml#caissedepargne">Caisse d’Epargne</orgName> ». Amitiés <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName>
+            </add> 
+            <note n="1" resp="editor">Ajout manuscrit.</note>
+         </p>
+      </body>
   </text>
 </TEI>

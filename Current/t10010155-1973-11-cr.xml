@@ -1,102 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010155-1973-11-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010155-1973-11-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010155 pp. 8 à 10 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010155-1973-11-cr</idno> <meeting xml:id="t10010155-1973-11">
-          <date when="1973-11-10">10 novembre 1973</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeaneffel" role="invité">Jean Effel</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:25:11Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010155 pp. 8 à 10 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 10 novembre 1973</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010155-1973-11-cr</idno> 
+               <meeting xml:id="t10010155-1973-11">
+                  <date when="1973-11-10">10 novembre 1973</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeaneffel" role="invité">Jean Effel</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:25:11Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010155n/f8.highres" n="8"/>
-      <p rend="incipit">OULIPO</p>
-      <p rend="incipit">16 XI 73</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>, <persName ref="difdepo:persons.xml#fournel">Fournel</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName></p>
-      <p rend="incipit">Invité : <persName ref="difdepo:persons.xml#jeffel">J. Effel</persName>.</p>
-      <list type="unordered">
-        <item>Exposé de <persName ref="difdepo:persons.xml#jeffel">J. Effel</persName> sur son <term ref="difdepo:terms.xml#ecritureuniverselle">écriture universelle</term>.</item>
-        <item>E.U. garde non pas ce qui est exquis dans les mots. Mais seulement la charpente</item>
-        <item>(erreur de <persName ref="difdepo:persons.xml#effel">Effel</persName> sur la nature de l’Oulipo.)</item>
-        <item>En utilisant tous les codes actuellement existants, on peut traduire toute pensée = rigueur des signes</item>
-      </list>
-      <p>Problème de morphologie et de syntaxe : prendre la syntaxe d’une écriture donnée (exemple : table de multiplication)</p>
-      <p>(on peut lire les choses autrement qu’on ne les écrit)</p>
-      <p>Morphologie : la signalisation routière : panneau circulaire : verbe (s’arrêter, contourner)</p>
-      <p>: panneau triangulaire : adjectif</p>
-      <p>: rectangle : nom (parking – hôpital) = commun  : et carré et nom propre.</p>
-      <p>D’où cercle = verbe ; triangle = adjectif = carré = nom.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Ce qu’est l’Oulipo et ce qu’il n’est pas</p>
-      <p>L’Oulipo travaille sur la littérature, et non sur le langage ; la <term ref="difdepo:terms.xml#structure">structure</term> prime.</p>
-      <p><persName ref="difdepo:persons.xml#effel">Effel</persName> : répond à la question de <persName ref="difdepo:persons.xml#queval">Queval</persName> sur la symbolique de la sexualité</p>
-      <p>Le problème de la conjugaison : le je : c’est l’homme</p>
-      <p>Le on : quantificateur universel</p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : justifie la présence de <persName ref="difdepo:persons.xml#effel">Effel</persName> parmi l’Oulipo ; allusion à <persName ref="difdepo:persons.xml#thom">Thom</persName> qui a essayé de réduire les concepts humains à un certain nombre de types topologiques = Oulipo sémantique.</p>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : nouveaux codes qui se développent en informatique</p>
-      <p><persName ref="difdepo:persons.xml#effel">Effel</persName> : problème du sens</p>
-      <p>Réactions au livre</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Article de <persName ref="difdepo:persons.xml#soudet">Soudet</persName> dans l’<title ref="difdepo:titles.xml#express">Express</title> ; réponse proposée par <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : lecture d’un article sur <title ref="difdepo:titles.xml#timeliterarysupplement">Time Literary Supplément</title>, texte favorable.</p>
-      <p>Et rencontre avec un professeur argentin.</p>
-      <p><persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> : utilisation pédagogique</p>
-      <p><persName ref="difdepo:persons.xml#berge">Berge</persName> : Projet de constitution d’un livre d’or avec les critiques.</p>
-      <p><persName ref="difdepo:persons.xml#calvino">Calvino</persName> : projet de traduction chez <orgName ref="difdepo:organizations.xml#financhi">Financhi</orgName></p>
-      <p><persName ref="difdepo:persons.xml#queval">Queval</persName> : biobibliographie de membres de l’Oulipo.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010155n/f10.highres" n="9"/>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#queval">Queval</persName> : <term ref="difdepo:terms.xml#poesiechinoise">poésie chinoise</term>. Lettre de <persName ref="difdepo:persons.xml#snow">Snow</persName></item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : invitation projetée auprès de <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName> dans un château près de Poitiers.</item>
-      </list>
-      <p>Samedi 8 Décembre : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> à PIENS Atala 16 heures</p>
-      <p>L’Oulipo et la linguistique</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : problème de la distinction entre <term ref="difdepo:terms.xml#formefixe">forme fixe</term> et <term ref="difdepo:terms.xml#structure">structure</term></p>
-      <p>La Coupe d’Ambroisie</p>
-      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : une grille de mots croisés (de <persName ref="difdepo:persons.xml#rscipion">R. Scipion</persName>) <del>avec des définitions</del> dont tous les mots sont en A.</p>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : La revue</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : exemple de pièce de <orgName ref="difdepo:organizations.xml#theatrebooleen">théâtre booléen</orgName> : la <title ref="difdepo:titles.xml#demandedemploi">Demande d’Emploi</title></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010155n/f8.highres" n="8"/>
+         <p rend="incipit">OULIPO</p>
+         <p rend="incipit">16 XI 73</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>, <persName ref="difdepo:persons.xml#fournel">Fournel</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>
+         </p>
+         <p rend="incipit">Invité : <persName ref="difdepo:persons.xml#jeffel">J. Effel</persName>.</p>
+         <list type="unordered">
+            <item>Exposé de <persName ref="difdepo:persons.xml#jeffel">J. Effel</persName> sur son <term ref="difdepo:terms.xml#ecritureuniverselle">écriture universelle</term>.</item>
+            <item>E.U. garde non pas ce qui est exquis dans les mots. Mais seulement la charpente</item>
+            <item>(erreur de <persName ref="difdepo:persons.xml#effel">Effel</persName> sur la nature de l’Oulipo.)</item>
+            <item>En utilisant tous les codes actuellement existants, on peut traduire toute pensée = rigueur des signes</item>
+         </list>
+         <p>Problème de morphologie et de syntaxe : prendre la syntaxe d’une écriture donnée (exemple : table de multiplication)</p>
+         <p>(on peut lire les choses autrement qu’on ne les écrit)</p>
+         <p>Morphologie : la signalisation routière : panneau circulaire : verbe (s’arrêter, contourner)</p>
+         <p>: panneau triangulaire : adjectif</p>
+         <p>: rectangle : nom (parking – hôpital) = commun  : et carré et nom propre.</p>
+         <p>D’où cercle = verbe ; triangle = adjectif = carré = nom.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Ce qu’est l’Oulipo et ce qu’il n’est pas</p>
+         <p>L’Oulipo travaille sur la littérature, et non sur le langage ; la <term ref="difdepo:terms.xml#structure">structure</term> prime.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#effel">Effel</persName> : répond à la question de <persName ref="difdepo:persons.xml#queval">Queval</persName> sur la symbolique de la sexualité</p>
+         <p>Le problème de la conjugaison : le je : c’est l’homme</p>
+         <p>Le on : quantificateur universel</p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : justifie la présence de <persName ref="difdepo:persons.xml#effel">Effel</persName> parmi l’Oulipo ; allusion à <persName ref="difdepo:persons.xml#thom">Thom</persName> qui a essayé de réduire les concepts humains à un certain nombre de types topologiques = Oulipo sémantique.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : nouveaux codes qui se développent en informatique</p>
+         <p>
+            <persName ref="difdepo:persons.xml#effel">Effel</persName> : problème du sens</p>
+         <p>Réactions au livre</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Article de <persName ref="difdepo:persons.xml#soudet">Soudet</persName> dans l’<title ref="difdepo:titles.xml#express">Express</title> ; réponse proposée par <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : lecture d’un article sur <title ref="difdepo:titles.xml#timeliterarysupplement">Time Literary Supplément</title>, texte favorable.</p>
+         <p>Et rencontre avec un professeur argentin.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> : utilisation pédagogique</p>
+         <p>
+            <persName ref="difdepo:persons.xml#berge">Berge</persName> : Projet de constitution d’un livre d’or avec les critiques.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#calvino">Calvino</persName> : projet de traduction chez <orgName ref="difdepo:organizations.xml#financhi">Financhi</orgName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#queval">Queval</persName> : biobibliographie de membres de l’Oulipo.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010155n/f10.highres"
+             n="9"/>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#queval">Queval</persName> : <term ref="difdepo:terms.xml#poesiechinoise">poésie chinoise</term>. Lettre de <persName ref="difdepo:persons.xml#snow">Snow</persName>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : invitation projetée auprès de <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName> dans un château près de Poitiers.</item>
+         </list>
+         <p>Samedi 8 Décembre : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> à PIENS Atala 16 heures</p>
+         <p>L’Oulipo et la linguistique</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : problème de la distinction entre <term ref="difdepo:terms.xml#formefixe">forme fixe</term> et <term ref="difdepo:terms.xml#structure">structure</term>
+         </p>
+         <p>La Coupe d’Ambroisie</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : une grille de mots croisés (de <persName ref="difdepo:persons.xml#rscipion">R. Scipion</persName>) <del>avec des définitions</del> dont tous les mots sont en A.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : La revue</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : exemple de pièce de <orgName ref="difdepo:organizations.xml#theatrebooleen">théâtre booléen</orgName> : la <title ref="difdepo:titles.xml#demandedemploi">Demande d’Emploi</title>
+         </p>
+      </body>
   </text>
 </TEI>

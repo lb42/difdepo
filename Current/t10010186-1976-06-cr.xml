@@ -1,88 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010186-1976-06-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010186-1976-06-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010186 pp. 2 à 2 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#clementinepradereascione">Clémentine Pradère Ascione</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010186-1976-06-cr</idno> <meeting xml:id="t10010186-1976-06">
-          <date when="1976-06-10">10 juin 1976</date>
-          <placeName>chez GP</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:38:45Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010186 pp. 2 à 2 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 10 juin 1976</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#clementinepradereascione">Clémentine Pradère Ascione</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010186-1976-06-cr</idno> 
+               <meeting xml:id="t10010186-1976-06">
+                  <date when="1976-06-10">10 juin 1976</date>
+                  <placeName>chez GP</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:38:45Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010186b/f2.highres" n="2"/>
-      <p rend="incipit">OULIPO le 10/6/76</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#mathews">Mathews</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : le point sur l’émission de <persName ref="difdepo:persons.xml#pillaudin">Pillaudin</persName> avec <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> dîne avec <persName ref="difdepo:persons.xml#laine">Lainé</persName> et voudrait lui suggérer des questions à poser : faut-il évoquer le problème des rapports Oulipo et chansonniers (débat entre <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName> et <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> sur ce sujet).</p>
-      <p>– Les membres présents dans la salle peuvent intervenir, mais discrètement.</p>
-      <p>– Oulipo et <term ref="difdepo:terms.xml#surrealisme">surréalisme</term>, Oulipo et <term ref="difdepo:terms.xml#hasard">hasard</term>, Oulipo et <term ref="difdepo:terms.xml#automatisme">automatisme</term>.</p>
-      <p><persName ref="difdepo:persons.xml#hmath">H. Math</persName> : l’<term ref="difdepo:terms.xml#algorithmedemathews">algorithme de <persName ref="difdepo:persons.xml#mathews">Mathews</persName></term>  : quelques modifications.</p>
-      <p>Un exemplaire de l’ensemble est versé aux <ref>Archives</ref>.</p>
-      <p><persName ref="difdepo:persons.xml#bens">Bens</persName> : le problème du romancier : donner de la cohérence à un ensemble qui n’en a pas.</p>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : double problématique</p>
-      <list type="ordered">
-        <item><term ref="difdepo:terms.xml#matrice">matrice</term> + <term ref="difdepo:terms.xml#permutation">permutation</term></item>
-        <item>finalité posée au départ</item>
-      </list>
-      <p>Interruption pour mettre la table.</p>
-      <p><label type="rubrique">Action</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le 8/12/76 <name ref="difdepo:events.xml#conferenceaorsaysurlitteratureetmathematiques" type="manif">conférence à Orsay sur Littérature et mathématiques</name>.</item>
-        <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : demande qui veut se charger de son article pour les <title ref="difdepo:titles.xml#nouvelleslitteraires">Nouvelles Littéraires</title> sur <title ref="difdepo:titles.xml#litteratureetmathematiques">Littérature et Mathématiques</title>.</item>
-      </list>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> propose 2 <term ref="difdepo:terms.xml#structure">structures</term> valables pour l’Oulipo ainsi que pour l’<orgName ref="difdepo:organizations.xml#oulipopo">Oulipopo</orgName> et établit un <term ref="difdepo:terms.xml#theoreme">théorème</term> sur la <term ref="difdepo:terms.xml#structureduromanpolicier">structure du roman policier</term> où il y a échange de meurtres et qu’on pourrait transposer ailleurs.</p>
-      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : présentation de <title ref="difdepo:titles.xml#alphabets">Alphabets</title>, livre fait en 160 onzains à partir de Esartinulo + une lettre.</p>
-      <p>Acclamation générale.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> :</p>
-      <list type="unordered">
-        <item>recherche sur les <term ref="difdepo:terms.xml#homophonieslettresmots">homophonies lettres-mots</term> : inventaire à faire.</item>
-        <item>recherche sur les <term ref="difdepo:terms.xml#verbesquiontplusieurssens">verbes qui ont plusieurs sens</term> : il entoura.</item>
-      </list>
-      <p>Problème des <term ref="difdepo:terms.xml#onomatopees">onomatopées</term>.</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> 3 Août</p>
-      <p>Invité d’honneur : <persName ref="difdepo:persons.xml#tardieu">Tardieu</persName>, Paris</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010186b/f2.highres" n="2"/>
+         <p rend="incipit">OULIPO le 10/6/76</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#mathews">Mathews</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : le point sur l’émission de <persName ref="difdepo:persons.xml#pillaudin">Pillaudin</persName> avec <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> dîne avec <persName ref="difdepo:persons.xml#laine">Lainé</persName> et voudrait lui suggérer des questions à poser : faut-il évoquer le problème des rapports Oulipo et chansonniers (débat entre <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName> et <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> sur ce sujet).</p>
+         <p>– Les membres présents dans la salle peuvent intervenir, mais discrètement.</p>
+         <p>– Oulipo et <term ref="difdepo:terms.xml#surrealisme">surréalisme</term>, Oulipo et <term ref="difdepo:terms.xml#hasard">hasard</term>, Oulipo et <term ref="difdepo:terms.xml#automatisme">automatisme</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hmath">H. Math</persName> : l’<term ref="difdepo:terms.xml#algorithmedemathews">algorithme de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>
+            </term>  : quelques modifications.</p>
+         <p>Un exemplaire de l’ensemble est versé aux <ref>Archives</ref>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#bens">Bens</persName> : le problème du romancier : donner de la cohérence à un ensemble qui n’en a pas.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : double problématique</p>
+         <list type="ordered">
+            <item>
+               <term ref="difdepo:terms.xml#matrice">matrice</term> + <term ref="difdepo:terms.xml#permutation">permutation</term>
+            </item>
+            <item>finalité posée au départ</item>
+         </list>
+         <p>Interruption pour mettre la table.</p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le 8/12/76 <name ref="difdepo:events.xml#conferenceaorsaysurlitteratureetmathematiques"
+                     type="manif">conférence à Orsay sur Littérature et mathématiques</name>.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : demande qui veut se charger de son article pour les <title ref="difdepo:titles.xml#nouvelleslitteraires">Nouvelles Littéraires</title> sur <title ref="difdepo:titles.xml#litteratureetmathematiques">Littérature et Mathématiques</title>.</item>
+         </list>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> propose 2 <term ref="difdepo:terms.xml#structure">structures</term> valables pour l’Oulipo ainsi que pour l’<orgName ref="difdepo:organizations.xml#oulipopo">Oulipopo</orgName> et établit un <term ref="difdepo:terms.xml#theoreme">théorème</term> sur la <term ref="difdepo:terms.xml#structureduromanpolicier">structure du roman policier</term> où il y a échange de meurtres et qu’on pourrait transposer ailleurs.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#perec">Perec</persName> : présentation de <title ref="difdepo:titles.xml#alphabets">Alphabets</title>, livre fait en 160 onzains à partir de Esartinulo + une lettre.</p>
+         <p>Acclamation générale.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> :</p>
+         <list type="unordered">
+            <item>recherche sur les <term ref="difdepo:terms.xml#homophonieslettresmots">homophonies lettres-mots</term> : inventaire à faire.</item>
+            <item>recherche sur les <term ref="difdepo:terms.xml#verbesquiontplusieurssens">verbes qui ont plusieurs sens</term> : il entoura.</item>
+         </list>
+         <p>Problème des <term ref="difdepo:terms.xml#onomatopees">onomatopées</term>.</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> 3 Août</p>
+         <p>Invité d’honneur : <persName ref="difdepo:persons.xml#tardieu">Tardieu</persName>, Paris</p>
+      </body>
   </text>
 </TEI>

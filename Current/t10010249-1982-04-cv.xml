@@ -1,45 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010249-1982-04-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010249-1982-04-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010249 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010249-1982-04-cv</idno> <title>Convocation à <ref target="#t10010249-1982-04">une réunion Oulipo</ref>, envoyée le <date when="1982-04-08">8 avril 1982</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:40:28Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010249 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 8 avril 1982</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010249-1982-04-cv</idno> 
+               <title>Convocation à <ref target="#t10010249-1982-04">une réunion Oulipo</ref>, envoyée le <date when="1982-04-08">8 avril 1982</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:40:28Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010249d/f1.highres" n="1"/>
-      <p rend="incipit">Le 8 IV 82</p>
-      <p>Chers oulipiens,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 23 avril 82 chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 48 rue de l’abbé Groult 75015 Paris (5317765). Notre invité d’honneur sera, en principe, M. <persName ref="difdepo:persons.xml#coumet">Coumet</persName>. La réunion commencera à 11h30 et l’on y parlera, entre autres choses, du <name ref="difdepo:events.xml#stagedevilleneuve" type="manif">stage de Villeneuve</name>.</p>
-      <p>Je vous signale également que Madame <persName ref="difdepo:persons.xml#drivet">DRIVET</persName> a organisé une très jolie exposition « <name ref="difdepo:events.xml#perecoulipoqueneau" type="manif">Perec-oulipo-Queneau</name> » à la librairie <orgName ref="difdepo:organizations.xml#flammarion">Flammarion</orgName> Galaxie (centre commercial Galaxie, place d’Italie). Elle a réuni (en partie grâce à <persName ref="difdepo:persons.xml#rameil">Rameil</persName>) de très belles photos et un très grand nombre des ouvrages des membres de l’oulipo (y compris ceux que l’on a bien du mal à trouver comme <title ref="difdepo:titles.xml#lesgrandscourants">Les grands courants</title> de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>). Elle souhaiterait faire une <name ref="difdepo:events.xml#rencontresignature" type="manif">rencontre-signature</name> le samedi 24 vers 14h30-15h. Pensez donc à retenir le début de votre samedi après-midi et parlez de cette expo autour de vous. Merci pour elle, merci pour vous.</p>
-      <p>Au vendredi 23</p>
-      <p>Oulipotement,</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
-      <p>un secrétaire</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010249d/f1.highres" n="1"/>
+         <p rend="incipit">Le 8 IV 82</p>
+         <p>Chers oulipiens,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 23 avril 82 chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 48 rue de l’abbé Groult 75015 Paris (5317765). Notre invité d’honneur sera, en principe, M. <persName ref="difdepo:persons.xml#coumet">Coumet</persName>. La réunion commencera à 11h30 et l’on y parlera, entre autres choses, du <name ref="difdepo:events.xml#stagedevilleneuve" type="manif">stage de Villeneuve</name>.</p>
+         <p>Je vous signale également que Madame <persName ref="difdepo:persons.xml#drivet">DRIVET</persName> a organisé une très jolie exposition « <name ref="difdepo:events.xml#perecoulipoqueneau" type="manif">Perec-oulipo-Queneau</name> » à la librairie <orgName ref="difdepo:organizations.xml#flammarion">Flammarion</orgName> Galaxie (centre commercial Galaxie, place d’Italie). Elle a réuni (en partie grâce à <persName ref="difdepo:persons.xml#rameil">Rameil</persName>) de très belles photos et un très grand nombre des ouvrages des membres de l’oulipo (y compris ceux que l’on a bien du mal à trouver comme <title ref="difdepo:titles.xml#lesgrandscourants">Les grands courants</title> de <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>). Elle souhaiterait faire une <name ref="difdepo:events.xml#rencontresignature" type="manif">rencontre-signature</name> le samedi 24 vers 14h30-15h. Pensez donc à retenir le début de votre samedi après-midi et parlez de cette expo autour de vous. Merci pour elle, merci pour vous.</p>
+         <p>Au vendredi 23</p>
+         <p>Oulipotement,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+         </p>
+         <p>un secrétaire</p>
+      </body>
   </text>
 </TEI>

@@ -1,125 +1,223 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010132-1971-11-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010132-1971-11-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010132 pp. 4 à 5 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010132-1971-11-cr</idno> <meeting xml:id="t10010132-1971-11">
-          <date when="1971-11-25">25 novembre 1971</date>
-          <placeName>chez FLL</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau" role="président">Raymond Queneau</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:23:08Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010132 pp. 4 à 5 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 25 novembre 1971</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010132-1971-11-cr</idno> 
+               <meeting xml:id="t10010132-1971-11">
+                  <date when="1971-11-25">25 novembre 1971</date>
+                  <placeName>chez FLL</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau" role="président">Raymond Queneau</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:23:08Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f4.highres" n="4"/>
-      <p rend="incipit">Séance du 25 11 71</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Absents : les autres</p>
-      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> Secrétaire : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : envoi d’une carte postale à <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, pour faire passer l’amertume de la précédente séance</p>
-      <p>Tous : oui</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : nous avons peut-être écarté trop vite les propos de <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>.</p>
-      <p>L’oulipo : va des <term ref="difdepo:terms.xml#structuresuniverselles">structures universelles</term> à l’acrobatie verbale.</p>
-      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Dossier <orgName ref="difdepo:organizations.xml#cape">Cape</orgName> : précisions demandées aux uns et aux autres.</p>
-      <p><term ref="difdepo:terms.xml#rimesmasculines">rimes masculines</term> et <term ref="difdepo:terms.xml#feminines">féminines</term> ayant le même <term ref="difdepo:terms.xml#supportvocalique">support vocalique</term></p>
-      <p>Problème d’une photo de groupe avec en plus <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName> et <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName>.</p>
-      <p>Parenthèse téléphone de <persName ref="difdepo:persons.xml#jlescure">J Lescure</persName>.</p>
-      <p>Parenthèse sur le chien par <persName ref="difdepo:persons.xml#jqueval">J Queval</persName></p>
-      <p>Prochaine séance : vendredi 17 Décembre.</p>
-      <p>La boite aux idées de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> ? où en est-elle ? Elle sera faite d’ici peu.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Complément au <title ref="difdepo:titles.xml#iiemanifeste">IIe manifeste</title> :</p>
-      <list type="unordered">
-        <item>Problème de l’efficacité des <term ref="difdepo:terms.xml#structures">structures</term> – validité des <term ref="difdepo:terms.xml#structuresartificielles">structures artificielles</term>.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> :</p>
-      <list type="unordered">
-        <item>ajouter le <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> qui ne compte aucune lettre de l’alphabet, mais seulement des chiffres et des signes de ponctuation.</item>
-        <item>Contributions sous deux formes : œuvres imprimées mais aussi participation aux discussions.</item>
-      </list>
-      <p>Félicitations aux secrétaires votés à l’unanimité</p>
-      <list type="unordered">
-        <item>Viabilité des <term ref="difdepo:terms.xml#structuresartificielles">structures artificielles</term></item>
-      </list>
-      <p>Préface de <persName ref="difdepo:persons.xml#levistrauss">Levi-Strauss</persName> à son dernier livre : pour lui, une <term ref="difdepo:terms.xml#structureartificielle">structure artificielle</term> n’est pas viable.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> sort de cette position une position de spiritualiste fossile</p>
-      <p>comparaison avec la biologie qui permet la <unclear>synthèse</unclear> du gène.</p>
-      <p><persName ref="difdepo:persons.xml#benabou">Bénabou</persName> : oui, mais la littérature c’est quand même compliquée : créer une <term ref="difdepo:terms.xml#structurelitteraire">structure littéraire</term> est moins pénible que…</p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> d’accord. l’Oulipo n’a peut-être pas à <unclear>entrer</unclear> dans les problèmes métaphysiques.</p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : propos de <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> pour créer une <term ref="difdepo:terms.xml#structure">structure</term> comme la réclame <persName ref="difdepo:persons.xml#jbens">J Bens</persName></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : bref historique du <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> et définition</p>
-      <p>la rentabilité du <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> se situe entre O et 5%. Rentable en publicité, peu en invention.</p>
-      <p>Quel type de <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> pourrait-on faire ?</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f5.highres" n="5"/>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : à propos du livre « <title ref="difdepo:titles.xml#pourunesemiologiedelesquimau">Pour une sémiologie de l’esquimau</title> » de <persName ref="difdepo:persons.xml#collis">Collis</persName> (chez <orgName ref="difdepo:organizations.xml#dunod">Dunod</orgName>)</p>
-      <p>L’eskimo est une langue où les phrases sont des mots ; mais les mots eux-mêmes sont formés de <term ref="difdepo:terms.xml#phonemessignifiants">phonèmes signifiants</term>. La <term ref="difdepo:terms.xml#morphologieeskimo">morphologie eskimo</term> est transparente</p>
-      <list type="unordered">
-        <item>Intérêt pour l’Oulipo : ouverture sur l’<term ref="difdepo:terms.xml#ouliposemantique">Oulipo sémantique</term> _ voir aussi les travaux de <persName ref="difdepo:persons.xml#tourne">Tourne</persName>.</item>
-        <item>Utilisation par <persName ref="difdepo:persons.xml#prassinos">Prassinos</persName> d’une méthode de composition des tapisseries : les couleurs sont numérotées, et la composition s’apparente à l’écriture d’une partition musicale : on écrit une série de chiffres. Transposer ce système à l’oulipo ?</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : dossier de séance</p>
-      <p><persName ref="difdepo:persons.xml#bonino">Bonino</persName> : article du <title ref="difdepo:titles.xml#nouvelobservateur">Nouvel Observateur</title></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#arthurdlittle">Arthur D. Little</persName> (firme américaine de sous-traitement) et la route 128 (liaison université- <gap/> )</p>
-      <list type="unordered">
-        <item>problème de l’innovation</item>
-        <item>publicité canadienne</item>
-        <item>la radio allemande.</item>
-      </list>
-      <p>Projet de pièces sans verbes, substantifs, adjectifs, avec les mots qui restent.</p>
-      <p>2 procèdes : en relief, en creux</p>
-      <p>(problème des adverbes : les utiliser ou pas.)</p>
-      <p>étudier le <term ref="difdepo:terms.xml#coefficientdefficacitepoetique">coefficient d’efficacité poétique</term> de chaque mot utilisé.</p>
-      <p>Multiplicité des voies qui s’ouvrent.</p>
-      <list type="unordered">
-        <item>Projet de <term ref="difdepo:terms.xml#romanpolicier">roman policier</term> avec <persName ref="difdepo:persons.xml#lebrun">Lebrun</persName>.</item>
-      </list>
-      <p><term ref="difdepo:terms.xml#romanpolicierenarbre">roman policier en arbre</term> = difficultés.</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#jqueval">J Queval</persName> :<list type="unordered">
-          <item>pièce pour la <orgName ref="difdepo:organizations.xml#radiodecologne">Radio de Cologne</orgName> : <title ref="difdepo:titles.xml#lacorrection">la Correction</title></item>
-          </list> </item>
-      </list>
-      <p>triple sens du mot ; passages d’un sens à l’autre.</p>
-      <list type="unordered">
-        <item>Problème d’une <term ref="difdepo:terms.xml#structure">structure</term> qui alternait rythme très vif (action) rythme très lent (commentaire)</item>
-        <item>Arrivé de <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName> qui appelle <persName ref="difdepo:persons.xml#queneau">Queneau</persName> Colin</item>
-        <item>Invitations : <persName ref="difdepo:persons.xml#leiris">Leiris</persName> ? – <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> se charge d’inviter <persName ref="difdepo:persons.xml#rey">Rey</persName></item>
-        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : <term ref="difdepo:terms.xml#rubandemobius">ruban de Möbius</term>.</item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f4.highres" n="4"/>
+         <p rend="incipit">Séance du 25 11 71</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Absents : les autres</p>
+         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> Secrétaire : <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : envoi d’une carte postale à <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, pour faire passer l’amertume de la précédente séance</p>
+         <p>Tous : oui</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : nous avons peut-être écarté trop vite les propos de <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>.</p>
+         <p>L’oulipo : va des <term ref="difdepo:terms.xml#structuresuniverselles">structures universelles</term> à l’acrobatie verbale.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Dossier <orgName ref="difdepo:organizations.xml#cape">Cape</orgName> : précisions demandées aux uns et aux autres.</p>
+         <p>
+            <term ref="difdepo:terms.xml#rimesmasculines">rimes masculines</term> et <term ref="difdepo:terms.xml#feminines">féminines</term> ayant le même <term ref="difdepo:terms.xml#supportvocalique">support vocalique</term>
+         </p>
+         <p>Problème d’une photo de groupe avec en plus <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName> et <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName>.</p>
+         <p>Parenthèse téléphone de <persName ref="difdepo:persons.xml#jlescure">J Lescure</persName>.</p>
+         <p>Parenthèse sur le chien par <persName ref="difdepo:persons.xml#jqueval">J Queval</persName>
+         </p>
+         <p>Prochaine séance : vendredi 17 Décembre.</p>
+         <p>La boite aux idées de <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> ? où en est-elle ? Elle sera faite d’ici peu.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Complément au <title ref="difdepo:titles.xml#iiemanifeste">IIe manifeste</title> :</p>
+         <list type="unordered">
+            <item>Problème de l’efficacité des <term ref="difdepo:terms.xml#structures">structures</term> – validité des <term ref="difdepo:terms.xml#structuresartificielles">structures artificielles</term>.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> :</p>
+         <list type="unordered">
+            <item>ajouter le <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> de <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> qui ne compte aucune lettre de l’alphabet, mais seulement des chiffres et des signes de ponctuation.</item>
+            <item>Contributions sous deux formes : œuvres imprimées mais aussi participation aux discussions.</item>
+         </list>
+         <p>Félicitations aux secrétaires votés à l’unanimité</p>
+         <list type="unordered">
+            <item>Viabilité des <term ref="difdepo:terms.xml#structuresartificielles">structures artificielles</term>
+            </item>
+         </list>
+         <p>Préface de <persName ref="difdepo:persons.xml#levistrauss">Levi-Strauss</persName> à son dernier livre : pour lui, une <term ref="difdepo:terms.xml#structureartificielle">structure artificielle</term> n’est pas viable.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> sort de cette position une position de spiritualiste fossile</p>
+         <p>comparaison avec la biologie qui permet la <unclear>synthèse</unclear> du gène.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> : oui, mais la littérature c’est quand même compliquée : créer une <term ref="difdepo:terms.xml#structurelitteraire">structure littéraire</term> est moins pénible que…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> d’accord. l’Oulipo n’a peut-être pas à <unclear>entrer</unclear> dans les problèmes métaphysiques.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : propos de <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> pour créer une <term ref="difdepo:terms.xml#structure">structure</term> comme la réclame <persName ref="difdepo:persons.xml#jbens">J Bens</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : bref historique du <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> et définition</p>
+         <p>la rentabilité du <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> se situe entre O et 5%. Rentable en publicité, peu en invention.</p>
+         <p>Quel type de <term ref="difdepo:terms.xml#brainstorming">brain-storming</term> pourrait-on faire ?</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f5.highres" n="5"/>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : à propos du livre « <title ref="difdepo:titles.xml#pourunesemiologiedelesquimau">Pour une sémiologie de l’esquimau</title> » de <persName ref="difdepo:persons.xml#collis">Collis</persName> (chez <orgName ref="difdepo:organizations.xml#dunod">Dunod</orgName>)</p>
+         <p>L’eskimo est une langue où les phrases sont des mots ; mais les mots eux-mêmes sont formés de <term ref="difdepo:terms.xml#phonemessignifiants">phonèmes signifiants</term>. La <term ref="difdepo:terms.xml#morphologieeskimo">morphologie eskimo</term> est transparente</p>
+         <list type="unordered">
+            <item>Intérêt pour l’Oulipo : ouverture sur l’<term ref="difdepo:terms.xml#ouliposemantique">Oulipo sémantique</term> _ voir aussi les travaux de <persName ref="difdepo:persons.xml#tourne">Tourne</persName>.</item>
+            <item>Utilisation par <persName ref="difdepo:persons.xml#prassinos">Prassinos</persName> d’une méthode de composition des tapisseries : les couleurs sont numérotées, et la composition s’apparente à l’écriture d’une partition musicale : on écrit une série de chiffres. Transposer ce système à l’oulipo ?</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : dossier de séance</p>
+         <p>
+            <persName ref="difdepo:persons.xml#bonino">Bonino</persName> : article du <title ref="difdepo:titles.xml#nouvelobservateur">Nouvel Observateur</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#arthurdlittle">Arthur D. Little</persName> (firme américaine de sous-traitement) et la route 128 (liaison université- <gap/> )</p>
+         <list type="unordered">
+            <item>problème de l’innovation</item>
+            <item>publicité canadienne</item>
+            <item>la radio allemande.</item>
+         </list>
+         <p>Projet de pièces sans verbes, substantifs, adjectifs, avec les mots qui restent.</p>
+         <p>2 procèdes : en relief, en creux</p>
+         <p>(problème des adverbes : les utiliser ou pas.)</p>
+         <p>étudier le <term ref="difdepo:terms.xml#coefficientdefficacitepoetique">coefficient d’efficacité poétique</term> de chaque mot utilisé.</p>
+         <p>Multiplicité des voies qui s’ouvrent.</p>
+         <list type="unordered">
+            <item>Projet de <term ref="difdepo:terms.xml#romanpolicier">roman policier</term> avec <persName ref="difdepo:persons.xml#lebrun">Lebrun</persName>.</item>
+         </list>
+         <p>
+            <term ref="difdepo:terms.xml#romanpolicierenarbre">roman policier en arbre</term> = difficultés.</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#jqueval">J Queval</persName> :<list type="unordered">
+                  <item>pièce pour la <orgName ref="difdepo:organizations.xml#radiodecologne">Radio de Cologne</orgName> : <title ref="difdepo:titles.xml#lacorrection">la Correction</title>
+                  </item>
+               </list> 
+            </item>
+         </list>
+         <p>triple sens du mot ; passages d’un sens à l’autre.</p>
+         <list type="unordered">
+            <item>Problème d’une <term ref="difdepo:terms.xml#structure">structure</term> qui alternait rythme très vif (action) rythme très lent (commentaire)</item>
+            <item>Arrivé de <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName> qui appelle <persName ref="difdepo:persons.xml#queneau">Queneau</persName> Colin</item>
+            <item>Invitations : <persName ref="difdepo:persons.xml#leiris">Leiris</persName> ? – <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName> se charge d’inviter <persName ref="difdepo:persons.xml#rey">Rey</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#le">
+                  <abbr>LE</abbr>
+               </persName> : <term ref="difdepo:terms.xml#rubandemobius">ruban de Möbius</term>.</item>
+         </list>
+      </body>
   </text>
 </TEI>

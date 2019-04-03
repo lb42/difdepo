@@ -1,50 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010336-1990-02-28-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010336-1990-02-28-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010336 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010336-1990-02-28-cv</idno> <title>Convocation à <ref target="#t10010336-1990-02-28">une réunion Oulipo</ref>, envoyée le <date when="1990-02-28">28 février 1990</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:43:58Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010336 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 28 février 1990</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010336-1990-02-28-cv</idno> 
+               <title>Convocation à <ref target="#t10010336-1990-02-28">une réunion Oulipo</ref>, envoyée le <date when="1990-02-28">28 février 1990</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:43:58Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103361/f1.highres" n="1"/>
-      <p rend="incipit">OULIPO</p>
-      <p rend="incipit">Paris, le 28 février 1990</p>
-      <p>Chers Oulipiens,</p>
-      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le mardi 13 mars 1990 à 19 heures chez <persName ref="difdepo:persons.xml#martine">Martine</persName> et <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> (48 rue de l’Abbé Groult – 75015 Paris, tél 45 31 77 65) au 6ième étage, prendre l’ascenseur jusqu’au 5<hi rend="sup">ième</hi> et monter à pied un étage supplémentaire, ce sera désormais la punition.</p>
-      <p>A partir de 21 heures, « les dames » et « le monsieur » des membres de l’Oulipo sont invités à venir dîner avec nous. A cette heure là, l’ordre du jour devra être épuisé au moins jusqu’aux menus propos.</p>
-      <p>Merci de prévenir au plus vite pour faciliter les tâches d’intendance.</p>
-      <p>Au 13, amitiés.</p>
-      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName>.</p>
-      <p>PS : Il n’y aura pas encore de canapé.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103361/f1.highres" n="1"/>
+         <p rend="incipit">OULIPO</p>
+         <p rend="incipit">Paris, le 28 février 1990</p>
+         <p>Chers Oulipiens,</p>
+         <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le mardi 13 mars 1990 à 19 heures chez <persName ref="difdepo:persons.xml#martine">Martine</persName> et <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> (48 rue de l’Abbé Groult – 75015 Paris, tél 45 31 77 65) au 6ième étage, prendre l’ascenseur jusqu’au 5<hi rend="sup">ième</hi> et monter à pied un étage supplémentaire, ce sera désormais la punition.</p>
+         <p>A partir de 21 heures, « les dames » et « le monsieur » des membres de l’Oulipo sont invités à venir dîner avec nous. A cette heure là, l’ordre du jour devra être épuisé au moins jusqu’aux menus propos.</p>
+         <p>Merci de prévenir au plus vite pour faciliter les tâches d’intendance.</p>
+         <p>Au 13, amitiés.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paul">
+               <abbr>Paul</abbr>
+            </persName>.</p>
+         <p>PS : Il n’y aura pas encore de canapé.</p>
+      </body>
   </text>
 </TEI>

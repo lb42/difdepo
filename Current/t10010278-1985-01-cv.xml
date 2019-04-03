@@ -1,49 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010278-1985-01-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010278-1985-01-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010278 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010278-1985-01-cv</idno> <title>Convocation à <ref target="#t10010278-1985-01">une réunion Oulipo</ref>, envoyée le <date when="1985-01-02">2 janvier 1985</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:41:12Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010278 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 2 janvier 1985</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010278-1985-01-cv</idno> 
+               <title>Convocation à <ref target="#t10010278-1985-01">une réunion Oulipo</ref>, envoyée le <date when="1985-01-02">2 janvier 1985</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:41:12Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f1.highres" n="1"/>
-      <p rend="incipit">Oulipo.</p>
-      <p rend="incipit">Paris le 2 janvier 85</p>
-      <p>Oulipiens,</p>
-      <p>Bonne année ! 1985 aura comme les années précédentes une entrée oulipique : déclarons-la ouverte.</p>
-      <p>La réunion de janvier aura lieu le vendredi 18 à 19h chez <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName> et <persName ref="difdepo:persons.xml#mfournel">M. Fournel</persName> (48 rue de l’abbé Goult 75015). Retournez donc la découpe rectifiée 85 (modèle plus connu sous le nom de modèle-Jouet) pour prévenir de votre venue.</p>
-      <p><persName ref="difdepo:persons.xml#pierrerosentiehl">Pierre Rosentiehl</persName> a été très officiellement invité.</p>
-      <p>Amitiés oulipiennes,</p>
-      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f1.highres" n="1"/>
+         <p rend="incipit">Oulipo.</p>
+         <p rend="incipit">Paris le 2 janvier 85</p>
+         <p>Oulipiens,</p>
+         <p>Bonne année ! 1985 aura comme les années précédentes une entrée oulipique : déclarons-la ouverte.</p>
+         <p>La réunion de janvier aura lieu le vendredi 18 à 19h chez <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName> et <persName ref="difdepo:persons.xml#mfournel">M. Fournel</persName> (48 rue de l’abbé Goult 75015). Retournez donc la découpe rectifiée 85 (modèle plus connu sous le nom de modèle-Jouet) pour prévenir de votre venue.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pierrerosentiehl">Pierre Rosentiehl</persName> a été très officiellement invité.</p>
+         <p>Amitiés oulipiennes,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paul">
+               <abbr>Paul</abbr>
+            </persName>
+         </p>
+      </body>
   </text>
 </TEI>

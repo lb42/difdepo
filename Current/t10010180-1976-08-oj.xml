@@ -1,64 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-08-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1976-08-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010180 pp. 24 à 24 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010180-1976-08-oj</idno> <title>Ordre de jour de <ref target="#t10010180-1976-08">la réunion Oulipo</ref> de <date when="1976-08-03">3 août 1976</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:28:50Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010180 pp. 24 à 24 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 3 août 1976</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010180-1976-08-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010180-1976-08">la réunion Oulipo</ref> de <date when="1976-08-03">3 août 1976</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:28:50Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f24.highres" n="24"/>
-      <p rend="incipit">OuLiPo le 3 8 76</p>
-      <p><label type="rubrique">Création</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> – <title ref="difdepo:titles.xml#variations">Variations</title></item>
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> – <orgName ref="difdepo:organizations.xml#ouvideopo">Ouvidéopo</orgName></item>
-        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> – Oulipo</item>
-        <item><persName ref="difdepo:persons.xml#montserrat">Montserrat</persName></item>
-      </list>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> – Anthologie <unclear>Fraser</unclear></p>
-      <p><persName ref="difdepo:persons.xml#jacksonmaclow">Jackson Mac Low</persName></p>
-      <p><persName ref="difdepo:persons.xml#goldberg">Goldberg</persName></p>
-      <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></item>
-        <item><name ref="difdepo:events.xml#lyon" type="manif">Lyon</name></item>
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> – Projet <orgName ref="difdepo:organizations.xml#rtb">RTB</orgName></item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f24.highres"
+             n="24"/>
+         <p rend="incipit">OuLiPo le 3 8 76</p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> – <title ref="difdepo:titles.xml#variations">Variations</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> – <orgName ref="difdepo:organizations.xml#ouvideopo">Ouvidéopo</orgName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#gp">
+                  <abbr>GP</abbr>
+               </persName> – Oulipo</item>
+            <item>
+               <persName ref="difdepo:persons.xml#montserrat">Montserrat</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> – Anthologie <unclear>Fraser</unclear>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jacksonmaclow">Jackson Mac Low</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#goldberg">Goldberg</persName>
+         </p>
+         <p>
+            <label type="rubrique">Menus Propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#gp">
+               <abbr>GP</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#gp">
+               <abbr>GP</abbr>
+            </persName>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
+            </item>
+            <item>
+               <name ref="difdepo:events.xml#lyon" type="manif">Lyon</name>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> – Projet <orgName ref="difdepo:organizations.xml#rtb">RTB</orgName>
+            </item>
+         </list>
+      </body>
   </text>
 </TEI>

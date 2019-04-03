@@ -1,159 +1,412 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010195-1977-04-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010195-1977-04-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010195 pp. 8 à 23 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010195-1977-04-cr</idno> <meeting xml:id="t10010195-1977-04">
-          <date when="1977-04-21">21 avril 1977</date>
-          <placeName>chez MB</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:30:30Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010195 pp. 8 à 23 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 21 avril 1977</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010195-1977-04-cr</idno> 
+               <meeting xml:id="t10010195-1977-04">
+                  <date when="1977-04-21">21 avril 1977</date>
+                  <placeName>chez MB</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:30:30Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f8.highres" n="8"/>
-      <p rend="incipit">Séance du 21 Avril 1977 Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p><label type="rubrique">Création </label></p>
-      <p>− <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> remplacement de l’<term ref="difdepo:terms.xml#ouliposemantique">oulipo sémantique</term> par l’oulipo x-ique.</p>
-      <p><label type="rubrique">Action</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>+<persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <title ref="difdepo:titles.xml#volume2">volume 2</title></item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : travail définitionnel</item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : l’ordinateur de Beaubourg et son avenir</item>
-      </list>
-      <p>+<persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>.</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : photo <persName ref="difdepo:persons.xml#massin">Massin</persName>.</item>
-      </list>
-      <p><label type="rubrique">Erudition</label></p>
-      <p>− <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : article de critique.</p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> − <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : progrès du <title ref="difdepo:titles.xml#aqueneau">A <persName ref="difdepo:persons.xml#queneau">Queneau</persName></title></p>
-      <p>prochains volumes</p>
-      <p><label type="rubrique">phynances </label></p>
-      <p>− <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : état présent des phynances</p>
-      <p><label type="rubrique">menu propos</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> « critique » : <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <title ref="difdepo:titles.xml#scientificamerican">scientific american</title> : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> succession <persName ref="difdepo:persons.xml#queneau">Queneau</persName></item>
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#queval">Queval</persName> à Cambridge</item>
-      </list>
-      <p>dates/invités &gt; jeudi 12 Mai – <persName ref="difdepo:persons.xml#paris">Paris</persName> reporté à Juin // le 2 juin 77</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f9.highres" n="9"/>
-      <p>1</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : donne quelques détails sur le « <title ref="difdepo:titles.xml#aqueneau">A <persName ref="difdepo:persons.xml#queneau">Queneau</persName></title> » qui est sous presse</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : parle de son volume manifeste. Il ne sera pas présenté avant l’été.</p>
-      <p>Il y aura des problèmes de mise en page.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il faut mettre en chantier des autres livres.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : En y mettant les modes d’emploi.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faudrait…</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : le mode d’emploi de <title ref="difdepo:titles.xml#hoppy">Hoppy</title> sera à la fin du volume 2…</p>
-      <p>le prix du « <title ref="difdepo:titles.xml#aqueneau">A <persName ref="difdepo:persons.xml#queneau">Queneau</persName></title> » est trop élevé.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : on ne peut pas faire moins. Cout 3000 francs – 100 exemplaires à vendre à 35 francs (tenu compte de frais de PTT etc…)</p>
-      <p>Nous allons faire faire les devis pour les prochains volumes.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il faudra rediscuter le problème des tirages. Passer à 250 ? Ce qui permettrait des baisser les prix.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Pourquoi n’y a-t-il pas de <name ref="difdepo:events.xml#lectureoulipienne" type="manif">lecture oulipienne</name> à <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> ?</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : A suivre…</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Article dans <title ref="difdepo:titles.xml#critique">Critique</title> : les tirés à part arriveront bientôt.</p>
-      <p>« <title ref="difdepo:titles.xml#lamathematiquedanslamethodederaymondqueneau">La mathématique dans la méthode de Raymond Queneau</title> »</p>
-      <p>Propositions diverses.</p>
-      <p>&gt; prochaines dates 12 Mai et 2 Juin 77.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Pourquoi nous limitons-nous aux <term ref="difdepo:terms.xml#conceptsmathematiques">concepts mathématiques</term>.</p>
-      <p>Physique ? Biologie ? Sciences naturelles ?</p>
-      <p>Toutes les sciences fournissent des <term ref="difdepo:terms.xml#conceptslitteraturisables">concepts « littératurisables »</term></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Appel aux autres activités mentales et physiques.</p>
-      <p>Historiquement <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> et moi en avions parlé mais <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> avait préféré rester dans le domaine mathématique.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Il était conscient de la supériorité des mathématiques.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il sera question de cela dans le <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title>.</p>
-      <p>Travailler pour exemple sur les <term ref="difdepo:terms.xml#langagesanimaux">langages animaux</term></p>
-      <p><title ref="difdepo:titles.xml#poemesalgol">Poèmes Algol</title>.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : ce problème est fondamental, il faut en discuter.</p>
-      <p>Objection : problème de pureté. L’imperfection absolue des sciences de la nature les rend inaptes à l’oulipo.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f10.highres" n="10"/>
-      <p>2</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Si l’oulipo est une <term ref="difdepo:terms.xml#heuristiquelitteraire">heuristique littéraire</term> il n’y a pas de raisons de chercher ailleurs…</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Je ne vois pas la différence avec <persName ref="difdepo:persons.xml#zola">Zola</persName> à ce moment-là.</p>
-      <p>Prévoir une discussion plus importante.</p>
-      <p><persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> doit faire des propositions concrètes.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : était à <name ref="difdepo:events.xml#cambridge" type="manif">Cambridge</name> (England) <name ref="difdepo:events.xml#festivalinternationaldepoesie" type="manif">Festival international de poésie</name>.</p>
-      <p><persName ref="difdepo:persons.xml#jqueval">J. Queval</persName> était là ! Il était allé rendre visite à <persName ref="difdepo:persons.xml#michaeledwards">Michael Edwards</persName> qui prépare un volume sur <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. Il avait oublié son pyjama chez <persName ref="difdepo:persons.xml#michaeledwards"><abbr>ME</abbr></persName>. Il était donc dans une situation difficile.</p>
-      <p>Invité futur : <persName ref="difdepo:persons.xml#cortazar">CORTAZAR</persName></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : dans le dernier numéro de <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title> <persName ref="difdepo:persons.xml#martingardner">Martin Gardner</persName> a fait un article sur <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> a vu quelques pages du journal de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>. Il l’a commencé à l’âge de 12 ans.</p>
-      <p>Il a coupé certaines phrases au ciseau. D’autres subsistent qui ne sont pas tendres. L’avocat de<persName ref="difdepo:persons.xml#gallimard">Gallimard</persName> a la chance d’être le premier lecteur.</p>
-      <p>Côté maths, il s’agit surtout d’arithmétique.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <title ref="difdepo:titles.xml#volume2">volume 2</title>. Nous y travaillons.</p>
-      <p>Nous avons vu l’ensemble des comptes rendus depuis 1971. Nous relisons et nous tirons les éléments constitutifs du <title ref="difdepo:titles.xml#volume2">volume 2</title>. Nous retrouvons beaucoup d’idées qui n’ont pas eu de suite.</p>
-      <p>Lettre sera envoyée à chacun pour avoir des détails.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : quelle est la stratégie du volume</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : 10) théorie… (<ref>voir plan</ref>).</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Il faut faire un volume 3 sur les <term ref="difdepo:terms.xml#plagiairesparanticipation">plagiaires par anticipation</term></p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Trouverons-nous un éditeur ?</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Sans problème. <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> ou d’autre. Je vous l’apporte.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f11.highres" n="11"/>
-      <p>3</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il faut que tout le monde donne ce qu’il a proposé et ensuite on fera des tris.</p>
-      <p>Arrivé de <persName ref="difdepo:persons.xml#braffort">Braffort</persName> en forme</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lorsque l’inventaire sera fait on fixera les délais</p>
-      <p>demander à <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> la <term ref="difdepo:terms.xml#contrainte">contrainte</term> de <title ref="difdepo:titles.xml#zinga">Zinga</title> 8 pour le <title ref="difdepo:titles.xml#volume2">volume 2</title></p>
-      <p>les <title ref="difdepo:titles.xml#voux">vœux</title> de <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName> / traductions de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> dans change/.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : liste de <name ref="difdepo:events.xml#lordinateurbeaubourg" type="manif">l’ordinateur Beaubourg</name></p>
-      <p>tout ce qui a été fait</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Faire un manuel &gt; contact avec <orgName ref="difdepo:organizations.xml#belin">Belin</orgName>.</p>
-      <p>(<persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> avait déjà proposé ceci…)</p>
-      <p>Prendre plusieurs contacts.</p>
-      <p>Sous-commission pour l’éditeur &lt; <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> « <name ref="difdepo:events.xml#ecrivainsetordinateur" type="manif">écrivains et ordinateur</name> » de juin à <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName></p>
-      <p>le travail en cours nageait dans l’huile</p>
-      <p>jusqu’à un article de <persName ref="difdepo:persons.xml#khan">Khan</persName> dans <title ref="difdepo:titles.xml#n01informatique">01 informatique</title></p>
-      <p>Bilan : <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName> laisse tomber.</p>
-      <p><orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> va signer avec <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName></p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f12.highres" n="12"/>
-      <p>4</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faut revenir à l’emploi du mot SEMANTIQUE. Faut-il le remplacer ?</p>
-      <p><ref>Cf</ref> article signé <persName ref="difdepo:persons.xml#narcissefollaninio">Narcisse Follaninio</persName> dans <title ref="difdepo:titles.xml#enigmatika4">ENIGMATIKA 4</title>.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Il faut discuter car <term ref="difdepo:terms.xml#ouliposemantique">oulipo-sémantique</term> est une contradiction dans les livres.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faut faire faire des photos particulières pour ajouter en médaillon à la générale.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f23.highres" n="13"/>
-      <p rend="incipit">OULIPO du 21/4/77</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></p>
-      <p rend="incipit">Excusé : <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f8.highres" n="8"/>
+         <p rend="incipit">Séance du 21 Avril 1977 Présents : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Création </label>
+         </p>
+         <p>− <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> remplacement de l’<term ref="difdepo:terms.xml#ouliposemantique">oulipo sémantique</term> par l’oulipo x-ique.</p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName>+<persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> 
+               <title ref="difdepo:titles.xml#volume2">volume 2</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> : travail définitionnel</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> : l’ordinateur de Beaubourg et son avenir</item>
+         </list>
+         <p>+<persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>.</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> : photo <persName ref="difdepo:persons.xml#massin">Massin</persName>.</item>
+         </list>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>− <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : article de critique.</p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> − <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : progrès du <title ref="difdepo:titles.xml#aqueneau">A <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+            </title>
+         </p>
+         <p>prochains volumes</p>
+         <p>
+            <label type="rubrique">phynances </label>
+         </p>
+         <p>− <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : état présent des phynances</p>
+         <p>
+            <label type="rubrique">menu propos</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> « critique » : <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> 
+               <title ref="difdepo:titles.xml#scientificamerican">scientific american</title> : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> succession <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> 
+               <persName ref="difdepo:persons.xml#queval">Queval</persName> à Cambridge</item>
+         </list>
+         <p>dates/invités &gt; jeudi 12 Mai – <persName ref="difdepo:persons.xml#paris">Paris</persName> reporté à Juin // le 2 juin 77</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f9.highres" n="9"/>
+         <p>1</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : donne quelques détails sur le « <title ref="difdepo:titles.xml#aqueneau">A <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+            </title> » qui est sous presse</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : parle de son volume manifeste. Il ne sera pas présenté avant l’été.</p>
+         <p>Il y aura des problèmes de mise en page.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Il faut mettre en chantier des autres livres.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : En y mettant les modes d’emploi.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Il faudrait…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : le mode d’emploi de <title ref="difdepo:titles.xml#hoppy">Hoppy</title> sera à la fin du volume 2…</p>
+         <p>le prix du « <title ref="difdepo:titles.xml#aqueneau">A <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+            </title> » est trop élevé.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : on ne peut pas faire moins. Cout 3000 francs – 100 exemplaires à vendre à 35 francs (tenu compte de frais de PTT etc…)</p>
+         <p>Nous allons faire faire les devis pour les prochains volumes.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Il faudra rediscuter le problème des tirages. Passer à 250 ? Ce qui permettrait des baisser les prix.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Pourquoi n’y a-t-il pas de <name ref="difdepo:events.xml#lectureoulipienne" type="manif">lecture oulipienne</name> à <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : A suivre…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Article dans <title ref="difdepo:titles.xml#critique">Critique</title> : les tirés à part arriveront bientôt.</p>
+         <p>« <title ref="difdepo:titles.xml#lamathematiquedanslamethodederaymondqueneau">La mathématique dans la méthode de Raymond Queneau</title> »</p>
+         <p>Propositions diverses.</p>
+         <p>&gt; prochaines dates 12 Mai et 2 Juin 77.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Pourquoi nous limitons-nous aux <term ref="difdepo:terms.xml#conceptsmathematiques">concepts mathématiques</term>.</p>
+         <p>Physique ? Biologie ? Sciences naturelles ?</p>
+         <p>Toutes les sciences fournissent des <term ref="difdepo:terms.xml#conceptslitteraturisables">concepts « littératurisables »</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Appel aux autres activités mentales et physiques.</p>
+         <p>Historiquement <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> et moi en avions parlé mais <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> avait préféré rester dans le domaine mathématique.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Il était conscient de la supériorité des mathématiques.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Il sera question de cela dans le <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title>.</p>
+         <p>Travailler pour exemple sur les <term ref="difdepo:terms.xml#langagesanimaux">langages animaux</term>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#poemesalgol">Poèmes Algol</title>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : ce problème est fondamental, il faut en discuter.</p>
+         <p>Objection : problème de pureté. L’imperfection absolue des sciences de la nature les rend inaptes à l’oulipo.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f10.highres"
+             n="10"/>
+         <p>2</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Si l’oulipo est une <term ref="difdepo:terms.xml#heuristiquelitteraire">heuristique littéraire</term> il n’y a pas de raisons de chercher ailleurs…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Je ne vois pas la différence avec <persName ref="difdepo:persons.xml#zola">Zola</persName> à ce moment-là.</p>
+         <p>Prévoir une discussion plus importante.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#marcel">
+               <abbr>Marcel</abbr>
+            </persName> doit faire des propositions concrètes.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : était à <name ref="difdepo:events.xml#cambridge" type="manif">Cambridge</name> (England) <name ref="difdepo:events.xml#festivalinternationaldepoesie" type="manif">Festival international de poésie</name>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName> était là ! Il était allé rendre visite à <persName ref="difdepo:persons.xml#michaeledwards">Michael Edwards</persName> qui prépare un volume sur <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. Il avait oublié son pyjama chez <persName ref="difdepo:persons.xml#michaeledwards">
+               <abbr>ME</abbr>
+            </persName>. Il était donc dans une situation difficile.</p>
+         <p>Invité futur : <persName ref="difdepo:persons.xml#cortazar">CORTAZAR</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : dans le dernier numéro de <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title> 
+            <persName ref="difdepo:persons.xml#martingardner">Martin Gardner</persName> a fait un article sur <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> a vu quelques pages du journal de <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName>. Il l’a commencé à l’âge de 12 ans.</p>
+         <p>Il a coupé certaines phrases au ciseau. D’autres subsistent qui ne sont pas tendres. L’avocat de<persName ref="difdepo:persons.xml#gallimard">Gallimard</persName> a la chance d’être le premier lecteur.</p>
+         <p>Côté maths, il s’agit surtout d’arithmétique.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <title ref="difdepo:titles.xml#volume2">volume 2</title>. Nous y travaillons.</p>
+         <p>Nous avons vu l’ensemble des comptes rendus depuis 1971. Nous relisons et nous tirons les éléments constitutifs du <title ref="difdepo:titles.xml#volume2">volume 2</title>. Nous retrouvons beaucoup d’idées qui n’ont pas eu de suite.</p>
+         <p>Lettre sera envoyée à chacun pour avoir des détails.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : quelle est la stratégie du volume</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : 10) théorie… (<ref>voir plan</ref>).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Il faut faire un volume 3 sur les <term ref="difdepo:terms.xml#plagiairesparanticipation">plagiaires par anticipation</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName> : Trouverons-nous un éditeur ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Sans problème. <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> ou d’autre. Je vous l’apporte.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f11.highres"
+             n="11"/>
+         <p>3</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Il faut que tout le monde donne ce qu’il a proposé et ensuite on fera des tris.</p>
+         <p>Arrivé de <persName ref="difdepo:persons.xml#braffort">Braffort</persName> en forme</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : lorsque l’inventaire sera fait on fixera les délais</p>
+         <p>demander à <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> la <term ref="difdepo:terms.xml#contrainte">contrainte</term> de <title ref="difdepo:titles.xml#zinga">Zinga</title> 8 pour le <title ref="difdepo:titles.xml#volume2">volume 2</title>
+         </p>
+         <p>les <title ref="difdepo:titles.xml#voux">vœux</title> de <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName> / traductions de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> dans change/.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : liste de <name ref="difdepo:events.xml#lordinateurbeaubourg" type="manif">l’ordinateur Beaubourg</name>
+         </p>
+         <p>tout ce qui a été fait</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Faire un manuel &gt; contact avec <orgName ref="difdepo:organizations.xml#belin">Belin</orgName>.</p>
+         <p>(<persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> avait déjà proposé ceci…)</p>
+         <p>Prendre plusieurs contacts.</p>
+         <p>Sous-commission pour l’éditeur &lt; <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> « <name ref="difdepo:events.xml#ecrivainsetordinateur" type="manif">écrivains et ordinateur</name> » de juin à <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName>
+         </p>
+         <p>le travail en cours nageait dans l’huile</p>
+         <p>jusqu’à un article de <persName ref="difdepo:persons.xml#khan">Khan</persName> dans <title ref="difdepo:titles.xml#n01informatique">01 informatique</title>
+         </p>
+         <p>Bilan : <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName> laisse tomber.</p>
+         <p>
+            <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> va signer avec <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName>
+         </p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f12.highres"
+             n="12"/>
+         <p>4</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Il faut revenir à l’emploi du mot SEMANTIQUE. Faut-il le remplacer ?</p>
+         <p>
+            <ref>Cf</ref> article signé <persName ref="difdepo:persons.xml#narcissefollaninio">Narcisse Follaninio</persName> dans <title ref="difdepo:titles.xml#enigmatika4">ENIGMATIKA 4</title>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : Il faut discuter car <term ref="difdepo:terms.xml#ouliposemantique">oulipo-sémantique</term> est une contradiction dans les livres.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Il faut faire faire des photos particulières pour ajouter en médaillon à la générale.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f23.highres"
+             n="13"/>
+         <p rend="incipit">OULIPO du 21/4/77</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Excusé : <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>
+         </p>
+      </body>
   </text>
 </TEI>

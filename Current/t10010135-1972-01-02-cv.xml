@@ -1,53 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010135-1972-01-02-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010135-1972-01-02-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010135 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010135-1972-01-02-cv</idno> <title>Convocation à <ref target="#t10010135-1972-01-02">une réunion Oulipo</ref>, envoyée le <date when="1972-01-02">2 janvier 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:23:25Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010135 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 2 janvier 1972</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010135-1972-01-02-cv</idno> 
+               <title>Convocation à <ref target="#t10010135-1972-01-02">une réunion Oulipo</ref>, envoyée le <date when="1972-01-02">2 janvier 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:23:25Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010135t/f1.highres" n="1"/>
-      <p>OUvroir de</p>
-      <p>LIttérature</p>
-      <p>POtentielle</p>
-      <p>Le 2 Janvier 1972</p>
-      <p>Cher Oulipote,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OULIPO aura lieu le jeudi 13 Janvier 1972 au domicile du président fondateur, 23 route de la Reine à Boulogne.</p>
-      <p>Il sera question du dossier <orgName ref="difdepo:organizations.xml#cape">Cape</orgName>, auquel il serait souhaitable d’ajouter quelques « chapeaux » explicatifs. Et le TS <persName ref="difdepo:persons.xml#latis">Latis</persName> sera là pour signaler les extraits retenus pour la prochaine livraison des <title ref="difdepo:titles.xml#subsidiapataphysica">Subsidia Pataphysica</title>.</p>
-      <p>Lors de la dernière réunion les membres présents sont tombés d’accord pour repousser la séance photographique au printemps.</p>
-      <p>En outre, le projet de « dossier de réunion » ayant été accepté à l’unanimité des présents il serait souhaitable de préparer quelque peu les interventions (sur un bout de papier, même usagé, par exemple) de façon à garder des traces précises. Ceci pour le régal des historiens.</p>
-      <p><persName ref="difdepo:persons.xml#polefournelle">Pole Fournelle</persName></p>
-      <p>Un secrétaire.</p>
-      <p>NB : le volet mobile est à retourner chez le Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010135t/f1.highres" n="1"/>
+         <p>OUvroir de</p>
+         <p>LIttérature</p>
+         <p>POtentielle</p>
+         <p>Le 2 Janvier 1972</p>
+         <p>Cher Oulipote,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OULIPO aura lieu le jeudi 13 Janvier 1972 au domicile du président fondateur, 23 route de la Reine à Boulogne.</p>
+         <p>Il sera question du dossier <orgName ref="difdepo:organizations.xml#cape">Cape</orgName>, auquel il serait souhaitable d’ajouter quelques « chapeaux » explicatifs. Et le TS <persName ref="difdepo:persons.xml#latis">Latis</persName> sera là pour signaler les extraits retenus pour la prochaine livraison des <title ref="difdepo:titles.xml#subsidiapataphysica">Subsidia Pataphysica</title>.</p>
+         <p>Lors de la dernière réunion les membres présents sont tombés d’accord pour repousser la séance photographique au printemps.</p>
+         <p>En outre, le projet de « dossier de réunion » ayant été accepté à l’unanimité des présents il serait souhaitable de préparer quelque peu les interventions (sur un bout de papier, même usagé, par exemple) de façon à garder des traces précises. Ceci pour le régal des historiens.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#polefournelle">Pole Fournelle</persName>
+         </p>
+         <p>Un secrétaire.</p>
+         <p>NB : le volet mobile est à retourner chez le Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
+      </body>
   </text>
 </TEI>

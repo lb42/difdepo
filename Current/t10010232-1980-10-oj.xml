@@ -1,87 +1,150 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010232-1980-10-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010232-1980-10-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010232 pp. 7 à 7 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010232-1980-10-oj</idno> <title>Ordre de jour de <ref target="#t10010232-1980-10">la réunion Oulipo</ref> de <date when="1980-10-17">17 octobre 1980</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:34:29Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010232 pp. 7 à 7 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 17 octobre 1980</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010232-1980-10-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010232-1980-10">la réunion Oulipo</ref> de <date when="1980-10-17">17 octobre 1980</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:34:29Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010232v/f7.highres" n="7"/>
-      <p rend="incipit">17 octobre 1980 – Oulipo</p>
-      <p rend="incipit">Président  = <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p rend="incipit">Secrétaire = <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></p>
-      <list type="ordered">
-        <item>Accueil de l’invité : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>Création<list type="ordered">
-          <item><persName ref="difdepo:persons.xml#brunner">Brunner</persName> – Oulipo</item>
-          <item>Menu Création <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>.</item>
-          <item>Précréation <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-          <item><unclear>…</unclear> Bru <persName ref="difdepo:persons.xml#fournel">Fournel</persName></item>
-          </list> </item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <unclear>Garny</unclear>. <title ref="difdepo:titles.xml#bellemarquise">Belle Marquise</title>.</p>
-      <list type="ordered">
-        <item>Action <list type="ordered">
-          <item><persName ref="difdepo:persons.xml#eckler">Eckler</persName>= <persName ref="difdepo:persons.xml#harry"><abbr>Harry</abbr></persName></item>
-          <item>Phynances : <persName ref="difdepo:persons.xml#marcelb"><abbr>Marcel B.</abbr></persName></item>
-          <item>Micro feuilles : <persName ref="difdepo:persons.xml#marcelb"><abbr>Marcel B</abbr></persName></item>
-          <item><title ref="difdepo:titles.xml#volumeii">Volume II</title> = <persName ref="difdepo:persons.xml#fournel">Fournel</persName></item>
-          <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>.</item>
-          <item>…. : <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-          <item><persName ref="difdepo:persons.xml#sebastienbottin">Sebastien Bottin</persName>. <persName ref="difdepo:persons.xml#michel">Michel</persName></item>
-          <item><persName ref="difdepo:persons.xml#claudesimonnet">Claude Simonnet</persName>. <persName ref="difdepo:persons.xml#fournel">Fournel</persName>.</item>
-          </list> </item>
-      </list>
-      <list type="ordered">
-        <item>Erudition</item>
-      </list>
-      <p><title ref="difdepo:titles.xml#bellemartine">Belle <sic>Martine</sic></title> : <persName ref="difdepo:persons.xml#marcelb"><abbr>Marcel B.</abbr></persName></p>
-      <p>… = Après-midi</p>
-      <p>GEB= <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></p>
-      <p><label type="rubrique">Menus propos = <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></label></p>
-      <p><unclear>Sophistes</unclear> <hi rend="sup"> </hi>: <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p>Japon : <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p>Mouton : <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <list type="ordered">
-        <item>Information</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></p>
-      <list type="ordered">
-        <item>Divers<list type="ordered">
-          <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></item>
-          <item>Phynances</item>
-          <item>…</item>
-          </list> </item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010232v/f7.highres" n="7"/>
+         <p rend="incipit">17 octobre 1980 – Oulipo</p>
+         <p rend="incipit">Président  = <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Secrétaire = <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+         </p>
+         <list type="ordered">
+            <item>Accueil de l’invité : <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName>
+            </item>
+            <item>Création<list type="ordered">
+                  <item>
+                     <persName ref="difdepo:persons.xml#brunner">Brunner</persName> – Oulipo</item>
+                  <item>Menu Création <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>.</item>
+                  <item>Précréation <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                  </item>
+                  <item>
+                     <unclear>…</unclear> Bru <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
+                  </item>
+               </list> 
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <unclear>Garny</unclear>. <title ref="difdepo:titles.xml#bellemarquise">Belle Marquise</title>.</p>
+         <list type="ordered">
+            <item>Action <list type="ordered">
+                  <item>
+                     <persName ref="difdepo:persons.xml#eckler">Eckler</persName>= <persName ref="difdepo:persons.xml#harry">
+                        <abbr>Harry</abbr>
+                     </persName>
+                  </item>
+                  <item>Phynances : <persName ref="difdepo:persons.xml#marcelb">
+                        <abbr>Marcel B.</abbr>
+                     </persName>
+                  </item>
+                  <item>Micro feuilles : <persName ref="difdepo:persons.xml#marcelb">
+                        <abbr>Marcel B</abbr>
+                     </persName>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#volumeii">Volume II</title> = <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>.</item>
+                  <item>…. : <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                  </item>
+                  <item>
+                     <persName ref="difdepo:persons.xml#sebastienbottin">Sebastien Bottin</persName>. <persName ref="difdepo:persons.xml#michel">Michel</persName>
+                  </item>
+                  <item>
+                     <persName ref="difdepo:persons.xml#claudesimonnet">Claude Simonnet</persName>. <persName ref="difdepo:persons.xml#fournel">Fournel</persName>.</item>
+               </list> 
+            </item>
+         </list>
+         <list type="ordered">
+            <item>Erudition</item>
+         </list>
+         <p>
+            <title ref="difdepo:titles.xml#bellemartine">Belle <sic>Martine</sic>
+            </title> : <persName ref="difdepo:persons.xml#marcelb">
+               <abbr>Marcel B.</abbr>
+            </persName>
+         </p>
+         <p>… = Après-midi</p>
+         <p>GEB= <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
+         </p>
+         <p>
+            <label type="rubrique">Menus propos = <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+            </label>
+         </p>
+         <p>
+            <unclear>Sophistes</unclear> 
+            <hi rend="sup"> </hi>: <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>Japon : <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>Mouton : <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <list type="ordered">
+            <item>Information</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+         </p>
+         <list type="ordered">
+            <item>Divers<list type="ordered">
+                  <item>
+                     <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+                  </item>
+                  <item>Phynances</item>
+                  <item>…</item>
+               </list> 
+            </item>
+         </list>
+      </body>
   </text>
 </TEI>

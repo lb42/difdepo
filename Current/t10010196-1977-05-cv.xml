@@ -1,59 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010196-1977-05-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010196-1977-05-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010196 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010196-1977-05-cv</idno> <title>Convocation à <ref target="#t10010196-1977-05">une réunion Oulipo</ref>, envoyée le <date when="1977-05-05">5 mai 1977</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:30:42Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010196 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 5 mai 1977</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010196-1977-05-cv</idno> 
+               <title>Convocation à <ref target="#t10010196-1977-05">une réunion Oulipo</ref>, envoyée le <date when="1977-05-05">5 mai 1977</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:30:42Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f1.highres" n="1"/>
-      <p>Président :</p>
-      <p>Secrétaire :</p>
-      <p>Autres oulipiens présents :</p>
-      <p>Invités :</p>
-      <p>Destinataires :</p>
-      <p>OULIPO</p>
-      <p>Le 5 mai 1977</p>
-      <p>Chers oulipotes,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 12 mai 1977 à 11 heures chez <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> :</p>
-      <p>7 villa Duthy</p>
-      <p>Paris 14°</p>
-      <p>Tel : 542 41 68</p>
-      <p>Il y sera question de la prestation de l’oulipo au festival de <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name> du 15 au 21 juillet prochains.</p>
-      <p>Retournez vite à <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> la découpe ci-dessous, merci.</p>
-      <p>Au jeudi 12, bien, oulipiennement,</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
-      <p><add>Un secrétaire</add><note n="1" resp="editor">Page 7 du Pdf-coupon réponse, ajout manuscrit de la main de <persName ref="difdepo:persons.xml#perec">Perec</persName> : « Connais-tu cela ? I vitelli dei romani sono belli. C’est un certain <persName ref="difdepo:persons.xml#delahaye">Delahaye</persName> (<title ref="difdepo:titles.xml#lafrontiereetletexte">la Frontière et le texte</title>), qui le cite, d’après <persName ref="difdepo:persons.xml#umbertoeco">Umberto Eco</persName>. »</note></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f1.highres" n="1"/>
+         <p>Président :</p>
+         <p>Secrétaire :</p>
+         <p>Autres oulipiens présents :</p>
+         <p>Invités :</p>
+         <p>Destinataires :</p>
+         <p>OULIPO</p>
+         <p>Le 5 mai 1977</p>
+         <p>Chers oulipotes,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le jeudi 12 mai 1977 à 11 heures chez <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> :</p>
+         <p>7 villa Duthy</p>
+         <p>Paris 14°</p>
+         <p>Tel : 542 41 68</p>
+         <p>Il y sera question de la prestation de l’oulipo au festival de <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name> du 15 au 21 juillet prochains.</p>
+         <p>Retournez vite à <persName ref="difdepo:persons.xml#marcel">
+               <abbr>Marcel</abbr>
+            </persName> la découpe ci-dessous, merci.</p>
+         <p>Au jeudi 12, bien, oulipiennement,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+         </p>
+         <p>
+            <add>Un secrétaire</add>
+            <note n="1" resp="editor">Page 7 du Pdf-coupon réponse, ajout manuscrit de la main de <persName ref="difdepo:persons.xml#perec">Perec</persName> : « Connais-tu cela ? I vitelli dei romani sono belli. C’est un certain <persName ref="difdepo:persons.xml#delahaye">Delahaye</persName> (<title ref="difdepo:titles.xml#lafrontiereetletexte">la Frontière et le texte</title>), qui le cite, d’après <persName ref="difdepo:persons.xml#umbertoeco">Umberto Eco</persName>. »</note>
+         </p>
+      </body>
   </text>
 </TEI>

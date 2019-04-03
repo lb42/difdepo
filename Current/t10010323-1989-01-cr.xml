@@ -1,120 +1,290 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010323-1989-01-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010323-1989-01-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010323 pp. 6 à 9 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010323-1989-01-cr</idno> <meeting xml:id="t10010323-1989-01">
-          <date when="1989-01-20">20 janvier 1989</date>
-          <placeName>chez PF</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-23" who="HCC">nettoyage des notions/ terms</change>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:39:13Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010323 pp. 6 à 9 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 20 janvier 1989</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010323-1989-01-cr</idno> 
+               <meeting xml:id="t10010323-1989-01">
+                  <date when="1989-01-20">20 janvier 1989</date>
+                  <placeName>chez PF</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-23" who="HCC">nettoyage des notions/ terms</change>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:39:13Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f6.highres" n="6"/>
-      <p rend="incipit">20-1-89 <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> 1</p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : poèmes pour chiens.</p>
-      <p>« Aladin goguenard » ; Dingo</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>1 : <term ref="difdepo:terms.xml#belabsentvocalique">Bel absent vocalique</term> (promis).</p>
-      <p>« <title ref="difdepo:titles.xml#constructionwork">Construction work</title> »</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>2 : <term ref="difdepo:terms.xml#contrainteindicible">Contrainte indicible</term>. (<term ref="difdepo:terms.xml#contrainteturque">Contrainte turque</term>)</p>
-      <p>«  <title ref="difdepo:titles.xml#lipogrammedutrijumeau"><term ref="difdepo:terms.xml#lipogramme">lipogramme</term> du trijumeau</title> »</p>
-      <p>B f m p u w <term ref="difdepo:terms.xml#phonetique">phonétique</term>.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <title ref="difdepo:titles.xml#lecontedulabrador">le conte du Labrador</title></p>
-      <p>Achèvement de la 1<hi rend="sup">ère</hi> partie. <term ref="difdepo:terms.xml#groupedeklein">Groupe de <persName ref="difdepo:persons.xml#klein">Klein</persName></term>.</p>
-      <p>(9 chapitres)</p>
-      <p>Hommage sévère mais juste au Président fondateur <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>.</p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>1 : l’<term ref="difdepo:terms.xml#alexandrin">alexandrin</term> selon <persName ref="difdepo:persons.xml#aweil">A. Weil</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>2 : 3 poèmes inédits de <persName ref="difdepo:persons.xml#lepeillet">Le Peillet</persName> (<persName ref="difdepo:persons.xml#emmanuel">Emmanuel</persName>)</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : <persName ref="difdepo:persons.xml#palisse">Palisse</persName> (<persName ref="difdepo:persons.xml#renaud">Renaud</persName>) matheux qui vient en poésie.</p>
-      <p>1 exemple <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
-      <p>1 exemple <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>; Prochaine fois.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. Musique pour 88 Par <persName ref="difdepo:persons.xml#tomjohnson">Tom Johnson</persName></p>
-      <p>Leurs formules mathématiques.</p>
-      <p>Don de la partition.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Mémoire de maîtrise Québec</p>
-      <p>Classification du IX <unclear>**</unclear></p>
-      <p>Au plan oulipien : sans intérêt.</p>
-      <p>Croissant <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> 20 21 Avril clause Jalliend <orgName ref="difdepo:organizations.xml#payot">Payot</orgName></p>
-      <p>Corbeil 23 Mars intuitu personae <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Années du crime</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f8.highres" n="7"/>
-      <p>2</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <term ref="difdepo:terms.xml#textesaformulesinitialeidentique">textes à formules initiale identique</term></p>
-      <list type="unordered">
-        <item><unclear>Coupay</unclear>.</item>
-        <item><persName ref="difdepo:persons.xml#jpascal">J. Pascal</persName>.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Texte reçu M. <persName ref="difdepo:persons.xml#moritz">Moritz</persName></p>
-      <p><label type="rubrique">Actions</label></p>
-      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>. <title ref="difdepo:titles.xml#ledimanchedelavie">Le Dimanche de la vie</title>, pour la <orgName ref="difdepo:organizations.xml#pierouge">Pie rouge</orgName></p>
-      <p>En comédie musicale au Vaudreuil.</p>
-      <p>7 Mars, <persName ref="difdepo:persons.xml#ande">Andé</persName></p>
-      <p>Une entre ; <unclear>Franck</unclear> a repoussé</p>
-      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> Disque <title ref="difdepo:titles.xml#ubuetlamerdre">Ubu et la merdre</title>. En rock.</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. Corbeil lecture épreuve</p>
-      <p><lb/>Firenze. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> +<persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> +<persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> +<persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> Lisbonne et tournée. <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> – <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> – <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></p>
-      <p>début Juin</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>1 Nom de société ? la biche.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>2 Aventures <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName>.</p>
-      <p>Vente des Éditions à <persName ref="difdepo:persons.xml#rdeforges">R. Deforges</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>. Montevideo. Lautréamont / <persName ref="difdepo:persons.xml#laforgue">Laforgue</persName> 1990</p>
-      <p>Oulipo 1991</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. Le cargo. MC. Grenoble ; 1 mastic</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f9.highres" n="8"/>
-      <p>3</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. M. <persName ref="difdepo:persons.xml#salsano">Salsano</persName></p>
-      <p>Directeur éditorial <orgName ref="difdepo:organizations.xml#bollatiboringhieri">Bollati Boringhieri</orgName>.</p>
-      <p>Projet <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> et l’Oulipo.</p>
-      <p>On y réfléchît.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> répond.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Revue <persName ref="difdepo:persons.xml#espitellier">Espitellier</persName>.</p>
-      <p>Textes</p>
-      <p>J. <persName ref="difdepo:persons.xml#michelespitellier">Michel Espitellier</persName></p>
-      <p>82, bis Boulevard Diderot</p>
-      <p>75012. PARIS</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f6.highres" n="6"/>
+         <p rend="incipit">20-1-89 <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 1</p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> : poèmes pour chiens.</p>
+         <p>« Aladin goguenard » ; Dingo</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>1 : <term ref="difdepo:terms.xml#belabsentvocalique">Bel absent vocalique</term> (promis).</p>
+         <p>« <title ref="difdepo:titles.xml#constructionwork">Construction work</title> »</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>2 : <term ref="difdepo:terms.xml#contrainteindicible">Contrainte indicible</term>. (<term ref="difdepo:terms.xml#contrainteturque">Contrainte turque</term>)</p>
+         <p>«  <title ref="difdepo:titles.xml#lipogrammedutrijumeau">
+               <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> du trijumeau</title> »</p>
+         <p>B f m p u w <term ref="difdepo:terms.xml#phonetique">phonétique</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : <title ref="difdepo:titles.xml#lecontedulabrador">le conte du Labrador</title>
+         </p>
+         <p>Achèvement de la 1<hi rend="sup">ère</hi> partie. <term ref="difdepo:terms.xml#groupedeklein">Groupe de <persName ref="difdepo:persons.xml#klein">Klein</persName>
+            </term>.</p>
+         <p>(9 chapitres)</p>
+         <p>Hommage sévère mais juste au Président fondateur <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>.</p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>1 : l’<term ref="difdepo:terms.xml#alexandrin">alexandrin</term> selon <persName ref="difdepo:persons.xml#aweil">A. Weil</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>2 : 3 poèmes inédits de <persName ref="difdepo:persons.xml#lepeillet">Le Peillet</persName> (<persName ref="difdepo:persons.xml#emmanuel">Emmanuel</persName>)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#palisse">Palisse</persName> (<persName ref="difdepo:persons.xml#renaud">Renaud</persName>) matheux qui vient en poésie.</p>
+         <p>1 exemple <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>
+         </p>
+         <p>1 exemple <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>; Prochaine fois.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>. Musique pour 88 Par <persName ref="difdepo:persons.xml#tomjohnson">Tom Johnson</persName>
+         </p>
+         <p>Leurs formules mathématiques.</p>
+         <p>Don de la partition.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. Mémoire de maîtrise Québec</p>
+         <p>Classification du IX <unclear>**</unclear>
+         </p>
+         <p>Au plan oulipien : sans intérêt.</p>
+         <p>Croissant <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 20 21 Avril clause Jalliend <orgName ref="difdepo:organizations.xml#payot">Payot</orgName>
+         </p>
+         <p>Corbeil 23 Mars intuitu personae <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName> Années du crime</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f8.highres" n="7"/>
+         <p>2</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>. <term ref="difdepo:terms.xml#textesaformulesinitialeidentique">textes à formules initiale identique</term>
+         </p>
+         <list type="unordered">
+            <item>
+               <unclear>Coupay</unclear>.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#jpascal">J. Pascal</persName>.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. Texte reçu M. <persName ref="difdepo:persons.xml#moritz">Moritz</persName>
+         </p>
+         <p>
+            <label type="rubrique">Actions</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>. <title ref="difdepo:titles.xml#ledimanchedelavie">Le Dimanche de la vie</title>, pour la <orgName ref="difdepo:organizations.xml#pierouge">Pie rouge</orgName>
+         </p>
+         <p>En comédie musicale au Vaudreuil.</p>
+         <p>7 Mars, <persName ref="difdepo:persons.xml#ande">Andé</persName>
+         </p>
+         <p>Une entre ; <unclear>Franck</unclear> a repoussé</p>
+         <p>
+            <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName> Disque <title ref="difdepo:titles.xml#ubuetlamerdre">Ubu et la merdre</title>. En rock.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>. Corbeil lecture épreuve</p>
+         <p>
+            <lb/>Firenze. <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> +<persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> +<persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName> +<persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> Lisbonne et tournée. <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> – <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName> – <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>
+         </p>
+         <p>début Juin</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>1 Nom de société ? la biche.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>2 Aventures <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName>.</p>
+         <p>Vente des Éditions à <persName ref="difdepo:persons.xml#rdeforges">R. Deforges</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>. Montevideo. Lautréamont / <persName ref="difdepo:persons.xml#laforgue">Laforgue</persName> 1990</p>
+         <p>Oulipo 1991</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>. Le cargo. MC. Grenoble ; 1 mastic</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103238/f9.highres" n="8"/>
+         <p>3</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. M. <persName ref="difdepo:persons.xml#salsano">Salsano</persName>
+         </p>
+         <p>Directeur éditorial <orgName ref="difdepo:organizations.xml#bollatiboringhieri">Bollati Boringhieri</orgName>.</p>
+         <p>Projet <persName ref="difdepo:persons.xml#ic">
+               <abbr>IC</abbr>
+            </persName> et l’Oulipo.</p>
+         <p>On y réfléchît.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> répond.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> Revue <persName ref="difdepo:persons.xml#espitellier">Espitellier</persName>.</p>
+         <p>Textes</p>
+         <p>J. <persName ref="difdepo:persons.xml#michelespitellier">Michel Espitellier</persName>
+         </p>
+         <p>82, bis Boulevard Diderot</p>
+         <p>75012. PARIS</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+         </p>
+      </body>
   </text>
 </TEI>

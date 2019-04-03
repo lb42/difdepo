@@ -1,47 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010156-1973-10-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010156-1973-10-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010156 pp. 2 à 2 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010156-1973-10-cv</idno> <title>Convocation à <ref target="#t10010156-1973-10">une réunion Oulipo</ref>, envoyée le <date when="1973-10-10">10 octobre 1973</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:25:17Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010156 pp. 2 à 2 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 10 octobre 1973</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010156-1973-10-cv</idno> 
+               <title>Convocation à <ref target="#t10010156-1973-10">une réunion Oulipo</ref>, envoyée le <date when="1973-10-10">10 octobre 1973</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:25:17Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101563/f2.highres" n="2"/>
-      <p rend="incipit">Le 10 Octobre 1973,</p>
-      <p rend="incipit">Chers Brigadiers,</p>
-      <p>Je vous confirme que nos deux prochaines réunions sont prévues pour le vendredi 16 novembre et pour le vendredi 7 décembre. Ne manquez pas de me faire savoir si vous pouvez venir ou non de manière à organiser au mieux les problèmes d’intendance.</p>
-      <p>Je vais prendre contact avec les divers Invités d’Honneurs prévus en espérant qu’il sera possible à l’un d’eux de venir le 16 XI et à l’autre le 7 XII. <persName ref="difdepo:persons.xml#raymondqueneau">Raymond QUENEAU</persName> doit s’efforcer de prendre contact avec Madame <persName ref="difdepo:persons.xml#golon">GOLON</persName>.</p>
-      <p>Oulipiennement votre,</p>
-      <p><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101563/f2.highres" n="2"/>
+         <p rend="incipit">Le 10 Octobre 1973,</p>
+         <p rend="incipit">Chers Brigadiers,</p>
+         <p>Je vous confirme que nos deux prochaines réunions sont prévues pour le vendredi 16 novembre et pour le vendredi 7 décembre. Ne manquez pas de me faire savoir si vous pouvez venir ou non de manière à organiser au mieux les problèmes d’intendance.</p>
+         <p>Je vais prendre contact avec les divers Invités d’Honneurs prévus en espérant qu’il sera possible à l’un d’eux de venir le 16 XI et à l’autre le 7 XII. <persName ref="difdepo:persons.xml#raymondqueneau">Raymond QUENEAU</persName> doit s’efforcer de prendre contact avec Madame <persName ref="difdepo:persons.xml#golon">GOLON</persName>.</p>
+         <p>Oulipiennement votre,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+         </p>
+      </body>
   </text>
 </TEI>

@@ -1,86 +1,179 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010233-1980-11-07-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010233-1980-11-07-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010233 pp. 2 à 2 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010233-1980-11-07-oj</idno> <title>Ordre de jour de <ref target="#t10010233-1980-11-07">la réunion Oulipo</ref> de <date when="1980-11-07">7 novembre 1980</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:34:38Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010233 pp. 2 à 2 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 7 novembre 1980</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010233-1980-11-07-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010233-1980-11-07">la réunion Oulipo</ref> de <date when="1980-11-07">7 novembre 1980</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:34:38Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102339/f2.highres" n="2"/>
-      <p><label type="rubrique">Création</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> – W.I.P.</item>
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> – Mini : OuLiPo</item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> – titre</item>
-        <item>PB- <title ref="difdepo:titles.xml#cahiersvalentinbru">Cahiers <persName ref="difdepo:persons.xml#valentinbru">Valentin Bru</persName></title></item>
-      </list>
-      <p><label type="rubrique">Action – Information</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <list type="unordered">
-          <item>Furor</item>
-          <item><orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName></item>
-          </list> </item>
-      </list>
-      <list type="unordered">
-        <item>(Autre) <lb/>- Présentation</item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <lb/>- <persName ref="difdepo:persons.xml#simonnet">Simonnet</persName> <lb/>-<persName ref="difdepo:persons.xml#jouannard">Jouannard</persName></item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <lb/>-<choice><sic>Argives</sic><corr>Archives</corr></choice> <note n="1" resp="editor">le Cr doit être rédigé par <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, son orthographe est parfois approximative</note></item>
-        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <lb/>-Word Recreations</item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>-</item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <lb/>-OULIPO <lb/>-2e millénaire <lb/>- <persName ref="difdepo:persons.xml#francoischapon">François Chapon</persName></item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#lynnmcmurray">Lynn McMurray</persName></item>
-      </list>
-      <p>Appel à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p><label type="rubrique">Erudition</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>- <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></item>
-      </list>
-      <p><label type="rubrique">Menus propos</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <title ref="difdepo:titles.xml#dictionnairedujapon">Dictionnaire <unclear>du</unclear> Japon</title></item>
-        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#anaid">Anaïd</persName></item>
-        <item><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <term ref="difdepo:terms.xml#dessinstisses">Dessins tissés</term></item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102339/f2.highres" n="2"/>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> – W.I.P.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> – Mini : OuLiPo</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> – titre</item>
+            <item>PB- <title ref="difdepo:titles.xml#cahiersvalentinbru">Cahiers <persName ref="difdepo:persons.xml#valentinbru">Valentin Bru</persName>
+               </title>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Action – Information</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> 
+               <list type="unordered">
+                  <item>Furor</item>
+                  <item>
+                     <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>
+                  </item>
+               </list> 
+            </item>
+         </list>
+         <list type="unordered">
+            <item>(Autre) <lb/>- Présentation</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> 
+               <lb/>- <persName ref="difdepo:persons.xml#simonnet">Simonnet</persName> 
+               <lb/>-<persName ref="difdepo:persons.xml#jouannard">Jouannard</persName>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#le">
+                  <abbr>LE</abbr>
+               </persName> 
+               <lb/>-<choice>
+                  <sic>Argives</sic>
+                  <corr>Archives</corr>
+               </choice> 
+               <note n="1" resp="editor">le Cr doit être rédigé par <persName ref="difdepo:persons.xml#hm">
+                     <abbr>HM</abbr>
+                  </persName>, son orthographe est parfois approximative</note>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> 
+               <lb/>-Word Recreations</item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName>-</item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#jb">
+                  <abbr>JB</abbr>
+               </persName> 
+               <lb/>-OULIPO <lb/>-2e millénaire <lb/>- <persName ref="difdepo:persons.xml#francoischapon">François Chapon</persName>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#lynnmcmurray">Lynn McMurray</persName>
+            </item>
+         </list>
+         <p>Appel à <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#le">
+                  <abbr>LE</abbr>
+               </persName>- <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Menus propos</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#jq">
+                  <abbr>JQ</abbr>
+               </persName> 
+               <title ref="difdepo:titles.xml#dictionnairedujapon">Dictionnaire <unclear>du</unclear> Japon</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> 
+               <persName ref="difdepo:persons.xml#anaid">Anaïd</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#jb">
+                  <abbr>JB</abbr>
+               </persName> 
+               <term ref="difdepo:terms.xml#dessinstisses">Dessins tissés</term>
+            </item>
+         </list>
+      </body>
   </text>
 </TEI>

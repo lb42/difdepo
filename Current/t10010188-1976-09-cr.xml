@@ -1,76 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010188-1976-09-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010188-1976-09-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010188 pp. 2 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#clementinepradereascione">Clémentine Pradère Ascione</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010188-1976-09-cr</idno> <meeting xml:id="t10010188-1976-09">
-          <date when="1976-09-23">23 septembre 1976</date>
-          <placeName>chez GP</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:39:01Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010188 pp. 2 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 23 septembre 1976</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#clementinepradereascione">Clémentine Pradère Ascione</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010188-1976-09-cr</idno> 
+               <meeting xml:id="t10010188-1976-09">
+                  <date when="1976-09-23">23 septembre 1976</date>
+                  <placeName>chez GP</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:39:01Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101887/f2.highres" n="2"/>
-      <p rend="incipit">Réunion du 23 septembre 1976</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#gperec">G. Perec</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName>, <persName ref="difdepo:persons.xml#mbenabou">M. Bénabou</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#le">L. Etienne</persName>, <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName>, <persName ref="difdepo:persons.xml#hmathews">H. Mathews</persName>.</p>
-      <p>Distribution d’un fascicule de <persName ref="difdepo:persons.xml#beatrixbeck">Béatrix Beck</persName> : <title ref="difdepo:titles.xml#motscouverts">Mots couverts</title> (<title ref="difdepo:titles.xml#tempsmeles">Temps mêlés</title>).</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> signale l’existence d’un roman de <persName ref="difdepo:persons.xml#stanislaslem">Stanislas Lem</persName>, <title ref="difdepo:titles.xml#ladisparition">La Disparition</title>, apparemment admirable, et dont il raconte l’intrigue.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. <persName ref="difdepo:persons.xml#alainjacquet">Alain Jacquet</persName> représentait la France à la <name ref="difdepo:events.xml#biennaledevenise" type="manif">Biennale de Venise</name>. Il a exposé <title ref="difdepo:titles.xml#labaratte">La Baratte</title> : 3 bâtons sur lesquels sont empilés des disques portant des signes <persName ref="difdepo:persons.xml#braille">Braille</persName>. Cet objet évoque irrésistiblement La Tour d’Hanoi depuis longtemps décrite, notamment dans le bouquin de <persName ref="difdepo:persons.xml#saintelague">Sainte-Laguë</persName>. On note l’analogie avec l’<term ref="difdepo:terms.xml#algorithmedemathews">algorithme de <persName ref="difdepo:persons.xml#mathews">Mathews</persName></term>.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> lit un extrait de <persName ref="difdepo:persons.xml#micheldebateauville">Michel de Bateauville</persName> : <title ref="difdepo:titles.xml#lartdemetrifierfrancois1497">L’Art de métrifier françois (1497)</title>, Annales de la Fac. de Bordeaux, 1883. Le poème cité est composé en adoptant la <term ref="difdepo:terms.xml#metriquelatine">métrique latine</term> et l’<term ref="difdepo:terms.xml#ordredesmotslatins">ordre des mots latins</term>.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. <title ref="difdepo:titles.xml#wordways">Word ways</title>, août 76, IX, 3. On y découvre : un <term ref="difdepo:terms.xml#dramealphabetique">drame alphabétique</term> de plus en anglais (pp.143-144) ; des <term ref="difdepo:terms.xml#palindromesphonetiques">palindromes phonétiques</term> (pp. 145-149).</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Point sur la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Prochains numéros : <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : <title ref="difdepo:titles.xml#perverbesi">Perverbes I</title> ; <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <title ref="difdepo:titles.xml#manifesteiii">Manifeste III</title> ; <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : <title ref="difdepo:titles.xml#abecedaireitalien">Abécédaire italien</title> ; <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <title ref="difdepo:titles.xml#perverbesii">Perverbes II</title>.</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>. Sont à notre disposition : un local et une dame à la <orgName ref="difdepo:organizations.xml#maisondessciencesdelhomme">Maison des Sciences de l’Homme</orgName>. On peut donc relancer le projet de <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> (au sens primitif du terme).</p>
-      <p>Invités d’honneur. On propose : Coumet (<persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>) ; Cortada (<persName ref="difdepo:persons.xml#fournel">Fournel</persName>) ; Paris (<persName ref="difdepo:persons.xml#benabou">Bénabou</persName>).</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. La direction du <name ref="difdepo:events.xml#festivaldevilleneuvelesavignon" type="manif">Festival de Villeneuve-les-Avignon</name> propose à l’OuLiPo d’animer la <orgName ref="difdepo:organizations.xml#maisondesmots">Maison des Mots</orgName>, à la Chartreuse.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Compte-rendu de l’émission « <name ref="difdepo:events.xml#dialogues" type="manif">Dialogues</name> » avec <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName>. L’édition en cassette dudit dialogue est envisagée, mais sera soumise à l’approbation des deux dialogueurs.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101887/f3.highres" n="3"/>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> propose de prendre contact avec <orgName ref="difdepo:organizations.xml#ecoutesilpleut">Ecoute-s’il pleut</orgName>, coopérative d’artistes de music-hall, pour organiser des tournées OuLiPiennes dans le désert culturel français.</p>
-      <p>Il signale l’existence d’un (n+1)° ouvrage sur la Trisection vaincue. Celui-ci a la particularité d’être l’œuvre d’un agent immobilier de la rue Notre-Dame-des-Champs.</p>
-      <p><label type="rubrique"><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Menu propos :</label></p>
-      <p><term ref="difdepo:terms.xml#sextine">Sextine</term> et chimie. (Rencontre avec un chimiste belge qui ne connaît pas les travaux de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> sur la <term ref="difdepo:terms.xml#sextine">sextine</term>.)</p>
-      <p>Le menu était composé de tomates, de rôti saignant et de patates au lard.</p>
-      <p>Les deux prochaines réunions auront lieu le jeudi 28 octobre, et le jeudi 25 novembre.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101887/f2.highres" n="2"/>
+         <p rend="incipit">Réunion du 23 septembre 1976</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#gperec">G. Perec</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName>, <persName ref="difdepo:persons.xml#mbenabou">M. Bénabou</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#le">L. Etienne</persName>, <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName>, <persName ref="difdepo:persons.xml#hmathews">H. Mathews</persName>.</p>
+         <p>Distribution d’un fascicule de <persName ref="difdepo:persons.xml#beatrixbeck">Béatrix Beck</persName> : <title ref="difdepo:titles.xml#motscouverts">Mots couverts</title> (<title ref="difdepo:titles.xml#tempsmeles">Temps mêlés</title>).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> signale l’existence d’un roman de <persName ref="difdepo:persons.xml#stanislaslem">Stanislas Lem</persName>, <title ref="difdepo:titles.xml#ladisparition">La Disparition</title>, apparemment admirable, et dont il raconte l’intrigue.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#alainjacquet">Alain Jacquet</persName> représentait la France à la <name ref="difdepo:events.xml#biennaledevenise" type="manif">Biennale de Venise</name>. Il a exposé <title ref="difdepo:titles.xml#labaratte">La Baratte</title> : 3 bâtons sur lesquels sont empilés des disques portant des signes <persName ref="difdepo:persons.xml#braille">Braille</persName>. Cet objet évoque irrésistiblement La Tour d’Hanoi depuis longtemps décrite, notamment dans le bouquin de <persName ref="difdepo:persons.xml#saintelague">Sainte-Laguë</persName>. On note l’analogie avec l’<term ref="difdepo:terms.xml#algorithmedemathews">algorithme de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>
+            </term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> lit un extrait de <persName ref="difdepo:persons.xml#micheldebateauville">Michel de Bateauville</persName> : <title ref="difdepo:titles.xml#lartdemetrifierfrancois1497">L’Art de métrifier françois (1497)</title>, Annales de la Fac. de Bordeaux, 1883. Le poème cité est composé en adoptant la <term ref="difdepo:terms.xml#metriquelatine">métrique latine</term> et l’<term ref="difdepo:terms.xml#ordredesmotslatins">ordre des mots latins</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>. <title ref="difdepo:titles.xml#wordways">Word ways</title>, août 76, IX, 3. On y découvre : un <term ref="difdepo:terms.xml#dramealphabetique">drame alphabétique</term> de plus en anglais (pp.143-144) ; des <term ref="difdepo:terms.xml#palindromesphonetiques">palindromes phonétiques</term> (pp. 145-149).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. Point sur la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Prochains numéros : <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> : <title ref="difdepo:titles.xml#perverbesi">Perverbes I</title> ; <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : <title ref="difdepo:titles.xml#manifesteiii">Manifeste III</title> ; <persName ref="difdepo:persons.xml#ic">
+               <abbr>IC</abbr>
+            </persName> : <title ref="difdepo:titles.xml#abecedaireitalien">Abécédaire italien</title> ; <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : <title ref="difdepo:titles.xml#perverbesii">Perverbes II</title>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>. Sont à notre disposition : un local et une dame à la <orgName ref="difdepo:organizations.xml#maisondessciencesdelhomme">Maison des Sciences de l’Homme</orgName>. On peut donc relancer le projet de <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> (au sens primitif du terme).</p>
+         <p>Invités d’honneur. On propose : Coumet (<persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>) ; Cortada (<persName ref="difdepo:persons.xml#fournel">Fournel</persName>) ; Paris (<persName ref="difdepo:persons.xml#benabou">Bénabou</persName>).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>. La direction du <name ref="difdepo:events.xml#festivaldevilleneuvelesavignon" type="manif">Festival de Villeneuve-les-Avignon</name> propose à l’OuLiPo d’animer la <orgName ref="difdepo:organizations.xml#maisondesmots">Maison des Mots</orgName>, à la Chartreuse.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>. Compte-rendu de l’émission « <name ref="difdepo:events.xml#dialogues" type="manif">Dialogues</name> » avec <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName>. L’édition en cassette dudit dialogue est envisagée, mais sera soumise à l’approbation des deux dialogueurs.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101887/f3.highres" n="3"/>
+         <p>
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> propose de prendre contact avec <orgName ref="difdepo:organizations.xml#ecoutesilpleut">Ecoute-s’il pleut</orgName>, coopérative d’artistes de music-hall, pour organiser des tournées OuLiPiennes dans le désert culturel français.</p>
+         <p>Il signale l’existence d’un (n+1)° ouvrage sur la Trisection vaincue. Celui-ci a la particularité d’être l’œuvre d’un agent immobilier de la rue Notre-Dame-des-Champs.</p>
+         <p>
+            <label type="rubrique">
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName>. Menu propos :</label>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#sextine">Sextine</term> et chimie. (Rencontre avec un chimiste belge qui ne connaît pas les travaux de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> sur la <term ref="difdepo:terms.xml#sextine">sextine</term>.)</p>
+         <p>Le menu était composé de tomates, de rôti saignant et de patates au lard.</p>
+         <p>Les deux prochaines réunions auront lieu le jeudi 28 octobre, et le jeudi 25 novembre.</p>
+      </body>
   </text>
 </TEI>

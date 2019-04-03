@@ -1,95 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010056-1965-06-12-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010056-1965-06-12-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010056 pp. 1 à 2 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#reneealtergott">Renee Altergott</name>
-          <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010056-1965-06-12-oj</idno> <title>Ordre de jour de <ref target="#t10010056-1965-06-12">la réunion Oulipo</ref> du <date when="1965-06-12">12 juin 1965</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:22:07Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010056 pp. 1 à 2 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 12 juin 1965</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#reneealtergott">Renee Altergott</name>
+               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010056-1965-06-12-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010056-1965-06-12">la réunion Oulipo</ref> du <date when="1965-06-12">12 juin 1965</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:22:07Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f1.highres" n="1"/>
-      <p rend="incipit">OuLiPo</p>
-      <p rend="incipit">Réunion du 26 Merdre 93 (vulg. 12 Juin 1965)</p>
-      <p rend="incipit">Excusés : J. Bens, C. Berge, A.M. Schmidt</p>
-      <p rend="incipit">Présents :</p>
-      <p>Projet d’ordre du jour</p>
-      <p><label type="rubrique">ELECTION D’UN PRESIDENT DE SEANCE</label></p>
-      <p><label type="rubrique">LE QUART D’HEURE DE RABELAIS</label></p>
-      <p>Accueil de notre invité d’honneur par un Vingt et Uniémiste</p>
-      <p>Professeur <persName ref="difdepo:persons.xml#kazurawatanabe">Kazura Watanabé</persName></p>
-      <p><label type="rubrique">SUR LE COLLEGE DE PATAPHYSIQUE</label></p>
-      <p>Communication extraordinaire par…… <persName ref="difdepo:persons.xml#latis">Latis</persName></p>
-      <p><label type="rubrique">CREATION</label></p>
-      <list type="ordered">
-        <item>Du nouveau sur la ponctuation…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName></item>
-      </list>
-      <list type="ordered">
-        <item><term ref="difdepo:terms.xml#sonnetisovocalique">Sonnet isovocalique</term>……… <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName></item>
-      </list>
-      <list type="ordered">
-        <item><term ref="difdepo:terms.xml#protheselitteraire">Prothèse littéraire</term> : Adduction éventuelle d’un quatorzième vers au sonnet de 13 vers……… <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></item>
-      </list>
-      <list type="ordered">
-        <item>Les grands voyages du Président…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName></item>
-      </list>
-      <p><label type="rubrique">ERUDITION</label></p>
-      <list type="ordered">
-        <item><term ref="difdepo:terms.xml#plagiatsparanticipation">Plagiats par anticipation</term>…… <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName></item>
-        <item/>
-      </list>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f2.highres" n="2"/>
-      <p><label type="rubrique">QUESTIONS MAL DEFINIES</label></p>
-      <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#dhotel">Dhotel</persName>…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName></item>
-      </list>
-      <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#burgess">Burgess</persName>…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName></item>
-      </list>
-      <p><label type="rubrique">QUESTIONS ADMINISTRATIVES</label></p>
-      <list type="ordered">
-        <item>Le courrier du cœur : cartes postales aux absents</item>
-      </list>
-      <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#md">Marcel Duchamp</persName> à Paris</item>
-      </list>
-      <list type="ordered">
-        <item>Les mythes oulipiens (Verviers, le 10 clinamen à l’<orgName ref="difdepo:organizations.xml#ortf">ORTF</orgName>)</item>
-      </list>
-      <p>Création éventuelle d’une « <orgName ref="difdepo:organizations.xml#commissiondesmythes">Commission des mythes</orgName> »</p>
-      <list type="ordered">
-        <item>Prochaine invités : Re-<persName ref="difdepo:persons.xml#faure">Faure</persName></item>
-      </list>
-      <list type="ordered">
-        <item>Prochaine dates et Lieux</item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f1.highres" n="1"/>
+         <p rend="incipit">OuLiPo</p>
+         <p rend="incipit">Réunion du 26 Merdre 93 (vulg. 12 Juin 1965)</p>
+         <p rend="incipit">Excusés : J. Bens, C. Berge, A.M. Schmidt</p>
+         <p rend="incipit">Présents :</p>
+         <p>Projet d’ordre du jour</p>
+         <p>
+            <label type="rubrique">ELECTION D’UN PRESIDENT DE SEANCE</label>
+         </p>
+         <p>
+            <label type="rubrique">LE QUART D’HEURE DE RABELAIS</label>
+         </p>
+         <p>Accueil de notre invité d’honneur par un Vingt et Uniémiste</p>
+         <p>Professeur <persName ref="difdepo:persons.xml#kazurawatanabe">Kazura Watanabé</persName>
+         </p>
+         <p>
+            <label type="rubrique">SUR LE COLLEGE DE PATAPHYSIQUE</label>
+         </p>
+         <p>Communication extraordinaire par…… <persName ref="difdepo:persons.xml#latis">Latis</persName>
+         </p>
+         <p>
+            <label type="rubrique">CREATION</label>
+         </p>
+         <list type="ordered">
+            <item>Du nouveau sur la ponctuation…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>
+            </item>
+         </list>
+         <list type="ordered">
+            <item>
+               <term ref="difdepo:terms.xml#sonnetisovocalique">Sonnet isovocalique</term>……… <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>
+            </item>
+         </list>
+         <list type="ordered">
+            <item>
+               <term ref="difdepo:terms.xml#protheselitteraire">Prothèse littéraire</term> : Adduction éventuelle d’un quatorzième vers au sonnet de 13 vers……… <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
+            </item>
+         </list>
+         <list type="ordered">
+            <item>Les grands voyages du Président…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">ERUDITION</label>
+         </p>
+         <list type="ordered">
+            <item>
+               <term ref="difdepo:terms.xml#plagiatsparanticipation">Plagiats par anticipation</term>…… <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>
+            </item>
+            <item/>
+         </list>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f2.highres" n="2"/>
+         <p>
+            <label type="rubrique">QUESTIONS MAL DEFINIES</label>
+         </p>
+         <list type="ordered">
+            <item>
+               <persName ref="difdepo:persons.xml#dhotel">Dhotel</persName>…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>
+            </item>
+         </list>
+         <list type="ordered">
+            <item>
+               <persName ref="difdepo:persons.xml#burgess">Burgess</persName>…… <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">QUESTIONS ADMINISTRATIVES</label>
+         </p>
+         <list type="ordered">
+            <item>Le courrier du cœur : cartes postales aux absents</item>
+         </list>
+         <list type="ordered">
+            <item>
+               <persName ref="difdepo:persons.xml#md">Marcel Duchamp</persName> à Paris</item>
+         </list>
+         <list type="ordered">
+            <item>Les mythes oulipiens (Verviers, le 10 clinamen à l’<orgName ref="difdepo:organizations.xml#ortf">ORTF</orgName>)</item>
+         </list>
+         <p>Création éventuelle d’une « <orgName ref="difdepo:organizations.xml#commissiondesmythes">Commission des mythes</orgName> »</p>
+         <list type="ordered">
+            <item>Prochaine invités : Re-<persName ref="difdepo:persons.xml#faure">Faure</persName>
+            </item>
+         </list>
+         <list type="ordered">
+            <item>Prochaine dates et Lieux</item>
+         </list>
+      </body>
   </text>
 </TEI>

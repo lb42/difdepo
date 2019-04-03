@@ -1,68 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010255-1982-11-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010255-1982-11-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010255 pp. 30 à 30 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010255-1982-11-oj</idno> <title>Ordre de jour de <ref target="#t10010255-1982-11">la réunion Oulipo</ref> de <date when="1982-11-16">16 novembre 1982</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:36:14Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010255 pp. 30 à 30 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 16 novembre 1982</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010255-1982-11-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010255-1982-11">la réunion Oulipo</ref> de <date when="1982-11-16">16 novembre 1982</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:36:14Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102551/f30.highres" n="30"/>
-      <p rend="incipit">OULIPO du Mardi 16 novembre 1982</p>
-      <p rend="incipit">Présidence : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p rend="incipit">Secrétariat : <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Benabou</persName>.</p>
-      <p rend="incipit">Excusés</p>
-      <p rend="incipit">Inexcusés</p>
-      <p><label type="rubrique">Action</label></p>
-      <p>Toulouse / Albi : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> <lb/><persName ref="difdepo:persons.xml#benabou">Benabou</persName> : Enigme <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p><title ref="difdepo:titles.xml#jemesouviens">Je me souviens</title> …<unclear>illisible</unclear> <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></p>
-      <p><persName ref="difdepo:persons.xml#monicaguell">Monica Guell</persName> <orgName ref="difdepo:organizations.xml#amisgeorgesperec">Amis <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></orgName></p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> ; La Haye Pays-Bas,</p>
-      <p><persName ref="difdepo:persons.xml#benabou">Benabou</persName> <persName ref="difdepo:persons.xml#perec">Perec</persName> par <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></p>
-      <p>Table <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Benabou</persName></p>
-      <p><label type="rubrique">Travaux création</label></p>
-      <p><term ref="difdepo:terms.xml#bouledeneige">Boule de neige</term>, <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p>Question : <persName ref="difdepo:persons.xml#harry"><abbr>Harry</abbr></persName></p>
-      <p><orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> : <orgName ref="difdepo:organizations.xml#atelierlitteratureassisteeparordinateur">atelier littérature assistée par ordinateur</orgName></p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p>Création oumupienne <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></p>
-      <p>Oumupo : par <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> ; opéra à 4 notes <persName ref="difdepo:persons.xml#johncage">John Cage</persName></p>
-      <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <title ref="difdepo:titles.xml#cheneetchien">Chêne et Chien</title>, Texas …. <unclear>Illisible</unclear></p>
-      <p><title ref="difdepo:titles.xml#dictionnairemathematiques">Dictionnaire Mathématiques</title> : Dieu et Diable</p>
-      <p>FLL : <unclear>Claire Margot</unclear>  ; <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName>.</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : 17 XII</p>
-      <p><unclear>Ecrit</unclear></p>
-      <p><label type="rubrique">Invités d’honneur :</label></p>
-      <p><persName ref="difdepo:persons.xml#klinkenberg">Klinkenberg</persName>, <persName ref="difdepo:persons.xml#marinayaguello">Marina Yaguello</persName> (<persName ref="difdepo:persons.xml#braffort">Braffort</persName>).</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102551/f30.highres"
+             n="30"/>
+         <p rend="incipit">OULIPO du Mardi 16 novembre 1982</p>
+         <p rend="incipit">Présidence : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Secrétariat : <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Benabou</persName>.</p>
+         <p rend="incipit">Excusés</p>
+         <p rend="incipit">Inexcusés</p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>Toulouse / Albi : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> 
+            <lb/>
+            <persName ref="difdepo:persons.xml#benabou">Benabou</persName> : Enigme <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#jemesouviens">Je me souviens</title> …<unclear>illisible</unclear> 
+            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#monicaguell">Monica Guell</persName> 
+            <orgName ref="difdepo:organizations.xml#amisgeorgesperec">Amis <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+            </orgName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> ; La Haye Pays-Bas,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#benabou">Benabou</persName> 
+            <persName ref="difdepo:persons.xml#perec">Perec</persName> par <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+         </p>
+         <p>Table <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Benabou</persName>
+         </p>
+         <p>
+            <label type="rubrique">Travaux création</label>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#bouledeneige">Boule de neige</term>, <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>Question : <persName ref="difdepo:persons.xml#harry">
+               <abbr>Harry</abbr>
+            </persName>
+         </p>
+         <p>
+            <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> : <orgName ref="difdepo:organizations.xml#atelierlitteratureassisteeparordinateur">atelier littérature assistée par ordinateur</orgName>
+         </p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>Création oumupienne <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+         </p>
+         <p>Oumupo : par <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> ; opéra à 4 notes <persName ref="difdepo:persons.xml#johncage">John Cage</persName>
+         </p>
+         <p>
+            <label type="rubrique">Menus propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <title ref="difdepo:titles.xml#cheneetchien">Chêne et Chien</title>, Texas …. <unclear>Illisible</unclear>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#dictionnairemathematiques">Dictionnaire Mathématiques</title> : Dieu et Diable</p>
+         <p>FLL : <unclear>Claire Margot</unclear>  ; <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName>.</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : 17 XII</p>
+         <p>
+            <unclear>Ecrit</unclear>
+         </p>
+         <p>
+            <label type="rubrique">Invités d’honneur :</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#klinkenberg">Klinkenberg</persName>, <persName ref="difdepo:persons.xml#marinayaguello">Marina Yaguello</persName> (<persName ref="difdepo:persons.xml#braffort">Braffort</persName>).</p>
+      </body>
   </text>
 </TEI>

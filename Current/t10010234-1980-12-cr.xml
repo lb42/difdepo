@@ -1,95 +1,236 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010234-1980-12-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010234-1980-12-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010234 pp. 10 à 11 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010234-1980-12-cr</idno> <meeting xml:id="t10010234-1980-12">
-          <date when="1980-12-18">18 décembre 1980</date>
-          <placeName>chez MB</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:34:43Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010234 pp. 10 à 11 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 18 décembre 1980</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010234-1980-12-cr</idno> 
+               <meeting xml:id="t10010234-1980-12">
+                  <date when="1980-12-18">18 décembre 1980</date>
+                  <placeName>chez MB</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:34:43Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010234r/f10.highres" n="10"/>
-      <p rend="incipit">Réunion du 18 XII 80</p>
-      <p rend="incipit">Chez <persName ref="difdepo:persons.xml#mbenabou">M. Benabou</persName></p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>.</p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName></p>
-      <p rend="incipit">Président : casquette maillot jaune <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> du contrat <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> relatif au <title ref="difdepo:titles.xml#vol2">vol 2</title>. <lb/>l’oulipo est content</p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : <persName ref="difdepo:persons.xml#benschi">BENSCHI</persName></p>
-      <p>C’est le nom du commentateur de films muets au Japon. Il faudrait faire un roman avec une partie qui serait un commentaire fantaisiste.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <term ref="difdepo:terms.xml#compositionrythmiqueabstraite">composition rythmique abstraite</term>. <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>. <lb/>Travail avec <persName ref="difdepo:persons.xml#lusson">Lusson</persName> et <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>.</p>
-      <p><term ref="difdepo:terms.xml#homosyntaxismefort">Homosyntaxisme fort</term>. On remplace des mots par des mots de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> en même situation grammaticale. Ces mots sont pondérés selon leur forme, leur ressemblance, leur origine/</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : évoque à nouveau sa <title ref="difdepo:titles.xml#minidramatiquea8pistes">mini-dramatique à 8 pistes</title>. Montrera le texte lors d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <term ref="difdepo:terms.xml#legendeautomatique">Légende automatique</term></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> « n’importe quoi, mais pas n’importe comment »</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : oulipo et l’histoire.</p>
-      <p>Coup de téléphone au président.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. Raconte la vie double du directeur de l’<orgName ref="difdepo:organizations.xml#ecoledesminesdesaintetienne">Ecole des Mines de Saint-Etienne</orgName></p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName></p>
-      <p>[mon œil de velours est moins côteleux que le …. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>]</p>
-      <p><persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> : Lettres de <persName ref="difdepo:persons.xml#chandler">Chandler</persName> chez <orgName ref="difdepo:organizations.xml#bourgeois">Bourgeois</orgName></p>
-      <p>// Entre « Fais pas ta Rositre » de <persName ref="difdepo:persons.xml#chandler">Chandler</persName> et « Sinistre RV » de <unclear>P. Changeux</unclear>.</p>
-      <p>Comment « Chandleriser » les personnages de <unclear>Cha…</unclear> à l<orgName ref="difdepo:organizations.xml#oulipopo">’Oulipopo</orgName></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : appel de textes pour la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p>Nouvelle lecture du contrat</p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : parle de <name ref="difdepo:events.xml#lexposition" type="manif">l’exposition</name> « <title ref="difdepo:titles.xml#heritiersderq">Héritiers de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></title>  » à Rouen</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : nous avons été bien reçus, il faudrait inviter <persName ref="difdepo:persons.xml#simonnet">Simonnet</persName></p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010234r/f11.highres" n="11"/>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : ira à <name ref="difdepo:events.xml#toulouse" type="manif">Toulouse</name> par Paris→ vente <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : invités d’honneur</p>
-      <p><persName ref="difdepo:persons.xml#simonnet">Simonnet</persName> / ok à contacter très vite</p>
-      <p>Propose <persName ref="difdepo:persons.xml#claudedebon">Claude Debon</persName>, chargée de la <title ref="difdepo:titles.xml#pleaidequeneau">Pléaide <persName ref="difdepo:persons.xml#queneau">Queneau</persName></title></p>
-      <p>– hostilité générale-</p>
-      <p>Si <persName ref="difdepo:persons.xml#mmedebon">Mme Debon</persName> demande quelque chose à l’Oulipo, on verra</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#jeudecartessurrealistes">jeu de cartes surréalistes</term></p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> 30 janvier 81</p>
-      <p>Chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010234r/f10.highres"
+             n="10"/>
+         <p rend="incipit">Réunion du 18 XII 80</p>
+         <p rend="incipit">Chez <persName ref="difdepo:persons.xml#mbenabou">M. Benabou</persName>
+         </p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jd">
+               <abbr>JD</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>.</p>
+         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#ic">
+               <abbr>IC</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#gp">
+               <abbr>GP</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#jl">
+               <abbr>JL</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Président : casquette maillot jaune <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> du contrat <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> relatif au <title ref="difdepo:titles.xml#vol2">vol 2</title>. <lb/>l’oulipo est content</p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#benschi">BENSCHI</persName>
+         </p>
+         <p>C’est le nom du commentateur de films muets au Japon. Il faudrait faire un roman avec une partie qui serait un commentaire fantaisiste.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> : <term ref="difdepo:terms.xml#compositionrythmiqueabstraite">composition rythmique abstraite</term>. <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>. <lb/>Travail avec <persName ref="difdepo:persons.xml#lusson">Lusson</persName> et <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>.</p>
+         <p>
+            <term ref="difdepo:terms.xml#homosyntaxismefort">Homosyntaxisme fort</term>. On remplace des mots par des mots de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> en même situation grammaticale. Ces mots sont pondérés selon leur forme, leur ressemblance, leur origine/</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : évoque à nouveau sa <title ref="difdepo:titles.xml#minidramatiquea8pistes">mini-dramatique à 8 pistes</title>. Montrera le texte lors d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : <term ref="difdepo:terms.xml#legendeautomatique">Légende automatique</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> « n’importe quoi, mais pas n’importe comment »</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : oulipo et l’histoire.</p>
+         <p>Coup de téléphone au président.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>. Raconte la vie double du directeur de l’<orgName ref="difdepo:organizations.xml#ecoledesminesdesaintetienne">Ecole des Mines de Saint-Etienne</orgName>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>
+         </p>
+         <p>[mon œil de velours est moins côteleux que le …. <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>]</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jd">
+               <abbr>JD</abbr>
+            </persName> : Lettres de <persName ref="difdepo:persons.xml#chandler">Chandler</persName> chez <orgName ref="difdepo:organizations.xml#bourgeois">Bourgeois</orgName>
+         </p>
+         <p>// Entre « Fais pas ta Rositre » de <persName ref="difdepo:persons.xml#chandler">Chandler</persName> et « Sinistre RV » de <unclear>P. Changeux</unclear>.</p>
+         <p>Comment « Chandleriser » les personnages de <unclear>Cha…</unclear> à l<orgName ref="difdepo:organizations.xml#oulipopo">’Oulipopo</orgName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : appel de textes pour la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+         </p>
+         <p>Nouvelle lecture du contrat</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> : parle de <name ref="difdepo:events.xml#lexposition" type="manif">l’exposition</name> « <title ref="difdepo:titles.xml#heritiersderq">Héritiers de <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>
+            </title>  » à Rouen</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : nous avons été bien reçus, il faudrait inviter <persName ref="difdepo:persons.xml#simonnet">Simonnet</persName>
+         </p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010234r/f11.highres"
+             n="11"/>
+         <p>
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> : ira à <name ref="difdepo:events.xml#toulouse" type="manif">Toulouse</name> par Paris→ vente <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> : invités d’honneur</p>
+         <p>
+            <persName ref="difdepo:persons.xml#simonnet">Simonnet</persName> / ok à contacter très vite</p>
+         <p>Propose <persName ref="difdepo:persons.xml#claudedebon">Claude Debon</persName>, chargée de la <title ref="difdepo:titles.xml#pleaidequeneau">Pléaide <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+            </title>
+         </p>
+         <p>– hostilité générale-</p>
+         <p>Si <persName ref="difdepo:persons.xml#mmedebon">Mme Debon</persName> demande quelque chose à l’Oulipo, on verra</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <term ref="difdepo:terms.xml#jeudecartessurrealistes">jeu de cartes surréalistes</term>
+         </p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> 30 janvier 81</p>
+         <p>Chez <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>.</p>
+      </body>
   </text>
 </TEI>

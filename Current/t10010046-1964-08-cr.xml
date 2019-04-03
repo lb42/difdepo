@@ -1,95 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010046-1964-08-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010046-1964-08-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010046 pp. 1 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#erikahendrix">Erika Hendrix</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010046-1964-08-cr</idno> <meeting xml:id="t10010046-1964-08">
-          <date when="1964-08-13">13 août 1964</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#latis">Latis</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#ab">André Blavier</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-10-20">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010046 pp. 1 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 13 août 1964</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#erikahendrix">Erika Hendrix</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010046-1964-08-cr</idno> 
+               <meeting xml:id="t10010046-1964-08">
+                  <date when="1964-08-13">13 août 1964</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#latis">Latis</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#ab">André Blavier</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-10-20">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100469/f1.highres" n="1"/>
-      <p rend="incipit">No. 48</p>
-      <p>OULIPO 13 août</p>
-      <p><persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName>, <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName></p>
-      <p><persName ref="difdepo:persons.xml#jlescure">J. LESCURE</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName>, <persName ref="difdepo:persons.xml#latis">LATIS</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName>,</p>
-      <p><persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> (Président).</p>
-      <p>SEANCE CONSACREE A VERVIERS : Vendredi 2 octobre 19h.30</p>
-      <p>au Lundi 5 octobre.</p>
-      <p>A. Avant le 6 septembre répondre à <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName>,</p>
-      <p>114, rue du Palais, VERVIERS BELGIQUE, en indiquant :</p>
-      <p>1) Le nombre de chambres, de lits (la taille) désirés.</p>
-      <p>2) La salle de bain</p>
-      <p>3) Le mode de transport.</p>
-      <p>N.B. : Inutile de confirmer sa participation, chacun ayant pris l’engagement formel de s’y rendre.</p>
-      <p>B. TRAVAUX :</p>
-      <p>1) Radio seulement pas Télévision : 2 séquences de 40 minutes enregistrées, avant, pendant et après le déjeuner.</p>
-      <p>2) <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> fera les objections, afin d’animer la discussion.</p>
-      <p>3) PLAN : Présentation : Interview de <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> et <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> sur les principes.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100469/f2.highres" n="2"/>
-      <p>b : L’Histoire de l’OULIPO par <persName ref="difdepo:persons.xml#lescure">LESCURE</persName>.</p>
-      <p>c : 3 centres de discussion que chacun se devra d’animer par des exemples</p>
-      <p>1. Fonction des parties du discours</p>
-      <p>2. Les rimes</p>
-      <p>3. <persName ref="difdepo:persons.xml#boole">Boole</persName>.</p>
-      <p>d : conclusion par <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : les structures non étudiées, les échecs.</p>
-      <p>4) CONSIDERATIONS GENERALES :</p>
-      <p><persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Il faudra montrer que l’OULIPO systématise ce qui a été déjà quelquefois entrevu.</p>
-      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Est-ce que vous ne craignez pas de ne pas être bien compris.</p>
-      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Si on cherche à être compris il vaut mieux renoncer tout de suite.</p>
-      <p><persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Votre plan est un peu plus didactique que je ne le voyais. Mais à priori je ne suis pas contre.</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Il faudra beaucoup d’exemples.</p>
-      <p><persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : Il faudra aussi de l’<term ref="difdepo:terms.xml#informationnulle">information nulle</term>. Pouvoir dire : j’allume mon cigare, comme ça, sans raison valable.</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Certains travaux peuvent être exposés facilement. L’<term ref="difdepo:terms.xml#isosyntaxique">isosyntaxique</term> notamment. D’un texte guerrier on fera un texte amoureux.</p>
-      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : C’est la même chose.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100469/f3.highres" n="3"/>
-      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : La dernière conquête.</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. LELIONNAIS</persName> : Oh combien de marins,</p>
-      <p>Combien de capitaines</p>
-      <p>PROCHAINES REUNIONS :</p>
-      <p>1. OULIBASQUE 40, rue de l’Université, préparation de VERVIERS 22 septembre 12h.30.</p>
-      <p>2. 24 septembre chez <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> à LIMOURS, 31, rue de Chaumusson (Seine et Oise) Téléphone : 253.</p>
-      <p>N.B. : Sauf en cas de contre-ordre, il ne sera pas envoyé d’autres convocations.</p>
-      <p>Pour le S P : <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques DUCHATEAU</persName></p>
-      <p>N.B. : L’OULIPO par la voix de <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> a rendu l’hommage qu’il convenait à <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> pour son poème 10=1.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100469/f1.highres" n="1"/>
+         <p rend="incipit">No. 48</p>
+         <p>OULIPO 13 août</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName>, <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jlescure">J. LESCURE</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName>, <persName ref="difdepo:persons.xml#latis">LATIS</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName>,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> (Président).</p>
+         <p>SEANCE CONSACREE A VERVIERS : Vendredi 2 octobre 19h.30</p>
+         <p>au Lundi 5 octobre.</p>
+         <p>A. Avant le 6 septembre répondre à <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName>,</p>
+         <p>114, rue du Palais, VERVIERS BELGIQUE, en indiquant :</p>
+         <p>1) Le nombre de chambres, de lits (la taille) désirés.</p>
+         <p>2) La salle de bain</p>
+         <p>3) Le mode de transport.</p>
+         <p>N.B. : Inutile de confirmer sa participation, chacun ayant pris l’engagement formel de s’y rendre.</p>
+         <p>B. TRAVAUX :</p>
+         <p>1) Radio seulement pas Télévision : 2 séquences de 40 minutes enregistrées, avant, pendant et après le déjeuner.</p>
+         <p>2) <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> fera les objections, afin d’animer la discussion.</p>
+         <p>3) PLAN : Présentation : Interview de <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> et <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> sur les principes.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100469/f2.highres" n="2"/>
+         <p>b : L’Histoire de l’OULIPO par <persName ref="difdepo:persons.xml#lescure">LESCURE</persName>.</p>
+         <p>c : 3 centres de discussion que chacun se devra d’animer par des exemples</p>
+         <p>1. Fonction des parties du discours</p>
+         <p>2. Les rimes</p>
+         <p>3. <persName ref="difdepo:persons.xml#boole">Boole</persName>.</p>
+         <p>d : conclusion par <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : les structures non étudiées, les échecs.</p>
+         <p>4) CONSIDERATIONS GENERALES :</p>
+         <p>
+            <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Il faudra montrer que l’OULIPO systématise ce qui a été déjà quelquefois entrevu.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Est-ce que vous ne craignez pas de ne pas être bien compris.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Si on cherche à être compris il vaut mieux renoncer tout de suite.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Votre plan est un peu plus didactique que je ne le voyais. Mais à priori je ne suis pas contre.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Il faudra beaucoup d’exemples.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : Il faudra aussi de l’<term ref="difdepo:terms.xml#informationnulle">information nulle</term>. Pouvoir dire : j’allume mon cigare, comme ça, sans raison valable.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Certains travaux peuvent être exposés facilement. L’<term ref="difdepo:terms.xml#isosyntaxique">isosyntaxique</term> notamment. D’un texte guerrier on fera un texte amoureux.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : C’est la même chose.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100469/f3.highres" n="3"/>
+         <p>
+            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : La dernière conquête.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. LELIONNAIS</persName> : Oh combien de marins,</p>
+         <p>Combien de capitaines</p>
+         <p>PROCHAINES REUNIONS :</p>
+         <p>1. OULIBASQUE 40, rue de l’Université, préparation de VERVIERS 22 septembre 12h.30.</p>
+         <p>2. 24 septembre chez <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> à LIMOURS, 31, rue de Chaumusson (Seine et Oise) Téléphone : 253.</p>
+         <p>N.B. : Sauf en cas de contre-ordre, il ne sera pas envoyé d’autres convocations.</p>
+         <p>Pour le S P : <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques DUCHATEAU</persName>
+         </p>
+         <p>N.B. : L’OULIPO par la voix de <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> a rendu l’hommage qu’il convenait à <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> pour son poème 10=1.</p>
+      </body>
   </text>
 </TEI>

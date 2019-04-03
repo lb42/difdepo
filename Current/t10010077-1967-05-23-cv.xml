@@ -1,55 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010077-1967-05-23-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010077-1967-05-23-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010077 pp. 3 à 3 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010077-1967-05-23-cv</idno> <title>Convocation à <ref target="#t10010077-1967-05-23">une réunion Oulipo</ref>, envoyée le <date when="1967-05-23">23 mai 1967</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:35:47Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010077 pp. 3 à 3 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 23 mai 1967</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010077-1967-05-23-cv</idno> 
+               <title>Convocation à <ref target="#t10010077-1967-05-23">une réunion Oulipo</ref>, envoyée le <date when="1967-05-23">23 mai 1967</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:35:47Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100770/f3.highres" n="3"/>
-      <p rend="incipit">OuLiPo</p>
-      <p rend="incipit">le 23 mai 1967</p>
-      <p>Chers Collègues Brigadiers,</p>
-      <p>Marchant sur les traces des Mayas qui utilisaient le calendrier de leurs fêtes et cérémonies 10 000 ans à l’avance, notre dernière rencontre a fixé les dates des trois prochaines réunions :</p>
-      <list type="unordered">
-        <item>Lundi 5 juin (et non 12 juin)</item>
-        <item>Lundi 10 juillet</item>
-        <item>Lundi 7 août, cette dernière réunion vraisemblablement chez moi.</item>
-      </list>
-      <p>Réservez ces dates. Nous nous attendons réciproquement de pied ferme.</p>
-      <p>P.S. pour <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName> : Pouvez-vous faire le nécessaire pour prévenir <persName ref="difdepo:persons.xml#evagenestoux">Eva GENESTOUX</persName> et lui dire que nous serions heureux si elle pouvait rejoindre notre brigade.</p>
-      <p>P.S. pour <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : N’oublie pas d’offrir ta calèche à <persName ref="difdepo:persons.xml#latis">Latis</persName></p>
-      <p>P.S. pour <persName ref="difdepo:persons.xml#bens">BENS</persName> et <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : et, comme convenu, je vous attends à déjeuner à la maison, le mercredi 31 mai, à 12h30.</p>
-      <p>P.S. pour <persName ref="difdepo:persons.xml#latis">Latis</persName> : Je demande à <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, de vous prendre au passage, si comme nous l’espérons bien, vous êtes libre.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100770/f3.highres" n="3"/>
+         <p rend="incipit">OuLiPo</p>
+         <p rend="incipit">le 23 mai 1967</p>
+         <p>Chers Collègues Brigadiers,</p>
+         <p>Marchant sur les traces des Mayas qui utilisaient le calendrier de leurs fêtes et cérémonies 10 000 ans à l’avance, notre dernière rencontre a fixé les dates des trois prochaines réunions :</p>
+         <list type="unordered">
+            <item>Lundi 5 juin (et non 12 juin)</item>
+            <item>Lundi 10 juillet</item>
+            <item>Lundi 7 août, cette dernière réunion vraisemblablement chez moi.</item>
+         </list>
+         <p>Réservez ces dates. Nous nous attendons réciproquement de pied ferme.</p>
+         <p>P.S. pour <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName> : Pouvez-vous faire le nécessaire pour prévenir <persName ref="difdepo:persons.xml#evagenestoux">Eva GENESTOUX</persName> et lui dire que nous serions heureux si elle pouvait rejoindre notre brigade.</p>
+         <p>P.S. pour <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : N’oublie pas d’offrir ta calèche à <persName ref="difdepo:persons.xml#latis">Latis</persName>
+         </p>
+         <p>P.S. pour <persName ref="difdepo:persons.xml#bens">BENS</persName> et <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : et, comme convenu, je vous attends à déjeuner à la maison, le mercredi 31 mai, à 12h30.</p>
+         <p>P.S. pour <persName ref="difdepo:persons.xml#latis">Latis</persName> : Je demande à <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, de vous prendre au passage, si comme nous l’espérons bien, vous êtes libre.</p>
+      </body>
   </text>
 </TEI>

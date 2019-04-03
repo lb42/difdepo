@@ -1,89 +1,270 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010345-1990-12-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010345-1990-12-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010345 pp. 6 à 32 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010345-1990-12-oj</idno> <title>Ordre de jour de <ref target="#t10010345-1990-12">la réunion Oulipo</ref> de <date when="1990-12-20">20 décembre 1990</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-23" who="HCC">nettoyage des signes dollars in text</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:41:09Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010345 pp. 6 à 32 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 20 décembre 1990</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010345-1990-12-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010345-1990-12">la réunion Oulipo</ref> de <date when="1990-12-20">20 décembre 1990</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-23" who="HCC">nettoyage des signes dollars in text</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:41:09Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103450/f6.highres" n="6"/>
-      <p rend="incipit">Séance du <del>19</del>20/12/1990</p>
-      <p rend="incipit">Présent <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#sc"><abbr>SC</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">excusés <persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName></p>
-      <p rend="incipit">invité d’honneur</p>
-      <p><label type="rubrique">création</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <hi rend="sup">1</hi> <title ref="difdepo:titles.xml#perenoel">Père Noël</title> <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <hi rend="sup">2</hi> <title ref="difdepo:titles.xml#actionfrancaise">action française</title></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <hi rend="sup">1</hi> <title ref="difdepo:titles.xml#moraleelementaire"><term ref="difdepo:terms.xml#moraleelementaire">morale élémentaire</term></title> blason <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <hi rend="sup">2</hi> <term ref="difdepo:terms.xml#poesiegnomique">poésie gnomique</term> 23= 24</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <term ref="difdepo:terms.xml#sextineamelioree">sextine améliorée</term></p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <term ref="difdepo:terms.xml#s71s72">S+71, S+72</term></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> question sur une création ancienne</p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> 500000 francs</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> langage de l’electronic billboard</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#oscardelaborbolla">Oscar de la Borbolla</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> document <persName ref="difdepo:persons.xml#queneau">Queneau</persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> 10c <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <hi rend="sup">1</hi> Firenze</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <hi rend="sup">2</hi> Berlin</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <hi rend="sup">3</hi> Limoges</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Marseille</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <hi rend="sup">1</hi> Rouen (avant Firenze)</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <hi rend="sup">2</hi> <title ref="difdepo:titles.xml#nouvellerevuefrancaise">Nouvelle Revue Française</title></p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> 8 mars.</p>
-      <p>Bibliothèque oulipienne <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <title ref="difdepo:titles.xml#moraleelementaire"><term ref="difdepo:terms.xml#moraleelementaire">morale élémentaire</term></title></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> juste pour une remarque</p>
-      <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> oui</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <hi rend="sup">1</hi> oui, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <hi rend="sup">2</hi> finances</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#raymondroussel">Raymond Roussel</persName> <persName ref="difdepo:persons.xml#boucher">Boucher</persName></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <hi rend="sup">2</hi> Axley <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <hi rend="sup">3</hi> Suzan. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <hi rend="sup">2</hi> <title ref="difdepo:titles.xml#romandesquatre">roman des quatre</title></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <unclear>*</unclear></p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103450/f32.highres" n="7"/>
-      <p>OULIPO 20 12 90</p>
-      <list type="unordered">
-        <item><del>Limoges</del> CIDRE documents <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></item>
-      </list>
-      <list type="unordered">
-        <item>Florence (<unclear>**</unclear>)</item>
-      </list>
-      <list type="unordered">
-        <item>Berlin (invitation)</item>
-      </list>
-      <list type="unordered">
-        <item>Phynances : chèque annonce <persName ref="difdepo:persons.xml#queval">Queval</persName></item>
-      </list>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : projet allemand</item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103450/f6.highres" n="6"/>
+         <p rend="incipit">Séance du <del>19</del>20/12/1990</p>
+         <p rend="incipit">Présent <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#sc">
+               <abbr>SC</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">excusés <persName ref="difdepo:persons.xml#pr">
+               <abbr>PR</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">invité d’honneur</p>
+         <p>
+            <label type="rubrique">création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 
+            <hi rend="sup">1</hi> 
+            <title ref="difdepo:titles.xml#perenoel">Père Noël</title> 
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> 
+            <title ref="difdepo:titles.xml#actionfrancaise">action française</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <hi rend="sup">1</hi> 
+            <title ref="difdepo:titles.xml#moraleelementaire">
+               <term ref="difdepo:terms.xml#moraleelementaire">morale élémentaire</term>
+            </title> blason <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> 
+            <term ref="difdepo:terms.xml#poesiegnomique">poésie gnomique</term> 23= 24</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <term ref="difdepo:terms.xml#sextineamelioree">sextine améliorée</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 
+            <term ref="difdepo:terms.xml#s71s72">S+71, S+72</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> question sur une création ancienne</p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 500000 francs</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> langage de l’electronic billboard</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#oscardelaborbolla">Oscar de la Borbolla</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> document <persName ref="difdepo:persons.xml#queneau">Queneau</persName> 
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> 10c <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <hi rend="sup">1</hi> Firenze</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> Berlin</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <hi rend="sup">3</hi> Limoges</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> Marseille</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <hi rend="sup">1</hi> Rouen (avant Firenze)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> 
+            <title ref="difdepo:titles.xml#nouvellerevuefrancaise">Nouvelle Revue Française</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 8 mars.</p>
+         <p>Bibliothèque oulipienne <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <title ref="difdepo:titles.xml#moraleelementaire">
+               <term ref="difdepo:terms.xml#moraleelementaire">morale élémentaire</term>
+            </title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> juste pour une remarque</p>
+         <p>
+            <label type="rubrique">Menus Propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> oui</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <hi rend="sup">1</hi> oui, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> finances</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#raymondroussel">Raymond Roussel</persName> 
+            <persName ref="difdepo:persons.xml#boucher">Boucher</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> Axley <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <hi rend="sup">3</hi> Suzan. <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <hi rend="sup">2</hi> 
+            <title ref="difdepo:titles.xml#romandesquatre">roman des quatre</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <unclear>*</unclear>
+         </p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103450/f32.highres"
+             n="7"/>
+         <p>OULIPO 20 12 90</p>
+         <list type="unordered">
+            <item>
+               <del>Limoges</del> CIDRE documents <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>Florence (<unclear>**</unclear>)</item>
+         </list>
+         <list type="unordered">
+            <item>Berlin (invitation)</item>
+         </list>
+         <list type="unordered">
+            <item>Phynances : chèque annonce <persName ref="difdepo:persons.xml#queval">Queval</persName>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : projet allemand</item>
+         </list>
+      </body>
   </text>
 </TEI>

@@ -1,50 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010128-1971-07-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010128-1971-07-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010128 pp. 7 à 7 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010128-1971-07-cv</idno> <title>Convocation à <ref target="#t10010128-1971-07">une réunion Oulipo</ref>, envoyée le <date when="1971-07-17">17 juillet 1971</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-10-23">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010128 pp. 7 à 7 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 17 juillet 1971</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010128-1971-07-cv</idno> 
+               <title>Convocation à <ref target="#t10010128-1971-07">une réunion Oulipo</ref>, envoyée le <date when="1971-07-17">17 juillet 1971</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-10-23">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f7.highres" n="7"/>
-      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
-      <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
-      <p rend="incipit">le 17 Juillet 1971</p>
-      <p>Chers Brigadiers,</p>
-      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> se tiendra, chez le signataire de cette épistole, le VENDREDI 30 JUILLET 1971, de 11 heures à 15 heures.</p>
-      <p>Vous m’obligeriez en me répondant pour m’indiquer si vous viendrez ou non, ceci afin de permettre à la préposée aux agapes d’élaborer une stratégie gastronomique appropriée aux vacances des fournisseurs.</p>
-      <p>Voulez-vous m’indiquer si vous désirez intervenir dans l’ordre du jour et sous quelle rubrique : <lb/>- Création, Érudition, Action, Administration, Pollution, Menus Propos, etc…</p>
-      <p>La réunion suivante est fixée au Jeudi 26 août, mêmes heures, même lieu.</p>
-      <p>OULIPOétiquement vôtre.</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
-      <p>À compléter, découper, et retourner à F. Le Lionnais, 23 route de la Reine 92 - BOULOGNE</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f7.highres" n="7"/>
+         <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
+         <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
+         <p rend="incipit">le 17 Juillet 1971</p>
+         <p>Chers Brigadiers,</p>
+         <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> se tiendra, chez le signataire de cette épistole, le VENDREDI 30 JUILLET 1971, de 11 heures à 15 heures.</p>
+         <p>Vous m’obligeriez en me répondant pour m’indiquer si vous viendrez ou non, ceci afin de permettre à la préposée aux agapes d’élaborer une stratégie gastronomique appropriée aux vacances des fournisseurs.</p>
+         <p>Voulez-vous m’indiquer si vous désirez intervenir dans l’ordre du jour et sous quelle rubrique : <lb/>- Création, Érudition, Action, Administration, Pollution, Menus Propos, etc…</p>
+         <p>La réunion suivante est fixée au Jeudi 26 août, mêmes heures, même lieu.</p>
+         <p>OULIPOétiquement vôtre.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
+         </p>
+         <p>À compléter, découper, et retourner à F. Le Lionnais, 23 route de la Reine 92 - BOULOGNE</p>
+      </body>
   </text>
 </TEI>

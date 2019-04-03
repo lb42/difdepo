@@ -1,77 +1,171 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010340-1990-07-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010340-1990-07-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010340 pp. 4 à 4 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010340-1990-07-oj</idno> <title>Ordre de jour de <ref target="#t10010340-1990-07">la réunion Oulipo</ref> du <date when="1990-07-03">3 juillet 1990</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:44:40Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010340 pp. 4 à 4 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 3 juillet 1990</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010340-1990-07-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010340-1990-07">la réunion Oulipo</ref> du <date when="1990-07-03">3 juillet 1990</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:44:40Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010340r/f4.highres" n="4"/>
-      <p rend="incipit">Réunion du 30790 chez <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName></p>
-      <p rend="incipit">En présence de <persName ref="difdepo:persons.xml#martinegrelle">Martine Grelle</persName> &amp; <persName ref="difdepo:persons.xml#valentinfournel">Valentin Fournel</persName></p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>.</p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>.</p>
-      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>. <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>. <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>.</p>
-      <p><label type="rubrique">Création :</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Récrite élémentaire sur écran</item>
-        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>2 : Tentative de contrepet <term ref="difdepo:terms.xml#canadadry">Canada-dry</term></item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#homophonie">homophonie</term></item>
-        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : <orgName ref="difdepo:organizations.xml#pcf">PCF</orgName></item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#moraleselementaires">Morales élémentaires</term></item>
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <term ref="difdepo:terms.xml#n26ine">26ine</term></item>
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <term ref="difdepo:terms.xml#sonnet">Sonnet</term></item>
-      </list>
-      <p><label type="rubrique">Erudition :</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : CALIS dico des vers de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>.</item>
-        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Réforme de l’orthographe</item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Arrivée du <term ref="difdepo:terms.xml#palindrome">Palindrome</term>.</item>
-      </list>
-      <p><label type="rubrique">Action :</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Fureur</item>
-      </list>
-      <p><label type="rubrique">Menus propos :</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Seghers. Laffont</item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="difdepo:persons.xml#perec">Perec</persName>-action</item>
-      </list>
-      <p><label type="rubrique"><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  :</label></p>
-      <p><label type="rubrique">Menu :</label></p>
-      <p>Salade composée</p>
-      <p>Truite de mer sur son lit de aux légumes poivrons rouges &amp; tomates</p>
-      <p>Fromages</p>
-      <p>Tarte aux abricots</p>
-      <p>Vin rosé/rouge</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010340r/f4.highres" n="4"/>
+         <p rend="incipit">Réunion du 30790 chez <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">En présence de <persName ref="difdepo:persons.xml#martinegrelle">Martine Grelle</persName> &amp; <persName ref="difdepo:persons.xml#valentinfournel">Valentin Fournel</persName>
+         </p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>.</p>
+         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>.</p>
+         <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>.</p>
+         <p>
+            <label type="rubrique">Création :</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#jj">
+                  <abbr>JJ</abbr>
+               </persName> : Récrite élémentaire sur écran</item>
+            <item>
+               <persName ref="difdepo:persons.xml#jj">
+                  <abbr>JJ</abbr>
+               </persName>2 : Tentative de contrepet <term ref="difdepo:terms.xml#canadadry">Canada-dry</term>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> : <term ref="difdepo:terms.xml#homophonie">homophonie</term>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fc">
+                  <abbr>FC</abbr>
+               </persName> : <orgName ref="difdepo:organizations.xml#pcf">PCF</orgName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> : <term ref="difdepo:terms.xml#moraleselementaires">Morales élémentaires</term>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> : <term ref="difdepo:terms.xml#n26ine">26ine</term>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> : <term ref="difdepo:terms.xml#sonnet">Sonnet</term>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Erudition :</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> : CALIS dico des vers de <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#fc">
+                  <abbr>FC</abbr>
+               </persName> : Réforme de l’orthographe</item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> : Arrivée du <term ref="difdepo:terms.xml#palindrome">Palindrome</term>.</item>
+         </list>
+         <p>
+            <label type="rubrique">Action :</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#fc">
+                  <abbr>FC</abbr>
+               </persName> : Fureur</item>
+         </list>
+         <p>
+            <label type="rubrique">Menus propos :</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> : Seghers. Laffont</item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> : <persName ref="difdepo:persons.xml#perec">Perec</persName>-action</item>
+         </list>
+         <p>
+            <label type="rubrique">
+               <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  :</label>
+         </p>
+         <p>
+            <label type="rubrique">Menu :</label>
+         </p>
+         <p>Salade composée</p>
+         <p>Truite de mer sur son lit de aux légumes poivrons rouges &amp; tomates</p>
+         <p>Fromages</p>
+         <p>Tarte aux abricots</p>
+         <p>Vin rosé/rouge</p>
+      </body>
   </text>
 </TEI>

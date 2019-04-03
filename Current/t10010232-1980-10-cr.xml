@@ -1,100 +1,228 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010232-1980-10-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010232-1980-10-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010232 pp. 8 à 9 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010232-1980-10-cr</idno> <meeting xml:id="t10010232-1980-10">
-          <date when="1980-10-17">17 octobre 1980</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#francoislelionnais" role="président">François Le Lionnais</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:34:22Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010232 pp. 8 à 9 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 17 octobre 1980</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010232-1980-10-cr</idno> 
+               <meeting xml:id="t10010232-1980-10">
+                  <date when="1980-10-17">17 octobre 1980</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais" role="président">François Le Lionnais</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:34:22Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010232v/f8.highres" n="8"/>
-      <p rend="incipit">Le 17 – 10 – 80</p>
-      <p rend="incipit">Excusé : <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#jqueval">J. Queval</persName> :</p>
-      <list type="unordered">
-        <item><unclear>Moutons</unclear> :</item>
-        <item>Nouveau commerce : <title ref="difdepo:titles.xml#lesophiste">le Sophiste</title> republié avec citation de <persName ref="difdepo:persons.xml#queneau">Queneau</persName></item>
-        <item>Japon : des <term ref="difdepo:terms.xml#structuresdelapoesiejaponaise">structures de la poésie japonaise</term> sont oulipiennes</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> s’engage à faire son exposé sur l’Oulipo et le Japon.</p>
-      <p><persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> : le monde a été fait pour aboutir à un livre. <lb/><persName ref="difdepo:persons.xml#lescure">Lescure</persName> a compris le sens de cette phrase.</p>
-      <p>Le <term ref="difdepo:terms.xml#palindrome">palindrome</term> : the language is rooted in the elementary structure of the universe.</p>
-      <p><title ref="difdepo:titles.xml#wordways">Word Ways</title>.</p>
-      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. Qui a travaillé à partir du <title ref="difdepo:titles.xml#bottin">Bottin</title> ?</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Voir le travail de <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, « <title ref="difdepo:titles.xml#ubucocu">Ubu cocu</title> »</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : voir <persName ref="difdepo:persons.xml#quemada">Quemada</persName> qui a fait un <term ref="difdepo:terms.xml#fauxbottin">faux bottin</term> par <term ref="difdepo:terms.xml#ordinateur">ordinateur</term>.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. Relations entre un texte de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> et une musique faite par <persName ref="difdepo:persons.xml#debussy">Debussy</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : poème de <term ref="difdepo:terms.xml#poemedelongueurinfinie">poème de longueur infinie</term>.</p>
-      <p>Engendrer un poème sans répétition de séquences successives. Une tentative a été faite. <lb/>Sous-commission <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> ? <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. 10h 4 Déc.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. Pré-création : compto <term ref="difdepo:terms.xml#comptabilisationrythmiqueabstraitecra"><unclear>Comptabilisation</unclear> Rythmique abstraite CRA</term>.</p>
-      <p>Travail fait avec <persName ref="difdepo:persons.xml#pierrelusson">Pierre Lusson</persName>.</p>
-      <p>On se donne un <term ref="difdepo:terms.xml#modelerythmiqueabstrait">modèle rythmique abstrait</term> et on en fait des réalisations diverses (<term ref="difdepo:terms.xml#crapo">CRAPO</term>, poésie –<term ref="difdepo:terms.xml#cramu">CRAMU</term>, musique). <lb/>C’est une théorie qui englobe des centaines de cas particuliers. (<unclear>A…</unclear>)</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Présente <title ref="difdepo:titles.xml#bellemarquise">Belle Marquise</title>.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010232v/f9.highres" n="9"/>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Livre de … « <title ref="difdepo:titles.xml#lavilleestunechiquier">La ville est un échiquier</title> »</p>
-      <p>(…) entre les oulipiens pour écrire la suite (et fin) en respectant les mouvements des pièces.</p>
-      <p>On passe à table, on va bien manger, c’est bien, tout le monde est content.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> fait un récit de ses rapports avec la <orgName ref="difdepo:organizations.xml#dst">DST</orgName>. </p>
-      <p>Arrivée de <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : appel pour <name ref="difdepo:events.xml#avb" type="manif">AVB</name></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> fait un faux <persName ref="difdepo:persons.xml#berge">Berge</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Appel de texte pour <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <p>Téléphone à <persName ref="difdepo:persons.xml#erval">Erval</persName> le 20 Etre Ferme.</p>
-      <p><unclear>Pour</unclear> <unclear>P on</unclear> demander un délai pour 82.</p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : <persName ref="difdepo:persons.xml#ferdiere">Ferdière</persName> organiser une <name ref="difdepo:events.xml#expositionmallarme" type="manif">exposition <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></name>.</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : 7 nov. 80</p>
-      <p><term ref="difdepo:terms.xml#oulipopedago">Oulipo-pédago</term> :</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#balpe">Balpe</persName>.</item>
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> Téléphonera.</item>
-      </list>
-      <p>Débat autour de la notion d’<term ref="difdepo:terms.xml#oulipopedago">Oulipo-pédago</term>. <lb/><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> et <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> contre le principe d’un ouvrage pédagogique.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010232v/f8.highres" n="8"/>
+         <p rend="incipit">Le 17 – 10 – 80</p>
+         <p rend="incipit">Excusé : <persName ref="difdepo:persons.xml#jd">
+               <abbr>JD</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName> :</p>
+         <list type="unordered">
+            <item>
+               <unclear>Moutons</unclear> :</item>
+            <item>Nouveau commerce : <title ref="difdepo:titles.xml#lesophiste">le Sophiste</title> republié avec citation de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+            </item>
+            <item>Japon : des <term ref="difdepo:terms.xml#structuresdelapoesiejaponaise">structures de la poésie japonaise</term> sont oulipiennes</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> s’engage à faire son exposé sur l’Oulipo et le Japon.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> : le monde a été fait pour aboutir à un livre. <lb/>
+            <persName ref="difdepo:persons.xml#lescure">Lescure</persName> a compris le sens de cette phrase.</p>
+         <p>Le <term ref="difdepo:terms.xml#palindrome">palindrome</term> : the language is rooted in the elementary structure of the universe.</p>
+         <p>
+            <title ref="difdepo:titles.xml#wordways">Word Ways</title>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>. Qui a travaillé à partir du <title ref="difdepo:titles.xml#bottin">Bottin</title> ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. Voir le travail de <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>, « <title ref="difdepo:titles.xml#ubucocu">Ubu cocu</title> »</p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> : voir <persName ref="difdepo:persons.xml#quemada">Quemada</persName> qui a fait un <term ref="difdepo:terms.xml#fauxbottin">faux bottin</term> par <term ref="difdepo:terms.xml#ordinateur">ordinateur</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>. Relations entre un texte de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> et une musique faite par <persName ref="difdepo:persons.xml#debussy">Debussy</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> : poème de <term ref="difdepo:terms.xml#poemedelongueurinfinie">poème de longueur infinie</term>.</p>
+         <p>Engendrer un poème sans répétition de séquences successives. Une tentative a été faite. <lb/>Sous-commission <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> ? <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>. 10h 4 Déc.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>. Pré-création : compto <term ref="difdepo:terms.xml#comptabilisationrythmiqueabstraitecra">
+               <unclear>Comptabilisation</unclear> Rythmique abstraite CRA</term>.</p>
+         <p>Travail fait avec <persName ref="difdepo:persons.xml#pierrelusson">Pierre Lusson</persName>.</p>
+         <p>On se donne un <term ref="difdepo:terms.xml#modelerythmiqueabstrait">modèle rythmique abstrait</term> et on en fait des réalisations diverses (<term ref="difdepo:terms.xml#crapo">CRAPO</term>, poésie –<term ref="difdepo:terms.xml#cramu">CRAMU</term>, musique). <lb/>C’est une théorie qui englobe des centaines de cas particuliers. (<unclear>A…</unclear>)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>. Présente <title ref="difdepo:titles.xml#bellemarquise">Belle Marquise</title>.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010232v/f9.highres" n="9"/>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : Livre de … « <title ref="difdepo:titles.xml#lavilleestunechiquier">La ville est un échiquier</title> »</p>
+         <p>(…) entre les oulipiens pour écrire la suite (et fin) en respectant les mouvements des pièces.</p>
+         <p>On passe à table, on va bien manger, c’est bien, tout le monde est content.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> fait un récit de ses rapports avec la <orgName ref="difdepo:organizations.xml#dst">DST</orgName>. </p>
+         <p>Arrivée de <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : appel pour <name ref="difdepo:events.xml#avb" type="manif">AVB</name>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> fait un faux <persName ref="difdepo:persons.xml#berge">Berge</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : Appel de texte pour <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+         <p>Téléphone à <persName ref="difdepo:persons.xml#erval">Erval</persName> le 20 Etre Ferme.</p>
+         <p>
+            <unclear>Pour</unclear> 
+            <unclear>P on</unclear> demander un délai pour 82.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#ferdiere">Ferdière</persName> organiser une <name ref="difdepo:events.xml#expositionmallarme" type="manif">exposition <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>
+            </name>.</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : 7 nov. 80</p>
+         <p>
+            <term ref="difdepo:terms.xml#oulipopedago">Oulipo-pédago</term> :</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#balpe">Balpe</persName>.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> Téléphonera.</item>
+         </list>
+         <p>Débat autour de la notion d’<term ref="difdepo:terms.xml#oulipopedago">Oulipo-pédago</term>. <lb/>
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> contre le principe d’un ouvrage pédagogique.</p>
+      </body>
   </text>
 </TEI>

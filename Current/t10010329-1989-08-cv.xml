@@ -1,46 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010329-1989-08-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010329-1989-08-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010329 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010329-1989-08-cv</idno> <title>Convocation à <ref target="#t10010329-1989-08">une réunion Oulipo</ref>, envoyée le <date when="1989-08-02">2 août 1989</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:39:28Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010329 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 2 août 1989</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010329-1989-08-cv</idno> 
+               <title>Convocation à <ref target="#t10010329-1989-08">une réunion Oulipo</ref>, envoyée le <date when="1989-08-02">2 août 1989</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:39:28Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f1.highres" n="1"/>
-      <p>OULIPO</p>
-      <p>Paris, le 2 août 1989</p>
-      <p>Chers oulipiens,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le vendredi 18 août 1989 à 19 heures chez <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> et <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> (5 rue Simon Lefranc, 75004 – 40 29 96 45).</p>
-      <p>Merci de retourner la découpe ci-dessous.</p>
-      <p>Au 18, amitiés.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010329z/f1.highres" n="1"/>
+         <p>OULIPO</p>
+         <p>Paris, le 2 août 1989</p>
+         <p>Chers oulipiens,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le vendredi 18 août 1989 à 19 heures chez <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> et <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> (5 rue Simon Lefranc, 75004 – 40 29 96 45).</p>
+         <p>Merci de retourner la découpe ci-dessous.</p>
+         <p>Au 18, amitiés.</p>
+      </body>
   </text>
 </TEI>

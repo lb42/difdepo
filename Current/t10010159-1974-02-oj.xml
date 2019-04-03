@@ -1,53 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010159-1974-02-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010159-1974-02-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010159 pp. 5 à 5 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010159-1974-02-oj</idno> <title>Ordre de jour de <ref target="#t10010159-1974-02">la réunion Oulipo</ref> du <date when="1974-02-08">8 février 1974</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:25:51Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010159 pp. 5 à 5 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 8 février 1974</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010159-1974-02-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010159-1974-02">la réunion Oulipo</ref> du <date when="1974-02-08">8 février 1974</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:25:51Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010159f/f5.highres" n="5"/>
-      <p rend="incipit">OULIPO du 8/2/74</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> = pour le 8 Mars</p>
-      <list type="unordered">
-        <item>Préface l’<persName ref="difdepo:persons.xml#etiemble">Etiemble</persName> à <title ref="difdepo:titles.xml#gilblas">Gil Blas</title> (<orgName ref="difdepo:organizations.xml#folio">Folio</orgName>)</item>
-        <item><persName ref="difdepo:persons.xml#soulie">Soulié</persName> <title ref="difdepo:titles.xml#confessionsdudiable">Confessions du Diable</title></item>
-        <item><persName ref="difdepo:persons.xml#saintebeuve">Sainte-Beuve</persName> =</item>
-      </list>
-      <p>19/4/74</p>
-      <list type="unordered">
-        <item>Cuisine</item>
-        <item>Une recette alphabétique</item>
-        <item>Publication de <persName ref="difdepo:persons.xml#perec">Perec</persName> par <persName ref="difdepo:persons.xml#bens">Bens</persName></item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010159f/f5.highres" n="5"/>
+         <p rend="incipit">OULIPO du 8/2/74</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> = pour le 8 Mars</p>
+         <list type="unordered">
+            <item>Préface l’<persName ref="difdepo:persons.xml#etiemble">Etiemble</persName> à <title ref="difdepo:titles.xml#gilblas">Gil Blas</title> (<orgName ref="difdepo:organizations.xml#folio">Folio</orgName>)</item>
+            <item>
+               <persName ref="difdepo:persons.xml#soulie">Soulié</persName> 
+               <title ref="difdepo:titles.xml#confessionsdudiable">Confessions du Diable</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#saintebeuve">Sainte-Beuve</persName> =</item>
+         </list>
+         <p>19/4/74</p>
+         <list type="unordered">
+            <item>Cuisine</item>
+            <item>Une recette alphabétique</item>
+            <item>Publication de <persName ref="difdepo:persons.xml#perec">Perec</persName> par <persName ref="difdepo:persons.xml#bens">Bens</persName>
+            </item>
+         </list>
+      </body>
   </text>
 </TEI>

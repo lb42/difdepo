@@ -1,62 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010305-1987-05-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010305-1987-05-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010305 pp. 6 à 6 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010305-1987-05-oj</idno> <title>Ordre de jour de <ref target="#t10010305-1987-05">la réunion Oulipo</ref> du <date when="1987-05-22">22 mai 1987</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:43:30Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010305 pp. 6 à 6 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 22 mai 1987</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010305-1987-05-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010305-1987-05">la réunion Oulipo</ref> du <date when="1987-05-22">22 mai 1987</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:43:30Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010305b/f6.highres" n="6"/>
-      <p rend="incipit">Ordre du jour</p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#editueurs">Edi…tueurs</title></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : <term ref="difdepo:terms.xml#filigranes">Filigranes</term></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <title ref="difdepo:titles.xml#lebilboquet">Le Bilboquet</title></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#lenlevementdhortense">L’enlèvement d’Hortense</title></p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : <persName ref="difdepo:persons.xml#theophilegautier">Théophile Gautier</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Limousin</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="difdepo:persons.xml#deloy">Deloy</persName></p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Port Cros</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> :</p>
-      <list type="unordered">
-        <item>Seattle</item>
-        <item><persName ref="difdepo:persons.xml#perec">Perec</persName></item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#magazinelitteraire">Magazine Littéraire</title></p>
-      <p><label type="rubrique">Menus Propos</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Pour la Science</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : La Villette</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010305b/f6.highres" n="6"/>
+         <p rend="incipit">Ordre du jour</p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : <title ref="difdepo:titles.xml#editueurs">Edi…tueurs</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> : <term ref="difdepo:terms.xml#filigranes">Filigranes</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <title ref="difdepo:titles.xml#lebilboquet">Le Bilboquet</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : <title ref="difdepo:titles.xml#lenlevementdhortense">L’enlèvement d’Hortense</title>
+         </p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#theophilegautier">Théophile Gautier</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Limousin</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#deloy">Deloy</persName>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> : Port Cros</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> :</p>
+         <list type="unordered">
+            <item>Seattle</item>
+            <item>
+               <persName ref="difdepo:persons.xml#perec">Perec</persName>
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : <title ref="difdepo:titles.xml#magazinelitteraire">Magazine Littéraire</title>
+         </p>
+         <p>
+            <label type="rubrique">Menus Propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> : Pour la Science</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : La Villette</p>
+      </body>
   </text>
 </TEI>

@@ -1,66 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010176-1975-09-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010176-1975-09-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010176 pp. 4 à 4 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010176-1975-09-cr</idno> <meeting xml:id="t10010176-1975-09">
-          <date when="1975-09-23">23 septembre 1975</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:27:48Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010176 pp. 4 à 4 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 23 septembre 1975</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010176-1975-09-cr</idno> 
+               <meeting xml:id="t10010176-1975-09">
+                  <date when="1975-09-23">23 septembre 1975</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:27:48Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010176x/f4.highres" n="4"/>
-      <p rend="incipit"><name ref="difdepo:events.xml#europalia" type="manif">EUROPALIA</name> (séance de préparation)</p>
-      <p rend="incipit">170<hi rend="sup">e</hi> <name ref="difdepo:events.xml#seanceoulipo" type="manif">séance Oulipo</name> du 23-09-75</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></p>
-      <p>Organisation de la séance</p>
-      <p>+ <persName ref="difdepo:persons.xml#mathews">Mathews</persName> <unclear>serveur</unclear> du jour</p>
-      <p><name ref="difdepo:events.xml#conferencede" type="manif">conférence de</name> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p>photo prise dans le jardin.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010176x/f4.highres" n="4"/>
+         <p rend="incipit">
+            <name ref="difdepo:events.xml#europalia" type="manif">EUROPALIA</name> (séance de préparation)</p>
+         <p rend="incipit">170<hi rend="sup">e</hi> 
+            <name ref="difdepo:events.xml#seanceoulipo" type="manif">séance Oulipo</name> du 23-09-75</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#gp">
+               <abbr>GP</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#ic">
+               <abbr>IC</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jl">
+               <abbr>JL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jd">
+               <abbr>JD</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName>
+         </p>
+         <p>Organisation de la séance</p>
+         <p>+ <persName ref="difdepo:persons.xml#mathews">Mathews</persName> 
+            <unclear>serveur</unclear> du jour</p>
+         <p>
+            <name ref="difdepo:events.xml#conferencede" type="manif">conférence de</name> 
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p>photo prise dans le jardin.</p>
+      </body>
   </text>
 </TEI>

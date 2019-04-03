@@ -1,116 +1,181 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010015-1962-01-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010015-1962-01-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010015 pp. 1 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#jonathanbaillehache">Jonathan Baillehache</name>
-          <name ref="difdepo:team.xml#camillebloomfield">Camille Bloomfield</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010015-1962-01-cr</idno> <meeting xml:id="t10010015-1962-01">
-          <date when="1962-01-19">19 janvier 1962</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#bernardquemada" role="invité">Bernard Quemada</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:37:26Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010015 pp. 1 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 19 janvier 1962</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#jonathanbaillehache">Jonathan Baillehache</name>
+               <name ref="difdepo:team.xml#camillebloomfield">Camille Bloomfield</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010015-1962-01-cr</idno> 
+               <meeting xml:id="t10010015-1962-01">
+                  <date when="1962-01-19">19 janvier 1962</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#bernardquemada" role="invité">Bernard Quemada</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:37:26Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010015m/f1.highres" n="1"/>
-      <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
-      <p rend="incipit">Circulaire n°17</p>
-      <p rend="incipit">COMPTE-RENDU DE LA REUNION DU</p>
-      <p rend="incipit">19 janvier 1962</p>
-      <p rend="incipit">PRESENTS : <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> – <persName ref="difdepo:persons.xml#bens">Bens</persName> – <persName ref="difdepo:persons.xml#berge">Berge</persName> – <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> – <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> – <persName ref="difdepo:persons.xml#lescure">Lescure</persName> – <persName ref="difdepo:persons.xml#queneau">Queneau</persName> – <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName></p>
-      <p rend="incipit">EXCUSES : <persName ref="difdepo:persons.xml#latis">Latis</persName> – <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p rend="incipit">Invité: <persName ref="difdepo:persons.xml#mquemada">M. QUEMADA</persName>, du <orgName ref="difdepo:organizations.xml#centredetudesduvocabulairefrancais">Centre d’Études du Vocabulaire Français</orgName>, de Besançon.</p>
-      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName>.</p>
-      <p>Pour ouvrir joyeusement (mais non sans solennité) la séance, et afin d’honorer notre invité, <persName ref="difdepo:persons.xml#bens">Bens</persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> de l’<ref><title ref="difdepo:titles.xml#hymneoulipien">hymne OuLiPien</title></ref> qu’il a composé (<ref>voir annexe</ref>). La discussion est ouverte.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je trouve que ce refrain en CHA-CHA accorde une place excessive à nos associés britanniques.</p>
-      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Pourquoi n’avez-vous pas écrit seulement un <term ref="difdepo:terms.xml#dizain">dizain</term>, avec les seuls membres actifs ?</p>
-      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Primo, pour honorer nos collègues d’outre-mer et d’outre-monts ; secundo, parce qu’un <term ref="difdepo:terms.xml#hymne">hymne</term> doit avoir des couplets et un refrain, c’est le genre qui veut ça.</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Il n’est peut-être pas indispensable d’avoir « cha-cha » dans le refrain d’un cha-cha-cha.</p>
-      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Primo, c’est le genre qui veut ça (bis) ; secundo, s’il n’y a pas « cha-cha » dans le refrain, il n’y a plus de raison pour que cet hymne soit un cha-cha-cha.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Justement, ce n’est pas nécessaire. On n’a qu’à faire autre chose.</p>
-      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Z’avez qu’à vous y mettre.</p>
-      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Pas du tout, pas du tout : Celui-ci est excellent !</p>
-      <p>LE PRESIDENT : Je mets aux voix une proposition suivant laquelle chacun de nous écrira un <term ref="difdepo:terms.xml#hymne">hymne</term>.</p>
-      <p>(Résultats : 3 pour ; 4 contre ; 1 abstention.)</p>
-      <p>LE PRESIDENT : Je mets aux voix l’adoption de l’<term ref="difdepo:terms.xml#hymne">hymne</term> de <persName ref="difdepo:persons.xml#bens">Bens</persName>.</p>
-      <p>(Résultats : Adoption à l’unanimité moins une voix.)</p>
-      <p>On pose la question de la mise en musique.</p>
-      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Je fais des réserves préalables. Il faut que la musique soit chantable.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010015m/f2.highres" n="2"/>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Défilable !</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Pour la musique…</p>
-      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Un concours s’impose !</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : … on demandera à <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, ou à <persName ref="difdepo:persons.xml#barbaud">Barbaud</persName>, ou à <persName ref="difdepo:persons.xml#philippot">Philippot</persName>.</p>
-      <p>Dans un de ces trois buts, <persName ref="difdepo:persons.xml#berge">Berge</persName> met les paroles de l’hymne dans sa poche.</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Permettez-moi de vous faire remarquer, si ce n’est pas abuser de votre hospitalité, que le cha-cha-cha interdit les défilés, parce qu’on fait un pas en avant, un pas en arrière.</p>
-      <p><persName ref="difdepo:persons.xml#lepresident">LE PRESIDENT</persName> : Eh bien, nous ne défilerons pas ! Nous chanterons seulement. Dans les édifices religieux.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je vous signale qu’un inventaire des « <term ref="difdepo:terms.xml#motspleins">mots pleins</term> » d’<title ref="difdepo:titles.xml#alcools">Alcools</title> a été réalisé par <persName ref="difdepo:persons.xml#mguiraud">M. GUIRAUD</persName>. Je crois que tous les membres de L’OuLiPo devraient faire un recueil de <term ref="difdepo:terms.xml#vers">vers</term> avec cet inventaire.</p>
-      <p><persName ref="difdepo:persons.xml#berge">BERGE</persName> : Devra-t-on utiliser les mots le même nombre de fois qu’<persName ref="difdepo:persons.xml#apollinaire">Apollinaire</persName> ?</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Si la proportion est indiquée, oui !</p>
-      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Et si on ré-écrit <title ref="difdepo:titles.xml#alcools">Alcools</title> ?</p>
-      <p>TOUS : Oh.</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Si cela vous intéresse, je peux vous procurer cent cinquante autres textes dont l’<term ref="difdepo:terms.xml#inventaire">inventaire</term> a été fait par notre <orgName ref="difdepo:organizations.xml#centre">Centre</orgName>. Notamment : <title ref="difdepo:titles.xml#berenice">Bérénice</title>, <title ref="difdepo:titles.xml#titeetberenice">Tite et Bérénice</title>, <title ref="difdepo:titles.xml#calligrammes">Calligrammes</title>, etc…</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Pardonnez-moi si je vous interromps une seconde. C’est pour préciser que l’éditeur de l’inventaire d’<title ref="difdepo:titles.xml#alcools">Alcools</title> est <orgName ref="difdepo:organizations.xml#klincksieck">Klincksieck</orgName>, <orgName ref="difdepo:organizations.xml#librairiedesmeridiens">librairie des Méridiens</orgName>, Bd St-Germain.</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Je peux vous procurer également des recueils de <persName ref="difdepo:persons.xml#hugo">Hugo</persName>, <persName ref="difdepo:persons.xml#sceve">Scève</persName>, <persName ref="difdepo:persons.xml#ronsard">Ronsard</persName>, <persName ref="difdepo:persons.xml#garnier">Garnier</persName>, etc…</p>
-      <p><persName ref="difdepo:persons.xml#mquemada">M. QUEMADA</persName> lit alors quelques spécimens de <term ref="difdepo:terms.xml#repertoire">répertoire</term> établis par le <orgName ref="difdepo:organizations.xml#centredebesancon">Centre de Besançon</orgName>. Il en laisse quelques uns pour les archives de l’OuLiPo.</p>
-      <p><persName ref="difdepo:persons.xml#schmidt">SCHMIDT</persName> : Je crois que ce que nous venons d’entendre est très extraordinaire. Nos atteignons un des sommets de nos réunions.</p>
-      <p>Approbations générales. <persName ref="difdepo:persons.xml#mquemada">M. Quemada</persName> s’offre à nous offrir les répertoires qui pourraient nous intéresser.</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : En particulier, je serai très heureux d’offrir à l’OuLiPo les <term ref="difdepo:terms.xml#concordances">concordances</term> des <title ref="difdepo:titles.xml#fleursdumal">Fleurs du Mal</title>.</p>
-      <p>TOUS : Les quoi ?</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Nous appelons « <term ref="difdepo:terms.xml#concordances">concordances</term> » des répertoires de <term ref="difdepo:terms.xml#vers">vers</term> contenant le même mot.</p>
-      <p>LE PRESIDENT : A-t-on des questions à poser à <persName ref="difdepo:persons.xml#mquemada">M. Quemada</persName> ?</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010015m/f3.highres" n="3"/>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Moi j’en ai une à vous poser : quand tiendrez-vous une réunion de l’OuLiPo à Besançon ?</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Eh bien, nous allons y songer !</p>
-      <p><persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Je serais très heureux de vous faire visiter notre Centre. Et vous pourriez vous rendre compte de vous-mêmes des possibilités que nous pouvons vous offrir. De plus, je peux vous faire adresser régulièrement, si vous le désirez, le <title ref="difdepo:titles.xml#bulletinducentre">Bulletin du Centre</title>. Mais il n’est pas très, très drôle.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Mais nous sommes très sérieux !</p>
-      <p>(Graves approbations du chef)</p>
-      <p>On envisage la publication en volume des <title ref="difdepo:titles.xml#crdeloulipo">C.R. de l’OuLiPo</title>. Cette question sera mise à l’ordre du jour dans quelques mois.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Permettez-moi de vous signaler que je parle de l’OuLiPo dans un des entretiens que j’enregistre, en ce moment, pour la <orgName ref="difdepo:organizations.xml#rtf">RTF</orgName>, avec <persName ref="difdepo:persons.xml#charbonnier">Charbonnier</persName>. Ces entretiens seront diffusés tous les vendredis, vers 21 h 30, pendant l’entracte de l’émission lyrique, sur <orgName ref="difdepo:organizations.xml#franceiii">France III</orgName>. J’ai assez longtemps parlé du <title ref="difdepo:titles.xml#dossieroulipo">Dossier OuLiPo</title>.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’ai toujours mon petit travail sur la <term ref="difdepo:terms.xml#loidestoupzipf">loi d’Estoup-Zipf</term>. Je vous le présenterai la prochaine fois. C’est la recherche des textes qui échappent à la loi.</p>
-      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : J’ai trouvé dans <persName ref="difdepo:persons.xml#delillejacques">Delille (Jacques)</persName> le texte suivant : « De tous temps, les poètes-philosophes ont eu le droit d’emprunter aux sciences les matériaux qu’ils mettent en œuvre. » Remplacez matériaux par <term ref="difdepo:terms.xml#methodes">méthodes</term> et vous obtiendrez une assez bonne définition de l’<term ref="difdepo:terms.xml#oulipo">OuLiPo</term>.</p>
-      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je crois que ça se discute. Des index ne sont pas des méthodes, mais des matériaux. On peut prendre le mot <term ref="difdepo:terms.xml#materiaux">matériaux</term> dans un sens large.</p>
-      <p>LA PROCHAINE REUNION AURA LIEU</p>
-      <p>LE VENDREDI 16 FEVRIER 1962.</p>
-      <p>Le S.P.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010015m/f1.highres" n="1"/>
+         <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
+         <p rend="incipit">Circulaire n°17</p>
+         <p rend="incipit">COMPTE-RENDU DE LA REUNION DU</p>
+         <p rend="incipit">19 janvier 1962</p>
+         <p rend="incipit">PRESENTS : <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> – <persName ref="difdepo:persons.xml#bens">Bens</persName> – <persName ref="difdepo:persons.xml#berge">Berge</persName> – <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> – <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> – <persName ref="difdepo:persons.xml#lescure">Lescure</persName> – <persName ref="difdepo:persons.xml#queneau">Queneau</persName> – <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName>
+         </p>
+         <p rend="incipit">EXCUSES : <persName ref="difdepo:persons.xml#latis">Latis</persName> – <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p rend="incipit">Invité: <persName ref="difdepo:persons.xml#mquemada">M. QUEMADA</persName>, du <orgName ref="difdepo:organizations.xml#centredetudesduvocabulairefrancais">Centre d’Études du Vocabulaire Français</orgName>, de Besançon.</p>
+         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName>.</p>
+         <p>Pour ouvrir joyeusement (mais non sans solennité) la séance, et afin d’honorer notre invité, <persName ref="difdepo:persons.xml#bens">Bens</persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> de l’<ref>
+               <title ref="difdepo:titles.xml#hymneoulipien">hymne OuLiPien</title>
+            </ref> qu’il a composé (<ref>voir annexe</ref>). La discussion est ouverte.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je trouve que ce refrain en CHA-CHA accorde une place excessive à nos associés britanniques.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Pourquoi n’avez-vous pas écrit seulement un <term ref="difdepo:terms.xml#dizain">dizain</term>, avec les seuls membres actifs ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Primo, pour honorer nos collègues d’outre-mer et d’outre-monts ; secundo, parce qu’un <term ref="difdepo:terms.xml#hymne">hymne</term> doit avoir des couplets et un refrain, c’est le genre qui veut ça.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Il n’est peut-être pas indispensable d’avoir « cha-cha » dans le refrain d’un cha-cha-cha.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Primo, c’est le genre qui veut ça (bis) ; secundo, s’il n’y a pas « cha-cha » dans le refrain, il n’y a plus de raison pour que cet hymne soit un cha-cha-cha.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Justement, ce n’est pas nécessaire. On n’a qu’à faire autre chose.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Z’avez qu’à vous y mettre.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Pas du tout, pas du tout : Celui-ci est excellent !</p>
+         <p>LE PRESIDENT : Je mets aux voix une proposition suivant laquelle chacun de nous écrira un <term ref="difdepo:terms.xml#hymne">hymne</term>.</p>
+         <p>(Résultats : 3 pour ; 4 contre ; 1 abstention.)</p>
+         <p>LE PRESIDENT : Je mets aux voix l’adoption de l’<term ref="difdepo:terms.xml#hymne">hymne</term> de <persName ref="difdepo:persons.xml#bens">Bens</persName>.</p>
+         <p>(Résultats : Adoption à l’unanimité moins une voix.)</p>
+         <p>On pose la question de la mise en musique.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Je fais des réserves préalables. Il faut que la musique soit chantable.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010015m/f2.highres" n="2"/>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Défilable !</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Pour la musique…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Un concours s’impose !</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : … on demandera à <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, ou à <persName ref="difdepo:persons.xml#barbaud">Barbaud</persName>, ou à <persName ref="difdepo:persons.xml#philippot">Philippot</persName>.</p>
+         <p>Dans un de ces trois buts, <persName ref="difdepo:persons.xml#berge">Berge</persName> met les paroles de l’hymne dans sa poche.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Permettez-moi de vous faire remarquer, si ce n’est pas abuser de votre hospitalité, que le cha-cha-cha interdit les défilés, parce qu’on fait un pas en avant, un pas en arrière.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lepresident">LE PRESIDENT</persName> : Eh bien, nous ne défilerons pas ! Nous chanterons seulement. Dans les édifices religieux.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je vous signale qu’un inventaire des « <term ref="difdepo:terms.xml#motspleins">mots pleins</term> » d’<title ref="difdepo:titles.xml#alcools">Alcools</title> a été réalisé par <persName ref="difdepo:persons.xml#mguiraud">M. GUIRAUD</persName>. Je crois que tous les membres de L’OuLiPo devraient faire un recueil de <term ref="difdepo:terms.xml#vers">vers</term> avec cet inventaire.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#berge">BERGE</persName> : Devra-t-on utiliser les mots le même nombre de fois qu’<persName ref="difdepo:persons.xml#apollinaire">Apollinaire</persName> ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Si la proportion est indiquée, oui !</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Et si on ré-écrit <title ref="difdepo:titles.xml#alcools">Alcools</title> ?</p>
+         <p>TOUS : Oh.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Si cela vous intéresse, je peux vous procurer cent cinquante autres textes dont l’<term ref="difdepo:terms.xml#inventaire">inventaire</term> a été fait par notre <orgName ref="difdepo:organizations.xml#centre">Centre</orgName>. Notamment : <title ref="difdepo:titles.xml#berenice">Bérénice</title>, <title ref="difdepo:titles.xml#titeetberenice">Tite et Bérénice</title>, <title ref="difdepo:titles.xml#calligrammes">Calligrammes</title>, etc…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Pardonnez-moi si je vous interromps une seconde. C’est pour préciser que l’éditeur de l’inventaire d’<title ref="difdepo:titles.xml#alcools">Alcools</title> est <orgName ref="difdepo:organizations.xml#klincksieck">Klincksieck</orgName>, <orgName ref="difdepo:organizations.xml#librairiedesmeridiens">librairie des Méridiens</orgName>, Bd St-Germain.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Je peux vous procurer également des recueils de <persName ref="difdepo:persons.xml#hugo">Hugo</persName>, <persName ref="difdepo:persons.xml#sceve">Scève</persName>, <persName ref="difdepo:persons.xml#ronsard">Ronsard</persName>, <persName ref="difdepo:persons.xml#garnier">Garnier</persName>, etc…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mquemada">M. QUEMADA</persName> lit alors quelques spécimens de <term ref="difdepo:terms.xml#repertoire">répertoire</term> établis par le <orgName ref="difdepo:organizations.xml#centredebesancon">Centre de Besançon</orgName>. Il en laisse quelques uns pour les archives de l’OuLiPo.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#schmidt">SCHMIDT</persName> : Je crois que ce que nous venons d’entendre est très extraordinaire. Nos atteignons un des sommets de nos réunions.</p>
+         <p>Approbations générales. <persName ref="difdepo:persons.xml#mquemada">M. Quemada</persName> s’offre à nous offrir les répertoires qui pourraient nous intéresser.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : En particulier, je serai très heureux d’offrir à l’OuLiPo les <term ref="difdepo:terms.xml#concordances">concordances</term> des <title ref="difdepo:titles.xml#fleursdumal">Fleurs du Mal</title>.</p>
+         <p>TOUS : Les quoi ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Nous appelons « <term ref="difdepo:terms.xml#concordances">concordances</term> » des répertoires de <term ref="difdepo:terms.xml#vers">vers</term> contenant le même mot.</p>
+         <p>LE PRESIDENT : A-t-on des questions à poser à <persName ref="difdepo:persons.xml#mquemada">M. Quemada</persName> ?</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010015m/f3.highres" n="3"/>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Moi j’en ai une à vous poser : quand tiendrez-vous une réunion de l’OuLiPo à Besançon ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Eh bien, nous allons y songer !</p>
+         <p>
+            <persName ref="difdepo:persons.xml#quemada">QUEMADA</persName> : Je serais très heureux de vous faire visiter notre Centre. Et vous pourriez vous rendre compte de vous-mêmes des possibilités que nous pouvons vous offrir. De plus, je peux vous faire adresser régulièrement, si vous le désirez, le <title ref="difdepo:titles.xml#bulletinducentre">Bulletin du Centre</title>. Mais il n’est pas très, très drôle.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Mais nous sommes très sérieux !</p>
+         <p>(Graves approbations du chef)</p>
+         <p>On envisage la publication en volume des <title ref="difdepo:titles.xml#crdeloulipo">C.R. de l’OuLiPo</title>. Cette question sera mise à l’ordre du jour dans quelques mois.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Permettez-moi de vous signaler que je parle de l’OuLiPo dans un des entretiens que j’enregistre, en ce moment, pour la <orgName ref="difdepo:organizations.xml#rtf">RTF</orgName>, avec <persName ref="difdepo:persons.xml#charbonnier">Charbonnier</persName>. Ces entretiens seront diffusés tous les vendredis, vers 21 h 30, pendant l’entracte de l’émission lyrique, sur <orgName ref="difdepo:organizations.xml#franceiii">France III</orgName>. J’ai assez longtemps parlé du <title ref="difdepo:titles.xml#dossieroulipo">Dossier OuLiPo</title>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’ai toujours mon petit travail sur la <term ref="difdepo:terms.xml#loidestoupzipf">loi d’Estoup-Zipf</term>. Je vous le présenterai la prochaine fois. C’est la recherche des textes qui échappent à la loi.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : J’ai trouvé dans <persName ref="difdepo:persons.xml#delillejacques">Delille (Jacques)</persName> le texte suivant : « De tous temps, les poètes-philosophes ont eu le droit d’emprunter aux sciences les matériaux qu’ils mettent en œuvre. » Remplacez matériaux par <term ref="difdepo:terms.xml#methodes">méthodes</term> et vous obtiendrez une assez bonne définition de l’<term ref="difdepo:terms.xml#oulipo">OuLiPo</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je crois que ça se discute. Des index ne sont pas des méthodes, mais des matériaux. On peut prendre le mot <term ref="difdepo:terms.xml#materiaux">matériaux</term> dans un sens large.</p>
+         <p>LA PROCHAINE REUNION AURA LIEU</p>
+         <p>LE VENDREDI 16 FEVRIER 1962.</p>
+         <p>Le S.P.</p>
+      </body>
   </text>
 </TEI>

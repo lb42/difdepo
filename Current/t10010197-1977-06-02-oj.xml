@@ -1,53 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-02-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-02-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010197 pp. 13 à 13 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010197-1977-06-02-oj</idno> <title>Ordre de jour de <ref target="#t10010197-1977-06-02">la réunion Oulipo</ref> de <date when="1977-06-02">2 juin 1977</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:30:58Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010197 pp. 13 à 13 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 2 juin 1977</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010197-1977-06-02-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010197-1977-06-02">la réunion Oulipo</ref> de <date when="1977-06-02">2 juin 1977</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:30:58Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f13.highres" n="13"/>
-      <p rend="incipit">2/6/77</p>
-      <p rend="incipit">Oui : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName></p>
-      <p rend="incipit">Non : <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Un peu : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <del><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></del></p>
-      <p><name ref="difdepo:events.xml#villeneuveexpo" type="manif">Villeneuve Expo</name></p>
-      <p>9-21 Juillet.</p>
-      <p>Voir <persName ref="difdepo:persons.xml#burgelin">Burgelin</persName> </p>
-      <p>Pour le moment :</p>
-      <list type="unordered">
-        <item><orgName ref="difdepo:organizations.xml#associationdesprofesseursdefrancaisdulycee">Association des Professeurs de Français du Lycée</orgName></item>
-        <item>hommage à <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>.</item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f13.highres"
+             n="13"/>
+         <p rend="incipit">2/6/77</p>
+         <p rend="incipit">Oui : <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#ic">
+               <abbr>IC</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Non : <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Un peu : <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> 
+            <del>
+               <persName ref="difdepo:persons.xml#cb">
+                  <abbr>CB</abbr>
+               </persName>
+            </del>
+         </p>
+         <p>
+            <name ref="difdepo:events.xml#villeneuveexpo" type="manif">Villeneuve Expo</name>
+         </p>
+         <p>9-21 Juillet.</p>
+         <p>Voir <persName ref="difdepo:persons.xml#burgelin">Burgelin</persName> </p>
+         <p>Pour le moment :</p>
+         <list type="unordered">
+            <item>
+               <orgName ref="difdepo:organizations.xml#associationdesprofesseursdefrancaisdulycee">Association des Professeurs de Français du Lycée</orgName>
+            </item>
+            <item>hommage à <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>.</item>
+         </list>
+      </body>
   </text>
 </TEI>

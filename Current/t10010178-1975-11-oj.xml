@@ -1,116 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010178-1975-11-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010178-1975-11-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010178 pp. 8 à 9 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010178-1975-11-oj</idno> <title>Ordre de jour de <ref target="#t10010178-1975-11">la réunion Oulipo</ref> de <date when="1975-11-21">21 novembre 1975</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:28:16Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010178 pp. 8 à 9 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 21 novembre 1975</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010178-1975-11-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010178-1975-11">la réunion Oulipo</ref> de <date when="1975-11-21">21 novembre 1975</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:28:16Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f8.highres" n="8"/>
-      <p rend="incipit">Ordre du jour 21 11 75 172</p>
-      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> :</p>
-      <list type="unordered">
-        <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
-        <item>8 exemplaires vendus</item>
-        <item><orgName ref="difdepo:organizations.xml#leminotaure">le Minotaure</orgName> est prêt à en acheter</item>
-        <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> – achevé son travail sur <persName ref="difdepo:persons.xml#hilbert">Hilbert</persName>_</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#perec">Perec</persName></p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : mise au point ci-jointe</p>
-      <p>Programme 76 : 4 titres – 2 sont prêts</p>
-      <p><persName ref="difdepo:persons.xml#benabou">Bénabou</persName> – <persName ref="difdepo:persons.xml#perec">Perec</persName> se chargent des finances.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> 2 menus propos.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> problèmes de <name ref="difdepo:events.xml#lectureoulipo" type="manif">lecture Oulipo</name> pour le <orgName ref="difdepo:organizations.xml#centrepompidou">Centre Pompidou</orgName></p>
-      <p><ref>voir pièce jointe</ref></p>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : mise au point sur l’ordinateur</p>
-      <list type="unordered">
-        <item>2 consoles dont le programme reste à définir</item>
-        <item>Si <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> doit devenir un vrai centre, il faut y créer un atelier de création</item>
-      </list>
-      <p>avec équipement adéquat. Ce que <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> promet ; grande joie de l’assistance _ le responsable est <persName ref="difdepo:persons.xml#cavadia">Cavadia</persName></p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> le <orgName ref="difdepo:organizations.xml#centrecultureldumarais">centre culturel du Marais</orgName> prête ses locaux au <orgName ref="difdepo:organizations.xml#centrepompidou">Centre Pompidou</orgName>.</p>
-      <p>C’est là qu’aura lieu la <name ref="difdepo:events.xml#manifestationoulipo" type="manif">manifestation Oulipo</name> = 26 rue des Francs Bourgeois.</p>
-      <p>Expo.</p>
-      <p>2 séances = dates à choisir</p>
-      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> et <persName ref="difdepo:persons.xml#fournel">Fournel</persName> doivent prendre contact avec <persName ref="difdepo:persons.xml#blaisegauthier">Blaise Gauthier</persName> pour savoir comment les séances vont se dérouler.</p>
-      <p><persName ref="difdepo:persons.xml#pfournel">P Fournel</persName> : problème de l’<term ref="difdepo:terms.xml#arbreatheatre">Arbre à Théâtre</term></p>
-      <p><persName ref="difdepo:persons.xml#metail">Métail</persName> : choix des textes au téléphone</p>
-      <p><persName ref="difdepo:persons.xml#mathews">Mathews</persName> : décrit la salle : « un terrain de basket qui aurait été trempé dans une lessive rétrécissante » « fosse aux ours » -</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f9.highres" n="9"/>
-      <p>Exposition : sécurité des objets exposés.</p>
-      <list type="unordered">
-        <item>livres liste des livres à exposer</item>
-      </list>
-      <p>Y a-t-il vente de livres</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#melegiraudy">Mele Giraudy</persName> est prête à s’occuper d’exercices oulipiens à faire faire par des enfants.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#hmathews">H Mathews</persName> quel sera le format de la soirée ?</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <list type="unordered">
-        <item>on peut prendre entre 0 et 100% d’<name ref="difdepo:events.xml#europalia" type="manif">Europalia</name></item>
-        <item>il faudrait garder une partie historique.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#metail">Métail</persName> propose 4 demi-séances</p>
-      <list type="unordered">
-        <item>En même temps que l’expo Oulipo<list type="unordered">
-          <item>organisation d’une <name ref="difdepo:events.xml#expoqueneau" type="manif">expo <persName ref="difdepo:persons.xml#queneau">Queneau</persName></name></item>
-          <item>organisation d’une <name ref="difdepo:events.xml#expositiontemporaire" type="manif">exposition temporaire</name> <title ref="difdepo:titles.xml#tempsmeles">Temps Mêlés</title> avec <persName ref="difdepo:persons.xml#blavier">Blavier</persName></item>
-          </list> </item>
-      </list>
-      <list type="unordered">
-        <item>Distribution de photos (dans le désordre)</item>
-        <item>Protestation de <persName ref="difdepo:persons.xml#fournel">Fournel</persName> = des photos n’ont pas été développées.</item>
-        <item>Protestation de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : les photos commandées ne sont pas toutes arrivées il en manque</item>
-      </list>
-      <p>Réunion générale le 10 décembre</p>
-      <list type="unordered">
-        <item>Date des séances : 15-21 Janvier à <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName></item>
-        <item>Discussion sur le contenu des séances</item>
-      </list>
-      <p>Pas de théorie sans exemple</p>
-      <p>Pas d’exemple sans théorie et ce, dans chacune des séances</p>
-      <list type="unordered">
-        <item>Exemple : <title ref="difdepo:titles.xml#tabledequeneleieff">Table de Queneleieff</title>. commentées</item>
-      </list>
-      <p><label type="rubrique">Menus propos –</label></p>
-      <list type="unordered">
-        <item>« <title ref="difdepo:titles.xml#chatenpoche">Chat en poche</title> » commenté par <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-      </list>
-      <p><label type="rubrique">Création</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <term ref="difdepo:terms.xml#axiomatique">axiomatique</term> de la littérature.</item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f8.highres" n="8"/>
+         <p rend="incipit">Ordre du jour 21 11 75 172</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> :</p>
+         <list type="unordered">
+            <item>
+               <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+            </item>
+            <item>8 exemplaires vendus</item>
+            <item>
+               <orgName ref="difdepo:organizations.xml#leminotaure">le Minotaure</orgName> est prêt à en acheter</item>
+            <item>
+               <persName ref="difdepo:persons.xml#queneau">Queneau</persName> – achevé son travail sur <persName ref="difdepo:persons.xml#hilbert">Hilbert</persName>_</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#perec">Perec</persName>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : mise au point ci-jointe</p>
+         <p>Programme 76 : 4 titres – 2 sont prêts</p>
+         <p>
+            <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> – <persName ref="difdepo:persons.xml#perec">Perec</persName> se chargent des finances.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> 2 menus propos.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> problèmes de <name ref="difdepo:events.xml#lectureoulipo" type="manif">lecture Oulipo</name> pour le <orgName ref="difdepo:organizations.xml#centrepompidou">Centre Pompidou</orgName>
+         </p>
+         <p>
+            <ref>voir pièce jointe</ref>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : mise au point sur l’ordinateur</p>
+         <list type="unordered">
+            <item>2 consoles dont le programme reste à définir</item>
+            <item>Si <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> doit devenir un vrai centre, il faut y créer un atelier de création</item>
+         </list>
+         <p>avec équipement adéquat. Ce que <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName> promet ; grande joie de l’assistance _ le responsable est <persName ref="difdepo:persons.xml#cavadia">Cavadia</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> le <orgName ref="difdepo:organizations.xml#centrecultureldumarais">centre culturel du Marais</orgName> prête ses locaux au <orgName ref="difdepo:organizations.xml#centrepompidou">Centre Pompidou</orgName>.</p>
+         <p>C’est là qu’aura lieu la <name ref="difdepo:events.xml#manifestationoulipo" type="manif">manifestation Oulipo</name> = 26 rue des Francs Bourgeois.</p>
+         <p>Expo.</p>
+         <p>2 séances = dates à choisir</p>
+         <p>
+            <persName ref="difdepo:persons.xml#perec">Perec</persName> et <persName ref="difdepo:persons.xml#fournel">Fournel</persName> doivent prendre contact avec <persName ref="difdepo:persons.xml#blaisegauthier">Blaise Gauthier</persName> pour savoir comment les séances vont se dérouler.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pfournel">P Fournel</persName> : problème de l’<term ref="difdepo:terms.xml#arbreatheatre">Arbre à Théâtre</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#metail">Métail</persName> : choix des textes au téléphone</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mathews">Mathews</persName> : décrit la salle : « un terrain de basket qui aurait été trempé dans une lessive rétrécissante » « fosse aux ours » -</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010178t/f9.highres" n="9"/>
+         <p>Exposition : sécurité des objets exposés.</p>
+         <list type="unordered">
+            <item>livres liste des livres à exposer</item>
+         </list>
+         <p>Y a-t-il vente de livres</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#melegiraudy">Mele Giraudy</persName> est prête à s’occuper d’exercices oulipiens à faire faire par des enfants.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#hmathews">H Mathews</persName> quel sera le format de la soirée ?</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <list type="unordered">
+            <item>on peut prendre entre 0 et 100% d’<name ref="difdepo:events.xml#europalia" type="manif">Europalia</name>
+            </item>
+            <item>il faudrait garder une partie historique.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#metail">Métail</persName> propose 4 demi-séances</p>
+         <list type="unordered">
+            <item>En même temps que l’expo Oulipo<list type="unordered">
+                  <item>organisation d’une <name ref="difdepo:events.xml#expoqueneau" type="manif">expo <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+                     </name>
+                  </item>
+                  <item>organisation d’une <name ref="difdepo:events.xml#expositiontemporaire" type="manif">exposition temporaire</name> 
+                     <title ref="difdepo:titles.xml#tempsmeles">Temps Mêlés</title> avec <persName ref="difdepo:persons.xml#blavier">Blavier</persName>
+                  </item>
+               </list> 
+            </item>
+         </list>
+         <list type="unordered">
+            <item>Distribution de photos (dans le désordre)</item>
+            <item>Protestation de <persName ref="difdepo:persons.xml#fournel">Fournel</persName> = des photos n’ont pas été développées.</item>
+            <item>Protestation de <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> : les photos commandées ne sont pas toutes arrivées il en manque</item>
+         </list>
+         <p>Réunion générale le 10 décembre</p>
+         <list type="unordered">
+            <item>Date des séances : 15-21 Janvier à <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName>
+            </item>
+            <item>Discussion sur le contenu des séances</item>
+         </list>
+         <p>Pas de théorie sans exemple</p>
+         <p>Pas d’exemple sans théorie et ce, dans chacune des séances</p>
+         <list type="unordered">
+            <item>Exemple : <title ref="difdepo:titles.xml#tabledequeneleieff">Table de Queneleieff</title>. commentées</item>
+         </list>
+         <p>
+            <label type="rubrique">Menus propos –</label>
+         </p>
+         <list type="unordered">
+            <item>« <title ref="difdepo:titles.xml#chatenpoche">Chat en poche</title> » commenté par <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <term ref="difdepo:terms.xml#axiomatique">axiomatique</term> de la littérature.</item>
+         </list>
+      </body>
   </text>
 </TEI>

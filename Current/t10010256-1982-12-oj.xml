@@ -1,72 +1,149 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010256-1982-12-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010256-1982-12-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010256 pp. 5 à 5 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010256-1982-12-oj</idno> <title>Ordre de jour de <ref target="#t10010256-1982-12">la réunion Oulipo</ref> du <date when="1982-12-17">17 décembre 1982</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-08-29">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010256 pp. 5 à 5 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 17 décembre 1982</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010256-1982-12-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010256-1982-12">la réunion Oulipo</ref> du <date when="1982-12-17">17 décembre 1982</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-08-29">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010256g/f5.highres" n="5"/>
-      <p rend="incipit">Oulipo du vendredi 17 décembre 1982</p>
-      <p><label type="rubrique">1. Accueil</label> des participants et de l'invitée d'honneur par le Président-Fondateur.</p>
-      <p>Excusés: <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchâteau</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>.</p>
-      <p>Excusés: <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>, <persName ref="difdepo:persons.xml#icalvino">I. Calvino</persName></p>
-      <p><label type="rubrique">2.Election d'un Président et d'un Secrétaire de Séance.</label></p>
-      <p>Remise aux impétrants des insignes de leurs fonctions.</p>
-      <p>Intermède: exercice kinésithérapeutique du <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName></p>
-      <p>Présentation de l'ordonnatrice des agapes, <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName></p>
-      <p><label type="rubrique">3. Création :</label></p>
-      <p>Hommage à <persName ref="difdepo:persons.xml#georgesperec">Georges Perec.</persName> <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>: mots-croisés-valises.</p>
-      <p><label type="rubrique">4. Erudition :</label></p>
-      <p>Fous littéraires (Blavier). <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Devinette</p>
-      <p>Numéro spécial <persName ref="difdepo:persons.xml#queneau">Queneau</persName> - Europe. <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>: <persName ref="difdepo:persons.xml#bersich">Bersich</persName> <unclear>dipograme de calailette</unclear> <persName ref="difdepo:persons.xml#sanantonio">San Antonio</persName> et <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
-      <p><label type="rubrique">5. Administration</label> (<persName ref="difdepo:persons.xml#pfeiffer">Pfeiffer</persName> = <term ref="difdepo:terms.xml#palindromes">Palindromes</term>)</p>
-      <p>Publications.</p>
-      <p>Phynances.</p>
-      <p><label type="rubrique">6. Action urbi et orbi.</label></p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> finances, projets, works in progress (<persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>+<persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>). <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>: Toulouse Albi</p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> Questions à <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> sur son manuscrit. <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>: <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName></p>
-      <p><name ref="difdepo:events.xml#stages" type="manif">stages</name> à La Haye. <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>: Projet PLANT</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>: Association <persName ref="difdepo:persons.xml#perec">Perec</persName></p>
-      <p><label type="rubrique">7. Menus propos.</label></p>
-      <p>Nouvelles de l'Ou-x-po. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>: Bibliothèque <unclear>roman poss</unclear></p>
-      <p>Grèce (<persName ref="difdepo:persons.xml#christinephili">Christine Phili</persName>). <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>: <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et <persName ref="difdepo:persons.xml#saussure">Saussure</persName></p>
-      <p>Expo Domninique. <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>: Info <persName ref="difdepo:persons.xml#macorlan">Mac Orlan</persName></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>: <persName ref="difdepo:persons.xml#johncage">John Cage</persName> et l'oulipo</p>
-      <p><label type="rubrique">8. L'avenir.</label></p>
-      <p>a) Prochaines séances. 21 février</p>
-      <p>Invités d'honneur et parrains.</p>
-      <p><label type="rubrique">9. Ecot - Photos.</label> <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName>.</p>
-      <p><label type="rubrique">10. Départ</label>. 14h. 15.</p>
-      <p>Invitée d'honneur:</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010256g/f5.highres" n="5"/>
+         <p rend="incipit">Oulipo du vendredi 17 décembre 1982</p>
+         <p>
+            <label type="rubrique">1. Accueil</label> des participants et de l'invitée d'honneur par le Président-Fondateur.</p>
+         <p>Excusés: <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchâteau</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>.</p>
+         <p>Excusés: <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>, <persName ref="difdepo:persons.xml#icalvino">I. Calvino</persName>
+         </p>
+         <p>
+            <label type="rubrique">2.Election d'un Président et d'un Secrétaire de Séance.</label>
+         </p>
+         <p>Remise aux impétrants des insignes de leurs fonctions.</p>
+         <p>Intermède: exercice kinésithérapeutique du <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName>
+         </p>
+         <p>Présentation de l'ordonnatrice des agapes, <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName>
+         </p>
+         <p>
+            <label type="rubrique">3. Création :</label>
+         </p>
+         <p>Hommage à <persName ref="difdepo:persons.xml#georgesperec">Georges Perec.</persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>: mots-croisés-valises.</p>
+         <p>
+            <label type="rubrique">4. Erudition :</label>
+         </p>
+         <p>Fous littéraires (Blavier). <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : Devinette</p>
+         <p>Numéro spécial <persName ref="difdepo:persons.xml#queneau">Queneau</persName> - Europe. <persName ref="difdepo:persons.xml#le">
+               <abbr>LE</abbr>
+            </persName>: <persName ref="difdepo:persons.xml#bersich">Bersich</persName> 
+            <unclear>dipograme de calailette</unclear> 
+            <persName ref="difdepo:persons.xml#sanantonio">San Antonio</persName> et <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
+         <p>
+            <label type="rubrique">5. Administration</label> (<persName ref="difdepo:persons.xml#pfeiffer">Pfeiffer</persName> = <term ref="difdepo:terms.xml#palindromes">Palindromes</term>)</p>
+         <p>Publications.</p>
+         <p>Phynances.</p>
+         <p>
+            <label type="rubrique">6. Action urbi et orbi.</label>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> finances, projets, works in progress (<persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>+<persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>). <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>: Toulouse Albi</p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> Questions à <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> sur son manuscrit. <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>: <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>
+         </p>
+         <p>
+            <name ref="difdepo:events.xml#stages" type="manif">stages</name> à La Haye. <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>: Projet PLANT</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>: Association <persName ref="difdepo:persons.xml#perec">Perec</persName>
+         </p>
+         <p>
+            <label type="rubrique">7. Menus propos.</label>
+         </p>
+         <p>Nouvelles de l'Ou-x-po. <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>: Bibliothèque <unclear>roman poss</unclear>
+         </p>
+         <p>Grèce (<persName ref="difdepo:persons.xml#christinephili">Christine Phili</persName>). <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>: <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et <persName ref="difdepo:persons.xml#saussure">Saussure</persName>
+         </p>
+         <p>Expo Domninique. <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>: Info <persName ref="difdepo:persons.xml#macorlan">Mac Orlan</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>: <persName ref="difdepo:persons.xml#johncage">John Cage</persName> et l'oulipo</p>
+         <p>
+            <label type="rubrique">8. L'avenir.</label>
+         </p>
+         <p>a) Prochaines séances. 21 février</p>
+         <p>Invités d'honneur et parrains.</p>
+         <p>
+            <label type="rubrique">9. Ecot - Photos.</label> 
+            <persName ref="difdepo:persons.xml#marieadele">Marie-Adèle</persName>.</p>
+         <p>
+            <label type="rubrique">10. Départ</label>. 14h. 15.</p>
+         <p>Invitée d'honneur:</p>
+      </body>
   </text>
 </TEI>

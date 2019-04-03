@@ -1,52 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010154-1973-09-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010154-1973-09-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010154 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010154-1973-09-cv</idno> <title>Convocation à <ref target="#t10010154-1973-09">une réunion Oulipo</ref>, envoyée le <date when="1973-09-12">12 septembre 1973</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:24:56Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010154 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 12 septembre 1973</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010154-1973-09-cv</idno> 
+               <title>Convocation à <ref target="#t10010154-1973-09">une réunion Oulipo</ref>, envoyée le <date when="1973-09-12">12 septembre 1973</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:24:56Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101546/f1.highres" n="1"/>
-      <p rend="incipit">Le 12 Septembre 1973,</p>
-      <p rend="incipit">Chers Brigadiers,</p>
-      <p>A notre dernière réunion nous avions convenu de deux dates que j’ai été obligé de changer avec, l’accord de <persName ref="difdepo:persons.xml#raymondqueneau">Raymond QUENEAU</persName>. Nos deux prochaines réunions ont été fixées respectivement aux :</p>
-      <p>LUNDI 8 OCTOBRE et VENDREDI 16 NOVEMBRE, 1973.</p>
-      <p>Comme à l’accoutumée nos ordres du jour seront chargés, tant sur le plan de la Création (<term ref="difdepo:terms.xml#tautogrammes">Tautogrammes</term> de <persName ref="difdepo:persons.xml#perec">PEREC</persName>) et <term ref="difdepo:terms.xml#maxigrammes">Maxigrammes</term> de <persName ref="difdepo:persons.xml#jcherz">J.C. HERZ</persName> ; premiers pas de l’Oulipopo ; etc.), de l’accueil de la Critique et de l’Action (Projet de film <persName ref="difdepo:persons.xml#stanleychapman">Stanley CHAPMAN</persName> ; Brain-Storming ; Phynances etc.) que de l’Administration (Cambriolage de <persName ref="difdepo:persons.xml#fll"><abbr>F.LL.</abbr></persName> et de l’Oulipo !!; prochains invités d’honneur ; etc.). Je ne connais pas le nom de nos Invités d’honneur au moment où je dicte cette épistole.</p>
-      <p>Oulipiennement votre,</p>
-      <p>Pour les deux Secrétaires ‑ Généraux toujours tristement défaillants,</p>
-      <p>le Président ‑ Fondateur de corvée,</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
-      <p>P.S. Je pense que vous avez tous appris la mort de notre cher <persName ref="difdepo:persons.xml#latis">LATIS</persName>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101546/f1.highres" n="1"/>
+         <p rend="incipit">Le 12 Septembre 1973,</p>
+         <p rend="incipit">Chers Brigadiers,</p>
+         <p>A notre dernière réunion nous avions convenu de deux dates que j’ai été obligé de changer avec, l’accord de <persName ref="difdepo:persons.xml#raymondqueneau">Raymond QUENEAU</persName>. Nos deux prochaines réunions ont été fixées respectivement aux :</p>
+         <p>LUNDI 8 OCTOBRE et VENDREDI 16 NOVEMBRE, 1973.</p>
+         <p>Comme à l’accoutumée nos ordres du jour seront chargés, tant sur le plan de la Création (<term ref="difdepo:terms.xml#tautogrammes">Tautogrammes</term> de <persName ref="difdepo:persons.xml#perec">PEREC</persName>) et <term ref="difdepo:terms.xml#maxigrammes">Maxigrammes</term> de <persName ref="difdepo:persons.xml#jcherz">J.C. HERZ</persName> ; premiers pas de l’Oulipopo ; etc.), de l’accueil de la Critique et de l’Action (Projet de film <persName ref="difdepo:persons.xml#stanleychapman">Stanley CHAPMAN</persName> ; Brain-Storming ; Phynances etc.) que de l’Administration (Cambriolage de <persName ref="difdepo:persons.xml#fll">
+               <abbr>F.LL.</abbr>
+            </persName> et de l’Oulipo !!; prochains invités d’honneur ; etc.). Je ne connais pas le nom de nos Invités d’honneur au moment où je dicte cette épistole.</p>
+         <p>Oulipiennement votre,</p>
+         <p>Pour les deux Secrétaires ‑ Généraux toujours tristement défaillants,</p>
+         <p>le Président ‑ Fondateur de corvée,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
+         </p>
+         <p>P.S. Je pense que vous avez tous appris la mort de notre cher <persName ref="difdepo:persons.xml#latis">LATIS</persName>.</p>
+      </body>
   </text>
 </TEI>

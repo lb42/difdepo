@@ -1,88 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010277-1984-12-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010277-1984-12-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010277 pp. 1 à 2 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010277-1984-12-cr</idno> <meeting xml:id="t10010277-1984-12">
-          <date when="1984-12-14">14 décembre 1984</date>
-          <placeName>Chez Jacques Jouet</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews" role="président">Harry Mathews</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:37:04Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010277 pp. 1 à 2 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 14 décembre 1984</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010277-1984-12-cr</idno> 
+               <meeting xml:id="t10010277-1984-12">
+                  <date when="1984-12-14">14 décembre 1984</date>
+                  <placeName>Chez Jacques Jouet</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews" role="président">Harry Mathews</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:37:04Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010277r/f1.highres" n="1"/>
-      <p rend="incipit">OuLiPo – Réunion du vendredi 14 décembre 1984, à midi.</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> qui reçoit avec <persName ref="difdepo:persons.xml#françoisesanchez">Françoise Sanchez</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName>. (<persName ref="difdepo:persons.xml#hm"><abbr>H.M.</abbr></persName> préside la séance).</p>
-      <p rend="incipit">Excuses de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>. Lecture par <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> de la lettre – émouvante, admirée – que <persName ref="difdepo:persons.xml#le"><abbr>L.E.</abbr></persName> lui a écrite quelques jours avant sa mort. <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> ne souhaite pas qu’un hommage oulipien lui soit rendu. Faut-il obtempérer ? <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> est d’un avis contraire.</p>
-      <p><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> : « Ne mourez plus ! »</p>
-      <p>Le problème des hommages aux morts est reposé. On s’oriente plutôt vers des « <title ref="difdepo:titles.xml#melanges">mélanges</title> » dédiés à tel ou tel disparu qu’à des hommages compassés (ceux que, naguère, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName> qualifiait de « scolaires »).</p>
-      <p>Publier la lettre de <persName ref="difdepo:persons.xml#le"><abbr>L.E. ?</abbr></persName> Déjà, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> en transmettra copie à tous avec la prochaine convocation.</p>
-      <p>Par écrit, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> s’inquiète de ce qu’on met derrière l’expression « <title ref="difdepo:titles.xml#atelierdecriture">Atelier d’écriture</title> ».</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> est expressément mandaté pour prévenir <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> de son élection et pour l’inviter à la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
-      <p><label type="rubrique">Créations :</label></p>
-      <p><persName ref="difdepo:persons.xml#fc">François Caradec</persName>, Le <term ref="difdepo:terms.xml#palindromeaumiroir">palindrome au miroir</term>, théorie et pratique du <term ref="difdepo:terms.xml#palindrome">palindrome</term> constitué de mots eux-mêmes constitués de <term ref="difdepo:terms.xml#lettressymetriques">lettres symétriques</term> (ex. AM O …). Ecrivez UT, placez le miroir au bout du mot, vous lisez TU dans le miroir. <persName ref="difdepo:persons.xml#fc"><abbr>F.C.</abbr></persName> fait circuler un petit livre-objet qui montre ça.</p>
-      <p><persName ref="difdepo:persons.xml#fc">François Caradec</persName> toujours propose une variante d’<term ref="difdepo:terms.xml#s7">S+7</term> avec le bottin. Vous cherchez <persName ref="difdepo:persons.xml#queval">Queval</persName>, comptez jusqu’à 7 et téléphonez au 7è.</p>
-      <p><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> suggère que l’on s’intéresse aux « <term ref="difdepo:terms.xml#enoncesautodestructeurs">énoncés autodestructeurs</term> » ex : ignorer son ignorance…</p>
-      <p><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, La force du <term ref="difdepo:terms.xml#monostique">monostique</term>, essai de soumettre cette forme à certains principes (au nombre de quatre). On pourrait alors classer les <term ref="difdepo:terms.xml#monostiques">monostiques</term> selon leur force. J.J. a écrit un <term ref="difdepo:terms.xml#monostique">monostique</term> de force 4 (satisfaisant à quatre principes).</p>
-      <p><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> propose d’écrire des textes dont les mots, deux à deux à la suite sont homoconsonnantiques, l’un étant, p.ex. un <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> en e, l’autre un <term ref="difdepo:terms.xml#monovocalisme">monovocalisme</term> en e : ravi rêve…</p>
-      <p><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> veut adapter ça à l’alexandrin : un hémistiche « <title ref="difdepo:titles.xml#revenente">revenente</title> », un autre « <title ref="difdepo:titles.xml#disparition">disparition</title> ».</p>
-      <p>Débat et propositions diverses sur le <term ref="difdepo:terms.xml#monostique">monostique</term> (<persName ref="difdepo:persons.xml#mathews">Mathews</persName>)</p>
-      <p><label type="rubrique">Erudition :</label></p>
-      <p><persName ref="difdepo:persons.xml#fc">François Caradec</persName> a lu ce qui est dit de l’Oulipo dans le <title ref="difdepo:titles.xml#ducheneetleguay">Duchêne et Leguay</title>. Il est mandaté pour écrire une lettre d’insultes aux auteurs</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010277r/f2.highres" n="2"/>
-      <p><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> (seul vrai érudit de la rubrique pour aujourd’hui) lit le texte de <persName ref="difdepo:persons.xml#voiture">Voiture</persName> promis lors de la précédente réunion. Chacun est épaté. Et ce n’est pas au bout de sa joie, puisque <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName> a apporté le Zohar (<persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> ne connaît pas, contrairement à <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> qui, lui, chante du Zohar au matin). Chacun y va de son calembour joyeux avant d’écouter de très beaux extraits (plaintes des lettres qui ne commencent pas le Livre). Félicitations solennelles à <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>.</p>
-      <p>(La lettre B est promue par <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> au rang d’initiale obligée de tous les noms d’oulipiens et d’alamiens pour une fois réunis.)</p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <p>Hommage à <persName ref="difdepo:persons.xml#fll"><abbr>FBB</abbr></persName>. <persName ref="difdepo:persons.xml#fc">François Caradec</persName> a écrit un texte qui fait le point sur le <title ref="difdepo:titles.xml#n3esecteur">3è secteur</title>. Il propose qu’on réédite le texte introuvable de <persName ref="difdepo:persons.xml#fll"><abbr>FBB</abbr></persName> paru dans les <title ref="difdepo:titles.xml#lettresnouvelles">Lettres nouvelles</title>. (Ceci n’entre pas dans la liste établie à Andé.)</p>
-      <p><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> se réserve les numéros 19 et 20 de la liste susdite, qu’il traitera ensemble. <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> a écrit « La rituelle découpe » en proposant d’en modifier légèrement la formulation.</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> a vu <persName ref="difdepo:persons.xml#alainroger">Alain Roger</persName> qui est d’accord pour reprendre la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Les délais seront sans doute plus longs. Il va se faire la main sur un Bueval (qui peut le plus, peut le moins).</p>
-      <p><label type="rubrique">Actions</label>,</p>
-      <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> fait l’éloge du livre de <persName ref="difdepo:persons.xml#fc">François Caradec</persName> consacré à <persName ref="difdepo:persons.xml#willy">Willy</persName> (tout frais sorti).</p>
-      <p><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> veut nous emmener à Pouilly-en-Auxois. On verra.</p>
-      <p><name ref="difdepo:events.xml#stageayerres" type="manif">Stage à Yerres</name>, les 1, 2, 3 février 85 : <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#jj">Jouet</persName>.</p>
-      <p>Enquête sur <persName ref="difdepo:persons.xml#perec">Perec</persName> et l’Oulipo émanant de <persName ref="difdepo:persons.xml#jesuscamareiros">Jesus Camareiros</persName>. Les questions laissent chacun perplexe.</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> le Vendredi 18 janvier, 19h, chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>.</p>
-      <p>Il y eut carottes râpées, pintade aux navets, salade, fromages, fruits, café. Graves 1976.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010277r/f1.highres" n="1"/>
+         <p rend="incipit">OuLiPo – Réunion du vendredi 14 décembre 1984, à midi.</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> qui reçoit avec <persName ref="difdepo:persons.xml#françoisesanchez">Françoise Sanchez</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName>. (<persName ref="difdepo:persons.xml#hm">
+               <abbr>H.M.</abbr>
+            </persName> préside la séance).</p>
+         <p rend="incipit">Excuses de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>. Lecture par <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> de la lettre – émouvante, admirée – que <persName ref="difdepo:persons.xml#le">
+               <abbr>L.E.</abbr>
+            </persName> lui a écrite quelques jours avant sa mort. <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> ne souhaite pas qu’un hommage oulipien lui soit rendu. Faut-il obtempérer ? <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> est d’un avis contraire.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> : « Ne mourez plus ! »</p>
+         <p>Le problème des hommages aux morts est reposé. On s’oriente plutôt vers des « <title ref="difdepo:titles.xml#melanges">mélanges</title> » dédiés à tel ou tel disparu qu’à des hommages compassés (ceux que, naguère, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName> qualifiait de « scolaires »).</p>
+         <p>Publier la lettre de <persName ref="difdepo:persons.xml#le">
+               <abbr>L.E. ?</abbr>
+            </persName> Déjà, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> en transmettra copie à tous avec la prochaine convocation.</p>
+         <p>Par écrit, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> s’inquiète de ce qu’on met derrière l’expression « <title ref="difdepo:titles.xml#atelierdecriture">Atelier d’écriture</title> ».</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> est expressément mandaté pour prévenir <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> de son élection et pour l’inviter à la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
+         <p>
+            <label type="rubrique">Créations :</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, Le <term ref="difdepo:terms.xml#palindromeaumiroir">palindrome au miroir</term>, théorie et pratique du <term ref="difdepo:terms.xml#palindrome">palindrome</term> constitué de mots eux-mêmes constitués de <term ref="difdepo:terms.xml#lettressymetriques">lettres symétriques</term> (ex. AM O …). Ecrivez UT, placez le miroir au bout du mot, vous lisez TU dans le miroir. <persName ref="difdepo:persons.xml#fc">
+               <abbr>F.C.</abbr>
+            </persName> fait circuler un petit livre-objet qui montre ça.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">François Caradec</persName> toujours propose une variante d’<term ref="difdepo:terms.xml#s7">S+7</term> avec le bottin. Vous cherchez <persName ref="difdepo:persons.xml#queval">Queval</persName>, comptez jusqu’à 7 et téléphonez au 7è.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> suggère que l’on s’intéresse aux « <term ref="difdepo:terms.xml#enoncesautodestructeurs">énoncés autodestructeurs</term> » ex : ignorer son ignorance…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, La force du <term ref="difdepo:terms.xml#monostique">monostique</term>, essai de soumettre cette forme à certains principes (au nombre de quatre). On pourrait alors classer les <term ref="difdepo:terms.xml#monostiques">monostiques</term> selon leur force. J.J. a écrit un <term ref="difdepo:terms.xml#monostique">monostique</term> de force 4 (satisfaisant à quatre principes).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> propose d’écrire des textes dont les mots, deux à deux à la suite sont homoconsonnantiques, l’un étant, p.ex. un <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> en e, l’autre un <term ref="difdepo:terms.xml#monovocalisme">monovocalisme</term> en e : ravi rêve…</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> veut adapter ça à l’alexandrin : un hémistiche « <title ref="difdepo:titles.xml#revenente">revenente</title> », un autre « <title ref="difdepo:titles.xml#disparition">disparition</title> ».</p>
+         <p>Débat et propositions diverses sur le <term ref="difdepo:terms.xml#monostique">monostique</term> (<persName ref="difdepo:persons.xml#mathews">Mathews</persName>)</p>
+         <p>
+            <label type="rubrique">Erudition :</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">François Caradec</persName> a lu ce qui est dit de l’Oulipo dans le <title ref="difdepo:titles.xml#ducheneetleguay">Duchêne et Leguay</title>. Il est mandaté pour écrire une lettre d’insultes aux auteurs</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010277r/f2.highres" n="2"/>
+         <p>
+            <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> (seul vrai érudit de la rubrique pour aujourd’hui) lit le texte de <persName ref="difdepo:persons.xml#voiture">Voiture</persName> promis lors de la précédente réunion. Chacun est épaté. Et ce n’est pas au bout de sa joie, puisque <persName ref="difdepo:persons.xml#marcel">
+               <abbr>Marcel</abbr>
+            </persName> a apporté le Zohar (<persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> ne connaît pas, contrairement à <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> qui, lui, chante du Zohar au matin). Chacun y va de son calembour joyeux avant d’écouter de très beaux extraits (plaintes des lettres qui ne commencent pas le Livre). Félicitations solennelles à <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>.</p>
+         <p>(La lettre B est promue par <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> au rang d’initiale obligée de tous les noms d’oulipiens et d’alamiens pour une fois réunis.)</p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+         <p>Hommage à <persName ref="difdepo:persons.xml#fll">
+               <abbr>FBB</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#fc">François Caradec</persName> a écrit un texte qui fait le point sur le <title ref="difdepo:titles.xml#n3esecteur">3è secteur</title>. Il propose qu’on réédite le texte introuvable de <persName ref="difdepo:persons.xml#fll">
+               <abbr>FBB</abbr>
+            </persName> paru dans les <title ref="difdepo:titles.xml#lettresnouvelles">Lettres nouvelles</title>. (Ceci n’entre pas dans la liste établie à Andé.)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> se réserve les numéros 19 et 20 de la liste susdite, qu’il traitera ensemble. <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> a écrit « La rituelle découpe » en proposant d’en modifier légèrement la formulation.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> a vu <persName ref="difdepo:persons.xml#alainroger">Alain Roger</persName> qui est d’accord pour reprendre la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. Les délais seront sans doute plus longs. Il va se faire la main sur un Bueval (qui peut le plus, peut le moins).</p>
+         <p>
+            <label type="rubrique">Actions</label>,</p>
+         <p>
+            <label type="rubrique">Menus propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> fait l’éloge du livre de <persName ref="difdepo:persons.xml#fc">François Caradec</persName> consacré à <persName ref="difdepo:persons.xml#willy">Willy</persName> (tout frais sorti).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> veut nous emmener à Pouilly-en-Auxois. On verra.</p>
+         <p>
+            <name ref="difdepo:events.xml#stageayerres" type="manif">Stage à Yerres</name>, les 1, 2, 3 février 85 : <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#jj">Jouet</persName>.</p>
+         <p>Enquête sur <persName ref="difdepo:persons.xml#perec">Perec</persName> et l’Oulipo émanant de <persName ref="difdepo:persons.xml#jesuscamareiros">Jesus Camareiros</persName>. Les questions laissent chacun perplexe.</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> le Vendredi 18 janvier, 19h, chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>.</p>
+         <p>Il y eut carottes râpées, pintade aux navets, salade, fromages, fruits, café. Graves 1976.</p>
+      </body>
   </text>
 </TEI>

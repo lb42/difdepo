@@ -1,88 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010002-1960-12-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010002-1960-12-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010002 pp. 1 à 2 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010002-1960-12-cr</idno> <meeting xml:id="t10010002-1960-12">
-          <date when="1960-12-22">22 décembre 1960</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesbens" role="secrétaire">Jacques Bens</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:32:55Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010002 pp. 1 à 2 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 22 décembre 1960</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010002-1960-12-cr</idno> 
+               <meeting xml:id="t10010002-1960-12">
+                  <date when="1960-12-22">22 décembre 1960</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesbens" role="secrétaire">Jacques Bens</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:32:55Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010002v/f1.highres" n="1"/>
-      <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
-      <p rend="incipit">(O, Li, Po. ) Circulaire n. 2</p>
-      <p rend="incipit">22 décembre 1960</p>
-      <p rend="incipit">COMPTE-RENDU SUCCINT (ET APPROXIMATIF)</p>
-      <p rend="incipit">DE LA REUNION DU LUNDI 19 DECEMBRE 1960</p>
-      <p rend="incipit">Étaient présents : Noël ARNAUD, Jacques BENS, Claude BERGE, Jacques DUCHATEAU, François LE LIONNAIS, Jean LESCURE, Raymond QUENEAU, Albert-Marie SCHMIDT.</p>
-      <p rend="incipit">Était excusé (avec réserves) : Jean QUEVAL.</p>
-      <p>Cette réunion s’est avérée très fructueuse. Plusieurs points essentiels ont été abordés, certains résolus ; décisions furent prises, suggestions enregistrées. Que voici.</p>
-      <p><label type="rubrique">A. DENOMINATIONS :</label></p>
-      <p>L’expression “SEMINAIRE DE LITTERATURE EXPERIMENTALE” ayant été contestée, pour l’un ou l’autre de ses termes, par quelques membres du groupe, d’autres termes furent proposés. Un vote régulier conduisit à la dénomination définitive (jusqu’à nouvel ordre) suivant :</p>
-      <p>OUVROIR DE LITTÉRATURE POTENTIELLE (OLiPo)</p>
-      <p><label type="rubrique">B. RELATIONS AVEC <orgName ref="difdepo:organizations.xml#lecollegedepataphysique">LE COLLEGE DE PATAPHYSIQUE</orgName>.</label></p>
-      <p>La présence de <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName>, Régent de <orgName ref="difdepo:organizations.xml#pataphysique">Pataphysique</orgName> Générale et de Clinique de Rhétoriconose, Covice-Rogateur, Conférent Majeur O. G. G., a donné à notre un caractère particulièrement intéressant, et nous a permis de régler la situation de l’OLiPo dans le sein du Collège. Cette situation est la suivante :</p>
-      <p>L’OLiPo est intégré à la Sous-Commission des Epiphanies et Ithyphanies, elle-même incluse dans la Commission des Imprévisibles, dont l’un des trois Présidents est le Trt S. <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>.</p>
-      <p>Au titre de la Sous-Commission, l’OLiPo pourra posséder des dataires (chargés des relations administratives ; les deux dataires provisoirement proposées sont <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> et <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>) ; elle pourra également créer des chaires, auxquelles des régents seront attachés. Ces créations feront l’objet d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, dès que les différents travaux commenceront à se dégager des brumes de l’ante-potentialité.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010002v/f2.highres" n="2"/>
-      <p><label type="rubrique">C. HISTOIRE DES LITTERATURES EXPERIMENTALES.</label></p>
-      <p>Parmi les travaux de l’OLiPo, un des premiers envisagés (avant même la fondation de notre groupe) est une sorte d’<title ref="difdepo:titles.xml#histoiredeslitteraturesexperimentales">Histoire des Littératures Expérimentales</title>. Pour le moment, il s’agit seulement de réunir des sources d’informations. Chaque membre est donc invité, dans la mesure de ses possibilités, à proposer des documents. <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> a déjà entrepris une série de conférences sur ce thème. Le texte de ces conférences doit être bientôt publié. Il va de soi que, dès sa publication, ce texte constituera le dossier n. 1 des archives de l’H. L. E.</p>
-      <p>Un des premiers problèmes prosés concerne la définition de ce que nous voulons entendre par Littérature Experimentales. Que chacun apporte, à la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, le fruit de ses réflexions.</p>
-      <p><label type="rubrique">D. PROCHAINE REUNION.</label></p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu le vendredi 13 janvier 1961.</p>
-      <p>Président : <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques DUCHATEAU</persName>.</p>
-      <p><label type="rubrique">Ordre du jour (à revoir) :</label></p>
-      <list type="unordered">
-        <item>congratulations et vœux de bonne année ;</item>
-        <item>recherches de critères pour un essai de définition des Littératures Expérimentales ;</item>
-        <item>propositions de travaux.</item>
-      </list>
-      <p><label type="rubrique">E. DIVERS.</label></p>
-      <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> propose d’inviter <persName ref="difdepo:persons.xml#francoisrostand">François Rostand</persName> à se joindre à nous. Cette invitation sera effectuée par le Canal du Secrétariat actuel, future Daterie.</item>
-        <item>A la suite de la réunion, quelques membres de l’OLiPo se sont rendus à <name ref="difdepo:events.xml#lexpositiondubuffet" type="manif">l’exposition Dubuffet</name>, au Pavillon de Marsan. Ils ont été surpris de constater le nombre singulier de de portraits de <persName ref="difdepo:persons.xml#jeanpaulhan">Jean Paulhan</persName> exposés sur les murs. L’un d’entre eux a même fait remarquer que les portraits les plus ressemblants NE SONT PAS ceux de <persName ref="difdepo:persons.xml#jeanpaulhan">Jean Paulhan</persName>, mais ceux de <persName ref="difdepo:persons.xml#fautrier">Fautrier</persName>, de <persName ref="difdepo:persons.xml#michaux">Michaux</persName> et de divers inconnus. Cette façon d’équivoque ne leur à pas permis de trancher si <persName ref="difdepo:persons.xml#jeanpaulhan">Jean Paulhan</persName> existe ou non.</item>
-        <item>Il est vivement conseillé au membres de l’OLiPo de s’abstenir, à l’avenir, et au cours des réunions, de commander des maquereaux au vin blanc.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jacquesbens">Jacques BENS</persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010002v/f1.highres" n="1"/>
+         <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
+         <p rend="incipit">(O, Li, Po. ) Circulaire n. 2</p>
+         <p rend="incipit">22 décembre 1960</p>
+         <p rend="incipit">COMPTE-RENDU SUCCINT (ET APPROXIMATIF)</p>
+         <p rend="incipit">DE LA REUNION DU LUNDI 19 DECEMBRE 1960</p>
+         <p rend="incipit">Étaient présents : Noël ARNAUD, Jacques BENS, Claude BERGE, Jacques DUCHATEAU, François LE LIONNAIS, Jean LESCURE, Raymond QUENEAU, Albert-Marie SCHMIDT.</p>
+         <p rend="incipit">Était excusé (avec réserves) : Jean QUEVAL.</p>
+         <p>Cette réunion s’est avérée très fructueuse. Plusieurs points essentiels ont été abordés, certains résolus ; décisions furent prises, suggestions enregistrées. Que voici.</p>
+         <p>
+            <label type="rubrique">A. DENOMINATIONS :</label>
+         </p>
+         <p>L’expression “SEMINAIRE DE LITTERATURE EXPERIMENTALE” ayant été contestée, pour l’un ou l’autre de ses termes, par quelques membres du groupe, d’autres termes furent proposés. Un vote régulier conduisit à la dénomination définitive (jusqu’à nouvel ordre) suivant :</p>
+         <p>OUVROIR DE LITTÉRATURE POTENTIELLE (OLiPo)</p>
+         <p>
+            <label type="rubrique">B. RELATIONS AVEC <orgName ref="difdepo:organizations.xml#lecollegedepataphysique">LE COLLEGE DE PATAPHYSIQUE</orgName>.</label>
+         </p>
+         <p>La présence de <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName>, Régent de <orgName ref="difdepo:organizations.xml#pataphysique">Pataphysique</orgName> Générale et de Clinique de Rhétoriconose, Covice-Rogateur, Conférent Majeur O. G. G., a donné à notre un caractère particulièrement intéressant, et nous a permis de régler la situation de l’OLiPo dans le sein du Collège. Cette situation est la suivante :</p>
+         <p>L’OLiPo est intégré à la Sous-Commission des Epiphanies et Ithyphanies, elle-même incluse dans la Commission des Imprévisibles, dont l’un des trois Présidents est le Trt S. <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>.</p>
+         <p>Au titre de la Sous-Commission, l’OLiPo pourra posséder des dataires (chargés des relations administratives ; les deux dataires provisoirement proposées sont <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> et <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>) ; elle pourra également créer des chaires, auxquelles des régents seront attachés. Ces créations feront l’objet d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, dès que les différents travaux commenceront à se dégager des brumes de l’ante-potentialité.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010002v/f2.highres" n="2"/>
+         <p>
+            <label type="rubrique">C. HISTOIRE DES LITTERATURES EXPERIMENTALES.</label>
+         </p>
+         <p>Parmi les travaux de l’OLiPo, un des premiers envisagés (avant même la fondation de notre groupe) est une sorte d’<title ref="difdepo:titles.xml#histoiredeslitteraturesexperimentales">Histoire des Littératures Expérimentales</title>. Pour le moment, il s’agit seulement de réunir des sources d’informations. Chaque membre est donc invité, dans la mesure de ses possibilités, à proposer des documents. <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> a déjà entrepris une série de conférences sur ce thème. Le texte de ces conférences doit être bientôt publié. Il va de soi que, dès sa publication, ce texte constituera le dossier n. 1 des archives de l’H. L. E.</p>
+         <p>Un des premiers problèmes prosés concerne la définition de ce que nous voulons entendre par Littérature Experimentales. Que chacun apporte, à la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>, le fruit de ses réflexions.</p>
+         <p>
+            <label type="rubrique">D. PROCHAINE REUNION.</label>
+         </p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu le vendredi 13 janvier 1961.</p>
+         <p>Président : <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques DUCHATEAU</persName>.</p>
+         <p>
+            <label type="rubrique">Ordre du jour (à revoir) :</label>
+         </p>
+         <list type="unordered">
+            <item>congratulations et vœux de bonne année ;</item>
+            <item>recherches de critères pour un essai de définition des Littératures Expérimentales ;</item>
+            <item>propositions de travaux.</item>
+         </list>
+         <p>
+            <label type="rubrique">E. DIVERS.</label>
+         </p>
+         <list type="ordered">
+            <item>
+               <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> propose d’inviter <persName ref="difdepo:persons.xml#francoisrostand">François Rostand</persName> à se joindre à nous. Cette invitation sera effectuée par le Canal du Secrétariat actuel, future Daterie.</item>
+            <item>A la suite de la réunion, quelques membres de l’OLiPo se sont rendus à <name ref="difdepo:events.xml#lexpositiondubuffet" type="manif">l’exposition Dubuffet</name>, au Pavillon de Marsan. Ils ont été surpris de constater le nombre singulier de de portraits de <persName ref="difdepo:persons.xml#jeanpaulhan">Jean Paulhan</persName> exposés sur les murs. L’un d’entre eux a même fait remarquer que les portraits les plus ressemblants NE SONT PAS ceux de <persName ref="difdepo:persons.xml#jeanpaulhan">Jean Paulhan</persName>, mais ceux de <persName ref="difdepo:persons.xml#fautrier">Fautrier</persName>, de <persName ref="difdepo:persons.xml#michaux">Michaux</persName> et de divers inconnus. Cette façon d’équivoque ne leur à pas permis de trancher si <persName ref="difdepo:persons.xml#jeanpaulhan">Jean Paulhan</persName> existe ou non.</item>
+            <item>Il est vivement conseillé au membres de l’OLiPo de s’abstenir, à l’avenir, et au cours des réunions, de commander des maquereaux au vin blanc.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jacquesbens">Jacques BENS</persName>
+         </p>
+      </body>
   </text>
 </TEI>

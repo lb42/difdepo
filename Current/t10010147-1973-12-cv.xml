@@ -1,54 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010147-1973-12-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010147-1973-12-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010147 pp. 2 à 2 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010147-1973-12-cv</idno> <title>Convocation à <ref target="#t10010147-1973-12">une réunion Oulipo</ref>, envoyée le <date when="1973-12-19">19 décembre 1973</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-17" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:24:00Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010147 pp. 2 à 2 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 19 décembre 1973</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010147-1973-12-cv</idno> 
+               <title>Convocation à <ref target="#t10010147-1973-12">une réunion Oulipo</ref>, envoyée le <date when="1973-12-19">19 décembre 1973</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-17" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:24:00Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101474/f2.highres" n="2"/>
-      <p rend="incipit"><add><persName ref="difdepo:persons.xml#lucullus">Lucullus</persName> aimerait savoir comment s’est terminée la mise à mort de <persName ref="difdepo:persons.xml#jugurtha">Jugurtha</persName>. Et, par la même occasion avoir la nouvelle adresse de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></add>. <note n="1" resp="editor">Ajout manuscrit de la main du secrétaire</note></p>
-      <p rend="incipit">Le 19 Décembre 1972</p>
-      <p>Chers Oulipotes,</p>
-      <p>Après une période de perturbations liée à l’état de santé de notre Président, l’OuLiPo envisage de reprendre ses activités le Mercredi 14 Février 1973. Nous renouvellerons bien entendu notre invitation à <persName ref="difdepo:persons.xml#emileleipp">Emile LEIPP</persName>.</p>
-      <p>On peut espérer qu’à cette date l’ouvrage attendu :</p>
-      <p><title ref="difdepo:titles.xml#oulipo">OULIPO</title></p>
-      <p><title ref="difdepo:titles.xml#creationsrecreationsrecreations">Créations, re-créations, récréations</title></p>
-      <p>sera paru ou sur le point de paraitre.</p>
-      <p>(Ce sera moins la fin d’une époque que le commencement d’une nouvelle ère)</p>
-      <p>OuLiPiennement,</p>
-      <p>Pour un secrétaire <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
-      <p>PS : Veuillez répondre aussi tôt que possible pour faciliter l’organisation des agapes.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101474/f2.highres" n="2"/>
+         <p rend="incipit">
+            <add>
+               <persName ref="difdepo:persons.xml#lucullus">Lucullus</persName> aimerait savoir comment s’est terminée la mise à mort de <persName ref="difdepo:persons.xml#jugurtha">Jugurtha</persName>. Et, par la même occasion avoir la nouvelle adresse de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+            </add>. <note n="1" resp="editor">Ajout manuscrit de la main du secrétaire</note>
+         </p>
+         <p rend="incipit">Le 19 Décembre 1972</p>
+         <p>Chers Oulipotes,</p>
+         <p>Après une période de perturbations liée à l’état de santé de notre Président, l’OuLiPo envisage de reprendre ses activités le Mercredi 14 Février 1973. Nous renouvellerons bien entendu notre invitation à <persName ref="difdepo:persons.xml#emileleipp">Emile LEIPP</persName>.</p>
+         <p>On peut espérer qu’à cette date l’ouvrage attendu :</p>
+         <p>
+            <title ref="difdepo:titles.xml#oulipo">OULIPO</title>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#creationsrecreationsrecreations">Créations, re-créations, récréations</title>
+         </p>
+         <p>sera paru ou sur le point de paraitre.</p>
+         <p>(Ce sera moins la fin d’une époque que le commencement d’une nouvelle ère)</p>
+         <p>OuLiPiennement,</p>
+         <p>Pour un secrétaire <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+         </p>
+         <p>PS : Veuillez répondre aussi tôt que possible pour faciliter l’organisation des agapes.</p>
+      </body>
   </text>
 </TEI>

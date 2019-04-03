@@ -1,52 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010172-1975-03-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010172-1975-03-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010172 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010172-1975-03-cv</idno> <title>Convocation à <ref target="#t10010172-1975-03">une réunion Oulipo</ref>, envoyée le <date when="1975-03-18">18 mars 1975</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:27:15Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010172 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 18 mars 1975</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010172-1975-03-cv</idno> 
+               <title>Convocation à <ref target="#t10010172-1975-03">une réunion Oulipo</ref>, envoyée le <date when="1975-03-18">18 mars 1975</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:27:15Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101724/f1.highres" n="1"/>
-      <p>M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName></p>
-      <p>23, Route de la Reine</p>
-      <p>92100 BOULOGNE-sur-SEINE</p>
-      <p>Tél. : 605.90.13</p>
-      <p>Boulogne-sur-Seine, le 18 Mars 1975</p>
-      <p>Chers Brigadiers,</p>
-      <p>Quoique l’auteur de l’<title ref="difdepo:titles.xml#ecclesiaste">Ecclésiaste</title> ne nomme pas explicitement l’OULIPO, il n’y a guère de doute, puisque dans son opinion il y a un temps pour tout, qu’il doit y avoir aussi un temps pour la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OULIPO. Ayant mis un terme, du moins provisoirement, à quelques ennuis subalternes, j’ai fixé cette <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> au Jeudi 10 Avril 1975.</p>
-      <p>A l’Ordre du Jour, les nombreux éléments de relance qui nous permettront de sortir de l’actuelle récession.</p>
-      <p>N’oubliez pas de me répondre ‑ et aussi à l’avance que possible ‑ pour éviter le gaspillage inconsidéré d’énergie culinaire.</p>
-      <p>Oulipiennement vôtre,</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101724/f1.highres" n="1"/>
+         <p>M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName>
+         </p>
+         <p>23, Route de la Reine</p>
+         <p>92100 BOULOGNE-sur-SEINE</p>
+         <p>Tél. : 605.90.13</p>
+         <p>Boulogne-sur-Seine, le 18 Mars 1975</p>
+         <p>Chers Brigadiers,</p>
+         <p>Quoique l’auteur de l’<title ref="difdepo:titles.xml#ecclesiaste">Ecclésiaste</title> ne nomme pas explicitement l’OULIPO, il n’y a guère de doute, puisque dans son opinion il y a un temps pour tout, qu’il doit y avoir aussi un temps pour la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’OULIPO. Ayant mis un terme, du moins provisoirement, à quelques ennuis subalternes, j’ai fixé cette <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> au Jeudi 10 Avril 1975.</p>
+         <p>A l’Ordre du Jour, les nombreux éléments de relance qui nous permettront de sortir de l’actuelle récession.</p>
+         <p>N’oubliez pas de me répondre ‑ et aussi à l’avance que possible ‑ pour éviter le gaspillage inconsidéré d’énergie culinaire.</p>
+         <p>Oulipiennement vôtre,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
+         </p>
+      </body>
   </text>
 </TEI>

@@ -1,56 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010160-1974-02-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010160-1974-02-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010160 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010160-1974-02-cv</idno> <title>Convocation à <ref target="#t10010160-1974-02">une réunion Oulipo</ref>, envoyée le <date when="1974-02-19">19 février 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:25:59Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010160 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 19 février 1974</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010160-1974-02-cv</idno> 
+               <title>Convocation à <ref target="#t10010160-1974-02">une réunion Oulipo</ref>, envoyée le <date when="1974-02-19">19 février 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:25:59Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010160t/f1.highres" n="1"/>
-      <p rend="incipit">Le 19 février 1974,</p>
-      <p rend="incipit">Chers Brigadiers,</p>
-      <p>Dois-je vous rappeler que notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu le Jeudi 8 Mars. Nous aurons comme Invité d’Honneur <persName ref="difdepo:persons.xml#michelemetail">Michèle METAIL</persName> dont vous avez tous admiré l’aptitude à se passer de verbes.</p>
-      <p>Une fois de plus notre dernière réunion s’est révélée volcanique. J’espère que notre prochain ordre du jour sera épuisé en même temps que nous. Nous aurons notamment à parler de l’édition des travaux de <persName ref="difdepo:persons.xml#perec">PEREC</persName>, <persName ref="difdepo:persons.xml#roubaud">ROUBAUD</persName>, etc… édition dont le principe, le réalisateur et le financement sont assurés.</p>
-      <p>Comme toujours je me précipite à vos pieds pour vous supplier de me faire savoir si vous venez ou non.</p>
-      <p>Oulipiennement vôtre.</p>
-      <p>Exercices</p>
-      <p>P.S :</p>
-      <p>I. Répondez d’après le texte aux questions suivantes :</p>
-      <p>1.</p>
-      <p>2.</p>
-      <p>3. <note n="1" resp="editor">Texte en chinois</note></p>
-      <p>II. En vous inspirant du texte, rédigez un conte.</p>
-      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010160t/f1.highres" n="1"/>
+         <p rend="incipit">Le 19 février 1974,</p>
+         <p rend="incipit">Chers Brigadiers,</p>
+         <p>Dois-je vous rappeler que notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu le Jeudi 8 Mars. Nous aurons comme Invité d’Honneur <persName ref="difdepo:persons.xml#michelemetail">Michèle METAIL</persName> dont vous avez tous admiré l’aptitude à se passer de verbes.</p>
+         <p>Une fois de plus notre dernière réunion s’est révélée volcanique. J’espère que notre prochain ordre du jour sera épuisé en même temps que nous. Nous aurons notamment à parler de l’édition des travaux de <persName ref="difdepo:persons.xml#perec">PEREC</persName>, <persName ref="difdepo:persons.xml#roubaud">ROUBAUD</persName>, etc… édition dont le principe, le réalisateur et le financement sont assurés.</p>
+         <p>Comme toujours je me précipite à vos pieds pour vous supplier de me faire savoir si vous venez ou non.</p>
+         <p>Oulipiennement vôtre.</p>
+         <p>Exercices</p>
+         <p>P.S :</p>
+         <p>I. Répondez d’après le texte aux questions suivantes :</p>
+         <p>1.</p>
+         <p>2.</p>
+         <p>3. <note n="1" resp="editor">Texte en chinois</note>
+         </p>
+         <p>II. En vous inspirant du texte, rédigez un conte.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
+         </p>
+      </body>
   </text>
 </TEI>

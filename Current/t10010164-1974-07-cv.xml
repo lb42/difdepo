@@ -1,57 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010164-1974-07-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010164-1974-07-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010164 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010164-1974-07-cv</idno> <title>Convocation à <ref target="#t10010164-1974-07">une réunion Oulipo</ref>, envoyée le <date when="1974-07-10">10 juillet 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:26:34Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010164 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 10 juillet 1974</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010164-1974-07-cv</idno> 
+               <title>Convocation à <ref target="#t10010164-1974-07">une réunion Oulipo</ref>, envoyée le <date when="1974-07-10">10 juillet 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:26:34Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010164m/f1.highres" n="1"/>
-      <p rend="incipit">Boulogne-sur-Seine, le 10 Juillet 1974</p>
-      <p rend="incipit">Chers Brigadiers,</p>
-      <p>Gouverner, c’est prévoir. Dans cet esprit, veuillez noter les dates des trois prochains OULIPO :</p>
-      <p>Jeudi 25 Juillet 1974</p>
-      <p>Vendredi 23 Août 1974</p>
-      <p>Jeudi 19 Septembre 1974</p>
-      <p>Notre dernier <name ref="difdepo:events.xml#congres" type="manif">congrès</name> n’a pas épuisé toutes les questions que nous avions convenu de débattre. Elles se trouveront aux prochains Ordres du Jour complétées par celles dont vous me ferez part.</p>
-      <p>Pour les raisons d’intendance que vous connaissez, je vous demande de me fixer sur vos intentions.</p>
-      <p>Oulipiennement vôtre,</p>
-      <p>Pour le Président et les deux Secrétaires Généraux, tous trois défaillants :</p>
-      <p><persName ref="difdepo:persons.xml#singedor">SINGE D’OR</persName></p>
-      <p>Prière de faire part de vos décisions à :</p>
-      <p>M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName></p>
-      <p>23, Route de la Reine</p>
-      <p>92100 BOULOGNE-sur-SEINE</p>
-      <p>Téléphone : 605. 90. 13</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010164m/f1.highres" n="1"/>
+         <p rend="incipit">Boulogne-sur-Seine, le 10 Juillet 1974</p>
+         <p rend="incipit">Chers Brigadiers,</p>
+         <p>Gouverner, c’est prévoir. Dans cet esprit, veuillez noter les dates des trois prochains OULIPO :</p>
+         <p>Jeudi 25 Juillet 1974</p>
+         <p>Vendredi 23 Août 1974</p>
+         <p>Jeudi 19 Septembre 1974</p>
+         <p>Notre dernier <name ref="difdepo:events.xml#congres" type="manif">congrès</name> n’a pas épuisé toutes les questions que nous avions convenu de débattre. Elles se trouveront aux prochains Ordres du Jour complétées par celles dont vous me ferez part.</p>
+         <p>Pour les raisons d’intendance que vous connaissez, je vous demande de me fixer sur vos intentions.</p>
+         <p>Oulipiennement vôtre,</p>
+         <p>Pour le Président et les deux Secrétaires Généraux, tous trois défaillants :</p>
+         <p>
+            <persName ref="difdepo:persons.xml#singedor">SINGE D’OR</persName>
+         </p>
+         <p>Prière de faire part de vos décisions à :</p>
+         <p>M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName>
+         </p>
+         <p>23, Route de la Reine</p>
+         <p>92100 BOULOGNE-sur-SEINE</p>
+         <p>Téléphone : 605. 90. 13</p>
+      </body>
   </text>
 </TEI>

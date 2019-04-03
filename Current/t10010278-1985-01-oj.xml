@@ -1,67 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010278-1985-01-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010278-1985-01-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010278 pp. 7 à 7 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010278-1985-01-oj</idno> <title>Ordre de jour de <ref target="#t10010278-1985-01">la réunion Oulipo</ref> du <date when="1985-01-18">18 janvier 1985</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:41:43Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010278 pp. 7 à 7 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 18 janvier 1985</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010278-1985-01-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010278-1985-01">la réunion Oulipo</ref> du <date when="1985-01-18">18 janvier 1985</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:41:43Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f7.highres" n="7"/>
-      <p rend="incipit">président <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Oulipo Chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">18-1-85</p>
-      <p rend="incipit"><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> + <persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName></p>
-      <p rend="incipit">Excuses : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName></p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Excusés <unclear>termes</unclear></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Projet à soumettre (<unclear>poliach</unclear>. séance)</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : <term ref="difdepo:terms.xml#dierese">Diérèse</term> de portion variable</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : suggestions de <term ref="difdepo:terms.xml#creation">création</term> !</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <term ref="difdepo:terms.xml#litteraturechimique">littérature chimique</term></p>
-      <p><label type="rubrique">Action</label></p>
-      <p>Réaction = <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> 2 réactions</p>
-      <p>JB <unclear>Yeues</unclear></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <name ref="difdepo:events.xml#limoges" type="manif">Limoges</name> <unclear>Mo</unclear></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <name ref="difdepo:events.xml#davos" type="manif">Davos</name></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Créaction</p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> On <unclear>conte</unclear> à la façon de <persName ref="difdepo:persons.xml#fouquet">Fouquet</persName></p>
-      <p><persName ref="difdepo:persons.xml#erudition">Erudition</persName> <unclear>nominale</unclear></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <term ref="difdepo:terms.xml#s7">S+7</term></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <term ref="difdepo:terms.xml#alexandrinsenumeratifs">Alexandrins énumératifs</term></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <unclear>Cryso Mallo</unclear></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#dictionnairedesmotsretrouves">dictionnaire des mots retrouvés</title></p>
-      <p><label type="rubrique">Menus propos : opérations diverses</label></p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : 2 <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> à distribuer</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102786/f7.highres" n="7"/>
+         <p rend="incipit">président <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Oulipo Chez <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">18-1-85</p>
+         <p rend="incipit">
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> + <persName ref="difdepo:persons.xml#pr">
+               <abbr>PR</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Excuses : <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jl">
+               <abbr>JL</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> : Excusés <unclear>termes</unclear>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> : Projet à soumettre (<unclear>poliach</unclear>. séance)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> : <term ref="difdepo:terms.xml#dierese">Diérèse</term> de portion variable</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : suggestions de <term ref="difdepo:terms.xml#creation">création</term> !</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : <term ref="difdepo:terms.xml#litteraturechimique">littérature chimique</term>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>Réaction = <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 2 réactions</p>
+         <p>JB <unclear>Yeues</unclear>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <name ref="difdepo:events.xml#limoges" type="manif">Limoges</name> 
+            <unclear>Mo</unclear>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <name ref="difdepo:events.xml#davos" type="manif">Davos</name>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> Créaction</p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> On <unclear>conte</unclear> à la façon de <persName ref="difdepo:persons.xml#fouquet">Fouquet</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#erudition">Erudition</persName> 
+            <unclear>nominale</unclear>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <term ref="difdepo:terms.xml#s7">S+7</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <term ref="difdepo:terms.xml#alexandrinsenumeratifs">Alexandrins énumératifs</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <unclear>Cryso Mallo</unclear>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : <title ref="difdepo:titles.xml#dictionnairedesmotsretrouves">dictionnaire des mots retrouvés</title>
+         </p>
+         <p>
+            <label type="rubrique">Menus propos : opérations diverses</label>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> : 2 <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> à distribuer</p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> 
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+         </p>
+      </body>
   </text>
 </TEI>

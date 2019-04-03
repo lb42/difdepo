@@ -1,55 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010143-1972-09-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010143-1972-09-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010143 pp. 3 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010143-1972-09-cr</idno> <meeting xml:id="t10010143-1972-09">
-          <date when="1972-09-12">12 septembre 1972</date>
-          <placeName>Boulogne</placeName>
-          <gap/>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:37:13Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010143 pp. 3 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 12 septembre 1972</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010143-1972-09-cr</idno> 
+               <meeting xml:id="t10010143-1972-09">
+                  <date when="1972-09-12">12 septembre 1972</date>
+                  <placeName>Boulogne</placeName>
+                  <gap/>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:37:13Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010143b/f3.highres" n="3"/>
-      <p rend="incipit">Le 12 Septembre 1972</p>
-      <p><title ref="difdepo:titles.xml#excape">Ex-Cape</title> = Titre</p>
-      <p><term ref="difdepo:terms.xml#litteraturepotentielle">Littérature Potentielle</term></p>
-      <list type="unordered">
-        <item>Propositions et Récréations</item>
-      </list>
-      <p>21/9/ à 11H30 Contrat.</p>
-      <p>Prochain Oulipo Mercredi 11 Octobre. 11heures avec <persName ref="difdepo:persons.xml#ferval">F. Erval</persName></p>
-      <p>Problèmes matériels.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010143b/f3.highres" n="3"/>
+         <p rend="incipit">Le 12 Septembre 1972</p>
+         <p>
+            <title ref="difdepo:titles.xml#excape">Ex-Cape</title> = Titre</p>
+         <p>
+            <term ref="difdepo:terms.xml#litteraturepotentielle">Littérature Potentielle</term>
+         </p>
+         <list type="unordered">
+            <item>Propositions et Récréations</item>
+         </list>
+         <p>21/9/ à 11H30 Contrat.</p>
+         <p>Prochain Oulipo Mercredi 11 Octobre. 11heures avec <persName ref="difdepo:persons.xml#ferval">F. Erval</persName>
+         </p>
+         <p>Problèmes matériels.</p>
+      </body>
   </text>
 </TEI>

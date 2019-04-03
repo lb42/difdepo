@@ -1,88 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010148-1973-03-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010148-1973-03-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010148 pp. 2 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010148-1973-03-cr</idno> <meeting xml:id="t10010148-1973-03">
-          <date when="1973-03-28">28 mars 1973</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#renethom" role="invité">René Thom</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-23" who="HCC">nettoyage des signes dollars in text</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:24:05Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010148 pp. 2 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 28 mars 1973</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010148-1973-03-cr</idno> 
+               <meeting xml:id="t10010148-1973-03">
+                  <date when="1973-03-28">28 mars 1973</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#renethom" role="invité">René Thom</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-23" who="HCC">nettoyage des signes dollars in text</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:24:05Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010148k/f2.highres" n="2"/>
-      <p rend="incipit"><name ref="difdepo:events.xml#seanceoulipo" type="manif">Séance OuLiPo</name> 28 Mars 73</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>. <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. <persName ref="difdepo:persons.xml#queval">Queval</persName>. <persName ref="difdepo:persons.xml#perec">Perec</persName> <persName ref="difdepo:persons.xml#braffort">Braffort</persName> <persName ref="difdepo:persons.xml#fournel">Fournel</persName> <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></p>
-      <p rend="incipit">Invité : <persName ref="difdepo:persons.xml#thom">Thom</persName>.</p>
-      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> – abstention de <persName ref="difdepo:persons.xml#queval">Queval</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : sur <persName ref="difdepo:persons.xml#roussel">Roussel</persName> : comparé à <persName ref="difdepo:persons.xml#proust">Proust</persName> pour la finesse des notations</p>
-      <p><persName ref="difdepo:persons.xml#breton">Breton</persName> n’était que <term ref="difdepo:terms.xml#surrealiste">surréaliste</term>, il n’était pas <term ref="difdepo:terms.xml#dadaiste">dadaïste</term></p>
-      <p>Il ne comprend donc pas l’invention roussellienne.</p>
-      <list type="unordered">
-        <item>lire <persName ref="difdepo:persons.xml#tesniere">Tesnière</persName> <title ref="difdepo:titles.xml#elementsdesyntaxestructurale">Eléments de syntaxe structurale</title> <orgName ref="difdepo:organizations.xml#klincksieck">Klincksieck</orgName>.</item>
-      </list>
-      <list type="unordered">
-        <item><term ref="difdepo:terms.xml#principedesuperposition">principe de superposition</term> (<persName ref="difdepo:persons.xml#thom">Thom</persName>)</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : survie de quelques groupes de <term ref="difdepo:terms.xml#traductionautomatique">traduction automatique</term>.</p>
-      <p>Le problème de la <term ref="difdepo:terms.xml#traductionautomatique">traduction automatique</term> est un problème d’informatique</p>
-      <p><persName ref="difdepo:persons.xml#thom">Thom</persName> : considère que la position de <persName ref="difdepo:persons.xml#braffort">Braffort</persName> est trop optimiste.</p>
-      <p><title ref="difdepo:titles.xml#letoitdelamisere">Le toit de la misère</title> : problème du génitif intraduisible.</p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> : chercher des exemples de génitif intraduisible.</p>
-      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le problème c’est d’avoir une grammaire sémantique.</p>
-      <p><persName ref="difdepo:persons.xml#benabou">Benabou</persName> : projet <name ref="difdepo:events.xml#readhall" type="manif">Read Hall</name></p>
-      <p>Volontaires <persName ref="difdepo:persons.xml#perec">Perec</persName> <persName ref="difdepo:persons.xml#fournel">Fournel</persName>. <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p>Ni mardi ni mercredi</p>
-      <p>Jeudi 10 Mai – 15 heures</p>
-      <p>Inauguration du tampon</p>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> Mercredi 25 Avril</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010148k/f3.highres" n="3"/>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <term ref="difdepo:terms.xml#homophonie">Homophonie</term> : Modulo 12</p>
-      <p>Exposé de <persName ref="difdepo:persons.xml#jgueron">J. Guéron</persName> <note n="1" resp="editor">A priori il s’agit de Jacqueline Guéron.</note> à <orgName ref="difdepo:organizations.xml#polivanoff">Polivanoff</orgName>.</p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>J.Q</abbr></persName> : problème de l’emploi de l’argent</p>
-      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q</abbr></persName> Faire une bibliographie de l’OuLiPo</p>
-      <p><persName ref="difdepo:persons.xml#thom">Thom</persName> : quel nom donnera-t-on à mon œuvre ? <term ref="difdepo:terms.xml#thomisme">Thomisme</term> ? <term ref="difdepo:terms.xml#neothomisme">néo-thomisme</term></p>
-      <p>3 grands concepts : <term ref="difdepo:terms.xml#catastrophe">catastrophe</term> – <term ref="difdepo:terms.xml#archetype">archétype</term> – <term ref="difdepo:terms.xml#logos">logos</term>.</p>
-      <p>W6W0146</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010148k/f2.highres" n="2"/>
+         <p rend="incipit">
+            <name ref="difdepo:events.xml#seanceoulipo" type="manif">Séance OuLiPo</name> 28 Mars 73</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#queval">Queval</persName>. <persName ref="difdepo:persons.xml#perec">Perec</persName> 
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> 
+            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> 
+            <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>
+         </p>
+         <p rend="incipit">Invité : <persName ref="difdepo:persons.xml#thom">Thom</persName>.</p>
+         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> – abstention de <persName ref="difdepo:persons.xml#queval">Queval</persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : sur <persName ref="difdepo:persons.xml#roussel">Roussel</persName> : comparé à <persName ref="difdepo:persons.xml#proust">Proust</persName> pour la finesse des notations</p>
+         <p>
+            <persName ref="difdepo:persons.xml#breton">Breton</persName> n’était que <term ref="difdepo:terms.xml#surrealiste">surréaliste</term>, il n’était pas <term ref="difdepo:terms.xml#dadaiste">dadaïste</term>
+         </p>
+         <p>Il ne comprend donc pas l’invention roussellienne.</p>
+         <list type="unordered">
+            <item>lire <persName ref="difdepo:persons.xml#tesniere">Tesnière</persName> 
+               <title ref="difdepo:titles.xml#elementsdesyntaxestructurale">Eléments de syntaxe structurale</title> 
+               <orgName ref="difdepo:organizations.xml#klincksieck">Klincksieck</orgName>.</item>
+         </list>
+         <list type="unordered">
+            <item>
+               <term ref="difdepo:terms.xml#principedesuperposition">principe de superposition</term> (<persName ref="difdepo:persons.xml#thom">Thom</persName>)</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : survie de quelques groupes de <term ref="difdepo:terms.xml#traductionautomatique">traduction automatique</term>.</p>
+         <p>Le problème de la <term ref="difdepo:terms.xml#traductionautomatique">traduction automatique</term> est un problème d’informatique</p>
+         <p>
+            <persName ref="difdepo:persons.xml#thom">Thom</persName> : considère que la position de <persName ref="difdepo:persons.xml#braffort">Braffort</persName> est trop optimiste.</p>
+         <p>
+            <title ref="difdepo:titles.xml#letoitdelamisere">Le toit de la misère</title> : problème du génitif intraduisible.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> : chercher des exemples de génitif intraduisible.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le problème c’est d’avoir une grammaire sémantique.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#benabou">Benabou</persName> : projet <name ref="difdepo:events.xml#readhall" type="manif">Read Hall</name>
+         </p>
+         <p>Volontaires <persName ref="difdepo:persons.xml#perec">Perec</persName> 
+            <persName ref="difdepo:persons.xml#fournel">Fournel</persName>. <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>Ni mardi ni mercredi</p>
+         <p>Jeudi 10 Mai – 15 heures</p>
+         <p>Inauguration du tampon</p>
+         <p>
+            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> Mercredi 25 Avril</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010148k/f3.highres" n="3"/>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> : <term ref="difdepo:terms.xml#homophonie">Homophonie</term> : Modulo 12</p>
+         <p>Exposé de <persName ref="difdepo:persons.xml#jgueron">J. Guéron</persName> 
+            <note n="1" resp="editor">A priori il s’agit de Jacqueline Guéron.</note> à <orgName ref="difdepo:organizations.xml#polivanoff">Polivanoff</orgName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jq">
+               <abbr>J.Q</abbr>
+            </persName> : problème de l’emploi de l’argent</p>
+         <p>
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>R.Q</abbr>
+            </persName> Faire une bibliographie de l’OuLiPo</p>
+         <p>
+            <persName ref="difdepo:persons.xml#thom">Thom</persName> : quel nom donnera-t-on à mon œuvre ? <term ref="difdepo:terms.xml#thomisme">Thomisme</term> ? <term ref="difdepo:terms.xml#neothomisme">néo-thomisme</term>
+         </p>
+         <p>3 grands concepts : <term ref="difdepo:terms.xml#catastrophe">catastrophe</term> – <term ref="difdepo:terms.xml#archetype">archétype</term> – <term ref="difdepo:terms.xml#logos">logos</term>.</p>
+         <p>W6W0146</p>
+      </body>
   </text>
 </TEI>

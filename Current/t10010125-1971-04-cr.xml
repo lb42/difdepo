@@ -1,58 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010125-1971-04-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010125-1971-04-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010125 pp. 1 à 1 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010125-1971-04-cr</idno> <meeting xml:id="t10010125-1971-04">
-          <date when="1971-04-06">6 avril 1971</date>
-          <placeName>chez François Le Lionnais</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-09-02">Conversion docx-tei initiale Validation</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010125 pp. 1 à 1 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 6 avril 1971</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010125-1971-04-cr</idno> 
+               <meeting xml:id="t10010125-1971-04">
+                  <date when="1971-04-06">6 avril 1971</date>
+                  <placeName>chez François Le Lionnais</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-09-02">Conversion docx-tei initiale Validation</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010125d/f1.highres" n="1"/>
-      <p rend="incipit">Oulipo du 6 Avril 1971</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL.</abbr></persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#berge">Berge</persName>, <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
-      <p>Discussion sur l’admission de <persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
-      <p>Problème du nombre des membres : statutairement 10 et pas plus</p>
-      <p>Les nouveaux membres ne sont qu’associés.</p>
-      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : Poèmes pour <term ref="difdepo:terms.xml#rubandemoebius">ruban de <persName ref="difdepo:persons.xml#moebius">Möebius</persName></term>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010125d/f1.highres" n="1"/>
+         <p rend="incipit">Oulipo du 6 Avril 1971</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL.</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#berge">Berge</persName>, <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
+         <p>Discussion sur l’admission de <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
+         </p>
+         <p>Problème du nombre des membres : statutairement 10 et pas plus</p>
+         <p>Les nouveaux membres ne sont qu’associés.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : Poèmes pour <term ref="difdepo:terms.xml#rubandemoebius">ruban de <persName ref="difdepo:persons.xml#moebius">Möebius</persName>
+            </term>.</p>
+      </body>
   </text>
 </TEI>

@@ -1,51 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010140-1972-06-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010140-1972-06-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010140 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010140-1972-06-cv</idno> <title>Convocation à <ref target="#t10010140-1972-06">une réunion Oulipo</ref>, envoyée le <date when="1972-06-09">9 juin 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:36:46Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010140 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 9 juin 1972</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010140-1972-06-cv</idno> 
+               <title>Convocation à <ref target="#t10010140-1972-06">une réunion Oulipo</ref>, envoyée le <date when="1972-06-09">9 juin 1972</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:36:46Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101400/f1.highres" n="1"/>
-      <p rend="incipit">le 9 Juin 1972</p>
-      <p rend="incipit">M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName></p>
-      <p>Cher OuLiPote,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le MARDI 20 JUIN 1972 à 11 heures au domicile du Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> 23, route de la Reine</p>
-      <p>92100 BOULOGNE BILLANCOURT.</p>
-      <p>Entre autres choses, il sera question d’<title ref="difdepo:titles.xml#excape">Ex-Cape</title> (dont on fera un tour d’oreille) et de la voie de l’immortalité qui s’ouvre à l’OuLiPo (pour les impatients avides de détails, voir le Président).</p>
-      <p>PENSEZ AU DOSSIER DE SEANCE.</p>
-      <p>Oulipiennement votre,</p>
-      <p>Un secrétaire.</p>
-      <p>à retourner IMPERATIVEMENT à <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> 23, route de la Reine 92100 BOULOGNE BILLANCOURT.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101400/f1.highres" n="1"/>
+         <p rend="incipit">le 9 Juin 1972</p>
+         <p rend="incipit">M. <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName>
+         </p>
+         <p>Cher OuLiPote,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’Ouvroir aura lieu le MARDI 20 JUIN 1972 à 11 heures au domicile du Président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> 23, route de la Reine</p>
+         <p>92100 BOULOGNE BILLANCOURT.</p>
+         <p>Entre autres choses, il sera question d’<title ref="difdepo:titles.xml#excape">Ex-Cape</title> (dont on fera un tour d’oreille) et de la voie de l’immortalité qui s’ouvre à l’OuLiPo (pour les impatients avides de détails, voir le Président).</p>
+         <p>PENSEZ AU DOSSIER DE SEANCE.</p>
+         <p>Oulipiennement votre,</p>
+         <p>Un secrétaire.</p>
+         <p>à retourner IMPERATIVEMENT à <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> 23, route de la Reine 92100 BOULOGNE BILLANCOURT.</p>
+      </body>
   </text>
 </TEI>

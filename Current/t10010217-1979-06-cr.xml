@@ -1,79 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010217-1979-06-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010217-1979-06-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010217 pp. 2 à 2 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010217-1979-06-cr</idno> <meeting xml:id="t10010217-1979-06">
-          <date when="1979-06-14">14 juin 1979</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:33:03Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010217 pp. 2 à 2 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 14 juin 1979</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010217-1979-06-cr</idno> 
+               <meeting xml:id="t10010217-1979-06">
+                  <date when="1979-06-14">14 juin 1979</date>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:33:03Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102178/f2.highres" n="2"/>
-      <p rend="incipit">14-06-1979 OULIPO</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#fournel">Fournel</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></p>
-      <p><persName ref="difdepo:persons.xml#gpbretecher">G.P. Brétecher</persName> : une <term ref="difdepo:terms.xml#bandedessinee">bande dessinée</term> sans légende confiée à 4 auteurs différents pour remplir les bulles : tentative amusante</p>
-      <p>réflexion sur des contraintes du genre = évocation de tentatives analogues</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName> : <title ref="difdepo:titles.xml#lescartes">les cartes</title> : prix de vente : 2,50</p>
-      <p><persName ref="difdepo:persons.xml#lucet"><abbr>Luc Et.</abbr></persName> : fabrication automatique de poèmes de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></p>
-      <p>Lecture d’un poème obtenu par la méthode <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> <unclear>Désci</unclear>.</p>
-      <p><persName ref="difdepo:persons.xml#ic"><abbr>I.C.</abbr></persName> à propos du roman récemment publié : roman de la quête du roman (<title ref="difdepo:titles.xml#siunenuitdhiverunvoyageur">Si une nuit d’hiver un voyageur</title>)</p>
-      <p>12 chapitres du cadre ; 10 chapitres du roman proprement dit</p>
-      <p>Schéma de <persName ref="difdepo:persons.xml#platon">Platon</persName> au débat du <title ref="difdepo:titles.xml#sophiste">Sophiste</title></p>
-      <p>longue analyse du roman, qui plonge les auditeurs dans l’admiration.</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>G.P.</abbr></persName> présente 3 travaux</p>
-      <list type="unordered">
-        <item>Le livre de 2000 phrases de <persName ref="difdepo:persons.xml#jpparmelli">J.P. Parmelli</persName></item>
-      </list>
-      <p>2 parties : mille premières phrases de 1000 livres</p>
-      <p>mille premières phrases 1000 livres</p>
-      <list type="unordered">
-        <item>Petite fabrique de littérature, le club des amis du texte</item>
-      </list>
-      <p><term ref="difdepo:terms.xml#inventaire">inventaire</term> des méthodes de création, 45 influencées par l’OULIPO.</p>
-      <list type="unordered">
-        <item><unclear>*</unclear> du monde du <term ref="difdepo:terms.xml#palindrome">palindrome</term> en espagnol publié à Caracas <unclear>oiradario</unclear></item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#ic"><abbr>I.C.</abbr></persName> et <persName ref="difdepo:persons.xml#gp"><abbr>G.P.</abbr></persName> : jeu de <persName ref="difdepo:persons.xml#flahaut">Flahaut</persName>, joué par <persName ref="difdepo:persons.xml#perec">Perec</persName> et <persName ref="difdepo:persons.xml#calvino">Calvino</persName></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName> : <persName ref="difdepo:persons.xml#flammarion"><unclear>Flammarion</unclear></persName> est prêt à prendre en dépôt 15 volumes de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102178/f2.highres" n="2"/>
+         <p rend="incipit">14-06-1979 OULIPO</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#fournel">Fournel</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#gpbretecher">G.P. Brétecher</persName> : une <term ref="difdepo:terms.xml#bandedessinee">bande dessinée</term> sans légende confiée à 4 auteurs différents pour remplir les bulles : tentative amusante</p>
+         <p>réflexion sur des contraintes du genre = évocation de tentatives analogues</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>M.B.</abbr>
+            </persName> : <title ref="difdepo:titles.xml#lescartes">les cartes</title> : prix de vente : 2,50</p>
+         <p>
+            <persName ref="difdepo:persons.xml#lucet">
+               <abbr>Luc Et.</abbr>
+            </persName> : fabrication automatique de poèmes de <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>
+         </p>
+         <p>Lecture d’un poème obtenu par la méthode <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> 
+            <unclear>Désci</unclear>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#ic">
+               <abbr>I.C.</abbr>
+            </persName> à propos du roman récemment publié : roman de la quête du roman (<title ref="difdepo:titles.xml#siunenuitdhiverunvoyageur">Si une nuit d’hiver un voyageur</title>)</p>
+         <p>12 chapitres du cadre ; 10 chapitres du roman proprement dit</p>
+         <p>Schéma de <persName ref="difdepo:persons.xml#platon">Platon</persName> au débat du <title ref="difdepo:titles.xml#sophiste">Sophiste</title>
+         </p>
+         <p>longue analyse du roman, qui plonge les auditeurs dans l’admiration.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#gp">
+               <abbr>G.P.</abbr>
+            </persName> présente 3 travaux</p>
+         <list type="unordered">
+            <item>Le livre de 2000 phrases de <persName ref="difdepo:persons.xml#jpparmelli">J.P. Parmelli</persName>
+            </item>
+         </list>
+         <p>2 parties : mille premières phrases de 1000 livres</p>
+         <p>mille premières phrases 1000 livres</p>
+         <list type="unordered">
+            <item>Petite fabrique de littérature, le club des amis du texte</item>
+         </list>
+         <p>
+            <term ref="difdepo:terms.xml#inventaire">inventaire</term> des méthodes de création, 45 influencées par l’OULIPO.</p>
+         <list type="unordered">
+            <item>
+               <unclear>*</unclear> du monde du <term ref="difdepo:terms.xml#palindrome">palindrome</term> en espagnol publié à Caracas <unclear>oiradario</unclear>
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#ic">
+               <abbr>I.C.</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#gp">
+               <abbr>G.P.</abbr>
+            </persName> : jeu de <persName ref="difdepo:persons.xml#flahaut">Flahaut</persName>, joué par <persName ref="difdepo:persons.xml#perec">Perec</persName> et <persName ref="difdepo:persons.xml#calvino">Calvino</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#flammarion">
+               <unclear>Flammarion</unclear>
+            </persName> est prêt à prendre en dépôt 15 volumes de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+         </p>
+      </body>
   </text>
 </TEI>

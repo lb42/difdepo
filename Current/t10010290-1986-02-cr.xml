@@ -1,93 +1,181 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010290-1986-02-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010290-1986-02-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010290 pp. 2 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010290-1986-02-cr</idno> <meeting xml:id="t10010290-1986-02">
-          <date when="1986-02-21">21 février 1986</date>
-          <placeName>chez Paul Braffort</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-09-01">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010290 pp. 2 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 21 février 1986</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010290-1986-02-cr</idno> 
+               <meeting xml:id="t10010290-1986-02">
+                  <date when="1986-02-21">21 février 1986</date>
+                  <placeName>chez Paul Braffort</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-09-01">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010290f/f2.highres" n="2"/>
-      <p rend="incipit">OULIPO - Réunion du Vendredi 21 février 1986 - llh30-15h.</p>
-      <p>Présents, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> qui reçoit, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> qui préside, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
-      <p>Annoncés,<persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName> et <persName ref="difdepo:persons.xml#fcaradec">F. Caradec</persName> ne paraîtront pas.</p>
-      <p>Excusés. <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>.</p>
-      <p><label type="rubrique">Créations</label></p>
-      <list type="unordered">
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> a une brassée de créations.</item>
-        <item>: <term ref="difdepo:terms.xml#pppp">PPPP</term> (Parfait procédé de <term ref="difdepo:terms.xml#pastiche">pastiche</term> et de <term ref="difdepo:terms.xml#parodie">parodie</term>), avec <title ref="difdepo:titles.xml#invisibleseattle">Invisible Seattle</title>, ou comment se guérir des tics d'écriture moderniste.</item>
-        <item>: <title ref="difdepo:titles.xml#cigarettes">Cigarettes</title>, roman selon l'<term ref="difdepo:terms.xml#algorithmedemathews">algorithme de <persName ref="difdepo:persons.xml#mathews">Mathews</persName></term>, est fini. <lb/>Dedans, pas d'érudition, pas de jeux de mots ou de langage. Publication prochaine aux USA.</item>
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> mentionne <persName ref="difdepo:persons.xml#wycliffeahill">Wycliffe A. Hill</persName> (scénariste de cinéma, vers 1919): <title ref="difdepo:titles.xml#tenmillionphotoplayplots">Ten million photoplay plots</title>. Combinaisons de 37 émotions et de 37 situations dramatiques. (Plagiarist in advance)</item>
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> propose un <term ref="difdepo:terms.xml#palindromesemantique">palindrome sémantique</term>. Eve : <title ref="difdepo:titles.xml#desfourres">Des fourrés</title>, j'entre dans l'épaisseur de la forêt. Elle y gît nue. Des gros nuages couleur de charbon, tombe une pluie luisante. "Il n'emporte pas la conviction" (cf. p.v. de janvier 1985).</item>
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> nous lit de beaux textes (auteurs prétendument écoliers): le chat, la vache... "<title ref="difdepo:titles.xml#lesanimauxformulables">Les animaux formulables</title>". <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> s’est essayé sur l'éléphant.</item>
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> enfin projette un roman : <title ref="difdepo:titles.xml#domesticcontentment">Domestic contentment</title>.</item>
-        <item>: <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <title ref="difdepo:titles.xml#lebonreve">Le bon rêve</title>, dix poèmes selon le système de <term ref="difdepo:terms.xml#rimeatroiselements">rime à trois éléments</term> (dite <term ref="difdepo:terms.xml#rimeberrychonne">rime berrychonne</term>, en l'honneur du poète <persName ref="difdepo:persons.xml#johnberryman">John Berryman</persName> chez qui <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> la dénicha ). Pourra faire une Bibliothèque oulipienne, le moment venu.</item>
-      </list>
-      <p><label type="rubrique">Erudition</label></p>
-      <list type="unordered">
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> présente l'<title ref="difdepo:titles.xml#oxfordguidetowordgames">Oxford Guide to word games</title>, avec quelques éléments intéressants : <term ref="difdepo:terms.xml#metathesessemantiques">métathèses sémantiques</term> du Dr. <persName ref="difdepo:persons.xml#spooner">Spooner</persName>...</item>
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> mentionne <title ref="difdepo:titles.xml#kewrhone">Kew Rhône</title>, un disque de <persName ref="difdepo:persons.xml#johngreaves">John Greaves</persName> et <persName ref="difdepo:persons.xml#peterblegvad">Peter Blegvad</persName>, musique et textes (anagrammes, palindromes).</item>
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> a un besoin lexical... <term ref="difdepo:terms.xml#structuraliste">structuraliste</term> ? <term ref="difdepo:terms.xml#structureliste">structuréliste</term> ? <term ref="difdepo:terms.xml#formaliste">formaliste</term> ? <term ref="difdepo:terms.xml#formelliste">formel<del>l</del>iste</term> ? Oulipien !</item>
-        <item>: <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> a reçu <title ref="difdepo:titles.xml#cinemadequartier">Cinéma de quartier</title>, d'<persName ref="difdepo:persons.xml#ab">André Blavier</persName> et <title ref="difdepo:titles.xml#unfablier">Un fablier</title> de <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName> dont les dédicaces font les délices de tous.</item>
-        <item>: <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, une perle dans <title ref="difdepo:titles.xml#littre"><persName ref="difdepo:persons.xml#littre">Littré</persName></title>, la définition du mot éclipse. Allez-y voir.</item>
-      </list>
-      <p><label type="rubrique">Bibliothèque oulipienne</label></p>
-      <list type="unordered">
-        <item>: <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> nous lit l'envoi de <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> <title ref="difdepo:titles.xml#oulipotages">Oulipotages</title>. Les textes plaisent, le titre moins. Ça fera le numéro 35.</item>
-        <item>: Distribution d'<title ref="difdepo:titles.xml#alexandreaugreffoir">Alexandre au greffoir</title>, n°29, de <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</item>
-      </list>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010290f/f3.highres" n="3"/>
-      <p><label type="rubrique">Guide</label></p>
-      <list type="unordered">
-        <item>: On convient d’aller au Moulin d’Andé à l’Ascension, du 8 au 11 mai 1986. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> et <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> vont constituer pour chacun un dossier des textes déjà réalisés. Il y en a un bon nombre.</item>
-      </list>
-      <p><label type="rubrique">Actions</label></p>
-      <list type="unordered">
-        <item>: <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> Interdact (<title ref="difdepo:titles.xml#invisibleseattle">Invisible Seattle</title>).</item>
-        <item>: <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> participe au <name ref="difdepo:events.xml#colloquescienceetlitterature" type="manif">colloque Science et Littérature</name>, à la <orgName ref="difdepo:organizations.xml#maisondessciencesdelhomme">Maison des Sciences de l’homme</orgName>.</item>
-        <item>: <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> a parlé de <persName ref="difdepo:persons.xml#calvino">Calvino</persName> et l’Oulipo, à Milan.</item>
-        <item>: <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> a des nouvelles de <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName>. <name ref="difdepo:events.xml#stageoulipo" type="manif">Stage Oulipo</name> probable pour Juillet.</item>
-        <item>: <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> raconte le stage de Tulle.</item>
-      </list>
-      <p>On a mangé du fromage de tete et un veau aux pruneaux difficilement égalable.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010290f/f2.highres" n="2"/>
+         <p rend="incipit">OULIPO - Réunion du Vendredi 21 février 1986 - llh30-15h.</p>
+         <p>Présents, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> qui reçoit, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> qui préside, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
+         <p>Annoncés,<persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName> et <persName ref="difdepo:persons.xml#fcaradec">F. Caradec</persName> ne paraîtront pas.</p>
+         <p>Excusés. <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#ab">
+               <abbr>AB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName>.</p>
+         <p>
+            <label type="rubrique">Créations</label>
+         </p>
+         <list type="unordered">
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> a une brassée de créations.</item>
+            <item>: <term ref="difdepo:terms.xml#pppp">PPPP</term> (Parfait procédé de <term ref="difdepo:terms.xml#pastiche">pastiche</term> et de <term ref="difdepo:terms.xml#parodie">parodie</term>), avec <title ref="difdepo:titles.xml#invisibleseattle">Invisible Seattle</title>, ou comment se guérir des tics d'écriture moderniste.</item>
+            <item>: <title ref="difdepo:titles.xml#cigarettes">Cigarettes</title>, roman selon l'<term ref="difdepo:terms.xml#algorithmedemathews">algorithme de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>
+               </term>, est fini. <lb/>Dedans, pas d'érudition, pas de jeux de mots ou de langage. Publication prochaine aux USA.</item>
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> mentionne <persName ref="difdepo:persons.xml#wycliffeahill">Wycliffe A. Hill</persName> (scénariste de cinéma, vers 1919): <title ref="difdepo:titles.xml#tenmillionphotoplayplots">Ten million photoplay plots</title>. Combinaisons de 37 émotions et de 37 situations dramatiques. (Plagiarist in advance)</item>
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> propose un <term ref="difdepo:terms.xml#palindromesemantique">palindrome sémantique</term>. Eve : <title ref="difdepo:titles.xml#desfourres">Des fourrés</title>, j'entre dans l'épaisseur de la forêt. Elle y gît nue. Des gros nuages couleur de charbon, tombe une pluie luisante. "Il n'emporte pas la conviction" (cf. p.v. de janvier 1985).</item>
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> nous lit de beaux textes (auteurs prétendument écoliers): le chat, la vache... "<title ref="difdepo:titles.xml#lesanimauxformulables">Les animaux formulables</title>". <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> s’est essayé sur l'éléphant.</item>
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> enfin projette un roman : <title ref="difdepo:titles.xml#domesticcontentment">Domestic contentment</title>.</item>
+            <item>: <persName ref="difdepo:persons.xml#jj">
+                  <abbr>JJ</abbr>
+               </persName> 
+               <title ref="difdepo:titles.xml#lebonreve">Le bon rêve</title>, dix poèmes selon le système de <term ref="difdepo:terms.xml#rimeatroiselements">rime à trois éléments</term> (dite <term ref="difdepo:terms.xml#rimeberrychonne">rime berrychonne</term>, en l'honneur du poète <persName ref="difdepo:persons.xml#johnberryman">John Berryman</persName> chez qui <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> la dénicha ). Pourra faire une Bibliothèque oulipienne, le moment venu.</item>
+         </list>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <list type="unordered">
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> présente l'<title ref="difdepo:titles.xml#oxfordguidetowordgames">Oxford Guide to word games</title>, avec quelques éléments intéressants : <term ref="difdepo:terms.xml#metathesessemantiques">métathèses sémantiques</term> du Dr. <persName ref="difdepo:persons.xml#spooner">Spooner</persName>...</item>
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> mentionne <title ref="difdepo:titles.xml#kewrhone">Kew Rhône</title>, un disque de <persName ref="difdepo:persons.xml#johngreaves">John Greaves</persName> et <persName ref="difdepo:persons.xml#peterblegvad">Peter Blegvad</persName>, musique et textes (anagrammes, palindromes).</item>
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> a un besoin lexical... <term ref="difdepo:terms.xml#structuraliste">structuraliste</term> ? <term ref="difdepo:terms.xml#structureliste">structuréliste</term> ? <term ref="difdepo:terms.xml#formaliste">formaliste</term> ? <term ref="difdepo:terms.xml#formelliste">formel<del>l</del>iste</term> ? Oulipien !</item>
+            <item>: <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> a reçu <title ref="difdepo:titles.xml#cinemadequartier">Cinéma de quartier</title>, d'<persName ref="difdepo:persons.xml#ab">André Blavier</persName> et <title ref="difdepo:titles.xml#unfablier">Un fablier</title> de <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName> dont les dédicaces font les délices de tous.</item>
+            <item>: <persName ref="difdepo:persons.xml#jj">
+                  <abbr>JJ</abbr>
+               </persName>, une perle dans <title ref="difdepo:titles.xml#littre">
+                  <persName ref="difdepo:persons.xml#littre">Littré</persName>
+               </title>, la définition du mot éclipse. Allez-y voir.</item>
+         </list>
+         <p>
+            <label type="rubrique">Bibliothèque oulipienne</label>
+         </p>
+         <list type="unordered">
+            <item>: <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> nous lit l'envoi de <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> 
+               <title ref="difdepo:titles.xml#oulipotages">Oulipotages</title>. Les textes plaisent, le titre moins. Ça fera le numéro 35.</item>
+            <item>: Distribution d'<title ref="difdepo:titles.xml#alexandreaugreffoir">Alexandre au greffoir</title>, n°29, de <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</item>
+         </list>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010290f/f3.highres" n="3"/>
+         <p>
+            <label type="rubrique">Guide</label>
+         </p>
+         <list type="unordered">
+            <item>: On convient d’aller au Moulin d’Andé à l’Ascension, du 8 au 11 mai 1986. <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> et <persName ref="difdepo:persons.xml#jj">
+                  <abbr>JJ</abbr>
+               </persName> vont constituer pour chacun un dossier des textes déjà réalisés. Il y en a un bon nombre.</item>
+         </list>
+         <p>
+            <label type="rubrique">Actions</label>
+         </p>
+         <list type="unordered">
+            <item>: <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> Interdact (<title ref="difdepo:titles.xml#invisibleseattle">Invisible Seattle</title>).</item>
+            <item>: <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> participe au <name ref="difdepo:events.xml#colloquescienceetlitterature" type="manif">colloque Science et Littérature</name>, à la <orgName ref="difdepo:organizations.xml#maisondessciencesdelhomme">Maison des Sciences de l’homme</orgName>.</item>
+            <item>: <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> a parlé de <persName ref="difdepo:persons.xml#calvino">Calvino</persName> et l’Oulipo, à Milan.</item>
+            <item>: <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> a des nouvelles de <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName>. <name ref="difdepo:events.xml#stageoulipo" type="manif">Stage Oulipo</name> probable pour Juillet.</item>
+            <item>: <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> raconte le stage de Tulle.</item>
+         </list>
+         <p>On a mangé du fromage de tete et un veau aux pruneaux difficilement égalable.</p>
+      </body>
   </text>
 </TEI>

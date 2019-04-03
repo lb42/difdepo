@@ -1,88 +1,186 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010170-1975-01-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010170-1975-01-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010170 pp. 2 à 2 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010170-1975-01-oj</idno> <title>Ordre de jour de <ref target="#t10010170-1975-01">la réunion Oulipo</ref> du <date when="1975-01-10">10 janvier 1975</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:38:15Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010170 pp. 2 à 2 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 10 janvier 1975</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010170-1975-01-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010170-1975-01">la réunion Oulipo</ref> du <date when="1975-01-10">10 janvier 1975</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:38:15Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101707/f2.highres" n="2"/>
-      <p rend="incipit">165ème séance 10 I 75</p>
-      <p><label type="rubrique">Création</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> – exemplaires</item>
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <list type="unordered">
-          <item>Lettres. <persName ref="difdepo:persons.xml#houedard">Houédard</persName></item>
-          <item><orgName ref="difdepo:organizations.xml#oulipopo">Oulipopo</orgName></item>
-          <item><title ref="difdepo:titles.xml#tabledequeneleiev">Table de Queneleiev</title></item>
-          <item><term ref="difdepo:terms.xml#definitiondeloulipo">Définition de l’Oulipo</term></item>
-          </list> </item>
-        <item><persName ref="difdepo:persons.xml#queval">Queval</persName> en menu propos</item>
-        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName></item>
-      </list>
-      <p><label type="rubrique">Érudition</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#queval">Queval</persName></item>
-        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></item>
-        <item><title ref="difdepo:titles.xml#almanachvermont">Almanach Vermont</title></item>
-      </list>
-      <p><label type="rubrique">Menus propos</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
-        <item>Rue de Lille<list type="unordered">
-          <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></item>
-          </list> </item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> Compte rendu du <name ref="difdepo:events.xml#congres" type="manif">congrès</name></item>
-      </list>
-      <p><label type="rubrique">Action</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <list type="unordered">
-          <item>Problème Secrétariat matérielle</item>
-          <item>Phynances</item>
-          <item>Dialogues <persName ref="difdepo:persons.xml#pillaudin">Pillaudin</persName>-<persName ref="difdepo:persons.xml#laine">Lainé</persName></item>
-          </list> </item>
-        <item><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
-      </list>
-      <p><label type="rubrique">Séquelles</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> <unclear>m5</unclear></item>
-        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <list type="unordered">
-          <item><unclear>Hamarch 5 Xh</unclear></item>
-          <item><title ref="difdepo:titles.xml#magazinelitteraire">Magazine Littéraire</title> <persName ref="difdepo:persons.xml#queneau">Queneau</persName></item>
-          <item><title ref="difdepo:titles.xml#nouvellelitteraire">Nouvelle littéraire</title> <persName ref="difdepo:persons.xml#fournel">Fournel</persName></item>
-          </list> </item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101707/f2.highres" n="2"/>
+         <p rend="incipit">165ème séance 10 I 75</p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName> – exemplaires</item>
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> 
+               <list type="unordered">
+                  <item>Lettres. <persName ref="difdepo:persons.xml#houedard">Houédard</persName>
+                  </item>
+                  <item>
+                     <orgName ref="difdepo:organizations.xml#oulipopo">Oulipopo</orgName>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#tabledequeneleiev">Table de Queneleiev</title>
+                  </item>
+                  <item>
+                     <term ref="difdepo:terms.xml#definitiondeloulipo">Définition de l’Oulipo</term>
+                  </item>
+               </list> 
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#queval">Queval</persName> en menu propos</item>
+            <item>
+               <persName ref="difdepo:persons.xml#gp">
+                  <abbr>GP</abbr>
+               </persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Érudition</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#queval">Queval</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>
+            </item>
+            <item>
+               <title ref="difdepo:titles.xml#almanachvermont">Almanach Vermont</title>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Menus propos</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName>
+            </item>
+            <item>Rue de Lille<list type="unordered">
+                  <item>
+                     <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+                  </item>
+               </list> 
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> Compte rendu du <name ref="difdepo:events.xml#congres" type="manif">congrès</name>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> 
+               <list type="unordered">
+                  <item>Problème Secrétariat matérielle</item>
+                  <item>Phynances</item>
+                  <item>Dialogues <persName ref="difdepo:persons.xml#pillaudin">Pillaudin</persName>-<persName ref="difdepo:persons.xml#laine">Lainé</persName>
+                  </item>
+               </list> 
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#gp">
+                  <abbr>GP</abbr>
+               </persName> 
+               <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Séquelles</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName> 
+               <unclear>m5</unclear>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName> 
+               <list type="unordered">
+                  <item>
+                     <unclear>Hamarch 5 Xh</unclear>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#magazinelitteraire">Magazine Littéraire</title> 
+                     <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#nouvellelitteraire">Nouvelle littéraire</title> 
+                     <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
+                  </item>
+               </list> 
+            </item>
+         </list>
+      </body>
   </text>
 </TEI>

@@ -1,84 +1,203 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010284-1985-08-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010284-1985-08-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010284 pp. 7 à 7 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010284-1985-08-oj</idno> <title>Ordre de jour de <ref target="#t10010284-1985-08">la réunion Oulipo</ref> du <date when="1985-08-23">23 août 1985</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-08-04T12:42:33Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010284 pp. 7 à 7 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 23 août 1985</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010284-1985-08-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010284-1985-08">la réunion Oulipo</ref> du <date when="1985-08-23">23 août 1985</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-08-04T12:42:33Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010284t/f7.highres" n="7"/>
-      <p rend="incipit">Oulipo</p>
-      <p rend="incipit">Ordre du jour</p>
-      <p rend="incipit">du 23-8-85</p>
-      <p rend="incipit">Présents <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> + <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> (en retard)</p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> – aucune nouvelle des autres !</p>
-      <p rend="incipit">Président <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> ; Secrétaire <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, Hôte <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>.</p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName></p>
-      <list type="unordered">
-        <item>Poème</item>
-        <item>14 = 15</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></p>
-      <list type="unordered">
-        <item>Chaîne</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> – <title ref="difdepo:titles.xml#pourquoi">Pourquoi</title></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> – <persName ref="difdepo:persons.xml#robertneverroust">Robert né Verroust</persName> (<term ref="difdepo:terms.xml#pangrammeminimal">Pangramme minimal</term>)</p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> – dégoulinade d’<term ref="difdepo:terms.xml#alexandrindelongueurvariable">Alexandrin de longueur variable</term></p>
-      <list type="unordered">
-        <item><term ref="difdepo:terms.xml#assonancesbabebines">assonances babébines</term></item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#queneau">Queneau</persName> – <persName ref="difdepo:persons.xml#lacan">Lacan</persName></p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Tulle – Publication – St. Quentin</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> C-RV <name ref="difdepo:events.xml#avignon" type="manif">Avignon</name></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <name ref="difdepo:events.xml#ande" type="manif">Andé</name> Septembre</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Archives</p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> – Etat des lieux</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#blavier">Blavier</persName></item>
-      </list>
-      <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> – Telé</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <unclear>E…</unclear> <persName ref="difdepo:persons.xml#perec">Perec</persName></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Photo <persName ref="difdepo:persons.xml#perec">Perec</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName></p>
-      <p>Guide <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> + <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p>Prochaine séance Samedi 28 septembre Limours</p>
-      <p>16 octobre <persName ref="difdepo:persons.xml#berge">Berge</persName></p>
-      <p>VSD 1-3 novembre <name ref="difdepo:events.xml#ande" type="manif">Andé</name></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010284t/f7.highres" n="7"/>
+         <p rend="incipit">Oulipo</p>
+         <p rend="incipit">Ordre du jour</p>
+         <p rend="incipit">du 23-8-85</p>
+         <p rend="incipit">Présents <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> + <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> (en retard)</p>
+         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName> – aucune nouvelle des autres !</p>
+         <p rend="incipit">Président <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> ; Secrétaire <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, Hôte <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>.</p>
+         <p>
+            <label type="rubrique">Création</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>
+         </p>
+         <list type="unordered">
+            <item>Poème</item>
+            <item>14 = 15</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>
+         </p>
+         <list type="unordered">
+            <item>Chaîne</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> – <title ref="difdepo:titles.xml#pourquoi">Pourquoi</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> – <persName ref="difdepo:persons.xml#robertneverroust">Robert né Verroust</persName> (<term ref="difdepo:terms.xml#pangrammeminimal">Pangramme minimal</term>)</p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> – dégoulinade d’<term ref="difdepo:terms.xml#alexandrindelongueurvariable">Alexandrin de longueur variable</term>
+         </p>
+         <list type="unordered">
+            <item>
+               <term ref="difdepo:terms.xml#assonancesbabebines">assonances babébines</term>
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> – <persName ref="difdepo:persons.xml#lacan">Lacan</persName>
+         </p>
+         <p>
+            <label type="rubrique">Action</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> Tulle – Publication – St. Quentin</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName> C-RV <name ref="difdepo:events.xml#avignon" type="manif">Avignon</name>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <name ref="difdepo:events.xml#ande" type="manif">Andé</name> Septembre</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> Archives</p>
+         <p>
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> – Etat des lieux</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#blavier">Blavier</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">Menus propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> – Telé</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <unclear>E…</unclear> 
+            <persName ref="difdepo:persons.xml#perec">Perec</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> Photo <persName ref="difdepo:persons.xml#perec">Perec</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName>
+         </p>
+         <p>Guide <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> + <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>
+         </p>
+         <p>Prochaine séance Samedi 28 septembre Limours</p>
+         <p>16 octobre <persName ref="difdepo:persons.xml#berge">Berge</persName>
+         </p>
+         <p>VSD 1-3 novembre <name ref="difdepo:events.xml#ande" type="manif">Andé</name>
+         </p>
+      </body>
   </text>
 </TEI>

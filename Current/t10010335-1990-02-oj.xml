@@ -1,79 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010335-1990-02-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010335-1990-02-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010335 pp. 18 à 18 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#heleneguitton">Hélène Guitton</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010335-1990-02-oj</idno> <title>Ordre de jour de <ref target="#t10010335-1990-02">la réunion Oulipo</ref> du <date when="1990-02-19">19 février 1990</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-08">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010335 pp. 18 à 18 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 19 février 1990</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#heleneguitton">Hélène Guitton</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010335-1990-02-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010335-1990-02">la réunion Oulipo</ref> du <date when="1990-02-19">19 février 1990</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-08">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010335k/f18.highres" n="18"/>
-      <p rend="incipit">Séance du 19 février 1990</p>
-      <p rend="incipit">Ordre du jour :</p>
-      <p rend="incipit">- Contrôle des présences</p>
-      <p><label type="rubrique">- Création</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> <title ref="difdepo:titles.xml#bobo">Bobo</title></item>
-        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> <title ref="difdepo:titles.xml#varvachequirit">Var + Vache qui rit</title></item>
-        <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> <title ref="difdepo:titles.xml#lamourapeage">L’amour à péage</title></item>
-        <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> Conjecture de <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-      </list>
-      <p><label type="rubrique">- Erudition</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> <term ref="difdepo:terms.xml#palindrome"><unclear>Palindrome</unclear></term></item>
-        <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> <list type="unordered">
-          <item><title ref="difdepo:titles.xml#naitre">Naître</title></item>
-          <item><title ref="difdepo:titles.xml#awalterratsasset">A Walter Rat’s asset</title></item>
-          <item><title ref="difdepo:titles.xml#nichanian"><unclear>Nichanian</unclear></title></item>
-          <item><title ref="difdepo:titles.xml#plauert"><unclear>Plauert</unclear></title></item>
-          </list> </item>
-        <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> <title ref="difdepo:titles.xml#centanagrammes">Cent anagrammes</title></item>
-      </list>
-      <p><label type="rubrique">- Action</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> <list type="unordered">
-          <item>Bibliothèque oulipienne vendredi soir</item>
-          <item>Créteil</item>
-          <item><orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName></item>
-          <item>Naples</item>
-          <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> et la ville ?</item>
-          </list> </item>
-        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <orgName ref="difdepo:organizations.xml#oucuipo">Oucuipo</orgName></item>
-      </list>
-      <p><label type="rubrique">- Menu-propos</label></p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> Ingold</item>
-        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <unclear>Secrétaire de <persName ref="difdepo:persons.xml#q_">Q</persName></unclear></item>
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> Petit propos oulipien</item>
-        <item><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <unclear>107 à ???</unclear></item>
-        <item><orgName ref="difdepo:organizations.xml#oupsypo">Oupsypo</orgName> + Chicago</item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010335k/f18.highres"
+             n="18"/>
+         <p rend="incipit">Séance du 19 février 1990</p>
+         <p rend="incipit">Ordre du jour :</p>
+         <p rend="incipit">- Contrôle des présences</p>
+         <p>
+            <label type="rubrique">- Création</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 
+               <title ref="difdepo:titles.xml#bobo">Bobo</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fc">François Caradec</persName> 
+               <title ref="difdepo:titles.xml#varvachequirit">Var + Vache qui rit</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> 
+               <title ref="difdepo:titles.xml#lamourapeage">L’amour à péage</title>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> Conjecture de <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">- Erudition</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> 
+               <term ref="difdepo:terms.xml#palindrome">
+                  <unclear>Palindrome</unclear>
+               </term>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> 
+               <list type="unordered">
+                  <item>
+                     <title ref="difdepo:titles.xml#naitre">Naître</title>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#awalterratsasset">A Walter Rat’s asset</title>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#nichanian">
+                        <unclear>Nichanian</unclear>
+                     </title>
+                  </item>
+                  <item>
+                     <title ref="difdepo:titles.xml#plauert">
+                        <unclear>Plauert</unclear>
+                     </title>
+                  </item>
+               </list> 
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> 
+               <title ref="difdepo:titles.xml#centanagrammes">Cent anagrammes</title>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">- Action</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 
+               <list type="unordered">
+                  <item>Bibliothèque oulipienne vendredi soir</item>
+                  <item>Créteil</item>
+                  <item>
+                     <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName>
+                  </item>
+                  <item>Naples</item>
+                  <item>
+                     <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et la ville ?</item>
+               </list> 
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> 
+               <orgName ref="difdepo:organizations.xml#oucuipo">Oucuipo</orgName>
+            </item>
+         </list>
+         <p>
+            <label type="rubrique">- Menu-propos</label>
+         </p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName> Ingold</item>
+            <item>
+               <persName ref="difdepo:persons.xml#mm">
+                  <abbr>MM</abbr>
+               </persName> 
+               <unclear>Secrétaire de <persName ref="difdepo:persons.xml#q_">Q</persName>
+               </unclear>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> Petit propos oulipien</item>
+            <item>
+               <persName ref="difdepo:persons.xml#jj">
+                  <abbr>JJ</abbr>
+               </persName> 
+               <unclear>107 à ???</unclear>
+            </item>
+            <item>
+               <orgName ref="difdepo:organizations.xml#oupsypo">Oupsypo</orgName> + Chicago</item>
+         </list>
+      </body>
   </text>
 </TEI>

@@ -1,129 +1,315 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010249-1982-04-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010249-1982-04-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010249 pp. 10 à 11 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010249-1982-04-cr</idno> <meeting xml:id="t10010249-1982-04">
-          <date when="1982-04-23">23 avril 1982</date>
-          <placeName>chez PF</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:40:22Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010249 pp. 10 à 11 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 23 avril 1982</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010249-1982-04-cr</idno> 
+               <meeting xml:id="t10010249-1982-04">
+                  <date when="1982-04-23">23 avril 1982</date>
+                  <placeName>chez PF</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:40:22Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010249d/f10.highres" n="10"/>
-      <p rend="incipit">OULIPO du 23-4-82 chez <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName></p>
-      <list type="unordered">
-        <item>Présents : <persName ref="difdepo:persons.xml#na"><abbr>N.A</abbr></persName> président, <persName ref="difdepo:persons.xml#cb"><abbr>C.B.</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>J.R.</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>P.B</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName></item>
-        <item>Excusés : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>. , <persName ref="difdepo:persons.xml#jl"><abbr>J.L</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>M.M.</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>H.M.</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName></item>
-        <item>Inexcusable : <persName ref="difdepo:persons.xml#icalvino">I. Calvino</persName>, <persName ref="difdepo:persons.xml#jd"><abbr>J.D</abbr></persName> (excuses tardives)</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName> lit lettres d’excuses</p>
-      <list type="unordered">
-        <item>de <persName ref="difdepo:persons.xml#blavier">Blavier</persName> : sur <name ref="difdepo:events.xml#colloquequeneau" type="manif">colloque Queneau</name> Verviers fin août</item>
-        <item><persName ref="difdepo:persons.xml#jmraynaud">J.M Raynaud</persName> : tristesse sur la mort de <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>P.B.</abbr></persName> Création : utilisation du module 96</p>
-      <p>12 thèmes correspondant aux 12 générateurs. En hommage à <persName ref="difdepo:persons.xml#georges"><abbr>Georges</abbr></persName> (<title ref="difdepo:titles.xml#apercegorgees">A perce-gorgées</title>)</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName> <title ref="difdepo:titles.xml#tireuralaligne">Tireur à la ligne</title> stylée : combinaison de <title ref="difdepo:titles.xml#tireuralaligne">Tireur à la ligne</title> et d’<title ref="difdepo:titles.xml#exercicedestyle">Exercice de style</title></p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>L.E.</abbr></persName> : Hommage à <persName ref="difdepo:persons.xml#perec">Perec</persName> : <term ref="difdepo:terms.xml#acrostichedouble">acrostiche double</term> sur <term ref="difdepo:terms.xml#palindromelipogrammatiquemonovocalique">palindrome lipogrammatique monovocalique</term> et <term ref="difdepo:terms.xml#triconsonantique">triconsonantique</term> (PRCE) avec alternance V-C.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> (au téléphone)</p>
-      <p><persName ref="difdepo:persons.xml#emmanuelamiot">Emmanuel Amiot</persName> : x raconte à y l’histoire de z</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName> Création :</p>
-      <list type="unordered">
-        <item><title ref="difdepo:titles.xml#conteavotrefacon">Conte à votre façon</title> à l’envers</item>
-        <item><title ref="difdepo:titles.xml#histoireromaineetoulipo">Histoire romaine et Oulipo</title></item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>C.B.</abbr></persName> Eoderdrome <unclear>soluce</unclear> and sad science sins</p>
-      <p>– <persName ref="difdepo:persons.xml#garybloom">Gary Bloom</persName> City College of the CUNY NY 10031</p>
-      <p>Invité d’honneur pour septembre</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName> Lettre de <persName ref="difdepo:persons.xml#bleclerc">B. Leclerc</persName> (stagiaire de l’Oulipo en avril) qui propose de faire une <unclear>entration</unclear> mathématique.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>J.R.</abbr></persName> Compte-rendu du <name ref="difdepo:events.xml#stagedevilleneuve" type="manif">stage de Villeneuve</name></p>
-      <p>Contrainte :</p>
-      <list type="unordered">
-        <item>autant de consonnes que de voyelles</item>
-        <item>la <term ref="difdepo:terms.xml#contraintedudyslexique">contrainte du dyslexique</term> (on considère certaines lettres comme équivalentes)</item>
-        <item>la <term ref="difdepo:terms.xml#liberationduprisonnier">libération du prisonnier</term></item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>P.B.</abbr></persName> Suggère de fusionner les dossiers concernant les <name ref="difdepo:events.xml#stages" type="manif">stages</name></p>
-      <p><name ref="difdepo:events.xml#stage" type="manif">Stage</name> Juillet 19 au 24 juillet : <unclear>disipient</unclear> : <persName ref="difdepo:persons.xml#jr"><abbr>J.R.</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>P.B.</abbr></persName> permanents +passagers <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. <persName ref="difdepo:persons.xml#na"><abbr>N.A.</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>. <persName ref="difdepo:persons.xml#cb"><abbr>C.B.</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>P.B.</abbr></persName> annonce son passage à Toulouse</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010249d/f11.highres" n="11"/>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName> :</p>
-      <list type="unordered">
-        <item><name ref="difdepo:events.xml#oulipogalaxie" type="manif">Oulipo Galaxie</name> : expo Perec et Oulipo : très bien faite.</item>
-        <item>retombées du <name ref="difdepo:events.xml#stagedamiens" type="manif">stage d’Amiens</name></item>
-      </list>
-      <p>Lettres d’<persName ref="difdepo:persons.xml#annieharleauxfaury">Annie Harleaux-Faury</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName></p>
-      <list type="unordered">
-        <item>Perec-Traces</item>
-        <item>Perec-Alvaye d’accord pour le 2 décembre <name ref="difdepo:events.xml#lectureperec" type="manif">Lecture Perec</name></item>
-        <item>Oulipo-Arc-en-ciel</item>
-        <item>Affaire de la rue de Lille</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>J.R.</abbr></persName> Présente le compte-rendu de l’<title ref="difdepo:titles.xml#atlas">Atlas</title> par <persName ref="difdepo:persons.xml#ziegelmeyer">Ziegelmeyer</persName> dans <title ref="difdepo:titles.xml#plainchant">Plain-Chant</title></p>
-      <p><persName ref="difdepo:persons.xml#na"><abbr>N.A.</abbr></persName> <name ref="difdepo:events.xml#oulipocerisy" type="manif">Oulipo-Cerisy</name></p>
-      <list type="unordered">
-        <item>Organisation : un directeur d’atelier par jour</item>
-        <item>Répartition des journées pour lectures conférences-atelier</item>
-        <item>Programme établi (par <persName ref="difdepo:persons.xml#na"><abbr>N.A.</abbr></persName>) août 83 :</item>
-        <item>Historique. <persName ref="difdepo:persons.xml#na"><abbr>N.A.</abbr></persName></item>
-        <item>Théorique. <persName ref="difdepo:persons.xml#jr"><abbr>J.R</abbr></persName></item>
-        <item>Combinatoire <persName ref="difdepo:persons.xml#cb"><abbr>C.B.</abbr></persName></item>
-        <item>Informatique <persName ref="difdepo:persons.xml#pb"><abbr>P.B.</abbr></persName></item>
-        <item>Contraintes locales <persName ref="difdepo:persons.xml#jb"><abbr>J.B.</abbr></persName></item>
-        <item>Contraintes globales <persName ref="difdepo:persons.xml#mb"><abbr>M.B.</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#perec">Perec</persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> <unclear>Mark Elevan</unclear> <persName ref="difdepo:persons.xml#pf"><abbr>P.F</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#calvino">Calvino</persName> <persName ref="difdepo:persons.xml#ic"><abbr>I.C.</abbr></persName></item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>P.B.</abbr></persName> -Europe. <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <list type="unordered">
-        <item>le 18 est prêt (<persName ref="difdepo:persons.xml#braffort">Braffort</persName>)</item>
-        <item>Le 19 est réalisée.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#zerbi">Zerbi</persName> (présent au café) : exposé sur la 3<hi rend="sup">e</hi> partie de <title ref="difdepo:titles.xml#moraleelementaire">Morale élémentaire</title>.</p>
-      <p>3 sens parallèles dans chaque poème :</p>
-      <list type="ordered">
-        <item>Commentaire du <title ref="difdepo:titles.xml#yiking">Yi King</title></item>
-        <item>Autobiographie personnelle</item>
-        <item>Autobiographie littéraire</item>
-      </list>
-      <p>La possibilité de ces 3 sens sur l’utilisation de mots polysémiques, l’homonymie</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010249d/f10.highres"
+             n="10"/>
+         <p rend="incipit">OULIPO du 23-4-82 chez <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName>
+         </p>
+         <list type="unordered">
+            <item>Présents : <persName ref="difdepo:persons.xml#na">
+                  <abbr>N.A</abbr>
+               </persName> président, <persName ref="difdepo:persons.xml#cb">
+                  <abbr>C.B.</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#jr">
+                  <abbr>J.R.</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#pf">
+                  <abbr>P.F.</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#pb">
+                  <abbr>P.B</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#mb">
+                  <abbr>M.B.</abbr>
+               </persName>
+            </item>
+            <item>Excusés : <persName ref="difdepo:persons.xml#jb">
+                  <abbr>JB</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#jd">
+                  <abbr>JD</abbr>
+               </persName>. , <persName ref="difdepo:persons.xml#jl">
+                  <abbr>J.L</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#fll">
+                  <abbr>FLL</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#mm">
+                  <abbr>M.M.</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#hm">
+                  <abbr>H.M.</abbr>
+               </persName>, <persName ref="difdepo:persons.xml#jq">
+                  <abbr>J.Q.</abbr>
+               </persName>
+            </item>
+            <item>Inexcusable : <persName ref="difdepo:persons.xml#icalvino">I. Calvino</persName>, <persName ref="difdepo:persons.xml#jd">
+                  <abbr>J.D</abbr>
+               </persName> (excuses tardives)</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName> lit lettres d’excuses</p>
+         <list type="unordered">
+            <item>de <persName ref="difdepo:persons.xml#blavier">Blavier</persName> : sur <name ref="difdepo:events.xml#colloquequeneau" type="manif">colloque Queneau</name> Verviers fin août</item>
+            <item>
+               <persName ref="difdepo:persons.xml#jmraynaud">J.M Raynaud</persName> : tristesse sur la mort de <persName ref="difdepo:persons.xml#gp">
+                  <abbr>GP</abbr>
+               </persName>.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>P.B.</abbr>
+            </persName> Création : utilisation du module 96</p>
+         <p>12 thèmes correspondant aux 12 générateurs. En hommage à <persName ref="difdepo:persons.xml#georges">
+               <abbr>Georges</abbr>
+            </persName> (<title ref="difdepo:titles.xml#apercegorgees">A perce-gorgées</title>)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName> 
+            <title ref="difdepo:titles.xml#tireuralaligne">Tireur à la ligne</title> stylée : combinaison de <title ref="difdepo:titles.xml#tireuralaligne">Tireur à la ligne</title> et d’<title ref="difdepo:titles.xml#exercicedestyle">Exercice de style</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#le">
+               <abbr>L.E.</abbr>
+            </persName> : Hommage à <persName ref="difdepo:persons.xml#perec">Perec</persName> : <term ref="difdepo:terms.xml#acrostichedouble">acrostiche double</term> sur <term ref="difdepo:terms.xml#palindromelipogrammatiquemonovocalique">palindrome lipogrammatique monovocalique</term> et <term ref="difdepo:terms.xml#triconsonantique">triconsonantique</term> (PRCE) avec alternance V-C.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> (au téléphone)</p>
+         <p>
+            <persName ref="difdepo:persons.xml#emmanuelamiot">Emmanuel Amiot</persName> : x raconte à y l’histoire de z</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>M.B.</abbr>
+            </persName> Création :</p>
+         <list type="unordered">
+            <item>
+               <title ref="difdepo:titles.xml#conteavotrefacon">Conte à votre façon</title> à l’envers</item>
+            <item>
+               <title ref="difdepo:titles.xml#histoireromaineetoulipo">Histoire romaine et Oulipo</title>
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>C.B.</abbr>
+            </persName> Eoderdrome <unclear>soluce</unclear> and sad science sins</p>
+         <p>– <persName ref="difdepo:persons.xml#garybloom">Gary Bloom</persName> City College of the CUNY NY 10031</p>
+         <p>Invité d’honneur pour septembre</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName> Lettre de <persName ref="difdepo:persons.xml#bleclerc">B. Leclerc</persName> (stagiaire de l’Oulipo en avril) qui propose de faire une <unclear>entration</unclear> mathématique.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>J.R.</abbr>
+            </persName> Compte-rendu du <name ref="difdepo:events.xml#stagedevilleneuve" type="manif">stage de Villeneuve</name>
+         </p>
+         <p>Contrainte :</p>
+         <list type="unordered">
+            <item>autant de consonnes que de voyelles</item>
+            <item>la <term ref="difdepo:terms.xml#contraintedudyslexique">contrainte du dyslexique</term> (on considère certaines lettres comme équivalentes)</item>
+            <item>la <term ref="difdepo:terms.xml#liberationduprisonnier">libération du prisonnier</term>
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>P.B.</abbr>
+            </persName> Suggère de fusionner les dossiers concernant les <name ref="difdepo:events.xml#stages" type="manif">stages</name>
+         </p>
+         <p>
+            <name ref="difdepo:events.xml#stage" type="manif">Stage</name> Juillet 19 au 24 juillet : <unclear>disipient</unclear> : <persName ref="difdepo:persons.xml#jr">
+               <abbr>J.R.</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>M.B.</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>P.B.</abbr>
+            </persName> permanents +passagers <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#na">
+               <abbr>N.A.</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#cb">
+               <abbr>C.B.</abbr>
+            </persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>P.B.</abbr>
+            </persName> annonce son passage à Toulouse</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010249d/f11.highres"
+             n="11"/>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName> :</p>
+         <list type="unordered">
+            <item>
+               <name ref="difdepo:events.xml#oulipogalaxie" type="manif">Oulipo Galaxie</name> : expo Perec et Oulipo : très bien faite.</item>
+            <item>retombées du <name ref="difdepo:events.xml#stagedamiens" type="manif">stage d’Amiens</name>
+            </item>
+         </list>
+         <p>Lettres d’<persName ref="difdepo:persons.xml#annieharleauxfaury">Annie Harleaux-Faury</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>M.B.</abbr>
+            </persName>
+         </p>
+         <list type="unordered">
+            <item>Perec-Traces</item>
+            <item>Perec-Alvaye d’accord pour le 2 décembre <name ref="difdepo:events.xml#lectureperec" type="manif">Lecture Perec</name>
+            </item>
+            <item>Oulipo-Arc-en-ciel</item>
+            <item>Affaire de la rue de Lille</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>J.R.</abbr>
+            </persName> Présente le compte-rendu de l’<title ref="difdepo:titles.xml#atlas">Atlas</title> par <persName ref="difdepo:persons.xml#ziegelmeyer">Ziegelmeyer</persName> dans <title ref="difdepo:titles.xml#plainchant">Plain-Chant</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#na">
+               <abbr>N.A.</abbr>
+            </persName> 
+            <name ref="difdepo:events.xml#oulipocerisy" type="manif">Oulipo-Cerisy</name>
+         </p>
+         <list type="unordered">
+            <item>Organisation : un directeur d’atelier par jour</item>
+            <item>Répartition des journées pour lectures conférences-atelier</item>
+            <item>Programme établi (par <persName ref="difdepo:persons.xml#na">
+                  <abbr>N.A.</abbr>
+               </persName>) août 83 :</item>
+            <item>Historique. <persName ref="difdepo:persons.xml#na">
+                  <abbr>N.A.</abbr>
+               </persName>
+            </item>
+            <item>Théorique. <persName ref="difdepo:persons.xml#jr">
+                  <abbr>J.R</abbr>
+               </persName>
+            </item>
+            <item>Combinatoire <persName ref="difdepo:persons.xml#cb">
+                  <abbr>C.B.</abbr>
+               </persName>
+            </item>
+            <item>Informatique <persName ref="difdepo:persons.xml#pb">
+                  <abbr>P.B.</abbr>
+               </persName>
+            </item>
+            <item>Contraintes locales <persName ref="difdepo:persons.xml#jb">
+                  <abbr>J.B.</abbr>
+               </persName>
+            </item>
+            <item>Contraintes globales <persName ref="difdepo:persons.xml#mb">
+                  <abbr>M.B.</abbr>
+               </persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#perec">Perec</persName> 
+               <persName ref="difdepo:persons.xml#hm">
+                  <abbr>HM</abbr>
+               </persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#queneau">Queneau</persName> 
+               <unclear>Mark Elevan</unclear> 
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>P.F</abbr>
+               </persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#calvino">Calvino</persName> 
+               <persName ref="difdepo:persons.xml#ic">
+                  <abbr>I.C.</abbr>
+               </persName>
+            </item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>P.B.</abbr>
+            </persName> -Europe. <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>P.F.</abbr>
+            </persName> 
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+         <list type="unordered">
+            <item>le 18 est prêt (<persName ref="difdepo:persons.xml#braffort">Braffort</persName>)</item>
+            <item>Le 19 est réalisée.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#zerbi">Zerbi</persName> (présent au café) : exposé sur la 3<hi rend="sup">e</hi> partie de <title ref="difdepo:titles.xml#moraleelementaire">Morale élémentaire</title>.</p>
+         <p>3 sens parallèles dans chaque poème :</p>
+         <list type="ordered">
+            <item>Commentaire du <title ref="difdepo:titles.xml#yiking">Yi King</title>
+            </item>
+            <item>Autobiographie personnelle</item>
+            <item>Autobiographie littéraire</item>
+         </list>
+         <p>La possibilité de ces 3 sens sur l’utilisation de mots polysémiques, l’homonymie</p>
+      </body>
   </text>
 </TEI>

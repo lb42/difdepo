@@ -1,49 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010275-1984-10-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010275-1984-10-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010275 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010275-1984-10-cv</idno> <title>Convocation à <ref target="#t10010275-1984-10">une réunion Oulipo</ref>, envoyée le <date when="1984-10-02">2 octobre 1984</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:41:27Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010275 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 2 octobre 1984</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010275-1984-10-cv</idno> 
+               <title>Convocation à <ref target="#t10010275-1984-10">une réunion Oulipo</ref>, envoyée le <date when="1984-10-02">2 octobre 1984</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:41:27Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010275v/f1.highres" n="1"/>
-      <p rend="incipit">Oulipo</p>
-      <p rend="incipit">Le 2 octobre 84</p>
-      <p rend="incipit">Oulipiens,</p>
-      <p>N’oubliez pas le <name ref="difdepo:events.xml#congresannueldelouvroir" type="manif">congrès annuel de l’Ouvroir</name>. Il aura lieu sur l’eau au Moulin d’Andé le 13 et 14 octobre prochains.</p>
-      <p>En principe l’arrivée est prévue le 12 au soir mais pour des raisons de réservation de chambres, il est plus sûr de téléphoner à <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> sur 361.40.39 avant de prendre décision.</p>
-      <p>Merci à tous et au <name ref="difdepo:events.xml#congres" type="manif">congrès</name>,</p>
-      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
-      <p>PS. Résonant avec une tradition sublime vous trouvez ci-joint un compte-rendu de la réunion du 21 septembre 84. Il est l’œuvre de <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010275v/f1.highres" n="1"/>
+         <p rend="incipit">Oulipo</p>
+         <p rend="incipit">Le 2 octobre 84</p>
+         <p rend="incipit">Oulipiens,</p>
+         <p>N’oubliez pas le <name ref="difdepo:events.xml#congresannueldelouvroir" type="manif">congrès annuel de l’Ouvroir</name>. Il aura lieu sur l’eau au Moulin d’Andé le 13 et 14 octobre prochains.</p>
+         <p>En principe l’arrivée est prévue le 12 au soir mais pour des raisons de réservation de chambres, il est plus sûr de téléphoner à <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> sur 361.40.39 avant de prendre décision.</p>
+         <p>Merci à tous et au <name ref="difdepo:events.xml#congres" type="manif">congrès</name>,</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paul">
+               <abbr>Paul</abbr>
+            </persName>
+         </p>
+         <p>PS. Résonant avec une tradition sublime vous trouvez ci-joint un compte-rendu de la réunion du 21 septembre 84. Il est l’œuvre de <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>.</p>
+      </body>
   </text>
 </TEI>

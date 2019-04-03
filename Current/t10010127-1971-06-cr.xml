@@ -1,75 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010127-1971-06-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010127-1971-06-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010127 pp. 3 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010127-1971-06-cr</idno> <meeting xml:id="t10010127-1971-06">
-          <date when="1971-06-01">1ᵉʳ juin 1971</date>
-          <placeName>chez François Le Lionnais</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#ab">André Blavier</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#latis">Latis</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-10-23">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010127 pp. 3 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 1ᵉʳ juin 1971</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010127-1971-06-cr</idno> 
+               <meeting xml:id="t10010127-1971-06">
+                  <date when="1971-06-01">1ᵉʳ juin 1971</date>
+                  <placeName>chez François Le Lionnais</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#ab">André Blavier</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#latis">Latis</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-10-23">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101279/f3.highres" n="3"/>
-      <p rend="incipit">OULIPO</p>
-      <p>Séance du 1 Juin 1971 à 11 h.</p>
-      <p>Présents : <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>, <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#andrepolavier">André Polavier</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
-      <p>Excusés : <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchâteau</persName>, <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></p>
-      <p>Invité d’honneur : <persName ref="difdepo:persons.xml#jeantardieu">Jean Tardieu</persName></p>
-      <p>Madame Tyman, universitaire canadienne, assiste à la réunion précédant le repas.</p>
-      <p>Communications et travaux :</p>
-      <p><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>  : Néologismes abstraits (<persName ref="difdepo:persons.xml#gorwell">G. Orwell</persName>).</p>
-      <p>Création : Sonnet multiple.</p>
-      <p><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> : Érudition : « Ave Maria » (Grand Larousse du XIXème siècle)</p>
-      <p><label>Création : Poème en tête-à-queue – <term ref="difdepo:terms.xml#haikaisation">Haïkaïsation</term></label></p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> : Menus propos et badineries</p>
-      <p><persName ref="difdepo:persons.xml#ab">André Blavier</persName> : Érudition : Poème alphabétique de <persName ref="difdepo:persons.xml#philipert">Philipert</persName></p>
-      <p><persName ref="difdepo:persons.xml#audebrand">Audebrand</persName> : Au bout de six mois – Les devoirs du mariage.</p>
-      <p><persName ref="difdepo:persons.xml#guypatindemery">Guy Patin d’Emery</persName> : Les dégringoleurs de pantes (avec un a) 1904</p>
-      <p><persName ref="difdepo:persons.xml#latis">Latis</persName> : Communication administrative et phynancière.</p>
-      <p>Spectacle recommandé <date>Samedi à 15 heures</date>, 16 bis rue Lauriston :films de <persName ref="difdepo:persons.xml#chaval">Chaval</persName></p>
-      <p><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName> : Icogramme.</p>
-      <p>Le président de séance</p>
-      <p>L. Etienne</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101279/f3.highres" n="3"/>
+         <p rend="incipit">OULIPO</p>
+         <p>Séance du 1 Juin 1971 à 11 h.</p>
+         <p>Présents : <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>, <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#andrepolavier">André Polavier</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
+         <p>Excusés : <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchâteau</persName>, <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
+         </p>
+         <p>Invité d’honneur : <persName ref="difdepo:persons.xml#jeantardieu">Jean Tardieu</persName>
+         </p>
+         <p>Madame Tyman, universitaire canadienne, assiste à la réunion précédant le repas.</p>
+         <p>Communications et travaux :</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>  : Néologismes abstraits (<persName ref="difdepo:persons.xml#gorwell">G. Orwell</persName>).</p>
+         <p>Création : Sonnet multiple.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> : Érudition : « Ave Maria » (Grand Larousse du XIXème siècle)</p>
+         <p>
+            <label>Création : Poème en tête-à-queue – <term ref="difdepo:terms.xml#haikaisation">Haïkaïsation</term>
+            </label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> : Menus propos et badineries</p>
+         <p>
+            <persName ref="difdepo:persons.xml#ab">André Blavier</persName> : Érudition : Poème alphabétique de <persName ref="difdepo:persons.xml#philipert">Philipert</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#audebrand">Audebrand</persName> : Au bout de six mois – Les devoirs du mariage.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#guypatindemery">Guy Patin d’Emery</persName> : Les dégringoleurs de pantes (avec un a) 1904</p>
+         <p>
+            <persName ref="difdepo:persons.xml#latis">Latis</persName> : Communication administrative et phynancière.</p>
+         <p>Spectacle recommandé <date>Samedi à 15 heures</date>, 16 bis rue Lauriston :films de <persName ref="difdepo:persons.xml#chaval">Chaval</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName> : Icogramme.</p>
+         <p>Le président de séance</p>
+         <p>L. Etienne</p>
+      </body>
   </text>
 </TEI>

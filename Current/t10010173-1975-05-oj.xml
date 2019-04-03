@@ -1,62 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010173-1975-05-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010173-1975-05-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010173 pp. 2 à 2 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010173-1975-05-oj</idno> <title>Ordre de jour de <ref target="#t10010173-1975-05">la réunion Oulipo</ref> de <date when="1975-05-16">16 mai 1975</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-23" who="HCC">nettoyage des dollars in text</change>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:27:34Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010173 pp. 2 à 2 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 16 mai 1975</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010173-1975-05-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010173-1975-05">la réunion Oulipo</ref> de <date when="1975-05-16">16 mai 1975</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-23" who="HCC">nettoyage des dollars in text</change>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:27:34Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010173k/f2.highres" n="2"/>
-      <p rend="incipit">OULIPO / 16.5.75 / 167° réunion</p>
-      <p rend="incipit">Ordre du Jour</p>
-      <p><label type="rubrique">Création divers<note n="1" resp="editor">Les éléments de chaque rubrique de cette page ont été biffés</note></label></p>
-      <p><title ref="difdepo:titles.xml#tabledequeneleiev">Table de Queneleiev</title> <persName ref="difdepo:persons.xml#braffort">Braffort</persName> tout à l’heure <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></p>
-      <p><title ref="difdepo:titles.xml#tablederoubaud">Table de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></title></p>
-      <p>Diffusion <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></p>
-      <p><label type="rubrique">Action menus propos</label></p>
-      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> N°2</p>
-      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> N°3</p>
-      <p>diffusion <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> N°1</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <term ref="difdepo:terms.xml#ouliponavov">ouliponavov</term> Candidature</p>
-      <p>* <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name> <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> <persName ref="difdepo:persons.xml#billy">Billy</persName></p>
-      <p>* <persName ref="difdepo:persons.xml#queneau">Queneau</persName> <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name> : <persName ref="difdepo:persons.xml#frenaud">Frenaud</persName></p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><term ref="difdepo:terms.xml#noneruditioninterne">non érudition interne</term> <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
-      <p><term ref="difdepo:terms.xml#eruditionexterne">érudition externe</term></p>
-      <p><persName ref="difdepo:persons.xml#pontusdetyard">Pontus de Tyard</persName> <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></p>
-      <p><title ref="difdepo:titles.xml#exprimass">Exprimass</title> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
-      <p><term ref="difdepo:terms.xml#versfiligranes">vers filigranes</term> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#michellaclos">Michel Laclos</persName></p>
-      <p>Excusés Prochaines séances</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010173k/f2.highres" n="2"/>
+         <p rend="incipit">OULIPO / 16.5.75 / 167° réunion</p>
+         <p rend="incipit">Ordre du Jour</p>
+         <p>
+            <label type="rubrique">Création divers<note n="1" resp="editor">Les éléments de chaque rubrique de cette page ont été biffés</note>
+            </label>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#tabledequeneleiev">Table de Queneleiev</title> 
+            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> tout à l’heure <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#tablederoubaud">Table de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
+            </title>
+         </p>
+         <p>Diffusion <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> 
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Action menus propos</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#perec">Perec</persName> 
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> N°2</p>
+         <p>
+            <persName ref="difdepo:persons.xml#perec">Perec</persName> 
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> N°3</p>
+         <p>diffusion <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> N°1</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <term ref="difdepo:terms.xml#ouliponavov">ouliponavov</term> Candidature</p>
+         <p>* <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name> 
+            <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#billy">Billy</persName>
+         </p>
+         <p>* <persName ref="difdepo:persons.xml#queneau">Queneau</persName> 
+            <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name> : <persName ref="difdepo:persons.xml#frenaud">Frenaud</persName>
+         </p>
+         <p>
+            <label type="rubrique">Erudition</label>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#noneruditioninterne">non érudition interne</term> 
+            <persName ref="difdepo:persons.xml#queval">Queval</persName>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#eruditionexterne">érudition externe</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pontusdetyard">Pontus de Tyard</persName> 
+            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
+         </p>
+         <p>
+            <title ref="difdepo:titles.xml#exprimass">Exprimass</title> 
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#versfiligranes">vers filigranes</term> 
+            <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#michellaclos">Michel Laclos</persName>
+         </p>
+         <p>Excusés Prochaines séances</p>
+      </body>
   </text>
 </TEI>

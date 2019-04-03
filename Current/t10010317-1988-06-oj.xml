@@ -1,74 +1,181 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010317-1988-06-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010317-1988-06-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010317 pp. 2 à 2 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010317-1988-06-oj</idno> <title>Ordre de jour de <ref target="#t10010317-1988-06">la réunion Oulipo</ref> du <date when="1988-06-24">24 juin 1988</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:38:21Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010317 pp. 2 à 2 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 24 juin 1988</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010317-1988-06-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010317-1988-06">la réunion Oulipo</ref> du <date when="1988-06-24">24 juin 1988</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:38:21Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010317n/f2.highres" n="2"/>
-      <p rend="incipit">OULIPO</p>
-      <p rend="incipit">24/06/88</p>
-      <p rend="incipit">Assiduité :</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : président <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : secrétaire</p>
-      <p rend="incipit"><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName></p>
-      <list type="ordered">
-        <item>Création</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> B’zeebur</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Encore des <term ref="difdepo:terms.xml#alexandrins">alexandrins</term></p>
-      <p><persName ref="difdepo:persons.xml#clb"><abbr>Cl B</abbr></persName> : prendre exemple de <persName ref="difdepo:persons.xml#byron">Byron</persName> 28 <term ref="difdepo:terms.xml#alexandrins">alexandrins</term></p>
-      <list type="ordered">
-        <item>Erudition</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#clb"><abbr>Cl B</abbr></persName> Portugal</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#lescure">Lescure</persName></p>
-      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <title ref="difdepo:titles.xml#jeun17">jeu n° 17</title> <persName ref="difdepo:persons.xml#robertleonard">Robert Leonard</persName> 727 Stuart Autrement 514 2769158 H2V3H4</p>
-      <list type="ordered">
-        <item>Action</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>/<persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <unclear>*</unclear> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Archives</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Atlas</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> Montevideo &gt;</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Lima ‑ 2 décembre.</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> guide</p>
-      <list type="ordered">
-        <item>Menus propos</item>
-      </list>
-      <p>Prochaine 26 août (<persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> ?)</p>
-      <p>Blâme à <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> pour avoir acheté une gouache qu’il ne peut nous montrer</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010317n/f2.highres" n="2"/>
+         <p rend="incipit">OULIPO</p>
+         <p rend="incipit">24/06/88</p>
+         <p rend="incipit">Assiduité :</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : président <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : secrétaire</p>
+         <p rend="incipit">
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jl">
+               <abbr>JL</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jd">
+               <abbr>JD</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#ab">
+               <abbr>AB</abbr>
+            </persName>
+         </p>
+         <list type="ordered">
+            <item>Création</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> B’zeebur</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> Encore des <term ref="difdepo:terms.xml#alexandrins">alexandrins</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#clb">
+               <abbr>Cl B</abbr>
+            </persName> : prendre exemple de <persName ref="difdepo:persons.xml#byron">Byron</persName> 28 <term ref="difdepo:terms.xml#alexandrins">alexandrins</term>
+         </p>
+         <list type="ordered">
+            <item>Erudition</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#clb">
+               <abbr>Cl B</abbr>
+            </persName> Portugal</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#lescure">Lescure</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName> 
+            <title ref="difdepo:titles.xml#jeun17">jeu n° 17</title> 
+            <persName ref="difdepo:persons.xml#robertleonard">Robert Leonard</persName> 727 Stuart Autrement 514 2769158 H2V3H4</p>
+         <list type="ordered">
+            <item>Action</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>/<persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> 
+            <unclear>*</unclear> 
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> Archives</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> Atlas</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> 
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> Montevideo &gt;</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> Lima ‑ 2 décembre.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> 
+            <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> guide</p>
+         <list type="ordered">
+            <item>Menus propos</item>
+         </list>
+         <p>Prochaine 26 août (<persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> ?)</p>
+         <p>Blâme à <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> pour avoir acheté une gouache qu’il ne peut nous montrer</p>
+      </body>
   </text>
 </TEI>

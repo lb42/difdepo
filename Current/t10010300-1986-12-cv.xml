@@ -1,46 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010300-1986-12-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010300-1986-12-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010300 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010300-1986-12-cv</idno> <title>Convocation à <ref target="#t10010300-1986-12">une réunion Oulipo</ref>, envoyée le <date when="1986-12-16">16 décembre 1986</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-05-23">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010300 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 16 décembre 1986</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010300-1986-12-cv</idno> 
+               <title>Convocation à <ref target="#t10010300-1986-12">une réunion Oulipo</ref>, envoyée le <date when="1986-12-16">16 décembre 1986</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-05-23">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103003/f1.highres" n="1"/>
-      <p>Oulipiens,</p>
-      <p>L'<orgName ref="difdepo:organizations.xml#ouvroir">ouvroir</orgName> se réunira le <date>vendredi 19 Décembre 1986</date> à 19 heures chez <persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName> et <persName ref="difdepo:persons.xml#martinefournel">Martine Fournel</persName> 48 rue de l'abbé Groult 75015 (45.31.77.65).</p>
-      <p>Notre invité d’honneur sera <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>.</p>
-      <p>Merci de retourner au plus tôt la découpe ci-dessous.</p>
-      <p>Au 19,</p>
-      <p>Amitiés</p>
-      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103003/f1.highres" n="1"/>
+         <p>Oulipiens,</p>
+         <p>L'<orgName ref="difdepo:organizations.xml#ouvroir">ouvroir</orgName> se réunira le <date>vendredi 19 Décembre 1986</date> à 19 heures chez <persName ref="difdepo:persons.xml#paul">
+               <abbr>Paul</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#martinefournel">Martine Fournel</persName> 48 rue de l'abbé Groult 75015 (45.31.77.65).</p>
+         <p>Notre invité d’honneur sera <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>.</p>
+         <p>Merci de retourner au plus tôt la découpe ci-dessous.</p>
+         <p>Au 19,</p>
+         <p>Amitiés</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paul">
+               <abbr>Paul</abbr>
+            </persName>
+         </p>
+      </body>
   </text>
 </TEI>

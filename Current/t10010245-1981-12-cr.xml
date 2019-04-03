@@ -1,89 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010245-1981-12-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010245-1981-12-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010245 pp. 2 à 3 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010245-1981-12-cr</idno> <meeting xml:id="t10010245-1981-12">
-          <date when="1981-12-11">11 décembre 1981</date>
-          <placeName>chez PB</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel" role="président">Paul Fournel</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:39:40Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010245 pp. 2 à 3 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 11 décembre 1981</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010245-1981-12-cr</idno> 
+               <meeting xml:id="t10010245-1981-12">
+                  <date when="1981-12-11">11 décembre 1981</date>
+                  <placeName>chez PB</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel" role="président">Paul Fournel</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:39:40Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010245m/f2.highres" n="2"/>
-      <p rend="incipit">11.12.81. chez <persName ref="difdepo:persons.xml#braffort">Braffort</persName>.</p>
-      <p rend="incipit">Présents.</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#lescure">Lescure</persName></item>
-        <item><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></item>
-        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName></item>
-        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName></item>
-        <item><persName ref="difdepo:persons.xml#metail">Metail</persName>.</item>
-      </list>
-      <p rend="incipit">Excusés.</p>
-      <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#bens">Bens</persName></item>
-        <item><persName ref="difdepo:persons.xml#perec">Perec</persName></item>
-        <item><persName ref="difdepo:persons.xml#duchateau">Duchâteau</persName></item>
-        <item><persName ref="difdepo:persons.xml#etienne">Etienne</persName></item>
-        <item><persName ref="difdepo:persons.xml#queval">Queval</persName>.</item>
-        <item><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName></item>
-        <item><persName ref="difdepo:persons.xml#berge">Berge</persName>.</item>
-        <item><persName ref="difdepo:persons.xml#benabou">Benabou</persName>.</item>
-      </list>
-      <p>– <persName ref="difdepo:persons.xml#giordanobruno">Giordano Bruno</persName> et l’Oulipo. <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName>.</p>
-      <p><term ref="difdepo:terms.xml#plagiatparanticipation">Plagiat par anticipation</term>. <term ref="difdepo:terms.xml#versrapportes">Vers rapportés</term>. (<term ref="difdepo:terms.xml#miseenfacteur">mise en facteur</term>.). La <term ref="difdepo:terms.xml#prose">prose</term> de <persName ref="difdepo:persons.xml#gbruno">G. Bruno</persName> est calculée numériquement, selon ce principe.</p>
-      <p>Cf. <term ref="difdepo:terms.xml#algorithmedemathews">algorithme de Mathews</term></p>
-      <p>– <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le <term ref="difdepo:terms.xml#romanpolicierplagie">roman policier plagié</term>.</p>
-      <p>A partir de chefs-d’œuvre du <term ref="difdepo:terms.xml#romanpolicier">roman policier</term>. <title ref="difdepo:titles.xml#lacotedesdieux">La Côte des Dieux</title>. <persName ref="difdepo:persons.xml#pfrondey">P. Frondey</persName>. « remake » d’<persName ref="difdepo:persons.xml#andremage">André Mage</persName>.</p>
-      <p>– <persName ref="difdepo:persons.xml#fournel">Fournel</persName>. « <title ref="difdepo:titles.xml#unabsentdemarque">Un absent de marque</title> ». Questions de commentaires de textes, sans texte.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010245m/f3.highres" n="3"/>
-      <p>– <persName ref="difdepo:persons.xml#braffort">Braffort</persName>. <persName ref="difdepo:persons.xml#calvino">Calvino</persName>.</p>
-      <p>Travail sur <title ref="difdepo:titles.xml#petitecosmogonie">petite cosmogonie</title>. Il reste 5 choses à trouver.</p>
-      <p>– <persName ref="difdepo:persons.xml#lescure">Lescure</persName>. Poème du XVIIIème. En <term ref="difdepo:terms.xml#baba">b.a.ba.</term></p>
-      <p><persName ref="difdepo:persons.xml#charpentreau">Charpentreau</persName>. auteur de poèmes d’enfants. « <title ref="difdepo:titles.xml#lemystereenfleur">le mystère en fleur</title> ». Livre pédagogique pour enfants. Cite l’oulipo.</p>
-      <p><orgName ref="difdepo:organizations.xml#ecoledenamur">Ecole de Namur</orgName>. Traces d’oulipisme.</p>
-      <p>– <persName ref="difdepo:persons.xml#jlchautemps">J. L. Chautemps</persName>. saxophoniste.</p>
-      <p>– <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name>. Prestations à Pâques. Juillet.</p>
-      <p>– Création d’un réseau informatique <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>. Paris. Avignon. Toulouse.</p>
-      <p>– <title ref="difdepo:titles.xml#dictionnairedelinformatique">Dictionnaire de l’informatique</title>. <orgName ref="difdepo:organizations.xml#larousse">Larousse</orgName>.</p>
-      <p>article art et ordinateur. oulipo cité.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010245m/f2.highres" n="2"/>
+         <p rend="incipit">11.12.81. chez <persName ref="difdepo:persons.xml#braffort">Braffort</persName>.</p>
+         <p rend="incipit">Présents.</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#lescure">Lescure</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#metail">Metail</persName>.</item>
+         </list>
+         <p rend="incipit">Excusés.</p>
+         <list type="unordered">
+            <item>
+               <persName ref="difdepo:persons.xml#bens">Bens</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#perec">Perec</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#duchateau">Duchâteau</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#etienne">Etienne</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#queval">Queval</persName>.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#berge">Berge</persName>.</item>
+            <item>
+               <persName ref="difdepo:persons.xml#benabou">Benabou</persName>.</item>
+         </list>
+         <p>– <persName ref="difdepo:persons.xml#giordanobruno">Giordano Bruno</persName> et l’Oulipo. <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName>.</p>
+         <p>
+            <term ref="difdepo:terms.xml#plagiatparanticipation">Plagiat par anticipation</term>. <term ref="difdepo:terms.xml#versrapportes">Vers rapportés</term>. (<term ref="difdepo:terms.xml#miseenfacteur">mise en facteur</term>.). La <term ref="difdepo:terms.xml#prose">prose</term> de <persName ref="difdepo:persons.xml#gbruno">G. Bruno</persName> est calculée numériquement, selon ce principe.</p>
+         <p>Cf. <term ref="difdepo:terms.xml#algorithmedemathews">algorithme de Mathews</term>
+         </p>
+         <p>– <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le <term ref="difdepo:terms.xml#romanpolicierplagie">roman policier plagié</term>.</p>
+         <p>A partir de chefs-d’œuvre du <term ref="difdepo:terms.xml#romanpolicier">roman policier</term>. <title ref="difdepo:titles.xml#lacotedesdieux">La Côte des Dieux</title>. <persName ref="difdepo:persons.xml#pfrondey">P. Frondey</persName>. « remake » d’<persName ref="difdepo:persons.xml#andremage">André Mage</persName>.</p>
+         <p>– <persName ref="difdepo:persons.xml#fournel">Fournel</persName>. « <title ref="difdepo:titles.xml#unabsentdemarque">Un absent de marque</title> ». Questions de commentaires de textes, sans texte.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010245m/f3.highres" n="3"/>
+         <p>– <persName ref="difdepo:persons.xml#braffort">Braffort</persName>. <persName ref="difdepo:persons.xml#calvino">Calvino</persName>.</p>
+         <p>Travail sur <title ref="difdepo:titles.xml#petitecosmogonie">petite cosmogonie</title>. Il reste 5 choses à trouver.</p>
+         <p>– <persName ref="difdepo:persons.xml#lescure">Lescure</persName>. Poème du XVIIIème. En <term ref="difdepo:terms.xml#baba">b.a.ba.</term>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#charpentreau">Charpentreau</persName>. auteur de poèmes d’enfants. « <title ref="difdepo:titles.xml#lemystereenfleur">le mystère en fleur</title> ». Livre pédagogique pour enfants. Cite l’oulipo.</p>
+         <p>
+            <orgName ref="difdepo:organizations.xml#ecoledenamur">Ecole de Namur</orgName>. Traces d’oulipisme.</p>
+         <p>– <persName ref="difdepo:persons.xml#jlchautemps">J. L. Chautemps</persName>. saxophoniste.</p>
+         <p>– <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name>. Prestations à Pâques. Juillet.</p>
+         <p>– Création d’un réseau informatique <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>. Paris. Avignon. Toulouse.</p>
+         <p>– <title ref="difdepo:titles.xml#dictionnairedelinformatique">Dictionnaire de l’informatique</title>. <orgName ref="difdepo:organizations.xml#larousse">Larousse</orgName>.</p>
+         <p>article art et ordinateur. oulipo cité.</p>
+      </body>
   </text>
 </TEI>

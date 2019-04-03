@@ -1,52 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1975-10-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010180-1975-10-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010180 pp. 15 à 15 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010180-1975-10-cr</idno> <meeting xml:id="t10010180-1975-10">
-          <date when="1975-10-03">3 octobre 1975</date>
-          <gap/>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:28:33Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010180 pp. 15 à 15 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 3 octobre 1975</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010180-1975-10-cr</idno> 
+               <meeting xml:id="t10010180-1975-10">
+                  <date when="1975-10-03">3 octobre 1975</date>
+                  <gap/>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:28:33Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f15.highres" n="15"/>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Programme d’ordinateurs (<persName ref="difdepo:persons.xml#decowell">de Cowell</persName>) « Elisa »</p>
-      <p>Dialogues corrigés qu’on peut soumettre à des <term ref="difdepo:terms.xml#contraintes">contraintes</term></p>
-      <p>Déduction question de <term ref="difdepo:terms.xml#answersystems">answer systems</term>.</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : tables de listing pour formation de noms féminins en toutes langues</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <unclear>*</unclear> : « <term ref="difdepo:terms.xml#palindrome">palindrome</term> » - chaste &gt;, obscène &lt;</p>
-      <p>[<name ref="difdepo:events.xml#bruxellesexposition" type="manif">Bruxelles : Exposition</name>] <note n="1" resp="editor">Probablement <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name>.</note></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> (entretien à la radio) : Priorité aux <term ref="difdepo:terms.xml#structures">structures</term> et non pas aux œuvres : la valeur de la cohérence interne d’une <term ref="difdepo:terms.xml#structure">structure</term> qui ne donne pas des résultats immédiats (mais à l’avenir, qui sait ?)</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010180n/f15.highres"
+             n="15"/>
+         <p>
+            <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> : Programme d’ordinateurs (<persName ref="difdepo:persons.xml#decowell">de Cowell</persName>) « Elisa »</p>
+         <p>Dialogues corrigés qu’on peut soumettre à des <term ref="difdepo:terms.xml#contraintes">contraintes</term>
+         </p>
+         <p>Déduction question de <term ref="difdepo:terms.xml#answersystems">answer systems</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName> : tables de listing pour formation de noms féminins en toutes langues</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <unclear>*</unclear> : « <term ref="difdepo:terms.xml#palindrome">palindrome</term> » - chaste &gt;, obscène &lt;</p>
+         <p>[<name ref="difdepo:events.xml#bruxellesexposition" type="manif">Bruxelles : Exposition</name>] <note n="1" resp="editor">Probablement <name ref="difdepo:events.xml#europalia" type="manif">Europalia</name>.</note>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> (entretien à la radio) : Priorité aux <term ref="difdepo:terms.xml#structures">structures</term> et non pas aux œuvres : la valeur de la cohérence interne d’une <term ref="difdepo:terms.xml#structure">structure</term> qui ne donne pas des résultats immédiats (mais à l’avenir, qui sait ?)</p>
+      </body>
   </text>
 </TEI>

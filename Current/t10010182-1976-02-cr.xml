@@ -1,52 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010182-1976-02-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010182-1976-02-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010182 pp. 2 à 2 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010182-1976-02-cr</idno> <meeting xml:id="t10010182-1976-02">
-          <date when="1976-02-17">17 février 1976</date>
-          <gap/>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:29:16Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010182 pp. 2 à 2 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 17 février 1976</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010182-1976-02-cr</idno> 
+               <meeting xml:id="t10010182-1976-02">
+                  <date when="1976-02-17">17 février 1976</date>
+                  <gap/>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:29:16Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010182j/f2.highres" n="2"/>
-      <p rend="incipit">OuLiPo 17/2/76</p>
-      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> = <term ref="difdepo:terms.xml#hypergraphes">hypergraphes</term></p>
-      <list type="unordered">
-        <item><term ref="difdepo:terms.xml#graphe">graphe</term> des changements de lieu dans <title ref="difdepo:titles.xml#hamlet">Hamlet</title> = <term ref="difdepo:terms.xml#grapheeulerien">graphe eulérien</term> (on ne passe qu’une fois d’un lieu à un autre)- c’est donc oulipien</item>
-        <item><term ref="difdepo:terms.xml#hypergraphe">hypergraphe</term></item>
-      </list>
-      <p>le <term ref="difdepo:terms.xml#graphede">graphe de</term> <unclear>Goryon</unclear></p>
-      <p><term ref="difdepo:terms.xml#principederoubaud">principe de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></term> = passer de la <term ref="difdepo:terms.xml#description">description</term> à l’<term ref="difdepo:terms.xml#invention">invention</term>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010182j/f2.highres" n="2"/>
+         <p rend="incipit">OuLiPo 17/2/76</p>
+         <p>
+            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> = <term ref="difdepo:terms.xml#hypergraphes">hypergraphes</term>
+         </p>
+         <list type="unordered">
+            <item>
+               <term ref="difdepo:terms.xml#graphe">graphe</term> des changements de lieu dans <title ref="difdepo:titles.xml#hamlet">Hamlet</title> = <term ref="difdepo:terms.xml#grapheeulerien">graphe eulérien</term> (on ne passe qu’une fois d’un lieu à un autre)- c’est donc oulipien</item>
+            <item>
+               <term ref="difdepo:terms.xml#hypergraphe">hypergraphe</term>
+            </item>
+         </list>
+         <p>le <term ref="difdepo:terms.xml#graphede">graphe de</term> 
+            <unclear>Goryon</unclear>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#principederoubaud">principe de <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
+            </term> = passer de la <term ref="difdepo:terms.xml#description">description</term> à l’<term ref="difdepo:terms.xml#invention">invention</term>.</p>
+      </body>
   </text>
 </TEI>

@@ -1,66 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010234-1980-12-oj">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010234-1980-12-oj">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010234 pp. 9 à 9 (OJ) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010234-1980-12-oj</idno> <title>Ordre de jour de <ref target="#t10010234-1980-12">la réunion Oulipo</ref> de <date when="1980-12-18">18 décembre 1980</date></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:34:46Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010234 pp. 9 à 9 (OJ) : version TEI</title>
+            <title type="sub">Ordre du jour de la réunion du 18 décembre 1980</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010234-1980-12-oj</idno> 
+               <title>Ordre de jour de <ref target="#t10010234-1980-12">la réunion Oulipo</ref> de <date when="1980-12-18">18 décembre 1980</date>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:34:46Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="oj">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010234r/f9.highres" n="9"/>
-      <p rend="incipit">Ordre du jour</p>
-      <list type="unordered">
-        <item>Création</item>
-        <item><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#benshi">Benshi</persName></item>
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <orgName ref="difdepo:organizations.xml#cra">CRA</orgName> <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <term ref="difdepo:terms.xml#magnetophone">Magnétophone</term> à 8 pistes</item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Oulipo et histoire</item>
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <unclear>???</unclear></item>
-        <item>Action</item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>+ <title ref="difdepo:titles.xml#volii">vol II</title> + <name ref="difdepo:events.xml#rouen" type="manif">Rouen</name></item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne"><abbr>BO</abbr></title> + Phinances + Diffusion</item>
-        <item>JQ : <unclear>???</unclear>Invité d’honneur</item>
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <name ref="difdepo:events.xml#toulouse" type="manif">Toulouse</name></item>
-      </list>
-      <list type="unordered">
-        <item>Erudition</item>
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#cartessurrealistes">cartes surréalistes</term></item>
-      </list>
-      <list type="unordered">
-        <item>Menus propos</item>
-        <item><persName ref="difdepo:persons.xml#nl"><abbr>NL</abbr></persName> + <title ref="difdepo:titles.xml#liberation">Libération</title></item>
-      </list>
-      <list type="unordered">
-        <item>Prochaine séance + invité d’honneur</item>
-        <item><orgName ref="difdepo:organizations.xml#oupopo">Oupopo</orgName> <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName></item>
-      </list>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010234r/f9.highres" n="9"/>
+         <p rend="incipit">Ordre du jour</p>
+         <list type="unordered">
+            <item>Création</item>
+            <item>
+               <persName ref="difdepo:persons.xml#jq">
+                  <abbr>JQ</abbr>
+               </persName> 
+               <persName ref="difdepo:persons.xml#benshi">Benshi</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#jr">
+                  <abbr>JR</abbr>
+               </persName> 
+               <orgName ref="difdepo:organizations.xml#cra">CRA</orgName> 
+               <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> 
+               <term ref="difdepo:terms.xml#magnetophone">Magnétophone</term> à 8 pistes</item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> Oulipo et histoire</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> <unclear>???</unclear>
+            </item>
+            <item>Action</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pf">
+                  <abbr>PF</abbr>
+               </persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>+ <title ref="difdepo:titles.xml#volii">vol II</title> + <name ref="difdepo:events.xml#rouen" type="manif">Rouen</name>
+            </item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">
+                  <abbr>BO</abbr>
+               </title> + Phinances + Diffusion</item>
+            <item>JQ : <unclear>???</unclear>Invité d’honneur</item>
+            <item>
+               <persName ref="difdepo:persons.xml#pb">
+                  <abbr>PB</abbr>
+               </persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> 
+               <persName ref="difdepo:persons.xml#jb">
+                  <abbr>JB</abbr>
+               </persName> : <name ref="difdepo:events.xml#toulouse" type="manif">Toulouse</name>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>Erudition</item>
+            <item>
+               <persName ref="difdepo:persons.xml#mb">
+                  <abbr>MB</abbr>
+               </persName> : <term ref="difdepo:terms.xml#cartessurrealistes">cartes surréalistes</term>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>Menus propos</item>
+            <item>
+               <persName ref="difdepo:persons.xml#nl">
+                  <abbr>NL</abbr>
+               </persName> + <title ref="difdepo:titles.xml#liberation">Libération</title>
+            </item>
+         </list>
+         <list type="unordered">
+            <item>Prochaine séance + invité d’honneur</item>
+            <item>
+               <orgName ref="difdepo:organizations.xml#oupopo">Oupopo</orgName> 
+               <persName ref="difdepo:persons.xml#jd">
+                  <abbr>JD</abbr>
+               </persName>
+            </item>
+         </list>
+      </body>
   </text>
 </TEI>

@@ -1,138 +1,345 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010307-1987-08-cr">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010307-1987-08-cr">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010307 pp. 1 à 4 (CR) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010307-1987-08-cr</idno> <meeting xml:id="t10010307-1987-08">
-          <date when="1987-08-28">28 août 1987</date>
-          <placeName>Chez JJ</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulbraffort" role="secrétaire">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#paulfournel" role="président">Paul Fournel</persName></item>
-          </list>
-          </meeting> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2018-01-06">restore placeName from docx</change>
-        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2017-11-13T17:37:34Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010307 pp. 1 à 4 (CR) : version TEI</title>
+            <title type="sub">Compte-rendu de la réunion du 28 août 1987</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010307-1987-08-cr</idno> 
+               <meeting xml:id="t10010307-1987-08">
+                  <date when="1987-08-28">28 août 1987</date>
+                  <placeName>Chez JJ</placeName>
+                  <list type="present">
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulbraffort" role="secrétaire">Paul Braffort</persName>
+                     </item>
+                     <item>
+                        <persName ref="difdepo:persons.xml#paulfournel" role="président">Paul Fournel</persName>
+                     </item>
+                  </list>
+               </meeting> 
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2018-01-06">restore placeName from docx</change>
+            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2017-11-13T17:37:34Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cr">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f1.highres" n="1"/>
-      <p rend="incipit">Réunion du 28 Août 1987</p>
-      <p rend="incipit">Chez <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>.</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">: <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>.</p>
-      <p><label type="rubrique">Créations :</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : 10<hi rend="sup">14</hi> // <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : projet //</p>
-      <p><label type="rubrique">Erudition :</label></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Roman Borgesien</p>
-      <p><persName ref="difdepo:persons.xml#schoenberg">Schoenberg</persName></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Hymne <term ref="difdepo:terms.xml#monosyllabique">monosyllabique</term> en création</p>
-      <p><persName ref="difdepo:persons.xml#tristanbernard">Tristan Bernard</persName> à la Boule</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#musiquepotentielle">Musique potentielle</term>.</p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>: Alva <title ref="difdepo:titles.xml#sanantonio">San Antonio</title></p>
-      <p><term ref="difdepo:terms.xml#rimeberrychonne">Rime berrychonne</term></p>
-      <p><label type="rubrique">Action:</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>: New York / Francfort</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>: New York &amp; Seattle</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>: Francfort &amp; Saint-Quentin</p>
-      <p>Oulipo Idées <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p><label type="rubrique">Noms propres</label></p>
-      <p><persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>: Saint-Quentin</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>: Carte de visite en hommage au Président</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : L’Infini</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <persName ref="difdepo:persons.xml#andreebergens">Andrée Bergens</persName></p>
-      <p>Prochaine Réunion</p>
-      <p>25 VIII</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f2.highres" n="2"/>
-      <p>OUVROIR DE LITTERATURE POTENTIELLE</p>
-      <p>Séance du 28 Août 1987</p>
-      <list type="ordered">
-        <item>Assiduité</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> (président), <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> (secrétaire), <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (hôte), <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> sont présents.</p>
-      <p><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> et <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> sont excusés.</p>
-      <list type="ordered">
-        <item>Création</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> et <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> présentent un projet d’extension/ restriction du système « <title ref="difdepo:titles.xml#descentmillemilliardsdepoemes">des cent mille milliards de poèmes</title> ».</p>
-      <list type="unordered">
-        <item>Extension : on autorise la <term ref="difdepo:terms.xml#permutation">permutation</term> des <term ref="difdepo:terms.xml#versisorimes">vers isorimes</term>, pour les <term ref="difdepo:terms.xml#tercets">tercets</term> comme pour les <term ref="difdepo:terms.xml#quatrains">quatrains</term>.</item>
-      </list>
-      <list type="unordered">
-        <item>Restriction : on filtre la production d’un <term ref="difdepo:terms.xml#sonnet">sonnet</term> en introduisant des <term ref="difdepo:terms.xml#contraintes">contraintes</term> supplémentaires de cohérence syntaxique (en genre et en nombre) et sémantique (concordance des temps et comptabilité des aspects) entre deux <term ref="difdepo:terms.xml#vers">vers</term> successifs.</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> calcule le facteur de multiplication associé à la possibilité d’extension. Par contre l’évaluation de l’efficacité du filtrage dépend évidemment de la spécification précise des <term ref="difdepo:terms.xml#contraintes">contraintes</term> nouvelles tout comme du contenu particulier des <term ref="difdepo:terms.xml#vers">vers</term> composant les dix <term ref="difdepo:terms.xml#sonnets">sonnets</term> de base.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> souhaiterait constituer un système analogue à celui de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>, mais où les premiers <term ref="difdepo:terms.xml#hemistiches">hémistiches</term> seraient aussi permutables – à la <persName ref="difdepo:persons.xml#meschinot">Meschinot</persName> – ce qui amène, dans le cas usuel, c’est-à-dire sans l’extension de <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, à 10 puissances 28 <term ref="difdepo:terms.xml#poemes">poèmes</term>. Lorsqu’on autorise les <term ref="difdepo:terms.xml#permutations">permutations</term> de <term ref="difdepo:terms.xml#vers">vers</term> isorimes, on atteint un chiffre voisin de celui des particules élémentaires dans l’Univers (10 puissance 39), remarque <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. Il devient alors naturel d’affecter un <term ref="difdepo:terms.xml#sonnet">sonnet</term> à chacune de ces particules, ce qui ne manquerait pas de leur conférer un cachet supplémentaire. Sans vouloir élaborer une observation qui ouvre de vertigineuses perspectives épistémologiques, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> signale le <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term> qu’ont commis les physiciens en affublant les particules élémentaires d’attributs tels que le « charme », la « couleur », l’«étrangeté », etc… De toute évidence la « <term ref="difdepo:terms.xml#rime">rime</term> » serait un attribut parfaitement convenable.</p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f3.highres" n="3"/>
-      <list type="ordered">
-        <item>Erudition</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> donne l’exemple d’une réalisation de « <term ref="difdepo:terms.xml#romanborgesien">roman borgésien</term> », en ce sens que chaque chapitre débouche sur une « bifurcations de chapitres ultérieurs (une réalisation est en cours, sous les auspices d’ « invisible « Seattle »).</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> lit (en la traduisant) une lettre de <persName ref="difdepo:persons.xml#schonberg">Schönberg</persName> à <persName ref="difdepo:persons.xml#kandinsky">Kandinsky</persName> où les principes de la création artistique sous <term ref="difdepo:terms.xml#contrainte">contrainte</term> sont lumineusement énoncés.</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> mentionne une œuvre peu connue de <persName ref="difdepo:persons.xml#macnab">Mac Nab</persName>, datée de 1899, et intitulée « <title ref="difdepo:titles.xml#hymnemonosyllabiqueaucreateur">Hymne monosyllabique au créateur</title> ». Ce <term ref="difdepo:terms.xml#monosyllabe">monosyllabe</term> comporte cependant plusieurs signes typographiques, contrairement au <term ref="difdepo:terms.xml#poeme">poème</term> de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> qui ne comporte qu’une lettre et demeure, par conséquent, un record inégalé.</p>
-      <p>A propos de <term ref="difdepo:terms.xml#musiquepotentielle">musique potentielle</term>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> communique un article de <persName ref="difdepo:persons.xml#jacqueschaille">Jacques Chaillé</persName> où figurent nombre de <term ref="difdepo:terms.xml#cryptogrammes">cryptogrammes</term> carolingiens de la meilleure eau.</p>
-      <p>Poursuivant sa quête des <term ref="difdepo:terms.xml#alexandrins">alexandrins</term> cachés dans l’œuvre <title ref="difdepo:titles.xml#sanantonienne">San Antonienne</title>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> signale un Alva record : un <term ref="difdepo:terms.xml#alexandrin">alexandrin</term> d’une seule syllabe (dans « <title ref="difdepo:titles.xml#concertopourportejarretelle">Concerto pour porte-jarretelle</title> »).</p>
-      <p>Dans le cadre de son ouvrage en cours sur <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> a noté l’utilisation dans le <term ref="difdepo:terms.xml#poeme">poème</term> « <title ref="difdepo:titles.xml#lesziaux">Les Ziaux</title> », tiré du recueil « <title ref="difdepo:titles.xml#lesziaux">Les Ziaux</title> », d’une exploitation de la « <term ref="difdepo:terms.xml#rimeberrychonne">rime berrychonne</term> » :</p>
-      <p>Les eaux</p>
-      <p>Les yeux</p>
-      <p>Les ziaux.</p>
-      <list type="ordered">
-        <item>Action</item>
-      </list>
-      <p>New York : Les participants aux <name ref="difdepo:events.xml#oulipiadesdubaruchcollege" type="manif">Oulipiades du Baruch College</name> seront <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. Le programme est le suivant :</p>
-      <p>4 Novembre : lecture de textes oulipiens en anglais.</p>
-      <p>5 Novembre : communications sur l’OULIPO.</p>
-      <p>6 Novembre : hommage à <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>.</p>
-      <p>Le 7 Novembre les oulipiens célèbreront à leur guise l’anniversaire de la révolution d’Octobre.</p>
-      <p>Les 9, 10 et 11 Novembre un déplacement à Seattle (devenu visible) est prévu avec le concours de <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> et <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>.</p>
-      <p>Frankfurt : des <name ref="difdepo:events.xml#oulipiades" type="manif">Oulipiades</name>, organisées par <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName>, auront lieu des 4, 5 et 6 Décembre avec la participation de <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. Le 5, les oulipiens célèbreront l’anniversaire d’une grande partie d’entre eux.</p>
-      <p>Saint-Quentin : à l’occasion de l’ouverture de la nouvelle bibliothèque, l’inestimable <persName ref="difdepo:persons.xml#martinegrelle">Martine Grelle</persName> organise une <name ref="difdepo:events.xml#lectureoulipo" type="manif">lecture OULIPO</name> le dimanche 22 Novembre. Seront sûrement présents : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> et <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. On espère <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, et peut-être <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> sera également disponible, s’il n’est point épuisé par son effort de la veille (<name ref="difdepo:events.xml#recitaldechansonssurdestextesderq" type="manif">récital de chansons sur des textes de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></name></p>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f4.highres" n="4"/>
-      <list type="ordered">
-        <item>Menus propos</item>
-      </list>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> distribue aux présents d’admirables cartes de visite comme un hommage « in absentia » à notre président.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> présente la dernière livraison de «<title ref="difdepo:titles.xml#linfini">L’Infini</title> », livraison préparée par <persName ref="difdepo:persons.xml#alainnadaud">Alain Nadaud</persName> et qui contient, entre autres textes précieux, des livraisons de <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> et <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> signale la disparition totalement injustifiée d’<persName ref="difdepo:persons.xml#andreebergens">Andrée Bergens</persName> qui fut une précoce <term ref="difdepo:terms.xml#queneaulogue">Queneaulogue</term>.</p>
-      <list type="ordered">
-        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></item>
-      </list>
-      <p>Elle aura lieu le vendredi 25 Septembre dans les locaux abbatiaux et groultiens mis à notre disposition par la <orgName ref="difdepo:organizations.xml#fondationfournel">fondation <persName ref="difdepo:persons.xml#fournel">Fournel</persName></orgName>.</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f1.highres" n="1"/>
+         <p rend="incipit">Réunion du 28 Août 1987</p>
+         <p rend="incipit">Chez <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
+         </p>
+         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jb">
+               <abbr>JB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jl">
+               <abbr>JL</abbr>
+            </persName>.</p>
+         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>
+         </p>
+         <p rend="incipit">: <persName ref="difdepo:persons.xml#jd">
+               <abbr>JD</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pr">
+               <abbr>PR</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jq">
+               <abbr>JQ</abbr>
+            </persName>.</p>
+         <p>
+            <label type="rubrique">Créations :</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> : 10<hi rend="sup">14</hi> // <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> : projet //</p>
+         <p>
+            <label type="rubrique">Erudition :</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> : Roman Borgesien</p>
+         <p>
+            <persName ref="difdepo:persons.xml#schoenberg">Schoenberg</persName>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> : Hymne <term ref="difdepo:terms.xml#monosyllabique">monosyllabique</term> en création</p>
+         <p>
+            <persName ref="difdepo:persons.xml#tristanbernard">Tristan Bernard</persName> à la Boule</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : <term ref="difdepo:terms.xml#musiquepotentielle">Musique potentielle</term>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>: Alva <title ref="difdepo:titles.xml#sanantonio">San Antonio</title>
+         </p>
+         <p>
+            <term ref="difdepo:terms.xml#rimeberrychonne">Rime berrychonne</term>
+         </p>
+         <p>
+            <label type="rubrique">Action:</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>: New York / Francfort</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>: New York &amp; Seattle</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>: Francfort &amp; Saint-Quentin</p>
+         <p>Oulipo Idées <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>
+         </p>
+         <p>
+            <label type="rubrique">Noms propres</label>
+         </p>
+         <p>
+            <persName ref="difdepo:persons.xml#ab">
+               <abbr>AB</abbr>
+            </persName>: Saint-Quentin</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName>: Carte de visite en hommage au Président</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> : L’Infini</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> : <persName ref="difdepo:persons.xml#andreebergens">Andrée Bergens</persName>
+         </p>
+         <p>Prochaine Réunion</p>
+         <p>25 VIII</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f2.highres" n="2"/>
+         <p>OUVROIR DE LITTERATURE POTENTIELLE</p>
+         <p>Séance du 28 Août 1987</p>
+         <list type="ordered">
+            <item>Assiduité</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> (président), <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> (secrétaire), <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (hôte), <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> sont présents.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName> et <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> sont excusés.</p>
+         <list type="ordered">
+            <item>Création</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> présentent un projet d’extension/ restriction du système « <title ref="difdepo:titles.xml#descentmillemilliardsdepoemes">des cent mille milliards de poèmes</title> ».</p>
+         <list type="unordered">
+            <item>Extension : on autorise la <term ref="difdepo:terms.xml#permutation">permutation</term> des <term ref="difdepo:terms.xml#versisorimes">vers isorimes</term>, pour les <term ref="difdepo:terms.xml#tercets">tercets</term> comme pour les <term ref="difdepo:terms.xml#quatrains">quatrains</term>.</item>
+         </list>
+         <list type="unordered">
+            <item>Restriction : on filtre la production d’un <term ref="difdepo:terms.xml#sonnet">sonnet</term> en introduisant des <term ref="difdepo:terms.xml#contraintes">contraintes</term> supplémentaires de cohérence syntaxique (en genre et en nombre) et sémantique (concordance des temps et comptabilité des aspects) entre deux <term ref="difdepo:terms.xml#vers">vers</term> successifs.</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> calcule le facteur de multiplication associé à la possibilité d’extension. Par contre l’évaluation de l’efficacité du filtrage dépend évidemment de la spécification précise des <term ref="difdepo:terms.xml#contraintes">contraintes</term> nouvelles tout comme du contenu particulier des <term ref="difdepo:terms.xml#vers">vers</term> composant les dix <term ref="difdepo:terms.xml#sonnets">sonnets</term> de base.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> souhaiterait constituer un système analogue à celui de <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName>, mais où les premiers <term ref="difdepo:terms.xml#hemistiches">hémistiches</term> seraient aussi permutables – à la <persName ref="difdepo:persons.xml#meschinot">Meschinot</persName> – ce qui amène, dans le cas usuel, c’est-à-dire sans l’extension de <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>, à 10 puissances 28 <term ref="difdepo:terms.xml#poemes">poèmes</term>. Lorsqu’on autorise les <term ref="difdepo:terms.xml#permutations">permutations</term> de <term ref="difdepo:terms.xml#vers">vers</term> isorimes, on atteint un chiffre voisin de celui des particules élémentaires dans l’Univers (10 puissance 39), remarque <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>. Il devient alors naturel d’affecter un <term ref="difdepo:terms.xml#sonnet">sonnet</term> à chacune de ces particules, ce qui ne manquerait pas de leur conférer un cachet supplémentaire. Sans vouloir élaborer une observation qui ouvre de vertigineuses perspectives épistémologiques, <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> signale le <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term> qu’ont commis les physiciens en affublant les particules élémentaires d’attributs tels que le « charme », la « couleur », l’«étrangeté », etc… De toute évidence la « <term ref="difdepo:terms.xml#rime">rime</term> » serait un attribut parfaitement convenable.</p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f3.highres" n="3"/>
+         <list type="ordered">
+            <item>Erudition</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> donne l’exemple d’une réalisation de « <term ref="difdepo:terms.xml#romanborgesien">roman borgésien</term> », en ce sens que chaque chapitre débouche sur une « bifurcations de chapitres ultérieurs (une réalisation est en cours, sous les auspices d’ « invisible « Seattle »).</p>
+         <p>
+            <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> lit (en la traduisant) une lettre de <persName ref="difdepo:persons.xml#schonberg">Schönberg</persName> à <persName ref="difdepo:persons.xml#kandinsky">Kandinsky</persName> où les principes de la création artistique sous <term ref="difdepo:terms.xml#contrainte">contrainte</term> sont lumineusement énoncés.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> mentionne une œuvre peu connue de <persName ref="difdepo:persons.xml#macnab">Mac Nab</persName>, datée de 1899, et intitulée « <title ref="difdepo:titles.xml#hymnemonosyllabiqueaucreateur">Hymne monosyllabique au créateur</title> ». Ce <term ref="difdepo:terms.xml#monosyllabe">monosyllabe</term> comporte cependant plusieurs signes typographiques, contrairement au <term ref="difdepo:terms.xml#poeme">poème</term> de <persName ref="difdepo:persons.xml#fll">
+               <abbr>FLL</abbr>
+            </persName> qui ne comporte qu’une lettre et demeure, par conséquent, un record inégalé.</p>
+         <p>A propos de <term ref="difdepo:terms.xml#musiquepotentielle">musique potentielle</term>, <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> communique un article de <persName ref="difdepo:persons.xml#jacqueschaille">Jacques Chaillé</persName> où figurent nombre de <term ref="difdepo:terms.xml#cryptogrammes">cryptogrammes</term> carolingiens de la meilleure eau.</p>
+         <p>Poursuivant sa quête des <term ref="difdepo:terms.xml#alexandrins">alexandrins</term> cachés dans l’œuvre <title ref="difdepo:titles.xml#sanantonienne">San Antonienne</title>, <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> signale un Alva record : un <term ref="difdepo:terms.xml#alexandrin">alexandrin</term> d’une seule syllabe (dans « <title ref="difdepo:titles.xml#concertopourportejarretelle">Concerto pour porte-jarretelle</title> »).</p>
+         <p>Dans le cadre de son ouvrage en cours sur <persName ref="difdepo:persons.xml#rq">
+               <abbr>RQ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName> a noté l’utilisation dans le <term ref="difdepo:terms.xml#poeme">poème</term> « <title ref="difdepo:titles.xml#lesziaux">Les Ziaux</title> », tiré du recueil « <title ref="difdepo:titles.xml#lesziaux">Les Ziaux</title> », d’une exploitation de la « <term ref="difdepo:terms.xml#rimeberrychonne">rime berrychonne</term> » :</p>
+         <p>Les eaux</p>
+         <p>Les yeux</p>
+         <p>Les ziaux.</p>
+         <list type="ordered">
+            <item>Action</item>
+         </list>
+         <p>New York : Les participants aux <name ref="difdepo:events.xml#oulipiadesdubaruchcollege" type="manif">Oulipiades du Baruch College</name> seront <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>. Le programme est le suivant :</p>
+         <p>4 Novembre : lecture de textes oulipiens en anglais.</p>
+         <p>5 Novembre : communications sur l’OULIPO.</p>
+         <p>6 Novembre : hommage à <persName ref="difdepo:persons.xml#gp">
+               <abbr>GP</abbr>
+            </persName>.</p>
+         <p>Le 7 Novembre les oulipiens célèbreront à leur guise l’anniversaire de la révolution d’Octobre.</p>
+         <p>Les 9, 10 et 11 Novembre un déplacement à Seattle (devenu visible) est prévu avec le concours de <persName ref="difdepo:persons.xml#hm">
+               <abbr>HM</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>.</p>
+         <p>Frankfurt : des <name ref="difdepo:events.xml#oulipiades" type="manif">Oulipiades</name>, organisées par <persName ref="difdepo:persons.xml#giljouanard">Gil Jouanard</persName>, auront lieu des 4, 5 et 6 Décembre avec la participation de <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName>. Le 5, les oulipiens célèbreront l’anniversaire d’une grande partie d’entre eux.</p>
+         <p>Saint-Quentin : à l’occasion de l’ouverture de la nouvelle bibliothèque, l’inestimable <persName ref="difdepo:persons.xml#martinegrelle">Martine Grelle</persName> organise une <name ref="difdepo:events.xml#lectureoulipo" type="manif">lecture OULIPO</name> le dimanche 22 Novembre. Seront sûrement présents : <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>. On espère <persName ref="difdepo:persons.xml#na">
+               <abbr>NA</abbr>
+            </persName>, <persName ref="difdepo:persons.xml#cb">
+               <abbr>CB</abbr>
+            </persName>, et peut-être <persName ref="difdepo:persons.xml#mm">
+               <abbr>MM</abbr>
+            </persName>. <persName ref="difdepo:persons.xml#pb">
+               <abbr>PB</abbr>
+            </persName> sera également disponible, s’il n’est point épuisé par son effort de la veille (<name ref="difdepo:events.xml#recitaldechansonssurdestextesderq" type="manif">récital de chansons sur des textes de <persName ref="difdepo:persons.xml#rq">
+                  <abbr>RQ</abbr>
+               </persName>
+            </name>
+         </p>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103077/f4.highres" n="4"/>
+         <list type="ordered">
+            <item>Menus propos</item>
+         </list>
+         <p>
+            <persName ref="difdepo:persons.xml#fc">
+               <abbr>FC</abbr>
+            </persName> distribue aux présents d’admirables cartes de visite comme un hommage « in absentia » à notre président.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> présente la dernière livraison de «<title ref="difdepo:titles.xml#linfini">L’Infini</title> », livraison préparée par <persName ref="difdepo:persons.xml#alainnadaud">Alain Nadaud</persName> et qui contient, entre autres textes précieux, des livraisons de <persName ref="difdepo:persons.xml#mb">
+               <abbr>MB</abbr>
+            </persName> et <persName ref="difdepo:persons.xml#jj">
+               <abbr>JJ</abbr>
+            </persName>.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#pf">
+               <abbr>PF</abbr>
+            </persName> signale la disparition totalement injustifiée d’<persName ref="difdepo:persons.xml#andreebergens">Andrée Bergens</persName> qui fut une précoce <term ref="difdepo:terms.xml#queneaulogue">Queneaulogue</term>.</p>
+         <list type="ordered">
+            <item>
+               <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+            </item>
+         </list>
+         <p>Elle aura lieu le vendredi 25 Septembre dans les locaux abbatiaux et groultiens mis à notre disposition par la <orgName ref="difdepo:organizations.xml#fondationfournel">fondation <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
+            </orgName>.</p>
+      </body>
   </text>
 </TEI>

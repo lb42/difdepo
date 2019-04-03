@@ -1,47 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="../style.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010237-1981-03-cv">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010237-1981-03-cv">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Transcription du scan 10010237 pp. 1 à 1 (CV) : version TEI</title>
-        <respStmt>
-          <resp>Transcription</resp>
-          <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
-        </respStmt>
-        <respStmt>
-          <resp>Stylage et annotation</resp>
-          <name ref="difdepo:team.xml#mariaclara">Maria Clara</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl><idno>t10010237-1981-03-cv</idno> <title>Convocation à <ref target="#t10010237-1981-03">une réunion Oulipo</ref>, envoyée le <date when="1981-03-16">16 mars 1981</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
-      </listPrefixDef>
-    </encodingDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2018-01-09">restore senders from docx</change>
-        <change when="2018-01-06">restore date from docx</change>
-        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-        <change when="2016-04-22T17:39:06Z">Conversion docx-tei initiale</change>
-      </listChange>
-    </revisionDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription du scan 10010237 pp. 1 à 1 (CV) : version TEI</title>
+            <title type="sub">Convocation à une réunion, envoyée le 16 mars 1981</title>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
+            </respStmt>
+            <respStmt>
+               <resp>Stylage et annotation</resp>
+               <name ref="difdepo:team.xml#mariaclara">Maria Clara</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <idno>t10010237-1981-03-cv</idno> 
+               <title>Convocation à <ref target="#t10010237-1981-03">une réunion Oulipo</ref>, envoyée le <date when="1981-03-16">16 mars 1981</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
+               </title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="difdepo"
+                       matchPattern="([a-z#\.]+)"
+                       replacementPattern="../thesauri/$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-01-09">restore senders from docx</change>
+            <change when="2018-01-06">restore date from docx</change>
+            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+            <change when="2016-04-22T17:39:06Z">Conversion docx-tei initiale</change>
+         </listChange>
+      </revisionDesc>
   </teiHeader>
   <text type="cv">
-    <body>
-      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102373/f1.highres" n="1"/>
-      <p rend="incipit">Paris, le 16 III 81</p>
-      <p>Chers brigadiers,</p>
-      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 27 mars à 11h30 chez moi au 48 rue de l’abbé Groult 75015 Paris (531 77 65, bur :634 07 29). Nous y parlerons de la <name ref="difdepo:events.xml#seancebeaubourg" type="manif">séance Beaubourg</name> qui aura lieu le lundi 23 III et à laquelle tous les oulipiens sont cordialement invités. Nous y parlerons aussi du texte de <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> (<term ref="difdepo:terms.xml#rimesenoulipo">rimes en oulipo</term>) pour la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. L’ordre du jour comportera nécessairement la rubrique « création ».</p>
-      <p>Retournez illico la découpe. Vivez heureux.</p>
-      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
-      <p>Un secrétaire</p>
-    </body>
+      <body>
+         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102373/f1.highres" n="1"/>
+         <p rend="incipit">Paris, le 16 III 81</p>
+         <p>Chers brigadiers,</p>
+         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 27 mars à 11h30 chez moi au 48 rue de l’abbé Groult 75015 Paris (531 77 65, bur :634 07 29). Nous y parlerons de la <name ref="difdepo:events.xml#seancebeaubourg" type="manif">séance Beaubourg</name> qui aura lieu le lundi 23 III et à laquelle tous les oulipiens sont cordialement invités. Nous y parlerons aussi du texte de <persName ref="difdepo:persons.xml#jr">
+               <abbr>JR</abbr>
+            </persName> (<term ref="difdepo:terms.xml#rimesenoulipo">rimes en oulipo</term>) pour la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. L’ordre du jour comportera nécessairement la rubrique « création ».</p>
+         <p>Retournez illico la découpe. Vivez heureux.</p>
+         <p>
+            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
+         </p>
+         <p>Un secrétaire</p>
+      </body>
   </text>
 </TEI>
