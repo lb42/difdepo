@@ -1,201 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010014-1961-12-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010014-1961-12-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010014 pp. 1 à 6 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 19 décembre 1961</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#erikahendrix">Erika Hendrix</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010014-1961-12-cr</idno> 
-               <meeting xml:id="t10010014-1961-12">
-                  <date when="1961-12-19">19 décembre 1961</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#latis">Latis</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens" role="secrétaire">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau" role="président">Jacques Duchateau</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:37:21Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010014 pp. 1 à 6 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 19 décembre 1961</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#erikahendrix">Erika Hendrix</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010014-1961-12-cr</idno><meeting xml:id="t10010014-1961-12">
+          <date when="1961-12-19">19 décembre 1961</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#latis">Latis</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens" role="secrétaire">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau" role="président">Jacques Duchateau</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:37:21Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f1.highres" n="1"/>
-         <p rend="incipit">Circulaire no. 16</p>
-         <p rend="incipit">OUVOIR DE</p>
-         <p rend="incipit">LITTERATURE</p>
-         <p rend="incipit">POTENTIELLE</p>
-         <p rend="incipit">COMPTE-RENDU DE LA REUNION DU MARDI 19 DECEMBRE 1961</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#queval">QUEVAL</persName>, <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName>, <persName ref="difdepo:persons.xml#schmidt">SCHMIDT</persName>, <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName>, <persName ref="difdepo:persons.xml#latis">LATIS</persName>, <persName ref="difdepo:persons.xml#lescure">LESCURE</persName>, <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName>, <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName>, <persName ref="difdepo:persons.xml#bens">BENS</persName>.</p>
-         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques DUCHATEAU</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je suis amené à demander une condamnation grave, voire la peine de mort, contre un des membres les plus éminents de l’OuLiPo, et d’ailleurs un ami très cher, j’ai nommé <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> dont vous savez qu’il a acquis une certaine réputation dans le monde des lettres en écrivant un roman intitulé <title ref="difdepo:titles.xml#leschevaliersdelamoucheamiel">Les Chevaliers de la mouche à miel</title>. Ceci dit, j’en arrive à ma plainte. Il y a quelques jours, je me suis trouvé en face d’une personne étrangère à l’OuLiPo qui m’a dit : “Qu’est-ce que c’est que cet OuLiPo ? Quand va-t-on m’inviter à déjeuner à l’OuLiPo ? etc.…” Il s’agit de <persName ref="difdepo:persons.xml#jacquesdebourbonbusset">Jacques de Bourbon-Busset</persName>, noble et ex, etc.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> (suraigu) : ha-ha-ha-ha… (Son rire se poursuit pendant les répliques suivantes.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je lui ai dit : “Comment connaissez-vous l’existence de cette société, plus secrète et plus dangereuse que l’<orgName ref="difdepo:organizations.xml#oas">OAS</orgName> ?” Il m’a dit : “C’est <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> qui m’a parlé de cela. ” Il a ajouté : “Quand m’invitez-vous ?”</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> (continuant) : ha-ha-ha-ha…</p>
-         <p>TOUS : ha-ha, ha-ha, ha-ha.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> (inspiré) : Grave problème. Je plaide coupable, mais il faut que je cherche.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> (froid) : Vous chercherez tout à l’heure. Faites voter en attendant.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Messieurs, qui est pour la peine de mort ? (Un temps.) Contre ? (Un temps.) La peine de mort est votée par l’unanimité contre deux voix.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : La question de l’invitation reste posée.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f2.highres" n="2"/>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Il faut répondre que nos déjeuners sont des déjeuners de travail, auxquels n’assistent que des travailleurs.</p>
-         <p>(Approbations diverses.)</p>
-         <p>Le <persName ref="difdepo:persons.xml#sp">
-               <abbr>S.P.</abbr>
-            </persName> tire de sa serviette une <ref>lettre de Latis</ref> et la rend à <persName ref="difdepo:persons.xml#latis">Latis</persName> qui en donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name>. (<ref>Texte de la lettre en annexe au présent compte-rendu</ref>.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Qui demande la parole ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Je crois que, grâce à cet appareil (geste vers le magnéto), de telles erreurs pourront être évitées à l’avenir. Je crois que ce serait dommage de supprimer les compte-rendus.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Toute publication de ce genre est, d’ordinaire, soumise à l’approbation des gens qui ont parlé. On leur envoie le texte pour pouvoir décanter le…les conneries qui auraient pu leur échapper, les marécages du langage oral, etc.… Mais ; pour nous, cela compliquerait beaucoup les choses.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : D’autant plus qu’il ne s’agit pas ici de comptes-rendus publiés.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Bien sûr : c’est purement confidentiel. Du moins, je l’espère. (coup d’œil vers <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, qui baisse les yeux vers son assiette.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je pense qu’on pourrait concilier les extrêmes en faisant des C.R. très secs, analytiques, portant sur l’essentiel de ce qui a été dit et qu’il ne faudrait pas laisser perdre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Un avantage des C.R. très secs, c’est que <persName ref="difdepo:persons.xml#bourbonbusset">
-               <abbr>B.B.</abbr>
-            </persName> n’aurait plus envie de venir.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#schmidt">SCHMIDT</persName> : Moi, je continue à défendre les C.R. sous leur ancienne forme, parce qu’il semble que <persName ref="difdepo:persons.xml#bens">Bens</persName> tire la <term ref="difdepo:terms.xml#potentialite">potentialité</term> de nos propos et que c’est déjà, sinon quelque chose de réel et de fidèle, du moins une sorte d’œuvre collective dont il est le traducteur.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je suis tout à fait de cet avis.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Messieurs, je mets l’existence future des C.R. aux voix. Pour ? Contre ? Merci. Pour : unanimité. Contre : une voix.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">Bens</persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> d’un <ref>
-               <title ref="difdepo:titles.xml#projetdelementsdestatuts">Projet d’éléments de Statuts</title>
-            </ref>.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f3.highres" n="3"/>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Ces éléments de statuts seront joints au C.R. de la présente séance. Nous en discuterons au cours du prochain déjeuner.</p>
-         <p>On parle de la bande du <title ref="difdepo:titles.xml#dossieroulipo">Dossier OuLiPo</title>. Sans résultat.</p>
-         <p>On parle du service de presse du même <title ref="difdepo:titles.xml#dossier">Dossier</title>.</p>
-         <p>On reparle de la bande. Après une longue délibération, on adopte, sur proposition de <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, améliorée par <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#ams">
-               <abbr>A.M.S.</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#jq">
-               <abbr>J.Q.</abbr>
-            </persName> et <persName ref="difdepo:persons.xml#jl">
-               <abbr>J.L.</abbr>
-            </persName> : <term ref="difdepo:terms.xml#patalegomenes">PATALEGOMENES</term> A DES POETIQUES FUTURES QUI VOUDRONT BIEN SE PRESENTER COMME TELLES</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">Bens</persName> : Je crois que nous devrions, cette année, étudier plus particulièrement les questions théoriques :</p>
-         <list type="ordered">
-            <item>Définition et limites de la <term ref="difdepo:terms.xml#potentialite">potentialité</term>. Pour cela :</item>
-            <item>Analyse des différentes <term ref="difdepo:terms.xml#potentialites">potentialités</term>. Notamment : <term ref="difdepo:terms.xml#lipoanalytique">LiPo analytique</term> et <term ref="difdepo:terms.xml#liposynthetique">LiPo synthétique</term>.</item>
-            <item>Exemple. Je me suis demandé si, dans nos activités personnelles, extérieures à l’OuLiPo, il nous est possible de réaliser une <term ref="difdepo:terms.xml#ouvrepotentielle">œuvre potentielle</term>. Personnellement, je réponds non. Parce que je crois que le propre d’une œuvre achevée est précisément de n’être pas (ou plus) potentielle ; je crois qu’une œuvre mérite le titre d’œuvre quand on ne peut plus rien en tirer—quand l’auteur en a tiré le maximum. J’ai un très bon exemple à vous présenter : les <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">CENT MILLE MILLIARDS DE POEMES</title>, qui représentent la seule <term ref="difdepo:terms.xml#ouvrepotentielle">œuvrepotentielle</term> du tout parce que l’auteur en a envisagé et tiré toutes les <term ref="difdepo:terms.xml#possibilites">possibilités</term> possibles (sic). On ne peut absolument plus rien en faire. De la même manière, les <term ref="difdepo:terms.xml#poemesduneseulelettre">poèmes d’une seule lettre</term> proposée par <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> ne contiennent plus aucune <term ref="difdepo:terms.xml#potentialite">potentialité</term> dès l’instant qu’ils accèdent à l’<term ref="difdepo:terms.xml#existence">existence</term>.</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : A mon avis, le mot <term ref="difdepo:terms.xml#potentiel">potentiel</term> ne caractérise pas des œuvres, mais des procédés. Est de la <term ref="difdepo:terms.xml#lipo">LiPo</term>, l’invention du <term ref="difdepo:terms.xml#sonnet">sonnet</term>. Un <term ref="difdepo:terms.xml#sonnet">sonnet</term>, c’est une <term ref="difdepo:terms.xml#ouvre">œuvre</term>, mais son invention, c’est de la <term ref="difdepo:terms.xml#lipo">LiPo</term>. A côté du cas des <term ref="difdepo:terms.xml#ouvreslimites">œuvres-limites</term> qui épuisent tout leur contenu, il y a des <term ref="difdepo:terms.xml#procedesillimites">procédés illimités</term>. Ce sont ceux-là qui nous intéressent. Les cas limites sont intéressants, soit pour nous distraire, soit</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f4.highres" n="4"/>
-         <p>pour nous faire sentir les directions possibles de la <term ref="difdepo:terms.xml#lipo">LiPo</term>. Je propose que, dans un prochain déjeuner, lorsque nous aurons réglé les problèmes du Dossier et des Statuts, nous tâchions de définir un peu mieux les avenues que nous pourrons prendre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Je pense qu’il faudrait retenir, des propositions précédentes, l’idée des groupes de travail. Il peut y avoir, par exemple, un <orgName ref="difdepo:organizations.xml#groupepratique">groupe “pratique”</orgName> qui mettra en œuvre les procédés définis par le <orgName ref="difdepo:organizations.xml#groupetheorique">groupe “théorique”</orgName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Je voudrais répondre à <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>. Je me suis demandé : “Comment peut-on écrire un livre, par exemple, qui ait un certain <term ref="difdepo:terms.xml#caracterepotentiel">caractère potentiel</term> ? Donc : quels sont ceux qui possèdent ce caractère et ceux qui ne le possèdent pas ?” C’est une question qui me paraît importante et que l’on ne peut pas résoudre uniquement avec des raisons de mots. Il n’est pas suffisant de dire : “On va décider que <term ref="difdepo:terms.xml#potentiel">potentiel</term> s’appliquera à une méthode, et non pas à une œuvre.” Bon. Alors, il faudra trouver un autre mot pour l’œuvre, mais la question reste posée quand même.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Il me semble qu’une œuvre peut nous satisfaire, au point de vue de la <term ref="difdepo:terms.xml#potentialite">potentialité</term>, si, comme dans les <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">CENT MILLE MILLIARDS DE POEMES</title>, l’auteur y inclut volontairement, sciemment, techniquement, une <term ref="difdepo:terms.xml#potentialite">potentialité</term>. C’est bien là la <term ref="difdepo:terms.xml#litteraturepotentielle">littérature potentielle</term> qui nous intéresse et que nous avons à promouvoir. Comment écrire de pareilles choses, voilà un problème qui, me semble-t-il, est au premier rang des préoccupations de l’OuLiPo.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il y a deux sens au mot <term ref="difdepo:terms.xml#potentialite">potentialité</term>. Il y a la potentialité qui permet d’écrire (par des méthodes potentielles) des millions de livres tout différents dans une forme nouvelle, par exemple la forme combinatoire qui est celle des <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">CENT MILLE MILLIARDS DE POEMES</title>. Et puis il y a la <term ref="difdepo:terms.xml#potentialite">potentialité</term> interne à l’œuvre, celle qui donne 26 possibilités avec les poèmes d’une lettre, ou cent mille milliards avec les <term ref="difdepo:terms.xml#sonnets">sonnets</term> de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : C’est simplement une réflexion sur ce qu’on a dit jusqu’ici, que j’ai divisée en 10 points, et qui aboutit à une proposition très limitée. Cette note pourrait s’appeler : NOTE – OU – SUR LA POSSIBILITE ET L’IMPOSSIBILITE D’UNE REDUCTION DE LA <term ref="difdepo:terms.xml#redondance">REDONDANCE</term> ABSOLUE ET RELATIVE.</p>
-         <p>(Au cours de sa lecture, <persName ref="difdepo:persons.xml#queval">Queval</persName> a parfois omis d’annoncer les numéros des points. J’indique seulement ceux qu’il a fait apparaître. Les numéros intermédiaires se dégageront, sans doute, d’eux-mêmes. N.D.S.P.)</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f5.highres" n="5"/>
-         <list type="unordered">
-            <item>Premier point. Trois remarques dignes d’attention dans ce qui s’est dit au cours de précédentes réunions : <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName> a dit : “Pour la première fois, une tentative objective d’appréhension et d’appréciation de la littérature…” ; on a employé souvent le terme <term ref="difdepo:terms.xml#redondance">redondance</term> ; <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> a utilisé l’expression “siècle de la science”. On arrive ainsi à une formulation : AU SIECLE DE LA SCIENCE, L’<term ref="difdepo:terms.xml#objectivite">OBJECTIVITE</term> BANNIT LA <term ref="difdepo:terms.xml#redondance">REDONDANCE</term>.</item>
-            <item>Deuxième point. Il y a deux notions de la <term ref="difdepo:terms.xml#redondance">redondance</term>. Dans l’enfer de la <term ref="difdepo:terms.xml#redondance">redondance</term> au sens communément accepté, on peut jeter <persName ref="difdepo:persons.xml#lamartine">Lamartine</persName> et <persName ref="difdepo:persons.xml#hugo">Hugo</persName>, mais aussi bien <persName ref="difdepo:persons.xml#bossuet">Bossuet</persName> et <persName ref="difdepo:persons.xml#sartre">Sartre</persName>. En contre-épreuve, on aurait, par exemple, les <title ref="difdepo:titles.xml#pensees">Pensées</title> d’<persName ref="difdepo:persons.xml#alain">Alain</persName>, les <title ref="difdepo:titles.xml#contes">Contes</title> de <persName ref="difdepo:persons.xml#maupassant">Maupassant</persName> et les <title ref="difdepo:titles.xml#pensees">Pensées</title> de <persName ref="difdepo:persons.xml#valery">Valéry</persName>. Maintenant, c’est différent : <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> trouve la <term ref="difdepo:terms.xml#redondance">redondance</term> chez <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>, et <persName ref="difdepo:persons.xml#latis">Latis</persName> chez <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</item>
-            <item>Troisième point. <persName ref="difdepo:persons.xml#braffort">Braffort</persName> nous a dit : “Chez <persName ref="difdepo:persons.xml#corneille">Corneille</persName> et <persName ref="difdepo:persons.xml#racine">Racine</persName>, il y a très peu d’information.” On peut alors dire : AU SIECLE DE LA SCIENCE, L’<term ref="difdepo:terms.xml#objectivite">OBJECTIVITE</term> ABOUTIT A L’<term ref="difdepo:terms.xml#information">INFORMATION</term>. Nous arrivons maintenant à une nouvelle forme d’<term ref="difdepo:terms.xml#information">information</term> : communication d’hypothèses de recherches et de progrès dans une découverte faite à des pairs.</item>
-            <item>C’était le cinquième point. (!)</item>
-            <item>Sixième point. Encore faut-il y introduire la littérature. Je ne m’engage pas dans cette voie, parce que je ne la vois pas très clairement.</item>
-            <item>Septième point. En-deçà de cette littérature de recherche (donc, parascientifique), il y a le <term ref="difdepo:terms.xml#phenomenedesbardes">phénomène des bardes</term>. Je suppose qu’à l’origine, c’est la <term ref="difdepo:terms.xml#prophetie">prophétie</term> par le Verbe. Etant donné qu’on ne sait rien, on essaie de deviner par une <term ref="difdepo:terms.xml#projectionprophetique">projection prophétique</term> (prophétique entre guillemets) du Verbe. On n’est plus dans le domaine de la connaissance, mais dans un domaine paramusical. J’ai l’air de dire des choses raboutées un peu gratuitement. En réalité, c’est pour arriver à mon :</item>
-            <item>Huitième point. La <term ref="difdepo:terms.xml#redondance">redondance</term>, selon la notion nouvelle de <term ref="difdepo:terms.xml#redondance">redondance</term> que nous avons acquise tout à l’heure, la <term ref="difdepo:terms.xml#redondance">redondance</term> est liée chez le <term ref="difdepo:terms.xml#barde">barde</term>, et chez tout le monde, à l’approximation. Parce qu’on ne peut pas “démontrer”, on veut convaincre par la surcharge, la grossissement, la répétition, et même un effet de terreur. Il y a peut-être un effet de terreur chez <persName ref="difdepo:persons.xml#bossuet">Bossuet</persName>, dans les <title ref="difdepo:titles.xml#oraisonsfunebres">Oraisons funèbres</title>. Il y a un effet de terreur chez <persName ref="difdepo:persons.xml#sartre">Sartre</persName>, si l’on veut, dans l’effervescence exégétique. En réalité, si la <term ref="difdepo:terms.xml#redondance">redondance</term> est liée à l’approximation, on peut se demander pourquoi, ce qui me conduit au neuvième point.</item>
-            <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f6.highres" n="6"/>
-            <item>Neuvième point. Il y a toujours approximation, parce que nous sommes toujours dans un monde de traduction. Si l’un d’entre nous veut faire le point d’une question d’ordre universel, il ne peut pas le faire sans rassembler des ouvrages empruntés à des langues diverses. La pluralité du langage humain est une espèce d’aveu d’impuissance, une espèce d’évidence de l’approximation. Autrement dit, on arriverait à la non-approximation, donc à la non-redondance si on était dans la mathématique, c’est-à-dire sur une base solide qui permette un développement dynamique. Ce n’est pas le cas. D’ailleurs, dans le cadre d’une seule langue, nous sommes toujours dans le phénomène de traduction puisqu’on réexplique ce qu’on estime mal expliqué.</item>
-            <item>Dixième point. On peut peut-être essayer de faire les plus simples des <term ref="difdepo:terms.xml#sonnets">sonnets</term> en limitant le risque de <term ref="difdepo:terms.xml#redondance">redondance</term>, ou plutôt en limitant le risque de l’usage de la grammaire. Si l’on n’employait que des infinitifs, on arriverait à une moindre utilisation du langage, peut-être à une moindre redondance. Or, l’infinitif peut se prêter à la description d’un état en développement. C’est peut-être “s’ennuyer”, “dormir”, “manger”, “aimer”. Alors, j’ai fait un sonnet sur “aimer”, qui pourrait s’appeler : L’EXPORATEUR S’EST PENCHE SUR LES MAMMIFERES. Je ne le donne pas du tout comme un bon poème, mais comme exemple. Je crois que la méthode est potentiellement limitée—mais enfin, elle est amusante. Voici le <term ref="difdepo:terms.xml#sonnet">sonnet</term>. (Il y a des <term ref="difdepo:terms.xml#neologismes">néologismes</term>, ce qui est intéressant, parce que dans les cas douteux, il vaut mieux … Bon.)</item>
-         </list>
-         <p>(Le <ref>sonnet</ref> se trouve en annexe. N.D.S.P.)</p>
-         <p>Il est tard. Certains, pris par des obligations professionnelles, se sont déjà discrètement éclipsés. Après un vote laborieux sur le libellé définitif de la bande du Dossier, la séance se termine dans la confusion verbale la plus grande.</p>
-         <p>Pour copie super-conforme</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jb">
-               <abbr>J.B.</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f1.highres" n="1"/>
+      <p rend="incipit">Circulaire no. 16</p>
+      <p rend="incipit">OUVOIR DE</p>
+      <p rend="incipit">LITTERATURE</p>
+      <p rend="incipit">POTENTIELLE</p>
+      <p rend="incipit">COMPTE-RENDU DE LA REUNION DU MARDI 19 DECEMBRE 1961</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#queval">QUEVAL</persName>, <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName>, <persName ref="difdepo:persons.xml#schmidt">SCHMIDT</persName>, <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName>, <persName ref="difdepo:persons.xml#latis">LATIS</persName>, <persName ref="difdepo:persons.xml#lescure">LESCURE</persName>, <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName>, <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName>, <persName ref="difdepo:persons.xml#bens">BENS</persName>.</p>
+      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques DUCHATEAU</persName></p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je suis amené à demander une condamnation grave, voire la peine de mort, contre un des membres les plus éminents de l’OuLiPo, et d’ailleurs un ami très cher, j’ai nommé <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> dont vous savez qu’il a acquis une certaine réputation dans le monde des lettres en écrivant un roman intitulé <title ref="difdepo:titles.xml#leschevaliersdelamoucheamiel">Les Chevaliers de la mouche à miel</title>. Ceci dit, j’en arrive à ma plainte. Il y a quelques jours, je me suis trouvé en face d’une personne étrangère à l’OuLiPo qui m’a dit : “Qu’est-ce que c’est que cet OuLiPo ? Quand va-t-on m’inviter à déjeuner à l’OuLiPo ? etc.…” Il s’agit de <persName ref="difdepo:persons.xml#jacquesdebourbonbusset">Jacques de Bourbon-Busset</persName>, noble et ex, etc.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> (suraigu) : ha-ha-ha-ha… (Son rire se poursuit pendant les répliques suivantes.)</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je lui ai dit : “Comment connaissez-vous l’existence de cette société, plus secrète et plus dangereuse que l’<orgName ref="difdepo:organizations.xml#oas">OAS</orgName> ?” Il m’a dit : “C’est <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> qui m’a parlé de cela. ” Il a ajouté : “Quand m’invitez-vous ?”</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> (continuant) : ha-ha-ha-ha…</p>
+      <p>TOUS : ha-ha, ha-ha, ha-ha.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> (inspiré) : Grave problème. Je plaide coupable, mais il faut que je cherche.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> (froid) : Vous chercherez tout à l’heure. Faites voter en attendant.</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Messieurs, qui est pour la peine de mort ? (Un temps.) Contre ? (Un temps.) La peine de mort est votée par l’unanimité contre deux voix.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : La question de l’invitation reste posée.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f2.highres" n="2"/>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Il faut répondre que nos déjeuners sont des déjeuners de travail, auxquels n’assistent que des travailleurs.</p>
+      <p>(Approbations diverses.)</p>
+      <p>Le <persName ref="difdepo:persons.xml#sp"><abbr>S.P.</abbr></persName> tire de sa serviette une <ref>lettre de Latis</ref> et la rend à <persName ref="difdepo:persons.xml#latis">Latis</persName> qui en donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name>. (<ref>Texte de la lettre en annexe au présent compte-rendu</ref>.)</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Qui demande la parole ?</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Je crois que, grâce à cet appareil (geste vers le magnéto), de telles erreurs pourront être évitées à l’avenir. Je crois que ce serait dommage de supprimer les compte-rendus.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Toute publication de ce genre est, d’ordinaire, soumise à l’approbation des gens qui ont parlé. On leur envoie le texte pour pouvoir décanter le…les conneries qui auraient pu leur échapper, les marécages du langage oral, etc.… Mais ; pour nous, cela compliquerait beaucoup les choses.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : D’autant plus qu’il ne s’agit pas ici de comptes-rendus publiés.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Bien sûr : c’est purement confidentiel. Du moins, je l’espère. (coup d’œil vers <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, qui baisse les yeux vers son assiette.)</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je pense qu’on pourrait concilier les extrêmes en faisant des C.R. très secs, analytiques, portant sur l’essentiel de ce qui a été dit et qu’il ne faudrait pas laisser perdre.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Un avantage des C.R. très secs, c’est que <persName ref="difdepo:persons.xml#bourbonbusset"><abbr>B.B.</abbr></persName> n’aurait plus envie de venir.</p>
+      <p><persName ref="difdepo:persons.xml#schmidt">SCHMIDT</persName> : Moi, je continue à défendre les C.R. sous leur ancienne forme, parce qu’il semble que <persName ref="difdepo:persons.xml#bens">Bens</persName> tire la <term ref="difdepo:terms.xml#potentialite">potentialité</term> de nos propos et que c’est déjà, sinon quelque chose de réel et de fidèle, du moins une sorte d’œuvre collective dont il est le traducteur.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je suis tout à fait de cet avis.</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Messieurs, je mets l’existence future des C.R. aux voix. Pour ? Contre ? Merci. Pour : unanimité. Contre : une voix.</p>
+      <p><persName ref="difdepo:persons.xml#bens">Bens</persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> d’un <ref><title ref="difdepo:titles.xml#projetdelementsdestatuts">Projet d’éléments de Statuts</title></ref>.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f3.highres" n="3"/>
+      <p><persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Ces éléments de statuts seront joints au C.R. de la présente séance. Nous en discuterons au cours du prochain déjeuner.</p>
+      <p>On parle de la bande du <title ref="difdepo:titles.xml#dossieroulipo">Dossier OuLiPo</title>. Sans résultat.</p>
+      <p>On parle du service de presse du même <title ref="difdepo:titles.xml#dossier">Dossier</title>.</p>
+      <p>On reparle de la bande. Après une longue délibération, on adopte, sur proposition de <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, améliorée par <persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName>, <persName ref="difdepo:persons.xml#ams"><abbr>A.M.S.</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName> et <persName ref="difdepo:persons.xml#jl"><abbr>J.L.</abbr></persName> : <term ref="difdepo:terms.xml#patalegomenes">PATALEGOMENES</term> A DES POETIQUES FUTURES QUI VOUDRONT BIEN SE PRESENTER COMME TELLES</p>
+      <p><persName ref="difdepo:persons.xml#bens">Bens</persName> : Je crois que nous devrions, cette année, étudier plus particulièrement les questions théoriques :</p>
+      <list type="ordered">
+        <item>Définition et limites de la <term ref="difdepo:terms.xml#potentialite">potentialité</term>. Pour cela :</item>
+        <item>Analyse des différentes <term ref="difdepo:terms.xml#potentialites">potentialités</term>. Notamment : <term ref="difdepo:terms.xml#lipoanalytique">LiPo analytique</term> et <term ref="difdepo:terms.xml#liposynthetique">LiPo synthétique</term>.</item>
+        <item>Exemple. Je me suis demandé si, dans nos activités personnelles, extérieures à l’OuLiPo, il nous est possible de réaliser une <term ref="difdepo:terms.xml#ouvrepotentielle">œuvre potentielle</term>. Personnellement, je réponds non. Parce que je crois que le propre d’une œuvre achevée est précisément de n’être pas (ou plus) potentielle ; je crois qu’une œuvre mérite le titre d’œuvre quand on ne peut plus rien en tirer—quand l’auteur en a tiré le maximum. J’ai un très bon exemple à vous présenter : les <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">CENT MILLE MILLIARDS DE POEMES</title>, qui représentent la seule <term ref="difdepo:terms.xml#ouvrepotentielle">œuvrepotentielle</term> du tout parce que l’auteur en a envisagé et tiré toutes les <term ref="difdepo:terms.xml#possibilites">possibilités</term> possibles (sic). On ne peut absolument plus rien en faire. De la même manière, les <term ref="difdepo:terms.xml#poemesduneseulelettre">poèmes d’une seule lettre</term> proposée par <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> ne contiennent plus aucune <term ref="difdepo:terms.xml#potentialite">potentialité</term> dès l’instant qu’ils accèdent à l’<term ref="difdepo:terms.xml#existence">existence</term>.</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : A mon avis, le mot <term ref="difdepo:terms.xml#potentiel">potentiel</term> ne caractérise pas des œuvres, mais des procédés. Est de la <term ref="difdepo:terms.xml#lipo">LiPo</term>, l’invention du <term ref="difdepo:terms.xml#sonnet">sonnet</term>. Un <term ref="difdepo:terms.xml#sonnet">sonnet</term>, c’est une <term ref="difdepo:terms.xml#ouvre">œuvre</term>, mais son invention, c’est de la <term ref="difdepo:terms.xml#lipo">LiPo</term>. A côté du cas des <term ref="difdepo:terms.xml#ouvreslimites">œuvres-limites</term> qui épuisent tout leur contenu, il y a des <term ref="difdepo:terms.xml#procedesillimites">procédés illimités</term>. Ce sont ceux-là qui nous intéressent. Les cas limites sont intéressants, soit pour nous distraire, soit</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f4.highres" n="4"/>
+      <p>pour nous faire sentir les directions possibles de la <term ref="difdepo:terms.xml#lipo">LiPo</term>. Je propose que, dans un prochain déjeuner, lorsque nous aurons réglé les problèmes du Dossier et des Statuts, nous tâchions de définir un peu mieux les avenues que nous pourrons prendre.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Je pense qu’il faudrait retenir, des propositions précédentes, l’idée des groupes de travail. Il peut y avoir, par exemple, un <orgName ref="difdepo:organizations.xml#groupepratique">groupe “pratique”</orgName> qui mettra en œuvre les procédés définis par le <orgName ref="difdepo:organizations.xml#groupetheorique">groupe “théorique”</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Je voudrais répondre à <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>. Je me suis demandé : “Comment peut-on écrire un livre, par exemple, qui ait un certain <term ref="difdepo:terms.xml#caracterepotentiel">caractère potentiel</term> ? Donc : quels sont ceux qui possèdent ce caractère et ceux qui ne le possèdent pas ?” C’est une question qui me paraît importante et que l’on ne peut pas résoudre uniquement avec des raisons de mots. Il n’est pas suffisant de dire : “On va décider que <term ref="difdepo:terms.xml#potentiel">potentiel</term> s’appliquera à une méthode, et non pas à une œuvre.” Bon. Alors, il faudra trouver un autre mot pour l’œuvre, mais la question reste posée quand même.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Il me semble qu’une œuvre peut nous satisfaire, au point de vue de la <term ref="difdepo:terms.xml#potentialite">potentialité</term>, si, comme dans les <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">CENT MILLE MILLIARDS DE POEMES</title>, l’auteur y inclut volontairement, sciemment, techniquement, une <term ref="difdepo:terms.xml#potentialite">potentialité</term>. C’est bien là la <term ref="difdepo:terms.xml#litteraturepotentielle">littérature potentielle</term> qui nous intéresse et que nous avons à promouvoir. Comment écrire de pareilles choses, voilà un problème qui, me semble-t-il, est au premier rang des préoccupations de l’OuLiPo.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il y a deux sens au mot <term ref="difdepo:terms.xml#potentialite">potentialité</term>. Il y a la potentialité qui permet d’écrire (par des méthodes potentielles) des millions de livres tout différents dans une forme nouvelle, par exemple la forme combinatoire qui est celle des <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">CENT MILLE MILLIARDS DE POEMES</title>. Et puis il y a la <term ref="difdepo:terms.xml#potentialite">potentialité</term> interne à l’œuvre, celle qui donne 26 possibilités avec les poèmes d’une lettre, ou cent mille milliards avec les <term ref="difdepo:terms.xml#sonnets">sonnets</term> de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : C’est simplement une réflexion sur ce qu’on a dit jusqu’ici, que j’ai divisée en 10 points, et qui aboutit à une proposition très limitée. Cette note pourrait s’appeler : NOTE – OU – SUR LA POSSIBILITE ET L’IMPOSSIBILITE D’UNE REDUCTION DE LA <term ref="difdepo:terms.xml#redondance">REDONDANCE</term> ABSOLUE ET RELATIVE.</p>
+      <p>(Au cours de sa lecture, <persName ref="difdepo:persons.xml#queval">Queval</persName> a parfois omis d’annoncer les numéros des points. J’indique seulement ceux qu’il a fait apparaître. Les numéros intermédiaires se dégageront, sans doute, d’eux-mêmes. N.D.S.P.)</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f5.highres" n="5"/>
+      <list type="unordered">
+        <item>Premier point. Trois remarques dignes d’attention dans ce qui s’est dit au cours de précédentes réunions : <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName> a dit : “Pour la première fois, une tentative objective d’appréhension et d’appréciation de la littérature…” ; on a employé souvent le terme <term ref="difdepo:terms.xml#redondance">redondance</term> ; <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> a utilisé l’expression “siècle de la science”. On arrive ainsi à une formulation : AU SIECLE DE LA SCIENCE, L’<term ref="difdepo:terms.xml#objectivite">OBJECTIVITE</term> BANNIT LA <term ref="difdepo:terms.xml#redondance">REDONDANCE</term>.</item>
+        <item>Deuxième point. Il y a deux notions de la <term ref="difdepo:terms.xml#redondance">redondance</term>. Dans l’enfer de la <term ref="difdepo:terms.xml#redondance">redondance</term> au sens communément accepté, on peut jeter <persName ref="difdepo:persons.xml#lamartine">Lamartine</persName> et <persName ref="difdepo:persons.xml#hugo">Hugo</persName>, mais aussi bien <persName ref="difdepo:persons.xml#bossuet">Bossuet</persName> et <persName ref="difdepo:persons.xml#sartre">Sartre</persName>. En contre-épreuve, on aurait, par exemple, les <title ref="difdepo:titles.xml#pensees">Pensées</title> d’<persName ref="difdepo:persons.xml#alain">Alain</persName>, les <title ref="difdepo:titles.xml#contes">Contes</title> de <persName ref="difdepo:persons.xml#maupassant">Maupassant</persName> et les <title ref="difdepo:titles.xml#pensees">Pensées</title> de <persName ref="difdepo:persons.xml#valery">Valéry</persName>. Maintenant, c’est différent : <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> trouve la <term ref="difdepo:terms.xml#redondance">redondance</term> chez <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName>, et <persName ref="difdepo:persons.xml#latis">Latis</persName> chez <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</item>
+        <item>Troisième point. <persName ref="difdepo:persons.xml#braffort">Braffort</persName> nous a dit : “Chez <persName ref="difdepo:persons.xml#corneille">Corneille</persName> et <persName ref="difdepo:persons.xml#racine">Racine</persName>, il y a très peu d’information.” On peut alors dire : AU SIECLE DE LA SCIENCE, L’<term ref="difdepo:terms.xml#objectivite">OBJECTIVITE</term> ABOUTIT A L’<term ref="difdepo:terms.xml#information">INFORMATION</term>. Nous arrivons maintenant à une nouvelle forme d’<term ref="difdepo:terms.xml#information">information</term> : communication d’hypothèses de recherches et de progrès dans une découverte faite à des pairs.</item>
+        <item>C’était le cinquième point. (!)</item>
+        <item>Sixième point. Encore faut-il y introduire la littérature. Je ne m’engage pas dans cette voie, parce que je ne la vois pas très clairement.</item>
+        <item>Septième point. En-deçà de cette littérature de recherche (donc, parascientifique), il y a le <term ref="difdepo:terms.xml#phenomenedesbardes">phénomène des bardes</term>. Je suppose qu’à l’origine, c’est la <term ref="difdepo:terms.xml#prophetie">prophétie</term> par le Verbe. Etant donné qu’on ne sait rien, on essaie de deviner par une <term ref="difdepo:terms.xml#projectionprophetique">projection prophétique</term> (prophétique entre guillemets) du Verbe. On n’est plus dans le domaine de la connaissance, mais dans un domaine paramusical. J’ai l’air de dire des choses raboutées un peu gratuitement. En réalité, c’est pour arriver à mon :</item>
+        <item>Huitième point. La <term ref="difdepo:terms.xml#redondance">redondance</term>, selon la notion nouvelle de <term ref="difdepo:terms.xml#redondance">redondance</term> que nous avons acquise tout à l’heure, la <term ref="difdepo:terms.xml#redondance">redondance</term> est liée chez le <term ref="difdepo:terms.xml#barde">barde</term>, et chez tout le monde, à l’approximation. Parce qu’on ne peut pas “démontrer”, on veut convaincre par la surcharge, la grossissement, la répétition, et même un effet de terreur. Il y a peut-être un effet de terreur chez <persName ref="difdepo:persons.xml#bossuet">Bossuet</persName>, dans les <title ref="difdepo:titles.xml#oraisonsfunebres">Oraisons funèbres</title>. Il y a un effet de terreur chez <persName ref="difdepo:persons.xml#sartre">Sartre</persName>, si l’on veut, dans l’effervescence exégétique. En réalité, si la <term ref="difdepo:terms.xml#redondance">redondance</term> est liée à l’approximation, on peut se demander pourquoi, ce qui me conduit au neuvième point.</item>
+        <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100145/f6.highres" n="6"/>
+        <item>Neuvième point. Il y a toujours approximation, parce que nous sommes toujours dans un monde de traduction. Si l’un d’entre nous veut faire le point d’une question d’ordre universel, il ne peut pas le faire sans rassembler des ouvrages empruntés à des langues diverses. La pluralité du langage humain est une espèce d’aveu d’impuissance, une espèce d’évidence de l’approximation. Autrement dit, on arriverait à la non-approximation, donc à la non-redondance si on était dans la mathématique, c’est-à-dire sur une base solide qui permette un développement dynamique. Ce n’est pas le cas. D’ailleurs, dans le cadre d’une seule langue, nous sommes toujours dans le phénomène de traduction puisqu’on réexplique ce qu’on estime mal expliqué.</item>
+        <item>Dixième point. On peut peut-être essayer de faire les plus simples des <term ref="difdepo:terms.xml#sonnets">sonnets</term> en limitant le risque de <term ref="difdepo:terms.xml#redondance">redondance</term>, ou plutôt en limitant le risque de l’usage de la grammaire. Si l’on n’employait que des infinitifs, on arriverait à une moindre utilisation du langage, peut-être à une moindre redondance. Or, l’infinitif peut se prêter à la description d’un état en développement. C’est peut-être “s’ennuyer”, “dormir”, “manger”, “aimer”. Alors, j’ai fait un sonnet sur “aimer”, qui pourrait s’appeler : L’EXPORATEUR S’EST PENCHE SUR LES MAMMIFERES. Je ne le donne pas du tout comme un bon poème, mais comme exemple. Je crois que la méthode est potentiellement limitée—mais enfin, elle est amusante. Voici le <term ref="difdepo:terms.xml#sonnet">sonnet</term>. (Il y a des <term ref="difdepo:terms.xml#neologismes">néologismes</term>, ce qui est intéressant, parce que dans les cas douteux, il vaut mieux … Bon.)</item>
+      </list>
+      <p>(Le <ref>sonnet</ref> se trouve en annexe. N.D.S.P.)</p>
+      <p>Il est tard. Certains, pris par des obligations professionnelles, se sont déjà discrètement éclipsés. Après un vote laborieux sur le libellé définitif de la bande du Dossier, la séance se termine dans la confusion verbale la plus grande.</p>
+      <p>Pour copie super-conforme</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>J.B.</abbr></persName></p>
+    </body>
   </text>
 </TEI>

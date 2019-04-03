@@ -1,69 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010110-1970-02-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010110-1970-02-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010110 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 2 février 1970</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010110-1970-02-cv</idno> 
-               <title>Convocation à <ref target="#t10010110-1970-02">une réunion Oulipo</ref>, envoyée le <date when="1970-02-02">2 février 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-23" who="HCC">nettoyage des symboles graphiques in text</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-09">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010110 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 2 février 1970</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010110-1970-02-cv</idno><title>Convocation à <ref target="#t10010110-1970-02">une réunion Oulipo</ref>, envoyée le <date when="1970-02-02">2 février 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-23" who="HCC">nettoyage des symboles graphiques in text</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-09">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010110r/f1.highres" n="1"/>
-         <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605-90-13</p>
-         <p rend="incipit">Ovroir de <lb/>LIttérature <lb/>POtentielle</p>
-         <p rend="incipit">le 2 Février 1970</p>
-         <p>Chers Brigadiers,</p>
-         <p>Une fois de plus, notre dernière réunion OuLiPienne du Lundi 26 Janvier, s’est déroulée sous le signe d’un travail intense et d’une grande sérénité à peine troublés par quelques éclats de rire nerveux.</p>
-         <p>Voici le calendrier de nos prochaines réunions :</p>
-         <p>a) Lundi 16 Février à 16 heures 30 chez <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> : cette date étant fixée pour permettre d’accueillir <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName>.</p>
-         <p>b) Lundi 23 Février à 16 heures 30 chez <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> : cette date ayant été fixée pour permettre à <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> de nous apporter, complètement au point, en ordre et en deux exemplaires, le <title ref="difdepo:titles.xml#dossiercape">dossier Cape</title>.</p>
-         <p>
-            <ref>Ci-joint, un questionnaire</ref> dont l’importance ne vous échappera pas.</p>
-         <p>OuLiPiennement votre.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010110r/f1.highres" n="1"/>
+      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605-90-13</p>
+      <p rend="incipit">Ovroir de <lb/>LIttérature <lb/>POtentielle</p>
+      <p rend="incipit">le 2 Février 1970</p>
+      <p>Chers Brigadiers,</p>
+      <p>Une fois de plus, notre dernière réunion OuLiPienne du Lundi 26 Janvier, s’est déroulée sous le signe d’un travail intense et d’une grande sérénité à peine troublés par quelques éclats de rire nerveux.</p>
+      <p>Voici le calendrier de nos prochaines réunions :</p>
+      <p>a) Lundi 16 Février à 16 heures 30 chez <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> : cette date étant fixée pour permettre d’accueillir <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>.</p>
+      <p>b) Lundi 23 Février à 16 heures 30 chez <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> : cette date ayant été fixée pour permettre à <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> de nous apporter, complètement au point, en ordre et en deux exemplaires, le <title ref="difdepo:titles.xml#dossiercape">dossier Cape</title>.</p>
+      <p><ref>Ci-joint, un questionnaire</ref> dont l’importance ne vous échappera pas.</p>
+      <p>OuLiPiennement votre.</p>
+    </body>
   </text>
 </TEI>

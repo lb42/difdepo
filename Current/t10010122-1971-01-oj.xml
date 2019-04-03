@@ -1,116 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010122-1971-01-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010122-1971-01-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010122 pp. 1 à 1 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 12 janvier 1971</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010122-1971-01-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010122-1971-01">la réunion Oulipo</ref> du <date when="1971-01-12">12 janvier 1971</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-09">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010122 pp. 1 à 1 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 12 janvier 1971</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010122-1971-01-oj</idno><title>Ordre de jour de <ref target="#t10010122-1971-01">la réunion Oulipo</ref> du <date when="1971-01-12">12 janvier 1971</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-09">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101222/f1.highres" n="1"/>
-         <p rend="incipit">12 Janvier 1971 <lb/>4753ème réunion</p>
-         <p>Ordre du jour <lb/>119ème séance</p>
-         <p>Boulogne sur Seine</p>
-         <p>OuLiPo</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#benabou">Benabou</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#etienne">Etienne</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-         </p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>Absence de rimes intérieures <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>
-            </item>
-            <item>quoi? <persName ref="difdepo:persons.xml#etienne">Etienne</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#benabou">Benabou</persName> = Unité <unclear>E Recherche Oulipo</unclear>
-            </item>
-            <item>Bibliographie</item>
-            <item>
-               <persName ref="difdepo:persons.xml#perec">Perec</persName> Documentation <title ref="difdepo:titles.xml#cape">Cape</title>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#benabou">Benabou</persName> 
-               <persName ref="difdepo:persons.xml#fll">
-                  <abbr>
-                     <unclear>FLL</unclear>
-                  </abbr>
-               </persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <list type="unordered">
-            <item>Les invités d’honneur : <persName ref="difdepo:persons.xml#queneau">Queneau</persName> (par <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>)</item>
-            <item>
-               <persName ref="difdepo:persons.xml#perec">Perec</persName> Traduction phonologique</item>
-            <item>
-               <persName ref="difdepo:persons.xml#benabou">Benabou</persName> Article de critique</item>
-         </list>
-         <p>
-            <label type="rubrique">Menu propos</label>
-         </p>
-         <list type="unordered">
-            <item>Prochain invité : <persName ref="difdepo:persons.xml#mathews">Mathews</persName> ?</item>
-         </list>
-         <p>
-            <label type="rubrique">Divers</label>
-         </p>
-         <list type="unordered">
-            <item>Prochaine date 12/02/71</item>
-            <item>
-               <persName ref="difdepo:persons.xml#perec">Perec</persName> Ce salaud de Paulet</item>
-            <item>Fournel</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101222/f1.highres" n="1"/>
+      <p rend="incipit">12 Janvier 1971 <lb/>4753ème réunion</p>
+      <p>Ordre du jour <lb/>119ème séance</p>
+      <p>Boulogne sur Seine</p>
+      <p>OuLiPo</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#benabou">Benabou</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#etienne">Etienne</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item>Absence de rimes intérieures <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item>quoi? <persName ref="difdepo:persons.xml#etienne">Etienne</persName></item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#benabou">Benabou</persName> = Unité <unclear>E Recherche Oulipo</unclear></item>
+        <item>Bibliographie</item>
+        <item><persName ref="difdepo:persons.xml#perec">Perec</persName> Documentation <title ref="difdepo:titles.xml#cape">Cape</title></item>
+        <item><persName ref="difdepo:persons.xml#benabou">Benabou</persName><persName ref="difdepo:persons.xml#fll"><abbr><unclear>FLL</unclear></abbr></persName></item>
+      </list>
+      <p><label type="rubrique">Erudition</label></p>
+      <list type="unordered">
+        <item>Les invités d’honneur : <persName ref="difdepo:persons.xml#queneau">Queneau</persName> (par <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>)</item>
+        <item><persName ref="difdepo:persons.xml#perec">Perec</persName> Traduction phonologique</item>
+        <item><persName ref="difdepo:persons.xml#benabou">Benabou</persName> Article de critique</item>
+      </list>
+      <p><label type="rubrique">Menu propos</label></p>
+      <list type="unordered">
+        <item>Prochain invité : <persName ref="difdepo:persons.xml#mathews">Mathews</persName> ?</item>
+      </list>
+      <p><label type="rubrique">Divers</label></p>
+      <list type="unordered">
+        <item>Prochaine date 12/02/71</item>
+        <item><persName ref="difdepo:persons.xml#perec">Perec</persName> Ce salaud de Paulet</item>
+        <item>Fournel</item>
+      </list>
+    </body>
   </text>
 </TEI>

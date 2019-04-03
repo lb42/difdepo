@@ -1,64 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010280-1985-03-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010280-1985-03-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010280 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 11 mars 1985</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010280-1985-03-cv</idno> 
-               <title>Convocation à <ref target="#t10010280-1985-03">une réunion Oulipo</ref>, envoyée le <date when="1985-03-11">11 mars 1985</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:41:47Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010280 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 11 mars 1985</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010280-1985-03-cv</idno><title>Convocation à <ref target="#t10010280-1985-03">une réunion Oulipo</ref>, envoyée le <date when="1985-03-11">11 mars 1985</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:41:47Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f1.highres" n="1"/>
-         <p rend="incipit">Oulipo</p>
-         <p rend="incipit">Le 11 mars 85</p>
-         <p rend="incipit">Oulipiens,</p>
-         <p>L’Ouvroir se réunira le 29 mars 85 à 19 heures chez <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> 7 rue Charles V 75004 (278.12.92).</p>
-         <p>Pensez à l’hommage au président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
-         <p>Merci.</p>
-         <p>An 29, amitiés,</p>
-         <p>
-            <persName ref="difdepo:persons.xml#paul">
-               <abbr>Paul</abbr>
-            </persName>
-         </p>
-         <p>Un sécretaire</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102801/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo</p>
+      <p rend="incipit">Le 11 mars 85</p>
+      <p rend="incipit">Oulipiens,</p>
+      <p>L’Ouvroir se réunira le 29 mars 85 à 19 heures chez <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> 7 rue Charles V 75004 (278.12.92).</p>
+      <p>Pensez à l’hommage au président <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
+      <p>Merci.</p>
+      <p>An 29, amitiés,</p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
+      <p>Un sécretaire</p>
+    </body>
   </text>
 </TEI>

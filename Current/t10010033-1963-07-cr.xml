@@ -1,197 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010033-1963-07-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010033-1963-07-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010033 pp. 1 à 5 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 1ᵉʳ juillet 1963</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010033-1963-07-cr</idno> 
-               <meeting xml:id="t10010033-1963-07">
-                  <date when="1963-07-01">1ᵉʳ juillet 1963</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:34:07Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010033 pp. 1 à 5 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 1ᵉʳ juillet 1963</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010033-1963-07-cr</idno><meeting xml:id="t10010033-1963-07">
+          <date when="1963-07-01">1ᵉʳ juillet 1963</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#albertmarieschmidt">Albert-Marie Schmidt</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:34:07Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f1.highres" n="1"/>
-         <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE <lb/>
-         </p>
-         <p rend="incipit">Circulaire n° 35</p>
-         <p rend="incipit">REUNION DU 1er JUILLET 1963</p>
-         <p rend="incipit">PRESENT : <persName ref="difdepo:persons.xml#amschmidt">A.M. Schmidt</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>. <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>.</p>
-         <p rend="incipit">PRESIDENT : <persName ref="difdepo:persons.xml#jbens">J. BENS</persName>.</p>
-         <p>Après que la Président se soit muni, pour rédiger l’ordre du jour, de papier et d’un crayon ad hoc (c’est-à-dire « à bille »), il fait l’inventaire systématique des interventions, et constate que ledit ordre du jour est bien chargé. D’autant plus que <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, bien qu’il n’ait rien à dire, suivant son propre aveu, se « réserve d’intervenir dans le courant des débats ».</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, pour sa part, révèle qu’il a « six trucs à dire », ce qui n’arrange rien. (Mais il renoncera gentiment à quelques-uns.)</p>
-         <p>Le menu ayant été choisi et récapitulé, selon la coutume, la séance s’ouvre effectivement.</p>
-         <p>Non sans que des félicitations particulières et générales aient été signifiées à <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, à propos des deux ouvrages dont il vient d’honorer l’OuLiPo. Il s’agit, bien entendu, du recueil de poèmes réunis sous le titre de <title ref="difdepo:titles.xml#lieuxdits">LIEUX-DITS</title> (<orgName ref="difdepo:organizations.xml#mercuredefrance">Mercure de France</orgName>) et du roman intitulé <title ref="difdepo:titles.xml#etc">ETC</title>. (<orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> formule des plaintes amères à l’encontre de <persName ref="difdepo:persons.xml#lescure">Lescure</persName> qui, après nous avoir longuement et sévèrement conviés à nous rendre à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>, fait mine de ne plus vouloir y aller, mettant ainsi en péril le présent et l’avenir de la <term ref="difdepo:terms.xml#litteraturepotentielle">littérature potentielle</term> et <term ref="difdepo:terms.xml#automatique">automatique</term>.</p>
-         <p>LE PRESIDENT (à <persName ref="difdepo:persons.xml#lescure">Lescure</persName>) : Justifiez-vous.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est-à-dire que… si mon absence… Enfin, voilà :</p>
-         <list type="ordered">
-            <item>j’ai téléphoné chez <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, ça ne répondait pas ;</item>
-            <item>
-               <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> devait faire un rapport ;</item>
-            <item>me faire parler de <term ref="difdepo:terms.xml#litteraturemecanique">littérature mécanique</term>, je ne sais pas si…</item>
-         </list>
-         <p>LE PRESIDENT : La défense de <persName ref="difdepo:persons.xml#lescure">Lescure</persName> étant timbrée du double sceau de l’obscurité et de la mauvaise foi, nous la déclarons irrecevable. Je demande que l’on vote pour décider de la présence de <persName ref="difdepo:persons.xml#lescure">Lescure</persName> à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>.</p>
-         <p>Le vote à mains levées décide, à l’unanimité moins une voix (la <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f2.highres" n="2"/>sienne), que <persName ref="difdepo:persons.xml#lescure">Lescure</persName> devra se trouver à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name> pour y parler de l’OuLiPo.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, coupant la poire en deux (chercher la poire), propose que deux exposés de vingt minutes chacun soient envisagés, l’un par <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, l’autre par <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>. Ce programme (écouter parler <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>) convainc les derniers hésitants. Le rendez-vous est fixé à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>, le 15 juillet, à 15 heures. (Bien entendu, ceux qui veulent arriver avant peuvent le faire.)</p>
-         <p>Divers arrangements sont pris, concernant le logement, le trajet, etc. <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, qui a la délicate tâche d’amener <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>, demande à quelle heure l’on peut arriver. <persName ref="difdepo:persons.xml#lescure">Lescure</persName> déclare que cela n’a aucune importance. Il précise même :</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Si vous arrivez vers minuit, vous trouverez tout le monde à quatre pattes, en train de jouer à un jeu psychologiques</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> évoque l’éternel et toujours douloureux problème des comptes-rendus. Le départ du S.P. va le poser d’une manière toute nouvelle. On parle des enregistrements de nos réunions. Le S.P. semble leur être favorable. Mais :</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Cela fait perdre un temps fou : pour deux heures d’enregistrement, vous avez une heure de bruits de fourchettes.</p>
-         <p>On convient cependant que <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> s’en chargera, avec ou sans magnétophone, à son gré. Mais (encore lui) :</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Je propose que l’on continue de confier la rédaction des C.R. à notre cher (salaud !) Secrétaire Provisoire. Ainsi, ils pourront conserver cette unité de style qui-que-quoi-dont-où.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : A mon avis, et pour accentuer le caractère « <term ref="difdepo:terms.xml#automatique">automatique</term> » de notre littérature, il serait bon de donner ça à une machine.</p>
-         <p>LE PRESIDENT : Et de lui faire effectuer des <term ref="difdepo:terms.xml#permutations">permutations</term> de circulaires…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : On pourrait avoir des C.R. OuLiPiens.</p>
-         <p>LE PRESIDENT : En <term ref="difdepo:terms.xml#s7">S + 7</term>, par exemple…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est cela ; je ferai le dernier en <term ref="difdepo:terms.xml#s7">S + 7</term> !</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> fait passer un exemplaire du <title ref="difdepo:titles.xml#dossier17">Dossier 17</title>, destiné à <persName ref="difdepo:persons.xml#mme">Mme</persName> et <persName ref="difdepo:persons.xml#mhirschberg">M. Hirschberg</persName>, et que tout le monde revêt de sa signature. On déplore la faible surface réservée à cette opération sur la page de titre.</p>
-         <p>QUELQU’UN : Il faudra réclamer des pages de garde sur les prochains dossiers.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Et même d’avant-garde !</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f3.highres" n="3"/>
-         <p>Le Président déplore l’illisibilité de sa signature et demande :</p>
-         <p>LE PRESIDENT : Comment avoir une signature comme <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est pas une signature, c’est une affiche !</p>
-         <p>On signe par procuration pour les absents—ou par défaut, suivant les cas.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> ayant décidé de supprimer deux ou trois points de son ordre du jour personnel, il rappelle brièvement, pour ceux qui n’assistaient pas à la dernière réunion, les principes de la <term ref="difdepo:terms.xml#litteraturematricielle">littérature matricielle</term> :</p>
-         <p>a+b a’ + b’ aa’ + bc’</p>
-         <p>x =</p>
-         <p>c + d c’ + d’ cb’ + dd’</p>
-         <p>Suivent quelques réflexions sur les prononciations de 1 (l’université) et 0 (l’élément annulateur). 0 se prononcera OEU.</p>
-         <p>Le Président demande, non sans malignité, quelle différence ces « gens du Nord » entendent réellement faire entre in et un. <persName ref="difdepo:persons.xml#queneau">Queneau</persName> répond froidement qu’en ce qui le concerne, il n’en a jamais réellement entendu aucune.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> (Auvergnat) : N’avez-vous pas remarqué que notre Président prononce un en parlant du nez ? (Au Président) : Soyez franc : avouez que vous le prononcez en soufflant par les naseaux…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Prince des Naseaux !</p>
-         <p>LE PRESIDENT : Depuis la fondation de l’OuLiPo, c’est-à-dire depuis un peu plus de deux ans et demi, j’attends avec angoisse cette allusion à mon pif. Il est triste qu’elle ait fini par arriver, et que ce soit un auverpin qui la fasse.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Quel étrange Président nous avons aujourd’hui !</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> remarque que la <term ref="difdepo:terms.xml#litteraturematricielle">littérature matricielle</term> est une nouvelle direction de l’OuLiPo et que ce jour est un grand jour. Il demande à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> de refaire son exposé sur ce sujet, avec de plus amples détails, au cours, par exemple, de la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>. Adopté.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> lit alors un court texte de science-fiction de <persName ref="difdepo:persons.xml#fredricbrown">Fredric Brown</persName>, tiré de <title ref="difdepo:titles.xml#fantomesetfarfafouilles">Fantômes et Farfafouilles</title> (<orgName ref="difdepo:organizations.xml#denoel">Denoël</orgName>). Cette nouvelle, excellente, justifie l’introduction de <persName ref="difdepo:persons.xml#brown">Brown</persName> dans le Panthéon des « <term ref="difdepo:terms.xml#plagiairesparanticipation">plagiaires par anticipation</term> ».</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f4.highres" n="4"/>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> consent à revenir, pour un instant, sur l’application du <term ref="difdepo:terms.xml#calculmatriciel">calcul matriciel</term> au langage. Il a fait un exercice avec une « <term ref="difdepo:terms.xml#microgrammaire">micro-grammaire</term> » (une seule matrice) et un « <term ref="difdepo:terms.xml#microlangage">micro-langage</term> » (29 mots). Cet exercice aiguise l’intérêt de chacun. On attend avec d’autant plus d’impatience un exposé plus complet de la théorie.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> propose alors d’écrire des poèmes en n’utilisant que des vocables humains que comprennent certains animaux. On aurait ainsi des poèmes pour chiens, pour corbeaux, pour renards, etc.</p>
-         <p>On pourrait également écrire des poèmes combinant les vocables appartenant au langage propre de plusieurs animaux. Le Lionnais parle de la possibilité d’écrire des dialogues entre un phoque et un pinson, ou un renard et une sauterelle.</p>
-         <p>LE PRESIDENT : N’est-ce pas ce que l’on désigne sous le nom « <term ref="difdepo:terms.xml#dialoguedesourds">dialogue de sourds</term> » ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Un de mes clients m’a dit un jour qu’il est entraîneur de chevaux de course, qu’il lit fréquemment <persName ref="difdepo:persons.xml#baudelaire">Baudelaire</persName> à ses chevaux, et qu’ils semblent adorer ça…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : C’est ce qu’on appelle le doping. C’est à cause de <persName ref="difdepo:persons.xml#baudelaire">Baudelaire</persName> que le <orgName ref="difdepo:organizations.xml#pmu">P.M.U.</orgName> roule vers l’abîme.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je vous rappelle que <persName ref="difdepo:persons.xml#macorlan">Mac Orlan</persName> a apprivoisé des corbeaux qui comprenaient parfaitement son langage.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Mais faisait-il parler « corbeau » par ses chats ?</p>
-         <p>Le Président cite encore le cas des chiens de bergers. <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> précise que les chiens sont lettristes. <persName ref="difdepo:persons.xml#lescure">Lescure</persName> estime que les idées de <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> vont permettre aux poètes dont les lecteurs diminuent de trouver un nouveau public.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je pensais, récemment, qu’il y aurait un texte de choix pour la méthode <term ref="difdepo:terms.xml#s7">S + 7</term> : c’est <persName ref="difdepo:persons.xml#euclide">Euclide</persName>.</p>
-         <p>A l’unanimité, <persName ref="difdepo:persons.xml#lescure">Lescure</persName> est chargé de traduire, en <term ref="difdepo:terms.xml#s7">S + 7</term>, les premières propositions d’<persName ref="difdepo:persons.xml#euclide">Euclide</persName>.</p>
-         <p>Diverses considérations sont émises à propos des <term ref="difdepo:terms.xml#machines">machines</term>, et de quelques travaux qu’on pourrait leur demander, comme la réalisation d’un dictionnaire numérotant les mots par catégorie (A = adjectif, S = substantif, etc.) Le premier adjectif du dictionnaire serait ainsi numéroté A1, le second A2, et ainsi de suite. Pour les autres catégories, il en irait évidemment de même. Un tel dictionnaire permettrait, non seulement de réaliser beaucoup plus vite des <term ref="difdepo:terms.xml#sn">S = n</term> (en particulier pour n très grand), mais encore de faire réaliser ce travail par n’importe quelle <term ref="difdepo:terms.xml#machine">machine</term>.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f5.highres" n="5"/>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">Queval</persName> ayant remarqué, sournoisement, que la méthode <term ref="difdepo:terms.xml#s7">S + 7</term> fait un peu « <term ref="difdepo:terms.xml#farce">farce</term> », <persName ref="difdepo:persons.xml#queneau">Queneau</persName> remarque à son tour que c’est la première fois que le mot « <term ref="difdepo:terms.xml#farce">farce</term> » est prononcé, à une réunion OuLiPienne, à propos des travaux de l’OuLiPo. Heureusement, <persName ref="difdepo:persons.xml#amschmidt">A.M. Schmidt</persName> signale que ce mot est utilisé, à des fins tout à fait graves, par les théologiens. L’apaisement revient.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">Queval</persName> parle alors d’un article sur WATERLOO commandé par <persName ref="difdepo:persons.xml#pierrelarousse">Pierre Larousse</persName> à <persName ref="difdepo:persons.xml#julesvalles">Jules Vallès</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Permettez-moi de vous interrompre pour vous signaler que dans une des premières éditons du <title ref="difdepo:titles.xml#larousse">Larousse</title>, on pouvait lire : « <persName ref="difdepo:persons.xml#bonaparte">Bonaparte</persName> est mort le 18 Brumaire »… (A <persName ref="difdepo:persons.xml#queval">Queval</persName>) : Mais que dit-il de Waterloo ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> :</p>
-         <list type="ordered">
-            <item>Je ne sais pas !</item>
-            <item>Il doit y avoir quelque chose !</item>
-            <item>
-               <persName ref="difdepo:persons.xml#julesvalles">Jules Vallès</persName> étant allé à Waterloo pour rédiger ce fameux article est revenu, au bout de 15 mois, avec un livre. <persName ref="difdepo:persons.xml#larousse">Larousse</persName> n’en a pas voulu.</item>
-         </list>
-         <p>On désigne, par ordre d’invitation, les futurs invités de l’OuLiPo. Ce sont : MM. <persName ref="difdepo:persons.xml#ferry">FERRY</persName>, <persName ref="difdepo:persons.xml#guirault">GUIRAULT</persName>, <persName ref="difdepo:persons.xml#grosse">GROSSE</persName>, et <persName ref="difdepo:persons.xml#foucault">FOUCAULT</persName>.</p>
-         <p>On parle, assez longuement, des extraordinaires faux de <persName ref="difdepo:persons.xml#vrainlucas">Vrain-Lucas</persName> et de la naïveté de <persName ref="difdepo:persons.xml#michelchasles">Michel Chasles</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> précise que c’est dans l’acte I d’<title ref="difdepo:titles.xml#ondine">Ondine</title> que se trouve le vers célèbre : « Un seul être vous manque et tout est repeuplé. »</p>
-         <p>On convient, enfin, de se retrouver, le 22 août, à 19 heures, chez <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName>, dont nous rappelons l’adresse :</p>
-         <p>23 route de la Reine</p>
-         <p>BOULOGNE (Seine)</p>
-         <p>Rez-de-chaussée droite</p>
-         <p>
-            <persName ref="difdepo:persons.xml#ythiermarchant">Ythier Marchant</persName>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f1.highres" n="1"/>
+      <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE <lb/></p>
+      <p rend="incipit">Circulaire n° 35</p>
+      <p rend="incipit">REUNION DU 1er JUILLET 1963</p>
+      <p rend="incipit">PRESENT : <persName ref="difdepo:persons.xml#amschmidt">A.M. Schmidt</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>. <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>.</p>
+      <p rend="incipit">PRESIDENT : <persName ref="difdepo:persons.xml#jbens">J. BENS</persName>.</p>
+      <p>Après que la Président se soit muni, pour rédiger l’ordre du jour, de papier et d’un crayon ad hoc (c’est-à-dire « à bille »), il fait l’inventaire systématique des interventions, et constate que ledit ordre du jour est bien chargé. D’autant plus que <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, bien qu’il n’ait rien à dire, suivant son propre aveu, se « réserve d’intervenir dans le courant des débats ».</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName>, pour sa part, révèle qu’il a « six trucs à dire », ce qui n’arrange rien. (Mais il renoncera gentiment à quelques-uns.)</p>
+      <p>Le menu ayant été choisi et récapitulé, selon la coutume, la séance s’ouvre effectivement.</p>
+      <p>Non sans que des félicitations particulières et générales aient été signifiées à <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, à propos des deux ouvrages dont il vient d’honorer l’OuLiPo. Il s’agit, bien entendu, du recueil de poèmes réunis sous le titre de <title ref="difdepo:titles.xml#lieuxdits">LIEUX-DITS</title> (<orgName ref="difdepo:organizations.xml#mercuredefrance">Mercure de France</orgName>) et du roman intitulé <title ref="difdepo:titles.xml#etc">ETC</title>. (<orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>).</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> formule des plaintes amères à l’encontre de <persName ref="difdepo:persons.xml#lescure">Lescure</persName> qui, après nous avoir longuement et sévèrement conviés à nous rendre à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>, fait mine de ne plus vouloir y aller, mettant ainsi en péril le présent et l’avenir de la <term ref="difdepo:terms.xml#litteraturepotentielle">littérature potentielle</term> et <term ref="difdepo:terms.xml#automatique">automatique</term>.</p>
+      <p>LE PRESIDENT (à <persName ref="difdepo:persons.xml#lescure">Lescure</persName>) : Justifiez-vous.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est-à-dire que… si mon absence… Enfin, voilà :</p>
+      <list type="ordered">
+        <item>j’ai téléphoné chez <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, ça ne répondait pas ;</item>
+        <item><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> devait faire un rapport ;</item>
+        <item>me faire parler de <term ref="difdepo:terms.xml#litteraturemecanique">littérature mécanique</term>, je ne sais pas si…</item>
+      </list>
+      <p>LE PRESIDENT : La défense de <persName ref="difdepo:persons.xml#lescure">Lescure</persName> étant timbrée du double sceau de l’obscurité et de la mauvaise foi, nous la déclarons irrecevable. Je demande que l’on vote pour décider de la présence de <persName ref="difdepo:persons.xml#lescure">Lescure</persName> à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>.</p>
+      <p>Le vote à mains levées décide, à l’unanimité moins une voix (la <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f2.highres" n="2"/>sienne), que <persName ref="difdepo:persons.xml#lescure">Lescure</persName> devra se trouver à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name> pour y parler de l’OuLiPo.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, coupant la poire en deux (chercher la poire), propose que deux exposés de vingt minutes chacun soient envisagés, l’un par <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, l’autre par <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>. Ce programme (écouter parler <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>) convainc les derniers hésitants. Le rendez-vous est fixé à <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>, le 15 juillet, à 15 heures. (Bien entendu, ceux qui veulent arriver avant peuvent le faire.)</p>
+      <p>Divers arrangements sont pris, concernant le logement, le trajet, etc. <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, qui a la délicate tâche d’amener <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>, demande à quelle heure l’on peut arriver. <persName ref="difdepo:persons.xml#lescure">Lescure</persName> déclare que cela n’a aucune importance. Il précise même :</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Si vous arrivez vers minuit, vous trouverez tout le monde à quatre pattes, en train de jouer à un jeu psychologiques</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> évoque l’éternel et toujours douloureux problème des comptes-rendus. Le départ du S.P. va le poser d’une manière toute nouvelle. On parle des enregistrements de nos réunions. Le S.P. semble leur être favorable. Mais :</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Cela fait perdre un temps fou : pour deux heures d’enregistrement, vous avez une heure de bruits de fourchettes.</p>
+      <p>On convient cependant que <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> s’en chargera, avec ou sans magnétophone, à son gré. Mais (encore lui) :</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Je propose que l’on continue de confier la rédaction des C.R. à notre cher (salaud !) Secrétaire Provisoire. Ainsi, ils pourront conserver cette unité de style qui-que-quoi-dont-où.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : A mon avis, et pour accentuer le caractère « <term ref="difdepo:terms.xml#automatique">automatique</term> » de notre littérature, il serait bon de donner ça à une machine.</p>
+      <p>LE PRESIDENT : Et de lui faire effectuer des <term ref="difdepo:terms.xml#permutations">permutations</term> de circulaires…</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : On pourrait avoir des C.R. OuLiPiens.</p>
+      <p>LE PRESIDENT : En <term ref="difdepo:terms.xml#s7">S + 7</term>, par exemple…</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est cela ; je ferai le dernier en <term ref="difdepo:terms.xml#s7">S + 7</term> !</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> fait passer un exemplaire du <title ref="difdepo:titles.xml#dossier17">Dossier 17</title>, destiné à <persName ref="difdepo:persons.xml#mme">Mme</persName> et <persName ref="difdepo:persons.xml#mhirschberg">M. Hirschberg</persName>, et que tout le monde revêt de sa signature. On déplore la faible surface réservée à cette opération sur la page de titre.</p>
+      <p>QUELQU’UN : Il faudra réclamer des pages de garde sur les prochains dossiers.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Et même d’avant-garde !</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f3.highres" n="3"/>
+      <p>Le Président déplore l’illisibilité de sa signature et demande :</p>
+      <p>LE PRESIDENT : Comment avoir une signature comme <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> ?</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est pas une signature, c’est une affiche !</p>
+      <p>On signe par procuration pour les absents—ou par défaut, suivant les cas.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> ayant décidé de supprimer deux ou trois points de son ordre du jour personnel, il rappelle brièvement, pour ceux qui n’assistaient pas à la dernière réunion, les principes de la <term ref="difdepo:terms.xml#litteraturematricielle">littérature matricielle</term> :</p>
+      <p>a+b a’ + b’ aa’ + bc’</p>
+      <p>x =</p>
+      <p>c + d c’ + d’ cb’ + dd’</p>
+      <p>Suivent quelques réflexions sur les prononciations de 1 (l’université) et 0 (l’élément annulateur). 0 se prononcera OEU.</p>
+      <p>Le Président demande, non sans malignité, quelle différence ces « gens du Nord » entendent réellement faire entre in et un. <persName ref="difdepo:persons.xml#queneau">Queneau</persName> répond froidement qu’en ce qui le concerne, il n’en a jamais réellement entendu aucune.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> (Auvergnat) : N’avez-vous pas remarqué que notre Président prononce un en parlant du nez ? (Au Président) : Soyez franc : avouez que vous le prononcez en soufflant par les naseaux…</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Prince des Naseaux !</p>
+      <p>LE PRESIDENT : Depuis la fondation de l’OuLiPo, c’est-à-dire depuis un peu plus de deux ans et demi, j’attends avec angoisse cette allusion à mon pif. Il est triste qu’elle ait fini par arriver, et que ce soit un auverpin qui la fasse.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Quel étrange Président nous avons aujourd’hui !</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> remarque que la <term ref="difdepo:terms.xml#litteraturematricielle">littérature matricielle</term> est une nouvelle direction de l’OuLiPo et que ce jour est un grand jour. Il demande à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> de refaire son exposé sur ce sujet, avec de plus amples détails, au cours, par exemple, de la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>. Adopté.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> lit alors un court texte de science-fiction de <persName ref="difdepo:persons.xml#fredricbrown">Fredric Brown</persName>, tiré de <title ref="difdepo:titles.xml#fantomesetfarfafouilles">Fantômes et Farfafouilles</title> (<orgName ref="difdepo:organizations.xml#denoel">Denoël</orgName>). Cette nouvelle, excellente, justifie l’introduction de <persName ref="difdepo:persons.xml#brown">Brown</persName> dans le Panthéon des « <term ref="difdepo:terms.xml#plagiairesparanticipation">plagiaires par anticipation</term> ».</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f4.highres" n="4"/>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> consent à revenir, pour un instant, sur l’application du <term ref="difdepo:terms.xml#calculmatriciel">calcul matriciel</term> au langage. Il a fait un exercice avec une « <term ref="difdepo:terms.xml#microgrammaire">micro-grammaire</term> » (une seule matrice) et un « <term ref="difdepo:terms.xml#microlangage">micro-langage</term> » (29 mots). Cet exercice aiguise l’intérêt de chacun. On attend avec d’autant plus d’impatience un exposé plus complet de la théorie.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> propose alors d’écrire des poèmes en n’utilisant que des vocables humains que comprennent certains animaux. On aurait ainsi des poèmes pour chiens, pour corbeaux, pour renards, etc.</p>
+      <p>On pourrait également écrire des poèmes combinant les vocables appartenant au langage propre de plusieurs animaux. Le Lionnais parle de la possibilité d’écrire des dialogues entre un phoque et un pinson, ou un renard et une sauterelle.</p>
+      <p>LE PRESIDENT : N’est-ce pas ce que l’on désigne sous le nom « <term ref="difdepo:terms.xml#dialoguedesourds">dialogue de sourds</term> » ?</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Un de mes clients m’a dit un jour qu’il est entraîneur de chevaux de course, qu’il lit fréquemment <persName ref="difdepo:persons.xml#baudelaire">Baudelaire</persName> à ses chevaux, et qu’ils semblent adorer ça…</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : C’est ce qu’on appelle le doping. C’est à cause de <persName ref="difdepo:persons.xml#baudelaire">Baudelaire</persName> que le <orgName ref="difdepo:organizations.xml#pmu">P.M.U.</orgName> roule vers l’abîme.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je vous rappelle que <persName ref="difdepo:persons.xml#macorlan">Mac Orlan</persName> a apprivoisé des corbeaux qui comprenaient parfaitement son langage.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Mais faisait-il parler « corbeau » par ses chats ?</p>
+      <p>Le Président cite encore le cas des chiens de bergers. <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> précise que les chiens sont lettristes. <persName ref="difdepo:persons.xml#lescure">Lescure</persName> estime que les idées de <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> vont permettre aux poètes dont les lecteurs diminuent de trouver un nouveau public.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je pensais, récemment, qu’il y aurait un texte de choix pour la méthode <term ref="difdepo:terms.xml#s7">S + 7</term> : c’est <persName ref="difdepo:persons.xml#euclide">Euclide</persName>.</p>
+      <p>A l’unanimité, <persName ref="difdepo:persons.xml#lescure">Lescure</persName> est chargé de traduire, en <term ref="difdepo:terms.xml#s7">S + 7</term>, les premières propositions d’<persName ref="difdepo:persons.xml#euclide">Euclide</persName>.</p>
+      <p>Diverses considérations sont émises à propos des <term ref="difdepo:terms.xml#machines">machines</term>, et de quelques travaux qu’on pourrait leur demander, comme la réalisation d’un dictionnaire numérotant les mots par catégorie (A = adjectif, S = substantif, etc.) Le premier adjectif du dictionnaire serait ainsi numéroté A1, le second A2, et ainsi de suite. Pour les autres catégories, il en irait évidemment de même. Un tel dictionnaire permettrait, non seulement de réaliser beaucoup plus vite des <term ref="difdepo:terms.xml#sn">S = n</term> (en particulier pour n très grand), mais encore de faire réaliser ce travail par n’importe quelle <term ref="difdepo:terms.xml#machine">machine</term>.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010033j/f5.highres" n="5"/>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName> ayant remarqué, sournoisement, que la méthode <term ref="difdepo:terms.xml#s7">S + 7</term> fait un peu « <term ref="difdepo:terms.xml#farce">farce</term> », <persName ref="difdepo:persons.xml#queneau">Queneau</persName> remarque à son tour que c’est la première fois que le mot « <term ref="difdepo:terms.xml#farce">farce</term> » est prononcé, à une réunion OuLiPienne, à propos des travaux de l’OuLiPo. Heureusement, <persName ref="difdepo:persons.xml#amschmidt">A.M. Schmidt</persName> signale que ce mot est utilisé, à des fins tout à fait graves, par les théologiens. L’apaisement revient.</p>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName> parle alors d’un article sur WATERLOO commandé par <persName ref="difdepo:persons.xml#pierrelarousse">Pierre Larousse</persName> à <persName ref="difdepo:persons.xml#julesvalles">Jules Vallès</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Permettez-moi de vous interrompre pour vous signaler que dans une des premières éditons du <title ref="difdepo:titles.xml#larousse">Larousse</title>, on pouvait lire : « <persName ref="difdepo:persons.xml#bonaparte">Bonaparte</persName> est mort le 18 Brumaire »… (A <persName ref="difdepo:persons.xml#queval">Queval</persName>) : Mais que dit-il de Waterloo ?</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> :</p>
+      <list type="ordered">
+        <item>Je ne sais pas !</item>
+        <item>Il doit y avoir quelque chose !</item>
+        <item><persName ref="difdepo:persons.xml#julesvalles">Jules Vallès</persName> étant allé à Waterloo pour rédiger ce fameux article est revenu, au bout de 15 mois, avec un livre. <persName ref="difdepo:persons.xml#larousse">Larousse</persName> n’en a pas voulu.</item>
+      </list>
+      <p>On désigne, par ordre d’invitation, les futurs invités de l’OuLiPo. Ce sont : MM. <persName ref="difdepo:persons.xml#ferry">FERRY</persName>, <persName ref="difdepo:persons.xml#guirault">GUIRAULT</persName>, <persName ref="difdepo:persons.xml#grosse">GROSSE</persName>, et <persName ref="difdepo:persons.xml#foucault">FOUCAULT</persName>.</p>
+      <p>On parle, assez longuement, des extraordinaires faux de <persName ref="difdepo:persons.xml#vrainlucas">Vrain-Lucas</persName> et de la naïveté de <persName ref="difdepo:persons.xml#michelchasles">Michel Chasles</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> précise que c’est dans l’acte I d’<title ref="difdepo:titles.xml#ondine">Ondine</title> que se trouve le vers célèbre : « Un seul être vous manque et tout est repeuplé. »</p>
+      <p>On convient, enfin, de se retrouver, le 22 août, à 19 heures, chez <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName>, dont nous rappelons l’adresse :</p>
+      <p>23 route de la Reine</p>
+      <p>BOULOGNE (Seine)</p>
+      <p>Rez-de-chaussée droite</p>
+      <p><persName ref="difdepo:persons.xml#ythiermarchant">Ythier Marchant</persName>.</p>
+    </body>
   </text>
 </TEI>

@@ -1,76 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010225-1980-02-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010225-1980-02-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010225 pp. 4 à 4 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 22 février 1980</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#claraderaigniac">Clara de Raigniac</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010225-1980-02-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010225-1980-02">la réunion Oulipo</ref> du <date when="1980-02-22">22 février 1980</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:39:36Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010225 pp. 4 à 4 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 22 février 1980</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#claraderaigniac">Clara de Raigniac</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010225-1980-02-oj</idno><title>Ordre de jour de <ref target="#t10010225-1980-02">la réunion Oulipo</ref> du <date when="1980-02-22">22 février 1980</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:39:36Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010225s/f4.highres" n="4"/>
-         <p rend="incipit">22 – 2 – 80</p>
-         <p rend="incipit">OJ</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#hm">
-                  <abbr>HM</abbr>
-               </persName> : <term ref="difdepo:terms.xml#introductiondiasemique">Introduction diasémique</term>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <title ref="difdepo:titles.xml#volume2">Volume 2</title>
-            </item>
-            <item>
-               <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>
-            </item>
-            <item>
-               <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-            </item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010225s/f4.highres" n="4"/>
+      <p rend="incipit">22 – 2 – 80</p>
+      <p rend="incipit">OJ</p>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : <term ref="difdepo:terms.xml#introductiondiasemique">Introduction diasémique</term></item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item><title ref="difdepo:titles.xml#volume2">Volume 2</title></item>
+        <item><name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></item>
+        <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+      </list>
+    </body>
   </text>
 </TEI>

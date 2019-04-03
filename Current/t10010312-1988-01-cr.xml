@@ -1,170 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010312-1988-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010312-1988-01-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010312 pp. 1 à 3 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 8 janvier 1988</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010312-1988-01-cr</idno> 
-               <meeting xml:id="t10010312-1988-01">
-                  <date when="1988-01-08">8 janvier 1988</date>
-                  <placeName>chez Harry Mathews</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-02">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010312 pp. 1 à 3 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 8 janvier 1988</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010312-1988-01-cr</idno><meeting xml:id="t10010312-1988-01">
+          <date when="1988-01-08">8 janvier 1988</date>
+          <placeName>chez Harry Mathews</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-02">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f1.highres" n="1"/>
-         <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
-         <p>Séance du 8 Janvier 1988</p>
-         <p>
-            <label type="rubrique">1. Assiduité</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (président), <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> (secrétaire), <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> (hôte), <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> sont présents.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchâteau</persName> et <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> sont excusés.</p>
-         <p>Nous recevons une invitée d’honneur, <persName ref="difdepo:persons.xml#lenniegoodman">Lennie Goodman</persName>. Cette amie de longue date est présentée par notre hôte. Dans sa réponse, elle exprime tout l’amour qu'elle nous porte et qui, grâce à elle, se propage comme une épidémie au delà de l’océan.</p>
-         <p>
-            <label type="rubrique">2. Créations</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> propose une généralisation de la <term ref="difdepo:terms.xml#contrainte">contrainte</term> "<term ref="difdepo:terms.xml#beaupresentbelleabsente">beau présent/belle absente</term>”. On part, ici aussi d’un (ou de plusieurs) mot(s) : prénom ou nom de personne, etc... A chaque lettre du mot à encoder, on associe un fragment de texte (un vers, une phrase, un paragraphe.) où la fréquence de la lettre est supérieure, de façon significative à sa fréquence "naturelle" en français, c'est ainsi que, pour la lettre "S", on songe à "Pour qui sont ces serpents, etc...”. On porrait imaginer alors que la fréquence des occurences de chaque lettre du mot ou texte à encoder soit calculée non pas phrase par phrase, mais globalement. <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> observe alors que sa méthode peut présenter des difficultés lorsqu’une même lettre apparait plusieurs fois dans le texte à encoder. Il propose, dans ce cas, d’introduire un <term ref="difdepo:terms.xml#coefficientdeponderation">coefficient de pondération</term> qui pourra être le nombre de <persName ref="difdepo:persons.xml#fibonacci">Fibonacci</persName> correspondant à l'ordre de la lettre en question dans le texte source.</p>
-         <p>Une large discussion s'ouvre alors, au cours de laquelle <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> propose une <term ref="difdepo:terms.xml#contraintereciproque">contrainte réciproque</term>, en un sens, de la précédente : écrire un texte qui respecte absolument la fréquence naturelle du français. Certains oulipiens insistent pour qu’on leur fournisse des exemples. On leur fait observer que le Président-Fondateur n’en aurait eu cure!</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> propose une variation de la <term ref="difdepo:terms.xml#contrainte">contrainte</term> "<term ref="difdepo:terms.xml#canadadry">canada dry</term>" : ce serait une <term ref="difdepo:terms.xml#contrainte">contrainte</term> qui aurait l'air d'être "<term ref="difdepo:terms.xml#canadadry">canada dry</term>" qui, en fait respecterait rigoureusement la <term ref="difdepo:terms.xml#contrainte">contrainte</term> qu'elle feint de feindre (la bouteille de canada dry contient du whisky).</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f2.highres" n="2"/>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> présente un double hommage (à <persName ref="difdepo:persons.xml#jj">
-               <abbr>JJ</abbr>
-            </persName> pour son "éclipse" et à <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> pour sa <term ref="difdepo:terms.xml#sullyprudhommerie">Sully-Prud'hommerie</term>) : il montre comment le premier lauréat du Prix Nobel de Littérature a été conduit, partant d’un texte plus qu'équivoque, à écrire cet immortel chef d’oeuvre :"<title ref="difdepo:titles.xml#levasebrise">Le vase brisé</title>".</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> distribue des copies de "<title ref="difdepo:titles.xml#meshyperbibliotheques">Mes hyperbibliothèques</title>" en vue d'ultérieures suggestions.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jj">
-               <abbr>JJ</abbr>
-            </persName> conclut en beauté cette première partie de la séance en nous présentant un couple poétique "quinine/sonnet" qui lui vaut d’unanimes et chaleureuses félicitations.</p>
-         <p>
-            <label type="rubrique">3. Erudition</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> évoque l’œuvre théâtrale de <persName ref="difdepo:persons.xml#harveypeer">Harvey Peer</persName> : dans une de ses pièces, les personnages, au cours de l’action sortent, passent dans une pièce voisine et reviennent. La scène suivante nous montre ce qui se passe pendant ce temps-là dans cette seconde pièce.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> a découvert un texte de <persName ref="difdepo:persons.xml#hugovonhoffmanstahl">Hugo von Hoffmanstahl</persName> qui offre une merveilleuse présentation de l'esprit oulipien, et, en particulier de l'usage des contraintes.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> évoque la recherche (engagée par <persName ref="difdepo:persons.xml#etiemble">Etiemble</persName>, semble-t-il), de <term ref="difdepo:terms.xml#couplesantonymehomophone">couples "antonyme/homophone"</term>. On cherche des exemples, mais seul le mot "défendre" nous vient à l'esprit, ce qui n’est pas très convaincant.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fc">
-               <abbr>FC</abbr>
-            </persName> fait allusion au romancier fin de siècle bien connu <persName ref="difdepo:persons.xml#pauladam">Paul Adam</persName> qui aurait construit son intrigue à l'aide de tirages de cartes à jouer préalablement associés aux divers personnages.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> présente le <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term> absolu : celui de la notion même de plagiat par anticipation! Il s’agit de <persName ref="difdepo:persons.xml#piron">Piron</persName> : "Leurs écrits sont des vols qu’ils nous ont fait d’avance."</p>
-         <p>
-            <label type="rubrique">4. Action</label>
-         </p>
-         <p>A propos des formes nouvelles qui sont envisagées pour la "<title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>", <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> indique l’installation, dans les locaux des Editions <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName>, de trois équipements Mac Intosh dont un sera à la disposition des oulipiens. On évoque la possibilité de consacrer des fonds oulipiens à l’achat de matériel (telle une imprimante laser). Compte tenu des possibilités offertes par <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName>, l’<orgName ref="difdepo:organizations.xml#inalco">INALCO</orgName> et l’<orgName ref="difdepo:organizations.xml#adac">ADAC</orgName> (atelier <orgName ref="difdepo:organizations.xml#alamo">ALAMO</orgName>), ainsi que du faible coût de l’utilisation, en boutique, d’une imprimante laser, aucun achat n'est envisagé dans l'immédiat.</p>
-         <p>Une <name ref="difdepo:events.xml#lectureoulipienne" type="manif">lecture Oulipienne</name> aura lieu à la médiathèque de Ramonville, le 28 Avril 88 à 18h. (<persName ref="difdepo:persons.xml#h_">H</persName> + <persName ref="difdepo:persons.xml#m_">M</persName>) <persName ref="difdepo:persons.xml#m_">M</persName> sont désignés. <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> leur tiendra la main et veillera à ce qu'aucun débordement ne s'ensuive.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mariejouannic">Marie Jouannic</persName>, notre avignonnaise égérie est accueillie avec émotion. Elle nous cause du festival, et, en particulier d’une lecture ininterrompue pendant trois semaines (du 9 au 29 Juillet) <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f3.highres" n="3"/>pendant lesquelles nous devons assurer les relais. Il est convenu que ceux d'entre nous possédant la double appartenance liront pendant que se tiendra le <name ref="difdepo:events.xml#stage" type="manif">stage</name> 
-            <name ref="difdepo:events.xml#alamo" type="manif">ALAMO</name> (du 11 au 16). <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> gardera un étroit contact avec <persName ref="difdepo:persons.xml#marie">Marie</persName> afin qu’elle puisse définir un programme provisoire avant le 29 Janvier, puis définitif avant le 4 Mars.</p>
-         <p>
-            <label type="rubrique">5. Menu propos</label>
-         </p>
-         <p>Ils ne seront pas rapportés ici, pour d'évidentes raisons de sécurité.</p>
-         <p>
-            <label type="rubrique">6. <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
-            </label>
-         </p>
-         <p>Elle aura lieu le vendredi 19 Février, 18 heures 30, à Lancry et pour <persName ref="difdepo:persons.xml#jj">Jouet</persName>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f1.highres" n="1"/>
+      <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE</p>
+      <p>Séance du 8 Janvier 1988</p>
+      <p><label type="rubrique">1. Assiduité</label></p>
+      <p><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (président), <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> (secrétaire), <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> (hôte), <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> sont présents.</p>
+      <p><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchâteau</persName> et <persName ref="difdepo:persons.xml#pr">Pierre Rosenstiehl</persName> sont excusés.</p>
+      <p>Nous recevons une invitée d’honneur, <persName ref="difdepo:persons.xml#lenniegoodman">Lennie Goodman</persName>. Cette amie de longue date est présentée par notre hôte. Dans sa réponse, elle exprime tout l’amour qu'elle nous porte et qui, grâce à elle, se propage comme une épidémie au delà de l’océan.</p>
+      <p><label type="rubrique">2. Créations</label></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> propose une généralisation de la <term ref="difdepo:terms.xml#contrainte">contrainte</term> "<term ref="difdepo:terms.xml#beaupresentbelleabsente">beau présent/belle absente</term>”. On part, ici aussi d’un (ou de plusieurs) mot(s) : prénom ou nom de personne, etc... A chaque lettre du mot à encoder, on associe un fragment de texte (un vers, une phrase, un paragraphe.) où la fréquence de la lettre est supérieure, de façon significative à sa fréquence "naturelle" en français, c'est ainsi que, pour la lettre "S", on songe à "Pour qui sont ces serpents, etc...”. On porrait imaginer alors que la fréquence des occurences de chaque lettre du mot ou texte à encoder soit calculée non pas phrase par phrase, mais globalement. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> observe alors que sa méthode peut présenter des difficultés lorsqu’une même lettre apparait plusieurs fois dans le texte à encoder. Il propose, dans ce cas, d’introduire un <term ref="difdepo:terms.xml#coefficientdeponderation">coefficient de pondération</term> qui pourra être le nombre de <persName ref="difdepo:persons.xml#fibonacci">Fibonacci</persName> correspondant à l'ordre de la lettre en question dans le texte source.</p>
+      <p>Une large discussion s'ouvre alors, au cours de laquelle <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> propose une <term ref="difdepo:terms.xml#contraintereciproque">contrainte réciproque</term>, en un sens, de la précédente : écrire un texte qui respecte absolument la fréquence naturelle du français. Certains oulipiens insistent pour qu’on leur fournisse des exemples. On leur fait observer que le Président-Fondateur n’en aurait eu cure!</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> propose une variation de la <term ref="difdepo:terms.xml#contrainte">contrainte</term> "<term ref="difdepo:terms.xml#canadadry">canada dry</term>" : ce serait une <term ref="difdepo:terms.xml#contrainte">contrainte</term> qui aurait l'air d'être "<term ref="difdepo:terms.xml#canadadry">canada dry</term>" qui, en fait respecterait rigoureusement la <term ref="difdepo:terms.xml#contrainte">contrainte</term> qu'elle feint de feindre (la bouteille de canada dry contient du whisky).</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f2.highres" n="2"/>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> présente un double hommage (à <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> pour son "éclipse" et à <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> pour sa <term ref="difdepo:terms.xml#sullyprudhommerie">Sully-Prud'hommerie</term>) : il montre comment le premier lauréat du Prix Nobel de Littérature a été conduit, partant d’un texte plus qu'équivoque, à écrire cet immortel chef d’oeuvre :"<title ref="difdepo:titles.xml#levasebrise">Le vase brisé</title>".</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> distribue des copies de "<title ref="difdepo:titles.xml#meshyperbibliotheques">Mes hyperbibliothèques</title>" en vue d'ultérieures suggestions.</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> conclut en beauté cette première partie de la séance en nous présentant un couple poétique "quinine/sonnet" qui lui vaut d’unanimes et chaleureuses félicitations.</p>
+      <p><label type="rubrique">3. Erudition</label></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> évoque l’œuvre théâtrale de <persName ref="difdepo:persons.xml#harveypeer">Harvey Peer</persName> : dans une de ses pièces, les personnages, au cours de l’action sortent, passent dans une pièce voisine et reviennent. La scène suivante nous montre ce qui se passe pendant ce temps-là dans cette seconde pièce.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> a découvert un texte de <persName ref="difdepo:persons.xml#hugovonhoffmanstahl">Hugo von Hoffmanstahl</persName> qui offre une merveilleuse présentation de l'esprit oulipien, et, en particulier de l'usage des contraintes.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> évoque la recherche (engagée par <persName ref="difdepo:persons.xml#etiemble">Etiemble</persName>, semble-t-il), de <term ref="difdepo:terms.xml#couplesantonymehomophone">couples "antonyme/homophone"</term>. On cherche des exemples, mais seul le mot "défendre" nous vient à l'esprit, ce qui n’est pas très convaincant.</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> fait allusion au romancier fin de siècle bien connu <persName ref="difdepo:persons.xml#pauladam">Paul Adam</persName> qui aurait construit son intrigue à l'aide de tirages de cartes à jouer préalablement associés aux divers personnages.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> présente le <term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term> absolu : celui de la notion même de plagiat par anticipation! Il s’agit de <persName ref="difdepo:persons.xml#piron">Piron</persName> : "Leurs écrits sont des vols qu’ils nous ont fait d’avance."</p>
+      <p><label type="rubrique">4. Action</label></p>
+      <p>A propos des formes nouvelles qui sont envisagées pour la "<title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>", <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> indique l’installation, dans les locaux des Editions <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName>, de trois équipements Mac Intosh dont un sera à la disposition des oulipiens. On évoque la possibilité de consacrer des fonds oulipiens à l’achat de matériel (telle une imprimante laser). Compte tenu des possibilités offertes par <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName>, l’<orgName ref="difdepo:organizations.xml#inalco">INALCO</orgName> et l’<orgName ref="difdepo:organizations.xml#adac">ADAC</orgName> (atelier <orgName ref="difdepo:organizations.xml#alamo">ALAMO</orgName>), ainsi que du faible coût de l’utilisation, en boutique, d’une imprimante laser, aucun achat n'est envisagé dans l'immédiat.</p>
+      <p>Une <name ref="difdepo:events.xml#lectureoulipienne" type="manif">lecture Oulipienne</name> aura lieu à la médiathèque de Ramonville, le 28 Avril 88 à 18h. (<persName ref="difdepo:persons.xml#h_">H</persName> + <persName ref="difdepo:persons.xml#m_">M</persName>) <persName ref="difdepo:persons.xml#m_">M</persName> sont désignés. <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> leur tiendra la main et veillera à ce qu'aucun débordement ne s'ensuive.</p>
+      <p><persName ref="difdepo:persons.xml#mariejouannic">Marie Jouannic</persName>, notre avignonnaise égérie est accueillie avec émotion. Elle nous cause du festival, et, en particulier d’une lecture ininterrompue pendant trois semaines (du 9 au 29 Juillet) <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010312d/f3.highres" n="3"/>pendant lesquelles nous devons assurer les relais. Il est convenu que ceux d'entre nous possédant la double appartenance liront pendant que se tiendra le <name ref="difdepo:events.xml#stage" type="manif">stage</name><name ref="difdepo:events.xml#alamo" type="manif">ALAMO</name> (du 11 au 16). <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> gardera un étroit contact avec <persName ref="difdepo:persons.xml#marie">Marie</persName> afin qu’elle puisse définir un programme provisoire avant le 29 Janvier, puis définitif avant le 4 Mars.</p>
+      <p><label type="rubrique">5. Menu propos</label></p>
+      <p>Ils ne seront pas rapportés ici, pour d'évidentes raisons de sécurité.</p>
+      <p><label type="rubrique">6. <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></label></p>
+      <p>Elle aura lieu le vendredi 19 Février, 18 heures 30, à Lancry et pour <persName ref="difdepo:persons.xml#jj">Jouet</persName>.</p>
+    </body>
   </text>
 </TEI>

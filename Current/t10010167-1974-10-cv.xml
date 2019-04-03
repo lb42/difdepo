@@ -1,63 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010167-1974-10-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010167-1974-10-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010167 pp. 2 à 2 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 8 octobre 1974</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010167-1974-10-cv</idno> 
-               <title>Convocation à <ref target="#t10010167-1974-10">une réunion Oulipo</ref>, envoyée le <date when="1974-10-08">8 octobre 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:37:51Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010167 pp. 2 à 2 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 8 octobre 1974</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010167-1974-10-cv</idno><title>Convocation à <ref target="#t10010167-1974-10">une réunion Oulipo</ref>, envoyée le <date when="1974-10-08">8 octobre 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:37:51Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010167z/f2.highres" n="2"/>
-         <p rend="incipit">Le tableau noir (des 2 cotés) devrait être livré cette semaine.</p>
-         <p rend="incipit">Boulogne-sur-Seine, le 8 Octobre 1974</p>
-         <p>Chers Brigadiers,</p>
-         <p>Je vous rappelle que notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> est fixée au Jeudi 24 Octobre.</p>
-         <p>Notre invitée d’honneur sera <persName ref="difdepo:persons.xml#sylviaroubaud">Sylvia ROUBAUD</persName> qui nous fera – de 13 heures 30 à 15 heures – un exposé d’<term ref="difdepo:terms.xml#anoulipisme">Anoulipisme</term> sur les <term ref="difdepo:terms.xml#romansdechevalerie">Romans de Chevalerie</term>, la <term ref="difdepo:terms.xml#combinatoire">Combinatoire</term> et les <term ref="difdepo:terms.xml#nombres">Nombres</term>.</p>
-         <p>Je compte sur vous pour me préciser dans le meilleur délai possible si vous venez.</p>
-         <p>Oulipiennement vôtre.</p>
-         <p>Le Président <persName ref="difdepo:persons.xml#lelyonnais">Le Lyonnais</persName> : étonné mais flatté de vous recevoir.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010167z/f2.highres" n="2"/>
+      <p rend="incipit">Le tableau noir (des 2 cotés) devrait être livré cette semaine.</p>
+      <p rend="incipit">Boulogne-sur-Seine, le 8 Octobre 1974</p>
+      <p>Chers Brigadiers,</p>
+      <p>Je vous rappelle que notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> est fixée au Jeudi 24 Octobre.</p>
+      <p>Notre invitée d’honneur sera <persName ref="difdepo:persons.xml#sylviaroubaud">Sylvia ROUBAUD</persName> qui nous fera – de 13 heures 30 à 15 heures – un exposé d’<term ref="difdepo:terms.xml#anoulipisme">Anoulipisme</term> sur les <term ref="difdepo:terms.xml#romansdechevalerie">Romans de Chevalerie</term>, la <term ref="difdepo:terms.xml#combinatoire">Combinatoire</term> et les <term ref="difdepo:terms.xml#nombres">Nombres</term>.</p>
+      <p>Je compte sur vous pour me préciser dans le meilleur délai possible si vous venez.</p>
+      <p>Oulipiennement vôtre.</p>
+      <p>Le Président <persName ref="difdepo:persons.xml#lelyonnais">Le Lyonnais</persName> : étonné mais flatté de vous recevoir.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
+    </body>
   </text>
 </TEI>

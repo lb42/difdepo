@@ -1,112 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010256-1982-12-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010256-1982-12-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010256 pp. 7 à 7 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 17 décembre 1982</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010256-1982-12-cr</idno> 
-               <meeting xml:id="t10010256-1982-12">
-                  <date when="1982-12-17">17 décembre 1982</date>
-                  <placeName>chez le Président FLL</placeName>
-                  <gap/>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-08-29">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010256 pp. 7 à 7 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 17 décembre 1982</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010256-1982-12-cr</idno><meeting xml:id="t10010256-1982-12">
+          <date when="1982-12-17">17 décembre 1982</date>
+          <placeName>chez le Président FLL</placeName>
+          <gap/>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-08-29">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010256g/f7.highres" n="7"/>
-         <p rend="incipit">Réunion du 17-12-82</p>
-         <p rend="incipit">(chez le Président<persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>)</p>
-         <p rend="incipit">Président de séance: <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-         </p>
-         <p>Menu: Mouclade</p>
-         <p>Coq au vin</p>
-         <p>Brie</p>
-         <p>Crème au chocolat</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> fait le point sur l'hommage à Perec dans la B. O.</p>
-         <p>Invitée d'honneur: <persName ref="difdepo:persons.xml#marinayaguello">Marina Yaguello</persName>. Linguiste à Paris VII intéressée par les langages articiels</p>
-         <p>exposé des recherches</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName>: les mots-valises</p>
-         <p>les mots-valises sont en fait des mots dévalisés</p>
-         <p>Parution des <term ref="difdepo:terms.xml#fouslitteraires">fous littéraires</term> de <persName ref="difdepo:persons.xml#blavier">Blavier</persName> chez Veyrier</p>
-         <p>re-parution des 10 puissance 14 poèmes</p>
-         <p>Devinette: <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> un roman fait de proverbes par <persName ref="difdepo:persons.xml#servaisdehuarteau">
-               <unclear>Servais Dehuarteau</unclear>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName>: <persName ref="difdepo:persons.xml#parsich">Parsich</persName>: texte pour calculette et textes à partir d'un rectangle avec une médiane</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName>: Avis de <persName ref="difdepo:persons.xml#sanantonio">San Antonio</persName> sur <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#bibliothequeoulipienne">Bibliothèque oulipienne</persName>: Problème de diffusion et de distribution</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName>: Présentation de sa table: tollé (général)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>: Asociation Perec: réunion le 11 décembre 1982</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName>: Présentation oulipo à Avignon en Janvier (8) : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> y va</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>: <name ref="difdepo:events.xml#stage" type="manif">Stage</name> à La Haye. Précisions</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName>: Toulouse + Albi</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> 21 janvier 1983</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010256g/f7.highres" n="7"/>
+      <p rend="incipit">Réunion du 17-12-82</p>
+      <p rend="incipit">(chez le Président<persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>)</p>
+      <p rend="incipit">Président de séance: <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></p>
+      <p>Menu: Mouclade</p>
+      <p>Coq au vin</p>
+      <p>Brie</p>
+      <p>Crème au chocolat</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> fait le point sur l'hommage à Perec dans la B. O.</p>
+      <p>Invitée d'honneur: <persName ref="difdepo:persons.xml#marinayaguello">Marina Yaguello</persName>. Linguiste à Paris VII intéressée par les langages articiels</p>
+      <p>exposé des recherches</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>: les mots-valises</p>
+      <p>les mots-valises sont en fait des mots dévalisés</p>
+      <p>Parution des <term ref="difdepo:terms.xml#fouslitteraires">fous littéraires</term> de <persName ref="difdepo:persons.xml#blavier">Blavier</persName> chez Veyrier</p>
+      <p>re-parution des 10 puissance 14 poèmes</p>
+      <p>Devinette: <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> un roman fait de proverbes par <persName ref="difdepo:persons.xml#servaisdehuarteau"><unclear>Servais Dehuarteau</unclear></persName></p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>: <persName ref="difdepo:persons.xml#parsich">Parsich</persName>: texte pour calculette et textes à partir d'un rectangle avec une médiane</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>: Avis de <persName ref="difdepo:persons.xml#sanantonio">San Antonio</persName> sur <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#bibliothequeoulipienne">Bibliothèque oulipienne</persName>: Problème de diffusion et de distribution</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>: Présentation de sa table: tollé (général)</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>: Asociation Perec: réunion le 11 décembre 1982</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>: Présentation oulipo à Avignon en Janvier (8) : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> y va</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>: <name ref="difdepo:events.xml#stage" type="manif">Stage</name> à La Haye. Précisions</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>: Toulouse + Albi</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> 21 janvier 1983</p>
+    </body>
   </text>
 </TEI>

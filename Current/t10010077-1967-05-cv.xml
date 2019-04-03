@@ -1,73 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010077-1967-05-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010077-1967-05-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010077 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 10 mai 1967</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010077-1967-05-cv</idno> 
-               <title>Convocation à <ref target="#t10010077-1967-05">une réunion Oulipo</ref>, envoyée le <date when="1967-05-10">10 mai 1967</date> à <persName ref="difdepo:persons.xml#rosschambers" role="destinataire">Ross Chambers</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:35:51Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010077 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 10 mai 1967</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010077-1967-05-cv</idno><title>Convocation à <ref target="#t10010077-1967-05">une réunion Oulipo</ref>, envoyée le <date when="1967-05-10">10 mai 1967</date> à <persName ref="difdepo:persons.xml#rosschambers" role="destinataire">Ross Chambers</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:35:51Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100770/f1.highres" n="1"/>
-         <p rend="incipit">le 10 mai 1967</p>
-         <p rend="incipit">Copie à <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>
-         </p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
-         </p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#latis">Latis</persName>
-         </p>
-         <p rend="incipit">Monsieur <persName ref="difdepo:persons.xml#rosschambers">Ross CHAMBERS</persName>
-         </p>
-         <p rend="incipit">Hôtel du Lys</p>
-         <p rend="incipit">23. rue Serpente</p>
-         <p rend="incipit">PARIS 6<hi rend="sup">ème</hi>
-         </p>
-         <p>Cher et Eminent Collègue,</p>
-         <p>J’apprends par une indiscrétion calculée du Satrape <persName ref="difdepo:persons.xml#latis">LATIS</persName> que vous serez à Paris du 15 au 18 mai.</p>
-         <p>L’OuLiPo tiendra sa réunion clandestine mensuelle</p>
-         <p>mardi 16 mai (en réalité 27 Palotin) 12h30,</p>
-         <p>au Ier étage du restaurant sis 40. Rue de l’Université.</p>
-         <p>Nous serions particulièrement heureux si vous pouviez nous rendre libre à cette occasion et partager nos modestes agapes auxquelles participera le Satrape <persName ref="difdepo:persons.xml#duchamp">DUCHAMP</persName>.</p>
-         <p>En comptant bien vous voir à cette occasion, je vous adresse mes salutations particulièrement oulipiennes.</p>
-         <p>PS – Je suis chez moi le matin jusqu’à 11 heures. Tél. : 605.90.15</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100770/f1.highres" n="1"/>
+      <p rend="incipit">le 10 mai 1967</p>
+      <p rend="incipit">Copie à <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#latis">Latis</persName></p>
+      <p rend="incipit">Monsieur <persName ref="difdepo:persons.xml#rosschambers">Ross CHAMBERS</persName></p>
+      <p rend="incipit">Hôtel du Lys</p>
+      <p rend="incipit">23. rue Serpente</p>
+      <p rend="incipit">PARIS 6<hi rend="sup">ème</hi></p>
+      <p>Cher et Eminent Collègue,</p>
+      <p>J’apprends par une indiscrétion calculée du Satrape <persName ref="difdepo:persons.xml#latis">LATIS</persName> que vous serez à Paris du 15 au 18 mai.</p>
+      <p>L’OuLiPo tiendra sa réunion clandestine mensuelle</p>
+      <p>mardi 16 mai (en réalité 27 Palotin) 12h30,</p>
+      <p>au Ier étage du restaurant sis 40. Rue de l’Université.</p>
+      <p>Nous serions particulièrement heureux si vous pouviez nous rendre libre à cette occasion et partager nos modestes agapes auxquelles participera le Satrape <persName ref="difdepo:persons.xml#duchamp">DUCHAMP</persName>.</p>
+      <p>En comptant bien vous voir à cette occasion, je vous adresse mes salutations particulièrement oulipiennes.</p>
+      <p>PS – Je suis chez moi le matin jusqu’à 11 heures. Tél. : 605.90.15</p>
+    </body>
   </text>
 </TEI>

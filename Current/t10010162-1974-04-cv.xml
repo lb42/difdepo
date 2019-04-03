@@ -1,67 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010162-1974-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010162-1974-04-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010162 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 19 avril 1974</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010162-1974-04-cv</idno> 
-               <title>Convocation à <ref target="#t10010162-1974-04">une réunion Oulipo</ref>, envoyée le <date when="1974-04-19">19 avril 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:26:16Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010162 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 19 avril 1974</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010162-1974-04-cv</idno><title>Convocation à <ref target="#t10010162-1974-04">une réunion Oulipo</ref>, envoyée le <date when="1974-04-19">19 avril 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:26:16Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010162q/f1.highres" n="1"/>
-         <p rend="incipit">
-            <add>Félicitations pour l’exposé sur les <term ref="difdepo:terms.xml#antonymes">antonymes</term> que je vais aller écouter cet après-midi et qui aura été remarquable.</add> 
-            <note n="1" resp="editor">Ajout manuscrit de la main de FLL</note>
-         </p>
-         <p rend="incipit">Boulogne-sur-Seine, le 19 avril 1974</p>
-         <p rend="incipit">Pour votre prochaine réception</p>
-         <p rend="incipit">LE PRÉSIDENT</p>
-         <p rend="incipit">A déjà tout prévu <note n="2" resp="editor">Collage de lettres de journal et dessin</note>
-         </p>
-         <p>Chers Brigadiers,</p>
-         <p>Le sort en est jeté. Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> est fixée au Lundi 13 Mai. Notre invité d’honneur sera <persName ref="difdepo:persons.xml#guidoalmansi">Guido ALMANSI</persName>, venu tout exprès de la verte Erin. À l’ordre du jour, que vous le vouliez ou non, le phynancement des publications à la gloire de <persName ref="difdepo:persons.xml#perec">PEREC</persName> et de <persName ref="difdepo:persons.xml#roubaud">ROUBAUD</persName>, la thèse (sur l’OULIPO) de <persName ref="difdepo:persons.xml#teresapalumbo">Teresa PALUMBO</persName>, la préparation du grand <name ref="difdepo:events.xml#congres" type="manif">congrès</name> des lundi 10 et mardi 11 Juin (ayez la bonté d’en prendre note), l’article du <title ref="difdepo:titles.xml#bulletindeleducationnationale">Bulletin de l’Éducation nationale</title> et tout ce qu’il vous plaira d’ajouter pour l’ornement de nos discussions.</p>
-         <p>Je supplie <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> de me faire savoir s’il vient ou non et vous adresse mes pensées les plus oulipiennes.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010162q/f1.highres" n="1"/>
+      <p rend="incipit"><add>Félicitations pour l’exposé sur les <term ref="difdepo:terms.xml#antonymes">antonymes</term> que je vais aller écouter cet après-midi et qui aura été remarquable.</add><note n="1" resp="editor">Ajout manuscrit de la main de FLL</note></p>
+      <p rend="incipit">Boulogne-sur-Seine, le 19 avril 1974</p>
+      <p rend="incipit">Pour votre prochaine réception</p>
+      <p rend="incipit">LE PRÉSIDENT</p>
+      <p rend="incipit">A déjà tout prévu <note n="2" resp="editor">Collage de lettres de journal et dessin</note></p>
+      <p>Chers Brigadiers,</p>
+      <p>Le sort en est jeté. Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> est fixée au Lundi 13 Mai. Notre invité d’honneur sera <persName ref="difdepo:persons.xml#guidoalmansi">Guido ALMANSI</persName>, venu tout exprès de la verte Erin. À l’ordre du jour, que vous le vouliez ou non, le phynancement des publications à la gloire de <persName ref="difdepo:persons.xml#perec">PEREC</persName> et de <persName ref="difdepo:persons.xml#roubaud">ROUBAUD</persName>, la thèse (sur l’OULIPO) de <persName ref="difdepo:persons.xml#teresapalumbo">Teresa PALUMBO</persName>, la préparation du grand <name ref="difdepo:events.xml#congres" type="manif">congrès</name> des lundi 10 et mardi 11 Juin (ayez la bonté d’en prendre note), l’article du <title ref="difdepo:titles.xml#bulletindeleducationnationale">Bulletin de l’Éducation nationale</title> et tout ce qu’il vous plaira d’ajouter pour l’ornement de nos discussions.</p>
+      <p>Je supplie <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> de me faire savoir s’il vient ou non et vous adresse mes pensées les plus oulipiennes.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
+    </body>
   </text>
 </TEI>

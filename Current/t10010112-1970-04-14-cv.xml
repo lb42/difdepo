@@ -1,63 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010112-1970-04-14-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010112-1970-04-14-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010112 pp. 4 à 4 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 14 avril 1970</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010112-1970-04-14-cv</idno> 
-               <title>Convocation à <ref target="#t10010112-1970-04-14">une réunion Oulipo</ref>, envoyée le <date when="1970-04-14">14 avril 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-09">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010112 pp. 4 à 4 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 14 avril 1970</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010112-1970-04-14-cv</idno><title>Convocation à <ref target="#t10010112-1970-04-14">une réunion Oulipo</ref>, envoyée le <date when="1970-04-14">14 avril 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-09">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010112n/f4.highres" n="4"/>
-         <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605-90-13</p>
-         <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
-         <p rend="incipit">le 14 Avril 1970</p>
-         <p>Chers Brigadiers,</p>
-         <p>En vertu de l’accélération de l’histoire, nos réunions se succèdent à une cadence de plus en plus rapide. La prochaine se tiendra</p>
-         <p>LUNDI 27 AVRIL à 16 heures 30 chez moi.</p>
-         <p>À l’ordre du jour :</p>
-         <p>a) Mythologie : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> et le <title ref="difdepo:titles.xml#dossiercape">dossier Cape</title>.</p>
-         <p>b) Horizon 71 ?: Démarche de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> auprès de <persName ref="difdepo:persons.xml#beres">Bérès</persName>.</p>
-         <p>c) Premier Millénaire : fixé ne varietur aux Jeudi 20 et Vendredi 21 Août 1970.</p>
-         <p>d) Objets trouvés : Un stylo-bille</p>
-         <p>Une écharpe</p>
-         <p>OuLiPiennement vôtre.</p>
-         <p>P.S. pour <persName ref="difdepo:persons.xml#jacquesbens">Jacques BENS</persName> : Votre bonne volonté nous remplit de larmes. Prenez tout le temps nécessaire ; malheureusement l’éditeur ne nous bouscule pas.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010112n/f4.highres" n="4"/>
+      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605-90-13</p>
+      <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
+      <p rend="incipit">le 14 Avril 1970</p>
+      <p>Chers Brigadiers,</p>
+      <p>En vertu de l’accélération de l’histoire, nos réunions se succèdent à une cadence de plus en plus rapide. La prochaine se tiendra</p>
+      <p>LUNDI 27 AVRIL à 16 heures 30 chez moi.</p>
+      <p>À l’ordre du jour :</p>
+      <p>a) Mythologie : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> et le <title ref="difdepo:titles.xml#dossiercape">dossier Cape</title>.</p>
+      <p>b) Horizon 71 ?: Démarche de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> auprès de <persName ref="difdepo:persons.xml#beres">Bérès</persName>.</p>
+      <p>c) Premier Millénaire : fixé ne varietur aux Jeudi 20 et Vendredi 21 Août 1970.</p>
+      <p>d) Objets trouvés : Un stylo-bille</p>
+      <p>Une écharpe</p>
+      <p>OuLiPiennement vôtre.</p>
+      <p>P.S. pour <persName ref="difdepo:persons.xml#jacquesbens">Jacques BENS</persName> : Votre bonne volonté nous remplit de larmes. Prenez tout le temps nécessaire ; malheureusement l’éditeur ne nous bouscule pas.</p>
+    </body>
   </text>
 </TEI>

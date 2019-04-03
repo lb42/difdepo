@@ -1,61 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010293-1986-04-27-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010293-1986-04-27-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010293 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 27 avril 1986</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010293-1986-04-27-cv</idno> 
-               <title>Convocation à <ref target="#t10010293-1986-04-27">une réunion Oulipo</ref>, envoyée le <date when="1986-04-27">27 avril 1986</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-01">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010293 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 27 avril 1986</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010293-1986-04-27-cv</idno><title>Convocation à <ref target="#t10010293-1986-04-27">une réunion Oulipo</ref>, envoyée le <date when="1986-04-27">27 avril 1986</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-01">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f1.highres" n="1"/>
-         <p rend="incipit">Oulipo</p>
-         <p rend="incipit">A Paris le 27 Avril</p>
-         <p>Oulipiens,</p>
-         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l'<orgName ref="difdepo:organizations.xml#ouvroir">ouvroir</orgName> aura lieu à l'occasion de notre <name ref="difdepo:events.xml#congresdumoulindandre" type="manif">congrès du Moulin d'André</name> pendant le weekend du 8 Mai.</p>
-         <p>Les dernières réunions ayant été quantitativement très minces, prenez vite contact avec <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> (43.61.40.39) afin que ce <name ref="difdepo:events.xml#congres" type="manif">congrès</name> puisse être organisé dans les meilleures conditions.</p>
-         <p>Espérons-nous nombeux et ardents.</p>
-         <p>Amitiés,</p>
-         <p>
-            <persName ref="difdepo:persons.xml#paul">
-               <abbr>Paul</abbr>
-            </persName> 
-            <lb/>(un secrétaire)</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo</p>
+      <p rend="incipit">A Paris le 27 Avril</p>
+      <p>Oulipiens,</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l'<orgName ref="difdepo:organizations.xml#ouvroir">ouvroir</orgName> aura lieu à l'occasion de notre <name ref="difdepo:events.xml#congresdumoulindandre" type="manif">congrès du Moulin d'André</name> pendant le weekend du 8 Mai.</p>
+      <p>Les dernières réunions ayant été quantitativement très minces, prenez vite contact avec <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> (43.61.40.39) afin que ce <name ref="difdepo:events.xml#congres" type="manif">congrès</name> puisse être organisé dans les meilleures conditions.</p>
+      <p>Espérons-nous nombeux et ardents.</p>
+      <p>Amitiés,</p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName><lb/>(un secrétaire)</p>
+    </body>
   </text>
 </TEI>

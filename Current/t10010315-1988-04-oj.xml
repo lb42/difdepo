@@ -1,73 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010315-1988-04-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010315-1988-04-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010315 pp. 2 à 2 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 19 avril 1988</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#barbaraservant">Barbara Servant</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010315-1988-04-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010315-1988-04">la réunion Oulipo</ref> de <date when="1988-04-19">19 avril 1988</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-20" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:38:03Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010315 pp. 2 à 2 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 19 avril 1988</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#barbaraservant">Barbara Servant</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010315-1988-04-oj</idno><title>Ordre de jour de <ref target="#t10010315-1988-04">la réunion Oulipo</ref> de <date when="1988-04-19">19 avril 1988</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-20" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:38:03Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010315r/f2.highres" n="2"/>
-         <p>OULIPO du 19/4/88</p>
-         <p>O du j.</p>
-         <p>Création : JR Oulipisation</p>
-         <p>HM Sorrentino </p>
-         <p>Cop Mom </p>
-         <p>Modulars </p>
-         <p>The way home (HM)</p>
-         <p>JJ Bonnet blanc</p>
-         <p>MB Eric Linet</p>
-         <p>Erudition JJ Limon</p>
-         <p>JR Alphabets</p>
-         <p>Action MB ? Oulipo show ?</p>
-         <p>Marie Jouannic</p>
-         <p>?</p>
-         <p>
-            <unclear>Ravella ?</unclear>
-         </p>
-         <p>JR Compte-rendu <name ref="difdepo:events.xml#colloqueperec" type="manif">colloque Perec</name>
-         </p>
-         <p>Lecture sur les bibliothèques</p>
-         <p>Semi-création : JR Kolar</p>
-         <p>Question : JR Apparitions</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010315r/f2.highres" n="2"/>
+      <p>OULIPO du 19/4/88</p>
+      <p>O du j.</p>
+      <p>Création : JR Oulipisation</p>
+      <p>HM Sorrentino </p>
+      <p>Cop Mom </p>
+      <p>Modulars </p>
+      <p>The way home (HM)</p>
+      <p>JJ Bonnet blanc</p>
+      <p>MB Eric Linet</p>
+      <p>Erudition JJ Limon</p>
+      <p>JR Alphabets</p>
+      <p>Action MB ? Oulipo show ?</p>
+      <p>Marie Jouannic</p>
+      <p>?</p>
+      <p><unclear>Ravella ?</unclear></p>
+      <p>JR Compte-rendu <name ref="difdepo:events.xml#colloqueperec" type="manif">colloque Perec</name></p>
+      <p>Lecture sur les bibliothèques</p>
+      <p>Semi-création : JR Kolar</p>
+      <p>Question : JR Apparitions</p>
+    </body>
   </text>
 </TEI>

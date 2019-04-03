@@ -1,226 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010020-1962-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010020-1962-06-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010020 pp. 1 à 4 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 4 juin 1962</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#meganmarz">Megan Marz</name>
-               <name ref="difdepo:team.xml#camillebloomfield">Camille Bloomfield</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010020-1962-06-cr</idno> 
-               <meeting xml:id="t10010020-1962-06">
-                  <date when="1962-06-04">4 juin 1962</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#claudeberge" role="président">Claude Berge</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#guyleclech" role="invité">Guy Le Clec'h</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:33:17Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010020 pp. 1 à 4 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 4 juin 1962</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#meganmarz">Megan Marz</name>
+          <name ref="difdepo:team_members.xml#camillebloomfield">Camille Bloomfield</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010020-1962-06-cr</idno><meeting xml:id="t10010020-1962-06">
+          <date when="1962-06-04">4 juin 1962</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge" role="président">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#guyleclech" role="invité">Guy Le Clec'h</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:33:17Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f1.highres" n="1"/>
-         <p rend="incipit">OUVROIR <lb/>DE LITTERATURE <lb/>POTENTIELLE <lb/>
-         </p>
-         <p rend="incipit">Circulaire n°22</p>
-         <p rend="incipit">Réunion du 4 juin 1962</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#berge">Berge</persName>, <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>, <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, <persName ref="difdepo:persons.xml#queval">Queval</persName>
-         </p>
-         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName>
-         </p>
-         <p rend="incipit">Invité : <persName ref="difdepo:persons.xml#guyleclech">Guy Le Clec’h</persName>
-         </p>
-         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
-         </p>
-         <p>Le S.P. donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> d’une lettre de <persName ref="difdepo:persons.xml#latis">Latis</persName> aux termes de laquelle notre collègue propose sa nomination comme « membre surnuméraire » de l’OuLiPo (voir <ref>lettre en annexe</ref>). L’assemblée estime que, même si notre ami ne peut participer à toutes réunions, ce que nous déplorons bien sûr, il doit conserver son titre de « membre actif », titre inamovible.</p>
-         <p>Discussion des statuts</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je propose la modification suivante : remplacer, au paragraphe II, art. 2, le mot « régulièrement », par le mot « éternellement ». Je propose, en outre, la création de membres inactifs.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Toute objection aux statuts entraînera une refonte totale des dits statuts par l’objecteur.</p>
-         <p>Les statuts sont acceptés à l’unanimité moyennant les modifications ci-dessus.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je demande que l’OuLiPo soit déclaré d’utilité publique.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Le <orgName ref="difdepo:organizations.xml#college">Collège</orgName> est déjà déclaré d’Inutilité publique. Il y a peut-être incompatibilité…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Réclamons la nocivité publique.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Nous écrirons au <persName ref="difdepo:persons.xml#generaldegaulle">général de Gaulle</persName>.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f2.highres" n="2"/>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : <persName ref="difdepo:persons.xml#blavier">Blavier</persName> nous invite à tenir, au mois de décembre, une <name ref="difdepo:events.xml#reuniondeloulipoaliege" type="manif">réunion de l’OuLiPo à Liège</name>. Il nous propose une somme globale de 50.000 francs (anciens) pour parvenir en Belgique. Le séjour sera assuré.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : 50.000 francs, que faut-il faire ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Il n’est pas au courant ! Il était absent !!</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je m’incline.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Au fond, n’y avait-il pas une lueur de bon sens dans cette interruption ? Qu’allons-nous faire en effet ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : On va radioter.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Alors, ça vaut plus cher que ça.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Ils veulent une séance de l’OuLiPo publique et radiotée. En somme, nous devons organiser une fausse séance…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Cela risque de n’être pas très naturel.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Elisons dix nouveaux membres actifs. Ils iront à notre place.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : C’est le premier financement de l’OuLiPo.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Je trouve étonnante, appréciable, une telle proposition.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Il faudra tout de même mettre sur pied un programme de travaux.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Nous étudierons cette séance au cours d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Récemment, je me rendis en Italie pour un <name ref="difdepo:events.xml#colloque" type="manif">colloque</name>. On est assis sur une estrade. On parle. Il y a des gens dans la salle qui écoutent.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Il faut roder nos astuces.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Exemple : le petit bouchon de Liège !</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je pourrais ressortir : « Si <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName>… »</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je vous propose un candidat pour le titre de correspondant. Il s’agit de <persName ref="difdepo:persons.xml#br">
-               <abbr>B.R.</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : C’est un type très remarquable, mais je ne vois pas en quoi nous l’intéressons.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il se croit capable de nous proposer des <term ref="difdepo:terms.xml#structure">structures</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’en doute. Il faudrait une période d’initiation. Il est très bavard. Il présente une sorte de snobisme intellectuel.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#leclech">LE CLEC’H</persName> : Tout à fait de votre avis.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f3.highres" n="3"/>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je vous propose d’inviter, au cours d’un de nos prochains déjeuners, le Satrape <persName ref="difdepo:persons.xml#jeanferry">Jean Ferry</persName>.</p>
-         <p>Tous : D’accord.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il va y avoir une <name ref="difdepo:events.xml#seancexenakis" type="manif">séance Xénakis</name> chez <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName>. <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName> est toujours favorable à des expériences pour le prestige. Donc, nous pouvons utiliser leurs machines si nous avons un programme précis.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Nous confions à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> le soin d’établir ce programme.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Nous avons déjà parlé des <term ref="difdepo:terms.xml#poemesisosyntaxiques">poèmes isosyntaxiques</term>. Je vous propose de diviser les difficultés en effectuant des <term ref="difdepo:terms.xml#isosyntaxismespartiels">isosyntaxismes partiels</term> : <term ref="difdepo:terms.xml#poemesisosubstantifs">poèmes isosubstantifs</term>, <term ref="difdepo:terms.xml#isoadjectifs">isoadjectifs</term>, <term ref="difdepo:terms.xml#isoverbes">isoverbes</term>, etc.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> fait le point de son travail sur un <term ref="difdepo:terms.xml#romanintersectif">roman intersectif</term>. (<ref>Voir en annexe</ref>).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Nous sommes à un moment capital de l’OuLiPo. Ce travail de <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> prouve que nous n’avons pas travaillé en vain.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> (toujours spirituel) : En vin !</p>
-         <p>
-            <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> présente le <title ref="difdepo:titles.xml#bottinimaginaire">Bottin imaginaire</title> fabriqué par la machine de M. <persName ref="difdepo:persons.xml#starynkevitch">Starynkevitch</persName> (<ref>voir annexes</ref>).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Ce n’est pas tout à fait de la <term ref="difdepo:terms.xml#lipo">LiPo</term>, mais je trouve ça formidable.</p>
-         <p>(Peu d’échos.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : L’intéressant, c’est que ce n’est pas « intéressant ». Je veux dire : ni bizarre, ni drôle, etc…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#berge">BERGE</persName> : Il faudrait connaitre la <term ref="difdepo:terms.xml#loidefabrication">loi de fabrication</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : M. <persName ref="difdepo:persons.xml#starynkevitch">Starynkevitch</persName> l’a communiquée.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Enfin, il faudra tout de même inviter <persName ref="difdepo:persons.xml#starynkevitch">Starynkevitch</persName> !</p>
-         <p>(Approbations générales.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> présente également l’ouvrage de <persName ref="difdepo:persons.xml#jacquesyonnet">Jacques Yonnet</persName> sur les sigles. Il s’agit d’un cahier à onglets donnant 64<hi rend="sup">6</hi> 
-            <term ref="difdepo:terms.xml#combinaisons">combinaisons</term> de sigles sur les initiales du mot France. Quelques exemples de ces <term ref="difdepo:terms.xml#combinaisons">combinaisons</term> se trouvent <ref>en annexe</ref> de la présente circulaire.</p>
-         <p>Il parait que cet ouvrage a été présenté au <persName ref="difdepo:persons.xml#generaldegaulle">général de Gaulle</persName> qui a beaucoup ri. <persName ref="difdepo:persons.xml#madamedegaulle">Madame de Gaulle</persName> aurait trouvé cela inepte.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f4.highres" n="4"/>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’estime que la contribution des mathématiciens de l’OuLiPo est insuffisante. Nous n’avons pas de problème assez difficile à résoudre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#berge">BERGE</persName> : Je voulais faire un <term ref="difdepo:terms.xml#poemeantihomologique">poème anti-homologique</term> des <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">cent mille milliards de poèmes</title>. Il me faut pour cela la collaboration d’autres membres de l’OuLiPo.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je suis en train de collaborer à un film sur la langue française. Jusqu’ici, on ne faisait que des images (par exemple : sur <persName ref="difdepo:persons.xml#chateaubriand">Chateaubriand</persName>, etc.). Nous, on revient au commencement. On voit très vite les déviations possibles.</p>
-         <p>(Quelqu’un parle, à ce moment, du « Révérend Satrape ». On se récrie. Mais <persName ref="difdepo:persons.xml#queneau">Queneau</persName> :</p>
-         <p>– Révérend ne me choque pas !)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : On parle toujours de la <term ref="difdepo:terms.xml#discordancedestemps">discordance des temps</term>. Il existe aussi une <term ref="difdepo:terms.xml#discordancedesgenres">discordance des genres</term>. Par exemple, on dit : « Je suis beau, tu es beau, il est beau » ; on pense : « Je suis beau, tu es à moitié beau, il est affreux. »</p>
-         <p>(Rires)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Il y a donc une recherche en cours, qui peut suggérer, au passage, des recherches supplémentaires.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Nous pensons que le langage existe. Il est important que d’autres pensent qu’il n’existe pas. Mais nous pensons qu’il existe.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Que pensez-vous des travaux de « <title ref="difdepo:titles.xml#rhinozeros">Rhinozeros</title> » ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">BENS</persName> : Ce qui est ennuyeux, c’est que c’est en allemand. On n’y comprend rien.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Très intéressant. Mais cela ne nous concerne pas.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Ces recherches portent sur les <term ref="difdepo:terms.xml#morphemes">morphèmes</term>, et nos travaux sur les <term ref="difdepo:terms.xml#syntaxemes">syntaxèmes</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#leclech">LE CLEC’H</persName> : Dans un supplément littéraire du « <title ref="difdepo:titles.xml#times">Times</title> », j’ai trouvé des poèmes écrits pour des machines électroniques.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : J’ai une collection que je peux déposer aux archives de l’OuLiPo.</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, le lundi 2 juillet, à partir de 18h30.</p>
-         <p>Prière d’amener sa femme.</p>
-         <p>Le S.P.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f1.highres" n="1"/>
+      <p rend="incipit">OUVROIR <lb/>DE LITTERATURE <lb/>POTENTIELLE <lb/></p>
+      <p rend="incipit">Circulaire n°22</p>
+      <p rend="incipit">Réunion du 4 juin 1962</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#berge">Berge</persName>, <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>, <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, <persName ref="difdepo:persons.xml#lescure">Lescure</persName>, <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, <persName ref="difdepo:persons.xml#queval">Queval</persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName></p>
+      <p rend="incipit">Invité : <persName ref="difdepo:persons.xml#guyleclech">Guy Le Clec’h</persName></p>
+      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></p>
+      <p>Le S.P. donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> d’une lettre de <persName ref="difdepo:persons.xml#latis">Latis</persName> aux termes de laquelle notre collègue propose sa nomination comme « membre surnuméraire » de l’OuLiPo (voir <ref>lettre en annexe</ref>). L’assemblée estime que, même si notre ami ne peut participer à toutes réunions, ce que nous déplorons bien sûr, il doit conserver son titre de « membre actif », titre inamovible.</p>
+      <p>Discussion des statuts</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je propose la modification suivante : remplacer, au paragraphe II, art. 2, le mot « régulièrement », par le mot « éternellement ». Je propose, en outre, la création de membres inactifs.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Toute objection aux statuts entraînera une refonte totale des dits statuts par l’objecteur.</p>
+      <p>Les statuts sont acceptés à l’unanimité moyennant les modifications ci-dessus.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je demande que l’OuLiPo soit déclaré d’utilité publique.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Le <orgName ref="difdepo:organizations.xml#college">Collège</orgName> est déjà déclaré d’Inutilité publique. Il y a peut-être incompatibilité…</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Réclamons la nocivité publique.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Nous écrirons au <persName ref="difdepo:persons.xml#generaldegaulle">général de Gaulle</persName>.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f2.highres" n="2"/>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : <persName ref="difdepo:persons.xml#blavier">Blavier</persName> nous invite à tenir, au mois de décembre, une <name ref="difdepo:events.xml#reuniondeloulipoaliege" type="manif">réunion de l’OuLiPo à Liège</name>. Il nous propose une somme globale de 50.000 francs (anciens) pour parvenir en Belgique. Le séjour sera assuré.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : 50.000 francs, que faut-il faire ?</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Il n’est pas au courant ! Il était absent !!</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je m’incline.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Au fond, n’y avait-il pas une lueur de bon sens dans cette interruption ? Qu’allons-nous faire en effet ?</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : On va radioter.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Alors, ça vaut plus cher que ça.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Ils veulent une séance de l’OuLiPo publique et radiotée. En somme, nous devons organiser une fausse séance…</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Cela risque de n’être pas très naturel.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Elisons dix nouveaux membres actifs. Ils iront à notre place.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : C’est le premier financement de l’OuLiPo.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Je trouve étonnante, appréciable, une telle proposition.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Il faudra tout de même mettre sur pied un programme de travaux.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Nous étudierons cette séance au cours d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Récemment, je me rendis en Italie pour un <name ref="difdepo:events.xml#colloque" type="manif">colloque</name>. On est assis sur une estrade. On parle. Il y a des gens dans la salle qui écoutent.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Il faut roder nos astuces.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Exemple : le petit bouchon de Liège !</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je pourrais ressortir : « Si <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName>… »</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je vous propose un candidat pour le titre de correspondant. Il s’agit de <persName ref="difdepo:persons.xml#br"><abbr>B.R.</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : C’est un type très remarquable, mais je ne vois pas en quoi nous l’intéressons.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il se croit capable de nous proposer des <term ref="difdepo:terms.xml#structures">structures</term>.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’en doute. Il faudrait une période d’initiation. Il est très bavard. Il présente une sorte de snobisme intellectuel.</p>
+      <p><persName ref="difdepo:persons.xml#leclech">LE CLEC’H</persName> : Tout à fait de votre avis.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f3.highres" n="3"/>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Je vous propose d’inviter, au cours d’un de nos prochains déjeuners, le Satrape <persName ref="difdepo:persons.xml#jeanferry">Jean Ferry</persName>.</p>
+      <p>Tous : D’accord.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il va y avoir une <name ref="difdepo:events.xml#seancexenakis" type="manif">séance Xénakis</name> chez <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName>. <orgName ref="difdepo:organizations.xml#ibm">IBM</orgName> est toujours favorable à des expériences pour le prestige. Donc, nous pouvons utiliser leurs machines si nous avons un programme précis.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Nous confions à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> et <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> le soin d’établir ce programme.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Nous avons déjà parlé des <term ref="difdepo:terms.xml#poemesisosyntaxiques">poèmes isosyntaxiques</term>. Je vous propose de diviser les difficultés en effectuant des <term ref="difdepo:terms.xml#isosyntaxismespartiels">isosyntaxismes partiels</term> : <term ref="difdepo:terms.xml#poemesisosubstantifs">poèmes isosubstantifs</term>, <term ref="difdepo:terms.xml#isoadjectifs">isoadjectifs</term>, <term ref="difdepo:terms.xml#isoverbes">isoverbes</term>, etc.</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> fait le point de son travail sur un <term ref="difdepo:terms.xml#romanintersectif">roman intersectif</term>. (<ref>Voir en annexe</ref>).</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Nous sommes à un moment capital de l’OuLiPo. Ce travail de <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> prouve que nous n’avons pas travaillé en vain.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> (toujours spirituel) : En vin !</p>
+      <p><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName> présente le <title ref="difdepo:titles.xml#bottinimaginaire">Bottin imaginaire</title> fabriqué par la machine de M. <persName ref="difdepo:persons.xml#starynkevitch">Starynkevitch</persName> (<ref>voir annexes</ref>).</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Ce n’est pas tout à fait de la <term ref="difdepo:terms.xml#lipo">LiPo</term>, mais je trouve ça formidable.</p>
+      <p>(Peu d’échos.)</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : L’intéressant, c’est que ce n’est pas « intéressant ». Je veux dire : ni bizarre, ni drôle, etc…</p>
+      <p><persName ref="difdepo:persons.xml#berge">BERGE</persName> : Il faudrait connaitre la <term ref="difdepo:terms.xml#loidefabrication">loi de fabrication</term>.</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : M. <persName ref="difdepo:persons.xml#starynkevitch">Starynkevitch</persName> l’a communiquée.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Enfin, il faudra tout de même inviter <persName ref="difdepo:persons.xml#starynkevitch">Starynkevitch</persName> !</p>
+      <p>(Approbations générales.)</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> présente également l’ouvrage de <persName ref="difdepo:persons.xml#jacquesyonnet">Jacques Yonnet</persName> sur les sigles. Il s’agit d’un cahier à onglets donnant 64<hi rend="sup">6</hi><term ref="difdepo:terms.xml#combinaisons">combinaisons</term> de sigles sur les initiales du mot France. Quelques exemples de ces <term ref="difdepo:terms.xml#combinaisons">combinaisons</term> se trouvent <ref>en annexe</ref> de la présente circulaire.</p>
+      <p>Il parait que cet ouvrage a été présenté au <persName ref="difdepo:persons.xml#generaldegaulle">général de Gaulle</persName> qui a beaucoup ri. <persName ref="difdepo:persons.xml#madamedegaulle">Madame de Gaulle</persName> aurait trouvé cela inepte.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010020s/f4.highres" n="4"/>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’estime que la contribution des mathématiciens de l’OuLiPo est insuffisante. Nous n’avons pas de problème assez difficile à résoudre.</p>
+      <p><persName ref="difdepo:persons.xml#berge">BERGE</persName> : Je voulais faire un <term ref="difdepo:terms.xml#poemeantihomologique">poème anti-homologique</term> des <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">cent mille milliards de poèmes</title>. Il me faut pour cela la collaboration d’autres membres de l’OuLiPo.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je suis en train de collaborer à un film sur la langue française. Jusqu’ici, on ne faisait que des images (par exemple : sur <persName ref="difdepo:persons.xml#chateaubriand">Chateaubriand</persName>, etc.). Nous, on revient au commencement. On voit très vite les déviations possibles.</p>
+      <p>(Quelqu’un parle, à ce moment, du « Révérend Satrape ». On se récrie. Mais <persName ref="difdepo:persons.xml#queneau">Queneau</persName> :</p>
+      <p>– Révérend ne me choque pas !)</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : On parle toujours de la <term ref="difdepo:terms.xml#discordancedestemps">discordance des temps</term>. Il existe aussi une <term ref="difdepo:terms.xml#discordancedesgenres">discordance des genres</term>. Par exemple, on dit : « Je suis beau, tu es beau, il est beau » ; on pense : « Je suis beau, tu es à moitié beau, il est affreux. »</p>
+      <p>(Rires)</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Il y a donc une recherche en cours, qui peut suggérer, au passage, des recherches supplémentaires.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Nous pensons que le langage existe. Il est important que d’autres pensent qu’il n’existe pas. Mais nous pensons qu’il existe.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Que pensez-vous des travaux de « <title ref="difdepo:titles.xml#rhinozeros">Rhinozeros</title> » ?</p>
+      <p><persName ref="difdepo:persons.xml#bens">BENS</persName> : Ce qui est ennuyeux, c’est que c’est en allemand. On n’y comprend rien.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Très intéressant. Mais cela ne nous concerne pas.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Ces recherches portent sur les <term ref="difdepo:terms.xml#morphemes">morphèmes</term>, et nos travaux sur les <term ref="difdepo:terms.xml#syntaxemes">syntaxèmes</term>.</p>
+      <p><persName ref="difdepo:persons.xml#leclech">LE CLEC’H</persName> : Dans un supplément littéraire du « <title ref="difdepo:titles.xml#times">Times</title> », j’ai trouvé des poèmes écrits pour des machines électroniques.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : J’ai une collection que je peux déposer aux archives de l’OuLiPo.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>, le lundi 2 juillet, à partir de 18h30.</p>
+      <p>Prière d’amener sa femme.</p>
+      <p>Le S.P.</p>
+    </body>
   </text>
 </TEI>

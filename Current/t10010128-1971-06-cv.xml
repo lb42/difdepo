@@ -1,64 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010128-1971-06-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010128-1971-06-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010128 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 14 juin 1971</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010128-1971-06-cv</idno> 
-               <title>Convocation à <ref target="#t10010128-1971-06">une réunion Oulipo</ref>, envoyée le <date when="1971-06-14">14 juin 1971</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-10-23">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010128 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 14 juin 1971</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010128-1971-06-cv</idno><title>Convocation à <ref target="#t10010128-1971-06">une réunion Oulipo</ref>, envoyée le <date when="1971-06-14">14 juin 1971</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-10-23">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f1.highres" n="1"/>
-         <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
-         <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
-         <p rend="incipit">le 14 Juin 1971</p>
-         <p rend="incipit">Monsieur <persName ref="difdepo:persons.xml#marcelbenabou">Marcel BENABOU</persName>
-         </p>
-         <p>Chers Brigadiers,</p>
-         <p>Je vous confirme que notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu, sous la pluie, chez moi, le JEUDI 1er JUILLET 1971, de 11 heures à 15 heures.</p>
-         <p>Notre invité d’honneur sera <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>.</p>
-         <p>Voulez-vous m’indiquer si vous désirez intervenir dans l’ordre du jour.</p>
-         <p>Bien OuLiPiennement vôtre, et en attendant de vous revoir vendredi prochain. (1)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
-         </p>
-         <p>(1) Viendrez-vous, vers 13 heures 45, vous joindre à la caravane ? Ou maintenez-vous votre projet de venir séparément, avec <persName ref="difdepo:persons.xml#perec">Perec</persName> ? Dans le dernier cas nous ne vous attendons pas.</p>
-         <p>À compléter, découper, et retourner à <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName> 23, route de la Reine 92 - BOULOGNE</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010128r/f1.highres" n="1"/>
+      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
+      <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
+      <p rend="incipit">le 14 Juin 1971</p>
+      <p rend="incipit">Monsieur <persName ref="difdepo:persons.xml#marcelbenabou">Marcel BENABOU</persName></p>
+      <p>Chers Brigadiers,</p>
+      <p>Je vous confirme que notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> aura lieu, sous la pluie, chez moi, le JEUDI 1er JUILLET 1971, de 11 heures à 15 heures.</p>
+      <p>Notre invité d’honneur sera <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>.</p>
+      <p>Voulez-vous m’indiquer si vous désirez intervenir dans l’ordre du jour.</p>
+      <p>Bien OuLiPiennement vôtre, et en attendant de vous revoir vendredi prochain. (1)</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
+      <p>(1) Viendrez-vous, vers 13 heures 45, vous joindre à la caravane ? Ou maintenez-vous votre projet de venir séparément, avec <persName ref="difdepo:persons.xml#perec">Perec</persName> ? Dans le dernier cas nous ne vous attendons pas.</p>
+      <p>À compléter, découper, et retourner à <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName> 23, route de la Reine 92 - BOULOGNE</p>
+    </body>
   </text>
 </TEI>

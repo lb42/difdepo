@@ -1,292 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010130-1971-09-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010130-1971-09-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010130 pp. 2 à 6 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 10 septembre 1971</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010130-1971-09-cr</idno> 
-               <meeting xml:id="t10010130-1971-09">
-                  <date when="1971-09-10">10 septembre 1971</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval" role="président">Jean Queval</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-17" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:22:51Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010130 pp. 2 à 6 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 10 septembre 1971</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010130-1971-09-cr</idno><meeting xml:id="t10010130-1971-09">
+          <date when="1971-09-10">10 septembre 1971</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval" role="président">Jean Queval</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-17" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:22:51Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f2.highres" n="2"/>
-         <p rend="incipit">Séance 10/9/71</p>
-         <p>Lecture du CR de <persName ref="difdepo:persons.xml#bens">Bens</persName>
-         </p>
-         <p>Interrompue par l’arrivée de <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-         </p>
-         <p>Et par divers commentaires</p>
-         <p>Suscite un commentaire</p>
-         <p>Le P.F. récuse la plus grande partie des propos qui sont prêtés par le C-R</p>
-         <p>Les cors au pieds</p>
-         <p>Corrections – attributions rendre à <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> ce qui était attribué à <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. <lb/>
-            <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> critique : absence d’une partie de la discussion sur <persName ref="difdepo:persons.xml#joyce">Joyce</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> phonostylistique du Français</p>
-         <p>Le <term ref="difdepo:terms.xml#phoneme">phonème</term> et sa signification pour les critiques, les stylisticiens, psychologues, et philosophes. <lb/>« La clef des sons » <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName>
-         </p>
-         <p>Ex. le son a. balivernes <unclear>sur</unclear>
-         </p>
-         <p>Intervention générale quoique <unclear>bienvenue</unclear> de <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-         </p>
-         <p>« Prenons une phrase et interprétation selon un système philosophique choisi, et on obtient … »</p>
-         <p>« citadelle et mortadelle »</p>
-         <p>Interruption pour promenade agreste et bain de soleil.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>N.A.</abbr>
-            </persName> ne craignant pas la choléra recueille <unclear>Pire Pensif</unclear>
-         </p>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : <lb/>
-            <persName ref="difdepo:persons.xml#helmley">Helmley</persName> : l’inviter pour le 26 comme invité <unclear>illisible</unclear> ou l’inviter pour le café</p>
-         <p>Discussion : permettre à <persName ref="difdepo:persons.xml#helmley">Helmley</persName> de voir ses amis</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <name ref="difdepo:events.xml#congres" type="manif">congrès</name> de l’<orgName ref="difdepo:organizations.xml#ifip">IFIP</orgName> (informatique : étude thématique Joyce)</p>
-         <list type="unordered">
-            <item>Communication <persName ref="difdepo:persons.xml#joyce">Joyce</persName>
-            </item>
-            <item>La <term ref="difdepo:terms.xml#peintureparordinateurs">peinture par ordinateurs</term>
-            </item>
-            <item>Problème de la musique par ordinateurs en URSS</item>
-         </list>
-         <p>Intervention de <persName ref="difdepo:persons.xml#queval">Queval</persName> : la biographie de <persName ref="difdepo:persons.xml#mcgallaghan">Mc Gallaghan</persName> : le plus mauvais poète de la langue anglaise.</p>
-         <p>Menus propos de <persName ref="difdepo:persons.xml#queval">Queval</persName> : la <title ref="difdepo:titles.xml#comediehumaine">Comédie humaine</title> : en faire une suite de films à partir de l’<term ref="difdepo:terms.xml#index">index</term>. Partir du <title ref="difdepo:titles.xml#peregoriot">Père Goriot</title>, trois <unclear>embouchures</unclear> possibles,</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f3.highres" n="3"/>
-         <p>
-            <title ref="difdepo:titles.xml#cousinpons">Cousin Pons</title>, <title ref="difdepo:titles.xml#cousinebette">Cousine Bette</title> (le plus mauvais des romans illustres), <title ref="difdepo:titles.xml#splendeur">Splendeur</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> : refaire des romans avec les personnages secondaires de la <title ref="difdepo:titles.xml#comediehumaine">Comédie Humaine</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : refaire les romans avec les descendants des héros. Une comédie humaine diachronique.</p>
-         <p>Attitude inadmissible du Président <persName ref="difdepo:persons.xml#queval">Queval</persName> qui, en raison de la mauvaise qualité de son melon, nous prive tous de la <unclear>parole</unclear>
-         </p>
-         <p>Intervention illégale de Président Fondateur qui défend et illustre ses melons</p>
-         <p>13 17 (contestation sur le chiffre des suivants) séance ouverte</p>
-         <p>
-            <persName ref="difdepo:persons.xml#benabou">Benabou</persName> : singe de beauté, <term ref="difdepo:terms.xml#dramealphabetique">drame alphabétique</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> article du <title ref="difdepo:titles.xml#monde">Monde</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : ensemble floconneux</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : s’engage à produire texte sur concepts mathématiques de base</p>
-         <list type="unordered">
-            <item>Contestation sur les structures mathématiques</item>
-            <item>Le Président propose l’épuration de l’Oulipo : ne garder que les esprits sérieux</item>
-         </list>
-         <p>Prise de bec entre <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> et <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> 
-            <lb/>Problème personnel de <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : longue intervention</p>
-         <p>Choisir entre le travail devant un tableau noir et mla rigolade</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <persName ref="difdepo:persons.xml#bens">Bens</persName> a une idée trop haute de l’OULIPO</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> et <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : l’Oulipo groupe sympathique</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le Cas du Vase brisé</p>
-         <p>Passage de la structure prosodique à la structure romanesque</p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> et <persName ref="difdepo:persons.xml#bens">Bens</persName> : différence de leur attitude littéraire</p>
-         <p>Rêve de <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : créer des structures valables pour une très grande clientèle (style sonnet ou tragédie en 5 actes)</p>
-         <p>Action</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : icogramme</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : ex <orgName ref="difdepo:organizations.xml#cape">Cape</orgName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#meschinot">Meschinot</persName> : poème à lire de 36 façons</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <term ref="difdepo:terms.xml#s7">S+7</term>
-         </p>
-         <p>Invités d’honneur</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f4.highres" n="4"/>
-         <p rend="incipit">OUvroir de LIttérature POtentielle</p>
-         <p rend="incipit">Réunion de l’OuLiPo du Vendredi 10 Septembre 1971</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>, <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Étienne</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>. (par ordre approximatif d’arrivée)</p>
-         <p rend="incipit">Excusés (explicitement ou tacitement) : les autres.</p>
-         <p rend="incipit">Président de séance, élu à l’unanimité : <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-         </p>
-         <p rend="incipit">Secrétaire : <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</p>
-         <p>La séance commence, sous la tonnelle et sous le soleil, par la lecture du <persName ref="difdepo:persons.xml#cb">
-               <abbr>C.B.</abbr>
-            </persName> de la réunion précédente. Plutôt qu’un récit circonstancié des faits, ce C.R., œuvre de <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, est une longue méditation sur les raisons d’être – ou de ne pas être – de l’OuLiPo. Divers commentaires, ainsi que l’arrivée de <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, interrompent cette lecture : on relève que le C.R. attribue certains propos à d’autres qu’à leurs auteurs (<persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> notamment ne se reconnaît guère dans les propos qui lui sont prêtés), on ôte donc à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> pour rendre à <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, mais surtout on s’interroge sur le bien-fondé des craintes de <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> au sujet de l’avenir de l’OuLiPo (et de son présent). Mais la véritable discussion de fond sur ce sujet est renvoyée à la prochaine séance (à laquelle <persName ref="difdepo:persons.xml#bens">Bens</persName> assistera).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> présente une thèse américaine sur la <term ref="difdepo:terms.xml#phonostylistique">Phonostylistique</term> du Français. Il s’agit d’une étude des phonèmes françaises et de la signification qui leur est attribuée par les critiques, stylisticiens, psychologues et philosophes. Le secrétaire propose de rebaptiser cet ouvrage : <title ref="difdepo:titles.xml#laclefdessons">la Clef des Sons</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> de quelques exemples des balivernes contradictoires proférées sur les diverses qualités suggestives du son « a ». Une intervention aussi brève que géniale de <persName ref="difdepo:persons.xml#braffort">Braffort</persName>. : « Prenons une phrase quelconque, interprétons-la selon un système phonostylistique choisi, nous obtiendrons automatiquement la matière et la coloration d’un récit. » suscite l’enthousiasme.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> remarque que les mots phonétiquement proches – comme citadelle et mortadelle – devraient, en bonne logique phonostylisticienne, évoquer des suggestions voisines.</p>
-         <p>Courte interruption. C’est au milieu du jardin que la séance reprend, tandis que le <persName ref="difdepo:persons.xml#pf">
-               <abbr>P.F.</abbr>
-            </persName>, qui a retenu les leçons du dernier C.R., fait procéder à une nouvelle distribution de boissons alcoolisées autant qu’apéritives. Les propos qui s’échangent – quoique qualifiés de menus par l’ordre du jour – agitent de graves problèmes :</p>
-         <p>– <persName ref="difdepo:persons.xml#braffort">Braffort</persName> donne une nouvelle preuve de l’universalité de son esprit en parlant successivement :</p>
-         <list type="unordered">
-            <item>du <name ref="difdepo:events.xml#congres" type="manif">congrès</name> de l’<orgName ref="difdepo:organizations.xml#ifip">IFIP</orgName> (<term ref="difdepo:terms.xml#informatique">informatique</term>)</item>
-            <item>d’une <term ref="difdepo:terms.xml#etudethematique">étude thématique</term> de <persName ref="difdepo:persons.xml#joyce">Joyce</persName>
-            </item>
-            <item>de la <term ref="difdepo:terms.xml#peintureparordinateurs">peinture par ordinateurs</term>
-            </item>
-            <item>de la <term ref="difdepo:terms.xml#musiqueparordinateurs">musique par ordinateurs</term> telle qu’elle est pratiquée en URSS.</item>
-         </list>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f5.highres" n="5"/>
-         <p>– Echange de propos érudits entre <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> et <persName ref="difdepo:persons.xml#jq">
-               <abbr>J.Q.</abbr>
-            </persName> à propos de <persName ref="difdepo:persons.xml#mcgallaghan">Mc Gallaghan</persName>, le plus mauvais poète de la langue anglaise</p>
-         <p>On quitte alors le jardin, le soleil, et l’apéritif, pour se mettre à table. Discussion sur <persName ref="difdepo:persons.xml#balzac">Balzac</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jq">
-               <abbr>J.Q.</abbr>
-            </persName> propose de faire, sur <title ref="difdepo:titles.xml#lacomediehumaine">la Comédie Humaine</title>, une suite de films en partant de l’<term ref="difdepo:terms.xml#index">index</term>. Si l’on part du <title ref="difdepo:titles.xml#peregoriot">Père Goriot</title>, 3 embouchures sont possibles : <title ref="difdepo:titles.xml#cousinpons">Cousin Pons</title> – <title ref="difdepo:titles.xml#cousinebette">Cousine Bette</title> – <title ref="difdepo:titles.xml#splendeurs">Splendeurs</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> veut refaire <title ref="difdepo:titles.xml#lacomediehumaine">la Comédie Humaine</title> uniquement avec les personnages secondaires.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> propose de la refaire avec les descendants des héros ; ce serait une <title ref="difdepo:titles.xml#comediehumaine">Comédie Humaine</title> diachronique.</p>
-         <p>Incident de séance : <persName ref="difdepo:persons.xml#jq">
-               <abbr>J.Q.</abbr>
-            </persName> jugeant son melon insuffisamment mûr, nous prive tous de la parole. Le <persName ref="difdepo:persons.xml#pf">
-               <abbr>P.F.</abbr>
-            </persName>, en une intervention vigoureuse quoiqu’illégale, prononce un plaidoyer pour le cucurbitacé injustement diffamé.</p>
-         <p>Au chapitre d’action, <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> pose le problème de l’icogramme et du papier à lettre aux armes de l’OuLiPo : carte blanche lui est donnée pour engager les dépenses nécessaires à cette opération de prestige. <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 
-            <note n="1" place="foot" resp="author">A ne pas confondre avec <persName ref="difdepo:persons.xml#paulfournier">Paul Fournier</persName>, haut fonctionnaire de la <orgName ref="difdepo:organizations.xml#sdece">SDECE</orgName> actuellement inculpé pour trafic de drogues (Note ajoutée le 16.XI.71 par le <persName ref="difdepo:persons.xml#pf">
-                  <abbr>P.F.</abbr>
-               </persName>)</note>, qui met la dernière main à la préparation du <title ref="difdepo:titles.xml#dossierexcape">dossier ex-Cape</title>, lance un appel véhément à ceux qui n’ont pas encore envoyé un « <term ref="difdepo:terms.xml#modedemploi">mode d’emploi</term> » de leurs textes. On parle aussi de <persName ref="difdepo:persons.xml#meschinot">Meschinot</persName>, et du poème à lire de 36 façons. On règle la question des futurs invités d’honneur. (Liste adoptée : <persName ref="difdepo:persons.xml#leiris">Leiris</persName>, <persName ref="difdepo:persons.xml#rey">Rey</persName> (<title ref="difdepo:titles.xml#dictionnairerobert">Dictionnaire Robert</title>), <persName ref="difdepo:persons.xml#leipp">Leipp</persName>, <persName ref="difdepo:persons.xml#thom">Thom</persName>, <persName ref="difdepo:persons.xml#clancier">Clancier</persName>, <persName ref="difdepo:persons.xml#quemada">Quemada</persName>, <persName ref="difdepo:persons.xml#effel">Effel</persName>.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> présente deux mini-créations : deux <term ref="difdepo:terms.xml#traductionshomophoniques">traductions homophoniques</term> (baptisées <title ref="difdepo:titles.xml#singedebeaute">Singe de beauté</title>) et un <term ref="difdepo:terms.xml#dramealphabetique">drame alphabétique</term> inachevé, fait avec l’alphabet grec.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> parle des <term ref="difdepo:terms.xml#ensemblesfloconneuxouflous">ensembles floconneux (ou flous)</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> s’engage à fournir dans les moindres délais un texte – à l’usage des non initiés – sur les concepts mathématiques de base. On attend avec le plus grand intérêt qu’il fasse honneur à la parole donnée.</p>
-         <p>Grande discussion générale sur les <term ref="difdepo:terms.xml#structuresmathematiques">structures mathématiques</term> et l’OuLiPo.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> propose de constituer au sein de l’OuLiPo un « Bureau d’études » constitué par des spécialistes disposant d’un temps suffisant ce qui provoque une sérieuse contestation de la part de <persName ref="difdepo:persons.xml#na">
-               <abbr>N.A.</abbr>
-            </persName>
-         </p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f6.highres" n="6"/>
-         <p>Longue et passionnée, intervention de <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> : il évoque les débuts de l’OuLiPo, et le problème cornélien qui s’est posé à lui : choisir entre le travail sérieux devant un tableau noir (ce vers quoi allait son goût personnel) et la rigolade (ce qui lui convenait également).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> estime que <persName ref="difdepo:persons.xml#jb">
-               <abbr>J.B.</abbr>
-            </persName> se fait une idée trop haute de l’OuLiPo et en attend plus qu’il n’est possible à l’OuLiPo de lui apporter.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> et <persName ref="difdepo:persons.xml#le">L. Etienne</persName> sont d’avis que l’OuLiPo doit être avant tout un groupe sympathique où chacun se sente encouragé dans ses recherches.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName> : Mon rêve à l’origine était de créer des <term ref="difdepo:terms.xml#structures">structures</term> (comme le <term ref="difdepo:terms.xml#sonnet">sonnet</term> ou la <term ref="difdepo:terms.xml#tragedieen5actes">tragédie en 5 actes</term>) valables pour une très grande clientèle, à côté de <term ref="difdepo:terms.xml#structuresacrobatiques">structures acrobatiques</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> évoque l’expérience faite avec le <title ref="difdepo:titles.xml#vasebrise">Vase brisé</title> : passage d’une <term ref="difdepo:terms.xml#structureprosodique">structure prosodique</term> à une <term ref="difdepo:terms.xml#structureromanesque">structure romanesque</term>.</p>
-         <p>La séance s’achève fort tard, après bien des échanges bilatéraux. Chacun s’accorde à penser que la réunion du 26 Octobre sera d’une importance capitale.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f2.highres" n="2"/>
+      <p rend="incipit">Séance 10/9/71</p>
+      <p>Lecture du CR de <persName ref="difdepo:persons.xml#bens">Bens</persName></p>
+      <p>Interrompue par l’arrivée de <persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
+      <p>Et par divers commentaires</p>
+      <p>Suscite un commentaire</p>
+      <p>Le P.F. récuse la plus grande partie des propos qui sont prêtés par le C-R</p>
+      <p>Les cors au pieds</p>
+      <p>Corrections – attributions rendre à <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> ce qui était attribué à <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. <lb/><persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> critique : absence d’une partie de la discussion sur <persName ref="difdepo:persons.xml#joyce">Joyce</persName></p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> phonostylistique du Français</p>
+      <p>Le <term ref="difdepo:terms.xml#phoneme">phonème</term> et sa signification pour les critiques, les stylisticiens, psychologues, et philosophes. <lb/>« La clef des sons » <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p>Ex. le son a. balivernes <unclear>sur</unclear></p>
+      <p>Intervention générale quoique <unclear>bienvenue</unclear> de <persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
+      <p>« Prenons une phrase et interprétation selon un système philosophique choisi, et on obtient … »</p>
+      <p>« citadelle et mortadelle »</p>
+      <p>Interruption pour promenade agreste et bain de soleil.</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>N.A.</abbr></persName> ne craignant pas la choléra recueille <unclear>Pire Pensif</unclear></p>
+      <p><label type="rubrique">Menus propos</label></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <lb/><persName ref="difdepo:persons.xml#helmley">Helmley</persName> : l’inviter pour le 26 comme invité <unclear>illisible</unclear> ou l’inviter pour le café</p>
+      <p>Discussion : permettre à <persName ref="difdepo:persons.xml#helmley">Helmley</persName> de voir ses amis</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <name ref="difdepo:events.xml#congres" type="manif">congrès</name> de l’<orgName ref="difdepo:organizations.xml#ifip">IFIP</orgName> (informatique : étude thématique Joyce)</p>
+      <list type="unordered">
+        <item>Communication <persName ref="difdepo:persons.xml#joyce">Joyce</persName></item>
+        <item>La <term ref="difdepo:terms.xml#peintureparordinateurs">peinture par ordinateurs</term></item>
+        <item>Problème de la musique par ordinateurs en URSS</item>
+      </list>
+      <p>Intervention de <persName ref="difdepo:persons.xml#queval">Queval</persName> : la biographie de <persName ref="difdepo:persons.xml#mcgallaghan">Mc Gallaghan</persName> : le plus mauvais poète de la langue anglaise.</p>
+      <p>Menus propos de <persName ref="difdepo:persons.xml#queval">Queval</persName> : la <title ref="difdepo:titles.xml#comediehumaine">Comédie humaine</title> : en faire une suite de films à partir de l’<term ref="difdepo:terms.xml#index">index</term>. Partir du <title ref="difdepo:titles.xml#peregoriot">Père Goriot</title>, trois <unclear>embouchures</unclear> possibles,</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f3.highres" n="3"/>
+      <p><title ref="difdepo:titles.xml#cousinpons">Cousin Pons</title>, <title ref="difdepo:titles.xml#cousinebette">Cousine Bette</title> (le plus mauvais des romans illustres), <title ref="difdepo:titles.xml#splendeur">Splendeur</title></p>
+      <p><persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> : refaire des romans avec les personnages secondaires de la <title ref="difdepo:titles.xml#comediehumaine">Comédie Humaine</title></p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : refaire les romans avec les descendants des héros. Une comédie humaine diachronique.</p>
+      <p>Attitude inadmissible du Président <persName ref="difdepo:persons.xml#queval">Queval</persName> qui, en raison de la mauvaise qualité de son melon, nous prive tous de la <unclear>parole</unclear></p>
+      <p>Intervention illégale de Président Fondateur qui défend et illustre ses melons</p>
+      <p>13 17 (contestation sur le chiffre des suivants) séance ouverte</p>
+      <p><persName ref="difdepo:persons.xml#benabou">Benabou</persName> : singe de beauté, <term ref="difdepo:terms.xml#dramealphabetique">drame alphabétique</term></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> article du <title ref="difdepo:titles.xml#monde">Monde</title></p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : ensemble floconneux</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : s’engage à produire texte sur concepts mathématiques de base</p>
+      <list type="unordered">
+        <item>Contestation sur les structures mathématiques</item>
+        <item>Le Président propose l’épuration de l’Oulipo : ne garder que les esprits sérieux</item>
+      </list>
+      <p>Prise de bec entre <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> et <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName><lb/>Problème personnel de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : longue intervention</p>
+      <p>Choisir entre le travail devant un tableau noir et mla rigolade</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <persName ref="difdepo:persons.xml#bens">Bens</persName> a une idée trop haute de l’OULIPO</p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> et <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : l’Oulipo groupe sympathique</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : le Cas du Vase brisé</p>
+      <p>Passage de la structure prosodique à la structure romanesque</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> et <persName ref="difdepo:persons.xml#bens">Bens</persName> : différence de leur attitude littéraire</p>
+      <p>Rêve de <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : créer des structures valables pour une très grande clientèle (style sonnet ou tragédie en 5 actes)</p>
+      <p>Action</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : icogramme</p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : ex <orgName ref="difdepo:organizations.xml#cape">Cape</orgName></p>
+      <p><persName ref="difdepo:persons.xml#meschinot">Meschinot</persName> : poème à lire de 36 façons</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <term ref="difdepo:terms.xml#s7">S+7</term></p>
+      <p>Invités d’honneur</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f4.highres" n="4"/>
+      <p rend="incipit">OUvroir de LIttérature POtentielle</p>
+      <p rend="incipit">Réunion de l’OuLiPo du Vendredi 10 Septembre 1971</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>, <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#lucetienne">Luc Étienne</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>. (par ordre approximatif d’arrivée)</p>
+      <p rend="incipit">Excusés (explicitement ou tacitement) : les autres.</p>
+      <p rend="incipit">Président de séance, élu à l’unanimité : <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></p>
+      <p rend="incipit">Secrétaire : <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</p>
+      <p>La séance commence, sous la tonnelle et sous le soleil, par la lecture du <persName ref="difdepo:persons.xml#cb"><abbr>C.B.</abbr></persName> de la réunion précédente. Plutôt qu’un récit circonstancié des faits, ce C.R., œuvre de <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, est une longue méditation sur les raisons d’être – ou de ne pas être – de l’OuLiPo. Divers commentaires, ainsi que l’arrivée de <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, interrompent cette lecture : on relève que le C.R. attribue certains propos à d’autres qu’à leurs auteurs (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> notamment ne se reconnaît guère dans les propos qui lui sont prêtés), on ôte donc à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> pour rendre à <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, mais surtout on s’interroge sur le bien-fondé des craintes de <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> au sujet de l’avenir de l’OuLiPo (et de son présent). Mais la véritable discussion de fond sur ce sujet est renvoyée à la prochaine séance (à laquelle <persName ref="difdepo:persons.xml#bens">Bens</persName> assistera).</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> présente une thèse américaine sur la <term ref="difdepo:terms.xml#phonostylistique">Phonostylistique</term> du Français. Il s’agit d’une étude des phonèmes françaises et de la signification qui leur est attribuée par les critiques, stylisticiens, psychologues et philosophes. Le secrétaire propose de rebaptiser cet ouvrage : <title ref="difdepo:titles.xml#laclefdessons">la Clef des Sons</title>.</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> de quelques exemples des balivernes contradictoires proférées sur les diverses qualités suggestives du son « a ». Une intervention aussi brève que géniale de <persName ref="difdepo:persons.xml#braffort">Braffort</persName>. : « Prenons une phrase quelconque, interprétons-la selon un système phonostylistique choisi, nous obtiendrons automatiquement la matière et la coloration d’un récit. » suscite l’enthousiasme.</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> remarque que les mots phonétiquement proches – comme citadelle et mortadelle – devraient, en bonne logique phonostylisticienne, évoquer des suggestions voisines.</p>
+      <p>Courte interruption. C’est au milieu du jardin que la séance reprend, tandis que le <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName>, qui a retenu les leçons du dernier C.R., fait procéder à une nouvelle distribution de boissons alcoolisées autant qu’apéritives. Les propos qui s’échangent – quoique qualifiés de menus par l’ordre du jour – agitent de graves problèmes :</p>
+      <p>– <persName ref="difdepo:persons.xml#braffort">Braffort</persName> donne une nouvelle preuve de l’universalité de son esprit en parlant successivement :</p>
+      <list type="unordered">
+        <item>du <name ref="difdepo:events.xml#congres" type="manif">congrès</name> de l’<orgName ref="difdepo:organizations.xml#ifip">IFIP</orgName> (<term ref="difdepo:terms.xml#informatique">informatique</term>)</item>
+        <item>d’une <term ref="difdepo:terms.xml#etudethematique">étude thématique</term> de <persName ref="difdepo:persons.xml#joyce">Joyce</persName></item>
+        <item>de la <term ref="difdepo:terms.xml#peintureparordinateurs">peinture par ordinateurs</term></item>
+        <item>de la <term ref="difdepo:terms.xml#musiqueparordinateurs">musique par ordinateurs</term> telle qu’elle est pratiquée en URSS.</item>
+      </list>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f5.highres" n="5"/>
+      <p>– Echange de propos érudits entre <persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> et <persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName> à propos de <persName ref="difdepo:persons.xml#mcgallaghan">Mc Gallaghan</persName>, le plus mauvais poète de la langue anglaise</p>
+      <p>On quitte alors le jardin, le soleil, et l’apéritif, pour se mettre à table. Discussion sur <persName ref="difdepo:persons.xml#balzac">Balzac</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName> propose de faire, sur <title ref="difdepo:titles.xml#lacomediehumaine">la Comédie Humaine</title>, une suite de films en partant de l’<term ref="difdepo:terms.xml#index">index</term>. Si l’on part du <title ref="difdepo:titles.xml#peregoriot">Père Goriot</title>, 3 embouchures sont possibles : <title ref="difdepo:titles.xml#cousinpons">Cousin Pons</title> – <title ref="difdepo:titles.xml#cousinebette">Cousine Bette</title> – <title ref="difdepo:titles.xml#splendeurs">Splendeurs</title>.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> veut refaire <title ref="difdepo:titles.xml#lacomediehumaine">la Comédie Humaine</title> uniquement avec les personnages secondaires.</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> propose de la refaire avec les descendants des héros ; ce serait une <title ref="difdepo:titles.xml#comediehumaine">Comédie Humaine</title> diachronique.</p>
+      <p>Incident de séance : <persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName> jugeant son melon insuffisamment mûr, nous prive tous de la parole. Le <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName>, en une intervention vigoureuse quoiqu’illégale, prononce un plaidoyer pour le cucurbitacé injustement diffamé.</p>
+      <p>Au chapitre d’action, <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> pose le problème de l’icogramme et du papier à lettre aux armes de l’OuLiPo : carte blanche lui est donnée pour engager les dépenses nécessaires à cette opération de prestige. <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName><note n="1" place="foot" resp="author">A ne pas confondre avec <persName ref="difdepo:persons.xml#paulfournier">Paul Fournier</persName>, haut fonctionnaire de la <orgName ref="difdepo:organizations.xml#sdece">SDECE</orgName> actuellement inculpé pour trafic de drogues (Note ajoutée le 16.XI.71 par le <persName ref="difdepo:persons.xml#pf"><abbr>P.F.</abbr></persName>)</note>, qui met la dernière main à la préparation du <title ref="difdepo:titles.xml#dossierexcape">dossier ex-Cape</title>, lance un appel véhément à ceux qui n’ont pas encore envoyé un « <term ref="difdepo:terms.xml#modedemploi">mode d’emploi</term> » de leurs textes. On parle aussi de <persName ref="difdepo:persons.xml#meschinot">Meschinot</persName>, et du poème à lire de 36 façons. On règle la question des futurs invités d’honneur. (Liste adoptée : <persName ref="difdepo:persons.xml#leiris">Leiris</persName>, <persName ref="difdepo:persons.xml#rey">Rey</persName> (<title ref="difdepo:titles.xml#dictionnairerobert">Dictionnaire Robert</title>), <persName ref="difdepo:persons.xml#leipp">Leipp</persName>, <persName ref="difdepo:persons.xml#thom">Thom</persName>, <persName ref="difdepo:persons.xml#clancier">Clancier</persName>, <persName ref="difdepo:persons.xml#quemada">Quemada</persName>, <persName ref="difdepo:persons.xml#effel">Effel</persName>.)</p>
+      <p><persName ref="difdepo:persons.xml#benabou">Bénabou</persName> présente deux mini-créations : deux <term ref="difdepo:terms.xml#traductionshomophoniques">traductions homophoniques</term> (baptisées <title ref="difdepo:titles.xml#singedebeaute">Singe de beauté</title>) et un <term ref="difdepo:terms.xml#dramealphabetique">drame alphabétique</term> inachevé, fait avec l’alphabet grec.</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> parle des <term ref="difdepo:terms.xml#ensemblesfloconneuxouflous">ensembles floconneux (ou flous)</term>.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> s’engage à fournir dans les moindres délais un texte – à l’usage des non initiés – sur les concepts mathématiques de base. On attend avec le plus grand intérêt qu’il fasse honneur à la parole donnée.</p>
+      <p>Grande discussion générale sur les <term ref="difdepo:terms.xml#structuresmathematiques">structures mathématiques</term> et l’OuLiPo.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> propose de constituer au sein de l’OuLiPo un « Bureau d’études » constitué par des spécialistes disposant d’un temps suffisant ce qui provoque une sérieuse contestation de la part de <persName ref="difdepo:persons.xml#na"><abbr>N.A.</abbr></persName></p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010130k/f6.highres" n="6"/>
+      <p>Longue et passionnée, intervention de <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> : il évoque les débuts de l’OuLiPo, et le problème cornélien qui s’est posé à lui : choisir entre le travail sérieux devant un tableau noir (ce vers quoi allait son goût personnel) et la rigolade (ce qui lui convenait également).</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> estime que <persName ref="difdepo:persons.xml#jb"><abbr>J.B.</abbr></persName> se fait une idée trop haute de l’OuLiPo et en attend plus qu’il n’est possible à l’OuLiPo de lui apporter.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> et <persName ref="difdepo:persons.xml#le">L. Etienne</persName> sont d’avis que l’OuLiPo doit être avant tout un groupe sympathique où chacun se sente encouragé dans ses recherches.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName> : Mon rêve à l’origine était de créer des <term ref="difdepo:terms.xml#structures">structures</term> (comme le <term ref="difdepo:terms.xml#sonnet">sonnet</term> ou la <term ref="difdepo:terms.xml#tragedieen5actes">tragédie en 5 actes</term>) valables pour une très grande clientèle, à côté de <term ref="difdepo:terms.xml#structuresacrobatiques">structures acrobatiques</term>.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> évoque l’expérience faite avec le <title ref="difdepo:titles.xml#vasebrise">Vase brisé</title> : passage d’une <term ref="difdepo:terms.xml#structureprosodique">structure prosodique</term> à une <term ref="difdepo:terms.xml#structureromanesque">structure romanesque</term>.</p>
+      <p>La séance s’achève fort tard, après bien des échanges bilatéraux. Chacun s’accorde à penser que la réunion du 26 Octobre sera d’une importance capitale.</p>
+    </body>
   </text>
 </TEI>

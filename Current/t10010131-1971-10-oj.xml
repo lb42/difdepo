@@ -1,90 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010131-1971-10-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010131-1971-10-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010131 pp. 3 à 3 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 26 octobre 1971</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010131-1971-10-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010131-1971-10">la réunion Oulipo</ref> de <date when="1971-10-26">26 octobre 1971</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:23:04Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010131 pp. 3 à 3 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 26 octobre 1971</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010131-1971-10-oj</idno><title>Ordre de jour de <ref target="#t10010131-1971-10">la réunion Oulipo</ref> de <date when="1971-10-26">26 octobre 1971</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:23:04Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f3.highres" n="3"/>
-         <p>Ordre du Jour</p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
-         </p>
-         <p>Phynances</p>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>
-         </p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> = <term ref="difdepo:terms.xml#intricationchiasmatique">intrication chiasmatique</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> Portrait de <persName ref="difdepo:persons.xml#jbens">J Bens</persName> en contestataire</p>
-         <p>
-            <persName ref="difdepo:persons.xml#levistrauss">Levi-Strauss</persName>.</p>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName> :</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">Queval</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName>
-         </p>
-         <p>Date de la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101311/f3.highres" n="3"/>
+      <p>Ordre du Jour</p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
+      <p>Phynances</p>
+      <p><label type="rubrique">Erudition</label></p>
+      <p><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName></p>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> = <term ref="difdepo:terms.xml#intricationchiasmatique">intrication chiasmatique</term></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> Portrait de <persName ref="difdepo:persons.xml#jbens">J Bens</persName> en contestataire</p>
+      <p><persName ref="difdepo:persons.xml#levistrauss">Levi-Strauss</persName>.</p>
+      <p><label type="rubrique">Menus propos</label></p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> :</p>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName></p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName></p>
+      <p>Date de la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
+    </body>
   </text>
 </TEI>

@@ -1,143 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010116-1970-08-21-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010116-1970-08-21-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010116 pp. 2 à 2 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 21 août 1970</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010116-1970-08-21-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010116-1970-08-21">la réunion Oulipo</ref> du <date when="1970-08-21">21 août 1970</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:36:09Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010116 pp. 2 à 2 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 21 août 1970</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010116-1970-08-21-oj</idno><title>Ordre de jour de <ref target="#t10010116-1970-08-21">la réunion Oulipo</ref> du <date when="1970-08-21">21 août 1970</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:36:09Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010116f/f2.highres" n="2"/>
-         <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle <lb/>
-         </p>
-         <p rend="incipit">Jeudi 20, Vendredi 21 Août 1970</p>
-         <p>
-            <label type="rubrique">
-               <name ref="difdepo:events.xml#lemillenaire" type="manif">LE MILLENAIRE</name>
-            </label>
-         </p>
-         <p>(Pré-programme adopté le lundi 3 Août)</p>
-         <p>(A élaguer, compléter, ordonner, retoucher, améliorer par qui de droit)</p>
-         <list type="ordered">
-            <item>QUESTIONS DE PROTOCOLE ET D’INTENDANCE</item>
-            <item>Election des Présidents (de journée ?, de séances ?)</item>
-            <item>Adoption d’un ordre du jour</item>
-            <item>Horaire proposé : de 10h30 à 13h et de 15h à 18j</item>
-            <item>Divers</item>
-         </list>
-         <list type="ordered">
-            <item>QUESTIONS FONDAMENTALES ET ESSENTIELLES</item>
-            <item>Un <term ref="difdepo:terms.xml#ouliposemantique">OuLiPo sémantique</term> est-il possible ? (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>F.LL</abbr>
-               </persName>) Contenu Thématique <unclear>topier</unclear> Qu’est-ce que la sémantique ?</item>
-            <item>
-               <title ref="difdepo:titles.xml#sz">S/Z</title>
-            </item>
-            <item>L’OuLiPo n’est pas une <term ref="difdepo:terms.xml#litteraturealeatoire">littérature aléatoire</term>/ <term ref="difdepo:terms.xml#litteratureparordinateur">littérature par ordinateur</term> ?</item>
-            <item>La part possible de l’ordinateur dans l’<term ref="difdepo:terms.xml#ouliposemantique">OuLiPo sémantique</term>
-            </item>
-            <item>
-               <term ref="difdepo:terms.xml#glissementsdesens">Glissements de sens</term> dans les <term ref="difdepo:terms.xml#motscroises">mots croisés</term>
-            </item>
-            <item>Les <term ref="difdepo:terms.xml#definitions">définitions</term> dans les <term ref="difdepo:terms.xml#motscroises">mots croisés</term>
-            </item>
-            <item/>
-            <item>
-               <term ref="difdepo:terms.xml#modelesnonstandards">Modèles non standards</term> (<persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName>)</item>
-            <item>Etude d’un mythe ; le dossier Cape (<persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName>)</item>
-            <item>
-               <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName>
-            </item>
-         </list>
-         <list type="ordered">
-            <item>QUESTIONS ESSENTIELLES SANS TOUTEFOIS ETRE FONDAMENTALES</item>
-            <item>Rapports avec les autres groupes (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>) Pas de revue <orgName ref="difdepo:organizations.xml#telquel">
-                  <title ref="difdepo:titles.xml#telquel">Tel Quel</title>
-               </orgName> 
-               <title ref="difdepo:titles.xml#change">
-                  <orgName ref="difdepo:organizations.xml#change">Change</orgName>
-               </title> 
-               <title ref="difdepo:titles.xml#poetique">Poétique</title>
-            </item>
-            <item>Les <term ref="difdepo:terms.xml#structuresduromanpolicier">structures du roman policier</term> (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>F.LL</abbr>
-               </persName>)</item>
-            <item>Collaboration radiophonique (<persName ref="difdepo:persons.xml#gperec">G. Perec</persName>)</item>
-            <item/>
-         </list>
-         <list type="ordered">
-            <item>QUESTIONS NON TOUT A FAIT DEPOURVUES D’INTERET</item>
-            <item>
-               <term ref="difdepo:terms.xml#lexiquedesmotsautologiquesetantiautologiques">Lexique des mots autologiques et antiautologiques</term>. <term ref="difdepo:terms.xml#relationscroisees">Relations croisées</term> (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>F.LL</abbr>
-               </persName>)</item>
-            <item>
-               <term ref="difdepo:terms.xml#blancsalexandrinsdanslaprose">Blancs alexandrins dans la prose</term> (<persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName>)</item>
-            <item/>
-         </list>
-         <p>
-            <label type="rubrique">Travailleurs tcheques.</label>
-         </p>
-         <list type="ordered">
-            <item>DIVERS</item>
-            <item>Menus propos.</item>
-            <item>
-               <term ref="difdepo:terms.xml#metaques">Metaquès</term> (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>) Mon mari est allé à l’hôpital on l’a pris pour un cow boy</item>
-         </list>
-         <p>
-            <term ref="difdepo:terms.xml#palindrome">Palindrome</term>. <persName ref="difdepo:persons.xml#proust">Proust</persName>
-         </p>
-         <list type="ordered">
-            <item>Divers :</item>
-            <item>
-               <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> Invités. <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>. <persName ref="difdepo:persons.xml#barthes">Barthes</persName>. <persName ref="difdepo:persons.xml#jaulin">Jaulin</persName>
-            </item>
-         </list>
-         <p>V. 11 Septembre ; puis J. 28 août (<persName ref="difdepo:persons.xml#benabou">Bénabou</persName>)</p>
-         <list type="ordered">
-            <item>Divers.</item>
-         </list>
-         <p>
-            <title ref="difdepo:titles.xml#change">Change</title> (<orgName ref="difdepo:organizations.xml#seuil">Seuil</orgName>) n°6 <persName ref="difdepo:persons.xml#perec">Perec</persName> 
-            <term ref="difdepo:terms.xml#palindrome">Palindrome</term>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010116f/f2.highres" n="2"/>
+      <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle <lb/></p>
+      <p rend="incipit">Jeudi 20, Vendredi 21 Août 1970</p>
+      <p><label type="rubrique"><name ref="difdepo:events.xml#lemillenaire" type="manif">LE MILLENAIRE</name></label></p>
+      <p>(Pré-programme adopté le lundi 3 Août)</p>
+      <p>(A élaguer, compléter, ordonner, retoucher, améliorer par qui de droit)</p>
+      <list type="ordered">
+        <item>QUESTIONS DE PROTOCOLE ET D’INTENDANCE</item>
+        <item>Election des Présidents (de journée ?, de séances ?)</item>
+        <item>Adoption d’un ordre du jour</item>
+        <item>Horaire proposé : de 10h30 à 13h et de 15h à 18j</item>
+        <item>Divers</item>
+      </list>
+      <list type="ordered">
+        <item>QUESTIONS FONDAMENTALES ET ESSENTIELLES</item>
+        <item>Un <term ref="difdepo:terms.xml#ouliposemantique">OuLiPo sémantique</term> est-il possible ? (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>) Contenu Thématique <unclear>topier</unclear> Qu’est-ce que la sémantique ?</item>
+        <item><title ref="difdepo:titles.xml#sz">S/Z</title></item>
+        <item>L’OuLiPo n’est pas une <term ref="difdepo:terms.xml#litteraturealeatoire">littérature aléatoire</term>/ <term ref="difdepo:terms.xml#litteratureparordinateur">littérature par ordinateur</term> ?</item>
+        <item>La part possible de l’ordinateur dans l’<term ref="difdepo:terms.xml#ouliposemantique">OuLiPo sémantique</term></item>
+        <item><term ref="difdepo:terms.xml#glissementsdesens">Glissements de sens</term> dans les <term ref="difdepo:terms.xml#motscroises">mots croisés</term></item>
+        <item>Les <term ref="difdepo:terms.xml#definitions">définitions</term> dans les <term ref="difdepo:terms.xml#motscroises">mots croisés</term></item>
+        <item/>
+        <item><term ref="difdepo:terms.xml#modelesnonstandards">Modèles non standards</term> (<persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName>)</item>
+        <item>Etude d’un mythe ; le dossier Cape (<persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName>)</item>
+        <item><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName></item>
+      </list>
+      <list type="ordered">
+        <item>QUESTIONS ESSENTIELLES SANS TOUTEFOIS ETRE FONDAMENTALES</item>
+        <item>Rapports avec les autres groupes (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>) Pas de revue <orgName ref="difdepo:organizations.xml#telquel"><title ref="difdepo:titles.xml#telquel">Tel Quel</title></orgName><title ref="difdepo:titles.xml#change"><orgName ref="difdepo:organizations.xml#change">Change</orgName></title><title ref="difdepo:titles.xml#poetique">Poétique</title></item>
+        <item>Les <term ref="difdepo:terms.xml#structuresduromanpolicier">structures du roman policier</term> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item>Collaboration radiophonique (<persName ref="difdepo:persons.xml#gperec">G. Perec</persName>)</item>
+        <item/>
+      </list>
+      <list type="ordered">
+        <item>QUESTIONS NON TOUT A FAIT DEPOURVUES D’INTERET</item>
+        <item><term ref="difdepo:terms.xml#lexiquedesmotsautologiquesetantiautologiques">Lexique des mots autologiques et antiautologiques</term>. <term ref="difdepo:terms.xml#relationscroisees">Relations croisées</term> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><term ref="difdepo:terms.xml#blancsalexandrinsdanslaprose">Blancs alexandrins dans la prose</term> (<persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName>)</item>
+        <item/>
+      </list>
+      <p><label type="rubrique">Travailleurs tcheques.</label></p>
+      <list type="ordered">
+        <item>DIVERS</item>
+        <item>Menus propos.</item>
+        <item><term ref="difdepo:terms.xml#metaques">Metaquès</term> (<persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName>) Mon mari est allé à l’hôpital on l’a pris pour un cow boy</item>
+      </list>
+      <p><term ref="difdepo:terms.xml#palindrome">Palindrome</term>. <persName ref="difdepo:persons.xml#proust">Proust</persName></p>
+      <list type="ordered">
+        <item>Divers :</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> Invités. <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>. <persName ref="difdepo:persons.xml#barthes">Barthes</persName>. <persName ref="difdepo:persons.xml#jaulin">Jaulin</persName></item>
+      </list>
+      <p>V. 11 Septembre ; puis J. 28 août (<persName ref="difdepo:persons.xml#benabou">Bénabou</persName>)</p>
+      <list type="ordered">
+        <item>Divers.</item>
+      </list>
+      <p><title ref="difdepo:titles.xml#change">Change</title> (<orgName ref="difdepo:organizations.xml#seuil">Seuil</orgName>) n°6 <persName ref="difdepo:persons.xml#perec">Perec</persName><term ref="difdepo:terms.xml#palindrome">Palindrome</term></p>
+    </body>
   </text>
 </TEI>

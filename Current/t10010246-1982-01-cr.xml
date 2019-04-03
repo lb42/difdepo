@@ -1,266 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010246-1982-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010246-1982-01-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010246 pp. 3 à 3 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 15 janvier 1982</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010246-1982-01-cr</idno> 
-               <meeting xml:id="t10010246-1982-01">
-                  <date when="1982-01-15">15 janvier 1982</date>
-                  <placeName>chez Martine et PF</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud" role="secrétaire">Jacques Roubaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:39:50Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010246 pp. 3 à 3 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 15 janvier 1982</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#matthieuverrier">Matthieu Verrier</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010246-1982-01-cr</idno><meeting xml:id="t10010246-1982-01">
+          <date when="1982-01-15">15 janvier 1982</date>
+          <placeName>chez Martine et PF</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud" role="secrétaire">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:39:50Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102462/f3.highres" n="3"/>
-         <p rend="incipit">Séance du 15/1/82</p>
-         <list type="unordered">
-            <item>Présents : <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> président <persName ref="difdepo:persons.xml#jr">
-                  <abbr>JR</abbr>
-               </persName> secrétaire <persName ref="difdepo:persons.xml#hm">
-                  <abbr>HM</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#mm">
-                  <abbr>MM</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#le">
-                  <abbr>LE</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#cb">
-                  <abbr>CB</abbr>
-               </persName>,</item>
-            <item>Excusés : <persName ref="difdepo:persons.xml#jb">
-                  <abbr>JB</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#jd">
-                  <abbr>JD</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#gp">
-                  <abbr>GP</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#jl">
-                  <abbr>JL</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#ic">
-                  <abbr>IC</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName>,</item>
-            <item>absents <persName ref="difdepo:persons.xml#na">
-                  <abbr>NA</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>,</item>
-         </list>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#le">
-                  <abbr>LE</abbr>
-               </persName> présente des <term ref="difdepo:terms.xml#palindromesbilingues">palindromes bilingues</term>. Continuant sur sa lancée il a composé des <term ref="difdepo:terms.xml#palindromesbilinguesphonetiquesfrancoallemands">palindromes bilingues phonétiques franco-allemands</term>
-            </item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#madonna">Madonna</persName> lore Waser wile lore alles essen otto</p>
-         <p>
-            <persName ref="difdepo:persons.xml#otto">Otto</persName> ne sait cela errol livré sa vérole à vos dames</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> propose de traduire <title ref="difdepo:titles.xml#meinkampf">Mein Kampf</title> qui est sans doute la <gap/> de « La Recherche ».</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> montre un dessin non palindromique de <persName ref="difdepo:persons.xml#jeaneffel">Jean Effel</persName> pour illustrer un de ses <term ref="difdepo:terms.xml#palindromes">palindromes</term>
-         </p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#le">
-                  <abbr>LE</abbr>
-               </persName> présente un <term ref="difdepo:terms.xml#doublerubandemoebiusavecentrelacement">double ruban de Moebius avec entrelacement</term> ou <term ref="difdepo:terms.xml#fauxrubandesanimauxpasplats">faux ruban des animaux pas plats</term> (de la largeur du ruban) il y a un mâle et une femelle. Le mâle est devant la femelle qui reste fixe ou du moins court moins vite et lui court après ; il faut rentrer et il s’aperçoit qu’il est dos à dos avec elle. Il faut qu’il fasse un autre tour. <lb/>
-               <persName ref="difdepo:persons.xml#cb">
-                  <abbr>CB</abbr>
-               </persName> évoque le problème du « Gossip »  <gap/> coups de téléphone ne <gap/> pour que tout le monde sache que chacun sait que les autres ne savait pas…</item>
-            <item>
-               <persName ref="difdepo:persons.xml#le">
-                  <abbr>LE</abbr>
-               </persName> 
-               <ref>
-                  <title ref="difdepo:titles.xml#texticule">Texticule</title>
-               </ref> pour le 2<hi rend="sup">ème</hi> millénaire avec 14 mois de retard</item>
-         </list>
-         <p>Le texte est joint</p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#hm">
-                  <abbr>HM</abbr>
-               </persName> dans le roman qu’il écrit il utilise un <term ref="difdepo:terms.xml#s2">S+2</term>, (IX est fraction de n)</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#clb">
-               <abbr>Cl B</abbr>
-            </persName> propose pour f(n) les <term ref="difdepo:terms.xml#decimalesdep">décimales de π</term>.</p>
-         <p>– Il propose un type de <term ref="difdepo:terms.xml#metacontraintes">métacontraintes</term>. Etant donné une <term ref="difdepo:terms.xml#contrainte">contrainte</term> qui utilise un texte initial, ce texte *** se trouve parmi les produits de la <title ref="difdepo:titles.xml#contrainte">contrainte</title>. Nom (<persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>) mama : <term ref="difdepo:terms.xml#metacontraintes">métacontraintes</term> de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>.</p>
-         <p>Erudition</p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> 
-               <term ref="difdepo:terms.xml#moraleelementaire">morale élémentaire</term>
-            </item>
-         </list>
-         <p>– Le <name ref="difdepo:events.xml#seminairequeneau" type="manif">séminaire <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
-            </name> de Mme <persName ref="difdepo:persons.xml#debon">Debon</persName> a lieu un samedi de chaque mois. Le journal de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> a été lu (en dehors du fils) par elle. Il y a un journal de création exceptionnel.</p>
-         <p>– <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> communique certains résultats</p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> signale ce film <title ref="difdepo:titles.xml#jetueil">je tue il</title>.</item>
-            <item>
-               <persName ref="difdepo:persons.xml#jr">
-                  <abbr>JR</abbr>
-               </persName>. Signale <title ref="difdepo:titles.xml#herecomethetigers">Here come the tigers</title>.</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName>. <title ref="difdepo:titles.xml#petitecosmogonieportative">Petite cosmogonie portative</title> : les questions de <persName ref="difdepo:persons.xml#calvino">Calvino</persName>. <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> en écrit une.</item>
-         </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#jr">
-                  <abbr>JR</abbr>
-               </persName> annonce la constitution à <orgName ref="difdepo:organizations.xml#alamo">ALAMO</orgName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> annonce le <orgName ref="difdepo:organizations.xml#projettosca">projet TOSCA</orgName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> 
-               <name ref="difdepo:events.xml#exposealenssurloulipoetordinateurs"
-                     type="manif">exposé à l’ENS sur l’oulipo et ordinateurs</name>.</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> 
-               <name ref="difdepo:events.xml#amiensstage" type="manif">Amiens : <name ref="difdepo:events.xml#stage" type="manif">stage</name>
-               </name> proposé V26 S27 D28 février</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> 
-               <name ref="difdepo:events.xml#millefeuillesjourneeoulipo" type="manif">Millefeuilles : journée oulipo</name> en mars. 12 mars 1982</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName>, Australie<name ref="difdepo:events.xml#visitedeloulipo" type="manif">visite de l’oulipo</name> en 1984 ou 1985</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> parle d’un <name ref="difdepo:events.xml#colloquesurlacontrainte" type="manif">colloque sur la <term ref="difdepo:terms.xml#contrainte">contrainte</term>
-            </name> !</p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> 
-               <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Bibliothèque oulipienne</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> annonce la réception du <title ref="difdepo:titles.xml#n18braffort">18 Braffort</title> et <title ref="difdepo:titles.xml#n19perec">19 Perec</title>, l’annonce du <title ref="difdepo:titles.xml#n20calvino">20 (Calvino)</title>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#cb">
-                  <abbr>CB</abbr>
-               </persName> annonce qu’il n’y aurait pas de <term ref="difdepo:terms.xml#palindromespossiblesenchinois">palindromes possibles en chinois</term>.</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102462/f3.highres" n="3"/>
+      <p rend="incipit">Séance du 15/1/82</p>
+      <list type="unordered">
+        <item>Présents : <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> président <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> secrétaire <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>,</item>
+        <item>Excusés : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>,</item>
+        <item>absents <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>,</item>
+      </list>
+      <p><label type="rubrique">Création</label></p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> présente des <term ref="difdepo:terms.xml#palindromesbilingues">palindromes bilingues</term>. Continuant sur sa lancée il a composé des <term ref="difdepo:terms.xml#palindromesbilinguesphonetiquesfrancoallemands">palindromes bilingues phonétiques franco-allemands</term></item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#madonna">Madonna</persName> lore Waser wile lore alles essen otto</p>
+      <p><persName ref="difdepo:persons.xml#otto">Otto</persName> ne sait cela errol livré sa vérole à vos dames</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> propose de traduire <title ref="difdepo:titles.xml#meinkampf">Mein Kampf</title> qui est sans doute la <gap/> de « La Recherche ».</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> montre un dessin non palindromique de <persName ref="difdepo:persons.xml#jeaneffel">Jean Effel</persName> pour illustrer un de ses <term ref="difdepo:terms.xml#palindromes">palindromes</term></p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> présente un <term ref="difdepo:terms.xml#doublerubandemoebiusavecentrelacement">double ruban de Moebius avec entrelacement</term> ou <term ref="difdepo:terms.xml#fauxrubandesanimauxpasplats">faux ruban des animaux pas plats</term> (de la largeur du ruban) il y a un mâle et une femelle. Le mâle est devant la femelle qui reste fixe ou du moins court moins vite et lui court après ; il faut rentrer et il s’aperçoit qu’il est dos à dos avec elle. Il faut qu’il fasse un autre tour. <lb/><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> évoque le problème du « Gossip »  <gap/> coups de téléphone ne <gap/> pour que tout le monde sache que chacun sait que les autres ne savait pas…</item>
+        <item><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName><ref><title ref="difdepo:titles.xml#texticule">Texticule</title></ref> pour le 2<hi rend="sup">ème</hi> millénaire avec 14 mois de retard</item>
+      </list>
+      <p>Le texte est joint</p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> dans le roman qu’il écrit il utilise un <term ref="difdepo:terms.xml#s2">S+2</term>, (IX est fraction de n)</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#clb"><abbr>Cl B</abbr></persName> propose pour f(n) les <term ref="difdepo:terms.xml#decimalesdep">décimales de π</term>.</p>
+      <p>– Il propose un type de <term ref="difdepo:terms.xml#metacontraintes">métacontraintes</term>. Etant donné une <term ref="difdepo:terms.xml#contrainte">contrainte</term> qui utilise un texte initial, ce texte *** se trouve parmi les produits de la <title ref="difdepo:titles.xml#contrainte">contrainte</title>. Nom (<persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>) mama : <term ref="difdepo:terms.xml#metacontraintes">métacontraintes</term> de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>.</p>
+      <p>Erudition</p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName><term ref="difdepo:terms.xml#moraleelementaire">morale élémentaire</term></item>
+      </list>
+      <p>– Le <name ref="difdepo:events.xml#seminairequeneau" type="manif">séminaire <persName ref="difdepo:persons.xml#queneau">Queneau</persName></name> de Mme <persName ref="difdepo:persons.xml#debon">Debon</persName> a lieu un samedi de chaque mois. Le journal de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> a été lu (en dehors du fils) par elle. Il y a un journal de création exceptionnel.</p>
+      <p>– <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> communique certains résultats</p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> signale ce film <title ref="difdepo:titles.xml#jetueil">je tue il</title>.</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. Signale <title ref="difdepo:titles.xml#herecomethetigers">Here come the tigers</title>.</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. <title ref="difdepo:titles.xml#petitecosmogonieportative">Petite cosmogonie portative</title> : les questions de <persName ref="difdepo:persons.xml#calvino">Calvino</persName>. <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> en écrit une.</item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> annonce la constitution à <orgName ref="difdepo:organizations.xml#alamo">ALAMO</orgName></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> annonce le <orgName ref="difdepo:organizations.xml#projettosca">projet TOSCA</orgName></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName><name ref="difdepo:events.xml#exposealenssurloulipoetordinateurs" type="manif">exposé à l’ENS sur l’oulipo et ordinateurs</name>.</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName><name ref="difdepo:events.xml#amiensstage" type="manif">Amiens : <name ref="difdepo:events.xml#stage" type="manif">stage</name></name> proposé V26 S27 D28 février</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName><name ref="difdepo:events.xml#millefeuillesjourneeoulipo" type="manif">Millefeuilles : journée oulipo</name> en mars. 12 mars 1982</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, Australie<name ref="difdepo:events.xml#visitedeloulipo" type="manif">visite de l’oulipo</name> en 1984 ou 1985</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> parle d’un <name ref="difdepo:events.xml#colloquesurlacontrainte" type="manif">colloque sur la <term ref="difdepo:terms.xml#contrainte">contrainte</term></name> !</p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName><name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></item>
+      </list>
+      <p><label type="rubrique">Bibliothèque oulipienne</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> annonce la réception du <title ref="difdepo:titles.xml#n18braffort">18 Braffort</title> et <title ref="difdepo:titles.xml#n19perec">19 Perec</title>, l’annonce du <title ref="difdepo:titles.xml#n20calvino">20 (Calvino)</title></item>
+        <item><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> annonce qu’il n’y aurait pas de <term ref="difdepo:terms.xml#palindromespossiblesenchinois">palindromes possibles en chinois</term>.</item>
+      </list>
+    </body>
   </text>
 </TEI>

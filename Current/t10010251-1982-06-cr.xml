@@ -1,189 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010251-1982-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010251-1982-06-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010251 pp. 9 à 10 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 18 juin 1982</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010251-1982-06-cr</idno> 
-               <meeting xml:id="t10010251-1982-06">
-                  <date when="1982-06-18">18 juin 1982</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#pierreenckell" role="invité">Pierre Enckell</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jleyrine" role="invité">J.-L. Eyrine</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:35:44Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010251 pp. 9 à 10 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 18 juin 1982</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010251-1982-06-cr</idno><meeting xml:id="t10010251-1982-06">
+          <date when="1982-06-18">18 juin 1982</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#pierreenckell" role="invité">Pierre Enckell</persName></item>
+            <item><persName ref="difdepo:persons.xml#jleyrine" role="invité">J.-L. Eyrine</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:35:44Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102517/f9.highres" n="9"/>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>. Devoir de vacances</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mm">
-               <abbr>MM</abbr>
-            </persName> Portrait-robot : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> n°21</p>
-         <p>
-            <persName ref="difdepo:persons.xml#enckel">Enckel</persName> : invité d’honneur : <title ref="difdepo:titles.xml#pouruneapprocheverticaledelalitterature">Pour une approche verticale de la littérature</title> : technique de <term ref="difdepo:terms.xml#prelevement">prélèvement</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : <term ref="difdepo:terms.xml#ecrituresubstitutive">écriture substitutive</term> : combiner l’utilisation des chiffres des lettres et des <unclear>restes</unclear> pour mettre au point un <term ref="difdepo:terms.xml#systemedecrituresyllabique">système d’écriture syllabique</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>. Retour sur la tentative de <persName ref="difdepo:persons.xml#jeffel">J. Effel</persName> de création d’une <term ref="difdepo:terms.xml#langueuniverselle">langue universelle</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : lecture des exercices de Moqué. Discussion sur la déperdition de sens et ses rapports avec la difficulté de la contrainte.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : la <term ref="difdepo:terms.xml#contrainte">contrainte</term> des <title ref="difdepo:titles.xml#precieuses">Précieuses</title> (suppression des voyelles nasales <unclear>ouvrantes</unclear>  ? )</p>
-         <p>3 phrases fondantes (la <term ref="difdepo:terms.xml#censure">censure</term>, la <term ref="difdepo:terms.xml#liponymie">liponymie</term>)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : record du monde de la <term ref="difdepo:terms.xml#contrainteduprisonnier">contrainte du prisonnier</term> détenu par <persName ref="difdepo:persons.xml#jnblanc">J. N. Blanc</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name> : <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#mm">
-               <abbr>MM</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> 4 permanents</p>
-         <p>2 volants : <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : <name ref="difdepo:events.xml#albipourdec82" type="manif">Albi pour déc. 82</name>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : <title ref="difdepo:titles.xml#laviemodedemploi">La Vie mode d’Emploi</title> au Théâtre de Montreuil (<persName ref="difdepo:persons.xml#jguerin">J. Guérin</persName>)</p>
-         <p>Explication : différents parcours dans l’immeuble.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : lecture du courrier</p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> : Voler le <title ref="difdepo:titles.xml#journalderq">Journal de <persName ref="difdepo:persons.xml#rq">
-                  <abbr>RQ</abbr>
-               </persName>
-            </title>. Diverses hypothèses sur les moyens de procéder.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName> : quelques rappels sur la biographie de <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName>
-         </p>
-         <p>Opération <title ref="difdepo:titles.xml#voldicare">Vol d’Icare</title>
-         </p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102517/f10.highres"
-             n="10"/>
-         <p>
-            <persName ref="difdepo:persons.xml#jq">
-               <abbr>JQ</abbr>
-            </persName>. Idée d’une théorisation générale de l’Oulipo. Débat sur l’Oulipo pédago.</p>
-         <p>Eyrine soulève le problème des rapports de l’Oulipo avec les médias.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> explique la difficulté de de mener de front création et publicité.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jq">
-               <abbr>JQ</abbr>
-            </persName> : Oulipo et audiovisuel</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName>. <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102517/f9.highres" n="9"/>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. Devoir de vacances</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> Portrait-robot : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> n°21</p>
+      <p><persName ref="difdepo:persons.xml#enckel">Enckel</persName> : invité d’honneur : <title ref="difdepo:titles.xml#pouruneapprocheverticaledelalitterature">Pour une approche verticale de la littérature</title> : technique de <term ref="difdepo:terms.xml#prelevement">prélèvement</term>.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#ecrituresubstitutive">écriture substitutive</term> : combiner l’utilisation des chiffres des lettres et des <unclear>restes</unclear> pour mettre au point un <term ref="difdepo:terms.xml#systemedecrituresyllabique">système d’écriture syllabique</term></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. Retour sur la tentative de <persName ref="difdepo:persons.xml#jeffel">J. Effel</persName> de création d’une <term ref="difdepo:terms.xml#langueuniverselle">langue universelle</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lecture des exercices de Moqué. Discussion sur la déperdition de sens et ses rapports avec la difficulté de la contrainte.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : la <term ref="difdepo:terms.xml#contrainte">contrainte</term> des <title ref="difdepo:titles.xml#precieuses">Précieuses</title> (suppression des voyelles nasales <unclear>ouvrantes</unclear>  ? )</p>
+      <p>3 phrases fondantes (la <term ref="difdepo:terms.xml#censure">censure</term>, la <term ref="difdepo:terms.xml#liponymie">liponymie</term>)</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : record du monde de la <term ref="difdepo:terms.xml#contrainteduprisonnier">contrainte du prisonnier</term> détenu par <persName ref="difdepo:persons.xml#jnblanc">J. N. Blanc</persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name> : <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> 4 permanents</p>
+      <p>2 volants : <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#albipourdec82" type="manif">Albi pour déc. 82</name></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#laviemodedemploi">La Vie mode d’Emploi</title> au Théâtre de Montreuil (<persName ref="difdepo:persons.xml#jguerin">J. Guérin</persName>)</p>
+      <p>Explication : différents parcours dans l’immeuble.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lecture du courrier</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Voler le <title ref="difdepo:titles.xml#journalderq">Journal de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></title>. Diverses hypothèses sur les moyens de procéder.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : quelques rappels sur la biographie de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></p>
+      <p>Opération <title ref="difdepo:titles.xml#voldicare">Vol d’Icare</title></p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102517/f10.highres" n="10"/>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>. Idée d’une théorisation générale de l’Oulipo. Débat sur l’Oulipo pédago.</p>
+      <p>Eyrine soulève le problème des rapports de l’Oulipo avec les médias.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> explique la difficulté de de mener de front création et publicité.</p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : Oulipo et audiovisuel</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>.</p>
+    </body>
   </text>
 </TEI>

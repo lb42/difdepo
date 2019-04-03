@@ -1,58 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010291-1986-03-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010291-1986-03-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010291 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 3 mars 1986</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010291-1986-03-cv</idno> 
-               <title>Convocation à <ref target="#t10010291-1986-03">une réunion Oulipo</ref>, envoyée le <date when="1986-03-03">3 mars 1986</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-01">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010291 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 3 mars 1986</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010291-1986-03-cv</idno><title>Convocation à <ref target="#t10010291-1986-03">une réunion Oulipo</ref>, envoyée le <date when="1986-03-03">3 mars 1986</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-01">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010291w/f1.highres" n="1"/>
-         <p>Oulipiens,</p>
-         <p>L'ouvroir se réunira le lundi 17 mars à 11 h 30 chez <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> au 12 rue de Lancry 75010 Paris (42.41.20.07).</p>
-         <p>Merci de prévenir <persName ref="difdepo:persons.xml#jacques">
-               <abbr>Jacques</abbr>
-            </persName> pour l'intendance</p>
-         <p>Pensez à apporter les exemplaires corrigés de vos <title ref="difdepo:titles.xml#bibliothequesoulipiennes">Bibliothèques Oulipiennes</title> pour préparer le volume d'automne.</p>
-         <p>Au 17.</p>
-         <p>Amitiés,</p>
-         <p>Paul <lb/>(un secrétaire)</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010291w/f1.highres" n="1"/>
+      <p>Oulipiens,</p>
+      <p>L'ouvroir se réunira le lundi 17 mars à 11 h 30 chez <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> au 12 rue de Lancry 75010 Paris (42.41.20.07).</p>
+      <p>Merci de prévenir <persName ref="difdepo:persons.xml#jacques"><abbr>Jacques</abbr></persName> pour l'intendance</p>
+      <p>Pensez à apporter les exemplaires corrigés de vos <title ref="difdepo:titles.xml#bibliothequesoulipiennes">Bibliothèques Oulipiennes</title> pour préparer le volume d'automne.</p>
+      <p>Au 17.</p>
+      <p>Amitiés,</p>
+      <p>Paul <lb/>(un secrétaire)</p>
+    </body>
   </text>
 </TEI>

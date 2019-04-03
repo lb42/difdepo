@@ -1,146 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010051-1965-01-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010051-1965-01-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010051 pp. 7 à 9 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 8 janvier 1965</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010051-1965-01-cr</idno> 
-               <meeting xml:id="t10010051-1965-01">
-                  <date when="1965-01-08">8 janvier 1965</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanlescure" role="président">Jean Lescure</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanmargat" role="invité">Jean Margat</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:38:08Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010051 pp. 7 à 9 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 8 janvier 1965</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010051-1965-01-cr</idno><meeting xml:id="t10010051-1965-01">
+          <date when="1965-01-08">8 janvier 1965</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure" role="président">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanmargat" role="invité">Jean Margat</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:38:08Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f7.highres" n="7"/>
-         <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
-         <p rend="incipit">CIRCULAIRE No. 57</p>
-         <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 8 JANVIER, 1965</p>
-         <p rend="incipit">PRESENTS : <persName ref="difdepo:persons.xml#profmargat">Prof. Margat</persName> (invité), <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>
-         </p>
-         <p rend="incipit">PRESIDENT : <persName ref="difdepo:persons.xml#jlescure">J. LESCURE</persName>
-         </p>
-         <p>
-            <label type="rubrique">
-               <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> présente le <persName ref="difdepo:persons.xml#profmargat">Prof. Margat</persName> : Géologue (grand), des travaux sur la <term ref="difdepo:terms.xml#phrasesacramentelle">phrase sacramentelle</term>, des dessins dans <title ref="difdepo:titles.xml#bizarre">Bizarre</title>, <title ref="difdepo:titles.xml#lajoconde">la Joconde</title> (Film de <persName ref="difdepo:persons.xml#hgruel">H. Gruel</persName>)</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : En lisant d’une page sur l’autre, c’est-à-dire horizontalement un recueil de poèmes de… trouvé chez <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, j’ai constaté une nette amélioration par rapport à la lecture « normale »</p>
-         <p>(<persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName> lit le poème et ne le donne pas au secrétaire).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est la fatalité séquentielle.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : ça supprime l’aspect <persName ref="difdepo:persons.xml#aragon">Aragon</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : C’est toujours ça de gagné</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> fait part d’un travail sur <persName ref="difdepo:persons.xml#roussel">Roussel</persName>. L’analyse d’un fragment du chapitre 15 des <title ref="difdepo:titles.xml#impressionsdafrique">impressions d’Afrique</title> permet de mettre en évidence :</p>
-         <list type="ordered">
-            <item>le souci de répéter certains (très peu) mots clefs pour la scène.</item>
-            <item>Le désir de mettre en évidence ces <term ref="difdepo:terms.xml#repetitions">répétitions</term> en évitant d’autres <term ref="difdepo:terms.xml#repetitions">répétitions</term> par un jeu de <term ref="difdepo:terms.xml#periphrases">périphrases</term>.</item>
-            <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f8.highres" n="8"/>
-            <item>Le caractère plus qu’évident de ces <term ref="difdepo:terms.xml#periphrases">périphrases</term> a pour effet de « remonter » la <term ref="difdepo:terms.xml#redondance">redondance</term> par ailleurs assez faible, du fait du petit nombre de mots répétés.</item>
-         </list>
-         <p>NB : Il est rappelé que nous devons nous méfier de la linguistique, notre but étant, non pas une analyse de ce genre, mais la découverte (et la création) de <term ref="difdepo:terms.xml#contraintes">contraintes</term> susceptibles de donner des <term ref="difdepo:terms.xml#regles">règles</term> voire des <term ref="difdepo:terms.xml#structuresutilisables">structures utilisables</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> et <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName> nous entretiennent des <term ref="difdepo:terms.xml#grilles">grilles</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Si vous prenez une mauvaise gouache et que vous la découpiez en 40, il y en aura 20 qui seront meilleures que l’original.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Moi je voulais parler plutôt de <term ref="difdepo:terms.xml#cache">cache</term>. Des <term ref="difdepo:terms.xml#caches">caches</term> qui seraient appliqués sur un texte. <persName ref="difdepo:persons.xml#char">Char</persName> et <persName ref="difdepo:persons.xml#rimbaud">Rimbaud</persName> en ont utilisés souvent.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : La <term ref="difdepo:terms.xml#microstructure">microstructure</term> supérieure à la <term ref="difdepo:terms.xml#monostructure">monostructure</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : La <term ref="difdepo:terms.xml#grille">grille</term> doit être arbitraire.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jqueval">J . Queval</persName> parle de cet auteur… qui prétendait que <persName ref="difdepo:persons.xml#rimbaud">Rimbaud</persName> avait plagié le <title ref="difdepo:titles.xml#voyage">voyage</title> de <persName ref="difdepo:persons.xml#cook">Cook</persName>. Le même personnage aurait aussi expliqué <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> de cette manière.</p>
-         <p>Il est question de différents travaux, non remis au secrétariat.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Un travail sur un poème de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f9.highres" n="9"/>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Un travail à <persName ref="difdepo:persons.xml#berge">Berge</persName> à partir des carrés latins. <persName ref="difdepo:persons.xml#berge">Berge</persName> doit nous fournir des éclaircissements à ce sujet.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Parle des <term ref="difdepo:terms.xml#puzzlescombinatoires">puzzles combinatoires</term> : Le personnage peut être modifié (femme = taureau) et cela doit raccorder.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName> se faisant le porte-parole de <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> nous entretient de <persName ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> et <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : <persName ref="difdepo:persons.xml#mao">Mao</persName>, est-ce un asiate ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : La vache.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : <persName ref="difdepo:persons.xml#aramis">Aramis</persName> fait des vers d’une seule syllabe.</p>
-         <p>Il est encore question des cerveaux réunis, du <ref>texte circulaire pour la Halle aux Vins</ref>, conseillé de méditer sur le thème <term ref="difdepo:terms.xml#inspiration">inspiration</term> et <term ref="difdepo:terms.xml#genie">génie</term>.</p>
-         <p>PS : Il est rappelé que les travaux « exposés » doivent être remis au secrétariat avec mode d’emploi.</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : le 1er Février, Basque.</p>
-         <p>Le <persName ref="difdepo:persons.xml#sp">
-               <abbr>S.P</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jd">
-               <abbr>J.D</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f7.highres" n="7"/>
+      <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
+      <p rend="incipit">CIRCULAIRE No. 57</p>
+      <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 8 JANVIER, 1965</p>
+      <p rend="incipit">PRESENTS : <persName ref="difdepo:persons.xml#profmargat">Prof. Margat</persName> (invité), <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName></p>
+      <p rend="incipit">PRESIDENT : <persName ref="difdepo:persons.xml#jlescure">J. LESCURE</persName></p>
+      <p><label type="rubrique"><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> présente le <persName ref="difdepo:persons.xml#profmargat">Prof. Margat</persName> : Géologue (grand), des travaux sur la <term ref="difdepo:terms.xml#phrasesacramentelle">phrase sacramentelle</term>, des dessins dans <title ref="difdepo:titles.xml#bizarre">Bizarre</title>, <title ref="difdepo:titles.xml#lajoconde">la Joconde</title> (Film de <persName ref="difdepo:persons.xml#hgruel">H. Gruel</persName>)</label></p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : En lisant d’une page sur l’autre, c’est-à-dire horizontalement un recueil de poèmes de… trouvé chez <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, j’ai constaté une nette amélioration par rapport à la lecture « normale »</p>
+      <p>(<persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName> lit le poème et ne le donne pas au secrétaire).</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : C’est la fatalité séquentielle.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : ça supprime l’aspect <persName ref="difdepo:persons.xml#aragon">Aragon</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : C’est toujours ça de gagné</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> fait part d’un travail sur <persName ref="difdepo:persons.xml#roussel">Roussel</persName>. L’analyse d’un fragment du chapitre 15 des <title ref="difdepo:titles.xml#impressionsdafrique">impressions d’Afrique</title> permet de mettre en évidence :</p>
+      <list type="ordered">
+        <item>le souci de répéter certains (très peu) mots clefs pour la scène.</item>
+        <item>Le désir de mettre en évidence ces <term ref="difdepo:terms.xml#repetitions">répétitions</term> en évitant d’autres <term ref="difdepo:terms.xml#repetitions">répétitions</term> par un jeu de <term ref="difdepo:terms.xml#periphrases">périphrases</term>.</item>
+        <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f8.highres" n="8"/>
+        <item>Le caractère plus qu’évident de ces <term ref="difdepo:terms.xml#periphrases">périphrases</term> a pour effet de « remonter » la <term ref="difdepo:terms.xml#redondance">redondance</term> par ailleurs assez faible, du fait du petit nombre de mots répétés.</item>
+      </list>
+      <p>NB : Il est rappelé que nous devons nous méfier de la linguistique, notre but étant, non pas une analyse de ce genre, mais la découverte (et la création) de <term ref="difdepo:terms.xml#contraintes">contraintes</term> susceptibles de donner des <term ref="difdepo:terms.xml#regles">règles</term> voire des <term ref="difdepo:terms.xml#structuresutilisables">structures utilisables</term>.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> et <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName> nous entretiennent des <term ref="difdepo:terms.xml#grilles">grilles</term>.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : Si vous prenez une mauvaise gouache et que vous la découpiez en 40, il y en aura 20 qui seront meilleures que l’original.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">ARNAUD</persName> : Moi je voulais parler plutôt de <term ref="difdepo:terms.xml#cache">cache</term>. Des <term ref="difdepo:terms.xml#caches">caches</term> qui seraient appliqués sur un texte. <persName ref="difdepo:persons.xml#char">Char</persName> et <persName ref="difdepo:persons.xml#rimbaud">Rimbaud</persName> en ont utilisés souvent.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : La <term ref="difdepo:terms.xml#microstructure">microstructure</term> supérieure à la <term ref="difdepo:terms.xml#monostructure">monostructure</term>.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : La <term ref="difdepo:terms.xml#grille">grille</term> doit être arbitraire.</p>
+      <p><persName ref="difdepo:persons.xml#jqueval">J . Queval</persName> parle de cet auteur… qui prétendait que <persName ref="difdepo:persons.xml#rimbaud">Rimbaud</persName> avait plagié le <title ref="difdepo:titles.xml#voyage">voyage</title> de <persName ref="difdepo:persons.xml#cook">Cook</persName>. Le même personnage aurait aussi expliqué <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName> de cette manière.</p>
+      <p>Il est question de différents travaux, non remis au secrétariat.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Un travail sur un poème de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f9.highres" n="9"/>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Un travail à <persName ref="difdepo:persons.xml#berge">Berge</persName> à partir des carrés latins. <persName ref="difdepo:persons.xml#berge">Berge</persName> doit nous fournir des éclaircissements à ce sujet.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Parle des <term ref="difdepo:terms.xml#puzzlescombinatoires">puzzles combinatoires</term> : Le personnage peut être modifié (femme = taureau) et cela doit raccorder.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName> se faisant le porte-parole de <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName> nous entretient de <persName ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> et <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : <persName ref="difdepo:persons.xml#mao">Mao</persName>, est-ce un asiate ?</p>
+      <p><persName ref="difdepo:persons.xml#lescure">LESCURE</persName> : La vache.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : <persName ref="difdepo:persons.xml#aramis">Aramis</persName> fait des vers d’une seule syllabe.</p>
+      <p>Il est encore question des cerveaux réunis, du <ref>texte circulaire pour la Halle aux Vins</ref>, conseillé de méditer sur le thème <term ref="difdepo:terms.xml#inspiration">inspiration</term> et <term ref="difdepo:terms.xml#genie">génie</term>.</p>
+      <p>PS : Il est rappelé que les travaux « exposés » doivent être remis au secrétariat avec mode d’emploi.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : le 1er Février, Basque.</p>
+      <p>Le <persName ref="difdepo:persons.xml#sp"><abbr>S.P</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jd"><abbr>J.D</abbr></persName></p>
+    </body>
   </text>
 </TEI>

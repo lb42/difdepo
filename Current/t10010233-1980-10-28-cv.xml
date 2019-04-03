@@ -1,60 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010233-1980-10-28-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010233-1980-10-28-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010233 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 28 octobre 1980</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010233-1980-10-28-cv</idno> 
-               <title>Convocation à <ref target="#t10010233-1980-11-07">une réunion Oulipo</ref>, envoyée le <date when="1980-10-28">28 octobre 1980</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:34:35Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010233 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 28 octobre 1980</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010233-1980-10-28-cv</idno><title>Convocation à <ref target="#t10010233-1980-11-07">une réunion Oulipo</ref>, envoyée le <date when="1980-10-28">28 octobre 1980</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:34:35Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102339/f1.highres" n="1"/>
-         <p rend="incipit">oulipo</p>
-         <p rend="incipit">Paris le 28 octobre 80</p>
-         <p rend="incipit">Chers oulipiens,</p>
-         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 7 novembre 80 à 11h30 chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 48 rue de l’abbé Groult 75015 (531.77.65). Il y sera question du <title ref="difdepo:titles.xml#volume2">volume 2</title> dont le contrat sera nous l’espérons, sur le point d’être signé. L’ordre du jour sera pourtant axé sur la création grâce à notre invitée d’honneur : <persName ref="difdepo:persons.xml#isabellejan">Isabelle JAN</persName> qui viendra nous confier les espoirs qu’elle met dans l’Oulipo pour l’avenir de la <term ref="difdepo:terms.xml#litteratureenfantine">littérature enfantine</term>.</p>
-         <p>Retournez au plus tôt la découpe ci-dessous. D’avance merci.</p>
-         <p>Amitiés oulipiennes,</p>
-         <p>
-            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 
-            <lb/>(un secrétaire)</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102339/f1.highres" n="1"/>
+      <p rend="incipit">oulipo</p>
+      <p rend="incipit">Paris le 28 octobre 80</p>
+      <p rend="incipit">Chers oulipiens,</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 7 novembre 80 à 11h30 chez <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 48 rue de l’abbé Groult 75015 (531.77.65). Il y sera question du <title ref="difdepo:titles.xml#volume2">volume 2</title> dont le contrat sera nous l’espérons, sur le point d’être signé. L’ordre du jour sera pourtant axé sur la création grâce à notre invitée d’honneur : <persName ref="difdepo:persons.xml#isabellejan">Isabelle JAN</persName> qui viendra nous confier les espoirs qu’elle met dans l’Oulipo pour l’avenir de la <term ref="difdepo:terms.xml#litteratureenfantine">littérature enfantine</term>.</p>
+      <p>Retournez au plus tôt la découpe ci-dessous. D’avance merci.</p>
+      <p>Amitiés oulipiennes,</p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName><lb/>(un secrétaire)</p>
+    </body>
   </text>
 </TEI>

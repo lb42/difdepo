@@ -1,96 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010053-1965-03-08-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010053-1965-03-08-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010053 pp. 22 à 22 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 8 mars 1965</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010053-1965-03-08-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010053-1965-03-08">la réunion Oulipo</ref> du <date when="1965-03-08">8 mars 1965</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:38:35Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010053 pp. 22 à 22 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 8 mars 1965</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010053-1965-03-08-oj</idno><title>Ordre de jour de <ref target="#t10010053-1965-03-08">la réunion Oulipo</ref> du <date when="1965-03-08">8 mars 1965</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:38:35Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f22.highres"
-             n="22"/>
-         <p rend="incipit">OuLiPo</p>
-         <p rend="incipit">Réunion du 7 Pédale 93</p>
-         <p rend="incipit">(vulg : Lundi 8 Mars 1965)</p>
-         <p rend="incipit">Projet d’ordre du jour</p>
-         <p>
-            <label type="rubrique">CREATION</label>
-         </p>
-         <list type="ordered">
-            <item>
-               <gap/> // <persName ref="difdepo:persons.xml#braffort">Braffort</persName> ; <gap/> selon pays</item>
-            <item>
-               <gap/> n°4</item>
-            <item/>
-            <item/>
-            <item/>
-         </list>
-         <p>
-            <label type="rubrique">QUESTIONS ADMINISTRATIVES</label>
-         </p>
-         <list type="ordered">
-            <item>
-               <gap/> 
-               <unclear>SIA</unclear> 
-               <gap/> = imitation faite par personne <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#bens">Bens</persName>_le Midi <gap/> ]</item>
-            <item/>
-            <item>Invité d’honneur = <persName ref="difdepo:persons.xml#rfaure">R. Faure</persName>
-            </item>
-            <item>Prochaine date.</item>
-         </list>
-         <p>
-            <label type="rubrique">RELATIONS EXTERIEURES</label>
-         </p>
-         <list type="ordered">
-            <item>Conversation avec le <persName ref="difdepo:persons.xml#professeurpuech">Professeur Puech</persName> sur les <term ref="difdepo:terms.xml#religionspotentielles">religions potentielles</term>
-            </item>
-            <item>Exercises d’un jeune Oulipien (<persName ref="difdepo:persons.xml#davidsullerot">David Sullerot</persName>)</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010053c/f22.highres" n="22"/>
+      <p rend="incipit">OuLiPo</p>
+      <p rend="incipit">Réunion du 7 Pédale 93</p>
+      <p rend="incipit">(vulg : Lundi 8 Mars 1965)</p>
+      <p rend="incipit">Projet d’ordre du jour</p>
+      <p><label type="rubrique">CREATION</label></p>
+      <list type="ordered">
+        <item><gap/> // <persName ref="difdepo:persons.xml#braffort">Braffort</persName> ; <gap/> selon pays</item>
+        <item><gap/> n°4</item>
+        <item/>
+        <item/>
+        <item/>
+      </list>
+      <p><label type="rubrique">QUESTIONS ADMINISTRATIVES</label></p>
+      <list type="ordered">
+        <item><gap/><unclear>SIA</unclear><gap/> = imitation faite par personne <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName></item>
+        <item><persName ref="difdepo:persons.xml#bens">Bens</persName>_le Midi <gap/> ]</item>
+        <item/>
+        <item>Invité d’honneur = <persName ref="difdepo:persons.xml#rfaure">R. Faure</persName></item>
+        <item>Prochaine date.</item>
+      </list>
+      <p><label type="rubrique">RELATIONS EXTERIEURES</label></p>
+      <list type="ordered">
+        <item>Conversation avec le <persName ref="difdepo:persons.xml#professeurpuech">Professeur Puech</persName> sur les <term ref="difdepo:terms.xml#religionspotentielles">religions potentielles</term></item>
+        <item>Exercises d’un jeune Oulipien (<persName ref="difdepo:persons.xml#davidsullerot">David Sullerot</persName>)</item>
+      </list>
+    </body>
   </text>
 </TEI>

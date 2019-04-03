@@ -1,136 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010172-1975-04-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010172-1975-04-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010172 pp. 2 à 2 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 10 avril 1975</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010172-1975-04-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010172-1975-04">la réunion Oulipo</ref> de <date when="1975-04-10">10 avril 1975</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:27:23Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010172 pp. 2 à 2 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 10 avril 1975</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010172-1975-04-oj</idno><title>Ordre de jour de <ref target="#t10010172-1975-04">la réunion Oulipo</ref> de <date when="1975-04-10">10 avril 1975</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:27:23Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101724/f2.highres" n="2"/>
-         <p rend="incipit">Réunion OULIPO 10-4-75 167° séance</p>
-         <p rend="incipit">Ordre du jour</p>
-         <p rend="incipit">Après une interruption de 2 mois, le cours majestueux des séances oulipiennes reprend.</p>
-         <list type="unordered">
-            <item>Présents : <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> 
-               <persName ref="difdepo:persons.xml#rq">
-                  <abbr>RQ</abbr>
-               </persName> 
-               <persName ref="difdepo:persons.xml#na">
-                  <abbr>NA</abbr>
-               </persName> 
-               <persName ref="difdepo:persons.xml#le">
-                  <abbr>LE</abbr>
-               </persName> 
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> 
-               <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName> 
-               <persName ref="difdepo:persons.xml#lescure">Lescure</persName> (au café)</item>
-            <item>Président : <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName>
-            </item>
-            <item>Excusés : <persName ref="difdepo:persons.xml#perec">Perec</persName> (au Canada) <persName ref="difdepo:persons.xml#queval">Queval</persName> (pneumonie) <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> – <persName ref="difdepo:persons.xml#calvino">Calvino</persName> – <persName ref="difdepo:persons.xml#fournel">Fournel</persName> (Lyon) <persName ref="difdepo:persons.xml#mathews">Mathews</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#orenchev">Orenchev</persName> et <persName ref="difdepo:persons.xml#ivanov">Ivanov</persName> 
-               <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> x</item>
-            <item>
-               <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> - <persName ref="difdepo:persons.xml#quenelief">Quenelief</persName> et la commission <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> 
-               <persName ref="difdepo:persons.xml#bens">Bens</persName>_ x</item>
-            <item>
-               <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> Méthode de création de <persName ref="difdepo:persons.xml#louisoury">Louis Oury</persName> 
-               <del>et <persName ref="difdepo:persons.xml#gerarddefunes">Gérard de Funès</persName>
-               </del> x</item>
-            <item>
-               <persName ref="difdepo:persons.xml#le">L. Etienne</persName> Information <title ref="difdepo:titles.xml#jeunearchimede">Jeune Archimède</title> x</item>
-         </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#rq">
-                  <abbr>RQ</abbr>
-               </persName> Diffusion livre <persName ref="difdepo:persons.xml#perec">Perec</persName> 
-               <title ref="difdepo:titles.xml#ulcerations">Ulcérations</title> x</item>
-            <item>Echos du livre n° 1-2 x</item>
-         </list>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <p>
-            <term ref="difdepo:terms.xml#calculdusens">Calcul du sens</term> 
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName> x</p>
-         <p>
-            <persName ref="difdepo:persons.xml#armandlanoux">Armand Lanoux</persName> 
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName> x</p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName> 
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> x</p>
-         <p>Oulipo et Procédé</p>
-         <p>Prochain jour 16 Mai Vendredi</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101724/f2.highres" n="2"/>
+      <p rend="incipit">Réunion OULIPO 10-4-75 167° séance</p>
+      <p rend="incipit">Ordre du jour</p>
+      <p rend="incipit">Après une interruption de 2 mois, le cours majestueux des séances oulipiennes reprend.</p>
+      <list type="unordered">
+        <item>Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName><persName ref="difdepo:persons.xml#lescure">Lescure</persName> (au café)</item>
+        <item>Président : <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></item>
+        <item>Excusés : <persName ref="difdepo:persons.xml#perec">Perec</persName> (au Canada) <persName ref="difdepo:persons.xml#queval">Queval</persName> (pneumonie) <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> – <persName ref="difdepo:persons.xml#calvino">Calvino</persName> – <persName ref="difdepo:persons.xml#fournel">Fournel</persName> (Lyon) <persName ref="difdepo:persons.xml#mathews">Mathews</persName></item>
+      </list>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#orenchev">Orenchev</persName> et <persName ref="difdepo:persons.xml#ivanov">Ivanov</persName><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> x</item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> - <persName ref="difdepo:persons.xml#quenelief">Quenelief</persName> et la commission <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName><persName ref="difdepo:persons.xml#bens">Bens</persName>_ x</item>
+        <item><persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> Méthode de création de <persName ref="difdepo:persons.xml#louisoury">Louis Oury</persName><del>et <persName ref="difdepo:persons.xml#gerarddefunes">Gérard de Funès</persName></del> x</item>
+        <item><persName ref="difdepo:persons.xml#le">L. Etienne</persName> Information <title ref="difdepo:titles.xml#jeunearchimede">Jeune Archimède</title> x</item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> Diffusion livre <persName ref="difdepo:persons.xml#perec">Perec</persName><title ref="difdepo:titles.xml#ulcerations">Ulcérations</title> x</item>
+        <item>Echos du livre n° 1-2 x</item>
+      </list>
+      <p><label type="rubrique">Erudition</label></p>
+      <p><term ref="difdepo:terms.xml#calculdusens">Calcul du sens</term><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> x</p>
+      <p><persName ref="difdepo:persons.xml#armandlanoux">Armand Lanoux</persName><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> x</p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="difdepo:persons.xml#pascallaine">Pascal Lainé</persName><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> x</p>
+      <p>Oulipo et Procédé</p>
+      <p>Prochain jour 16 Mai Vendredi</p>
+    </body>
   </text>
 </TEI>

@@ -1,121 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010132-1971-11-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010132-1971-11-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010132 pp. 3 à 3 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 25 novembre 1971</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010132-1971-11-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010132-1971-11">la réunion Oulipo</ref> de <date when="1971-11-25">25 novembre 1971</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:23:16Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010132 pp. 3 à 3 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 25 novembre 1971</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010132-1971-11-oj</idno><title>Ordre de jour de <ref target="#t10010132-1971-11">la réunion Oulipo</ref> de <date when="1971-11-25">25 novembre 1971</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:23:16Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f3.highres" n="3"/>
-         <p rend="incipit">Ordre du jour 25/11/71</p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#jb">
-                  <abbr>JB</abbr>
-               </persName>
-            </item>
-         </list>
-         <p>entré (<persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>)</p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#fournel">Fournel</persName> 
-               <orgName ref="difdepo:organizations.xml#cape">Cape</orgName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> : idem</item>
-         </list>
-         <p>viabilité des <term ref="difdepo:terms.xml#structuresartificielles">structures artificielles</term> (<persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>) (a/s L/ <persName ref="difdepo:persons.xml#et">Et.</persName>)</p>
-         <p>
-            <term ref="difdepo:terms.xml#esquimau">esquimau</term>
-         </p>
-         <p>
-            <term ref="difdepo:terms.xml#brainstorming">brain-storming</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#prassinos">Prassinos</persName>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#arthurdlittle">Arthur D. Little</persName> et la route 128 (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>)</item>
-            <item>Commande <orgName ref="difdepo:organizations.xml#radiocologne">Radio Cologne</orgName> (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName>)</item>
-            <item>Projet <term ref="difdepo:terms.xml#romanpolicier">roman policier</term> 
-               <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> et <persName ref="difdepo:persons.xml#lebrun">Lebrun</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Menus Propos</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#queval">Queval</persName> 1 (<term ref="difdepo:terms.xml#alphabetparlant">alphabet parlant</term>)</item>
-            <item>
-               <persName ref="difdepo:persons.xml#queval">Queval</persName> 2</item>
-            <item>
-               <persName ref="difdepo:persons.xml#fournel">Fournel</persName> (Dossier de séance)</item>
-            <item>
-               <persName ref="difdepo:persons.xml#fournel">Fournel</persName> (<term ref="difdepo:terms.xml#esperanto">espéranto</term>)</item>
-            <item>Dominion vous fait ménager par ses prix coupés à plein (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName>)</item>
-         </list>
-         <list type="unordered">
-            <item>prochaine séance (photo de groupe) vendredi 17.</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010132g/f3.highres" n="3"/>
+      <p rend="incipit">Ordre du jour 25/11/71</p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></item>
+      </list>
+      <p>entré (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>)</p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName><orgName ref="difdepo:organizations.xml#cape">Cape</orgName></item>
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : idem</item>
+      </list>
+      <p>viabilité des <term ref="difdepo:terms.xml#structuresartificielles">structures artificielles</term> (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>) (a/s L/ <persName ref="difdepo:persons.xml#et">Et.</persName>)</p>
+      <p><term ref="difdepo:terms.xml#esquimau">esquimau</term></p>
+      <p><term ref="difdepo:terms.xml#brainstorming">brain-storming</term></p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName><persName ref="difdepo:persons.xml#prassinos">Prassinos</persName></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#arthurdlittle">Arthur D. Little</persName> et la route 128 (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>)</item>
+        <item>Commande <orgName ref="difdepo:organizations.xml#radiocologne">Radio Cologne</orgName> (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>)</item>
+        <item>Projet <term ref="difdepo:terms.xml#romanpolicier">roman policier</term><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> et <persName ref="difdepo:persons.xml#lebrun">Lebrun</persName></item>
+      </list>
+      <p><label type="rubrique">Menus Propos</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#queval">Queval</persName> 1 (<term ref="difdepo:terms.xml#alphabetparlant">alphabet parlant</term>)</item>
+        <item><persName ref="difdepo:persons.xml#queval">Queval</persName> 2</item>
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> (Dossier de séance)</item>
+        <item><persName ref="difdepo:persons.xml#fournel">Fournel</persName> (<term ref="difdepo:terms.xml#esperanto">espéranto</term>)</item>
+        <item>Dominion vous fait ménager par ses prix coupés à plein (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>)</item>
+      </list>
+      <list type="unordered">
+        <item>prochaine séance (photo de groupe) vendredi 17.</item>
+      </list>
+    </body>
   </text>
 </TEI>

@@ -1,129 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010185-1976-05-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010185-1976-05-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010185 pp. 3 à 3 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 13 mai 1976</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#clementinepradereascione">Clémentine Pradère Ascione</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010185-1976-05-cr</idno> 
-               <meeting xml:id="t10010185-1976-05">
-                  <date when="1976-05-13">13 mai 1976</date>
-                  <placeName>chez GP</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-08">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010185 pp. 3 à 3 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 13 mai 1976</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#clementinepradereascione">Clémentine Pradère Ascione</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010185-1976-05-cr</idno><meeting xml:id="t10010185-1976-05">
+          <date when="1976-05-13">13 mai 1976</date>
+          <placeName>chez GP</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#italocalvino">Italo Calvino</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-08">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010185w/f3.highres" n="3"/>
-         <p rend="incipit">oulipo</p>
-         <p rend="incipit">13 05 76</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, <persName ref="difdepo:persons.xml#hmathews">H. Mathews</persName>, <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName>
-         </p>
-         <p rend="incipit">Président élu : <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>.</p>
-         <p>Remarque générale : demander aux membres de l’Oulipo d’arriver à l’heure (11h)</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hmath">H. Math</persName> : Matrice maîtresse.</p>
-         <p>
-            <term ref="difdepo:terms.xml#rimebrisee">Rime brisée</term> simple et élargie.</p>
-         <p>Exposé de 1 heure environ.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : Action : montage de l’<term ref="difdepo:terms.xml#arbreatheatre">arbre à théâtre </term>: nouvelles difficultés.</p>
-         <p>Le problème est renvoyé à fin Septembre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraf">P. Braf</persName> : - a vu <persName ref="difdepo:persons.xml#bgauthier">B. Gauthier</persName>, il est membre de la <orgName ref="difdepo:organizations.xml#commissionchargeedaiderlesartistesutilisantlinformatique">commission chargée d’aider les artistes utilisant l’informatique</orgName>.</p>
-         <p>- soirée Oulipo : sérieuses possibilités pour mai-juin 77.</p>
-         <p>Discussion sur le budget.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> : demande que le spectacle Oulipien ne devienne pas un obstacle aux autres activités.</p>
-         <p>Discussion sur ce point.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> propose qu’une commission des fêtes soit nommée pour s’occuper du spectacle.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#calvino">Calvino</persName> : pour un Hamlet rotatif.</p>
-         <p>- <persName ref="difdepo:persons.xml#fortinbras">Fortinbras</persName> arrive au 1er acte et ne sait pas quoi faire.</p>
-         <p>- le spectre apparaît pendant une réunion de la cour.</p>
-         <p>Demande l’aide de l’Oulipo pour une <term ref="difdepo:terms.xml#formalisation">formalisation</term> générale de ce problème.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : importance du problème de la <term ref="difdepo:terms.xml#formalisation">formalisation</term>, auquel il travaille.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">Bens</persName> : le système de <term ref="difdepo:terms.xml#rotation">rotation</term> ne marche pas pour n’importe quelle pièce : cf <persName ref="difdepo:persons.xml#labiche">Labiche</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> : point sur la <title ref="difdepo:titles.xml#bibliothequeoulipienne">bibliothèque oulipienne</title>
-         </p>
-         <p>Chèque de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> 345.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pfournel">P Fournel</persName> : expédition Lyon remise au 12.</p>
-         <p>Ed Federo, 11, rue Ferrachat, 69005 Lyon.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> : Oulipo et mass media.</p>
-         <p>Les poèmes de <persName ref="difdepo:persons.xml#perec">Perec</persName> vont paraître dans l’<title ref="difdepo:titles.xml#echodessavanes">Echo des Savanes</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Table de multiplication : garder l’air et changer le son</p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> : le poids d’une lettre : un train peut en cacher un autre.</p>
-         <p>Le <term ref="difdepo:terms.xml#jeudeloie">jeu de l’oie</term> comme matrice des romans d’<persName ref="difdepo:persons.xml#hugo">Hugo</persName>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010185w/f3.highres" n="3"/>
+      <p rend="incipit">oulipo</p>
+      <p rend="incipit">13 05 76</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#perec">Perec</persName>, <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, <persName ref="difdepo:persons.xml#hmathews">H. Mathews</persName>, <persName ref="difdepo:persons.xml#pfournel">P. Fournel</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#calvino">Calvino</persName></p>
+      <p rend="incipit">Président élu : <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>.</p>
+      <p>Remarque générale : demander aux membres de l’Oulipo d’arriver à l’heure (11h)</p>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName ref="difdepo:persons.xml#hmath">H. Math</persName> : Matrice maîtresse.</p>
+      <p><term ref="difdepo:terms.xml#rimebrisee">Rime brisée</term> simple et élargie.</p>
+      <p>Exposé de 1 heure environ.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Action : montage de l’<term ref="difdepo:terms.xml#arbreatheatre">arbre à théâtre </term>: nouvelles difficultés.</p>
+      <p>Le problème est renvoyé à fin Septembre.</p>
+      <p><persName ref="difdepo:persons.xml#pbraf">P. Braf</persName> : - a vu <persName ref="difdepo:persons.xml#bgauthier">B. Gauthier</persName>, il est membre de la <orgName ref="difdepo:organizations.xml#commissionchargeedaiderlesartistesutilisantlinformatique">commission chargée d’aider les artistes utilisant l’informatique</orgName>.</p>
+      <p>- soirée Oulipo : sérieuses possibilités pour mai-juin 77.</p>
+      <p>Discussion sur le budget.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : demande que le spectacle Oulipien ne devienne pas un obstacle aux autres activités.</p>
+      <p>Discussion sur ce point.</p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> propose qu’une commission des fêtes soit nommée pour s’occuper du spectacle.</p>
+      <p><persName ref="difdepo:persons.xml#calvino">Calvino</persName> : pour un Hamlet rotatif.</p>
+      <p>- <persName ref="difdepo:persons.xml#fortinbras">Fortinbras</persName> arrive au 1er acte et ne sait pas quoi faire.</p>
+      <p>- le spectre apparaît pendant une réunion de la cour.</p>
+      <p>Demande l’aide de l’Oulipo pour une <term ref="difdepo:terms.xml#formalisation">formalisation</term> générale de ce problème.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : importance du problème de la <term ref="difdepo:terms.xml#formalisation">formalisation</term>, auquel il travaille.</p>
+      <p><persName ref="difdepo:persons.xml#bens">Bens</persName> : le système de <term ref="difdepo:terms.xml#rotation">rotation</term> ne marche pas pour n’importe quelle pièce : cf <persName ref="difdepo:persons.xml#labiche">Labiche</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#benabou">Bénabou</persName> : point sur la <title ref="difdepo:titles.xml#bibliothequeoulipienne">bibliothèque oulipienne</title></p>
+      <p>Chèque de <persName ref="difdepo:persons.xml#queneau">Queneau</persName> 345.</p>
+      <p><persName ref="difdepo:persons.xml#pfournel">P Fournel</persName> : expédition Lyon remise au 12.</p>
+      <p>Ed Federo, 11, rue Ferrachat, 69005 Lyon.</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : Oulipo et mass media.</p>
+      <p>Les poèmes de <persName ref="difdepo:persons.xml#perec">Perec</persName> vont paraître dans l’<title ref="difdepo:titles.xml#echodessavanes">Echo des Savanes</title>.</p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Table de multiplication : garder l’air et changer le son</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : le poids d’une lettre : un train peut en cacher un autre.</p>
+      <p>Le <term ref="difdepo:terms.xml#jeudeloie">jeu de l’oie</term> comme matrice des romans d’<persName ref="difdepo:persons.xml#hugo">Hugo</persName>.</p>
+    </body>
   </text>
 </TEI>

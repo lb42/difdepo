@@ -1,63 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010167-1974-09-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010167-1974-09-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010167 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 3 septembre 1974</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010167-1974-09-cv</idno> 
-               <title>Convocation à <ref target="#t10010167-1974-09">une réunion Oulipo</ref>, envoyée le <date when="1974-09-03">3 septembre 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:37:42Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010167 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 3 septembre 1974</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010167-1974-09-cv</idno><title>Convocation à <ref target="#t10010167-1974-09">une réunion Oulipo</ref>, envoyée le <date when="1974-09-03">3 septembre 1974</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:37:42Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010167z/f1.highres" n="1"/>
-         <p rend="incipit">Boulogne-sur-Seine, le 3 septembre 1974</p>
-         <p>Chers Brigadiers,</p>
-         <p>Nos réunions d’été ont été très suivies et se sont révélées fécondes, seulement en bonnes intentions.</p>
-         <p>Voici les dates retenues pour nos deux prochaines réunions :</p>
-         <p>Jeudi 19 septembre et Jeudi 24 octobre 1974.</p>
-         <p>À l’ordre du jour – outre les questions en cours, comme celles du transport en charter à Urbino et de la publication de la « <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> » – je désire m’inscrire (si toutefois le Président <persName ref="difdepo:persons.xml#mathews">MATHEWS</persName> me donne la parole) pour : « <title ref="difdepo:titles.xml#differenceentrelouliposemanthematiqueetlesexplicationsdetextesdepoetique">Différence entre l’Oulipo sémanthématique et les explications de textes de « Poétique »</title> ».</p>
-         <p>Des raisons d’intendance, que je ne me lasserai pas de répéter à <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName>, m’incitent à vous demander de répondre au moins une semaine à l’avance à cette épistole.</p>
-         <p>Oulipiennement vôtre à tous deux</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010167z/f1.highres" n="1"/>
+      <p rend="incipit">Boulogne-sur-Seine, le 3 septembre 1974</p>
+      <p>Chers Brigadiers,</p>
+      <p>Nos réunions d’été ont été très suivies et se sont révélées fécondes, seulement en bonnes intentions.</p>
+      <p>Voici les dates retenues pour nos deux prochaines réunions :</p>
+      <p>Jeudi 19 septembre et Jeudi 24 octobre 1974.</p>
+      <p>À l’ordre du jour – outre les questions en cours, comme celles du transport en charter à Urbino et de la publication de la « <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> » – je désire m’inscrire (si toutefois le Président <persName ref="difdepo:persons.xml#mathews">MATHEWS</persName> me donne la parole) pour : « <title ref="difdepo:titles.xml#differenceentrelouliposemanthematiqueetlesexplicationsdetextesdepoetique">Différence entre l’Oulipo sémanthématique et les explications de textes de « Poétique »</title> ».</p>
+      <p>Des raisons d’intendance, que je ne me lasserai pas de répéter à <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName>, m’incitent à vous demander de répondre au moins une semaine à l’avance à cette épistole.</p>
+      <p>Oulipiennement vôtre à tous deux</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName></p>
+    </body>
   </text>
 </TEI>

@@ -1,123 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010313-1988-02-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010313-1988-02-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010313 pp. 2 à 3 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 19 février 1988</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#barbaraservant">Barbara Servant</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010313-1988-02-cr</idno> 
-               <meeting xml:id="t10010313-1988-02">
-                  <date when="1988-02-19">19 février 1988</date>
-                  <placeName>chez FLL</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou" role="président">Marcel Bénabou</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-23" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:37:50Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010313 pp. 2 à 3 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 19 février 1988</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#barbaraservant">Barbara Servant</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010313-1988-02-cr</idno><meeting xml:id="t10010313-1988-02">
+          <date when="1988-02-19">19 février 1988</date>
+          <placeName>chez FLL</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="secrétaire">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou" role="président">Marcel Bénabou</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-23" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:37:50Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010313v/f2.highres" n="2"/>
-         <p>OULIPO du 19/2/88</p>
-         <p>Pts : FC, PF, JJ, MM, MB, HM</p>
-         <p>Excusés : P. Rosenstiehl, N.A., JR, PB., JB. (lettre de remise en congé) (archives)</p>
-         <p>Président et secrétaire : MB</p>
-         <p>- HM : Histoire de l’Oulipo : la Cadillac blanche bordeaux de HM a une plaque OULIPO (archives)</p>
-         <p>- MM : - Port Sports : une <term ref="difdepo:terms.xml#contrainte">contrainte</term> multiple</p>
-         <p>un poème de 250 vers : 5 strophes chaque vers est un pangramme libre avec toute une série de contraintes combinées</p>
-         <p>Michèle Métail boit une double gorgée de vin blanc</p>
-         <p>- PF Liseron : incitation à la débauche créatrice pour une nouvelle collection : création d’une collection pour enfants chez Ramsay, dont le 1<hi rend="sup">er</hi> élément est <title ref="difdepo:titles.xml#lesanimauxdetoutlemonde">Les animaux de tout le monde</title> de <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName>. / 4 vol en 88</p>
-         <p>PF voudrait lui donner une forte ossature oulipienne (archives)</p>
-         <p>Francine Perceval, ex de chez <orgName ref="difdepo:organizations.xml#hachette">Hachette</orgName>, dirige la collection</p>
-         <p>- JJ Projet de livre consacré à Perec : contribution de JJ</p>
-         <p>Les sept règles de Perec : <unclear>?</unclear> texte tout en e sur GP (archives)</p>
-         <p>La lecture de ce texte, où MB détecte un clinamen, provoque l’admiration générale.</p>
-         <p>- JJ érudition : - Amédée Pommier, auteur de Colifichets</p>
-         <p>un recueil où figure Blaise et rose, une petite pièce en vers monosyllabiques (archives)</p>
-         <p>- JJ Action Directe : photo de Francfort après l’attentat contre le Centre français où était présentée l’expo OULIPO (archives)</p>
-         <p>- MB Erudition : article d’A. Souriau Les Poètes imaginaires (Revue d’Esthétique XVI, 3, 1963)</p>
-         <p>- MM Action Genève : <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> et <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> 12-13 Mai</p>
-         <p>PB MB MM M Métail s’occupe des contacts</p>
-         <p>- HM une Bibliothèque oulipienne : contenant quelques écrits oulipiens en français</p>
-         <p>- PF fera composer les futurs Bibliothèque oulipienne chez Ramsay : seul le brochage sera à la charge de l’Oulipo</p>
-         <p>- Menus propos sur les tableaux figurant chez Leiris et Maurice Rheims</p>
-         <p>PF évoque le souvenir de sa première rencontre avec Picasso, à l’âge de 10 ans.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010313v/f3.highres" n="3"/>
-         <p>19/2/88</p>
-         <p>- JJ. Maison des écrivains : lecture le 30 mais de textes les Bibliothèques : JJ est pour l’instant seul engagé.</p>
-         <p>- MB Finances : - annonce l’arrivée d’un chèque de 2000f, consécutif à nos lectures à St Quentin.</p>
-         <p>Ce chèque sera versé à la Trésorerie oulipienne.</p>
-         <p>- pose le problème de la déclaration aux impôts des droits de la Bibliothèque oulipienne Ramsay ; il est décidé d’attendre et de voir venir.</p>
-         <p>- MB</p>
-         <p>Action</p>
-         <p>- Limours : 2 décembre : lecture + discussion</p>
-         <p>JJ, FC (peut-être), HM</p>
-         <p>- Avignon : Jouanic : quelques précisions sur les lectures oulipiennes et les participants éventuels</p>
-         <p>- <unclear>Animest</unclear> 1/ confirmation pour la lecture du 28 avril (HM, MM, NA)</p>
-         <p>2/ Problème posé aux organisateurs pour le refus qui a été opposé à leur projet de spectacle mêlant le Vicomte pourfendu et le Château des Destins croisés. Ils demandent l’autorisation d’utilisation, pour un programme de substitution l’Arbre à Théâtre de Fournel</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> OULIPO 11/3</p>
-         <p>Vendredi 11/3 réunion chez MM pour préparer Marne la Vallée</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010313v/f2.highres" n="2"/>
+      <p>OULIPO du 19/2/88</p>
+      <p>Pts : FC, PF, JJ, MM, MB, HM</p>
+      <p>Excusés : P. Rosenstiehl, N.A., JR, PB., JB. (lettre de remise en congé) (archives)</p>
+      <p>Président et secrétaire : MB</p>
+      <p>- HM : Histoire de l’Oulipo : la Cadillac blanche bordeaux de HM a une plaque OULIPO (archives)</p>
+      <p>- MM : - Port Sports : une <term ref="difdepo:terms.xml#contrainte">contrainte</term> multiple</p>
+      <p>un poème de 250 vers : 5 strophes chaque vers est un pangramme libre avec toute une série de contraintes combinées</p>
+      <p>Michèle Métail boit une double gorgée de vin blanc</p>
+      <p>- PF Liseron : incitation à la débauche créatrice pour une nouvelle collection : création d’une collection pour enfants chez Ramsay, dont le 1<hi rend="sup">er</hi> élément est <title ref="difdepo:titles.xml#lesanimauxdetoutlemonde">Les animaux de tout le monde</title> de <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. / 4 vol en 88</p>
+      <p>PF voudrait lui donner une forte ossature oulipienne (archives)</p>
+      <p>Francine Perceval, ex de chez <orgName ref="difdepo:organizations.xml#hachette">Hachette</orgName>, dirige la collection</p>
+      <p>- JJ Projet de livre consacré à Perec : contribution de JJ</p>
+      <p>Les sept règles de Perec : <unclear>?</unclear> texte tout en e sur GP (archives)</p>
+      <p>La lecture de ce texte, où MB détecte un clinamen, provoque l’admiration générale.</p>
+      <p>- JJ érudition : - Amédée Pommier, auteur de Colifichets</p>
+      <p>un recueil où figure Blaise et rose, une petite pièce en vers monosyllabiques (archives)</p>
+      <p>- JJ Action Directe : photo de Francfort après l’attentat contre le Centre français où était présentée l’expo OULIPO (archives)</p>
+      <p>- MB Erudition : article d’A. Souriau Les Poètes imaginaires (Revue d’Esthétique XVI, 3, 1963)</p>
+      <p>- MM Action Genève : <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> et <name ref="difdepo:events.xml#colloque" type="manif">colloque</name> 12-13 Mai</p>
+      <p>PB MB MM M Métail s’occupe des contacts</p>
+      <p>- HM une Bibliothèque oulipienne : contenant quelques écrits oulipiens en français</p>
+      <p>- PF fera composer les futurs Bibliothèque oulipienne chez Ramsay : seul le brochage sera à la charge de l’Oulipo</p>
+      <p>- Menus propos sur les tableaux figurant chez Leiris et Maurice Rheims</p>
+      <p>PF évoque le souvenir de sa première rencontre avec Picasso, à l’âge de 10 ans.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010313v/f3.highres" n="3"/>
+      <p>19/2/88</p>
+      <p>- JJ. Maison des écrivains : lecture le 30 mais de textes les Bibliothèques : JJ est pour l’instant seul engagé.</p>
+      <p>- MB Finances : - annonce l’arrivée d’un chèque de 2000f, consécutif à nos lectures à St Quentin.</p>
+      <p>Ce chèque sera versé à la Trésorerie oulipienne.</p>
+      <p>- pose le problème de la déclaration aux impôts des droits de la Bibliothèque oulipienne Ramsay ; il est décidé d’attendre et de voir venir.</p>
+      <p>- MB</p>
+      <p>Action</p>
+      <p>- Limours : 2 décembre : lecture + discussion</p>
+      <p>JJ, FC (peut-être), HM</p>
+      <p>- Avignon : Jouanic : quelques précisions sur les lectures oulipiennes et les participants éventuels</p>
+      <p>- <unclear>Animest</unclear> 1/ confirmation pour la lecture du 28 avril (HM, MM, NA)</p>
+      <p>2/ Problème posé aux organisateurs pour le refus qui a été opposé à leur projet de spectacle mêlant le Vicomte pourfendu et le Château des Destins croisés. Ils demandent l’autorisation d’utilisation, pour un programme de substitution l’Arbre à Théâtre de Fournel</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> OULIPO 11/3</p>
+      <p>Vendredi 11/3 réunion chez MM pour préparer Marne la Vallée</p>
+    </body>
   </text>
 </TEI>

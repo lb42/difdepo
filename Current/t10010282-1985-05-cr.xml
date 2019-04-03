@@ -1,150 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010282-1985-05-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010282-1985-05-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010282 pp. 1 à 2 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 16 mai 1985</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010282-1985-05-cr</idno> 
-               <meeting xml:id="t10010282-1985-05">
-                  <date when="1985-05-16">16 mai 1985</date>
-                  <placeName>Moulin dAnde</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:41:59Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010282 pp. 1 à 2 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 16 mai 1985</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#susiecronin">Susie Cronin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010282-1985-05-cr</idno><meeting xml:id="t10010282-1985-05">
+          <date when="1985-05-16">16 mai 1985</date>
+          <placeName>Moulin dAnde</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:41:59Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010282x/f1.highres" n="1"/>
-         <p rend="incipit">OULIPO – 4 jours au Moulin d’Andé 16-19 mai 1985</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> qui préside, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>.</p>
-         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
-         <p>On ne résume pas quatre jours aussi studieux et denses…</p>
-         <p>
-            <ref>Voir les pièces jointes</ref> : 1) <title ref="difdepo:titles.xml#sommaireduguidedelitteratureetabliapresdeuxjoursdedebats">Sommaire du Guide de Littérature, établi après deux jours de débats</title>.</p>
-         <p>2) <title ref="difdepo:titles.xml#rubriquespourleglossaire">Rubriques pour le Glossaire</title>.</p>
-         <p>En bref :</p>
-         <list type="unordered">
-            <item>Les rubriques du <title ref="difdepo:titles.xml#guide">Guide</title> proviennent, en grande partie, de travaux déjà engrangés ou de projets. D’autres idées ont été émises au cours de ce séminaire. Il va de soi que les absents sont invités à compléter les chapitres…</item>
-            <item>Il a été souligné à maintes reprises – et avec insistance – que le Guide devait être plus « écrit » que l’<title ref="difdepo:titles.xml#atlas">Atlas</title> (i.e. moins sec dans la formulation, plus littéraire que pédagogique…), plus proche du <title ref="difdepo:titles.xml#vol1">vol.1</title> (Idées-<orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>) que de l’<title ref="difdepo:titles.xml#atlas">Atlas</title>.</item>
-            <item>Les têtes de chapitre ont été définies précisément : <list type="ordered">
-                  <item>L’histoire revisitée, application des savoirs et pratiques oulipiens à l’Histoire (dont fait partie l’histoire littéraire et celle des sciences).</item>
-                  <item>Les <term ref="difdepo:terms.xml#formeslitterairesrevivifiees">formes littéraires revivifiées</term>, en s’efforçant de se situer du point de vue des <term ref="difdepo:terms.xml#formes">formes</term> et des <term ref="difdepo:terms.xml#genres">genres</term>, et non du point de vue des <term ref="difdepo:terms.xml#operationslinguistiques">opérations linguistiques</term>.</item>
-                  <item>Principes situés sous un titre global : « <title ref="difdepo:titles.xml#pourenfiniraveclehasard">Pour en finir avec le <term ref="difdepo:terms.xml#hasard">hasard</term>
-                     </title>. »</item>
-                  <item>Une conclusion qui tirerait un bilan de 25 ans d’exercice, bilan des recherches, des pratiques littéraires qui en ont diversement découlé.</item>
-               </list> 
-               <lb/>Un <term ref="difdepo:terms.xml#glossaire">Glossaire</term> définissant nettement l’acception oulipienne des termes choisis. Quant au mode de rédaction des articles, diverses suggestions ont été émises : <term ref="difdepo:terms.xml#glossaire">Glossaire</term> lui-même œuvre littéraire (cf. <persName ref="difdepo:persons.xml#leiris">Leiris</persName>) ; <term ref="difdepo:terms.xml#glossaire">glossaire</term> simplement fonctionnel ? <lb/>
-               <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> va déposer, au nom de l’Oulipo un dossier de subvention auprès du <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName> afin de pouvoir embaucher un étudiant qui fera l’<term ref="difdepo:terms.xml#index">Index</term> des publications oulipiennes.</item>
-            <item>Un séminaire comme celui-ci nous réunira à l’automne, afin que nous avancions dans la rédaction.</item>
-         </list>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010282x/f2.highres" n="2"/>
-         <p>On fit aussi la « réunion statuaire ». (mêmes présents)</p>
-         <p>
-            <label type="rubrique">Créations</label>
-         </p>
-         <list type="unordered">
-            <item>: <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> lit <title ref="difdepo:titles.xml#lairaufonddeleauleauaufonddelair">L’air au fond de l’eau, l’eau au fond de l’air</title>, texte lu à <name ref="difdepo:events.xml#larevueparleeror" type="manif">La revue parlée « R.O.R. »</name>. Utilisation de la « <term ref="difdepo:terms.xml#stylistiquecarree">stylistique carrée</term> »: <term ref="difdepo:terms.xml#permutation">permutation</term> et <term ref="difdepo:terms.xml#contamination">contamination</term> de morceaux de textes empruntés et de <term ref="difdepo:terms.xml#perverbes">perverbes</term>.</item>
-            <item>: <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <term ref="difdepo:terms.xml#ontonymie">Ontonymie</term>, <term ref="difdepo:terms.xml#formalisation">formalisation</term> des statuts distincts d’auteur, narrateur, héros. Référence à <persName ref="difdepo:persons.xml#fpessoa">F. Pessoa</persName> et ses « <term ref="difdepo:terms.xml#heteronymes">hétéronymes</term> ».</item>
-            <item>: <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> expose une possibilité de 14 = 15 (<term ref="difdepo:terms.xml#sonnetdelongueurvariable">sonnet de longueur variable</term>) en <term ref="difdepo:terms.xml#palindromedhemistiches">palindrome d’hémistiches</term>. Deux conséquences : mobilité plus grande des éléments ; passages syllabiques obligés obtenus par report des rimes. (Mais on attend un texte !)</item>
-            <item>: <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, Si l’amour est un vocable étrusque, forme de définition d’un mot portant à la fois sur le <term ref="difdepo:terms.xml#signifiant">signifiant</term> et le <term ref="difdepo:terms.xml#signifie">signifié</term>.</item>
-            <item>: <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <title ref="difdepo:titles.xml#dictionnairedesrimessinges">Dictionnaire des <term ref="difdepo:terms.xml#rimessinges">rimes singes</term>
-               </title>, établi d’après le lexique de <persName ref="difdepo:persons.xml#erburroughs">E.R. Burroughs</persName>, in <title ref="difdepo:titles.xml#tarzan">Tarzan</title>. On peut désormais écrire, en singe, des poèmes rimés.</item>
-         </list>
-         <p>
-            <label type="rubrique">Actions</label>
-         </p>
-         <list type="unordered">
-            <item>: <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName> a en projet un essai sur les essais de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, avec <persName ref="difdepo:persons.xml#yvonbelaval">Yvon Belaval</persName> (il faut prononcer Boeuxlaval !). Ce dernier parlera philo ; <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName>, histoire ; C1.B, mathématiques ; <persName ref="difdepo:persons.xml#jr">
-                  <abbr>JR</abbr>
-               </persName>, de <title ref="difdepo:titles.xml#batonschiffresetlettres">Bâtons, Chiffres et Lettres</title>…</item>
-            <item>: <name ref="difdepo:events.xml#vitoria" type="manif">Vitoria</name>, décembre 85, <persName ref="difdepo:persons.xml#jr">
-                  <abbr>JR</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#jj">
-                  <abbr>JJ</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#hm">
-                  <abbr>HM</abbr>
-               </persName> ( ?).</item>
-         </list>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <list type="unordered">
-            <item>: <persName ref="difdepo:persons.xml#fc">François Caradec</persName> apporte une <term ref="difdepo:terms.xml#piecealphabetique">pièce alphabétique</term> de <persName ref="difdepo:persons.xml#hlavagne">H. Lavagne</persName>, en hommage à <persName ref="difdepo:persons.xml#perec">Perec</persName>.</item>
-            <item>: <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> cite quelques récits intéressants dans <title ref="difdepo:titles.xml#univers">Univers</title> 1985 (J’ai lu).</item>
-            <item>: <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> parle de « <title ref="difdepo:titles.xml#telephoneconfidential">Telephone confidential</title>, » de <persName ref="difdepo:persons.xml#maggiepaley">Maggie Paley</persName>, <term ref="difdepo:terms.xml#romanparconversationstelephoniques">roman par conversations téléphoniques</term>.</item>
-            <item>
-               <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-            </item>
-            <item>: Comme l’hommage à <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> n’avance pas d’un pouce, on en déduit que le sommaire prévu à <name ref="difdepo:events.xml#ande" type="manif">Andé</name> en octobre est fautif.</item>
-         </list>
-         <p>1985, c’est le 25<hi rend="sup">e</hi> anniversaire de l’Oulipo. Il faut fêter ça, vers le mois de Novembre.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010282x/f1.highres" n="1"/>
+      <p rend="incipit">OULIPO – 4 jours au Moulin d’Andé 16-19 mai 1985</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> qui préside, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>.</p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName>, <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>.</p>
+      <p>On ne résume pas quatre jours aussi studieux et denses…</p>
+      <p><ref>Voir les pièces jointes</ref> : 1) <title ref="difdepo:titles.xml#sommaireduguidedelitteratureetabliapresdeuxjoursdedebats">Sommaire du Guide de Littérature, établi après deux jours de débats</title>.</p>
+      <p>2) <title ref="difdepo:titles.xml#rubriquespourleglossaire">Rubriques pour le Glossaire</title>.</p>
+      <p>En bref :</p>
+      <list type="unordered">
+        <item>Les rubriques du <title ref="difdepo:titles.xml#guide">Guide</title> proviennent, en grande partie, de travaux déjà engrangés ou de projets. D’autres idées ont été émises au cours de ce séminaire. Il va de soi que les absents sont invités à compléter les chapitres…</item>
+        <item>Il a été souligné à maintes reprises – et avec insistance – que le Guide devait être plus « écrit » que l’<title ref="difdepo:titles.xml#atlas">Atlas</title> (i.e. moins sec dans la formulation, plus littéraire que pédagogique…), plus proche du <title ref="difdepo:titles.xml#vol1">vol.1</title> (Idées-<orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName>) que de l’<title ref="difdepo:titles.xml#atlas">Atlas</title>.</item>
+        <item>Les têtes de chapitre ont été définies précisément : <list type="ordered">
+          <item>L’histoire revisitée, application des savoirs et pratiques oulipiens à l’Histoire (dont fait partie l’histoire littéraire et celle des sciences).</item>
+          <item>Les <term ref="difdepo:terms.xml#formeslitterairesrevivifiees">formes littéraires revivifiées</term>, en s’efforçant de se situer du point de vue des <term ref="difdepo:terms.xml#formes">formes</term> et des <term ref="difdepo:terms.xml#genres">genres</term>, et non du point de vue des <term ref="difdepo:terms.xml#operationslinguistiques">opérations linguistiques</term>.</item>
+          <item>Principes situés sous un titre global : « <title ref="difdepo:titles.xml#pourenfiniraveclehasard">Pour en finir avec le <term ref="difdepo:terms.xml#hasard">hasard</term></title>. »</item>
+          <item>Une conclusion qui tirerait un bilan de 25 ans d’exercice, bilan des recherches, des pratiques littéraires qui en ont diversement découlé.</item>
+          </list><lb/>Un <term ref="difdepo:terms.xml#glossaire">Glossaire</term> définissant nettement l’acception oulipienne des termes choisis. Quant au mode de rédaction des articles, diverses suggestions ont été émises : <term ref="difdepo:terms.xml#glossaire">Glossaire</term> lui-même œuvre littéraire (cf. <persName ref="difdepo:persons.xml#leiris">Leiris</persName>) ; <term ref="difdepo:terms.xml#glossaire">glossaire</term> simplement fonctionnel ? <lb/><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> va déposer, au nom de l’Oulipo un dossier de subvention auprès du <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName> afin de pouvoir embaucher un étudiant qui fera l’<term ref="difdepo:terms.xml#index">Index</term> des publications oulipiennes.</item>
+        <item>Un séminaire comme celui-ci nous réunira à l’automne, afin que nous avancions dans la rédaction.</item>
+      </list>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010282x/f2.highres" n="2"/>
+      <p>On fit aussi la « réunion statuaire ». (mêmes présents)</p>
+      <p><label type="rubrique">Créations</label></p>
+      <list type="unordered">
+        <item>: <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> lit <title ref="difdepo:titles.xml#lairaufonddeleauleauaufonddelair">L’air au fond de l’eau, l’eau au fond de l’air</title>, texte lu à <name ref="difdepo:events.xml#larevueparleeror" type="manif">La revue parlée « R.O.R. »</name>. Utilisation de la « <term ref="difdepo:terms.xml#stylistiquecarree">stylistique carrée</term> »: <term ref="difdepo:terms.xml#permutation">permutation</term> et <term ref="difdepo:terms.xml#contamination">contamination</term> de morceaux de textes empruntés et de <term ref="difdepo:terms.xml#perverbes">perverbes</term>.</item>
+        <item>: <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>, <term ref="difdepo:terms.xml#ontonymie">Ontonymie</term>, <term ref="difdepo:terms.xml#formalisation">formalisation</term> des statuts distincts d’auteur, narrateur, héros. Référence à <persName ref="difdepo:persons.xml#fpessoa">F. Pessoa</persName> et ses « <term ref="difdepo:terms.xml#heteronymes">hétéronymes</term> ».</item>
+        <item>: <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> expose une possibilité de 14 = 15 (<term ref="difdepo:terms.xml#sonnetdelongueurvariable">sonnet de longueur variable</term>) en <term ref="difdepo:terms.xml#palindromedhemistiches">palindrome d’hémistiches</term>. Deux conséquences : mobilité plus grande des éléments ; passages syllabiques obligés obtenus par report des rimes. (Mais on attend un texte !)</item>
+        <item>: <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, Si l’amour est un vocable étrusque, forme de définition d’un mot portant à la fois sur le <term ref="difdepo:terms.xml#signifiant">signifiant</term> et le <term ref="difdepo:terms.xml#signifie">signifié</term>.</item>
+        <item>: <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <title ref="difdepo:titles.xml#dictionnairedesrimessinges">Dictionnaire des <term ref="difdepo:terms.xml#rimessinges">rimes singes</term></title>, établi d’après le lexique de <persName ref="difdepo:persons.xml#erburroughs">E.R. Burroughs</persName>, in <title ref="difdepo:titles.xml#tarzan">Tarzan</title>. On peut désormais écrire, en singe, des poèmes rimés.</item>
+      </list>
+      <p><label type="rubrique">Actions</label></p>
+      <list type="unordered">
+        <item>: <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName> a en projet un essai sur les essais de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>, avec <persName ref="difdepo:persons.xml#yvonbelaval">Yvon Belaval</persName> (il faut prononcer Boeuxlaval !). Ce dernier parlera philo ; <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, histoire ; C1.B, mathématiques ; <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, de <title ref="difdepo:titles.xml#batonschiffresetlettres">Bâtons, Chiffres et Lettres</title>…</item>
+        <item>: <name ref="difdepo:events.xml#vitoria" type="manif">Vitoria</name>, décembre 85, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> ( ?).</item>
+      </list>
+      <p><label type="rubrique">Erudition</label></p>
+      <list type="unordered">
+        <item>: <persName ref="difdepo:persons.xml#fc">François Caradec</persName> apporte une <term ref="difdepo:terms.xml#piecealphabetique">pièce alphabétique</term> de <persName ref="difdepo:persons.xml#hlavagne">H. Lavagne</persName>, en hommage à <persName ref="difdepo:persons.xml#perec">Perec</persName>.</item>
+        <item>: <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> cite quelques récits intéressants dans <title ref="difdepo:titles.xml#univers">Univers</title> 1985 (J’ai lu).</item>
+        <item>: <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> parle de « <title ref="difdepo:titles.xml#telephoneconfidential">Telephone confidential</title>, » de <persName ref="difdepo:persons.xml#maggiepaley">Maggie Paley</persName>, <term ref="difdepo:terms.xml#romanparconversationstelephoniques">roman par conversations téléphoniques</term>.</item>
+        <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></item>
+        <item>: Comme l’hommage à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> n’avance pas d’un pouce, on en déduit que le sommaire prévu à <name ref="difdepo:events.xml#ande" type="manif">Andé</name> en octobre est fautif.</item>
+      </list>
+      <p>1985, c’est le 25<hi rend="sup">e</hi> anniversaire de l’Oulipo. Il faut fêter ça, vers le mois de Novembre.</p>
+    </body>
   </text>
 </TEI>

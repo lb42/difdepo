@@ -1,228 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010199-1977-09-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010199-1977-09-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010199 pp. 20 à 21 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 29 septembre 1977</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010199-1977-09-cr</idno> 
-               <meeting xml:id="t10010199-1977-09">
-                  <date when="1977-09-29">29 septembre 1977</date>
-                  <placeName>chez MB</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:31:23Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010199 pp. 20 à 21 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 29 septembre 1977</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010199-1977-09-cr</idno><meeting xml:id="t10010199-1977-09">
+          <date when="1977-09-29">29 septembre 1977</date>
+          <placeName>chez MB</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:31:23Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101993/f20.highres"
-             n="20"/>
-         <p rend="incipit">Oulipo chez <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> 29 Septembre 1977</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#cb">
-               <abbr>CB</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>
-         </p>
-         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#jl">
-               <abbr>JL</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> (dont la femme est mourante)</p>
-         <p>
-            <label type="rubrique">Créations</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> : Précisions sur l’<term ref="difdepo:terms.xml#algorithme">algorithme</term> de <persName ref="difdepo:persons.xml#mathews">Mathews</persName>
-         </p>
-         <p>EVER EVER</p>
-         <p>OVER ROVE</p>
-         <p>OVEN ENOV</p>
-         <p>EVEN VENE</p>
-         <p>Dans un <term ref="difdepo:terms.xml#carrealgorithmique">carré algorithmique</term> de n rangs, il faut que n<hi rend="sup">2</hi> – (m-2) éléments soient différents (<ref>voir documents joints</ref>)</p>
-         <p>Demande aux mathématiciens de formaliser.</p>
-         <p>Ensuite <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> présente deux livres de lui parus aux USA :</p>
-         <list type="unordered">
-            <item>
-               <title ref="difdepo:titles.xml#selecteddeclarationsofdependence">Selected declarations of dependence</title>
-            </item>
-            <item>
-               <title ref="difdepo:titles.xml#trialimpressions">Trial impressions</title>
-            </item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> : Progrès de la rédaction de la <title ref="difdepo:titles.xml#princessehoppy">Princesse Hoppy</title> (cité dans article de <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> aux <title ref="difdepo:titles.xml#nouvelleslitteraires">Nouvelles Littéraires</title>). 8 chapitres sont terminés le 9<hi rend="sup">ème</hi> utilisera un ordinateur.</p>
-         <p>Annonce un article de « <title ref="difdepo:titles.xml#litterature">Littérature</title> » dans lequel beaucoup de « trucs » de <title ref="difdepo:titles.xml#hoppy">Hoppy</title> sont dévoilés.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : Il faudra construire un texte tel qu’aucun ordinateur actuel ne puisse le résoudre. Plus fort que le cyber de control data.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> ou <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : <title ref="difdepo:titles.xml#hoteldesens">Hotel de Sens</title> : Amélie fout le bordel. En cours de rédaction.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : pose un problème de terminologie : <term ref="difdepo:terms.xml#ouliposemantique">ouliposémantique</term> vieille lutte autour du mot</p>
-         <p>quel mot pourrait-on utiliser à la place ? <term ref="difdepo:terms.xml#oulipothematique">oulipothématique</term> ? en suspens</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : propose un lexique pour <title ref="difdepo:titles.xml#volume2">volume 2</title>
-         </p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> :</p>
-         <list type="unordered">
-            <item>Entrevue avec <persName ref="difdepo:persons.xml#vichniac">Vichniac</persName> au <orgName ref="difdepo:organizations.xml#centrenationaldulivre">Centre National du Livre</orgName>
-            </item>
-            <item>Proposition de <persName ref="difdepo:persons.xml#jouanard">Jouanard</persName> pour Novembre et Décembre (<persName ref="difdepo:persons.xml#berge">Berge</persName>, <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#formel">Formel</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>)</item>
-            <item>Proposition <persName ref="difdepo:persons.xml#gillesdaude">Gilles Daude</persName> (télévision) pour <title ref="difdepo:titles.xml#droledebaroque">drôle de baroque</title>. Reçu un peu froidement &gt; lui proposer l’<term ref="difdepo:terms.xml#arbre">Arbre</term> et pas le reste</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> les épreuves sont en retard. L’agent n’est pas rentré. Rencontre avec <persName ref="difdepo:persons.xml#jpk">
-               <abbr>JPK</abbr>
-            </persName>
-         </p>
-         <p>tel samedi à <persName ref="difdepo:persons.xml#jpk">
-               <abbr>JPK</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : que faire des exemplaires fautifs?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> : distribuer les volumes / détruire / ½ ½ / tirés à part ?</p>
-         <p>Aucune décision : attendre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> : Donner les 150 exemplaires aux bibliothèques</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101993/f21.highres"
-             n="21"/>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> d’une lettre mentionnant l’oulipo de <persName ref="difdepo:persons.xml#amschmidt">AM Schmidt</persName> envoyée à <persName ref="difdepo:persons.xml#cavanna">Cavanna</persName> à <title ref="difdepo:titles.xml#charliehebdo">Charlie Hebdo</title>.</p>
-         <p>Soulève l’éternel problème de <persName ref="difdepo:persons.xml#julientorma">Julien Torma</persName> et note qu’il a vécu aux mêmes endroits que lui-même.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> : donne photocopie de l’article sur l’oulipo dans <title ref="difdepo:titles.xml#horizon">Horizon</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : donne un article sur « <title ref="difdepo:titles.xml#laronde">La Ronde</title>» de <persName ref="difdepo:persons.xml#vadim">Vadim</persName> passé à la télévision</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : bilan de <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101993/f20.highres" n="20"/>
+      <p rend="incipit">Oulipo chez <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> 29 Septembre 1977</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName><persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> (dont la femme est mourante)</p>
+      <p><label type="rubrique">Créations</label></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Précisions sur l’<term ref="difdepo:terms.xml#algorithme">algorithme</term> de <persName ref="difdepo:persons.xml#mathews">Mathews</persName></p>
+      <p>EVER EVER</p>
+      <p>OVER ROVE</p>
+      <p>OVEN ENOV</p>
+      <p>EVEN VENE</p>
+      <p>Dans un <term ref="difdepo:terms.xml#carrealgorithmique">carré algorithmique</term> de n rangs, il faut que n<hi rend="sup">2</hi> – (m-2) éléments soient différents (<ref>voir documents joints</ref>)</p>
+      <p>Demande aux mathématiciens de formaliser.</p>
+      <p>Ensuite <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> présente deux livres de lui parus aux USA :</p>
+      <list type="unordered">
+        <item><title ref="difdepo:titles.xml#selecteddeclarationsofdependence">Selected declarations of dependence</title></item>
+        <item><title ref="difdepo:titles.xml#trialimpressions">Trial impressions</title></item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Progrès de la rédaction de la <title ref="difdepo:titles.xml#princessehoppy">Princesse Hoppy</title> (cité dans article de <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> aux <title ref="difdepo:titles.xml#nouvelleslitteraires">Nouvelles Littéraires</title>). 8 chapitres sont terminés le 9<hi rend="sup">ème</hi> utilisera un ordinateur.</p>
+      <p>Annonce un article de « <title ref="difdepo:titles.xml#litterature">Littérature</title> » dans lequel beaucoup de « trucs » de <title ref="difdepo:titles.xml#hoppy">Hoppy</title> sont dévoilés.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faudra construire un texte tel qu’aucun ordinateur actuel ne puisse le résoudre. Plus fort que le cyber de control data.</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> ou <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#hoteldesens">Hotel de Sens</title> : Amélie fout le bordel. En cours de rédaction.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : pose un problème de terminologie : <term ref="difdepo:terms.xml#ouliposemantique">ouliposémantique</term> vieille lutte autour du mot</p>
+      <p>quel mot pourrait-on utiliser à la place ? <term ref="difdepo:terms.xml#oulipothematique">oulipothématique</term> ? en suspens</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : propose un lexique pour <title ref="difdepo:titles.xml#volume2">volume 2</title></p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> :</p>
+      <list type="unordered">
+        <item>Entrevue avec <persName ref="difdepo:persons.xml#vichniac">Vichniac</persName> au <orgName ref="difdepo:organizations.xml#centrenationaldulivre">Centre National du Livre</orgName></item>
+        <item>Proposition de <persName ref="difdepo:persons.xml#jouanard">Jouanard</persName> pour Novembre et Décembre (<persName ref="difdepo:persons.xml#berge">Berge</persName>, <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>, <persName ref="difdepo:persons.xml#formel">Formel</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>)</item>
+        <item>Proposition <persName ref="difdepo:persons.xml#gillesdaude">Gilles Daude</persName> (télévision) pour <title ref="difdepo:titles.xml#droledebaroque">drôle de baroque</title>. Reçu un peu froidement &gt; lui proposer l’<term ref="difdepo:terms.xml#arbre">Arbre</term> et pas le reste</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> les épreuves sont en retard. L’agent n’est pas rentré. Rencontre avec <persName ref="difdepo:persons.xml#jpk"><abbr>JPK</abbr></persName></p>
+      <p>tel samedi à <persName ref="difdepo:persons.xml#jpk"><abbr>JPK</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : que faire des exemplaires fautifs?</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : distribuer les volumes / détruire / ½ ½ / tirés à part ?</p>
+      <p>Aucune décision : attendre.</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Donner les 150 exemplaires aux bibliothèques</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101993/f21.highres" n="21"/>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : donne <name ref="difdepo:events.xml#lecture" type="manif">lecture</name> d’une lettre mentionnant l’oulipo de <persName ref="difdepo:persons.xml#amschmidt">AM Schmidt</persName> envoyée à <persName ref="difdepo:persons.xml#cavanna">Cavanna</persName> à <title ref="difdepo:titles.xml#charliehebdo">Charlie Hebdo</title>.</p>
+      <p>Soulève l’éternel problème de <persName ref="difdepo:persons.xml#julientorma">Julien Torma</persName> et note qu’il a vécu aux mêmes endroits que lui-même.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : donne photocopie de l’article sur l’oulipo dans <title ref="difdepo:titles.xml#horizon">Horizon</title>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : donne un article sur « <title ref="difdepo:titles.xml#laronde">La Ronde</title>» de <persName ref="difdepo:persons.xml#vadim">Vadim</persName> passé à la télévision</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : bilan de <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
+    </body>
   </text>
 </TEI>

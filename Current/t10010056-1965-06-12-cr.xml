@@ -1,249 +1,148 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010056-1965-06-12-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010056-1965-06-12-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010056 pp. 13 à 16 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 12 juin 1965</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#reneealtergott">Renee Altergott</name>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010056-1965-06-12-cr</idno> 
-               <meeting xml:id="t10010056-1965-06-12">
-                  <date when="1965-06-12">12 juin 1965</date>
-                  <placeName>Chez PB</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#latis">Latis</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#ab">André Blavier</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau" role="secrétaire">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#kazuowaranabe" role="invité">Kazuo Waranabé</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:22:03Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010056 pp. 13 à 16 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 12 juin 1965</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#reneealtergott">Renee Altergott</name>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010056-1965-06-12-cr</idno><meeting xml:id="t10010056-1965-06-12">
+          <date when="1965-06-12">12 juin 1965</date>
+          <placeName>Chez PB</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#latis">Latis</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#ab">André Blavier</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau" role="secrétaire">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#kazuowaranabe" role="invité">Kazuo Waranabé</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:22:03Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f13.highres"
-             n="13"/>
-         <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
-         <p rend="incipit">Circulaire n° 62</p>
-         <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 12 JUIN 1965</p>
-         <p rend="incipit">à Chaumusson chez <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>
-         </p>
-         <p rend="incipit">PRÉSENTS : <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#mmequeval">Mme Queval</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#kazuowatanabe">Kazuo Watanabé</persName>, <persName ref="difdepo:persons.xml#mmebraffort">Mme Braffort</persName>, <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>.</p>
-         <p rend="incipit">EXCUSÉS : <persName ref="difdepo:persons.xml#amschmidt">A.-M. Schmidt</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens.</persName>
-         </p>
-         <p rend="incipit">ATTENDU : <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName>.</p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#madamebraffort">Madame Braffort</persName> apporte un superbe couscous. « Que boirez-vous », demande-t-elle.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Avec le couscous de l’Evian.</p>
-         <p>Rires.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">Latis</persName> doit faire un cours d’histoire de France à <persName ref="difdepo:persons.xml#kwatanabe">K. Watanabé</persName>.</p>
-         <p>La présidence se dispute entre Bens et Latis. Bens fait valoir qu’il est absent.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : La séance est ouverte, la parole à <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> présente <persName ref="difdepo:persons.xml#kazuowatanabe">Kazuo Watanabé</persName>, traducteur de <persName ref="difdepo:persons.xml#rabelais">Rabelais</persName> en japonais et explique comment il (<persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>) eut, il y a 50 ans, l’intuition de l’OuLiPo en découvrant Rabelais.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> (à Watanabé) : Etes-vous parent avec le physicien le professeur <persName ref="difdepo:persons.xml#watanabe">Watanabé</persName> ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Non, mais je le connais.</p>
-         <p>Puis <persName ref="difdepo:persons.xml#watanabe">Watanabé</persName> ayant demandé des éclaircissements sur la nature de l’OuLiPo, <persName ref="difdepo:persons.xml#latis">Latis</persName> les lui fournit brièvement. Sur ce, il se donne la parole.</p>
-         <p>Annexe I. <persName ref="difdepo:persons.xml#latis">Latis.</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Je serais assez partisan d’une réduction du laxisme.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Que pensent les intégristes de votre réforme ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : … <persName ref="difdepo:persons.xml#ferry">Ferry</persName>, par exemple, qui l’est…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : … Catholique-Romain ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : … Tout cela est en cours. Je n’ai pas voulu assister à la totalité du concile afin d’être parmi vous, mais aussi pour que les</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f14.highres"
-             n="14"/>
-         <p>choses se passent un peu en dehors de moi. Je ne peux me prononcer. Nous sommes dans la phase préparatoire. C’est pourquoi je vous demande des suggestions.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : Les comptes-rendus de la <title ref="difdepo:titles.xml#revuecollege">revue Collège</title> (portant sur les livres, revues, expositions) manifestant trop le point de vue de « l’individu », pas assez celui de la <term ref="difdepo:terms.xml#pataphysique">Pataphysique</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : On pourrait supprimer ces comptes-rendus ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Il y a les pays extérieurs qui ont besoin d’être tenus au courant.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Il n’existe plus de revue donc il faut informer.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : <persName ref="difdepo:persons.xml#picon">Picon</persName> a tué le <orgName ref="difdepo:organizations.xml#mercure">Mercure</orgName> qui était une sous <orgName ref="difdepo:organizations.xml#nrf">N.R.F</orgName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : <orgName ref="difdepo:organizations.xml#lanrf">La NRF.</orgName> est toujours debout.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Pas pour longtemps.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : Vous êtes optimiste.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : La <title ref="difdepo:titles.xml#revueducollege">revue du Collège</title> est la dernière revue.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : S’il n’en res…</p>
-         <p>VOIX (impérative) : Non.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : Excusez-moi.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Vous l’êtes depuis le début.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Messieurs, je vous en prie.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> (à Le Lionnais) : Vous avez la parole.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Merci. Merci beaucoup. En ce qui concerne la <title ref="difdepo:titles.xml#revueducollege">revue du Collège</title>, je propose que lors d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> nous soumettions à <persName ref="difdepo:persons.xml#latis">Latis</persName> quelques propositions. Le problème est que nous sommes débordés.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : Il ne faut pas se laisser déborder.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Incluons la <term ref="difdepo:terms.xml#pataphysique">Pataphysique</term> dans notre débordement.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : J’ai oublié la salade.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Le salaud.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : Une petite salade.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> prend la parole</p>
-         <p>– <ref>Annexe 2 (+ Réforme de la ponctuation.)</ref>
-         </p>
-         <p>(+ <ref>L’astérisque</ref> )</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : La condamnation de l’<term ref="difdepo:terms.xml#asterisque">astérisque</term> par <persName ref="difdepo:persons.xml#queval">Queval</persName> me semble un peu sommaire. Son utilisation pour établir des demi-chapitres me paraît tout à fait justifiée, par exemple.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : A propos de l’utilisation de nouveaux signes de ponctuations, je signale que l’hébreu en possède 32 ; c’est-à-dire qu’il s’agit là d’une véritable ponctuation du souffle.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f15.highres"
-             n="15"/>
-         <p>
-            <persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Mais à quoi ça sert tous ces signes ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : A préciser la pensée de l’auteur.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Ah !…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : Quels sont les signes de ponctuations en Japonais ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Les mêmes que les vôtres. Nous avons adopté le système français.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Il serait intéressant d’utiliser le « système » <persName ref="difdepo:persons.xml#queval">Queval</persName> afin d’essayer de modifier le sens d’un poème uniquement en changeant la ponctuation.</p>
-         <p>Le Président donne la parole successivement</p>
-         <p>à <persName ref="difdepo:persons.xml#blavier">BLAVIER</persName> —<ref>Annexe 3</ref>
-         </p>
-         <p>à <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName>—<ref>Annexe 4</ref>
-         </p>
-         <p>à <persName ref="difdepo:persons.xml#queval">QUEVAL</persName>—<ref>Annexe 5</ref>
-         </p>
-         <p>à <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName>—<ref>Annexe 6</ref>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : A propos du duel et de la main, je voudrais rappeler que dans <persName ref="difdepo:persons.xml#fantomas">Fantomas</persName>, lorsque le noir met sa main devant le canon du revolver celui-ci explose.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : Raciste.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : Ce qui m’intéresse dans ce travail, je l’avais déjà signalé, je crois, c’est qu’il me semble voir surgir les prémices d’une nouvelle forme de critique littéraire. Bien sûr, il serait nécessaire de pouvoir se faire aider par des machines, à « la main » toutes ces opérations sont très longues. Je crois que demain, la critique cela consistera à montrer que tel auteur a utilisé (naïvement ou non) tel type de contraintes d’une manière cohérente ou non.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : C’est ce que je voulais dire. Moins une critique au niveau des valeurs qu’à celui des matériaux.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : J’ai parlé de la collaboration des machines, je voudrais ajouter que seuls des hommes peuvent se livrer à l’analyse sémantique, comme le montre l’échec de la <term ref="difdepo:terms.xml#traductionautomatique">traduction automatique</term>. Il faudrait que <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> nous donne des listes de contraintes et que lorsque nous lisons des romans nous établissions des fiches.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : Je voudrais parler du livre de <persName ref="difdepo:persons.xml#dhotel">Dhotel</persName> « Les lumières de la Forêt ». C’est pédal.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : Péquoi ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Avoue.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : N’avouez jamais.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f16.highres"
-             n="16"/>
-         <p>
-            <persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : Gogique. Il y a deux pages illustrées face à face, 1200 mots par chapitre, et le texte se poursuit recto, on saute les deux pages, verso.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : J’allais le dire.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Ça nous intéresse.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Messieurs, la séance est levée, on peut rester assis.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">Latis</persName> ayant dû partir (en taxi spécial) pour le concile, les questions administratives ont été réglées au préalable :</p>
-         <list type="ordered">
-            <item>Remerciement à <persName ref="difdepo:persons.xml#mmegenestoux">Mme Genestoux</persName> pour ses comptes-rendus et la nouvelle formule proposée par elle (compte-rendu réalisé d’une séance sur l’autre) ;</item>
-            <item>cartes postales ;</item>
-            <item>ré-invitation de <persName ref="difdepo:persons.xml#faure">Faure</persName> ;</item>
-            <item>Prochain OuLiPo : Mardi 10 août. Lieu à fixer par <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName> ;</item>
-            <item>Déjeuner <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName>.</item>
-         </list>
-         <p>Le S.P.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jd">
-               <abbr>J.D.</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f13.highres" n="13"/>
+      <p rend="incipit">OUVROIR DE <lb/>LITTERATURE <lb/>POTENTIELLE</p>
+      <p rend="incipit">Circulaire n° 62</p>
+      <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 12 JUIN 1965</p>
+      <p rend="incipit">à Chaumusson chez <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName></p>
+      <p rend="incipit">PRÉSENTS : <persName ref="difdepo:persons.xml#jbens">J. Bens</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#mmequeval">Mme Queval</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#kazuowatanabe">Kazuo Watanabé</persName>, <persName ref="difdepo:persons.xml#mmebraffort">Mme Braffort</persName>, <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>.</p>
+      <p rend="incipit">EXCUSÉS : <persName ref="difdepo:persons.xml#amschmidt">A.-M. Schmidt</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>, <persName ref="difdepo:persons.xml#jbens">J. Bens.</persName></p>
+      <p rend="incipit">ATTENDU : <persName ref="difdepo:persons.xml#jlescure">J. Lescure</persName>.</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#madamebraffort">Madame Braffort</persName> apporte un superbe couscous. « Que boirez-vous », demande-t-elle.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Avec le couscous de l’Evian.</p>
+      <p>Rires.</p>
+      <p><persName ref="difdepo:persons.xml#latis">Latis</persName> doit faire un cours d’histoire de France à <persName ref="difdepo:persons.xml#kwatanabe">K. Watanabé</persName>.</p>
+      <p>La présidence se dispute entre Bens et Latis. Bens fait valoir qu’il est absent.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : La séance est ouverte, la parole à <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> présente <persName ref="difdepo:persons.xml#kazuowatanabe">Kazuo Watanabé</persName>, traducteur de <persName ref="difdepo:persons.xml#rabelais">Rabelais</persName> en japonais et explique comment il (<persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>) eut, il y a 50 ans, l’intuition de l’OuLiPo en découvrant Rabelais.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> (à Watanabé) : Etes-vous parent avec le physicien le professeur <persName ref="difdepo:persons.xml#watanabe">Watanabé</persName> ?</p>
+      <p><persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Non, mais je le connais.</p>
+      <p>Puis <persName ref="difdepo:persons.xml#watanabe">Watanabé</persName> ayant demandé des éclaircissements sur la nature de l’OuLiPo, <persName ref="difdepo:persons.xml#latis">Latis</persName> les lui fournit brièvement. Sur ce, il se donne la parole.</p>
+      <p>Annexe I. <persName ref="difdepo:persons.xml#latis">Latis.</persName></p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Je serais assez partisan d’une réduction du laxisme.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Que pensent les intégristes de votre réforme ?</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : … <persName ref="difdepo:persons.xml#ferry">Ferry</persName>, par exemple, qui l’est…</p>
+      <p><persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : … Catholique-Romain ?</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : … Tout cela est en cours. Je n’ai pas voulu assister à la totalité du concile afin d’être parmi vous, mais aussi pour que les</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f14.highres" n="14"/>
+      <p>choses se passent un peu en dehors de moi. Je ne peux me prononcer. Nous sommes dans la phase préparatoire. C’est pourquoi je vous demande des suggestions.</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : Les comptes-rendus de la <title ref="difdepo:titles.xml#revuecollege">revue Collège</title> (portant sur les livres, revues, expositions) manifestant trop le point de vue de « l’individu », pas assez celui de la <term ref="difdepo:terms.xml#pataphysique">Pataphysique</term>.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : On pourrait supprimer ces comptes-rendus ?</p>
+      <p><persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Il y a les pays extérieurs qui ont besoin d’être tenus au courant.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Il n’existe plus de revue donc il faut informer.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : <persName ref="difdepo:persons.xml#picon">Picon</persName> a tué le <orgName ref="difdepo:organizations.xml#mercure">Mercure</orgName> qui était une sous <orgName ref="difdepo:organizations.xml#nrf">N.R.F</orgName>.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : <orgName ref="difdepo:organizations.xml#lanrf">La NRF.</orgName> est toujours debout.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Pas pour longtemps.</p>
+      <p><persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : Vous êtes optimiste.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : La <title ref="difdepo:titles.xml#revueducollege">revue du Collège</title> est la dernière revue.</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : S’il n’en res…</p>
+      <p>VOIX (impérative) : Non.</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : Excusez-moi.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Vous l’êtes depuis le début.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Messieurs, je vous en prie.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> (à Le Lionnais) : Vous avez la parole.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Merci. Merci beaucoup. En ce qui concerne la <title ref="difdepo:titles.xml#revueducollege">revue du Collège</title>, je propose que lors d’une <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> nous soumettions à <persName ref="difdepo:persons.xml#latis">Latis</persName> quelques propositions. Le problème est que nous sommes débordés.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : Il ne faut pas se laisser déborder.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Incluons la <term ref="difdepo:terms.xml#pataphysique">Pataphysique</term> dans notre débordement.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : J’ai oublié la salade.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Le salaud.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : Une petite salade.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> prend la parole</p>
+      <p>– <ref>Annexe 2 (+ Réforme de la ponctuation.)</ref></p>
+      <p>(+ <ref>L’astérisque</ref> )</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : La condamnation de l’<term ref="difdepo:terms.xml#asterisque">astérisque</term> par <persName ref="difdepo:persons.xml#queval">Queval</persName> me semble un peu sommaire. Son utilisation pour établir des demi-chapitres me paraît tout à fait justifiée, par exemple.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : A propos de l’utilisation de nouveaux signes de ponctuations, je signale que l’hébreu en possède 32 ; c’est-à-dire qu’il s’agit là d’une véritable ponctuation du souffle.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f15.highres" n="15"/>
+      <p><persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Mais à quoi ça sert tous ces signes ?</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : A préciser la pensée de l’auteur.</p>
+      <p><persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Ah !…</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : Quels sont les signes de ponctuations en Japonais ?</p>
+      <p><persName ref="difdepo:persons.xml#watanabe">WATANABÉ</persName> : Les mêmes que les vôtres. Nous avons adopté le système français.</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : Il serait intéressant d’utiliser le « système » <persName ref="difdepo:persons.xml#queval">Queval</persName> afin d’essayer de modifier le sens d’un poème uniquement en changeant la ponctuation.</p>
+      <p>Le Président donne la parole successivement</p>
+      <p>à <persName ref="difdepo:persons.xml#blavier">BLAVIER</persName> —<ref>Annexe 3</ref></p>
+      <p>à <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName>—<ref>Annexe 4</ref></p>
+      <p>à <persName ref="difdepo:persons.xml#queval">QUEVAL</persName>—<ref>Annexe 5</ref></p>
+      <p>à <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName>—<ref>Annexe 6</ref></p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : A propos du duel et de la main, je voudrais rappeler que dans <persName ref="difdepo:persons.xml#fantomas">Fantomas</persName>, lorsque le noir met sa main devant le canon du revolver celui-ci explose.</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : Raciste.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : Ce qui m’intéresse dans ce travail, je l’avais déjà signalé, je crois, c’est qu’il me semble voir surgir les prémices d’une nouvelle forme de critique littéraire. Bien sûr, il serait nécessaire de pouvoir se faire aider par des machines, à « la main » toutes ces opérations sont très longues. Je crois que demain, la critique cela consistera à montrer que tel auteur a utilisé (naïvement ou non) tel type de contraintes d’une manière cohérente ou non.</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. BENS</persName> : C’est ce que je voulais dire. Moins une critique au niveau des valeurs qu’à celui des matériaux.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : J’ai parlé de la collaboration des machines, je voudrais ajouter que seuls des hommes peuvent se livrer à l’analyse sémantique, comme le montre l’échec de la <term ref="difdepo:terms.xml#traductionautomatique">traduction automatique</term>. Il faudrait que <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> nous donne des listes de contraintes et que lorsque nous lisons des romans nous établissions des fiches.</p>
+      <p><persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : Je voudrais parler du livre de <persName ref="difdepo:persons.xml#dhotel">Dhotel</persName> « Les lumières de la Forêt ». C’est pédal.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : Péquoi ?</p>
+      <p><persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Avoue.</p>
+      <p><persName ref="difdepo:persons.xml#pbraffort">P. BRAFFORT</persName> : N’avouez jamais.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010056q/f16.highres" n="16"/>
+      <p><persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : Gogique. Il y a deux pages illustrées face à face, 1200 mots par chapitre, et le texte se poursuit recto, on saute les deux pages, verso.</p>
+      <p><persName ref="difdepo:persons.xml#narnaud">N. ARNAUD</persName> : J’allais le dire.</p>
+      <p><persName ref="difdepo:persons.xml#ablavier">A. BLAVIER</persName> : Ça nous intéresse.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Messieurs, la séance est levée, on peut rester assis.</p>
+      <p><persName ref="difdepo:persons.xml#latis">Latis</persName> ayant dû partir (en taxi spécial) pour le concile, les questions administratives ont été réglées au préalable :</p>
+      <list type="ordered">
+        <item>Remerciement à <persName ref="difdepo:persons.xml#mmegenestoux">Mme Genestoux</persName> pour ses comptes-rendus et la nouvelle formule proposée par elle (compte-rendu réalisé d’une séance sur l’autre) ;</item>
+        <item>cartes postales ;</item>
+        <item>ré-invitation de <persName ref="difdepo:persons.xml#faure">Faure</persName> ;</item>
+        <item>Prochain OuLiPo : Mardi 10 août. Lieu à fixer par <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName> ;</item>
+        <item>Déjeuner <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName>.</item>
+      </list>
+      <p>Le S.P.</p>
+      <p><persName ref="difdepo:persons.xml#jd"><abbr>J.D.</abbr></persName></p>
+    </body>
   </text>
 </TEI>

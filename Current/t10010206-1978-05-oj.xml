@@ -1,91 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010206-1978-05-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010206-1978-05-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010206 pp. 19 à 19 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 11 mai 1978</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#mariaclaracarneiro">Maria Clara Carneiro</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010206-1978-05-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010206-1978-05">la réunion Oulipo</ref> du <date when="1978-05-11">11 mai 1978</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:39:21Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010206 pp. 19 à 19 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 11 mai 1978</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#mariaclaracarneiro">Maria Clara Carneiro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010206-1978-05-oj</idno><title>Ordre de jour de <ref target="#t10010206-1978-05">la réunion Oulipo</ref> du <date when="1978-05-11">11 mai 1978</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:39:21Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010206d/f19.highres"
-             n="19"/>
-         <p>
-            <label type="rubrique">1. Création</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <title ref="difdepo:titles.xml#meshypertropes">Mes Hypertropes</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#lucetienne">Luc Étienne</persName> : <term ref="difdepo:terms.xml#rubandemobius">Ruban de Möbius</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#calvino">Calvino</persName> : <title ref="difdepo:titles.xml#surleshistoiresatiroirs">Sur les histoires à tiroirs</title>.</p>
-         <p>
-            <label type="rubrique">2. Action</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#benabou">Benabou</persName> : Édition italienne</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Avignon Royaummont.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> : Équilibre entre action, création, etc.</p>
-         <p>
-            <label type="rubrique">3. Bibliothèque oulipienne</label>
-         </p>
-         <p>Distribution <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
-         </p>
-         <p>Prix</p>
-         <p>
-            <label type="rubrique">4. Érudition</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#lucetienne">Luc Étienne</persName> – <persName ref="difdepo:persons.xml#perec">Perec</persName> – <unclear>tarié</unclear>
-         </p>
-         <p>
-            <label type="rubrique">5. Menus Propos</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#gperec">G. Perec</persName> – Petits cons.</p>
-         <p>
-            <label type="rubrique">6. Phynances</label>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010206d/f19.highres" n="19"/>
+      <p><label type="rubrique">1. Création</label></p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : <title ref="difdepo:titles.xml#meshypertropes">Mes Hypertropes</title></p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Étienne</persName> : <term ref="difdepo:terms.xml#rubandemobius">Ruban de Möbius</term></p>
+      <p><persName ref="difdepo:persons.xml#calvino">Calvino</persName> : <title ref="difdepo:titles.xml#surleshistoiresatiroirs">Sur les histoires à tiroirs</title>.</p>
+      <p><label type="rubrique">2. Action</label></p>
+      <p><persName ref="difdepo:persons.xml#benabou">Benabou</persName> : Édition italienne</p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : Avignon Royaummont.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> : Équilibre entre action, création, etc.</p>
+      <p><label type="rubrique">3. Bibliothèque oulipienne</label></p>
+      <p>Distribution <persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
+      <p>Prix</p>
+      <p><label type="rubrique">4. Érudition</label></p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Étienne</persName> – <persName ref="difdepo:persons.xml#perec">Perec</persName> – <unclear>tarié</unclear></p>
+      <p><label type="rubrique">5. Menus Propos</label></p>
+      <p><persName ref="difdepo:persons.xml#gperec">G. Perec</persName> – Petits cons.</p>
+      <p><label type="rubrique">6. Phynances</label></p>
+    </body>
   </text>
 </TEI>

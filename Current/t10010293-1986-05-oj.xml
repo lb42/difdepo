@@ -1,100 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010293-1986-05-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010293-1986-05-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010293 pp. 38 à 40 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 10 mai 1986</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010293-1986-05-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010293-1986-05">la réunion Oulipo</ref> du <date when="1986-05-10">10 mai 1986</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-01">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010293 pp. 38 à 40 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 10 mai 1986</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010293-1986-05-oj</idno><title>Ordre de jour de <ref target="#t10010293-1986-05">la réunion Oulipo</ref> du <date when="1986-05-10">10 mai 1986</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-01">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f38.highres"
-             n="38"/>
-         <p rend="incipit">OULIPO 10/5</p>
-         <p rend="incipit">Ordre du jour Réunion</p>
-         <p>Bibliothèque oulipienne</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> - 1. Hommage <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> 
-            <lb/>2. - Bibliothèque <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> 
-            <lb/>3. - manifeste plus réponse <lb/>Stage <unclear>soumis</unclear> 
-            <lb/>Correspondance</p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#fc">
-                  <abbr>FC</abbr>
-               </persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName>.</item>
-         </list>
-         <p>20 juin midi ou soir</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f39.highres"
-             n="39"/>
-         <p rend="incipit">Andé 1986</p>
-         <list type="ordered">
-            <item>Le plan revisité</item>
-            <item>&gt;Complément</item>
-            <item>Le glossaire</item>
-         </list>
-         <p>
-            <label type="rubrique">Réunion ordinaire</label>
-         </p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f40.highres"
-             n="40"/>
-         <p rend="incipit">Andé 10/5/86</p>
-         <p>Demande de subvention pour Octobre 86 <lb/>25.000</p>
-         <list type="unordered">
-            <item>Manifestations pour 2 ans</item>
-            <item>Publications</item>
-            <item>Etats des finances</item>
-         </list>
-         <p>Inventaire</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f38.highres" n="38"/>
+      <p rend="incipit">OULIPO 10/5</p>
+      <p rend="incipit">Ordre du jour Réunion</p>
+      <p>Bibliothèque oulipienne</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> - 1. Hommage <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName><lb/>2. - Bibliothèque <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName><lb/>3. - manifeste plus réponse <lb/>Stage <unclear>soumis</unclear><lb/>Correspondance</p>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>.</item>
+      </list>
+      <p>20 juin midi ou soir</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f39.highres" n="39"/>
+      <p rend="incipit">Andé 1986</p>
+      <list type="ordered">
+        <item>Le plan revisité</item>
+        <item>&gt;Complément</item>
+        <item>Le glossaire</item>
+      </list>
+      <p><label type="rubrique">Réunion ordinaire</label></p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010293s/f40.highres" n="40"/>
+      <p rend="incipit">Andé 10/5/86</p>
+      <p>Demande de subvention pour Octobre 86 <lb/>25.000</p>
+      <list type="unordered">
+        <item>Manifestations pour 2 ans</item>
+        <item>Publications</item>
+        <item>Etats des finances</item>
+      </list>
+      <p>Inventaire</p>
+    </body>
   </text>
 </TEI>

@@ -1,62 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010263-1983-09-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010263-1983-09-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010263 pp. 5 à 5 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 3 septembre 1983</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#mariaclaracarneiro">Maria Clara Carneiro</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010263-1983-09-cv</idno> 
-               <title>Convocation à <ref target="#t10010263-1983-09">une réunion Oulipo</ref>, envoyée le <date when="1983-09-03">3 septembre 1983</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:40:15Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010263 pp. 5 à 5 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 3 septembre 1983</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#susiecronin">Susie Cronin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#mariaclaracarneiro">Maria Clara Carneiro</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010263-1983-09-cv</idno><title>Convocation à <ref target="#t10010263-1983-09">une réunion Oulipo</ref>, envoyée le <date when="1983-09-03">3 septembre 1983</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:40:15Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010263j/f5.highres" n="5"/>
-         <p rend="incipit">Oulipo</p>
-         <p rend="incipit">Le 3 septembre 83</p>
-         <p>Chers oulipiens,</p>
-         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 16 septembre 1983 chez <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> et <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, 48 rue du Capitaine Marchal 75020 Paris (361.40.39). Merci de prévenir.</p>
-         <p>Je vous rappelle d’autre part que le principe d’un <name ref="difdepo:events.xml#congres" type="manif">congrès</name> a été retenu pour le week-end du 1<hi rend="sup">er</hi> octobre. Les modalités pratiques de l’organisation ne sont pas encore arrêtées : maison de campagne de tel ou tel, hôtel, auberge, Moulin d’Andé etc… (le plus économique et le plus sympathique seront le mieux). Quand on continue, il sera d’importance pour le présent et le futur de l’ouvroir.</p>
-         <p>Amitiés à tous,</p>
-         <p>
-            <persName ref="difdepo:persons.xml#paul">
-               <abbr>Paul</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010263j/f5.highres" n="5"/>
+      <p rend="incipit">Oulipo</p>
+      <p rend="incipit">Le 3 septembre 83</p>
+      <p>Chers oulipiens,</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le vendredi 16 septembre 1983 chez <persName ref="difdepo:persons.xml#isabelle">Isabelle</persName> et <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, 48 rue du Capitaine Marchal 75020 Paris (361.40.39). Merci de prévenir.</p>
+      <p>Je vous rappelle d’autre part que le principe d’un <name ref="difdepo:events.xml#congres" type="manif">congrès</name> a été retenu pour le week-end du 1<hi rend="sup">er</hi> octobre. Les modalités pratiques de l’organisation ne sont pas encore arrêtées : maison de campagne de tel ou tel, hôtel, auberge, Moulin d’Andé etc… (le plus économique et le plus sympathique seront le mieux). Quand on continue, il sera d’importance pour le présent et le futur de l’ouvroir.</p>
+      <p>Amitiés à tous,</p>
+      <p><persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName></p>
+    </body>
   </text>
 </TEI>

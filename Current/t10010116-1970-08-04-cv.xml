@@ -1,63 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010116-1970-08-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010116-1970-08-04-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010116 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 4 août 1970</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010116-1970-08-04-cv</idno> 
-               <title>Convocation à <ref target="#t10010116-1970-08-04">une réunion Oulipo</ref>, envoyée le <date when="1970-08-04">4 août 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:36:05Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010116 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 4 août 1970</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010116-1970-08-04-cv</idno><title>Convocation à <ref target="#t10010116-1970-08-04">une réunion Oulipo</ref>, envoyée le <date when="1970-08-04">4 août 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:36:05Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010116f/f1.highres" n="1"/>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#francoislelionnais">François LE LIONNAIS</persName>
-         </p>
-         <p rend="incipit">23, route de la Reine</p>
-         <p rend="incipit">92 – BOULOGNE SUR SEINE</p>
-         <p rend="incipit">Téléphone : 605 90-13</p>
-         <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
-         <p rend="incipit">Le 4 Août 1970</p>
-         <p>Chers Brigadiers,</p>
-         <p>Distillant l’angoisse et semant la terreur, l’AN MILLE approche. Il se déroulera, comme vous le savez, les Jeudi 20 et Vendredi 21 Août 1970 et commencera à 10H30 chez le signataire de cette lettre.</p>
-         <p>Ci-joint, voici l’ordre du jour proposé tel qu’il a été adopté à la réunion du Lundi 3 Août. Toutes les modifications que vous désireriez suggérer seront accueillies avec reconnaissance. Ainsi que toutes communications écrites.</p>
-         <p>OuLiPiennement votre.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010116f/f1.highres" n="1"/>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#francoislelionnais">François LE LIONNAIS</persName></p>
+      <p rend="incipit">23, route de la Reine</p>
+      <p rend="incipit">92 – BOULOGNE SUR SEINE</p>
+      <p rend="incipit">Téléphone : 605 90-13</p>
+      <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
+      <p rend="incipit">Le 4 Août 1970</p>
+      <p>Chers Brigadiers,</p>
+      <p>Distillant l’angoisse et semant la terreur, l’AN MILLE approche. Il se déroulera, comme vous le savez, les Jeudi 20 et Vendredi 21 Août 1970 et commencera à 10H30 chez le signataire de cette lettre.</p>
+      <p>Ci-joint, voici l’ordre du jour proposé tel qu’il a été adopté à la réunion du Lundi 3 Août. Toutes les modifications que vous désireriez suggérer seront accueillies avec reconnaissance. Ainsi que toutes communications écrites.</p>
+      <p>OuLiPiennement votre.</p>
+    </body>
   </text>
 </TEI>

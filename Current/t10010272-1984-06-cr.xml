@@ -1,124 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010272-1984-06-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010272-1984-06-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010272 pp. 1 à 2 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 21 juin 1984</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#susiecronin">Susie Cronin</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010272-1984-06-cr</idno> 
-               <meeting xml:id="t10010272-1984-06">
-                  <date when="1984-06-21">21 juin 1984</date>
-                  <placeName>Chez PB</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesjouet" role="secrétaire">Jacques Jouet</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:40:55Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010272 pp. 1 à 2 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 21 juin 1984</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#susiecronin">Susie Cronin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010272-1984-06-cr</idno><meeting xml:id="t10010272-1984-06">
+          <date when="1984-06-21">21 juin 1984</date>
+          <placeName>Chez PB</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet" role="secrétaire">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:40:55Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010272h/f1.highres" n="1"/>
-         <p rend="incipit">Oulipo, réunion du jeudi 21 juin 1984, de 11h30 à 15h</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> qui reçoit, avec <persName ref="difdepo:persons.xml#emiliescheffer">Emilie Scheffer</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> (Président de séance), <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (secrétaire), <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, Luc Etienne, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>.</p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, annoncé, ne viendra pas.</p>
-         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> et <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>, d’une certaine façon.</p>
-         <p>
-            <label type="rubrique">Créations</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> propose : « <term ref="difdepo:terms.xml#homophonie">Homophonie</term> à double tranchant ». (<ref>ci-joint</ref>)</item>
-            <item>
-               <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> poursuit son investigation du <term ref="difdepo:terms.xml#langage">langage</term> cuit et recuit en se penchant sur des <term ref="difdepo:terms.xml#locutions">locutions</term> ou <term ref="difdepo:terms.xml#expressions">expressions</term>, sans forme verbale. Ex : un éléphant dans un magasin de porcelaine. <lb/>
-               <term ref="difdepo:terms.xml#combinaisonsgreffes">Combinaisons-greffes</term> à l’aide de titres de livres. <lb/>
-               <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> suggère que ce travail soit effectué en recourant à une <term ref="difdepo:terms.xml#contrainte">contrainte</term> supplémentaire, comme par ex. la <term ref="difdepo:terms.xml#rime">rime</term>, afin de corser un peu la difficulté.</item>
-            <item>
-               <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> lance un débat aussi passionnant que difficile à résumer sur l’utilisation des <term ref="difdepo:terms.xml#contraintes">contraintes</term> oulipiennes hors du giron de l’Oulipo (1).</item>
-            <item>
-               <persName ref="difdepo:persons.xml#agnesrosenstiehl">Agnès Rosenstiehl</persName> a écrit « <title ref="difdepo:titles.xml#zerofaute">zéro faute</title> » que nous lit <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> : une dictée dans laquelle il serait impossible de faire une faute (choix de mots s’écrivant « comme ça se prononce »).</item>
-         </list>
-         <p>
-            <label type="rubrique">Actions</label>
-         </p>
-         <list type="unordered">
-            <item>Le <name ref="difdepo:events.xml#colloquequeneau" type="manif">colloque Queneau</name> à Limoges a fait un tabac (120-150 personnes). <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#fournel">Fournel</persName> et <persName ref="difdepo:persons.xml#blavier">Blavier</persName> y étaient et intervinrent. Bientôt les <title ref="difdepo:titles.xml#actes">Actes</title>. Pour 1985, <name ref="difdepo:events.xml#colloqueoulipo" type="manif">Colloque Oulipo</name> si on veut. On veut ! <persName ref="difdepo:persons.xml#bens">Bens</persName> : « Ce que tu ne peux éviter, gère-le. « <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> doit négocier tout ça, quand le président <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> aura officiellement dit oui.</item>
-            <item>
-               <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>. Derniers détails à régler, mais 23000,00 f sont considérés comme insuffisants.</item>
-            <item>Décision d’une lettre collective à <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> lui assurant qu’il nous manque</item>
-            <item>…comme nous manque <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> dont l’activité au <name ref="difdepo:events.xml#stageoulipoderajat" type="manif">stage OuLiPo de Rajat</name> (ça n’est pas dans le Beaujolais ! tonne <persName ref="difdepo:persons.xml#harry">
-                  <abbr>Harry</abbr>
-               </persName>) nous laisse bien augurer de sa réapparition prochaine.</item>
-            <item>Hommage à <persName ref="difdepo:persons.xml#francoislelionnais">François le Lionnais</persName>. Décision de traiter l’affaire rondement lors d’un <name ref="difdepo:events.xml#seminaireaumoulindande" type="manif">séminaire au Moulin d’Andé</name>, les 5 au soir, 6 et 7 octobre prochains.</item>
-            <item>Appartement <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>. <persName ref="difdepo:persons.xml#fournel">Fournel</persName> a rencontré la ville de Boulogne (c’est une façon de parler) qui semble confirmer son souhait de se porter acquéreur, l’OuLiPo assurant maintenance et entretien grâce à la générosité de l’<orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> béni des dieux.</item>
-            <item>
-               <persName ref="difdepo:persons.xml#braffort">Braffort</persName> relance l’<orgName ref="difdepo:organizations.xml#ipu">I.P.U.</orgName> (<orgName ref="difdepo:organizations.xml#institutdelapotentialiteuniverselle">Institut de la potentialité universelle</orgName>).</item>
-            <item>L’<orgName ref="difdepo:organizations.xml#oulipopo">Oulipopo</orgName> va bien. Il propose que les grands détectives soient désormais handicapés (aveugles, sourds-muets…)</item>
-            <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010272h/f2.highres" n="2"/>
-            <item>« <title ref="difdepo:titles.xml#lanouvellebarredujour">La nouvelle barre du jour</title> » (revue québécoise) propose de publier des textes oulipiens écrits par des oulipiens. Au programme d’Andé/octobre : opérer un choix dans les travaux récents.</item>
-            <item>Sortie prochaine de <title ref="difdepo:titles.xml#lartdupalindromephonetique">l’Art du palindrome phonétique</title> de <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>. Dans tous les bons kiosques.</item>
-            <item>Prochaines réunions. Juillet Villeneuve. 21 août, heure et lieu à déterminer.</item>
-         </list>
-         <p>(1) <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> dit, en substance : L’OuLiPo a davantage convaincu le monde littéraire d’une <term ref="difdepo:terms.xml#methodologiedelacontrainte">méthodologie de la <term ref="difdepo:terms.xml#contrainte">contrainte</term>
-            </term>, qu’il n’a réellement exporté telle ou telle <term ref="difdepo:terms.xml#contrainte">contrainte</term>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010272h/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo, réunion du jeudi 21 juin 1984, de 11h30 à 15h</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName> qui reçoit, avec <persName ref="difdepo:persons.xml#emiliescheffer">Emilie Scheffer</persName>, <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> (Président de séance), <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> (secrétaire), <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>, Luc Etienne, <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>.</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#fc">François Caradec</persName>, annoncé, ne viendra pas.</p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#michelemetail">Michèle Métail</persName> et <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> et <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>, et <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>, d’une certaine façon.</p>
+      <p><label type="rubrique">Créations</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName> propose : « <term ref="difdepo:terms.xml#homophonie">Homophonie</term> à double tranchant ». (<ref>ci-joint</ref>)</item>
+        <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> poursuit son investigation du <term ref="difdepo:terms.xml#langage">langage</term> cuit et recuit en se penchant sur des <term ref="difdepo:terms.xml#locutions">locutions</term> ou <term ref="difdepo:terms.xml#expressions">expressions</term>, sans forme verbale. Ex : un éléphant dans un magasin de porcelaine. <lb/><term ref="difdepo:terms.xml#combinaisonsgreffes">Combinaisons-greffes</term> à l’aide de titres de livres. <lb/><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> suggère que ce travail soit effectué en recourant à une <term ref="difdepo:terms.xml#contrainte">contrainte</term> supplémentaire, comme par ex. la <term ref="difdepo:terms.xml#rime">rime</term>, afin de corser un peu la difficulté.</item>
+        <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName> lance un débat aussi passionnant que difficile à résumer sur l’utilisation des <term ref="difdepo:terms.xml#contraintes">contraintes</term> oulipiennes hors du giron de l’Oulipo (1).</item>
+        <item><persName ref="difdepo:persons.xml#agnesrosenstiehl">Agnès Rosenstiehl</persName> a écrit « <title ref="difdepo:titles.xml#zerofaute">zéro faute</title> » que nous lit <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName> : une dictée dans laquelle il serait impossible de faire une faute (choix de mots s’écrivant « comme ça se prononce »).</item>
+      </list>
+      <p><label type="rubrique">Actions</label></p>
+      <list type="unordered">
+        <item>Le <name ref="difdepo:events.xml#colloquequeneau" type="manif">colloque Queneau</name> à Limoges a fait un tabac (120-150 personnes). <persName ref="difdepo:persons.xml#bens">Bens</persName>, <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName>, <persName ref="difdepo:persons.xml#fournel">Fournel</persName> et <persName ref="difdepo:persons.xml#blavier">Blavier</persName> y étaient et intervinrent. Bientôt les <title ref="difdepo:titles.xml#actes">Actes</title>. Pour 1985, <name ref="difdepo:events.xml#colloqueoulipo" type="manif">Colloque Oulipo</name> si on veut. On veut ! <persName ref="difdepo:persons.xml#bens">Bens</persName> : « Ce que tu ne peux éviter, gère-le. « <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> doit négocier tout ça, quand le président <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> aura officiellement dit oui.</item>
+        <item><name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>. Derniers détails à régler, mais 23000,00 f sont considérés comme insuffisants.</item>
+        <item>Décision d’une lettre collective à <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName> lui assurant qu’il nous manque</item>
+        <item>…comme nous manque <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName> dont l’activité au <name ref="difdepo:events.xml#stageoulipoderajat" type="manif">stage OuLiPo de Rajat</name> (ça n’est pas dans le Beaujolais ! tonne <persName ref="difdepo:persons.xml#harry"><abbr>Harry</abbr></persName>) nous laisse bien augurer de sa réapparition prochaine.</item>
+        <item>Hommage à <persName ref="difdepo:persons.xml#francoislelionnais">François le Lionnais</persName>. Décision de traiter l’affaire rondement lors d’un <name ref="difdepo:events.xml#seminaireaumoulindande" type="manif">séminaire au Moulin d’Andé</name>, les 5 au soir, 6 et 7 octobre prochains.</item>
+        <item>Appartement <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName>. <persName ref="difdepo:persons.xml#fournel">Fournel</persName> a rencontré la ville de Boulogne (c’est une façon de parler) qui semble confirmer son souhait de se porter acquéreur, l’OuLiPo assurant maintenance et entretien grâce à la générosité de l’<orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> béni des dieux.</item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName> relance l’<orgName ref="difdepo:organizations.xml#ipu">I.P.U.</orgName> (<orgName ref="difdepo:organizations.xml#institutdelapotentialiteuniverselle">Institut de la potentialité universelle</orgName>).</item>
+        <item>L’<orgName ref="difdepo:organizations.xml#oulipopo">Oulipopo</orgName> va bien. Il propose que les grands détectives soient désormais handicapés (aveugles, sourds-muets…)</item>
+        <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010272h/f2.highres" n="2"/>
+        <item>« <title ref="difdepo:titles.xml#lanouvellebarredujour">La nouvelle barre du jour</title> » (revue québécoise) propose de publier des textes oulipiens écrits par des oulipiens. Au programme d’Andé/octobre : opérer un choix dans les travaux récents.</item>
+        <item>Sortie prochaine de <title ref="difdepo:titles.xml#lartdupalindromephonetique">l’Art du palindrome phonétique</title> de <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>. Dans tous les bons kiosques.</item>
+        <item>Prochaines réunions. Juillet Villeneuve. 21 août, heure et lieu à déterminer.</item>
+      </list>
+      <p>(1) <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName> dit, en substance : L’OuLiPo a davantage convaincu le monde littéraire d’une <term ref="difdepo:terms.xml#methodologiedelacontrainte">méthodologie de la <term ref="difdepo:terms.xml#contrainte">contrainte</term></term>, qu’il n’a réellement exporté telle ou telle <term ref="difdepo:terms.xml#contrainte">contrainte</term>.</p>
+    </body>
   </text>
 </TEI>

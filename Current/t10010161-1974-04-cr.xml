@@ -1,190 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010161-1974-04-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010161-1974-04-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010161 pp. 3 à 4 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 5 avril 1974</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010161-1974-04-cr</idno> 
-               <meeting xml:id="t10010161-1974-04">
-                  <date when="1974-04-05">5 avril 1974</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:26:12Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010161 pp. 3 à 4 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 5 avril 1974</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010161-1974-04-cr</idno><meeting xml:id="t10010161-1974-04">
+          <date when="1974-04-05">5 avril 1974</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#harrymathews">Harry Mathews</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:26:12Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f3.highres" n="3"/>
-         <p rend="incipit">le 5/4/74</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>. <persName ref="difdepo:persons.xml#gperec">G Perec</persName> – <persName ref="difdepo:persons.xml#jroub">J. Roub</persName> – <persName ref="difdepo:persons.xml#lucet">Luc. Et</persName>. <persName ref="difdepo:persons.xml#hm">Harry M</persName>. <persName ref="difdepo:persons.xml#jbens">J Bens</persName> – <persName ref="difdepo:persons.xml#fournel">Fournel</persName> – <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>
-         </p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#metail">Métail</persName>
-         </p>
-         <list type="unordered">
-            <item>Anecdotes diverses para-scientifiques notamment celle de <persName ref="difdepo:persons.xml#rq">
-                  <abbr>RQ</abbr>
-               </persName> sur <persName ref="difdepo:persons.xml#celine">Céline</persName> et sa première communication</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> – Présentation des travaux de <persName ref="difdepo:persons.xml#laucou">Laucou</persName> :</p>
-         <list type="unordered">
-            <item>
-               <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : invitation à Almansie <note n="1" resp="editor">Lecture incertaine</note> pour le lundi 13 Mai</item>
-         </list>
-         <list type="unordered">
-            <item>Journée d’études OuLiPo : fixée au 10. 11 Juin</item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#rq">
-                  <abbr>RQ</abbr>
-               </persName> + une création d’un M. <persName ref="difdepo:persons.xml#badillou">Badillou</persName> : <term ref="difdepo:terms.xml#acrostiche">acrostiche</term> à échos (<ref>aux archives</ref>)</item>
-         </list>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> : <persName ref="difdepo:persons.xml#dinguirard">Dinguirard</persName> : article dans la <title ref="difdepo:titles.xml#revuedesetudesromanes">Revue des Etudes Romanes</title> = la <term ref="difdepo:terms.xml#dialectometrie">dialectométrie</term>
-            </item>
-         </list>
-         <p>la distance lexicale et distance spatiale</p>
-         <p>
-            <persName ref="difdepo:persons.xml#gp">
-               <abbr>G. P</abbr>
-            </persName>. Réclamation</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jr">
-               <abbr>J. R</abbr>
-            </persName> : Centenaire de <persName ref="difdepo:persons.xml#gertrudestein">Gertrude Stein</persName> = un hommage à faire.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R. Q</abbr>
-            </persName> : <term ref="difdepo:terms.xml#plagiatexterieur">Plagiat extérieur</term> : <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName> a lu un roman de science-fiction selon le <term ref="difdepo:terms.xml#systemeavotrefacon">système à votre façon</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R. Q</abbr>
-            </persName> : séquelles.</p>
-         <p>Interview de l’Éducation : <persName ref="difdepo:persons.xml#rq">
-               <abbr>RQ</abbr>
-            </persName> et <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : <persName ref="difdepo:persons.xml#samlloyd">Sam Lloyd</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#ianwatson">Ian Watson</persName> 
-            <title ref="difdepo:titles.xml#lenchassement">L’enchâssement</title> (<title ref="difdepo:titles.xml#theembedding">The embedding</title>)</p>
-         <p>de <orgName ref="difdepo:organizations.xml#calmannlevy">Calmann-Levy</orgName> : un roman de science-fiction</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> : Tout <term ref="difdepo:terms.xml#palindrome">palindrome</term> est gauche ou trivial (communication entendue au <name ref="difdepo:events.xml#congresdesanfrancisco1974" type="manif">Congrès de San Francisco 1974</name>)</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f4.highres" n="4"/>
-         <p>Juillet : exclus : <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> ‑ <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> ‑ <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
-         <p>Douteux : <persName ref="difdepo:persons.xml#perec">Perec</persName> ‑ <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
-         <p>Août : exclus : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> (Première semaine)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> (Tout le mois)</p>
-         <p>Douteux : <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">L. Etienne</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
-         </p>
-         <p>JUIN exclus 15-30 : <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> ‑ <persName ref="difdepo:persons.xml#harry">
-               <abbr>Harry</abbr>
-            </persName>. <persName ref="difdepo:persons.xml#braffort">Braffort</persName>. <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
-         <p>1-15 Juin = <term ref="difdepo:terms.xml#contrainte">Contrainte</term> ‑ <term ref="difdepo:terms.xml#formefixe">Forme fixe</term>.</p>
-         <p>Oulipisme et monde contemporain</p>
-         <p>Lundi 10-11 Juin conseiller <persName ref="difdepo:persons.xml#calvino">Calvino</persName> ‑ <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> ‑ <persName ref="difdepo:persons.xml#lescure">Lescure</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName> : <persName ref="difdepo:persons.xml#gertrudestein">Gertrude Stein</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> : 331 7845</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f3.highres" n="3"/>
+      <p rend="incipit">le 5/4/74</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. <persName ref="difdepo:persons.xml#gperec">G Perec</persName> – <persName ref="difdepo:persons.xml#jroub">J. Roub</persName> – <persName ref="difdepo:persons.xml#lucet">Luc. Et</persName>. <persName ref="difdepo:persons.xml#hm">Harry M</persName>. <persName ref="difdepo:persons.xml#jbens">J Bens</persName> – <persName ref="difdepo:persons.xml#fournel">Fournel</persName> – <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#metail">Métail</persName></p>
+      <list type="unordered">
+        <item>Anecdotes diverses para-scientifiques notamment celle de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> sur <persName ref="difdepo:persons.xml#celine">Céline</persName> et sa première communication</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> – Présentation des travaux de <persName ref="difdepo:persons.xml#laucou">Laucou</persName> :</p>
+      <list type="unordered">
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : invitation à Almansie <note n="1" resp="editor">Lecture incertaine</note> pour le lundi 13 Mai</item>
+      </list>
+      <list type="unordered">
+        <item>Journée d’études OuLiPo : fixée au 10. 11 Juin</item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> + une création d’un M. <persName ref="difdepo:persons.xml#badillou">Badillou</persName> : <term ref="difdepo:terms.xml#acrostiche">acrostiche</term> à échos (<ref>aux archives</ref>)</item>
+      </list>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#dinguirard">Dinguirard</persName> : article dans la <title ref="difdepo:titles.xml#revuedesetudesromanes">Revue des Etudes Romanes</title> = la <term ref="difdepo:terms.xml#dialectometrie">dialectométrie</term></item>
+      </list>
+      <p>la distance lexicale et distance spatiale</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>G. P</abbr></persName>. Réclamation</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>J. R</abbr></persName> : Centenaire de <persName ref="difdepo:persons.xml#gertrudestein">Gertrude Stein</persName> = un hommage à faire.</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R. Q</abbr></persName> : <term ref="difdepo:terms.xml#plagiatexterieur">Plagiat extérieur</term> : <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> a lu un roman de science-fiction selon le <term ref="difdepo:terms.xml#systemeavotrefacon">système à votre façon</term></p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R. Q</abbr></persName> : séquelles.</p>
+      <p>Interview de l’Éducation : <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> et <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#samlloyd">Sam Lloyd</persName></p>
+      <p><persName ref="difdepo:persons.xml#ianwatson">Ian Watson</persName><title ref="difdepo:titles.xml#lenchassement">L’enchâssement</title> (<title ref="difdepo:titles.xml#theembedding">The embedding</title>)</p>
+      <p>de <orgName ref="difdepo:organizations.xml#calmannlevy">Calmann-Levy</orgName> : un roman de science-fiction</p>
+      <p><persName ref="difdepo:persons.xml#jbens">J. Bens</persName> : Tout <term ref="difdepo:terms.xml#palindrome">palindrome</term> est gauche ou trivial (communication entendue au <name ref="difdepo:events.xml#congresdesanfrancisco1974" type="manif">Congrès de San Francisco 1974</name>)</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101618/f4.highres" n="4"/>
+      <p>Juillet : exclus : <persName ref="difdepo:persons.xml#benabou">Bénabou</persName> ‑ <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> ‑ <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
+      <p>Douteux : <persName ref="difdepo:persons.xml#perec">Perec</persName> ‑ <persName ref="difdepo:persons.xml#queneau">Queneau</persName>.</p>
+      <p>Août : exclus : <persName ref="difdepo:persons.xml#braffort">Braffort</persName> (Première semaine)</p>
+      <p><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> (Tout le mois)</p>
+      <p>Douteux : <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#le">L. Etienne</persName></p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
+      <p>JUIN exclus 15-30 : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> ‑ <persName ref="difdepo:persons.xml#harry"><abbr>Harry</abbr></persName>. <persName ref="difdepo:persons.xml#braffort">Braffort</persName>. <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
+      <p>1-15 Juin = <term ref="difdepo:terms.xml#contrainte">Contrainte</term> ‑ <term ref="difdepo:terms.xml#formefixe">Forme fixe</term>.</p>
+      <p>Oulipisme et monde contemporain</p>
+      <p>Lundi 10-11 Juin conseiller <persName ref="difdepo:persons.xml#calvino">Calvino</persName> ‑ <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName> ‑ <persName ref="difdepo:persons.xml#lescure">Lescure</persName></p>
+      <p><persName ref="difdepo:persons.xml#jroubaud">J. Roubaud</persName> : <persName ref="difdepo:persons.xml#gertrudestein">Gertrude Stein</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : 331 7845</p>
+    </body>
   </text>
 </TEI>

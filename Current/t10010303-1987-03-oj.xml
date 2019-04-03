@@ -1,148 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010303-1987-03-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010303-1987-03-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010303 pp. 9 à 9 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 23 mars 1987</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010303-1987-03-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010303-1987-03">la réunion Oulipo</ref> du <date when="1987-03-23">23 mars 1987</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:43:11Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010303 pp. 9 à 9 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 23 mars 1987</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010303-1987-03-oj</idno><title>Ordre de jour de <ref target="#t10010303-1987-03">la réunion Oulipo</ref> du <date when="1987-03-23">23 mars 1987</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:43:11Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010303f/f9.highres" n="9"/>
-         <p rend="incipit">OULIPO 23-3-87</p>
-         <p>Ordre du jour</p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> New York</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fc">
-               <abbr>FC</abbr>
-            </persName> – <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName> Monpa</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jj">
-               <abbr>JJ</abbr>
-            </persName> Ivry</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> Periel</p>
-         <p>Cqancïa</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> Port Cros Saumière La Villette</p>
-         <p>Naples et Francfort</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> 
-            <term ref="difdepo:terms.xml#rime">Rime</term> l’œil</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jj">
-               <abbr>JJ</abbr>
-            </persName> 
-            <term ref="difdepo:terms.xml#s7">S+7</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> 
-            <term ref="difdepo:terms.xml#triolet">Triolet</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> Bilboquet + <term ref="difdepo:terms.xml#alexandrin">Alexandrin</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jj">
-               <abbr>JJ</abbr>
-            </persName> Créature <term ref="difdepo:terms.xml#acronyme">acronyme</term>
-         </p>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> Promenade élémentaire : <persName ref="difdepo:persons.xml#camilleroudier">Camille Roudier</persName>
-         </p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> = Mardi 28/4 19 heures chez <persName ref="difdepo:persons.xml#harry">
-               <abbr>Harry</abbr>
-            </persName>
-         </p>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName> Candidature</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> Nimique</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jj">
-               <abbr>JJ</abbr>
-            </persName> Saint-Quentin</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> 
-            <orgName ref="difdepo:organizations.xml#invisibleseattle">Invisible Seattle</orgName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010303f/f9.highres" n="9"/>
+      <p rend="incipit">OULIPO 23-3-87</p>
+      <p>Ordre du jour</p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> New York</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> – <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> Monpa</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Ivry</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> Periel</p>
+      <p>Cqancïa</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Port Cros Saumière La Villette</p>
+      <p>Naples et Francfort</p>
+      <p><label type="rubrique">Création</label></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName><term ref="difdepo:terms.xml#rime">Rime</term> l’œil</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName><term ref="difdepo:terms.xml#s7">S+7</term></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName><term ref="difdepo:terms.xml#triolet">Triolet</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Bilboquet + <term ref="difdepo:terms.xml#alexandrin">Alexandrin</term></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Créature <term ref="difdepo:terms.xml#acronyme">acronyme</term></p>
+      <p><label type="rubrique">Erudition</label></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Promenade élémentaire : <persName ref="difdepo:persons.xml#camilleroudier">Camille Roudier</persName></p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> = Mardi 28/4 19 heures chez <persName ref="difdepo:persons.xml#harry"><abbr>Harry</abbr></persName></p>
+      <p><label type="rubrique">Menus propos</label></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> Candidature</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> Nimique</p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> Saint-Quentin</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName><orgName ref="difdepo:organizations.xml#invisibleseattle">Invisible Seattle</orgName></p>
+    </body>
   </text>
 </TEI>

@@ -1,488 +1,186 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010210-1978-10-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010210-1978-10-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010210 pp. 2 à 6 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 19 octobre 1978</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010210-1978-10-cr</idno> 
-               <meeting xml:id="t10010210-1978-10">
-                  <date when="1978-10-19">19 octobre 1978</date>
-                  <placeName>chez GP</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:32:24Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010210 pp. 2 à 6 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 19 octobre 1978</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010210-1978-10-cr</idno><meeting xml:id="t10010210-1978-10">
+          <date when="1978-10-19">19 octobre 1978</date>
+          <placeName>chez GP</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+            <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#noelarnaud" role="président">Noël Arnaud</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:32:24Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f2.highres" n="2"/>
-         <p>1</p>
-         <p rend="incipit">Réunion du 19.10.78</p>
-         <p rend="incipit">Chez <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
-         </p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName>.</p>
-         <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#cb">
-               <abbr>CB</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#ab">
-               <abbr>AB</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#jd">
-               <abbr>JD</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#ic">
-               <abbr>IC</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#jq">
-               <abbr>JQ</abbr>
-            </persName>.</p>
-         <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#mm">
-               <abbr>MM</abbr>
-            </persName>, <persName ref="difdepo:persons.xml#jl">
-               <abbr>JL</abbr>
-            </persName>.</p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> Président</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> fait un bref rapport sur ses travaux sur les <term ref="difdepo:terms.xml#aphorismes">aphorismes</term>. Il accuse <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> de lse laisser tomber et se trouve obligé de se substituer un muletmanuellement à l’<term ref="difdepo:terms.xml#ordinateur">ordinateur</term>.</p>
-         <p>
-            <label type="rubrique">Érudition</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : signale deux revues qui accordent une place importante à des choses intéressantes.</p>
-         <list type="unordered">
-            <item>
-               <title ref="difdepo:titles.xml#cahiersdadasurrealisme">Cahiers <orgName ref="difdepo:organizations.xml#dada">dada</orgName>-<orgName ref="difdepo:organizations.xml#surrealisme">surréalisme</orgName>
-               </title>
-            </item>
-         </list>
-         <p>–</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : ces cahiers ne paraissent plus. On ne peut pas se procurer les cahiers ou difficilement.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Autre revue : <title ref="difdepo:titles.xml#licosatheque">l’Icosathèque</title>. Trois numéros parus chez les mêmes éditeurs, revue ouverte aux spécialistes américains de la littérature du XX<hi rend="sup">e</hi> siècle.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Tout le siècle est là ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : oui mais avec une dominante <orgName ref="difdepo:organizations.xml#dada">
-               <term ref="difdepo:terms.xml#dada">Dada</term>
-            </orgName> - <orgName ref="difdepo:organizations.xml#surrealiste">
-               <term ref="difdepo:terms.xml#surrealiste">Surréaliste</term>
-            </orgName>.</p>
-         <p>Le comité est composé d’américains. Une étude sur <persName ref="difdepo:persons.xml#leiris">Leiris</persName>, une explication d’un des contes de <persName ref="difdepo:persons.xml#raymondroussel">Raymond Roussel</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Est-ce que cela remplace la « <title ref="difdepo:titles.xml#revueduxxesiecle">revue du XXe siècle</title> » ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Il ne semble pas.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : « <title ref="difdepo:titles.xml#professiondefoi">Profession de Foi</title> » de <persName ref="difdepo:persons.xml#fulgence">Fulgence</persName> (un ami de <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName>) [<ref>Copie à venir pour les archives</ref>]</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f3.highres" n="3"/>
-         <p>2</p>
-         <p>Arrivée de <persName ref="difdepo:persons.xml#braffort">Braffort</persName> qui se déclare « sec comme un coup de trique ».</p>
-         <p>&gt; <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez <persName ref="difdepo:persons.xml#berge">Berge</persName> le 7 décembre. Pas de réunion en novembre avec replis sur le week-end du 11 novembre 78.</p>
-         <p>Réunion du janvier 79 chez <persName ref="difdepo:persons.xml#dominique">Dominique</persName> 825.84.77 11 janvier ?</p>
-         <p>Invités d’honneur : 1) <persName ref="difdepo:persons.xml#balpe">Balpe</persName> 
-            <persName ref="difdepo:persons.xml#paris">Paris</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#cortazar">Cortázar</persName> 
-            <persName ref="difdepo:persons.xml#jeanmargat">Jean Margat</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#zerkiparziscz">Zerki Parziscz</persName>
-         </p>
-         <list type="ordered">
-            <item>
-               <persName ref="difdepo:persons.xml#balpe">Balpe</persName> &gt; <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#zerki">Zerki</persName> &gt; <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#margat">Margat</persName> &gt; <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#paris">Paris</persName> &gt; <persName ref="difdepo:persons.xml#benabou">Bénabou</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#parziscz">Parziscz</persName> &gt; <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#cortazar">Cortàzar</persName> &gt; <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>.</item>
-         </list>
-         <p>
-            <label type="rubrique">Menus propos</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : A reçu la visite d’une jeune lycéenne dont la classe s’intéresse à l’oulipo (lycée de Compiègne)</p>
-         <p>Pourrait-il leur envoyer une délégation ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Mars ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : Il faut envoyer <persName ref="difdepo:persons.xml#jr">
-               <abbr>JR</abbr>
-            </persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : deux séances de <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName> consacrées à <persName ref="difdepo:persons.xml#calvino">Calvino</persName> l’une vendredi dernier l’autre demain de 20h à 21h30</p>
-         <p>
-            <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName> : Je passe chez <persName ref="difdepo:persons.xml#charbonnier">Charbonnier</persName> le 8 novembre vers 10 h</p>
-         <p>le 15 novembre vers 9h sur <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName>
-         </p>
-         <p>
-            <title ref="difdepo:titles.xml#apostrophes">Apostrophes</title> : 24 novembre Ar 6 novembre 14h Aujourd’hui <persName ref="difdepo:persons.xml#madamedormesson">Madame D’Ormesson</persName> : 28 novembre TF1</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f4.highres" n="4"/>
-         <p>3</p>
-         <p>
-            <label type="rubrique">CRÉATIONS</label>
-         </p>
-         <p>
-            <title ref="difdepo:titles.xml#volume2">Volume 2</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : lors de la dernière réunion distribution des travaux à faire.</p>
-         <p>A <name ref="difdepo:events.xml#royaumont" type="manif">Royaumont</name> une réflexion a été faite sur <title ref="difdepo:titles.xml#levolume2">le volume 2</title>.</p>
-         <p>Un plan existe à partir duquel il faut travailler.</p>
-         <p>Il faut que chacun fasse sa contribution.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : Esprit du <title ref="difdepo:titles.xml#volume2">volume 2</title> défini à <name ref="difdepo:events.xml#royaumont" type="manif">Royaumont</name>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : on peut parler non seulement de <term ref="difdepo:terms.xml#structures">structures</term> et <term ref="difdepo:terms.xml#contraintes">contraintes</term> mais de <term ref="difdepo:terms.xml#procedes">procédés</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : il faut faire des textes aussi beaux que possible et aussi importants que possible.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : D’accord</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : ton intégrisme mollit !</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : enverra le plan à chacun</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Envoyer en même temps les <term ref="difdepo:terms.xml#structures">structures</term> 
-            <persName ref="difdepo:persons.xml#zerki">Zerki</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : accepté.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : Pour la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> on publiera des extraits</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Décision vaseuse</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : Il faut voir cas par cas… Pour certains c’est facile, pour d’autres…</p>
-         <p>Difficile pour <title ref="difdepo:titles.xml#hoppy">Hoppy</title> par exemple.</p>
-         <p>quandE<unclear>t</unclear> on ne peut pas publier le volume entier on renonce.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : Contrairement à ce que tu disais, il y a beaucoup plus de <term ref="difdepo:terms.xml#structures">structures</term> nouvelles à créer que celles déjà crées.</p>
-         <p>Une <term ref="difdepo:terms.xml#structurelitteraire">structure littéraire</term> c’est à la fois l’intersection d’une colonne qui contient des lois maths avec une bande contenant une <term ref="difdepo:terms.xml#contraintelitteraire">contrainte littéraire</term>.</p>
-         <p>La <term ref="difdepo:terms.xml#structure">structure</term> est la combinaison de plusieurs <term ref="difdepo:terms.xml#contraintes">contraintes</term>.</p>
-         <p>(à suivre)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : Il ne faut pas tomber dans le piège qui consisterait à dire : le <term ref="difdepo:terms.xml#sonnet">sonnet</term> c’est de l’<term ref="difdepo:terms.xml#alexandrin">Alexandrin</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : une <term ref="difdepo:terms.xml#structure">structure</term> est la combinaison de plusieurs <term ref="difdepo:terms.xml#contraintes">contraintes</term>.</p>
-         <p>D’où un problème au niveau du mode de <term ref="difdepo:terms.xml#classement">classement</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : Il faudra se percher sur le problème de l’<term ref="difdepo:terms.xml#efficaciteesthetiquedunestructure">efficacité esthétique d’une structure</term>
-         </p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f5.highres" n="5"/>
-         <p>4</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : en préparant mon <term ref="difdepo:terms.xml#travailanalytique">travail analytique</term> je me suis heurté à un <term ref="difdepo:terms.xml#problemedefinitionnel">problème définitionnel</term>
-         </p>
-         <p>Il fallut définir une notion : <term ref="difdepo:terms.xml#prescriptum">
-               <unclear>prescriptum</unclear>
-            </term>
-         </p>
-         <p>Votre <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title> est soumis à la <term ref="difdepo:terms.xml#fatalitesequentielle">fatalité séquentielle</term>, il faut ranger les contraintes par familles en ordres linéaire.</p>
-         <p>Il faudra dire tout cela dans l’introduction du volume.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : la distinction <term ref="difdepo:terms.xml#contrainte">contrainte</term>/<term ref="difdepo:terms.xml#structure">structure</term> n’est pas oiseuse : elle est pratique</p>
-         <p>1 <term ref="difdepo:terms.xml#contrainte">contrainte</term> = une prescription unique</p>
-         <p>1 <term ref="difdepo:terms.xml#structure">structure</term> = une <term ref="difdepo:terms.xml#combinaison">combinaison</term> de prescriptions</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : Il faudra bien construire un ordre…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : la <title ref="difdepo:titles.xml#tabledequeneau">table de <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
-            </title> est-elle complétée ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName> : c’est fait</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : Mais les plus nouvelles des <term ref="difdepo:terms.xml#structures">structures</term> sont enh dehors du <title ref="difdepo:titles.xml#tableau">tableau</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : on pourrait garder l’ordre horizontal : <term ref="difdepo:terms.xml#lettres">lettres</term>, <term ref="difdepo:terms.xml#voyelles">voyelles</term>…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : Il faudra mettre une « couche » <term ref="difdepo:terms.xml#phonemes">phonèmes</term> entre <term ref="difdepo:terms.xml#lettres">lettres</term> et <term ref="difdepo:terms.xml#syllabes">syllabes</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Pratiquement il faut se mettre au travail très vite.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : Fixons-nous une première date pour les œuvres :</p>
-         <list type="unordered">
-            <item>FIN DECEMBRE 78 –</item>
-         </list>
-         <p>Acceptée : les premiers textes seront <unclear>finis</unclear> livrés le 11 janvier.</p>
-         <p>Insert</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : la librairie <orgName ref="difdepo:organizations.xml#autrementdit">Autrement Dit</orgName> veut faire une vitrine sur les travaux de l’oulipo et la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> il faut que <persName ref="difdepo:persons.xml#perec">Perec</persName> y aille.</p>
-         <p>
-            <label type="rubrique">
-               <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-            </label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Problème matériel : Je vais déménager 2 x il faut que quelqu’un prenne les stocks.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : Je les stockerai après le 1<hi rend="sup">e</hi> décembre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Il faut vendre. Beaucoup de 5-6-7 sur les bras.</p>
-         <p>Les auteurs n’ont pas tout acheté : il faut vendre.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f6.highres" n="6"/>
-         <p>5</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : Nous ne vivons pas sur notre propre finance, nous tournons sur la subvention.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : les libraires n’en redemandent pas.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName> : ne peut-on pas vendre à perte avec la subvention ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : les livres se vendront mieux après. Soyez patients. Expos, <title ref="difdepo:titles.xml#volume2">volume 2</title>…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> a raison, cette collection vaudra cher bientôt ! Mais il faut penser à l’immédiat.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> a une liste de commandes à donner.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : <persName ref="difdepo:persons.xml#mathews">Mathews</persName> va vendre dans les salons, <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> chez les professions libérales, <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> à l’Université, <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> chez les <unclear>*</unclear>.<unclear>escrocs</unclear>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : le <persName ref="difdepo:persons.xml#braffort">Braffort</persName> est en cours, le Fournel et Roubaud est aussi en cours. 500 francs pour les films, un cadeau pour <persName ref="difdepo:persons.xml#cloyard">Cloyard</persName> (100 francs)</p>
-         <p>accepté</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Pour <title ref="difdepo:titles.xml#oulipo1">oulipo 1</title> nous avons touché 1500 francs en 1977. Il faut me rembourser mes impôts.</p>
-         <p>Il faut ouvrir un compte au nom de l’association qui pourrait le faire avec moi ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : Je suis d’accord.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Attention le secrétaire et le trésorier doivent être distincts. Lorsque le compte sera fait tout ira mieux.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Je m’engage avec <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> et <persName ref="difdepo:persons.xml#dominique">Dominique</persName>. Nous aurons un compte près de chez <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName> siège de l’association.</p>
-         <p>État des finances : en caisse : 15671 francs</p>
-         <list type="unordered">
-            <item>2500 francs qui reviennent à <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> pour Royaumont</item>
-            <item>2 livres sous presse.</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#na">
-               <abbr>NA</abbr>
-            </persName> : Il faut se faire aider par l’étranger (Canada)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : une <name ref="difdepo:events.xml#conference" type="manif">conférence</name> a été faite sur l’oulipo à Montevideéo.</p>
-         <p>Repas 30 francs</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : <name ref="difdepo:events.xml#weekenddetravail" type="manif">Weekend de travail</name> avec stagiaires Royaumont</p>
-         <p>le 11 novembre à Mennecy au centre de repos de la RNUR</p>
-         <p>Viendront : <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f2.highres" n="2"/>
+      <p>1</p>
+      <p rend="incipit">Réunion du 19.10.78</p>
+      <p rend="incipit">Chez <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>.</p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>, <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>.</p>
+      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>.</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> Président</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> fait un bref rapport sur ses travaux sur les <term ref="difdepo:terms.xml#aphorismes">aphorismes</term>. Il accuse <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> de lse laisser tomber et se trouve obligé de se substituer un muletmanuellement à l’<term ref="difdepo:terms.xml#ordinateur">ordinateur</term>.</p>
+      <p><label type="rubrique">Érudition</label></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : signale deux revues qui accordent une place importante à des choses intéressantes.</p>
+      <list type="unordered">
+        <item><title ref="difdepo:titles.xml#cahiersdadasurrealisme">Cahiers <orgName ref="difdepo:organizations.xml#dada">dada</orgName>-<orgName ref="difdepo:organizations.xml#surrealisme">surréalisme</orgName></title></item>
+      </list>
+      <p>–</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : ces cahiers ne paraissent plus. On ne peut pas se procurer les cahiers ou difficilement.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Autre revue : <title ref="difdepo:titles.xml#licosatheque">l’Icosathèque</title>. Trois numéros parus chez les mêmes éditeurs, revue ouverte aux spécialistes américains de la littérature du XX<hi rend="sup">e</hi> siècle.</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Tout le siècle est là ?</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : oui mais avec une dominante <orgName ref="difdepo:organizations.xml#dada"><term ref="difdepo:terms.xml#dada">Dada</term></orgName> - <orgName ref="difdepo:organizations.xml#surrealiste"><term ref="difdepo:terms.xml#surrealiste">Surréaliste</term></orgName>.</p>
+      <p>Le comité est composé d’américains. Une étude sur <persName ref="difdepo:persons.xml#leiris">Leiris</persName>, une explication d’un des contes de <persName ref="difdepo:persons.xml#raymondroussel">Raymond Roussel</persName></p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Est-ce que cela remplace la « <title ref="difdepo:titles.xml#revueduxxesiecle">revue du XXe siècle</title> » ?</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il ne semble pas.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : « <title ref="difdepo:titles.xml#professiondefoi">Profession de Foi</title> » de <persName ref="difdepo:persons.xml#fulgence">Fulgence</persName> (un ami de <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>) [<ref>Copie à venir pour les archives</ref>]</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f3.highres" n="3"/>
+      <p>2</p>
+      <p>Arrivée de <persName ref="difdepo:persons.xml#braffort">Braffort</persName> qui se déclare « sec comme un coup de trique ».</p>
+      <p>&gt; <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> chez <persName ref="difdepo:persons.xml#berge">Berge</persName> le 7 décembre. Pas de réunion en novembre avec replis sur le week-end du 11 novembre 78.</p>
+      <p>Réunion du janvier 79 chez <persName ref="difdepo:persons.xml#dominique">Dominique</persName> 825.84.77 11 janvier ?</p>
+      <p>Invités d’honneur : 1) <persName ref="difdepo:persons.xml#balpe">Balpe</persName><persName ref="difdepo:persons.xml#paris">Paris</persName></p>
+      <p><persName ref="difdepo:persons.xml#cortazar">Cortázar</persName><persName ref="difdepo:persons.xml#jeanmargat">Jean Margat</persName></p>
+      <p><persName ref="difdepo:persons.xml#zerkiparziscz">Zerki Parziscz</persName></p>
+      <list type="ordered">
+        <item><persName ref="difdepo:persons.xml#balpe">Balpe</persName> &gt; <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>, <persName ref="difdepo:persons.xml#braffort">Braffort</persName></item>
+        <item><persName ref="difdepo:persons.xml#zerki">Zerki</persName> &gt; <persName ref="difdepo:persons.xml#fournel">Fournel</persName></item>
+        <item><persName ref="difdepo:persons.xml#margat">Margat</persName> &gt; <persName ref="difdepo:persons.xml#braffort">Braffort</persName></item>
+        <item><persName ref="difdepo:persons.xml#paris">Paris</persName> &gt; <persName ref="difdepo:persons.xml#benabou">Bénabou</persName></item>
+        <item><persName ref="difdepo:persons.xml#parziscz">Parziscz</persName> &gt; <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName></item>
+        <item><persName ref="difdepo:persons.xml#cortazar">Cortàzar</persName> &gt; <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName>.</item>
+      </list>
+      <p><label type="rubrique">Menus propos</label></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : A reçu la visite d’une jeune lycéenne dont la classe s’intéresse à l’oulipo (lycée de Compiègne)</p>
+      <p>Pourrait-il leur envoyer une délégation ?</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Mars ?</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Il faut envoyer <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : deux séances de <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName> consacrées à <persName ref="difdepo:persons.xml#calvino">Calvino</persName> l’une vendredi dernier l’autre demain de 20h à 21h30</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Je passe chez <persName ref="difdepo:persons.xml#charbonnier">Charbonnier</persName> le 8 novembre vers 10 h</p>
+      <p>le 15 novembre vers 9h sur <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName></p>
+      <p><title ref="difdepo:titles.xml#apostrophes">Apostrophes</title> : 24 novembre Ar 6 novembre 14h Aujourd’hui <persName ref="difdepo:persons.xml#madamedormesson">Madame D’Ormesson</persName> : 28 novembre TF1</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f4.highres" n="4"/>
+      <p>3</p>
+      <p><label type="rubrique">CRÉATIONS</label></p>
+      <p><title ref="difdepo:titles.xml#volume2">Volume 2</title></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lors de la dernière réunion distribution des travaux à faire.</p>
+      <p>A <name ref="difdepo:events.xml#royaumont" type="manif">Royaumont</name> une réflexion a été faite sur <title ref="difdepo:titles.xml#levolume2">le volume 2</title>.</p>
+      <p>Un plan existe à partir duquel il faut travailler.</p>
+      <p>Il faut que chacun fasse sa contribution.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Esprit du <title ref="difdepo:titles.xml#volume2">volume 2</title> défini à <name ref="difdepo:events.xml#royaumont" type="manif">Royaumont</name></p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : on peut parler non seulement de <term ref="difdepo:terms.xml#structures">structures</term> et <term ref="difdepo:terms.xml#contraintes">contraintes</term> mais de <term ref="difdepo:terms.xml#procedes">procédés</term>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : il faut faire des textes aussi beaux que possible et aussi importants que possible.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : D’accord</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : ton intégrisme mollit !</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : enverra le plan à chacun</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Envoyer en même temps les <term ref="difdepo:terms.xml#structures">structures</term><persName ref="difdepo:persons.xml#zerki">Zerki</persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : accepté.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Pour la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> on publiera des extraits</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Décision vaseuse</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Il faut voir cas par cas… Pour certains c’est facile, pour d’autres…</p>
+      <p>Difficile pour <title ref="difdepo:titles.xml#hoppy">Hoppy</title> par exemple.</p>
+      <p>quandE<unclear>t</unclear> on ne peut pas publier le volume entier on renonce.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Contrairement à ce que tu disais, il y a beaucoup plus de <term ref="difdepo:terms.xml#structures">structures</term> nouvelles à créer que celles déjà crées.</p>
+      <p>Une <term ref="difdepo:terms.xml#structurelitteraire">structure littéraire</term> c’est à la fois l’intersection d’une colonne qui contient des lois maths avec une bande contenant une <term ref="difdepo:terms.xml#contraintelitteraire">contrainte littéraire</term>.</p>
+      <p>La <term ref="difdepo:terms.xml#structure">structure</term> est la combinaison de plusieurs <term ref="difdepo:terms.xml#contraintes">contraintes</term>.</p>
+      <p>(à suivre)</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il ne faut pas tomber dans le piège qui consisterait à dire : le <term ref="difdepo:terms.xml#sonnet">sonnet</term> c’est de l’<term ref="difdepo:terms.xml#alexandrin">Alexandrin</term></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : une <term ref="difdepo:terms.xml#structure">structure</term> est la combinaison de plusieurs <term ref="difdepo:terms.xml#contraintes">contraintes</term>.</p>
+      <p>D’où un problème au niveau du mode de <term ref="difdepo:terms.xml#classement">classement</term>.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faudra se percher sur le problème de l’<term ref="difdepo:terms.xml#efficaciteesthetiquedunestructure">efficacité esthétique d’une structure</term></p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f5.highres" n="5"/>
+      <p>4</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : en préparant mon <term ref="difdepo:terms.xml#travailanalytique">travail analytique</term> je me suis heurté à un <term ref="difdepo:terms.xml#problemedefinitionnel">problème définitionnel</term></p>
+      <p>Il fallut définir une notion : <term ref="difdepo:terms.xml#prescriptum"><unclear>prescriptum</unclear></term></p>
+      <p>Votre <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title> est soumis à la <term ref="difdepo:terms.xml#fatalitesequentielle">fatalité séquentielle</term>, il faut ranger les contraintes par familles en ordres linéaire.</p>
+      <p>Il faudra dire tout cela dans l’introduction du volume.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : la distinction <term ref="difdepo:terms.xml#contrainte">contrainte</term>/<term ref="difdepo:terms.xml#structure">structure</term> n’est pas oiseuse : elle est pratique</p>
+      <p>1 <term ref="difdepo:terms.xml#contrainte">contrainte</term> = une prescription unique</p>
+      <p>1 <term ref="difdepo:terms.xml#structure">structure</term> = une <term ref="difdepo:terms.xml#combinaison">combinaison</term> de prescriptions</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Il faudra bien construire un ordre…</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : la <title ref="difdepo:titles.xml#tabledequeneau">table de <persName ref="difdepo:persons.xml#queneau">Queneau</persName></title> est-elle complétée ?</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : c’est fait</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Mais les plus nouvelles des <term ref="difdepo:terms.xml#structures">structures</term> sont enh dehors du <title ref="difdepo:titles.xml#tableau">tableau</title>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : on pourrait garder l’ordre horizontal : <term ref="difdepo:terms.xml#lettres">lettres</term>, <term ref="difdepo:terms.xml#voyelles">voyelles</term>…</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Il faudra mettre une « couche » <term ref="difdepo:terms.xml#phonemes">phonèmes</term> entre <term ref="difdepo:terms.xml#lettres">lettres</term> et <term ref="difdepo:terms.xml#syllabes">syllabes</term>.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Pratiquement il faut se mettre au travail très vite.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Fixons-nous une première date pour les œuvres :</p>
+      <list type="unordered">
+        <item>FIN DECEMBRE 78 –</item>
+      </list>
+      <p>Acceptée : les premiers textes seront <unclear>finis</unclear> livrés le 11 janvier.</p>
+      <p>Insert</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : la librairie <orgName ref="difdepo:organizations.xml#autrementdit">Autrement Dit</orgName> veut faire une vitrine sur les travaux de l’oulipo et la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> il faut que <persName ref="difdepo:persons.xml#perec">Perec</persName> y aille.</p>
+      <p><label type="rubrique"><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></label></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Problème matériel : Je vais déménager 2 x il faut que quelqu’un prenne les stocks.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Je les stockerai après le 1<hi rend="sup">e</hi> décembre.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il faut vendre. Beaucoup de 5-6-7 sur les bras.</p>
+      <p>Les auteurs n’ont pas tout acheté : il faut vendre.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102104/f6.highres" n="6"/>
+      <p>5</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Nous ne vivons pas sur notre propre finance, nous tournons sur la subvention.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : les libraires n’en redemandent pas.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : ne peut-on pas vendre à perte avec la subvention ?</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : les livres se vendront mieux après. Soyez patients. Expos, <title ref="difdepo:titles.xml#volume2">volume 2</title>…</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> a raison, cette collection vaudra cher bientôt ! Mais il faut penser à l’immédiat.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> a une liste de commandes à donner.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <persName ref="difdepo:persons.xml#mathews">Mathews</persName> va vendre dans les salons, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> chez les professions libérales, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> à l’Université, <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> chez les <unclear>*</unclear>.<unclear>escrocs</unclear>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : le <persName ref="difdepo:persons.xml#braffort">Braffort</persName> est en cours, le Fournel et Roubaud est aussi en cours. 500 francs pour les films, un cadeau pour <persName ref="difdepo:persons.xml#cloyard">Cloyard</persName> (100 francs)</p>
+      <p>accepté</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Pour <title ref="difdepo:titles.xml#oulipo1">oulipo 1</title> nous avons touché 1500 francs en 1977. Il faut me rembourser mes impôts.</p>
+      <p>Il faut ouvrir un compte au nom de l’association qui pourrait le faire avec moi ?</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Je suis d’accord.</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Attention le secrétaire et le trésorier doivent être distincts. Lorsque le compte sera fait tout ira mieux.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Je m’engage avec <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> et <persName ref="difdepo:persons.xml#dominique">Dominique</persName>. Nous aurons un compte près de chez <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> siège de l’association.</p>
+      <p>État des finances : en caisse : 15671 francs</p>
+      <list type="unordered">
+        <item>2500 francs qui reviennent à <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> pour Royaumont</item>
+        <item>2 livres sous presse.</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : Il faut se faire aider par l’étranger (Canada)</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : une <name ref="difdepo:events.xml#conference" type="manif">conférence</name> a été faite sur l’oulipo à Montevideéo.</p>
+      <p>Repas 30 francs</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <name ref="difdepo:events.xml#weekenddetravail" type="manif">Weekend de travail</name> avec stagiaires Royaumont</p>
+      <p>le 11 novembre à Mennecy au centre de repos de la RNUR</p>
+      <p>Viendront : <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+    </body>
   </text>
 </TEI>

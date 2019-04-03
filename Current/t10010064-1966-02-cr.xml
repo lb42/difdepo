@@ -1,121 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010064-1966-02-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010064-1966-02-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010064 pp. 1 à 2 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 4 février 1966</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010064-1966-02-cr</idno> 
-               <meeting xml:id="t10010064-1966-02">
-                  <date when="1966-02-04">4 février 1966</date>
-                  <placeName>Basque</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau" role="secrétaire">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval" role="président">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#andrelenteri" role="invité">André Lenteri</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:35:22Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010064 pp. 1 à 2 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 4 février 1966</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010064-1966-02-cr</idno><meeting xml:id="t10010064-1966-02">
+          <date when="1966-02-04">4 février 1966</date>
+          <placeName>Basque</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau" role="secrétaire">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval" role="président">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#andrelenteri" role="invité">André Lenteri</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:35:22Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100647/f1.highres" n="1"/>
-         <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE <lb/>Circulaire n° 69</p>
-         <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 4 FEVRIER 1966</p>
-         <p rend="incipit">(Basque)</p>
-         <p rend="incipit">PRÉSENTS : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>, <persName ref="difdepo:persons.xml#andrelenteri">André Lenteri</persName>.</p>
-         <p rend="incipit">INVITÉ : <persName ref="difdepo:persons.xml#andrelenteri">André Lenteri</persName>.</p>
-         <p rend="incipit">PRÉSIDENT : <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> (accueille notre invité) : Vous avez, ce que refuse le parti radical à ses membres, la double appartenance : <term ref="difdepo:terms.xml#linguistique">linguistique</term> et <term ref="difdepo:terms.xml#mathematique">mathématique</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#alenteri">A. LENTERI</persName> : Je vous invite tous cordialement à voir notre <term ref="difdepo:terms.xml#machine">machine</term> fonctionner. C’est une belle <term ref="difdepo:terms.xml#machine">machine</term> toute neuve.</p>
-         <p>On ne prend pas rendez-vous pour se rendre à <persName ref="difdepo:persons.xml#blaisepascal">Blaise Pascal</persName> (où travaille <persName ref="difdepo:persons.xml#alenteri">A. Lenteri</persName>).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : <persName ref="difdepo:persons.xml#latis">Latis</persName> m’a envoyé des <term ref="difdepo:terms.xml#boulesdeneige">boules de neige</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : Moi aussi.</p>
-         <p>(<ref>Annexe 1</ref> – <persName ref="difdepo:persons.xml#latis">Latis</persName>)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : La boule de neige sera l’arme secrète de l’OuLiPo.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : (<ref>voir Annexe 2</ref>.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Avec l’<term ref="difdepo:terms.xml#analogique">analogique</term>, on passe facilement de colibri à vestiaire.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : <title ref="difdepo:titles.xml#lelarousse">Le Larousse</title> 
-            <term ref="difdepo:terms.xml#analogique">analogique</term> est particulièrement mauvais.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Il y en a des bons ?</p>
-         <p>(Bruit blanc.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : Ce que j’ai fait n’est qu’un exercice, pour voir. Cela dit, il peut être intéressant de se donner a priori des <term ref="difdepo:terms.xml#contraintessemantiques">contraintes sémantiques</term> de ce genre, qui seront réellement des <term ref="difdepo:terms.xml#contraintes">contraintes</term> si on observe une certaine rigueur dans le maniement du jeu rigoureux dictionnaire <term ref="difdepo:terms.xml#analogique">analogique</term>.</p>
-         <p>
-            <ref>Annexe 3</ref> = <title ref="difdepo:titles.xml#definitiondeloulipo">Définition de l’OuLiPo</title> par <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100647/f2.highres" n="2"/>
-         <p>
-            <persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> (à la place de <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, absent) : <ref>Annexe 4</ref>.</p>
-         <p>Il a encore été question :</p>
-         <p>du <term ref="difdepo:terms.xml#romanpolicier">roman policier</term> (<persName ref="difdepo:persons.xml#braffort">Braffort</persName>),</p>
-         <p>et d’un livre de <title ref="difdepo:titles.xml#mathematiqueselementaires">Mathématiques Elémentaires</title> de <persName ref="difdepo:persons.xml#alenteri">A. Lenteri</persName> qui a donné comme exercice : Chercher la relation est amoureux de … dans <title ref="difdepo:titles.xml#andromaque">Andromaque</title>.</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : le 25 février 1966.</p>
-         <p>Le S.P.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jd">
-               <abbr>J.D.</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100647/f1.highres" n="1"/>
+      <p rend="incipit">OUVROIR DE LITTERATURE POTENTIELLE <lb/>Circulaire n° 69</p>
+      <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 4 FEVRIER 1966</p>
+      <p rend="incipit">(Basque)</p>
+      <p rend="incipit">PRÉSENTS : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>, <persName ref="difdepo:persons.xml#andrelenteri">André Lenteri</persName>.</p>
+      <p rend="incipit">INVITÉ : <persName ref="difdepo:persons.xml#andrelenteri">André Lenteri</persName>.</p>
+      <p rend="incipit">PRÉSIDENT : <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> (accueille notre invité) : Vous avez, ce que refuse le parti radical à ses membres, la double appartenance : <term ref="difdepo:terms.xml#linguistique">linguistique</term> et <term ref="difdepo:terms.xml#mathematique">mathématique</term>.</p>
+      <p><persName ref="difdepo:persons.xml#alenteri">A. LENTERI</persName> : Je vous invite tous cordialement à voir notre <term ref="difdepo:terms.xml#machine">machine</term> fonctionner. C’est une belle <term ref="difdepo:terms.xml#machine">machine</term> toute neuve.</p>
+      <p>On ne prend pas rendez-vous pour se rendre à <persName ref="difdepo:persons.xml#blaisepascal">Blaise Pascal</persName> (où travaille <persName ref="difdepo:persons.xml#alenteri">A. Lenteri</persName>).</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : <persName ref="difdepo:persons.xml#latis">Latis</persName> m’a envoyé des <term ref="difdepo:terms.xml#boulesdeneige">boules de neige</term>.</p>
+      <p><persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : Moi aussi.</p>
+      <p>(<ref>Annexe 1</ref> – <persName ref="difdepo:persons.xml#latis">Latis</persName>)</p>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> : La boule de neige sera l’arme secrète de l’OuLiPo.</p>
+      <p><persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : (<ref>voir Annexe 2</ref>.)</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Avec l’<term ref="difdepo:terms.xml#analogique">analogique</term>, on passe facilement de colibri à vestiaire.</p>
+      <p><persName ref="difdepo:persons.xml#jqueval">J. QUEVAL</persName> : <title ref="difdepo:titles.xml#lelarousse">Le Larousse</title><term ref="difdepo:terms.xml#analogique">analogique</term> est particulièrement mauvais.</p>
+      <p><persName ref="difdepo:persons.xml#rqueneau">R. QUENEAU</persName> : Il y en a des bons ?</p>
+      <p>(Bruit blanc.)</p>
+      <p><persName ref="difdepo:persons.xml#jduchateau">J. DUCHATEAU</persName> : Ce que j’ai fait n’est qu’un exercice, pour voir. Cela dit, il peut être intéressant de se donner a priori des <term ref="difdepo:terms.xml#contraintessemantiques">contraintes sémantiques</term> de ce genre, qui seront réellement des <term ref="difdepo:terms.xml#contraintes">contraintes</term> si on observe une certaine rigueur dans le maniement du jeu rigoureux dictionnaire <term ref="difdepo:terms.xml#analogique">analogique</term>.</p>
+      <p><ref>Annexe 3</ref> = <title ref="difdepo:titles.xml#definitiondeloulipo">Définition de l’OuLiPo</title> par <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100647/f2.highres" n="2"/>
+      <p><persName ref="difdepo:persons.xml#flelionnais">F. LE LIONNAIS</persName> (à la place de <persName ref="difdepo:persons.xml#narnaud">N. Arnaud</persName>, absent) : <ref>Annexe 4</ref>.</p>
+      <p>Il a encore été question :</p>
+      <p>du <term ref="difdepo:terms.xml#romanpolicier">roman policier</term> (<persName ref="difdepo:persons.xml#braffort">Braffort</persName>),</p>
+      <p>et d’un livre de <title ref="difdepo:titles.xml#mathematiqueselementaires">Mathématiques Elémentaires</title> de <persName ref="difdepo:persons.xml#alenteri">A. Lenteri</persName> qui a donné comme exercice : Chercher la relation est amoureux de … dans <title ref="difdepo:titles.xml#andromaque">Andromaque</title>.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : le 25 février 1966.</p>
+      <p>Le S.P.</p>
+      <p><persName ref="difdepo:persons.xml#jd"><abbr>J.D.</abbr></persName></p>
+    </body>
   </text>
 </TEI>

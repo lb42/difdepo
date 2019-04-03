@@ -1,137 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010166-1974-09-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:id="t10010166-1974-09-oj" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010166 pp. 8 à 8 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 19 septembre 1974</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010166-1974-09-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010166-1974-09">la réunion Oulipo</ref> du <date when="1974-09-19">19 septembre 1974</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:26:46Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010166 pp. 8 à 8 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 19 septembre 1974</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010166-1974-09-oj</idno><title>Ordre de jour de <ref target="#t10010166-1974-09">la réunion Oulipo</ref> du <date when="1974-09-19">19 septembre 1974</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-18" who="HCC">nettoyage des commentaires/ notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:26:46Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f8.highres" n="8"/>
-         <p rend="incipit">19-9-74</p>
-         <p rend="incipit">161 séance</p>
-         <p>Ordre du Jour</p>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#queval">Queval</persName> = de l’<term ref="difdepo:terms.xml#antirime">antirime</term>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#perec">Perec</persName> Terrorisons <persName ref="difdepo:persons.xml#braffort">Braffort</persName>.</item>
-            <item>
-               <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : Tissage</item>
-         </list>
-         <p>
-            <label type="rubrique">Action :</label>
-         </p>
-         <p>
-            <del>livre</del>,<persName ref="difdepo:persons.xml#queneau">Queneau</persName> = Suites du livre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> : <title ref="difdepo:titles.xml#petitesnouvelleslitteraires">Petites nouvelles littéraires</title>
-         </p>
-         <p>
-            <label type="rubrique">Erudition :</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <persName ref="difdepo:persons.xml#remy">Rémy</persName>
-            </item>
-            <item>
-               <del>Livre de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-               </del>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#braffort">Braffort</persName> : un mot sur <persName ref="difdepo:persons.xml#rexstout">Rex Stout</persName>
-            </item>
-         </list>
-         <p>
-            <label type="rubrique">Menus Propos</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#mathews">Mathews</persName> par <persName ref="difdepo:persons.xml#perec">Perec</persName>
-            </item>
-            <item>Le cas <persName ref="difdepo:persons.xml#laclos">Laclos</persName>
-            </item>
-            <item>Livre de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-            </item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> : invité</p>
-         <p>À propos de l’<term ref="difdepo:terms.xml#anterime">antérime</term> = <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> = objection à <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : objection à <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : objection à <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName>
-         </p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010166h/f8.highres" n="8"/>
+      <p rend="incipit">19-9-74</p>
+      <p rend="incipit">161 séance</p>
+      <p>Ordre du Jour</p>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#queval">Queval</persName> = de l’<term ref="difdepo:terms.xml#antirime">antirime</term></item>
+        <item><persName ref="difdepo:persons.xml#perec">Perec</persName> Terrorisons <persName ref="difdepo:persons.xml#braffort">Braffort</persName>.</item>
+        <item><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : Tissage</item>
+      </list>
+      <p><label type="rubrique">Action :</label></p>
+      <p><del>livre</del>,<persName ref="difdepo:persons.xml#queneau">Queneau</persName> = Suites du livre.</p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName> : <title ref="difdepo:titles.xml#petitesnouvelleslitteraires">Petites nouvelles littéraires</title></p>
+      <p><label type="rubrique">Erudition :</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : <persName ref="difdepo:persons.xml#remy">Rémy</persName></item>
+        <item><del>Livre de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></del></item>
+        <item><persName ref="difdepo:persons.xml#braffort">Braffort</persName> : un mot sur <persName ref="difdepo:persons.xml#rexstout">Rex Stout</persName></item>
+      </list>
+      <p><label type="rubrique">Menus Propos</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#mathews">Mathews</persName> par <persName ref="difdepo:persons.xml#perec">Perec</persName></item>
+        <item>Le cas <persName ref="difdepo:persons.xml#laclos">Laclos</persName></item>
+        <item>Livre de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> : invité</p>
+      <p>À propos de l’<term ref="difdepo:terms.xml#anterime">antérime</term> = <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> = objection à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#braffort">Braffort</persName></p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : objection à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#fournel">Fournel</persName></p>
+      <p><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> : objection à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName></p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></p>
+    </body>
   </text>
 </TEI>

@@ -1,109 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010229-1980-06-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010229-1980-06-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010229 pp. 2 à 2 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 20 juin 1980</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#claraderaigniac">Clara de Raigniac</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010229-1980-06-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010229-1980-06">la réunion Oulipo</ref> du <date when="1980-06-20">20 juin 1980</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:34:08Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010229 pp. 2 à 2 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 20 juin 1980</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#claraderaigniac">Clara de Raigniac</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010229-1980-06-oj</idno><title>Ordre de jour de <ref target="#t10010229-1980-06">la réunion Oulipo</ref> du <date when="1980-06-20">20 juin 1980</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:34:08Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010229k/f2.highres" n="2"/>
-         <p rend="incipit">Ordre du jour du 20 juin 80 chez PF</p>
-         <p rend="incipit">Présents : JR JQ PB MM PF LE</p>
-         <p rend="incipit">Excusés : NA IB HM</p>
-         <p rend="incipit">Absents :</p>
-         <p rend="incipit">Secrétaire : MM</p>
-         <p rend="incipit">Président : JR</p>
-         <p>
-            <label type="rubrique">1) Création</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#mm">
-                  <abbr>MM</abbr>
-               </persName> : SB</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> : Trouver des titres</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> : Retour à la prose</item>
-         </list>
-         <p>
-            <label type="rubrique">2) Action</label>
-         </p>
-         <list type="unordered">
-            <item>Coll : Villeneuve</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> : Pompidou</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> : V2</item>
-         </list>
-         <p>
-            <label type="rubrique">3) Bibliothèque oulipienne</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> : distribution du numéro 13</item>
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> : problème du numéro 14</item>
-         </list>
-         <p>
-            <label type="rubrique">4) Menus propos</label>
-         </p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#pf">
-                  <abbr>PF</abbr>
-               </persName> : sortie *** E.V.</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010229k/f2.highres" n="2"/>
+      <p rend="incipit">Ordre du jour du 20 juin 80 chez PF</p>
+      <p rend="incipit">Présents : JR JQ PB MM PF LE</p>
+      <p rend="incipit">Excusés : NA IB HM</p>
+      <p rend="incipit">Absents :</p>
+      <p rend="incipit">Secrétaire : MM</p>
+      <p rend="incipit">Président : JR</p>
+      <p><label type="rubrique">1) Création</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : SB</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Trouver des titres</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Retour à la prose</item>
+      </list>
+      <p><label type="rubrique">2) Action</label></p>
+      <list type="unordered">
+        <item>Coll : Villeneuve</item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Pompidou</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : V2</item>
+      </list>
+      <p><label type="rubrique">3) Bibliothèque oulipienne</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : distribution du numéro 13</item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : problème du numéro 14</item>
+      </list>
+      <p><label type="rubrique">4) Menus propos</label></p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : sortie *** E.V.</item>
+      </list>
+    </body>
   </text>
 </TEI>

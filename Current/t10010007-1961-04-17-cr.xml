@@ -1,126 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010007-1961-04-17-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010007-1961-04-17-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010007 pp. 1 à 3 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 17 avril 1961</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#brandonwilner">Brandon Wilner</name>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#camillevue">Camille Vue</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010007-1961-04-17-cr</idno> 
-               <meeting xml:id="t10010007-1961-04-17">
-                  <date when="1961-04-17">17 avril 1961</date>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau" role="président">Raymond Queneau</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:36:25Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010007 pp. 1 à 3 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 17 avril 1961</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#brandonwilner">Brandon Wilner</name>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#camillevue">Camille Vue</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010007-1961-04-17-cr</idno><meeting xml:id="t10010007-1961-04-17">
+          <date when="1961-04-17">17 avril 1961</date>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau" role="président">Raymond Queneau</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:36:25Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100073/f1.highres" n="1"/>
-         <p>
-            <label type="rubrique">Erratum :</label>
-         </p>
-         <p>Inclure, ligne 8 en partant du bas, entre « OuLiPo » et « Ce sera fait ». La phrase suivante qui a sauté à la composition :</p>
-         <p>« A ce sujet, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> précise qu’il est nécessaire d’étudier, au cours de notre prochaine séance, le contenu du <title ref="difdepo:titles.xml#dossierducollege">Dossier du Collège</title> qui sera consacré (pour moitié environ) aux activités OuLiPiennes. »</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100073/f2.highres" n="2"/>
-         <p rend="incipit">Circulaire n°6</p>
-         <p rend="incipit">OUVROIR <lb/>DE <lb/>LITTERATURE POTENTIELLE</p>
-         <p rend="incipit">Compte-rendu de la réunion</p>
-         <p rend="incipit">du lundi 17 avril 1961</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>.</p>
-         <p rend="incipit">Président : <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>.</p>
-         <p>Les absents s’étant excusés eux-mêmes, le <persName ref="difdepo:persons.xml#president">Président</persName> se donne la parole assez facilement, pour constater que :</p>
-         <list type="ordered">
-            <item>le point (a) de l’ordre du jour (les <term ref="difdepo:terms.xml#monosyllabes">monosyllabes</term> d’<persName ref="difdepo:persons.xml#amedeepommier">Amédée Pommier</persName>) est, en l’absence d’<persName ref="difdepo:persons.xml#amschmidt">A.M. Schmidt</persName>, exclu du dit ordre ;</item>
-         </list>
-         <list type="ordered">
-            <item>qu’il en est de même du point (c), en l’absence de <persName ref="difdepo:persons.xml#sexc">S. Exc</persName>. <persName ref="difdepo:persons.xml#qb">
-                  <abbr>Q.B.</abbr>
-               </persName> ;</item>
-         </list>
-         <list type="ordered">
-            <item>qu’en l’absence des mathématiciens, le point (b) doit être reporté à une date ultérieure</item>
-         </list>
-         <p>Ceci étant acquis, le <persName ref="difdepo:persons.xml#president">Président</persName> se lance dans un long exposé de cette <term ref="difdepo:terms.xml#loidestoupzipf">loi d’Estoup-Zipf</term>, objet du point (b). Divers mouvements sur tous les bancs suggèrent que les assistants perdent assez vite de vue la constante de cette <term ref="difdepo:terms.xml#loi">loi</term>. Un nouvel examen s’avère indispensable et aura lieu au cours d’un prochain déjeuner.</p>
-         <p>Le <persName ref="difdepo:persons.xml#president">Président</persName> s’engage à publier dans le prochain <title ref="difdepo:titles.xml#dossierducollege">Dossier du Collège</title> un communiqué annonçant la création de l’Oulipo. Ce sera fait.</p>
-         <p>Il était normal que ces occurrences portassent les OuLiPiens présents à s’interroger sur leur être même. Au terme de cette interrogation, ils aboutirent à deux définitions provisoirement péremptoires :</p>
-         <p>
-            <term ref="difdepo:terms.xml#oulipo">OuLiPo</term> : Organisme qui se propose d’examiner en quoi et par quel moyen, étant donnée une théorie scientifique concernant éventuellement le langage (donc : l’anthropologie), on peut y introduire du plaisir esthétique (affectivité et fantaisie).</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100073/f3.highres" n="3"/>
-         <p>
-            <term ref="difdepo:terms.xml#oulipiens">Oulipiens</term> : Rats qui ont à construire le <term ref="difdepo:terms.xml#labyrinthe">labyrinthe</term> dont ils se proposent de sortir. (1)</p>
-         <p>Voici que tourne à l’aigre une discussion sur le <title ref="difdepo:titles.xml#cratyle">Cratyle</title> entre <persName ref="difdepo:persons.xml#lescure">Lescure</persName> et <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. Le premier ayant jésuitiquement provoqué le second à commettre un affreux <term ref="difdepo:terms.xml#calembour">calembour</term> sur le « sot <title ref="difdepo:titles.xml#cratyle">Cratyle</title> », il est déclaré que « l’<term ref="difdepo:terms.xml#etymologie">étymologie</term> est une pente neigeuse qui nous entraîne dans un abîme de merdre » (2).</p>
-         <p>La séance est levée. (3)</p>
-         <p>(1) On aperçoit, sous les grands mots, toute la sournoiserie du cheminement. Car le <term ref="difdepo:terms.xml#labyrinthe">labyrinthe</term> dont on sort les plus aisément est évidemment celui que l’on a construit de ses mains. (Note de <persName ref="difdepo:persons.xml#qb">
-               <abbr>Q.B.</abbr>
-            </persName>)</p>
-         <p>(2) On voit où peut conduire l’absence des membres les plus avisés (Note de <persName ref="difdepo:persons.xml#ams">
-               <abbr>A.M.S.</abbr>
-            </persName>)</p>
-         <p>(3) Il était temps, en effet (&gt;Note de <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.L.L.</abbr>
-            </persName>)</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  :</p>
-         <p>VENDREDI 28 AVRIL 1961</p>
-         <p>Restaurant Laborderie, 40, rue de l’Université</p>
-         <p>Par intérim :</p>
-         <p>
-            <persName ref="difdepo:persons.xml#rq">
-               <abbr>R.Q.</abbr>
-            </persName> et <persName ref="difdepo:persons.xml#jl">
-               <abbr>J.L.</abbr>
-            </persName>
-         </p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100073/f1.highres" n="1"/>
+      <p><label type="rubrique">Erratum :</label></p>
+      <p>Inclure, ligne 8 en partant du bas, entre « OuLiPo » et « Ce sera fait ». La phrase suivante qui a sauté à la composition :</p>
+      <p>« A ce sujet, <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> précise qu’il est nécessaire d’étudier, au cours de notre prochaine séance, le contenu du <title ref="difdepo:titles.xml#dossierducollege">Dossier du Collège</title> qui sera consacré (pour moitié environ) aux activités OuLiPiennes. »</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100073/f2.highres" n="2"/>
+      <p rend="incipit">Circulaire n°6</p>
+      <p rend="incipit">OUVROIR <lb/>DE <lb/>LITTERATURE POTENTIELLE</p>
+      <p rend="incipit">Compte-rendu de la réunion</p>
+      <p rend="incipit">du lundi 17 avril 1961</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#jeanlescure">Jean Lescure</persName>, <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>, <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>.</p>
+      <p rend="incipit">Président : <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>.</p>
+      <p>Les absents s’étant excusés eux-mêmes, le <persName ref="difdepo:persons.xml#president">Président</persName> se donne la parole assez facilement, pour constater que :</p>
+      <list type="ordered">
+        <item>le point (a) de l’ordre du jour (les <term ref="difdepo:terms.xml#monosyllabes">monosyllabes</term> d’<persName ref="difdepo:persons.xml#amedeepommier">Amédée Pommier</persName>) est, en l’absence d’<persName ref="difdepo:persons.xml#amschmidt">A.M. Schmidt</persName>, exclu du dit ordre ;</item>
+      </list>
+      <list type="ordered">
+        <item>qu’il en est de même du point (c), en l’absence de <persName ref="difdepo:persons.xml#sexc">S. Exc</persName>. <persName ref="difdepo:persons.xml#qb"><abbr>Q.B.</abbr></persName> ;</item>
+      </list>
+      <list type="ordered">
+        <item>qu’en l’absence des mathématiciens, le point (b) doit être reporté à une date ultérieure</item>
+      </list>
+      <p>Ceci étant acquis, le <persName ref="difdepo:persons.xml#president">Président</persName> se lance dans un long exposé de cette <term ref="difdepo:terms.xml#loidestoupzipf">loi d’Estoup-Zipf</term>, objet du point (b). Divers mouvements sur tous les bancs suggèrent que les assistants perdent assez vite de vue la constante de cette <term ref="difdepo:terms.xml#loi">loi</term>. Un nouvel examen s’avère indispensable et aura lieu au cours d’un prochain déjeuner.</p>
+      <p>Le <persName ref="difdepo:persons.xml#president">Président</persName> s’engage à publier dans le prochain <title ref="difdepo:titles.xml#dossierducollege">Dossier du Collège</title> un communiqué annonçant la création de l’Oulipo. Ce sera fait.</p>
+      <p>Il était normal que ces occurrences portassent les OuLiPiens présents à s’interroger sur leur être même. Au terme de cette interrogation, ils aboutirent à deux définitions provisoirement péremptoires :</p>
+      <p><term ref="difdepo:terms.xml#oulipo">OuLiPo</term> : Organisme qui se propose d’examiner en quoi et par quel moyen, étant donnée une théorie scientifique concernant éventuellement le langage (donc : l’anthropologie), on peut y introduire du plaisir esthétique (affectivité et fantaisie).</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100073/f3.highres" n="3"/>
+      <p><term ref="difdepo:terms.xml#oulipiens">Oulipiens</term> : Rats qui ont à construire le <term ref="difdepo:terms.xml#labyrinthe">labyrinthe</term> dont ils se proposent de sortir. (1)</p>
+      <p>Voici que tourne à l’aigre une discussion sur le <title ref="difdepo:titles.xml#cratyle">Cratyle</title> entre <persName ref="difdepo:persons.xml#lescure">Lescure</persName> et <persName ref="difdepo:persons.xml#queneau">Queneau</persName>. Le premier ayant jésuitiquement provoqué le second à commettre un affreux <term ref="difdepo:terms.xml#calembour">calembour</term> sur le « sot <title ref="difdepo:titles.xml#cratyle">Cratyle</title> », il est déclaré que « l’<term ref="difdepo:terms.xml#etymologie">étymologie</term> est une pente neigeuse qui nous entraîne dans un abîme de merdre » (2).</p>
+      <p>La séance est levée. (3)</p>
+      <p>(1) On aperçoit, sous les grands mots, toute la sournoiserie du cheminement. Car le <term ref="difdepo:terms.xml#labyrinthe">labyrinthe</term> dont on sort les plus aisément est évidemment celui que l’on a construit de ses mains. (Note de <persName ref="difdepo:persons.xml#qb"><abbr>Q.B.</abbr></persName>)</p>
+      <p>(2) On voit où peut conduire l’absence des membres les plus avisés (Note de <persName ref="difdepo:persons.xml#ams"><abbr>A.M.S.</abbr></persName>)</p>
+      <p>(3) Il était temps, en effet (&gt;Note de <persName ref="difdepo:persons.xml#fll"><abbr>F.L.L.</abbr></persName>)</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  :</p>
+      <p>VENDREDI 28 AVRIL 1961</p>
+      <p>Restaurant Laborderie, 40, rue de l’Université</p>
+      <p>Par intérim :</p>
+      <p><persName ref="difdepo:persons.xml#rq"><abbr>R.Q.</abbr></persName> et <persName ref="difdepo:persons.xml#jl"><abbr>J.L.</abbr></persName></p>
+    </body>
   </text>
 </TEI>

@@ -1,211 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010238-1981-04-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010238-1981-04-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010238 pp. 4 à 6 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 24 avril 1981</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#matthieuverrier">Matthieu Verrier</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#mariaclara">Maria Clara</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010238-1981-04-cr</idno> 
-               <meeting xml:id="t10010238-1981-04">
-                  <date when="1981-04-24">24 avril 1981</date>
-                  <placeName>chez Marcel Bénabou</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort" role="secrétaire">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2018-01-06">restore placeName from docx</change>
-            <change when="2018-01-02">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-04-22T17:39:16Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010238 pp. 4 à 6 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 24 avril 1981</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#matthieuverrier">Matthieu Verrier</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#mariaclara">Maria Clara</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010238-1981-04-cr</idno><meeting xml:id="t10010238-1981-04">
+          <date when="1981-04-24">24 avril 1981</date>
+          <placeName>chez Marcel Bénabou</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesroubaud">Jacques Roubaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#georgesperec">Georges Perec</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort" role="secrétaire">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens" role="président">Jacques Bens</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2018-01-06">restore placeName from docx</change>
+        <change when="2018-01-02">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-04-22T17:39:16Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f4.highres" n="4"/>
-         <p rend="incipit">Réunion du 24 4 81</p>
-         <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> président</p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> secrétaire</p>
-         <p>
-            <persName ref="difdepo:persons.xml#mbenabou">M. Benabou</persName> (hôte)</p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#jduchateau">J Duchateau</persName>, <persName ref="difdepo:persons.xml#jqueval">J Queval</persName>, <persName ref="difdepo:persons.xml#jroubaud">J Roubaud</persName> puis <persName ref="difdepo:persons.xml#gperec">G Perec</persName>
-         </p>
-         <p>1. Etablissement de l’ordre du jour.</p>
-         <p>2. Appel et contrôle des présences. Renvoi à Novembre de l’invitation à <persName ref="difdepo:persons.xml#rsabatier">R. Sabatier</persName>. Projet de nourri chez <orgName ref="difdepo:organizations.xml#drouant">Drouant</orgName> (aux retransmissions en direct sur <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName>).</p>
-         <p>3. Point d’ordre par <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : récapitulé point obligé</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName> : memento.</p>
-         <p>
-            <label type="rubrique">4. Action</label>
-         </p>
-         <p>– <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : compte-rendu du <name ref="difdepo:events.xml#stagedevilleneuvelesavignon" type="manif">stage de Villeneuve-les-Avignon</name>.</p>
-         <p>Nécessité de préparer :</p>
-         <p>– Photothèque</p>
-         <p>– Publication jointe avec <orgName ref="difdepo:organizations.xml#circa">CIRCA</orgName>
-         </p>
-         <p>– JB contacte <persName ref="difdepo:persons.xml#jouanard">Jouanard</persName>
-         </p>
-         <p>– <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> 
-            <name ref="difdepo:events.xml#bourges" type="manif">Bourges</name>. Présentation ordinateur</p>
-         <p>– <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName> : Proposition d’atelier.</p>
-         <p>Tutti : Donner des <unclear>monneaud</unclear> : <persName ref="difdepo:persons.xml#marcel">
-               <abbr>Marcel</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName> participe postalement</p>
-         <p>
-            <title ref="difdepo:titles.xml#oulipo2">OULIPO 2</title> La publication pourrait avoir lieu dès Mai. Couverture <persName ref="difdepo:persons.xml#carelman">CARELMAN</persName>. Plus de 400 pages.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f5.highres" n="5"/>
-         <p>
-            <label type="rubrique">5. Créations</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jd">
-               <abbr>JD</abbr>
-            </persName> Retour de l’<term ref="difdepo:terms.xml#intersection">intersection</term>
-         </p>
-         <p>Rappel des travaux antérieurs.</p>
-         <p>Introduction d’une <term ref="difdepo:terms.xml#metrique">métrique</term> (en vue fonction)</p>
-         <p>Application à un travail sur <title ref="difdepo:titles.xml#sanctuaire">Sanctuaire</title>
-         </p>
-         <p>Projet de <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> au PB (coll. Méthode)</p>
-         <p>
-            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> (texte)</p>
-         <p>
-            <title ref="difdepo:titles.xml#leromancache">Le roman caché</title>.</p>
-         <p>
-            <title ref="difdepo:titles.xml#lefilsderubylamarr">Le fils de Ruby Lamarr</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName>. Formalisation fondée sur la considération de trois exemples de base !</p>
-         <p>Personnages-lieux-indice</p>
-         <p>
-            <persName ref="difdepo:persons.xml#jq">
-               <abbr>JQ</abbr>
-            </persName>. Présentation d’une séquence de <persName ref="difdepo:persons.xml#moreedlund">More-Edlund</persName> une intervention de <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> entraine un enchainement de plaisanterie.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#gp">
-               <abbr>GP</abbr>
-            </persName> 
-            <title ref="difdepo:titles.xml#cinquantetroisjours">Cinquante-trois jours</title> (WIP)</p>
-         <p>2 <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-         </p>
-         <p>
-            <title ref="difdepo:titles.xml#lacantatricesauve">La cantatrice sauve</title>. (83)</p>
-         <p>
-            <title ref="difdepo:titles.xml#beaupresent">Beau-présent</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#arnaud">Arnaud</persName> 
-            <persName ref="difdepo:persons.xml#benabou">Benabou</persName> 
-            <persName ref="difdepo:persons.xml#bens">Bens</persName> 
-            <persName ref="difdepo:persons.xml#berge">Berge</persName> 
-            <persName ref="difdepo:persons.xml#blavier">Blavier</persName> 
-            <persName ref="difdepo:persons.xml#braffort">Braffort</persName> 
-            <persName ref="difdepo:persons.xml#calvino">Calvino</persName> 
-            <persName ref="difdepo:persons.xml#sc">Chapman</persName> 
-            <persName ref="difdepo:persons.xml#chambers">Chambers</persName> 
-            <persName ref="difdepo:persons.xml#duchamp">Duchamp</persName> 
-            <persName ref="difdepo:persons.xml#duchateau">Duchateau</persName> 
-            <persName ref="difdepo:persons.xml#etienne">Etienne</persName> 
-            <persName ref="difdepo:persons.xml#fournel">Fournel</persName> 
-            <persName ref="difdepo:persons.xml#latis">Latis</persName> 
-            <persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName> 
-            <persName ref="difdepo:persons.xml#lescure">Lescure</persName> 
-            <persName ref="difdepo:persons.xml#metail">Métail</persName> 
-            <persName ref="difdepo:persons.xml#mathews">Mathews</persName> 
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> 
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> 
-            <persName ref="difdepo:persons.xml#queval">Queval</persName> 
-            <persName ref="difdepo:persons.xml#roubaud">Roubaud</persName> 
-            <persName ref="difdepo:persons.xml#schmidt">Schmidt</persName>
-         </p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f6.highres" n="6"/>
-         <p>
-            <label type="rubrique">6. Erudition</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jd">
-               <abbr>JD</abbr>
-            </persName> Livre de <persName ref="difdepo:persons.xml#todorov">Todorov</persName> et <persName ref="difdepo:persons.xml#bakhtine">Bakhtine</persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#kennethkoch">Kenneth Koch</persName> 
-            <persName ref="difdepo:persons.xml#jabigoudy">Jabi Goudy</persName>
-         </p>
-         <p>
-            <label type="rubrique">7. Menus propos</label>
-         </p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f4.highres" n="4"/>
+      <p rend="incipit">Réunion du 24 4 81</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jbens">J. Bens</persName> président</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName> secrétaire</p>
+      <p><persName ref="difdepo:persons.xml#mbenabou">M. Benabou</persName> (hôte)</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#jduchateau">J Duchateau</persName>, <persName ref="difdepo:persons.xml#jqueval">J Queval</persName>, <persName ref="difdepo:persons.xml#jroubaud">J Roubaud</persName> puis <persName ref="difdepo:persons.xml#gperec">G Perec</persName></p>
+      <p>1. Etablissement de l’ordre du jour.</p>
+      <p>2. Appel et contrôle des présences. Renvoi à Novembre de l’invitation à <persName ref="difdepo:persons.xml#rsabatier">R. Sabatier</persName>. Projet de nourri chez <orgName ref="difdepo:organizations.xml#drouant">Drouant</orgName> (aux retransmissions en direct sur <orgName ref="difdepo:organizations.xml#franceculture">France Culture</orgName>).</p>
+      <p>3. Point d’ordre par <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : récapitulé point obligé</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : memento.</p>
+      <p><label type="rubrique">4. Action</label></p>
+      <p>– <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : compte-rendu du <name ref="difdepo:events.xml#stagedevilleneuvelesavignon" type="manif">stage de Villeneuve-les-Avignon</name>.</p>
+      <p>Nécessité de préparer :</p>
+      <p>– Photothèque</p>
+      <p>– Publication jointe avec <orgName ref="difdepo:organizations.xml#circa">CIRCA</orgName></p>
+      <p>– JB contacte <persName ref="difdepo:persons.xml#jouanard">Jouanard</persName></p>
+      <p>– <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName><name ref="difdepo:events.xml#bourges" type="manif">Bourges</name>. Présentation ordinateur</p>
+      <p>– <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Proposition d’atelier.</p>
+      <p>Tutti : Donner des <unclear>monneaud</unclear> : <persName ref="difdepo:persons.xml#marcel"><abbr>Marcel</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> participe postalement</p>
+      <p><title ref="difdepo:titles.xml#oulipo2">OULIPO 2</title> La publication pourrait avoir lieu dès Mai. Couverture <persName ref="difdepo:persons.xml#carelman">CARELMAN</persName>. Plus de 400 pages.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f5.highres" n="5"/>
+      <p><label type="rubrique">5. Créations</label></p>
+      <p><persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> Retour de l’<term ref="difdepo:terms.xml#intersection">intersection</term></p>
+      <p>Rappel des travaux antérieurs.</p>
+      <p>Introduction d’une <term ref="difdepo:terms.xml#metrique">métrique</term> (en vue fonction)</p>
+      <p>Application à un travail sur <title ref="difdepo:titles.xml#sanctuaire">Sanctuaire</title></p>
+      <p>Projet de <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> au PB (coll. Méthode)</p>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> (texte)</p>
+      <p><title ref="difdepo:titles.xml#leromancache">Le roman caché</title>.</p>
+      <p><title ref="difdepo:titles.xml#lefilsderubylamarr">Le fils de Ruby Lamarr</title></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. Formalisation fondée sur la considération de trois exemples de base !</p>
+      <p>Personnages-lieux-indice</p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>. Présentation d’une séquence de <persName ref="difdepo:persons.xml#moreedlund">More-Edlund</persName> une intervention de <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> entraine un enchainement de plaisanterie.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName><title ref="difdepo:titles.xml#cinquantetroisjours">Cinquante-trois jours</title> (WIP)</p>
+      <p>2 <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></p>
+      <p><title ref="difdepo:titles.xml#lacantatricesauve">La cantatrice sauve</title>. (83)</p>
+      <p><title ref="difdepo:titles.xml#beaupresent">Beau-présent</title>.</p>
+      <p><persName ref="difdepo:persons.xml#arnaud">Arnaud</persName><persName ref="difdepo:persons.xml#benabou">Benabou</persName><persName ref="difdepo:persons.xml#bens">Bens</persName><persName ref="difdepo:persons.xml#berge">Berge</persName><persName ref="difdepo:persons.xml#blavier">Blavier</persName><persName ref="difdepo:persons.xml#braffort">Braffort</persName><persName ref="difdepo:persons.xml#calvino">Calvino</persName><persName ref="difdepo:persons.xml#sc">Chapman</persName><persName ref="difdepo:persons.xml#chambers">Chambers</persName><persName ref="difdepo:persons.xml#duchamp">Duchamp</persName><persName ref="difdepo:persons.xml#duchateau">Duchateau</persName><persName ref="difdepo:persons.xml#etienne">Etienne</persName><persName ref="difdepo:persons.xml#fournel">Fournel</persName><persName ref="difdepo:persons.xml#latis">Latis</persName><persName ref="difdepo:persons.xml#lelionnais">Le Lionnais</persName><persName ref="difdepo:persons.xml#lescure">Lescure</persName><persName ref="difdepo:persons.xml#metail">Métail</persName><persName ref="difdepo:persons.xml#mathews">Mathews</persName><persName ref="difdepo:persons.xml#perec">Perec</persName><persName ref="difdepo:persons.xml#queneau">Queneau</persName><persName ref="difdepo:persons.xml#queval">Queval</persName><persName ref="difdepo:persons.xml#roubaud">Roubaud</persName><persName ref="difdepo:persons.xml#schmidt">Schmidt</persName></p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010238j/f6.highres" n="6"/>
+      <p><label type="rubrique">6. Erudition</label></p>
+      <p><persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> Livre de <persName ref="difdepo:persons.xml#todorov">Todorov</persName> et <persName ref="difdepo:persons.xml#bakhtine">Bakhtine</persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName><persName ref="difdepo:persons.xml#kennethkoch">Kenneth Koch</persName><persName ref="difdepo:persons.xml#jabigoudy">Jabi Goudy</persName></p>
+      <p><label type="rubrique">7. Menus propos</label></p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>.</p>
+    </body>
   </text>
 </TEI>

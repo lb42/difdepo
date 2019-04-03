@@ -1,63 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010212-1979-01-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010212-1979-01-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010212 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 2 janvier 1979</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#mariaclaracarneiro">Maria Clara Carneiro</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010212-1979-01-cv</idno> 
-               <title>Convocation à <ref target="#t10010212-1979-01">une réunion Oulipo</ref>, envoyée le <date when="1979-01-02">2 janvier 1979</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-08-04T12:39:26Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010212 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 2 janvier 1979</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#mariaclaracarneiro">Maria Clara Carneiro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010212-1979-01-cv</idno><title>Convocation à <ref target="#t10010212-1979-01">une réunion Oulipo</ref>, envoyée le <date when="1979-01-02">2 janvier 1979</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-08-04T12:39:26Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102121/f1.highres" n="1"/>
-         <p rend="incipit">Oulipo</p>
-         <p rend="incipit">Paris le 2 janvier 1979.</p>
-         <p>Chers oulipiens,</p>
-         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le 11 janvier 1979 chez <persName ref="difdepo:persons.xml#dominiqueroussillon">DOMINIQUE ROUSSILLON</persName> au 23 route de la Reine (1er étage) à Boulogne.</p>
-         <p>Elle commencera à 11 heures.</p>
-         <p>Soyez assez aimables pour confirmer votre venue, dès réception de cette lettre, à <persName ref="difdepo:persons.xml#dominique">Dominique</persName> au 825.84.77 (les lettres risqueraient de souffrir du retard de celle-ci que je prends à mon compte).</p>
-         <p>Que l’année vous soit douce et que Oulipo 79 soit gai.</p>
-         <p>Bien à vous,</p>
-         <p>
-            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName>
-         </p>
-         <p>Un secrétaire lambin.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100102121/f1.highres" n="1"/>
+      <p rend="incipit">Oulipo</p>
+      <p rend="incipit">Paris le 2 janvier 1979.</p>
+      <p>Chers oulipiens,</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l’ouvroir aura lieu le 11 janvier 1979 chez <persName ref="difdepo:persons.xml#dominiqueroussillon">DOMINIQUE ROUSSILLON</persName> au 23 route de la Reine (1er étage) à Boulogne.</p>
+      <p>Elle commencera à 11 heures.</p>
+      <p>Soyez assez aimables pour confirmer votre venue, dès réception de cette lettre, à <persName ref="difdepo:persons.xml#dominique">Dominique</persName> au 825.84.77 (les lettres risqueraient de souffrir du retard de celle-ci que je prends à mon compte).</p>
+      <p>Que l’année vous soit douce et que Oulipo 79 soit gai.</p>
+      <p>Bien à vous,</p>
+      <p><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName></p>
+      <p>Un secrétaire lambin.</p>
+    </body>
   </text>
 </TEI>

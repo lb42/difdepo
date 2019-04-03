@@ -1,124 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010154-1973-10-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010154-1973-10-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010154 pp. 8 à 8 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 8 octobre 1973</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010154-1973-10-cr</idno> 
-               <meeting xml:id="t10010154-1973-10">
-                  <date when="1973-10-08">8 octobre 1973</date>
-                  <gap/>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:24:59Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010154 pp. 8 à 8 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 8 octobre 1973</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010154-1973-10-cr</idno><meeting xml:id="t10010154-1973-10">
+          <date when="1973-10-08">8 octobre 1973</date>
+          <gap/>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:24:59Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101546/f8.highres" n="8"/>
-         <p rend="incipit">8 Octobre 73</p>
-         <p rend="incipit">
-            <persName ref="difdepo:persons.xml#lescure">Lescure</persName> râle.</p>
-         <p rend="incipit">Il ne veut pas être président et décide de ne pas faire parler <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName>.</p>
-         <p rend="incipit">Invités :</p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#mauricejanet">Maurice Janet</persName> et sa femme. (<persName ref="difdepo:persons.xml#fll">
-                  <abbr>FLL</abbr>
-               </persName> a-t-il perdu la lettre de ce monsieur ?)</item>
-            <item>Mademoiselle Veuve <persName ref="difdepo:persons.xml#golon">Golon</persName>
-            </item>
-            <item>
-               <persName ref="difdepo:persons.xml#arnoldkaufmann">Arnold Kaufmann</persName> (« père » des <term ref="difdepo:terms.xml#ensemblesflous">ensembles flous</term>)</item>
-            <item>
-               <persName ref="difdepo:persons.xml#jeaneffel">Jean Effel</persName>
-            </item>
-         </list>
-         <p>Digression sur la greffe de cerveau</p>
-         <p>Arrivée de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lescure">Lescure</persName> a soif, il hurle.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#bens">Bens</persName> vient à Paris le 12 : il fait des bandes dessinées et du théâtre.</p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#queval">Queval</persName> : le double foyer : Il fait essayer des verres (en mousse) spiritualités.</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> trouve que ça ne s’améliore pas…</p>
-         <p>
-            <title ref="difdepo:titles.xml#letartuffe">Le Tartuffe</title> perpétué : mettre les répliques de Tartuffe dans la bouche des autres personnages</p>
-         <p>(ce qui oblige à mettre 1 personnage de plus)</p>
-         <p>À creuser</p>
-         <p>Y a-t-il des pièces où l’on puisse opérer des mutations ?</p>
-         <p>
-            <persName ref="difdepo:persons.xml#perec">Perec</persName> ne viendra même pas à l’improviste.</p>
-         <list type="unordered">
-            <item>
-               <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : <term ref="difdepo:terms.xml#palindromesbilingues">Palindromes bilingues</term>
-            </item>
-         </list>
-         <p>Qui sait lire l’anglais sans accent mais avec quand même un peu plus d’accent que <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
-         <p>Dans un sens c’est de l’anglais/ dans l’autre c’est du français</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> promet un modèle pour les archives.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">Queval</persName> trouve remarquable de faire des « choses comme ça » (sous réserve de voir)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : depuis le début on n’a pas fait grand-chose d’oulipien</p>
-         <p>Le langage n’est courant ni en anglais ni en français</p>
-         <p>« oublions nos querelles voici que s’avance le vitrier boiteux » de <persName ref="difdepo:persons.xml#pierrejoinul">Pierre Joinul</persName>
-         </p>
-         <p>Édition : <orgName ref="difdepo:organizations.xml#georgesgerard">Georges Gérard</orgName>, Paris.</p>
-         <p>
-            <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> « m »</p>
-         <p>(il supprime le m purement et simplement)</p>
-         <p>Ce n’est pas un <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> « inc(r)oyable » même principe.</p>
-         <p>ce qui serait intéressant : anuscrit (manuscrit)</p>
-         <p>à elle (mamelle)</p>
-         <p>ou alors ajouter des lettres (signes : javanais-louchebem)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">Queneau</persName> : une nouvelle forme poétique (à paraître)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#claudel">Claudel</persName> sur la <term ref="difdepo:terms.xml#contrainte">contrainte</term> page 28. Conversation dans le Loir et Cher.</p>
-         <p>
-            <title ref="difdepo:titles.xml#ilcaffe">Il Caffè</title> : Réunion oulipesque : fondation d’un groupe oulipien en Italie</p>
-         <p>
-            <orgName ref="difdepo:organizations.xml#scrilab">Scrilab</orgName>. (<orgName ref="difdepo:organizations.xml#scrilab">SCRILAB</orgName>)</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101546/f8.highres" n="8"/>
+      <p rend="incipit">8 Octobre 73</p>
+      <p rend="incipit"><persName ref="difdepo:persons.xml#lescure">Lescure</persName> râle.</p>
+      <p rend="incipit">Il ne veut pas être président et décide de ne pas faire parler <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>.</p>
+      <p rend="incipit">Invités :</p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#mauricejanet">Maurice Janet</persName> et sa femme. (<persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> a-t-il perdu la lettre de ce monsieur ?)</item>
+        <item>Mademoiselle Veuve <persName ref="difdepo:persons.xml#golon">Golon</persName></item>
+        <item><persName ref="difdepo:persons.xml#arnoldkaufmann">Arnold Kaufmann</persName> (« père » des <term ref="difdepo:terms.xml#ensemblesflous">ensembles flous</term>)</item>
+        <item><persName ref="difdepo:persons.xml#jeaneffel">Jean Effel</persName></item>
+      </list>
+      <p>Digression sur la greffe de cerveau</p>
+      <p>Arrivée de <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#lescure">Lescure</persName> a soif, il hurle.</p>
+      <p><persName ref="difdepo:persons.xml#bens">Bens</persName> vient à Paris le 12 : il fait des bandes dessinées et du théâtre.</p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#queval">Queval</persName> : le double foyer : Il fait essayer des verres (en mousse) spiritualités.</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName> trouve que ça ne s’améliore pas…</p>
+      <p><title ref="difdepo:titles.xml#letartuffe">Le Tartuffe</title> perpétué : mettre les répliques de Tartuffe dans la bouche des autres personnages</p>
+      <p>(ce qui oblige à mettre 1 personnage de plus)</p>
+      <p>À creuser</p>
+      <p>Y a-t-il des pièces où l’on puisse opérer des mutations ?</p>
+      <p><persName ref="difdepo:persons.xml#perec">Perec</persName> ne viendra même pas à l’improviste.</p>
+      <list type="unordered">
+        <item><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> : <term ref="difdepo:terms.xml#palindromesbilingues">Palindromes bilingues</term></item>
+      </list>
+      <p>Qui sait lire l’anglais sans accent mais avec quand même un peu plus d’accent que <persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName>.</p>
+      <p>Dans un sens c’est de l’anglais/ dans l’autre c’est du français</p>
+      <p><persName ref="difdepo:persons.xml#lucetienne">Luc Etienne</persName> promet un modèle pour les archives.</p>
+      <p><persName ref="difdepo:persons.xml#queval">Queval</persName> trouve remarquable de faire des « choses comme ça » (sous réserve de voir)</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : depuis le début on n’a pas fait grand-chose d’oulipien</p>
+      <p>Le langage n’est courant ni en anglais ni en français</p>
+      <p>« oublions nos querelles voici que s’avance le vitrier boiteux » de <persName ref="difdepo:persons.xml#pierrejoinul">Pierre Joinul</persName></p>
+      <p>Édition : <orgName ref="difdepo:organizations.xml#georgesgerard">Georges Gérard</orgName>, Paris.</p>
+      <p><term ref="difdepo:terms.xml#lipogramme">lipogramme</term> « m »</p>
+      <p>(il supprime le m purement et simplement)</p>
+      <p>Ce n’est pas un <term ref="difdepo:terms.xml#lipogramme">lipogramme</term> « inc(r)oyable » même principe.</p>
+      <p>ce qui serait intéressant : anuscrit (manuscrit)</p>
+      <p>à elle (mamelle)</p>
+      <p>ou alors ajouter des lettres (signes : javanais-louchebem)</p>
+      <p><persName ref="difdepo:persons.xml#queneau">Queneau</persName> : une nouvelle forme poétique (à paraître)</p>
+      <p><persName ref="difdepo:persons.xml#claudel">Claudel</persName> sur la <term ref="difdepo:terms.xml#contrainte">contrainte</term> page 28. Conversation dans le Loir et Cher.</p>
+      <p><title ref="difdepo:titles.xml#ilcaffe">Il Caffè</title> : Réunion oulipesque : fondation d’un groupe oulipien en Italie</p>
+      <p><orgName ref="difdepo:organizations.xml#scrilab">Scrilab</orgName>. (<orgName ref="difdepo:organizations.xml#scrilab">SCRILAB</orgName>)</p>
+    </body>
   </text>
 </TEI>

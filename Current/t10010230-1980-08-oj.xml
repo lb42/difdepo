@@ -1,141 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010230-1980-08-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010230-1980-08-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010230 pp. 7 à 7 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 8 août 1980</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#helenecampaignolle">Hélène Campaignolle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#natalieberkman">Natalie Berkman</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010230-1980-08-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010230-1980-08">la réunion Oulipo</ref> de <date when="1980-08-08">8 août 1980</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-03-19" who="HCC">nettoyage des commentaires/notes</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:34:19Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010230 pp. 7 à 7 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 8 août 1980</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#helenecampaignolle">Hélène Campaignolle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#natalieberkman">Natalie Berkman</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010230-1980-08-oj</idno><title>Ordre de jour de <ref target="#t10010230-1980-08">la réunion Oulipo</ref> de <date when="1980-08-08">8 août 1980</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-03-19" who="HCC">nettoyage des commentaires/notes</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:34:19Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010230z/f7.highres" n="7"/>
-         <p rend="incipit">Ordre du jour 8/8/80</p>
-         <p>
-            <label type="rubrique">Créations :</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : Collaboration au <title ref="difdepo:titles.xml#nvalentinbru">n° Valentin Brû</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : idem</p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : idem</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : idem</p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : idem</p>
-         <p>
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName> : Un nouvel Opéra de <persName ref="difdepo:persons.xml#mozart">Mozart</persName>
-         </p>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#jb">
-               <abbr>JB</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : <term ref="difdepo:terms.xml#oulipopedago">Oulipo pédago</term>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> ; <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title> / <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : <persName ref="difdepo:persons.xml#pierreange">Pierre Angé</persName>, <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pb">
-               <abbr>PB</abbr>
-            </persName> : <name ref="difdepo:events.xml#pompidou" type="manif">Pompidou</name> 2</p>
-         <p>
-            <label type="rubrique">
-               <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
-            </label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName> : <title ref="difdepo:titles.xml#n14">n°14</title>/ <orgName ref="difdepo:organizations.xml#pol">POL</orgName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : Phynances</p>
-         <p>
-            <label type="rubrique">Phynances</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#mb">
-               <abbr>MB</abbr>
-            </persName> : <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name>
-         </p>
-         <p>
-            <label type="rubrique">Menus Propos</label>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#fll">
-               <abbr>FLL</abbr>
-            </persName> : Raba</p>
-         <p>Souris chouette grenouille</p>
-         <p>La <term ref="difdepo:terms.xml#metempsychose">métempsychose</term> : les <unclear>cysygies</unclear> en littérature (reportez cela !)</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010230z/f7.highres" n="7"/>
+      <p rend="incipit">Ordre du jour 8/8/80</p>
+      <p><label type="rubrique">Créations :</label></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : Collaboration au <title ref="difdepo:titles.xml#nvalentinbru">n° Valentin Brû</title></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : idem</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Un nouvel Opéra de <persName ref="difdepo:persons.xml#mozart">Mozart</persName></p>
+      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#villeneuvelesavignon" type="manif">Villeneuve-lès-Avignon</name></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <term ref="difdepo:terms.xml#oulipopedago">Oulipo pédago</term></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> ; <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title> / <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : <persName ref="difdepo:persons.xml#pierreange">Pierre Angé</persName>, <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title></p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <name ref="difdepo:events.xml#pompidou" type="manif">Pompidou</name> 2</p>
+      <p><label type="rubrique"><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title></label></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#n14">n°14</title>/ <orgName ref="difdepo:organizations.xml#pol">POL</orgName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Phynances</p>
+      <p><label type="rubrique">Phynances</label></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <name ref="difdepo:events.xml#villeneuve" type="manif">Villeneuve</name></p>
+      <p><label type="rubrique">Menus Propos</label></p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Raba</p>
+      <p>Souris chouette grenouille</p>
+      <p>La <term ref="difdepo:terms.xml#metempsychose">métempsychose</term> : les <unclear>cysygies</unclear> en littérature (reportez cela !)</p>
+    </body>
   </text>
 </TEI>

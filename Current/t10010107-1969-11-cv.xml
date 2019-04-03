@@ -1,62 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010107-1969-11-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010107-1969-11-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010107 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 26 novembre 1969</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010107-1969-11-cv</idno> 
-               <title>Convocation à <ref target="#t10010107-1969-11">une réunion Oulipo</ref>, envoyée le <date when="1969-11-26">26 novembre 1969</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-09">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010107 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 26 novembre 1969</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010107-1969-11-cv</idno><title>Convocation à <ref target="#t10010107-1969-11">une réunion Oulipo</ref>, envoyée le <date when="1969-11-26">26 novembre 1969</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-09">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010107g/f1.highres" n="1"/>
-         <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
-         <p>le 26 Novembre 1969</p>
-         <p>Chers Brigadiers,</p>
-         <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> OuLiPo aura lieu le: <lb/>Vendredi 7 Novembre 1969 à 16 heures chez <persName ref="difdepo:persons.xml#fll">
-               <abbr>F.LL.</abbr>
-            </persName>
-         </p>
-         <p>À l’ordre du jour :</p>
-         <p>– Achèvement ( ? ? ! ! …) du <title ref="difdepo:titles.xml#dossiercape">dossier Cape</title>.</p>
-         <p>– Plan d’une étude plus générale des structures du roman policier.</p>
-         <p>– Menus propos.</p>
-         <p>– La séance sera impérieusement levée à 19 heures au plus tard.</p>
-         <p>OuLiPiennement vôtre</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010107g/f1.highres" n="1"/>
+      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605 90-13</p>
+      <p>le 26 Novembre 1969</p>
+      <p>Chers Brigadiers,</p>
+      <p>Notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> OuLiPo aura lieu le: <lb/>Vendredi 7 Novembre 1969 à 16 heures chez <persName ref="difdepo:persons.xml#fll"><abbr>F.LL.</abbr></persName></p>
+      <p>À l’ordre du jour :</p>
+      <p>– Achèvement ( ? ? ! ! …) du <title ref="difdepo:titles.xml#dossiercape">dossier Cape</title>.</p>
+      <p>– Plan d’une étude plus générale des structures du roman policier.</p>
+      <p>– Menus propos.</p>
+      <p>– La séance sera impérieusement levée à 19 heures au plus tard.</p>
+      <p>OuLiPiennement vôtre</p>
+    </body>
   </text>
 </TEI>

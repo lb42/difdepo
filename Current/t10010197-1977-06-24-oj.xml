@@ -1,114 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-24-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010197-1977-06-24-oj">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010197 pp. 33 à 33 (OJ) : version TEI</title>
-            <title type="sub">Ordre du jour de la réunion du 24 juin 1977</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010197-1977-06-24-oj</idno> 
-               <title>Ordre de jour de <ref target="#t10010197-1977-06-24">la réunion Oulipo</ref> de <date when="1977-06-24">24 juin 1977</date>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-13T17:31:05Z">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010197 pp. 33 à 33 (OJ) : version TEI</title>
+        <title type="sub">Ordre du jour de la réunion du 24 juin 1977</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010197-1977-06-24-oj</idno><title>Ordre de jour de <ref target="#t10010197-1977-06-24">la réunion Oulipo</ref> de <date when="1977-06-24">24 juin 1977</date></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-13T17:31:05Z">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="oj">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f33.highres"
-             n="33"/>
-         <p rend="incipit">Séance du 24/6/77</p>
-         <p>Ordre du jour</p>
-         <list type="ordered">
-            <item>Action :</item>
-         </list>
-         <p>
-            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> hommage à <persName ref="difdepo:persons.xml#queneau">Queneau</persName>
-         </p>
-         <p>
-            <name ref="difdepo:events.xml#avignon" type="manif">Avignon</name> Manuel scolaire</p>
-         <p>
-            <title ref="difdepo:titles.xml#oulipo2">OULIPO 2</title> Emission <orgName ref="difdepo:organizations.xml#radioscolaire">Radio Scolaire</orgName>
-         </p>
-         <p>
-            <orgName ref="difdepo:organizations.xml#pompidou">Pompidou</orgName>
-         </p>
-         <list type="ordered">
-            <item>Création</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#jq">
-               <abbr>JQ</abbr>
-            </persName> 
-            <term ref="difdepo:terms.xml#pagesalternees">Pages alternées</term>
-         </p>
-         <p>
-            <term ref="difdepo:terms.xml#sonnetsprosaiques">Sonnets prosaïques</term>
-         </p>
-         <list type="ordered">
-            <item>Retombés</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName> 
-            <persName ref="difdepo:persons.xml#le">
-               <abbr>LE</abbr>
-            </persName>
-         </p>
-         <list type="ordered">
-            <item>Phynances</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#pf">
-               <abbr>PF</abbr>
-            </persName>
-         </p>
-         <list type="ordered">
-            <item>Menu propos</item>
-         </list>
-         <p>
-            <persName ref="difdepo:persons.xml#jq">
-               <abbr>JQ</abbr>
-            </persName>
-         </p>
-         <p>
-            <persName ref="difdepo:persons.xml#hm">
-               <abbr>HM</abbr>
-            </persName>
-         </p>
-         <list type="ordered">
-            <item>Epilogue</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101976/f33.highres" n="33"/>
+      <p rend="incipit">Séance du 24/6/77</p>
+      <p>Ordre du jour</p>
+      <list type="ordered">
+        <item>Action :</item>
+      </list>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> hommage à <persName ref="difdepo:persons.xml#queneau">Queneau</persName></p>
+      <p><name ref="difdepo:events.xml#avignon" type="manif">Avignon</name> Manuel scolaire</p>
+      <p><title ref="difdepo:titles.xml#oulipo2">OULIPO 2</title> Emission <orgName ref="difdepo:organizations.xml#radioscolaire">Radio Scolaire</orgName></p>
+      <p><orgName ref="difdepo:organizations.xml#pompidou">Pompidou</orgName></p>
+      <list type="ordered">
+        <item>Création</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName><term ref="difdepo:terms.xml#pagesalternees">Pages alternées</term></p>
+      <p><term ref="difdepo:terms.xml#sonnetsprosaiques">Sonnets prosaïques</term></p>
+      <list type="ordered">
+        <item>Retombés</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName></p>
+      <list type="ordered">
+        <item>Phynances</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <list type="ordered">
+        <item>Menu propos</item>
+      </list>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <list type="ordered">
+        <item>Epilogue</item>
+      </list>
+    </body>
   </text>
 </TEI>

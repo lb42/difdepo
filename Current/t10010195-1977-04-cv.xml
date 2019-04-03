@@ -1,62 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010195-1977-04-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010195-1977-04-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010195 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 12 avril 1977</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#alessandrascaccuto">Alessandra Scaccuto</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010195-1977-04-cv</idno> 
-               <title>Convocation à <ref target="#t10010195-1977-04">une réunion Oulipo</ref>, envoyée le <date when="1977-04-12">12 avril 1977</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2018-01-09">restore senders from docx</change>
-            <change when="2018-01-06">restore date from docx</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2016-12">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010195 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 12 avril 1977</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#alessandrascaccuto">Alessandra Scaccuto</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010195-1977-04-cv</idno><title>Convocation à <ref target="#t10010195-1977-04">une réunion Oulipo</ref>, envoyée le <date when="1977-04-12">12 avril 1977</date> par <persName ref="difdepo:persons.xml#paulfournel" role="expéditeur">Paul Fournel</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2018-01-09">restore senders from docx</change>
+        <change when="2018-01-06">restore date from docx</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2016-12">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f1.highres" n="1"/>
-         <p rend="incipit">OULIPO</p>
-         <p rend="incipit">
-            <placeName>Paris</placeName> le 12 Avril 77.</p>
-         <p>Brigadiers,</p>
-         <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l'Ouvroir aura lieu le jeudi 21 Avril à II heures chez <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>:</p>
-         <p>7 villa Duthy <lb/>75014 <placeName>Paris</placeName> 
-            <lb/>542 41 68</p>
-         <p>Il y sera question du volume "à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">bibliothèque oulipienne</title> et des quelques trois ou quatre volumes à venir. On y touchera quelques nots des status, du volume 2 et tout se passera dans l'harmonie si vous retournez sans tarder la découpe ci-dessous à <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</p>
-         <p>Au jeudi 21, oulipiennement, <lb/>
-            <persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName> 
-            <lb/>Un secrétaire.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101959/f1.highres" n="1"/>
+      <p rend="incipit">OULIPO</p>
+      <p rend="incipit"><placeName>Paris</placeName> le 12 Avril 77.</p>
+      <p>Brigadiers,</p>
+      <p>La <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> de l'Ouvroir aura lieu le jeudi 21 Avril à II heures chez <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>:</p>
+      <p>7 villa Duthy <lb/>75014 <placeName>Paris</placeName><lb/>542 41 68</p>
+      <p>Il y sera question du volume "à <persName ref="difdepo:persons.xml#queneau">Queneau</persName> de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">bibliothèque oulipienne</title> et des quelques trois ou quatre volumes à venir. On y touchera quelques nots des status, du volume 2 et tout se passera dans l'harmonie si vous retournez sans tarder la découpe ci-dessous à <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>.</p>
+      <p>Au jeudi 21, oulipiennement, <lb/><persName ref="difdepo:persons.xml#paulfournel">Paul Fournel</persName><lb/>Un secrétaire.</p>
+    </body>
   </text>
 </TEI>

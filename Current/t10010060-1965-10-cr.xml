@@ -1,149 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010060-1965-10-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010060-1965-10-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010060 pp. 1 à 3 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 29 octobre 1965</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#reneealtergott">Renee Altergott</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010060-1965-10-cr</idno> 
-               <meeting xml:id="t10010060-1965-10">
-                  <date when="1965-10-29">29 octobre 1965</date>
-                  <placeName>Basque</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesduchateau" role="secrétaire">Jacques Duchateau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#ab">André Blavier</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#latis">Latis</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-11-12">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010060 pp. 1 à 3 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 29 octobre 1965</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#reneealtergott">Renee Altergott</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010060-1965-10-cr</idno><meeting xml:id="t10010060-1965-10">
+          <date when="1965-10-29">29 octobre 1965</date>
+          <placeName>Basque</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#paulbraffort" role="président">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesduchateau" role="secrétaire">Jacques Duchateau</persName></item>
+            <item><persName ref="difdepo:persons.xml#jeanqueval">Jean Queval</persName></item>
+            <item><persName ref="difdepo:persons.xml#ab">André Blavier</persName></item>
+            <item><persName ref="difdepo:persons.xml#raymondqueneau">Raymond Queneau</persName></item>
+            <item><persName ref="difdepo:persons.xml#francoislelionnais">François Le Lionnais</persName></item>
+            <item><persName ref="difdepo:persons.xml#latis">Latis</persName></item>
+            <item><persName ref="difdepo:persons.xml#claudeberge">Claude Berge</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-11-12">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010060f/f1.highres" n="1"/>
-         <p rend="incipit">Ouvroir de Littérature Potentielle</p>
-         <p>Circulaire n° 65</p>
-         <p>Compte-Rendu de la Réunion du 20 Octobre 1965</p>
-         <p>(Basque)</p>
-         <p>Présents : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>.</p>
-         <p>Président : <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’avais parlé d’un anglais qui avait écrit un roman sans utiliser la lettre E. J’ai trouvé beaucoup mieux dans la <title ref="difdepo:titles.xml#semaineespagnole">Semaine espagnole</title> du 4 octobre 1965, n°156. (<ref>Annexe I</ref>.)</p>
-         <p>
-            <persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Dans un ouvrage intitulé « <title ref="difdepo:titles.xml#lesrolesmasculinsetfeminins">Les rôles masculins et féminins</title> » de <persName ref="difdepo:persons.xml#annemarierocheblavespente">Anne-Marie Rocheblave-Spente</persName> paru aux <orgName ref="difdepo:organizations.xml#puf">P.U.F.</orgName> (1965), on peut trouver un matériau précieux pour la rédaction d’un roman. Une centaine d’adjectifs et une trentaine de « propriétés » (du goût pour la métaphysique à celui de la propreté) sont classées, avec des pourcentages, suivant que la qualité considérée convienne mieux à un homme ou à une femme. Deux milieux étudiés : étudiants français et étudiants allemands.</p>
-         <p>Cela pourrait fournir une intéressante base psychologique a priori pour un roman sur le rapprochement franco-allemand, par exemple.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Il faudrait songer à établir, et entretenir, la bibliographie des ouvrages dont il a été parlé à l’OuLiPo et qui peuvent, effectivement, nous être utile un jour.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Puisqu’on en est à l’administration : est-ce que l’OuLiPo ne devrait pas avoir un papier à lettre à en-tête ?</p>
-         <p>(Ces deux propositions sont adoptées).</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Toujours dans l’administration : nous avions dit que nous étions contre <title ref="difdepo:titles.xml#lacene">la Cène</title> pour le timbre OuLiPo. Or j’ai lu avec un certain étonnement dans le dernier Compte-Rendu que nous étions pour.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Je résume nos propos concernant le projet Capman : Pas assez abstrait, trop de choses, pas la <title ref="difdepo:titles.xml#cene">Cène</title>, pas les moyens de faire quelque chose d’aussi compliqué.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’ai découvert un libanais qui a fait des <term ref="difdepo:terms.xml#centons">centons</term>, très intéressants avec <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName>. J’aurai l’occasion d’en reparler lorsque je l’aurai lu attentivement. Il m’a semblé que les Turcs, qui pullulent dans <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName>, étaient fortement mis à contribution : l’auteur est Arménien, il porte aux Turcs des sentiments mitigés.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010060f/f2.highres" n="2"/>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il existe une vie du Christ en <term ref="difdepo:terms.xml#centons">centons</term> de l’<title ref="difdepo:titles.xml#odyssee">Odyssée</title>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Au cours d’un voyage (passionnant) en U.R.S.S., j’ai rencontré <persName ref="difdepo:persons.xml#klerhnikov">Klerhnikov</persName> : il a écrit des <term ref="difdepo:terms.xml#poemesalenvers">poèmes à l’envers</term>, et aussi en utilisant le <term ref="difdepo:terms.xml#langagedesoiseaux">langage des oiseaux</term>. Sous <persName ref="difdepo:persons.xml#lenine">Lénine</persName>, des quantités de travaux de ce genre ont pu être effectuées.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#blavier">BLAVIER</persName> :</p>
-         <p>1) A Verviers, nous avons vu <title ref="difdepo:titles.xml#uburoi">Ubu-Roi</title> deux fois, notamment une fois joué par des Tchèques : Ubu ressemblait à un flic du type <persName ref="difdepo:persons.xml#blier">Blier</persName>.</p>
-         <p>2) Dans une revue belge, on a parlé de <title ref="difdepo:titles.xml#tristesse">Tristesse</title> d’Oulipo.</p>
-         <p>3) Enfin, je voudrais signaler un travail de <persName ref="difdepo:persons.xml#themerson">Thémerson</persName> : il remplace les mots d’un texte par la définition donnée dans le dictionnaire. Exemple : étudiant devient : personne qui consacre son temps à l’étude.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#berge">BERGE</persName> : Dans mes archives familiales, j’ai trouvé un exemple d’<term ref="difdepo:terms.xml#acrosticheinterieur">acrostiche intérieur</term> sur le thème « Honneur à l’homme de bien » et qui donne le nom de <persName ref="difdepo:persons.xml#felixfaure">Félix Faure</persName>.</p>
-         <p>(L’exemple, sur carton d’époque, rehaussé de couleurs, le tout en bon état, et d’un intérêt remarquable, circule dans un silence religieux et concupiscent).</p>
-         <p>
-            <name ref="difdepo:events.xml#congres" type="manif">Congrès</name> du mi-millénaire : Réunion préparatoire Basque 26 novembre – 12h30.</p>
-         <p>Le <name ref="difdepo:events.xml#congres" type="manif">Congrès</name> n’ayant pu avoir lieu quelque part en France, à la Toussaint, les hôteliers voulant nous contraindre à partager un nombre de chambres, nettement insuffisant pour que le bon renom de l’OuLiPo ne s’en trouvât pas altéré, ledit <name ref="difdepo:events.xml#congres" type="manif">Congrès</name>, sur proposition de <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, fut renvoyé aux dimanche 26 et lundi 27 décembre, quelque part chez <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>. (Participation aux frais, supplément pour la sieste. Le soir chacun rentre chez soi).</p>
-         <p>On est prié de prévoir de quoi meubler substantiellement les séances de travail, au nombre de quatre.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je parlerai des <term ref="difdepo:terms.xml#formesfixes">formes fixes</term> dans le roman.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Moi du <term ref="difdepo:terms.xml#voisinage">voisinage</term>.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : En U.R.S.S., j’ai vu une vache nommée « Notation », qui a eu, en guise de veau, un élan.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : C’est un voisinage module U.R.S.S.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : J’allais le dire.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je te comprends.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Tu me précèdes.</p>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010060f/f3.highres" n="3"/>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Messieurs, voici un projet : il s’agit d’un texte de physique. Il y a 17 paragraphes, c’est très émouvant, l’auteur dit qu’il y a 14 ans, il avait cru que…, et aujourd’hui il revient dans les mêmes lieux pour parler du même sujet, et il doit constater que…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : C’est la tristesse d’Olympio.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Le champ électro-magnétique et la gravitation sont les thèmes. Il faut réaliser un <term ref="difdepo:terms.xml#isomorphisme">isomorphisme</term> : l’adultère = électro-magnétique, la famille = gravitation, etc…</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : <persName ref="difdepo:persons.xml#butor">Butor</persName> avec <persName ref="difdepo:persons.xml#julesverne">Jules Verne</persName> avait fait un travail « faussement » semblable : électricité c’était la grâce divine, le Capitaine Némo = Dieu, etc.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : C’était de la <term ref="difdepo:terms.xml#projection">projection</term>, nous, nous isomorphisons.</p>
-         <p>
-            <persName ref="difdepo:persons.xml#latis">LATIS</persName> : Bien sûr.</p>
-         <p>
-            <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> : Basque 26 novembre – 12 heures 30.</p>
-         <p>Mi-millénaire : 26 et 27 décembre chez <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>.</p>
-         <p>Le S.P.</p>
-         <p>J.D.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010060f/f1.highres" n="1"/>
+      <p rend="incipit">Ouvroir de Littérature Potentielle</p>
+      <p>Circulaire n° 65</p>
+      <p>Compte-Rendu de la Réunion du 20 Octobre 1965</p>
+      <p>(Basque)</p>
+      <p>Présents : <persName ref="difdepo:persons.xml#pbraffort">P. Braffort</persName>, <persName ref="difdepo:persons.xml#jqueval">J. Queval</persName>, <persName ref="difdepo:persons.xml#ablavier">A. Blavier</persName>, <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jduchateau">J. Duchateau</persName>, <persName ref="difdepo:persons.xml#latis">Latis</persName>, <persName ref="difdepo:persons.xml#cberge">C. Berge</persName>.</p>
+      <p>Président : <persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’avais parlé d’un anglais qui avait écrit un roman sans utiliser la lettre E. J’ai trouvé beaucoup mieux dans la <title ref="difdepo:titles.xml#semaineespagnole">Semaine espagnole</title> du 4 octobre 1965, n°156. (<ref>Annexe I</ref>.)</p>
+      <p><persName ref="difdepo:persons.xml#duchateau">DUCHATEAU</persName> : Dans un ouvrage intitulé « <title ref="difdepo:titles.xml#lesrolesmasculinsetfeminins">Les rôles masculins et féminins</title> » de <persName ref="difdepo:persons.xml#annemarierocheblavespente">Anne-Marie Rocheblave-Spente</persName> paru aux <orgName ref="difdepo:organizations.xml#puf">P.U.F.</orgName> (1965), on peut trouver un matériau précieux pour la rédaction d’un roman. Une centaine d’adjectifs et une trentaine de « propriétés » (du goût pour la métaphysique à celui de la propreté) sont classées, avec des pourcentages, suivant que la qualité considérée convienne mieux à un homme ou à une femme. Deux milieux étudiés : étudiants français et étudiants allemands.</p>
+      <p>Cela pourrait fournir une intéressante base psychologique a priori pour un roman sur le rapprochement franco-allemand, par exemple.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Il faudrait songer à établir, et entretenir, la bibliographie des ouvrages dont il a été parlé à l’OuLiPo et qui peuvent, effectivement, nous être utile un jour.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Puisqu’on en est à l’administration : est-ce que l’OuLiPo ne devrait pas avoir un papier à lettre à en-tête ?</p>
+      <p>(Ces deux propositions sont adoptées).</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Toujours dans l’administration : nous avions dit que nous étions contre <title ref="difdepo:titles.xml#lacene">la Cène</title> pour le timbre OuLiPo. Or j’ai lu avec un certain étonnement dans le dernier Compte-Rendu que nous étions pour.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Je résume nos propos concernant le projet Capman : Pas assez abstrait, trop de choses, pas la <title ref="difdepo:titles.xml#cene">Cène</title>, pas les moyens de faire quelque chose d’aussi compliqué.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : J’ai découvert un libanais qui a fait des <term ref="difdepo:terms.xml#centons">centons</term>, très intéressants avec <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName>. J’aurai l’occasion d’en reparler lorsque je l’aurai lu attentivement. Il m’a semblé que les Turcs, qui pullulent dans <persName ref="difdepo:persons.xml#shakespeare">Shakespeare</persName>, étaient fortement mis à contribution : l’auteur est Arménien, il porte aux Turcs des sentiments mitigés.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010060f/f2.highres" n="2"/>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Il existe une vie du Christ en <term ref="difdepo:terms.xml#centons">centons</term> de l’<title ref="difdepo:titles.xml#odyssee">Odyssée</title>.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Au cours d’un voyage (passionnant) en U.R.S.S., j’ai rencontré <persName ref="difdepo:persons.xml#klerhnikov">Klerhnikov</persName> : il a écrit des <term ref="difdepo:terms.xml#poemesalenvers">poèmes à l’envers</term>, et aussi en utilisant le <term ref="difdepo:terms.xml#langagedesoiseaux">langage des oiseaux</term>. Sous <persName ref="difdepo:persons.xml#lenine">Lénine</persName>, des quantités de travaux de ce genre ont pu être effectuées.</p>
+      <p><persName ref="difdepo:persons.xml#blavier">BLAVIER</persName> :</p>
+      <p>1) A Verviers, nous avons vu <title ref="difdepo:titles.xml#uburoi">Ubu-Roi</title> deux fois, notamment une fois joué par des Tchèques : Ubu ressemblait à un flic du type <persName ref="difdepo:persons.xml#blier">Blier</persName>.</p>
+      <p>2) Dans une revue belge, on a parlé de <title ref="difdepo:titles.xml#tristesse">Tristesse</title> d’Oulipo.</p>
+      <p>3) Enfin, je voudrais signaler un travail de <persName ref="difdepo:persons.xml#themerson">Thémerson</persName> : il remplace les mots d’un texte par la définition donnée dans le dictionnaire. Exemple : étudiant devient : personne qui consacre son temps à l’étude.</p>
+      <p><persName ref="difdepo:persons.xml#berge">BERGE</persName> : Dans mes archives familiales, j’ai trouvé un exemple d’<term ref="difdepo:terms.xml#acrosticheinterieur">acrostiche intérieur</term> sur le thème « Honneur à l’homme de bien » et qui donne le nom de <persName ref="difdepo:persons.xml#felixfaure">Félix Faure</persName>.</p>
+      <p>(L’exemple, sur carton d’époque, rehaussé de couleurs, le tout en bon état, et d’un intérêt remarquable, circule dans un silence religieux et concupiscent).</p>
+      <p><name ref="difdepo:events.xml#congres" type="manif">Congrès</name> du mi-millénaire : Réunion préparatoire Basque 26 novembre – 12h30.</p>
+      <p>Le <name ref="difdepo:events.xml#congres" type="manif">Congrès</name> n’ayant pu avoir lieu quelque part en France, à la Toussaint, les hôteliers voulant nous contraindre à partager un nombre de chambres, nettement insuffisant pour que le bon renom de l’OuLiPo ne s’en trouvât pas altéré, ledit <name ref="difdepo:events.xml#congres" type="manif">Congrès</name>, sur proposition de <persName ref="difdepo:persons.xml#rqueneau">R. Queneau</persName>, fut renvoyé aux dimanche 26 et lundi 27 décembre, quelque part chez <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>. (Participation aux frais, supplément pour la sieste. Le soir chacun rentre chez soi).</p>
+      <p>On est prié de prévoir de quoi meubler substantiellement les séances de travail, au nombre de quatre.</p>
+      <p><persName ref="difdepo:persons.xml#queval">QUEVAL</persName> : Je parlerai des <term ref="difdepo:terms.xml#formesfixes">formes fixes</term> dans le roman.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Moi du <term ref="difdepo:terms.xml#voisinage">voisinage</term>.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : En U.R.S.S., j’ai vu une vache nommée « Notation », qui a eu, en guise de veau, un élan.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : C’est un voisinage module U.R.S.S.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : J’allais le dire.</p>
+      <p><persName ref="difdepo:persons.xml#queneau">QUENEAU</persName> : Je te comprends.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : Tu me précèdes.</p>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010060f/f3.highres" n="3"/>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Messieurs, voici un projet : il s’agit d’un texte de physique. Il y a 17 paragraphes, c’est très émouvant, l’auteur dit qu’il y a 14 ans, il avait cru que…, et aujourd’hui il revient dans les mêmes lieux pour parler du même sujet, et il doit constater que…</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : C’est la tristesse d’Olympio.</p>
+      <p><persName ref="difdepo:persons.xml#braffort">BRAFFORT</persName> : Le champ électro-magnétique et la gravitation sont les thèmes. Il faut réaliser un <term ref="difdepo:terms.xml#isomorphisme">isomorphisme</term> : l’adultère = électro-magnétique, la famille = gravitation, etc…</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : <persName ref="difdepo:persons.xml#butor">Butor</persName> avec <persName ref="difdepo:persons.xml#julesverne">Jules Verne</persName> avait fait un travail « faussement » semblable : électricité c’était la grâce divine, le Capitaine Némo = Dieu, etc.</p>
+      <p><persName ref="difdepo:persons.xml#lelionnais">LE LIONNAIS</persName> : C’était de la <term ref="difdepo:terms.xml#projection">projection</term>, nous, nous isomorphisons.</p>
+      <p><persName ref="difdepo:persons.xml#latis">LATIS</persName> : Bien sûr.</p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> : Basque 26 novembre – 12 heures 30.</p>
+      <p>Mi-millénaire : 26 et 27 décembre chez <persName ref="difdepo:persons.xml#flelionnais">F. Le Lionnais</persName>.</p>
+      <p>Le S.P.</p>
+      <p>J.D.</p>
+    </body>
   </text>
 </TEI>

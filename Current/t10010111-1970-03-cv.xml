@@ -1,57 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010111-1970-03-cv">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010111-1970-03-cv">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010111 pp. 1 à 1 (CV) : version TEI</title>
-            <title type="sub">Convocation à une réunion, envoyée le 9 mars 1970</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#evalassalle">Eva Lassalle</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010111-1970-03-cv</idno> 
-               <title>Convocation à <ref target="#t10010111-1970-03">une réunion Oulipo</ref>, envoyée le <date when="1970-03-09">9 mars 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName>
-               </title>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-09">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010111 pp. 1 à 1 (CV) : version TEI</title>
+        <title type="sub">Convocation à une réunion, envoyée le 9 mars 1970</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#evalassalle">Eva Lassalle</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010111-1970-03-cv</idno><title>Convocation à <ref target="#t10010111-1970-03">une réunion Oulipo</ref>, envoyée le <date when="1970-03-09">9 mars 1970</date> par <persName ref="difdepo:persons.xml#francoislelionnais" role="expéditeur">François Le Lionnais</persName></title></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-09">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cv">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101116/f1.highres" n="1"/>
-         <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605-90-13</p>
-         <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
-         <p rend="incipit">le 9 Mars 1970</p>
-         <p>Chers Brigadiers,</p>
-         <p>Comme convenu, notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> se tiendra (si je ne suis pas exclu de l’OuLiPo à cette date) Vendredi 20 Mars, chez moi.</p>
-         <p>Elle est prévue pour 17 heures et tout est arrangé pour que vous soyez accueillis avec la dignité, le confort et la sécurité qui sont dus à d’éminentes personnalités.</p>
-         <p>Entre temps, <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName> aura retourné le questionnaire dûment rempli. Chacune de ses réponses sera à la fois saisissante de vérité et frappée au coin du bon sens.</p>
-         <p>Bon courage et croyez-moi bien OuLiPiennement vôtre.</p>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100101116/f1.highres" n="1"/>
+      <p rend="incipit">François LE LIONNAIS <lb/>23, route de la Reine <lb/>92 – BOULOGNE SUR SEINE <lb/>605-90-13</p>
+      <p rend="incipit">OUvroir de <lb/>LIttérature <lb/>POtentielle</p>
+      <p rend="incipit">le 9 Mars 1970</p>
+      <p>Chers Brigadiers,</p>
+      <p>Comme convenu, notre <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name> se tiendra (si je ne suis pas exclu de l’OuLiPo à cette date) Vendredi 20 Mars, chez moi.</p>
+      <p>Elle est prévue pour 17 heures et tout est arrangé pour que vous soyez accueillis avec la dignité, le confort et la sécurité qui sont dus à d’éminentes personnalités.</p>
+      <p>Entre temps, <persName ref="difdepo:persons.xml#noelarnaud">Noël ARNAUD</persName> aura retourné le questionnaire dûment rempli. Chacune de ses réponses sera à la fois saisissante de vérité et frappée au coin du bon sens.</p>
+      <p>Bon courage et croyez-moi bien OuLiPiennement vôtre.</p>
+    </body>
   </text>
 </TEI>

@@ -1,116 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010295-1986-07-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010295-1986-07-cr">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Transcription du scan 10010295 pp. 14 à 14 (CR) : version TEI</title>
-            <title type="sub">Compte-rendu de la réunion du 12 juillet 1986</title>
-            <respStmt>
-               <resp>Transcription</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-            <respStmt>
-               <resp>Stylage et annotation</resp>
-               <name ref="difdepo:team.xml#chiaramainardi">Chiara Mainardi</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <idno>t10010295-1986-07-cr</idno> 
-               <meeting xml:id="t10010295-1986-07">
-                  <date when="1986-07-12">12 juillet 1986</date>
-                  <placeName>Sommières</placeName>
-                  <list type="present">
-                     <item>
-                        <persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName>
-                     </item>
-                     <item>
-                        <persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName>
-                     </item>
-                  </list>
-               </meeting> 
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="difdepo"
-                       matchPattern="([a-z#\.]+)"
-                       replacementPattern="../thesauri/$1"/>
-         </listPrefixDef>
-      </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2017-12-27">restore accidentally deleted attendance lists</change>
-            <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
-            <change when="2017-09-01">Conversion docx-tei initiale</change>
-         </listChange>
-      </revisionDesc>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription du scan 10010295 pp. 14 à 14 (CR) : version TEI</title>
+        <title type="sub">Compte-rendu de la réunion du 12 juillet 1986</title>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+        <respStmt>
+          <resp>Stylage et annotation</resp>
+          <name ref="difdepo:team_members.xml#chiaramainardi">Chiara Mainardi</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><idno>t10010295-1986-07-cr</idno><meeting xml:id="t10010295-1986-07">
+          <date when="1986-07-12">12 juillet 1986</date>
+          <placeName>Sommières</placeName>
+          <list type="present">
+            <item><persName ref="difdepo:persons.xml#noelarnaud">Noël Arnaud</persName></item>
+            <item><persName ref="difdepo:persons.xml#paulbraffort">Paul Braffort</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesbens">Jacques Bens</persName></item>
+            <item><persName ref="difdepo:persons.xml#michelemetail">Michele Métail</persName></item>
+            <item><persName ref="difdepo:persons.xml#jacquesjouet">Jacques Jouet</persName></item>
+            <item><persName ref="difdepo:persons.xml#marcelbenabou">Marcel Bénabou</persName></item>
+          </list>
+          </meeting></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="difdepo" matchPattern="([a-z#\.]+)" replacementPattern="../thesauri/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-12-27">restore accidentally deleted attendance lists</change>
+        <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
+        <change when="2017-09-01">Conversion docx-tei initiale</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text type="cr">
-      <body>
-         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010295p/f14.highres"
-             n="14"/>
-         <p rend="incipit">OULIPO 12/07/86</p>
-         <list type="unordered">
-            <item>Présents : <persName ref="difdepo:persons.xml#na">
-                  <abbr>NA</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#jb">
-                  <abbr>JB</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#mm">
-                  <abbr>MM</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#jj">
-                  <abbr>JJ</abbr>
-               </persName>, <persName ref="difdepo:persons.xml#mb">
-                  <abbr>MB</abbr>
-               </persName>.</item>
-            <item>Excusés : t<unclear>enants recat??</unclear>.</item>
-            <item>Absents: 4 autres</item>
-         </list>
-         <p>
-            <label type="rubrique">Création</label>
-         </p>
-         <list type="unordered">
-            <item>Voir stage.</item>
-         </list>
-         <p>
-            <label type="rubrique">Erudition</label>
-         </p>
-         <list type="unordered">
-            <item>Voir stage.</item>
-         </list>
-         <p>
-            <label type="rubrique">Action</label>
-         </p>
-         <list type="unordered">
-            <item>Compte rendu <name ref="difdepo:events.xml#stagesommieres" type="manif">stage Sommières</name>.</item>
-            <item>Excellence des stages à thèmes qui exigent des Oulipiens du renouveau.</item>
-            <item>Altercation entre <persName ref="difdepo:persons.xml#pb">
-                  <abbr>PB</abbr>
-               </persName> et <persName ref="difdepo:persons.xml#na">
-                  <abbr>NA</abbr>
-               </persName>.</item>
-            <item>Ne pas accepter la sponsorisation.</item>
-         </list>
-      </body>
+    <body>
+      <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010295p/f14.highres" n="14"/>
+      <p rend="incipit">OULIPO 12/07/86</p>
+      <list type="unordered">
+        <item>Présents : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>.</item>
+        <item>Excusés : t<unclear>enants recat??</unclear>.</item>
+        <item>Absents: 4 autres</item>
+      </list>
+      <p><label type="rubrique">Création</label></p>
+      <list type="unordered">
+        <item>Voir stage.</item>
+      </list>
+      <p><label type="rubrique">Erudition</label></p>
+      <list type="unordered">
+        <item>Voir stage.</item>
+      </list>
+      <p><label type="rubrique">Action</label></p>
+      <list type="unordered">
+        <item>Compte rendu <name ref="difdepo:events.xml#stagesommieres" type="manif">stage Sommières</name>.</item>
+        <item>Excellence des stages à thèmes qui exigent des Oulipiens du renouveau.</item>
+        <item>Altercation entre <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> et <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>.</item>
+        <item>Ne pas accepter la sponsorisation.</item>
+      </list>
+    </body>
   </text>
 </TEI>
