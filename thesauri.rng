@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element name="rdf:RDF" xmlns="http://relaxng.org/ns/structure/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <oneOrMore>
+    <element name="skos:Concept">
+      <attribute name="rdf:ID">
+        <text/>
+      </attribute>
+      <interleave>
+        <element name="skos:prefLabel">
+          <text/>
+        </element>
+        <zeroOrMore>
+          <element name="skos:altLabel">
+            <text/>
+          </element>
+        </zeroOrMore>
+        <optional>
+          <element name="skos:broader">
+            <attribute name="rdf:resource">
+              <text/>
+            </attribute>
+          </element>
+        </optional>
+      </interleave>
+    </element>
+  </oneOrMore>
+</element>
