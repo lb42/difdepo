@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="xs t ext skos rdf" version="3.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ext="http://exslt.org/common" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output encoding="UTF-8" indent="no"/>
+  <xsl:output encoding="UTF-8" indent="yes"/>
   <!-- 
   insert skos:Concept with @rdf:ID, prefLabel and altLabel in a set of thesauri (persons.xml, organizations.xml, events.xml, titles.xml, terms.xml)
   based on a collection of xml tei files annotated with persName, orgName, name, title and term elements 
