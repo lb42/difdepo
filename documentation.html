@@ -109,7 +109,7 @@
   <ul>
     <li>Fichiers XML-SKOS du dossier <i>thesauri</i> qui listent, pour chaque entité, ses différentes formes possibles, validés par le schéma <i>thesauri.rng</i>. Ces fichiers peuvent se réduire à l’élément racine, ou comporter déjà des entités et des formes.</li>
   </ul>
-  <p>Une campagne de modification se fait en deux temps. Les opérations 2.1, 2.2, 3.1 et 3.2 sont particulièrement chronophages (≈une heure au total).</p>
+  <p>Une campagne de modification se fait en deux temps. Les opérations 2.2 et 3.2 sont particulièrement chronophages (≈une heure).</p>
   <h2>Indexation des documents</h2>
   <p>Dans Oxygen, en trois étapes.</p>
   <h3>Génération des thésauri XML-SKOS</h3>
@@ -135,7 +135,7 @@
   <p>Les <a>URL</a> sont indiquées sans le nom de domaine (<a>update_db</a> = <a>http://archives-oulipo-dev.univ-paris3.fr/update_db</a> ou <a>http://archives-oulipo.univ-paris3.fr/update_db</a>).</p>
   <p>Les <i>chemins</i> sont donnés relativement au dossier contenant le site sur le serveur (<i>archives-oulipo-dev.univ-paris3.fr</i> ou <i>archives-oulipo.univ-paris3.fr</i></p>
   <h3>Envoi des fichiers</h3>
-  <p>On charge ou remplace les fichiers (en SFTP ou avec l’interface <a>imce</a>, également depuis le menu « Fichiers TEI » ; la mise en ligne par IMCE est limitée, procéder par groupe de ≈250 fichiers) :</p>
+  <p>On charge ou remplace les fichiers, en SFTP ou avec l’interface <a>imce</a>, également accessible depuis le menu « Fichiers ». La mise en ligne par IMCE est limitée : le plus rapide est de transférer une archive zip contenant tous les fichiers (compresser uniquement les fichiers, pas le dossier qui les contient), puis de cliquer sur « Unzip » :</p>
   <ul>
     <li>les fichiers XML-TEI dans <i>files/edition/tei</i></li>
     <li>les fichiers XML-SKOS dans <i>files/edition/thesauri</i></li>
