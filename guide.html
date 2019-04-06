@@ -1,0 +1,446 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mise à jour du site des archives de l’Oulipo</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid;
+    }
+
+    table ul {
+      padding: 0;
+    }
+
+    table li {
+      list-style-type: none;
+      margin:5px 0;
+    }
+
+    h1 {
+      counter-reset: h2counter;
+    }
+
+    h2 {
+      counter-reset: h3counter;
+    }
+
+    h2:before {
+      content: counter(h2counter) ".\0000a0\0000a0";
+      counter-increment: h2counter;
+      counter-reset: h3counter;
+    }
+
+    h3:before {
+      content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+      counter-increment: h3counter;
+    }
+    a{
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Mise à jour du site des archives de l’Oulipo</h1>
+  <h2>Fichiers utilisés</h2>
+  <p>Tous les fichiers (y compris le présent document) sont versionnés dans le dépôt <i>http://github.com/lb42/difdepo</i></p>
+  <p>Les <i>chemins</i> sont donnés relativement au dossier <i>http://github.com/lb42/difdepo</i></p>
+  <ul>
+    <li>Fichier XML-EAD <i>ead.xml</i></li>
+    <li>Fichiers XML-TEI du dossier <i>Current</i>, validés par le schéma <i>out/difdepo.rnc</i> (source : <i>difdepo.odd</i>, <i>difdepo.fr.odd</i>, <i>difdepo.en.odd</i>), avec l’encodage suivant pour les entités qui seront indexées :</li>
+  </ul>
+  <table>
+    <tr>
+      <td>Définition</td>
+      <td>Nom du fichier thésaurus</td>
+      <td>Élément TEI</td>
+      <td>Ancêtre (permet de distinguer des éléments utilisés à des endroits différents dans des sens différents)</td>
+      <td>Attribut possible</td>
+    </tr>
+    <tr>
+      <td>Noms de personnes présentes à la réunion ou citées dans le document</td>
+      <td><i>thesauri/persons.xml</i></td>
+      <td><code>persName</code></td>
+      <td><code>TEI</code></td>
+      <td><code>@role</code></td>
+    </tr>
+    <tr>
+      <td>Noms d'organisme</td>
+      <td><i>thesauri/organizations.xml</i></td>
+      <td><code>orgName</code></td>
+      <td><code>text</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Titres d'ouvrage cités</td>
+      <td><i>thesauri/titles.xml</i></td>
+      <td><code>title</code></td>
+      <td><code>text</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Manifestations</td>
+      <td><i>thesauri/events.xml</i></td>
+      <td><code>name</code></td>
+      <td><code>text</code></td>
+      <td><code>@type="manif"</code></td>
+    </tr>
+    <tr>
+      <td>Notions</td>
+      <td><i>thesauri/terms.xml</i></td>
+      <td><code>term</code></td>
+      <td><code>text</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Éditeurs scientifiques, responsables de l'annotation ou la transcription (dans les métadonnées)</td>
+      <td><i>thesauri/team_members.xml</i></td>
+      <td><code>name</code></td>
+      <td><code>titleStmt</code></td>
+      <td></td>
+    </tr>
+
+  </table>
+  <ul>
+    <li>Fichiers XML-SKOS du dossier <i>thesauri</i> qui listent, pour chaque entité, ses différentes formes possibles, validés par le schéma <i>thesauri.rng</i>. Ces fichiers peuvent se réduire à l’élément racine, ou comporter déjà des entités et des formes.</li>
+  </ul>
+  <p>Une campagne de modification se fait en deux temps. Les opérations 2.1, 2.2, 3.1 et 3.2 sont particulièrement chronophages (≈une heure au total).</p>
+  <h2>Indexation des documents</h2>
+  <p>Dans Oxygen, en trois étapes.</p>
+  <h3>Génération des thésauri XML-SKOS</h3>
+  <p>Transformer les fichiers XML-SKOS du dossier <i>thesauri</i> avec <i>tei_theso.xsl</i> (le projet <i>thesauri.xpr</i> est paramétré à cet effet). <i>tei_theso.xsl</i> appelle <i>normalize.xsl</i>.</p>
+  <p>Pour chaque type d’entité, on prend toutes les formes différentes (sans doublon) dans les fichiers XML-TEI.</p>
+  <ul>
+    <li>Si une forme est déjà référencée dans le fichier XML-SKOS, elle n’est pas ajoutée</li>
+    <li>Si une forme n’est pas déjà référencée
+      <ul>
+        <li>Si elle est similaire (abstraction faite des accents, majuscules et ponctuations) à une forme référencée, elle est ajoutée sous la même entité</li>
+        <li>Si elle n’est similaire à aucune forme référencée, elle est ajoutée sous une nouvelle entité</li>
+      </ul>
+      <li>Si une forme référencée dans le thésaurus n’apparaît plus dans les fichiers XML-TEI, elle n’est pas supprimée</li>
+  </ul>
+  <h3>Correction manuelle des thésauri XML-SKOS</h3>
+  <p>Nettoyer les thésauri : regrouper sous un même concept les formes qui expriment le même concept. Les thésauri doivent être validés par le schéma <i>thesauri.rng</i> (qui vérifie notamment que chaque concept contient un élément <code>prefLabel</code>).</p>
+  <h3>Annotation des documents XML-TEI</h3>
+  <p>Transformer les fichiers XML-TEI du dossier <i>Current</i> avec <i>theso_tei.xsl</i> (le projet <i>Current.xpr</i> est paramétré à cet effet). <i>theso_tei.xsl</i> appelle <i>normalize.xsl</i>.</p>
+  <p>Pour chaque élément, un attribut <code>@ref</code> est ajouté pointant vers l’entité dont le contenu textuel de l’élément est une expression.</p>
+  <p>Si la forme n’est pas référencée dans le thésaurus (ce qui ne produit que si on ajoute par erreur une forme du document après l’étape 2.1, on que l’on supprime une forme du thésaurus lors de l’étape 2.2), l’attribut <code>@ref</code> n’est pas ajouté, et, s’il était présent, il est supprimé.</p>
+  <h2>Mise en ligne</h2>
+  <p>Sur le site, en trois étapes.</p>
+  <p>Les <a>URL</a> sont indiquées sans le nom de domaine (<a>update_db</a> = <a>http://archives-oulipo-dev.univ-paris3.fr/update_db</a> ou <a>http://archives-oulipo.univ-paris3.fr/update_db</a>).</p>
+  <p>Les <i>chemins</i> sont donnés relativement au dossier contenant le site sur le serveur (<i>archives-oulipo-dev.univ-paris3.fr</i> ou <i>archives-oulipo.univ-paris3.fr</i></p>
+  <h3>Envoi des fichiers</h3>
+  <p>On charge ou remplace les fichiers (en SFTP ou avec l’interface <a>imce</a>, également depuis le menu « Fichiers TEI » ; la mise en ligne par IMCE est limitée, procéder par groupe de ≈250 fichiers) :</p>
+  <ul>
+    <li>les fichiers XML-TEI dans <i>files/edition/tei</i></li>
+    <li>les fichiers XML-SKOS dans <i>files/edition/thesauri</i></li>
+    <li>le fichier XML-EAD dans <i>files/edition/ead</i></li>
+  </ul>
+  <p>Les permissions des fichiers ne sont pas les mêmes selon qu’on s’est connecté en SFTP ou avec imce : il sera impossible de supprimer en SFTP un fichier mis en ligne avec imce (mais cela n’a aucune incidence sur la mise à jour de la base)</p>
+  <h3>Mise à jour de la base</h3>
+  <p>L’URL <a>update_db</a> (accessible également dans le menu « Mettre à jour la base ») insère dans la base de données de Drupal les informations contenues dans les documents XML-TEI et le catalogue XML-EAD.</p>
+  <table>
+    <tr>
+      <td>Nom système du type de nœud</td>
+      <td>Alias dans l’URL du type de nœud</td>
+      <td>Label</td>
+      <td>Source</td>
+      <td>Remarques</td>
+    </tr>
+    <tr>
+      <td><code>serie</code></td>
+      <td><code>serie</code></td>
+      <td>Série</td>
+      <td>XML-EAD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>folder</code></td>
+      <td><code>dossier</code></td>
+      <td>Dossier</td>
+      <td>XML-EAD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>restricted_folder</code></td>
+      <td></td>
+      <td>Dossier sous droit</td>
+      <td>XML-EAD</td>
+      <td>Dossiers postérieurs à 1990, sans fac-similés</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><code>document</code></td>
+      <td rowspan="4"><code>document</code></td>
+      <td rowspan="4">Document</td>
+      <td>XML-TEI</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>XML-SKOS</td>
+      <td>
+        <p>Les thésauri sont appelés pour créer les info-bulles sur les abbréviations.</p>
+        <p>Si un élément qui devrait porter un attribut <code>@ref</code> n’en porte pas ou porte un <code>@ref</code> qui ne correspond pas à un terme de taxonomie (voir les points 3.3 et 3.4), le lien hypertexte renverra vers une page inexistante.</p>
+        <p>En outre, s’il contient un élément <code>abbr</code>, l'info-bulle développant l’abbréviation n'apparaîtra pas.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>XML-EAD</td>
+      <td>
+        <p>L’EAD est appelé pour récupérer l’identifiant des documents suivants/précédents et l’identifiant, cote et ark du dossier qui contient le document.</p>
+        <p>Si aucun élément de l’EAD ne porte le même identifiant que le fichier, ces champs sont ignorés (les images des fac-similés, dont le chemin se trouve dans le fichier XML-TEI, seront tout de même affichées)</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Taxonomie Drupal</td>
+      <td>
+        <p>Certains champs renvoie à des termes de l’index (personnes citées ou présentes, etc.).</p>
+        <p>Si une entité est indexée dans le document (attribut <code>@ref</code>code>) mais n’est pas présente dans l’index, elle n’apparaîtra pas dans ce champ (voir les points 3.3 et 3.4)</p>
+      </td>
+    </tr>
+  </table>
+  <p>La liste des éléments mis à jour s’affiche.</p>
+  <p>Les nœuds précédemment insérés dans la base ne sont pas supprimés, même s’ils ont été supprimés des fichiers XML sources. Les nœuds présents dans les fichiers XML sources sont insérés dans la base ou mis à jour s’ils y étaient déjà présents.</p>
+  <p>Seuls les champs listés dans <i>modules/oulipo/update/[nom système du type de nœud]/fields.tsv</i> sont insérés ou mis à jour automatiquement : les autres champs sont modifiés manuellement, et leur contenu est conservé lors d’une mise à jour.</p>
+  <p>Quand le contenu inséré automatiquement est trop long (notamment pour la page "Catalogue de la BNF" <a>serie/d0e1</a>), une modification manuelle d'un champ supprime ce contenu : refaire une mise à jour de la base pour regénérer le contenu.</p>
+  <p>La mise à jour vide un champ si l’information correspondante n’est plus présente dans le fichier source.</p>
+  <h3>Mise à jour des index</h3>
+  <p>L’URL <a>update_index</a> (accessible également dans le menu « Mettre à jour l’index ») met à jour les taxonomies Drupal à partir des thésauri</p>
+  <table>
+    <tr>
+      <td>Nom du fichier XML-SKOS</td>
+      <td>Nom système de la taxonomie</td>
+      <td>Alias dans l’URL de la taxonomie</td>
+      <td>Label</td>
+    </tr>
+    <tr>
+      <td><i>files/edition/thesauri/events.xml</i></td>
+      <td><code>events</code></td>
+      <td><code>evenements</code></td>
+      <td>Événements</td>
+    </tr>
+    <tr>
+      <td><i>files/edition/thesauri/organizations.xml</i></td>
+      <td><code>organizations</code></td>
+      <td><code>organismes</code></td>
+      <td>Organismes</td>
+    </tr>
+    <tr>
+      <td><i>files/edition/thesauri/persons.xml</i></td>
+      <td><code>persons</code></td>
+      <td><code>personnes</code></td>
+      <td>Personnes</td>
+    </tr>
+    <tr>
+      <td><i>files/edition/thesauri/team_members.xml</i></td>
+      <td><code>team_members</code></td>
+      <td><code>membres</code></td>
+      <td>Membres</td>
+    </tr>
+    <tr>
+      <td><i>files/edition/thesauri/terms.xml</i></td>
+      <td><code>terms</code></td>
+      <td><code>notions</code></code></td>
+      <td>Notions</td>
+    </tr>
+    <tr>
+      <td><i>files/edition/thesauri/titles.xml</i></td>
+      <td><code>titles</code></td>
+      <td><code>ouvrages</code></td>
+      <td>Ouvrages</td>
+    </tr>
+  </table>
+  <p>Un terme précédemment inséré dans la base n’est pas supprimé, même s’il a été supprimé des thésauri (mais s’il n’est référencé dans aucun document, il n’apparaîtra pas dans l’index <a>archives-oulipo/index/[alias dans l'URL de la taxonomie]</a>).</p>
+  <p>Seuls les champs Titre, Occurrences et Nombre d'occurrences sont insérés ou mis à jour automatiquement : les autres champs sont modifiés manuellement, et leur contenu est conservé lors d’une mise à jour.</p>
+  <p>L'URL <a>update_index&minimal</a> crée uniquement les nouveaux termes de taxonomie et met à jour le champ Titre, sans modifier les champs Occurrences et Nombre d'occurrences. Le temps de traitement est considérablement réduit. À privilégier si on délègue à Drupal l'affichage de la liste des documents sur une fiche index (voir le point 4. Dans <a>admin/structure/views/view/taxo/edit</a>, « Pied de page » > « Ajouter » > Sélectionner « Global : Zone de vue » > « Appliquer (tous les affichages)» > « Vue à insérer » : sélectionner « Vue : index - Affichage : block_1 » et cocher « Hériter des filtres contextuels » > « Appliquer (tous les affichages) » > « Enregistrer ». Dans <a>admin/structure/taxonomy/[nom système de la taxonomie]/display</a> régler pour les champs « Occurrences » et « Nombre d'occurrences » la valeur de « Région » à « Désactivé »).</p>
+  <h3>Mise à jour définitive de la base</h3>
+  <p>Dans la mesure où la mise à jour de la base (3.2) suppose que les index soient à jour (3.3), et inversement, il peut être nécessaire de réitérer l’étape 3.2 pour que tous les champs soient à jour.</p>
+  <h2>Configuration de Drupal</h2>
+  <p>Le chemin des scripts js est donné relativement au dossier <i>[dossier du thème]/js</i></p>
+  <p>Les scripts js sont appelés</p>
+  <ul>
+    <li>dans le fichier <i>themes/[dossier du thème]/template.php</i></li>
+    <li>dans <i>themes/[dossier du thème]/[nom du thème].info</i></li>
+  </ul>
+    <p>Attention, le nom dossier contenant le site et le nom du thème sont inscrits en dur dans <i>oulipo/results.js</i> (nécessité de Tablefilter)</p>
+  <table>
+    <tr>
+      <td>Type de page</td>
+      <td>Motif d’URL</td>
+      <td>Administration du gabarit</td>
+      <td>Administration du contenu</td>
+      <td>Scripts js appelés</td>
+      <td>Remarques</td>
+    </tr>
+
+    <tr>
+      <td>Page d’une série</td>
+      <td rowspan="4"><a>[alias dans l’URL du type de nœud]/[identifiant]</a></td>
+      <td rowspan="4"><a>admin/structure/types/manage/[nom système du type de nœud]</a></td>
+      <td rowspan="4"><a>admin/content</a></td>
+      <td><i>oulipo/tree.js</i></td>
+      <td>Le catalogue (menu « Archives de l'Oulipo/Catalogue de la BNF ») a le statut de série (série d0e1, qui contient toutes les autres).</td>
+    </tr>
+    <tr>
+      <td>Page d’un dossier</td>
+      <td>
+        <ul>
+          <li><i>oulipo/images.js</i></li>
+          <li><i>oulipo/pages.js</i></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Page d’un dossier sous droit</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Page d’un document</td>
+      <td>
+        <ul>
+          <li><i>oulipo/images.js</i></li>
+          <li><i>oulipo/pages.js</i></li>
+          <li><i>oulipo/tooltip.js</i></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Accueil général des index</td>
+      <td><a>archives-oulipo/index</a></td>
+      <td><a>node/18341/edit</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Page d’un index + pagination alphabétique</td>
+      <td>
+        <ul>
+          <li><a>archives-oulipo/index/[alias dans l’URL de la taxonomie]</a></li>
+          <li><a>archives-oulipo/index/[alias dans l’URL de la taxonomie]/[lettre]</a></li>
+      </td>
+      <td>
+        <ul>
+          <li><a>admin/structure/views/view/[alias dans l’URL de la taxonomie]_2/edit</a></li>
+          <li><a>admin/structure/views/view/[alias dans l’URL de la taxonomie]_2_alpha/edit</a></li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fiche index</td>
+      <td><a>index/[alias dans l'URL la taxonomie]/[identifiant]</a></td>
+      <td>
+        <ul>
+          <li><i>modules/oulipo/search</i></li>
+          <li><a>admin/structure/taxonomy/[nom système de la taxonomie]</a></li>
+          <li><a>admin/structure/views/view/index/edit</a></li>
+          <li><a>admin/structure/views/view/taxo/edit</a></li>
+        </ul>
+      </td>
+      <td><a>admin/structure/taxonomy/[nom système de la taxonomie]</a></td>
+      <td>
+        <ul>
+          <li><i>oulipo/results.js</i></li>
+          <li><i>oulipo/slide.js</i></li>
+          <li><i>oulipo/tooltip.js</i></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Moteur de recherche</td>
+      <td><a>archives-oulipo/recherche</a></td>
+      <td>
+        <ul>
+          <li><a>node/63207/edit</a></li>
+        </ul>
+      </td>
+      <td></td>
+      <td>
+        <ul>
+          <li><i>oulipo/search.js</i></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Résultats du moteur de recherche</td>
+      <td><a>archives-oulipo/recherche</a></td>
+      <td>
+        <ul>
+          <li><a>node/63207/edit</a></li>
+          <li><i>modules/oulipo/search</i></li>
+        </ul>
+      </td>
+      <td></td>
+      <td>
+        <ul>
+          <li><i>oulipo/search.js</i></li>
+          <li><i>oulipo/results.js</i></li>
+          <li><i>oulipo/slide.js</i></li>
+          <li><i>oulipo/tooltip.js</i></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Liste des transcriptions</td>
+      <td><a>archives-oulipo/transcriptions</a></td>
+      <td><a>admin/structure/views/view/corpus/edit</a></td>
+      <td></td>
+      <td>
+        <ul>
+          <li><i>oulipo/results.js</i></li>
+          <li><i>oulipo/slide.js</i></li>
+          <li><i>oulipo/tooltip.js</i></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Administration des blocks</td>
+      <td></td>
+      <td><a>admin/structure/block</a></td>
+      <td></td>
+      <td></td>
+      <td>Notamment pour positionner le champ de recherche rapide, les menus principaux (sur toutes les pages) et le menu index (sur les pages <a>archives-oulipo/index</a></td>
+    </tr>
+    <tr>
+      <td>Administration des menus</td>
+      <td></td>
+      <td><a>admin/structure/menu</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Entrepôt OAI</td>
+      <td><a>oai</a></td>
+      <td><a>admin/structure/views/view/oai_biblio/edit</a></td>
+      <td></td>
+      <td></td>
+      <td>Cf. <a>https://documentation.huma-num.fr/content/12/75/fr/comment-signaler-ses-donnees-dans-isidore-avec-des-metadonnees-et-le-protocole-oai_pmh-.html</a></td>
+    </tr>
+    <tr>
+      <td>Sauvegarde</td>
+      <td></td>
+      <td><a>admin/config/system/backup_migrate</a></td>
+      <td></td>
+      <td></td>
+      <td>Sauvegarder régulièrement, et avant toute modification importante sur le site.</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
