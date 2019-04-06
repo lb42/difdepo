@@ -19,7 +19,7 @@
       <xsl:when test="$filename = 'events.xml'">name</xsl:when>
       <xsl:when test="$filename = 'titles.xml'">title</xsl:when>
       <xsl:when test="$filename = 'terms.xml'">term</xsl:when>
-      <xsl:when test="$filename = 'team.xml'">name</xsl:when>
+      <xsl:when test="$filename = 'team_members.xml'">name</xsl:when>
     </xsl:choose>
   </xsl:variable>
   <xsl:variable name="ancestor">
@@ -29,13 +29,14 @@
       <xsl:when test="$filename = 'events.xml'">text</xsl:when>
       <xsl:when test="$filename = 'titles.xml'">text</xsl:when>
       <xsl:when test="$filename = 'terms.xml'">text</xsl:when>
-      <xsl:when test="$filename = 'team.xml'">titleStmt</xsl:when>
+      <xsl:when test="$filename = 'team_members.xml'">titleStmt</xsl:when>
     </xsl:choose>
   </xsl:variable>
   <xsl:template match="rdf:RDF">
     <xsl:copy>
       <xsl:apply-templates select="* | @* | text() | processing-instruction() | comment()"/>
-      <xsl:for-each select="collection('Current/?select=*.xml')//t:*[name() = $type][not(@ref)][ancestor::t:*[name()=$ancestor]]">
+      <xsl:for-each select="collection('Current/?select=*.xml')//t:*[name() = $type][ancestor::t:*[name()=$ancestor]]">
+        <!--[not(@ref)]-->
         <!--    [not(parent::t:titleStmt or parent::t:bibl)]    -->
         <!--  get info on the current form  -->
         <!--  create a readable label  -->
@@ -50,7 +51,7 @@
             <xsl:with-param name="mode">transform</xsl:with-param>
           </xsl:call-template>
         </xsl:variable>
-        <xsl:if test="not($thesaurus//skos:altLabel[. = $form] | $thesaurus//skos:prefLabel[. = $form])">
+        <xsl:if test="not($thesaurus//skos:altLabel[replace(translate(lower-case(.), 'àáâãäåæçčèéêë∈ìíîïòóôõöœûüù∏π', 'aaaaaaacceeeeeiiiioooooouuupp'),'[^a-z0-9]','') = replace(translate(lower-case($form), 'àáâãäåæçčèéêë∈ìíîïòóôõöœûüù∏π', 'aaaaaaacceeeeeiiiioooooouuupp'),'[^a-z0-9]','')] | $thesaurus//skos:prefLabel[replace(translate(lower-case(.), 'àáâãäåæçčèéêë∈ìíîïòóôõöœûüù∏π', 'aaaaaaacceeeeeiiiioooooouuupp'),'[^a-z0-9]','') = replace(translate(lower-case($form), 'àáâãäåæçčèéêë∈ìíîïòóôõöœûüù∏π', 'aaaaaaacceeeeeiiiioooooouuupp'),'[^a-z0-9]','')])">
           <!--  if the form is already registered, do nothing, otherwise insert a new concept  -->
           <skos:Concept rdf:ID="{$id}">
             <skos:prefLabel>

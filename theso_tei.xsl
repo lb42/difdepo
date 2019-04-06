@@ -46,7 +46,7 @@
             <xsl:when test="$filename = 'events.xml'">name</xsl:when>
             <xsl:when test="$filename = 'titles.xml'">title</xsl:when>
             <xsl:when test="$filename = 'terms.xml'">term</xsl:when>
-            <xsl:when test="$filename = 'team.xml'">team</xsl:when>
+            <xsl:when test="$filename = 'team_members.xml'">team</xsl:when>
           </xsl:choose>
         </xsl:variable>
         <!--  if we are in the right thesaurus for this element + form is the same, insert @ref pointing to skos:Concept/@rdf:ID  -->
