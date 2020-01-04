@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010051-1965-01-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010051-1965-01-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +18,11 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010051-1965-01-oj</idno> <title>Ordre de jour de <ref target="#t10010051-1965-01">la réunion Oulipo</ref> du <date when="1965-01-08">8 janvier 1965</date></title></bibl>
+        <bibl>
+          <idno>t10010051-1965-01-oj</idno>
+          <title>Ordre de jour de <ref target="#t10010051-1965-01">la réunion Oulipo</ref> du <date
+              when="1965-01-08">8 janvier 1965</date></title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -27,6 +32,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-06" who="HCC">correctif encodage</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
         <change when="2016-04-22T17:38:13Z">Conversion docx-tei initiale</change>
@@ -40,116 +46,236 @@
       <p rend="incipit">Réunion du Vendredi 11 Décervelage 93</p>
       <p rend="incipit">(vulg : 8 janvier 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p rend="incipit">ABSENCES EXCUSEES (et regrettées) : <persName ref="difdepo:persons.xml#jb">J. Bens</persName>, <persName ref="difdepo:persons.xml#cb">C. Berge</persName>, <persName ref="difdepo:persons.xml#rq">R. Queneau</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</p>
-      <p rend="incipit">Accueil de votre invité : <persName ref="difdepo:persons.xml#margot">Margot</persName></p>
-      <p><label type="rubrique">ERUDITION</label></p>
+      <p rend="incipit">ABSENCES EXCUSEES (et regrettées) : <persName ref="difdepo:persons.xml#jb"
+          >J. Bens</persName>, <persName ref="difdepo:persons.xml#cb">C. Berge</persName>, <persName
+          ref="difdepo:persons.xml#rq">R. Queneau</persName> (<persName
+          ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</p>
+      <p rend="incipit">Accueil de votre invité : <persName ref="difdepo:persons.xml#margot"
+          >Margot</persName></p>
+      <p>
+        <label type="rubrique">ERUDITION</label>
+      </p>
       <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#aramis">Aramis</persName> <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName ref="difdepo:persons.xml#jq">Queval</persName>, ou la poésie <persName ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName> par <persName ref="difdepo:persons.xml#rq">R. Queneau</persName></item>
-        <item><term ref="difdepo:terms.xml#pangrammes">Pangrammes</term> et autres <term ref="difdepo:terms.xml#jeuxalphabetiques">jeux alphabétiques</term></item>
+        <item><persName ref="difdepo:persons.xml#aramis">Aramis</persName>
+          <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName
+            ref="difdepo:persons.xml#jq">Queval</persName>, ou la poésie <persName
+            ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName> par
+            <persName ref="difdepo:persons.xml#rq">R. Queneau</persName></item>
+        <item><term ref="difdepo:terms.xml#pangrammes">Pangrammes</term> et autres <term
+            ref="difdepo:terms.xml#jeuxalphabetiques">jeux alphabétiques</term></item>
       </list>
       <p>« XV quick nymphs beg fjord waltz »</p>
       <p>“Mysteriously”</p>
-      <p>(Voir <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title>, Décembre 1964, page 128,129)…. par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></p>
+      <p>(Voir <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title>,
+        Décembre 1964, page 128,129)…. par <persName ref="difdepo:persons.xml#fll"
+          ><abbr>F.LL</abbr></persName></p>
       <list type="ordered">
-        <item><term ref="difdepo:terms.xml#fatalitesequentielle">Fatalité Séquentielle</term> <persName ref="difdepo:persons.xml#jl">Lescure</persName></item>
-        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> <term ref="difdepo:terms.xml#grille">Grille</term> <persName ref="difdepo:persons.xml#jl">Lescure</persName></item>
-        <item><persName ref="difdepo:persons.xml#roussel">Roussel</persName></item>
+        <item>
+          <term ref="difdepo:terms.xml#fatalitesequentielle">Fatalité Séquentielle</term>
+          <persName ref="difdepo:persons.xml#jl">Lescure</persName>
+        </item>
+        <item>
+          <orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName>
+          <term ref="difdepo:terms.xml#grille">Grille</term>
+          <persName ref="difdepo:persons.xml#jl">Lescure</persName>
+        </item>
+        <item>
+          <persName ref="difdepo:persons.xml#roussel">Roussel</persName>
+        </item>
       </list>
-      <p><label type="rubrique">CREATION</label></p>
+      <p>
+        <label type="rubrique">CREATION</label>
+      </p>
       <list type="ordered">
-        <item><term ref="difdepo:terms.xml#carreslatinsetorthogonaux">Carrés latins et orthogonaux</term>……….. par <persName ref="difdepo:persons.xml#cb">C. Berge</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
-        <item><term ref="difdepo:terms.xml#textescirculaires">Textes circulaires</term>................ par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
-        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> : <term ref="difdepo:terms.xml#puzzlescombinatoires">Puzzles combinatoires</term>……………… par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
-        <item>Les <term ref="difdepo:terms.xml#grilles">grilles</term> <persName ref="difdepo:persons.xml#na">N. Arnaud</persName></item>
+        <item><term ref="difdepo:terms.xml#carreslatinsetorthogonaux">Carrés latins et
+            orthogonaux</term>……….. par <persName ref="difdepo:persons.xml#cb">C. Berge</persName>
+            (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><term ref="difdepo:terms.xml#textescirculaires">Textes
+          circulaires</term>................ par <persName ref="difdepo:persons.xml#fll"
+              ><abbr>F.LL</abbr></persName></item>
+        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> : <term
+            ref="difdepo:terms.xml#puzzlescombinatoires">Puzzles combinatoires</term>……………… par
+            <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
+        <item>Les <term ref="difdepo:terms.xml#grilles">grilles</term>
+          <persName ref="difdepo:persons.xml#na">N. Arnaud</persName></item>
         <item/>
         <item/>
       </list>
-      <p><label type="rubrique">ACTION</label></p>
+      <p>
+        <label type="rubrique">ACTION</label>
+      </p>
       <list type="ordered">
-        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les cerveaux réunis</orgName> …………………. par Tout le monde</item>
+        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les cerveaux
+            réunis</orgName> …………………. par Tout le monde</item>
         <item>Esclave <persName ref="difdepo:persons.xml#jd">Duchateau</persName></item>
         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f2.highres" n="2"/>
         <item/>
         <item/>
         <item/>
         <item/>
-        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : Lundi 1er février (Proposition de <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+           : Lundi 1er février (Proposition de <persName ref="difdepo:persons.xml#cb"
+              ><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#rq"
+            ><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#fll"
+            ><abbr>F.LL</abbr></persName>)</item>
         <item>Prochains invités</item>
       </list>
-      <p><label type="rubrique">DIVERS</label></p>
+      <p>
+        <label type="rubrique">DIVERS</label>
+      </p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f3.highres" n="3"/>
       <p rend="incipit">OuLiPo</p>
       <p rend="incipit">Réunion du Vendredi 11 Décervelage 93</p>
       <p rend="incipit">(vulg : 8 janvier 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p rend="incipit">ABSENCES EXCUSEES (et regrettées) : <persName ref="difdepo:persons.xml#jb">J. Bens</persName>, <persName ref="difdepo:persons.xml#cb">C. Berge</persName>, <persName ref="difdepo:persons.xml#rq">R. Queneau</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</p>
-      <p rend="incipit">Accueil de votre invité : <persName ref="difdepo:persons.xml#margot">Margot</persName></p>
-      <p><label type="rubrique">ERUDITION</label></p>
+      <p rend="incipit">ABSENCES EXCUSEES (et regrettées) : <persName ref="difdepo:persons.xml#jb"
+          >J. Bens</persName>, <persName ref="difdepo:persons.xml#cb">C. Berge</persName>, <persName
+          ref="difdepo:persons.xml#rq">R. Queneau</persName> (<persName
+          ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</p>
+      <p rend="incipit">Accueil de votre invité : <persName ref="difdepo:persons.xml#margot"
+          >Margot</persName></p>
+      <p>
+        <label type="rubrique">ERUDITION</label>
+      </p>
       <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#aramis">Aramis</persName> <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName ref="difdepo:persons.xml#jq">Queval</persName>, ou la poésie <persName ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName> par <persName ref="difdepo:persons.xml#rq">R. Queneau</persName></item>
-        <item><term ref="difdepo:terms.xml#pangrammes">Pangrammes</term> et autres <term ref="difdepo:terms.xml#jeuxalphabetiques">jeux alphabétiques</term> <lb/>« XV quick nymphs beg fjord waltz » <lb/>“Mysteriously” <lb/>(Voir <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title>, Décembre 1964, page 128,129)…. par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
+        <item><persName ref="difdepo:persons.xml#aramis">Aramis</persName>
+          <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName
+            ref="difdepo:persons.xml#jq">Queval</persName>, ou la poésie <persName
+            ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName> par
+            <persName ref="difdepo:persons.xml#rq">R. Queneau</persName></item>
+        <item><term ref="difdepo:terms.xml#pangrammes">Pangrammes</term> et autres <term
+            ref="difdepo:terms.xml#jeuxalphabetiques">jeux alphabétiques</term>
+          <lb/>« XV quick nymphs beg fjord waltz » <lb/>“Mysteriously” <lb/>(Voir <title
+            ref="difdepo:titles.xml#scientificamerican">Scientific American</title>, Décembre 1964,
+          page 128,129)…. par <persName ref="difdepo:persons.xml#fll"
+          ><abbr>F.LL</abbr></persName></item>
         <item>Fatalité Séquentielle <persName ref="difdepo:persons.xml#jl">Lescure</persName></item>
-        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> <term ref="difdepo:terms.xml#grille">Grille</term> <persName ref="difdepo:persons.xml#jl">Lescure</persName></item>
-        <item><persName ref="difdepo:persons.xml#roussel">Roussel</persName></item>
+        <item>
+          <orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName>
+          <term ref="difdepo:terms.xml#grille">Grille</term>
+          <persName ref="difdepo:persons.xml#jl">Lescure</persName>
+        </item>
+        <item>
+          <persName ref="difdepo:persons.xml#roussel">Roussel</persName>
+        </item>
       </list>
-      <p><label type="rubrique">CREATION</label></p>
+      <p>
+        <label type="rubrique">CREATION</label>
+      </p>
       <list type="ordered">
-        <item><term ref="difdepo:terms.xml#carreslatinsetorthogonaux">Carrés latins et orthogonaux</term>……….. par <persName ref="difdepo:persons.xml#cb">C. Berge</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
-        <item><term ref="difdepo:terms.xml#textescirculaires">Textes circulaires</term>................ par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
-        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> : <term ref="difdepo:terms.xml#puzzlescombinatoires">Puzzles combinatoires</term>……………… par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
-        <item>Les <term ref="difdepo:terms.xml#grilles">grilles</term> <persName ref="difdepo:persons.xml#na">N. Arnaud</persName></item>
+        <item><term ref="difdepo:terms.xml#carreslatinsetorthogonaux">Carrés latins et
+            orthogonaux</term>……….. par <persName ref="difdepo:persons.xml#cb">C. Berge</persName>
+            (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><term ref="difdepo:terms.xml#textescirculaires">Textes
+          circulaires</term>................ par <persName ref="difdepo:persons.xml#fll"
+              ><abbr>F.LL</abbr></persName></item>
+        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> : <term
+            ref="difdepo:terms.xml#puzzlescombinatoires">Puzzles combinatoires</term>……………… par
+            <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
+        <item>Les <term ref="difdepo:terms.xml#grilles">grilles</term>
+          <persName ref="difdepo:persons.xml#na">N. Arnaud</persName></item>
         <item>Voisinages mixtes</item>
         <item/>
         <item/>
       </list>
-      <p><label type="rubrique">ACTION</label></p>
+      <p>
+        <label type="rubrique">ACTION</label>
+      </p>
       <list type="ordered">
-        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les cerveaux réunis</orgName> …………………. par Tout le monde</item>
+        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les cerveaux
+            réunis</orgName> …………………. par Tout le monde</item>
         <item>Esclave <persName ref="difdepo:persons.xml#jd">Duchateau</persName></item>
         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f4.highres" n="4"/>
-        <item><term ref="difdepo:terms.xml#monotype">Monotype</term> Pléiade (= <persName ref="difdepo:persons.xml#rq">Queneau</persName>) <persName ref="difdepo:persons.xml#pb">Braffort</persName> Centre de calcul <unclear>Saraiment</unclear></item>
+        <item>Monotype Pléiade (= <persName
+            ref="difdepo:persons.xml#rq">Queneau</persName>) <persName ref="difdepo:persons.xml#pb"
+            >Braffort</persName> Centre de calcul <unclear>Saraiment</unclear></item>
         <item/>
         <item/>
         <item/>
-        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : Lundi 1er février oui (Proposition de <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
-        <item>Prochains invités <unclear>convocateurs</unclear> par <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+           : Lundi 1er février oui (Proposition de <persName ref="difdepo:persons.xml#cb"
+              ><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#rq"
+            ><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#fll"
+            ><abbr>F.LL</abbr></persName>)</item>
+        <item>Prochains invités <unclear>convocateurs</unclear> par <persName
+            ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></item>
       </list>
-      <p><label type="rubrique">DIVERS</label></p>
+      <p>
+        <label type="rubrique">DIVERS</label>
+      </p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f5.highres" n="5"/>
       <p rend="incipit">OuLiPo</p>
       <p rend="incipit">Réunion du Vendredi 11 Décervelage 93</p>
       <p rend="incipit">(vulg : 8 janvier 1965)</p>
       <p rend="incipit">Ordre du jour proposé</p>
-      <p rend="incipit">ABSENCES EXCUSEES (et regrettées) : <persName ref="difdepo:persons.xml#jb">J. Bens</persName>, <persName ref="difdepo:persons.xml#cb">C. Berge</persName>, <persName ref="difdepo:persons.xml#rq">R. Queneau</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</p>
-      <p rend="incipit">Accueil de votre invité : <persName ref="difdepo:persons.xml#margot">Margot</persName></p>
-      <p><label type="rubrique">ERUDITION</label></p>
+      <p rend="incipit">ABSENCES EXCUSEES (et regrettées) : <persName ref="difdepo:persons.xml#jb"
+          >J. Bens</persName>, <persName ref="difdepo:persons.xml#cb">C. Berge</persName>, <persName
+          ref="difdepo:persons.xml#rq">R. Queneau</persName> (<persName
+          ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</p>
+      <p rend="incipit">Accueil de votre invité : <persName ref="difdepo:persons.xml#margot"
+          >Margot</persName></p>
+      <p>
+        <label type="rubrique">ERUDITION</label>
+      </p>
       <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#aramis">Aramis</persName> <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName ref="difdepo:persons.xml#jq">Queval</persName>, ou la poésie <persName ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName> par <persName ref="difdepo:persons.xml#rq">R. Queneau</persName></item>
-        <item><term ref="difdepo:terms.xml#pangrammes">Pangrammes</term> et autres <term ref="difdepo:terms.xml#jeuxalphabetiques">jeux alphabétiques</term> <lb/>« XV quick nymphs beg fjord waltz » <lb/>“Mysteriously” <lb/>(Voir <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title>, Décembre 1964, page 128,129)…. par F.LL</item>
+        <item><persName ref="difdepo:persons.xml#aramis">Aramis</persName>
+          <term ref="difdepo:terms.xml#plagiaire">plagiaire</term> de <persName
+            ref="difdepo:persons.xml#jq">Queval</persName>, ou la poésie <persName
+            ref="difdepo:persons.xml#alexandredumasiate">Alexandre Dumasiate</persName> par
+            <persName ref="difdepo:persons.xml#rq">R. Queneau</persName></item>
+        <item><term ref="difdepo:terms.xml#pangrammes">Pangrammes</term> et autres <term
+            ref="difdepo:terms.xml#jeuxalphabetiques">jeux alphabétiques</term>
+          <lb/>« XV quick nymphs beg fjord waltz » <lb/>“Mysteriously” <lb/>(Voir <title
+            ref="difdepo:titles.xml#scientificamerican">Scientific American</title>, Décembre 1964,
+          page 128,129)…. par F.LL</item>
         <item>Fatalité Séquentielle <persName ref="difdepo:persons.xml#jl">Lescure</persName></item>
-        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> <term ref="difdepo:terms.xml#grille">Grille</term> <persName ref="difdepo:persons.xml#jl">Lescure</persName></item>
-        <item><persName ref="difdepo:persons.xml#roussel">Roussel</persName></item>
+        <item>
+          <orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName>
+          <term ref="difdepo:terms.xml#grille">Grille</term>
+          <persName ref="difdepo:persons.xml#jl">Lescure</persName>
+        </item>
+        <item>
+          <persName ref="difdepo:persons.xml#roussel">Roussel</persName>
+        </item>
       </list>
-      <p><label type="rubrique">CREATION</label></p>
+      <p>
+        <label type="rubrique">CREATION</label>
+      </p>
       <list type="ordered">
-        <item><term ref="difdepo:terms.xml#carreslatinsetorthogonaux">Carrés latins et orthogonaux</term>……….. par <persName ref="difdepo:persons.xml#cb">C. Berge</persName> (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
-        <item><term ref="difdepo:terms.xml#textescirculaires">Textes circulaires</term>................ par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
-        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> : <term ref="difdepo:terms.xml#puzzlescombinatoires">Puzzles combinatoires</term>……………… par <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
-        <item>Les <term ref="difdepo:terms.xml#grilles">grilles</term> <persName ref="difdepo:persons.xml#na">N. Arnaud</persName></item>
+        <item><term ref="difdepo:terms.xml#carreslatinsetorthogonaux">Carrés latins et
+            orthogonaux</term>……….. par <persName ref="difdepo:persons.xml#cb">C. Berge</persName>
+            (<persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><term ref="difdepo:terms.xml#textescirculaires">Textes
+          circulaires</term>................ par <persName ref="difdepo:persons.xml#fll"
+              ><abbr>F.LL</abbr></persName></item>
+        <item><orgName ref="difdepo:organizations.xml#oupeinpo">Oupeinpo</orgName> : <term
+            ref="difdepo:terms.xml#puzzlescombinatoires">Puzzles combinatoires</term>……………… par
+            <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName></item>
+        <item>Les <term ref="difdepo:terms.xml#grilles">grilles</term>
+          <persName ref="difdepo:persons.xml#na">N. Arnaud</persName></item>
         <item/>
       </list>
-      <p><label type="rubrique">ACTION</label></p>
+      <p>
+        <label type="rubrique">ACTION</label>
+      </p>
       <list type="ordered">
-        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les cerveaux réunis</orgName> …………………. par Tout le monde</item>
+        <item><orgName ref="difdepo:organizations.xml#lescerveauxreunis">Les cerveaux
+            réunis</orgName> …………………. par Tout le monde</item>
         <item>Esclave</item>
         <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010051g/f6.highres" n="6"/>
         <item/>
         <item/>
         <item/>
-        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>  : Lundi 1er février oui (Proposition de <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#fll"><abbr>F.LL</abbr></persName>)</item>
+        <item><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+           : Lundi 1er février oui (Proposition de <persName ref="difdepo:persons.xml#cb"
+              ><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#rq"
+            ><abbr>RQ</abbr></persName>, <persName ref="difdepo:persons.xml#fll"
+            ><abbr>F.LL</abbr></persName>)</item>
         <item>Prochains invités</item>
       </list>
-      <p><label type="rubrique">DIVERS</label></p>
+      <p>
+        <label type="rubrique">DIVERS</label>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010268-1984-02-oj">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010268-1984-02-oj">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +18,11 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010268-1984-02-oj</idno> <title>Ordre de jour de <ref target="#t10010268-1984-02">la réunion Oulipo</ref> du <date when="1984-02-24">24 février 1984</date></title></bibl>
+        <bibl>
+          <idno>t10010268-1984-02-oj</idno>
+          <title>Ordre de jour de <ref target="#t10010268-1984-02">la réunion Oulipo</ref> du <date
+              when="1984-02-24">24 février 1984</date></title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -27,6 +32,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-06" who="HCC">correctif encodage</change>
         <change when="2018-03-23" who="HCC">nettoyage des commentaires/notes</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
@@ -41,41 +47,81 @@
       <p rend="incipit">Ordre du jour</p>
       <p rend="incipit">Présents : PF, JR, FC, JJ, MB</p>
       <p rend="incipit">Excusés : Anonyme, FLL, LE, JB, MM, NA.</p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Mouvement élémentaire de déshabillage</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : La Courtisane Chrysomallo</p>
+      <p>
+        <label type="rubrique">Création</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : Mouvement élémentaire
+        de déshabillage</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : La Courtisane
+        Chrysomallo</p>
       <p>Glose sur Vase Brisé</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Création d’un stagiaire</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : <term ref="difdepo:terms.xml#palindromedelacontrainte">Palindrome de la contrainte</term></p>
-      <p><label type="rubrique">Erudition :</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : 1 / <persName ref="difdepo:persons.xml#emmanuelfo">Emmanuel Fo</persName> ury</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Création d’un
+        stagiaire</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : <term
+          ref="difdepo:terms.xml#palindromedelacontrainte">Palindrome de la contrainte</term></p>
+      <p>
+        <label type="rubrique">Erudition :</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : 1 / <persName
+          ref="difdepo:persons.xml#efoury">Emmanuel Foury</persName></p>
       <p>2/ <persName ref="difdepo:persons.xml#georgesleconte">Georges Leconte</persName></p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Erudition de la plus haute importance</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#plagiaireparanticipation">Plagiaire par anticipation</term> pour <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : érudition oublié (<term ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term>)</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Panorama. Confusion de <term ref="difdepo:terms.xml#contrainte">contrainte</term>.</p>
-      <p><label type="rubrique">Action</label></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : Erudition de la plus
+        haute importance</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term
+          ref="difdepo:terms.xml#plagiaireparanticipation">Plagiaire par anticipation</term> pour
+          <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : érudition oublié (<term
+          ref="difdepo:terms.xml#plagiatparanticipation">plagiat par anticipation</term>)</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Panorama. Confusion de
+          <term ref="difdepo:terms.xml#contrainte">contrainte</term>.</p>
+      <p>
+        <label type="rubrique">Action</label>
+      </p>
       <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Pentecôte à Lyon</p>
       <p>Impôts</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <title ref="difdepo:titles.xml#oulipo1">Oulipo 1</title></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : La <unclear>chaux de fond</unclear></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> : <title
+          ref="difdepo:titles.xml#oulipo1">Oulipo 1</title></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : La <unclear>chaux de
+          fond</unclear></p>
+      <p>
+        <persName ref="difdepo:persons.xml#pf">
+          <abbr>PF</abbr>
+        </persName>
+      </p>
       <list type="unordered">
-        <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. 4 joints</item>
+        <item><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque
+          oulipienne</title>. 4 joints</item>
         <item>un h de Caen</item>
-        <item><unclear>Smaraudache</unclear></item>
+        <item>
+          <unclear>Smaraudache</unclear>
+        </item>
       </list>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p>
+        <persName ref="difdepo:persons.xml#mb">
+          <abbr>MB</abbr>
+        </persName>
+      </p>
       <list type="unordered">
-        <item><name ref="difdepo:events.xml#liege" type="manif">Liège</name></item>
+        <item>
+          <name ref="difdepo:events.xml#liege" type="manif">Liège</name>
+        </item>
         <item>Québec</item>
       </list>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Atelier à <orgName ref="difdepo:organizations.xml#shakespeareandco">Shakespeare and Co</orgName></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <name ref="difdepo:events.xml#colloque" type="manif">Colloque</name> <persName ref="difdepo:persons.xml#rq">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Atelier à <orgName
+          ref="difdepo:organizations.xml#shakespeareandco">Shakespeare and Co</orgName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <name
+          ref="difdepo:events.xml#colloque" type="manif">Colloque</name>
+        <persName ref="difdepo:persons.xml#rq">Queneau</persName></p>
       <p>Rameuil</p>
-      <p><label type="rubrique">Menus propos</label></p>
+      <p>
+        <label type="rubrique">Menus propos</label>
+      </p>
       <p>Demouzon</p>
-      <p><label type="rubrique"><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name></label></p>
+      <p>
+        <label type="rubrique">
+          <name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name>
+        </label>
+      </p>
     </body>
   </text>
 </TEI>

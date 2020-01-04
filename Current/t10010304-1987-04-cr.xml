@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010304-1987-04-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010304-1987-04-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +18,39 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010304-1987-04-cr</idno> <meeting xml:id="t10010304-1987-04">
-          <date when="1987-04-28">28 avril 1987</date>
-          <placeName>chez MM et HM</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#mm">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#hm">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#jb" role="président">Jacques Bens</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010304-1987-04-cr</idno>
+          <meeting xml:id="t10010304-1987-04">
+            <date when="1987-04-28">28 avril 1987</date>
+            <placeName>chez MM et HM</placeName>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mm">Michele Métail</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#hm">Harry Mathews</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jb" role="président">Jacques Bens</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,6 +60,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-11" who="HCC">correctif encodage</change>
         <change when="2018-03-25" who="HCC">nettoyage des notions/terms</change>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
         <change when="2018-01-06">restore date from docx</change>
@@ -55,60 +76,143 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010304w/f17.highres" n="17"/>
       <p rend="incipit">28/4/87 Oulipo Réunion n°</p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jl">Lescure</persName>, <persName ref="difdepo:persons.xml#pb">Braffort</persName>, <persName ref="difdepo:persons.xml#jd">Duchateau</persName>, <persName ref="difdepo:persons.xml#cb">Berge</persName>, le Président, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> président, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#structure">Structure</term> (<ref>voir annexe</ref>)</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : c’est exactement la <term ref="difdepo:terms.xml#structure">structure</term> d’un livre de <persName ref="difdepo:persons.xml#jcpirotte">J-C Pirotte</persName>, <title ref="difdepo:titles.xml#unetedanslacombe">Un Eté dans la combe</title></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : projet ctile : projet d’<term ref="difdepo:terms.xml#homophonie">homophonie</term> : eh dis tueur ?</p>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : préparation du <name ref="difdepo:events.xml#programmeivrydu5mai87" type="manif">programme Ivry du 5 Mai 87</name></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jl">Lescure</persName>,
+          <persName ref="difdepo:persons.xml#pb">Braffort</persName>, <persName
+          ref="difdepo:persons.xml#jd">Duchateau</persName>, <persName ref="difdepo:persons.xml#cb"
+          >Berge</persName>, le Président, <persName ref="difdepo:persons.xml#cb"
+          ><abbr>CB</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fc"
+        ><abbr>FC</abbr></persName>, <persName ref="difdepo:persons.xml#jb"
+          ><abbr>JB</abbr></persName> président, <persName ref="difdepo:persons.xml#jr"
+            ><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#mm"
+          ><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"
+          ><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#jj"
+          ><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#pf"
+          ><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#hm"
+          ><abbr>HM</abbr></persName></p>
+      <p>
+        <label type="rubrique">Création</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term
+          ref="difdepo:terms.xml#structure">Structure</term> (<ref>voir annexe</ref>)</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : c’est exactement la
+          <term ref="difdepo:terms.xml#structure">structure</term> d’un livre de <persName
+          ref="difdepo:persons.xml#jcpirotte">J-C Pirotte</persName>, <title
+          ref="difdepo:titles.xml#unetedanslacombe">Un Eté dans la combe</title></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : projet ctile : projet
+          d’<term ref="difdepo:terms.xml#homophonie">homophonie</term> : eh dis tueur ?</p>
+      <p>
+        <label type="rubrique">Action</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> : préparation du <name
+          ref="difdepo:events.xml#programmeivrydu5mai87" type="manif">programme Ivry du 5 Mai
+          87</name></p>
       <p>Rendez-vous à 19h30</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> demande à <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> un certain nombre de volumes de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title
+          ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> demande à
+          <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> un certain nombre de
+        volumes de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque
+          oulipienne</title>.</p>
       <p>Modification technique : livres dodus</p>
       <p>Changement de format</p>
-      <p><label type="rubrique">Erudition :</label></p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
+      <p>
+        <label type="rubrique">Erudition :</label>
+      </p>
+      <p>
+        <persName ref="difdepo:persons.xml#jr">
+          <abbr>JR</abbr>
+        </persName>
+      </p>
       <list type="ordered">
         <item>Contribution à l’interprétation oulipienne de l’histoire</item>
       </list>
-      <p>Un <term ref="difdepo:terms.xml#sonnet">sonnet</term> de 17 <term ref="difdepo:terms.xml#vers">vers</term> (non versé aux archives)</p>
-      <p>(2 quatrains de 5 <term ref="difdepo:terms.xml#vers">vers</term>, 1 sixain de 7 <term ref="difdepo:terms.xml#vers">vers</term>)</p>
+      <p>Un <term ref="difdepo:terms.xml#sonnet">sonnet</term> de 17 <term
+          ref="difdepo:terms.xml#vers">vers</term> (non versé aux archives)</p>
+      <p>(2 quatrains de 5 <term ref="difdepo:terms.xml#vers">vers</term>, 1 sixain de 7 <term
+          ref="difdepo:terms.xml#vers">vers</term>)</p>
       <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#frcsdelauze">Frcs de Lauze</persName>, autour de <title ref="difdepo:titles.xml#apologiedeladanse">Apologie de la Danse</title> (1623)</item>
+        <item><persName ref="difdepo:persons.xml#frcsdelauze">Frcs de Lauze</persName>, autour de
+            <title ref="difdepo:titles.xml#apologiedeladanse">Apologie de la Danse</title>
+          (1623)</item>
       </list>
-      <p><term ref="difdepo:terms.xml#sonnet">Sonnet</term> liminaire signé d’une <term ref="difdepo:terms.xml#anagramme">anagramme</term> VALSE (donc la VALSE a été inventée pour des raisons oulipiennes, bien avant le XIXème)</p>
+      <p><term ref="difdepo:terms.xml#sonnet">Sonnet</term> liminaire signé d’une <term
+          ref="difdepo:terms.xml#anagramme">anagramme</term> VALSE (donc la VALSE a été inventée
+        pour des raisons oulipiennes, bien avant le XIXème)</p>
       <list type="ordered">
-        <item><persName ref="difdepo:persons.xml#plemonnier">P. Lemonnier</persName> 1614, Antiquités</item>
+        <item><persName ref="difdepo:persons.xml#plemonnier">P. Lemonnier</persName> 1614,
+          Antiquités</item>
       </list>
-      <p>Avis au lecteur en lettres <term ref="difdepo:terms.xml#acrostiches">acrostiches</term>. (l’<term ref="difdepo:terms.xml#acrostiche">acrostiche</term> sur Avis au Lecteur)</p>
+      <p>Avis au lecteur en lettres <term ref="difdepo:terms.xml#acrostiches">acrostiches</term>.
+          (l’<term ref="difdepo:terms.xml#acrostiche">acrostiche</term> sur Avis au Lecteur)</p>
       <list type="ordered">
-        <item>Un <term ref="difdepo:terms.xml#sonnet">sonnet</term> de 14 <term ref="difdepo:terms.xml#vers">vers</term> de 14 syllabes</item>
+        <item>Un <term ref="difdepo:terms.xml#sonnet">sonnet</term> de 14 <term
+            ref="difdepo:terms.xml#vers">vers</term> de 14 syllabes</item>
       </list>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> président compte les rondelles de saucisson qu’il donne à <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#renedroin">René Droin</persName>, Tour ou les mots les plus courts ne sont pas les moins bons</p>
-      <p><term ref="difdepo:terms.xml#romanmonosyllabique">Roman monosyllabique</term></p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> président compte les
+        rondelles de saucisson qu’il donne à <persName ref="difdepo:persons.xml#jr"
+          ><abbr>JR</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+        <persName ref="difdepo:persons.xml#renedroin">René Droin</persName>, Tour ou les mots les
+        plus courts ne sont pas les moins bons</p>
+      <p>
+        <term ref="difdepo:terms.xml#romanmonosyllabique">Roman monosyllabique</term>
+      </p>
       <p>Diverses réflexions</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#carlemmanuelderain">Carl Emmanuel Derain</persName> : bibliographie critique</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> New York : <ref>l’état des choses purs Octobre 1987 (voir lettre)</ref></p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>
+        <persName ref="difdepo:persons.xml#carlemmanuelderain">Carl Emmanuel Derain</persName> :
+        bibliographie critique</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> New York : <ref>l’état
+          des choses purs Octobre 1987 (voir lettre)</ref></p>
       <p>On se démerde</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010304w/f18.highres" n="18"/>
       <p>28 IV 87</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p>
+        <persName ref="difdepo:persons.xml#pf">
+          <abbr>PF</abbr>
+        </persName>
+      </p>
       <list type="unordered">
-        <item>La Bibliothèque de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></item>
-        <item><persName ref="difdepo:persons.xml#bdemers">B. Demers</persName> <title ref="difdepo:titles.xml#lesexercicesdestyle">Les Exercices de style</title></item>
-        <item><persName ref="difdepo:persons.xml#aimemaeght">Aimé Maeght</persName></item>
+        <item>La Bibliothèque de <persName ref="difdepo:persons.xml#rq"
+          ><abbr>RQ</abbr></persName></item>
+        <item>
+          <persName ref="difdepo:persons.xml#bdemers">B. Demers</persName>
+          <title ref="difdepo:titles.xml#lesexercicesdestyle">Les Exercices de style</title>
+        </item>
+        <item>
+          <persName ref="difdepo:persons.xml#aimemaeght">Aimé Maeght</persName>
+        </item>
       </list>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> La <term ref="difdepo:terms.xml#contrainte">contrainte</term> de Paulette</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> erudition <title ref="difdepo:titles.xml#lespritcreateur">L’Esprit Créateur</title></p>
-      <p><orgName ref="difdepo:organizations.xml#departmentoffrenchofbostontougeuniversity">Department of French of Boston Touge University</orgName> (Winter 1986)</p>
-      <p>Article de <persName ref="difdepo:persons.xml#jjthomas">J-J Thomas</persName> <title ref="difdepo:titles.xml#machinationsformellessurloulipo">Machinations formelles : sur l’Oulipo</title>.</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <orgName ref="difdepo:organizations.xml#aappfidassociationamispaspresetfutdisodoreducasse">AAPPFID Association Amis Pas Près et Fut d’Isodore Ducasse</orgName></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#thomaslescure">Thomas Lescure</persName>, journaliste du <title ref="difdepo:titles.xml#matin">Matin</title> va faire un grand article sur l’Oulipo</p>
-      <p><label type="rubrique"><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Menus Propos</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#louisedevilmorin">Louise de Vilmorin</persName>, un livre oulipien <title ref="difdepo:titles.xml#lalphabetdesaveux">L’Alphabet des Aveux</title></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#emileberr">Emile Berr</persName>, <title ref="difdepo:titles.xml#lespetiteschosesquifontplaisir">les petites choses qui font plaisir</title></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> La <term
+          ref="difdepo:terms.xml#contrainte">contrainte</term> de Paulette</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> erudition <title
+          ref="difdepo:titles.xml#lespritcreateur">L’Esprit Créateur</title></p>
+      <p><orgName ref="difdepo:organizations.xml#departmentoffrenchofbostontougeuniversity"
+          >Department of French of Boston Touge University</orgName> (Winter 1986)</p>
+      <p>Article de <persName ref="difdepo:persons.xml#jjthomas">J-J Thomas</persName>
+        <title ref="difdepo:titles.xml#machinationsformellessurloulipo">Machinations formelles : sur
+          l’Oulipo</title>.</p>
+      <p>
+        <persName ref="difdepo:persons.xml#fc">
+          <abbr>FC</abbr>
+        </persName>
+        <orgName ref="difdepo:organizations.xml#aappfidassociationamispaspresetfutdisodoreducasse"
+          >AAPPFID Association Amis Passés Présents et Futurs d’Isodore Ducasse</orgName>
+      </p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+        <persName ref="difdepo:persons.xml#thomaslescure">Thomas Lescure</persName>, journaliste du
+          <title ref="difdepo:titles.xml#matin">Matin</title> va faire un grand article sur
+        l’Oulipo</p>
+      <p>
+        <label type="rubrique"><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>
+          Menus Propos</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+        <persName ref="difdepo:persons.xml#louisedevilmorin">Louise de Vilmorin</persName>, un livre
+        oulipien <title ref="difdepo:titles.xml#lalphabetdesaveux">L’Alphabet des Aveux</title></p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>
+        <persName ref="difdepo:persons.xml#emileberr">Emile Berr</persName>, <title
+          ref="difdepo:titles.xml#lespetiteschosesquifontplaisir">les petites choses qui font
+          plaisir</title></p>
     </body>
   </text>
 </TEI>

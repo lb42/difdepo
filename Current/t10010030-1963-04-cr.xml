@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010030-1963-04-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010030-1963-04-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,21 +19,43 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010030-1963-04-cr</idno> <meeting xml:id="t10010030-1963-04">
-          <date when="1963-04-18">18 avril 1963</date>
-          <placeName>Chez Papille</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#rq">Raymond Queneau</persName></item>
-            <item><persName ref="difdepo:persons.xml#na">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#fll">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#jl">Jean Lescure</persName></item>
-            <item><persName ref="difdepo:persons.xml#jq">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#jd">Jacques Duchateau</persName></item>
-            <item><persName ref="difdepo:persons.xml#jb">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#ythiermarchant" role="secrétaire">Ythier Marchant</persName></item>
-            <item><persName ref="difdepo:persons.xml#la" role="président">Latis</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010030-1963-04-cr</idno>
+          <meeting xml:id="t10010030-1963-04">
+            <date when="1963-04-18">18 avril 1963</date>
+            <placeName>Chez Papille</placeName>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#rq">Raymond Queneau</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#na">Noël Arnaud</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#fll">François Le Lionnais</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jl">Jean Lescure</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jq">Jean Queval</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jd">Jacques Duchateau</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jb">Jacques Bens</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#ythiermarchant" role="secrétaire">Ythier
+                  Marchant</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#la" role="président">Latis</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -42,6 +65,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-06" who="HCC">correctif encodage</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-06">restore placeName from docx</change>
         <change when="2018-01-02">restore accidentally deleted attendance lists</change>
@@ -58,65 +82,163 @@
       <p rend="incipit">Circulaire n° 32</p>
       <p rend="incipit">COMPTE-RENDU DE LA REUNION DU 18 AVRIL 1963</p>
       <p rend="incipit">(Chez <persName ref="difdepo:persons.xml#papille">Papille</persName>)</p>
-      <p rend="incipit">PRESENTS : <persName ref="difdepo:persons.xml#rq">Queneau</persName>, <persName ref="difdepo:persons.xml#na">Arnaud</persName>, <persName ref="difdepo:persons.xml#la">Latis</persName>, <persName ref="difdepo:persons.xml#fll">Le Lionnais</persName>, <persName ref="difdepo:persons.xml#jl">Lescure</persName>, <persName ref="difdepo:persons.xml#jq">Queval</persName>, <persName ref="difdepo:persons.xml#jb">Bens</persName>, <persName ref="difdepo:persons.xml#jd">Duchateau</persName></p>
+      <p rend="incipit">PRESENTS : <persName ref="difdepo:persons.xml#rq">Queneau</persName>,
+          <persName ref="difdepo:persons.xml#na">Arnaud</persName>, <persName
+          ref="difdepo:persons.xml#la">Latis</persName>, <persName ref="difdepo:persons.xml#fll">Le
+          Lionnais</persName>, <persName ref="difdepo:persons.xml#jl">Lescure</persName>, <persName
+          ref="difdepo:persons.xml#jq">Queval</persName>, <persName ref="difdepo:persons.xml#jb"
+          >Bens</persName>, <persName ref="difdepo:persons.xml#jd">Duchateau</persName></p>
       <p rend="incipit">PRESIDENT : <persName ref="difdepo:persons.xml#la">LATIS</persName></p>
-      <p><persName ref="difdepo:persons.xml#fll">Le Lionnais</persName> invite tout d’abord le Président à maintenir une discipline de fer.</p>
-      <p>Puis, <persName ref="difdepo:persons.xml#jl">Lescure</persName> déclare avoir soumis un texte de <persName ref="difdepo:persons.xml#valery">Valéry</persName> sur le <term ref="difdepo:terms.xml#sonnet">sonnet</term> à la <term ref="difdepo:terms.xml#methodes7">méthode S + 7</term> au moyen du <term ref="difdepo:terms.xml#npli">N.P.L.I</term>. Celui-ci, si renommé pour les <term ref="difdepo:terms.xml#motscroises">Mots-Croisés</term>, se révèle inutilisable pour les <term ref="difdepo:terms.xml#heptapolations">heptapolations</term> (hé ! hé !). Le résultat est donc peu concluant, mais le Régent estime souhaitable de tenter de nouveaux essais avec <term ref="difdepo:terms.xml#s7">S – 7</term> et <term ref="difdepo:terms.xml#s21">S + 21</term>.</p>
-      <p><persName ref="difdepo:persons.xml#la">Latis</persName> rappelle que le dictionnaire russe, appliqué à <persName ref="difdepo:persons.xml#cecilsaintlaurent">Cécil Saint-Laurent</persName> avait donné des résultats très intéressants.</p>
-      <p>Arrivée de <persName ref="difdepo:persons.xml#jd">Duchateau</persName>, discrète, mais remarquée.</p>
-      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : On a rudement bien bouffé la dernière fois.</p>
+      <p><persName ref="difdepo:persons.xml#fll">Le Lionnais</persName> invite tout d’abord le
+        Président à maintenir une discipline de fer.</p>
+      <p>Puis, <persName ref="difdepo:persons.xml#jl">Lescure</persName> déclare avoir soumis un
+        texte de <persName ref="difdepo:persons.xml#valery">Valéry</persName> sur le <term
+          ref="difdepo:terms.xml#sonnet">sonnet</term> à la <term ref="difdepo:terms.xml#methodes7"
+            >méthode S + 7</term> au moyen du <title ref="difdepo:titles.xml#npli">N.P.L.I.</title>
+        Celui-ci, si renommé pour les <term ref="difdepo:terms.xml#motscroises">Mots-Croisés</term>,
+        se révèle inutilisable pour les <term ref="difdepo:terms.xml#heptapolations"
+          >heptapolations</term> (hé ! hé !). Le résultat est donc peu concluant, mais le Régent
+        estime souhaitable de tenter de nouveaux essais avec <term ref="difdepo:terms.xml#s7">S –
+          7</term> et <term ref="difdepo:terms.xml#s21">S + 21</term>.</p>
+      <p><persName ref="difdepo:persons.xml#la">Latis</persName> rappelle que le dictionnaire russe,
+        appliqué à <persName ref="difdepo:persons.xml#cecilsaintlaurent">Cécil
+          Saint-Laurent</persName> avait donné des résultats très intéressants.</p>
+      <p>Arrivée de <persName ref="difdepo:persons.xml#jd">Duchateau</persName>, discrète, mais
+        remarquée.</p>
+      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : On a rudement bien bouffé la
+        dernière fois.</p>
       <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> : ?</p>
-      <p>(Note : les notes du présent déjeuner mentionnent : « voir papier ». Je ne possède aucun papier. Nous ne saurons donc jamais ce qu’<persName ref="difdepo:persons.xml#na">Arnaud</persName> a dit à ce moment-là. Mais il est déjà très intéressant de savoir qu’il a pris la parole. D’autant plus que les notes en question précisent.)</p>
+      <p>(Note : les notes du présent déjeuner mentionnent : « voir papier ». Je ne possède aucun
+        papier. Nous ne saurons donc jamais ce qu’<persName ref="difdepo:persons.xml#na"
+          >Arnaud</persName> a dit à ce moment-là. Mais il est déjà très intéressant de savoir qu’il
+        a pris la parole. D’autant plus que les notes en question précisent.)</p>
       <p>Emotion générale.</p>
-      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : M. <persName ref="difdepo:persons.xml#jacquesfavart">Jacques Favart</persName>, du <orgName ref="difdepo:organizations.xml#seminairedelinguistiquequantitative">Séminaire de Linguistique Quantitative</orgName>, a adressé une lettre de félicitations pour l’OuLiPo. (Pour la lettre, voir note ci-dessus et remplacer « papier » par « lettre ».)</p>
-      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : Pourrons-nous publier d’autres <title ref="difdepo:titles.xml#dossiersoulipo">Dossiers OuLiPo</title> ? Car le premier ne donne qu’un échantillonnage de nos travaux, qu’une impression générale de ce qu’est l’OuLiPo. Il serait nécessaire de publier des travaux plus approfondis, plus complets, plus définitifs.</p>
-      <p><persName ref="difdepo:persons.xml#la">Latis</persName>, à cette question, répond affirmativement. Mais où sont nos travaux « plus approfondis » ?</p>
+      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : M. <persName
+          ref="difdepo:persons.xml#jacquesfavart">Jacques Favart</persName>, du <orgName
+          ref="difdepo:organizations.xml#seminairedelinguistiquequantitative">Séminaire de
+          Linguistique Quantitative</orgName>, a adressé une lettre de félicitations pour l’OuLiPo.
+        (Pour la lettre, voir note ci-dessus et remplacer « papier » par « lettre ».)</p>
+      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : Pourrons-nous publier d’autres
+          <title ref="difdepo:titles.xml#dossiersoulipo">Dossiers OuLiPo</title> ? Car le premier ne
+        donne qu’un échantillonnage de nos travaux, qu’une impression générale de ce qu’est
+        l’OuLiPo. Il serait nécessaire de publier des travaux plus approfondis, plus complets, plus
+        définitifs.</p>
+      <p><persName ref="difdepo:persons.xml#la">Latis</persName>, à cette question, répond
+        affirmativement. Mais où sont nos travaux « plus approfondis » ?</p>
       <p>Coitité générale.</p>
-      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : Un professeur belge m’a envoyé des sortes de <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">Cent Mille Milliards de Poèmes</title> faits par des petits Belges. En réalité, il s’agit de 5 <term ref="difdepo:terms.xml#poemes">poèmes</term> de 12 <term ref="difdepo:terms.xml#vers">vers</term> chacun, dont les <term ref="difdepo:terms.xml#combinaisons">combinaisons</term> ne peuvent donc conduire qu’à 512 <term ref="difdepo:terms.xml#poemes">poèmes</term> différentes, soit : DEUX CENT QUARANTE QUATRE MILLIONS CENT QUARANTE MILLE SIX CENT VINGT CINQ (244.140.625), ce qui tout en étant fort respectable, est loin d’inquiéter, comme on le voit, le record précédemment établi par le <persName ref="difdepo:persons.xml#trtsatrape">Trt Satrape</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : Un professeur belge m’a envoyé
+        des sortes de <title ref="difdepo:titles.xml#centmillemilliardsdepoemes">Cent Mille
+          Milliards de Poèmes</title> faits par des petits Belges. En réalité, il s’agit de 5 <term
+          ref="difdepo:terms.xml#poemes">poèmes</term> de 12 <term ref="difdepo:terms.xml#vers"
+          >vers</term> chacun, dont les <term ref="difdepo:terms.xml#combinaisons"
+          >combinaisons</term> ne peuvent donc conduire qu’à 512 <term
+          ref="difdepo:terms.xml#poemes">poèmes</term> différentes, soit : DEUX CENT QUARANTE QUATRE
+        MILLIONS CENT QUARANTE MILLE SIX CENT VINGT CINQ (244.140.625), ce qui tout en étant fort
+        respectable, est loin d’inquiéter, comme on le voit, le record précédemment établi par le
+          <persName ref="difdepo:persons.xml#trtsatrape">Trt Satrape</persName>.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100306/f2.highres" n="2"/>
-      <p>(On trouvera, comme on ne s’y attend guère, le <ref>texte de ces cinq poèmes en annexe</ref>.)</p>
-      <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> : Puisqu’on cherche des nègres, le bon nègre idéal, est celui que nous voyons à Paris, donc que nous pouvons avoir sans cesse sous la main. (Je ne dis pas sous la garcette.) Mais on pourrait imaginer, de surcroît, quelques nègres par correspondance.</p>
+      <p>(On trouvera, comme on ne s’y attend guère, le <ref>texte de ces cinq poèmes en
+          annexe</ref>.)</p>
+      <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> : Puisqu’on cherche des nègres, le
+        bon nègre idéal, est celui que nous voyons à Paris, donc que nous pouvons avoir sans cesse
+        sous la main. (Je ne dis pas sous la garcette.) Mais on pourrait imaginer, de surcroît,
+        quelques nègres par correspondance.</p>
       <p>TOUS : D’accord.</p>
-      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : Je vais leur envoyer un <title ref="difdepo:titles.xml#dossieroulipo">Dossier OuLiPo</title>.</p>
-      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : Et tout cela contribue à prouver la nécessité de publier un volume des C.R.</p>
+      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : Je vais leur envoyer un <title
+          ref="difdepo:titles.xml#dossieroulipo">Dossier OuLiPo</title>.</p>
+      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : Et tout cela contribue à
+        prouver la nécessité de publier un volume des C.R.</p>
       <p>Silence gêné-général.</p>
-      <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> (d’une voix étranglée) : La parole est au Président !</p>
-      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : J’ai reçu une lettre de <persName ref="difdepo:persons.xml#rc">Chambers</persName>. Il m’envoie les <term ref="difdepo:terms.xml#bords">bords</term> des <term ref="difdepo:terms.xml#sonnets">sonnets</term> de <persName ref="difdepo:persons.xml#nerval">Nerval</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#jq">QUEVAL</persName> : Peut-on envisager une <term ref="difdepo:terms.xml#intersection">intersection</term> entre l’OuLiPo et l’<term ref="difdepo:terms.xml#artartificiel">Art Artificiel</term> ? Car il y a une certaine <name ref="difdepo:events.xml#decade" type="manif">décade</name>, à Cerisy, où…</p>
-      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : L’OuLiPo a déjà été invité ! Mais tout le monde s’est dégonflé. Alors !</p>
-      <p><persName ref="difdepo:persons.xml#la">LATIS</persName> : Je ne comprends pas bien le sens du sujet. Qu’est-ce que la <term ref="difdepo:terms.xml#penseeartificielle">pensée artificielle</term> ? Quelles différences faites-vous entre elle et la <term ref="difdepo:terms.xml#penseevecue">pensée vécue</term> ?</p>
-      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : C’est expliqué dans le prospectus… Il s’agit de confronter</p>
+      <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> (d’une voix étranglée) : La parole
+        est au Président !</p>
+      <p><persName ref="difdepo:persons.xml#rq">QUENEAU</persName> : J’ai reçu une lettre de
+          <persName ref="difdepo:persons.xml#rc">Chambers</persName>. Il m’envoie les <term
+          ref="difdepo:terms.xml#bords">bords</term> des <term ref="difdepo:terms.xml#sonnets"
+          >sonnets</term> de <persName ref="difdepo:persons.xml#nerval">Nerval</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#jq">QUEVAL</persName> : Peut-on envisager une <term
+          ref="difdepo:terms.xml#intersection">intersection</term> entre l’OuLiPo et l’<term
+          ref="difdepo:terms.xml#artartificiel">Art Artificiel</term> ? Car il y a une certaine
+          <name ref="difdepo:events.xml#decade" type="manif">décade</name>, à Cerisy, où…</p>
+      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : L’OuLiPo a déjà été
+        invité ! Mais tout le monde s’est dégonflé. Alors !</p>
+      <p><persName ref="difdepo:persons.xml#la">LATIS</persName> : Je ne comprends pas bien le sens
+        du sujet. Qu’est-ce que la <term ref="difdepo:terms.xml#penseeartificielle">pensée
+          artificielle</term> ? Quelles différences faites-vous entre elle et la <term
+          ref="difdepo:terms.xml#penseevecue">pensée vécue</term> ?</p>
+      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : C’est expliqué dans le
+        prospectus… Il s’agit de confronter</p>
       <list type="ordered">
-        <item>les activités existant à l’intérieur des <term ref="difdepo:terms.xml#machines">machines</term> à traiter l’information (qui sont des « formes de pensée ») et les activités de la <term ref="difdepo:terms.xml#penseevecue">pensée vécue</term> ;</item>
-        <item>les œuvres faites par des <term ref="difdepo:terms.xml#machines">machines</term> et les œuvres faites par l’homme.</item>
+        <item>les activités existant à l’intérieur des <term ref="difdepo:terms.xml#machines"
+            >machines</term> à traiter l’information (qui sont des « formes de pensée ») et les
+          activités de la <term ref="difdepo:terms.xml#penseevecue">pensée vécue</term> ;</item>
+        <item>les œuvres faites par des <term ref="difdepo:terms.xml#machines">machines</term> et
+          les œuvres faites par l’homme.</item>
       </list>
-      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : Cerisy doit être envahi par l’OuLiPo pendant trois jours !</p>
-      <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> : Il y aura déjà une invasion de musiciens ! A ce propos, le cas d’<persName ref="difdepo:persons.xml#abrahammoles"><abbr>A.M</abbr></persName> est ennuyeux : il a repris les travaux de l’OuLiPo sans le citer !</p>
-      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : J’insiste pour que l’OuLiPo s’y rende en forces.</p>
+      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : Cerisy doit être envahi par
+        l’OuLiPo pendant trois jours !</p>
+      <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> : Il y aura déjà une invasion de
+        musiciens ! A ce propos, le cas d’<persName ref="difdepo:persons.xml#abrahammoles"
+            ><abbr>A.M</abbr></persName> est ennuyeux : il a repris les travaux de l’OuLiPo sans le
+        citer !</p>
+      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : J’insiste pour que l’OuLiPo s’y
+        rende en forces.</p>
       <p>On rappelle les dates : 14, 15, 16 et 17 juillet.</p>
-      <p>ARNAUD : Il faudrait inviter <persName ref="difdepo:persons.xml#philippot">Philippot</persName> avant.</p>
+      <p>ARNAUD : Il faudrait inviter <persName ref="difdepo:persons.xml#philippot"
+          >Philippot</persName> avant.</p>
       <p>Accord général.</p>
-      <p><persName ref="difdepo:persons.xml#rq">Queneau</persName>, <persName ref="difdepo:persons.xml#jl">Lescure</persName> et <persName ref="difdepo:persons.xml#jd">Duchateau</persName> viendront sûrement.</p>
-      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : Peut-on changer l’emploi du temps et être là du 16 au 19 ?</p>
-      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : Vous chamboulez la logique !</p>
-      <p><persName ref="difdepo:persons.xml#la">LATIS</persName> : Le Régent a une conception arriérée de la logique !</p>
+      <p><persName ref="difdepo:persons.xml#rq">Queneau</persName>, <persName
+          ref="difdepo:persons.xml#jl">Lescure</persName> et <persName ref="difdepo:persons.xml#jd"
+          >Duchateau</persName> viendront sûrement.</p>
+      <p><persName ref="difdepo:persons.xml#jl">LESCURE</persName> : Peut-on changer l’emploi du
+        temps et être là du 16 au 19 ?</p>
+      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : Vous chamboulez la
+        logique !</p>
+      <p><persName ref="difdepo:persons.xml#la">LATIS</persName> : Le Régent a une conception
+        arriérée de la logique !</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100100306/f3.highres" n="3"/>
-      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : Les questions de <term ref="difdepo:terms.xml#traduction">traduction</term> mettant en jeu des mots et des phrases, il est préférable de passer de celle-ci à la littérature, plutôt qu’à la musique. Mais enfin, je veux bien essayer de nous programmer le 16.</p>
+      <p><persName ref="difdepo:persons.xml#fll">LE LIONNAIS</persName> : Les questions de <term
+          ref="difdepo:terms.xml#traduction">traduction</term> mettant en jeu des mots et des
+        phrases, il est préférable de passer de celle-ci à la littérature, plutôt qu’à la musique.
+        Mais enfin, je veux bien essayer de nous programmer le 16.</p>
       <p><persName ref="difdepo:persons.xml#na">ARNAUD</persName> : Rappelez-nous le programme ?</p>
       <p>Ce qui est fait.</p>
-      <p><persName ref="difdepo:persons.xml#jq">QUEVAL</persName> : Je retire la question que j’ai posée.</p>
-      <p>Le rapport sera fait par <persName ref="difdepo:persons.xml#jl">Lescure</persName>, aux acclamations générales.</p>
-      <p><persName ref="difdepo:persons.xml#jq">QUEVAL</persName> : Est-ce que <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name> nous rapportera un peu d’argent, comme <name ref="difdepo:events.xml#liege" type="manif">Liège</name> ?</p>
+      <p><persName ref="difdepo:persons.xml#jq">QUEVAL</persName> : Je retire la question que j’ai
+        posée.</p>
+      <p>Le rapport sera fait par <persName ref="difdepo:persons.xml#jl">Lescure</persName>, aux
+        acclamations générales.</p>
+      <p><persName ref="difdepo:persons.xml#jq">QUEVAL</persName> : Est-ce que <name
+          ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name> nous rapportera un peu
+        d’argent, comme <name ref="difdepo:events.xml#liege" type="manif">Liège</name> ?</p>
       <p>Approbations amusées, à peine ironiques.</p>
-      <p><persName ref="difdepo:persons.xml#na">Arnaud</persName> fait une <name ref="difdepo:events.xml#communication" type="manif">communication</name> sur <persName ref="difdepo:persons.xml#tristandereme">Tristan Derême</persName>. Puis signale l’existence du <persName ref="difdepo:persons.xml#solitairedemontretout">Solitaire de Montretout</persName> (cf. numéro de <title ref="difdepo:titles.xml#bizarre">Bizarre</title> à paraître prochainement).</p>
-      <p><persName ref="difdepo:persons.xml#jb">Bens</persName> lit une lettre de <persName ref="difdepo:persons.xml#mmehirschberg">Mme Hirschberg</persName> qui doit venir prochainement à Paris. On confie au S.P. le soin d’avoir une entrevue avec elle. On lui donne carte blanche pour régler les questions en cours. Notamment :</p>
+      <p><persName ref="difdepo:persons.xml#na">Arnaud</persName> fait une <name
+          ref="difdepo:events.xml#communication" type="manif">communication</name> sur <persName
+          ref="difdepo:persons.xml#tristandereme">Tristan Derême</persName>. Puis signale
+        l’existence du <persName ref="difdepo:persons.xml#solitairedemontretout">Solitaire de
+          Montretout</persName> (cf. numéro de <title ref="difdepo:titles.xml#bizarre"
+          >Bizarre</title> à paraître prochainement).</p>
+      <p><persName ref="difdepo:persons.xml#jb">Bens</persName> lit une lettre de <persName
+          ref="difdepo:persons.xml#mmehirschberg">Mme Hirschberg</persName> qui doit venir
+        prochainement à Paris. On confie au S.P. le soin d’avoir une entrevue avec elle. On lui
+        donne carte blanche pour régler les questions en cours. Notamment :</p>
       <list type="unordered">
-        <item>trois <term ref="difdepo:terms.xml#nouvelles">nouvelles</term> de <persName ref="difdepo:persons.xml#jd">Duchateau</persName> : <term ref="difdepo:terms.xml#intersectionsdevocabulaires">intersections de vocabulaires</term>, etc…</item>
-        <item><term ref="difdepo:terms.xml#translationsmorphologiques">translations morphologiques</term> à l’intérieur d’un même texte. <term ref="difdepo:terms.xml#endomorphismes">Endomorphismes</term></item>
-        <item>la <term ref="difdepo:terms.xml#machine">machine</term> sait-elle reconnaître les <term ref="difdepo:terms.xml#partiesdudiscours">parties du discours</term> ?</item>
+        <item>trois <term ref="difdepo:terms.xml#nouvelles">nouvelles</term> de <persName
+            ref="difdepo:persons.xml#jd">Duchateau</persName> : <term
+            ref="difdepo:terms.xml#intersectionsdevocabulaires">intersections de
+          vocabulaires</term>, etc…</item>
+        <item><term ref="difdepo:terms.xml#translationsmorphologiques">translations
+            morphologiques</term> à l’intérieur d’un même texte. <term
+            ref="difdepo:terms.xml#endomorphismes">Endomorphismes</term></item>
+        <item>la <term ref="difdepo:terms.xml#machine">machine</term> sait-elle reconnaître les
+            <term ref="difdepo:terms.xml#partiesdudiscours">parties du discours</term> ?</item>
       </list>
-      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> le JEUDI 30 MAI, également chez <persName ref="difdepo:persons.xml#papille">Papille</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#ythiermarchant"><abbr>Y.M.</abbr></persName></p>
+      <p><name ref="difdepo:events.xml#prochainereunion" type="manif">Prochaine réunion</name> le
+        JEUDI 30 MAI, également chez <persName ref="difdepo:persons.xml#papille"
+        >Papille</persName>.</p>
+      <p>
+        <persName ref="difdepo:persons.xml#ythiermarchant">
+          <abbr>Y.M.</abbr>
+        </persName>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010226-1980-03-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010226-1980-03-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,16 +19,27 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010226-1980-03-cr</idno> <meeting xml:id="t10010226-1980-03">
-          <date when="1980-03-13">13 mars 1980</date>
-          <placeName>chez MB</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#fll">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#na">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#cb">Claude Berge</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010226-1980-03-cr</idno>
+          <meeting xml:id="t10010226-1980-03">
+            <date when="1980-03-13">13 mars 1980</date>
+            <placeName>chez MB</placeName>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#fll">François Le Lionnais</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#na">Noël Arnaud</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#cb">Claude Berge</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -37,6 +49,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-01" who="HCC">correctif encodage</change>
         <change when="2018-03-24" who="HCC">nettoyage des notions/terms</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-06">restore placeName from docx</change>
@@ -65,20 +78,39 @@
             <anchor xml:id="Text1211"/>     </p> -->
       <p rend="incipit">Oulipo du 13-03-80</p>
       <list type="unordered">
-        <item>Présent : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> (+<persName ref="difdepo:persons.xml#dominiqueroussillon"><abbr>DR</abbr></persName>), <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></item>
-        <item>Excusés : <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>, <persName ref="difdepo:persons.xml#jduch">J Duch</persName>.</item>
+        <item>Présent : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>
+            (+<persName ref="difdepo:persons.xml#dominiqueroussillon"><abbr>DR</abbr></persName>),
+            <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName
+            ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName
+            ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName></item>
+        <item>Excusés : <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName
+            ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName
+            ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName
+            ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>,<persName
+            ref="difdepo:persons.xml#jd">J Duch</persName>.</item>
       </list>
       <p>Mise au point du <title ref="difdepo:titles.xml#volume2">volume 2</title>.</p>
-      <p>- <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> donne le manuscrit du nouveau fait avec <persName ref="difdepo:persons.xml#philippot">Philippot</persName> : en hommage <term ref="difdepo:terms.xml#booleen">booléen</term> à <unclear>Breneille</unclear> et <unclear>Carbeuf</unclear></p>
+      <p>- <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> donne le manuscrit du
+        nouveau fait avec <persName ref="difdepo:persons.xml#philippot">Philippot</persName> : en
+        hommage <term ref="difdepo:terms.xml#booleen">booléen</term> à <unclear>Breneille</unclear>
+        et <unclear>Carbeuf</unclear></p>
       <p>un essai d’intégration OuXpien de la <unclear>littérature à la lesigne</unclear></p>
-      <p>- <title ref="difdepo:titles.xml#pourlascience">Pour la Science</title> : a traduit l'article de <persName ref="difdepo:persons.xml#martingardner">Martin Gardner</persName> sur l'Oulipo dans <title ref="difdepo:titles.xml#scientificamerican">Scientific American</title></p>
-      <p>quelques inexactitudes sur <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> dont <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> a demandé la correction</p>
+      <p>- <title ref="difdepo:titles.xml#pourlascience">Pour la Science</title> : a traduit
+        l'article de <persName ref="difdepo:persons.xml#martingardner">Martin Gardner</persName> sur
+        l'Oulipo dans <title ref="difdepo:titles.xml#scientificamerican">Scientific
+        American</title></p>
+      <p>quelques inexactitudes sur <persName ref="difdepo:persons.xml#fll"
+          ><abbr>FLL</abbr></persName> dont <persName ref="difdepo:persons.xml#fll"
+          ><abbr>FLL</abbr></persName> a demandé la correction</p>
       <p>- Travaux autour du <title ref="difdepo:titles.xml#volume2">volume 2</title> </p>
       <list type="unordered">
-        <item><term ref="difdepo:terms.xml#avalanchesdemots">Avalanches de mots</term> à retrouver</item>
-        <item>Ajouter une note sur les difficultés réelles de la <term ref="difdepo:terms.xml#miseeninformatique">mise en informatique</term></item>
+        <item><term ref="difdepo:terms.xml#avalanchesdemots">Avalanches de mots</term> à
+          retrouver</item>
+        <item>Ajouter une note sur les difficultés réelles de la <term
+            ref="difdepo:terms.xml#miseeninformatique">mise en informatique</term></item>
       </list>
-      <p>Prochaine vendredi 18/04/80 chez <persName ref="difdepo:persons.xml#pf">Fournel</persName></p>
+      <p>Prochaine vendredi 18/04/80 chez <persName ref="difdepo:persons.xml#pf"
+        >Fournel</persName></p>
     </body>
   </text>
 </TEI>

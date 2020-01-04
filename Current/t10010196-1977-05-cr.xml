@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010196-1977-05-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010196-1977-05-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,19 +18,36 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010196-1977-05-cr</idno> <meeting xml:id="t10010196-1977-05">
-          <date when="1977-05-12">12 mai 1977</date>
-          <placeName>chez MB</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#jq">Jean Queval</persName></item>
-            <item><persName ref="difdepo:persons.xml#hm">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#gp">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#ic">Italo Calvino</persName></item>
-            <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010196-1977-05-cr</idno>
+          <meeting xml:id="t10010196-1977-05">
+            <date when="1977-05-12">12 mai 1977</date>
+            <placeName>chez MB</placeName>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#jq">Jean Queval</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#hm">Harry Mathews</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#gp">Georges Perec</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#ic">Italo Calvino</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,6 +57,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-06" who="HCC">correctif encodage</change>
         <change when="2018-03-24" who="HCC">nettoyage des commentaires/ notes</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-06">restore placeName from docx</change>
@@ -52,55 +71,132 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f12.highres" n="12"/>
       <p rend="incipit">OuLiPo du 12 mai 1977</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>
+        <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>
+        <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>
+        <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>
+        <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>
+        <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+        <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>
+        <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>
+        <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>
+        <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>
+        <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>
+        <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f16.highres" n="13"/>
       <p rend="incipit">Séance du 12 mai 1977</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName></p>
-      <p rend="incipit">Coup de téléphone à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> à l’hôpital (intervention classique)</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lit les différentes lettres « d’excuses » des différents membres.</p>
-      <p>Et entre autres une longue de <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> qui ouvre le débat sur un manuel. (<ref>Archives</ref>).</p>
-      <p>Mettre ce manuel à l’ordre du jour de la <name ref="difdepo:events.xml#prochainereunion" type="manif">prochaine réunion</name>.</p>
-      <p><label type="rubrique">CRÉATIONS</label></p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : a oublié son dossier chez lui.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : propose un exercice : prendre 2 textes pas très longs et écrire le 1<hi rend="sup">er</hi> avec le vocabulaire du second et vice-versa. (<ref>Archives</ref>)</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName>
+        <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>
+        <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>
+        <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>
+        <persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName>
+        <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>
+        <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>
+        <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>
+        <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>
+        <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>
+        <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>
+        <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName></p>
+      <p rend="incipit">Coup de téléphone à <persName ref="difdepo:persons.xml#fll"
+          ><abbr>FLL</abbr></persName> à l’hôpital (intervention classique)</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lit les différentes
+        lettres « d’excuses » des différents membres.</p>
+      <p>Et entre autres une longue de <persName ref="difdepo:persons.xml#le"
+          ><abbr>LE</abbr></persName> qui ouvre le débat sur un manuel. (<ref>Archives</ref>).</p>
+      <p>Mettre ce manuel à l’ordre du jour de la <name ref="difdepo:events.xml#prochainereunion"
+          type="manif">prochaine réunion</name>.</p>
+      <p>
+        <label type="rubrique">CRÉATIONS</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : a oublié son dossier
+        chez lui.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : propose un exercice :
+        prendre 2 textes pas très longs et écrire le 1<hi rend="sup">er</hi> avec le vocabulaire du
+        second et vice-versa. (<ref>Archives</ref>)</p>
       <p>Traduction. <term ref="difdepo:terms.xml#lexiquescroises">LEXIQUES CROISÉS</term></p>
-      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : <term ref="difdepo:terms.xml#triolisme">Triolisme</term>. <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> annonce un roman oulipien. Double lecture une « normale » et ensuite on lit la 1<hi rend="sup">ère</hi> partie de la page 1 avec la 1<hi rend="sup">ère</hi> partie de la page 2 et cetera…</p>
+      <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : <term
+          ref="difdepo:terms.xml#triolisme">Triolisme</term>. <persName ref="difdepo:persons.xml#jq"
+            ><abbr>JQ</abbr></persName> annonce un roman oulipien. Double lecture une « normale » et
+        ensuite on lit la 1<hi rend="sup">ère</hi> partie de la page 1 avec la 1<hi rend="sup"
+          >ère</hi> partie de la page 2 et cetera…</p>
       <p>Texte, dialogue, journal, 3 unités dans chaque page</p>
       <p>À suivre…</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Les lettres pourraient être intéressantes dans ce type d’ouvrage</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : J’ai trouvé des tas de livres (dont 1 par lettres) dans la <orgName ref="difdepo:organizations.xml#bibliothequepubliquedelimons">bibliothèque publique de Limons</orgName>… Ils étaient sur le point de brûler pour « faire de la place ».</p>
-      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : Pour revenir au projet de <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> j’ai peur que chaque lecture ressemble à la lecture d’un lecteur pressé. Ne voudrait-il pas mieux faire la 1<hi rend="sup">ère</hi> page en récit, la 2<hi rend="sup">ème</hi> en dialogue et la 3<hi rend="sup">ème</hi> en journal. Chacune étant divisée en 3 parties.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Les lettres pourraient
+        être intéressantes dans ce type d’ouvrage</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : J’ai trouvé des tas de
+        livres (dont 1 par lettres) dans la <orgName
+          ref="difdepo:organizations.xml#bibliothequepubliquedelimons">bibliothèque publique de
+          Limons</orgName>… Ils étaient sur le point de brûler pour « faire de la place ».</p>
+      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : Pour revenir au projet
+        de <persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> j’ai peur que chaque
+        lecture ressemble à la lecture d’un lecteur pressé. Ne voudrait-il pas mieux faire la 1<hi
+          rend="sup">ère</hi> page en récit, la 2<hi rend="sup">ème</hi> en dialogue et la 3<hi
+          rend="sup">ème</hi> en journal. Chacune étant divisée en 3 parties.</p>
       <p><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> est songeur.</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : J’arrive au chapitre 31 de mon gros livre (<title ref="difdepo:titles.xml#laviemodedemploi">la vie mode d’emploi</title>) 200 pages manuscrites sont terminées.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Annonce un recueil de <term ref="difdepo:terms.xml#nouvellestuilees">nouvelles « tuilées »</term> (À suivre)</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <del>Combines et séman.</del> Combinatoire et sémantique(<ref>Archives</ref>). Utilisation d’un certain nombre de mots (pour ordinateur) avec différents niveaux de combinaisons.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : C’est une machine à fabriquer des aphorismes.</p>
-      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : Il faut choisir les 9 mots de base. Par exemple : les 9 mots de base de la revue <title ref="difdepo:titles.xml#telquel">Tel Quel</title>, de <persName ref="difdepo:persons.xml#raymondbarre">Raymond Barre</persName> et cetera…</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : J’arrive au chapitre 31
+        de mon gros livre (<title ref="difdepo:titles.xml#laviemodedemploi">la vie mode
+          d’emploi</title>) 200 pages manuscrites sont terminées.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Annonce un recueil de
+          <term ref="difdepo:terms.xml#nouvellestuilees">nouvelles « tuilées »</term> (À suivre)</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <del>Combines et
+          séman.</del> Combinatoire et sémantique(<ref>Archives</ref>). Utilisation d’un certain
+        nombre de mots (pour ordinateur) avec différents niveaux de combinaisons.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : C’est une machine à
+        fabriquer des aphorismes.</p>
+      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : Il faut choisir les 9
+        mots de base. Par exemple : les 9 mots de base de la revue <title
+          ref="difdepo:titles.xml#telquel">Tel Quel</title>, de <persName
+          ref="difdepo:persons.xml#raymondbarre">Raymond Barre</persName> et cetera…</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f17.highres" n="14"/>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il faut que ces mots soient des <term ref="difdepo:terms.xml#themes">thèmes</term> et soient assez abstraits.</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : On peut faire un choix lexical a priori sur la machine.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : «Les  <term ref="difdepo:terms.xml#motschauvesouris">mots chauve-souris</term> ».</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Il faut que ces mots
+        soient des <term ref="difdepo:terms.xml#themes">thèmes</term> et soient assez abstraits.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : On peut faire un choix
+        lexical a priori sur la machine.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : «Les  <term
+          ref="difdepo:terms.xml#motschauvesouris">mots chauve-souris</term> ».</p>
       <p>Des mots qui sont substantifs et verbe : porte, abat et cetera…</p>
       <p>On peut les combiner à l’infini.</p>
-      <p>Il va <choice><corr>rédiger</corr> <sic>régider</sic></choice> tout ça.</p>
-      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : <title ref="difdepo:titles.xml#ilcaffe">Il Caffè</title>. Publication du <title ref="difdepo:titles.xml#sillabario">sillabario</title></p>
-      <p><label type="rubrique">ACTION</label></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lecture du <title ref="difdepo:titles.xml#journalofficiel">Journal Officiel</title> portant déclaration de l’oulipo en tant qu’Association 1901.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Rapporter les exemplaires du « <title ref="difdepo:titles.xml#aqueneau">À Queneau</title> » à <persName ref="difdepo:persons.xml#kerraoul">Kerraoul</persName> pour refaire les 4 1<hi rend="sup">ères</hi> pages. Lui demander des modèles de caractères.</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Très déçu par le livre.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : le « <title ref="difdepo:titles.xml#aqueneau">À Queneau</title> » est totalement vendu.</p>
+      <p>Il va <choice><corr>rédiger</corr>
+          <sic>régider</sic></choice> tout ça.</p>
+      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : <title
+          ref="difdepo:titles.xml#ilcaffe">Il Caffè</title>. Publication du <title
+          ref="difdepo:titles.xml#sillabario">sillabario</title></p>
+      <p>
+        <label type="rubrique">ACTION</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : lecture du <title
+          ref="difdepo:titles.xml#journalofficiel">Journal Officiel</title> portant déclaration de
+        l’oulipo en tant qu’Association 1901.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Rapporter les
+        exemplaires du « <title ref="difdepo:titles.xml#aqueneau">À Queneau</title> » à <persName
+          ref="difdepo:persons.xml#kerraoul">Kerraoul</persName> pour refaire les 4 1<hi rend="sup"
+          >ères</hi> pages. Lui demander des modèles de caractères.</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Très déçu par le
+        livre.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : le « <title
+          ref="difdepo:titles.xml#aqueneau">À Queneau</title> » est totalement vendu.</p>
       <p>Problème du tirage. Faut-il tirer 41 exemplaires de plus pour les membres de l’oulipo ?</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : tient à protéger le faible tirage.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : tient à protéger le
+        faible tirage.</p>
       <p>Vote en juin pour la modification du tirage</p>
       <p>150+41</p>
-      <p>{Faire une demande d’argent à la <orgName ref="difdepo:organizations.xml#caissedeslettres">Caisse des Lettres</orgName>}</p>
+      <p>{Faire une demande d’argent à la <orgName ref="difdepo:organizations.xml#caissedeslettres"
+          >Caisse des Lettres</orgName>}</p>
       <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : Kansas City.</p>
-      <p>Nous sommes « invités » à Kansas City par l’intermédiaire de nos œuvres rangées sous le titre « <title ref="difdepo:titles.xml#poesievisuelle">poésie visuelle</title> » ?</p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> a reçu beaucoup de lettres à la suite des articles des États-Unis <title ref="difdepo:titles.xml#doublebouledeneige">double boule de neige</title> intéressante. <ref>Archives</ref>.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : annonce la journée <name ref="difdepo:events.xml#ordinateuretecrivains" type="manif">ordinateur et écrivains</name> du 15 juin 77.</p>
-      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : lit la lettre de <persName ref="difdepo:persons.xml#vicari">Vicari</persName> demandant des collaborations pour <title ref="difdepo:titles.xml#ilcaffe">il caffé</title> autour de <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>.</p>
+      <p>Nous sommes « invités » à Kansas City par l’intermédiaire de nos œuvres rangées sous le
+        titre « <title ref="difdepo:titles.xml#poesievisuelle">poésie visuelle</title> » ?</p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> a reçu beaucoup de
+        lettres à la suite des articles des États-Unis double boule de neige intéressante.
+          <ref>Archives</ref>.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : annonce la journée
+          <name ref="difdepo:events.xml#ordinateuretecrivains" type="manif">ordinateur et
+          écrivains</name> du 15 juin 77.</p>
+      <p><persName ref="difdepo:persons.xml#ic"><abbr>IC</abbr></persName> : lit la lettre de
+          <persName ref="difdepo:persons.xml#vicari">Vicari</persName> demandant des collaborations
+        pour <title ref="difdepo:titles.xml#ilcaffe">il caffé</title> autour de <persName
+          ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName>.</p>
     </body>
   </text>
 </TEI>

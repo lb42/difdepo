@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010204-1978-03-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010204-1978-03-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,19 +18,39 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010204-1978-03-cr</idno> <meeting xml:id="t10010204-1978-03">
-          <date when="1978-03-24">24 mars 1978</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#fll">François Le Lionnais</persName></item>
-            <item><persName ref="difdepo:persons.xml#gp">Georges Perec</persName></item>
-            <item><persName ref="difdepo:persons.xml#jb">Jacques Bens</persName></item>
-            <item><persName ref="difdepo:persons.xml#cb">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#le">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#dominiqueroussillon" role="invité">Dominique Roussillon</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010204-1978-03-cr</idno>
+          <meeting xml:id="t10010204-1978-03">
+            <date when="1978-03-24">24 mars 1978</date>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#fll">François Le Lionnais</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#gp">Georges Perec</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jb">Jacques Bens</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#cb">Claude Berge</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#le">Luc Etienne</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#dominiqueroussillon" role="invité">Dominique
+                  Roussillon</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -39,6 +60,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-06" who="HCC">correctif encodage</change>
         <change when="2018-03-18" who="HCC">nettoyage des commentaires/notes</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-02">restore accidentally deleted attendance lists</change>
@@ -51,57 +73,142 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010204h/f3.highres" n="3"/>
       <p rend="incipit">24-3-78</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>,</p>
-      <p rend="incipit">Invitée <unclear>:</unclear> <persName ref="difdepo:persons.xml#dominiqueroussillon"><abbr>D. R.</abbr></persName></p>
-      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#pb">P. Braffort</persName>. <persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName> <persName ref="difdepo:persons.xml#ab">Blavier</persName>. <persName ref="difdepo:persons.xml#ic">Calvino</persName>. <persName ref="difdepo:persons.xml#hm">H. Mathews</persName>, <persName ref="difdepo:persons.xml#jr">Roubaud</persName>.</p>
-      <p><label type="rubrique">Bibliothèque oulipienne :</label></p>
-      <p>programme – Textes <persName ref="difdepo:persons.xml#ic">Calvino</persName>, <persName ref="difdepo:persons.xml#jr">Roubaud</persName>, <persName ref="difdepo:persons.xml#pf">Fournel</persName> sont prêts. <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title> ? <lb/>A venir : <term ref="difdepo:terms.xml#aphorismes"><title ref="difdepo:titles.xml#aphorismes">aphorismes</title></term> <persName ref="difdepo:persons.xml#mb">Bénabou</persName>. Autres ? <persName ref="difdepo:persons.xml#jb">Bens</persName> peut-être.</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>L. E.</abbr></persName> : proposition sacrilège sur l’intérêt de la littérature par rapport à celui de la musique.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>J. B.</abbr></persName> Les contraintes de la musique sont moins prégnantes que celle de la littérature.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Question grave : question traitée dans le <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title> sous forme d’un <term ref="difdepo:terms.xml#tableau">tableau</term>.</p>
-      <p>Discussion sur l’<term ref="difdepo:terms.xml#indicible">indicible</term> et l’<term ref="difdepo:terms.xml#ineffable">ineffable</term>.</p>
-      <p>Pourquoi n’y a-t-il pas une un <unclear>unité</unclear> <term ref="difdepo:terms.xml#metalangage">métalangage</term> dans l’Oulipo ?</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : toute <term ref="difdepo:terms.xml#contrainte">contrainte</term> n’est pas oulipienne.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>. Les membres de l’Oulipo sont incapables de définir la littérature.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Le tableau que je vous donnerai prétend couvrir la totalité du possible</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : lit un <term ref="difdepo:terms.xml#holorime">holorime</term> en hongrois du mathématicien <persName ref="difdepo:persons.xml#kalman">Kalman</persName></p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : le « <title ref="difdepo:titles.xml#gallamant">gall,amant</title> » n’est pas de <persName ref="difdepo:persons.xml#victorhugo">Victor Hugo</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : discussion sur le problème des <term ref="difdepo:terms.xml#attributions">attributions</term>.</p>
-      <p><label type="rubrique">Action :</label></p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Il faut avoir des idées pour <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Je ferai « <title ref="difdepo:titles.xml#fascismeetoulipo">fascisme et oulipo</title> »</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Pour <title ref="difdepo:titles.xml#levolume">le volume</title> : il faudra que chacun fasse 2 textes :</p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#fll"
+          ><abbr>FLL</abbr></persName>, <persName ref="difdepo:persons.xml#gp"
+          ><abbr>GP</abbr></persName>, <persName ref="difdepo:persons.xml#jb"
+          ><abbr>JB</abbr></persName>, <persName ref="difdepo:persons.xml#cb"
+          ><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#le"
+          ><abbr>LE</abbr></persName>, <persName ref="difdepo:persons.xml#mb"
+          ><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"
+          ><abbr>PF</abbr></persName>,</p>
+      <p rend="incipit">Invitée <unclear>:</unclear>
+        <persName ref="difdepo:persons.xml#dominiqueroussillon"><abbr>D. R.</abbr></persName></p>
+      <p rend="incipit">Excusés : <persName ref="difdepo:persons.xml#pb">P. Braffort</persName>.
+          <persName ref="difdepo:persons.xml#jq"><abbr>J.Q.</abbr></persName>
+        <persName ref="difdepo:persons.xml#ab">Blavier</persName>. <persName
+          ref="difdepo:persons.xml#ic">Calvino</persName>. <persName ref="difdepo:persons.xml#hm">H.
+          Mathews</persName>, <persName ref="difdepo:persons.xml#jr">Roubaud</persName>.</p>
+      <p>
+        <label type="rubrique">Bibliothèque oulipienne :</label>
+      </p>
+      <p>programme – Textes <persName ref="difdepo:persons.xml#ic">Calvino</persName>, <persName
+          ref="difdepo:persons.xml#jr">Roubaud</persName>, <persName ref="difdepo:persons.xml#pf"
+          >Fournel</persName> sont prêts. <title ref="difdepo:titles.xml#n3emanifeste">3e
+          manifeste</title> ? <lb/>A venir : <term ref="difdepo:terms.xml#aphorismes"><title
+            ref="difdepo:titles.xml#aphorismes">aphorismes</title></term>
+        <persName ref="difdepo:persons.xml#mb">Bénabou</persName>. Autres ? <persName
+          ref="difdepo:persons.xml#jb">Bens</persName> peut-être.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>L. E.</abbr></persName> : proposition
+        sacrilège sur l’intérêt de la littérature par rapport à celui de la musique.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>J. B.</abbr></persName> Les contraintes de la
+        musique sont moins prégnantes que celle de la littérature.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Question grave :
+        question traitée dans le <title ref="difdepo:titles.xml#n3emanifeste">3e manifeste</title>
+        sous forme d’un tableau.</p>
+      <p>Discussion sur l’<term ref="difdepo:terms.xml#indicible">indicible</term> et l’<term
+          ref="difdepo:terms.xml#ineffable">ineffable</term>.</p>
+      <p>Pourquoi n’y a-t-il pas une un <unclear>unité</unclear>
+        <term ref="difdepo:terms.xml#metalangage">métalangage</term> dans l’Oulipo ?</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : toute <term
+          ref="difdepo:terms.xml#contrainte">contrainte</term> n’est pas oulipienne.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName>. Les membres de l’Oulipo
+        sont incapables de définir la littérature.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>. Le tableau que je vous
+        donnerai prétend couvrir la totalité du possible</p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> : lit un <term
+          ref="difdepo:terms.xml#holorime">holorime</term> en hongrois du mathématicien <persName
+          ref="difdepo:persons.xml#kalman">Kalman</persName></p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : le « <title
+          ref="difdepo:titles.xml#gallamant">gall,amant</title> » n’est pas de <persName
+          ref="difdepo:persons.xml#victorhugo">Victor Hugo</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : discussion sur le
+        problème des attributions.</p>
+      <p>
+        <label type="rubrique">Action :</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Il faut avoir des idées
+        pour <name ref="difdepo:events.xml#cerisy" type="manif">Cerisy</name>.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Je ferai « <title
+          ref="difdepo:titles.xml#fascismeetoulipo">fascisme et oulipo</title> »</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : Pour <title
+          ref="difdepo:titles.xml#levolume">le volume</title> : il faudra que chacun fasse 2
+        textes :</p>
       <p>1 sous son nom</p>
       <p>1 sous un autre nom.</p>
-      <p>Il faut créer des conflits entre les membres de l’Oulipo. <lb/>Il faut mettre <persName ref="difdepo:persons.xml#gandillac">Gandillac</persName> et <persName ref="difdepo:persons.xml#ricardou">Ricardou</persName> qui dira « je ne suis pas d’accord ».</p>
+      <p>Il faut créer des conflits entre les membres de l’Oulipo. <lb/>Il faut mettre <persName
+          ref="difdepo:persons.xml#gandillac">Gandillac</persName> et <persName
+          ref="difdepo:persons.xml#ricardou">Ricardou</persName> qui dira « je ne suis pas
+        d’accord ».</p>
       <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : souhaite des dates</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : le mois prochain on revient avec des idées.</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : et moi avec un ordre du jour.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : le mois prochain on
+        revient avec des idées.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : et moi avec un ordre du
+        jour.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010204h/f4.highres" n="4"/>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : j’aurai fini « <title ref="difdepo:titles.xml#laviemodedemploi">la vie mode d'emploi</title> » et je me consacrerai à la décade. Parution Novembre 79 (au lieu de 78)</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : <name ref="difdepo:events.xml#oulipoastockholm" type="manif">Oulipo à Stockholm</name>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Nous sommes invités là-bas à faire un show.</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Non ce serait <name ref="difdepo:events.xml#uneexpoenjanvier79" type="manif">une expo en janvier 79</name>.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : j’aurai fini « <title
+          ref="difdepo:titles.xml#laviemodedemploi">la vie mode d'emploi</title> » et je me
+        consacrerai à la décade. Parution Novembre 79 (au lieu de 78)</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : <name
+          ref="difdepo:events.xml#oulipoastockholm" type="manif">Oulipo à Stockholm</name>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Nous sommes invités
+        là-bas à faire un show.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Non ce serait <name
+          ref="difdepo:events.xml#uneexpoenjanvier79" type="manif">une expo en janvier
+        79</name>.</p>
       <p>Tous : nous sommes d’accord.</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Le salopard de <persName ref="difdepo:persons.xml#pb">Braffort</persName> ne m’a pas rendu mes rubans.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : digression sur ses chats.</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>. <name ref="difdepo:events.xml#expositionqueneau" type="manif">Exposition <persName ref="difdepo:persons.xml#rq">Queneau</persName></name> pour la <orgName ref="difdepo:organizations.xml#bn">BN</orgName> le 10 Mai. <lb/>Lettre d’<persName ref="difdepo:persons.xml#ab">André Blavier</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : voulez-vous encore de la viande.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. Un coup de fil de <orgName ref="difdepo:organizations.xml#royaumont">Royaumont</orgName> : faire un truc sur « la <term ref="difdepo:terms.xml#voix">voix</term> »</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : un gâteau de sa voix ?</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : le monsieur voudrait le prochain numéro de l’Oulipo. J’ai rendez-vous avec lui.</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : J’amènerai mes <title ref="difdepo:titles.xml#palindromesphonetiques"><term ref="difdepo:terms.xml#palindromesphonetiques">palindromes phonétiques</term></title>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : 10 000 F <name ref="difdepo:events.xml#avignon" type="manif">Avignon</name>. Pour rentrer le problème n’est pas résolu.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Le <orgName ref="difdepo:organizations.xml#cnl">CNL</orgName> nous donnera 10 000 F aux dires d’<persName ref="difdepo:persons.xml#auclair">Auclair</persName>. Qu’en faire.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Cela fait un fond de roulement pour <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Peut être utilisé autrement. Pour <title ref="difdepo:titles.xml#vol2">vol. 2</title>. Consensus.</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faut penser chronologiquement.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Etat des travaux : liste des éléments de <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title>. Nous ferons une lettre aux membres concernés.</p>
-      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Nous aimerions avoir copie des compte rendus.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <persName ref="difdepo:persons.xml#jd">Duchateau</persName>, à une époque, faisait les comptes rendus. Ils sont chez lui.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Lorsque <title ref="difdepo:titles.xml#levolumebibliothequeoulipiennecalvino">le volume Bibliothèque oulipienne <persName ref="difdepo:persons.xml#ic">Calvino</persName></title> est payé, il reste 300 F dans la caisse. Il faut vendre.</p>
-      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : fait des « textes de même longueur ». On prend un texte et on fait un autre avec des mots de même longueur.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Présentation d’un texte de <persName ref="difdepo:persons.xml#simonedebout">Simone Debout</persName> sur <persName ref="difdepo:persons.xml#charlesfourier">Charles Fourier</persName>. A lire.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Le salopard de
+          <persName ref="difdepo:persons.xml#pb">Braffort</persName> ne m’a pas rendu mes
+        rubans.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : digression sur ses
+        chats.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName>. <name
+          ref="difdepo:events.xml#expositionqueneau" type="manif">Exposition <persName
+            ref="difdepo:persons.xml#rq">Queneau</persName></name> pour la <orgName
+          ref="difdepo:organizations.xml#bn">BN</orgName> le 10 Mai. <lb/>Lettre d’<persName
+          ref="difdepo:persons.xml#ab">André Blavier</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#gp"><abbr>GP</abbr></persName> : voulez-vous encore de
+        la viande.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>. Un coup de fil de
+          <orgName ref="difdepo:organizations.xml#royaumont">Royaumont</orgName> : faire un truc sur
+        « la <term ref="difdepo:terms.xml#voix">voix</term> »</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : un gâteau de sa
+        voix ?</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : le monsieur voudrait le
+        prochain numéro de l’Oulipo. J’ai rendez-vous avec lui.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : J’amènerai mes <title
+          ref="difdepo:titles.xml#palindromesphonetiques"><term
+            ref="difdepo:terms.xml#palindromesphonetiques">palindromes
+        phonétiques</term></title>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : 10 000 F <name
+          ref="difdepo:events.xml#avignon" type="manif">Avignon</name>. Pour rentrer le problème
+        n’est pas résolu.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Le <orgName
+          ref="difdepo:organizations.xml#cnl">CNL</orgName> nous donnera 10 000 F aux dires
+          d’<persName ref="difdepo:persons.xml#auclair">Auclair</persName>. Qu’en faire.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : Cela fait un fond de
+        roulement pour <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque
+          oulipienne</title>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : Peut être utilisé
+        autrement. Pour <title ref="difdepo:titles.xml#vol2">vol. 2</title>. Consensus.</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> : Il faut penser
+        chronologiquement.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Etat des travaux :
+        liste des éléments de <title ref="difdepo:titles.xml#oulipo2">Oulipo 2</title>. Nous ferons
+        une lettre aux membres concernés.</p>
+      <p><persName ref="difdepo:persons.xml#le"><abbr>LE</abbr></persName> : Nous aimerions avoir
+        copie des compte rendus.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <persName
+          ref="difdepo:persons.xml#jd">Duchateau</persName>, à une époque, faisait les comptes
+        rendus. Ils sont chez lui.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : Lorsque <title
+          ref="difdepo:titles.xml#levolumebibliothequeoulipiennecalvino">le volume Bibliothèque
+          oulipienne <persName ref="difdepo:persons.xml#ic">Calvino</persName></title> est payé, il
+        reste 300 F dans la caisse. Il faut vendre.</p>
+      <p><persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : fait des « textes de
+        même longueur ». On prend un texte et on fait un autre avec des mots de même longueur.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. Présentation d’un texte
+        de <persName ref="difdepo:persons.xml#simonedebout">Simone Debout</persName> sur <persName
+          ref="difdepo:persons.xml#charlesfourier">Charles Fourier</persName>. A lire.</p>
       <p>Prochaine date : 27 avril jeudi</p>
       <p>Mai 11 jeudi.</p>
     </body>

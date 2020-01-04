@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010336-1990-03-13-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010336-1990-03-13-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,18 +18,33 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010336-1990-03-13-cr</idno> <meeting xml:id="t10010336-1990-03-13">
-          <date when="1990-03-13">13 mars 1990</date>
-          <placeName>Chez PF</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#na">Noël Arnaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#mm">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#hm" role="secrétaire">Harry Mathews</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010336-1990-03-13-cr</idno>
+          <meeting xml:id="t10010336-1990-03-13">
+            <date when="1990-03-13">13 mars 1990</date>
+            <placeName>Chez PF</placeName>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#na">Noël Arnaud</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mm">Michele Métail</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#hm" role="secrétaire">Harry Mathews</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -38,6 +54,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-01" who="HCC">correctif transcription</change>
         <change when="2018-03-25" who="HCC">nettoyage des notions/ terms</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-06">restore placeName from docx</change>
@@ -51,45 +68,104 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103361/f12.highres" n="12"/>
-      <p rend="incipit">A l’occasion de la pendaison de crémaillère chez <persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName> et <persName ref="difdepo:persons.xml#martinefournel">Martine Fournel</persName></p>
+      <p rend="incipit">A l’occasion de la pendaison de crémaillère chez <persName
+          ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName> et <persName
+          ref="difdepo:persons.xml#martinefournel">Martine Fournel</persName></p>
       <p rend="incipit">Oulipo : réunion du 13 mars 1990</p>
       <p rend="incipit">Chez <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName></p>
       <p rend="incipit">No ?</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#na"
+        ><abbr>NA</abbr></persName>, <persName ref="difdepo:persons.xml#hm"
+          ><abbr>HM</abbr></persName>, <persName ref="difdepo:persons.xml#mm"
+          ><abbr>MM</abbr></persName>, <persName ref="difdepo:persons.xml#mb"
+          ><abbr>MB</abbr></persName>, <persName ref="difdepo:persons.xml#pf"
+          ><abbr>PF</abbr></persName>, <persName ref="difdepo:persons.xml#fc"
+          ><abbr>FC</abbr></persName></p>
       <p rend="incipit">Président de séance : Le Président</p>
-      <p rend="incipit">Secrétaire : <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
-      <p rend="incipit">Les excusés : <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName></p>
-      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>, <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>, <persName ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName></p>
-      <p><label type="rubrique">Création</label></p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : « <title ref="difdepo:titles.xml#concordancedutemps">Concordance du temps</title> » <term ref="difdepo:terms.xml#monologue">monologue</term> où le mot « temps » (dans ses deux acceptions) apparait dans chaque phrase, qui elle-même est une expression toute faite. Un filigrane.</p>
-      <p><label type="rubrique">Erudition</label></p>
+      <p rend="incipit">Secrétaire : <persName ref="difdepo:persons.xml#hm"
+          ><abbr>HM</abbr></persName></p>
+      <p rend="incipit">Les excusés : <persName ref="difdepo:persons.xml#jd"
+          ><abbr>JD</abbr></persName>, <persName ref="difdepo:persons.xml#jj"
+          ><abbr>JJ</abbr></persName>, <persName ref="difdepo:persons.xml#cb"
+          ><abbr>CB</abbr></persName>, <persName ref="difdepo:persons.xml#jb"
+          ><abbr>JB</abbr></persName></p>
+      <p rend="incipit">Absents : <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>,
+          <persName ref="difdepo:persons.xml#ab"><abbr>AB</abbr></persName>, <persName
+          ref="difdepo:persons.xml#pr"><abbr>PR</abbr></persName></p>
+      <p>
+        <label type="rubrique">Création</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : « <title
+          ref="difdepo:titles.xml#concordancedutemps">Concordance du temps</title> » <term
+          ref="difdepo:terms.xml#monologue">monologue</term> où le mot « temps » (dans ses deux
+        acceptions) apparait dans chaque phrase, qui elle-même est une expression toute faite. Un
+        filigrane.</p>
+      <p>
+        <label type="rubrique">Erudition</label>
+      </p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> « <title ref="difdepo:titles.xml#selair">Selair</title> » : Porte battante, carnets de noms de <persName ref="difdepo:persons.xml#jtorres">J Torres</persName>, <term ref="difdepo:terms.xml#plagiatsparanticipation">plagiats par anticipation</term> : <term ref="difdepo:terms.xml#homophonies">homophonies</term>, <term ref="difdepo:terms.xml#proverbespalindromiques">proverbes palindromiques</term></item>
-        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Agenda du <title ref="difdepo:titles.xml#monde">Monde</title> : <unclear>contient</unclear> « des véritables romans ». <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> lit quelques exemplaires. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> remarque : ce sont des compte-d’auteur. <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> est certain qu’il en fera quelque chose. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> attribue le phénomène à un « lever du tableau d’exhibitionnisme »</item>
-        <item>I-M Pourquoi -chez <persName ref="difdepo:persons.xml#plutarque">Plutarque</persName>- le 28 est considéré comme nombre parfait ?</item>
+        <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> « <title
+            ref="difdepo:titles.xml#selair">Selair</title> » : Porte battante, carnets de noms de
+            <persName ref="difdepo:persons.xml#jtorres">J Torma</persName>, <term
+            ref="difdepo:terms.xml#plagiatsparanticipation">plagiats par anticipation</term> : <term
+            ref="difdepo:terms.xml#homophonies">homophonies</term>, <term
+            ref="difdepo:terms.xml#proverbespalindromiques">proverbes palindromiques</term></item>
+        <item><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Agenda du <title
+            ref="difdepo:titles.xml#monde">Monde</title> : <unclear>contient</unclear> « des
+          véritables romans ». <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> lit
+          quelques exemplaires. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+          remarque : ce sont des compte-d’auteur. <persName ref="difdepo:persons.xml#fc"
+              ><abbr>FC</abbr></persName> est certain qu’il en fera quelque chose. <persName
+            ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> attribue le phénomène à un
+          « lever du tableau d’exhibitionnisme »</item>
+        <item>I-M Pourquoi -chez <persName ref="difdepo:persons.xml#plutarque">Plutarque</persName>-
+          le 28 est considéré comme nombre parfait ?</item>
       </list>
-      <p><label type="rubrique">Action</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> « <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>  III» : comme mis en place depuis ça ne bouge pas.</p>
+      <p>
+        <label type="rubrique">Action</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> « <title
+          ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>  III» :
+        comme mis en place depuis ça ne bouge pas.</p>
       <p>Compte rendu de la presse.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> se porte garant que nous arrivons aux 3.000.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> se porte garant que nous
+        arrivons aux 3.000.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103361/f13.highres" n="13"/>
       <p>[13 mars 1990] – 2</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>(²) « <name ref="difdepo:events.xml#lectures" type="manif">Lectures</name> » : rappel – l’Oulipo sera le 22 mars à la librairie Chroniques à Créteil 21h</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>(²) « <name
+          ref="difdepo:events.xml#lectures" type="manif">Lectures</name> » : rappel – l’Oulipo sera
+        le 22 mars à la librairie Chroniques à Créteil 21h</p>
       <list type="unordered">
         <item>Le 25 avril à l’arbre à lettres « <unclear>jeun</unclear> 18h »</item>
       </list>
-      <p>(3) « Relevé fiscal de <orgName ref="difdepo:organizations.xml#gallimard">Gallimard</orgName> » remis solennellement à <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p>« <title ref="difdepo:titles.xml#dossiersacd">Dossier SACD</title> transféré remis solennellement à <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p>(3) « Relevé fiscal de <orgName ref="difdepo:organizations.xml#gallimard"
+          >Gallimard</orgName> » remis solennellement à <persName ref="difdepo:persons.xml#mb"
+            ><abbr>MB</abbr></persName></p>
+      <p>« <title ref="difdepo:titles.xml#dossiersacd">Dossier SACD</title> transféré remis
+        solennellement à <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
       <p>(4) Remise des photographies</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> (1) Invitation du Sénateur <persName ref="difdepo:persons.xml#mairesouffrin">Maire Souffrin</persName> à « <name ref="difdepo:events.xml#thionville" type="manif">Thionville</name> » le dimanche 14 octobre.</p>
-      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : il faut que l’O. se sépare du « grenouillage universitaire autour de <persName ref="difdepo:persons.xml#rq">Queneau</persName> », comme le <name ref="difdepo:events.xml#colloquerq" type="manif">colloque <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></name> sera terminé.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> (1) Invitation du
+        Sénateur <persName ref="difdepo:persons.xml#mairesouffrin">Maire Souffrin</persName> à
+          « <name ref="difdepo:events.xml#thionville" type="manif">Thionville</name> » le dimanche
+        14 octobre.</p>
+      <p><persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> : il faut que l’O. se
+        sépare du « grenouillage universitaire autour de <persName ref="difdepo:persons.xml#rq"
+          >Queneau</persName> », comme le <name ref="difdepo:events.xml#colloquerq" type="manif"
+          >colloque <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName></name> sera
+        terminé.</p>
       <p>La veille, c’est tout à fait acceptable</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Ce sera hommage à <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> + « <persName ref="difdepo:persons.xml#rq">Queneau</persName> et la ville »</p>
-      <p>(2) « Limoges » 23-25 avril <name ref="difdepo:events.xml#colloqueperec" type="manif">Colloque <persName ref="difdepo:persons.xml#gp">Perec</persName></name> – O. invité – <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
-      <p>A éliminé <name ref="difdepo:events.xml#stages" type="manif">stages</name> ect. Pour arriver à la possibilité de lectures</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> : Ce sera hommage à
+          <persName ref="difdepo:persons.xml#rq"><abbr>RQ</abbr></persName> + « <persName
+          ref="difdepo:persons.xml#rq">Queneau</persName> et la ville »</p>
+      <p>(2) « Limoges » 23-25 avril <name ref="difdepo:events.xml#colloqueperec" type="manif"
+          >Colloque <persName ref="difdepo:persons.xml#gp">Perec</persName></name> – O. invité –
+          <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p>A éliminé <name ref="difdepo:events.xml#stages" type="manif">stages</name> ect. Pour
+        arriver à la possibilité de lectures</p>
       <p>Avant le 31 décembre (pour qu’ils dépensent leurs 4 <unclear>Cenzynes</unclear>)</p>
       <p>(3) pas de nouvelles de Naples ni de Madrid</p>
-      <p>(4) « architecture » - 1ou 2 conférences aux Beaux-Arts sur architecture et littérature. <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> se porte volontaire.</p>
+      <p>(4) « architecture » - 1ou 2 conférences aux Beaux-Arts sur architecture et littérature.
+          <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName> se porte volontaire.</p>
     </body>
   </text>
 </TEI>

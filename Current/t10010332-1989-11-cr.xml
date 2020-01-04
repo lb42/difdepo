@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010332-1989-11-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010332-1989-11-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,21 +18,44 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010332-1989-11-cr</idno> <meeting xml:id="t10010332-1989-11">
-          <date when="1989-11-16">16 novembre 1989</date>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#cb">Claude Berge</persName></item>
-            <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName></item>
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#mm">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#hm">Harry Mathews</persName></item>
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#jeanmayer" role="invité">Jean Mayer</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010332-1989-11-cr</idno>
+          <meeting xml:id="t10010332-1989-11">
+            <date when="1989-11-16">16 novembre 1989</date>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#cb">Claude Berge</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mm">Michele Métail</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#hm">Harry Mathews</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jeanmayer" role="invité">Jean Mayer</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -41,6 +65,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-01" who="HCC">correctif encodage</change>
         <change when="2018-03-23" who="HCC">nettoyage des notions/terms</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-02">restore accidentally deleted attendance lists</change>
@@ -52,68 +77,168 @@
   <text type="cr">
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103327/f4.highres" n="4"/>
-      <p rend="incipit">Oulipo 16.11.89 <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
-      <p rend="incipit">invité d’honneur : M <persName ref="difdepo:persons.xml#mayer">Mayer</persName></p>
-      <p rend="incipit">excusés : <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName> <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName> <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></p>
-      <p>Invité d’honneur : <persName ref="difdepo:persons.xml#jeanmayer">Jean Mayer</persName> (Professeur <orgName ref="difdepo:organizations.xml#universitemontpellier">Université Montpellier</orgName>. 18emiste et littérature noire francophone)</p>
-      <p><persName ref="difdepo:persons.xml#cb">Berge</persName> présente sa rencontre à Boulder (Colorado) avec <persName ref="difdepo:persons.xml#jmayer">J. Mayer</persName>, 1971. Spécialiste des problèmes insolubles. Résout en 71 un problème aigu en <term ref="difdepo:terms.xml#theoriedesgraphes">théorie des graphes</term>.</p>
-      <p><term ref="difdepo:terms.xml#heteropangrammes">(Hétéro)pangrammes</term> en anglais. (<ref>documents joints</ref>)</p>
-      <p><label type="rubrique">Créations</label></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> ‑ <term ref="difdepo:terms.xml#palindromesemantique">palindrome sémantique</term> un moyen d’<term ref="difdepo:terms.xml#antonymie">antonymie</term>.</p>
+      <p rend="incipit">Oulipo 16.11.89 <persName ref="difdepo:persons.xml#pf"
+          ><abbr>PF</abbr></persName>
+        <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>
+        <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>
+        <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>
+        <persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>
+        <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>
+        <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>
+        <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>
+        <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p rend="incipit">invité d’honneur : M <persName ref="difdepo:persons.xml#mayer"
+          >Mayer</persName></p>
+      <p rend="incipit">excusés : <persName ref="difdepo:persons.xml#jd"><abbr>JD</abbr></persName>
+        <persName ref="difdepo:persons.xml#jl"><abbr>JL</abbr></persName>
+        <persName ref="difdepo:persons.xml#na"><abbr>NA</abbr></persName></p>
+      <p>Invité d’honneur : <persName ref="difdepo:persons.xml#jeanmayer">Jean Mayer</persName>
+        (Professeur <orgName ref="difdepo:organizations.xml#universitemontpellier">Université
+          Montpellier</orgName>. 18emiste et littérature noire francophone)</p>
+      <p><persName ref="difdepo:persons.xml#cb">Berge</persName> présente sa rencontre à Boulder
+        (Colorado) avec <persName ref="difdepo:persons.xml#jmayer">J. Mayer</persName>, 1971.
+        Spécialiste des problèmes insolubles. Résout en 71 un problème aigu en <term
+          ref="difdepo:terms.xml#theoriedesgraphes">théorie des graphes</term>.</p>
+      <p><term ref="difdepo:terms.xml#heteropangrammes">(Hétéro)pangrammes</term> en anglais.
+          (<ref>documents joints</ref>)</p>
+      <p>
+        <label type="rubrique">Créations</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> ‑ <term
+          ref="difdepo:terms.xml#palindromesemantique">palindrome sémantique</term> un moyen d’<term
+          ref="difdepo:terms.xml#antonymie">antonymie</term>.</p>
       <p>critique bergienne sur <title ref="difdepo:titles.xml#n1today">1 Today</title>.</p>
       <p>L’assemblée dit le texte « passablement antonymique ».</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term ref="difdepo:terms.xml#motsisoceles">Mots isocèles</term>. Exemples hiérarchie. Quelconque.</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <persName
+          ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <term
+          ref="difdepo:terms.xml#motsisoceles">Mots isocèles</term>. Exemples hiérarchie.
+        Quelconque.</p>
       <p>Energumène. Entièrement.</p>
-      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> &gt; cf. Colonel <persName ref="difdepo:persons.xml#givierge">Givierge</persName>. Manuels de <term ref="difdepo:terms.xml#cryptographie">cryptographie</term></p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> est en train d’écrire un texte.</p>
-      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : le tatami question : tatami/tomis. <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : oui ! le coucou de dédé.</p>
-      <p><label type="rubrique">Erudition</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : a reçu de <persName ref="difdepo:persons.xml#jphebert">J. P. Hébert</persName> « <term ref="difdepo:terms.xml#quintilecholalique">quintil écholalique</term> »</p>
-      <p><persName ref="difdepo:persons.xml#jeanmayer">Jean Mayer</persName> a pratiqué les <term ref="difdepo:terms.xml#rimesbabebines">rimes babebines</term>, jadis.</p>
+      <p><persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> &gt; cf. Colonel
+          <persName ref="difdepo:persons.xml#givierge">Givierge</persName>. Manuels de <term
+          ref="difdepo:terms.xml#cryptographie">cryptographie</term></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> est en train d’écrire un
+        texte.</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName> : le tatami question :
+        tatami/tomis. <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : oui ! le
+        coucou de dédé.</p>
+      <p>
+        <label type="rubrique">Erudition</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : a reçu de <persName
+          ref="difdepo:persons.xml#jphebert">J. P. Hébert</persName> « <term
+          ref="difdepo:terms.xml#quintilecholalique">quintil écholalique</term> »</p>
+      <p><persName ref="difdepo:persons.xml#jeanmayer">Jean Mayer</persName> a pratiqué les <term
+          ref="difdepo:terms.xml#rimesbabebines">rimes babebines</term>, jadis.</p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103327/f5.highres" n="5"/>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <term ref="difdepo:terms.xml#nombresdeperec">Nombres de <persName ref="difdepo:persons.xml#gp">Perec</persName></term> (suite)</p>
-      <p>Cf. <term ref="difdepo:terms.xml#nombresdequeneau">nombres de <persName ref="difdepo:persons.xml#rq">Queneau</persName></term> &gt; possibles pour la <term ref="difdepo:terms.xml#nine">n-ine</term></p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <term
+          ref="difdepo:terms.xml#nombresdeperec">Nombres de <persName ref="difdepo:persons.xml#gp"
+            >Perec</persName></term> (suite)</p>
+      <p>Cf. <term ref="difdepo:terms.xml#nombresdequeneau">nombres de <persName
+            ref="difdepo:persons.xml#rq">Queneau</persName></term> &gt; possibles pour la <term
+          ref="difdepo:terms.xml#nine">n-ine</term></p>
       <p>5-6-9-11-14…</p>
-      <p><term ref="difdepo:terms.xml#nombresdeperec">Nombres de <persName ref="difdepo:persons.xml#gp">Perec</persName></term> &gt; <term ref="difdepo:terms.xml#nombrespremiers">nombres premiers</term> dont le <term ref="difdepo:terms.xml#palindrome">palindrome</term> est premier en ôtant la condition <term ref="difdepo:terms.xml#n2n1">2n-1</term></p>
+      <p><term ref="difdepo:terms.xml#nombresdeperec">Nombres de <persName
+            ref="difdepo:persons.xml#gp">Perec</persName></term> &gt; <term
+          ref="difdepo:terms.xml#nombrespremiers">nombres premiers</term> dont le <term
+          ref="difdepo:terms.xml#palindrome">palindrome</term> est premier en ôtant la condition
+        2n-1</p>
       <p>trop limitative (ne reste que 37-73)</p>
-      <p>&gt; <term ref="difdepo:terms.xml#nombresqueneau">Nombres <persName ref="difdepo:persons.xml#rq">Queneau</persName></term> sont le <term ref="difdepo:terms.xml#palindrome">palindrome</term> est <persName ref="difdepo:persons.xml#rq">Queneau</persName></p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> apporte « le <term ref="difdepo:terms.xml#jeudebabel">jeu de Babel</term> » par <persName ref="difdepo:persons.xml#fflahant">F. Flahant</persName>, cartes avec répliques. Déjà vu.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> la mort de lipo, attrapant la lune.</p>
-      <p><label type="rubrique">Actions</label></p>
-      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> <title ref="difdepo:titles.xml#conversions">Conversions</title>, rééditées. L’imaginaire carte de visite.</p>
-      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName>, spectacle « <title ref="difdepo:titles.xml#dequeneaualoulipo">de Queneau à l’oulipo</title> » (ex oulipo-show)</p>
+      <p>&gt; <term ref="difdepo:terms.xml#nombresqueneau">Nombres <persName
+            ref="difdepo:persons.xml#rq">Queneau</persName></term> sont le <term
+          ref="difdepo:terms.xml#palindrome">palindrome</term> est <persName
+          ref="difdepo:persons.xml#rq">Queneau</persName></p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> apporte « le <term
+          ref="difdepo:terms.xml#jeudebabel">jeu de Babel</term> » par <persName
+          ref="difdepo:persons.xml#fflahant">F. Flahant</persName>, cartes avec répliques. Déjà
+        vu.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> la mort de lipo,
+        attrapant la lune.</p>
+      <p>
+        <label type="rubrique">Actions</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName>
+        <title ref="difdepo:titles.xml#conversions">Conversions</title>, rééditées. L’imaginaire
+        carte de visite.</p>
+      <p><persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>
+        <orgName ref="difdepo:organizations.xml#beaubourg">Beaubourg</orgName>, spectacle « <title
+          ref="difdepo:titles.xml#dequeneaualoulipo">de Queneau à l’oulipo</title> » (ex
+        oulipo-show)</p>
       <p>Textes trafiqués.</p>
       <p>Proposition : d’ouvrir 1 comptoir de vente de l’ouvroir.</p>
       <p><persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName> : très sympathique</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> a vu la <orgName ref="difdepo:organizations.xml#sacd">SACD</orgName> &gt; inscription oulipo à la <orgName ref="difdepo:organizations.xml#sacd">SACD</orgName></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> livre sur <persName ref="difdepo:persons.xml#rq">Queneau</persName> épuisé en réédition.</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> Poitiers, <persName ref="difdepo:persons.xml#meschonnic">Meschonnic</persName> sur l’Oulipo.</p>
-      <p><persName ref="difdepo:persons.xml#jr">Roubaud</persName> sur <persName ref="difdepo:persons.xml#meschonnic">Meschonnic</persName>.</p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Mexico, M. <persName ref="difdepo:persons.xml#toma">Toma</persName>. Automne 89 90 (nouvelling) (Guadalajara) (<name ref="difdepo:events.xml#foiredemexico" type="manif">Foire de Mexico</name>)</p>
-      <p>Oulipo: <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName> <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> a vu la <orgName
+          ref="difdepo:organizations.xml#sacd">SACD</orgName> &gt; inscription oulipo à la <orgName
+          ref="difdepo:organizations.xml#sacd">SACD</orgName></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName> livre sur <persName
+          ref="difdepo:persons.xml#rq">Queneau</persName> épuisé en réédition.</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> Poitiers, <persName
+          ref="difdepo:persons.xml#meschonnic">Meschonnic</persName> sur l’Oulipo.</p>
+      <p><persName ref="difdepo:persons.xml#jr">Roubaud</persName> sur <persName
+          ref="difdepo:persons.xml#meschonnic">Meschonnic</persName>.</p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Mexico, M. <persName
+          ref="difdepo:persons.xml#toma">Toma</persName>. Automne 89 90 (nouvelling) (Guadalajara)
+          (<name ref="difdepo:events.xml#foiredemexico" type="manif">Foire de Mexico</name>)</p>
+      <p>Oulipo: <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>
+        <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+        <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>
+        <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>
+        <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>
+        <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>
+        <persName ref="difdepo:persons.xml#hm"><abbr>HM</abbr></persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103327/f6.highres" n="6"/>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lettre Espagne. 30e anniversaire à Madrid. 1990 une lecture oulipienne.</p>
-      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName> paye environ 21000 francs en caisse. 110000 Sicav</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> lettre Espagne. 30e
+        anniversaire à Madrid. 1990 une lecture oulipienne.</p>
+      <p><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>
+        <orgName ref="difdepo:organizations.xml#ramsay">Ramsay</orgName> paye environ 21000 francs
+        en caisse. 110000 Sicav</p>
       <p>30000 à encaisser</p>
-      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. choix de textes oulipiens pour <orgName ref="difdepo:organizations.xml#hauser">Hauser</orgName> (<persName ref="difdepo:persons.xml#d_"><abbr>D.</abbr></persName>)</p>
+      <p><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. choix de textes
+        oulipiens pour <orgName ref="difdepo:organizations.xml#hauser">Hauser</orgName> (<persName
+          ref="difdepo:persons.xml#d_"><abbr>D.</abbr></persName>)</p>
       <p>Cf. <persName ref="difdepo:persons.xml#wmotte">W. Motte</persName></p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Avril 90</p>
-      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> III ordre à faire, le 25, 10 heures.</p>
-      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. <persName ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>. <persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>. <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> (Am.)</p>
-      <p><label type="rubrique">Menus propos</label></p>
-      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <title ref="difdepo:titles.xml#lacarriere">La carrière</title>. <title ref="difdepo:titles.xml#cebelaujourdhui">Ce bel aujourd’hui</title>. <unclear>Dictes</unclear>+ questions.</p>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>
+        <persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Avril 90</p>
+      <p><title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title> III
+        ordre à faire, le 25, 10 heures.</p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. <persName
+          ref="difdepo:persons.xml#cb"><abbr>CB</abbr></persName>. <persName
+          ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName>. <persName
+          ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <persName
+          ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName>. <persName
+          ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName>. <persName
+          ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> (Am.)</p>
+      <p>
+        <label type="rubrique">Menus propos</label>
+      </p>
+      <p><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName>
+        <title ref="difdepo:titles.xml#lacarriere">La carrière</title>. <title
+          ref="difdepo:titles.xml#cebelaujourdhui">Ce bel aujourd’hui</title>.
+          <unclear>Dictes</unclear>+ questions.</p>
       <p>variations sur <title ref="difdepo:titles.xml#lajoconde">la Joconde</title></p>
-      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <title ref="difdepo:titles.xml#petitlarousseillustre">Petit Larousse illustré</title></p>
-      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. proteste contre la convocation tapée à la machine.</p>
-      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. <persName ref="difdepo:persons.xml#butor">Butor</persName> fut invité d’honneur à l’oulipo en mai 1968</p>
-      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> et M <persName ref="difdepo:persons.xml#butor">Butor</persName> furent seuls.</p>
-      <p>travail de <term ref="difdepo:terms.xml#permutation">permutation</term> par <persName ref="difdepo:persons.xml#butor">Butor</persName> + <persName ref="difdepo:persons.xml#heloiseneefs">Héloïse Neefs</persName>, rencontré par <persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
+      <p><persName ref="difdepo:persons.xml#jj"><abbr>JJ</abbr></persName>. <title
+          ref="difdepo:titles.xml#petitlarousseillustre">Petit Larousse illustré</title></p>
+      <p><persName ref="difdepo:persons.xml#mm"><abbr>MM</abbr></persName>. proteste contre la
+        convocation tapée à la machine.</p>
+      <p><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName>. <persName
+          ref="difdepo:persons.xml#butor">Butor</persName> fut invité d’honneur à l’oulipo en mai
+        1968</p>
+      <p><persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> et M <persName
+          ref="difdepo:persons.xml#butor">Butor</persName> furent seuls.</p>
+      <p>travail de <term ref="difdepo:terms.xml#permutation">permutation</term> par <persName
+          ref="difdepo:persons.xml#butor">Butor</persName> + <persName
+          ref="difdepo:persons.xml#heloiseneefs">Héloïse Neefs</persName>, rencontré par <persName
+          ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName></p>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b100103327/f7.highres" n="7"/>
-      <p>Proposition d’inviter <persName ref="difdepo:persons.xml#paulzumthor">Paul Zumthor</persName></p>
-      <p>Prochaines réunions 12 décembre 89 chez <persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName></p>
+      <p>Proposition d’inviter <persName ref="difdepo:persons.xml#paulzumthor">Paul
+          Zumthor</persName></p>
+      <p>Prochaines réunions 12 décembre 89 chez <persName ref="difdepo:persons.xml#mb"
+            ><abbr>MB</abbr></persName></p>
       <p>26 janvier 90 chez <persName ref="difdepo:persons.xml#fc"><abbr>FC</abbr></persName> ?</p>
-      <p><persName ref="difdepo:persons.xml#jeanmayer">Jean Mayer</persName> : fit de <term ref="difdepo:terms.xml#pasticheslitteraires">pastiches littéraires</term>.</p>
-      <p>Dernière œuvre : <term ref="difdepo:terms.xml#graphes">graphes</term> de <term ref="difdepo:terms.xml#connexites">connexités</term> diverses</p>
+      <p><persName ref="difdepo:persons.xml#jeanmayer">Jean Mayer</persName> : fit de <term
+          ref="difdepo:terms.xml#pasticheslitteraires">pastiches littéraires</term>.</p>
+      <p>Dernière œuvre : <term ref="difdepo:terms.xml#graphes">graphes</term> de <term
+          ref="difdepo:terms.xml#connexites">connexités</term> diverses</p>
     </body>
   </text>
 </TEI>

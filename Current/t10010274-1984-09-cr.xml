@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010274-1984-09-cr">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/difdepo.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="t10010274-1984-09-cr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,20 +18,39 @@
         <p>Édition numérique réalisée et distribuée par le projet ANR DifDePo</p>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>t10010274-1984-09-cr</idno> <meeting xml:id="t10010274-1984-09">
-          <date when="1984-09-21">21 septembre 1984</date>
-          <placeName>Chez PB</placeName>
-          <list type="present">
-            <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName></item>
-            <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName></item>
-            <item><persName ref="difdepo:persons.xml#le">Luc Etienne</persName></item>
-            <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName></item>
-            <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName></item>
-            <item><persName ref="difdepo:persons.xml#mm">Michele Métail</persName></item>
-            <item><persName ref="difdepo:persons.xml#jj" role="secrétaire">Jacques Jouet</persName></item>
-            <item><persName ref="difdepo:persons.xml#jr" role="président">Jacques Roubaud</persName></item>
-          </list>
-          </meeting></bibl>
+        <bibl>
+          <idno>t10010274-1984-09-cr</idno>
+          <meeting xml:id="t10010274-1984-09">
+            <date when="1984-09-21">21 septembre 1984</date>
+            <placeName>Chez PB</placeName>
+            <list type="present">
+              <item>
+                <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#fc">François Caradec</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#le">Luc Etienne</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#mm">Michele Métail</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jj" role="secrétaire">Jacques Jouet</persName>
+              </item>
+              <item>
+                <persName ref="difdepo:persons.xml#jr" role="président">Jacques Roubaud</persName>
+              </item>
+            </list>
+          </meeting>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -40,6 +60,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-06" who="HCC">correctif encodage</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2018-01-06">restore placeName from docx</change>
         <change when="2018-01-02">restore accidentally deleted attendance lists</change>
@@ -53,56 +74,209 @@
     <body>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010274d/f2.highres" n="2"/>
       <p rend="incipit">OuLiPo – Réunion du vendredi 21 Septembre 1984, de 12h à 15h.</p>
-      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> qui reçoit, avec <persName ref="difdepo:persons.xml#heloiseneefs">Héloïse Neefs</persName>, <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName ref="difdepo:persons.xml#le">Luc Etienne</persName>, <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName>, <persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName> (secrétaire), <persName ref="difdepo:persons.xml#mm">Michèle Métail</persName>, <persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> (Président de séance).</p>
-      <p rend="incipit">Excuses de <persName ref="difdepo:persons.xml#na">Noël Arnaud</persName>, <persName ref="difdepo:persons.xml#ab">André Blavier</persName>, <persName ref="difdepo:persons.xml#jb">Jacques Bens</persName>, <persName ref="difdepo:persons.xml#jd">Jacques Duchateau</persName>, <persName ref="difdepo:persons.xml#hm">Harry Mathews</persName>, <persName ref="difdepo:persons.xml#jq">Jean Queval</persName>.</p>
-      <p><label type="rubrique">Créations</label></p>
+      <p rend="incipit">Présents : <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName>
+        qui reçoit, avec <persName ref="difdepo:persons.xml#heloiseneefs">Héloïse Neefs</persName>,
+          <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>, <persName
+          ref="difdepo:persons.xml#fc">François Caradec</persName>, <persName
+          ref="difdepo:persons.xml#le">Luc Etienne</persName>, <persName
+          ref="difdepo:persons.xml#pf">Paul Fournel</persName>, <persName
+          ref="difdepo:persons.xml#jj">Jacques Jouet</persName> (secrétaire), <persName
+          ref="difdepo:persons.xml#mm">Michèle Métail</persName>, <persName
+          ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> (Président de séance).</p>
+      <p rend="incipit">Excuses de <persName ref="difdepo:persons.xml#na">Noël Arnaud</persName>,
+          <persName ref="difdepo:persons.xml#ab">André Blavier</persName>, <persName
+          ref="difdepo:persons.xml#jb">Jacques Bens</persName>, <persName
+          ref="difdepo:persons.xml#jd">Jacques Duchateau</persName>, <persName
+          ref="difdepo:persons.xml#hm">Harry Mathews</persName>, <persName
+          ref="difdepo:persons.xml#jq">Jean Queval</persName>.</p>
+      <p>
+        <label type="rubrique">Créations</label>
+      </p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> demande une aide à la <term ref="difdepo:terms.xml#creation">création</term>, Il prie chacun des présents de lui fournir, dans les meilleurs délais, sa ou ses <term ref="difdepo:terms.xml#phrasesinterrogatives">phrases interrogatives</term> préférées.</item>
-        <item><persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName> lit « <title ref="difdepo:titles.xml#dequelquesfournituresdebureaunecessairesaunoulipiendanslexercicedesesfonctions">De quelques fournitures de bureau nécessaires à un oulipien dans l’exercice de ses fonctions.</title> » Véloce, <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> propose que l’<name ref="difdepo:events.xml#hommage" type="manif">Hommage</name> à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName> soit constitué de tels projets d’amélioration du fonctionnement de l’Ouvroir. L’assemblée est séduite. Dans la foulée, on décide que les compte-rendus des réunions (<persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName> semble lâchement désigné pour assurer tout seul le secrétariat tournant) seront photocopiés par <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> et expédiés avec la convocation.</item>
+        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> demande une aide à
+          la <term ref="difdepo:terms.xml#creation">création</term>, Il prie chacun des présents de
+          lui fournir, dans les meilleurs délais, sa ou ses <term
+            ref="difdepo:terms.xml#phrasesinterrogatives">phrases interrogatives</term>
+          préférées.</item>
+        <item><persName ref="difdepo:persons.xml#jj">Jacques Jouet</persName> lit « <title
+            ref="difdepo:titles.xml#dequelquesfournituresdebureaunecessairesaunoulipiendanslexercicedesesfonctions"
+            >De quelques fournitures de bureau nécessaires à un oulipien dans l’exercice de ses
+            fonctions.</title> » Véloce, <persName ref="difdepo:persons.xml#pf">Paul
+            Fournel</persName> propose que l’<name ref="difdepo:events.xml#hommage" type="manif"
+            >Hommage</name> à <persName ref="difdepo:persons.xml#fll"><abbr>FLL</abbr></persName>
+          soit constitué de tels projets d’amélioration du fonctionnement de l’Ouvroir. L’assemblée
+          est séduite. Dans la foulée, on décide que les compte-rendus des réunions (<persName
+            ref="difdepo:persons.xml#jj">Jacques Jouet</persName> semble lâchement désigné pour
+          assurer tout seul le secrétariat tournant) seront photocopiés par <persName
+            ref="difdepo:persons.xml#pf">Paul Fournel</persName> et expédiés avec la
+          convocation.</item>
       </list>
-      <p><label type="rubrique">Erudition </label></p>
+      <p>
+        <label type="rubrique">Erudition </label>
+      </p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> parle de Verviers (<name ref="difdepo:events.xml#colloquequeneau" type="manif">colloque Queneau</name>) et de la <name ref="difdepo:events.xml#biennaledepoesie" type="manif">Biennale de poésie</name>. Au <name ref="difdepo:events.xml#colloque" type="manif">colloque</name>, <persName ref="difdepo:persons.xml#fc">François Caradec</persName> a été nommé Hussard. A la <name ref="difdepo:events.xml#biennaledepoesie" type="manif">biennale de poésie</name>, des poètes octogénaires s’entretenaient de la poésie en l’an 2000. <persName ref="difdepo:persons.xml#mm">Michèle Métail</persName> fait justement remarquer que <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> confond <term ref="difdepo:terms.xml#erudition">érudition</term> et souvenirs de vacances.</item>
-        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> fait état d’un <name ref="difdepo:events.xml#congresdesprofesseursdefrancais" type="manif">Congrès des professeurs de français</name> qui s’est tenu à Québec en juillet. Il y prononça une conférence : « <title ref="difdepo:titles.xml#deloulipoalalamouneexperiencelitteraireetsesretombeestechnologiques">De l’OuLiPo à l’<orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>, une expérience littéraire et ses retombées technologiques</title>. »</item>
+        <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> parle de Verviers
+            (<name ref="difdepo:events.xml#colloquequeneau" type="manif">colloque Queneau</name>) et
+          de la <name ref="difdepo:events.xml#biennaledepoesie" type="manif">Biennale de
+            poésie</name>. Au <name ref="difdepo:events.xml#colloque" type="manif">colloque</name>,
+            <persName ref="difdepo:persons.xml#fc">François Caradec</persName> a été nommé Hussard.
+          A la <name ref="difdepo:events.xml#biennaledepoesie" type="manif">biennale de
+            poésie</name>, des poètes octogénaires s’entretenaient de la poésie en l’an 2000.
+            <persName ref="difdepo:persons.xml#mm">Michèle Métail</persName> fait justement
+          remarquer que <persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> confond
+            <term ref="difdepo:terms.xml#erudition">érudition</term> et souvenirs de
+          vacances.</item>
+        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> fait état d’un <name
+            ref="difdepo:events.xml#congresdesprofesseursdefrancais" type="manif">Congrès des
+            professeurs de français</name> qui s’est tenu à Québec en juillet. Il y prononça une
+          conférence : « <title
+            ref="difdepo:titles.xml#deloulipoalalamouneexperiencelitteraireetsesretombeestechnologiques"
+            >De l’OuLiPo à l’<orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName>, une
+            expérience littéraire et ses retombées technologiques</title>. »</item>
       </list>
-      <p>Il nous communique un <term ref="difdepo:terms.xml#palindrome">palindrome</term> record qui suscite l’admiration, œuvre d’un jeune étudiant, un <term ref="difdepo:terms.xml#hyperholorime">hyperholorime</term> moins convaincant. <persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> déclare : « Le record fait partie de l’OuLiPo. » Une étudiante, québecoise toujours, a réalisé une table des <term ref="difdepo:terms.xml#contraintes">contraintes</term> descriptive et tout à fait sérieuse. <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> précise qu’à ses yeux (et à ceux présents qui acquiescent) l’intérêt d’une table des <term ref="difdepo:terms.xml#contraintes">contraintes</term> est d’y ménager des cases vides…</p>
+      <p>Il nous communique un <term ref="difdepo:terms.xml#palindrome">palindrome</term> record qui
+        suscite l’admiration, œuvre d’un jeune étudiant, un <term
+          ref="difdepo:terms.xml#hyperholorime">hyperholorime</term> moins convaincant. <persName
+          ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> déclare : « Le record fait partie
+        de l’OuLiPo. » Une étudiante, québecoise toujours, a réalisé une table des <term
+          ref="difdepo:terms.xml#contraintes">contraintes</term> descriptive et tout à fait
+        sérieuse. <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> précise qu’à ses
+        yeux (et à ceux présents qui acquiescent) l’intérêt d’une table des <term
+          ref="difdepo:terms.xml#contraintes">contraintes</term> est d’y ménager des cases
+        vides…</p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> communique deux « <term ref="difdepo:terms.xml#fausseseruditions">fausses éruditions</term> ». Une phrase de <persName ref="difdepo:persons.xml#claudel">Claudel</persName> qui revendique le tréma sur son e (comme <persName ref="difdepo:persons.xml#fc">Caradec</persName> prononce « sur son eu », on met du temps à comprendre qu’il s’agit de poëte. Ouf.) Un <term ref="difdepo:terms.xml#quatrain">quatrain</term> de <persName ref="difdepo:persons.xml#willy">Willy</persName> sur un livre de <term ref="difdepo:terms.xml#poemes">poèmes</term> de <persName ref="difdepo:persons.xml#quenault">Quenault</persName> (<persName ref="difdepo:persons.xml#emmanuel">Emmanuel</persName>)</item>
-        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> dit du bien de « <title ref="difdepo:titles.xml#bleus">Bleus</title> » de <persName ref="difdepo:persons.xml#jeanpierrebalpe">Jean Pierre Balpe</persName> qu’il a reçu. Il a du nouveau sur <persName ref="difdepo:persons.xml#lordcharles">Lord Charles</persName> qui n’existe pas. <persName ref="difdepo:persons.xml#johnhulme">John Hulme</persName>, en revanche, existe mais <persName ref="difdepo:persons.xml#paul"><abbr>Paul</abbr></persName> ne l’a pas rencontré.</item>
-        <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> a trouvé un livre rare : « <title ref="difdepo:titles.xml#lesacrehymendubergerbrotheonetdelabelleflorinee">le sacré hymen du berger Brothéon et de la belle Florinee</title>, et autres œuvres de vers de <persName ref="difdepo:persons.xml#jeandelarcher">Jean de Larcher</persName>, avranchois ». Il y a trouvé un triple <term ref="difdepo:terms.xml#acrostiche">acrostiche</term>. En procède une nouvelle hypothèse sur l’origine du <term ref="difdepo:terms.xml#sonnet">sonnet</term> : les noms des dames au 16è siècle avaient 14 lettres (<persName ref="difdepo:persons.xml#jr">Roubaud</persName> donne quelques exemples) et, naturellement, en cas d’<term ref="difdepo:terms.xml#acrostiche">acrostiche</term>…</item>
+        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> communique deux
+            « <term ref="difdepo:terms.xml#fausseseruditions">fausses éruditions</term> ». Une
+          phrase de <persName ref="difdepo:persons.xml#claudel">Claudel</persName> qui revendique le
+          tréma sur son e (comme <persName ref="difdepo:persons.xml#fc">Caradec</persName> prononce
+          « sur son eu », on met du temps à comprendre qu’il s’agit de poëte. Ouf.) Un <term
+            ref="difdepo:terms.xml#quatrain">quatrain</term> de <persName
+            ref="difdepo:persons.xml#willy">Willy</persName> sur un livre de <term
+            ref="difdepo:terms.xml#poemes">poèmes</term> de <persName
+            ref="difdepo:persons.xml#quenault">Quenault</persName> (<persName
+            ref="difdepo:persons.xml#emmanuel">Emmanuel</persName>)</item>
+        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> dit du bien de « <title
+            ref="difdepo:titles.xml#bleus">Bleus</title> » de <persName
+            ref="difdepo:persons.xml#jeanpierrebalpe">Jean Pierre Balpe</persName> qu’il a reçu. Il
+          a du nouveau sur <persName ref="difdepo:persons.xml#lordcharles">Lord Charles</persName>
+          qui n’existe pas. <persName ref="difdepo:persons.xml#johnhulme">John Hulme</persName>, en
+          revanche, existe mais <persName ref="difdepo:persons.xml#paul"
+            ><abbr>Paul</abbr></persName> ne l’a pas rencontré.</item>
+        <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> a trouvé un livre
+          rare : « <title ref="difdepo:titles.xml#lesacrehymendubergerbrotheonetdelabelleflorinee"
+            >le sacré hymen du berger Brothéon et de la belle Florinee</title>, et autres œuvres de
+          vers de <persName ref="difdepo:persons.xml#jeandelarcher">Jean de Larcher</persName>,
+          avranchois ». Il y a trouvé un triple <term ref="difdepo:terms.xml#acrostiche"
+            >acrostiche</term>. En procède une nouvelle hypothèse sur l’origine du <term
+            ref="difdepo:terms.xml#sonnet">sonnet</term> : les noms des dames au 16è siècle avaient
+          14 lettres (<persName ref="difdepo:persons.xml#jr">Roubaud</persName> donne quelques
+          exemples) et, naturellement, en cas d’<term ref="difdepo:terms.xml#acrostiche"
+            >acrostiche</term>…</item>
       </list>
       <p>L’assemblée rougit d’aise (tout en dégustant une frisée à l’aiglefin).</p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> mentionne « <title ref="difdepo:titles.xml#letrangevoluptedelamathematiquelitteraire">L’étrange volupté de la mathématique littéraire</title> » par <persName ref="difdepo:persons.xml#huguettedebroqueville">Huguette de Broqueville</persName>. « <title ref="difdepo:titles.xml#lagirafedepeignee">La girafe dépeignée</title> » de ………</item>
-        <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> annonce que <persName ref="difdepo:persons.xml#mathieulusson">Mathieu Lusson</persName> veut battre un record : écrire un <term ref="difdepo:terms.xml#sonnet">sonnet</term> comprenant 336 mots ! On attend.</item>
+        <item><persName ref="difdepo:persons.xml#pb">Paul Braffort</persName> mentionne « <title
+            ref="difdepo:titles.xml#letrangevoluptedelamathematiquelitteraire">L’étrange volupté de
+            la mathématique littéraire</title> » par <persName
+            ref="difdepo:persons.xml#huguettedebroqueville">Huguette de Broqueville</persName>.
+            « <title ref="difdepo:titles.xml#lagirafedepeignee">La girafe dépeignée</title> » de
+          ………</item>
+        <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> annonce que
+            <persName ref="difdepo:persons.xml#mathieulusson">Mathieu Lusson</persName> veut battre
+          un record : écrire un <term ref="difdepo:terms.xml#sonnet">sonnet</term> comprenant 336
+          mots ! On attend.</item>
       </list>
       <pb facs="http://gallica.bnf.fr/ark:/12148/btv1b10010274d/f3.highres" n="3"/>
-      <p><label type="rubrique">Actions</label></p>
+      <p>
+        <label type="rubrique">Actions</label>
+      </p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> fait le point de la <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>. : <persName ref="difdepo:persons.xml#jr">Roubaud</persName> et <persName ref="difdepo:persons.xml#jj">Jouet</persName> sous presse. <persName ref="difdepo:persons.xml#fc">François Caradec</persName> est à nouveau pressé de fournir. Il demande « un certain temps. »</item>
-        <item>Maison <persName ref="difdepo:persons.xml#fll">Le Lionnais</persName>. <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> lit une lettre du cabinet de <persName ref="difdepo:persons.xml#fabius">Fabius</persName>. En substance : « On vous écrira. » <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> confirme que, du côté de la ville de Boulogne, cela semble bien engagé (rendez-vous prévu avec les Domaines !)</item>
-        <item><persName ref="difdepo:persons.xml#valerieguidoux">Valérie Guidoux</persName> est en retard pour livrer son mémoire.</item>
-        <item><persName ref="difdepo:persons.xml#warrenmotte">Warren Motte</persName> a publié un livre sur <persName ref="difdepo:persons.xml#gp">Perec</persName>. Il va traduire des <term ref="difdepo:terms.xml#textes">textes</term> oulipiens (lecture de la table des matières). Certains oulipiens n’ont pas répondu à son questionnaire et n’ont même pas honte !</item>
-        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> est un ange. (Idée de motion qui n’est pas mise aux voix.)</item>
-        <item><persName ref="difdepo:persons.xml#mcrombie">M. Crombie</persName> demande de l’aide au sujet d’une maquette de livre combinatoire qu’il a mise au point mais qui semble le dépasser lui-même. On convient de dépêcher <persName ref="difdepo:persons.xml#cb">Claude Berge</persName> à son secours.</item>
-        <item>Limoges Pâques 85. <name ref="difdepo:events.xml#stage" type="manif">Stage</name> prévu. Oulipiens pressentis ou volontaires <persName ref="difdepo:persons.xml#mm">Métail</persName>, <persName ref="difdepo:persons.xml#pf">Fournel</persName>, <persName ref="difdepo:persons.xml#jj">Jouet</persName>, <persName ref="difdepo:persons.xml#mb">Bénabou</persName>. <persName ref="difdepo:persons.xml#na">Arnaud</persName> ? <persName ref="difdepo:persons.xml#jb">Bens</persName> ?</item>
-        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> nous allèche avec un <name ref="difdepo:events.xml#colloqueadavos" type="manif">colloque à Davos</name>, en oct. 85 (du 5 au 12), mais il faut lui tirer les vers du nez pour se rendre compte qu’il n’y aura vraisemblablement qu’une place pour lui !</item>
-        <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> va en Australie.</item>
-        <item>Trésor. <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>, sombre, dit qu’il va falloir se mettre à vendre des livres. Suggestion de <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> : que le cachet des interventions extérieures soit augmenté d’une part versée directement au trésor de l’ouvroir.</item>
-        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> rappelle que <title ref="difdepo:titles.xml#lanouvellebarredujour">La nouvelle barre du jour</title>, revue québécoise veut faire un numéro de textes oulipiens. Voir à <name ref="difdepo:events.xml#ande" type="manif">Andé</name>.</item>
-        <item><name ref="difdepo:events.xml#ande" type="manif">Andé</name>, <name ref="difdepo:events.xml#congres" type="manif">congrès</name>. 13 et 14 octobre. On commence le samedi matin à 10h précises. Possibilité d’arriver le vendredi soir (5 chambres libres seulement alors). <persName ref="difdepo:persons.xml#pf">Fournel</persName>, <persName ref="difdepo:persons.xml#mb">Bénabou</persName> et <persName ref="difdepo:persons.xml#jj">Jouet</persName> souhaitent venir le vendredi soir. <persName ref="difdepo:persons.xml#jr">Roubaud</persName> et <persName ref="difdepo:persons.xml#pb">Braffort</persName> viennent samedi matin. Contacter les absents d’aujourd’hui.</item>
+        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> fait le point de la
+            <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque
+          oulipienne</title>. : <persName ref="difdepo:persons.xml#jr">Roubaud</persName> et
+            <persName ref="difdepo:persons.xml#jj">Jouet</persName> sous presse. <persName
+            ref="difdepo:persons.xml#fc">François Caradec</persName> est à nouveau pressé de
+          fournir. Il demande « un certain temps. »</item>
+        <item>Maison <persName ref="difdepo:persons.xml#fll">Le Lionnais</persName>. <persName
+            ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> lit une lettre du cabinet de
+            <persName ref="difdepo:persons.xml#fabius">Fabius</persName>. En substance : « On vous
+          écrira. » <persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> confirme que, du
+          côté de la ville de Boulogne, cela semble bien engagé (rendez-vous prévu avec les
+          Domaines !)</item>
+        <item><persName ref="difdepo:persons.xml#valerieguidoux">Valérie Guidoux</persName> est en
+          retard pour livrer son mémoire.</item>
+        <item><persName ref="difdepo:persons.xml#warrenmotte">Warren Motte</persName> a publié un
+          livre sur <persName ref="difdepo:persons.xml#gp">Perec</persName>. Il va traduire des
+            textes oulipiens (lecture de la table des
+          matières). Certains oulipiens n’ont pas répondu à son questionnaire et n’ont même pas
+          honte !</item>
+        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> est un ange. (Idée de
+          motion qui n’est pas mise aux voix.)</item>
+        <item><persName ref="difdepo:persons.xml#mcrombie">M. Crombie</persName> demande de l’aide
+          au sujet d’une maquette de livre combinatoire qu’il a mise au point mais qui semble le
+          dépasser lui-même. On convient de dépêcher <persName ref="difdepo:persons.xml#cb">Claude
+            Berge</persName> à son secours.</item>
+        <item>Limoges Pâques 85. <name ref="difdepo:events.xml#stage" type="manif">Stage</name>
+          prévu. Oulipiens pressentis ou volontaires <persName ref="difdepo:persons.xml#mm"
+            >Métail</persName>, <persName ref="difdepo:persons.xml#pf">Fournel</persName>, <persName
+            ref="difdepo:persons.xml#jj">Jouet</persName>, <persName ref="difdepo:persons.xml#mb"
+            >Bénabou</persName>. <persName ref="difdepo:persons.xml#na">Arnaud</persName> ?
+            <persName ref="difdepo:persons.xml#jb">Bens</persName> ?</item>
+        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> nous allèche avec un
+            <name ref="difdepo:events.xml#colloqueadavos" type="manif">colloque à Davos</name>, en
+          oct. 85 (du 5 au 12), mais il faut lui tirer les vers du nez pour se rendre compte qu’il
+          n’y aura vraisemblablement qu’une place pour lui !</item>
+        <item><persName ref="difdepo:persons.xml#jr">Jacques Roubaud</persName> va en
+          Australie.</item>
+        <item>Trésor. <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName>, sombre, dit
+          qu’il va falloir se mettre à vendre des livres. Suggestion de <persName
+            ref="difdepo:persons.xml#pf">Paul Fournel</persName> : que le cachet des interventions
+          extérieures soit augmenté d’une part versée directement au trésor de l’ouvroir.</item>
+        <item><persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> rappelle que <title
+            ref="difdepo:titles.xml#lanouvellebarredujour">La nouvelle barre du jour</title>, revue
+          québécoise veut faire un numéro de textes oulipiens. Voir à <name
+            ref="difdepo:events.xml#ande" type="manif">Andé</name>.</item>
+        <item><name ref="difdepo:events.xml#ande" type="manif">Andé</name>, <name
+            ref="difdepo:events.xml#congres" type="manif">congrès</name>. 13 et 14 octobre. On
+          commence le samedi matin à 10h précises. Possibilité d’arriver le vendredi soir (5
+          chambres libres seulement alors). <persName ref="difdepo:persons.xml#pf"
+            >Fournel</persName>, <persName ref="difdepo:persons.xml#mb">Bénabou</persName> et
+            <persName ref="difdepo:persons.xml#jj">Jouet</persName> souhaitent venir le vendredi
+          soir. <persName ref="difdepo:persons.xml#jr">Roubaud</persName> et <persName
+            ref="difdepo:persons.xml#pb">Braffort</persName> viennent samedi matin. Contacter les
+          absents d’aujourd’hui.</item>
       </list>
-      <p><label type="rubrique">Menus propos</label></p>
+      <p>
+        <label type="rubrique">Menus propos</label>
+      </p>
       <list type="unordered">
-        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> a inventé un <term ref="difdepo:terms.xml#jeudesociete">jeu de société</term> qui consiste à chercher des livres inédits (ah ! ces éditeurs jamais en repos !) sur le mode suivant : « François de la Nuit, auteur du Voyage au bout. »</item>
-        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> distribue une rareté bibliographique : « <title ref="difdepo:titles.xml#predictionspourlanmcmxlix">Prédictions pour l’an MCMXLIX</title>, par <persName ref="difdepo:persons.xml#monsieurdenostradamus">Monsieur de Nostradamus</persName> .»</item>
-        <item>Sous le manteau, <persName ref="difdepo:persons.xml#le">Luc Etienne</persName> verse des livrets aux archives.</item>
-        <item>Le grand <term ref="difdepo:terms.xml#rexstoutologue">rexstoutologue</term> mentionne <title ref="difdepo:titles.xml#meurtresalamiable">Meurtres à l’amiable</title> (série noire) pastiche de <persName ref="difdepo:persons.xml#rexstout">Rex Stout</persName>.</item>
-        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> va faire imprimer un papier à lettres.</item>
-        <item><name ref="difdepo:events.xml#colloquepereccerisy" type="manif">Colloque Perec Cerisy</name>, en juillet dernier. Il faisait beau. <persName ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> a lu une communication relative à la judéité chez <persName ref="difdepo:persons.xml#gp">Georges Perec</persName>.</item>
+        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> a inventé un <term
+            ref="difdepo:terms.xml#jeudesociete">jeu de société</term> qui consiste à chercher des
+          livres inédits (ah ! ces éditeurs jamais en repos !) sur le mode suivant : « François de
+          la Nuit, auteur du Voyage au bout. »</item>
+        <item><persName ref="difdepo:persons.xml#fc">François Caradec</persName> distribue une
+          rareté bibliographique : « <title ref="difdepo:titles.xml#predictionspourlanmcmxlix"
+            >Prédictions pour l’an MCMXLIX</title>, par <persName
+            ref="difdepo:persons.xml#monsieurdenostradamus">Monsieur de
+          Nostradamus</persName> .»</item>
+        <item>Sous le manteau, <persName ref="difdepo:persons.xml#le">Luc Etienne</persName> verse
+          des livrets aux archives.</item>
+        <item>Le grand <term ref="difdepo:terms.xml#rexstoutologue">rexstoutologue</term> mentionne
+            <title ref="difdepo:titles.xml#meurtresalamiable">Meurtres à l’amiable</title> (série
+          noire) pastiche de <persName ref="difdepo:persons.xml#rexstout">Rex
+          Stout</persName>.</item>
+        <item><persName ref="difdepo:persons.xml#pf">Paul Fournel</persName> va faire imprimer un
+          papier à lettres.</item>
+        <item><name ref="difdepo:events.xml#colloquepereccerisy" type="manif">Colloque Perec
+            Cerisy</name>, en juillet dernier. Il faisait beau. <persName
+            ref="difdepo:persons.xml#mb">Marcel Bénabou</persName> a lu une communication relative à
+          la judéité chez <persName ref="difdepo:persons.xml#gp">Georges Perec</persName>.</item>
       </list>
-      <p>Réunion de Novembre : Vendredi 9 à 11h30, chez <persName ref="difdepo:persons.xml#pb">P. Braffort</persName></p>
-      <p>(oubli) Prévoir une <name ref="difdepo:events.xml#tourneeoulipoaliege" type="manif">tournée Oulipo à Liège</name>, fin décembre 84 (<persName ref="difdepo:persons.xml#pb">P. Braffort</persName>)</p>
+      <p>Réunion de Novembre : Vendredi 9 à 11h30, chez <persName ref="difdepo:persons.xml#pb">P.
+          Braffort</persName></p>
+      <p>(oubli) Prévoir une <name ref="difdepo:events.xml#tourneeoulipoaliege" type="manif">tournée
+          Oulipo à Liège</name>, fin décembre 84 (<persName ref="difdepo:persons.xml#pb">P.
+          Braffort</persName>)</p>
     </body>
   </text>
 </TEI>

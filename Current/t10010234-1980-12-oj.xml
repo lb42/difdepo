@@ -27,6 +27,7 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
+        <change when="2019-12-11" who="HCC">correctif encodage</change>
         <change when="2018-01-06">restore date from docx</change>
         <change when="2017-12-09">script "cleanup.xsl" appliqué</change>
         <change when="2017-11-13T17:34:46Z">Conversion docx-tei initiale</change>
@@ -40,14 +41,16 @@
       <list type="unordered">
         <item>Création</item>
         <item><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> <persName ref="difdepo:persons.xml#benshi">Benshi</persName></item>
-        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <orgName ref="difdepo:organizations.xml#cra">CRA</orgName> <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></item>
-        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> <term ref="difdepo:terms.xml#magnetophone">Magnétophone</term> à 8 pistes</item>
+        <item><persName ref="difdepo:persons.xml#jr"><abbr>JR</abbr></persName> <term
+          ref="difdepo:terms.xml#compositionrythmiqueabstraite">CRA</term> <persName ref="difdepo:persons.xml#mallarme">Mallarmé</persName></item>
+        <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> Magnétophone à 8 pistes</item>
         <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> Oulipo et histoire</item>
-        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <unclear>???</unclear></item>
+        <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> <term
+          ref="difdepo:terms.xml#legendeautomatique">Légende automatique</term></item>
         <item>Action</item>
         <item><persName ref="difdepo:persons.xml#pf"><abbr>PF</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne">Bibliothèque oulipienne</title>+ <title ref="difdepo:titles.xml#volii">vol II</title> + <name ref="difdepo:events.xml#rouen" type="manif">Rouen</name></item>
         <item><persName ref="difdepo:persons.xml#mb"><abbr>MB</abbr></persName> : <title ref="difdepo:titles.xml#bibliothequeoulipienne"><abbr>BO</abbr></title> + Phinances + Diffusion</item>
-        <item>JQ : <unclear>???</unclear>Invité d’honneur</item>
+        <item><persName ref="difdepo:persons.xml#jq"><abbr>JQ</abbr></persName> : Invité d’honneur</item>
         <item><persName ref="difdepo:persons.xml#pb"><abbr>PB</abbr></persName> : <orgName ref="difdepo:organizations.xml#alamo">Alamo</orgName> <persName ref="difdepo:persons.xml#jb"><abbr>JB</abbr></persName> : <name ref="difdepo:events.xml#toulouse" type="manif">Toulouse</name></item>
       </list>
       <list type="unordered">
