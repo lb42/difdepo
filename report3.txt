@@ -1,609 +1,0 @@
-J'ai travaillé sur
-
-* la liste des fichiers xml et leur nommage
-* le teiHeader
-* les pb
-
-Quand je donne le nom d’un fichier, j’écris "open T1001*.xml" parce que c'est la solution la plus rapide pour ouvrir le fichier (via le terminal Mac ou Linux).
-
-Liste des modifications : https://github.com/lb42/difdepo/commits/master/Current
-
-Ci-dessous une synthèse. Il y a beaucoup de modifications déjà effectuées que je décris pour information ou pour avoir votre accord rétroactif, et d'autres points qui supposent de faire un choix ou qui concernent un travail de relecture manuel.
-
-#Tous les docx sont convertis en xml
-
-En retournant aux docx pour récupérer les infos perdues, j'ai vu que les fichiers suivants existaient en docx (dans Sharedocs/4. Fichiers Word Validés/2.Transcriptions stylées), mais pas dans le dossier Current ou dans la Dropbox, je les ai créés :
-open T10010024-1962-10-CV.xml
-open T10010261-1983-05-CR.xml
-open T10010261-1983-05-OJ.xml
-(ce dernier était typé CR dans les métadonnées par erreur, il me semble, à moins qu’il s’agisse de la première partie du CR ci-dessus)
-
-#Tous les xml sont valides
-
-Il restait juste quelques broutilles dans les fichiers qui étaient dans le dossier Current mais qui étaient commentés dans Current_driver.tei : <orgName@type="editeur">, <manifestation>, <add>
-
-<name@type="manif"> et <name@type="event"> sont tous deux valides et tous deux utilisés, on choisit lequel ?
-
-#Cohérence des identifiants
-
-* le nom du fichier
-* l’attribut TEI@xml:id
-* l'élément titleStmt/title
-* l’élément idno
-* l'élément bibl/title
-* l’attribut text@type
-* le numéro du scan présent dans l’ark de l’attribut pb@facs 
-
-contiennent les mêmes informations (numéro de scan et/ou date et/ou type : cf. remarque 10 de Lou dans report2.txt)
-respectent chacun le même format
-
-##Élément title
-On avait beaucoup d'éléments titleStmt/title sans type (parenthèses vides), avec des numéros de page mal présentés (pp. 911 au lieu de pp. 9 à 11), des commentaires Word qui étaient restés dans le docx et qui se trouve inclus dans le xml. J'ai veillé à ce que le texte de tous ces éléments respecte le moule "Transcription du scan 1001[\d]{4} pp. [\d]{1,2} à [\d]{1,2} ((CV|CR|OJ) : version TEI"
-
-Quand le document ne comporte qu'une seule page, on avait parfois pp. 1 (CR) : version TEI, parfois pp. 1 à 1 (CR) : version TEI. J'ai uniformisé en pp. 1 à 1 (CR) : version TEI
-
-##Références à une réunion
-
-Deux cas de figures qui posent problème dans <title>Convocation à <ref target="#identifiant_de_la_reunion">une réunion Oulipo</ref></title> ou <title>Ordre de jour de <ref target="#identifiant_de_la_reunion">la réunion Oulipo</ref></title>
-Si j'ai bien compris, l'identifiant de la réunion doit être posé dans l'élément meeting du CR de la réunion : <meeting xml:id="identifiant_de_la_reunion"/>
-
-###Réunions dont on n'a que le CV ou l'OJ, mais pas le CR
-
-open T10010127-1971-06-CV.xml
-ne convoque pas pour une réunion Oulipo mais pour une manifestation annexe. Dans les métadonnées, il me semble que <title>Convocation à <ref target="#T10010130-1971-09">une réunion Oulipo</ref></title> n'est pas tout à fait correct (la réunion #T10010130-1971-09 a d'ailleurs déjà un CV). Il faudrait utiliser le type="autre" (pour la correspondance diverse ne portant pas sur les réunions  mensuelles), mais vu que c’est le seul document de ce type que j’ai trouvé, on peut aussi faire comme si nous n’avions rien vu. Ou peut-être d’intégrer ce document à titre d’annexe dans 
-open T10010127-1971-06-CR.xml
-Je remplace de toute façon <ref target="#T10010130-1971-09"> par <ref target="#T10010127-1971-06">, histoire de rester dans le même dossier mensuel.
-
->> Autre
->> assouplir le schéma pour autoriser des CV et des OJ qui font référence à une réunion/manifestation dont on n'a pas le CR
-open T10010072-1966-12-CV.xml
-convoque pour le congrès des 2-3 janvier 1967
-open T10010072-1967-01-OJ.xml
-est l'OJ de ce congrès
-Dans ces deux documents on a
-<title>Convocation à <ref target="#T10010072-1966-12">une réunion Oulipo</ref></title>
-<title>Ordre de jour de <ref target="#T10010073-1967-01">la réunion Oulipo</ref></title>
-Mais on n’a pas de CR pour ce congrès qui poserait un <meeting xml:id="T10010073-1967-02">
-
->> supprimer les targets qui n'existent pas
-
-###L'attribut ref@target d'un CV ou d'un OJ ne renvoie pas à la bonne réunion
-
-####CV
-
-Dans 117 CV sur 233, l'attribut ref@target fait référence à un CR qui n’existe pas. Il y a peut-être parmi eux des cas de figure comparables aux deux précédents (pas de CR pour la réunion), mais le problème vient aussi du fait que ce ref@target est, je crois, déduit automatiquement du nom du fichier ou de l’identifiant du CV. Or si j'ai bien compris 
-
-* c'est l'année et le mois d'envoi du CV qui sert à former l'identifiant du CV, 
-* tandis que c'est l'année et le mois de la réunion qui sert à former l'identifiant du CR, 
-* et ces deux dates diffèrent dès que le CV n'a pas été envoyé dans le mois où s'est tenu la réunion. 
-
-Par exemple 
-open T10010274-1984-08-CV.xml 
-convoque pour la réunion du CR 
-open T10010274-1984-09-CR.xml
-
-Liste complète : 
-open T10010001-1960-11-CV.xmlopen T10010065-1966-04-CV.xmlopen T10010069-1966-09-CV.xmlopen T10010073-1967-01-CV.xmlopen T10010075-1967-03-CV.xmlopen T10010077-1967-05-23-CV.xmlopen T10010093-1968-10-18-CV.xmlopen T10010093-1968-10-CV.xmlopen T10010097-1969-01-CV.xmlopen T10010112-1970-04-CV.xmlopen T10010114-1970-06-CV.xmlopen T10010116-1970-04-30-CV.xmlopen T10010117-1970-09-CV.xmlopen T10010138-1972-04-CV.xmlopen T10010167-1974-10-08-CV.xmlopen T10010048-1964-10-CV.xmlopen T10010067-1966-07-CV.xmlopen T10010072-1966-12-CV.xmlopen T10010077-1967-05-CV.xmlopen T10010079-1967-07-CV.xmlopen T10010098-1969-02-CV.xmlopen T10010099-1969-03-CV.xmlopen T10010100-1969-04-01-CV.xmlopen T10010100-1969-04-28-CV.xmlopen T10010101-1969-05-CV.xmlopen T10010102-1969-06-CV.xmlopen T10010105-1969-09-CV.xmlopen T10010106-1969-10-CV.xmlopen T10010107-1969-11-CV.xmlopen T10010108-1969-11-CV.xmlopen T10010109-1970-01-CV.xmlopen T10010110-1970-02-CV.xmlopen T10010111-1970-03-CV.xmlopen T10010112-1970-04-14-CV.xmlopen T10010115-1970-07-CV.xmlopen T10010116-1970-08-30-CV.xmlopen T10010119-1970-11-CV.xmlopen T10010120-1970-12-CV.xmlopen T10010123-1971-01-CV.xmlopen T10010123-1971-02-CV.xmlopen T10010124-1971-03-CV.xmlopen T10010127-1971-05-CV.xmlopen T10010128-1971-06-CV.xmlopen T10010128-1971-08-CV.xmlopen T10010133-1971-12-CV.xmlopen T10010136-1972-02-CV.xmlopen T10010137-1972-02-CV.xmlopen T10010139-1972-05-23-CV.xmlopen T10010140-1972-06-CV.xmlopen T10010141-1972-07-CV.xmlopen T10010143-1972-08-30-CV.xmlopen T10010144-1972-08-CV.xmlopen T10010146-1972-12-CV.xmlopen T10010147-1973-01-CV.xmlopen T10010147-1973-12-CV.xmlopen T10010150-1973-04-CV.xmlopen T10010151-1973-05-CV.xmlopen T10010152-1973-07-CV.xmlopen T10010153-1973-08-CV.xmlopen T10010154-1973-09-CV.xmlopen T10010155-1973-10-CV.xmlopen T10010156-1973-10-CV.xmlopen T10010156-1973-11-CV.xmlopen T10010157-1973-03-CV.xmlopen T10010157-1973-05-CV.xmlopen T10010157-1973-10-CV.xmlopen T10010158-1973-12-CV.xmlopen T10010159-1974-01-CV.xmlopen T10010160-1974-02-26-CV.xmlopen T10010160-1974-02-CV.xmlopen T10010161-1974-03-CV.xmlopen T10010162-1974-04-CV.xmlopen T10010163-1974-05-CV.xmlopen T10010164-1974-07-CV.xmlopen T10010166-1974-08-CV.xmlopen T10010167-1974-09-CV.xmlopen T10010170-1974-12-CV.xmlopen T10010170-1975-10-CV.xmlopen T10010171-1975-02-CV.xmlopen T10010172-1975-03-CV.xmlopen T10010175-1975-07-CV.xmlopen T10010177-1975-10-CV.xmlopen T10010179-1975-11-CV.xmlopen T10010183-1976-02-CV.xmlopen T10010184-1976-03-CV.xmlopen T10010186-1976-05-CV.xmlopen T10010187-1976-07-CV.xmlopen T10010197-1977-05-CV.xmlopen T10010197-1977-06-CV.xmlopen T10010201-1977-11-CV.xmlopen T10010206-1978-04-CV.xmlopen T10010208-1978-07-CV.xmlopen T10010211-1978-11-CV.xmlopen T10010221-1979-09-CV.xmlopen T10010222-1979-05-CV.xmlopen T10010252-1982-08-CV.xmlopen T10010253-1982-08-CV.xmlopen T10010265-1983-10-CV.xmlopen T10010266-1983-11-CV.xmlopen T10010270-1984-03-CV.xmlopen T10010273-1984-07-CV.xmlopen T10010274-1984-08-CV.xmlopen T10010276-1984-10-CV.xmlopen T10010278-1984-12-CV.xmlopen T10010283-1985-05-CV.xmlopen T10010302-1987-02-CV.xmlopen T10010303-1987-03-CV.xmlopen T10010308-1987-09-CV.xmlopen T10010323-1988-12-CV.xmlopen T10010336-1990-02-28-CV.xmlopen T10010337-1990-03-29-CV.xmlopen T10010337-1990-03-30-CV.xmlopen T10010339-1990-05-CV.xmlopen T10010340-1990-06-CV.xmlopen T10010341-1990-08-10-CV.xmlopen T10010343-1990-09-25-CV.xmlopen T10010345-1990-11-CV.xml
-
->> on laisse pour l'instant
->> supprimer en attendant
->> pour lier CV et CR : CV et CV d'une même réunion sont dans le même dossier mensuel
-
-####OJ 
-
-Même problème dans 20 OJ sur 126 :
-
-open T10010007-1961-05-03-OJ.xml (Chiara) -> le CR de cette réunion existe, il est dans le fichier suivant : T10010007-1961-04-28-CR.xml
->> ref corrigéopen T10010056-1965-06-25-OJ.xml (Chiara) -> c’est un fichier orphelin qui se balade tout seul : dans le scan 10056 il y a des CR et OJ du 12/06/65. Dans les autres fichiers je ne vois pas de CV ni de CR pour mai / juillet 1965 open T10010068-1966-08-OJ.xml (Chiara) -> le CV est dans T10010067-1966-07-CV.xml mais nous n’avons pas de CR à ma connaissanceopen T10010073-1967-01-OJ.xml (Chiara) -> le CV est dans T10010072-1966-12-CV.xml L’OJ du fichier en question est du 2 e 3 janv 1967. Il n’y a pas de CR.open T10010116-1970-08-21-OJ.xml (Chiara) -> je ne vois pas de CR dans nos fichiers open T10010122-1971-01-OJ.xml (Chiara) -> je ne vois pas de CR dans nos fichiersopen T10010136-1972-02-OJ.xml (Chiara) -> je ne vois pas de CR dans nos fichiersopen T10010138-1972-04-OJ.xml  (Chiara) -> le CV est dans T10010138-1972-04-CV.xml mais il n’y a pas de CRopen T10010140-1972-06-OJ.xml (Chiara) -> le CV est dans T10010140-1972-06-CV.xml mais il n’y a pas de CRopen T10010176-1973-09-OJ.xml (Chiara) il s’agit d’un fichier qui date 1973 dans les scans, mais se trouve parmi les pages de 1975… A REVOIR A-t-il peut-être été inséré à cet endroit pour une raison particulière ? En tout cas, il s’agit d’une copie du fichier T10010153-1973-09-OJ.xml ! La CR qui correspond à la date du 5/9 est dans le fichier suivant: T10010153-1973-09-CR.xml, fichier de CV: T10010153-1973-08-CV.xml
->> WTF. Il y a des ajouts manuscrits dans les deux fichiers, mais pas au même endroit.open T10010177-1975-10-OJ.xml (Chiara) -> le CV est dans T10010177-1975-10-CV.xml mais il n’y a pas de CRopen T10010180-1975-06-OJ.xml (Chiara) -> la CR de cette OJ se trouve dans le fichier T10010174-1975-06.xml, la CV dans le fichier T10010174-1975-06-CV.xml>> ref corrigéopen T10010180-1976-11-OJ.xml (Chiara) -> la CR de cette OJ se trouve dans le fichier T10010190-1976-11-CR.xml, la CV dans le fichier T10010190-1976-11-CV.xml Nous avons en outre une autre OJ de la même réunion sous le nom de T10010190-1976-11-OJ.xml avec des informations différentes (carnet de présences ?)
->> ref corrigéopen T10010224-1980-06-OJ.xml Chiara) -> la CR de cette OJ se trouve dans le fichier  T10010229-1980-06-CR.xml, la CV dans le fichier T10010229-1980-06-CV.xml>> ref corrigé
-open T10010303-1987-03-OJ.xml (Chiara) -> je ne vois pas de CR dans nos fichiers 
-
-Ici, il s'agit certainement d'OJ de réunions dont on n'a pas le CR puisque, si j'ai bien compris, c'est l'année et le mois de la réunion qui sert à former l'identifiant de l'OJ (donc si on avait le CR, son identifiant devrait être le même, sauf pour les deux derniers caractères)
-
->> checker les OJ
->> Autre
-
-##Dates
-
-###Restauration
-
-J'ai restauré les "dates perdues" d'après l'information présente dans le docx. 
-
-* Dans certains documents, seule l'année est indiquée :
-
-open T10010024-1962-10-CV.xml
-open T10010058-1965-08-CV.xml
-open T10010129-1971-08-CV.xml
-open T10010288-1985-12-CV.xml
-
-Actuellement, le système de publication attend une date complète, mais je vais voir ce qu'on peut faire
-
-* Dans certains documents, la date est un intervalle (événement dont la datation est incertaine ou qui a duré plusieurs jours) :
-
-open T10010029-1963-03-CR.xml
-open T10010073-1967-01-OJ.xml
-
-Là, je suis obligé de choisir une date unique, mais je conserve l'information complète dans le fichier.
-
-###Correction
-
-####CR et OJ
-
-J'ai regardé si, pour les CR et les OJ, l'année et le mois (et le jour quand il est précisé) qui figure dans le nom du fichier et l'identifiant du document sont les mêmes que ceux qui figurent dans sa date (attribut date@when dans le teiHeader)
-J'ai trouvé plusieurs divergences :
-
-* La plupart du temps, cela a révélé une erreur dans la date présente dans les métadonnées. J'ai corrigé en vérifiant dans le contenu du document.
-
-* Dans certains cas, le mois et l'année indiqués dans l'identifiant du fichier ne correspond à la date effective de la réunion. J'ai modifié 4 noms de fichier, mais peut-être ai-je mal compris les conventions de nommage (la liste des noms de fichier modifiés est à la fin de ce rapport).
-
-* J'ai laissé tels quels 
-open T10010233-1980-10-28-CR.xml
-open T10010233-1980-10-28-OJ.xml
-CR et OJ de la réunion du 07/11/1980, nommés ainsi parce que le CV, lui, a été envoyé le 28/10/1980 ?
-open T10010233-1980-10-28-CV.xml
-
-* Enfin je signale
-open T10010007-1961-05-03-OJ.xml
-Ce n'est pas un OJ. Le 03/05/1961 est la date de l'envoi. Ce serait un second cas de document de type "autre"
->> Autre
-
-Commits :
-https://github.com/lb42/difdepo/commit/e2664b6987bb99fa8bff7871fe7c92374f49b47f
-https://github.com/lb42/difdepo/commit/4cb144ac7ef96733f2c4782fcc054570dac0cdbf
-https://github.com/lb42/difdepo/commit/e494c1ed413164b8154889b12f8625f5f7d195bc
-https://github.com/lb42/difdepo/commit/0749561604a95a9c21c90984b0e0e20a25094622
-https://github.com/lb42/difdepo/commit/e0abaff787148189375110c4d6170dbb0bf364fa
-https://github.com/lb42/difdepo/commit/f02e22bf916f32d131e35f4ead5dd59d0f72d8ec
-https://github.com/lb42/difdepo/commit/1cf1e065e24d54416fd4744a9117365ef5c4e4ea
-https://github.com/lb42/difdepo/commit/18b6db5fd6c6e64e4d57118581ef8b4a3ef3c80d
-
-
-
-####CV
-
-Si, dans les identifiants des CV, l’année et le mois sont ceux de l'envoi du CV (je crois que c'est la convention retenue), on a une divergence pour
-
-open T10010116-1970-04-30-CV.xml (Chiara) -> corrigé en en T10010116-1970-08-04-CV 
-open T10010116-1970-08-30-CV.xml (Chiara) -> corrigé en T10010116-1970-08-31-CV.xml 
-open T10010136-1972-02-CV.xml (Chiara) -> corrigé en T10010136-1972-01-28-CV.xml J’ai également changé le nom du fichier du T10010135-1972-01-CV.xml en T10010135-1972-01-02-CV.xml pour voir tout de suite la différence entre les deux CV du mois de janvier
-open T10010145-1972-11-CV.xml (Chiara) -> corrigé en T10010145-1972-10-CV.xml
-open T10010222-1979-05-CV.xml (Chiara) -> corrigé en T10010222-1979-11-CV.xml
-open T10010230-1980-08-CV.xml (Chiara) -> corrigé en T10010230-1980-07-CV.xml
-open T10010242-1981-08-CV.xml (Chiara) -> corrigé en T10010241-1981-07-08-CV.xml J’ai également changé le nom du fichier du T10010242-1981-07-30-CV.xml en T10010242-1981-07-30-CV.xml pour voir tout de suite la différence entre les deux CV du mois de juillet
-open T10010253-1982-08-CV.xml (Chiara) -> corrigé en T10010253-1982-09-CV.xml
-open T10010276-1984-10-CV.xml (Chiara) -> corrigé en T10010276-1984-10-CV.xml
-open T10010293-1986-05-CV.xml (Chiara) -> corrigé en T10010293-1986-04-27-CV.xml
-
->>corriger soit les métadonnées soit le nom de fichier
-
-Quelle que soit la convention adoptée, je crois qu'il y des cas où la date présente dans le nom du fichier ou celle présente dans les métadonnées ne correspond ni à la date de la réunion, ni à celle de l'envoi, ni au mois du dossier mensuel où est archivé le document.
-
-
-On a aussi une divergence pour les 4 fichiers où seule l'année est indiquée dans les métadonnées
-
-open T10010024-1962-10-CV.xml
-open T10010058-1965-08-CV.xml
-open T10010129-1971-08-CV.xml
-open T10010288-1985-12-CV.xml
-
-Mais ça, c'est normal. Je suppose que le mois indiqué dans le nom de fichier est déduit du dossier mensuel où est archivé le document. On peut peut-être rajouter ce mois dans les métadonnées.
-
-#URL des fac-similés
-J'ai vérifié 
-
-
-* que l'URL d'un fac-similé n'est utilisé qu'une seule fois dans le corpus
-* que tous les numéros se suivent
-* que les numéros de la première et de la dernière page ind* iqués dans titleStmt/title sont * les mêmes que ceux des premier et dernier pb du document
-
-##Pages en double
-16 pages sont insérés deux fois (ont été retranscrites deux fois j’ai l’impression)
-
-open http://gallica.bnf.fr/ark:/12148/btv1b10010049n/f1.image
-	open T10010049-1964-11-14-CR.xml (Chiara) : ce fichier est correct
-	open T10010049-1964-11-28-CR.xml (Chiara) : les liens avec les pages ne correspondent pas ! 
-open http://gallica.bnf.fr/ark:/12148/btv1b10010049n/f2.image
-	open T10010049-1964-11-14-CR.xml (Chiara) : ce fichier est correct
-	open T10010049-1964-11-28-CR.xml (Chiara) : les liens gallica des pages ne correspondent pas ! A REVOIR
->> corrigé	
-open http://gallica.bnf.fr/ark:/12148/btv1b10010261n/f1.image
-	open T10010261-1983-05-CR.xml (Chiara) : ce fichier a été modifié : enlevé la partie de OJ qui était pas pertinente et avait déjà été transcrite dans T10010261-1983-05-OJ.xml
-	open T10010261-1983-05-OJ.xml (Chiara) : ce fichier est correct
-open http://gallica.bnf.fr/ark:/12148/btv1b10010338x/f1.image
-	open T10010338-1990-05-22-OJ.xml (Chiara) : ce fichier est correct
-	open T10010338-1990-05-OJ.xml (Chiara) : ce fichier est correct => l’image n’est pas cette indiquée ci-dessus : A REVOIR
->> open T10010338-1990-05-OJ.xml est un doublon de la première page de open T10010338-1990-05-22-OJ.xml, je supprime T10010338-1990-05-22-OJ.xml et remplace le contenu de T10010338-1990-05-OJ.xml par celui de 
-open http://gallica.bnf.fr/ark:/12148/btv1b100103416/f1.image
-	open T10010341-1990-08-10-CV.xml (Chiara) : ce fichier est la copie du suivant, il a donc été eliminé
-	open T10010341-1990-08-CV.xml (Chiara) : ce fichier est correct
-
-	
-Aucun problème pour la publication, cela dit.	
-
-
-A priori, simple question de retranscription lacunaire pour 
-open http://gallica.bnf.fr/ark:/12148/btv1b10010193d/f10.image
-	open T10010193-1977-02-CR.xml
-	open T10010193-1977-02-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010193d/f11.image
-	open T10010193-1977-02-CR.xml
-	open T10010193-1977-02-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010193d/f12.image
-	open T10010193-1977-02-CR.xml
-	open T10010193-1977-02-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f13.image
-	open T10010196-1977-05-CR.xml
-	open T10010196-1977-05-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010196r/f14.image
-	open T10010196-1977-05-CR.xml
-	open T10010196-1977-05-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f5.image
-	open T10010198-1977-08-CR.xml
-	open T10010198-1977-08-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f6.image
-	open T10010198-1977-08-CR.xml
-	open T10010198-1977-08-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b10010198n/f7.image
-	open T10010198-1977-08-CR.xml
-	open T10010198-1977-08-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b100103450/f7.image
-	open T10010345-1990-12-CR.xml
-	open T10010345-1990-12-OJ.xml
-open http://gallica.bnf.fr/ark:/12148/btv1b100103450/f8.image
-	open T10010345-1990-12-CR.xml
-	open T10010345-1990-12-OJ.xml		
-	
-##Retranscriptions lacunaires
-
-
-Les scripts de transformation n'étaient pas prévus pour gérer des retranscriptions où certaines pages sont sautées (pour un document qui est interrompu par un autre, dans le scan ou pour deux documents qu'on fusionne en un seul). Ils supposent que toutes les pages retranscrites se suivent, d'où des erreurs dans la numérotation des pages et le lien vers le fac-similés.
-J'ai corrigé les numéros de pages et provisoirement inséré des suites de <pb/> à la place des pages non retranscrites.
-Dans le titleStmt/title de certaines de ces retranscriptions lacunaires, on trouvait des indications "pages 1 à 2 et 14 à 15" : pour l'instant et pour pouvoir vérifier que tout est en ordre, j'ai simplifié en "pages 1 à 15", mais il faudrait réintroduire cette information (soit dans titleStmt/title, soit dans sourceDesc, soit dans un editionStmt ?)
-
-Sont concernés :
-
-open T10010128-1971-07-CR.xml
-open T10010154-1973-10-OJ.xml
-open T10010163-1974-06-OJ.xml
-open T10010168-1974-11-CR.xml
-open T10010169-1974-12-CR.xml
-open T10010173-1975-05-CR.xml
-open T10010180-1975-08-CR.xml
-open T10010181-1976-01-CR.xml
-open T10010193-1977-02-OJ.xml
-open T10010195-1977-04-CR.xml
-open T10010196-1977-05-CR.xml
-open T10010198-1977-08-CR.xml
-open T10010198-1977-08-OJ.xml
-open T10010254-1982-10-CR.xml
-open T10010257-1983-01-CR.xml
-open T10010306-1987-06-CR.xml
-open T10010324-1989-02-CR.xml
-open T10010329-1989-08-OJ.xml
-open T10010345-1990-12-OJ.xml
-
-(Chiara) Fichiers ajouté après le travail sur les fichiers appartenant à « Divergence entre le document et les métadonnées concernant le nombre de pages retranscrites ». Ils font partie de « Retranscriptions lacunaires »
-
-open T10010149-1973-04-OJ.xml
-open T10010151-1973-06-CR.xml
-open T10010151-1973-06-OJ.xml
-open T10010155-1973-11-CR.xml
-open T10010163-1974-06-11-CR.xml
-open T10010163-1974-06-CR.xml
-open T10010165-1974-08-CR.xml
-open T10010166-1974-09-CR.xml
-open T10010179-1975-12-CR.xml
-open T10010180-1976-02-CR.xml
-open T10010323-1989-01-CR.xml
-
-
-
-##Divergence entre le document et les métadonnées concernant le nombre de pages retranscrites
-
-Dans le titleStmt/title, le nombre de pages indiqués est 
-
-* supérieur 
-
-open T10010004-1961-01-CR.xml (Chiara) -> il me semble correct, où est le problème?
-open T10010073-1967-01-OJ.xml (Chiara) -> done - one page added in <body>
-open T10010109-1970-01-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010136-1972-02-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010137-1972-02-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010140-1972-06-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010141-1972-07-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010142-1972-08-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010144-1972-08-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010145-1972-11-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010148-1973-03-CR.xml (Chiara) -> done - one page added in <body>
-open T10010149-1973-04-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010149-1973-04-OJ.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010151-1973-06-CR.xml (Chiara) -> done - four pages added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010151-1973-06-OJ.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010152-1973-07-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010153-1973-08-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010154-1973-09-CV.xml (Chiara) -> done - two pages deleted in <title>
-open T10010155-1973-11-CR.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010156-1973-10-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010157-1973-10-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010159-1974-01-CV.xml (Chiara) -> done - three pages deleted in <title>
-open T10010163-1974-06-11-CR.xml (Chiara) -> done - one page added in <body>
- -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010163-1974-06-CR.xml (Chiara) -> done - four pages added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010165-1974-08-CR.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010166-1974-09-CR.xml (Chiara) -> done - two pages added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010171-1975-02-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010179-1975-12-CR.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010180-1976-02-CR.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010181-1976-01-CR.xml (Chiara) -> done - one page deleted in <title>
-open T10010191-1976-12-CV.xml (Chiara) -> done - many pages deleted in <title>
-open T10010192-1977-01-CV.xml (Chiara) -> done - two pages deleted in <title>
-open T10010193-1977-02-CV.xml (Chiara) -> done - many pages deleted in <title>
-open T10010194-1977-03-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010195-1977-04-CV.xml (Chiara) -> done - one page deleted in <title>
-open T10010196-1977-05-OJ.xml (Chiara) -> done - one page added in <body>
-open T10010207-1978-06-CR.xml (Chiara) -> done - one page added in <body>
-open T10010208-1978-08-CR.xml (Chiara) -> done - one page deleted in <title>
-open T10010210-1978-10-CR.xml (Chiara) -> done - two pages added in <body>
-open T10010233-1980-10-28-CR.xml (Chiara) -> JE NE TROUVE PAS CE FICHIER!
-open T10010243-1981-10-02-CR.xml (Chiara) -> done - one page added in <body>
-open T10010243-1981-10-23-CR.xml (Chiara) -> done - one page added in <body>
-open T10010243-1981-10-OJ.xml (Chiara) -> FICHIER à REVOIR : les deux pages ont été transcrites à l’envers: p. 30 et après p. 29
-open T10010263-1983-09-CR.xml (Chiara) -> done - one page added in <body>
-open T10010322-1988-12-OJ.xml (Chiara) -> A REVOIR. Je ne comprends pas, je ne retrouve pas les mêmes informations du scan sur l’OJ transcrite
->> WOW. "Les manuscrits déchirés : un défi pour l'édition numérique"
-open T10010323-1989-01-CR.xml (Chiara) -> done - one page added in <body> -> this file needs to be checked in ##Retranscriptions lacunaires
-open T10010328-1989-06-CR.xml (Chiara) -> done - one page added in <body>
-open T10010333-1989-12-CR.xml (Chiara) -> done - one page added in <body>
-open T10010334-1990-01-CR.xml (Chiara) -> done - one page added in <body>
-open T10010340-1990-06-CV.xml (Chiara) -> done - one page deleted in <title>
-
-(Commentaire de Chiara) : dans plusieurs cas la page présente dans <title> était une copie de la page transcrite.
-
->> Vérifier manuellement
-
-On peut corriger automatiquement, mais ça peut être l’occasion de vérifier qu’un saut de page n’a pas été oublié.
-
-##Pages numérisées dans le mauvais ordre
-
-open T10010190-1976-11-CR.xml
-pages 2 et 3 numérisées dans l’ordre inverse
-
-open T10010243-1981-10-OJ.xml
-pages 29 et 30 numérisées dans l'ordre inverse
-
-Pour l'instant, je préfère rétablir l'ordre du scan pour vérifier la cohérence des numéros de page, mais je rétablirai l'ordre logique.
-
-##Copie d'un document
-Dans les archives, on a parfois un document et sa copie, qui a aussi été numérisée. 
-
-* Dans certains cas, l'intervalle de pages indiqués dans les métadonnées couvre l'original et sa copie, dans d'autres cas, seulement l'original. J'uniformise en choisissant cette seconde solution.
-
-* Par ailleurs, certains commentaires Word font état de ces cas de figure. Je les liste ici pour en garder une trace :
-
-"CV répété deux fois"
-open T10010075-1967-03-CV.xml
-open T10010056-1965-06-12-OJ.xml
-open T10010071-1966-11-OJ.xml
-open T10010145-1972-11-CR.xml
-"Vérifier la règle de numérotation de pages en cas de CV récidivante"
-open T10010158-1973-12-CV.xml
-
-#Nom de personnes dans le teiHeader
-
-##Restauration
-
-J'ai restauré les noms de personnes manquant à partir des docx. 
-
-##CR sans liste
-Il reste 20 CR sans liste. 
-
-open T10010057-1965-04-CR.xml
-open T10010061-1965-11-CR.xml
-open T10010071-1966-11-CR.xml
-open T10010143-1972-09-CR.xml
-open T10010154-1973-10-CR.xml
-open T10010157-1973-04-CR.xml
-open T10010161-1974-04-CR.xml
-open T10010163-1974-06-CR.xml
-open T10010165-1974-08-CR.xml
-open T10010174-1975-06-CR.xml
-open T10010180-1975-08-CR.xml
-open T10010180-1975-10-CR.xml
-open T10010180-1976-02-CR.xml
-open T10010180-1976-05-CR.xml
-open T10010182-1976-02-CR.xml
-open T10010221-1979-10-CR.xml
-open T10010256-1982-12-CR.xml
-open T10010310-1987-12-19-CR.xml
-open T10010317-1988-06-CR.xml
-open T10010324-1989-02-CR.xml
-
-Dans certains il me semble qu'on a pourtant l’information
-open T10010324-1989-02-CR.xml
-open T10010161-1974-04-CR.xml
-
-Il y a 10 CR où la liste ne contient que le nom du président/secrétaire/invité, et pas le nom des autres membres. 
-
-open T10010029-1963-03-CR.xml
-open T10010037-1963-11-CR.xml
-open T10010149-1973-04-CR.xml
-open T10010151-1973-06-CR.xml
-open T10010190-1976-11-CR.xml
-open T10010193-1977-02-CR.xml
-open T10010198-1977-08-CR.xml
-open T10010253-1982-09-CR.xml
-open T10010294-1986-06-CR.xml
-open T10010337-1990-04-09-CR.xml
-
-Dans certains il me semble qu'on a pourtant l’information
-open T10010037-1963-11-CR.xml
-
->> Corriger manuellement
-
-##CV sans expéditeur
-
-Pour les CV où l'expéditeur n'est pas indiqué, j'ai supprimé non seulement l'élément <persName role="expéditeur"> mais aussi le "envoyé par". Mais selon le principe qu'on signale l'absence, je peux remettre un <persName role="expéditeur"/> vide ;-)
-
-##CV sans destinataire
-
-Idem pour le CV où le destinataire n'est pas indiqué (la plupart des cas). Je supprime le "Destinataire: "
-Pour les rares CV avec destinataire indiqué, je laisse l'information, mais je ne l'affiche pas à la publication. Mais ce sera intéressant quand vous publierez les correspondances.
-
-##Plusieurs présidents ou secrétaires
-open 10010037-1963-11-CR.xml
-deux présidents
-
-open 10010035-1963-09-CR.xml
-deux secrétaires
-
-Le système de publication attendait un président et un secrétaire unique, mais je corrigerai
-
-##Statut des esclaves
-Un commentaire s'interroge sur le statut des "esclaves" (distinct des invités ?)
-Voir le commentaire dans 10010035-1963-09-CR.docx
-open T10010035-1963-09-CR.xml
-
-##Uniformisation des noms de personne
-Dans le teiHeader, certains noms de non-oulipiens ne sont pas écrits sous la forme standard Prénom Nom, ça pourrait être bien d'uniformiser :
-M. Quemada
-T. Chernozium
-Florkin
-M. Schutzemberger
-Louise
-Gross
-J. Ferry
-Margat
-G. Kreisel
-Erval
-Thom
-Ulam
-J. Tardieu
-Cortada
-Paris
-D. R.
-P. Enckel
-J.-L. Eyrine
-J. Mayer
-
-Orthographe du nom suivant ?
-L'esclave Leclech
-Guy Le Clec'h
-Gérard Le Clech’
->> Corriger/compléter manuellement
-
-Les non-oulipiens mentionnés dans le teiHeader sont le plus souvent invités, mais on a 8 cas où ils sont secrétaires et 1 expéditeur (André Malraux). Ça ne pose évidemment aucun problème problème technique, je signale juste par curiosité !
-
-Pour la liste des oulipiens, j’ai deux documents : https://github.com/lb42/difdepo/blob/master/oulipiens.xml comporte 31 personnes, et sur la Dropbox 3-XML-TEI - Transcription/2-Documents-Sous-Drive-A-REACTUALISER/5.ListeOulipiens.docx en contient 40 
-Lequel fait autorité ?
-
-Dans le teiHeader, les 13 persNames suivants sont des initiales mais ne sont pas répertoriés dans oulipiens.xml :
-YM
-VB
-QB
-LU
-LQ
-LA
-JG
-GLC
-FS
-FG
-EB
-AS
-AP
-D. R.
-
-Il y en a 11 qui ne sont pas répertoriés dans 5.ListeOulipiens.docx :
-YM
-QB
-LU
-LQ
-LA
-JG
-GLC
-FS
-FG
-AS
-AP
-D. R.
-
->> Rechercher/Remplacer dans les fichiers
->> Portée : Répertoire du fichier courant ou Chemin indiqué
->> Limiter à XPath : //teiHeader//persName
-
-#Mentions de responsabilité
-
-Dans les mentions de responsabilité respStmt/name, on trouve les noms suivants, qui ne sont pas au format Prénom Nom ou sont incorrects
-Difdepo
-Invité
-Chris Clarke
-Utilisateur
-utilisateur-p3
-Je crois qu’ils ont été ajouté automatiquement à partir du nom d’utilisateur sur l’ordinateur où la conversion initiale a été faite.
-
-open T10010197-1977-06-CV.xml
-n’a aucune mention de responsabilité
-
->> Tout refaire à partir du fichier de suivi
-
-
-#Modification du nom des fichiers, création ou fusion de fichiers
-
-Pour vérifier que je n'ai pas fait de bêtise, et mettre à jour vos fichiers de suivi.
-
-##Modifications
-ancien nomnouveau nommotif
-T10010313-1988-03-CR.xml	
-open T10010313-1988-02-CR.xml	
-date
-T10010056-1964-06-CR.xml	open T10010056-1965-06-CR.xml	date
-T10010161-1974-05-CR.xml	open T10010161-1974-04-CR.xml	date
-T10010009-1961-06-27-CR.xml	open T10010009-1961-06-26-CR.xml	date
-T10010267-1984-1-CR.xml	open T10010267-1984-01-CR.xml	format de date
-T10010267-1984-1-OJ.xml	open T10010267-1984-01-OJ.xml	format de date
-
-T10010233-1980-10-28-CR.xml
-open T10010233-1980-11-07-CR.xml
-date
-
-T10010233-1980-10-28-OJ.xml
-open T10010233-1980-11-07-OJ.xml
-date
-
-T10010135-1972-01-CV.xml 
-open T10010135-1972-01-02-CV.xml 
-date
-
-T10010242-1981-07-30-CV.xml 
-open T10010242-1981-07-30-CV.xml
-date
-
-##Fusions
-
-
-ancien fichier 1
-ancien fichier 2
-nouveau fichier
-motif
-
-T10010130-1971-09-OJ.xml	
-T10010130-1971-09-CR.xml		open T10010130-1971-09-CR.xml	
-T10010130-1971-09-OJ.xml est le CR manuscrit, T10010130-1971-09-CR.xml le CR dactylographiéT10010306-1987-06-OJ.xml	
-T10010306-1987-06-CR.xml		open T10010306-1987-06-CR.xml	
-T10010306-1987-06-OJ.xml et T10010306-1987-06-CR.xml sont deux pages d'un même CR, séparés par un autre document dans le scanT10010161-1974-05-CR.xml		T10010161-1974-04-OJ.xml	
-open T10010161-1974-05-CR.xml	
-T10010161-1974-04-OJ.xml n'est pas un OJ. Commentaire : "ceci ne constitue pas un OJ mais des notes éparses qui font suite au CR de la page précédente."
-T10010130-1971-09-CR.xml	
-
-##Suppressions
-
-T10010309-1987-08-CR.xml	
-T10010309-1987-08-CR.xml est un doublon de 
-open T10010309-1987-10-CR.xml
-
-T10010167-1974-10-08-CV.xml
-T10010167-1974-10-08-CV.xml est doublon de
-open T10010167-1974-10-CV.xml
-
-##Créations
-open T10010024-1962-10-CV.xmlopen T10010261-1983-05-CR.xmlopen T10010261-1983-05-OJ.xml 

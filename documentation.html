@@ -113,6 +113,7 @@
   <h2>Indexation des documents</h2>
   <p>Dans Oxygen, en trois étapes.</p>
   <h3>Génération des thésauri XML-SKOS</h3>
+  <h4>À partir des fichiers XML-TEI</h4>
   <p>Transformer les fichiers XML-SKOS du dossier <i>thesauri</i> avec <i>tei_theso.xsl</i> (le projet <i>thesauri.xpr</i> est paramétré à cet effet). <i>tei_theso.xsl</i> appelle <i>normalize.xsl</i>.</p>
   <p>Pour chaque type d’entité, on prend toutes les formes différentes (sans doublon) dans les fichiers XML-TEI.</p>
   <ul>
@@ -124,8 +125,12 @@
       </ul>
       <li>Si une forme référencée dans le thésaurus n’apparaît plus dans les fichiers XML-TEI, elle n’est pas supprimée</li>
   </ul>
+  <h4>À partir des fichiers TSV</h4>
+  <p>Ouvrir les fichiers TSV du dossier <i>thesauri/tsv</i> dans Libreoffice Calc et les enregistrer en XLS (pas XSLX) dans le dossier <i>thesauri/xls</i>. La première ligne doit contenir le nom des champs <i>id</i>, <i>label</i>, <i>forme</i> (sans majuscules). Vérifier dans Calc qu'il n'y a pas plusieurs formes préférées pour un même identifiant.</p>
+  <p>Importer les fichier XLS dans Oxygen et les enregistrer en XML. Les noms de champs deviennent des noms d'éléments.</p>
+  <p>Transformer les fichiers XML à l'aide de la feuille de style <i>thesauri/group.xsl</i> (regroupe dans un même élément <code>skos:Concept</code> les formes possédant le même identifiant), puis à l'aide de <i>thesauri/preflabel.xsl</i> (transforme en élément <code>skos:prefLabel</code> le premier élément <code>skos:altLabel</code> d'un élément <code>skos:Concept</code> qui ne contient pas de <code>skos:prefLabel</code>).</p>
   <h3>Correction manuelle des thésauri XML-SKOS</h3>
-  <p>Nettoyer les thésauri : regrouper sous un même concept les formes qui expriment le même concept. Les thésauri doivent être validés par le schéma <i>thesauri.rng</i> (qui vérifie notamment que chaque concept contient un élément <code>prefLabel</code>).</p>
+  <p>Nettoyer les thésauri : regrouper sous un même concept les formes qui expriment le même concept. Les thésauri doivent être validés par le schéma <i>thesauri.rng</i> (qui vérifie notamment que chaque concept contient un et un seul élément <code>skos:prefLabel</code>).</p>
   <h3>Annotation des documents XML-TEI</h3>
   <p>Transformer les fichiers XML-TEI du dossier <i>Current</i> avec <i>theso_tei.xsl</i> (le projet <i>Current.xpr</i> est paramétré à cet effet). <i>theso_tei.xsl</i> appelle <i>normalize.xsl</i>.</p>
   <p>Pour chaque élément, un attribut <code>@ref</code> est ajouté pointant vers l’entité dont le contenu textuel de l’élément est une expression.</p>
