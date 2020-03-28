@@ -137,7 +137,7 @@
   <p>Si la forme n’est pas référencée dans le thésaurus (ce qui ne produit que si on ajoute par erreur une forme du document après l’étape 2.1, on que l’on supprime une forme du thésaurus lors de l’étape 2.2), l’attribut <code>@ref</code> n’est pas ajouté, et, s’il était présent, il est supprimé.</p>
   <h2>Mise en ligne</h2>
   <p>Sur le site, en trois étapes.</p>
-  <p>Les <a>URL</a> sont indiquées sans le nom de domaine (<a>update_db</a> = <a>http://archives-oulipo-dev.univ-paris3.fr/update_db</a> ou <a>http://archives-oulipo.univ-paris3.fr/update_db</a>).</p>
+  <p>Les <a>URL</a> sont indiquées sans le nom de domaine (<a>update_db</a> = <a>http://archives-oulipo-dev.univ-paris3.fr/update_db/document</a> ou <a>http://archives-oulipo.univ-paris3.fr/update_db/document</a>).</p>
   <p>Les <i>chemins</i> sont donnés relativement au dossier contenant le site sur le serveur (<i>archives-oulipo-dev.univ-paris3.fr</i> ou <i>archives-oulipo.univ-paris3.fr</i></p>
   <h3>Envoi des fichiers</h3>
   <p>On charge ou remplace les fichiers, en SFTP ou avec l’interface <a>imce</a>, également accessible depuis le menu « Fichiers ». La mise en ligne par IMCE est limitée : le plus rapide est de transférer une archive zip contenant tous les fichiers (compresser uniquement les fichiers, pas le dossier qui les contient), puis de cliquer sur « Unzip » :</p>
@@ -148,18 +148,20 @@
   </ul>
   <p>Les permissions des fichiers ne sont pas les mêmes selon qu’on s’est connecté en SFTP ou avec imce : il sera impossible de supprimer en SFTP un fichier mis en ligne avec imce (mais cela n’a aucune incidence sur la mise à jour de la base)</p>
   <h3>Mise à jour de la base</h3>
-  <p>L’URL <a>update_db</a> (accessible également dans le menu « Mettre à jour la base ») insère dans la base de données de Drupal les informations contenues dans les documents XML-TEI et le catalogue XML-EAD.</p>
+  <p>Les URL <a>update_db/*</a> (accessibles également en tant que sous-menu du menu « Mettre à jour la base ») insèrent dans la base de données de Drupal les informations contenues dans les documents XML-TEI et le catalogue XML-EAD. Pour chaque type de nœud, la liste des nœuds mis à jour s'affichent, ainsi avec le nombre total de nœuds de ce type. Si tous les nœuds ne peuvent pas être mis à jour en une seule fois (durée d'exécution limitée à 4 minutes, ce qui peut bloquer la mise à jour des nœuds de type document qui sont lourds et nombreux), recharger la page.</p>
   <table>
     <tr>
       <td>Nom système du type de nœud</td>
       <td>Alias dans l’URL du type de nœud</td>
+      <td>URL de mise à jour</td>
       <td>Label</td>
       <td>Source</td>
       <td>Remarques</td>
     </tr>
     <tr>
+      <td><code>series</code></td>
       <td><code>serie</code></td>
-      <td><code>serie</code></td>
+      <td><code>update_db/series</code></td>
       <td>Série</td>
       <td>XML-EAD</td>
       <td></td>
@@ -167,6 +169,7 @@
     <tr>
       <td><code>folder</code></td>
       <td><code>dossier</code></td>
+      <td><code>update_db/folder</code></td>
       <td>Dossier</td>
       <td>XML-EAD</td>
       <td></td>
@@ -174,6 +177,7 @@
     <tr>
       <td><code>restricted_folder</code></td>
       <td></td>
+      <td><code>update_db/restricted_folder</code></td>
       <td>Dossier sous droit</td>
       <td>XML-EAD</td>
       <td>Dossiers postérieurs à 1990, sans fac-similés</td>
@@ -181,6 +185,7 @@
     <tr>
       <td rowspan="4"><code>document</code></td>
       <td rowspan="4"><code>document</code></td>
+      <td rowspan="4"><code>update_db/document</code></td>
       <td rowspan="4">Document</td>
       <td>XML-TEI</td>
       <td></td>
@@ -214,48 +219,55 @@
   <p>Quand le contenu inséré automatiquement est trop long (notamment pour la page "Catalogue de la BNF" <a>serie/d0e1</a>), une modification manuelle d'un champ supprime ce contenu : refaire une mise à jour de la base pour regénérer le contenu.</p>
   <p>La mise à jour vide un champ si l’information correspondante n’est plus présente dans le fichier source.</p>
   <h3>Mise à jour des index</h3>
-  <p>L’URL <a>update_index</a> (accessible également dans le menu « Mettre à jour l’index ») met à jour les taxonomies Drupal à partir des thésauri</p>
+  <p>Les URL <a>update_index/*</a> (accessibles également en tant que sous-menu du menu « Mettre à jour les index ») mettent à jour les taxonomies Drupal à partir des thésauri.Pour chaque taxonomie, la liste des entités mises à jour s'affichent, ainsi avec le nombre total d'entités de cette taxonomie type. Si toutes les entités ne peuvent pas être mises à jour en une seule fois (durée d'exécution limitée à 4 minutes, ce qui peut bloquer la mise à jour de taxonomies très larges comme celles des notions et des personnes), recharger la page. </p>
   <table>
     <tr>
       <td>Nom du fichier XML-SKOS</td>
       <td>Nom système de la taxonomie</td>
       <td>Alias dans l’URL de la taxonomie</td>
+      <td>URL de mise à jour</td>
       <td>Label</td>
     </tr>
     <tr>
       <td><i>files/edition/thesauri/events.xml</i></td>
       <td><code>events</code></td>
       <td><code>evenements</code></td>
+      <td><code>update_index/events</code></td>
       <td>Événements</td>
     </tr>
     <tr>
       <td><i>files/edition/thesauri/organizations.xml</i></td>
       <td><code>organizations</code></td>
       <td><code>organismes</code></td>
+      <td><code>update_index/organizations</code></td>
       <td>Organismes</td>
     </tr>
     <tr>
       <td><i>files/edition/thesauri/persons.xml</i></td>
       <td><code>persons</code></td>
       <td><code>personnes</code></td>
+      <td><code>update_index/persons</code></td>
       <td>Personnes</td>
     </tr>
     <tr>
       <td><i>files/edition/thesauri/team_members.xml</i></td>
       <td><code>team_members</code></td>
       <td><code>membres</code></td>
+      <td></td>
       <td>Membres</td>
     </tr>
     <tr>
       <td><i>files/edition/thesauri/terms.xml</i></td>
       <td><code>terms</code></td>
       <td><code>notions</code></td>
+      <td><code>update_index/terms</code></td>
       <td>Notions</td>
     </tr>
     <tr>
       <td><i>files/edition/thesauri/titles.xml</i></td>
       <td><code>titles</code></td>
       <td><code>ouvrages</code></td>
+      <td><code>update_index/titles</code></td>
       <td>Ouvrages</td>
     </tr>
   </table>
